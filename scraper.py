@@ -29,9 +29,9 @@ HEADERS = {
 }
 
 # Concurrences demandées
-DISCOVERY_MAX_DATES = 16        # 16 dates en simultané
-DISCOVERY_MAX_REUNIONS = 240    # 240 réunions en simultané (pour lister les courses)
-SCRAPE_MAX_COURSES = 240        # 240 courses en simultané
+DISCOVERY_MAX_DATES = 14        # 16 dates en simultané
+DISCOVERY_MAX_REUNIONS = 200    # 240 réunions en simultané (pour lister les courses)
+SCRAPE_MAX_COURSES = 200        # 240 courses en simultané
 
 # =========================
 # Helpers
