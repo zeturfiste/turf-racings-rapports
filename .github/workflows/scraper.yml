@@ -3,7 +3,7 @@ name: ZEturf Scraper
 on:
   workflow_dispatch:  # Manuel trigger
   schedule:
-    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
+    - cron: '0 17 * * *'  # Tous les jours à 2h du matin (optionnel)
 
 jobs:
   scrape:
