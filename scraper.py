@@ -9,6 +9,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from pathlib import Path
 import subprocess
+import sys
 
 # =========================
 # Config
@@ -24,10 +25,10 @@ HEADERS = {
     "Cache-Control": "no-cache",
 }
 
-# Limites pour ne pas surcharger
-MAX_CONCURRENT_DATES = 3
-MAX_CONCURRENT_REUNIONS = 4
-MAX_CONCURRENT_COURSES = 6
+# Limites optimisées pour ne pas surcharger GitHub
+MAX_CONCURRENT_DATES = 4
+MAX_CONCURRENT_REUNIONS = 6
+MAX_CONCURRENT_COURSES = 10
 
 # =========================
 # Helpers
@@ -46,9 +47,9 @@ def get_date_directory(date_str: str) -> Path:
     month = dt.strftime("%m")
     return Path(REPO_ROOT) / year / month / date_str
 
-def file_exists(filepath: Path) -> bool:
-    """Check if file already exists"""
-    return filepath.exists() and filepath.stat().st_size > 0
+def file_exists_and_valid(filepath: Path) -> bool:
+    """Check if file exists and has content (>500 bytes)"""
+    return filepath.exists() and filepath.stat().st_size > 500
 
 def date_range_asc(start_date: str, end_date: str):
     """Generate dates in ascending order"""
@@ -81,8 +82,9 @@ async def fetch_html(session: aiohttp.ClientSession, url: str, retries=3) -> str
                 return await resp.text()
         except Exception as e:
             if attempt == retries - 1:
+                print(f"      ⚠ Failed to fetch {url}: {e}")
                 raise
-            await asyncio.sleep(1.5 * (attempt + 1))
+            await asyncio.sleep(2 * (attempt + 1))
 
 def save_html(filepath: Path, html: str):
     """Save HTML to file"""
@@ -95,12 +97,18 @@ async def scrape_date(session: aiohttp.ClientSession, date_str: str):
     date_file = date_dir / f"{date_str}.html"
     
     # Check if already exists
-    if file_exists(date_file):
+    if file_exists_and_valid(date_file):
         html = date_file.read_text(encoding="utf-8")
+        print(f"  ✓ Date {date_str} (already scraped)")
     else:
         url = DATE_URL_TPL.format(date=date_str)
-        html = await fetch_html(session, url)
-        save_html(date_file, html)
+        try:
+            html = await fetch_html(session, url)
+            save_html(date_file, html)
+            print(f"  ✓ Date {date_str} (new)")
+        except Exception as e:
+            print(f"  ✗ Date {date_str} failed: {e}")
+            return []
     
     soup = BeautifulSoup(html, "lxml")
     container = soup.select_one("div#list-reunion")
@@ -142,11 +150,15 @@ async def scrape_reunion(session: aiohttp.ClientSession, reunion: dict):
     reunion_file = reunion_dir / f"{reunion['reunion_slug']}.html"
     
     # Check if already exists
-    if file_exists(reunion_file):
+    if file_exists_and_valid(reunion_file):
         html = reunion_file.read_text(encoding="utf-8")
     else:
-        html = await fetch_html(session, reunion["url"])
-        save_html(reunion_file, html)
+        try:
+            html = await fetch_html(session, reunion["url"])
+            save_html(reunion_file, html)
+        except Exception as e:
+            print(f"    ✗ Reunion {reunion['reunion_slug']} failed: {e}")
+            return []
     
     soup = BeautifulSoup(html, "lxml")
     frise = soup.select_one("#frise-course .strip2.active") or soup.select_one("#frise-course .strip2")
@@ -194,16 +206,16 @@ async def scrape_course(session: aiohttp.ClientSession, course: dict):
     """Scrape one course page"""
     filepath = course["reunion_dir"] / course["filename"]
     
-    # Skip if already exists
-    if file_exists(filepath):
-        return f"SKIP: {course['filename']}"
+    # Skip if already exists and valid
+    if file_exists_and_valid(filepath):
+        return ("skip", course['filename'])
     
     try:
         html = await fetch_html(session, course["url"])
         save_html(filepath, html)
-        return f"OK: {course['filename']}"
+        return ("ok", course['filename'])
     except Exception as e:
-        return f"ERROR: {course['filename']} - {e}"
+        return ("error", course['filename'])
 
 # =========================
 # Main orchestrator
@@ -211,15 +223,15 @@ async def scrape_course(session: aiohttp.ClientSession, course: dict):
 async def scrape_year(year: str, dates: list):
     """Scrape all dates for one year with parallelization"""
     print(f"\n{'='*60}")
-    print(f"ANNÉE {year} - {len(dates)} dates")
+    print(f"ANNÉE {year} - {len(dates)} dates à traiter")
     print(f"{'='*60}\n")
+    
+    stats = {"new": 0, "skip": 0, "error": 0}
     
     async with aiohttp.ClientSession() as session:
         # Process dates in batches
         for i in range(0, len(dates), MAX_CONCURRENT_DATES):
             date_batch = dates[i:i + MAX_CONCURRENT_DATES]
-            
-            print(f"Processing dates: {', '.join(date_batch)}")
             
             # Fetch all reunions for this batch of dates
             date_tasks = [scrape_date(session, date_str) for date_str in date_batch]
@@ -229,7 +241,7 @@ async def scrape_year(year: str, dates: list):
             all_reunions = []
             for result in all_reunions_lists:
                 if isinstance(result, Exception):
-                    print(f"  Error fetching date: {result}")
+                    continue
                 else:
                     all_reunions.extend(result)
             
@@ -240,8 +252,6 @@ async def scrape_year(year: str, dates: list):
             for j in range(0, len(all_reunions), MAX_CONCURRENT_REUNIONS):
                 reunion_batch = all_reunions[j:j + MAX_CONCURRENT_REUNIONS]
                 
-                print(f"  Processing {len(reunion_batch)} reunions...")
-                
                 reunion_tasks = [scrape_reunion(session, reunion) for reunion in reunion_batch]
                 all_courses_lists = await asyncio.gather(*reunion_tasks, return_exceptions=True)
                 
@@ -249,7 +259,7 @@ async def scrape_year(year: str, dates: list):
                 all_courses = []
                 for result in all_courses_lists:
                     if isinstance(result, Exception):
-                        print(f"    Error fetching reunion: {result}")
+                        continue
                     else:
                         all_courses.extend(result)
                 
@@ -257,7 +267,6 @@ async def scrape_year(year: str, dates: list):
                     continue
                 
                 # Process courses in batches
-                print(f"    Processing {len(all_courses)} courses...")
                 for k in range(0, len(all_courses), MAX_CONCURRENT_COURSES):
                     course_batch = all_courses[k:k + MAX_CONCURRENT_COURSES]
                     course_tasks = [scrape_course(session, course) for course in course_batch]
@@ -265,12 +274,25 @@ async def scrape_year(year: str, dates: list):
                     
                     for result in results:
                         if isinstance(result, Exception):
-                            print(f"      Error: {result}")
-                        elif "OK:" in str(result):
-                            print(f"      {result}")
+                            stats["error"] += 1
+                        elif result[0] == "ok":
+                            stats["new"] += 1
+                        elif result[0] == "skip":
+                            stats["skip"] += 1
+                        else:
+                            stats["error"] += 1
             
-            # Small delay between date batches
-            await asyncio.sleep(1)
+            # Small delay between batches
+            await asyncio.sleep(0.5)
+    
+    print(f"\n{'='*60}")
+    print(f"Statistiques année {year}:")
+    print(f"  ✓ Nouveaux fichiers: {stats['new']}")
+    print(f"  ⊘ Déjà existants: {stats['skip']}")
+    print(f"  ✗ Erreurs: {stats['error']}")
+    print(f"{'='*60}\n")
+    
+    return stats
 
 def git_commit_push(year: str):
     """Commit and push changes for the year"""
@@ -279,35 +301,100 @@ def git_commit_push(year: str):
     print(f"{'='*60}\n")
     
     try:
-        subprocess.run(["git", "config", "user.name", "GitHub Actions"], check=True)
+        # Configure git
+        subprocess.run(["git", "config", "user.name", "GitHub Actions Bot"], check=True)
         subprocess.run(["git", "config", "user.email", "actions@github.com"], check=True)
-        subprocess.run(["git", "add", f"{REPO_ROOT}/{year}"], check=True)
+        
+        # Pull latest changes first to avoid conflicts
+        print("  → Pull des dernières modifications...")
+        result = subprocess.run(["git", "pull", "--rebase", "origin", "main"], 
+                              capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"  ⚠ Pull warning: {result.stderr}")
+        
+        # Add files for this year
+        year_path = f"{REPO_ROOT}/{year}"
+        print(f"  → Ajout des fichiers {year_path}...")
+        subprocess.run(["git", "add", year_path], check=True)
+        
+        # Check if there are changes to commit
+        result = subprocess.run(["git", "diff", "--cached", "--quiet"], capture_output=True)
+        if result.returncode == 0:
+            print(f"  ⚠ Aucun changement à committer pour l'année {year}\n")
+            return True
+        
+        # Commit
+        print(f"  → Commit...")
         subprocess.run(["git", "commit", "-m", f"Add ZEturf data for year {year}"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print(f"✓ Année {year} committée et pushée avec succès\n")
+        
+        # Push with retry
+        max_retries = 3
+        for attempt in range(max_retries):
+            print(f"  → Push (tentative {attempt + 1}/{max_retries})...")
+            result = subprocess.run(["git", "push", "origin", "main"], 
+                                  capture_output=True, text=True)
+            
+            if result.returncode == 0:
+                print(f"  ✓ Année {year} committée et pushée avec succès\n")
+                return True
+            else:
+                print(f"  ⚠ Push failed: {result.stderr}")
+                if attempt < max_retries - 1:
+                    print(f"  → Retry après pull...")
+                    subprocess.run(["git", "pull", "--rebase", "origin", "main"], 
+                                 capture_output=True)
+                    
+        print(f"  ✗ Échec du push après {max_retries} tentatives\n")
+        return False
+        
     except subprocess.CalledProcessError as e:
-        print(f"✗ Erreur Git: {e}\n")
+        print(f"  ✗ Erreur Git: {e}")
+        if e.stderr:
+            print(f"  Détails: {e.stderr}")
+        return False
 
 async def main():
-    """Main function"""
+    """Main function - process one year at a time via env var"""
+    # Get year from environment or command line
+    target_year = os.environ.get("SCRAPE_YEAR")
+    if not target_year and len(sys.argv) > 1:
+        target_year = sys.argv[1]
+    
+    if not target_year:
+        print("❌ ERREUR: Variable SCRAPE_YEAR manquante")
+        print("Usage: SCRAPE_YEAR=2005 python scraper.py")
+        sys.exit(1)
+    
     start_date = "2005-04-27"
     end_date = "2025-11-11"
     
-    print("ZEturf Scraper - GitHub Actions")
-    print(f"Période: {start_date} → {end_date}\n")
+    print(f"\n{'='*60}")
+    print(f"ZEturf Scraper - Année {target_year}")
+    print(f"Période totale: {start_date} → {end_date}")
+    print(f"{'='*60}\n")
     
-    # Generate all dates and group by year
+    # Generate all dates and filter by target year
     all_dates = date_range_asc(start_date, end_date)
     years_dict = group_by_year(all_dates)
     
-    # Process year by year
-    for year in sorted(years_dict.keys()):
-        dates = years_dict[year]
-        await scrape_year(year, dates)
-        git_commit_push(year)
+    if target_year not in years_dict:
+        print(f"❌ Aucune date trouvée pour l'année {target_year}")
+        sys.exit(1)
+    
+    dates = years_dict[target_year]
+    stats = await scrape_year(target_year, dates)
+    
+    # Only commit if there were new files
+    if stats["new"] > 0:
+        success = git_commit_push(target_year)
+        if not success:
+            print(f"⚠ WARNING: Scraping réussi mais push échoué pour {target_year}")
+            sys.exit(1)
+    else:
+        print(f"ℹ Aucun nouveau fichier pour {target_year}, pas de commit nécessaire")
     
     print("\n" + "="*60)
-    print("SCRAPING TERMINÉ")
+    print(f"✓ SCRAPING TERMINÉ POUR {target_year}")
     print("="*60)
 
 if __name__ == "__main__":
