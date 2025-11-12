@@ -1,44 +1,57 @@
 name: ZEturf Scraper
 
+# ✅ Autorise l’écriture pour le GITHUB_TOKEN
+permissions:
+  contents: write
+
 on:
-  workflow_dispatch:  # Manuel trigger
+  workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
+    - cron: '0 2 * * *'
+
+# (Optionnel) évite les runs concurrents qui se marchent dessus
+concurrency:
+  group: zeturf-scraper
+  cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 720  # 12 heures max
-    
+    timeout-minutes: 720
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history for proper commits
-      
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # explicite
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
-      
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-      
+
       - name: Run scraper
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}  # pour ton script si besoin
         run: |
           python scraper.py
-      
-      - name: Final status
-        if: always()
+
+      # ✅ Commit & push côté workflow (recommandé)
+      - name: Commit & push changes (guarded)
         run: |
-          echo "Scraping workflow completed"
-          git status
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git pull --rebase origin "${GITHUB_REF_NAME:-${{ github.ref_name }}}"
+            git add -A
+            git commit -m "Update ZEturf data [skip ci]"
+            git push origin HEAD:"${GITHUB_REF_NAME:-${{ github.ref_name }}}"
+          else
+            echo "No changes to commit"
+          fi
