@@ -1,0 +1,44 @@
+name: ZEturf Scraper
+
+on:
+  workflow_dispatch:  # Manuel trigger
+  schedule:
+    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 720  # 12 heures max
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper commits
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install aiohttp beautifulsoup4 lxml
+      
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+      
+      - name: Run scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scraper.py
+      
+      - name: Final status
+        if: always()
+        run: |
+          echo "Scraping workflow completed"
+          git status
