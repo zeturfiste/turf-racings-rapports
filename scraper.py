@@ -7,11 +7,13 @@ import asyncio
 import aiohttp
 import argparse
 import subprocess
+import random
 from datetime import datetime, timedelta
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from pathlib import Path
 from time import perf_counter
+from zoneinfo import ZoneInfo
 from collections import defaultdict
 
 # =========================
@@ -28,10 +30,19 @@ HEADERS = {
     "Cache-Control": "no-cache",
 }
 
-# Concurrences demandées
-DISCOVERY_MAX_DATES = 10        # 16 dates en simultané
-DISCOVERY_MAX_REUNIONS = 150    # 240 réunions en simultané (pour lister les courses)
-SCRAPE_MAX_COURSES = 150        # 240 courses en simultané
+# Concurrences
+DISCOVERY_MAX_DATES = 16        # 16 dates en simultané
+DISCOVERY_MAX_REUNIONS = 240    # 240 réunions en simultané (listing des courses)
+SCRAPE_MAX_COURSES = 240        # 240 courses en simultané (HTML courses)
+
+BATCH_HINT = (
+    f"cfg:DISCOVERY_MAX_DATES={DISCOVERY_MAX_DATES},"
+    f"DISCOVERY_MAX_REUNIONS={DISCOVERY_MAX_REUNIONS},"
+    f"SCRAPE_MAX_COURSES={SCRAPE_MAX_COURSES}"
+)
+
+# Compteurs de rate-limit
+RATE_LIMIT_STATS = defaultdict(int)
 
 # =========================
 # Helpers
@@ -83,19 +94,51 @@ def save_json(path: Path, data: dict):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
+def paris_yesterday_iso() -> str:
+    # Fin = toujours la veille (Europe/Paris)
+    today_paris = datetime.now(ZoneInfo("Europe/Paris")).date()
+    return (today_paris - timedelta(days=1)).isoformat()
+
+def _log_429(ctx: dict | None, attempt: int, headers: dict, url: str):
+    # ctx: {"phase": "...", "resource": "...", ...}
+    phase = (ctx or {}).get("phase", "?")
+    resource = (ctx or {}).get("resource", "?")
+    extra = {k: v for k, v in (ctx or {}).items() if k not in ("phase", "resource")}
+    retry_after = headers.get("Retry-After")
+    rl_lim = headers.get("X-RateLimit-Limit")
+    rl_rem = headers.get("X-RateLimit-Remaining")
+    server = headers.get("Server")
+    cf_ray = headers.get("CF-RAY")
+    RATE_LIMIT_STATS[f"{phase}:{resource}"] += 1
+    print(
+        f"[429] phase={phase} resource={resource} attempt={attempt+1} "
+        f"retry_after={retry_after} rl_rem={rl_rem} rl_lim={rl_lim} "
+        f"server={server} cf_ray={cf_ray} url={url} extra={extra} {BATCH_HINT}"
+    )
+
 # =========================
 # HTTP
 # =========================
-async def fetch_html(session: aiohttp.ClientSession, url: str, retries=3) -> str:
+async def fetch_html(session: aiohttp.ClientSession, url: str, retries=3, ctx: dict | None = None) -> str:
     for attempt in range(retries):
         try:
             async with session.get(url, headers=HEADERS, timeout=aiohttp.ClientTimeout(total=30)) as resp:
+                if resp.status == 429:
+                    _log_429(ctx, attempt, resp.headers, url)
+                    ra = resp.headers.get("Retry-After")
+                    try:
+                        wait = float(ra) if ra is not None else (2 ** attempt)
+                    except ValueError:
+                        wait = (2 ** attempt)
+                    await asyncio.sleep(wait + random.random())
+                    continue
                 resp.raise_for_status()
                 return await resp.text()
         except Exception:
             if attempt == retries - 1:
                 raise
-            await asyncio.sleep(1.5 * (attempt + 1))
+            await asyncio.sleep((2 ** attempt) + random.random())
+    raise RuntimeError(f"fetch_html: exhausted retries for {url}")
 
 # =========================
 # Discovery (Étape 1)
@@ -103,7 +146,7 @@ async def fetch_html(session: aiohttp.ClientSession, url: str, retries=3) -> str
 async def discover_date(session: aiohttp.ClientSession, date_str: str):
     """Retourne la liste des réunions FR (URL + méta) pour la date."""
     url = DATE_URL_TPL.format(date=date_str)
-    html = await fetch_html(session, url)
+    html = await fetch_html(session, url, ctx={"phase": "discover", "resource": "date", "date": date_str})
     soup = BeautifulSoup(html, "lxml")
     container = soup.select_one("div#list-reunion")
     if not container:
@@ -137,7 +180,10 @@ async def discover_date(session: aiohttp.ClientSession, date_str: str):
 
 async def discover_reunion_courses(session: aiohttp.ClientSession, reunion: dict):
     """Télécharge la page réunion et retourne la liste des courses (url + filename)."""
-    html = await fetch_html(session, reunion["url"])
+    html = await fetch_html(session, reunion["url"], ctx={
+        "phase": "discover", "resource": "reunion",
+        "date": reunion.get("date"), "reunion": reunion.get("reunion_slug")
+    })
     soup = BeautifulSoup(html, "lxml")
     frise = soup.select_one("#frise-course .strip2.active") or soup.select_one("#frise-course .strip2")
     if not frise:
@@ -156,7 +202,10 @@ async def discover_reunion_courses(session: aiohttp.ClientSession, reunion: dict
         numero = int(numero_txt) if numero_txt.isdigit() else (int(mC.group(1)) if mC else None)
 
         title = a.get("title", "").strip()
-        heure, intitule = (title.split(" - ", 1) + [None])[:2] if " - " in title else (None, (title or None))
+        if " - " in title:
+            heure, intitule = title.split(" - ", 1)
+        else:
+            heure, intitule = None, (title or None)
         code = f"C{numero}" if numero is not None else (mC.group(0) if mC else None)
 
         slug = slugify(intitule) if intitule else "course"
@@ -166,7 +215,7 @@ async def discover_reunion_courses(session: aiohttp.ClientSession, reunion: dict
         courses.append({
             "url": url,
             "filename": filename,
-            "code": code,
+            "code": code or "",
             "title": intitule or "",
             "heure": heure or "",
         })
@@ -186,12 +235,10 @@ async def discovery(start_date: str, end_date: str):
 
     connector = aiohttp.TCPConnector(limit=DISCOVERY_MAX_DATES + DISCOVERY_MAX_REUNIONS, limit_per_host=50)
     async with aiohttp.ClientSession(connector=connector) as session:
-        # On traite en paquets de 16 dates
         for i in range(0, len(all_dates), DISCOVERY_MAX_DATES):
             date_batch = all_dates[i:i + DISCOVERY_MAX_DATES]
             print(f"  [DATES] Batch: {', '.join(date_batch)}")
 
-            # 1) Récupère les réunions FR pour ces dates
             date_tasks = [discover_date(session, d) for d in date_batch]
             date_results = await asyncio.gather(*date_tasks, return_exceptions=True)
 
@@ -205,10 +252,10 @@ async def discovery(start_date: str, end_date: str):
             if not reunions:
                 continue
 
-            # 2) Récupère la liste des courses pour chaque réunion (limite 240)
             print(f"    [REUNIONS] {len(reunions)} FR → découverte des courses (<= {DISCOVERY_MAX_REUNIONS} simultanées)")
-            # On découpe en sous-batches de 240
+            # Manifeste par date (agrégé)
             all_date_manifests = defaultdict(lambda: {"date": "", "reunions": []})
+
             for j in range(0, len(reunions), DISCOVERY_MAX_REUNIONS):
                 sub = reunions[j:j + DISCOVERY_MAX_REUNIONS]
                 tasks = [discover_reunion_courses(session, r) for r in sub]
@@ -218,7 +265,6 @@ async def discovery(start_date: str, end_date: str):
                     if isinstance(courses, Exception):
                         print(f"      ! Error reunion {reunion.get('reunion_slug')}: {courses}")
                         continue
-                    # Remplit le manifeste date
                     dstr = reunion["date"]
                     year = dstr[:4]; month = dstr[5:7]
                     m = all_date_manifests[dstr]
@@ -231,23 +277,23 @@ async def discovery(start_date: str, end_date: str):
                         "courses": courses,
                     })
                     # Agrégats
-                    year_summary[year]["months"][month]["dates"] = list(sorted(set(
-                        year_summary[year]["months"][month]["dates"] + [dstr]
-                    )))
+                    if dstr not in year_summary[year]["months"][month]["dates"]:
+                        year_summary[year]["months"][month]["dates"].append(dstr)
                     year_summary[year]["months"][month]["reunions"] += 1
                     year_summary[year]["months"][month]["courses"] += len(courses)
                     year_summary[year]["reunions"] += 1
                     year_summary[year]["courses"] += len(courses)
 
-            # 3) Écrit les manifestes "par date"
+            # Écrit les manifestes "par date"
             for dstr, payload in all_date_manifests.items():
-                save_json(manifest_path_for_date(dstr), payload)
-                print(f"      [+] manifest {dstr} → {manifest_path_for_date(dstr)} "
-                      f"(reunions={len(payload['reunions'])}, courses={sum(len(r['courses']) for r in payload['reunions'])})")
+                path = manifest_path_for_date(dstr)
+                save_json(path, payload)
+                print(f"      [+] manifest {dstr} → {path} "
+                      f"(reunions={len(payload['reunions'])}, "
+                      f"courses={sum(len(r['courses']) for r in payload['reunions'])})")
 
-    # 4) Écrit les manifestes "mois" et "année" (résumés)
+    # Écrit les manifestes "mois" et "année"
     for y, ydata in year_summary.items():
-        # year manifest
         ym_path = year_manifest_path(y)
         ym_payload = {
             "year": y,
@@ -255,12 +301,11 @@ async def discovery(start_date: str, end_date: str):
             "courses": ydata["courses"],
             "months": {m: {"reunions": ydata["months"][m]["reunions"],
                            "courses": ydata["months"][m]["courses"],
-                           "dates": ydata["months"][m]["dates"]}
+                           "dates": sorted(ydata["months"][m]["dates"])}
                        for m in sorted(ydata["months"].keys())}
         }
         save_json(ym_path, ym_payload)
 
-        # month manifests
         for m, mdata in ydata["months"].items():
             mm_path = month_manifest_path(y, m)
             mm_payload = {"year": y, "month": m, "reunions": mdata["reunions"],
@@ -270,6 +315,13 @@ async def discovery(start_date: str, end_date: str):
     elapsed = perf_counter() - t0
     print(f"[DISCOVERY] Terminé en {elapsed/60:.2f} min")
 
+    # Récap 429 pour discovery
+    d_date = RATE_LIMIT_STATS.get("discover:date", 0)
+    d_reun = RATE_LIMIT_STATS.get("discover:reunion", 0)
+    print(f"[DISCOVERY] 429 summary → date={d_date}, reunion={d_reun}")
+    RATE_LIMIT_STATS["discover:date"] = 0
+    RATE_LIMIT_STATS["discover:reunion"] = 0
+
 # =========================
 # Scraping (Étape 2)
 # =========================
@@ -278,7 +330,12 @@ async def scrape_course(session: aiohttp.ClientSession, course: dict, reunion_di
     if file_exists(filepath):
         return "SKIP", course["filename"]
     try:
-        html = await fetch_html(session, course["url"])
+        html = await fetch_html(session, course["url"], ctx={
+            "phase": "scrape", "resource": "course",
+            "date": reunion_dir.parent.name,      # YYYY-MM-DD
+            "reunion": reunion_dir.name,          # Rn-slug
+            "filename": course["filename"]
+        })
         filepath.parent.mkdir(parents=True, exist_ok=True)
         filepath.write_text(html, encoding="utf-8")
         return "OK", course["filename"]
@@ -288,7 +345,6 @@ async def scrape_course(session: aiohttp.ClientSession, course: dict, reunion_di
 def git_commit_push_year(year: str):
     print(f"\n{'='*60}\nGit commit & push pour l'année {year}\n{'='*60}\n")
     try:
-        # commit uniquement s'il y a des changements sous cette année
         changed = subprocess.run(
             ["git", "status", "--porcelain", f"{REPO_ROOT}/{year}"],
             check=True, capture_output=True, text=True
@@ -315,17 +371,15 @@ async def scrape_from_manifests(start_date: str, end_date: str):
 
     connector = aiohttp.TCPConnector(limit=SCRAPE_MAX_COURSES, limit_per_host=50)
     async with aiohttp.ClientSession(connector=connector) as session:
-        # On opère année par année pour pouvoir commit par année
         for year in sorted(years.keys()):
             t_year = perf_counter()
             dates = years[year]
 
-            # 1) Construit la todo list à partir des manifestes
+            # Construire la todo list depuis les manifestes
             todo_courses = []
             for d in dates:
                 mp = manifest_path_for_date(d)
                 if not mp.exists():
-                    # pas de manifeste → rien pour cette date
                     continue
                 payload = json.loads(mp.read_text(encoding="utf-8"))
                 date_dir = get_date_directory(d)
@@ -334,7 +388,6 @@ async def scrape_from_manifests(start_date: str, end_date: str):
                     for c in r.get("courses", []):
                         filepath = reunion_dir / c["filename"]
                         if not file_exists(filepath):
-                            # à faire
                             todo_courses.append((d, r["reunion_slug"], c, reunion_dir))
 
             if not todo_courses:
@@ -344,7 +397,6 @@ async def scrape_from_manifests(start_date: str, end_date: str):
             print(f"[SCRAPE] Année {year} : {len(todo_courses)} courses à télécharger "
                   f"(limite {SCRAPE_MAX_COURSES} simultanées)")
 
-            # 2) Scrape par paquets de 240
             ok = skip = err = 0
             for i in range(0, len(todo_courses), SCRAPE_MAX_COURSES):
                 batch = todo_courses[i:i + SCRAPE_MAX_COURSES]
@@ -370,10 +422,15 @@ async def scrape_from_manifests(start_date: str, end_date: str):
             print(f"[SCRAPE] Année {year} terminée en {elapsed/60:.2f} min "
                   f"(new={ok}, skip={skip}, err={err})")
 
-            # 3) Commit par année
+            # Commit par année
             git_commit_push_year(year)
 
     print(f"[SCRAPE] Terminé en {(perf_counter()-t_all)/60:.2f} min")
+
+    # Récap 429 pour scrape
+    s_course = RATE_LIMIT_STATS.get("scrape:course", 0)
+    print(f"[SCRAPE] 429 summary → course={s_course}")
+    RATE_LIMIT_STATS["scrape:course"] = 0
 
 # =========================
 # CLI
@@ -382,20 +439,21 @@ def main():
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="cmd", required=True)
 
-    p1 = sub.add_parser("discover", help="Étape 1: découvrir réunions FR et lister les courses; écrit des manifestes JSON.")
+    p1 = sub.add_parser("discover", help="Étape 1: découvrir réunions FR et lister les courses; manifestes JSON.")
     p1.add_argument("--start", default="2005-04-27")
-    p1.add_argument("--end",   default=datetime.utcnow().date().isoformat())
+    p1.add_argument("--end",   help="(ignoré) fin = veille (Europe/Paris)")
 
     p2 = sub.add_parser("scrape", help="Étape 2: lire manifestes et scraper les courses manquantes; commit par année.")
     p2.add_argument("--start", default="2005-04-27")
-    p2.add_argument("--end",   default=datetime.utcnow().date().isoformat())
+    p2.add_argument("--end",   help="(ignoré) fin = veille (Europe/Paris)")
 
     args = parser.parse_args()
+    end_date = paris_yesterday_iso()  # fin = J-1 Europe/Paris
 
     if args.cmd == "discover":
-        asyncio.run(discovery(args.start, args.end))
+        asyncio.run(discovery(args.start, end_date))
     elif args.cmd == "scrape":
-        asyncio.run(scrape_from_manifests(args.start, args.end))
+        asyncio.run(scrape_from_manifests(args.start, end_date))
 
 if __name__ == "__main__":
     main()
