@@ -1,84 +1,44 @@
-name: ZEturf Scraper (Matrix)
+name: ZEturf Scraper
 
 on:
   workflow_dispatch:  # Manuel trigger
-    inputs:
-      start_year:
-        description: 'Année de départ'
-        required: false
-        default: '2005'
-      end_year:
-        description: 'Année de fin'
-        required: false
-        default: '2025'
+  schedule:
+    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
 
 jobs:
-  generate-matrix:
-    runs-on: ubuntu-latest
-    outputs:
-      years: ${{ steps.set-matrix.outputs.years }}
-    steps:
-      - name: Generate year matrix
-        id: set-matrix
-        run: |
-          START=${{ github.event.inputs.start_year || '2005' }}
-          END=${{ github.event.inputs.end_year || '2025' }}
-          
-          YEARS="["
-          for ((year=START; year<=END; year++)); do
-            if [ $year -ne $START ]; then
-              YEARS+=","
-            fi
-            YEARS+="\"$year\""
-          done
-          YEARS+="]"
-          
-          echo "years=$YEARS" >> $GITHUB_OUTPUT
-          echo "Generated years: $YEARS"
-
   scrape:
-    needs: generate-matrix
     runs-on: ubuntu-latest
-    timeout-minutes: 350  # 5h50 (sous la limite de 6h)
-    strategy:
-      max-parallel: 3  # 3 années en parallèle max (sous limite de 20 jobs)
-      fail-fast: false  # Continue même si une année échoue
-      matrix:
-        year: ${{ fromJson(needs.generate-matrix.outputs.years) }}
+    timeout-minutes: 720  # 12 heures max
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          ref: main
-      
-      - name: Pull latest changes and handle conflicts
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git fetch origin main
-          git reset --hard origin/main
+          fetch-depth: 0  # Full history for proper commits
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
       
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
       
-      - name: Run scraper for year ${{ matrix.year }}
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+      
+      - name: Run scraper
         env:
-          SCRAPE_YEAR: ${{ matrix.year }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scraper.py
       
-      - name: Status for year ${{ matrix.year }}
+      - name: Final status
         if: always()
         run: |
-          echo "✅ Année ${{ matrix.year }} traitée"
-          git log -1 --oneline || echo "Aucun commit"
+          echo "Scraping workflow completed"
+          git status
