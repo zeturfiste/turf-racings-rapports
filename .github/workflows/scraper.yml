@@ -1,7 +1,7 @@
 name: ZEturf Scraper (Matrix)
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manuel trigger
     inputs:
       start_year:
         description: 'Année de départ'
@@ -11,10 +11,6 @@ on:
         description: 'Année de fin'
         required: false
         default: '2025'
-      force_rescrape:
-        description: 'Force rescrape (ignorer fichiers existants)'
-        required: false
-        default: 'false'
 
 jobs:
   generate-matrix:
@@ -38,16 +34,15 @@ jobs:
           YEARS+="]"
           
           echo "years=$YEARS" >> $GITHUB_OUTPUT
-          echo "✓ Generated years: $YEARS"
+          echo "Generated years: $YEARS"
 
   scrape:
     needs: generate-matrix
     runs-on: ubuntu-latest
-    timeout-minutes: 90  # 1h30 max par année (largement suffisant)
-    
+    timeout-minutes: 350  # 5h50 (sous la limite de 6h)
     strategy:
-      max-parallel: 2  # 2 années en parallèle (pour éviter conflits Git)
-      fail-fast: false
+      max-parallel: 3  # 3 années en parallèle max (sous limite de 20 jobs)
+      fail-fast: false  # Continue même si une année échoue
       matrix:
         year: ${{ fromJson(needs.generate-matrix.outputs.years) }}
     
@@ -56,19 +51,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # Ensure we're on main branch
           ref: main
       
-      - name: Configure Git
+      - name: Pull latest changes and handle conflicts
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git config pull.rebase true
-      
-      - name: Pull latest changes
-        run: |
-          git pull origin main || echo "Already up to date"
+          git fetch origin main
+          git reset --hard origin/main
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -76,63 +66,19 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       
-      - name: Cache Python dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
       
-      - name: Check existing data for year ${{ matrix.year }}
-        run: |
-          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
-            FILE_COUNT=$(find resultats-et-rapports/${{ matrix.year }} -type f -name "*.html" | wc -l)
-            echo "📊 Fichiers existants pour ${{ matrix.year }}: $FILE_COUNT"
-          else
-            echo "📊 Aucun fichier existant pour ${{ matrix.year }}"
-          fi
-      
       - name: Run scraper for year ${{ matrix.year }}
         env:
           SCRAPE_YEAR: ${{ matrix.year }}
         run: |
-          echo "🚀 Démarrage du scraping pour l'année ${{ matrix.year }}"
           python scraper.py
-        continue-on-error: false
       
-      - name: Verify data was created
-        run: |
-          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
-            FILE_COUNT=$(find resultats-et-rapports/${{ matrix.year }} -type f -name "*.html" | wc -l)
-            echo "✅ Total fichiers pour ${{ matrix.year }}: $FILE_COUNT"
-            
-            # Show directory structure
-            echo "📁 Structure:"
-            ls -lh resultats-et-rapports/${{ matrix.year }}/ 2>/dev/null || echo "Dossier vide"
-          else
-            echo "⚠️ Aucun dossier créé pour ${{ matrix.year }}"
-          fi
-      
-      - name: Status summary
+      - name: Status for year ${{ matrix.year }}
         if: always()
         run: |
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "📊 Résumé pour l'année ${{ matrix.year }}"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
-            echo "✅ Année ${{ matrix.year }} traitée avec succès"
-          else
-            echo "❌ Échec du traitement de l'année ${{ matrix.year }}"
-            exit 1
-          fi
-          
-          # Show last commit
-          echo ""
-          echo "📝 Dernier commit:"
+          echo "✅ Année ${{ matrix.year }} traitée"
           git log -1 --oneline || echo "Aucun commit"
