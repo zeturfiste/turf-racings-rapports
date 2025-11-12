@@ -26,8 +26,8 @@ HEADERS = {
 
 # Limites pour ne pas surcharger
 MAX_CONCURRENT_DATES = 4
-MAX_CONCURRENT_REUNIONS = 8
-MAX_CONCURRENT_COURSES = 8
+MAX_CONCURRENT_REUNIONS = 40
+MAX_CONCURRENT_COURSES = 400
 
 # =========================
 # Helpers
