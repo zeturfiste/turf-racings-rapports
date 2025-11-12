@@ -290,7 +290,7 @@ def git_commit_push(year: str):
 
 async def main():
     """Main function"""
-    start_date = "2005-04-27"
+    start_date = "2019-01-01"
     end_date = "2025-11-11"
     
     print("ZEturf Scraper - GitHub Actions")
