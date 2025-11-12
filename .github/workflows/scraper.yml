@@ -1,44 +1,138 @@
-name: ZEturf Scraper
+name: ZEturf Scraper (Matrix)
 
 on:
-  workflow_dispatch:  # Manuel trigger
-  schedule:
-    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: 'Année de départ'
+        required: false
+        default: '2005'
+      end_year:
+        description: 'Année de fin'
+        required: false
+        default: '2025'
+      force_rescrape:
+        description: 'Force rescrape (ignorer fichiers existants)'
+        required: false
+        default: 'false'
 
 jobs:
-  scrape:
+  generate-matrix:
     runs-on: ubuntu-latest
-    timeout-minutes: 720  # 12 heures max
+    outputs:
+      years: ${{ steps.set-matrix.outputs.years }}
+    steps:
+      - name: Generate year matrix
+        id: set-matrix
+        run: |
+          START=${{ github.event.inputs.start_year || '2005' }}
+          END=${{ github.event.inputs.end_year || '2025' }}
+          
+          YEARS="["
+          for ((year=START; year<=END; year++)); do
+            if [ $year -ne $START ]; then
+              YEARS+=","
+            fi
+            YEARS+="\"$year\""
+          done
+          YEARS+="]"
+          
+          echo "years=$YEARS" >> $GITHUB_OUTPUT
+          echo "✓ Generated years: $YEARS"
+
+  scrape:
+    needs: generate-matrix
+    runs-on: ubuntu-latest
+    timeout-minutes: 90  # 1h30 max par année (largement suffisant)
+    
+    strategy:
+      max-parallel: 2  # 2 années en parallèle (pour éviter conflits Git)
+      fail-fast: false
+      matrix:
+        year: ${{ fromJson(needs.generate-matrix.outputs.years) }}
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history for proper commits
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Ensure we're on main branch
+          ref: main
+      
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git config pull.rebase true
+      
+      - name: Pull latest changes
+        run: |
+          git pull origin main || echo "Already up to date"
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
       
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
       
-      - name: Configure Git
+      - name: Check existing data for year ${{ matrix.year }}
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
+          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
+            FILE_COUNT=$(find resultats-et-rapports/${{ matrix.year }} -type f -name "*.html" | wc -l)
+            echo "📊 Fichiers existants pour ${{ matrix.year }}: $FILE_COUNT"
+          else
+            echo "📊 Aucun fichier existant pour ${{ matrix.year }}"
+          fi
       
-      - name: Run scraper
+      - name: Run scraper for year ${{ matrix.year }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCRAPE_YEAR: ${{ matrix.year }}
         run: |
+          echo "🚀 Démarrage du scraping pour l'année ${{ matrix.year }}"
           python scraper.py
+        continue-on-error: false
       
-      - name: Final status
+      - name: Verify data was created
+        run: |
+          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
+            FILE_COUNT=$(find resultats-et-rapports/${{ matrix.year }} -type f -name "*.html" | wc -l)
+            echo "✅ Total fichiers pour ${{ matrix.year }}: $FILE_COUNT"
+            
+            # Show directory structure
+            echo "📁 Structure:"
+            ls -lh resultats-et-rapports/${{ matrix.year }}/ 2>/dev/null || echo "Dossier vide"
+          else
+            echo "⚠️ Aucun dossier créé pour ${{ matrix.year }}"
+          fi
+      
+      - name: Status summary
         if: always()
         run: |
-          echo "Scraping workflow completed"
-          git status
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Résumé pour l'année ${{ matrix.year }}"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          if [ -d "resultats-et-rapports/${{ matrix.year }}" ]; then
+            echo "✅ Année ${{ matrix.year }} traitée avec succès"
+          else
+            echo "❌ Échec du traitement de l'année ${{ matrix.year }}"
+            exit 1
+          fi
+          
+          # Show last commit
+          echo ""
+          echo "📝 Dernier commit:"
+          git log -1 --oneline || echo "Aucun commit"
