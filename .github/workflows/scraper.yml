@@ -1,42 +1,67 @@
-name: ZEturf Scraper
+name: ZEturf 2-step Scraper
 
 on:
-  workflow_dispatch:  # Manuel trigger
-  schedule:
-    - cron: '0 2 * * *'  # Tous les jours à 2h du matin (optionnel)
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "Date début (YYYY-MM-DD)"
+        required: false
+        default: "2005-04-27"
+      end:
+        description: "Date fin (YYYY-MM-DD)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
 
 jobs:
-  scrape:
+  run:
     runs-on: ubuntu-latest
-    timeout-minutes: 720  # 12 heures max
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history for proper commits
-      
+          fetch-depth: 0
+          persist-credentials: true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      
+          python-version: "3.11"
+
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
-      
-      - name: Configure Git
+
+      - name: Discovery (step 1)
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-      
-      - name: Run scraper
+          END="${{ inputs.end }}"
+          if [ -z "$END" ]; then END="$(date -u +%F)"; fi
+          python scraper.py discover --start "${{ inputs.start }}" --end "$END"
+
+      - name: Verify manifests & existing HTML
+        run: |
+          echo "Branch: $(git branch --show-current)"
+          echo "HEAD  : $(git rev-parse --short HEAD)"
+          echo "Manifests écrits (top 30):"
+          git ls-files | grep -E '^resultats-et-rapports/.*/.*/[0-9]{4}-[0-9]{2}-[0-9]{2}/manifest.json$' | head -n 30 || true
+          echo "Compteurs rapides:"
+          for y in $(seq 2005 $(date +%Y)); do
+            test -d "resultats-et-rapports/$y" || continue
+            cnt=$(find "resultats-et-rapports/$y" -type f -name '*.html' 2>/dev/null | wc -l)
+            echo "  $y: $cnt html"
+          done
+
+      - name: Scrape missing (step 2)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scraper.py
-      
+          END="${{ inputs.end }}"
+          if [ -z "$END" ]; then END="$(date -u +%F)"; fi
+          python scraper.py scrape --start "${{ inputs.start }}" --end "$END"
+
       - name: Final status
         if: always()
         run: |
