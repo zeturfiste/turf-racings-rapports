@@ -7,13 +7,9 @@ on:
         description: "Date début (YYYY-MM-DD)"
         required: false
         default: "2005-04-27"
-      end:
-        description: "Date fin (YYYY-MM-DD)"
-        required: false
-        default: ""
 
 permissions:
-  contents: write
+  contents: write  # nécessaire pour pousser via GITHUB_TOKEN
 
 jobs:
   run:
@@ -24,6 +20,17 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
+
+      - name: Verify repo content before scraping
+        run: |
+          echo "Branch : $(git branch --show-current)"
+          echo "HEAD   : $(git rev-parse --short HEAD)"
+          echo "Git status (avant) :"
+          git status --porcelain
+          echo "HTML déjà présents :"
+          find resultats-et-rapports -type f -name '*.html' 2>/dev/null | wc -l || true
+          echo "Exemples existants :"
+          git ls-tree -r --name-only HEAD | grep '^resultats-et-rapports/' | head -n 30 || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,30 +44,24 @@ jobs:
 
       - name: Discovery (step 1)
         run: |
-          END="${{ inputs.end }}"
-          if [ -z "$END" ]; then END="$(date -u +%F)"; fi
-          python scraper.py discover --start "${{ inputs.start }}" --end "$END"
+          python scraper.py discover --start "${{ inputs.start }}"
 
-      - name: Verify manifests & existing HTML
+      - name: Verify manifests
         run: |
-          echo "Branch: $(git branch --show-current)"
-          echo "HEAD  : $(git rev-parse --short HEAD)"
-          echo "Manifests écrits (top 30):"
+          echo "Manifests par date (top 30) :"
           git ls-files | grep -E '^resultats-et-rapports/.*/.*/[0-9]{4}-[0-9]{2}-[0-9]{2}/manifest.json$' | head -n 30 || true
-          echo "Compteurs rapides:"
+          echo "Comptes HTML par année (avant scrape) :"
           for y in $(seq 2005 $(date +%Y)); do
             test -d "resultats-et-rapports/$y" || continue
             cnt=$(find "resultats-et-rapports/$y" -type f -name '*.html' 2>/dev/null | wc -l)
-            echo "  $y: $cnt html"
+            echo "  $y: $cnt"
           done
 
       - name: Scrape missing (step 2)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          END="${{ inputs.end }}"
-          if [ -z "$END" ]; then END="$(date -u +%F)"; fi
-          python scraper.py scrape --start "${{ inputs.start }}" --end "$END"
+          python scraper.py scrape --start "${{ inputs.start }}"
 
       - name: Final status
         if: always()
