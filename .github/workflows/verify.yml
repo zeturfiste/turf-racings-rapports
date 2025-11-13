@@ -1,0 +1,67 @@
+name: Verify ZEturf Data
+
+on:
+  workflow_dispatch:  # Manuel trigger
+  schedule:
+    - cron: '0 4 * * 0'  # Tous les dimanches à 4h (optionnel)
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 heures max
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone suffisant pour vérification
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install beautifulsoup4 lxml
+      
+      - name: Run verification
+        id: verify
+        run: |
+          python verify.py
+        continue-on-error: true
+      
+      - name: Upload verification report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report
+          path: verification_report.txt
+          retention-days: 90
+      
+      - name: Commit report to repo
+        if: always()
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add verification_report.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+      
+      - name: Check verification result
+        if: steps.verify.outcome == 'failure'
+        run: |
+          echo "⚠️ Verification found issues. Check verification_report.txt for details."
+          cat verification_report.txt
+          exit 1
+      
+      - name: Success message
+        if: steps.verify.outcome == 'success'
+        run: |
+          echo "✓ All data verified successfully!"
+          cat verification_report.txt
