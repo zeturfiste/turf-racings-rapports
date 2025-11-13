@@ -1,23 +1,17 @@
-name: Check ZEturf Inventory
+name: Verify All ZEturf Data
 
 on:
   push:
     paths:
       - 'resultats-et-rapports/**'
-  workflow_dispatch:
-    inputs:
-      date:
-        description: "Scanner uniquement cette date (YYYY-MM-DD)"
-        required: false
-        default: ""
+  workflow_dispatch: {}
 
 jobs:
-  check:
+  verify-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
+    timeout-minutes: 30
     permissions:
-      contents: write  # nécessaire pour commit le dossier missing/
+      contents: write
 
     steps:
       - name: Checkout
@@ -35,30 +29,25 @@ jobs:
           pip install --upgrade pip
           pip install beautifulsoup4 lxml
 
-      - name: Run checker
+      - name: Run full repository check
         run: |
-          date_input="${{ github.event.inputs.date }}"
-          if [ -n "$date_input" ]; then
-            python check_inventory.py --date "$date_input"
-          else
-            python check_inventory.py
-          fi
+          python check_inventory.py
 
-      - name: Upload reports as artifact
+      - name: Upload reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: missing-reports
           path: missing/
 
-      - name: Commit missing folder (if changes)
+      - name: Commit missing/ (if changed)
         if: always()
         run: |
           if [[ -n "$(git status --porcelain missing)" ]]; then
             git config user.name "GitHub Actions Bot"
             git config user.email "actions@github.com"
             git add missing
-            git commit -m "chore(check): update missing list"
+            git commit -m "chore(verify-all): update missing reports"
             git push
           else
             echo "No changes in missing/"
