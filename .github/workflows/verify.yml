@@ -1,20 +1,20 @@
 name: Verify ZEturf Data
 
 on:
-  workflow_dispatch:  # Manuel trigger
+  workflow_dispatch:
   schedule:
-    - cron: '0 4 * * 0'  # Tous les dimanches à 4h (optionnel)
+    - cron: '0 4 * * 0'
 
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 2 heures max
+    timeout-minutes: 120
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Shallow clone suffisant pour vérification
+          fetch-depth: 1
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,19 +25,25 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install beautifulsoup4 lxml
-      
+
+      - name: Generate timestamped filename
+        id: filename
+        run: |
+          export REPORT_NAME="verification_report_$(date +'%Y-%m-%d_%H-%M-%S').txt"
+          echo "REPORT_NAME=$REPORT_NAME" >> $GITHUB_ENV
+
       - name: Run verification
         id: verify
         run: |
-          python verify.py
+          python verify.py > "$REPORT_NAME"
         continue-on-error: true
-      
+
       - name: Upload verification report
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: verification-report
-          path: verification_report.txt
+          path: ${{ env.REPORT_NAME }}
           retention-days: 90
       
       - name: Commit report to repo
@@ -45,7 +51,8 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add verification_report.txt
+          cp "$REPORT_NAME" verification_report.txt  # version simplifiée si tu veux garder l’ancien nom en plus
+          git add "$REPORT_NAME" verification_report.txt
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -56,12 +63,12 @@ jobs:
       - name: Check verification result
         if: steps.verify.outcome == 'failure'
         run: |
-          echo "⚠️ Verification found issues. Check verification_report.txt for details."
-          cat verification_report.txt
+          echo "⚠️ Verification found issues. Check ${{ env.REPORT_NAME }} for details."
+          cat "${{ env.REPORT_NAME }}"
           exit 1
       
       - name: Success message
         if: steps.verify.outcome == 'success'
         run: |
           echo "✓ All data verified successfully!"
-          cat verification_report.txt
+          cat "${{ env.REPORT_NAME }}"
