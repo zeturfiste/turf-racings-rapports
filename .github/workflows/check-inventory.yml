@@ -1,25 +1,17 @@
-# .github/workflows/verify-all.yml
-name: Verify All ZEturf Data
-
-on:
-  push:
-    paths:
-      - 'resultats-et-rapports/**'
-  workflow_dispatch: {}
-
 jobs:
   verify-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 360   # 6h max sur GitHub-hosted
     permissions:
       contents: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -39,15 +31,15 @@ jobs:
           name: missing-reports
           path: missing/
 
-      - name: Commit missing/ + scrape_incomplete.py (if changes)
+      - name: Commit missing/ (if changed)
         if: always()
         run: |
-          if [[ -n "$(git status --porcelain missing scrape_incomplete.py)" ]]; then
+          if [[ -n "$(git status --porcelain missing)" ]]; then
             git config user.name "GitHub Actions Bot"
             git config user.email "actions@github.com"
-            git add missing scrape_incomplete.py || true
-            git commit -m "chore(verify-all): update missing reports and scraper for incomplete dates" || echo "Nothing to commit"
-            git push || true
+            git add missing
+            git commit -m "chore(verify-all): update missing reports"
+            git push
           else
-            echo "No changes to commit"
+            echo "No changes in missing/"
           fi
