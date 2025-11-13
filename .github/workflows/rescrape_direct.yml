@@ -27,15 +27,15 @@ jobs:
             verify.py
             rescrape_direct.py
             verification_report.txt
-      
-      - name: Enable sparse checkout for data
+            resultats-et-rapports
+
+      - name: Check disk space (start)
         run: |
-          git sparse-checkout add resultats-et-rapports
-      
-      - name: Check disk space
-        run: |
-          echo "=== Espace disque disponible ==="
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Espace disque disponible (début) ==="
+          df -h
+          echo
+          echo "=== Taille du workspace (début) ==="
+          du -sh "${GITHUB_WORKSPACE}" || true
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -62,7 +62,7 @@ jobs:
             
             echo ""
             echo "=== Aperçu des 10 premières dates incomplètes ==="
-            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10
+            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10 || true
           else
             echo "missing_count=0" >> $GITHUB_OUTPUT
           fi
@@ -73,12 +73,17 @@ jobs:
           MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '200' }}
         run: |
+          echo "=== Paramètres de scraping ==="
+          echo "MAX_COURSES='$MAX_COURSES'"
+          echo "BATCH_SIZE='$BATCH_SIZE'"
+          echo
+
           if [ -z "$MAX_COURSES" ]; then
             echo "🚀 Re-scraping TOUTES les courses manquantes"
-            python rescrape_direct.py --batch-size $BATCH_SIZE
+            python rescrape_direct.py --batch-size "$BATCH_SIZE"
           else
             echo "🚀 Re-scraping max $MAX_COURSES courses"
-            python rescrape_direct.py --max-courses $MAX_COURSES --batch-size $BATCH_SIZE
+            python rescrape_direct.py --max-courses "$MAX_COURSES" --batch-size "$BATCH_SIZE"
           fi
       
       - name: No missing courses
@@ -87,10 +92,13 @@ jobs:
           echo "✅ Aucune course manquante détectée!"
           echo "Tous les fichiers sont déjà présents."
       
-      - name: Check results
+      - name: Check results (disk)
         run: |
-          echo "=== Résultat du scraping ==="
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Espace disque après scraping ==="
+          df -h
+          echo
+          echo "=== Taille du workspace (après scraping) ==="
+          du -sh "${GITHUB_WORKSPACE}" || true
       
       - name: Run verification again
         run: |
@@ -105,6 +113,8 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report"
             git push
+          else
+            echo "Aucun changement dans le rapport, rien à committer."
           fi
       
       - name: Show final status
@@ -112,7 +122,7 @@ jobs:
         run: |
           if [ -f "verification_report.txt" ]; then
             echo "=== STATUT FINAL ==="
-            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4
+            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4 || true
             echo ""
             STILL_MISSING=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
             if [ "$STILL_MISSING" -gt "0" ]; then
@@ -121,12 +131,14 @@ jobs:
             else
               echo "🎉 Toutes les courses sont maintenant complètes!"
             fi
+          else
+            echo "⚠️ Aucun rapport de vérification disponible en fin de job."
           fi
-      
-      - name: Upload report
-        uses: actions/upload-artifact@v4
+
+      - name: Cleanup Python junk (optionnel)
         if: always()
-        with:
-          name: verification-report-final
-          path: verification_report.txt
-          retention-days: 7
+        run: |
+          echo "=== Nettoyage léger (pycache) ==="
+          find . -name "__pycache__" -type d -exec rm -rf {} + || true
+          echo "=== Espace disque final ==="
+          df -h
