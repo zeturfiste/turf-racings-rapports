@@ -1,0 +1,76 @@
+{
+  "date": "2011-09-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-29",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-29/2011-09-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-29/R1-auteuil/R1C3-prix-pride-of-kildare-1er-peloton.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R1-auteuil/R1C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R1-auteuil/R1C7-prix-patrick-lec.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R1-auteuil/R1C8-prix-fezensac.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C1-prix-calabrais.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C2-prix-magicienne.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C5-prix-de-nantes.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C6-prix-pride-of-kildare-2eme-peloton.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R2-fontainebleau/R2C7-prix-patrick-lec.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R3-enghien-soisy/R3C2-prix-magicienne.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R3-enghien-soisy/R3C3-prix-pride-of-kildare-1er-peloton.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R3-enghien-soisy/R3C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R3-enghien-soisy/R3C5-prix-de-nantes.html",
+      "resultats-et-rapports/2011/09/2011-09-29/R3-enghien-soisy/R3C9-prix-marittimo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-fontainebleau",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-calabrais.html",
+        "R1C2-prix-magicienne.html",
+        "R1C3-prix-pride-of-kildare-1er-peloton.html",
+        "R1C4-prix-de-bagatelle.html",
+        "R1C5-prix-de-nantes.html",
+        "R1C6-prix-pride-of-kildare-2eme-peloton.html",
+        "R1C7-prix-patrick-lec.html",
+        "R1C8-prix-fezensac.html",
+        "R1C9-prix-marittimo.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-calabrais.html",
+        "R2C2-prix-magicienne.html",
+        "R2C3-prix-pride-of-kildare-1er-peloton.html",
+        "R2C4-prix-de-bagatelle.html",
+        "R2C5-prix-de-nantes.html",
+        "R2C6-prix-pride-of-kildare-2eme-peloton.html",
+        "R2C7-prix-patrick-lec.html",
+        "R2C8-prix-fezensac.html",
+        "R2C9-prix-marittimo.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-calabrais.html",
+        "R3C2-prix-magicienne.html",
+        "R3C3-prix-pride-of-kildare-1er-peloton.html",
+        "R3C4-prix-de-bagatelle.html",
+        "R3C5-prix-de-nantes.html",
+        "R3C6-prix-pride-of-kildare-2eme-peloton.html",
+        "R3C7-prix-patrick-lec.html",
+        "R3C8-prix-fezensac.html",
+        "R3C9-prix-marittimo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:43.614917Z"
+}

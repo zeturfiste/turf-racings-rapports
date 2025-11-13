@@ -1,0 +1,93 @@
+{
+  "date": "2010-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/10/2010-10-16",
+    "date_html": "resultats-et-rapports/2010/10/2010-10-16/2010-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/10/2010-10-16/R2-cabourg/R2C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R3-saint-galmier/R3C2-prix-bayonnet.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R3-saint-galmier/R3C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R4-cavaillon/R4C6-prix-montgomery.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R4-cavaillon/R4C7-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R4-cavaillon/R4C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C1-prix-beaurepaire.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C2-prix-bayonnet.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C3-prix-magne.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C6-prix-montgomery.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C7-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2010/10/2010-10-16/R6-amiens/R6C8-prix-roger-soulange-bodin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-cabourg",
+      "R3-saint-galmier",
+      "R4-cavaillon",
+      "R6-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-beaurepaire.html",
+        "R1C2-prix-bayonnet.html",
+        "R1C3-prix-magne.html",
+        "R1C4-prix-prince-d-ecouen.html",
+        "R1C5-prix-pierre-de-lassus.html",
+        "R1C6-prix-montgomery.html",
+        "R1C7-prix-duc-d-alburquerque.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-beaurepaire.html",
+        "R2C2-prix-bayonnet.html",
+        "R2C3-prix-magne.html",
+        "R2C4-prix-prince-d-ecouen.html",
+        "R2C5-prix-pierre-de-lassus.html",
+        "R2C6-prix-montgomery.html",
+        "R2C7-prix-duc-d-alburquerque.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-beaurepaire.html",
+        "R3C2-prix-bayonnet.html",
+        "R3C3-prix-magne.html",
+        "R3C4-prix-prince-d-ecouen.html",
+        "R3C5-prix-pierre-de-lassus.html",
+        "R3C6-prix-montgomery.html",
+        "R3C7-prix-duc-d-alburquerque.html",
+        "R3C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-cavaillon": [
+        "R4C1-prix-beaurepaire.html",
+        "R4C2-prix-bayonnet.html",
+        "R4C3-prix-magne.html",
+        "R4C4-prix-prince-d-ecouen.html",
+        "R4C5-prix-pierre-de-lassus.html",
+        "R4C6-prix-montgomery.html",
+        "R4C7-prix-duc-d-alburquerque.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ],
+      "R6-amiens": [
+        "R6C1-prix-beaurepaire.html",
+        "R6C2-prix-bayonnet.html",
+        "R6C3-prix-magne.html",
+        "R6C4-prix-prince-d-ecouen.html",
+        "R6C5-prix-pierre-de-lassus.html",
+        "R6C6-prix-montgomery.html",
+        "R6C7-prix-duc-d-alburquerque.html",
+        "R6C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:06.095018Z"
+}

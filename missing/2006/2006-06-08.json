@@ -1,0 +1,46 @@
+{
+  "date": "2006-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-08",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-08/2006-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-compiegne.html",
+        "R1C2-prix-de-nanterre.html",
+        "R1C3-prix-de-la-madeleine.html",
+        "R1C4-prix-de-passy.html",
+        "R1C5-prix-de-l-athenee.html",
+        "R1C6-prix-de-bercy.html",
+        "R1C7-prix-du-chateau-d-eau.html",
+        "R1C8-prix-de-beauvais.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-compiegne.html",
+        "R2C2-prix-de-nanterre.html",
+        "R2C3-prix-de-la-madeleine.html",
+        "R2C4-prix-de-passy.html",
+        "R2C5-prix-de-l-athenee.html",
+        "R2C6-prix-de-bercy.html",
+        "R2C7-prix-du-chateau-d-eau.html",
+        "R2C8-prix-de-beauvais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:01.407181Z"
+}

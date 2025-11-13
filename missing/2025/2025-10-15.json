@@ -1,0 +1,71 @@
+{
+  "date": "2025-10-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-15",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-15/2025-10-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-15/R1-feurs/R1C2-prix-des-amateurs.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R1-feurs/R1C3-prix-departement-de-la-loire.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R1-feurs/R1C4-prix-loire-forez-agglomeration.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R1-feurs/R1C5-prix-de-la-communaute-de-communes-de-forez-est.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R1-feurs/R1C6-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R3-nantes/R3C3-prix-departement-de-la-loire.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R3-nantes/R3C4-prix-loire-forez-agglomeration.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R3-nantes/R3C7-prix-du-cafe-du-commerce-de-chazelles-sur-lyon.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R4-cabourg/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R4-cabourg/R4C2-prix-des-amateurs.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R4-cabourg/R4C3-prix-departement-de-la-loire.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R4-cabourg/R4C4-prix-loire-forez-agglomeration.html",
+      "resultats-et-rapports/2025/10/2025-10-15/R4-cabourg/R4C8-prix-region-auvergne-rhone-alpes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R3-nantes",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-des-amateurs.html",
+        "R1C3-prix-departement-de-la-loire.html",
+        "R1C4-prix-loire-forez-agglomeration.html",
+        "R1C5-prix-de-la-communaute-de-communes-de-forez-est.html",
+        "R1C6-prix-de-la-ville-de-feurs.html",
+        "R1C7-prix-du-cafe-du-commerce-de-chazelles-sur-lyon.html",
+        "R1C8-prix-region-auvergne-rhone-alpes.html"
+      ],
+      "R3-nantes": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-des-amateurs.html",
+        "R3C3-prix-departement-de-la-loire.html",
+        "R3C4-prix-loire-forez-agglomeration.html",
+        "R3C5-prix-de-la-communaute-de-communes-de-forez-est.html",
+        "R3C6-prix-de-la-ville-de-feurs.html",
+        "R3C7-prix-du-cafe-du-commerce-de-chazelles-sur-lyon.html",
+        "R3C8-prix-region-auvergne-rhone-alpes.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-des-amateurs.html",
+        "R4C3-prix-departement-de-la-loire.html",
+        "R4C4-prix-loire-forez-agglomeration.html",
+        "R4C5-prix-de-la-communaute-de-communes-de-forez-est.html",
+        "R4C6-prix-de-la-ville-de-feurs.html",
+        "R4C7-prix-du-cafe-du-commerce-de-chazelles-sur-lyon.html",
+        "R4C8-prix-region-auvergne-rhone-alpes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:51.819854Z"
+}

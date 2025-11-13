@@ -1,0 +1,99 @@
+{
+  "date": "2022-06-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-24",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-24/2022-06-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-24/R4-saint-cloud/R4C1-prix-hygica.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R4-saint-cloud/R4C3-prix-terpsichore.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R5-dax/R5C1-prix-hygica.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R5-dax/R5C2-prix-eurykleia.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R5-dax/R5C3-prix-terpsichore.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R5-dax/R5C4-prix-clementina.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R5-dax/R5C5-prix-melpomene.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R7-aix-les-bains/R7C1-prix-hygica.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R7-aix-les-bains/R7C2-prix-eurykleia.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R7-aix-les-bains/R7C3-prix-terpsichore.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R7-aix-les-bains/R7C4-prix-clementina.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R7-aix-les-bains/R7C5-prix-melpomene.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R8-laval/R8C3-prix-terpsichore.html",
+      "resultats-et-rapports/2022/06/2022-06-24/R8-laval/R8C5-prix-melpomene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-caen",
+      "R4-saint-cloud",
+      "R5-dax",
+      "R7-aix-les-bains",
+      "R8-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-hygica.html",
+        "R1C2-prix-eurykleia.html",
+        "R1C3-prix-terpsichore.html",
+        "R1C4-prix-clementina.html",
+        "R1C5-prix-melpomene.html",
+        "R1C6-prix-okda.html",
+        "R1C7-prix-callisto.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-hygica.html",
+        "R3C2-prix-eurykleia.html",
+        "R3C3-prix-terpsichore.html",
+        "R3C4-prix-clementina.html",
+        "R3C5-prix-melpomene.html",
+        "R3C6-prix-okda.html",
+        "R3C7-prix-callisto.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-hygica.html",
+        "R4C2-prix-eurykleia.html",
+        "R4C3-prix-terpsichore.html",
+        "R4C4-prix-clementina.html",
+        "R4C5-prix-melpomene.html",
+        "R4C6-prix-okda.html",
+        "R4C7-prix-callisto.html"
+      ],
+      "R5-dax": [
+        "R5C1-prix-hygica.html",
+        "R5C2-prix-eurykleia.html",
+        "R5C3-prix-terpsichore.html",
+        "R5C4-prix-clementina.html",
+        "R5C5-prix-melpomene.html",
+        "R5C6-prix-okda.html",
+        "R5C7-prix-callisto.html"
+      ],
+      "R7-aix-les-bains": [
+        "R7C1-prix-hygica.html",
+        "R7C2-prix-eurykleia.html",
+        "R7C3-prix-terpsichore.html",
+        "R7C4-prix-clementina.html",
+        "R7C5-prix-melpomene.html",
+        "R7C6-prix-okda.html",
+        "R7C7-prix-callisto.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-hygica.html",
+        "R8C2-prix-eurykleia.html",
+        "R8C3-prix-terpsichore.html",
+        "R8C4-prix-clementina.html",
+        "R8C5-prix-melpomene.html",
+        "R8C6-prix-okda.html",
+        "R8C7-prix-callisto.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:37.304638Z"
+}

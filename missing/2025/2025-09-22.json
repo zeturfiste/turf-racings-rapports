@@ -1,0 +1,64 @@
+{
+  "date": "2025-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-22",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-22/2025-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C1-prix-communaute-de-communes-thierache-du-centre-prix-de-laon.html",
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C2-prix-des-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C3-prix-du-conseil-departemental-de-l-aisne-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C4-prix-pays-de-thierache-prix-d-arras.html",
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C6-prix-amicam-nord-est-prix-de-compiegne.html",
+      "resultats-et-rapports/2025/09/2025-09-22/R4-vichy/R4C7-prix-les-saveurs-de-nos-fermes-prix-d-amiens.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R3-angers",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-communaute-de-communes-thierache-du-centre-prix-de-laon.html",
+        "R1C2-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R1C3-prix-du-conseil-departemental-de-l-aisne-prix-du-croise-laroche.html",
+        "R1C4-prix-pays-de-thierache-prix-d-arras.html",
+        "R1C5-prix-office-tourisme-pays-de-thierache-prix-de-saint-omer.html",
+        "R1C6-prix-amicam-nord-est-prix-de-compiegne.html",
+        "R1C7-prix-les-saveurs-de-nos-fermes-prix-d-amiens.html",
+        "R1C8-prix-pmu-prix-du-touquet.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-communaute-de-communes-thierache-du-centre-prix-de-laon.html",
+        "R3C2-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R3C3-prix-du-conseil-departemental-de-l-aisne-prix-du-croise-laroche.html",
+        "R3C4-prix-pays-de-thierache-prix-d-arras.html",
+        "R3C5-prix-office-tourisme-pays-de-thierache-prix-de-saint-omer.html",
+        "R3C6-prix-amicam-nord-est-prix-de-compiegne.html",
+        "R3C7-prix-les-saveurs-de-nos-fermes-prix-d-amiens.html",
+        "R3C8-prix-pmu-prix-du-touquet.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-communaute-de-communes-thierache-du-centre-prix-de-laon.html",
+        "R4C2-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R4C3-prix-du-conseil-departemental-de-l-aisne-prix-du-croise-laroche.html",
+        "R4C4-prix-pays-de-thierache-prix-d-arras.html",
+        "R4C5-prix-office-tourisme-pays-de-thierache-prix-de-saint-omer.html",
+        "R4C6-prix-amicam-nord-est-prix-de-compiegne.html",
+        "R4C7-prix-les-saveurs-de-nos-fermes-prix-d-amiens.html",
+        "R4C8-prix-pmu-prix-du-touquet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:43.924963Z"
+}

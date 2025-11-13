@@ -1,0 +1,79 @@
+{
+  "date": "2018-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/05/2018-05-24",
+    "date_html": "resultats-et-rapports/2018/05/2018-05-24/2018-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/05/2018-05-24/R1-paris-longchamp/R1C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R1-paris-longchamp/R1C2-prix-de-l-oratoire.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R1-paris-longchamp/R1C3-prix-de-montretout.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R1-paris-longchamp/R1C6-prix-de-pontarme.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R3-angers/R3C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R3-angers/R3C4-prix-des-orfevres.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R4-lyon-parilly/R4C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R4-lyon-parilly/R4C6-prix-de-pontarme.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R4-lyon-parilly/R4C7-prix-des-batignolles.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R5-pontchateau/R5C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R5-pontchateau/R5C3-prix-de-montretout.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R5-pontchateau/R5C4-prix-des-orfevres.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R5-pontchateau/R5C6-prix-de-pontarme.html",
+      "resultats-et-rapports/2018/05/2018-05-24/R5-pontchateau/R5C7-prix-des-batignolles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-angers",
+      "R4-lyon-parilly",
+      "R5-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-pont-alexandre-iii.html",
+        "R1C2-prix-de-l-oratoire.html",
+        "R1C3-prix-de-montretout.html",
+        "R1C4-prix-des-orfevres.html",
+        "R1C5-prix-des-epinettes.html",
+        "R1C6-prix-de-pontarme.html",
+        "R1C7-prix-des-batignolles.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-du-pont-alexandre-iii.html",
+        "R3C2-prix-de-l-oratoire.html",
+        "R3C3-prix-de-montretout.html",
+        "R3C4-prix-des-orfevres.html",
+        "R3C5-prix-des-epinettes.html",
+        "R3C6-prix-de-pontarme.html",
+        "R3C7-prix-des-batignolles.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-du-pont-alexandre-iii.html",
+        "R4C2-prix-de-l-oratoire.html",
+        "R4C3-prix-de-montretout.html",
+        "R4C4-prix-des-orfevres.html",
+        "R4C5-prix-des-epinettes.html",
+        "R4C6-prix-de-pontarme.html",
+        "R4C7-prix-des-batignolles.html"
+      ],
+      "R5-pontchateau": [
+        "R5C1-prix-du-pont-alexandre-iii.html",
+        "R5C2-prix-de-l-oratoire.html",
+        "R5C3-prix-de-montretout.html",
+        "R5C4-prix-des-orfevres.html",
+        "R5C5-prix-des-epinettes.html",
+        "R5C6-prix-de-pontarme.html",
+        "R5C7-prix-des-batignolles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:39.837207Z"
+}

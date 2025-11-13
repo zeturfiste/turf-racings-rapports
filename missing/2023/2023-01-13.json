@@ -1,0 +1,67 @@
+{
+  "date": "2023-01-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/01/2023-01-13",
+    "date_html": "resultats-et-rapports/2023/01/2023-01-13/2023-01-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/01/2023-01-13/R2-pau/R2C1-prix-du-trident.html",
+      "resultats-et-rapports/2023/01/2023-01-13/R2-pau/R2C5-prix-de-la-gare-transatlantique.html",
+      "resultats-et-rapports/2023/01/2023-01-13/R2-pau/R2C8-prix-de-cherbourg.html",
+      "resultats-et-rapports/2023/01/2023-01-13/R2-pau/R2C9-prix-de-la-gare-de-pointe-noire.html",
+      "resultats-et-rapports/2023/01/2023-01-13/R4-vincennes/R4C1-prix-du-trident.html",
+      "resultats-et-rapports/2023/01/2023-01-13/R4-vincennes/R4C5-prix-de-la-gare-transatlantique.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-pau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-trident.html",
+        "R1C2-prix-d-haspel.html",
+        "R1C3-prix-de-l-hotel-atlantique.html",
+        "R1C4-prix-de-balme.html",
+        "R1C5-prix-de-la-gare-transatlantique.html",
+        "R1C6-prix-de-la-gare-de-dalat.html",
+        "R1C7-prix-de-la-cite-de-la-mer.html",
+        "R1C8-prix-de-cherbourg.html",
+        "R1C9-prix-de-la-gare-de-pointe-noire.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-trident.html",
+        "R2C2-prix-d-haspel.html",
+        "R2C3-prix-de-l-hotel-atlantique.html",
+        "R2C4-prix-de-balme.html",
+        "R2C5-prix-de-la-gare-transatlantique.html",
+        "R2C6-prix-de-la-gare-de-dalat.html",
+        "R2C7-prix-de-la-cite-de-la-mer.html",
+        "R2C8-prix-de-cherbourg.html",
+        "R2C9-prix-de-la-gare-de-pointe-noire.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-trident.html",
+        "R4C2-prix-d-haspel.html",
+        "R4C3-prix-de-l-hotel-atlantique.html",
+        "R4C4-prix-de-balme.html",
+        "R4C5-prix-de-la-gare-transatlantique.html",
+        "R4C6-prix-de-la-gare-de-dalat.html",
+        "R4C7-prix-de-la-cite-de-la-mer.html",
+        "R4C8-prix-de-cherbourg.html",
+        "R4C9-prix-de-la-gare-de-pointe-noire.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:51.193287Z"
+}

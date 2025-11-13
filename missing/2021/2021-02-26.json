@@ -1,0 +1,64 @@
+{
+  "date": "2021-02-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-26",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-26/2021-02-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-26/R1-vincennes/R1C2-prix-de-draguignan.html",
+      "resultats-et-rapports/2021/02/2021-02-26/R1-vincennes/R1C4-prix-de-lauzun.html",
+      "resultats-et-rapports/2021/02/2021-02-26/R1-vincennes/R1C5-prix-de-vire-normandie.html",
+      "resultats-et-rapports/2021/02/2021-02-26/R3-chantilly/R3C2-prix-de-draguignan.html",
+      "resultats-et-rapports/2021/02/2021-02-26/R5-cagnes-sur-mer/R5C2-prix-de-draguignan.html",
+      "resultats-et-rapports/2021/02/2021-02-26/R5-cagnes-sur-mer/R5C8-prix-de-saint-pierre-la-cour.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-pont-l-eveque.html",
+        "R1C2-prix-de-draguignan.html",
+        "R1C3-prix-de-gavray.html",
+        "R1C4-prix-de-lauzun.html",
+        "R1C5-prix-de-vire-normandie.html",
+        "R1C6-prix-de-salbris.html",
+        "R1C7-prix-gallus-ii.html",
+        "R1C8-prix-de-saint-pierre-la-cour.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-pont-l-eveque.html",
+        "R3C2-prix-de-draguignan.html",
+        "R3C3-prix-de-gavray.html",
+        "R3C4-prix-de-lauzun.html",
+        "R3C5-prix-de-vire-normandie.html",
+        "R3C6-prix-de-salbris.html",
+        "R3C7-prix-gallus-ii.html",
+        "R3C8-prix-de-saint-pierre-la-cour.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-pont-l-eveque.html",
+        "R5C2-prix-de-draguignan.html",
+        "R5C3-prix-de-gavray.html",
+        "R5C4-prix-de-lauzun.html",
+        "R5C5-prix-de-vire-normandie.html",
+        "R5C6-prix-de-salbris.html",
+        "R5C7-prix-gallus-ii.html",
+        "R5C8-prix-de-saint-pierre-la-cour.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:46.245333Z"
+}

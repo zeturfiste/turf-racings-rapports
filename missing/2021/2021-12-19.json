@@ -1,0 +1,120 @@
+{
+  "date": "2021-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-19",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-19/2021-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-19/R1-vincennes/R1C4-criterium-des-3-ans.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R1-vincennes/R1C6-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R3-pau/R3C3-prix-trot-a-poney.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R3-pau/R3C4-criterium-des-3-ans.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R3-pau/R3C8-prix-de-briare.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R4-pornichet-la-baule/R4C2-prix-de-caumont.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R4-pornichet-la-baule/R4C4-criterium-des-3-ans.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R4-pornichet-la-baule/R4C7-prix-jean-dumouch.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R6-lyon-parilly/R6C1-prix-de-jonvelle.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R6-lyon-parilly/R6C2-prix-de-caumont.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R6-lyon-parilly/R6C8-prix-de-briare.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R7-argentan/R7C5-prix-le-parisien-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R7-argentan/R7C6-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R7-argentan/R7C7-prix-jean-dumouch.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R7-argentan/R7C9-prix-de-cancale.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C1-prix-de-jonvelle.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C2-prix-de-caumont.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C3-prix-trot-a-poney.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C4-criterium-des-3-ans.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C5-prix-le-parisien-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C6-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C7-prix-jean-dumouch.html",
+      "resultats-et-rapports/2021/12/2021-12-19/R8-bordeaux-le-bouscat/R8C8-prix-de-briare.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-pornichet-la-baule",
+      "R6-lyon-parilly",
+      "R7-argentan",
+      "R8-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-jonvelle.html",
+        "R1C2-prix-de-caumont.html",
+        "R1C3-prix-trot-a-poney.html",
+        "R1C4-criterium-des-3-ans.html",
+        "R1C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R1C6-prix-jules-lepennetier.html",
+        "R1C7-prix-jean-dumouch.html",
+        "R1C8-prix-de-briare.html",
+        "R1C9-prix-de-cancale.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-jonvelle.html",
+        "R3C2-prix-de-caumont.html",
+        "R3C3-prix-trot-a-poney.html",
+        "R3C4-criterium-des-3-ans.html",
+        "R3C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R3C6-prix-jules-lepennetier.html",
+        "R3C7-prix-jean-dumouch.html",
+        "R3C8-prix-de-briare.html",
+        "R3C9-prix-de-cancale.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-jonvelle.html",
+        "R4C2-prix-de-caumont.html",
+        "R4C3-prix-trot-a-poney.html",
+        "R4C4-criterium-des-3-ans.html",
+        "R4C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R4C6-prix-jules-lepennetier.html",
+        "R4C7-prix-jean-dumouch.html",
+        "R4C8-prix-de-briare.html",
+        "R4C9-prix-de-cancale.html"
+      ],
+      "R6-lyon-parilly": [
+        "R6C1-prix-de-jonvelle.html",
+        "R6C2-prix-de-caumont.html",
+        "R6C3-prix-trot-a-poney.html",
+        "R6C4-criterium-des-3-ans.html",
+        "R6C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R6C6-prix-jules-lepennetier.html",
+        "R6C7-prix-jean-dumouch.html",
+        "R6C8-prix-de-briare.html",
+        "R6C9-prix-de-cancale.html"
+      ],
+      "R7-argentan": [
+        "R7C1-prix-de-jonvelle.html",
+        "R7C2-prix-de-caumont.html",
+        "R7C3-prix-trot-a-poney.html",
+        "R7C4-criterium-des-3-ans.html",
+        "R7C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R7C6-prix-jules-lepennetier.html",
+        "R7C7-prix-jean-dumouch.html",
+        "R7C8-prix-de-briare.html",
+        "R7C9-prix-de-cancale.html"
+      ],
+      "R8-bordeaux-le-bouscat": [
+        "R8C1-prix-de-jonvelle.html",
+        "R8C2-prix-de-caumont.html",
+        "R8C3-prix-trot-a-poney.html",
+        "R8C4-criterium-des-3-ans.html",
+        "R8C5-prix-le-parisien-prix-general-du-pommeau.html",
+        "R8C6-prix-jules-lepennetier.html",
+        "R8C7-prix-jean-dumouch.html",
+        "R8C8-prix-de-briare.html",
+        "R8C9-prix-de-cancale.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:33.332538Z"
+}

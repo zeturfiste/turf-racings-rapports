@@ -1,0 +1,131 @@
+{
+  "date": "2011-06-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-02",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-02/2011-06-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-02/R1-lyon-parilly/R1C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R1-lyon-parilly/R1C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R1-lyon-parilly/R1C9-prix-marcel-callier.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R2-nantes/R2C1-prix-le-progres.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R2-nantes/R2C4-prix-melisande.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R2-nantes/R2C6-prix-laurent-descours.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R2-nantes/R2C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C2-prix-des-poulains.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C3-prix-des-cyclamens.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C4-prix-melisande.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C5-grande-course-de-haies-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C6-prix-laurent-descours.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R3-le-lion-d-angers/R3C9-prix-marcel-callier.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C1-prix-le-progres.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C2-prix-des-poulains.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C3-prix-des-cyclamens.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C4-prix-melisande.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C5-grande-course-de-haies-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C6-prix-laurent-descours.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R4-vire/R4C9-prix-marcel-callier.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R5-saint-brieuc/R5C2-prix-des-poulains.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R5-saint-brieuc/R5C3-prix-des-cyclamens.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R5-saint-brieuc/R5C6-prix-laurent-descours.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R5-saint-brieuc/R5C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C1-prix-le-progres.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C4-prix-melisande.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C5-grande-course-de-haies-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C6-prix-laurent-descours.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C7-grand-steeple-chase-de-lyon.html",
+      "resultats-et-rapports/2011/06/2011-06-02/R6-angouleme/R6C9-prix-marcel-callier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-nantes",
+      "R3-le-lion-d-angers",
+      "R4-vire",
+      "R5-saint-brieuc",
+      "R6-angouleme"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-le-progres.html",
+        "R1C2-prix-des-poulains.html",
+        "R1C3-prix-des-cyclamens.html",
+        "R1C4-prix-melisande.html",
+        "R1C5-grande-course-de-haies-de-lyon.html",
+        "R1C6-prix-laurent-descours.html",
+        "R1C7-grand-steeple-chase-de-lyon.html",
+        "R1C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R1C9-prix-marcel-callier.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-le-progres.html",
+        "R2C2-prix-des-poulains.html",
+        "R2C3-prix-des-cyclamens.html",
+        "R2C4-prix-melisande.html",
+        "R2C5-grande-course-de-haies-de-lyon.html",
+        "R2C6-prix-laurent-descours.html",
+        "R2C7-grand-steeple-chase-de-lyon.html",
+        "R2C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R2C9-prix-marcel-callier.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-le-progres.html",
+        "R3C2-prix-des-poulains.html",
+        "R3C3-prix-des-cyclamens.html",
+        "R3C4-prix-melisande.html",
+        "R3C5-grande-course-de-haies-de-lyon.html",
+        "R3C6-prix-laurent-descours.html",
+        "R3C7-grand-steeple-chase-de-lyon.html",
+        "R3C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R3C9-prix-marcel-callier.html"
+      ],
+      "R4-vire": [
+        "R4C1-prix-le-progres.html",
+        "R4C2-prix-des-poulains.html",
+        "R4C3-prix-des-cyclamens.html",
+        "R4C4-prix-melisande.html",
+        "R4C5-grande-course-de-haies-de-lyon.html",
+        "R4C6-prix-laurent-descours.html",
+        "R4C7-grand-steeple-chase-de-lyon.html",
+        "R4C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R4C9-prix-marcel-callier.html"
+      ],
+      "R5-saint-brieuc": [
+        "R5C1-prix-le-progres.html",
+        "R5C2-prix-des-poulains.html",
+        "R5C3-prix-des-cyclamens.html",
+        "R5C4-prix-melisande.html",
+        "R5C5-grande-course-de-haies-de-lyon.html",
+        "R5C6-prix-laurent-descours.html",
+        "R5C7-grand-steeple-chase-de-lyon.html",
+        "R5C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R5C9-prix-marcel-callier.html"
+      ],
+      "R6-angouleme": [
+        "R6C1-prix-le-progres.html",
+        "R6C2-prix-des-poulains.html",
+        "R6C3-prix-des-cyclamens.html",
+        "R6C4-prix-melisande.html",
+        "R6C5-grande-course-de-haies-de-lyon.html",
+        "R6C6-prix-laurent-descours.html",
+        "R6C7-grand-steeple-chase-de-lyon.html",
+        "R6C8-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R6C9-prix-marcel-callier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:07.211054Z"
+}

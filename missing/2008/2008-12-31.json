@@ -1,0 +1,99 @@
+{
+  "date": "2008-12-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-31",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-31/2008-12-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-31/R2-deauville/R2C1-prix-de-poitiers.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R2-deauville/R2C5-prix-de-valognes.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R2-deauville/R2C8-prix-de-charleville-gr-a.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R2-deauville/R2C9-prix-de-charleville-gr-b.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C2-prix-de-lignieres.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C3-prix-de-saint-ouen-des-toits.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C5-prix-de-valognes.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C6-prix-de-tournon.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C7-prix-de-pontchateau.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C8-prix-de-charleville-gr-a.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R3-deauville-midi/R3C9-prix-de-charleville-gr-b.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C1-prix-de-poitiers.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C2-prix-de-lignieres.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C3-prix-de-saint-ouen-des-toits.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C4-prix-des-oeillets.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C5-prix-de-valognes.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C6-prix-de-tournon.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C7-prix-de-pontchateau.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C8-prix-de-charleville-gr-a.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R1-vincennes/R1C9-prix-de-charleville-gr-b.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C1-prix-de-poitiers.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C2-prix-de-lignieres.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C4-prix-des-oeillets.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C6-prix-de-tournon.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C8-prix-de-charleville-gr-a.html",
+      "resultats-et-rapports/2008/12/2008-12-31/R31-zerace/R31C9-prix-de-charleville-gr-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-deauville",
+      "R3-deauville-midi",
+      "R1-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R2-deauville": [
+        "R2C1-prix-de-poitiers.html",
+        "R2C2-prix-de-lignieres.html",
+        "R2C3-prix-de-saint-ouen-des-toits.html",
+        "R2C4-prix-des-oeillets.html",
+        "R2C5-prix-de-valognes.html",
+        "R2C6-prix-de-tournon.html",
+        "R2C7-prix-de-pontchateau.html",
+        "R2C8-prix-de-charleville-gr-a.html",
+        "R2C9-prix-de-charleville-gr-b.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-poitiers.html",
+        "R3C2-prix-de-lignieres.html",
+        "R3C3-prix-de-saint-ouen-des-toits.html",
+        "R3C4-prix-des-oeillets.html",
+        "R3C5-prix-de-valognes.html",
+        "R3C6-prix-de-tournon.html",
+        "R3C7-prix-de-pontchateau.html",
+        "R3C8-prix-de-charleville-gr-a.html",
+        "R3C9-prix-de-charleville-gr-b.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-de-poitiers.html",
+        "R1C2-prix-de-lignieres.html",
+        "R1C3-prix-de-saint-ouen-des-toits.html",
+        "R1C4-prix-des-oeillets.html",
+        "R1C5-prix-de-valognes.html",
+        "R1C6-prix-de-tournon.html",
+        "R1C7-prix-de-pontchateau.html",
+        "R1C8-prix-de-charleville-gr-a.html",
+        "R1C9-prix-de-charleville-gr-b.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-poitiers.html",
+        "R31C2-prix-de-lignieres.html",
+        "R31C3-prix-de-saint-ouen-des-toits.html",
+        "R31C4-prix-des-oeillets.html",
+        "R31C5-prix-de-valognes.html",
+        "R31C6-prix-de-tournon.html",
+        "R31C7-prix-de-pontchateau.html",
+        "R31C8-prix-de-charleville-gr-a.html",
+        "R31C9-prix-de-charleville-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:34:11.209601Z"
+}

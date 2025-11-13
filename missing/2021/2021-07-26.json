@@ -1,0 +1,100 @@
+{
+  "date": "2021-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/07/2021-07-26",
+    "date_html": "resultats-et-rapports/2021/07/2021-07-26/2021-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/07/2021-07-26/R1-dieppe/R1C5-prix-lc-vins-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R3-la-rochelle/R3C3-prix-trevise.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R3-la-rochelle/R3C5-prix-lc-vins-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R3-la-rochelle/R3C6-prix-bago.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R3-la-rochelle/R3C9-prix-des-guinguettes.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R5-cagnes-sur-mer/R5C6-prix-bago.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R5-cagnes-sur-mer/R5C7-prix-du-quai-henri-iv.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C1-prix-toyota-toys-motors-prix-de-sussex.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C2-prix-city-light.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C4-prix-d-amphitrite.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C5-prix-lc-vins-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C6-prix-bago.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C7-prix-du-quai-henri-iv.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C8-prix-yaris-cross-prix-du-grand-pont.html",
+      "resultats-et-rapports/2021/07/2021-07-26/R6-aix-les-bains/R6C9-prix-des-guinguettes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R3-la-rochelle",
+      "R4-la-teste-de-buch",
+      "R5-cagnes-sur-mer",
+      "R6-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-toyota-toys-motors-prix-de-sussex.html",
+        "R1C2-prix-city-light.html",
+        "R1C3-prix-trevise.html",
+        "R1C4-prix-d-amphitrite.html",
+        "R1C5-prix-lc-vins-prix-des-bancs-couverts.html",
+        "R1C6-prix-bago.html",
+        "R1C7-prix-du-quai-henri-iv.html",
+        "R1C8-prix-yaris-cross-prix-du-grand-pont.html",
+        "R1C9-prix-des-guinguettes.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-toyota-toys-motors-prix-de-sussex.html",
+        "R3C2-prix-city-light.html",
+        "R3C3-prix-trevise.html",
+        "R3C4-prix-d-amphitrite.html",
+        "R3C5-prix-lc-vins-prix-des-bancs-couverts.html",
+        "R3C6-prix-bago.html",
+        "R3C7-prix-du-quai-henri-iv.html",
+        "R3C8-prix-yaris-cross-prix-du-grand-pont.html",
+        "R3C9-prix-des-guinguettes.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-toyota-toys-motors-prix-de-sussex.html",
+        "R4C2-prix-city-light.html",
+        "R4C3-prix-trevise.html",
+        "R4C4-prix-d-amphitrite.html",
+        "R4C5-prix-lc-vins-prix-des-bancs-couverts.html",
+        "R4C6-prix-bago.html",
+        "R4C7-prix-du-quai-henri-iv.html",
+        "R4C8-prix-yaris-cross-prix-du-grand-pont.html",
+        "R4C9-prix-des-guinguettes.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-toyota-toys-motors-prix-de-sussex.html",
+        "R5C2-prix-city-light.html",
+        "R5C3-prix-trevise.html",
+        "R5C4-prix-d-amphitrite.html",
+        "R5C5-prix-lc-vins-prix-des-bancs-couverts.html",
+        "R5C6-prix-bago.html",
+        "R5C7-prix-du-quai-henri-iv.html",
+        "R5C8-prix-yaris-cross-prix-du-grand-pont.html",
+        "R5C9-prix-des-guinguettes.html"
+      ],
+      "R6-aix-les-bains": [
+        "R6C1-prix-toyota-toys-motors-prix-de-sussex.html",
+        "R6C2-prix-city-light.html",
+        "R6C3-prix-trevise.html",
+        "R6C4-prix-d-amphitrite.html",
+        "R6C5-prix-lc-vins-prix-des-bancs-couverts.html",
+        "R6C6-prix-bago.html",
+        "R6C7-prix-du-quai-henri-iv.html",
+        "R6C8-prix-yaris-cross-prix-du-grand-pont.html",
+        "R6C9-prix-des-guinguettes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:40.197553Z"
+}

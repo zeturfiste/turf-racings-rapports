@@ -1,0 +1,84 @@
+{
+  "date": "2016-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-22",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-22/2016-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-22/R1-chantilly/R1C3-prix-de-la-foret-d-ermenonville.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R1-chantilly/R1C5-prix-herod.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R1-chantilly/R1C6-prix-de-la-foret-de-retz.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R1-chantilly/R1C8-prix-de-la-foret-de-montmorency.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R2-lyon-parilly/R2C1-prix-des-daguets.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R2-lyon-parilly/R2C3-prix-de-la-foret-d-ermenonville.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R3-marseille-vivaux/R3C2-prix-des-biches.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R3-marseille-vivaux/R3C5-prix-herod.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R3-marseille-vivaux/R3C6-prix-de-la-foret-de-retz.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R3-marseille-vivaux/R3C7-prix-de-la-foret-de-l-isle-adam.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R5-vincennes/R5C1-prix-des-daguets.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R5-vincennes/R5C5-prix-herod.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R5-vincennes/R5C6-prix-de-la-foret-de-retz.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R5-vincennes/R5C7-prix-de-la-foret-de-l-isle-adam.html",
+      "resultats-et-rapports/2016/11/2016-11-22/R5-vincennes/R5C8-prix-de-la-foret-de-montmorency.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-lyon-parilly",
+      "R3-marseille-vivaux",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-daguets.html",
+        "R1C2-prix-des-biches.html",
+        "R1C3-prix-de-la-foret-d-ermenonville.html",
+        "R1C4-prix-du-puits.html",
+        "R1C5-prix-herod.html",
+        "R1C6-prix-de-la-foret-de-retz.html",
+        "R1C7-prix-de-la-foret-de-l-isle-adam.html",
+        "R1C8-prix-de-la-foret-de-montmorency.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-des-daguets.html",
+        "R2C2-prix-des-biches.html",
+        "R2C3-prix-de-la-foret-d-ermenonville.html",
+        "R2C4-prix-du-puits.html",
+        "R2C5-prix-herod.html",
+        "R2C6-prix-de-la-foret-de-retz.html",
+        "R2C7-prix-de-la-foret-de-l-isle-adam.html",
+        "R2C8-prix-de-la-foret-de-montmorency.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-des-daguets.html",
+        "R3C2-prix-des-biches.html",
+        "R3C3-prix-de-la-foret-d-ermenonville.html",
+        "R3C4-prix-du-puits.html",
+        "R3C5-prix-herod.html",
+        "R3C6-prix-de-la-foret-de-retz.html",
+        "R3C7-prix-de-la-foret-de-l-isle-adam.html",
+        "R3C8-prix-de-la-foret-de-montmorency.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-des-daguets.html",
+        "R5C2-prix-des-biches.html",
+        "R5C3-prix-de-la-foret-d-ermenonville.html",
+        "R5C4-prix-du-puits.html",
+        "R5C5-prix-herod.html",
+        "R5C6-prix-de-la-foret-de-retz.html",
+        "R5C7-prix-de-la-foret-de-l-isle-adam.html",
+        "R5C8-prix-de-la-foret-de-montmorency.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:58.409176Z"
+}

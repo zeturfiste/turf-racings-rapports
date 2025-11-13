@@ -1,0 +1,89 @@
+{
+  "date": "2022-06-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-03",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-03/2022-06-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-03/R1-vincennes/R1C1-prix-pythia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R1-vincennes/R1C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R1-vincennes/R1C5-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R1-vincennes/R1C6-etrier-4-ans-qualif-3-prix-lavater.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R1-vincennes/R1C7-prix-abundantia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C1-prix-pythia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C2-prix-klotho.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C5-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C6-etrier-4-ans-qualif-3-prix-lavater.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R3-marseille-borely/R3C7-prix-abundantia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C2-prix-klotho.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C4-prix-kissa.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C5-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C6-etrier-4-ans-qualif-3-prix-lavater.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R4-compiegne/R4C7-prix-abundantia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C1-prix-pythia.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C2-prix-klotho.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C4-prix-kissa.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C5-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C6-etrier-4-ans-qualif-3-prix-lavater.html",
+      "resultats-et-rapports/2022/06/2022-06-03/R5-toulouse/R5C7-prix-abundantia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-compiegne",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-pythia.html",
+        "R1C2-prix-klotho.html",
+        "R1C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+        "R1C4-prix-kissa.html",
+        "R1C5-prix-de-clairefontaine.html",
+        "R1C6-etrier-4-ans-qualif-3-prix-lavater.html",
+        "R1C7-prix-abundantia.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-pythia.html",
+        "R3C2-prix-klotho.html",
+        "R3C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+        "R3C4-prix-kissa.html",
+        "R3C5-prix-de-clairefontaine.html",
+        "R3C6-etrier-4-ans-qualif-3-prix-lavater.html",
+        "R3C7-prix-abundantia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-pythia.html",
+        "R4C2-prix-klotho.html",
+        "R4C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+        "R4C4-prix-kissa.html",
+        "R4C5-prix-de-clairefontaine.html",
+        "R4C6-etrier-4-ans-qualif-3-prix-lavater.html",
+        "R4C7-prix-abundantia.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-pythia.html",
+        "R5C2-prix-klotho.html",
+        "R5C3-etrier-5-ans-qualif-3-prix-victor-cavey.html",
+        "R5C4-prix-kissa.html",
+        "R5C5-prix-de-clairefontaine.html",
+        "R5C6-etrier-4-ans-qualif-3-prix-lavater.html",
+        "R5C7-prix-abundantia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:29.829468Z"
+}

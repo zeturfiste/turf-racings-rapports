@@ -1,0 +1,72 @@
+{
+  "date": "2021-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-18",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-18/2021-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-18/R3-dieppe/R3C4-prix-dido.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R3-dieppe/R3C6-prix-lomia.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R4-la-teste-de-buch/R4C1-prix-tolosa.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R4-la-teste-de-buch/R4C5-prix-coronis.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R4-la-teste-de-buch/R4C6-prix-lomia.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R5-laval/R5C1-prix-tolosa.html",
+      "resultats-et-rapports/2021/06/2021-06-18/R5-laval/R5C7-prix-pariana.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-dieppe",
+      "R4-la-teste-de-buch",
+      "R5-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-tolosa.html",
+        "R1C2-prix-celuta.html",
+        "R1C3-prix-eudora.html",
+        "R1C4-prix-dido.html",
+        "R1C5-prix-coronis.html",
+        "R1C6-prix-lomia.html",
+        "R1C7-prix-pariana.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-tolosa.html",
+        "R3C2-prix-celuta.html",
+        "R3C3-prix-eudora.html",
+        "R3C4-prix-dido.html",
+        "R3C5-prix-coronis.html",
+        "R3C6-prix-lomia.html",
+        "R3C7-prix-pariana.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-tolosa.html",
+        "R4C2-prix-celuta.html",
+        "R4C3-prix-eudora.html",
+        "R4C4-prix-dido.html",
+        "R4C5-prix-coronis.html",
+        "R4C6-prix-lomia.html",
+        "R4C7-prix-pariana.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-tolosa.html",
+        "R5C2-prix-celuta.html",
+        "R5C3-prix-eudora.html",
+        "R5C4-prix-dido.html",
+        "R5C5-prix-coronis.html",
+        "R5C6-prix-lomia.html",
+        "R5C7-prix-pariana.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:25.645082Z"
+}

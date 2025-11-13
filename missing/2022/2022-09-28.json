@@ -1,0 +1,78 @@
+{
+  "date": "2022-09-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-28",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-28/2022-09-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-28/R1-vire/R1C5-prix-blc-assistance-vire-normandie.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R3-le-mans/R3C5-prix-blc-assistance-vire-normandie.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R3-le-mans/R3C6-prix-de-la-ville-de-vire-normandie.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R4-toulouse/R4C1-grand-national-du-trot-paristurf.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R4-toulouse/R4C5-prix-blc-assistance-vire-normandie.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R4-toulouse/R4C8-prix-elevage-de-la-verderie-prix-commune-de-simple.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R8-marseille-borely/R8C1-grand-national-du-trot-paristurf.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R8-marseille-borely/R8C3-prix-equilibre-et-instinct-normandise.html",
+      "resultats-et-rapports/2022/09/2022-09-28/R8-marseille-borely/R8C7-prix-normandise-pet-food.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vire",
+      "R3-le-mans",
+      "R4-toulouse",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vire": [
+        "R1C1-grand-national-du-trot-paristurf.html",
+        "R1C2-prix-pmu-le-derby-vire-normandie.html",
+        "R1C3-prix-equilibre-et-instinct-normandise.html",
+        "R1C4-prix-serge-have-sport-vire-normandie.html",
+        "R1C5-prix-blc-assistance-vire-normandie.html",
+        "R1C6-prix-de-la-ville-de-vire-normandie.html",
+        "R1C7-prix-normandise-pet-food.html",
+        "R1C8-prix-elevage-de-la-verderie-prix-commune-de-simple.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-grand-national-du-trot-paristurf.html",
+        "R3C2-prix-pmu-le-derby-vire-normandie.html",
+        "R3C3-prix-equilibre-et-instinct-normandise.html",
+        "R3C4-prix-serge-have-sport-vire-normandie.html",
+        "R3C5-prix-blc-assistance-vire-normandie.html",
+        "R3C6-prix-de-la-ville-de-vire-normandie.html",
+        "R3C7-prix-normandise-pet-food.html",
+        "R3C8-prix-elevage-de-la-verderie-prix-commune-de-simple.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-national-du-trot-paristurf.html",
+        "R4C2-prix-pmu-le-derby-vire-normandie.html",
+        "R4C3-prix-equilibre-et-instinct-normandise.html",
+        "R4C4-prix-serge-have-sport-vire-normandie.html",
+        "R4C5-prix-blc-assistance-vire-normandie.html",
+        "R4C6-prix-de-la-ville-de-vire-normandie.html",
+        "R4C7-prix-normandise-pet-food.html",
+        "R4C8-prix-elevage-de-la-verderie-prix-commune-de-simple.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-grand-national-du-trot-paristurf.html",
+        "R8C2-prix-pmu-le-derby-vire-normandie.html",
+        "R8C3-prix-equilibre-et-instinct-normandise.html",
+        "R8C4-prix-serge-have-sport-vire-normandie.html",
+        "R8C5-prix-blc-assistance-vire-normandie.html",
+        "R8C6-prix-de-la-ville-de-vire-normandie.html",
+        "R8C7-prix-normandise-pet-food.html",
+        "R8C8-prix-elevage-de-la-verderie-prix-commune-de-simple.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:13.566292Z"
+}

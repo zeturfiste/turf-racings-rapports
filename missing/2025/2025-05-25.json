@@ -1,0 +1,102 @@
+{
+  "date": "2025-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-25",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-25/2025-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-25/R1-paris-longchamp/R1C4-prix-des-epinettes.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R1-paris-longchamp/R1C9-prix-de-la-rue-du-chat-qui-peche.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R3-vichy/R3C3-prix-du-palais-royal.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R3-vichy/R3C4-prix-des-epinettes.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R3-vichy/R3C5-prix-d-ispahan.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R3-vichy/R3C6-prix-vicomtesse-vigier.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R4-argentan/R4C1-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R4-argentan/R4C9-prix-de-la-rue-du-chat-qui-peche.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R5-villeneuve-sur-lot/R5C4-prix-des-epinettes.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R5-villeneuve-sur-lot/R5C6-prix-vicomtesse-vigier.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R5-villeneuve-sur-lot/R5C7-prix-des-batignolles.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R5-villeneuve-sur-lot/R5C8-prix-de-la-rue-cremieux.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R5-villeneuve-sur-lot/R5C9-prix-de-la-rue-du-chat-qui-peche.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R6-chateaubriant/R6C1-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R6-chateaubriant/R6C3-prix-du-palais-royal.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R6-chateaubriant/R6C6-prix-vicomtesse-vigier.html",
+      "resultats-et-rapports/2025/05/2025-05-25/R6-chateaubriant/R6C9-prix-de-la-rue-du-chat-qui-peche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-vichy",
+      "R4-argentan",
+      "R5-villeneuve-sur-lot",
+      "R6-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-haras-royal-de-meudon.html",
+        "R1C2-prix-de-nanterre.html",
+        "R1C3-prix-du-palais-royal.html",
+        "R1C4-prix-des-epinettes.html",
+        "R1C5-prix-d-ispahan.html",
+        "R1C6-prix-vicomtesse-vigier.html",
+        "R1C7-prix-des-batignolles.html",
+        "R1C8-prix-de-la-rue-cremieux.html",
+        "R1C9-prix-de-la-rue-du-chat-qui-peche.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-du-haras-royal-de-meudon.html",
+        "R3C2-prix-de-nanterre.html",
+        "R3C3-prix-du-palais-royal.html",
+        "R3C4-prix-des-epinettes.html",
+        "R3C5-prix-d-ispahan.html",
+        "R3C6-prix-vicomtesse-vigier.html",
+        "R3C7-prix-des-batignolles.html",
+        "R3C8-prix-de-la-rue-cremieux.html",
+        "R3C9-prix-de-la-rue-du-chat-qui-peche.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-du-haras-royal-de-meudon.html",
+        "R4C2-prix-de-nanterre.html",
+        "R4C3-prix-du-palais-royal.html",
+        "R4C4-prix-des-epinettes.html",
+        "R4C5-prix-d-ispahan.html",
+        "R4C6-prix-vicomtesse-vigier.html",
+        "R4C7-prix-des-batignolles.html",
+        "R4C8-prix-de-la-rue-cremieux.html",
+        "R4C9-prix-de-la-rue-du-chat-qui-peche.html"
+      ],
+      "R5-villeneuve-sur-lot": [
+        "R5C1-prix-du-haras-royal-de-meudon.html",
+        "R5C2-prix-de-nanterre.html",
+        "R5C3-prix-du-palais-royal.html",
+        "R5C4-prix-des-epinettes.html",
+        "R5C5-prix-d-ispahan.html",
+        "R5C6-prix-vicomtesse-vigier.html",
+        "R5C7-prix-des-batignolles.html",
+        "R5C8-prix-de-la-rue-cremieux.html",
+        "R5C9-prix-de-la-rue-du-chat-qui-peche.html"
+      ],
+      "R6-chateaubriant": [
+        "R6C1-prix-du-haras-royal-de-meudon.html",
+        "R6C2-prix-de-nanterre.html",
+        "R6C3-prix-du-palais-royal.html",
+        "R6C4-prix-des-epinettes.html",
+        "R6C5-prix-d-ispahan.html",
+        "R6C6-prix-vicomtesse-vigier.html",
+        "R6C7-prix-des-batignolles.html",
+        "R6C8-prix-de-la-rue-cremieux.html",
+        "R6C9-prix-de-la-rue-du-chat-qui-peche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:58.686483Z"
+}

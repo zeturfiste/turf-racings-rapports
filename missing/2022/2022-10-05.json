@@ -1,0 +1,91 @@
+{
+  "date": "2022-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-05",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-05/2022-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C3-prix-actual-prix-seduisant-fouteau.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C4-prix-bleu-blanc-prix-alpha-saltor.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C5-prix-stade-lavallois-mfc-prix-vigove.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C7-prix-andre-carrus-prix-gala-tejy.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R1-laval/R1C8-prix-france-bleu-mayenne-prix-viking-de-val.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C3-prix-actual-prix-seduisant-fouteau.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C4-prix-bleu-blanc-prix-alpha-saltor.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C5-prix-stade-lavallois-mfc-prix-vigove.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R3-chantilly/R3C7-prix-andre-carrus-prix-gala-tejy.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R4-pornichet-la-baule/R4C1-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R4-pornichet-la-baule/R4C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R4-pornichet-la-baule/R4C3-prix-actual-prix-seduisant-fouteau.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R4-pornichet-la-baule/R4C4-prix-bleu-blanc-prix-alpha-saltor.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R4-pornichet-la-baule/R4C7-prix-andre-carrus-prix-gala-tejy.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R5-lyon-la-soie/R5C1-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R5-lyon-la-soie/R5C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R5-lyon-la-soie/R5C5-prix-stade-lavallois-mfc-prix-vigove.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R5-lyon-la-soie/R5C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+      "resultats-et-rapports/2022/10/2022-10-05/R5-lyon-la-soie/R5C7-prix-andre-carrus-prix-gala-tejy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-chantilly",
+      "R4-pornichet-la-baule",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-anjou-maine.html",
+        "R1C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+        "R1C3-prix-actual-prix-seduisant-fouteau.html",
+        "R1C4-prix-bleu-blanc-prix-alpha-saltor.html",
+        "R1C5-prix-stade-lavallois-mfc-prix-vigove.html",
+        "R1C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+        "R1C7-prix-andre-carrus-prix-gala-tejy.html",
+        "R1C8-prix-france-bleu-mayenne-prix-viking-de-val.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-prix-anjou-maine.html",
+        "R3C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+        "R3C3-prix-actual-prix-seduisant-fouteau.html",
+        "R3C4-prix-bleu-blanc-prix-alpha-saltor.html",
+        "R3C5-prix-stade-lavallois-mfc-prix-vigove.html",
+        "R3C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+        "R3C7-prix-andre-carrus-prix-gala-tejy.html",
+        "R3C8-prix-france-bleu-mayenne-prix-viking-de-val.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-grand-prix-anjou-maine.html",
+        "R4C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+        "R4C3-prix-actual-prix-seduisant-fouteau.html",
+        "R4C4-prix-bleu-blanc-prix-alpha-saltor.html",
+        "R4C5-prix-stade-lavallois-mfc-prix-vigove.html",
+        "R4C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+        "R4C7-prix-andre-carrus-prix-gala-tejy.html",
+        "R4C8-prix-france-bleu-mayenne-prix-viking-de-val.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-grand-prix-anjou-maine.html",
+        "R5C2-prix-v-b-monbana-mayenne-prix-tiego-d-etang.html",
+        "R5C3-prix-actual-prix-seduisant-fouteau.html",
+        "R5C4-prix-bleu-blanc-prix-alpha-saltor.html",
+        "R5C5-prix-stade-lavallois-mfc-prix-vigove.html",
+        "R5C6-prix-horse-rail-cloture-concept-prix-anna-mix.html",
+        "R5C7-prix-andre-carrus-prix-gala-tejy.html",
+        "R5C8-prix-france-bleu-mayenne-prix-viking-de-val.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:16.100926Z"
+}

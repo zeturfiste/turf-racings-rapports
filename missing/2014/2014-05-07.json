@@ -1,0 +1,67 @@
+{
+  "date": "2014-05-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/05/2014-05-07",
+    "date_html": "resultats-et-rapports/2014/05/2014-05-07/2014-05-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/05/2014-05-07/R1-chantilly/R1C5-prix-des-bourgognes.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R2-mauquenchy/R2C2-prix-de-senailly.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R2-mauquenchy/R2C4-prix-du-mont-alta.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R2-mauquenchy/R2C5-prix-des-bourgognes.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R2-mauquenchy/R2C8-prix-escaline.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R3-strasbourg/R3C1-prix-des-brulis.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R3-strasbourg/R3C2-prix-de-senailly.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R3-strasbourg/R3C7-prix-des-champarts.html",
+      "resultats-et-rapports/2014/05/2014-05-07/R3-strasbourg/R3C8-prix-escaline.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-mauquenchy",
+      "R3-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-brulis.html",
+        "R1C2-prix-de-senailly.html",
+        "R1C3-prix-de-la-ville-de-lamorlaye-prix-dunette.html",
+        "R1C4-prix-du-mont-alta.html",
+        "R1C5-prix-des-bourgognes.html",
+        "R1C6-prix-du-bois-de-perthe.html",
+        "R1C7-prix-des-champarts.html",
+        "R1C8-prix-escaline.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-des-brulis.html",
+        "R2C2-prix-de-senailly.html",
+        "R2C3-prix-de-la-ville-de-lamorlaye-prix-dunette.html",
+        "R2C4-prix-du-mont-alta.html",
+        "R2C5-prix-des-bourgognes.html",
+        "R2C6-prix-du-bois-de-perthe.html",
+        "R2C7-prix-des-champarts.html",
+        "R2C8-prix-escaline.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-des-brulis.html",
+        "R3C2-prix-de-senailly.html",
+        "R3C3-prix-de-la-ville-de-lamorlaye-prix-dunette.html",
+        "R3C4-prix-du-mont-alta.html",
+        "R3C5-prix-des-bourgognes.html",
+        "R3C6-prix-du-bois-de-perthe.html",
+        "R3C7-prix-des-champarts.html",
+        "R3C8-prix-escaline.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:10.845301Z"
+}

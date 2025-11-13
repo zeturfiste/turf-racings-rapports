@@ -1,0 +1,138 @@
+{
+  "date": "2007-12-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-07",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-07/2007-12-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-07/R2-rouen/R2C4-prix-le-hon.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R2-rouen/R2C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R2-rouen/R2C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R2-rouen/R2C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R3-vincennes/R3C1-prix-kerym.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R3-vincennes/R3C2-prix-elseneur.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R3-vincennes/R3C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R5-lyon-parilly/R5C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R5-lyon-parilly/R5C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R5-lyon-parilly/R5C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C1-prix-kerym.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C2-prix-elseneur.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C3-prix-royal-junior.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C4-prix-le-hon.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R6-marseille-vivaux/R6C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C1-prix-kerym.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C2-prix-elseneur.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C3-prix-royal-junior.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C4-prix-le-hon.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R31-zerace/R31C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R70-stade-lesdiguieres-grenoble/R70C2-prix-elseneur.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R70-stade-lesdiguieres-grenoble/R70C3-prix-royal-junior.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R70-stade-lesdiguieres-grenoble/R70C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R70-stade-lesdiguieres-grenoble/R70C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R71-star-academy/R71C1-prix-kerym.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R71-star-academy/R71C4-prix-le-hon.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R71-star-academy/R71C5-prix-leopold-bara.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R71-star-academy/R71C6-prix-oeneas.html",
+      "resultats-et-rapports/2007/12/2007-12-07/R71-star-academy/R71C7-prix-barcelonnette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-rouen",
+      "R3-vincennes",
+      "R5-lyon-parilly",
+      "R6-marseille-vivaux",
+      "R31-zerace",
+      "R70-stade-lesdiguieres-grenoble",
+      "R71-star-academy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-kerym.html",
+        "R1C2-prix-elseneur.html",
+        "R1C3-prix-royal-junior.html",
+        "R1C4-prix-le-hon.html",
+        "R1C5-prix-leopold-bara.html",
+        "R1C6-prix-oeneas.html",
+        "R1C7-prix-barcelonnette.html"
+      ],
+      "R2-rouen": [
+        "R2C1-prix-kerym.html",
+        "R2C2-prix-elseneur.html",
+        "R2C3-prix-royal-junior.html",
+        "R2C4-prix-le-hon.html",
+        "R2C5-prix-leopold-bara.html",
+        "R2C6-prix-oeneas.html",
+        "R2C7-prix-barcelonnette.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-kerym.html",
+        "R3C2-prix-elseneur.html",
+        "R3C3-prix-royal-junior.html",
+        "R3C4-prix-le-hon.html",
+        "R3C5-prix-leopold-bara.html",
+        "R3C6-prix-oeneas.html",
+        "R3C7-prix-barcelonnette.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-kerym.html",
+        "R5C2-prix-elseneur.html",
+        "R5C3-prix-royal-junior.html",
+        "R5C4-prix-le-hon.html",
+        "R5C5-prix-leopold-bara.html",
+        "R5C6-prix-oeneas.html",
+        "R5C7-prix-barcelonnette.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-kerym.html",
+        "R6C2-prix-elseneur.html",
+        "R6C3-prix-royal-junior.html",
+        "R6C4-prix-le-hon.html",
+        "R6C5-prix-leopold-bara.html",
+        "R6C6-prix-oeneas.html",
+        "R6C7-prix-barcelonnette.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-kerym.html",
+        "R31C2-prix-elseneur.html",
+        "R31C3-prix-royal-junior.html",
+        "R31C4-prix-le-hon.html",
+        "R31C5-prix-leopold-bara.html",
+        "R31C6-prix-oeneas.html",
+        "R31C7-prix-barcelonnette.html"
+      ],
+      "R70-stade-lesdiguieres-grenoble": [
+        "R70C1-prix-kerym.html",
+        "R70C2-prix-elseneur.html",
+        "R70C3-prix-royal-junior.html",
+        "R70C4-prix-le-hon.html",
+        "R70C5-prix-leopold-bara.html",
+        "R70C6-prix-oeneas.html",
+        "R70C7-prix-barcelonnette.html"
+      ],
+      "R71-star-academy": [
+        "R71C1-prix-kerym.html",
+        "R71C2-prix-elseneur.html",
+        "R71C3-prix-royal-junior.html",
+        "R71C4-prix-le-hon.html",
+        "R71C5-prix-leopold-bara.html",
+        "R71C6-prix-oeneas.html",
+        "R71C7-prix-barcelonnette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:13.443065Z"
+}

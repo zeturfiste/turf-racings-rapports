@@ -1,0 +1,93 @@
+{
+  "date": "2013-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-18",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-18/2013-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C1-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C3-prix-crustafrais-prix-bontemps.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C7-prix-cci-de-dieppe-prix-ribault.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R1-dieppe/R1C8-prix-dreamwell-prix-guy-de-maupassant.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C1-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C3-prix-crustafrais-prix-bontemps.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R2-les-sables-d-olonne/R2C8-prix-dreamwell-prix-guy-de-maupassant.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R3-dax/R3C3-prix-crustafrais-prix-bontemps.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R3-dax/R3C9-prix-resonance-prix-gustave-rouland.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R4-vincennes/R4C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R4-vincennes/R4C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R4-vincennes/R4C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+      "resultats-et-rapports/2013/06/2013-06-18/R4-vincennes/R4C9-prix-resonance-prix-gustave-rouland.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-les-sables-d-olonne",
+      "R3-dax",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-region-haute-normandie.html",
+        "R1C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+        "R1C3-prix-crustafrais-prix-bontemps.html",
+        "R1C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+        "R1C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+        "R1C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+        "R1C7-prix-cci-de-dieppe-prix-ribault.html",
+        "R1C8-prix-dreamwell-prix-guy-de-maupassant.html",
+        "R1C9-prix-resonance-prix-gustave-rouland.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-region-haute-normandie.html",
+        "R2C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+        "R2C3-prix-crustafrais-prix-bontemps.html",
+        "R2C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+        "R2C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+        "R2C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+        "R2C7-prix-cci-de-dieppe-prix-ribault.html",
+        "R2C8-prix-dreamwell-prix-guy-de-maupassant.html",
+        "R2C9-prix-resonance-prix-gustave-rouland.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-region-haute-normandie.html",
+        "R3C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+        "R3C3-prix-crustafrais-prix-bontemps.html",
+        "R3C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+        "R3C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+        "R3C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+        "R3C7-prix-cci-de-dieppe-prix-ribault.html",
+        "R3C8-prix-dreamwell-prix-guy-de-maupassant.html",
+        "R3C9-prix-resonance-prix-gustave-rouland.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-region-haute-normandie.html",
+        "R4C2-prix-de-la-ville-de-hautot-sur-mer-prix-monet.html",
+        "R4C3-prix-crustafrais-prix-bontemps.html",
+        "R4C4-prix-du-jockey-club-de-belgique-prix-champlain.html",
+        "R4C5-prix-credit-agricole-normandie-seine-prix-bethencourt.html",
+        "R4C6-prix-du-haras-du-bois-d-argile-prix-oscar-wilde.html",
+        "R4C7-prix-cci-de-dieppe-prix-ribault.html",
+        "R4C8-prix-dreamwell-prix-guy-de-maupassant.html",
+        "R4C9-prix-resonance-prix-gustave-rouland.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:37.369591Z"
+}

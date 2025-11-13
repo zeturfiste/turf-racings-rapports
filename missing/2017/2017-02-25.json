@@ -1,0 +1,91 @@
+{
+  "date": "2017-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/02/2017-02-25",
+    "date_html": "resultats-et-rapports/2017/02/2017-02-25/2017-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/02/2017-02-25/R1-cagnes-sur-mer/R1C1-prix-du-cheiron.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R1-cagnes-sur-mer/R1C7-prix-du-galibier.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R1-cagnes-sur-mer/R1C8-prix-jacques-geliot.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C1-prix-du-cheiron.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C2-prix-policeman.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C3-prix-princesse-charlene-de-monaco.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C4-prix-un-enfant-par-la-main.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C5-prix-bar-pmu-box-7.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R3-fontainebleau/R3C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C2-prix-policeman.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C4-prix-un-enfant-par-la-main.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C5-prix-bar-pmu-box-7.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C7-prix-du-galibier.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R4-enghien-soisy/R4C8-prix-jacques-geliot.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C1-prix-du-cheiron.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C3-prix-princesse-charlene-de-monaco.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C4-prix-un-enfant-par-la-main.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C5-prix-bar-pmu-box-7.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C7-prix-du-galibier.html",
+      "resultats-et-rapports/2017/02/2017-02-25/R5-toulouse/R5C8-prix-jacques-geliot.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-fontainebleau",
+      "R4-enghien-soisy",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-cheiron.html",
+        "R1C2-prix-policeman.html",
+        "R1C3-prix-princesse-charlene-de-monaco.html",
+        "R1C4-prix-un-enfant-par-la-main.html",
+        "R1C5-prix-bar-pmu-box-7.html",
+        "R1C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+        "R1C7-prix-du-galibier.html",
+        "R1C8-prix-jacques-geliot.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-du-cheiron.html",
+        "R3C2-prix-policeman.html",
+        "R3C3-prix-princesse-charlene-de-monaco.html",
+        "R3C4-prix-un-enfant-par-la-main.html",
+        "R3C5-prix-bar-pmu-box-7.html",
+        "R3C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+        "R3C7-prix-du-galibier.html",
+        "R3C8-prix-jacques-geliot.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-du-cheiron.html",
+        "R4C2-prix-policeman.html",
+        "R4C3-prix-princesse-charlene-de-monaco.html",
+        "R4C4-prix-un-enfant-par-la-main.html",
+        "R4C5-prix-bar-pmu-box-7.html",
+        "R4C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+        "R4C7-prix-du-galibier.html",
+        "R4C8-prix-jacques-geliot.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-du-cheiron.html",
+        "R5C2-prix-policeman.html",
+        "R5C3-prix-princesse-charlene-de-monaco.html",
+        "R5C4-prix-un-enfant-par-la-main.html",
+        "R5C5-prix-bar-pmu-box-7.html",
+        "R5C6-grand-prix-du-departement-06-defi-du-galop-2017.html",
+        "R5C7-prix-du-galibier.html",
+        "R5C8-prix-jacques-geliot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:22.159089Z"
+}

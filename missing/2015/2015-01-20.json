@@ -1,0 +1,56 @@
+{
+  "date": "2015-01-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-20",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-20/2015-01-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-20/R1-cagnes-sur-mer/R1C1-prix-des-citronniers.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R1-cagnes-sur-mer/R1C2-prix-de-marseille.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R1-cagnes-sur-mer/R1C5-prix-de-la-canebiere.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R1-cagnes-sur-mer/R1C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C1-prix-des-citronniers.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C2-prix-de-marseille.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C3-prix-des-oliviers.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C4-prix-des-orangers.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C5-prix-de-la-canebiere.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C6-prix-de-la-croix-des-gardes.html",
+      "resultats-et-rapports/2015/01/2015-01-20/R2-vincennes/R2C7-prix-du-vieux-port.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-citronniers.html",
+        "R1C2-prix-de-marseille.html",
+        "R1C3-prix-des-oliviers.html",
+        "R1C4-prix-des-orangers.html",
+        "R1C5-prix-de-la-canebiere.html",
+        "R1C6-prix-de-la-croix-des-gardes.html",
+        "R1C7-prix-du-vieux-port.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-des-citronniers.html",
+        "R2C2-prix-de-marseille.html",
+        "R2C3-prix-des-oliviers.html",
+        "R2C4-prix-des-orangers.html",
+        "R2C5-prix-de-la-canebiere.html",
+        "R2C6-prix-de-la-croix-des-gardes.html",
+        "R2C7-prix-du-vieux-port.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:33.858304Z"
+}

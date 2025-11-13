@@ -1,0 +1,88 @@
+{
+  "date": "2009-08-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/08/2009-08-04",
+    "date_html": "resultats-et-rapports/2009/08/2009-08-04/2009-08-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/08/2009-08-04/R1-deauville/R1C1-prix-du-canal.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R1-deauville/R1C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R1-deauville/R1C4-prix-de-l-ecluse.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R2-vichy/R2C3-prix-de-troarn.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R2-vichy/R2C4-prix-de-l-ecluse.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R2-vichy/R2C5-prix-du-cercle.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C1-prix-du-canal.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C3-prix-de-troarn.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C4-prix-de-l-ecluse.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C5-prix-du-cercle.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C6-prix-de-l-eure.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R3-cabourg/R3C8-prix-de-livarot.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C3-prix-de-troarn.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C4-prix-de-l-ecluse.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C5-prix-du-cercle.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C6-prix-de-l-eure.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C7-prix-de-cricqueville.html",
+      "resultats-et-rapports/2009/08/2009-08-04/R31-zerace/R31C8-prix-de-livarot.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vichy",
+      "R3-cabourg",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-canal.html",
+        "R1C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+        "R1C3-prix-de-troarn.html",
+        "R1C4-prix-de-l-ecluse.html",
+        "R1C5-prix-du-cercle.html",
+        "R1C6-prix-de-l-eure.html",
+        "R1C7-prix-de-cricqueville.html",
+        "R1C8-prix-de-livarot.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-du-canal.html",
+        "R2C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+        "R2C3-prix-de-troarn.html",
+        "R2C4-prix-de-l-ecluse.html",
+        "R2C5-prix-du-cercle.html",
+        "R2C6-prix-de-l-eure.html",
+        "R2C7-prix-de-cricqueville.html",
+        "R2C8-prix-de-livarot.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-canal.html",
+        "R3C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+        "R3C3-prix-de-troarn.html",
+        "R3C4-prix-de-l-ecluse.html",
+        "R3C5-prix-du-cercle.html",
+        "R3C6-prix-de-l-eure.html",
+        "R3C7-prix-de-cricqueville.html",
+        "R3C8-prix-de-livarot.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-canal.html",
+        "R31C2-prix-ouest-france-prix-de-pont-l-eveque.html",
+        "R31C3-prix-de-troarn.html",
+        "R31C4-prix-de-l-ecluse.html",
+        "R31C5-prix-du-cercle.html",
+        "R31C6-prix-de-l-eure.html",
+        "R31C7-prix-de-cricqueville.html",
+        "R31C8-prix-de-livarot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:35:49.706915Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2024-02-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-06",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-06/2024-02-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-06/R1-vincennes/R1C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R3-toulouse/R3C2-prix-de-colmar.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R3-toulouse/R3C4-prix-de-l-ille-et-vilaine.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R3-toulouse/R3C6-prix-de-montivilliers.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R3-toulouse/R3C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R3-toulouse/R3C8-prix-de-monsegur.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R6-lyon-la-soie/R6C2-prix-de-colmar.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R6-lyon-la-soie/R6C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2024/02/2024-02-06/R6-lyon-la-soie/R6C8-prix-de-monsegur.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-toulouse",
+      "R4-cagnes-sur-mer",
+      "R6-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-chartre-sur-le-loir.html",
+        "R1C2-prix-de-colmar.html",
+        "R1C3-prix-de-montlucon.html",
+        "R1C4-prix-de-l-ille-et-vilaine.html",
+        "R1C5-prix-de-barfleur.html",
+        "R1C6-prix-de-montivilliers.html",
+        "R1C7-prix-des-rouges-terres.html",
+        "R1C8-prix-de-monsegur.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-chartre-sur-le-loir.html",
+        "R3C2-prix-de-colmar.html",
+        "R3C3-prix-de-montlucon.html",
+        "R3C4-prix-de-l-ille-et-vilaine.html",
+        "R3C5-prix-de-barfleur.html",
+        "R3C6-prix-de-montivilliers.html",
+        "R3C7-prix-des-rouges-terres.html",
+        "R3C8-prix-de-monsegur.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-la-chartre-sur-le-loir.html",
+        "R4C2-prix-de-colmar.html",
+        "R4C3-prix-de-montlucon.html",
+        "R4C4-prix-de-l-ille-et-vilaine.html",
+        "R4C5-prix-de-barfleur.html",
+        "R4C6-prix-de-montivilliers.html",
+        "R4C7-prix-des-rouges-terres.html",
+        "R4C8-prix-de-monsegur.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-prix-de-la-chartre-sur-le-loir.html",
+        "R6C2-prix-de-colmar.html",
+        "R6C3-prix-de-montlucon.html",
+        "R6C4-prix-de-l-ille-et-vilaine.html",
+        "R6C5-prix-de-barfleur.html",
+        "R6C6-prix-de-montivilliers.html",
+        "R6C7-prix-des-rouges-terres.html",
+        "R6C8-prix-de-monsegur.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:08.630442Z"
+}

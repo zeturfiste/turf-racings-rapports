@@ -1,0 +1,116 @@
+{
+  "date": "2014-08-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-01",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-01/2014-08-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-01/R1-clairefontaine/R1C4-prix-du-coteau.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R1-clairefontaine/R1C5-prix-pierre-lepeudry.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R1-clairefontaine/R1C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R1-clairefontaine/R1C7-prix-des-anemones.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R2-saint-malo/R2C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R2-saint-malo/R2C3-prix-des-paquerettes.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R2-saint-malo/R2C4-prix-du-coteau.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R2-saint-malo/R2C5-prix-pierre-lepeudry.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R2-saint-malo/R2C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R3-marseille-vivaux/R3C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R3-marseille-vivaux/R3C7-prix-des-anemones.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R3-marseille-vivaux/R3C8-prix-idac.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R4-cabourg/R4C3-prix-des-paquerettes.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R4-cabourg/R4C4-prix-du-coteau.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R4-cabourg/R4C5-prix-pierre-lepeudry.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R4-cabourg/R4C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R4-cabourg/R4C7-prix-des-anemones.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C2-prix-des-boutons-d-or.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C3-prix-des-paquerettes.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C4-prix-du-coteau.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C7-prix-des-anemones.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R5-pornichet-la-baule/R5C8-prix-idac.html",
+      "resultats-et-rapports/2014/08/2014-08-01/R7-amiens/R7C8-prix-idac.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-saint-malo",
+      "R3-marseille-vivaux",
+      "R4-cabourg",
+      "R5-pornichet-la-baule",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R1C2-prix-des-boutons-d-or.html",
+        "R1C3-prix-des-paquerettes.html",
+        "R1C4-prix-du-coteau.html",
+        "R1C5-prix-pierre-lepeudry.html",
+        "R1C6-prix-du-quai-aux-fleurs.html",
+        "R1C7-prix-des-anemones.html",
+        "R1C8-prix-idac.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R2C2-prix-des-boutons-d-or.html",
+        "R2C3-prix-des-paquerettes.html",
+        "R2C4-prix-du-coteau.html",
+        "R2C5-prix-pierre-lepeudry.html",
+        "R2C6-prix-du-quai-aux-fleurs.html",
+        "R2C7-prix-des-anemones.html",
+        "R2C8-prix-idac.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R3C2-prix-des-boutons-d-or.html",
+        "R3C3-prix-des-paquerettes.html",
+        "R3C4-prix-du-coteau.html",
+        "R3C5-prix-pierre-lepeudry.html",
+        "R3C6-prix-du-quai-aux-fleurs.html",
+        "R3C7-prix-des-anemones.html",
+        "R3C8-prix-idac.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R4C2-prix-des-boutons-d-or.html",
+        "R4C3-prix-des-paquerettes.html",
+        "R4C4-prix-du-coteau.html",
+        "R4C5-prix-pierre-lepeudry.html",
+        "R4C6-prix-du-quai-aux-fleurs.html",
+        "R4C7-prix-des-anemones.html",
+        "R4C8-prix-idac.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R5C2-prix-des-boutons-d-or.html",
+        "R5C3-prix-des-paquerettes.html",
+        "R5C4-prix-du-coteau.html",
+        "R5C5-prix-pierre-lepeudry.html",
+        "R5C6-prix-du-quai-aux-fleurs.html",
+        "R5C7-prix-des-anemones.html",
+        "R5C8-prix-idac.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-des-fromageries-graindorge-prix-the-wonder.html",
+        "R7C2-prix-des-boutons-d-or.html",
+        "R7C3-prix-des-paquerettes.html",
+        "R7C4-prix-du-coteau.html",
+        "R7C5-prix-pierre-lepeudry.html",
+        "R7C6-prix-du-quai-aux-fleurs.html",
+        "R7C7-prix-des-anemones.html",
+        "R7C8-prix-idac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:39.693371Z"
+}

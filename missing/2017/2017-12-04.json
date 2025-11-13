@@ -1,0 +1,115 @@
+{
+  "date": "2017-12-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-04",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-04/2017-12-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C1-prix-des-alpes.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C2-prix-des-dahlias.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C4-prix-de-meral.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C5-prix-de-gueret.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C6-prix-de-gensac.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R1-vincennes/R1C8-prix-de-marans.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C1-prix-des-alpes.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C3-prix-de-maintenon.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C5-prix-de-gueret.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C6-prix-de-gensac.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R3-cagnes-sur-mer/R3C8-prix-de-marans.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C1-prix-des-alpes.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C2-prix-des-dahlias.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C3-prix-de-maintenon.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C4-prix-de-meral.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C5-prix-de-gueret.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C6-prix-de-gensac.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R4-graignes/R4C8-prix-de-marans.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C1-prix-des-alpes.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C2-prix-des-dahlias.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C3-prix-de-maintenon.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C4-prix-de-meral.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C5-prix-de-gueret.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C6-prix-de-gensac.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R6-angers/R6C8-prix-de-marans.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C1-prix-des-alpes.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C3-prix-de-maintenon.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C4-prix-de-meral.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C6-prix-de-gensac.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2017/12/2017-12-04/R7-le-croise-laroche/R7C8-prix-de-marans.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-graignes",
+      "R6-angers",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-alpes.html",
+        "R1C2-prix-des-dahlias.html",
+        "R1C3-prix-de-maintenon.html",
+        "R1C4-prix-de-meral.html",
+        "R1C5-prix-de-gueret.html",
+        "R1C6-prix-de-gensac.html",
+        "R1C7-prix-d-hossegor.html",
+        "R1C8-prix-de-marans.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-des-alpes.html",
+        "R3C2-prix-des-dahlias.html",
+        "R3C3-prix-de-maintenon.html",
+        "R3C4-prix-de-meral.html",
+        "R3C5-prix-de-gueret.html",
+        "R3C6-prix-de-gensac.html",
+        "R3C7-prix-d-hossegor.html",
+        "R3C8-prix-de-marans.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-des-alpes.html",
+        "R4C2-prix-des-dahlias.html",
+        "R4C3-prix-de-maintenon.html",
+        "R4C4-prix-de-meral.html",
+        "R4C5-prix-de-gueret.html",
+        "R4C6-prix-de-gensac.html",
+        "R4C7-prix-d-hossegor.html",
+        "R4C8-prix-de-marans.html"
+      ],
+      "R6-angers": [
+        "R6C1-prix-des-alpes.html",
+        "R6C2-prix-des-dahlias.html",
+        "R6C3-prix-de-maintenon.html",
+        "R6C4-prix-de-meral.html",
+        "R6C5-prix-de-gueret.html",
+        "R6C6-prix-de-gensac.html",
+        "R6C7-prix-d-hossegor.html",
+        "R6C8-prix-de-marans.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-des-alpes.html",
+        "R7C2-prix-des-dahlias.html",
+        "R7C3-prix-de-maintenon.html",
+        "R7C4-prix-de-meral.html",
+        "R7C5-prix-de-gueret.html",
+        "R7C6-prix-de-gensac.html",
+        "R7C7-prix-d-hossegor.html",
+        "R7C8-prix-de-marans.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:52.305854Z"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2018-07-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-23",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-23/2018-07-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C1-prix-albine.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C2-prix-de-boasne.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C3-prix-des-blancs-sablons.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C4-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C5-prix-de-baillon.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R1-chantilly/R1C7-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R3-angers/R3C3-prix-des-blancs-sablons.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R3-angers/R3C6-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R3-angers/R3C7-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R3-angers/R3C8-prix-du-pain-de-sucre.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R6-cagnes-sur-mer/R6C1-prix-albine.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R6-cagnes-sur-mer/R6C2-prix-de-boasne.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R6-cagnes-sur-mer/R6C4-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R6-cagnes-sur-mer/R6C5-prix-de-baillon.html",
+      "resultats-et-rapports/2018/07/2018-07-23/R6-cagnes-sur-mer/R6C8-prix-du-pain-de-sucre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-angers",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-albine.html",
+        "R1C2-prix-de-boasne.html",
+        "R1C3-prix-des-blancs-sablons.html",
+        "R1C4-prix-de-la-capitainerie.html",
+        "R1C5-prix-de-baillon.html",
+        "R1C6-prix-du-ru-de-suze.html",
+        "R1C7-prix-du-mont-de-po.html",
+        "R1C8-prix-du-pain-de-sucre.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-albine.html",
+        "R3C2-prix-de-boasne.html",
+        "R3C3-prix-des-blancs-sablons.html",
+        "R3C4-prix-de-la-capitainerie.html",
+        "R3C5-prix-de-baillon.html",
+        "R3C6-prix-du-ru-de-suze.html",
+        "R3C7-prix-du-mont-de-po.html",
+        "R3C8-prix-du-pain-de-sucre.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-albine.html",
+        "R6C2-prix-de-boasne.html",
+        "R6C3-prix-des-blancs-sablons.html",
+        "R6C4-prix-de-la-capitainerie.html",
+        "R6C5-prix-de-baillon.html",
+        "R6C6-prix-du-ru-de-suze.html",
+        "R6C7-prix-du-mont-de-po.html",
+        "R6C8-prix-du-pain-de-sucre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:59.462748Z"
+}

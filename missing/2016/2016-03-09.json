@@ -1,0 +1,70 @@
+{
+  "date": "2016-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-09",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-09/2016-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-09/R1-amiens/R1C1-prix-bar-aux-chants-des-oiseaux-prix-king-black.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R1-amiens/R1C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R3-compiegne/R3C1-prix-bar-aux-chants-des-oiseaux-prix-king-black.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R3-compiegne/R3C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R3-compiegne/R3C4-prix-du-cafe-du-centre-flixecourt-prix-kemi.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R3-compiegne/R3C5-prix-clubbing-by-jet-tours-prix-ouragon.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R3-compiegne/R3C6-prix-de-l-unat-prix-superman.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R4-marseille-vivaux/R4C3-prix-soleil-et-neige-prix-marco-bonheur.html",
+      "resultats-et-rapports/2016/03/2016-03-09/R4-marseille-vivaux/R4C7-prix-des-enfants-de-l-amiens-sc-prix-marathon-man-groupe-a.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-compiegne",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-bar-aux-chants-des-oiseaux-prix-king-black.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-soleil-et-neige-prix-marco-bonheur.html",
+        "R1C4-prix-du-cafe-du-centre-flixecourt-prix-kemi.html",
+        "R1C5-prix-clubbing-by-jet-tours-prix-ouragon.html",
+        "R1C6-prix-de-l-unat-prix-superman.html",
+        "R1C7-prix-des-enfants-de-l-amiens-sc-prix-marathon-man-groupe-a.html",
+        "R1C8-prix-jet-tours-prix-marathon-man-groupe-b.html",
+        "R1C9-prix-duc-de-reve.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-bar-aux-chants-des-oiseaux-prix-king-black.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-soleil-et-neige-prix-marco-bonheur.html",
+        "R3C4-prix-du-cafe-du-centre-flixecourt-prix-kemi.html",
+        "R3C5-prix-clubbing-by-jet-tours-prix-ouragon.html",
+        "R3C6-prix-de-l-unat-prix-superman.html",
+        "R3C7-prix-des-enfants-de-l-amiens-sc-prix-marathon-man-groupe-a.html",
+        "R3C8-prix-jet-tours-prix-marathon-man-groupe-b.html",
+        "R3C9-prix-duc-de-reve.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-bar-aux-chants-des-oiseaux-prix-king-black.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-prix-soleil-et-neige-prix-marco-bonheur.html",
+        "R4C4-prix-du-cafe-du-centre-flixecourt-prix-kemi.html",
+        "R4C5-prix-clubbing-by-jet-tours-prix-ouragon.html",
+        "R4C6-prix-de-l-unat-prix-superman.html",
+        "R4C7-prix-des-enfants-de-l-amiens-sc-prix-marathon-man-groupe-a.html",
+        "R4C8-prix-jet-tours-prix-marathon-man-groupe-b.html",
+        "R4C9-prix-duc-de-reve.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:34.364842Z"
+}

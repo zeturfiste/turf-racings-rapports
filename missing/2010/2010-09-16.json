@@ -1,0 +1,69 @@
+{
+  "date": "2010-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-16",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-16/2010-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-16/R1-le-lion-d-angers/R1C3-prix-de-chambellay.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R2-enghien-soisy/R2C2-prix-de-chateauneuf-sur-sarthe.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R2-enghien-soisy/R2C5-prix-point-bleu.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R2-enghien-soisy/R2C7-prix-du-mondial-du-lion.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R2-enghien-soisy/R2C8-prix-de-la-fee-du-mas.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C1-grand-handicap-du-lion-d-angers.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C3-prix-de-chambellay.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C4-prix-paul-saulou.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C5-prix-point-bleu.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C6-prix-olivier-d-andigne.html",
+      "resultats-et-rapports/2010/09/2010-09-16/R3-reims/R3C8-prix-de-la-fee-du-mas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-lion-d-angers",
+      "R2-enghien-soisy",
+      "R3-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-le-lion-d-angers": [
+        "R1C1-grand-handicap-du-lion-d-angers.html",
+        "R1C2-prix-de-chateauneuf-sur-sarthe.html",
+        "R1C3-prix-de-chambellay.html",
+        "R1C4-prix-paul-saulou.html",
+        "R1C5-prix-point-bleu.html",
+        "R1C6-prix-olivier-d-andigne.html",
+        "R1C7-prix-du-mondial-du-lion.html",
+        "R1C8-prix-de-la-fee-du-mas.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-handicap-du-lion-d-angers.html",
+        "R2C2-prix-de-chateauneuf-sur-sarthe.html",
+        "R2C3-prix-de-chambellay.html",
+        "R2C4-prix-paul-saulou.html",
+        "R2C5-prix-point-bleu.html",
+        "R2C6-prix-olivier-d-andigne.html",
+        "R2C7-prix-du-mondial-du-lion.html",
+        "R2C8-prix-de-la-fee-du-mas.html"
+      ],
+      "R3-reims": [
+        "R3C1-grand-handicap-du-lion-d-angers.html",
+        "R3C2-prix-de-chateauneuf-sur-sarthe.html",
+        "R3C3-prix-de-chambellay.html",
+        "R3C4-prix-paul-saulou.html",
+        "R3C5-prix-point-bleu.html",
+        "R3C6-prix-olivier-d-andigne.html",
+        "R3C7-prix-du-mondial-du-lion.html",
+        "R3C8-prix-de-la-fee-du-mas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:57.255953Z"
+}

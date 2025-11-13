@@ -1,0 +1,71 @@
+{
+  "date": "2024-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-15",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-15/2024-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-15/R1-vincennes/R1C3-prix-de-l-aube.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R1-vincennes/R1C6-prix-de-nice.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R3-le-mans/R3C3-prix-de-l-aube.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R3-le-mans/R3C4-prix-de-mont-de-marsan.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R3-le-mans/R3C6-prix-de-nice.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R3-le-mans/R3C7-prix-d-aire-sur-l-adour.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R3-le-mans/R3C8-prix-du-perreux.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C1-prix-du-gatinais.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C2-prix-jacques-de-saint-sauveur.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C5-prix-de-fecamp.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C6-prix-de-nice.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C7-prix-d-aire-sur-l-adour.html",
+      "resultats-et-rapports/2024/05/2024-05-15/R4-vichy/R4C8-prix-du-perreux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-le-mans",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-gatinais.html",
+        "R1C2-prix-jacques-de-saint-sauveur.html",
+        "R1C3-prix-de-l-aube.html",
+        "R1C4-prix-de-mont-de-marsan.html",
+        "R1C5-prix-de-fecamp.html",
+        "R1C6-prix-de-nice.html",
+        "R1C7-prix-d-aire-sur-l-adour.html",
+        "R1C8-prix-du-perreux.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-du-gatinais.html",
+        "R3C2-prix-jacques-de-saint-sauveur.html",
+        "R3C3-prix-de-l-aube.html",
+        "R3C4-prix-de-mont-de-marsan.html",
+        "R3C5-prix-de-fecamp.html",
+        "R3C6-prix-de-nice.html",
+        "R3C7-prix-d-aire-sur-l-adour.html",
+        "R3C8-prix-du-perreux.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-gatinais.html",
+        "R4C2-prix-jacques-de-saint-sauveur.html",
+        "R4C3-prix-de-l-aube.html",
+        "R4C4-prix-de-mont-de-marsan.html",
+        "R4C5-prix-de-fecamp.html",
+        "R4C6-prix-de-nice.html",
+        "R4C7-prix-d-aire-sur-l-adour.html",
+        "R4C8-prix-du-perreux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:43.639053Z"
+}

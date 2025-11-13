@@ -1,0 +1,123 @@
+{
+  "date": "2021-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-24",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-24/2021-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-24/R3-salon-de-provence/R3C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R3-salon-de-provence/R3C5-prix-royal-oak.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R3-salon-de-provence/R3C7-japan-racing-association-prix-de-botzaris.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R3-salon-de-provence/R3C9-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R4-enghien-soisy/R4C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R4-enghien-soisy/R4C2-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R4-enghien-soisy/R4C8-prix-de-mogador.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R4-enghien-soisy/R4C9-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R8-lyon-parilly/R8C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R8-lyon-parilly/R8C5-prix-royal-oak.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R8-lyon-parilly/R8C7-japan-racing-association-prix-de-botzaris.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C3-prix-de-la-place-des-fetes.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C6-prix-de-saint-cyr.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C7-japan-racing-association-prix-de-botzaris.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C8-prix-de-mogador.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R9-vire/R9C9-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C2-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C3-prix-de-la-place-des-fetes.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C5-prix-royal-oak.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C6-prix-de-saint-cyr.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C7-japan-racing-association-prix-de-botzaris.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C8-prix-de-mogador.html",
+      "resultats-et-rapports/2021/10/2021-10-24/R10-nancy/R10C9-prix-de-villeneuve-l-etang.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-salon-de-provence",
+      "R4-enghien-soisy",
+      "R8-lyon-parilly",
+      "R9-vire",
+      "R10-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-roseraie.html",
+        "R1C2-prix-de-la-promenade-plantee.html",
+        "R1C3-prix-de-la-place-des-fetes.html",
+        "R1C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R1C5-prix-royal-oak.html",
+        "R1C6-prix-de-saint-cyr.html",
+        "R1C7-japan-racing-association-prix-de-botzaris.html",
+        "R1C8-prix-de-mogador.html",
+        "R1C9-prix-de-villeneuve-l-etang.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-la-roseraie.html",
+        "R3C2-prix-de-la-promenade-plantee.html",
+        "R3C3-prix-de-la-place-des-fetes.html",
+        "R3C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R3C5-prix-royal-oak.html",
+        "R3C6-prix-de-saint-cyr.html",
+        "R3C7-japan-racing-association-prix-de-botzaris.html",
+        "R3C8-prix-de-mogador.html",
+        "R3C9-prix-de-villeneuve-l-etang.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-roseraie.html",
+        "R4C2-prix-de-la-promenade-plantee.html",
+        "R4C3-prix-de-la-place-des-fetes.html",
+        "R4C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R4C5-prix-royal-oak.html",
+        "R4C6-prix-de-saint-cyr.html",
+        "R4C7-japan-racing-association-prix-de-botzaris.html",
+        "R4C8-prix-de-mogador.html",
+        "R4C9-prix-de-villeneuve-l-etang.html"
+      ],
+      "R8-lyon-parilly": [
+        "R8C1-prix-de-la-roseraie.html",
+        "R8C2-prix-de-la-promenade-plantee.html",
+        "R8C3-prix-de-la-place-des-fetes.html",
+        "R8C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R8C5-prix-royal-oak.html",
+        "R8C6-prix-de-saint-cyr.html",
+        "R8C7-japan-racing-association-prix-de-botzaris.html",
+        "R8C8-prix-de-mogador.html",
+        "R8C9-prix-de-villeneuve-l-etang.html"
+      ],
+      "R9-vire": [
+        "R9C1-prix-de-la-roseraie.html",
+        "R9C2-prix-de-la-promenade-plantee.html",
+        "R9C3-prix-de-la-place-des-fetes.html",
+        "R9C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R9C5-prix-royal-oak.html",
+        "R9C6-prix-de-saint-cyr.html",
+        "R9C7-japan-racing-association-prix-de-botzaris.html",
+        "R9C8-prix-de-mogador.html",
+        "R9C9-prix-de-villeneuve-l-etang.html"
+      ],
+      "R10-nancy": [
+        "R10C1-prix-de-la-roseraie.html",
+        "R10C2-prix-de-la-promenade-plantee.html",
+        "R10C3-prix-de-la-place-des-fetes.html",
+        "R10C4-prix-le-parisien-grand-handicap-de-paris-longchamp.html",
+        "R10C5-prix-royal-oak.html",
+        "R10C6-prix-de-saint-cyr.html",
+        "R10C7-japan-racing-association-prix-de-botzaris.html",
+        "R10C8-prix-de-mogador.html",
+        "R10C9-prix-de-villeneuve-l-etang.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:13.868248Z"
+}

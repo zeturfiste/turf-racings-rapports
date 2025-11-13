@@ -1,0 +1,56 @@
+{
+  "date": "2024-12-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-31",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-31/2024-12-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-31/R1-vincennes/R1C1-prix-de-lezignan.html",
+      "resultats-et-rapports/2024/12/2024-12-31/R1-vincennes/R1C3-prix-de-mende.html",
+      "resultats-et-rapports/2024/12/2024-12-31/R1-vincennes/R1C4-prix-de-calvisson.html",
+      "resultats-et-rapports/2024/12/2024-12-31/R1-vincennes/R1C6-prix-de-poitiers.html",
+      "resultats-et-rapports/2024/12/2024-12-31/R2-pau/R2C6-prix-de-poitiers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-lezignan.html",
+        "R1C2-prix-de-saint-denis.html",
+        "R1C3-prix-de-mende.html",
+        "R1C4-prix-de-calvisson.html",
+        "R1C5-prix-de-brive-la-gaillarde.html",
+        "R1C6-prix-de-poitiers.html",
+        "R1C7-prix-du-gard.html",
+        "R1C8-prix-de-lannilis.html",
+        "R1C9-prix-de-louvigne-du-desert.html",
+        "R1C10-prix-de-pithiviers.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-lezignan.html",
+        "R2C2-prix-de-saint-denis.html",
+        "R2C3-prix-de-mende.html",
+        "R2C4-prix-de-calvisson.html",
+        "R2C5-prix-de-brive-la-gaillarde.html",
+        "R2C6-prix-de-poitiers.html",
+        "R2C7-prix-du-gard.html",
+        "R2C8-prix-de-lannilis.html",
+        "R2C9-prix-de-louvigne-du-desert.html",
+        "R2C10-prix-de-pithiviers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:08.169961Z"
+}

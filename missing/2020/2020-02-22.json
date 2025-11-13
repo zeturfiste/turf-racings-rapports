@@ -1,0 +1,75 @@
+{
+  "date": "2020-02-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-22",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-22/2020-02-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-22/R1-cagnes-sur-mer/R1C2-prix-du-cheiron.html",
+      "resultats-et-rapports/2020/02/2020-02-22/R1-cagnes-sur-mer/R1C4-prix-du-var.html",
+      "resultats-et-rapports/2020/02/2020-02-22/R3-bordeaux-le-bouscat/R3C8-prix-des-bouches-du-rhone.html",
+      "resultats-et-rapports/2020/02/2020-02-22/R4-toulouse/R4C1-prix-georges-sandor.html",
+      "resultats-et-rapports/2020/02/2020-02-22/R4-toulouse/R4C7-prix-du-vaucluse.html",
+      "resultats-et-rapports/2020/02/2020-02-22/R4-toulouse/R4C8-prix-des-bouches-du-rhone.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-amiens",
+      "R3-bordeaux-le-bouscat",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-georges-sandor.html",
+        "R1C2-prix-du-cheiron.html",
+        "R1C3-prix-policeman.html",
+        "R1C4-prix-du-var.html",
+        "R1C5-grand-prix-du-departement-06-defi-du-galop-2020.html",
+        "R1C6-prix-de-parislongchamp.html",
+        "R1C7-prix-du-vaucluse.html",
+        "R1C8-prix-des-bouches-du-rhone.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-georges-sandor.html",
+        "R2C2-prix-du-cheiron.html",
+        "R2C3-prix-policeman.html",
+        "R2C4-prix-du-var.html",
+        "R2C5-grand-prix-du-departement-06-defi-du-galop-2020.html",
+        "R2C6-prix-de-parislongchamp.html",
+        "R2C7-prix-du-vaucluse.html",
+        "R2C8-prix-des-bouches-du-rhone.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-georges-sandor.html",
+        "R3C2-prix-du-cheiron.html",
+        "R3C3-prix-policeman.html",
+        "R3C4-prix-du-var.html",
+        "R3C5-grand-prix-du-departement-06-defi-du-galop-2020.html",
+        "R3C6-prix-de-parislongchamp.html",
+        "R3C7-prix-du-vaucluse.html",
+        "R3C8-prix-des-bouches-du-rhone.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-georges-sandor.html",
+        "R4C2-prix-du-cheiron.html",
+        "R4C3-prix-policeman.html",
+        "R4C4-prix-du-var.html",
+        "R4C5-grand-prix-du-departement-06-defi-du-galop-2020.html",
+        "R4C6-prix-de-parislongchamp.html",
+        "R4C7-prix-du-vaucluse.html",
+        "R4C8-prix-des-bouches-du-rhone.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:55.682177Z"
+}

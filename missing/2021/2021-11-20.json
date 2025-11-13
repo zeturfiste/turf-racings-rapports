@@ -1,0 +1,92 @@
+{
+  "date": "2021-11-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-20",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-20/2021-11-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-20/R1-auteuil/R1C5-prix-thuya.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R1-auteuil/R1C6-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R1-auteuil/R1C7-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R1-auteuil/R1C8-prix-boum.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R2-angers/R2C1-prix-sambristan.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R2-angers/R2C2-prix-kerym.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R2-angers/R2C7-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R2-angers/R2C8-prix-boum.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C1-prix-sambristan.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C2-prix-kerym.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C3-prix-general-donnio.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C4-prix-de-beaugency.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C6-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C7-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R3-agen/R3C8-prix-boum.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C1-prix-sambristan.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C2-prix-kerym.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C3-prix-general-donnio.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C4-prix-de-beaugency.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C5-prix-thuya.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C6-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C7-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2021/11/2021-11-20/R4-laval/R4C8-prix-boum.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-angers",
+      "R3-agen",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-sambristan.html",
+        "R1C2-prix-kerym.html",
+        "R1C3-prix-general-donnio.html",
+        "R1C4-prix-de-beaugency.html",
+        "R1C5-prix-thuya.html",
+        "R1C6-prix-francois-de-ganay.html",
+        "R1C7-prix-gerard-philippeau.html",
+        "R1C8-prix-boum.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-sambristan.html",
+        "R2C2-prix-kerym.html",
+        "R2C3-prix-general-donnio.html",
+        "R2C4-prix-de-beaugency.html",
+        "R2C5-prix-thuya.html",
+        "R2C6-prix-francois-de-ganay.html",
+        "R2C7-prix-gerard-philippeau.html",
+        "R2C8-prix-boum.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-sambristan.html",
+        "R3C2-prix-kerym.html",
+        "R3C3-prix-general-donnio.html",
+        "R3C4-prix-de-beaugency.html",
+        "R3C5-prix-thuya.html",
+        "R3C6-prix-francois-de-ganay.html",
+        "R3C7-prix-gerard-philippeau.html",
+        "R3C8-prix-boum.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-sambristan.html",
+        "R4C2-prix-kerym.html",
+        "R4C3-prix-general-donnio.html",
+        "R4C4-prix-de-beaugency.html",
+        "R4C5-prix-thuya.html",
+        "R4C6-prix-francois-de-ganay.html",
+        "R4C7-prix-gerard-philippeau.html",
+        "R4C8-prix-boum.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:23.478422Z"
+}

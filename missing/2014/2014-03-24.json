@@ -1,0 +1,70 @@
+{
+  "date": "2014-03-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-24",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-24/2014-03-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C1-prix-du-conseil-municipal-de-fontainebleau.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C2-prix-de-la-ville-imperiale.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C3-prix-de-la-malmontagne.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C4-prix-de-l-office-de-tourisme-du-pays-de-fontainebleau.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C5-prix-colonel-hebrard.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C6-prix-de-larchant.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C7-prix-des-ifs.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R1-fontainebleau/R1C8-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R2-lyon-parilly/R2C3-prix-de-la-malmontagne.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R3-amiens/R3C2-prix-de-la-ville-imperiale.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R3-amiens/R3C4-prix-de-l-office-de-tourisme-du-pays-de-fontainebleau.html",
+      "resultats-et-rapports/2014/03/2014-03-24/R3-amiens/R3C5-prix-colonel-hebrard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-lyon-parilly",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-conseil-municipal-de-fontainebleau.html",
+        "R1C2-prix-de-la-ville-imperiale.html",
+        "R1C3-prix-de-la-malmontagne.html",
+        "R1C4-prix-de-l-office-de-tourisme-du-pays-de-fontainebleau.html",
+        "R1C5-prix-colonel-hebrard.html",
+        "R1C6-prix-de-larchant.html",
+        "R1C7-prix-des-ifs.html",
+        "R1C8-prix-de-la-dame-jouanne.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-du-conseil-municipal-de-fontainebleau.html",
+        "R2C2-prix-de-la-ville-imperiale.html",
+        "R2C3-prix-de-la-malmontagne.html",
+        "R2C4-prix-de-l-office-de-tourisme-du-pays-de-fontainebleau.html",
+        "R2C5-prix-colonel-hebrard.html",
+        "R2C6-prix-de-larchant.html",
+        "R2C7-prix-des-ifs.html",
+        "R2C8-prix-de-la-dame-jouanne.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-du-conseil-municipal-de-fontainebleau.html",
+        "R3C2-prix-de-la-ville-imperiale.html",
+        "R3C3-prix-de-la-malmontagne.html",
+        "R3C4-prix-de-l-office-de-tourisme-du-pays-de-fontainebleau.html",
+        "R3C5-prix-colonel-hebrard.html",
+        "R3C6-prix-de-larchant.html",
+        "R3C7-prix-des-ifs.html",
+        "R3C8-prix-de-la-dame-jouanne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:56.646885Z"
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2014-02-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-15",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-15/2014-02-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-15/R1-cagnes-sur-mer/R1C4-prix-de-la-fontonne.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R1-cagnes-sur-mer/R1C5-prix-de-fontmerle.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R1-cagnes-sur-mer/R1C6-prix-d-antibes.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R2-agen/R2C3-prix-du-fort-carre.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R2-agen/R2C4-prix-de-la-fontonne.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R2-agen/R2C5-prix-de-fontmerle.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R2-agen/R2C6-prix-d-antibes.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R2-agen/R2C8-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R6-mont-de-marsan/R6C3-prix-du-fort-carre.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R6-mont-de-marsan/R6C4-prix-de-la-fontonne.html",
+      "resultats-et-rapports/2014/02/2014-02-15/R6-mont-de-marsan/R6C5-prix-de-fontmerle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-agen",
+      "R6-mont-de-marsan"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-remparts.html",
+        "R1C2-prix-des-semboules.html",
+        "R1C3-prix-du-fort-carre.html",
+        "R1C4-prix-de-la-fontonne.html",
+        "R1C5-prix-de-fontmerle.html",
+        "R1C6-prix-d-antibes.html",
+        "R1C7-prix-hotel-j-w-marriott-cannes.html",
+        "R1C8-prix-du-fort-vauban.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-des-remparts.html",
+        "R2C2-prix-des-semboules.html",
+        "R2C3-prix-du-fort-carre.html",
+        "R2C4-prix-de-la-fontonne.html",
+        "R2C5-prix-de-fontmerle.html",
+        "R2C6-prix-d-antibes.html",
+        "R2C7-prix-hotel-j-w-marriott-cannes.html",
+        "R2C8-prix-du-fort-vauban.html"
+      ],
+      "R6-mont-de-marsan": [
+        "R6C1-prix-des-remparts.html",
+        "R6C2-prix-des-semboules.html",
+        "R6C3-prix-du-fort-carre.html",
+        "R6C4-prix-de-la-fontonne.html",
+        "R6C5-prix-de-fontmerle.html",
+        "R6C6-prix-d-antibes.html",
+        "R6C7-prix-hotel-j-w-marriott-cannes.html",
+        "R6C8-prix-du-fort-vauban.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:45.885474Z"
+}

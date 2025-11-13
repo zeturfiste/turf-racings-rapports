@@ -1,0 +1,64 @@
+{
+  "date": "2020-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-10",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-10/2020-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-10/R1-bordeaux-le-bouscat/R1C2-grand-prix-dynavena-maisagri.html",
+      "resultats-et-rapports/2020/11/2020-11-10/R3-chantilly/R3C7-prix-moet-chandon.html",
+      "resultats-et-rapports/2020/11/2020-11-10/R4-vincennes/R4C2-grand-prix-dynavena-maisagri.html",
+      "resultats-et-rapports/2020/11/2020-11-10/R4-vincennes/R4C5-prix-du-chateau-de-chantegrive.html",
+      "resultats-et-rapports/2020/11/2020-11-10/R4-vincennes/R4C6-prix-marquise-de-moratalla.html",
+      "resultats-et-rapports/2020/11/2020-11-10/R4-vincennes/R4C8-prix-yves-bournazel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R3-chantilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-jardy.html",
+        "R1C2-grand-prix-dynavena-maisagri.html",
+        "R1C3-prix-jean-francois-maury.html",
+        "R1C4-prix-fandango.html",
+        "R1C5-prix-du-chateau-de-chantegrive.html",
+        "R1C6-prix-marquise-de-moratalla.html",
+        "R1C7-prix-moet-chandon.html",
+        "R1C8-prix-yves-bournazel.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-jardy.html",
+        "R3C2-grand-prix-dynavena-maisagri.html",
+        "R3C3-prix-jean-francois-maury.html",
+        "R3C4-prix-fandango.html",
+        "R3C5-prix-du-chateau-de-chantegrive.html",
+        "R3C6-prix-marquise-de-moratalla.html",
+        "R3C7-prix-moet-chandon.html",
+        "R3C8-prix-yves-bournazel.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-jardy.html",
+        "R4C2-grand-prix-dynavena-maisagri.html",
+        "R4C3-prix-jean-francois-maury.html",
+        "R4C4-prix-fandango.html",
+        "R4C5-prix-du-chateau-de-chantegrive.html",
+        "R4C6-prix-marquise-de-moratalla.html",
+        "R4C7-prix-moet-chandon.html",
+        "R4C8-prix-yves-bournazel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:12.128185Z"
+}

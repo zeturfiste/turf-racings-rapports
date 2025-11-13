@@ -1,0 +1,116 @@
+{
+  "date": "2007-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-25",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-25/2007-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-25/R1-compiegne/R1C1-prix-des-vestales.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R1-compiegne/R1C2-prix-des-gardes.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R1-compiegne/R1C3-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R1-compiegne/R1C4-prix-de-berancourt.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R1-compiegne/R1C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R2-vichy/R2C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R3-vincennes/R3C7-prix-du-pont-de-la-reine.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C2-prix-des-gardes.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C3-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C4-prix-de-berancourt.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C6-prix-de-crepy.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R4-toulouse/R4C7-prix-du-pont-de-la-reine.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C1-prix-des-vestales.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C2-prix-des-gardes.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C3-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C4-prix-de-berancourt.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R5-marseille-vivaux/R5C6-prix-de-crepy.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C2-prix-des-gardes.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C4-prix-de-berancourt.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C6-prix-de-crepy.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C7-prix-du-pont-de-la-reine.html",
+      "resultats-et-rapports/2007/05/2007-05-25/R31-zerace/R31C8-prix-de-saintines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-vichy",
+      "R3-vincennes",
+      "R4-toulouse",
+      "R5-marseille-vivaux",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-des-vestales.html",
+        "R1C2-prix-des-gardes.html",
+        "R1C3-prix-de-la-faisanderie.html",
+        "R1C4-prix-de-berancourt.html",
+        "R1C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R1C6-prix-de-crepy.html",
+        "R1C7-prix-du-pont-de-la-reine.html",
+        "R1C8-prix-de-saintines.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-des-vestales.html",
+        "R2C2-prix-des-gardes.html",
+        "R2C3-prix-de-la-faisanderie.html",
+        "R2C4-prix-de-berancourt.html",
+        "R2C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R2C6-prix-de-crepy.html",
+        "R2C7-prix-du-pont-de-la-reine.html",
+        "R2C8-prix-de-saintines.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-vestales.html",
+        "R3C2-prix-des-gardes.html",
+        "R3C3-prix-de-la-faisanderie.html",
+        "R3C4-prix-de-berancourt.html",
+        "R3C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R3C6-prix-de-crepy.html",
+        "R3C7-prix-du-pont-de-la-reine.html",
+        "R3C8-prix-de-saintines.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-des-vestales.html",
+        "R4C2-prix-des-gardes.html",
+        "R4C3-prix-de-la-faisanderie.html",
+        "R4C4-prix-de-berancourt.html",
+        "R4C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R4C6-prix-de-crepy.html",
+        "R4C7-prix-du-pont-de-la-reine.html",
+        "R4C8-prix-de-saintines.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-des-vestales.html",
+        "R5C2-prix-des-gardes.html",
+        "R5C3-prix-de-la-faisanderie.html",
+        "R5C4-prix-de-berancourt.html",
+        "R5C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R5C6-prix-de-crepy.html",
+        "R5C7-prix-du-pont-de-la-reine.html",
+        "R5C8-prix-de-saintines.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-vestales.html",
+        "R31C2-prix-des-gardes.html",
+        "R31C3-prix-de-la-faisanderie.html",
+        "R31C4-prix-de-berancourt.html",
+        "R31C5-prix-geny-courses-36-01-prix-de-pont-sainte-maxence.html",
+        "R31C6-prix-de-crepy.html",
+        "R31C7-prix-du-pont-de-la-reine.html",
+        "R31C8-prix-de-saintines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:51.691584Z"
+}

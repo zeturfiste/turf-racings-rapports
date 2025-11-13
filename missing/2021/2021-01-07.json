@@ -1,0 +1,57 @@
+{
+  "date": "2021-01-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-07",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-07/2021-01-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pontchateau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-epinal.html",
+        "R1C2-prix-du-mesle.html",
+        "R1C3-prix-pierre-raffre.html",
+        "R1C4-prix-de-coucy-le-chateau.html",
+        "R1C5-prix-hersilie.html",
+        "R1C6-prix-de-dun-sur-auron.html",
+        "R1C7-prix-de-neuville.html",
+        "R1C8-prix-de-montpellier.html"
+      ],
+      "R3-pontchateau": [
+        "R3C1-prix-d-epinal.html",
+        "R3C2-prix-du-mesle.html",
+        "R3C3-prix-pierre-raffre.html",
+        "R3C4-prix-de-coucy-le-chateau.html",
+        "R3C5-prix-hersilie.html",
+        "R3C6-prix-de-dun-sur-auron.html",
+        "R3C7-prix-de-neuville.html",
+        "R3C8-prix-de-montpellier.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-d-epinal.html",
+        "R4C2-prix-du-mesle.html",
+        "R4C3-prix-pierre-raffre.html",
+        "R4C4-prix-de-coucy-le-chateau.html",
+        "R4C5-prix-hersilie.html",
+        "R4C6-prix-de-dun-sur-auron.html",
+        "R4C7-prix-de-neuville.html",
+        "R4C8-prix-de-montpellier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:30.355544Z"
+}

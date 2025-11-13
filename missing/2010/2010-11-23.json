@@ -1,0 +1,66 @@
+{
+  "date": "2010-11-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-23",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-23/2010-11-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-23/R2-lyon-la-soie/R2C1-prix-ramsin.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R2-lyon-la-soie/R2C3-prix-isonomy.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R2-lyon-la-soie/R2C4-prix-ceres.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R2-lyon-la-soie/R2C5-prix-solitude.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R2-lyon-la-soie/R2C7-prix-sourbier.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R3-vincennes/R3C5-prix-solitude.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R3-vincennes/R3C7-prix-sourbier.html",
+      "resultats-et-rapports/2010/11/2010-11-23/R3-vincennes/R3C8-prix-de-chemoitou.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-la-soie",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-ramsin.html",
+        "R1C2-prix-du-manoir.html",
+        "R1C3-prix-isonomy.html",
+        "R1C4-prix-ceres.html",
+        "R1C5-prix-solitude.html",
+        "R1C6-prix-jacques-de-vienne.html",
+        "R1C7-prix-sourbier.html",
+        "R1C8-prix-de-chemoitou.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-ramsin.html",
+        "R2C2-prix-du-manoir.html",
+        "R2C3-prix-isonomy.html",
+        "R2C4-prix-ceres.html",
+        "R2C5-prix-solitude.html",
+        "R2C6-prix-jacques-de-vienne.html",
+        "R2C7-prix-sourbier.html",
+        "R2C8-prix-de-chemoitou.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-ramsin.html",
+        "R3C2-prix-du-manoir.html",
+        "R3C3-prix-isonomy.html",
+        "R3C4-prix-ceres.html",
+        "R3C5-prix-solitude.html",
+        "R3C6-prix-jacques-de-vienne.html",
+        "R3C7-prix-sourbier.html",
+        "R3C8-prix-de-chemoitou.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:17.086459Z"
+}

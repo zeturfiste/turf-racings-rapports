@@ -1,0 +1,80 @@
+{
+  "date": "2016-10-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-27",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-27/2016-10-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-27/R1-maisons-laffitte/R1C1-prix-idalie.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R1-maisons-laffitte/R1C2-prix-commandeur.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R1-maisons-laffitte/R1C3-prix-du-rey.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R1-maisons-laffitte/R1C8-prix-de-mauries.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R2-angers/R2C3-prix-du-rey.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R2-angers/R2C4-prix-zeddaan.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R2-angers/R2C5-prix-chloris.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R2-angers/R2C6-prix-de-saint-arnoult-en-yvelines.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R2-angers/R2C7-prix-de-la-hume.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R3-toulouse/R3C1-prix-idalie.html",
+      "resultats-et-rapports/2016/10/2016-10-27/R4-cabourg/R4C4-prix-zeddaan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-angers",
+      "R3-toulouse",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-idalie.html",
+        "R1C2-prix-commandeur.html",
+        "R1C3-prix-du-rey.html",
+        "R1C4-prix-zeddaan.html",
+        "R1C5-prix-chloris.html",
+        "R1C6-prix-de-saint-arnoult-en-yvelines.html",
+        "R1C7-prix-de-la-hume.html",
+        "R1C8-prix-de-mauries.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-idalie.html",
+        "R2C2-prix-commandeur.html",
+        "R2C3-prix-du-rey.html",
+        "R2C4-prix-zeddaan.html",
+        "R2C5-prix-chloris.html",
+        "R2C6-prix-de-saint-arnoult-en-yvelines.html",
+        "R2C7-prix-de-la-hume.html",
+        "R2C8-prix-de-mauries.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-idalie.html",
+        "R3C2-prix-commandeur.html",
+        "R3C3-prix-du-rey.html",
+        "R3C4-prix-zeddaan.html",
+        "R3C5-prix-chloris.html",
+        "R3C6-prix-de-saint-arnoult-en-yvelines.html",
+        "R3C7-prix-de-la-hume.html",
+        "R3C8-prix-de-mauries.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-idalie.html",
+        "R4C2-prix-commandeur.html",
+        "R4C3-prix-du-rey.html",
+        "R4C4-prix-zeddaan.html",
+        "R4C5-prix-chloris.html",
+        "R4C6-prix-de-saint-arnoult-en-yvelines.html",
+        "R4C7-prix-de-la-hume.html",
+        "R4C8-prix-de-mauries.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:49.788109Z"
+}

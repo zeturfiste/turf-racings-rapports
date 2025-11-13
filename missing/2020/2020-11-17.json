@@ -1,0 +1,90 @@
+{
+  "date": "2020-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-17",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-17/2020-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-17/R1-saint-cloud/R1C1-prix-pleben.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R1-saint-cloud/R1C3-prix-kantar.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R1-saint-cloud/R1C5-prix-tantieme.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C1-prix-pleben.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C3-prix-kantar.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C4-prix-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C5-prix-tantieme.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C6-prix-du-manoir.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R2-lyon-parilly/R2C8-prix-des-haras.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C1-prix-pleben.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C2-prix-pharsale.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C3-prix-kantar.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C5-prix-tantieme.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C7-prix-de-chemoitou.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R3-vincennes/R3C8-prix-des-haras.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C1-prix-pleben.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C2-prix-pharsale.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C4-prix-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C5-prix-tantieme.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C6-prix-du-manoir.html",
+      "resultats-et-rapports/2020/11/2020-11-17/R4-marseille-vivaux/R4C8-prix-des-haras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-pleben.html",
+        "R1C2-prix-pharsale.html",
+        "R1C3-prix-kantar.html",
+        "R1C4-prix-de-l-elevage.html",
+        "R1C5-prix-tantieme.html",
+        "R1C6-prix-du-manoir.html",
+        "R1C7-prix-de-chemoitou.html",
+        "R1C8-prix-des-haras.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-pleben.html",
+        "R2C2-prix-pharsale.html",
+        "R2C3-prix-kantar.html",
+        "R2C4-prix-de-l-elevage.html",
+        "R2C5-prix-tantieme.html",
+        "R2C6-prix-du-manoir.html",
+        "R2C7-prix-de-chemoitou.html",
+        "R2C8-prix-des-haras.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pleben.html",
+        "R3C2-prix-pharsale.html",
+        "R3C3-prix-kantar.html",
+        "R3C4-prix-de-l-elevage.html",
+        "R3C5-prix-tantieme.html",
+        "R3C6-prix-du-manoir.html",
+        "R3C7-prix-de-chemoitou.html",
+        "R3C8-prix-des-haras.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-pleben.html",
+        "R4C2-prix-pharsale.html",
+        "R4C3-prix-kantar.html",
+        "R4C4-prix-de-l-elevage.html",
+        "R4C5-prix-tantieme.html",
+        "R4C6-prix-du-manoir.html",
+        "R4C7-prix-de-chemoitou.html",
+        "R4C8-prix-des-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:14.717550Z"
+}

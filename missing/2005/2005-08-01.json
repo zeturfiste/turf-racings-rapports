@@ -1,0 +1,48 @@
+{
+  "date": "2005-08-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-01",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-01/2005-08-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-chartres"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-paris-turf-prix-de-jersey.html",
+        "R1C2-prix-jacomo-prix-des-cassias.html",
+        "R1C3-prix-agrial-point-vert-prix-des-lobelias.html",
+        "R1C4-prix-sephora-prix-de-guernesey.html",
+        "R1C5-prix-regine-s-club-de-deauville-prix-des-casinos-lucien-barriere.html",
+        "R1C6-prix-du-journal-le-pays-d-auge-prix-de-sark.html",
+        "R1C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R1C8-prix-gil-pascal-prix-des-heliotropes.html",
+        "R1C9-prix-equip-horse-prix-jacques-peillon.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-paris-turf-prix-de-jersey.html",
+        "R2C2-prix-jacomo-prix-des-cassias.html",
+        "R2C3-prix-agrial-point-vert-prix-des-lobelias.html",
+        "R2C4-prix-sephora-prix-de-guernesey.html",
+        "R2C5-prix-regine-s-club-de-deauville-prix-des-casinos-lucien-barriere.html",
+        "R2C6-prix-du-journal-le-pays-d-auge-prix-de-sark.html",
+        "R2C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R2C8-prix-gil-pascal-prix-des-heliotropes.html",
+        "R2C9-prix-equip-horse-prix-jacques-peillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:05.705609Z"
+}

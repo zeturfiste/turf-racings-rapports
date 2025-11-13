@@ -1,0 +1,97 @@
+{
+  "date": "2006-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-24",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-24/2006-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-24/R1-vincennes/R1C4-prix-de-vincennes.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R1-vincennes/R1C5-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R1-vincennes/R1C6-criterium-continental.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R1-vincennes/R1C9-prix-des-glaieuls.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R2-pau/R2C2-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R2-pau/R2C4-prix-de-vincennes.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R2-pau/R2C6-criterium-continental.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R2-pau/R2C8-prix-de-montdidier.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C2-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C3-prix-de-chateaudun.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C4-prix-de-vincennes.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C5-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C6-criterium-continental.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C7-prix-pierre-giffard.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C8-prix-de-montdidier.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R3-cagnes-sur-mer/R3C9-prix-des-glaieuls.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C1-prix-de-beauvoir.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C2-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C3-prix-de-chateaudun.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C5-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C6-criterium-continental.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C7-prix-pierre-giffard.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C8-prix-de-montdidier.html",
+      "resultats-et-rapports/2006/12/2006-12-24/R21-zerace/R21C9-prix-des-glaieuls.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-cagnes-sur-mer",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-beauvoir.html",
+        "R1C2-prix-de-beaumont-de-lomagne.html",
+        "R1C3-prix-de-chateaudun.html",
+        "R1C4-prix-de-vincennes.html",
+        "R1C5-prix-de-chateau-chinon.html",
+        "R1C6-criterium-continental.html",
+        "R1C7-prix-pierre-giffard.html",
+        "R1C8-prix-de-montdidier.html",
+        "R1C9-prix-des-glaieuls.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-beauvoir.html",
+        "R2C2-prix-de-beaumont-de-lomagne.html",
+        "R2C3-prix-de-chateaudun.html",
+        "R2C4-prix-de-vincennes.html",
+        "R2C5-prix-de-chateau-chinon.html",
+        "R2C6-criterium-continental.html",
+        "R2C7-prix-pierre-giffard.html",
+        "R2C8-prix-de-montdidier.html",
+        "R2C9-prix-des-glaieuls.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-beauvoir.html",
+        "R3C2-prix-de-beaumont-de-lomagne.html",
+        "R3C3-prix-de-chateaudun.html",
+        "R3C4-prix-de-vincennes.html",
+        "R3C5-prix-de-chateau-chinon.html",
+        "R3C6-criterium-continental.html",
+        "R3C7-prix-pierre-giffard.html",
+        "R3C8-prix-de-montdidier.html",
+        "R3C9-prix-des-glaieuls.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-beauvoir.html",
+        "R21C2-prix-de-beaumont-de-lomagne.html",
+        "R21C3-prix-de-chateaudun.html",
+        "R21C4-prix-de-vincennes.html",
+        "R21C5-prix-de-chateau-chinon.html",
+        "R21C6-criterium-continental.html",
+        "R21C7-prix-pierre-giffard.html",
+        "R21C8-prix-de-montdidier.html",
+        "R21C9-prix-des-glaieuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:01.244451Z"
+}

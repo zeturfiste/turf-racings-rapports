@@ -1,0 +1,82 @@
+{
+  "date": "2022-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-12",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-12/2022-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-12/R1-chantilly/R1C6-prix-du-carrefour-des-quatres-freres.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R3-pornichet-la-baule/R3C3-prix-du-chemin-blanc.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R3-pornichet-la-baule/R3C5-prix-du-carrefour-des-lyonnais.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R3-pornichet-la-baule/R3C6-prix-du-carrefour-des-quatres-freres.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R3-pornichet-la-baule/R3C7-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R4-le-lion-d-angers/R4C2-prix-du-champs-d-alouettes.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R4-le-lion-d-angers/R4C6-prix-du-carrefour-des-quatres-freres.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R4-le-lion-d-angers/R4C7-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R4-le-lion-d-angers/R4C8-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R5-cabourg/R5C1-prix-de-la-croix-des-veneurs.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R5-cabourg/R5C2-prix-du-champs-d-alouettes.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R5-cabourg/R5C5-prix-du-carrefour-des-lyonnais.html",
+      "resultats-et-rapports/2022/07/2022-07-12/R5-cabourg/R5C6-prix-du-carrefour-des-quatres-freres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-pornichet-la-baule",
+      "R4-le-lion-d-angers",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-croix-des-veneurs.html",
+        "R1C2-prix-du-champs-d-alouettes.html",
+        "R1C3-prix-du-chemin-blanc.html",
+        "R1C4-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R1C5-prix-du-carrefour-des-lyonnais.html",
+        "R1C6-prix-du-carrefour-des-quatres-freres.html",
+        "R1C7-prix-sans-souci-ii.html",
+        "R1C8-prix-le-roi-soleil.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-la-croix-des-veneurs.html",
+        "R3C2-prix-du-champs-d-alouettes.html",
+        "R3C3-prix-du-chemin-blanc.html",
+        "R3C4-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R3C5-prix-du-carrefour-des-lyonnais.html",
+        "R3C6-prix-du-carrefour-des-quatres-freres.html",
+        "R3C7-prix-sans-souci-ii.html",
+        "R3C8-prix-le-roi-soleil.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-la-croix-des-veneurs.html",
+        "R4C2-prix-du-champs-d-alouettes.html",
+        "R4C3-prix-du-chemin-blanc.html",
+        "R4C4-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R4C5-prix-du-carrefour-des-lyonnais.html",
+        "R4C6-prix-du-carrefour-des-quatres-freres.html",
+        "R4C7-prix-sans-souci-ii.html",
+        "R4C8-prix-le-roi-soleil.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-la-croix-des-veneurs.html",
+        "R5C2-prix-du-champs-d-alouettes.html",
+        "R5C3-prix-du-chemin-blanc.html",
+        "R5C4-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R5C5-prix-du-carrefour-des-lyonnais.html",
+        "R5C6-prix-du-carrefour-des-quatres-freres.html",
+        "R5C7-prix-sans-souci-ii.html",
+        "R5C8-prix-le-roi-soleil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:43.931729Z"
+}

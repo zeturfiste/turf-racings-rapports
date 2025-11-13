@@ -1,0 +1,83 @@
+{
+  "date": "2025-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-19",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-19/2025-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-19/R1-deauville/R1C1-prix-de-montaigu.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R1-deauville/R1C6-prix-de-bouquetot.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R2-divonne-les-bains/R2C6-prix-de-bouquetot.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R4-dax/R4C4-prix-de-colletot.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R4-dax/R4C6-prix-de-bouquetot.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R5-cabourg/R5C1-prix-de-montaigu.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R5-cabourg/R5C4-prix-de-colletot.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R5-cabourg/R5C5-prix-jimmy-winkfield-prix-de-mamers.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R5-cabourg/R5C8-prix-le-parisien-prix-de-balleroy.html",
+      "resultats-et-rapports/2025/08/2025-08-19/R5-cabourg/R5C9-prix-de-beaumont-le-roger.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-divonne-les-bains",
+      "R4-dax",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-montaigu.html",
+        "R1C2-prix-de-la-reboursiere.html",
+        "R1C3-prix-de-la-motte-glanville.html",
+        "R1C4-prix-de-colletot.html",
+        "R1C5-prix-jimmy-winkfield-prix-de-mamers.html",
+        "R1C6-prix-de-bouquetot.html",
+        "R1C7-prix-du-250eme-anniversaire-de-lexington-kentucky-prix-de-perseigne.html",
+        "R1C8-prix-le-parisien-prix-de-balleroy.html",
+        "R1C9-prix-de-beaumont-le-roger.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-de-montaigu.html",
+        "R2C2-prix-de-la-reboursiere.html",
+        "R2C3-prix-de-la-motte-glanville.html",
+        "R2C4-prix-de-colletot.html",
+        "R2C5-prix-jimmy-winkfield-prix-de-mamers.html",
+        "R2C6-prix-de-bouquetot.html",
+        "R2C7-prix-du-250eme-anniversaire-de-lexington-kentucky-prix-de-perseigne.html",
+        "R2C8-prix-le-parisien-prix-de-balleroy.html",
+        "R2C9-prix-de-beaumont-le-roger.html"
+      ],
+      "R4-dax": [
+        "R4C1-prix-de-montaigu.html",
+        "R4C2-prix-de-la-reboursiere.html",
+        "R4C3-prix-de-la-motte-glanville.html",
+        "R4C4-prix-de-colletot.html",
+        "R4C5-prix-jimmy-winkfield-prix-de-mamers.html",
+        "R4C6-prix-de-bouquetot.html",
+        "R4C7-prix-du-250eme-anniversaire-de-lexington-kentucky-prix-de-perseigne.html",
+        "R4C8-prix-le-parisien-prix-de-balleroy.html",
+        "R4C9-prix-de-beaumont-le-roger.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-montaigu.html",
+        "R5C2-prix-de-la-reboursiere.html",
+        "R5C3-prix-de-la-motte-glanville.html",
+        "R5C4-prix-de-colletot.html",
+        "R5C5-prix-jimmy-winkfield-prix-de-mamers.html",
+        "R5C6-prix-de-bouquetot.html",
+        "R5C7-prix-du-250eme-anniversaire-de-lexington-kentucky-prix-de-perseigne.html",
+        "R5C8-prix-le-parisien-prix-de-balleroy.html",
+        "R5C9-prix-de-beaumont-le-roger.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:31.105257Z"
+}

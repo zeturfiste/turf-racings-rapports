@@ -1,0 +1,80 @@
+{
+  "date": "2021-05-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-27",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-27/2021-05-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-27/R2-marseille-borely/R2C3-prix-des-jeuxdis.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R2-marseille-borely/R2C7-prix-de-la-megisserie.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R3-lyon-parilly/R3C2-prix-des-epinettes.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R3-lyon-parilly/R3C5-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R3-lyon-parilly/R3C7-prix-de-la-megisserie.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R3-lyon-parilly/R3C8-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R4-chartres/R4C2-prix-des-epinettes.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R4-chartres/R4C3-prix-des-jeuxdis.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R4-chartres/R4C4-prix-des-batignolles.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R4-chartres/R4C7-prix-de-la-megisserie.html",
+      "resultats-et-rapports/2021/05/2021-05-27/R4-chartres/R4C8-prix-du-champ-de-mars.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-marseille-borely",
+      "R3-lyon-parilly",
+      "R4-chartres"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-des-deesses.html",
+        "R1C2-prix-des-epinettes.html",
+        "R1C3-prix-des-jeuxdis.html",
+        "R1C4-prix-des-batignolles.html",
+        "R1C5-prix-du-haras-royal-de-meudon.html",
+        "R1C6-prix-du-cedre.html",
+        "R1C7-prix-de-la-megisserie.html",
+        "R1C8-prix-du-champ-de-mars.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-des-deesses.html",
+        "R2C2-prix-des-epinettes.html",
+        "R2C3-prix-des-jeuxdis.html",
+        "R2C4-prix-des-batignolles.html",
+        "R2C5-prix-du-haras-royal-de-meudon.html",
+        "R2C6-prix-du-cedre.html",
+        "R2C7-prix-de-la-megisserie.html",
+        "R2C8-prix-du-champ-de-mars.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-des-deesses.html",
+        "R3C2-prix-des-epinettes.html",
+        "R3C3-prix-des-jeuxdis.html",
+        "R3C4-prix-des-batignolles.html",
+        "R3C5-prix-du-haras-royal-de-meudon.html",
+        "R3C6-prix-du-cedre.html",
+        "R3C7-prix-de-la-megisserie.html",
+        "R3C8-prix-du-champ-de-mars.html"
+      ],
+      "R4-chartres": [
+        "R4C1-prix-des-deesses.html",
+        "R4C2-prix-des-epinettes.html",
+        "R4C3-prix-des-jeuxdis.html",
+        "R4C4-prix-des-batignolles.html",
+        "R4C5-prix-du-haras-royal-de-meudon.html",
+        "R4C6-prix-du-cedre.html",
+        "R4C7-prix-de-la-megisserie.html",
+        "R4C8-prix-du-champ-de-mars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:18.030804Z"
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2007-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-15",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-15/2007-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-15/R1-saint-cloud/R1C3-prix-dushka.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R1-saint-cloud/R1C5-prix-apollonia.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R21-zerace/R21C1-prix-dahlia.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R21-zerace/R21C3-prix-dushka.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R21-zerace/R21C7-prix-dunette.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C1-prix-dahlia.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C2-prix-saint-simon.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C3-prix-dushka.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C4-prix-de-triel.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C5-prix-apollonia.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C6-prix-de-brunoy.html",
+      "resultats-et-rapports/2007/03/2007-03-15/R70-stade-estadio-de-la-luz-lisbonne/R70C7-prix-dunette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R21-zerace",
+      "R70-stade-estadio-de-la-luz-lisbonne"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dahlia.html",
+        "R1C2-prix-saint-simon.html",
+        "R1C3-prix-dushka.html",
+        "R1C4-prix-de-triel.html",
+        "R1C5-prix-apollonia.html",
+        "R1C6-prix-de-brunoy.html",
+        "R1C7-prix-dunette.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-dahlia.html",
+        "R2C2-prix-saint-simon.html",
+        "R2C3-prix-dushka.html",
+        "R2C4-prix-de-triel.html",
+        "R2C5-prix-apollonia.html",
+        "R2C6-prix-de-brunoy.html",
+        "R2C7-prix-dunette.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-dahlia.html",
+        "R21C2-prix-saint-simon.html",
+        "R21C3-prix-dushka.html",
+        "R21C4-prix-de-triel.html",
+        "R21C5-prix-apollonia.html",
+        "R21C6-prix-de-brunoy.html",
+        "R21C7-prix-dunette.html"
+      ],
+      "R70-stade-estadio-de-la-luz-lisbonne": [
+        "R70C1-prix-dahlia.html",
+        "R70C2-prix-saint-simon.html",
+        "R70C3-prix-dushka.html",
+        "R70C4-prix-de-triel.html",
+        "R70C5-prix-apollonia.html",
+        "R70C6-prix-de-brunoy.html",
+        "R70C7-prix-dunette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:27.514443Z"
+}

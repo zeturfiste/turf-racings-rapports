@@ -1,0 +1,107 @@
+{
+  "date": "2008-07-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/07/2008-07-15",
+    "date_html": "resultats-et-rapports/2008/07/2008-07-15/2008-07-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/07/2008-07-15/R1-chateaubriant/R1C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R1-chateaubriant/R1C7-prix-sirol.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R1-chateaubriant/R1C8-prix-quart-de-vin.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R2-dieppe/R2C3-prix-de-l-avenir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R2-dieppe/R2C4-prix-vieux-manoir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R2-dieppe/R2C6-prix-de-soisy.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C1-grand-prix-de-chateaubriant-prix-synergie.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C2-prix-de-bon-abri.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C3-prix-de-l-avenir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C4-prix-vieux-manoir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C6-prix-de-soisy.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C7-prix-sirol.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R3-cabourg/R3C8-prix-quart-de-vin.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C2-prix-de-bon-abri.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C3-prix-de-l-avenir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C4-prix-vieux-manoir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C6-prix-de-soisy.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C7-prix-sirol.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R4-pornichet-la-baule/R4C8-prix-quart-de-vin.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C1-grand-prix-de-chateaubriant-prix-synergie.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C2-prix-de-bon-abri.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C3-prix-de-l-avenir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C4-prix-vieux-manoir.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+      "resultats-et-rapports/2008/07/2008-07-15/R31-zerace/R31C7-prix-sirol.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-dieppe",
+      "R3-cabourg",
+      "R4-pornichet-la-baule",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R1C2-prix-de-bon-abri.html",
+        "R1C3-prix-de-l-avenir.html",
+        "R1C4-prix-vieux-manoir.html",
+        "R1C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+        "R1C6-prix-de-soisy.html",
+        "R1C7-prix-sirol.html",
+        "R1C8-prix-quart-de-vin.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R2C2-prix-de-bon-abri.html",
+        "R2C3-prix-de-l-avenir.html",
+        "R2C4-prix-vieux-manoir.html",
+        "R2C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+        "R2C6-prix-de-soisy.html",
+        "R2C7-prix-sirol.html",
+        "R2C8-prix-quart-de-vin.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R3C2-prix-de-bon-abri.html",
+        "R3C3-prix-de-l-avenir.html",
+        "R3C4-prix-vieux-manoir.html",
+        "R3C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+        "R3C6-prix-de-soisy.html",
+        "R3C7-prix-sirol.html",
+        "R3C8-prix-quart-de-vin.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R4C2-prix-de-bon-abri.html",
+        "R4C3-prix-de-l-avenir.html",
+        "R4C4-prix-vieux-manoir.html",
+        "R4C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+        "R4C6-prix-de-soisy.html",
+        "R4C7-prix-sirol.html",
+        "R4C8-prix-quart-de-vin.html"
+      ],
+      "R31-zerace": [
+        "R31C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R31C2-prix-de-bon-abri.html",
+        "R31C3-prix-de-l-avenir.html",
+        "R31C4-prix-vieux-manoir.html",
+        "R31C5-prix-barbazanges-tri-ouest-prix-des-regions-bretagne.html",
+        "R31C6-prix-de-soisy.html",
+        "R31C7-prix-sirol.html",
+        "R31C8-prix-quart-de-vin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:32:54.826639Z"
+}

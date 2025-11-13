@@ -1,0 +1,87 @@
+{
+  "date": "2007-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/02/2007-02-08",
+    "date_html": "resultats-et-rapports/2007/02/2007-02-08/2007-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/02/2007-02-08/R1-vincennes/R1C8-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C1-prix-d-auffay.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C2-prix-guy-lux-prix-de-monsegur.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C3-prix-gerard-brami-prix-de-verneuil.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C4-prix-leon-zitrone-prix-de-louviers.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C5-prix-de-la-nievre.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C6-prix-jean-le-gonidec.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C7-prix-henri-hellard.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R2-salon-de-provence/R2C8-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R21-zerace/R21C1-prix-d-auffay.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R21-zerace/R21C5-prix-de-la-nievre.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R21-zerace/R21C6-prix-jean-le-gonidec.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R21-zerace/R21C7-prix-henri-hellard.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R41-vincennes/R41C2-prix-guy-lux-prix-de-monsegur.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R41-vincennes/R41C3-prix-gerard-brami-prix-de-verneuil.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R41-vincennes/R41C4-prix-leon-zitrone-prix-de-louviers.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R41-vincennes/R41C5-prix-de-la-nievre.html",
+      "resultats-et-rapports/2007/02/2007-02-08/R41-vincennes/R41C6-prix-jean-le-gonidec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-salon-de-provence",
+      "R21-zerace",
+      "R41-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-auffay.html",
+        "R1C2-prix-guy-lux-prix-de-monsegur.html",
+        "R1C3-prix-gerard-brami-prix-de-verneuil.html",
+        "R1C4-prix-leon-zitrone-prix-de-louviers.html",
+        "R1C5-prix-de-la-nievre.html",
+        "R1C6-prix-jean-le-gonidec.html",
+        "R1C7-prix-henri-hellard.html",
+        "R1C8-prix-de-bois-le-roi.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-d-auffay.html",
+        "R2C2-prix-guy-lux-prix-de-monsegur.html",
+        "R2C3-prix-gerard-brami-prix-de-verneuil.html",
+        "R2C4-prix-leon-zitrone-prix-de-louviers.html",
+        "R2C5-prix-de-la-nievre.html",
+        "R2C6-prix-jean-le-gonidec.html",
+        "R2C7-prix-henri-hellard.html",
+        "R2C8-prix-de-bois-le-roi.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-auffay.html",
+        "R21C2-prix-guy-lux-prix-de-monsegur.html",
+        "R21C3-prix-gerard-brami-prix-de-verneuil.html",
+        "R21C4-prix-leon-zitrone-prix-de-louviers.html",
+        "R21C5-prix-de-la-nievre.html",
+        "R21C6-prix-jean-le-gonidec.html",
+        "R21C7-prix-henri-hellard.html",
+        "R21C8-prix-de-bois-le-roi.html"
+      ],
+      "R41-vincennes": [
+        "R41C1-prix-d-auffay.html",
+        "R41C2-prix-guy-lux-prix-de-monsegur.html",
+        "R41C3-prix-gerard-brami-prix-de-verneuil.html",
+        "R41C4-prix-leon-zitrone-prix-de-louviers.html",
+        "R41C5-prix-de-la-nievre.html",
+        "R41C6-prix-jean-le-gonidec.html",
+        "R41C7-prix-henri-hellard.html",
+        "R41C8-prix-de-bois-le-roi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:14.645448Z"
+}

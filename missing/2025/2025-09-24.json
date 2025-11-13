@@ -1,0 +1,61 @@
+{
+  "date": "2025-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-24",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-24/2025-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-24/R3-compiegne/R3C6-prix-des-legendes-des-pronostiqueurs-paris-turf.html",
+      "resultats-et-rapports/2025/09/2025-09-24/R3-compiegne/R3C8-prix-des-legendes-du-micro.html",
+      "resultats-et-rapports/2025/09/2025-09-24/R4-toulouse/R4C3-prix-parole-de-fleurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R3-compiegne",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-grand-national-du-trot-de-lisieux.html",
+        "R1C2-prix-pmu-le-bistrot-glos.html",
+        "R1C3-prix-parole-de-fleurs.html",
+        "R1C4-prix-des-gloires-du-trot.html",
+        "R1C5-prix-des-gloires-du-galop.html",
+        "R1C6-prix-des-legendes-des-pronostiqueurs-paris-turf.html",
+        "R1C7-prix-pmu-la-civette-de-la-lieue.html",
+        "R1C8-prix-des-legendes-du-micro.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-national-du-trot-de-lisieux.html",
+        "R3C2-prix-pmu-le-bistrot-glos.html",
+        "R3C3-prix-parole-de-fleurs.html",
+        "R3C4-prix-des-gloires-du-trot.html",
+        "R3C5-prix-des-gloires-du-galop.html",
+        "R3C6-prix-des-legendes-des-pronostiqueurs-paris-turf.html",
+        "R3C7-prix-pmu-la-civette-de-la-lieue.html",
+        "R3C8-prix-des-legendes-du-micro.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-national-du-trot-de-lisieux.html",
+        "R4C2-prix-pmu-le-bistrot-glos.html",
+        "R4C3-prix-parole-de-fleurs.html",
+        "R4C4-prix-des-gloires-du-trot.html",
+        "R4C5-prix-des-gloires-du-galop.html",
+        "R4C6-prix-des-legendes-des-pronostiqueurs-paris-turf.html",
+        "R4C7-prix-pmu-la-civette-de-la-lieue.html",
+        "R4C8-prix-des-legendes-du-micro.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:44.512983Z"
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2021-11-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-26",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-26/2021-11-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-26/R1-vincennes/R1C1-prix-arietis.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R1-vincennes/R1C5-prix-vibilia.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R1-vincennes/R1C6-prix-klio.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C2-prix-aubade-creation-prix-keronis.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C3-prix-triton.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C4-prix-arsinoe.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C5-prix-vibilia.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C6-prix-klio.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R2-lyon-parilly/R2C7-prix-vigour-prix-leona.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R3-saint-cloud/R3C2-prix-aubade-creation-prix-keronis.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R3-saint-cloud/R3C3-prix-triton.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R3-saint-cloud/R3C4-prix-arsinoe.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R3-saint-cloud/R3C5-prix-vibilia.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R3-saint-cloud/R3C6-prix-klio.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R4-reims/R4C3-prix-triton.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R4-reims/R4C6-prix-klio.html",
+      "resultats-et-rapports/2021/11/2021-11-26/R4-reims/R4C7-prix-vigour-prix-leona.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-lyon-parilly",
+      "R3-saint-cloud",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-arietis.html",
+        "R1C2-prix-aubade-creation-prix-keronis.html",
+        "R1C3-prix-triton.html",
+        "R1C4-prix-arsinoe.html",
+        "R1C5-prix-vibilia.html",
+        "R1C6-prix-klio.html",
+        "R1C7-prix-vigour-prix-leona.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-arietis.html",
+        "R2C2-prix-aubade-creation-prix-keronis.html",
+        "R2C3-prix-triton.html",
+        "R2C4-prix-arsinoe.html",
+        "R2C5-prix-vibilia.html",
+        "R2C6-prix-klio.html",
+        "R2C7-prix-vigour-prix-leona.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-arietis.html",
+        "R3C2-prix-aubade-creation-prix-keronis.html",
+        "R3C3-prix-triton.html",
+        "R3C4-prix-arsinoe.html",
+        "R3C5-prix-vibilia.html",
+        "R3C6-prix-klio.html",
+        "R3C7-prix-vigour-prix-leona.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-arietis.html",
+        "R4C2-prix-aubade-creation-prix-keronis.html",
+        "R4C3-prix-triton.html",
+        "R4C4-prix-arsinoe.html",
+        "R4C5-prix-vibilia.html",
+        "R4C6-prix-klio.html",
+        "R4C7-prix-vigour-prix-leona.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:25.381262Z"
+}

@@ -1,0 +1,110 @@
+{
+  "date": "2014-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-06",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-06/2014-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-06/R1-feurs/R1C1-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R1-feurs/R1C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R1-feurs/R1C5-prix-micholet-metallerie-prix-de-vichy.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R1-feurs/R1C6-prix-nigay.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R1-feurs/R1C9-prix-selpro.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C3-prix-bm-environnement-groupe-a.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C5-prix-micholet-metallerie-prix-de-vichy.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C6-prix-nigay.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R2-chantilly/R2C8-prix-a-s-s-e.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R3-cabourg/R3C1-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R3-cabourg/R3C9-prix-selpro.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C5-prix-micholet-metallerie-prix-de-vichy.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C6-prix-nigay.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C7-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C8-prix-a-s-s-e.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R5-hyeres/R5C9-prix-selpro.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C1-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C5-prix-micholet-metallerie-prix-de-vichy.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C8-prix-a-s-s-e.html",
+      "resultats-et-rapports/2014/10/2014-10-06/R6-le-croise-laroche/R6C9-prix-selpro.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R2-chantilly",
+      "R3-cabourg",
+      "R5-hyeres",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-prix-de-la-ville-de-feurs.html",
+        "R1C2-prix-carrefour-feurs.html",
+        "R1C3-prix-bm-environnement-groupe-a.html",
+        "R1C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+        "R1C5-prix-micholet-metallerie-prix-de-vichy.html",
+        "R1C6-prix-nigay.html",
+        "R1C7-prix-du-credit-mutuel.html",
+        "R1C8-prix-a-s-s-e.html",
+        "R1C9-prix-selpro.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-la-ville-de-feurs.html",
+        "R2C2-prix-carrefour-feurs.html",
+        "R2C3-prix-bm-environnement-groupe-a.html",
+        "R2C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+        "R2C5-prix-micholet-metallerie-prix-de-vichy.html",
+        "R2C6-prix-nigay.html",
+        "R2C7-prix-du-credit-mutuel.html",
+        "R2C8-prix-a-s-s-e.html",
+        "R2C9-prix-selpro.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-la-ville-de-feurs.html",
+        "R3C2-prix-carrefour-feurs.html",
+        "R3C3-prix-bm-environnement-groupe-a.html",
+        "R3C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+        "R3C5-prix-micholet-metallerie-prix-de-vichy.html",
+        "R3C6-prix-nigay.html",
+        "R3C7-prix-du-credit-mutuel.html",
+        "R3C8-prix-a-s-s-e.html",
+        "R3C9-prix-selpro.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-de-la-ville-de-feurs.html",
+        "R5C2-prix-carrefour-feurs.html",
+        "R5C3-prix-bm-environnement-groupe-a.html",
+        "R5C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+        "R5C5-prix-micholet-metallerie-prix-de-vichy.html",
+        "R5C6-prix-nigay.html",
+        "R5C7-prix-du-credit-mutuel.html",
+        "R5C8-prix-a-s-s-e.html",
+        "R5C9-prix-selpro.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-la-ville-de-feurs.html",
+        "R6C2-prix-carrefour-feurs.html",
+        "R6C3-prix-bm-environnement-groupe-a.html",
+        "R6C4-prix-ets-benecy-prix-bm-environnement-groupe-b.html",
+        "R6C5-prix-micholet-metallerie-prix-de-vichy.html",
+        "R6C6-prix-nigay.html",
+        "R6C7-prix-du-credit-mutuel.html",
+        "R6C8-prix-a-s-s-e.html",
+        "R6C9-prix-selpro.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:02.345444Z"
+}

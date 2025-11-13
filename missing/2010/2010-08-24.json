@@ -1,0 +1,81 @@
+{
+  "date": "2010-08-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-24",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-24/2010-08-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C1-grand-prix-de-la-ville-de-tourgeville-duralock.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R2-saint-malo/R2C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C1-grand-prix-de-la-ville-de-tourgeville-duralock.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R1-clairefontaine/R1C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+      "resultats-et-rapports/2010/08/2010-08-24/R3-cabourg/R3C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-saint-malo",
+      "R1-clairefontaine",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R2-saint-malo": [
+        "R2C1-grand-prix-de-la-ville-de-tourgeville-duralock.html",
+        "R2C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+        "R2C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+        "R2C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R2C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+        "R2C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+        "R2C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+        "R2C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html"
+      ],
+      "R1-clairefontaine": [
+        "R1C1-grand-prix-de-la-ville-de-tourgeville-duralock.html",
+        "R1C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+        "R1C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+        "R1C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R1C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+        "R1C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+        "R1C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+        "R1C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-grand-prix-de-la-ville-de-tourgeville-duralock.html",
+        "R3C2-prix-des-fromageries-graindorge-prix-de-la-risle.html",
+        "R3C3-prix-idac-interprofession-des-aoc-cidricoles-prix-des-lavateres.html",
+        "R3C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R3C5-prix-de-la-tripiere-d-or-prix-des-herbages.html",
+        "R3C6-prix-des-chevaliers-du-livarot-prix-des-paturages.html",
+        "R3C7-prix-des-chevaliers-du-pont-l-eveque-prix-de-corbon.html",
+        "R3C8-prix-grand-ordre-du-trou-normand-prix-des-villas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:50.711189Z"
+}

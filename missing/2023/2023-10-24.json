@@ -1,0 +1,62 @@
+{
+  "date": "2023-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-24",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-24/2023-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-24/R1-auteuil/R1C5-prix-jean-sens.html",
+      "resultats-et-rapports/2023/10/2023-10-24/R3-le-mans/R3C7-prix-cap.html",
+      "resultats-et-rapports/2023/10/2023-10-24/R3-le-mans/R3C8-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2023/10/2023-10-24/R4-vincennes/R4C8-prix-ferdinand-riant.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-le-mans",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-santo-pietro.html",
+        "R1C2-prix-haras-du-reuilly.html",
+        "R1C3-prix-lusignan.html",
+        "R1C4-prix-moncourt.html",
+        "R1C5-prix-jean-sens.html",
+        "R1C6-prix-la-fregate.html",
+        "R1C7-prix-cap.html",
+        "R1C8-prix-ferdinand-riant.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-santo-pietro.html",
+        "R3C2-prix-haras-du-reuilly.html",
+        "R3C3-prix-lusignan.html",
+        "R3C4-prix-moncourt.html",
+        "R3C5-prix-jean-sens.html",
+        "R3C6-prix-la-fregate.html",
+        "R3C7-prix-cap.html",
+        "R3C8-prix-ferdinand-riant.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-santo-pietro.html",
+        "R4C2-prix-haras-du-reuilly.html",
+        "R4C3-prix-lusignan.html",
+        "R4C4-prix-moncourt.html",
+        "R4C5-prix-jean-sens.html",
+        "R4C6-prix-la-fregate.html",
+        "R4C7-prix-cap.html",
+        "R4C8-prix-ferdinand-riant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:32.862864Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2019-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/09/2019-09-13",
+    "date_html": "resultats-et-rapports/2019/09/2019-09-13/2019-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/09/2019-09-13/R1-vincennes/R1C4-prix-agrippa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R1-vincennes/R1C5-prix-cursa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R1-vincennes/R1C6-prix-erato.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R1-vincennes/R1C7-prix-menkar.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R2-salon-de-provence/R2C1-prix-alhena.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R2-salon-de-provence/R2C2-prix-massalia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R2-salon-de-provence/R2C3-prix-ophelia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R2-salon-de-provence/R2C5-prix-cursa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R2-salon-de-provence/R2C7-prix-menkar.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R4-saint-cloud/R4C2-prix-massalia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R4-saint-cloud/R4C3-prix-ophelia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R4-saint-cloud/R4C4-prix-agrippa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R4-saint-cloud/R4C5-prix-cursa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R4-saint-cloud/R4C6-prix-erato.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C1-prix-alhena.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C2-prix-massalia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C3-prix-ophelia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C4-prix-agrippa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C5-prix-cursa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C6-prix-erato.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R5-toulouse/R5C7-prix-menkar.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C1-prix-alhena.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C2-prix-massalia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C3-prix-ophelia.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C4-prix-agrippa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C5-prix-cursa.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C6-prix-erato.html",
+      "resultats-et-rapports/2019/09/2019-09-13/R6-laval/R6C7-prix-menkar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-salon-de-provence",
+      "R4-saint-cloud",
+      "R5-toulouse",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-alhena.html",
+        "R1C2-prix-massalia.html",
+        "R1C3-prix-ophelia.html",
+        "R1C4-prix-agrippa.html",
+        "R1C5-prix-cursa.html",
+        "R1C6-prix-erato.html",
+        "R1C7-prix-menkar.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-alhena.html",
+        "R2C2-prix-massalia.html",
+        "R2C3-prix-ophelia.html",
+        "R2C4-prix-agrippa.html",
+        "R2C5-prix-cursa.html",
+        "R2C6-prix-erato.html",
+        "R2C7-prix-menkar.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-alhena.html",
+        "R4C2-prix-massalia.html",
+        "R4C3-prix-ophelia.html",
+        "R4C4-prix-agrippa.html",
+        "R4C5-prix-cursa.html",
+        "R4C6-prix-erato.html",
+        "R4C7-prix-menkar.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-alhena.html",
+        "R5C2-prix-massalia.html",
+        "R5C3-prix-ophelia.html",
+        "R5C4-prix-agrippa.html",
+        "R5C5-prix-cursa.html",
+        "R5C6-prix-erato.html",
+        "R5C7-prix-menkar.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-alhena.html",
+        "R6C2-prix-massalia.html",
+        "R6C3-prix-ophelia.html",
+        "R6C4-prix-agrippa.html",
+        "R6C5-prix-cursa.html",
+        "R6C6-prix-erato.html",
+        "R6C7-prix-menkar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:06.914395Z"
+}

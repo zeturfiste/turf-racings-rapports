@@ -1,0 +1,132 @@
+{
+  "date": "2007-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-19",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-19/2007-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C2-prix-urgence.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C3-prix-indus.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C5-prix-de-marly-la-ville.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R1-saint-cloud/R1C7-prix-medicis.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R2-maure-de-bretagne/R2C2-prix-urgence.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R2-maure-de-bretagne/R2C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R2-maure-de-bretagne/R2C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C2-prix-urgence.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C3-prix-indus.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R3-vincennes/R3C7-prix-medicis.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R4-marseille-vivaux/R4C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R4-marseille-vivaux/R4C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R4-marseille-vivaux/R4C5-prix-de-marly-la-ville.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R4-marseille-vivaux/R4C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R4-marseille-vivaux/R4C7-prix-medicis.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R31-zerace/R31C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R31-zerace/R31C2-prix-urgence.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R31-zerace/R31C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R31-zerace/R31C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C2-prix-urgence.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C3-prix-indus.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C5-prix-de-marly-la-ville.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C6-prix-ukrania.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R70-parc-des-princes-paris/R70C7-prix-medicis.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R71-la-beaujoire-nantes/R71C1-prix-diatome.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R71-la-beaujoire-nantes/R71C3-prix-indus.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R71-la-beaujoire-nantes/R71C4-prix-feerie.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R71-la-beaujoire-nantes/R71C5-prix-de-marly-la-ville.html",
+      "resultats-et-rapports/2007/10/2007-10-19/R71-la-beaujoire-nantes/R71C7-prix-medicis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-maure-de-bretagne",
+      "R3-vincennes",
+      "R4-marseille-vivaux",
+      "R31-zerace",
+      "R70-parc-des-princes-paris",
+      "R71-la-beaujoire-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-diatome.html",
+        "R1C2-prix-urgence.html",
+        "R1C3-prix-indus.html",
+        "R1C4-prix-feerie.html",
+        "R1C5-prix-de-marly-la-ville.html",
+        "R1C6-prix-ukrania.html",
+        "R1C7-prix-medicis.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-diatome.html",
+        "R2C2-prix-urgence.html",
+        "R2C3-prix-indus.html",
+        "R2C4-prix-feerie.html",
+        "R2C5-prix-de-marly-la-ville.html",
+        "R2C6-prix-ukrania.html",
+        "R2C7-prix-medicis.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-diatome.html",
+        "R3C2-prix-urgence.html",
+        "R3C3-prix-indus.html",
+        "R3C4-prix-feerie.html",
+        "R3C5-prix-de-marly-la-ville.html",
+        "R3C6-prix-ukrania.html",
+        "R3C7-prix-medicis.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-diatome.html",
+        "R4C2-prix-urgence.html",
+        "R4C3-prix-indus.html",
+        "R4C4-prix-feerie.html",
+        "R4C5-prix-de-marly-la-ville.html",
+        "R4C6-prix-ukrania.html",
+        "R4C7-prix-medicis.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-diatome.html",
+        "R31C2-prix-urgence.html",
+        "R31C3-prix-indus.html",
+        "R31C4-prix-feerie.html",
+        "R31C5-prix-de-marly-la-ville.html",
+        "R31C6-prix-ukrania.html",
+        "R31C7-prix-medicis.html"
+      ],
+      "R70-parc-des-princes-paris": [
+        "R70C1-prix-diatome.html",
+        "R70C2-prix-urgence.html",
+        "R70C3-prix-indus.html",
+        "R70C4-prix-feerie.html",
+        "R70C5-prix-de-marly-la-ville.html",
+        "R70C6-prix-ukrania.html",
+        "R70C7-prix-medicis.html"
+      ],
+      "R71-la-beaujoire-nantes": [
+        "R71C1-prix-diatome.html",
+        "R71C2-prix-urgence.html",
+        "R71C3-prix-indus.html",
+        "R71C4-prix-feerie.html",
+        "R71C5-prix-de-marly-la-ville.html",
+        "R71C6-prix-ukrania.html",
+        "R71C7-prix-medicis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:50.904055Z"
+}

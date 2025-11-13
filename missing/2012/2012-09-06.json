@@ -1,0 +1,75 @@
+{
+  "date": "2012-09-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-06",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-06/2012-09-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-06/R1-longchamp/R1C3-prix-de-la-poterne-des-peupliers.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R1-longchamp/R1C5-prix-du-rouvray.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R1-longchamp/R1C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C2-prix-du-val-vauvert.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C3-prix-de-la-poterne-des-peupliers.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C4-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C6-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C7-prix-des-vieilles-garennes.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R2-strasbourg/R2C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C2-prix-du-val-vauvert.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C3-prix-de-la-poterne-des-peupliers.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C4-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C6-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C7-prix-des-vieilles-garennes.html",
+      "resultats-et-rapports/2012/09/2012-09-06/R3-graignes/R3C8-prix-du-petit-trianon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-strasbourg",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-grand-trianon.html",
+        "R1C2-prix-du-val-vauvert.html",
+        "R1C3-prix-de-la-poterne-des-peupliers.html",
+        "R1C4-prix-des-federations-regionales.html",
+        "R1C5-prix-du-rouvray.html",
+        "R1C6-grand-prix-des-anglo-arabes.html",
+        "R1C7-prix-des-vieilles-garennes.html",
+        "R1C8-prix-du-petit-trianon.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-du-grand-trianon.html",
+        "R2C2-prix-du-val-vauvert.html",
+        "R2C3-prix-de-la-poterne-des-peupliers.html",
+        "R2C4-prix-des-federations-regionales.html",
+        "R2C5-prix-du-rouvray.html",
+        "R2C6-grand-prix-des-anglo-arabes.html",
+        "R2C7-prix-des-vieilles-garennes.html",
+        "R2C8-prix-du-petit-trianon.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-du-grand-trianon.html",
+        "R3C2-prix-du-val-vauvert.html",
+        "R3C3-prix-de-la-poterne-des-peupliers.html",
+        "R3C4-prix-des-federations-regionales.html",
+        "R3C5-prix-du-rouvray.html",
+        "R3C6-grand-prix-des-anglo-arabes.html",
+        "R3C7-prix-des-vieilles-garennes.html",
+        "R3C8-prix-du-petit-trianon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:18.488089Z"
+}

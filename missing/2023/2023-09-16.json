@@ -1,0 +1,120 @@
+{
+  "date": "2023-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-16",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-16/2023-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-16/R2-le-lion-d-angers/R2C5-prix-de-gouy.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R2-le-lion-d-angers/R2C6-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R3-caen/R3C1-prix-du-bois-franc.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R3-caen/R3C5-prix-de-gouy.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R3-caen/R3C8-prix-du-roi-des-manuscrits.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R3-caen/R3C9-prix-de-la-galerie-de-peinture.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C2-prix-de-conde.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C3-prix-du-cabinet-des-livres.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C6-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C7-prix-de-la-ville-de-lamorlaye.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C8-prix-du-roi-des-manuscrits.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R4-vichy/R4C9-prix-de-la-galerie-de-peinture.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R8-beaumont-de-lomagne/R8C1-prix-du-bois-franc.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R8-beaumont-de-lomagne/R8C7-prix-de-la-ville-de-lamorlaye.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C1-prix-du-bois-franc.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C2-prix-de-conde.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C3-prix-du-cabinet-des-livres.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C4-prix-eclipse.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C5-prix-de-gouy.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C6-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C7-prix-de-la-ville-de-lamorlaye.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C8-prix-du-roi-des-manuscrits.html",
+      "resultats-et-rapports/2023/09/2023-09-16/R9-hyeres/R9C9-prix-de-la-galerie-de-peinture.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-le-lion-d-angers",
+      "R3-caen",
+      "R4-vichy",
+      "R8-beaumont-de-lomagne",
+      "R9-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-franc.html",
+        "R1C2-prix-de-conde.html",
+        "R1C3-prix-du-cabinet-des-livres.html",
+        "R1C4-prix-eclipse.html",
+        "R1C5-prix-de-gouy.html",
+        "R1C6-prix-bertrand-de-tarragon.html",
+        "R1C7-prix-de-la-ville-de-lamorlaye.html",
+        "R1C8-prix-du-roi-des-manuscrits.html",
+        "R1C9-prix-de-la-galerie-de-peinture.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-du-bois-franc.html",
+        "R2C2-prix-de-conde.html",
+        "R2C3-prix-du-cabinet-des-livres.html",
+        "R2C4-prix-eclipse.html",
+        "R2C5-prix-de-gouy.html",
+        "R2C6-prix-bertrand-de-tarragon.html",
+        "R2C7-prix-de-la-ville-de-lamorlaye.html",
+        "R2C8-prix-du-roi-des-manuscrits.html",
+        "R2C9-prix-de-la-galerie-de-peinture.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-du-bois-franc.html",
+        "R3C2-prix-de-conde.html",
+        "R3C3-prix-du-cabinet-des-livres.html",
+        "R3C4-prix-eclipse.html",
+        "R3C5-prix-de-gouy.html",
+        "R3C6-prix-bertrand-de-tarragon.html",
+        "R3C7-prix-de-la-ville-de-lamorlaye.html",
+        "R3C8-prix-du-roi-des-manuscrits.html",
+        "R3C9-prix-de-la-galerie-de-peinture.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-bois-franc.html",
+        "R4C2-prix-de-conde.html",
+        "R4C3-prix-du-cabinet-des-livres.html",
+        "R4C4-prix-eclipse.html",
+        "R4C5-prix-de-gouy.html",
+        "R4C6-prix-bertrand-de-tarragon.html",
+        "R4C7-prix-de-la-ville-de-lamorlaye.html",
+        "R4C8-prix-du-roi-des-manuscrits.html",
+        "R4C9-prix-de-la-galerie-de-peinture.html"
+      ],
+      "R8-beaumont-de-lomagne": [
+        "R8C1-prix-du-bois-franc.html",
+        "R8C2-prix-de-conde.html",
+        "R8C3-prix-du-cabinet-des-livres.html",
+        "R8C4-prix-eclipse.html",
+        "R8C5-prix-de-gouy.html",
+        "R8C6-prix-bertrand-de-tarragon.html",
+        "R8C7-prix-de-la-ville-de-lamorlaye.html",
+        "R8C8-prix-du-roi-des-manuscrits.html",
+        "R8C9-prix-de-la-galerie-de-peinture.html"
+      ],
+      "R9-hyeres": [
+        "R9C1-prix-du-bois-franc.html",
+        "R9C2-prix-de-conde.html",
+        "R9C3-prix-du-cabinet-des-livres.html",
+        "R9C4-prix-eclipse.html",
+        "R9C5-prix-de-gouy.html",
+        "R9C6-prix-bertrand-de-tarragon.html",
+        "R9C7-prix-de-la-ville-de-lamorlaye.html",
+        "R9C8-prix-du-roi-des-manuscrits.html",
+        "R9C9-prix-de-la-galerie-de-peinture.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:18.927381Z"
+}

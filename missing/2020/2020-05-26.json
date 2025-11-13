@@ -1,0 +1,81 @@
+{
+  "date": "2020-05-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-26",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-26/2020-05-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-26/R2-pontchateau/R2C9-prix-des-coteaux.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R3-pau/R3C1-prix-du-grenier-a-sel.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R3-pau/R3C3-prix-de-la-jetee-en-bois.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R3-pau/R3C9-prix-des-coteaux.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R4-le-mans/R4C3-prix-de-la-jetee-en-bois.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R4-le-mans/R4C6-prix-de-la-tour-aux-crabes.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R4-le-mans/R4C7-prix-des-illetes.html",
+      "resultats-et-rapports/2020/05/2020-05-26/R4-le-mans/R4C9-prix-des-coteaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-pontchateau",
+      "R3-pau",
+      "R4-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-du-grenier-a-sel.html",
+        "R1C2-prix-des-pecheurs.html",
+        "R1C3-prix-de-la-jetee-en-bois.html",
+        "R1C4-prix-des-sardiniers.html",
+        "R1C5-prix-toyota-toys-motors.html",
+        "R1C6-prix-de-la-tour-aux-crabes.html",
+        "R1C7-prix-des-illetes.html",
+        "R1C8-prix-de-la-nouvelle-yaris-prix-du-bois-larris.html",
+        "R1C9-prix-des-coteaux.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-du-grenier-a-sel.html",
+        "R2C2-prix-des-pecheurs.html",
+        "R2C3-prix-de-la-jetee-en-bois.html",
+        "R2C4-prix-des-sardiniers.html",
+        "R2C5-prix-toyota-toys-motors.html",
+        "R2C6-prix-de-la-tour-aux-crabes.html",
+        "R2C7-prix-des-illetes.html",
+        "R2C8-prix-de-la-nouvelle-yaris-prix-du-bois-larris.html",
+        "R2C9-prix-des-coteaux.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-du-grenier-a-sel.html",
+        "R3C2-prix-des-pecheurs.html",
+        "R3C3-prix-de-la-jetee-en-bois.html",
+        "R3C4-prix-des-sardiniers.html",
+        "R3C5-prix-toyota-toys-motors.html",
+        "R3C6-prix-de-la-tour-aux-crabes.html",
+        "R3C7-prix-des-illetes.html",
+        "R3C8-prix-de-la-nouvelle-yaris-prix-du-bois-larris.html",
+        "R3C9-prix-des-coteaux.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-du-grenier-a-sel.html",
+        "R4C2-prix-des-pecheurs.html",
+        "R4C3-prix-de-la-jetee-en-bois.html",
+        "R4C4-prix-des-sardiniers.html",
+        "R4C5-prix-toyota-toys-motors.html",
+        "R4C6-prix-de-la-tour-aux-crabes.html",
+        "R4C7-prix-des-illetes.html",
+        "R4C8-prix-de-la-nouvelle-yaris-prix-du-bois-larris.html",
+        "R4C9-prix-des-coteaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:12.230648Z"
+}

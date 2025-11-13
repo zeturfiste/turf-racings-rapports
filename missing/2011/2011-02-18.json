@@ -1,0 +1,58 @@
+{
+  "date": "2011-02-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/02/2011-02-18",
+    "date_html": "resultats-et-rapports/2011/02/2011-02-18/2011-02-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/02/2011-02-18/R2-graignes/R2C5-prix-de-saint-justin.html",
+      "resultats-et-rapports/2011/02/2011-02-18/R3-cagnes-sur-mer/R3C4-prix-de-tauriac.html",
+      "resultats-et-rapports/2011/02/2011-02-18/R3-cagnes-sur-mer/R3C7-prix-de-la-bastide.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-graignes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-du-haras-de-gelos.html",
+        "R1C2-prix-cci-pau-bearn-prix-magicienne.html",
+        "R1C3-prix-du-marensin.html",
+        "R1C4-prix-de-tauriac.html",
+        "R1C5-prix-de-saint-justin.html",
+        "R1C6-prix-d-onesse.html",
+        "R1C7-prix-de-la-bastide.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-du-haras-de-gelos.html",
+        "R2C2-prix-cci-pau-bearn-prix-magicienne.html",
+        "R2C3-prix-du-marensin.html",
+        "R2C4-prix-de-tauriac.html",
+        "R2C5-prix-de-saint-justin.html",
+        "R2C6-prix-d-onesse.html",
+        "R2C7-prix-de-la-bastide.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-haras-de-gelos.html",
+        "R3C2-prix-cci-pau-bearn-prix-magicienne.html",
+        "R3C3-prix-du-marensin.html",
+        "R3C4-prix-de-tauriac.html",
+        "R3C5-prix-de-saint-justin.html",
+        "R3C6-prix-d-onesse.html",
+        "R3C7-prix-de-la-bastide.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:36.368249Z"
+}

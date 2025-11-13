@@ -1,0 +1,82 @@
+{
+  "date": "2025-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-09",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-09/2025-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-09/R1-saint-cloud/R1C3-prix-as-d-atout.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R1-saint-cloud/R1C5-prix-guemul.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R1-saint-cloud/R1C6-prix-du-val-d-or.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C1-prix-de-versailles.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C4-prix-du-bourbonnais.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C5-prix-guemul.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C7-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C8-prix-du-chesnay.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C9-prix-de-rocquencourt.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R3-lyon-parilly/R3C10-prix-des-yvelines.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C3-prix-as-d-atout.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C4-prix-du-bourbonnais.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C5-prix-guemul.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C6-prix-du-val-d-or.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C7-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C8-prix-du-chesnay.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C9-prix-de-rocquencourt.html",
+      "resultats-et-rapports/2025/10/2025-10-09/R4-enghien-soisy/R4C10-prix-des-yvelines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-lyon-parilly",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-versailles.html",
+        "R1C2-prix-tenebreuse.html",
+        "R1C3-prix-as-d-atout.html",
+        "R1C4-prix-du-bourbonnais.html",
+        "R1C5-prix-guemul.html",
+        "R1C6-prix-du-val-d-or.html",
+        "R1C7-prix-du-val-d-oise.html",
+        "R1C8-prix-du-chesnay.html",
+        "R1C9-prix-de-rocquencourt.html",
+        "R1C10-prix-des-yvelines.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-versailles.html",
+        "R3C2-prix-tenebreuse.html",
+        "R3C3-prix-as-d-atout.html",
+        "R3C4-prix-du-bourbonnais.html",
+        "R3C5-prix-guemul.html",
+        "R3C6-prix-du-val-d-or.html",
+        "R3C7-prix-du-val-d-oise.html",
+        "R3C8-prix-du-chesnay.html",
+        "R3C9-prix-de-rocquencourt.html",
+        "R3C10-prix-des-yvelines.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-versailles.html",
+        "R4C2-prix-tenebreuse.html",
+        "R4C3-prix-as-d-atout.html",
+        "R4C4-prix-du-bourbonnais.html",
+        "R4C5-prix-guemul.html",
+        "R4C6-prix-du-val-d-or.html",
+        "R4C7-prix-du-val-d-oise.html",
+        "R4C8-prix-du-chesnay.html",
+        "R4C9-prix-de-rocquencourt.html",
+        "R4C10-prix-des-yvelines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:49.838156Z"
+}

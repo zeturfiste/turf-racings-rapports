@@ -1,0 +1,90 @@
+{
+  "date": "2014-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-02",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-02/2014-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-02/R3-auteuil/R3C1-prix-des-mirabelles.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R3-auteuil/R3C6-prix-des-bergamotes.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R4-les-sables-d-olonne/R4C1-prix-des-mirabelles.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R4-les-sables-d-olonne/R4C2-prix-des-macarons.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R4-les-sables-d-olonne/R4C6-prix-des-bergamotes.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R4-les-sables-d-olonne/R4C7-prix-des-visitandines.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R5-vincennes/R5C1-prix-des-mirabelles.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R5-vincennes/R5C3-prix-des-myrtilles.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R5-vincennes/R5C6-prix-des-bergamotes.html",
+      "resultats-et-rapports/2014/09/2014-09-02/R5-vincennes/R5C7-prix-des-visitandines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nancy",
+      "R2-argentan",
+      "R3-auteuil",
+      "R4-les-sables-d-olonne",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-nancy": [
+        "R1C1-prix-des-mirabelles.html",
+        "R1C2-prix-des-macarons.html",
+        "R1C3-prix-des-myrtilles.html",
+        "R1C4-prix-de-nancy.html",
+        "R1C5-prix-du-chardon-lorrain.html",
+        "R1C6-prix-des-bergamotes.html",
+        "R1C7-prix-des-visitandines.html",
+        "R1C8-prix-du-journal-geny.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-des-mirabelles.html",
+        "R2C2-prix-des-macarons.html",
+        "R2C3-prix-des-myrtilles.html",
+        "R2C4-prix-de-nancy.html",
+        "R2C5-prix-du-chardon-lorrain.html",
+        "R2C6-prix-des-bergamotes.html",
+        "R2C7-prix-des-visitandines.html",
+        "R2C8-prix-du-journal-geny.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-des-mirabelles.html",
+        "R3C2-prix-des-macarons.html",
+        "R3C3-prix-des-myrtilles.html",
+        "R3C4-prix-de-nancy.html",
+        "R3C5-prix-du-chardon-lorrain.html",
+        "R3C6-prix-des-bergamotes.html",
+        "R3C7-prix-des-visitandines.html",
+        "R3C8-prix-du-journal-geny.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-des-mirabelles.html",
+        "R4C2-prix-des-macarons.html",
+        "R4C3-prix-des-myrtilles.html",
+        "R4C4-prix-de-nancy.html",
+        "R4C5-prix-du-chardon-lorrain.html",
+        "R4C6-prix-des-bergamotes.html",
+        "R4C7-prix-des-visitandines.html",
+        "R4C8-prix-du-journal-geny.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-des-mirabelles.html",
+        "R5C2-prix-des-macarons.html",
+        "R5C3-prix-des-myrtilles.html",
+        "R5C4-prix-de-nancy.html",
+        "R5C5-prix-du-chardon-lorrain.html",
+        "R5C6-prix-des-bergamotes.html",
+        "R5C7-prix-des-visitandines.html",
+        "R5C8-prix-du-journal-geny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:50.368899Z"
+}

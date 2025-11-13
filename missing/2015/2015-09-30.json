@@ -1,0 +1,73 @@
+{
+  "date": "2015-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/09/2015-09-30",
+    "date_html": "resultats-et-rapports/2015/09/2015-09-30/2015-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/09/2015-09-30/R1-laval/R1C2-prix-cofidur-ems-prix-yann-despres.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R1-laval/R1C3-prix-pierre-et-felix-leguerney.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R1-laval/R1C4-prix-cofidur-ems-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R1-laval/R1C5-prix-d-avenches-championnat-europeen-des-3-ans.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R1-laval/R1C6-prix-du-credit-agricole.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R2-lyon-parilly/R2C3-prix-pierre-et-felix-leguerney.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R2-lyon-parilly/R2C5-prix-d-avenches-championnat-europeen-des-3-ans.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R2-lyon-parilly/R2C7-prix-du-docteur-henri-goude.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R2-lyon-parilly/R2C9-prix-georges-cadiou-groupe-b.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R3-chantilly/R3C2-prix-cofidur-ems-prix-yann-despres.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R3-chantilly/R3C3-prix-pierre-et-felix-leguerney.html",
+      "resultats-et-rapports/2015/09/2015-09-30/R3-chantilly/R3C4-prix-cofidur-ems-grand-prix-anjou-maine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-lyon-parilly",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-gaston-tremaudan.html",
+        "R1C2-prix-cofidur-ems-prix-yann-despres.html",
+        "R1C3-prix-pierre-et-felix-leguerney.html",
+        "R1C4-prix-cofidur-ems-grand-prix-anjou-maine.html",
+        "R1C5-prix-d-avenches-championnat-europeen-des-3-ans.html",
+        "R1C6-prix-du-credit-agricole.html",
+        "R1C7-prix-du-docteur-henri-goude.html",
+        "R1C8-prix-georges-cadiou-groupe-a.html",
+        "R1C9-prix-georges-cadiou-groupe-b.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-gaston-tremaudan.html",
+        "R2C2-prix-cofidur-ems-prix-yann-despres.html",
+        "R2C3-prix-pierre-et-felix-leguerney.html",
+        "R2C4-prix-cofidur-ems-grand-prix-anjou-maine.html",
+        "R2C5-prix-d-avenches-championnat-europeen-des-3-ans.html",
+        "R2C6-prix-du-credit-agricole.html",
+        "R2C7-prix-du-docteur-henri-goude.html",
+        "R2C8-prix-georges-cadiou-groupe-a.html",
+        "R2C9-prix-georges-cadiou-groupe-b.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-gaston-tremaudan.html",
+        "R3C2-prix-cofidur-ems-prix-yann-despres.html",
+        "R3C3-prix-pierre-et-felix-leguerney.html",
+        "R3C4-prix-cofidur-ems-grand-prix-anjou-maine.html",
+        "R3C5-prix-d-avenches-championnat-europeen-des-3-ans.html",
+        "R3C6-prix-du-credit-agricole.html",
+        "R3C7-prix-du-docteur-henri-goude.html",
+        "R3C8-prix-georges-cadiou-groupe-a.html",
+        "R3C9-prix-georges-cadiou-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:51.888204Z"
+}

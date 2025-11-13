@@ -1,0 +1,65 @@
+{
+  "date": "2024-01-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/01/2024-01-29",
+    "date_html": "resultats-et-rapports/2024/01/2024-01-29/2024-01-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/01/2024-01-29/R1-cagnes-sur-mer/R1C3-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R1-cagnes-sur-mer/R1C5-prix-des-boutons-d-or.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R1-cagnes-sur-mer/R1C7-prix-des-lacs.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R4-mauquenchy/R4C1-prix-des-citronniers.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R4-mauquenchy/R4C3-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R4-mauquenchy/R4C5-prix-des-boutons-d-or.html",
+      "resultats-et-rapports/2024/01/2024-01-29/R4-mauquenchy/R4C8-prix-paul-antoine-pulvenis-de-seligny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-bordeaux-le-bouscat",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-citronniers.html",
+        "R1C2-prix-du-languedoc.html",
+        "R1C3-prix-de-la-promenade-des-anglais.html",
+        "R1C4-prix-des-romarins.html",
+        "R1C5-prix-des-boutons-d-or.html",
+        "R1C6-prix-du-roussillon.html",
+        "R1C7-prix-des-lacs.html",
+        "R1C8-prix-paul-antoine-pulvenis-de-seligny.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-des-citronniers.html",
+        "R3C2-prix-du-languedoc.html",
+        "R3C3-prix-de-la-promenade-des-anglais.html",
+        "R3C4-prix-des-romarins.html",
+        "R3C5-prix-des-boutons-d-or.html",
+        "R3C6-prix-du-roussillon.html",
+        "R3C7-prix-des-lacs.html",
+        "R3C8-prix-paul-antoine-pulvenis-de-seligny.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-des-citronniers.html",
+        "R4C2-prix-du-languedoc.html",
+        "R4C3-prix-de-la-promenade-des-anglais.html",
+        "R4C4-prix-des-romarins.html",
+        "R4C5-prix-des-boutons-d-or.html",
+        "R4C6-prix-du-roussillon.html",
+        "R4C7-prix-des-lacs.html",
+        "R4C8-prix-paul-antoine-pulvenis-de-seligny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:06.038375Z"
+}

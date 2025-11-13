@@ -1,0 +1,100 @@
+{
+  "date": "2024-09-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-09",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-09/2024-09-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-09/R2-salon-de-provence/R2C6-prix-de-l-association-des-experts-comptables-82.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R3-saint-cloud/R3C2-prix-de-la-societe-du-trotteur-francais.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R3-saint-cloud/R3C7-prix-hippodrome-de-vichy.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R4-caen/R4C1-prix-de-la-presse-d-endoumingue.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R4-caen/R4C6-prix-de-l-association-des-experts-comptables-82.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R4-caen/R4C7-prix-hippodrome-de-vichy.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R6-dieppe/R6C1-prix-de-la-presse-d-endoumingue.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R6-dieppe/R6C2-prix-de-la-societe-du-trotteur-francais.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R6-dieppe/R6C3-prix-radio-100.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R6-dieppe/R6C4-grand-prix-jean-dumouch.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R6-dieppe/R6C5-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R7-le-croise-laroche/R7C1-prix-de-la-presse-d-endoumingue.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R7-le-croise-laroche/R7C5-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R7-le-croise-laroche/R7C6-prix-de-l-association-des-experts-comptables-82.html",
+      "resultats-et-rapports/2024/09/2024-09-09/R7-le-croise-laroche/R7C7-prix-hippodrome-de-vichy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-beaumont-de-lomagne",
+      "R2-salon-de-provence",
+      "R3-saint-cloud",
+      "R4-caen",
+      "R6-dieppe",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-beaumont-de-lomagne": [
+        "R1C1-prix-de-la-presse-d-endoumingue.html",
+        "R1C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R1C3-prix-radio-100.html",
+        "R1C4-grand-prix-jean-dumouch.html",
+        "R1C5-prix-la-depeche-du-midi.html",
+        "R1C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R1C7-prix-hippodrome-de-vichy.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-de-la-presse-d-endoumingue.html",
+        "R2C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R2C3-prix-radio-100.html",
+        "R2C4-grand-prix-jean-dumouch.html",
+        "R2C5-prix-la-depeche-du-midi.html",
+        "R2C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R2C7-prix-hippodrome-de-vichy.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-de-la-presse-d-endoumingue.html",
+        "R3C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R3C3-prix-radio-100.html",
+        "R3C4-grand-prix-jean-dumouch.html",
+        "R3C5-prix-la-depeche-du-midi.html",
+        "R3C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R3C7-prix-hippodrome-de-vichy.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-de-la-presse-d-endoumingue.html",
+        "R4C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R4C3-prix-radio-100.html",
+        "R4C4-grand-prix-jean-dumouch.html",
+        "R4C5-prix-la-depeche-du-midi.html",
+        "R4C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R4C7-prix-hippodrome-de-vichy.html"
+      ],
+      "R6-dieppe": [
+        "R6C1-prix-de-la-presse-d-endoumingue.html",
+        "R6C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R6C3-prix-radio-100.html",
+        "R6C4-grand-prix-jean-dumouch.html",
+        "R6C5-prix-la-depeche-du-midi.html",
+        "R6C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R6C7-prix-hippodrome-de-vichy.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-de-la-presse-d-endoumingue.html",
+        "R7C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R7C3-prix-radio-100.html",
+        "R7C4-grand-prix-jean-dumouch.html",
+        "R7C5-prix-la-depeche-du-midi.html",
+        "R7C6-prix-de-l-association-des-experts-comptables-82.html",
+        "R7C7-prix-hippodrome-de-vichy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:27.540637Z"
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2010-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/10/2010-10-29",
+    "date_html": "resultats-et-rapports/2010/10/2010-10-29/2010-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C2-prix-de-vivienne.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C4-prix-du-stade-de-france.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C5-prix-du-musee-des-arts-decoratifs.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C7-prix-de-la-huchette.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R2-lyon-parilly/R2C8-prix-de-la-rive-gauche.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C1-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C2-prix-de-vivienne.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C4-prix-du-stade-de-france.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C5-prix-du-musee-des-arts-decoratifs.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C6-prix-des-folies-bergere.html",
+      "resultats-et-rapports/2010/10/2010-10-29/R3-vincennes/R3C8-prix-de-la-rive-gauche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-lyon-parilly",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-la-roseraie.html",
+        "R1C2-prix-de-vivienne.html",
+        "R1C3-criterium-de-vitesse.html",
+        "R1C4-prix-du-stade-de-france.html",
+        "R1C5-prix-du-musee-des-arts-decoratifs.html",
+        "R1C6-prix-des-folies-bergere.html",
+        "R1C7-prix-de-la-huchette.html",
+        "R1C8-prix-de-la-rive-gauche.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-la-roseraie.html",
+        "R2C2-prix-de-vivienne.html",
+        "R2C3-criterium-de-vitesse.html",
+        "R2C4-prix-du-stade-de-france.html",
+        "R2C5-prix-du-musee-des-arts-decoratifs.html",
+        "R2C6-prix-des-folies-bergere.html",
+        "R2C7-prix-de-la-huchette.html",
+        "R2C8-prix-de-la-rive-gauche.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-roseraie.html",
+        "R3C2-prix-de-vivienne.html",
+        "R3C3-criterium-de-vitesse.html",
+        "R3C4-prix-du-stade-de-france.html",
+        "R3C5-prix-du-musee-des-arts-decoratifs.html",
+        "R3C6-prix-des-folies-bergere.html",
+        "R3C7-prix-de-la-huchette.html",
+        "R3C8-prix-de-la-rive-gauche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:09.922032Z"
+}

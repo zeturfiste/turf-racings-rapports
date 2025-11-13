@@ -1,0 +1,81 @@
+{
+  "date": "2020-11-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-27",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-27/2020-11-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-27/R1-vincennes/R1C1-prix-ottilia.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R1-vincennes/R1C4-prix-keronis.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R1-vincennes/R1C5-prix-circinus.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R3-saint-cloud/R3C2-prix-electra.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R3-saint-cloud/R3C4-prix-keronis.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R3-saint-cloud/R3C6-prix-klio.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R4-mauquenchy/R4C2-prix-electra.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R4-mauquenchy/R4C4-prix-keronis.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R4-mauquenchy/R4C6-prix-klio.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R4-mauquenchy/R4C7-prix-edna.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C1-prix-ottilia.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C2-prix-electra.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C4-prix-keronis.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C5-prix-circinus.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C6-prix-klio.html",
+      "resultats-et-rapports/2020/11/2020-11-27/R5-lyon-la-soie/R5C7-prix-edna.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-saint-cloud",
+      "R4-mauquenchy",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ottilia.html",
+        "R1C2-prix-electra.html",
+        "R1C3-prix-hilda.html",
+        "R1C4-prix-keronis.html",
+        "R1C5-prix-circinus.html",
+        "R1C6-prix-klio.html",
+        "R1C7-prix-edna.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-ottilia.html",
+        "R3C2-prix-electra.html",
+        "R3C3-prix-hilda.html",
+        "R3C4-prix-keronis.html",
+        "R3C5-prix-circinus.html",
+        "R3C6-prix-klio.html",
+        "R3C7-prix-edna.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-ottilia.html",
+        "R4C2-prix-electra.html",
+        "R4C3-prix-hilda.html",
+        "R4C4-prix-keronis.html",
+        "R4C5-prix-circinus.html",
+        "R4C6-prix-klio.html",
+        "R4C7-prix-edna.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-ottilia.html",
+        "R5C2-prix-electra.html",
+        "R5C3-prix-hilda.html",
+        "R5C4-prix-keronis.html",
+        "R5C5-prix-circinus.html",
+        "R5C6-prix-klio.html",
+        "R5C7-prix-edna.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:18.056549Z"
+}

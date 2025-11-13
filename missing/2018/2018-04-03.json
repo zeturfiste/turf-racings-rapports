@@ -1,0 +1,88 @@
+{
+  "date": "2018-04-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-03",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-03/2018-04-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-03/R1-chantilly/R1C1-prix-du-bois-de-rosiere.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R1-chantilly/R1C3-prix-lypharita.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R1-chantilly/R1C5-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R1-chantilly/R1C6-prix-lacovia.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R2-amiens/R2C9-prix-du-parc-de-valliere.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R3-compiegne/R3C2-prix-du-premier-pas.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R3-compiegne/R3C3-prix-lypharita.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R3-compiegne/R3C5-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R3-compiegne/R3C9-prix-du-parc-de-valliere.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C2-prix-du-premier-pas.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C4-prix-de-brunehaut.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C5-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C6-prix-lacovia.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C8-prix-escaline.html",
+      "resultats-et-rapports/2018/04/2018-04-03/R5-vincennes/R5C9-prix-du-parc-de-valliere.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-amiens",
+      "R3-compiegne",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-de-rosiere.html",
+        "R1C2-prix-du-premier-pas.html",
+        "R1C3-prix-lypharita.html",
+        "R1C4-prix-de-brunehaut.html",
+        "R1C5-prix-du-pont-du-roi.html",
+        "R1C6-prix-lacovia.html",
+        "R1C7-prix-des-cotes-d-orleans.html",
+        "R1C8-prix-escaline.html",
+        "R1C9-prix-du-parc-de-valliere.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-du-bois-de-rosiere.html",
+        "R2C2-prix-du-premier-pas.html",
+        "R2C3-prix-lypharita.html",
+        "R2C4-prix-de-brunehaut.html",
+        "R2C5-prix-du-pont-du-roi.html",
+        "R2C6-prix-lacovia.html",
+        "R2C7-prix-des-cotes-d-orleans.html",
+        "R2C8-prix-escaline.html",
+        "R2C9-prix-du-parc-de-valliere.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-du-bois-de-rosiere.html",
+        "R3C2-prix-du-premier-pas.html",
+        "R3C3-prix-lypharita.html",
+        "R3C4-prix-de-brunehaut.html",
+        "R3C5-prix-du-pont-du-roi.html",
+        "R3C6-prix-lacovia.html",
+        "R3C7-prix-des-cotes-d-orleans.html",
+        "R3C8-prix-escaline.html",
+        "R3C9-prix-du-parc-de-valliere.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-du-bois-de-rosiere.html",
+        "R5C2-prix-du-premier-pas.html",
+        "R5C3-prix-lypharita.html",
+        "R5C4-prix-de-brunehaut.html",
+        "R5C5-prix-du-pont-du-roi.html",
+        "R5C6-prix-lacovia.html",
+        "R5C7-prix-des-cotes-d-orleans.html",
+        "R5C8-prix-escaline.html",
+        "R5C9-prix-du-parc-de-valliere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:22.908526Z"
+}

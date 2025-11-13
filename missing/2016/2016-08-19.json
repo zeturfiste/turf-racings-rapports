@@ -1,0 +1,108 @@
+{
+  "date": "2016-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/08/2016-08-19",
+    "date_html": "resultats-et-rapports/2016/08/2016-08-19/2016-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/08/2016-08-19/R1-cabourg/R1C2-prix-des-cedres.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R1-cabourg/R1C5-prix-des-cypres-groupe-a.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R1-cabourg/R1C6-prix-des-cypres-groupe-b.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R1-cabourg/R1C7-prix-des-godeties.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C1-prix-des-cardamines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C2-prix-des-cedres.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C3-prix-des-bouleaux.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C5-prix-des-cypres-groupe-a.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C6-prix-des-cypres-groupe-b.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R3-pornichet-la-baule/R3C7-prix-des-godeties.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C1-prix-des-cardamines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C2-prix-des-cedres.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C3-prix-des-bouleaux.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C4-prix-des-eglantines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C5-prix-des-cypres-groupe-a.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C6-prix-des-cypres-groupe-b.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C7-prix-des-godeties.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R4-clairefontaine/R4C8-prix-des-jasmins.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R5-la-teste-de-buch/R5C1-prix-des-cardamines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R5-la-teste-de-buch/R5C2-prix-des-cedres.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R5-la-teste-de-buch/R5C3-prix-des-bouleaux.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R5-la-teste-de-buch/R5C4-prix-des-eglantines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R5-la-teste-de-buch/R5C8-prix-des-jasmins.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R6-cagnes-sur-mer/R6C1-prix-des-cardamines.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R6-cagnes-sur-mer/R6C2-prix-des-cedres.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R6-cagnes-sur-mer/R6C3-prix-des-bouleaux.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R6-cagnes-sur-mer/R6C5-prix-des-cypres-groupe-a.html",
+      "resultats-et-rapports/2016/08/2016-08-19/R6-cagnes-sur-mer/R6C7-prix-des-godeties.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-pornichet-la-baule",
+      "R4-clairefontaine",
+      "R5-la-teste-de-buch",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-cardamines.html",
+        "R1C2-prix-des-cedres.html",
+        "R1C3-prix-des-bouleaux.html",
+        "R1C4-prix-des-eglantines.html",
+        "R1C5-prix-des-cypres-groupe-a.html",
+        "R1C6-prix-des-cypres-groupe-b.html",
+        "R1C7-prix-des-godeties.html",
+        "R1C8-prix-des-jasmins.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-des-cardamines.html",
+        "R3C2-prix-des-cedres.html",
+        "R3C3-prix-des-bouleaux.html",
+        "R3C4-prix-des-eglantines.html",
+        "R3C5-prix-des-cypres-groupe-a.html",
+        "R3C6-prix-des-cypres-groupe-b.html",
+        "R3C7-prix-des-godeties.html",
+        "R3C8-prix-des-jasmins.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-des-cardamines.html",
+        "R4C2-prix-des-cedres.html",
+        "R4C3-prix-des-bouleaux.html",
+        "R4C4-prix-des-eglantines.html",
+        "R4C5-prix-des-cypres-groupe-a.html",
+        "R4C6-prix-des-cypres-groupe-b.html",
+        "R4C7-prix-des-godeties.html",
+        "R4C8-prix-des-jasmins.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-des-cardamines.html",
+        "R5C2-prix-des-cedres.html",
+        "R5C3-prix-des-bouleaux.html",
+        "R5C4-prix-des-eglantines.html",
+        "R5C5-prix-des-cypres-groupe-a.html",
+        "R5C6-prix-des-cypres-groupe-b.html",
+        "R5C7-prix-des-godeties.html",
+        "R5C8-prix-des-jasmins.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-des-cardamines.html",
+        "R6C2-prix-des-cedres.html",
+        "R6C3-prix-des-bouleaux.html",
+        "R6C4-prix-des-eglantines.html",
+        "R6C5-prix-des-cypres-groupe-a.html",
+        "R6C6-prix-des-cypres-groupe-b.html",
+        "R6C7-prix-des-godeties.html",
+        "R6C8-prix-des-jasmins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:26.063527Z"
+}

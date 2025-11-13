@@ -1,0 +1,65 @@
+{
+  "date": "2019-12-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/12/2019-12-21",
+    "date_html": "resultats-et-rapports/2019/12/2019-12-21/2019-12-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/12/2019-12-21/R1-vincennes/R1C4-prix-constant-hervieu.html",
+      "resultats-et-rapports/2019/12/2019-12-21/R3-pau/R3C3-prix-de-strasbourg.html",
+      "resultats-et-rapports/2019/12/2019-12-21/R4-cagnes-sur-mer/R4C8-prix-de-fougeres.html",
+      "resultats-et-rapports/2019/12/2019-12-21/R4-cagnes-sur-mer/R4C9-prix-de-vienne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emmanuel-margouty.html",
+        "R1C2-prix-jules-lemonnier.html",
+        "R1C3-prix-de-strasbourg.html",
+        "R1C4-prix-constant-hervieu.html",
+        "R1C5-prix-de-luynes.html",
+        "R1C6-prix-de-neuille-pont-pierre.html",
+        "R1C7-prix-d-ispagnac.html",
+        "R1C8-prix-de-fougeres.html",
+        "R1C9-prix-de-vienne.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-emmanuel-margouty.html",
+        "R3C2-prix-jules-lemonnier.html",
+        "R3C3-prix-de-strasbourg.html",
+        "R3C4-prix-constant-hervieu.html",
+        "R3C5-prix-de-luynes.html",
+        "R3C6-prix-de-neuille-pont-pierre.html",
+        "R3C7-prix-d-ispagnac.html",
+        "R3C8-prix-de-fougeres.html",
+        "R3C9-prix-de-vienne.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-emmanuel-margouty.html",
+        "R4C2-prix-jules-lemonnier.html",
+        "R4C3-prix-de-strasbourg.html",
+        "R4C4-prix-constant-hervieu.html",
+        "R4C5-prix-de-luynes.html",
+        "R4C6-prix-de-neuille-pont-pierre.html",
+        "R4C7-prix-d-ispagnac.html",
+        "R4C8-prix-de-fougeres.html",
+        "R4C9-prix-de-vienne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:39.270642Z"
+}

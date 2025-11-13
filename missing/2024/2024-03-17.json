@@ -1,0 +1,100 @@
+{
+  "date": "2024-03-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-17",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-17/2024-03-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-17/R1-auteuil/R1C9-prix-lilium.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R3-lyon-parilly/R3C8-prix-caldarium.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R4-graignes/R4C9-prix-lilium.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R7-meslay-du-maine/R7C3-prix-didier-mescam.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R7-meslay-du-maine/R7C4-prix-predicateur.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R7-meslay-du-maine/R7C7-prix-d-indy.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R7-meslay-du-maine/R7C9-prix-lilium.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C2-prix-rush.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C3-prix-didier-mescam.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C4-prix-predicateur.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C5-grand-steeple-chase-masters-prix-troytown.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C6-prix-defile.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C7-prix-d-indy.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C8-prix-caldarium.html",
+      "resultats-et-rapports/2024/03/2024-03-17/R8-agen/R8C9-prix-lilium.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-graignes",
+      "R7-meslay-du-maine",
+      "R8-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-auricula.html",
+        "R1C2-prix-rush.html",
+        "R1C3-prix-didier-mescam.html",
+        "R1C4-prix-predicateur.html",
+        "R1C5-grand-steeple-chase-masters-prix-troytown.html",
+        "R1C6-prix-defile.html",
+        "R1C7-prix-d-indy.html",
+        "R1C8-prix-caldarium.html",
+        "R1C9-prix-lilium.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-auricula.html",
+        "R3C2-prix-rush.html",
+        "R3C3-prix-didier-mescam.html",
+        "R3C4-prix-predicateur.html",
+        "R3C5-grand-steeple-chase-masters-prix-troytown.html",
+        "R3C6-prix-defile.html",
+        "R3C7-prix-d-indy.html",
+        "R3C8-prix-caldarium.html",
+        "R3C9-prix-lilium.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-auricula.html",
+        "R4C2-prix-rush.html",
+        "R4C3-prix-didier-mescam.html",
+        "R4C4-prix-predicateur.html",
+        "R4C5-grand-steeple-chase-masters-prix-troytown.html",
+        "R4C6-prix-defile.html",
+        "R4C7-prix-d-indy.html",
+        "R4C8-prix-caldarium.html",
+        "R4C9-prix-lilium.html"
+      ],
+      "R7-meslay-du-maine": [
+        "R7C1-prix-auricula.html",
+        "R7C2-prix-rush.html",
+        "R7C3-prix-didier-mescam.html",
+        "R7C4-prix-predicateur.html",
+        "R7C5-grand-steeple-chase-masters-prix-troytown.html",
+        "R7C6-prix-defile.html",
+        "R7C7-prix-d-indy.html",
+        "R7C8-prix-caldarium.html",
+        "R7C9-prix-lilium.html"
+      ],
+      "R8-agen": [
+        "R8C1-prix-auricula.html",
+        "R8C2-prix-rush.html",
+        "R8C3-prix-didier-mescam.html",
+        "R8C4-prix-predicateur.html",
+        "R8C5-grand-steeple-chase-masters-prix-troytown.html",
+        "R8C6-prix-defile.html",
+        "R8C7-prix-d-indy.html",
+        "R8C8-prix-caldarium.html",
+        "R8C9-prix-lilium.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:21.892330Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2017-04-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-19",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-19/2017-04-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-19/R1-cordemais/R1C1-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R1-cordemais/R1C2-prix-jacques-fairand.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R1-cordemais/R1C3-prix-de-la-ville-de-savenay.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R3-fontainebleau/R3C1-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R4-saint-cloud/R4C2-prix-jacques-fairand.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R4-saint-cloud/R4C3-prix-de-la-ville-de-savenay.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R4-saint-cloud/R4C5-prix-de-la-ville-de-vigneux.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R4-saint-cloud/R4C7-prix-de-la-ville-de-malville.html",
+      "resultats-et-rapports/2017/04/2017-04-19/R4-saint-cloud/R4C8-prix-de-la-ville-de-coueron.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R3-fontainebleau",
+      "R4-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-prix-de-la-ville-de-cordemais.html",
+        "R1C2-prix-jacques-fairand.html",
+        "R1C3-prix-de-la-ville-de-savenay.html",
+        "R1C4-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R1C5-prix-de-la-ville-de-vigneux.html",
+        "R1C6-prix-de-saint-etienne-de-montluc.html",
+        "R1C7-prix-de-la-ville-de-malville.html",
+        "R1C8-prix-de-la-ville-de-coueron.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-la-ville-de-cordemais.html",
+        "R3C2-prix-jacques-fairand.html",
+        "R3C3-prix-de-la-ville-de-savenay.html",
+        "R3C4-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R3C5-prix-de-la-ville-de-vigneux.html",
+        "R3C6-prix-de-saint-etienne-de-montluc.html",
+        "R3C7-prix-de-la-ville-de-malville.html",
+        "R3C8-prix-de-la-ville-de-coueron.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-de-la-ville-de-cordemais.html",
+        "R4C2-prix-jacques-fairand.html",
+        "R4C3-prix-de-la-ville-de-savenay.html",
+        "R4C4-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R4C5-prix-de-la-ville-de-vigneux.html",
+        "R4C6-prix-de-saint-etienne-de-montluc.html",
+        "R4C7-prix-de-la-ville-de-malville.html",
+        "R4C8-prix-de-la-ville-de-coueron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:38.060414Z"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2021-01-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-18",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-18/2021-01-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C1-prix-de-brionne.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C2-prix-d-ableiges.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C3-prix-de-montreuil.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C4-prix-de-la-capelle.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C5-prix-de-villereal.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C6-prix-de-la-baule.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C7-prix-de-marvejols.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R1-vincennes/R1C8-prix-de-grandvilliers.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C1-prix-de-brionne.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C2-prix-d-ableiges.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C3-prix-de-montreuil.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C4-prix-de-la-capelle.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C5-prix-de-villereal.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C6-prix-de-la-baule.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C7-prix-de-marvejols.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R3-cagnes-sur-mer/R3C8-prix-de-grandvilliers.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C1-prix-de-brionne.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C2-prix-d-ableiges.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C4-prix-de-la-capelle.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C5-prix-de-villereal.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C7-prix-de-marvejols.html",
+      "resultats-et-rapports/2021/01/2021-01-18/R4-toulouse/R4C8-prix-de-grandvilliers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-brionne.html",
+        "R1C2-prix-d-ableiges.html",
+        "R1C3-prix-de-montreuil.html",
+        "R1C4-prix-de-la-capelle.html",
+        "R1C5-prix-de-villereal.html",
+        "R1C6-prix-de-la-baule.html",
+        "R1C7-prix-de-marvejols.html",
+        "R1C8-prix-de-grandvilliers.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-brionne.html",
+        "R3C2-prix-d-ableiges.html",
+        "R3C3-prix-de-montreuil.html",
+        "R3C4-prix-de-la-capelle.html",
+        "R3C5-prix-de-villereal.html",
+        "R3C6-prix-de-la-baule.html",
+        "R3C7-prix-de-marvejols.html",
+        "R3C8-prix-de-grandvilliers.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-brionne.html",
+        "R4C2-prix-d-ableiges.html",
+        "R4C3-prix-de-montreuil.html",
+        "R4C4-prix-de-la-capelle.html",
+        "R4C5-prix-de-villereal.html",
+        "R4C6-prix-de-la-baule.html",
+        "R4C7-prix-de-marvejols.html",
+        "R4C8-prix-de-grandvilliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:34.163247Z"
+}

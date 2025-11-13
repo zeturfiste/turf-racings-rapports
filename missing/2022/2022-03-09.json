@@ -1,0 +1,89 @@
+{
+  "date": "2022-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-09",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-09/2022-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-09/R1-amiens/R1C2-prix-amiens-capitale-euro-culture-2028.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R1-amiens/R1C7-prix-pmu-la-civette-albert.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R3-chantilly/R3C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R3-chantilly/R3C2-prix-amiens-capitale-euro-culture-2028.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R3-chantilly/R3C3-prix-de-l-unat.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R3-chantilly/R3C4-prix-raceandcare.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R3-chantilly/R3C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C2-prix-amiens-capitale-euro-culture-2028.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C4-prix-raceandcare.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C6-prix-fictac.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C7-prix-pmu-la-civette-albert.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R4-saint-galmier/R4C8-prix-de-l-association-passerelle.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C3-prix-de-l-unat.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C4-prix-raceandcare.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C6-prix-fictac.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C7-prix-pmu-la-civette-albert.html",
+      "resultats-et-rapports/2022/03/2022-03-09/R7-marseille-borely/R7C8-prix-de-l-association-passerelle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-chantilly",
+      "R4-saint-galmier",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+        "R1C2-prix-amiens-capitale-euro-culture-2028.html",
+        "R1C3-prix-de-l-unat.html",
+        "R1C4-prix-raceandcare.html",
+        "R1C5-prix-moet-et-chandon.html",
+        "R1C6-prix-fictac.html",
+        "R1C7-prix-pmu-la-civette-albert.html",
+        "R1C8-prix-de-l-association-passerelle.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+        "R3C2-prix-amiens-capitale-euro-culture-2028.html",
+        "R3C3-prix-de-l-unat.html",
+        "R3C4-prix-raceandcare.html",
+        "R3C5-prix-moet-et-chandon.html",
+        "R3C6-prix-fictac.html",
+        "R3C7-prix-pmu-la-civette-albert.html",
+        "R3C8-prix-de-l-association-passerelle.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+        "R4C2-prix-amiens-capitale-euro-culture-2028.html",
+        "R4C3-prix-de-l-unat.html",
+        "R4C4-prix-raceandcare.html",
+        "R4C5-prix-moet-et-chandon.html",
+        "R4C6-prix-fictac.html",
+        "R4C7-prix-pmu-la-civette-albert.html",
+        "R4C8-prix-de-l-association-passerelle.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-national-du-trot-paris-turf-2022-etape-1.html",
+        "R7C2-prix-amiens-capitale-euro-culture-2028.html",
+        "R7C3-prix-de-l-unat.html",
+        "R7C4-prix-raceandcare.html",
+        "R7C5-prix-moet-et-chandon.html",
+        "R7C6-prix-fictac.html",
+        "R7C7-prix-pmu-la-civette-albert.html",
+        "R7C8-prix-de-l-association-passerelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:58.364021Z"
+}

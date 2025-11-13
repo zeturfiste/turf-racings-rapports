@@ -1,0 +1,76 @@
+{
+  "date": "2019-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/09/2019-09-20",
+    "date_html": "resultats-et-rapports/2019/09/2019-09-20/2019-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/09/2019-09-20/R4-chantilly/R4C2-prix-ef-france-prix-klytia.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R4-chantilly/R4C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R4-chantilly/R4C4-prix-escp-europe-prix-pictor.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R4-chantilly/R4C5-prix-igs-prix-lacadeira.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R4-chantilly/R4C7-prix-radio-fg-prix-velleda.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C1-prix-college-de-paris-prix-bruna.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C2-prix-ef-france-prix-klytia.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C4-prix-escp-europe-prix-pictor.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C5-prix-igs-prix-lacadeira.html",
+      "resultats-et-rapports/2019/09/2019-09-20/R5-nantes/R5C7-prix-radio-fg-prix-velleda.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-caen",
+      "R4-chantilly",
+      "R5-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-college-de-paris-prix-bruna.html",
+        "R1C2-prix-ef-france-prix-klytia.html",
+        "R1C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+        "R1C4-prix-escp-europe-prix-pictor.html",
+        "R1C5-prix-igs-prix-lacadeira.html",
+        "R1C6-prix-win-sport-school-prix-centaurus.html",
+        "R1C7-prix-radio-fg-prix-velleda.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-college-de-paris-prix-bruna.html",
+        "R2C2-prix-ef-france-prix-klytia.html",
+        "R2C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+        "R2C4-prix-escp-europe-prix-pictor.html",
+        "R2C5-prix-igs-prix-lacadeira.html",
+        "R2C6-prix-win-sport-school-prix-centaurus.html",
+        "R2C7-prix-radio-fg-prix-velleda.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-college-de-paris-prix-bruna.html",
+        "R4C2-prix-ef-france-prix-klytia.html",
+        "R4C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+        "R4C4-prix-escp-europe-prix-pictor.html",
+        "R4C5-prix-igs-prix-lacadeira.html",
+        "R4C6-prix-win-sport-school-prix-centaurus.html",
+        "R4C7-prix-radio-fg-prix-velleda.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-college-de-paris-prix-bruna.html",
+        "R5C2-prix-ef-france-prix-klytia.html",
+        "R5C3-prix-la-mutuelle-familiale-prix-cleomede.html",
+        "R5C4-prix-escp-europe-prix-pictor.html",
+        "R5C5-prix-igs-prix-lacadeira.html",
+        "R5C6-prix-win-sport-school-prix-centaurus.html",
+        "R5C7-prix-radio-fg-prix-velleda.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:09.332121Z"
+}

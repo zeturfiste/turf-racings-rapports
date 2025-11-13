@@ -1,0 +1,65 @@
+{
+  "date": "2010-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-20",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-20/2010-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-20/R1-vincennes/R1C6-prix-de-gaillon.html",
+      "resultats-et-rapports/2010/09/2010-09-20/R1-vincennes/R1C7-prix-de-durban.html",
+      "resultats-et-rapports/2010/09/2010-09-20/R1-vincennes/R1C8-prix-de-givors.html",
+      "resultats-et-rapports/2010/09/2010-09-20/R3-caen/R3C3-prix-de-bihorel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-auteuil",
+      "R3-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-roche-posay.html",
+        "R1C2-prix-de-beziers.html",
+        "R1C3-prix-de-bihorel.html",
+        "R1C4-prix-de-feurs.html",
+        "R1C5-prix-de-guyenne.html",
+        "R1C6-prix-de-gaillon.html",
+        "R1C7-prix-de-durban.html",
+        "R1C8-prix-de-givors.html",
+        "R1C9-prix-de-montelimar.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-la-roche-posay.html",
+        "R2C2-prix-de-beziers.html",
+        "R2C3-prix-de-bihorel.html",
+        "R2C4-prix-de-feurs.html",
+        "R2C5-prix-de-guyenne.html",
+        "R2C6-prix-de-gaillon.html",
+        "R2C7-prix-de-durban.html",
+        "R2C8-prix-de-givors.html",
+        "R2C9-prix-de-montelimar.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-roche-posay.html",
+        "R3C2-prix-de-beziers.html",
+        "R3C3-prix-de-bihorel.html",
+        "R3C4-prix-de-feurs.html",
+        "R3C5-prix-de-guyenne.html",
+        "R3C6-prix-de-gaillon.html",
+        "R3C7-prix-de-durban.html",
+        "R3C8-prix-de-givors.html",
+        "R3C9-prix-de-montelimar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:58.600304Z"
+}

@@ -1,0 +1,88 @@
+{
+  "date": "2019-12-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/12/2019-12-16",
+    "date_html": "resultats-et-rapports/2019/12/2019-12-16/2019-12-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C1-prix-du-mesnil-durand.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C2-prix-the-wonder.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C3-prix-de-grandouet.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C4-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C5-prix-du-pont-de-la-pierre.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C6-prix-vodkato.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C7-prix-de-la-hauquerie.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C8-prix-de-saint-vaast-la-hougue.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R1-deauville/R1C9-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C1-prix-du-mesnil-durand.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C2-prix-the-wonder.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C3-prix-de-grandouet.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C4-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C5-prix-du-pont-de-la-pierre.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C6-prix-vodkato.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C7-prix-de-la-hauquerie.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C8-prix-de-saint-vaast-la-hougue.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R2-le-mans/R2C9-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C1-prix-du-mesnil-durand.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C2-prix-the-wonder.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C3-prix-de-grandouet.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C4-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C5-prix-du-pont-de-la-pierre.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C6-prix-vodkato.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C7-prix-de-la-hauquerie.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C8-prix-de-saint-vaast-la-hougue.html",
+      "resultats-et-rapports/2019/12/2019-12-16/R3-lyon-la-soie/R3C9-prix-de-saint-sauveur-le-vicomte.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-le-mans",
+      "R3-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-mesnil-durand.html",
+        "R1C2-prix-the-wonder.html",
+        "R1C3-prix-de-grandouet.html",
+        "R1C4-prix-de-sainte-mere-eglise.html",
+        "R1C5-prix-du-pont-de-la-pierre.html",
+        "R1C6-prix-vodkato.html",
+        "R1C7-prix-de-la-hauquerie.html",
+        "R1C8-prix-de-saint-vaast-la-hougue.html",
+        "R1C9-prix-de-saint-sauveur-le-vicomte.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-du-mesnil-durand.html",
+        "R2C2-prix-the-wonder.html",
+        "R2C3-prix-de-grandouet.html",
+        "R2C4-prix-de-sainte-mere-eglise.html",
+        "R2C5-prix-du-pont-de-la-pierre.html",
+        "R2C6-prix-vodkato.html",
+        "R2C7-prix-de-la-hauquerie.html",
+        "R2C8-prix-de-saint-vaast-la-hougue.html",
+        "R2C9-prix-de-saint-sauveur-le-vicomte.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-du-mesnil-durand.html",
+        "R3C2-prix-the-wonder.html",
+        "R3C3-prix-de-grandouet.html",
+        "R3C4-prix-de-sainte-mere-eglise.html",
+        "R3C5-prix-du-pont-de-la-pierre.html",
+        "R3C6-prix-vodkato.html",
+        "R3C7-prix-de-la-hauquerie.html",
+        "R3C8-prix-de-saint-vaast-la-hougue.html",
+        "R3C9-prix-de-saint-sauveur-le-vicomte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:37.971459Z"
+}

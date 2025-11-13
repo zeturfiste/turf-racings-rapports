@@ -1,0 +1,71 @@
+{
+  "date": "2022-04-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-29",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-29/2022-04-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-29/R1-mauquenchy/R1C3-prix-huberta.html",
+      "resultats-et-rapports/2022/04/2022-04-29/R4-saint-cloud/R4C2-prix-claudia.html",
+      "resultats-et-rapports/2022/04/2022-04-29/R4-saint-cloud/R4C6-etrier-4-ans-qualif-1-prix-rene-palyar.html",
+      "resultats-et-rapports/2022/04/2022-04-29/R5-lyon-parilly/R5C2-prix-claudia.html",
+      "resultats-et-rapports/2022/04/2022-04-29/R5-lyon-parilly/R5C3-prix-huberta.html",
+      "resultats-et-rapports/2022/04/2022-04-29/R5-lyon-parilly/R5C7-prix-maginus.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R3-marseille-borely",
+      "R4-saint-cloud",
+      "R5-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-sirone.html",
+        "R1C2-prix-claudia.html",
+        "R1C3-prix-huberta.html",
+        "R1C4-etrier-5-ans-qualif-1-prix-louis-forci.html",
+        "R1C5-prix-enif.html",
+        "R1C6-etrier-4-ans-qualif-1-prix-rene-palyar.html",
+        "R1C7-prix-maginus.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-sirone.html",
+        "R3C2-prix-claudia.html",
+        "R3C3-prix-huberta.html",
+        "R3C4-etrier-5-ans-qualif-1-prix-louis-forci.html",
+        "R3C5-prix-enif.html",
+        "R3C6-etrier-4-ans-qualif-1-prix-rene-palyar.html",
+        "R3C7-prix-maginus.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-sirone.html",
+        "R4C2-prix-claudia.html",
+        "R4C3-prix-huberta.html",
+        "R4C4-etrier-5-ans-qualif-1-prix-louis-forci.html",
+        "R4C5-prix-enif.html",
+        "R4C6-etrier-4-ans-qualif-1-prix-rene-palyar.html",
+        "R4C7-prix-maginus.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-sirone.html",
+        "R5C2-prix-claudia.html",
+        "R5C3-prix-huberta.html",
+        "R5C4-etrier-5-ans-qualif-1-prix-louis-forci.html",
+        "R5C5-prix-enif.html",
+        "R5C6-etrier-4-ans-qualif-1-prix-rene-palyar.html",
+        "R5C7-prix-maginus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:16.684116Z"
+}

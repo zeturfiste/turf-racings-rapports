@@ -1,0 +1,84 @@
+{
+  "date": "2018-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-18",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-18/2018-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-18/R1-paris-longchamp/R1C6-prix-de-la-barriere-du-trone.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R1-paris-longchamp/R1C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C1-prix-de-la-porte-dauphine.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C2-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C4-prix-de-belleville.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C5-prix-de-la-chapelle.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C6-prix-de-la-barriere-du-trone.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R2-marseille-borely/R2C7-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R3-toulouse/R3C2-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R3-toulouse/R3C3-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R3-toulouse/R3C5-prix-de-la-chapelle.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R3-toulouse/R3C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R4-enghien-soisy/R4C1-prix-de-la-porte-dauphine.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R4-enghien-soisy/R4C7-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2018/10/2018-10-18/R4-enghien-soisy/R4C8-prix-du-petit-trianon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-marseille-borely",
+      "R3-toulouse",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-porte-dauphine.html",
+        "R1C2-prix-de-la-roseraie.html",
+        "R1C3-prix-du-grand-trianon.html",
+        "R1C4-prix-de-belleville.html",
+        "R1C5-prix-de-la-chapelle.html",
+        "R1C6-prix-de-la-barriere-du-trone.html",
+        "R1C7-prix-de-l-observatoire.html",
+        "R1C8-prix-du-petit-trianon.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-la-porte-dauphine.html",
+        "R2C2-prix-de-la-roseraie.html",
+        "R2C3-prix-du-grand-trianon.html",
+        "R2C4-prix-de-belleville.html",
+        "R2C5-prix-de-la-chapelle.html",
+        "R2C6-prix-de-la-barriere-du-trone.html",
+        "R2C7-prix-de-l-observatoire.html",
+        "R2C8-prix-du-petit-trianon.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-porte-dauphine.html",
+        "R3C2-prix-de-la-roseraie.html",
+        "R3C3-prix-du-grand-trianon.html",
+        "R3C4-prix-de-belleville.html",
+        "R3C5-prix-de-la-chapelle.html",
+        "R3C6-prix-de-la-barriere-du-trone.html",
+        "R3C7-prix-de-l-observatoire.html",
+        "R3C8-prix-du-petit-trianon.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-porte-dauphine.html",
+        "R4C2-prix-de-la-roseraie.html",
+        "R4C3-prix-du-grand-trianon.html",
+        "R4C4-prix-de-belleville.html",
+        "R4C5-prix-de-la-chapelle.html",
+        "R4C6-prix-de-la-barriere-du-trone.html",
+        "R4C7-prix-de-l-observatoire.html",
+        "R4C8-prix-du-petit-trianon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:28.228278Z"
+}

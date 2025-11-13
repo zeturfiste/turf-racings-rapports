@@ -1,0 +1,81 @@
+{
+  "date": "2015-03-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-21",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-21/2015-03-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C1-prix-de-gabarret.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C3-prix-robert-auvray.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C4-prix-jean-cabrol.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C5-prix-de-gueugnon.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C6-prix-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C7-prix-louis-forcinal.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C8-prix-de-chatillon.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R1-vincennes/R1C9-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C1-prix-de-gabarret.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C2-prix-de-meaux.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C3-prix-robert-auvray.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C5-prix-de-gueugnon.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C6-prix-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R2-strasbourg/R2C7-prix-louis-forcinal.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C1-prix-de-gabarret.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C2-prix-de-meaux.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C3-prix-robert-auvray.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C4-prix-jean-cabrol.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C5-prix-de-gueugnon.html",
+      "resultats-et-rapports/2015/03/2015-03-21/R3-graignes/R3C6-prix-du-bois-de-vincennes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-strasbourg",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-gabarret.html",
+        "R1C2-prix-de-meaux.html",
+        "R1C3-prix-robert-auvray.html",
+        "R1C4-prix-jean-cabrol.html",
+        "R1C5-prix-de-gueugnon.html",
+        "R1C6-prix-du-bois-de-vincennes.html",
+        "R1C7-prix-louis-forcinal.html",
+        "R1C8-prix-de-chatillon.html",
+        "R1C9-prix-de-beaumesnil.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-gabarret.html",
+        "R2C2-prix-de-meaux.html",
+        "R2C3-prix-robert-auvray.html",
+        "R2C4-prix-jean-cabrol.html",
+        "R2C5-prix-de-gueugnon.html",
+        "R2C6-prix-du-bois-de-vincennes.html",
+        "R2C7-prix-louis-forcinal.html",
+        "R2C8-prix-de-chatillon.html",
+        "R2C9-prix-de-beaumesnil.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-de-gabarret.html",
+        "R3C2-prix-de-meaux.html",
+        "R3C3-prix-robert-auvray.html",
+        "R3C4-prix-jean-cabrol.html",
+        "R3C5-prix-de-gueugnon.html",
+        "R3C6-prix-du-bois-de-vincennes.html",
+        "R3C7-prix-louis-forcinal.html",
+        "R3C8-prix-de-chatillon.html",
+        "R3C9-prix-de-beaumesnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:49.225632Z"
+}

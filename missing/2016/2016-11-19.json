@@ -1,0 +1,88 @@
+{
+  "date": "2016-11-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-19",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-19/2016-11-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-19/R1-auteuil/R1C5-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R1-auteuil/R1C8-prix-metatero.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C1-prix-pre-catelan.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C3-prix-de-l-aisne.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C4-prix-huron.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C5-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C6-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C7-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R3-lyon-parilly/R3C8-prix-metatero.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C2-prix-elseneur.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C4-prix-huron.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C5-prix-francois-de-ganay.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C6-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C7-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R5-laval/R5C8-prix-metatero.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R6-le-croise-laroche/R6C2-prix-elseneur.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R6-le-croise-laroche/R6C6-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R6-le-croise-laroche/R6C7-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2016/11/2016-11-19/R6-le-croise-laroche/R6C8-prix-metatero.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R5-laval",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-pre-catelan.html",
+        "R1C2-prix-elseneur.html",
+        "R1C3-prix-de-l-aisne.html",
+        "R1C4-prix-huron.html",
+        "R1C5-prix-francois-de-ganay.html",
+        "R1C6-prix-bernard-de-dufau.html",
+        "R1C7-prix-leon-olry-roederer.html",
+        "R1C8-prix-metatero.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-pre-catelan.html",
+        "R3C2-prix-elseneur.html",
+        "R3C3-prix-de-l-aisne.html",
+        "R3C4-prix-huron.html",
+        "R3C5-prix-francois-de-ganay.html",
+        "R3C6-prix-bernard-de-dufau.html",
+        "R3C7-prix-leon-olry-roederer.html",
+        "R3C8-prix-metatero.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-pre-catelan.html",
+        "R5C2-prix-elseneur.html",
+        "R5C3-prix-de-l-aisne.html",
+        "R5C4-prix-huron.html",
+        "R5C5-prix-francois-de-ganay.html",
+        "R5C6-prix-bernard-de-dufau.html",
+        "R5C7-prix-leon-olry-roederer.html",
+        "R5C8-prix-metatero.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-pre-catelan.html",
+        "R6C2-prix-elseneur.html",
+        "R6C3-prix-de-l-aisne.html",
+        "R6C4-prix-huron.html",
+        "R6C5-prix-francois-de-ganay.html",
+        "R6C6-prix-bernard-de-dufau.html",
+        "R6C7-prix-leon-olry-roederer.html",
+        "R6C8-prix-metatero.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:57.243616Z"
+}

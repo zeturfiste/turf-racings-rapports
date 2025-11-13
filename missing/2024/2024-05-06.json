@@ -1,0 +1,75 @@
+{
+  "date": "2024-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-06",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-06/2024-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-06/R2-nantes/R2C1-prix-d-effiat.html",
+      "resultats-et-rapports/2024/05/2024-05-06/R2-nantes/R2C2-prix-de-cluny.html",
+      "resultats-et-rapports/2024/05/2024-05-06/R3-saint-cloud/R3C1-prix-d-effiat.html",
+      "resultats-et-rapports/2024/05/2024-05-06/R3-saint-cloud/R3C6-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2024/05/2024-05-06/R3-saint-cloud/R3C7-prix-du-sichon.html",
+      "resultats-et-rapports/2024/05/2024-05-06/R4-marseille-borely/R4C2-prix-de-cluny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-nantes",
+      "R3-saint-cloud",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-d-effiat.html",
+        "R1C2-prix-de-cluny.html",
+        "R1C3-prix-de-banassat.html",
+        "R1C4-prix-de-la-chaise-dieu.html",
+        "R1C5-prix-henri-berry.html",
+        "R1C6-prix-de-pontgibaud.html",
+        "R1C7-prix-du-sichon.html",
+        "R1C8-prix-du-parc-des-lapins.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-d-effiat.html",
+        "R2C2-prix-de-cluny.html",
+        "R2C3-prix-de-banassat.html",
+        "R2C4-prix-de-la-chaise-dieu.html",
+        "R2C5-prix-henri-berry.html",
+        "R2C6-prix-de-pontgibaud.html",
+        "R2C7-prix-du-sichon.html",
+        "R2C8-prix-du-parc-des-lapins.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-d-effiat.html",
+        "R3C2-prix-de-cluny.html",
+        "R3C3-prix-de-banassat.html",
+        "R3C4-prix-de-la-chaise-dieu.html",
+        "R3C5-prix-henri-berry.html",
+        "R3C6-prix-de-pontgibaud.html",
+        "R3C7-prix-du-sichon.html",
+        "R3C8-prix-du-parc-des-lapins.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-d-effiat.html",
+        "R4C2-prix-de-cluny.html",
+        "R4C3-prix-de-banassat.html",
+        "R4C4-prix-de-la-chaise-dieu.html",
+        "R4C5-prix-henri-berry.html",
+        "R4C6-prix-de-pontgibaud.html",
+        "R4C7-prix-du-sichon.html",
+        "R4C8-prix-du-parc-des-lapins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:40.206166Z"
+}

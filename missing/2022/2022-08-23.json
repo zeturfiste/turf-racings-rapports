@@ -1,0 +1,79 @@
+{
+  "date": "2022-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-23",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-23/2022-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-23/R3-divonne-les-bains/R3C2-prix-des-roches-noires.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R3-divonne-les-bains/R3C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R4-la-teste-de-buch/R4C2-prix-des-roches-noires.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R4-la-teste-de-buch/R4C4-prix-du-cidre.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R4-la-teste-de-buch/R4C5-prix-de-fecamp.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R4-la-teste-de-buch/R4C7-prix-de-dieppe.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R4-la-teste-de-buch/R4C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R5-cabourg/R5C1-prix-des-bains-de-mer.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R5-cabourg/R5C4-prix-du-cidre.html",
+      "resultats-et-rapports/2022/08/2022-08-23/R5-cabourg/R5C7-prix-de-dieppe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-divonne-les-bains",
+      "R4-la-teste-de-buch",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-bains-de-mer.html",
+        "R1C2-prix-des-roches-noires.html",
+        "R1C3-prix-de-saint-hymer.html",
+        "R1C4-prix-du-cidre.html",
+        "R1C5-prix-de-fecamp.html",
+        "R1C6-prix-du-pommeau.html",
+        "R1C7-prix-de-dieppe.html",
+        "R1C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html"
+      ],
+      "R3-divonne-les-bains": [
+        "R3C1-prix-des-bains-de-mer.html",
+        "R3C2-prix-des-roches-noires.html",
+        "R3C3-prix-de-saint-hymer.html",
+        "R3C4-prix-du-cidre.html",
+        "R3C5-prix-de-fecamp.html",
+        "R3C6-prix-du-pommeau.html",
+        "R3C7-prix-de-dieppe.html",
+        "R3C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-des-bains-de-mer.html",
+        "R4C2-prix-des-roches-noires.html",
+        "R4C3-prix-de-saint-hymer.html",
+        "R4C4-prix-du-cidre.html",
+        "R4C5-prix-de-fecamp.html",
+        "R4C6-prix-du-pommeau.html",
+        "R4C7-prix-de-dieppe.html",
+        "R4C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-des-bains-de-mer.html",
+        "R5C2-prix-des-roches-noires.html",
+        "R5C3-prix-de-saint-hymer.html",
+        "R5C4-prix-du-cidre.html",
+        "R5C5-prix-de-fecamp.html",
+        "R5C6-prix-du-pommeau.html",
+        "R5C7-prix-de-dieppe.html",
+        "R5C8-prix-du-journal-le-pays-d-auge-prix-du-havre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:00.597288Z"
+}

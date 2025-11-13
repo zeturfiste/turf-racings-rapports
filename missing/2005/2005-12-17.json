@@ -1,0 +1,48 @@
+{
+  "date": "2005-12-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-17",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-17/2005-12-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-argentan.html",
+        "R1C2-prix-de-vaumas.html",
+        "R1C3-prix-de-saint-james.html",
+        "R1C4-prix-de-chinon.html",
+        "R1C5-prix-de-reims.html",
+        "R1C6-prix-philippe-du-rozier.html",
+        "R1C7-prix-de-moulins.html",
+        "R1C8-prix-de-gramat.html",
+        "R1C9-prix-d-isigny.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-d-argentan.html",
+        "R2C2-prix-de-vaumas.html",
+        "R2C3-prix-de-saint-james.html",
+        "R2C4-prix-de-chinon.html",
+        "R2C5-prix-de-reims.html",
+        "R2C6-prix-philippe-du-rozier.html",
+        "R2C7-prix-de-moulins.html",
+        "R2C8-prix-de-gramat.html",
+        "R2C9-prix-d-isigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:30.592566Z"
+}

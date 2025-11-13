@@ -1,0 +1,92 @@
+{
+  "date": "2007-05-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-21",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-21/2007-05-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-21/R1-auteuil/R1C6-prix-melinoir.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R2-vichy/R2C7-prix-philippe-menager.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C1-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C3-prix-andrea.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C4-prix-du-nivernais.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C5-prix-jasmin-ii.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C6-prix-melinoir.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R3-salon-de-provence/R3C7-prix-philippe-menager.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C1-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C2-prix-rene-pelat.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C4-prix-du-nivernais.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C5-prix-jasmin-ii.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C6-prix-melinoir.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R4-le-croise-laroche/R4C7-prix-philippe-menager.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R31-zerace/R31C4-prix-du-nivernais.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R31-zerace/R31C6-prix-melinoir.html",
+      "resultats-et-rapports/2007/05/2007-05-21/R31-zerace/R31C7-prix-philippe-menager.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vichy",
+      "R3-salon-de-provence",
+      "R4-le-croise-laroche",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-le-guales-de-mezaubran.html",
+        "R1C2-prix-rene-pelat.html",
+        "R1C3-prix-andrea.html",
+        "R1C4-prix-du-nivernais.html",
+        "R1C5-prix-jasmin-ii.html",
+        "R1C6-prix-melinoir.html",
+        "R1C7-prix-philippe-menager.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-le-guales-de-mezaubran.html",
+        "R2C2-prix-rene-pelat.html",
+        "R2C3-prix-andrea.html",
+        "R2C4-prix-du-nivernais.html",
+        "R2C5-prix-jasmin-ii.html",
+        "R2C6-prix-melinoir.html",
+        "R2C7-prix-philippe-menager.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-le-guales-de-mezaubran.html",
+        "R3C2-prix-rene-pelat.html",
+        "R3C3-prix-andrea.html",
+        "R3C4-prix-du-nivernais.html",
+        "R3C5-prix-jasmin-ii.html",
+        "R3C6-prix-melinoir.html",
+        "R3C7-prix-philippe-menager.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-le-guales-de-mezaubran.html",
+        "R4C2-prix-rene-pelat.html",
+        "R4C3-prix-andrea.html",
+        "R4C4-prix-du-nivernais.html",
+        "R4C5-prix-jasmin-ii.html",
+        "R4C6-prix-melinoir.html",
+        "R4C7-prix-philippe-menager.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-le-guales-de-mezaubran.html",
+        "R31C2-prix-rene-pelat.html",
+        "R31C3-prix-andrea.html",
+        "R31C4-prix-du-nivernais.html",
+        "R31C5-prix-jasmin-ii.html",
+        "R31C6-prix-melinoir.html",
+        "R31C7-prix-philippe-menager.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:50.714638Z"
+}

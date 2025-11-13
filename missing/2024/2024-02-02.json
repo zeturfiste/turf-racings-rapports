@@ -1,0 +1,78 @@
+{
+  "date": "2024-02-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-02",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-02/2024-02-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-02/R2-pau/R2C5-prix-d-avignon.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R2-pau/R2C8-prix-de-briey.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R3-toulouse/R3C3-prix-de-laval.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R3-toulouse/R3C8-prix-de-briey.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R4-deauville/R4C1-prix-d-ecouche.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R4-deauville/R4C3-prix-de-laval.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R4-deauville/R4C6-prix-decidee.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R4-deauville/R4C7-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2024/02/2024-02-02/R4-deauville/R4C8-prix-de-briey.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-toulouse",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-ecouche.html",
+        "R1C2-prix-de-lannemezan.html",
+        "R1C3-prix-de-laval.html",
+        "R1C4-prix-de-courtemer.html",
+        "R1C5-prix-d-avignon.html",
+        "R1C6-prix-decidee.html",
+        "R1C7-prix-andre-louis-dreux.html",
+        "R1C8-prix-de-briey.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-d-ecouche.html",
+        "R2C2-prix-de-lannemezan.html",
+        "R2C3-prix-de-laval.html",
+        "R2C4-prix-de-courtemer.html",
+        "R2C5-prix-d-avignon.html",
+        "R2C6-prix-decidee.html",
+        "R2C7-prix-andre-louis-dreux.html",
+        "R2C8-prix-de-briey.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-d-ecouche.html",
+        "R3C2-prix-de-lannemezan.html",
+        "R3C3-prix-de-laval.html",
+        "R3C4-prix-de-courtemer.html",
+        "R3C5-prix-d-avignon.html",
+        "R3C6-prix-decidee.html",
+        "R3C7-prix-andre-louis-dreux.html",
+        "R3C8-prix-de-briey.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-d-ecouche.html",
+        "R4C2-prix-de-lannemezan.html",
+        "R4C3-prix-de-laval.html",
+        "R4C4-prix-de-courtemer.html",
+        "R4C5-prix-d-avignon.html",
+        "R4C6-prix-decidee.html",
+        "R4C7-prix-andre-louis-dreux.html",
+        "R4C8-prix-de-briey.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:07.082694Z"
+}

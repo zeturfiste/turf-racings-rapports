@@ -1,0 +1,100 @@
+{
+  "date": "2021-02-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-14",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-14/2021-02-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-14/R3-cagnes-sur-mer/R3C1-prix-salam.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R4-lyon-la-soie/R4C2-prix-rmc-prix-de-josselin.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R4-lyon-la-soie/R4C5-prix-agrifournitures-fr-prix-de-lannion.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R4-lyon-la-soie/R4C7-prix-des-centaures.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R4-lyon-la-soie/R4C8-prix-michel-potiez.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R4-lyon-la-soie/R4C9-prix-de-dieppe.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C2-prix-rmc-prix-de-josselin.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C5-prix-agrifournitures-fr-prix-de-lannion.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C6-prix-reverdy-prix-des-vosges.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R8-agen/R8C9-prix-de-dieppe.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R99-ante-post-prix-d-amerique-races-zeturf/R99C5-prix-agrifournitures-fr-prix-de-lannion.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R99-ante-post-prix-d-amerique-races-zeturf/R99C7-prix-des-centaures.html",
+      "resultats-et-rapports/2021/02/2021-02-14/R99-ante-post-prix-d-amerique-races-zeturf/R99C8-prix-michel-potiez.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-lyon-la-soie",
+      "R8-agen",
+      "R99-ante-post-prix-d-amerique-races-zeturf"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-salam.html",
+        "R1C2-prix-rmc-prix-de-josselin.html",
+        "R1C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+        "R1C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+        "R1C5-prix-agrifournitures-fr-prix-de-lannion.html",
+        "R1C6-prix-reverdy-prix-des-vosges.html",
+        "R1C7-prix-des-centaures.html",
+        "R1C8-prix-michel-potiez.html",
+        "R1C9-prix-de-dieppe.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-salam.html",
+        "R3C2-prix-rmc-prix-de-josselin.html",
+        "R3C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+        "R3C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+        "R3C5-prix-agrifournitures-fr-prix-de-lannion.html",
+        "R3C6-prix-reverdy-prix-des-vosges.html",
+        "R3C7-prix-des-centaures.html",
+        "R3C8-prix-michel-potiez.html",
+        "R3C9-prix-de-dieppe.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-salam.html",
+        "R4C2-prix-rmc-prix-de-josselin.html",
+        "R4C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+        "R4C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+        "R4C5-prix-agrifournitures-fr-prix-de-lannion.html",
+        "R4C6-prix-reverdy-prix-des-vosges.html",
+        "R4C7-prix-des-centaures.html",
+        "R4C8-prix-michel-potiez.html",
+        "R4C9-prix-de-dieppe.html"
+      ],
+      "R8-agen": [
+        "R8C1-prix-salam.html",
+        "R8C2-prix-rmc-prix-de-josselin.html",
+        "R8C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+        "R8C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+        "R8C5-prix-agrifournitures-fr-prix-de-lannion.html",
+        "R8C6-prix-reverdy-prix-des-vosges.html",
+        "R8C7-prix-des-centaures.html",
+        "R8C8-prix-michel-potiez.html",
+        "R8C9-prix-de-dieppe.html"
+      ],
+      "R99-ante-post-prix-d-amerique-races-zeturf": [
+        "R99C1-prix-salam.html",
+        "R99C2-prix-rmc-prix-de-josselin.html",
+        "R99C3-prix-gras-savoye-willis-towers-watson-prix-de-chambord.html",
+        "R99C4-prix-d-amerique-races-zeturf-speed-race-grand-prix-de-france.html",
+        "R99C5-prix-agrifournitures-fr-prix-de-lannion.html",
+        "R99C6-prix-reverdy-prix-des-vosges.html",
+        "R99C7-prix-des-centaures.html",
+        "R99C8-prix-michel-potiez.html",
+        "R99C9-prix-de-dieppe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:42.353345Z"
+}

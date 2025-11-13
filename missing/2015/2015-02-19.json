@@ -1,0 +1,59 @@
+{
+  "date": "2015-02-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-19",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-19/2015-02-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-19/R1-vincennes/R1C2-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R1-vincennes/R1C6-prix-de-vire.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R1-vincennes/R1C8-prix-de-lauzun.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C2-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C3-prix-de-guise.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C4-prix-du-cantal.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C6-prix-de-vire.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C7-prix-des-trotteurs-sang-froid.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C8-prix-de-lauzun.html",
+      "resultats-et-rapports/2015/02/2015-02-19/R2-chantilly/R2C9-prix-d-epinay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-andelys.html",
+        "R1C2-prix-du-plateau-de-gravelle.html",
+        "R1C3-prix-de-guise.html",
+        "R1C4-prix-du-cantal.html",
+        "R1C5-prix-de-pont-l-eveque.html",
+        "R1C6-prix-de-vire.html",
+        "R1C7-prix-des-trotteurs-sang-froid.html",
+        "R1C8-prix-de-lauzun.html",
+        "R1C9-prix-d-epinay.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-des-andelys.html",
+        "R2C2-prix-du-plateau-de-gravelle.html",
+        "R2C3-prix-de-guise.html",
+        "R2C4-prix-du-cantal.html",
+        "R2C5-prix-de-pont-l-eveque.html",
+        "R2C6-prix-de-vire.html",
+        "R2C7-prix-des-trotteurs-sang-froid.html",
+        "R2C8-prix-de-lauzun.html",
+        "R2C9-prix-d-epinay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:41.233931Z"
+}

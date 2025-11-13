@@ -1,0 +1,71 @@
+{
+  "date": "2006-07-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/07/2006-07-31",
+    "date_html": "resultats-et-rapports/2006/07/2006-07-31/2006-07-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/07/2006-07-31/R1-clairefontaine/R1C1-prix-equip-horse-prix-d-aguesseau.html",
+      "resultats-et-rapports/2006/07/2006-07-31/R5-cagnes-sur-mer/R5C3-prix-deauville-aime-le-cheval-prix-misti.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-rouen",
+      "R4-brehal",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-equip-horse-prix-d-aguesseau.html",
+        "R1C2-prix-de-l-association-des-proprietaires-de-chevaux-de-basse-normandie-prix-des-cassias.html",
+        "R1C3-prix-deauville-aime-le-cheval-prix-misti.html",
+        "R1C4-prix-du-regine-s-club-de-deauville-lucien-barriere-prix-de-la-ville-de-deauville.html",
+        "R1C5-prix-pixmania-com-prix-des-villas.html",
+        "R1C6-prix-alec-weisweiller-prix-des-heliotropes.html",
+        "R1C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R1C8-prix-de-punchestown-prix-jacques-peillon.html"
+      ],
+      "R2-rouen": [
+        "R2C1-prix-equip-horse-prix-d-aguesseau.html",
+        "R2C2-prix-de-l-association-des-proprietaires-de-chevaux-de-basse-normandie-prix-des-cassias.html",
+        "R2C3-prix-deauville-aime-le-cheval-prix-misti.html",
+        "R2C4-prix-du-regine-s-club-de-deauville-lucien-barriere-prix-de-la-ville-de-deauville.html",
+        "R2C5-prix-pixmania-com-prix-des-villas.html",
+        "R2C6-prix-alec-weisweiller-prix-des-heliotropes.html",
+        "R2C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R2C8-prix-de-punchestown-prix-jacques-peillon.html"
+      ],
+      "R4-brehal": [
+        "R4C1-prix-equip-horse-prix-d-aguesseau.html",
+        "R4C2-prix-de-l-association-des-proprietaires-de-chevaux-de-basse-normandie-prix-des-cassias.html",
+        "R4C3-prix-deauville-aime-le-cheval-prix-misti.html",
+        "R4C4-prix-du-regine-s-club-de-deauville-lucien-barriere-prix-de-la-ville-de-deauville.html",
+        "R4C5-prix-pixmania-com-prix-des-villas.html",
+        "R4C6-prix-alec-weisweiller-prix-des-heliotropes.html",
+        "R4C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R4C8-prix-de-punchestown-prix-jacques-peillon.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-equip-horse-prix-d-aguesseau.html",
+        "R5C2-prix-de-l-association-des-proprietaires-de-chevaux-de-basse-normandie-prix-des-cassias.html",
+        "R5C3-prix-deauville-aime-le-cheval-prix-misti.html",
+        "R5C4-prix-du-regine-s-club-de-deauville-lucien-barriere-prix-de-la-ville-de-deauville.html",
+        "R5C5-prix-pixmania-com-prix-des-villas.html",
+        "R5C6-prix-alec-weisweiller-prix-des-heliotropes.html",
+        "R5C7-prix-de-stratford-on-avon-gras-savoye-hipcover.html",
+        "R5C8-prix-de-punchestown-prix-jacques-peillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:16.709309Z"
+}

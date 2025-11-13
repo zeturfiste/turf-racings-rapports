@@ -1,0 +1,100 @@
+{
+  "date": "2011-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-20",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-20/2011-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-20/R1-cherbourg/R1C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R1-cherbourg/R1C4-prix-jet-du-vivier.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R1-cherbourg/R1C5-prix-albert-viel.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R1-cherbourg/R1C6-prix-metro-la-glacerie.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R2-dieppe/R2C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R2-dieppe/R2C4-prix-jet-du-vivier.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R3-vichy/R3C6-prix-metro-la-glacerie.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C4-prix-jet-du-vivier.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C5-prix-albert-viel.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C6-prix-metro-la-glacerie.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R5-les-sables-d-olonne/R5C8-prix-auchan-la-glacerie.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C4-prix-jet-du-vivier.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C5-prix-albert-viel.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C6-prix-metro-la-glacerie.html",
+      "resultats-et-rapports/2011/07/2011-07-20/R6-cagnes-sur-mer/R6C8-prix-auchan-la-glacerie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cherbourg",
+      "R2-dieppe",
+      "R3-vichy",
+      "R5-les-sables-d-olonne",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cherbourg": [
+        "R1C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+        "R1C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+        "R1C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+        "R1C4-prix-jet-du-vivier.html",
+        "R1C5-prix-albert-viel.html",
+        "R1C6-prix-metro-la-glacerie.html",
+        "R1C7-prix-de-barneville-carteret.html",
+        "R1C8-prix-auchan-la-glacerie.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+        "R2C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+        "R2C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+        "R2C4-prix-jet-du-vivier.html",
+        "R2C5-prix-albert-viel.html",
+        "R2C6-prix-metro-la-glacerie.html",
+        "R2C7-prix-de-barneville-carteret.html",
+        "R2C8-prix-auchan-la-glacerie.html"
+      ],
+      "R3-vichy": [
+        "R3C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+        "R3C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+        "R3C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+        "R3C4-prix-jet-du-vivier.html",
+        "R3C5-prix-albert-viel.html",
+        "R3C6-prix-metro-la-glacerie.html",
+        "R3C7-prix-de-barneville-carteret.html",
+        "R3C8-prix-auchan-la-glacerie.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+        "R5C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+        "R5C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+        "R5C4-prix-jet-du-vivier.html",
+        "R5C5-prix-albert-viel.html",
+        "R5C6-prix-metro-la-glacerie.html",
+        "R5C7-prix-de-barneville-carteret.html",
+        "R5C8-prix-auchan-la-glacerie.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-grand-prix-du-champagne-besserat-de-bellefon.html",
+        "R6C2-prix-bruno-roupsart-traiteur-equeurdreville.html",
+        "R6C3-prix-eric-duchemin-axa-assurances-equeurdreville.html",
+        "R6C4-prix-jet-du-vivier.html",
+        "R6C5-prix-albert-viel.html",
+        "R6C6-prix-metro-la-glacerie.html",
+        "R6C7-prix-de-barneville-carteret.html",
+        "R6C8-prix-auchan-la-glacerie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:21.550536Z"
+}

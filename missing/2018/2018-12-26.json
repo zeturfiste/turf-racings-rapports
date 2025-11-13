@@ -1,0 +1,89 @@
+{
+  "date": "2018-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-26",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-26/2018-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-26/R1-chantilly/R1C4-prix-d-epsom.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R1-chantilly/R1C6-prix-d-uberlingen.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R1-chantilly/R1C7-prix-de-fosses.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R1-chantilly/R1C8-prix-de-vemars.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R1-chantilly/R1C9-prix-watermael-boitsfort.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R4-nantes/R4C1-prix-du-carrefour-des-siffleurs.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R4-nantes/R4C2-prix-du-carrefour-des-marchands-de-navets.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R4-nantes/R4C3-prix-de-la-route-papillon.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R4-nantes/R4C4-prix-d-epsom.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R4-nantes/R4C7-prix-de-fosses.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R5-cabourg/R5C1-prix-du-carrefour-des-siffleurs.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R5-cabourg/R5C4-prix-d-epsom.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R8-cagnes-sur-mer/R8C2-prix-du-carrefour-des-marchands-de-navets.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R8-cagnes-sur-mer/R8C4-prix-d-epsom.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R8-cagnes-sur-mer/R8C7-prix-de-fosses.html",
+      "resultats-et-rapports/2018/12/2018-12-26/R8-cagnes-sur-mer/R8C9-prix-watermael-boitsfort.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R4-nantes",
+      "R5-cabourg",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-carrefour-des-siffleurs.html",
+        "R1C2-prix-du-carrefour-des-marchands-de-navets.html",
+        "R1C3-prix-de-la-route-papillon.html",
+        "R1C4-prix-d-epsom.html",
+        "R1C5-prix-de-la-route-du-duc-d-enghien.html",
+        "R1C6-prix-d-uberlingen.html",
+        "R1C7-prix-de-fosses.html",
+        "R1C8-prix-de-vemars.html",
+        "R1C9-prix-watermael-boitsfort.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-du-carrefour-des-siffleurs.html",
+        "R4C2-prix-du-carrefour-des-marchands-de-navets.html",
+        "R4C3-prix-de-la-route-papillon.html",
+        "R4C4-prix-d-epsom.html",
+        "R4C5-prix-de-la-route-du-duc-d-enghien.html",
+        "R4C6-prix-d-uberlingen.html",
+        "R4C7-prix-de-fosses.html",
+        "R4C8-prix-de-vemars.html",
+        "R4C9-prix-watermael-boitsfort.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-carrefour-des-siffleurs.html",
+        "R5C2-prix-du-carrefour-des-marchands-de-navets.html",
+        "R5C3-prix-de-la-route-papillon.html",
+        "R5C4-prix-d-epsom.html",
+        "R5C5-prix-de-la-route-du-duc-d-enghien.html",
+        "R5C6-prix-d-uberlingen.html",
+        "R5C7-prix-de-fosses.html",
+        "R5C8-prix-de-vemars.html",
+        "R5C9-prix-watermael-boitsfort.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-du-carrefour-des-siffleurs.html",
+        "R8C2-prix-du-carrefour-des-marchands-de-navets.html",
+        "R8C3-prix-de-la-route-papillon.html",
+        "R8C4-prix-d-epsom.html",
+        "R8C5-prix-de-la-route-du-duc-d-enghien.html",
+        "R8C6-prix-d-uberlingen.html",
+        "R8C7-prix-de-fosses.html",
+        "R8C8-prix-de-vemars.html",
+        "R8C9-prix-watermael-boitsfort.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:48.338387Z"
+}

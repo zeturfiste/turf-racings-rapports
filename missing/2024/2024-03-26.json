@@ -1,0 +1,75 @@
+{
+  "date": "2024-03-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-26",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-26/2024-03-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-26/R1-saint-cloud/R1C6-prix-bango.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R1-saint-cloud/R1C7-prix-buckskin.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R1-saint-cloud/R1C8-prix-de-castel.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C2-prix-comrade.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C3-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C4-prix-mirska.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C5-prix-goodly.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C6-prix-bango.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C7-prix-buckskin.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R3-saint-brieuc/R3C8-prix-de-castel.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C1-prix-sagaro.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C2-prix-comrade.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C4-prix-mirska.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C5-prix-goodly.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C6-prix-bango.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C7-prix-buckskin.html",
+      "resultats-et-rapports/2024/03/2024-03-26/R4-enghien-soisy/R4C8-prix-de-castel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-saint-brieuc",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-sagaro.html",
+        "R1C2-prix-comrade.html",
+        "R1C3-prix-kizil-kourgan.html",
+        "R1C4-prix-mirska.html",
+        "R1C5-prix-goodly.html",
+        "R1C6-prix-bango.html",
+        "R1C7-prix-buckskin.html",
+        "R1C8-prix-de-castel.html"
+      ],
+      "R3-saint-brieuc": [
+        "R3C1-prix-sagaro.html",
+        "R3C2-prix-comrade.html",
+        "R3C3-prix-kizil-kourgan.html",
+        "R3C4-prix-mirska.html",
+        "R3C5-prix-goodly.html",
+        "R3C6-prix-bango.html",
+        "R3C7-prix-buckskin.html",
+        "R3C8-prix-de-castel.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-sagaro.html",
+        "R4C2-prix-comrade.html",
+        "R4C3-prix-kizil-kourgan.html",
+        "R4C4-prix-mirska.html",
+        "R4C5-prix-goodly.html",
+        "R4C6-prix-bango.html",
+        "R4C7-prix-buckskin.html",
+        "R4C8-prix-de-castel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:24.933813Z"
+}

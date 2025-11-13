@@ -1,0 +1,48 @@
+{
+  "date": "2006-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-08",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-08/2006-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-ille-et-vilaine.html",
+        "R1C2-prix-de-calais.html",
+        "R1C3-prix-de-darnetal.html",
+        "R1C4-prix-de-la-genevraye.html",
+        "R1C5-prix-de-bourg-en-bresse.html",
+        "R1C6-prix-de-vertou-gr-a.html",
+        "R1C7-prix-de-vertou-gr-b.html",
+        "R1C8-prix-de-saint-brieuc.html",
+        "R1C9-prix-de-fontainebleau.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-l-ille-et-vilaine.html",
+        "R2C2-prix-de-calais.html",
+        "R2C3-prix-de-darnetal.html",
+        "R2C4-prix-de-la-genevraye.html",
+        "R2C5-prix-de-bourg-en-bresse.html",
+        "R2C6-prix-de-vertou-gr-a.html",
+        "R2C7-prix-de-vertou-gr-b.html",
+        "R2C8-prix-de-saint-brieuc.html",
+        "R2C9-prix-de-fontainebleau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:38.714913Z"
+}

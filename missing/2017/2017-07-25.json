@@ -1,0 +1,107 @@
+{
+  "date": "2017-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-25",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-25/2017-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-25/R1-compiegne/R1C2-prix-du-ru-de-berne.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C1-prix-de-venette.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C2-prix-du-ru-de-berne.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C5-prix-de-caisnes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C6-prix-de-rethondes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C7-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R2-le-lion-d-angers/R2C8-prix-des-beaux-monts.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C1-prix-de-venette.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C4-prix-de-vignemont.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C5-prix-de-caisnes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C6-prix-de-rethondes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C7-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R3-hyeres/R3C8-prix-des-beaux-monts.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R5-cabourg/R5C1-prix-de-venette.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R5-cabourg/R5C2-prix-du-ru-de-berne.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R5-cabourg/R5C4-prix-de-vignemont.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R5-cabourg/R5C6-prix-de-rethondes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R5-cabourg/R5C7-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C1-prix-de-venette.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C2-prix-du-ru-de-berne.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C4-prix-de-vignemont.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C5-prix-de-caisnes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C6-prix-de-rethondes.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C7-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-25/R7-pornichet-la-baule/R7C8-prix-des-beaux-monts.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-le-lion-d-angers",
+      "R3-hyeres",
+      "R5-cabourg",
+      "R7-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-venette.html",
+        "R1C2-prix-du-ru-de-berne.html",
+        "R1C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+        "R1C4-prix-de-vignemont.html",
+        "R1C5-prix-de-caisnes.html",
+        "R1C6-prix-de-rethondes.html",
+        "R1C7-prix-de-taillefontaine.html",
+        "R1C8-prix-des-beaux-monts.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-de-venette.html",
+        "R2C2-prix-du-ru-de-berne.html",
+        "R2C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+        "R2C4-prix-de-vignemont.html",
+        "R2C5-prix-de-caisnes.html",
+        "R2C6-prix-de-rethondes.html",
+        "R2C7-prix-de-taillefontaine.html",
+        "R2C8-prix-des-beaux-monts.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-de-venette.html",
+        "R3C2-prix-du-ru-de-berne.html",
+        "R3C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+        "R3C4-prix-de-vignemont.html",
+        "R3C5-prix-de-caisnes.html",
+        "R3C6-prix-de-rethondes.html",
+        "R3C7-prix-de-taillefontaine.html",
+        "R3C8-prix-des-beaux-monts.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-venette.html",
+        "R5C2-prix-du-ru-de-berne.html",
+        "R5C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+        "R5C4-prix-de-vignemont.html",
+        "R5C5-prix-de-caisnes.html",
+        "R5C6-prix-de-rethondes.html",
+        "R5C7-prix-de-taillefontaine.html",
+        "R5C8-prix-des-beaux-monts.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-de-venette.html",
+        "R7C2-prix-du-ru-de-berne.html",
+        "R7C3-prix-2eme-edition-des-masters-de-feu-prix-des-etangs-de-saint-pierre.html",
+        "R7C4-prix-de-vignemont.html",
+        "R7C5-prix-de-caisnes.html",
+        "R7C6-prix-de-rethondes.html",
+        "R7C7-prix-de-taillefontaine.html",
+        "R7C8-prix-des-beaux-monts.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:09.271147Z"
+}

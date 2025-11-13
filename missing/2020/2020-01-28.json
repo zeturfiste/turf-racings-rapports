@@ -1,0 +1,74 @@
+{
+  "date": "2020-01-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/01/2020-01-28",
+    "date_html": "resultats-et-rapports/2020/01/2020-01-28/2020-01-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/01/2020-01-28/R1-vincennes/R1C2-prix-de-cholet.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R1-vincennes/R1C4-prix-d-ambert.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R1-vincennes/R1C5-prix-d-yvetot.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R1-vincennes/R1C6-prix-de-laval.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R1-vincennes/R1C7-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C1-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C2-prix-de-cholet.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C3-prix-de-vitteaux.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C4-prix-d-ambert.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C5-prix-d-yvetot.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C7-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R3-pau/R3C8-prix-de-carcassonne.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R4-cagnes-sur-mer/R4C4-prix-d-ambert.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R4-cagnes-sur-mer/R4C5-prix-d-yvetot.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R4-cagnes-sur-mer/R4C6-prix-de-laval.html",
+      "resultats-et-rapports/2020/01/2020-01-28/R4-cagnes-sur-mer/R4C8-prix-de-carcassonne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-andre-louis-dreux.html",
+        "R1C2-prix-de-cholet.html",
+        "R1C3-prix-de-vitteaux.html",
+        "R1C4-prix-d-ambert.html",
+        "R1C5-prix-d-yvetot.html",
+        "R1C6-prix-de-laval.html",
+        "R1C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R1C8-prix-de-carcassonne.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-andre-louis-dreux.html",
+        "R3C2-prix-de-cholet.html",
+        "R3C3-prix-de-vitteaux.html",
+        "R3C4-prix-d-ambert.html",
+        "R3C5-prix-d-yvetot.html",
+        "R3C6-prix-de-laval.html",
+        "R3C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R3C8-prix-de-carcassonne.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-andre-louis-dreux.html",
+        "R4C2-prix-de-cholet.html",
+        "R4C3-prix-de-vitteaux.html",
+        "R4C4-prix-d-ambert.html",
+        "R4C5-prix-d-yvetot.html",
+        "R4C6-prix-de-laval.html",
+        "R4C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R4C8-prix-de-carcassonne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:49.003683Z"
+}

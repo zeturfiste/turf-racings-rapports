@@ -1,0 +1,90 @@
+{
+  "date": "2018-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-14",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-14/2018-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-14/R1-paris-longchamp/R1C2-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R1-paris-longchamp/R1C5-prix-de-gaillon.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R1-paris-longchamp/R1C7-prix-d-argences.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R3-la-capelle/R3C7-prix-d-argences.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R3-la-capelle/R3C8-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R3-la-capelle/R3C9-prix-de-la-glaciere.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C1-prix-du-bassin-parisien.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C2-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C3-prix-du-musee-du-luxembourg.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C4-prix-ridgway.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C5-prix-de-gaillon.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C6-prix-de-l-orangerie-prix-a-nous-paris.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R4-craon/R4C9-prix-de-la-glaciere.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R5-lyon-parilly/R5C1-prix-du-bassin-parisien.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R5-lyon-parilly/R5C2-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R5-lyon-parilly/R5C4-prix-ridgway.html",
+      "resultats-et-rapports/2018/06/2018-06-14/R5-lyon-parilly/R5C7-prix-d-argences.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-la-capelle",
+      "R4-craon",
+      "R5-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-bassin-parisien.html",
+        "R1C2-prix-du-jeu-de-paume.html",
+        "R1C3-prix-du-musee-du-luxembourg.html",
+        "R1C4-prix-ridgway.html",
+        "R1C5-prix-de-gaillon.html",
+        "R1C6-prix-de-l-orangerie-prix-a-nous-paris.html",
+        "R1C7-prix-d-argences.html",
+        "R1C8-prix-des-grands-augustins.html",
+        "R1C9-prix-de-la-glaciere.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-du-bassin-parisien.html",
+        "R3C2-prix-du-jeu-de-paume.html",
+        "R3C3-prix-du-musee-du-luxembourg.html",
+        "R3C4-prix-ridgway.html",
+        "R3C5-prix-de-gaillon.html",
+        "R3C6-prix-de-l-orangerie-prix-a-nous-paris.html",
+        "R3C7-prix-d-argences.html",
+        "R3C8-prix-des-grands-augustins.html",
+        "R3C9-prix-de-la-glaciere.html"
+      ],
+      "R4-craon": [
+        "R4C1-prix-du-bassin-parisien.html",
+        "R4C2-prix-du-jeu-de-paume.html",
+        "R4C3-prix-du-musee-du-luxembourg.html",
+        "R4C4-prix-ridgway.html",
+        "R4C5-prix-de-gaillon.html",
+        "R4C6-prix-de-l-orangerie-prix-a-nous-paris.html",
+        "R4C7-prix-d-argences.html",
+        "R4C8-prix-des-grands-augustins.html",
+        "R4C9-prix-de-la-glaciere.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-du-bassin-parisien.html",
+        "R5C2-prix-du-jeu-de-paume.html",
+        "R5C3-prix-du-musee-du-luxembourg.html",
+        "R5C4-prix-ridgway.html",
+        "R5C5-prix-de-gaillon.html",
+        "R5C6-prix-de-l-orangerie-prix-a-nous-paris.html",
+        "R5C7-prix-d-argences.html",
+        "R5C8-prix-des-grands-augustins.html",
+        "R5C9-prix-de-la-glaciere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:46.788569Z"
+}

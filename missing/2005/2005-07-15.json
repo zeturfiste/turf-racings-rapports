@@ -1,0 +1,64 @@
+{
+  "date": "2005-07-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-15",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-15/2005-07-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-cabourg",
+      "R3-pornichet-la-baule",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-grand-cerf.html",
+        "R1C2-prix-de-l-ecole-militaire.html",
+        "R1C3-prix-de-verneuil.html",
+        "R1C4-prix-de-la-loge.html",
+        "R1C5-prix-de-chanteclerc.html",
+        "R1C6-prix-de-beauvilliers.html",
+        "R1C7-prix-du-chene-a-l-image.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-grand-cerf.html",
+        "R2C2-prix-de-l-ecole-militaire.html",
+        "R2C3-prix-de-verneuil.html",
+        "R2C4-prix-de-la-loge.html",
+        "R2C5-prix-de-chanteclerc.html",
+        "R2C6-prix-de-beauvilliers.html",
+        "R2C7-prix-du-chene-a-l-image.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-grand-cerf.html",
+        "R3C2-prix-de-l-ecole-militaire.html",
+        "R3C3-prix-de-verneuil.html",
+        "R3C4-prix-de-la-loge.html",
+        "R3C5-prix-de-chanteclerc.html",
+        "R3C6-prix-de-beauvilliers.html",
+        "R3C7-prix-du-chene-a-l-image.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-grand-cerf.html",
+        "R4C2-prix-de-l-ecole-militaire.html",
+        "R4C3-prix-de-verneuil.html",
+        "R4C4-prix-de-la-loge.html",
+        "R4C5-prix-de-chanteclerc.html",
+        "R4C6-prix-de-beauvilliers.html",
+        "R4C7-prix-du-chene-a-l-image.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:02.962459Z"
+}

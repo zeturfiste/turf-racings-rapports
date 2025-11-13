@@ -1,0 +1,59 @@
+{
+  "date": "2025-01-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-23",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-23/2025-01-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-23/R1-vincennes/R1C8-prix-de-yonkers-raceway.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-wolvega.html",
+        "R1C2-prix-de-la-valette.html",
+        "R1C3-prix-de-vienne-krieau.html",
+        "R1C4-prix-des-baleares.html",
+        "R1C5-prix-andre-meunier.html",
+        "R1C6-prix-de-gelsenkirchen.html",
+        "R1C7-prix-de-mons.html",
+        "R1C8-prix-de-yonkers-raceway.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-wolvega.html",
+        "R3C2-prix-de-la-valette.html",
+        "R3C3-prix-de-vienne-krieau.html",
+        "R3C4-prix-des-baleares.html",
+        "R3C5-prix-andre-meunier.html",
+        "R3C6-prix-de-gelsenkirchen.html",
+        "R3C7-prix-de-mons.html",
+        "R3C8-prix-de-yonkers-raceway.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-wolvega.html",
+        "R4C2-prix-de-la-valette.html",
+        "R4C3-prix-de-vienne-krieau.html",
+        "R4C4-prix-des-baleares.html",
+        "R4C5-prix-andre-meunier.html",
+        "R4C6-prix-de-gelsenkirchen.html",
+        "R4C7-prix-de-mons.html",
+        "R4C8-prix-de-yonkers-raceway.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:15.426580Z"
+}

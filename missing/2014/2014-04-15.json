@@ -1,0 +1,104 @@
+{
+  "date": "2014-04-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-15",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-15/2014-04-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C1-prix-birum.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C2-prix-nubienne.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C4-prix-d-aquitaine.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C5-prix-penelope.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C6-prix-de-clairefontaine-en-yvelines.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R1-saint-cloud/R1C8-prix-de-midi-pyrenees.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R2-cavaillon/R2C5-prix-penelope.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R2-cavaillon/R2C6-prix-de-clairefontaine-en-yvelines.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R2-cavaillon/R2C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R2-cavaillon/R2C8-prix-de-midi-pyrenees.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R3-caen/R3C1-prix-birum.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R3-caen/R3C3-prix-magister.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R3-caen/R3C5-prix-penelope.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R3-caen/R3C6-prix-de-clairefontaine-en-yvelines.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R3-caen/R3C8-prix-de-midi-pyrenees.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R4-cholet/R4C1-prix-birum.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R4-cholet/R4C2-prix-nubienne.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R4-cholet/R4C4-prix-d-aquitaine.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R4-cholet/R4C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R4-cholet/R4C8-prix-de-midi-pyrenees.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R5-vincennes/R5C4-prix-d-aquitaine.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R5-vincennes/R5C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2014/04/2014-04-15/R5-vincennes/R5C8-prix-de-midi-pyrenees.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-cavaillon",
+      "R3-caen",
+      "R4-cholet",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-birum.html",
+        "R1C2-prix-nubienne.html",
+        "R1C3-prix-magister.html",
+        "R1C4-prix-d-aquitaine.html",
+        "R1C5-prix-penelope.html",
+        "R1C6-prix-de-clairefontaine-en-yvelines.html",
+        "R1C7-prix-de-la-genevraye.html",
+        "R1C8-prix-de-midi-pyrenees.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-birum.html",
+        "R2C2-prix-nubienne.html",
+        "R2C3-prix-magister.html",
+        "R2C4-prix-d-aquitaine.html",
+        "R2C5-prix-penelope.html",
+        "R2C6-prix-de-clairefontaine-en-yvelines.html",
+        "R2C7-prix-de-la-genevraye.html",
+        "R2C8-prix-de-midi-pyrenees.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-birum.html",
+        "R3C2-prix-nubienne.html",
+        "R3C3-prix-magister.html",
+        "R3C4-prix-d-aquitaine.html",
+        "R3C5-prix-penelope.html",
+        "R3C6-prix-de-clairefontaine-en-yvelines.html",
+        "R3C7-prix-de-la-genevraye.html",
+        "R3C8-prix-de-midi-pyrenees.html"
+      ],
+      "R4-cholet": [
+        "R4C1-prix-birum.html",
+        "R4C2-prix-nubienne.html",
+        "R4C3-prix-magister.html",
+        "R4C4-prix-d-aquitaine.html",
+        "R4C5-prix-penelope.html",
+        "R4C6-prix-de-clairefontaine-en-yvelines.html",
+        "R4C7-prix-de-la-genevraye.html",
+        "R4C8-prix-de-midi-pyrenees.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-birum.html",
+        "R5C2-prix-nubienne.html",
+        "R5C3-prix-magister.html",
+        "R5C4-prix-d-aquitaine.html",
+        "R5C5-prix-penelope.html",
+        "R5C6-prix-de-clairefontaine-en-yvelines.html",
+        "R5C7-prix-de-la-genevraye.html",
+        "R5C8-prix-de-midi-pyrenees.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:03.366638Z"
+}

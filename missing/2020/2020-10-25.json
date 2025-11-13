@@ -1,0 +1,122 @@
+{
+  "date": "2020-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-25",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-25/2020-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-25/R1-paris-longchamp/R1C7-prix-des-miramiones.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R3-cholet/R3C2-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R3-cholet/R3C8-prix-de-beaubourg.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R3-cholet/R3C9-prix-mackensie-grieves.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R4-lyon-la-soie/R4C4-prix-du-pont-de-sully.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R4-lyon-la-soie/R4C7-prix-des-miramiones.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R4-lyon-la-soie/R4C8-prix-de-beaubourg.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R4-lyon-la-soie/R4C9-prix-mackensie-grieves.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R7-le-mont-saint-michel/R7C4-prix-du-pont-de-sully.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R7-le-mont-saint-michel/R7C8-prix-de-beaubourg.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C2-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C3-prix-du-conseil-de-paris.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C4-prix-du-pont-de-sully.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C5-prix-major-fridolin.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C6-prix-royal-oak.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C8-prix-de-beaubourg.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R8-salon-de-provence/R8C9-prix-mackensie-grieves.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C1-prix-de-carrieres-sous-bois.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C2-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C4-prix-du-pont-de-sully.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C5-prix-major-fridolin.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C6-prix-royal-oak.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C7-prix-des-miramiones.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C8-prix-de-beaubourg.html",
+      "resultats-et-rapports/2020/10/2020-10-25/R9-nancy/R9C9-prix-mackensie-grieves.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-cholet",
+      "R4-lyon-la-soie",
+      "R7-le-mont-saint-michel",
+      "R8-salon-de-provence",
+      "R9-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-carrieres-sous-bois.html",
+        "R1C2-prix-du-parc-des-princes.html",
+        "R1C3-prix-du-conseil-de-paris.html",
+        "R1C4-prix-du-pont-de-sully.html",
+        "R1C5-prix-major-fridolin.html",
+        "R1C6-prix-royal-oak.html",
+        "R1C7-prix-des-miramiones.html",
+        "R1C8-prix-de-beaubourg.html",
+        "R1C9-prix-mackensie-grieves.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-de-carrieres-sous-bois.html",
+        "R3C2-prix-du-parc-des-princes.html",
+        "R3C3-prix-du-conseil-de-paris.html",
+        "R3C4-prix-du-pont-de-sully.html",
+        "R3C5-prix-major-fridolin.html",
+        "R3C6-prix-royal-oak.html",
+        "R3C7-prix-des-miramiones.html",
+        "R3C8-prix-de-beaubourg.html",
+        "R3C9-prix-mackensie-grieves.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-carrieres-sous-bois.html",
+        "R4C2-prix-du-parc-des-princes.html",
+        "R4C3-prix-du-conseil-de-paris.html",
+        "R4C4-prix-du-pont-de-sully.html",
+        "R4C5-prix-major-fridolin.html",
+        "R4C6-prix-royal-oak.html",
+        "R4C7-prix-des-miramiones.html",
+        "R4C8-prix-de-beaubourg.html",
+        "R4C9-prix-mackensie-grieves.html"
+      ],
+      "R7-le-mont-saint-michel": [
+        "R7C1-prix-de-carrieres-sous-bois.html",
+        "R7C2-prix-du-parc-des-princes.html",
+        "R7C3-prix-du-conseil-de-paris.html",
+        "R7C4-prix-du-pont-de-sully.html",
+        "R7C5-prix-major-fridolin.html",
+        "R7C6-prix-royal-oak.html",
+        "R7C7-prix-des-miramiones.html",
+        "R7C8-prix-de-beaubourg.html",
+        "R7C9-prix-mackensie-grieves.html"
+      ],
+      "R8-salon-de-provence": [
+        "R8C1-prix-de-carrieres-sous-bois.html",
+        "R8C2-prix-du-parc-des-princes.html",
+        "R8C3-prix-du-conseil-de-paris.html",
+        "R8C4-prix-du-pont-de-sully.html",
+        "R8C5-prix-major-fridolin.html",
+        "R8C6-prix-royal-oak.html",
+        "R8C7-prix-des-miramiones.html",
+        "R8C8-prix-de-beaubourg.html",
+        "R8C9-prix-mackensie-grieves.html"
+      ],
+      "R9-nancy": [
+        "R9C1-prix-de-carrieres-sous-bois.html",
+        "R9C2-prix-du-parc-des-princes.html",
+        "R9C3-prix-du-conseil-de-paris.html",
+        "R9C4-prix-du-pont-de-sully.html",
+        "R9C5-prix-major-fridolin.html",
+        "R9C6-prix-royal-oak.html",
+        "R9C7-prix-des-miramiones.html",
+        "R9C8-prix-de-beaubourg.html",
+        "R9C9-prix-mackensie-grieves.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:06.741376Z"
+}

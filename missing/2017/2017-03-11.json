@@ -1,0 +1,88 @@
+{
+  "date": "2017-03-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-11",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-11/2017-03-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-11/R1-saint-cloud/R1C2-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R1-saint-cloud/R1C4-prix-rose-de-mai.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R1-saint-cloud/R1C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C1-optional-1.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C2-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C4-prix-rose-de-mai.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C5-prix-altipan.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C6-prix-de-chaumont-en-vexin.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C7-prix-d-herblay.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R3-caen/R3C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C1-optional-1.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C2-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C4-prix-rose-de-mai.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C5-prix-altipan.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C6-prix-de-chaumont-en-vexin.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R4-le-croise-laroche/R4C7-prix-d-herblay.html",
+      "resultats-et-rapports/2017/03/2017-03-11/R7-mont-de-marsan/R7C2-prix-de-frauenfeld.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R7-mont-de-marsan"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-optional-1.html",
+        "R1C2-prix-de-frauenfeld.html",
+        "R1C3-prix-du-pays-basque.html",
+        "R1C4-prix-rose-de-mai.html",
+        "R1C5-prix-altipan.html",
+        "R1C6-prix-de-chaumont-en-vexin.html",
+        "R1C7-prix-d-herblay.html",
+        "R1C8-prix-de-la-bigorre.html"
+      ],
+      "R3-caen": [
+        "R3C1-optional-1.html",
+        "R3C2-prix-de-frauenfeld.html",
+        "R3C3-prix-du-pays-basque.html",
+        "R3C4-prix-rose-de-mai.html",
+        "R3C5-prix-altipan.html",
+        "R3C6-prix-de-chaumont-en-vexin.html",
+        "R3C7-prix-d-herblay.html",
+        "R3C8-prix-de-la-bigorre.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-optional-1.html",
+        "R4C2-prix-de-frauenfeld.html",
+        "R4C3-prix-du-pays-basque.html",
+        "R4C4-prix-rose-de-mai.html",
+        "R4C5-prix-altipan.html",
+        "R4C6-prix-de-chaumont-en-vexin.html",
+        "R4C7-prix-d-herblay.html",
+        "R4C8-prix-de-la-bigorre.html"
+      ],
+      "R7-mont-de-marsan": [
+        "R7C1-optional-1.html",
+        "R7C2-prix-de-frauenfeld.html",
+        "R7C3-prix-du-pays-basque.html",
+        "R7C4-prix-rose-de-mai.html",
+        "R7C5-prix-altipan.html",
+        "R7C6-prix-de-chaumont-en-vexin.html",
+        "R7C7-prix-d-herblay.html",
+        "R7C8-prix-de-la-bigorre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:25.880405Z"
+}

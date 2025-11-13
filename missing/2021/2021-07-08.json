@@ -1,0 +1,121 @@
+{
+  "date": "2021-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/07/2021-07-08",
+    "date_html": "resultats-et-rapports/2021/07/2021-07-08/2021-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/07/2021-07-08/R1-paris-longchamp/R1C7-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R3-nantes/R3C6-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R3-nantes/R3C7-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R3-nantes/R3C9-prix-du-petit-pre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C1-prix-hocquelus.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C3-prix-du-bas-fort-blanc.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C6-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C7-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C8-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R4-lisieux/R4C11-prix-de-poitronville.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C1-prix-hocquelus.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C2-prix-du-bout-du-quai.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C5-prix-du-village.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C8-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C9-prix-du-petit-pre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C10-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R5-vichy/R5C11-prix-de-poitronville.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C1-prix-hocquelus.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C2-prix-du-bout-du-quai.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C3-prix-du-bas-fort-blanc.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C5-prix-du-village.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C6-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C7-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C8-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C9-prix-du-petit-pre.html",
+      "resultats-et-rapports/2021/07/2021-07-08/R7-graignes/R7C10-prix-du-petit-trianon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-nantes",
+      "R4-lisieux",
+      "R5-vichy",
+      "R7-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-hocquelus.html",
+        "R1C2-prix-du-bout-du-quai.html",
+        "R1C3-prix-du-bas-fort-blanc.html",
+        "R1C4-prix-de-rochechouart.html",
+        "R1C5-prix-du-village.html",
+        "R1C6-prix-de-la-tour-saint-jacques.html",
+        "R1C7-prix-du-grand-trianon.html",
+        "R1C8-prix-du-jardin-de-l-avre.html",
+        "R1C9-prix-du-petit-pre.html",
+        "R1C10-prix-du-petit-trianon.html",
+        "R1C11-prix-de-poitronville.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-hocquelus.html",
+        "R3C2-prix-du-bout-du-quai.html",
+        "R3C3-prix-du-bas-fort-blanc.html",
+        "R3C4-prix-de-rochechouart.html",
+        "R3C5-prix-du-village.html",
+        "R3C6-prix-de-la-tour-saint-jacques.html",
+        "R3C7-prix-du-grand-trianon.html",
+        "R3C8-prix-du-jardin-de-l-avre.html",
+        "R3C9-prix-du-petit-pre.html",
+        "R3C10-prix-du-petit-trianon.html",
+        "R3C11-prix-de-poitronville.html"
+      ],
+      "R4-lisieux": [
+        "R4C1-prix-hocquelus.html",
+        "R4C2-prix-du-bout-du-quai.html",
+        "R4C3-prix-du-bas-fort-blanc.html",
+        "R4C4-prix-de-rochechouart.html",
+        "R4C5-prix-du-village.html",
+        "R4C6-prix-de-la-tour-saint-jacques.html",
+        "R4C7-prix-du-grand-trianon.html",
+        "R4C8-prix-du-jardin-de-l-avre.html",
+        "R4C9-prix-du-petit-pre.html",
+        "R4C10-prix-du-petit-trianon.html",
+        "R4C11-prix-de-poitronville.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-hocquelus.html",
+        "R5C2-prix-du-bout-du-quai.html",
+        "R5C3-prix-du-bas-fort-blanc.html",
+        "R5C4-prix-de-rochechouart.html",
+        "R5C5-prix-du-village.html",
+        "R5C6-prix-de-la-tour-saint-jacques.html",
+        "R5C7-prix-du-grand-trianon.html",
+        "R5C8-prix-du-jardin-de-l-avre.html",
+        "R5C9-prix-du-petit-pre.html",
+        "R5C10-prix-du-petit-trianon.html",
+        "R5C11-prix-de-poitronville.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-hocquelus.html",
+        "R7C2-prix-du-bout-du-quai.html",
+        "R7C3-prix-du-bas-fort-blanc.html",
+        "R7C4-prix-de-rochechouart.html",
+        "R7C5-prix-du-village.html",
+        "R7C6-prix-de-la-tour-saint-jacques.html",
+        "R7C7-prix-du-grand-trianon.html",
+        "R7C8-prix-du-jardin-de-l-avre.html",
+        "R7C9-prix-du-petit-pre.html",
+        "R7C10-prix-du-petit-trianon.html",
+        "R7C11-prix-de-poitronville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:33.137182Z"
+}

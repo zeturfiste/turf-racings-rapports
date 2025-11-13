@@ -1,0 +1,80 @@
+{
+  "date": "2023-05-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-16",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-16/2023-05-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C1-prix-de-vaureal.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C2-prix-lunadix.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C4-prix-de-chatou.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C5-prix-margouillat.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C6-prix-comtesse-de-loir.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R1-saint-cloud/R1C7-prix-de-la-hume.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C1-prix-de-vaureal.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C2-prix-lunadix.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C3-prix-mendez.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C4-prix-de-chatou.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C5-prix-margouillat.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C6-prix-comtesse-de-loir.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C7-prix-de-la-hume.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R3-beaumont-de-lomagne/R3C8-prix-pistol-packer.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C1-prix-de-vaureal.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C2-prix-lunadix.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C3-prix-mendez.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C4-prix-de-chatou.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C5-prix-margouillat.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C6-prix-comtesse-de-loir.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C7-prix-de-la-hume.html",
+      "resultats-et-rapports/2023/05/2023-05-16/R4-vincennes/R4C8-prix-pistol-packer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-beaumont-de-lomagne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-vaureal.html",
+        "R1C2-prix-lunadix.html",
+        "R1C3-prix-mendez.html",
+        "R1C4-prix-de-chatou.html",
+        "R1C5-prix-margouillat.html",
+        "R1C6-prix-comtesse-de-loir.html",
+        "R1C7-prix-de-la-hume.html",
+        "R1C8-prix-pistol-packer.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-de-vaureal.html",
+        "R3C2-prix-lunadix.html",
+        "R3C3-prix-mendez.html",
+        "R3C4-prix-de-chatou.html",
+        "R3C5-prix-margouillat.html",
+        "R3C6-prix-comtesse-de-loir.html",
+        "R3C7-prix-de-la-hume.html",
+        "R3C8-prix-pistol-packer.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-vaureal.html",
+        "R4C2-prix-lunadix.html",
+        "R4C3-prix-mendez.html",
+        "R4C4-prix-de-chatou.html",
+        "R4C5-prix-margouillat.html",
+        "R4C6-prix-comtesse-de-loir.html",
+        "R4C7-prix-de-la-hume.html",
+        "R4C8-prix-pistol-packer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:33.149207Z"
+}

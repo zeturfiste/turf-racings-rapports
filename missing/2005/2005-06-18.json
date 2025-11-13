@@ -1,0 +1,60 @@
+{
+  "date": "2005-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-18",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-18/2005-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-saint-brieuc",
+      "R3-arras"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-aguado.html",
+        "R1C2-prix-hardatit.html",
+        "R1C3-prix-carmont.html",
+        "R1C4-prix-alain-du-breil-course-de-haies-d-ete-des-4-ans.html",
+        "R1C5-prix-des-drags.html",
+        "R1C6-york-golden-jubilee-stakes.html",
+        "R1C7-grande-course-de-haies-d-auteuil.html",
+        "R1C8-prix-katko.html",
+        "R1C9-prix-gacko.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-aguado.html",
+        "R2C2-prix-hardatit.html",
+        "R2C3-prix-carmont.html",
+        "R2C4-prix-alain-du-breil-course-de-haies-d-ete-des-4-ans.html",
+        "R2C5-prix-des-drags.html",
+        "R2C6-york-golden-jubilee-stakes.html",
+        "R2C7-grande-course-de-haies-d-auteuil.html",
+        "R2C8-prix-katko.html",
+        "R2C9-prix-gacko.html"
+      ],
+      "R3-arras": [
+        "R3C1-prix-aguado.html",
+        "R3C2-prix-hardatit.html",
+        "R3C3-prix-carmont.html",
+        "R3C4-prix-alain-du-breil-course-de-haies-d-ete-des-4-ans.html",
+        "R3C5-prix-des-drags.html",
+        "R3C6-york-golden-jubilee-stakes.html",
+        "R3C7-grande-course-de-haies-d-auteuil.html",
+        "R3C8-prix-katko.html",
+        "R3C9-prix-gacko.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:58.893281Z"
+}

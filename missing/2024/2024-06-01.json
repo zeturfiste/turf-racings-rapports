@@ -1,0 +1,93 @@
+{
+  "date": "2024-06-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-01",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-01/2024-06-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-01/R2-cabourg/R2C4-prix-quo-vadis.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R2-cabourg/R2C6-prix-jean-victor.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R2-cabourg/R2C7-prix-beaumanoir.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R2-cabourg/R2C8-prix-james-hennessy.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R3-vichy/R3C1-prix-ginetta-ii.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R3-vichy/R3C2-prix-rocking-chair.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R3-vichy/R3C5-prix-trinidad.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R3-vichy/R3C6-prix-jean-victor.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R4-lyon-parilly/R4C4-prix-quo-vadis.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R8-marseille-vivaux/R8C1-prix-ginetta-ii.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R8-marseille-vivaux/R8C2-prix-rocking-chair.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R8-marseille-vivaux/R8C5-prix-trinidad.html",
+      "resultats-et-rapports/2024/06/2024-06-01/R8-marseille-vivaux/R8C6-prix-jean-victor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-cabourg",
+      "R3-vichy",
+      "R4-lyon-parilly",
+      "R8-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-ginetta-ii.html",
+        "R1C2-prix-rocking-chair.html",
+        "R1C3-prix-bois-rouaud.html",
+        "R1C4-prix-quo-vadis.html",
+        "R1C5-prix-trinidad.html",
+        "R1C6-prix-jean-victor.html",
+        "R1C7-prix-beaumanoir.html",
+        "R1C8-prix-james-hennessy.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-ginetta-ii.html",
+        "R2C2-prix-rocking-chair.html",
+        "R2C3-prix-bois-rouaud.html",
+        "R2C4-prix-quo-vadis.html",
+        "R2C5-prix-trinidad.html",
+        "R2C6-prix-jean-victor.html",
+        "R2C7-prix-beaumanoir.html",
+        "R2C8-prix-james-hennessy.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-ginetta-ii.html",
+        "R3C2-prix-rocking-chair.html",
+        "R3C3-prix-bois-rouaud.html",
+        "R3C4-prix-quo-vadis.html",
+        "R3C5-prix-trinidad.html",
+        "R3C6-prix-jean-victor.html",
+        "R3C7-prix-beaumanoir.html",
+        "R3C8-prix-james-hennessy.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-ginetta-ii.html",
+        "R4C2-prix-rocking-chair.html",
+        "R4C3-prix-bois-rouaud.html",
+        "R4C4-prix-quo-vadis.html",
+        "R4C5-prix-trinidad.html",
+        "R4C6-prix-jean-victor.html",
+        "R4C7-prix-beaumanoir.html",
+        "R4C8-prix-james-hennessy.html"
+      ],
+      "R8-marseille-vivaux": [
+        "R8C1-prix-ginetta-ii.html",
+        "R8C2-prix-rocking-chair.html",
+        "R8C3-prix-bois-rouaud.html",
+        "R8C4-prix-quo-vadis.html",
+        "R8C5-prix-trinidad.html",
+        "R8C6-prix-jean-victor.html",
+        "R8C7-prix-beaumanoir.html",
+        "R8C8-prix-james-hennessy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:49.971447Z"
+}

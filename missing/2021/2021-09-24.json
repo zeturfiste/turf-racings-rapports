@@ -1,0 +1,70 @@
+{
+  "date": "2021-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-24",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-24/2021-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-24/R1-vincennes/R1C5-prix-lacadeira.html",
+      "resultats-et-rapports/2021/09/2021-09-24/R3-caen/R3C5-prix-lacadeira.html",
+      "resultats-et-rapports/2021/09/2021-09-24/R3-caen/R3C7-prix-theresia.html",
+      "resultats-et-rapports/2021/09/2021-09-24/R5-pornichet-la-baule/R5C3-prix-cleomede.html",
+      "resultats-et-rapports/2021/09/2021-09-24/R5-pornichet-la-baule/R5C5-prix-lacadeira.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-caen",
+      "R4-chantilly",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-bruna.html",
+        "R1C2-prix-alexandra.html",
+        "R1C3-prix-cleomede.html",
+        "R1C4-prix-eucharis.html",
+        "R1C5-prix-lacadeira.html",
+        "R1C6-prix-aquitania.html",
+        "R1C7-prix-theresia.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-bruna.html",
+        "R3C2-prix-alexandra.html",
+        "R3C3-prix-cleomede.html",
+        "R3C4-prix-eucharis.html",
+        "R3C5-prix-lacadeira.html",
+        "R3C6-prix-aquitania.html",
+        "R3C7-prix-theresia.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-bruna.html",
+        "R4C2-prix-alexandra.html",
+        "R4C3-prix-cleomede.html",
+        "R4C4-prix-eucharis.html",
+        "R4C5-prix-lacadeira.html",
+        "R4C6-prix-aquitania.html",
+        "R4C7-prix-theresia.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-bruna.html",
+        "R5C2-prix-alexandra.html",
+        "R5C3-prix-cleomede.html",
+        "R5C4-prix-eucharis.html",
+        "R5C5-prix-lacadeira.html",
+        "R5C6-prix-aquitania.html",
+        "R5C7-prix-theresia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:02.926077Z"
+}

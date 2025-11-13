@@ -1,0 +1,83 @@
+{
+  "date": "2017-05-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-09",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-09/2017-05-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-09/R1-bordeaux-le-bouscat/R1C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R1-bordeaux-le-bouscat/R1C2-prix-djerba-oua.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R1-bordeaux-le-bouscat/R1C3-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R1-bordeaux-le-bouscat/R1C4-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R2-marseille-borely/R2C7-criterium-des-jeunes-a-37-5.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R3-strasbourg/R3C4-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R3-strasbourg/R3C5-prix-du-tremblay.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R3-strasbourg/R3C6-prix-de-la-ville-du-bouscat.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R3-strasbourg/R3C7-criterium-des-jeunes-a-37-5.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R3-strasbourg/R3C8-prix-djelfor.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R5-vincennes/R5C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R5-vincennes/R5C2-prix-djerba-oua.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R5-vincennes/R5C4-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2017/05/2017-05-09/R5-vincennes/R5C5-prix-du-tremblay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-marseille-borely",
+      "R3-strasbourg",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+        "R1C2-prix-djerba-oua.html",
+        "R1C3-handicap-de-bordeaux.html",
+        "R1C4-prix-robert-de-villemandy.html",
+        "R1C5-prix-du-tremblay.html",
+        "R1C6-prix-de-la-ville-du-bouscat.html",
+        "R1C7-criterium-des-jeunes-a-37-5.html",
+        "R1C8-prix-djelfor.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+        "R2C2-prix-djerba-oua.html",
+        "R2C3-handicap-de-bordeaux.html",
+        "R2C4-prix-robert-de-villemandy.html",
+        "R2C5-prix-du-tremblay.html",
+        "R2C6-prix-de-la-ville-du-bouscat.html",
+        "R2C7-criterium-des-jeunes-a-37-5.html",
+        "R2C8-prix-djelfor.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+        "R3C2-prix-djerba-oua.html",
+        "R3C3-handicap-de-bordeaux.html",
+        "R3C4-prix-robert-de-villemandy.html",
+        "R3C5-prix-du-tremblay.html",
+        "R3C6-prix-de-la-ville-du-bouscat.html",
+        "R3C7-criterium-des-jeunes-a-37-5.html",
+        "R3C8-prix-djelfor.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-l-office-du-tourisme-et-des-congres-bordeaux-metropole.html",
+        "R5C2-prix-djerba-oua.html",
+        "R5C3-handicap-de-bordeaux.html",
+        "R5C4-prix-robert-de-villemandy.html",
+        "R5C5-prix-du-tremblay.html",
+        "R5C6-prix-de-la-ville-du-bouscat.html",
+        "R5C7-criterium-des-jeunes-a-37-5.html",
+        "R5C8-prix-djelfor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:44.825168Z"
+}

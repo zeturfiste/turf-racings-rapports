@@ -1,0 +1,77 @@
+{
+  "date": "2014-12-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-13",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-13/2014-12-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-13/R1-vincennes/R1C6-prix-oscar-collard.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C4-prix-de-la-ville-de-cabourg-prix-de-saint-james.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C5-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C6-prix-oscar-collard.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C7-prix-d-evreux.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C8-prix-de-florac.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R2-deauville/R2C9-prix-de-pondurat.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C1-prix-de-langeac.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C2-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C3-prix-de-l-associaton-les-seniors-du-trot-prix-de-rostrenen.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C4-prix-de-la-ville-de-cabourg-prix-de-saint-james.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C5-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C6-prix-oscar-collard.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C7-prix-d-evreux.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C8-prix-de-florac.html",
+      "resultats-et-rapports/2014/12/2014-12-13/R8-deauville-midi/R8C9-prix-de-pondurat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R8-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langeac.html",
+        "R1C2-prix-general-du-pommeau.html",
+        "R1C3-prix-de-l-associaton-les-seniors-du-trot-prix-de-rostrenen.html",
+        "R1C4-prix-de-la-ville-de-cabourg-prix-de-saint-james.html",
+        "R1C5-prix-jules-lepennetier.html",
+        "R1C6-prix-oscar-collard.html",
+        "R1C7-prix-d-evreux.html",
+        "R1C8-prix-de-florac.html",
+        "R1C9-prix-de-pondurat.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-langeac.html",
+        "R2C2-prix-general-du-pommeau.html",
+        "R2C3-prix-de-l-associaton-les-seniors-du-trot-prix-de-rostrenen.html",
+        "R2C4-prix-de-la-ville-de-cabourg-prix-de-saint-james.html",
+        "R2C5-prix-jules-lepennetier.html",
+        "R2C6-prix-oscar-collard.html",
+        "R2C7-prix-d-evreux.html",
+        "R2C8-prix-de-florac.html",
+        "R2C9-prix-de-pondurat.html"
+      ],
+      "R8-deauville-midi": [
+        "R8C1-prix-de-langeac.html",
+        "R8C2-prix-general-du-pommeau.html",
+        "R8C3-prix-de-l-associaton-les-seniors-du-trot-prix-de-rostrenen.html",
+        "R8C4-prix-de-la-ville-de-cabourg-prix-de-saint-james.html",
+        "R8C5-prix-jules-lepennetier.html",
+        "R8C6-prix-oscar-collard.html",
+        "R8C7-prix-d-evreux.html",
+        "R8C8-prix-de-florac.html",
+        "R8C9-prix-de-pondurat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:24.817470Z"
+}

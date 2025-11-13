@@ -1,0 +1,124 @@
+{
+  "date": "2006-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-12",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-12/2006-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-12/R4-sable-sur-sarthe/R4C2-prix-de-lagny.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R4-sable-sur-sarthe/R4C5-prix-noir-et-or.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R4-sable-sur-sarthe/R4C6-prix-de-castillon.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R4-sable-sur-sarthe/R4C8-prix-de-tarnos.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R5-le-croise-laroche/R5C1-prix-dagor.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R5-le-croise-laroche/R5C3-prix-margouillat.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R5-le-croise-laroche/R5C6-prix-de-castillon.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R10-fritz-walter-stadion-kaiserslautern/R10C2-prix-de-lagny.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R10-fritz-walter-stadion-kaiserslautern/R10C3-prix-margouillat.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R10-fritz-walter-stadion-kaiserslautern/R10C4-prix-des-lilas.html",
+      "resultats-et-rapports/2006/06/2006-06-12/R12-awd-arena-hambourg/R12C4-prix-des-lilas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R3-vichy",
+      "R4-sable-sur-sarthe",
+      "R5-le-croise-laroche",
+      "R10-fritz-walter-stadion-kaiserslautern",
+      "R11-arena-aufschalke-gelsenkirchen",
+      "R12-awd-arena-hambourg"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dagor.html",
+        "R1C2-prix-de-lagny.html",
+        "R1C3-prix-margouillat.html",
+        "R1C4-prix-des-lilas.html",
+        "R1C5-prix-noir-et-or.html",
+        "R1C6-prix-de-castillon.html",
+        "R1C7-prix-de-breteuil.html",
+        "R1C8-prix-de-tarnos.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-dagor.html",
+        "R2C2-prix-de-lagny.html",
+        "R2C3-prix-margouillat.html",
+        "R2C4-prix-des-lilas.html",
+        "R2C5-prix-noir-et-or.html",
+        "R2C6-prix-de-castillon.html",
+        "R2C7-prix-de-breteuil.html",
+        "R2C8-prix-de-tarnos.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-dagor.html",
+        "R3C2-prix-de-lagny.html",
+        "R3C3-prix-margouillat.html",
+        "R3C4-prix-des-lilas.html",
+        "R3C5-prix-noir-et-or.html",
+        "R3C6-prix-de-castillon.html",
+        "R3C7-prix-de-breteuil.html",
+        "R3C8-prix-de-tarnos.html"
+      ],
+      "R4-sable-sur-sarthe": [
+        "R4C1-prix-dagor.html",
+        "R4C2-prix-de-lagny.html",
+        "R4C3-prix-margouillat.html",
+        "R4C4-prix-des-lilas.html",
+        "R4C5-prix-noir-et-or.html",
+        "R4C6-prix-de-castillon.html",
+        "R4C7-prix-de-breteuil.html",
+        "R4C8-prix-de-tarnos.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-dagor.html",
+        "R5C2-prix-de-lagny.html",
+        "R5C3-prix-margouillat.html",
+        "R5C4-prix-des-lilas.html",
+        "R5C5-prix-noir-et-or.html",
+        "R5C6-prix-de-castillon.html",
+        "R5C7-prix-de-breteuil.html",
+        "R5C8-prix-de-tarnos.html"
+      ],
+      "R10-fritz-walter-stadion-kaiserslautern": [
+        "R10C1-prix-dagor.html",
+        "R10C2-prix-de-lagny.html",
+        "R10C3-prix-margouillat.html",
+        "R10C4-prix-des-lilas.html",
+        "R10C5-prix-noir-et-or.html",
+        "R10C6-prix-de-castillon.html",
+        "R10C7-prix-de-breteuil.html",
+        "R10C8-prix-de-tarnos.html"
+      ],
+      "R11-arena-aufschalke-gelsenkirchen": [
+        "R11C1-prix-dagor.html",
+        "R11C2-prix-de-lagny.html",
+        "R11C3-prix-margouillat.html",
+        "R11C4-prix-des-lilas.html",
+        "R11C5-prix-noir-et-or.html",
+        "R11C6-prix-de-castillon.html",
+        "R11C7-prix-de-breteuil.html",
+        "R11C8-prix-de-tarnos.html"
+      ],
+      "R12-awd-arena-hambourg": [
+        "R12C1-prix-dagor.html",
+        "R12C2-prix-de-lagny.html",
+        "R12C3-prix-margouillat.html",
+        "R12C4-prix-des-lilas.html",
+        "R12C5-prix-noir-et-or.html",
+        "R12C6-prix-de-castillon.html",
+        "R12C7-prix-de-breteuil.html",
+        "R12C8-prix-de-tarnos.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:02.506642Z"
+}

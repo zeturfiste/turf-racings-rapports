@@ -1,0 +1,63 @@
+{
+  "date": "2022-10-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-04",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-04/2022-10-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-04/R1-auteuil/R1C4-prix-bison-fute.html",
+      "resultats-et-rapports/2022/10/2022-10-04/R1-auteuil/R1C6-prix-de-salers.html",
+      "resultats-et-rapports/2022/10/2022-10-04/R1-auteuil/R1C8-prix-de-bagatelle.html",
+      "resultats-et-rapports/2022/10/2022-10-04/R4-vincennes/R4C3-prix-de-coye.html",
+      "resultats-et-rapports/2022/10/2022-10-04/R4-vincennes/R4C5-prix-piomares.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-cholet",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-guillaume-de-pracomtal.html",
+        "R1C2-prix-fezensac.html",
+        "R1C3-prix-de-coye.html",
+        "R1C4-prix-bison-fute.html",
+        "R1C5-prix-piomares.html",
+        "R1C6-prix-de-salers.html",
+        "R1C7-prix-hipparque.html",
+        "R1C8-prix-de-bagatelle.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-guillaume-de-pracomtal.html",
+        "R3C2-prix-fezensac.html",
+        "R3C3-prix-de-coye.html",
+        "R3C4-prix-bison-fute.html",
+        "R3C5-prix-piomares.html",
+        "R3C6-prix-de-salers.html",
+        "R3C7-prix-hipparque.html",
+        "R3C8-prix-de-bagatelle.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-guillaume-de-pracomtal.html",
+        "R4C2-prix-fezensac.html",
+        "R4C3-prix-de-coye.html",
+        "R4C4-prix-bison-fute.html",
+        "R4C5-prix-piomares.html",
+        "R4C6-prix-de-salers.html",
+        "R4C7-prix-hipparque.html",
+        "R4C8-prix-de-bagatelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:15.824545Z"
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2013-12-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-12",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-12/2013-12-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-12/R1-vincennes/R1C1-prix-d-evrecy-groupe-a.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R1-vincennes/R1C2-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R1-vincennes/R1C3-prix-d-evrecy-groupe-b.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R1-vincennes/R1C4-prix-du-sap.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R1-vincennes/R1C9-prix-de-chambly.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C1-prix-d-evrecy-groupe-a.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C2-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C3-prix-d-evrecy-groupe-b.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C4-prix-du-sap.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C6-prix-de-langon.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C7-prix-d-isigny.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C8-prix-de-thouars.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R2-toulouse/R2C9-prix-de-chambly.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R3-cagnes-sur-mer/R3C1-prix-d-evrecy-groupe-a.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R3-cagnes-sur-mer/R3C6-prix-de-langon.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R4-lyon-la-soie/R4C6-prix-de-langon.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R4-lyon-la-soie/R4C7-prix-d-isigny.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R4-lyon-la-soie/R4C8-prix-de-thouars.html",
+      "resultats-et-rapports/2013/12/2013-12-12/R4-lyon-la-soie/R4C9-prix-de-chambly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R3-cagnes-sur-mer",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-evrecy-groupe-a.html",
+        "R1C2-prix-de-villers-cotterets.html",
+        "R1C3-prix-d-evrecy-groupe-b.html",
+        "R1C4-prix-du-sap.html",
+        "R1C5-prix-de-chinon.html",
+        "R1C6-prix-de-langon.html",
+        "R1C7-prix-d-isigny.html",
+        "R1C8-prix-de-thouars.html",
+        "R1C9-prix-de-chambly.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-d-evrecy-groupe-a.html",
+        "R2C2-prix-de-villers-cotterets.html",
+        "R2C3-prix-d-evrecy-groupe-b.html",
+        "R2C4-prix-du-sap.html",
+        "R2C5-prix-de-chinon.html",
+        "R2C6-prix-de-langon.html",
+        "R2C7-prix-d-isigny.html",
+        "R2C8-prix-de-thouars.html",
+        "R2C9-prix-de-chambly.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-d-evrecy-groupe-a.html",
+        "R3C2-prix-de-villers-cotterets.html",
+        "R3C3-prix-d-evrecy-groupe-b.html",
+        "R3C4-prix-du-sap.html",
+        "R3C5-prix-de-chinon.html",
+        "R3C6-prix-de-langon.html",
+        "R3C7-prix-d-isigny.html",
+        "R3C8-prix-de-thouars.html",
+        "R3C9-prix-de-chambly.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-d-evrecy-groupe-a.html",
+        "R4C2-prix-de-villers-cotterets.html",
+        "R4C3-prix-d-evrecy-groupe-b.html",
+        "R4C4-prix-du-sap.html",
+        "R4C5-prix-de-chinon.html",
+        "R4C6-prix-de-langon.html",
+        "R4C7-prix-d-isigny.html",
+        "R4C8-prix-de-thouars.html",
+        "R4C9-prix-de-chambly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:31.630152Z"
+}

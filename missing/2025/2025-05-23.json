@@ -1,0 +1,77 @@
+{
+  "date": "2025-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-23",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-23/2025-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-23/R2-graignes/R2C4-prix-constellation.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R2-graignes/R2C7-prix-glauke.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R4-saint-cloud/R4C4-prix-constellation.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R5-marseille-vivaux/R5C1-prix-sirrah.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R5-marseille-vivaux/R5C2-prix-caecilia.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R5-marseille-vivaux/R5C4-prix-constellation.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R5-marseille-vivaux/R5C5-prix-jean-riaud.html",
+      "resultats-et-rapports/2025/05/2025-05-23/R5-marseille-vivaux/R5C6-prix-pollux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-graignes",
+      "R4-saint-cloud",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-sirrah.html",
+        "R1C2-prix-caecilia.html",
+        "R1C3-prix-mutus.html",
+        "R1C4-prix-constellation.html",
+        "R1C5-prix-jean-riaud.html",
+        "R1C6-prix-pollux.html",
+        "R1C7-prix-glauke.html",
+        "R1C8-prix-licetus.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-sirrah.html",
+        "R2C2-prix-caecilia.html",
+        "R2C3-prix-mutus.html",
+        "R2C4-prix-constellation.html",
+        "R2C5-prix-jean-riaud.html",
+        "R2C6-prix-pollux.html",
+        "R2C7-prix-glauke.html",
+        "R2C8-prix-licetus.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-sirrah.html",
+        "R4C2-prix-caecilia.html",
+        "R4C3-prix-mutus.html",
+        "R4C4-prix-constellation.html",
+        "R4C5-prix-jean-riaud.html",
+        "R4C6-prix-pollux.html",
+        "R4C7-prix-glauke.html",
+        "R4C8-prix-licetus.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-sirrah.html",
+        "R5C2-prix-caecilia.html",
+        "R5C3-prix-mutus.html",
+        "R5C4-prix-constellation.html",
+        "R5C5-prix-jean-riaud.html",
+        "R5C6-prix-pollux.html",
+        "R5C7-prix-glauke.html",
+        "R5C8-prix-licetus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:57.955525Z"
+}

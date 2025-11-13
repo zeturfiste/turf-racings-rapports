@@ -1,0 +1,68 @@
+{
+  "date": "2020-12-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/12/2020-12-08",
+    "date_html": "resultats-et-rapports/2020/12/2020-12-08/2020-12-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/12/2020-12-08/R1-chantilly/R1C2-prix-de-la-piste-sea-bird.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R1-chantilly/R1C3-prix-d-himeji.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R1-chantilly/R1C4-prix-du-carrefour-des-marchands-de-navets.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R1-chantilly/R1C6-prix-magdelene.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R1-chantilly/R1C8-prix-du-chateau-du-heron-blanc.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R2-pau/R2C5-prix-d-epsom.html",
+      "resultats-et-rapports/2020/12/2020-12-08/R3-vincennes/R3C9-prix-d-uberlingen.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-pau",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-poteau-du-gateau.html",
+        "R1C2-prix-de-la-piste-sea-bird.html",
+        "R1C3-prix-d-himeji.html",
+        "R1C4-prix-du-carrefour-des-marchands-de-navets.html",
+        "R1C5-prix-d-epsom.html",
+        "R1C6-prix-magdelene.html",
+        "R1C7-prix-de-watermael-boitsfort.html",
+        "R1C8-prix-du-chateau-du-heron-blanc.html",
+        "R1C9-prix-d-uberlingen.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-poteau-du-gateau.html",
+        "R2C2-prix-de-la-piste-sea-bird.html",
+        "R2C3-prix-d-himeji.html",
+        "R2C4-prix-du-carrefour-des-marchands-de-navets.html",
+        "R2C5-prix-d-epsom.html",
+        "R2C6-prix-magdelene.html",
+        "R2C7-prix-de-watermael-boitsfort.html",
+        "R2C8-prix-du-chateau-du-heron-blanc.html",
+        "R2C9-prix-d-uberlingen.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-poteau-du-gateau.html",
+        "R3C2-prix-de-la-piste-sea-bird.html",
+        "R3C3-prix-d-himeji.html",
+        "R3C4-prix-du-carrefour-des-marchands-de-navets.html",
+        "R3C5-prix-d-epsom.html",
+        "R3C6-prix-magdelene.html",
+        "R3C7-prix-de-watermael-boitsfort.html",
+        "R3C8-prix-du-chateau-du-heron-blanc.html",
+        "R3C9-prix-d-uberlingen.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:21.901784Z"
+}

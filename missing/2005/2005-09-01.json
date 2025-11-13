@@ -1,0 +1,46 @@
+{
+  "date": "2005-09-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-01",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-01/2005-09-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-neuilly.html",
+        "R1C2-prix-pierre-gamare.html",
+        "R1C3-prix-des-pervenches.html",
+        "R1C4-prix-legoux-longpre.html",
+        "R1C5-prix-de-mehun-sur-yevre.html",
+        "R1C6-prix-jules-thibault.html",
+        "R1C7-prix-de-coutances.html",
+        "R1C8-prix-de-cagnes-sur-mer.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-neuilly.html",
+        "R2C2-prix-pierre-gamare.html",
+        "R2C3-prix-des-pervenches.html",
+        "R2C4-prix-legoux-longpre.html",
+        "R2C5-prix-de-mehun-sur-yevre.html",
+        "R2C6-prix-jules-thibault.html",
+        "R2C7-prix-de-coutances.html",
+        "R2C8-prix-de-cagnes-sur-mer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:11.468666Z"
+}

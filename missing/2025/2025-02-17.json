@@ -1,0 +1,82 @@
+{
+  "date": "2025-02-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/02/2025-02-17",
+    "date_html": "resultats-et-rapports/2025/02/2025-02-17/2025-02-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C2-prix-de-romorantin.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C3-prix-de-balleroy.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C4-prix-du-tarn.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C5-prix-de-frejus.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C6-prix-de-carhaix.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R1-vincennes/R1C8-prix-de-challans.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C2-prix-de-romorantin.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C3-prix-de-balleroy.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C4-prix-du-tarn.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C5-prix-de-frejus.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C6-prix-de-carhaix.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R3-marseille-borely/R3C8-prix-de-challans.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C2-prix-de-romorantin.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C3-prix-de-balleroy.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C4-prix-du-tarn.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C5-prix-de-frejus.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C6-prix-de-carhaix.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2025/02/2025-02-17/R4-saint-galmier/R4C8-prix-de-challans.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+        "R1C2-prix-de-romorantin.html",
+        "R1C3-prix-de-balleroy.html",
+        "R1C4-prix-du-tarn.html",
+        "R1C5-prix-de-frejus.html",
+        "R1C6-prix-de-carhaix.html",
+        "R1C7-prix-de-lamballe.html",
+        "R1C8-prix-de-challans.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+        "R3C2-prix-de-romorantin.html",
+        "R3C3-prix-de-balleroy.html",
+        "R3C4-prix-du-tarn.html",
+        "R3C5-prix-de-frejus.html",
+        "R3C6-prix-de-carhaix.html",
+        "R3C7-prix-de-lamballe.html",
+        "R3C8-prix-de-challans.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-de-l-hippodrome-d-angers-ecouflant-prix-de-bracieux.html",
+        "R4C2-prix-de-romorantin.html",
+        "R4C3-prix-de-balleroy.html",
+        "R4C4-prix-du-tarn.html",
+        "R4C5-prix-de-frejus.html",
+        "R4C6-prix-de-carhaix.html",
+        "R4C7-prix-de-lamballe.html",
+        "R4C8-prix-de-challans.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:23.495829Z"
+}

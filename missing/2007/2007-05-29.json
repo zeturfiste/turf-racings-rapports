@@ -1,0 +1,81 @@
+{
+  "date": "2007-05-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-29",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-29/2007-05-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-29/R1-chantilly/R1C4-prix-basse-pointe.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R2-vichy/R2C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C2-prix-de-lagny.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C3-prix-bruleur.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C5-prix-de-ponthierry.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C7-prix-hubert-d-ideville.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R3-vincennes/R3C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R31-zerace/R31C1-prix-blushing-groom.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R31-zerace/R31C2-prix-de-lagny.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R31-zerace/R31C3-prix-bruleur.html",
+      "resultats-et-rapports/2007/05/2007-05-29/R31-zerace/R31C4-prix-basse-pointe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vichy",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-blushing-groom.html",
+        "R1C2-prix-de-lagny.html",
+        "R1C3-prix-bruleur.html",
+        "R1C4-prix-basse-pointe.html",
+        "R1C5-prix-de-ponthierry.html",
+        "R1C6-prix-du-grand-morin.html",
+        "R1C7-prix-hubert-d-ideville.html",
+        "R1C8-prix-du-petit-morin.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-blushing-groom.html",
+        "R2C2-prix-de-lagny.html",
+        "R2C3-prix-bruleur.html",
+        "R2C4-prix-basse-pointe.html",
+        "R2C5-prix-de-ponthierry.html",
+        "R2C6-prix-du-grand-morin.html",
+        "R2C7-prix-hubert-d-ideville.html",
+        "R2C8-prix-du-petit-morin.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-blushing-groom.html",
+        "R3C2-prix-de-lagny.html",
+        "R3C3-prix-bruleur.html",
+        "R3C4-prix-basse-pointe.html",
+        "R3C5-prix-de-ponthierry.html",
+        "R3C6-prix-du-grand-morin.html",
+        "R3C7-prix-hubert-d-ideville.html",
+        "R3C8-prix-du-petit-morin.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-blushing-groom.html",
+        "R31C2-prix-de-lagny.html",
+        "R31C3-prix-bruleur.html",
+        "R31C4-prix-basse-pointe.html",
+        "R31C5-prix-de-ponthierry.html",
+        "R31C6-prix-du-grand-morin.html",
+        "R31C7-prix-hubert-d-ideville.html",
+        "R31C8-prix-du-petit-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:53.664365Z"
+}

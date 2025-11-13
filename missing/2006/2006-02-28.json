@@ -1,0 +1,44 @@
+{
+  "date": "2006-02-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-28",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-28/2006-02-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-souviens-toi.html",
+        "R1C2-prix-rivoli.html",
+        "R1C3-prix-marise.html",
+        "R1C4-prix-agitato.html",
+        "R1C5-prix-varaville.html",
+        "R1C6-prix-tofano.html",
+        "R1C7-prix-fernand-roy.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-souviens-toi.html",
+        "R2C2-prix-rivoli.html",
+        "R2C3-prix-marise.html",
+        "R2C4-prix-agitato.html",
+        "R2C5-prix-varaville.html",
+        "R2C6-prix-tofano.html",
+        "R2C7-prix-fernand-roy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:42.298570Z"
+}

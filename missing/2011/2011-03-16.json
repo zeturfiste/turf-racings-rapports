@@ -1,0 +1,59 @@
+{
+  "date": "2011-03-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-16",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-16/2011-03-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-16/R3-marseille-vivaux/R3C8-prix-des-trois-provinces.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-enghien-soisy",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R1C2-grand-prix-du-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R1C3-prix-france-bleu-mayenne.html",
+        "R1C4-prix-de-la-societe-du-cheval-francais.html",
+        "R1C5-prix-geny-com.html",
+        "R1C6-prix-les-tables-de-la-mayenne.html",
+        "R1C7-prix-www-hippodrome-laval-fr.html",
+        "R1C8-prix-des-trois-provinces.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R2C2-grand-prix-du-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R2C3-prix-france-bleu-mayenne.html",
+        "R2C4-prix-de-la-societe-du-cheval-francais.html",
+        "R2C5-prix-geny-com.html",
+        "R2C6-prix-les-tables-de-la-mayenne.html",
+        "R2C7-prix-www-hippodrome-laval-fr.html",
+        "R2C8-prix-des-trois-provinces.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R3C2-grand-prix-du-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R3C3-prix-france-bleu-mayenne.html",
+        "R3C4-prix-de-la-societe-du-cheval-francais.html",
+        "R3C5-prix-geny-com.html",
+        "R3C6-prix-les-tables-de-la-mayenne.html",
+        "R3C7-prix-www-hippodrome-laval-fr.html",
+        "R3C8-prix-des-trois-provinces.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:43.341313Z"
+}

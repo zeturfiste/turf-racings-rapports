@@ -1,0 +1,73 @@
+{
+  "date": "2018-11-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/11/2018-11-21",
+    "date_html": "resultats-et-rapports/2018/11/2018-11-21/2018-11-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/11/2018-11-21/R1-mauquenchy/R1C2-grand-national-du-trot-etape-13.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R1-mauquenchy/R1C3-prix-le-week-end-de-neufchatel-en-bray.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R1-mauquenchy/R1C8-prix-andre-perdrix-groupe-a.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C1-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C3-prix-le-week-end-de-neufchatel-en-bray.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C4-prix-du-conseil-departemental-de-seine-maritime.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C5-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C7-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R4-auteuil/R4C9-prix-www-courseschevaux-fr-groupe-b.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R5-toulouse/R5C2-grand-national-du-trot-etape-13.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R5-toulouse/R5C5-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2018/11/2018-11-21/R5-toulouse/R5C7-prix-maurice-de-folleville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R4-auteuil",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-grand-prix-des-amateurs.html",
+        "R1C2-grand-national-du-trot-etape-13.html",
+        "R1C3-prix-le-week-end-de-neufchatel-en-bray.html",
+        "R1C4-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R1C5-prix-du-conseil-regional-de-normandie.html",
+        "R1C6-prix-jaguar.html",
+        "R1C7-prix-maurice-de-folleville.html",
+        "R1C8-prix-andre-perdrix-groupe-a.html",
+        "R1C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-grand-prix-des-amateurs.html",
+        "R4C2-grand-national-du-trot-etape-13.html",
+        "R4C3-prix-le-week-end-de-neufchatel-en-bray.html",
+        "R4C4-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R4C5-prix-du-conseil-regional-de-normandie.html",
+        "R4C6-prix-jaguar.html",
+        "R4C7-prix-maurice-de-folleville.html",
+        "R4C8-prix-andre-perdrix-groupe-a.html",
+        "R4C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-grand-prix-des-amateurs.html",
+        "R5C2-grand-national-du-trot-etape-13.html",
+        "R5C3-prix-le-week-end-de-neufchatel-en-bray.html",
+        "R5C4-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R5C5-prix-du-conseil-regional-de-normandie.html",
+        "R5C6-prix-jaguar.html",
+        "R5C7-prix-maurice-de-folleville.html",
+        "R5C8-prix-andre-perdrix-groupe-a.html",
+        "R5C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:39.054065Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2024-02-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-21",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-21/2024-02-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-21/R1-cagnes-sur-mer/R1C1-prix-de-vichy.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R1-cagnes-sur-mer/R1C6-prix-de-saint-raphael.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R1-cagnes-sur-mer/R1C8-prix-de-sainte-maxime.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R1-cagnes-sur-mer/R1C9-prix-de-cimiez.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C1-prix-de-vichy.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C2-prix-de-milan.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C3-prix-rauba-capeu.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C4-prix-werner-baltromei.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C5-prix-de-la-socca.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C6-prix-de-saint-raphael.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R3-mauquenchy/R3C7-prix-du-pescaire.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C1-prix-de-vichy.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C2-prix-de-milan.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C3-prix-rauba-capeu.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C4-prix-werner-baltromei.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C5-prix-de-la-socca.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C6-prix-de-saint-raphael.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C7-prix-du-pescaire.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C8-prix-de-sainte-maxime.html",
+      "resultats-et-rapports/2024/02/2024-02-21/R4-toulouse/R4C9-prix-de-cimiez.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-mauquenchy",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-vichy.html",
+        "R1C2-prix-de-milan.html",
+        "R1C3-prix-rauba-capeu.html",
+        "R1C4-prix-werner-baltromei.html",
+        "R1C5-prix-de-la-socca.html",
+        "R1C6-prix-de-saint-raphael.html",
+        "R1C7-prix-du-pescaire.html",
+        "R1C8-prix-de-sainte-maxime.html",
+        "R1C9-prix-de-cimiez.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-de-vichy.html",
+        "R3C2-prix-de-milan.html",
+        "R3C3-prix-rauba-capeu.html",
+        "R3C4-prix-werner-baltromei.html",
+        "R3C5-prix-de-la-socca.html",
+        "R3C6-prix-de-saint-raphael.html",
+        "R3C7-prix-du-pescaire.html",
+        "R3C8-prix-de-sainte-maxime.html",
+        "R3C9-prix-de-cimiez.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-vichy.html",
+        "R4C2-prix-de-milan.html",
+        "R4C3-prix-rauba-capeu.html",
+        "R4C4-prix-werner-baltromei.html",
+        "R4C5-prix-de-la-socca.html",
+        "R4C6-prix-de-saint-raphael.html",
+        "R4C7-prix-du-pescaire.html",
+        "R4C8-prix-de-sainte-maxime.html",
+        "R4C9-prix-de-cimiez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:13.316297Z"
+}

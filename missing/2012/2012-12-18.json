@@ -1,0 +1,74 @@
+{
+  "date": "2012-12-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/12/2012-12-18",
+    "date_html": "resultats-et-rapports/2012/12/2012-12-18/2012-12-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/12/2012-12-18/R1-pau/R1C3-prix-biraben-foie-gras.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R1-pau/R1C4-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R1-pau/R1C5-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R1-pau/R1C6-coupe-des-anglo-arabes.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R2-vincennes/R2C9-prix-de-bougarber.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R3-marseille-vivaux/R3C2-prix-de-monein.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R3-marseille-vivaux/R3C3-prix-biraben-foie-gras.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R3-marseille-vivaux/R3C5-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R3-marseille-vivaux/R3C6-coupe-des-anglo-arabes.html",
+      "resultats-et-rapports/2012/12/2012-12-18/R3-marseille-vivaux/R3C9-prix-de-bougarber.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-vincennes",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-monein.html",
+        "R1C2-prix-de-monein.html",
+        "R1C3-prix-biraben-foie-gras.html",
+        "R1C4-prix-de-saint-vincent.html",
+        "R1C5-prix-jean-lamaysouette.html",
+        "R1C6-coupe-des-anglo-arabes.html",
+        "R1C7-prix-louis-sallenave.html",
+        "R1C8-prix-de-meillon.html",
+        "R1C9-prix-de-bougarber.html",
+        "R1C10-prix-pmu-tabac-le-balto-tarbes.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-monein.html",
+        "R2C2-prix-de-monein.html",
+        "R2C3-prix-biraben-foie-gras.html",
+        "R2C4-prix-de-saint-vincent.html",
+        "R2C5-prix-jean-lamaysouette.html",
+        "R2C6-coupe-des-anglo-arabes.html",
+        "R2C7-prix-louis-sallenave.html",
+        "R2C8-prix-de-meillon.html",
+        "R2C9-prix-de-bougarber.html",
+        "R2C10-prix-pmu-tabac-le-balto-tarbes.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-monein.html",
+        "R3C2-prix-de-monein.html",
+        "R3C3-prix-biraben-foie-gras.html",
+        "R3C4-prix-de-saint-vincent.html",
+        "R3C5-prix-jean-lamaysouette.html",
+        "R3C6-coupe-des-anglo-arabes.html",
+        "R3C7-prix-louis-sallenave.html",
+        "R3C8-prix-de-meillon.html",
+        "R3C9-prix-de-bougarber.html",
+        "R3C10-prix-pmu-tabac-le-balto-tarbes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:48.078875Z"
+}

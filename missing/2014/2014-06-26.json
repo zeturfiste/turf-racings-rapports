@@ -1,0 +1,81 @@
+{
+  "date": "2014-06-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/06/2014-06-26",
+    "date_html": "resultats-et-rapports/2014/06/2014-06-26/2014-06-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/06/2014-06-26/R1-enghien-soisy/R1C6-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R2-nancy/R2C2-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R2-nancy/R2C3-prix-de-plaisance.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R2-nancy/R2C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R3-deauville/R3C2-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R3-deauville/R3C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R3-deauville/R3C6-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R3-deauville/R3C8-prix-de-la-gare-des-invalides.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R4-vichy/R4C3-prix-de-plaisance.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R4-vichy/R4C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R4-vichy/R4C6-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2014/06/2014-06-26/R4-vichy/R4C7-prix-de-la-nation.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-nancy",
+      "R3-deauville",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-parc-monceau.html",
+        "R1C2-prix-de-la-place-vendome.html",
+        "R1C3-prix-de-plaisance.html",
+        "R1C4-prix-de-rouvroy.html",
+        "R1C5-prix-de-la-place-du-commerce.html",
+        "R1C6-prix-de-la-haute-vienne.html",
+        "R1C7-prix-de-la-nation.html",
+        "R1C8-prix-de-la-gare-des-invalides.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-du-parc-monceau.html",
+        "R2C2-prix-de-la-place-vendome.html",
+        "R2C3-prix-de-plaisance.html",
+        "R2C4-prix-de-rouvroy.html",
+        "R2C5-prix-de-la-place-du-commerce.html",
+        "R2C6-prix-de-la-haute-vienne.html",
+        "R2C7-prix-de-la-nation.html",
+        "R2C8-prix-de-la-gare-des-invalides.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-du-parc-monceau.html",
+        "R3C2-prix-de-la-place-vendome.html",
+        "R3C3-prix-de-plaisance.html",
+        "R3C4-prix-de-rouvroy.html",
+        "R3C5-prix-de-la-place-du-commerce.html",
+        "R3C6-prix-de-la-haute-vienne.html",
+        "R3C7-prix-de-la-nation.html",
+        "R3C8-prix-de-la-gare-des-invalides.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-parc-monceau.html",
+        "R4C2-prix-de-la-place-vendome.html",
+        "R4C3-prix-de-plaisance.html",
+        "R4C4-prix-de-rouvroy.html",
+        "R4C5-prix-de-la-place-du-commerce.html",
+        "R4C6-prix-de-la-haute-vienne.html",
+        "R4C7-prix-de-la-nation.html",
+        "R4C8-prix-de-la-gare-des-invalides.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:28.066822Z"
+}

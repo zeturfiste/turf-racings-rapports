@@ -1,0 +1,80 @@
+{
+  "date": "2024-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-26",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-26/2024-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-26/R1-chantilly/R1C2-prix-du-valois.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R1-chantilly/R1C5-prix-de-la-montignette.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R1-chantilly/R1C6-prix-de-verderonne.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R1-chantilly/R1C7-prix-de-champlieu.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R1-chantilly/R1C8-prix-de-labruyere.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C1-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C2-prix-du-valois.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C4-prix-de-cinqueux.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C6-prix-de-verderonne.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C8-prix-de-labruyere.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R3-marseille-borely/R3C9-prix-de-vez.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C1-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C3-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C4-prix-de-cinqueux.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C5-prix-de-la-montignette.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C6-prix-de-verderonne.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C7-prix-de-champlieu.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C8-prix-de-labruyere.html",
+      "resultats-et-rapports/2024/09/2024-09-26/R4-laval/R4C9-prix-de-vez.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-marseille-borely",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-terriers-du-houx.html",
+        "R1C2-prix-du-valois.html",
+        "R1C3-prix-de-la-mare-aux-oiseaux.html",
+        "R1C4-prix-de-cinqueux.html",
+        "R1C5-prix-de-la-montignette.html",
+        "R1C6-prix-de-verderonne.html",
+        "R1C7-prix-de-champlieu.html",
+        "R1C8-prix-de-labruyere.html",
+        "R1C9-prix-de-vez.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-des-terriers-du-houx.html",
+        "R3C2-prix-du-valois.html",
+        "R3C3-prix-de-la-mare-aux-oiseaux.html",
+        "R3C4-prix-de-cinqueux.html",
+        "R3C5-prix-de-la-montignette.html",
+        "R3C6-prix-de-verderonne.html",
+        "R3C7-prix-de-champlieu.html",
+        "R3C8-prix-de-labruyere.html",
+        "R3C9-prix-de-vez.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-des-terriers-du-houx.html",
+        "R4C2-prix-du-valois.html",
+        "R4C3-prix-de-la-mare-aux-oiseaux.html",
+        "R4C4-prix-de-cinqueux.html",
+        "R4C5-prix-de-la-montignette.html",
+        "R4C6-prix-de-verderonne.html",
+        "R4C7-prix-de-champlieu.html",
+        "R4C8-prix-de-labruyere.html",
+        "R4C9-prix-de-vez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:33.983064Z"
+}

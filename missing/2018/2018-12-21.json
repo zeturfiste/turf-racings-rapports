@@ -1,0 +1,50 @@
+{
+  "date": "2018-12-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-21",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-21/2018-12-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-21/R1-vincennes/R1C9-prix-de-conches.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-sans-dire-oui.html",
+        "R1C2-prix-d-amboise.html",
+        "R1C3-prix-de-pierrefonds.html",
+        "R1C4-prix-emmanuel-margouty.html",
+        "R1C5-prix-de-pons-gr-a.html",
+        "R1C6-prix-de-pons-gr-b.html",
+        "R1C7-prix-d-evrecy.html",
+        "R1C8-prix-de-mortemart.html",
+        "R1C9-prix-de-conches.html"
+      ],
+      "R3-pontchateau": [
+        "R3C1-prix-sans-dire-oui.html",
+        "R3C2-prix-d-amboise.html",
+        "R3C3-prix-de-pierrefonds.html",
+        "R3C4-prix-emmanuel-margouty.html",
+        "R3C5-prix-de-pons-gr-a.html",
+        "R3C6-prix-de-pons-gr-b.html",
+        "R3C7-prix-d-evrecy.html",
+        "R3C8-prix-de-mortemart.html",
+        "R3C9-prix-de-conches.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:47.402643Z"
+}

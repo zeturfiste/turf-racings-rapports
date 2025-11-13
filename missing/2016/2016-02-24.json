@@ -1,0 +1,84 @@
+{
+  "date": "2016-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-24",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-24/2016-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-24/R1-cagnes-sur-mer/R1C8-prix-de-fontvieille.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R3-vire/R3C1-prix-de-sainte-maxime.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R3-vire/R3C2-prix-de-porquerolles.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R3-vire/R3C6-prix-de-miramar.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R3-vire/R3C8-prix-de-fontvieille.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R4-enghien-soisy/R4C5-prix-de-mougins.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R4-enghien-soisy/R4C6-prix-de-miramar.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R4-enghien-soisy/R4C7-prix-de-brignolles.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R4-enghien-soisy/R4C8-prix-de-fontvieille.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C1-prix-de-sainte-maxime.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C2-prix-de-porquerolles.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C3-prix-de-saint-raphael.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C5-prix-de-mougins.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C6-prix-de-miramar.html",
+      "resultats-et-rapports/2016/02/2016-02-24/R5-saint-galmier/R5C7-prix-de-brignolles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-vire",
+      "R4-enghien-soisy",
+      "R5-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-sainte-maxime.html",
+        "R1C2-prix-de-porquerolles.html",
+        "R1C3-prix-de-saint-raphael.html",
+        "R1C4-prix-de-draguignan.html",
+        "R1C5-prix-de-mougins.html",
+        "R1C6-prix-de-miramar.html",
+        "R1C7-prix-de-brignolles.html",
+        "R1C8-prix-de-fontvieille.html"
+      ],
+      "R3-vire": [
+        "R3C1-prix-de-sainte-maxime.html",
+        "R3C2-prix-de-porquerolles.html",
+        "R3C3-prix-de-saint-raphael.html",
+        "R3C4-prix-de-draguignan.html",
+        "R3C5-prix-de-mougins.html",
+        "R3C6-prix-de-miramar.html",
+        "R3C7-prix-de-brignolles.html",
+        "R3C8-prix-de-fontvieille.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-sainte-maxime.html",
+        "R4C2-prix-de-porquerolles.html",
+        "R4C3-prix-de-saint-raphael.html",
+        "R4C4-prix-de-draguignan.html",
+        "R4C5-prix-de-mougins.html",
+        "R4C6-prix-de-miramar.html",
+        "R4C7-prix-de-brignolles.html",
+        "R4C8-prix-de-fontvieille.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-de-sainte-maxime.html",
+        "R5C2-prix-de-porquerolles.html",
+        "R5C3-prix-de-saint-raphael.html",
+        "R5C4-prix-de-draguignan.html",
+        "R5C5-prix-de-mougins.html",
+        "R5C6-prix-de-miramar.html",
+        "R5C7-prix-de-brignolles.html",
+        "R5C8-prix-de-fontvieille.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:30.725727Z"
+}

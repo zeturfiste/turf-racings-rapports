@@ -1,0 +1,84 @@
+{
+  "date": "2007-06-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/06/2007-06-05",
+    "date_html": "resultats-et-rapports/2007/06/2007-06-05/2007-06-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/06/2007-06-05/R1-auteuil/R1C1-prix-jean-victor.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R1-auteuil/R1C2-prix-pharaon.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R1-auteuil/R1C3-prix-bois-rouaud.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R1-auteuil/R1C5-prix-miror.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R1-auteuil/R1C7-prix-du-vesinet.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R2-marseille-borely/R2C4-prix-jean-de-la-rochefoucauld.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R2-marseille-borely/R2C6-prix-ginetta-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R2-marseille-borely/R2C7-prix-du-vesinet.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C1-prix-jean-victor.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C2-prix-pharaon.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C3-prix-bois-rouaud.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C5-prix-miror.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C6-prix-ginetta-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R3-vincennes/R3C7-prix-du-vesinet.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R31-zerace/R31C2-prix-pharaon.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R31-zerace/R31C4-prix-jean-de-la-rochefoucauld.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R31-zerace/R31C5-prix-miror.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R31-zerace/R31C6-prix-ginetta-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-05/R31-zerace/R31C7-prix-du-vesinet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-victor.html",
+        "R1C2-prix-pharaon.html",
+        "R1C3-prix-bois-rouaud.html",
+        "R1C4-prix-jean-de-la-rochefoucauld.html",
+        "R1C5-prix-miror.html",
+        "R1C6-prix-ginetta-ii.html",
+        "R1C7-prix-du-vesinet.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-jean-victor.html",
+        "R2C2-prix-pharaon.html",
+        "R2C3-prix-bois-rouaud.html",
+        "R2C4-prix-jean-de-la-rochefoucauld.html",
+        "R2C5-prix-miror.html",
+        "R2C6-prix-ginetta-ii.html",
+        "R2C7-prix-du-vesinet.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-jean-victor.html",
+        "R3C2-prix-pharaon.html",
+        "R3C3-prix-bois-rouaud.html",
+        "R3C4-prix-jean-de-la-rochefoucauld.html",
+        "R3C5-prix-miror.html",
+        "R3C6-prix-ginetta-ii.html",
+        "R3C7-prix-du-vesinet.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-jean-victor.html",
+        "R31C2-prix-pharaon.html",
+        "R31C3-prix-bois-rouaud.html",
+        "R31C4-prix-jean-de-la-rochefoucauld.html",
+        "R31C5-prix-miror.html",
+        "R31C6-prix-ginetta-ii.html",
+        "R31C7-prix-du-vesinet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:56.074436Z"
+}

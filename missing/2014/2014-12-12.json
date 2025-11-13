@@ -1,0 +1,75 @@
+{
+  "date": "2014-12-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-12",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-12/2014-12-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-12/R1-vincennes/R1C1-prix-des-glaieuls-gr-a.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R1-vincennes/R1C2-prix-de-tourcoing.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R1-vincennes/R1C5-prix-de-beauvais.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R1-vincennes/R1C7-prix-de-decize.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R1-vincennes/R1C8-prix-de-gramat.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R2-deauville/R2C1-prix-des-glaieuls-gr-a.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R2-deauville/R2C5-prix-de-beauvais.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C3-prix-des-glaieuls-gr-b.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C4-prix-du-neubourg.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C5-prix-de-beauvais.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C6-prix-de-rocroi.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C7-prix-de-decize.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C8-prix-de-gramat.html",
+      "resultats-et-rapports/2014/12/2014-12-12/R3-toulouse/R3C9-prix-du-morbihan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-glaieuls-gr-a.html",
+        "R1C2-prix-de-tourcoing.html",
+        "R1C3-prix-des-glaieuls-gr-b.html",
+        "R1C4-prix-du-neubourg.html",
+        "R1C5-prix-de-beauvais.html",
+        "R1C6-prix-de-rocroi.html",
+        "R1C7-prix-de-decize.html",
+        "R1C8-prix-de-gramat.html",
+        "R1C9-prix-du-morbihan.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-des-glaieuls-gr-a.html",
+        "R2C2-prix-de-tourcoing.html",
+        "R2C3-prix-des-glaieuls-gr-b.html",
+        "R2C4-prix-du-neubourg.html",
+        "R2C5-prix-de-beauvais.html",
+        "R2C6-prix-de-rocroi.html",
+        "R2C7-prix-de-decize.html",
+        "R2C8-prix-de-gramat.html",
+        "R2C9-prix-du-morbihan.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-des-glaieuls-gr-a.html",
+        "R3C2-prix-de-tourcoing.html",
+        "R3C3-prix-des-glaieuls-gr-b.html",
+        "R3C4-prix-du-neubourg.html",
+        "R3C5-prix-de-beauvais.html",
+        "R3C6-prix-de-rocroi.html",
+        "R3C7-prix-de-decize.html",
+        "R3C8-prix-de-gramat.html",
+        "R3C9-prix-du-morbihan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:24.617458Z"
+}

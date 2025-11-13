@@ -1,0 +1,88 @@
+{
+  "date": "2013-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/09/2013-09-12",
+    "date_html": "resultats-et-rapports/2013/09/2013-09-12/2013-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/09/2013-09-12/R2-moulins/R2C2-prix-julien-decrion.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R2-moulins/R2C3-prix-finot-poulains-1er-peloton.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R2-moulins/R2C5-prix-richard-et-robert-hennessy.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C2-prix-julien-decrion.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C3-prix-finot-poulains-1er-peloton.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C4-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C6-prix-pierre-et-jean-marie-mercier.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C7-prix-d-angers.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C8-prix-de-la-savoie.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R3-les-sables-d-olonne/R3C9-prix-chakhansoor.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R4-nancy/R4C1-prix-finot-poulains-deuxieme-peloton.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R4-nancy/R4C2-prix-julien-decrion.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R4-nancy/R4C4-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R4-nancy/R4C5-prix-richard-et-robert-hennessy.html",
+      "resultats-et-rapports/2013/09/2013-09-12/R4-nancy/R4C7-prix-d-angers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-moulins",
+      "R3-les-sables-d-olonne",
+      "R4-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-finot-poulains-deuxieme-peloton.html",
+        "R1C2-prix-julien-decrion.html",
+        "R1C3-prix-finot-poulains-1er-peloton.html",
+        "R1C4-prix-alain-et-gilles-de-goulaine.html",
+        "R1C5-prix-richard-et-robert-hennessy.html",
+        "R1C6-prix-pierre-et-jean-marie-mercier.html",
+        "R1C7-prix-d-angers.html",
+        "R1C8-prix-de-la-savoie.html",
+        "R1C9-prix-chakhansoor.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-finot-poulains-deuxieme-peloton.html",
+        "R2C2-prix-julien-decrion.html",
+        "R2C3-prix-finot-poulains-1er-peloton.html",
+        "R2C4-prix-alain-et-gilles-de-goulaine.html",
+        "R2C5-prix-richard-et-robert-hennessy.html",
+        "R2C6-prix-pierre-et-jean-marie-mercier.html",
+        "R2C7-prix-d-angers.html",
+        "R2C8-prix-de-la-savoie.html",
+        "R2C9-prix-chakhansoor.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-finot-poulains-deuxieme-peloton.html",
+        "R3C2-prix-julien-decrion.html",
+        "R3C3-prix-finot-poulains-1er-peloton.html",
+        "R3C4-prix-alain-et-gilles-de-goulaine.html",
+        "R3C5-prix-richard-et-robert-hennessy.html",
+        "R3C6-prix-pierre-et-jean-marie-mercier.html",
+        "R3C7-prix-d-angers.html",
+        "R3C8-prix-de-la-savoie.html",
+        "R3C9-prix-chakhansoor.html"
+      ],
+      "R4-nancy": [
+        "R4C1-prix-finot-poulains-deuxieme-peloton.html",
+        "R4C2-prix-julien-decrion.html",
+        "R4C3-prix-finot-poulains-1er-peloton.html",
+        "R4C4-prix-alain-et-gilles-de-goulaine.html",
+        "R4C5-prix-richard-et-robert-hennessy.html",
+        "R4C6-prix-pierre-et-jean-marie-mercier.html",
+        "R4C7-prix-d-angers.html",
+        "R4C8-prix-de-la-savoie.html",
+        "R4C9-prix-chakhansoor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:04.187919Z"
+}

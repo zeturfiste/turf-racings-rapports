@@ -1,0 +1,77 @@
+{
+  "date": "2019-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/11/2019-11-29",
+    "date_html": "resultats-et-rapports/2019/11/2019-11-29/2019-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/11/2019-11-29/R1-vincennes/R1C5-prix-tayjeta.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R1-vincennes/R1C7-prix-klio.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R2-auteuil/R2C1-prix-electra.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R2-auteuil/R2C7-prix-klio.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R4-mauquenchy/R4C3-prix-hilda.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R4-mauquenchy/R4C4-prix-vourasie.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R4-mauquenchy/R4C5-prix-tayjeta.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R4-mauquenchy/R4C6-prix-vibilia.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R4-mauquenchy/R4C7-prix-klio.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R5-marseille-vivaux/R5C1-prix-electra.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R5-marseille-vivaux/R5C3-prix-hilda.html",
+      "resultats-et-rapports/2019/11/2019-11-29/R5-marseille-vivaux/R5C5-prix-tayjeta.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-auteuil",
+      "R4-mauquenchy",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-electra.html",
+        "R1C2-prix-keronis.html",
+        "R1C3-prix-hilda.html",
+        "R1C4-prix-vourasie.html",
+        "R1C5-prix-tayjeta.html",
+        "R1C6-prix-vibilia.html",
+        "R1C7-prix-klio.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-electra.html",
+        "R2C2-prix-keronis.html",
+        "R2C3-prix-hilda.html",
+        "R2C4-prix-vourasie.html",
+        "R2C5-prix-tayjeta.html",
+        "R2C6-prix-vibilia.html",
+        "R2C7-prix-klio.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-electra.html",
+        "R4C2-prix-keronis.html",
+        "R4C3-prix-hilda.html",
+        "R4C4-prix-vourasie.html",
+        "R4C5-prix-tayjeta.html",
+        "R4C6-prix-vibilia.html",
+        "R4C7-prix-klio.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-electra.html",
+        "R5C2-prix-keronis.html",
+        "R5C3-prix-hilda.html",
+        "R5C4-prix-vourasie.html",
+        "R5C5-prix-tayjeta.html",
+        "R5C6-prix-vibilia.html",
+        "R5C7-prix-klio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:32.792150Z"
+}

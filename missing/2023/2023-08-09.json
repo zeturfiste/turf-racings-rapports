@@ -1,0 +1,93 @@
+{
+  "date": "2023-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/08/2023-08-09",
+    "date_html": "resultats-et-rapports/2023/08/2023-08-09/2023-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/08/2023-08-09/R1-saint-malo/R1C7-prix-ds.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R2-vichy/R2C1-prix-henri-desmontils.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R2-vichy/R2C6-prix-jacques-giboire.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R2-vichy/R2C8-prix-andre-carrus.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R3-la-rochelle/R3C1-prix-henri-desmontils.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R3-la-rochelle/R3C2-prix-pmu-le-bistroquet.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R6-cagnes-sur-mer/R6C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R6-cagnes-sur-mer/R6C4-grand-national-du-trot-ville-saint-malo.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R6-cagnes-sur-mer/R6C8-prix-andre-carrus.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R7-les-sables-d-olonne/R7C2-prix-pmu-le-bistroquet.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R7-les-sables-d-olonne/R7C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R7-les-sables-d-olonne/R7C4-grand-national-du-trot-ville-saint-malo.html",
+      "resultats-et-rapports/2023/08/2023-08-09/R7-les-sables-d-olonne/R7C6-prix-jacques-giboire.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-malo",
+      "R2-vichy",
+      "R3-la-rochelle",
+      "R6-cagnes-sur-mer",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-malo": [
+        "R1C1-prix-henri-desmontils.html",
+        "R1C2-prix-pmu-le-bistroquet.html",
+        "R1C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+        "R1C4-grand-national-du-trot-ville-saint-malo.html",
+        "R1C5-prix-du-president-maurice-de-folleville-prix-v-and-b-saint-malo.html",
+        "R1C6-prix-jacques-giboire.html",
+        "R1C7-prix-ds.html",
+        "R1C8-prix-andre-carrus.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-henri-desmontils.html",
+        "R2C2-prix-pmu-le-bistroquet.html",
+        "R2C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+        "R2C4-grand-national-du-trot-ville-saint-malo.html",
+        "R2C5-prix-du-president-maurice-de-folleville-prix-v-and-b-saint-malo.html",
+        "R2C6-prix-jacques-giboire.html",
+        "R2C7-prix-ds.html",
+        "R2C8-prix-andre-carrus.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-henri-desmontils.html",
+        "R3C2-prix-pmu-le-bistroquet.html",
+        "R3C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+        "R3C4-grand-national-du-trot-ville-saint-malo.html",
+        "R3C5-prix-du-president-maurice-de-folleville-prix-v-and-b-saint-malo.html",
+        "R3C6-prix-jacques-giboire.html",
+        "R3C7-prix-ds.html",
+        "R3C8-prix-andre-carrus.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-henri-desmontils.html",
+        "R6C2-prix-pmu-le-bistroquet.html",
+        "R6C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+        "R6C4-grand-national-du-trot-ville-saint-malo.html",
+        "R6C5-prix-du-president-maurice-de-folleville-prix-v-and-b-saint-malo.html",
+        "R6C6-prix-jacques-giboire.html",
+        "R6C7-prix-ds.html",
+        "R6C8-prix-andre-carrus.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-henri-desmontils.html",
+        "R7C2-prix-pmu-le-bistroquet.html",
+        "R7C3-prix-laiterie-de-saint-malo-groupe-sill.html",
+        "R7C4-grand-national-du-trot-ville-saint-malo.html",
+        "R7C5-prix-du-president-maurice-de-folleville-prix-v-and-b-saint-malo.html",
+        "R7C6-prix-jacques-giboire.html",
+        "R7C7-prix-ds.html",
+        "R7C8-prix-andre-carrus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:04.692893Z"
+}

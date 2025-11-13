@@ -1,0 +1,82 @@
+{
+  "date": "2020-03-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-02",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-02/2020-03-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C1-prix-de-saint-etienne.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C2-prix-de-tinchebray.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C3-prix-de-cussy.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C4-prix-de-boulleville.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C5-prix-de-gace.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C6-prix-d-ondefontaine.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C7-prix-de-trun.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R1-caen/R1C8-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C1-prix-de-saint-etienne.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C2-prix-de-tinchebray.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C3-prix-de-cussy.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C4-prix-de-boulleville.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C5-prix-de-gace.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C6-prix-d-ondefontaine.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C7-prix-de-trun.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R3-compiegne/R3C8-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C1-prix-de-saint-etienne.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C2-prix-de-tinchebray.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C3-prix-de-cussy.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C4-prix-de-boulleville.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C5-prix-de-gace.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C6-prix-d-ondefontaine.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C7-prix-de-trun.html",
+      "resultats-et-rapports/2020/03/2020-03-02/R4-marseille-vivaux/R4C8-prix-de-nonant-le-pin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R3-compiegne",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-saint-etienne.html",
+        "R1C2-prix-de-tinchebray.html",
+        "R1C3-prix-de-cussy.html",
+        "R1C4-prix-de-boulleville.html",
+        "R1C5-prix-de-gace.html",
+        "R1C6-prix-d-ondefontaine.html",
+        "R1C7-prix-de-trun.html",
+        "R1C8-prix-de-nonant-le-pin.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-saint-etienne.html",
+        "R3C2-prix-de-tinchebray.html",
+        "R3C3-prix-de-cussy.html",
+        "R3C4-prix-de-boulleville.html",
+        "R3C5-prix-de-gace.html",
+        "R3C6-prix-d-ondefontaine.html",
+        "R3C7-prix-de-trun.html",
+        "R3C8-prix-de-nonant-le-pin.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-saint-etienne.html",
+        "R4C2-prix-de-tinchebray.html",
+        "R4C3-prix-de-cussy.html",
+        "R4C4-prix-de-boulleville.html",
+        "R4C5-prix-de-gace.html",
+        "R4C6-prix-d-ondefontaine.html",
+        "R4C7-prix-de-trun.html",
+        "R4C8-prix-de-nonant-le-pin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:58.310728Z"
+}

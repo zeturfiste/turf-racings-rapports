@@ -1,0 +1,67 @@
+{
+  "date": "2006-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-25",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-25/2006-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-25/R2-chantilly/R2C7-prix-de-reuilly.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R2-chantilly/R2C8-prix-de-la-porte-doree.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C1-prix-de-la-porte-de-courcelles-gr-a.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C2-prix-de-la-porte-de-courcelles-gr-b.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C3-prix-de-la-porte-de-la-villette.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C4-prix-d-egletons.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C5-prix-de-la-bastille.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C6-prix-du-cotentin.html",
+      "resultats-et-rapports/2006/09/2006-09-25/R21-zerace/R21C7-prix-de-reuilly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-chantilly",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-de-courcelles-gr-a.html",
+        "R1C2-prix-de-la-porte-de-courcelles-gr-b.html",
+        "R1C3-prix-de-la-porte-de-la-villette.html",
+        "R1C4-prix-d-egletons.html",
+        "R1C5-prix-de-la-bastille.html",
+        "R1C6-prix-du-cotentin.html",
+        "R1C7-prix-de-reuilly.html",
+        "R1C8-prix-de-la-porte-doree.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-la-porte-de-courcelles-gr-a.html",
+        "R2C2-prix-de-la-porte-de-courcelles-gr-b.html",
+        "R2C3-prix-de-la-porte-de-la-villette.html",
+        "R2C4-prix-d-egletons.html",
+        "R2C5-prix-de-la-bastille.html",
+        "R2C6-prix-du-cotentin.html",
+        "R2C7-prix-de-reuilly.html",
+        "R2C8-prix-de-la-porte-doree.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-la-porte-de-courcelles-gr-a.html",
+        "R21C2-prix-de-la-porte-de-courcelles-gr-b.html",
+        "R21C3-prix-de-la-porte-de-la-villette.html",
+        "R21C4-prix-d-egletons.html",
+        "R21C5-prix-de-la-bastille.html",
+        "R21C6-prix-du-cotentin.html",
+        "R21C7-prix-de-reuilly.html",
+        "R21C8-prix-de-la-porte-doree.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:33.371081Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2017-01-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/01/2017-01-12",
+    "date_html": "resultats-et-rapports/2017/01/2017-01-12/2017-01-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/01/2017-01-12/R1-cagnes-sur-mer/R1C2-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2017/01/2017-01-12/R1-cagnes-sur-mer/R1C4-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2017/01/2017-01-12/R1-cagnes-sur-mer/R1C5-prix-pierre-bocquet.html",
+      "resultats-et-rapports/2017/01/2017-01-12/R1-cagnes-sur-mer/R1C6-prix-promising-catch-groupe-a.html",
+      "resultats-et-rapports/2017/01/2017-01-12/R1-cagnes-sur-mer/R1C8-prix-meteor-ii.html",
+      "resultats-et-rapports/2017/01/2017-01-12/R3-nantes/R3C1-prix-junior-du-rib.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-nantes",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-junior-du-rib.html",
+        "R1C2-prix-de-la-cote-d-azur.html",
+        "R1C3-prix-hulk-de-godisson.html",
+        "R1C4-prix-de-cagnes-sur-mer.html",
+        "R1C5-prix-pierre-bocquet.html",
+        "R1C6-prix-promising-catch-groupe-a.html",
+        "R1C7-prix-promising-catch-groupe-b.html",
+        "R1C8-prix-meteor-ii.html",
+        "R1C9-prix-kaizer-soze.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-junior-du-rib.html",
+        "R3C2-prix-de-la-cote-d-azur.html",
+        "R3C3-prix-hulk-de-godisson.html",
+        "R3C4-prix-de-cagnes-sur-mer.html",
+        "R3C5-prix-pierre-bocquet.html",
+        "R3C6-prix-promising-catch-groupe-a.html",
+        "R3C7-prix-promising-catch-groupe-b.html",
+        "R3C8-prix-meteor-ii.html",
+        "R3C9-prix-kaizer-soze.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-junior-du-rib.html",
+        "R5C2-prix-de-la-cote-d-azur.html",
+        "R5C3-prix-hulk-de-godisson.html",
+        "R5C4-prix-de-cagnes-sur-mer.html",
+        "R5C5-prix-pierre-bocquet.html",
+        "R5C6-prix-promising-catch-groupe-a.html",
+        "R5C7-prix-promising-catch-groupe-b.html",
+        "R5C8-prix-meteor-ii.html",
+        "R5C9-prix-kaizer-soze.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:11.683360Z"
+}

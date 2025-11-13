@@ -1,0 +1,74 @@
+{
+  "date": "2021-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-10",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-10/2021-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-10/R1-nantes/R1C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R1-nantes/R1C4-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R1-nantes/R1C6-prix-reverdy.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R1-nantes/R1C8-prix-ouest-habitat-conseil.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C3-prix-pmu-le-mc-from.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C4-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C6-prix-reverdy.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C7-grand-prix-synergie.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R3-saint-cloud/R3C8-prix-ouest-habitat-conseil.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C1-prix-miss-france-2021-rfm.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C3-prix-pmu-le-mc-from.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C4-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C6-prix-reverdy.html",
+      "resultats-et-rapports/2021/11/2021-11-10/R4-saint-galmier/R4C8-prix-ouest-habitat-conseil.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R3-saint-cloud",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-miss-france-2021-rfm.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-pmu-le-mc-from.html",
+        "R1C4-prix-mg-store-nantes.html",
+        "R1C5-prix-moet-et-chandon.html",
+        "R1C6-prix-reverdy.html",
+        "R1C7-grand-prix-synergie.html",
+        "R1C8-prix-ouest-habitat-conseil.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-miss-france-2021-rfm.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-pmu-le-mc-from.html",
+        "R3C4-prix-mg-store-nantes.html",
+        "R3C5-prix-moet-et-chandon.html",
+        "R3C6-prix-reverdy.html",
+        "R3C7-grand-prix-synergie.html",
+        "R3C8-prix-ouest-habitat-conseil.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-miss-france-2021-rfm.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-prix-pmu-le-mc-from.html",
+        "R4C4-prix-mg-store-nantes.html",
+        "R4C5-prix-moet-et-chandon.html",
+        "R4C6-prix-reverdy.html",
+        "R4C7-grand-prix-synergie.html",
+        "R4C8-prix-ouest-habitat-conseil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:19.775261Z"
+}

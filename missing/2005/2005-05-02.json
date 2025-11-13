@@ -1,0 +1,34 @@
+{
+  "date": "2005-05-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-02",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-02/2005-05-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-millau.html",
+        "R1C2-prix-de-l-institut-pasteur.html",
+        "R1C3-prix-de-l-aigle.html",
+        "R1C4-prix-de-la-place-gambetta.html",
+        "R1C5-prix-des-batignolles.html",
+        "R1C6-prix-des-bouches-du-rhone.html",
+        "R1C7-prix-de-maubeuge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:52.074394Z"
+}

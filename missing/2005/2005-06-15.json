@@ -1,0 +1,48 @@
+{
+  "date": "2005-06-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-15",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-15/2005-06-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-strasbourg",
+      "R2-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-strasbourg": [
+        "R1C1-prix-du-journal-l-alsace-prix-de-la-musique.html",
+        "R1C2-prix-du-groupe-rhenan-d-entreprises-prix-rock-n-roll.html",
+        "R1C3-prix-kleber.html",
+        "R1C4-prix-de-la-valse.html",
+        "R1C5-prix-hyeres-iii.html",
+        "R1C6-prix-de-la-ville-de-strasbourg.html",
+        "R1C7-york-prince-of-wales-s-stakes.html",
+        "R1C8-prix-du-jazz.html",
+        "R1C9-prix-du-tango.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-journal-l-alsace-prix-de-la-musique.html",
+        "R2C2-prix-du-groupe-rhenan-d-entreprises-prix-rock-n-roll.html",
+        "R2C3-prix-kleber.html",
+        "R2C4-prix-de-la-valse.html",
+        "R2C5-prix-hyeres-iii.html",
+        "R2C6-prix-de-la-ville-de-strasbourg.html",
+        "R2C7-york-prince-of-wales-s-stakes.html",
+        "R2C8-prix-du-jazz.html",
+        "R2C9-prix-du-tango.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:58.498186Z"
+}

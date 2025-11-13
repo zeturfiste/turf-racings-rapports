@@ -1,0 +1,93 @@
+{
+  "date": "2024-09-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-23",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-23/2024-09-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-23/R2-craon/R2C6-prix-jean-yves-lecuyer.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R2-craon/R2C7-prix-andree-toffin-beauvais.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R3-tarbes/R3C4-prix-80-ans-de-l-aisne-nouvelle.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R3-tarbes/R3C6-prix-jean-yves-lecuyer.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R3-tarbes/R3C8-prix-pays-de-thierache.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R4-vichy/R4C6-prix-jean-yves-lecuyer.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R4-vichy/R4C7-prix-andree-toffin-beauvais.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C2-prix-rozoy-sur-serre.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C4-prix-80-ans-de-l-aisne-nouvelle.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C6-prix-jean-yves-lecuyer.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C7-prix-andree-toffin-beauvais.html",
+      "resultats-et-rapports/2024/09/2024-09-23/R6-le-mont-saint-michel/R6C8-prix-pays-de-thierache.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R2-craon",
+      "R3-tarbes",
+      "R4-vichy",
+      "R6-le-mont-saint-michel"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R1C2-prix-rozoy-sur-serre.html",
+        "R1C3-prix-conseil-departemental-de-l-aisne.html",
+        "R1C4-prix-80-ans-de-l-aisne-nouvelle.html",
+        "R1C5-prix-150eme-anniversaire-de-l-hippodrome.html",
+        "R1C6-prix-jean-yves-lecuyer.html",
+        "R1C7-prix-andree-toffin-beauvais.html",
+        "R1C8-prix-pays-de-thierache.html"
+      ],
+      "R2-craon": [
+        "R2C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R2C2-prix-rozoy-sur-serre.html",
+        "R2C3-prix-conseil-departemental-de-l-aisne.html",
+        "R2C4-prix-80-ans-de-l-aisne-nouvelle.html",
+        "R2C5-prix-150eme-anniversaire-de-l-hippodrome.html",
+        "R2C6-prix-jean-yves-lecuyer.html",
+        "R2C7-prix-andree-toffin-beauvais.html",
+        "R2C8-prix-pays-de-thierache.html"
+      ],
+      "R3-tarbes": [
+        "R3C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R3C2-prix-rozoy-sur-serre.html",
+        "R3C3-prix-conseil-departemental-de-l-aisne.html",
+        "R3C4-prix-80-ans-de-l-aisne-nouvelle.html",
+        "R3C5-prix-150eme-anniversaire-de-l-hippodrome.html",
+        "R3C6-prix-jean-yves-lecuyer.html",
+        "R3C7-prix-andree-toffin-beauvais.html",
+        "R3C8-prix-pays-de-thierache.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R4C2-prix-rozoy-sur-serre.html",
+        "R4C3-prix-conseil-departemental-de-l-aisne.html",
+        "R4C4-prix-80-ans-de-l-aisne-nouvelle.html",
+        "R4C5-prix-150eme-anniversaire-de-l-hippodrome.html",
+        "R4C6-prix-jean-yves-lecuyer.html",
+        "R4C7-prix-andree-toffin-beauvais.html",
+        "R4C8-prix-pays-de-thierache.html"
+      ],
+      "R6-le-mont-saint-michel": [
+        "R6C1-prix-des-donneurs-d-organes-de-l-aisne.html",
+        "R6C2-prix-rozoy-sur-serre.html",
+        "R6C3-prix-conseil-departemental-de-l-aisne.html",
+        "R6C4-prix-80-ans-de-l-aisne-nouvelle.html",
+        "R6C5-prix-150eme-anniversaire-de-l-hippodrome.html",
+        "R6C6-prix-jean-yves-lecuyer.html",
+        "R6C7-prix-andree-toffin-beauvais.html",
+        "R6C8-prix-pays-de-thierache.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:33.052440Z"
+}

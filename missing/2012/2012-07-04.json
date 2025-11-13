@@ -1,0 +1,93 @@
+{
+  "date": "2012-07-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-04",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-04/2012-07-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C1-prix-de-vincennes.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C3-prix-des-vans-theault-prix-de-l-indre.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C4-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C5-prix-hippocenter-prix-de-barcelone.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C6-prix-des-vans-barbot-prix-de-savoie.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R1-vichy/R1C8-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C1-prix-de-vincennes.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C3-prix-des-vans-theault-prix-de-l-indre.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C4-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C5-prix-hippocenter-prix-de-barcelone.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R2-lisieux/R2C6-prix-des-vans-barbot-prix-de-savoie.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R3-deauville/R3C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R3-deauville/R3C4-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R3-deauville/R3C6-prix-des-vans-barbot-prix-de-savoie.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R3-deauville/R3C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R3-deauville/R3C8-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C1-prix-de-vincennes.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C4-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C5-prix-hippocenter-prix-de-barcelone.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C6-prix-des-vans-barbot-prix-de-savoie.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2012/07/2012-07-04/R5-les-sables-d-olonne/R5C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-lisieux",
+      "R3-deauville",
+      "R5-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-vincennes.html",
+        "R1C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+        "R1C3-prix-des-vans-theault-prix-de-l-indre.html",
+        "R1C4-prix-de-l-ile-de-france.html",
+        "R1C5-prix-hippocenter-prix-de-barcelone.html",
+        "R1C6-prix-des-vans-barbot-prix-de-savoie.html",
+        "R1C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R2-lisieux": [
+        "R2C1-prix-de-vincennes.html",
+        "R2C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+        "R2C3-prix-des-vans-theault-prix-de-l-indre.html",
+        "R2C4-prix-de-l-ile-de-france.html",
+        "R2C5-prix-hippocenter-prix-de-barcelone.html",
+        "R2C6-prix-des-vans-barbot-prix-de-savoie.html",
+        "R2C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R2C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-vincennes.html",
+        "R3C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+        "R3C3-prix-des-vans-theault-prix-de-l-indre.html",
+        "R3C4-prix-de-l-ile-de-france.html",
+        "R3C5-prix-hippocenter-prix-de-barcelone.html",
+        "R3C6-prix-des-vans-barbot-prix-de-savoie.html",
+        "R3C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R3C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-de-vincennes.html",
+        "R5C2-prix-reverdy-nutrition-equine-prix-de-vaumas.html",
+        "R5C3-prix-des-vans-theault-prix-de-l-indre.html",
+        "R5C4-prix-de-l-ile-de-france.html",
+        "R5C5-prix-hippocenter-prix-de-barcelone.html",
+        "R5C6-prix-des-vans-barbot-prix-de-savoie.html",
+        "R5C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R5C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:58.939148Z"
+}

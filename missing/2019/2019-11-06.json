@@ -1,0 +1,77 @@
+{
+  "date": "2019-11-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/11/2019-11-06",
+    "date_html": "resultats-et-rapports/2019/11/2019-11-06/2019-11-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/11/2019-11-06/R1-nantes/R1C1-prix-instagram-hippodromenantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R1-nantes/R1C3-prix-www-hippodrome-nantes-fr.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R1-nantes/R1C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R1-nantes/R1C6-prix-oniris-nantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R1-nantes/R1C7-grand-prix-synergie.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C1-prix-instagram-hippodromenantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C3-prix-www-hippodrome-nantes-fr.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C4-prix-du-pmu-le-speak-easy.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C6-prix-oniris-nantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R2-chantilly/R2C7-grand-prix-synergie.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C1-prix-instagram-hippodromenantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C3-prix-www-hippodrome-nantes-fr.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C4-prix-du-pmu-le-speak-easy.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C5-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C6-prix-oniris-nantes.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C7-grand-prix-synergie.html",
+      "resultats-et-rapports/2019/11/2019-11-06/R4-marseille-vivaux/R4C8-prix-facebook-hippodrome-de-nantes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-chantilly",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-instagram-hippodromenantes.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-www-hippodrome-nantes-fr.html",
+        "R1C4-prix-du-pmu-le-speak-easy.html",
+        "R1C5-prix-moet-et-chandon.html",
+        "R1C6-prix-oniris-nantes.html",
+        "R1C7-grand-prix-synergie.html",
+        "R1C8-prix-facebook-hippodrome-de-nantes.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-instagram-hippodromenantes.html",
+        "R2C2-grand-national-du-trot-paris-turf.html",
+        "R2C3-prix-www-hippodrome-nantes-fr.html",
+        "R2C4-prix-du-pmu-le-speak-easy.html",
+        "R2C5-prix-moet-et-chandon.html",
+        "R2C6-prix-oniris-nantes.html",
+        "R2C7-grand-prix-synergie.html",
+        "R2C8-prix-facebook-hippodrome-de-nantes.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-instagram-hippodromenantes.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-prix-www-hippodrome-nantes-fr.html",
+        "R4C4-prix-du-pmu-le-speak-easy.html",
+        "R4C5-prix-moet-et-chandon.html",
+        "R4C6-prix-oniris-nantes.html",
+        "R4C7-grand-prix-synergie.html",
+        "R4C8-prix-facebook-hippodrome-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:25.428244Z"
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2025-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-19",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-19/2025-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-19/R1-paris-longchamp/R1C3-prix-du-passage-brady.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R1-paris-longchamp/R1C4-prix-du-passage-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R1-paris-longchamp/R1C5-prix-du-passage-du-prado.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R1-paris-longchamp/R1C9-prix-des-amazones-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R2-dieppe/R2C3-prix-du-passage-brady.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R2-dieppe/R2C7-prix-du-nabob.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R2-dieppe/R2C8-prix-de-thiberville.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R2-dieppe/R2C9-prix-des-amazones-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C1-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C2-prix-de-la-porte-maillot.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C4-prix-du-passage-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C6-prix-perplexite.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C7-prix-du-nabob.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R3-caen/R3C9-prix-des-amazones-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C1-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C2-prix-de-la-porte-maillot.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C3-prix-du-passage-brady.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C5-prix-du-passage-du-prado.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C6-prix-perplexite.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C7-prix-du-nabob.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C8-prix-de-thiberville.html",
+      "resultats-et-rapports/2025/06/2025-06-19/R4-vichy/R4C9-prix-des-amazones-trophee-studio-harcourt.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-dieppe",
+      "R3-caen",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-des-arts-et-metiers.html",
+        "R1C2-prix-de-la-porte-maillot.html",
+        "R1C3-prix-du-passage-brady.html",
+        "R1C4-prix-du-passage-du-bois-de-boulogne.html",
+        "R1C5-prix-du-passage-du-prado.html",
+        "R1C6-prix-perplexite.html",
+        "R1C7-prix-du-nabob.html",
+        "R1C8-prix-de-thiberville.html",
+        "R1C9-prix-des-amazones-trophee-studio-harcourt.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-des-arts-et-metiers.html",
+        "R2C2-prix-de-la-porte-maillot.html",
+        "R2C3-prix-du-passage-brady.html",
+        "R2C4-prix-du-passage-du-bois-de-boulogne.html",
+        "R2C5-prix-du-passage-du-prado.html",
+        "R2C6-prix-perplexite.html",
+        "R2C7-prix-du-nabob.html",
+        "R2C8-prix-de-thiberville.html",
+        "R2C9-prix-des-amazones-trophee-studio-harcourt.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-des-arts-et-metiers.html",
+        "R3C2-prix-de-la-porte-maillot.html",
+        "R3C3-prix-du-passage-brady.html",
+        "R3C4-prix-du-passage-du-bois-de-boulogne.html",
+        "R3C5-prix-du-passage-du-prado.html",
+        "R3C6-prix-perplexite.html",
+        "R3C7-prix-du-nabob.html",
+        "R3C8-prix-de-thiberville.html",
+        "R3C9-prix-des-amazones-trophee-studio-harcourt.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-des-arts-et-metiers.html",
+        "R4C2-prix-de-la-porte-maillot.html",
+        "R4C3-prix-du-passage-brady.html",
+        "R4C4-prix-du-passage-du-bois-de-boulogne.html",
+        "R4C5-prix-du-passage-du-prado.html",
+        "R4C6-prix-perplexite.html",
+        "R4C7-prix-du-nabob.html",
+        "R4C8-prix-de-thiberville.html",
+        "R4C9-prix-des-amazones-trophee-studio-harcourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:08.191115Z"
+}

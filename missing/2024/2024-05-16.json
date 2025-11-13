@@ -1,0 +1,75 @@
+{
+  "date": "2024-05-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-16",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-16/2024-05-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-16/R3-bordeaux-le-bouscat/R3C6-prix-du-parc-de-montsouris.html",
+      "resultats-et-rapports/2024/05/2024-05-16/R4-meslay-du-maine/R4C2-prix-de-pontarme.html",
+      "resultats-et-rapports/2024/05/2024-05-16/R4-meslay-du-maine/R4C3-prix-de-l-hotel-de-bruxelles.html",
+      "resultats-et-rapports/2024/05/2024-05-16/R4-meslay-du-maine/R4C4-prix-du-chateau-de-bagatelle.html",
+      "resultats-et-rapports/2024/05/2024-05-16/R4-meslay-du-maine/R4C5-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2024/05/2024-05-16/R4-meslay-du-maine/R4C8-prix-du-colisee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-strasbourg",
+      "R3-bordeaux-le-bouscat",
+      "R4-meslay-du-maine"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-pontoise.html",
+        "R1C2-prix-de-pontarme.html",
+        "R1C3-prix-de-l-hotel-de-bruxelles.html",
+        "R1C4-prix-du-chateau-de-bagatelle.html",
+        "R1C5-prix-du-petit-montrouge.html",
+        "R1C6-prix-du-parc-de-montsouris.html",
+        "R1C7-prix-du-palais-bourbon.html",
+        "R1C8-prix-du-colisee.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-pontoise.html",
+        "R2C2-prix-de-pontarme.html",
+        "R2C3-prix-de-l-hotel-de-bruxelles.html",
+        "R2C4-prix-du-chateau-de-bagatelle.html",
+        "R2C5-prix-du-petit-montrouge.html",
+        "R2C6-prix-du-parc-de-montsouris.html",
+        "R2C7-prix-du-palais-bourbon.html",
+        "R2C8-prix-du-colisee.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-pontoise.html",
+        "R3C2-prix-de-pontarme.html",
+        "R3C3-prix-de-l-hotel-de-bruxelles.html",
+        "R3C4-prix-du-chateau-de-bagatelle.html",
+        "R3C5-prix-du-petit-montrouge.html",
+        "R3C6-prix-du-parc-de-montsouris.html",
+        "R3C7-prix-du-palais-bourbon.html",
+        "R3C8-prix-du-colisee.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-de-pontoise.html",
+        "R4C2-prix-de-pontarme.html",
+        "R4C3-prix-de-l-hotel-de-bruxelles.html",
+        "R4C4-prix-du-chateau-de-bagatelle.html",
+        "R4C5-prix-du-petit-montrouge.html",
+        "R4C6-prix-du-parc-de-montsouris.html",
+        "R4C7-prix-du-palais-bourbon.html",
+        "R4C8-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:43.940208Z"
+}

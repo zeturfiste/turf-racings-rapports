@@ -1,0 +1,81 @@
+{
+  "date": "2020-09-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-28",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-28/2020-09-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C1-vincennes-prix-d-egletons.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C2-vincennes-prix-de-reuilly.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C4-vincennes-prix-de-thomery.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C5-vincennes-prix-de-champillon.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C6-vincennes-prix-de-moissac.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C7-vincennes-prix-de-saint-chamond.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R1-enghien-soisy/R1C8-vincennes-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C1-vincennes-prix-d-egletons.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C2-vincennes-prix-de-reuilly.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C3-vincennes-prix-du-pont-de-tolbiac.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C4-vincennes-prix-de-thomery.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C5-vincennes-prix-de-champillon.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C6-vincennes-prix-de-moissac.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C7-vincennes-prix-de-saint-chamond.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R3-chantilly/R3C8-vincennes-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C1-vincennes-prix-d-egletons.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C2-vincennes-prix-de-reuilly.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C3-vincennes-prix-du-pont-de-tolbiac.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C4-vincennes-prix-de-thomery.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C5-vincennes-prix-de-champillon.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C6-vincennes-prix-de-moissac.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C7-vincennes-prix-de-saint-chamond.html",
+      "resultats-et-rapports/2020/09/2020-09-28/R4-saint-galmier/R4C8-vincennes-prix-de-la-tour-montparnasse.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-chantilly",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-vincennes-prix-d-egletons.html",
+        "R1C2-vincennes-prix-de-reuilly.html",
+        "R1C3-vincennes-prix-du-pont-de-tolbiac.html",
+        "R1C4-vincennes-prix-de-thomery.html",
+        "R1C5-vincennes-prix-de-champillon.html",
+        "R1C6-vincennes-prix-de-moissac.html",
+        "R1C7-vincennes-prix-de-saint-chamond.html",
+        "R1C8-vincennes-prix-de-la-tour-montparnasse.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-vincennes-prix-d-egletons.html",
+        "R3C2-vincennes-prix-de-reuilly.html",
+        "R3C3-vincennes-prix-du-pont-de-tolbiac.html",
+        "R3C4-vincennes-prix-de-thomery.html",
+        "R3C5-vincennes-prix-de-champillon.html",
+        "R3C6-vincennes-prix-de-moissac.html",
+        "R3C7-vincennes-prix-de-saint-chamond.html",
+        "R3C8-vincennes-prix-de-la-tour-montparnasse.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-vincennes-prix-d-egletons.html",
+        "R4C2-vincennes-prix-de-reuilly.html",
+        "R4C3-vincennes-prix-du-pont-de-tolbiac.html",
+        "R4C4-vincennes-prix-de-thomery.html",
+        "R4C5-vincennes-prix-de-champillon.html",
+        "R4C6-vincennes-prix-de-moissac.html",
+        "R4C7-vincennes-prix-de-saint-chamond.html",
+        "R4C8-vincennes-prix-de-la-tour-montparnasse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:57.630545Z"
+}

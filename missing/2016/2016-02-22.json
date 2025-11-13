@@ -1,0 +1,76 @@
+{
+  "date": "2016-02-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-22",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-22/2016-02-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-22/R1-vincennes/R1C5-prix-de-graignes.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R1-vincennes/R1C6-prix-de-mortagne.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R1-vincennes/R1C7-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R4-laval/R4C1-prix-de-cahors.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R4-laval/R4C4-prix-patrick-mottier.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R4-laval/R4C6-prix-de-mortagne.html",
+      "resultats-et-rapports/2016/02/2016-02-22/R6-nantes/R6C6-prix-de-mortagne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-laval",
+      "R6-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cahors.html",
+        "R1C2-prix-de-falot.html",
+        "R1C3-prix-de-bracieux.html",
+        "R1C4-prix-patrick-mottier.html",
+        "R1C5-prix-de-graignes.html",
+        "R1C6-prix-de-mortagne.html",
+        "R1C7-prix-ovide-moulinet.html",
+        "R1C8-prix-de-carquebut.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-cahors.html",
+        "R3C2-prix-de-falot.html",
+        "R3C3-prix-de-bracieux.html",
+        "R3C4-prix-patrick-mottier.html",
+        "R3C5-prix-de-graignes.html",
+        "R3C6-prix-de-mortagne.html",
+        "R3C7-prix-ovide-moulinet.html",
+        "R3C8-prix-de-carquebut.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-cahors.html",
+        "R4C2-prix-de-falot.html",
+        "R4C3-prix-de-bracieux.html",
+        "R4C4-prix-patrick-mottier.html",
+        "R4C5-prix-de-graignes.html",
+        "R4C6-prix-de-mortagne.html",
+        "R4C7-prix-ovide-moulinet.html",
+        "R4C8-prix-de-carquebut.html"
+      ],
+      "R6-nantes": [
+        "R6C1-prix-de-cahors.html",
+        "R6C2-prix-de-falot.html",
+        "R6C3-prix-de-bracieux.html",
+        "R6C4-prix-patrick-mottier.html",
+        "R6C5-prix-de-graignes.html",
+        "R6C6-prix-de-mortagne.html",
+        "R6C7-prix-ovide-moulinet.html",
+        "R6C8-prix-de-carquebut.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:30.215096Z"
+}

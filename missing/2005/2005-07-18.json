@@ -1,0 +1,54 @@
+{
+  "date": "2005-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-18",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-18/2005-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-amiens",
+      "R3-castillonnes"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-ville-de-vichy.html",
+        "R1C2-prix-de-commentry.html",
+        "R1C3-prix-louis-cambreleng.html",
+        "R1C4-prix-de-la-chaise-dieu.html",
+        "R1C5-prix-madame-jean-couturie.html",
+        "R1C6-prix-du-briandet.html",
+        "R1C7-prix-de-l-allier.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-de-la-ville-de-vichy.html",
+        "R2C2-prix-de-commentry.html",
+        "R2C3-prix-louis-cambreleng.html",
+        "R2C4-prix-de-la-chaise-dieu.html",
+        "R2C5-prix-madame-jean-couturie.html",
+        "R2C6-prix-du-briandet.html",
+        "R2C7-prix-de-l-allier.html"
+      ],
+      "R3-castillonnes": [
+        "R3C1-prix-de-la-ville-de-vichy.html",
+        "R3C2-prix-de-commentry.html",
+        "R3C3-prix-louis-cambreleng.html",
+        "R3C4-prix-de-la-chaise-dieu.html",
+        "R3C5-prix-madame-jean-couturie.html",
+        "R3C6-prix-du-briandet.html",
+        "R3C7-prix-de-l-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:03.513793Z"
+}

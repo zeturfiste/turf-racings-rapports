@@ -1,0 +1,101 @@
+{
+  "date": "2019-08-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/08/2019-08-13",
+    "date_html": "resultats-et-rapports/2019/08/2019-08-13/2019-08-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/08/2019-08-13/R1-enghien-soisy/R1C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R2-moulins/R2C1-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R2-moulins/R2C9-prix-d-elancourt.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R4-deauville/R4C3-prix-union-presse-hippique-prix-d-excideuil.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R4-deauville/R4C5-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R4-deauville/R4C6-prix-des-grandes-carrieres.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R4-deauville/R4C7-prix-jean-luc-lagardere-prix-d-europe.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R4-deauville/R4C9-prix-d-elancourt.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C1-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C4-prix-de-geneve.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C6-prix-des-grandes-carrieres.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C7-prix-jean-luc-lagardere-prix-d-europe.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R5-cabourg/R5C9-prix-d-elancourt.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R6-pornichet-la-baule/R6C4-prix-de-geneve.html",
+      "resultats-et-rapports/2019/08/2019-08-13/R6-pornichet-la-baule/R6C8-prix-de-la-porte-de-versailles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-moulins",
+      "R4-deauville",
+      "R5-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-pont-de-l-alma.html",
+        "R1C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+        "R1C3-prix-union-presse-hippique-prix-d-excideuil.html",
+        "R1C4-prix-de-geneve.html",
+        "R1C5-prix-de-la-porte-de-passy.html",
+        "R1C6-prix-des-grandes-carrieres.html",
+        "R1C7-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R1C8-prix-de-la-porte-de-versailles.html",
+        "R1C9-prix-d-elancourt.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-du-pont-de-l-alma.html",
+        "R2C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+        "R2C3-prix-union-presse-hippique-prix-d-excideuil.html",
+        "R2C4-prix-de-geneve.html",
+        "R2C5-prix-de-la-porte-de-passy.html",
+        "R2C6-prix-des-grandes-carrieres.html",
+        "R2C7-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R2C8-prix-de-la-porte-de-versailles.html",
+        "R2C9-prix-d-elancourt.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-du-pont-de-l-alma.html",
+        "R4C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+        "R4C3-prix-union-presse-hippique-prix-d-excideuil.html",
+        "R4C4-prix-de-geneve.html",
+        "R4C5-prix-de-la-porte-de-passy.html",
+        "R4C6-prix-des-grandes-carrieres.html",
+        "R4C7-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R4C8-prix-de-la-porte-de-versailles.html",
+        "R4C9-prix-d-elancourt.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-pont-de-l-alma.html",
+        "R5C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+        "R5C3-prix-union-presse-hippique-prix-d-excideuil.html",
+        "R5C4-prix-de-geneve.html",
+        "R5C5-prix-de-la-porte-de-passy.html",
+        "R5C6-prix-des-grandes-carrieres.html",
+        "R5C7-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R5C8-prix-de-la-porte-de-versailles.html",
+        "R5C9-prix-d-elancourt.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-du-pont-de-l-alma.html",
+        "R6C2-prix-ass-nat-des-turfistes-prix-de-chatou.html",
+        "R6C3-prix-union-presse-hippique-prix-d-excideuil.html",
+        "R6C4-prix-de-geneve.html",
+        "R6C5-prix-de-la-porte-de-passy.html",
+        "R6C6-prix-des-grandes-carrieres.html",
+        "R6C7-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R6C8-prix-de-la-porte-de-versailles.html",
+        "R6C9-prix-d-elancourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:56.803419Z"
+}

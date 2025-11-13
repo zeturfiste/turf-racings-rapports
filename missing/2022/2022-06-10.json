@@ -1,0 +1,84 @@
+{
+  "date": "2022-06-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-10",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-10/2022-06-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-10/R1-vincennes/R1C4-prix-du-pole-outre-mer-de-france-tv.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R5-lisieux/R5C1-prix-france-antilles-prix-adalberta.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R5-lisieux/R5C4-prix-du-pole-outre-mer-de-france-tv.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R5-lisieux/R5C6-prix-d-istres.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R6-toulouse/R6C1-prix-france-antilles-prix-adalberta.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R6-toulouse/R6C2-prix-latina-prix-marsik.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R6-toulouse/R6C3-prix-tropic-night-session-prix-titania.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R6-toulouse/R6C4-prix-du-pole-outre-mer-de-france-tv.html",
+      "resultats-et-rapports/2022/06/2022-06-10/R6-toulouse/R6C5-prix-espace-fm-prix-de-gien.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nantes",
+      "R4-compiegne",
+      "R5-lisieux",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-france-antilles-prix-adalberta.html",
+        "R1C2-prix-latina-prix-marsik.html",
+        "R1C3-prix-tropic-night-session-prix-titania.html",
+        "R1C4-prix-du-pole-outre-mer-de-france-tv.html",
+        "R1C5-prix-espace-fm-prix-de-gien.html",
+        "R1C6-prix-d-istres.html",
+        "R1C7-prix-lydia.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-france-antilles-prix-adalberta.html",
+        "R3C2-prix-latina-prix-marsik.html",
+        "R3C3-prix-tropic-night-session-prix-titania.html",
+        "R3C4-prix-du-pole-outre-mer-de-france-tv.html",
+        "R3C5-prix-espace-fm-prix-de-gien.html",
+        "R3C6-prix-d-istres.html",
+        "R3C7-prix-lydia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-france-antilles-prix-adalberta.html",
+        "R4C2-prix-latina-prix-marsik.html",
+        "R4C3-prix-tropic-night-session-prix-titania.html",
+        "R4C4-prix-du-pole-outre-mer-de-france-tv.html",
+        "R4C5-prix-espace-fm-prix-de-gien.html",
+        "R4C6-prix-d-istres.html",
+        "R4C7-prix-lydia.html"
+      ],
+      "R5-lisieux": [
+        "R5C1-prix-france-antilles-prix-adalberta.html",
+        "R5C2-prix-latina-prix-marsik.html",
+        "R5C3-prix-tropic-night-session-prix-titania.html",
+        "R5C4-prix-du-pole-outre-mer-de-france-tv.html",
+        "R5C5-prix-espace-fm-prix-de-gien.html",
+        "R5C6-prix-d-istres.html",
+        "R5C7-prix-lydia.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-france-antilles-prix-adalberta.html",
+        "R6C2-prix-latina-prix-marsik.html",
+        "R6C3-prix-tropic-night-session-prix-titania.html",
+        "R6C4-prix-du-pole-outre-mer-de-france-tv.html",
+        "R6C5-prix-espace-fm-prix-de-gien.html",
+        "R6C6-prix-d-istres.html",
+        "R6C7-prix-lydia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:32.151646Z"
+}

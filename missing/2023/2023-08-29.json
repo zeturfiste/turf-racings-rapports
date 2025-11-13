@@ -1,0 +1,79 @@
+{
+  "date": "2023-08-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/08/2023-08-29",
+    "date_html": "resultats-et-rapports/2023/08/2023-08-29/2023-08-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/08/2023-08-29/R1-dieppe/R1C5-prix-de-la-porte-de-tourelles.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R1-dieppe/R1C7-prix-djsl-bois-prix-du-pollet.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R1-dieppe/R1C8-prix-region-normandie.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R3-la-capelle/R3C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R3-la-capelle/R3C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R4-vichy/R4C4-prix-bon-mot.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R4-vichy/R4C7-prix-djsl-bois-prix-du-pollet.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R5-cabourg/R5C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R5-cabourg/R5C5-prix-de-la-porte-de-tourelles.html",
+      "resultats-et-rapports/2023/08/2023-08-29/R5-cabourg/R5C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R3-la-capelle",
+      "R4-vichy",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-du-vallon-des-chenes.html",
+        "R1C2-prix-style-vendome.html",
+        "R1C3-prix-de-la-foret-d-arques.html",
+        "R1C4-prix-bon-mot.html",
+        "R1C5-prix-de-la-porte-de-tourelles.html",
+        "R1C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html",
+        "R1C7-prix-djsl-bois-prix-du-pollet.html",
+        "R1C8-prix-region-normandie.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-du-vallon-des-chenes.html",
+        "R3C2-prix-style-vendome.html",
+        "R3C3-prix-de-la-foret-d-arques.html",
+        "R3C4-prix-bon-mot.html",
+        "R3C5-prix-de-la-porte-de-tourelles.html",
+        "R3C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html",
+        "R3C7-prix-djsl-bois-prix-du-pollet.html",
+        "R3C8-prix-region-normandie.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-vallon-des-chenes.html",
+        "R4C2-prix-style-vendome.html",
+        "R4C3-prix-de-la-foret-d-arques.html",
+        "R4C4-prix-bon-mot.html",
+        "R4C5-prix-de-la-porte-de-tourelles.html",
+        "R4C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html",
+        "R4C7-prix-djsl-bois-prix-du-pollet.html",
+        "R4C8-prix-region-normandie.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-vallon-des-chenes.html",
+        "R5C2-prix-style-vendome.html",
+        "R5C3-prix-de-la-foret-d-arques.html",
+        "R5C4-prix-bon-mot.html",
+        "R5C5-prix-de-la-porte-de-tourelles.html",
+        "R5C6-prix-des-ateliers-djsl-bois-prix-du-quebec.html",
+        "R5C7-prix-djsl-bois-prix-du-pollet.html",
+        "R5C8-prix-region-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:12.292843Z"
+}

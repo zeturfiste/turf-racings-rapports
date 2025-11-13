@@ -1,0 +1,82 @@
+{
+  "date": "2020-09-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-21",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-21/2020-09-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-21/R4-mauquenchy/R4C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R4-mauquenchy/R4C2-prix-groupama-prix-du-val-d-athee.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R4-mauquenchy/R4C4-prix-du-haras-de-la-haie-neuve-le-brivido-prix-du-point-du-jour.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R4-mauquenchy/R4C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R4-mauquenchy/R4C6-prix-ets-lesieur-prix-claude-de-langle.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R6-le-croise-laroche/R6C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R6-le-croise-laroche/R6C3-prix-atmos-proprete-prix-une-de-mai.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R6-le-croise-laroche/R6C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+      "resultats-et-rapports/2020/09/2020-09-21/R6-le-croise-laroche/R6C7-prix-du-journal-haut-anjou-prix-henri-desmontils.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R3-marseille-borely",
+      "R4-mauquenchy",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+        "R1C2-prix-groupama-prix-du-val-d-athee.html",
+        "R1C3-prix-atmos-proprete-prix-une-de-mai.html",
+        "R1C4-prix-du-haras-de-la-haie-neuve-le-brivido-prix-du-point-du-jour.html",
+        "R1C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+        "R1C6-prix-ets-lesieur-prix-claude-de-langle.html",
+        "R1C7-prix-du-journal-haut-anjou-prix-henri-desmontils.html",
+        "R1C8-prix-pigeon-tp-loire-anjou-prix-de-champagne.html",
+        "R1C9-prix-apgo-reverdy-prix-docteur-guy-jallot.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+        "R3C2-prix-groupama-prix-du-val-d-athee.html",
+        "R3C3-prix-atmos-proprete-prix-une-de-mai.html",
+        "R3C4-prix-du-haras-de-la-haie-neuve-le-brivido-prix-du-point-du-jour.html",
+        "R3C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+        "R3C6-prix-ets-lesieur-prix-claude-de-langle.html",
+        "R3C7-prix-du-journal-haut-anjou-prix-henri-desmontils.html",
+        "R3C8-prix-pigeon-tp-loire-anjou-prix-de-champagne.html",
+        "R3C9-prix-apgo-reverdy-prix-docteur-guy-jallot.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+        "R4C2-prix-groupama-prix-du-val-d-athee.html",
+        "R4C3-prix-atmos-proprete-prix-une-de-mai.html",
+        "R4C4-prix-du-haras-de-la-haie-neuve-le-brivido-prix-du-point-du-jour.html",
+        "R4C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+        "R4C6-prix-ets-lesieur-prix-claude-de-langle.html",
+        "R4C7-prix-du-journal-haut-anjou-prix-henri-desmontils.html",
+        "R4C8-prix-pigeon-tp-loire-anjou-prix-de-champagne.html",
+        "R4C9-prix-apgo-reverdy-prix-docteur-guy-jallot.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-la-communaute-de-communes-du-pays-de-craon-handicap-de-craon.html",
+        "R6C2-prix-groupama-prix-du-val-d-athee.html",
+        "R6C3-prix-atmos-proprete-prix-une-de-mai.html",
+        "R6C4-prix-du-haras-de-la-haie-neuve-le-brivido-prix-du-point-du-jour.html",
+        "R6C5-prix-du-courrier-de-la-mayenne-prix-du-cheran.html",
+        "R6C6-prix-ets-lesieur-prix-claude-de-langle.html",
+        "R6C7-prix-du-journal-haut-anjou-prix-henri-desmontils.html",
+        "R6C8-prix-pigeon-tp-loire-anjou-prix-de-champagne.html",
+        "R6C9-prix-apgo-reverdy-prix-docteur-guy-jallot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:55.165700Z"
+}

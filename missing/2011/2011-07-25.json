@@ -1,0 +1,109 @@
+{
+  "date": "2011-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-25",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-25/2011-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-25/R1-compiegne/R1C2-prix-de-la-belette.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R1-compiegne/R1C8-prix-de-thury-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C2-prix-de-la-belette.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C3-prix-du-putois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C4-prix-pelleas.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C5-prix-de-saint-just-en-chaussee.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C7-prix-des-trois-chenes.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R2-la-capelle/R2C8-prix-de-thury-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C1-prix-de-la-ville-de-compiegne.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C2-prix-de-la-belette.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C3-prix-du-putois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C4-prix-pelleas.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C5-prix-de-saint-just-en-chaussee.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C7-prix-des-trois-chenes.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R3-meslay-du-maine/R3C8-prix-de-thury-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C1-prix-de-la-ville-de-compiegne.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C3-prix-du-putois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C4-prix-pelleas.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C5-prix-de-saint-just-en-chaussee.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C7-prix-des-trois-chenes.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R4-brehal/R4C8-prix-de-thury-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R6-cagnes-sur-mer/R6C1-prix-de-la-ville-de-compiegne.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R6-cagnes-sur-mer/R6C5-prix-de-saint-just-en-chaussee.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R6-cagnes-sur-mer/R6C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R6-cagnes-sur-mer/R6C7-prix-des-trois-chenes.html",
+      "resultats-et-rapports/2011/07/2011-07-25/R6-cagnes-sur-mer/R6C8-prix-de-thury-en-valois.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-la-capelle",
+      "R3-meslay-du-maine",
+      "R4-brehal",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-la-ville-de-compiegne.html",
+        "R1C2-prix-de-la-belette.html",
+        "R1C3-prix-du-putois.html",
+        "R1C4-prix-pelleas.html",
+        "R1C5-prix-de-saint-just-en-chaussee.html",
+        "R1C6-prix-de-bonneuil-en-valois.html",
+        "R1C7-prix-des-trois-chenes.html",
+        "R1C8-prix-de-thury-en-valois.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-de-la-ville-de-compiegne.html",
+        "R2C2-prix-de-la-belette.html",
+        "R2C3-prix-du-putois.html",
+        "R2C4-prix-pelleas.html",
+        "R2C5-prix-de-saint-just-en-chaussee.html",
+        "R2C6-prix-de-bonneuil-en-valois.html",
+        "R2C7-prix-des-trois-chenes.html",
+        "R2C8-prix-de-thury-en-valois.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-de-la-ville-de-compiegne.html",
+        "R3C2-prix-de-la-belette.html",
+        "R3C3-prix-du-putois.html",
+        "R3C4-prix-pelleas.html",
+        "R3C5-prix-de-saint-just-en-chaussee.html",
+        "R3C6-prix-de-bonneuil-en-valois.html",
+        "R3C7-prix-des-trois-chenes.html",
+        "R3C8-prix-de-thury-en-valois.html"
+      ],
+      "R4-brehal": [
+        "R4C1-prix-de-la-ville-de-compiegne.html",
+        "R4C2-prix-de-la-belette.html",
+        "R4C3-prix-du-putois.html",
+        "R4C4-prix-pelleas.html",
+        "R4C5-prix-de-saint-just-en-chaussee.html",
+        "R4C6-prix-de-bonneuil-en-valois.html",
+        "R4C7-prix-des-trois-chenes.html",
+        "R4C8-prix-de-thury-en-valois.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-la-ville-de-compiegne.html",
+        "R6C2-prix-de-la-belette.html",
+        "R6C3-prix-du-putois.html",
+        "R6C4-prix-pelleas.html",
+        "R6C5-prix-de-saint-just-en-chaussee.html",
+        "R6C6-prix-de-bonneuil-en-valois.html",
+        "R6C7-prix-des-trois-chenes.html",
+        "R6C8-prix-de-thury-en-valois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:23.176471Z"
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2021-10-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-21",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-21/2021-10-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C1-prix-santo-pietro.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C2-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C3-prix-mid-dancer.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C4-prix-haras-du-reuilly.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C6-prix-robert-bates.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C7-prix-la-turbie.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R1-auteuil/R1C8-prix-cap.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R3-deauville/R3C1-prix-santo-pietro.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R3-deauville/R3C3-prix-mid-dancer.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R3-deauville/R3C7-prix-la-turbie.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R3-deauville/R3C8-prix-cap.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C1-prix-santo-pietro.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C2-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C3-prix-mid-dancer.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C4-prix-haras-du-reuilly.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C5-haras-d-etreham-prix-magne.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C6-prix-robert-bates.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C7-prix-la-turbie.html",
+      "resultats-et-rapports/2021/10/2021-10-21/R4-enghien-soisy/R4C8-prix-cap.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-deauville",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-santo-pietro.html",
+        "R1C2-prix-adrien-besnouin.html",
+        "R1C3-prix-mid-dancer.html",
+        "R1C4-prix-haras-du-reuilly.html",
+        "R1C5-haras-d-etreham-prix-magne.html",
+        "R1C6-prix-robert-bates.html",
+        "R1C7-prix-la-turbie.html",
+        "R1C8-prix-cap.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-santo-pietro.html",
+        "R3C2-prix-adrien-besnouin.html",
+        "R3C3-prix-mid-dancer.html",
+        "R3C4-prix-haras-du-reuilly.html",
+        "R3C5-haras-d-etreham-prix-magne.html",
+        "R3C6-prix-robert-bates.html",
+        "R3C7-prix-la-turbie.html",
+        "R3C8-prix-cap.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-santo-pietro.html",
+        "R4C2-prix-adrien-besnouin.html",
+        "R4C3-prix-mid-dancer.html",
+        "R4C4-prix-haras-du-reuilly.html",
+        "R4C5-haras-d-etreham-prix-magne.html",
+        "R4C6-prix-robert-bates.html",
+        "R4C7-prix-la-turbie.html",
+        "R4C8-prix-cap.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:12.822790Z"
+}

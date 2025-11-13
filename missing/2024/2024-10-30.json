@@ -1,0 +1,70 @@
+{
+  "date": "2024-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-30",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-30/2024-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-30/R1-auteuil/R1C1-prix-bison-fute.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R1-auteuil/R1C3-prix-santo-pietro.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R1-auteuil/R1C6-prix-lusignan.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R3-marseille-borely/R3C2-prix-la-fregate.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R3-marseille-borely/R3C6-prix-lusignan.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R3-marseille-borely/R3C7-prix-moncourt.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C1-prix-bison-fute.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C3-prix-santo-pietro.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C4-prix-haras-du-reuilly.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C7-prix-moncourt.html",
+      "resultats-et-rapports/2024/10/2024-10-30/R4-vincennes/R4C8-prix-cap.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-bison-fute.html",
+        "R1C2-prix-la-fregate.html",
+        "R1C3-prix-santo-pietro.html",
+        "R1C4-prix-haras-du-reuilly.html",
+        "R1C5-prix-pierre-de-lassus.html",
+        "R1C6-prix-lusignan.html",
+        "R1C7-prix-moncourt.html",
+        "R1C8-prix-cap.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-bison-fute.html",
+        "R3C2-prix-la-fregate.html",
+        "R3C3-prix-santo-pietro.html",
+        "R3C4-prix-haras-du-reuilly.html",
+        "R3C5-prix-pierre-de-lassus.html",
+        "R3C6-prix-lusignan.html",
+        "R3C7-prix-moncourt.html",
+        "R3C8-prix-cap.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-bison-fute.html",
+        "R4C2-prix-la-fregate.html",
+        "R4C3-prix-santo-pietro.html",
+        "R4C4-prix-haras-du-reuilly.html",
+        "R4C5-prix-pierre-de-lassus.html",
+        "R4C6-prix-lusignan.html",
+        "R4C7-prix-moncourt.html",
+        "R4C8-prix-cap.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:46.248862Z"
+}

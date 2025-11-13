@@ -1,0 +1,133 @@
+{
+  "date": "2011-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-12",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-12/2011-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-12/R2-saint-malo/R2C1-prix-de-la-reine-marie-amelie.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R2-saint-malo/R2C2-prix-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R2-saint-malo/R2C3-prix-de-diane-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R2-saint-malo/R2C4-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R2-saint-malo/R2C8-prix-du-musee-de-la-renaissance.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R1-chantilly/R1C1-prix-de-la-reine-marie-amelie.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R1-chantilly/R1C2-prix-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R1-chantilly/R1C5-prix-du-lys.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R4-argentan/R4C8-prix-du-musee-de-la-renaissance.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C1-prix-de-la-reine-marie-amelie.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C2-prix-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C3-prix-de-diane-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C4-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C5-prix-du-lys.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C6-prix-du-chemin-de-fer-du-nord.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C7-prix-de-mongresin.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R5-chateaubriant/R5C8-prix-du-musee-de-la-renaissance.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C1-prix-de-la-reine-marie-amelie.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C2-prix-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C3-prix-de-diane-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C5-prix-du-lys.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C6-prix-du-chemin-de-fer-du-nord.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C7-prix-de-mongresin.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R6-avignon/R6C8-prix-du-musee-de-la-renaissance.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C1-prix-de-la-reine-marie-amelie.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C2-prix-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C3-prix-de-diane-longines.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C4-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C5-prix-du-lys.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C6-prix-du-chemin-de-fer-du-nord.html",
+      "resultats-et-rapports/2011/06/2011-06-12/R8-langon/R8C7-prix-de-mongresin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-saint-malo",
+      "R1-chantilly",
+      "R3-toulouse",
+      "R4-argentan",
+      "R5-chateaubriant",
+      "R6-avignon",
+      "R8-langon"
+    ],
+    "courses_by_reunion": {
+      "R2-saint-malo": [
+        "R2C1-prix-de-la-reine-marie-amelie.html",
+        "R2C2-prix-longines.html",
+        "R2C3-prix-de-diane-longines.html",
+        "R2C4-prix-paul-de-moussac.html",
+        "R2C5-prix-du-lys.html",
+        "R2C6-prix-du-chemin-de-fer-du-nord.html",
+        "R2C7-prix-de-mongresin.html",
+        "R2C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R1-chantilly": [
+        "R1C1-prix-de-la-reine-marie-amelie.html",
+        "R1C2-prix-longines.html",
+        "R1C3-prix-de-diane-longines.html",
+        "R1C4-prix-paul-de-moussac.html",
+        "R1C5-prix-du-lys.html",
+        "R1C6-prix-du-chemin-de-fer-du-nord.html",
+        "R1C7-prix-de-mongresin.html",
+        "R1C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-reine-marie-amelie.html",
+        "R3C2-prix-longines.html",
+        "R3C3-prix-de-diane-longines.html",
+        "R3C4-prix-paul-de-moussac.html",
+        "R3C5-prix-du-lys.html",
+        "R3C6-prix-du-chemin-de-fer-du-nord.html",
+        "R3C7-prix-de-mongresin.html",
+        "R3C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-de-la-reine-marie-amelie.html",
+        "R4C2-prix-longines.html",
+        "R4C3-prix-de-diane-longines.html",
+        "R4C4-prix-paul-de-moussac.html",
+        "R4C5-prix-du-lys.html",
+        "R4C6-prix-du-chemin-de-fer-du-nord.html",
+        "R4C7-prix-de-mongresin.html",
+        "R4C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R5-chateaubriant": [
+        "R5C1-prix-de-la-reine-marie-amelie.html",
+        "R5C2-prix-longines.html",
+        "R5C3-prix-de-diane-longines.html",
+        "R5C4-prix-paul-de-moussac.html",
+        "R5C5-prix-du-lys.html",
+        "R5C6-prix-du-chemin-de-fer-du-nord.html",
+        "R5C7-prix-de-mongresin.html",
+        "R5C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R6-avignon": [
+        "R6C1-prix-de-la-reine-marie-amelie.html",
+        "R6C2-prix-longines.html",
+        "R6C3-prix-de-diane-longines.html",
+        "R6C4-prix-paul-de-moussac.html",
+        "R6C5-prix-du-lys.html",
+        "R6C6-prix-du-chemin-de-fer-du-nord.html",
+        "R6C7-prix-de-mongresin.html",
+        "R6C8-prix-du-musee-de-la-renaissance.html"
+      ],
+      "R8-langon": [
+        "R8C1-prix-de-la-reine-marie-amelie.html",
+        "R8C2-prix-longines.html",
+        "R8C3-prix-de-diane-longines.html",
+        "R8C4-prix-paul-de-moussac.html",
+        "R8C5-prix-du-lys.html",
+        "R8C6-prix-du-chemin-de-fer-du-nord.html",
+        "R8C7-prix-de-mongresin.html",
+        "R8C8-prix-du-musee-de-la-renaissance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:10.243519Z"
+}

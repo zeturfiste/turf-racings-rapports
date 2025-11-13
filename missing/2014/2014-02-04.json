@@ -1,0 +1,52 @@
+{
+  "date": "2014-02-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-04",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-04/2014-02-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-04/R1-cagnes-sur-mer/R1C8-prix-du-bord-de-mer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-cagnes-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-grace-ducal.html",
+        "R1C2-prix-de-la-napoule.html",
+        "R1C3-prix-henri-callier.html",
+        "R1C4-prix-du-rayol-canadel.html",
+        "R1C5-prix-des-anemones.html",
+        "R1C6-prix-du-lavandou.html",
+        "R1C7-prix-des-lys-martagon.html",
+        "R1C8-prix-du-bord-de-mer.html",
+        "R1C9-prix-des-boutons-d-or.html",
+        "R1C10-prix-des-mimosas.html"
+      ],
+      "R2-cagnes-midi": [
+        "R2C1-prix-grace-ducal.html",
+        "R2C2-prix-de-la-napoule.html",
+        "R2C3-prix-henri-callier.html",
+        "R2C4-prix-du-rayol-canadel.html",
+        "R2C5-prix-des-anemones.html",
+        "R2C6-prix-du-lavandou.html",
+        "R2C7-prix-des-lys-martagon.html",
+        "R2C8-prix-du-bord-de-mer.html",
+        "R2C9-prix-des-boutons-d-or.html",
+        "R2C10-prix-des-mimosas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:43.269090Z"
+}

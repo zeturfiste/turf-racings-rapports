@@ -1,0 +1,64 @@
+{
+  "date": "2024-05-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-22",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-22/2024-05-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-22/R1-le-croise-laroche/R1C4-prix-du-pmu-le-chantilly-cambrai.html",
+      "resultats-et-rapports/2024/05/2024-05-22/R3-nancy/R3C8-prix-de-marcq-en-baroeul.html",
+      "resultats-et-rapports/2024/05/2024-05-22/R4-evreux/R4C2-prix-www-croise-laroche-fr.html",
+      "resultats-et-rapports/2024/05/2024-05-22/R4-evreux/R4C4-prix-du-pmu-le-chantilly-cambrai.html",
+      "resultats-et-rapports/2024/05/2024-05-22/R4-evreux/R4C7-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2024/05/2024-05-22/R4-evreux/R4C8-prix-de-marcq-en-baroeul.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-croise-laroche",
+      "R3-nancy",
+      "R4-evreux"
+    ],
+    "courses_by_reunion": {
+      "R1-le-croise-laroche": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-www-croise-laroche-fr.html",
+        "R1C3-grand-national-des-amateurs.html",
+        "R1C4-prix-du-pmu-le-chantilly-cambrai.html",
+        "R1C5-prix-label-equures.html",
+        "R1C6-prix-des-hauts-de-france.html",
+        "R1C7-prix-de-la-federation-du-nord.html",
+        "R1C8-prix-de-marcq-en-baroeul.html"
+      ],
+      "R3-nancy": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-www-croise-laroche-fr.html",
+        "R3C3-grand-national-des-amateurs.html",
+        "R3C4-prix-du-pmu-le-chantilly-cambrai.html",
+        "R3C5-prix-label-equures.html",
+        "R3C6-prix-des-hauts-de-france.html",
+        "R3C7-prix-de-la-federation-du-nord.html",
+        "R3C8-prix-de-marcq-en-baroeul.html"
+      ],
+      "R4-evreux": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-www-croise-laroche-fr.html",
+        "R4C3-grand-national-des-amateurs.html",
+        "R4C4-prix-du-pmu-le-chantilly-cambrai.html",
+        "R4C5-prix-label-equures.html",
+        "R4C6-prix-des-hauts-de-france.html",
+        "R4C7-prix-de-la-federation-du-nord.html",
+        "R4C8-prix-de-marcq-en-baroeul.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:46.296360Z"
+}

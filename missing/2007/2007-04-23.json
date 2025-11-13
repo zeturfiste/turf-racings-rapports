@@ -1,0 +1,78 @@
+{
+  "date": "2007-04-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-23",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-23/2007-04-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-23/R1-longchamp/R1C4-prix-de-la-salle-pleyel.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R1-longchamp/R1C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R1-longchamp/R1C6-prix-de-bonne-nouvelle.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R1-longchamp/R1C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R1-longchamp/R1C8-prix-des-victoires.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C1-prix-des-epinettes.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C2-prix-du-cedre.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C3-prix-de-la-salle-gaveau.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C6-prix-de-bonne-nouvelle.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R2-le-croise-laroche/R2C8-prix-des-victoires.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C1-prix-des-epinettes.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C2-prix-du-cedre.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C3-prix-de-la-salle-gaveau.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C4-prix-de-la-salle-pleyel.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C6-prix-de-bonne-nouvelle.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2007/04/2007-04-23/R31-zerace/R31C8-prix-des-victoires.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-le-croise-laroche",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-epinettes.html",
+        "R1C2-prix-du-cedre.html",
+        "R1C3-prix-de-la-salle-gaveau.html",
+        "R1C4-prix-de-la-salle-pleyel.html",
+        "R1C5-prix-du-palais-de-la-decouverte.html",
+        "R1C6-prix-de-bonne-nouvelle.html",
+        "R1C7-prix-des-petits-champs.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-des-epinettes.html",
+        "R2C2-prix-du-cedre.html",
+        "R2C3-prix-de-la-salle-gaveau.html",
+        "R2C4-prix-de-la-salle-pleyel.html",
+        "R2C5-prix-du-palais-de-la-decouverte.html",
+        "R2C6-prix-de-bonne-nouvelle.html",
+        "R2C7-prix-des-petits-champs.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-epinettes.html",
+        "R31C2-prix-du-cedre.html",
+        "R31C3-prix-de-la-salle-gaveau.html",
+        "R31C4-prix-de-la-salle-pleyel.html",
+        "R31C5-prix-du-palais-de-la-decouverte.html",
+        "R31C6-prix-de-bonne-nouvelle.html",
+        "R31C7-prix-des-petits-champs.html",
+        "R31C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:40.783534Z"
+}

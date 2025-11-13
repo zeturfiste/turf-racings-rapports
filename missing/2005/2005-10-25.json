@@ -1,0 +1,46 @@
+{
+  "date": "2005-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-25",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-25/2005-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-ginetta.html",
+        "R1C2-prix-de-vigny.html",
+        "R1C3-prix-saint-crespin.html",
+        "R1C4-prix-de-flore.html",
+        "R1C5-prix-rose-royale.html",
+        "R1C6-prix-de-lamballe.html",
+        "R1C7-prix-taboun.html",
+        "R1C8-prix-d-hennebont.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-ginetta.html",
+        "R2C2-prix-de-vigny.html",
+        "R2C3-prix-saint-crespin.html",
+        "R2C4-prix-de-flore.html",
+        "R2C5-prix-rose-royale.html",
+        "R2C6-prix-de-lamballe.html",
+        "R2C7-prix-taboun.html",
+        "R2C8-prix-d-hennebont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:21.729563Z"
+}

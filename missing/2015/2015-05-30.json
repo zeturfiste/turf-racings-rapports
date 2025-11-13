@@ -1,0 +1,89 @@
+{
+  "date": "2015-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-30",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-30/2015-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-30/R1-longchamp/R1C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R1-longchamp/R1C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R2-marseille-borely/R2C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R2-marseille-borely/R2C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R2-marseille-borely/R2C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R2-marseille-borely/R2C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R3-argentan/R3C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C1-prix-beachcomber-hotels-le-mauricia-prix-des-petites-ecuries.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2015/05/2015-05-30/R4-vichy/R4C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-marseille-borely",
+      "R3-argentan",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-beachcomber-hotels-le-mauricia-prix-des-petites-ecuries.html",
+        "R1C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+        "R1C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+        "R1C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+        "R1C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+        "R1C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+        "R1C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+        "R1C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-beachcomber-hotels-le-mauricia-prix-des-petites-ecuries.html",
+        "R2C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+        "R2C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+        "R2C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+        "R2C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+        "R2C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+        "R2C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+        "R2C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-beachcomber-hotels-le-mauricia-prix-des-petites-ecuries.html",
+        "R3C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+        "R3C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+        "R3C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+        "R3C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+        "R3C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+        "R3C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+        "R3C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-beachcomber-hotels-le-mauricia-prix-des-petites-ecuries.html",
+        "R4C2-prix-beachcomber-hotels-le-victoria-prix-de-la-boetie.html",
+        "R4C3-prix-beachcomber-hotels-ile-maurice-prix-du-bois-de-boulogne.html",
+        "R4C4-prix-beachcomber-hotels-trou-aux-biches-prix-de-clignancourt.html",
+        "R4C5-prix-du-palais-royal-prix-beachcomber-hotels-paradis-dinarobin.html",
+        "R4C6-prix-beachcomber-hotels-royal-palm-prix-de-villeneuve-l-etang.html",
+        "R4C7-prix-beachcomber-hotels-le-canonnier-prix-des-bouffes-parisiens.html",
+        "R4C8-prix-mtpa-office-du-tourisme-de-l-ile-maurice-prix-du-bois-de-vincennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:11.888111Z"
+}

@@ -1,0 +1,120 @@
+{
+  "date": "2020-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-12",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-12/2020-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-12/R1-saint-cloud/R1C11-prix-de-lescar.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R3-cherbourg/R3C8-prix-tourbillon.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R3-cherbourg/R3C9-prix-durban.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R3-cherbourg/R3C10-prix-de-puteaux.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R3-cherbourg/R3C11-prix-de-lescar.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R4-vincennes/R4C4-prix-praline.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R4-vincennes/R4C5-prix-montmartin.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R4-vincennes/R4C7-prix-de-crecy-fitz-james.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R4-vincennes/R4C9-prix-durban.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R4-vincennes/R4C10-prix-de-puteaux.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C1-prix-kefalin.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C2-prix-de-buc.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C3-prix-kashmir-ii.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C4-prix-praline.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C9-prix-durban.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R5-marseille-vivaux/R5C11-prix-de-lescar.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C2-prix-de-buc.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C3-prix-kashmir-ii.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C4-prix-praline.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C6-prix-teddy.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C7-prix-de-crecy-fitz-james.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C8-prix-tourbillon.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C9-prix-durban.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C10-prix-de-puteaux.html",
+      "resultats-et-rapports/2020/05/2020-05-12/R6-moulins/R6C11-prix-de-lescar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-cherbourg",
+      "R4-vincennes",
+      "R5-marseille-vivaux",
+      "R6-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-kefalin.html",
+        "R1C2-prix-de-buc.html",
+        "R1C3-prix-kashmir-ii.html",
+        "R1C4-prix-praline.html",
+        "R1C5-prix-montmartin.html",
+        "R1C6-prix-teddy.html",
+        "R1C7-prix-de-crecy-fitz-james.html",
+        "R1C8-prix-tourbillon.html",
+        "R1C9-prix-durban.html",
+        "R1C10-prix-de-puteaux.html",
+        "R1C11-prix-de-lescar.html"
+      ],
+      "R3-cherbourg": [
+        "R3C1-prix-kefalin.html",
+        "R3C2-prix-de-buc.html",
+        "R3C3-prix-kashmir-ii.html",
+        "R3C4-prix-praline.html",
+        "R3C5-prix-montmartin.html",
+        "R3C6-prix-teddy.html",
+        "R3C7-prix-de-crecy-fitz-james.html",
+        "R3C8-prix-tourbillon.html",
+        "R3C9-prix-durban.html",
+        "R3C10-prix-de-puteaux.html",
+        "R3C11-prix-de-lescar.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-kefalin.html",
+        "R4C2-prix-de-buc.html",
+        "R4C3-prix-kashmir-ii.html",
+        "R4C4-prix-praline.html",
+        "R4C5-prix-montmartin.html",
+        "R4C6-prix-teddy.html",
+        "R4C7-prix-de-crecy-fitz-james.html",
+        "R4C8-prix-tourbillon.html",
+        "R4C9-prix-durban.html",
+        "R4C10-prix-de-puteaux.html",
+        "R4C11-prix-de-lescar.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-kefalin.html",
+        "R5C2-prix-de-buc.html",
+        "R5C3-prix-kashmir-ii.html",
+        "R5C4-prix-praline.html",
+        "R5C5-prix-montmartin.html",
+        "R5C6-prix-teddy.html",
+        "R5C7-prix-de-crecy-fitz-james.html",
+        "R5C8-prix-tourbillon.html",
+        "R5C9-prix-durban.html",
+        "R5C10-prix-de-puteaux.html",
+        "R5C11-prix-de-lescar.html"
+      ],
+      "R6-moulins": [
+        "R6C1-prix-kefalin.html",
+        "R6C2-prix-de-buc.html",
+        "R6C3-prix-kashmir-ii.html",
+        "R6C4-prix-praline.html",
+        "R6C5-prix-montmartin.html",
+        "R6C6-prix-teddy.html",
+        "R6C7-prix-de-crecy-fitz-james.html",
+        "R6C8-prix-tourbillon.html",
+        "R6C9-prix-durban.html",
+        "R6C10-prix-de-puteaux.html",
+        "R6C11-prix-de-lescar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:06.804830Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2022-04-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-21",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-21/2022-04-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-21/R1-paris-longchamp/R1C6-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R1-paris-longchamp/R1C7-prix-jacques-laffitte.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R3-moulins/R3C6-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R3-moulins/R3C7-prix-jacques-laffitte.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R4-enghien-soisy/R4C1-prix-du-pavillon-royal.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R4-enghien-soisy/R4C3-prix-machado.html",
+      "resultats-et-rapports/2022/04/2022-04-21/R4-enghien-soisy/R4C5-prix-du-louvre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-moulins",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-pavillon-royal.html",
+        "R1C2-prix-de-viroflay.html",
+        "R1C3-prix-machado.html",
+        "R1C4-prix-de-verneuil.html",
+        "R1C5-prix-du-louvre.html",
+        "R1C6-prix-du-gros-caillou.html",
+        "R1C7-prix-jacques-laffitte.html",
+        "R1C8-prix-du-pavillon-dauphine.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-du-pavillon-royal.html",
+        "R3C2-prix-de-viroflay.html",
+        "R3C3-prix-machado.html",
+        "R3C4-prix-de-verneuil.html",
+        "R3C5-prix-du-louvre.html",
+        "R3C6-prix-du-gros-caillou.html",
+        "R3C7-prix-jacques-laffitte.html",
+        "R3C8-prix-du-pavillon-dauphine.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-du-pavillon-royal.html",
+        "R4C2-prix-de-viroflay.html",
+        "R4C3-prix-machado.html",
+        "R4C4-prix-de-verneuil.html",
+        "R4C5-prix-du-louvre.html",
+        "R4C6-prix-du-gros-caillou.html",
+        "R4C7-prix-jacques-laffitte.html",
+        "R4C8-prix-du-pavillon-dauphine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:13.926016Z"
+}

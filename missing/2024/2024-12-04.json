@@ -1,0 +1,62 @@
+{
+  "date": "2024-12-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-04",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-04/2024-12-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-04/R4-deauville/R4C3-prix-de-nalliers.html",
+      "resultats-et-rapports/2024/12/2024-12-04/R4-deauville/R4C4-prix-de-pontchateau.html",
+      "resultats-et-rapports/2024/12/2024-12-04/R4-deauville/R4C6-prix-de-chamalieres.html",
+      "resultats-et-rapports/2024/12/2024-12-04/R4-deauville/R4C8-prix-de-colombes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-villers-cotterets.html",
+        "R1C2-prix-d-amberac.html",
+        "R1C3-prix-de-nalliers.html",
+        "R1C4-prix-de-pontchateau.html",
+        "R1C5-prix-de-decize.html",
+        "R1C6-prix-de-chamalieres.html",
+        "R1C7-prix-des-camelias.html",
+        "R1C8-prix-de-colombes.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-villers-cotterets.html",
+        "R3C2-prix-d-amberac.html",
+        "R3C3-prix-de-nalliers.html",
+        "R3C4-prix-de-pontchateau.html",
+        "R3C5-prix-de-decize.html",
+        "R3C6-prix-de-chamalieres.html",
+        "R3C7-prix-des-camelias.html",
+        "R3C8-prix-de-colombes.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-villers-cotterets.html",
+        "R4C2-prix-d-amberac.html",
+        "R4C3-prix-de-nalliers.html",
+        "R4C4-prix-de-pontchateau.html",
+        "R4C5-prix-de-decize.html",
+        "R4C6-prix-de-chamalieres.html",
+        "R4C7-prix-des-camelias.html",
+        "R4C8-prix-de-colombes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:59.819959Z"
+}

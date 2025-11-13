@@ -1,0 +1,75 @@
+{
+  "date": "2022-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-19",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-19/2022-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-19/R4-la-teste-de-buch/R4C7-prix-d-erbray.html",
+      "resultats-et-rapports/2022/08/2022-08-19/R4-la-teste-de-buch/R4C8-prix-du-grand-fougeray.html",
+      "resultats-et-rapports/2022/08/2022-08-19/R5-clairefontaine/R5C1-prix-de-machecoul.html",
+      "resultats-et-rapports/2022/08/2022-08-19/R6-cabourg/R6C1-prix-de-machecoul.html",
+      "resultats-et-rapports/2022/08/2022-08-19/R6-cabourg/R6C2-prix-pierre-raffre.html",
+      "resultats-et-rapports/2022/08/2022-08-19/R6-cabourg/R6C8-prix-du-grand-fougeray.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pornichet-la-baule",
+      "R4-la-teste-de-buch",
+      "R5-clairefontaine",
+      "R6-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-pornichet-la-baule": [
+        "R1C1-prix-de-machecoul.html",
+        "R1C2-prix-pierre-raffre.html",
+        "R1C3-prix-enfants-cancer-sante.html",
+        "R1C4-prix-francois-mariet.html",
+        "R1C5-prix-du-casino-partouche-de-pornichet.html",
+        "R1C6-prix-pornichet-la-destination.html",
+        "R1C7-prix-d-erbray.html",
+        "R1C8-prix-du-grand-fougeray.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-de-machecoul.html",
+        "R4C2-prix-pierre-raffre.html",
+        "R4C3-prix-enfants-cancer-sante.html",
+        "R4C4-prix-francois-mariet.html",
+        "R4C5-prix-du-casino-partouche-de-pornichet.html",
+        "R4C6-prix-pornichet-la-destination.html",
+        "R4C7-prix-d-erbray.html",
+        "R4C8-prix-du-grand-fougeray.html"
+      ],
+      "R5-clairefontaine": [
+        "R5C1-prix-de-machecoul.html",
+        "R5C2-prix-pierre-raffre.html",
+        "R5C3-prix-enfants-cancer-sante.html",
+        "R5C4-prix-francois-mariet.html",
+        "R5C5-prix-du-casino-partouche-de-pornichet.html",
+        "R5C6-prix-pornichet-la-destination.html",
+        "R5C7-prix-d-erbray.html",
+        "R5C8-prix-du-grand-fougeray.html"
+      ],
+      "R6-cabourg": [
+        "R6C1-prix-de-machecoul.html",
+        "R6C2-prix-pierre-raffre.html",
+        "R6C3-prix-enfants-cancer-sante.html",
+        "R6C4-prix-francois-mariet.html",
+        "R6C5-prix-du-casino-partouche-de-pornichet.html",
+        "R6C6-prix-pornichet-la-destination.html",
+        "R6C7-prix-d-erbray.html",
+        "R6C8-prix-du-grand-fougeray.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:58.842738Z"
+}

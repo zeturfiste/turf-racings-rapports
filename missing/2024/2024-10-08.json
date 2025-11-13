@@ -1,0 +1,81 @@
+{
+  "date": "2024-10-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-08",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-08/2024-10-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C3-prix-xanthor.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C4-prix-vivienne.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C5-prix-fezensac.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C6-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C7-prix-piomares-guy-negrel.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R1-auteuil/R1C8-prix-hipparque.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C2-prix-isopani.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C3-prix-xanthor.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C4-prix-vivienne.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C5-prix-fezensac.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C6-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C7-prix-piomares-guy-negrel.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R3-fontainebleau/R3C8-prix-hipparque.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C2-prix-isopani.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C3-prix-xanthor.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C4-prix-vivienne.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C5-prix-fezensac.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C6-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C7-prix-piomares-guy-negrel.html",
+      "resultats-et-rapports/2024/10/2024-10-08/R4-vincennes/R4C8-prix-hipparque.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-fontainebleau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-guillaume-de-pracomtal.html",
+        "R1C2-prix-isopani.html",
+        "R1C3-prix-xanthor.html",
+        "R1C4-prix-vivienne.html",
+        "R1C5-prix-fezensac.html",
+        "R1C6-prix-claude-le-lorrain-joseph-audon.html",
+        "R1C7-prix-piomares-guy-negrel.html",
+        "R1C8-prix-hipparque.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-guillaume-de-pracomtal.html",
+        "R3C2-prix-isopani.html",
+        "R3C3-prix-xanthor.html",
+        "R3C4-prix-vivienne.html",
+        "R3C5-prix-fezensac.html",
+        "R3C6-prix-claude-le-lorrain-joseph-audon.html",
+        "R3C7-prix-piomares-guy-negrel.html",
+        "R3C8-prix-hipparque.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-guillaume-de-pracomtal.html",
+        "R4C2-prix-isopani.html",
+        "R4C3-prix-xanthor.html",
+        "R4C4-prix-vivienne.html",
+        "R4C5-prix-fezensac.html",
+        "R4C6-prix-claude-le-lorrain-joseph-audon.html",
+        "R4C7-prix-piomares-guy-negrel.html",
+        "R4C8-prix-hipparque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:38.344459Z"
+}

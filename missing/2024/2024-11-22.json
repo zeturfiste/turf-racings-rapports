@@ -1,0 +1,106 @@
+{
+  "date": "2024-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-22",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-22/2024-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-22/R2-bordeaux-le-bouscat/R2C4-prix-triton.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R3-chantilly/R3C2-prix-florentina.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R4-toulouse/R4C7-prix-leona.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R7-mauquenchy/R7C1-prix-ostara.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R7-mauquenchy/R7C2-prix-florentina.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R7-mauquenchy/R7C4-prix-triton.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R7-mauquenchy/R7C7-prix-leona.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R7-mauquenchy/R7C8-prix-eurynome.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C1-prix-ostara.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C2-prix-florentina.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C3-prix-keronis.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C4-prix-triton.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C5-prix-victoria.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C6-prix-hermantaria.html",
+      "resultats-et-rapports/2024/11/2024-11-22/R16-vincennes-soir/R16C7-prix-leona.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R3-chantilly",
+      "R4-toulouse",
+      "R7-mauquenchy",
+      "R16-vincennes-soir"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ostara.html",
+        "R1C2-prix-florentina.html",
+        "R1C3-prix-keronis.html",
+        "R1C4-prix-triton.html",
+        "R1C5-prix-victoria.html",
+        "R1C6-prix-hermantaria.html",
+        "R1C7-prix-leona.html",
+        "R1C8-prix-eurynome.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-ostara.html",
+        "R2C2-prix-florentina.html",
+        "R2C3-prix-keronis.html",
+        "R2C4-prix-triton.html",
+        "R2C5-prix-victoria.html",
+        "R2C6-prix-hermantaria.html",
+        "R2C7-prix-leona.html",
+        "R2C8-prix-eurynome.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-ostara.html",
+        "R3C2-prix-florentina.html",
+        "R3C3-prix-keronis.html",
+        "R3C4-prix-triton.html",
+        "R3C5-prix-victoria.html",
+        "R3C6-prix-hermantaria.html",
+        "R3C7-prix-leona.html",
+        "R3C8-prix-eurynome.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-ostara.html",
+        "R4C2-prix-florentina.html",
+        "R4C3-prix-keronis.html",
+        "R4C4-prix-triton.html",
+        "R4C5-prix-victoria.html",
+        "R4C6-prix-hermantaria.html",
+        "R4C7-prix-leona.html",
+        "R4C8-prix-eurynome.html"
+      ],
+      "R7-mauquenchy": [
+        "R7C1-prix-ostara.html",
+        "R7C2-prix-florentina.html",
+        "R7C3-prix-keronis.html",
+        "R7C4-prix-triton.html",
+        "R7C5-prix-victoria.html",
+        "R7C6-prix-hermantaria.html",
+        "R7C7-prix-leona.html",
+        "R7C8-prix-eurynome.html"
+      ],
+      "R16-vincennes-soir": [
+        "R16C1-prix-ostara.html",
+        "R16C2-prix-florentina.html",
+        "R16C3-prix-keronis.html",
+        "R16C4-prix-triton.html",
+        "R16C5-prix-victoria.html",
+        "R16C6-prix-hermantaria.html",
+        "R16C7-prix-leona.html",
+        "R16C8-prix-eurynome.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:55.040569Z"
+}

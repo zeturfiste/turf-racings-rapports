@@ -1,0 +1,96 @@
+{
+  "date": "2022-07-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-11",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-11/2022-07-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C1-prix-de-la-region-pays-de-la-loire.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C3-prix-vendee-grand-littoral.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C4-prix-de-la-ville-des-sables-d-olonne.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C5-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C6-prix-stand-animation-pmu.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C7-prix-des-societes-des-courses-de-vendee.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R1-les-sables-d-olonne/R1C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C2-prix-de-vendee-le-departement.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C4-prix-de-la-ville-des-sables-d-olonne.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C5-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C6-prix-stand-animation-pmu.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C7-prix-des-societes-des-courses-de-vendee.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R3-vittel/R3C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C1-prix-de-la-region-pays-de-la-loire.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C3-prix-vendee-grand-littoral.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C5-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C6-prix-stand-animation-pmu.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C7-prix-des-societes-des-courses-de-vendee.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R4-compiegne/R4C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C1-prix-de-la-region-pays-de-la-loire.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C2-prix-de-vendee-le-departement.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C3-prix-vendee-grand-littoral.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C4-prix-de-la-ville-des-sables-d-olonne.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C5-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C6-prix-stand-animation-pmu.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C7-prix-des-societes-des-courses-de-vendee.html",
+      "resultats-et-rapports/2022/07/2022-07-11/R5-cagnes-sur-mer/R5C8-prix-de-la-societe-du-cheval-francais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R3-vittel",
+      "R4-compiegne",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-de-la-region-pays-de-la-loire.html",
+        "R1C2-prix-de-vendee-le-departement.html",
+        "R1C3-prix-vendee-grand-littoral.html",
+        "R1C4-prix-de-la-ville-des-sables-d-olonne.html",
+        "R1C5-prix-des-sables-d-olonne-agglomeration.html",
+        "R1C6-prix-stand-animation-pmu.html",
+        "R1C7-prix-des-societes-des-courses-de-vendee.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R3-vittel": [
+        "R3C1-prix-de-la-region-pays-de-la-loire.html",
+        "R3C2-prix-de-vendee-le-departement.html",
+        "R3C3-prix-vendee-grand-littoral.html",
+        "R3C4-prix-de-la-ville-des-sables-d-olonne.html",
+        "R3C5-prix-des-sables-d-olonne-agglomeration.html",
+        "R3C6-prix-stand-animation-pmu.html",
+        "R3C7-prix-des-societes-des-courses-de-vendee.html",
+        "R3C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-de-la-region-pays-de-la-loire.html",
+        "R4C2-prix-de-vendee-le-departement.html",
+        "R4C3-prix-vendee-grand-littoral.html",
+        "R4C4-prix-de-la-ville-des-sables-d-olonne.html",
+        "R4C5-prix-des-sables-d-olonne-agglomeration.html",
+        "R4C6-prix-stand-animation-pmu.html",
+        "R4C7-prix-des-societes-des-courses-de-vendee.html",
+        "R4C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-la-region-pays-de-la-loire.html",
+        "R5C2-prix-de-vendee-le-departement.html",
+        "R5C3-prix-vendee-grand-littoral.html",
+        "R5C4-prix-de-la-ville-des-sables-d-olonne.html",
+        "R5C5-prix-des-sables-d-olonne-agglomeration.html",
+        "R5C6-prix-stand-animation-pmu.html",
+        "R5C7-prix-des-societes-des-courses-de-vendee.html",
+        "R5C8-prix-de-la-societe-du-cheval-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:43.601656Z"
+}

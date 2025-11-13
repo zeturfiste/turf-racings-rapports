@@ -1,0 +1,79 @@
+{
+  "date": "2019-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-05",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-05/2019-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C3-prix-du-bois-bonnet.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C4-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C5-prix-anabaa.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C6-prix-darshaan.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C7-prix-molton.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R1-chantilly/R1C8-prix-du-pays-soissonnais.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C1-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C2-prix-montjeu.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C4-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C5-prix-anabaa.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C6-prix-darshaan.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C7-prix-molton.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R2-nantes/R2C8-prix-du-pays-soissonnais.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C1-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C2-prix-montjeu.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C3-prix-du-bois-bonnet.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C4-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C5-prix-anabaa.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C6-prix-darshaan.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C7-prix-molton.html",
+      "resultats-et-rapports/2019/03/2019-03-05/R4-cagnes-sur-mer/R4C8-prix-du-pays-soissonnais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nantes",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-pays-de-france.html",
+        "R1C2-prix-montjeu.html",
+        "R1C3-prix-du-bois-bonnet.html",
+        "R1C4-prix-du-pays-valoisien.html",
+        "R1C5-prix-anabaa.html",
+        "R1C6-prix-darshaan.html",
+        "R1C7-prix-molton.html",
+        "R1C8-prix-du-pays-soissonnais.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-pays-de-france.html",
+        "R2C2-prix-montjeu.html",
+        "R2C3-prix-du-bois-bonnet.html",
+        "R2C4-prix-du-pays-valoisien.html",
+        "R2C5-prix-anabaa.html",
+        "R2C6-prix-darshaan.html",
+        "R2C7-prix-molton.html",
+        "R2C8-prix-du-pays-soissonnais.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-pays-de-france.html",
+        "R4C2-prix-montjeu.html",
+        "R4C3-prix-du-bois-bonnet.html",
+        "R4C4-prix-du-pays-valoisien.html",
+        "R4C5-prix-anabaa.html",
+        "R4C6-prix-darshaan.html",
+        "R4C7-prix-molton.html",
+        "R4C8-prix-du-pays-soissonnais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:04.862671Z"
+}

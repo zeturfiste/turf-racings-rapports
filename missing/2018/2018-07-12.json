@@ -1,0 +1,87 @@
+{
+  "date": "2018-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-12",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-12/2018-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-12/R1-paris-longchamp/R1C2-prix-de-l-ile-seguin.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R1-paris-longchamp/R1C8-prix-du-pont-de-la-concorde.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R3-amiens/R3C1-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R3-amiens/R3C5-prix-de-l-ile-de-la-jatte.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R3-amiens/R3C6-prix-de-l-arsenal.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R3-amiens/R3C8-prix-du-pont-de-la-concorde.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R4-pornichet-la-baule/R4C1-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R4-pornichet-la-baule/R4C2-prix-de-l-ile-seguin.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R4-pornichet-la-baule/R4C4-prix-du-montparnasse.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R4-pornichet-la-baule/R4C7-prix-du-moulin-a-vent.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R4-pornichet-la-baule/R4C8-prix-du-pont-de-la-concorde.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C1-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C2-prix-de-l-ile-seguin.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C3-prix-de-nanterre.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C5-prix-de-l-ile-de-la-jatte.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C6-prix-de-l-arsenal.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C7-prix-du-moulin-a-vent.html",
+      "resultats-et-rapports/2018/07/2018-07-12/R5-marseille-borely/R5C8-prix-du-pont-de-la-concorde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-amiens",
+      "R4-pornichet-la-baule",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-axe-majeur.html",
+        "R1C2-prix-de-l-ile-seguin.html",
+        "R1C3-prix-de-nanterre.html",
+        "R1C4-prix-du-montparnasse.html",
+        "R1C5-prix-de-l-ile-de-la-jatte.html",
+        "R1C6-prix-de-l-arsenal.html",
+        "R1C7-prix-du-moulin-a-vent.html",
+        "R1C8-prix-du-pont-de-la-concorde.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-de-l-axe-majeur.html",
+        "R3C2-prix-de-l-ile-seguin.html",
+        "R3C3-prix-de-nanterre.html",
+        "R3C4-prix-du-montparnasse.html",
+        "R3C5-prix-de-l-ile-de-la-jatte.html",
+        "R3C6-prix-de-l-arsenal.html",
+        "R3C7-prix-du-moulin-a-vent.html",
+        "R3C8-prix-du-pont-de-la-concorde.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-l-axe-majeur.html",
+        "R4C2-prix-de-l-ile-seguin.html",
+        "R4C3-prix-de-nanterre.html",
+        "R4C4-prix-du-montparnasse.html",
+        "R4C5-prix-de-l-ile-de-la-jatte.html",
+        "R4C6-prix-de-l-arsenal.html",
+        "R4C7-prix-du-moulin-a-vent.html",
+        "R4C8-prix-du-pont-de-la-concorde.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-de-l-axe-majeur.html",
+        "R5C2-prix-de-l-ile-seguin.html",
+        "R5C3-prix-de-nanterre.html",
+        "R5C4-prix-du-montparnasse.html",
+        "R5C5-prix-de-l-ile-de-la-jatte.html",
+        "R5C6-prix-de-l-arsenal.html",
+        "R5C7-prix-du-moulin-a-vent.html",
+        "R5C8-prix-du-pont-de-la-concorde.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:55.781993Z"
+}

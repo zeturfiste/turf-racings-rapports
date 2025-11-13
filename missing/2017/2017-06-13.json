@@ -1,0 +1,96 @@
+{
+  "date": "2017-06-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-13",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-13/2017-06-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C1-prix-yves-lalleman.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C2-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C3-grand-prix-synergie.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C4-prix-du-petit-port.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C5-prix-des-espaces-verts.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C6-prix-du-val-d-erdre.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R1-nantes/R1C7-prix-kerivon.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C1-prix-yves-lalleman.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C2-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C3-grand-prix-synergie.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C4-prix-du-petit-port.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C5-prix-des-espaces-verts.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C6-prix-du-val-d-erdre.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C7-prix-kerivon.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R2-le-croise-laroche/R2C8-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R3-aix-les-bains/R3C3-grand-prix-synergie.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R3-aix-les-bains/R3C4-prix-du-petit-port.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R3-aix-les-bains/R3C5-prix-des-espaces-verts.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R3-aix-les-bains/R3C7-prix-kerivon.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R3-aix-les-bains/R3C8-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C1-prix-yves-lalleman.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C2-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C3-grand-prix-synergie.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C5-prix-des-espaces-verts.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C6-prix-du-val-d-erdre.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C7-prix-kerivon.html",
+      "resultats-et-rapports/2017/06/2017-06-13/R5-vincennes/R5C8-prix-gerald-de-rochefort.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-le-croise-laroche",
+      "R3-aix-les-bains",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-yves-lalleman.html",
+        "R1C2-grand-prix-des-aqps.html",
+        "R1C3-grand-prix-synergie.html",
+        "R1C4-prix-du-petit-port.html",
+        "R1C5-prix-des-espaces-verts.html",
+        "R1C6-prix-du-val-d-erdre.html",
+        "R1C7-prix-kerivon.html",
+        "R1C8-prix-gerald-de-rochefort.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-yves-lalleman.html",
+        "R2C2-grand-prix-des-aqps.html",
+        "R2C3-grand-prix-synergie.html",
+        "R2C4-prix-du-petit-port.html",
+        "R2C5-prix-des-espaces-verts.html",
+        "R2C6-prix-du-val-d-erdre.html",
+        "R2C7-prix-kerivon.html",
+        "R2C8-prix-gerald-de-rochefort.html"
+      ],
+      "R3-aix-les-bains": [
+        "R3C1-prix-yves-lalleman.html",
+        "R3C2-grand-prix-des-aqps.html",
+        "R3C3-grand-prix-synergie.html",
+        "R3C4-prix-du-petit-port.html",
+        "R3C5-prix-des-espaces-verts.html",
+        "R3C6-prix-du-val-d-erdre.html",
+        "R3C7-prix-kerivon.html",
+        "R3C8-prix-gerald-de-rochefort.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-yves-lalleman.html",
+        "R5C2-grand-prix-des-aqps.html",
+        "R5C3-grand-prix-synergie.html",
+        "R5C4-prix-du-petit-port.html",
+        "R5C5-prix-des-espaces-verts.html",
+        "R5C6-prix-du-val-d-erdre.html",
+        "R5C7-prix-kerivon.html",
+        "R5C8-prix-gerald-de-rochefort.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:55.999592Z"
+}

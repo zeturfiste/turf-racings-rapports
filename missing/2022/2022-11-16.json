@@ -1,0 +1,103 @@
+{
+  "date": "2022-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-16",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-16/2022-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C3-prix-de-baliviere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C4-prix-du-cabinet-des-clouets.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C5-prix-du-mont-griffon.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C7-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C8-prix-du-cabinet-du-giotto.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R1-chantilly/R1C9-prix-de-la-galerie-de-psyche.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C1-prix-du-cabinet-des-arts-graphiques.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C3-prix-de-baliviere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C4-prix-du-cabinet-des-clouets.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C6-prix-du-cabinet-des-antiques.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C7-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C8-prix-du-cabinet-du-giotto.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R3-reims/R3C9-prix-de-la-galerie-de-psyche.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C1-prix-du-cabinet-des-arts-graphiques.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C2-prix-de-gateliere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C3-prix-de-baliviere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C4-prix-du-cabinet-des-clouets.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C5-prix-du-mont-griffon.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C7-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C8-prix-du-cabinet-du-giotto.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R4-graignes/R4C9-prix-de-la-galerie-de-psyche.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C1-prix-du-cabinet-des-arts-graphiques.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C2-prix-de-gateliere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C3-prix-de-baliviere.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C4-prix-du-cabinet-des-clouets.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C5-prix-du-mont-griffon.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C6-prix-du-cabinet-des-antiques.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C7-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C8-prix-du-cabinet-du-giotto.html",
+      "resultats-et-rapports/2022/11/2022-11-16/R7-marseille-borely/R7C9-prix-de-la-galerie-de-psyche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-reims",
+      "R4-graignes",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-cabinet-des-arts-graphiques.html",
+        "R1C2-prix-de-gateliere.html",
+        "R1C3-prix-de-baliviere.html",
+        "R1C4-prix-du-cabinet-des-clouets.html",
+        "R1C5-prix-du-mont-griffon.html",
+        "R1C6-prix-du-cabinet-des-antiques.html",
+        "R1C7-prix-du-vivier-madame.html",
+        "R1C8-prix-du-cabinet-du-giotto.html",
+        "R1C9-prix-de-la-galerie-de-psyche.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-du-cabinet-des-arts-graphiques.html",
+        "R3C2-prix-de-gateliere.html",
+        "R3C3-prix-de-baliviere.html",
+        "R3C4-prix-du-cabinet-des-clouets.html",
+        "R3C5-prix-du-mont-griffon.html",
+        "R3C6-prix-du-cabinet-des-antiques.html",
+        "R3C7-prix-du-vivier-madame.html",
+        "R3C8-prix-du-cabinet-du-giotto.html",
+        "R3C9-prix-de-la-galerie-de-psyche.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-du-cabinet-des-arts-graphiques.html",
+        "R4C2-prix-de-gateliere.html",
+        "R4C3-prix-de-baliviere.html",
+        "R4C4-prix-du-cabinet-des-clouets.html",
+        "R4C5-prix-du-mont-griffon.html",
+        "R4C6-prix-du-cabinet-des-antiques.html",
+        "R4C7-prix-du-vivier-madame.html",
+        "R4C8-prix-du-cabinet-du-giotto.html",
+        "R4C9-prix-de-la-galerie-de-psyche.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-du-cabinet-des-arts-graphiques.html",
+        "R7C2-prix-de-gateliere.html",
+        "R7C3-prix-de-baliviere.html",
+        "R7C4-prix-du-cabinet-des-clouets.html",
+        "R7C5-prix-du-mont-griffon.html",
+        "R7C6-prix-du-cabinet-des-antiques.html",
+        "R7C7-prix-du-vivier-madame.html",
+        "R7C8-prix-du-cabinet-du-giotto.html",
+        "R7C9-prix-de-la-galerie-de-psyche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:31.650576Z"
+}

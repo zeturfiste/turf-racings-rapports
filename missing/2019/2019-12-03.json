@@ -1,0 +1,62 @@
+{
+  "date": "2019-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/12/2019-12-03",
+    "date_html": "resultats-et-rapports/2019/12/2019-12-03/2019-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/12/2019-12-03/R2-cagnes-sur-mer/R2C5-prix-de-laon.html",
+      "resultats-et-rapports/2019/12/2019-12-03/R2-cagnes-sur-mer/R2C6-prix-de-mirecourt.html",
+      "resultats-et-rapports/2019/12/2019-12-03/R4-marseille-vivaux/R4C1-prix-des-pyrenees.html",
+      "resultats-et-rapports/2019/12/2019-12-03/R4-marseille-vivaux/R4C6-prix-de-mirecourt.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-pyrenees.html",
+        "R1C2-prix-de-quincy-sous-senart.html",
+        "R1C3-prix-de-carpentras.html",
+        "R1C4-prix-d-hennebont.html",
+        "R1C5-prix-de-laon.html",
+        "R1C6-prix-de-mirecourt.html",
+        "R1C7-prix-des-gardenias.html",
+        "R1C8-prix-de-meral.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-des-pyrenees.html",
+        "R2C2-prix-de-quincy-sous-senart.html",
+        "R2C3-prix-de-carpentras.html",
+        "R2C4-prix-d-hennebont.html",
+        "R2C5-prix-de-laon.html",
+        "R2C6-prix-de-mirecourt.html",
+        "R2C7-prix-des-gardenias.html",
+        "R2C8-prix-de-meral.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-des-pyrenees.html",
+        "R4C2-prix-de-quincy-sous-senart.html",
+        "R4C3-prix-de-carpentras.html",
+        "R4C4-prix-d-hennebont.html",
+        "R4C5-prix-de-laon.html",
+        "R4C6-prix-de-mirecourt.html",
+        "R4C7-prix-des-gardenias.html",
+        "R4C8-prix-de-meral.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:34.126071Z"
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2009-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/07/2009-07-08",
+    "date_html": "resultats-et-rapports/2009/07/2009-07-08/2009-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/07/2009-07-08/R1-chateaubriant/R1C1-prix-francis-chantebel.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R1-chateaubriant/R1C2-prix-de-synergie.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R1-chateaubriant/R1C3-prix-de-breteuil.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R1-chateaubriant/R1C4-prix-de-nozay.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R2-deauville/R2C2-prix-de-synergie.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R2-deauville/R2C4-prix-de-nozay.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C1-prix-francis-chantebel.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C2-prix-de-synergie.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C3-prix-de-breteuil.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C4-prix-de-nozay.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C5-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R6-les-sables-d-olonne/R6C8-prix-pierre-lefevre.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R31-zerace/R31C3-prix-de-breteuil.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R31-zerace/R31C7-prix-tenor-de-beaune.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R31-zerace/R31C8-prix-pierre-lefevre.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R70-le-cap-d-agde-perpignan/R70C2-prix-de-synergie.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R70-le-cap-d-agde-perpignan/R70C3-prix-de-breteuil.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R70-le-cap-d-agde-perpignan/R70C4-prix-de-nozay.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R70-le-cap-d-agde-perpignan/R70C5-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/07/2009-07-08/R70-le-cap-d-agde-perpignan/R70C6-prix-presse-ocean.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-deauville",
+      "R6-les-sables-d-olonne",
+      "R31-zerace",
+      "R70-le-cap-d-agde-perpignan"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-prix-francis-chantebel.html",
+        "R1C2-prix-de-synergie.html",
+        "R1C3-prix-de-breteuil.html",
+        "R1C4-prix-de-nozay.html",
+        "R1C5-prix-de-cabourg.html",
+        "R1C6-prix-presse-ocean.html",
+        "R1C7-prix-tenor-de-beaune.html",
+        "R1C8-prix-pierre-lefevre.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-francis-chantebel.html",
+        "R2C2-prix-de-synergie.html",
+        "R2C3-prix-de-breteuil.html",
+        "R2C4-prix-de-nozay.html",
+        "R2C5-prix-de-cabourg.html",
+        "R2C6-prix-presse-ocean.html",
+        "R2C7-prix-tenor-de-beaune.html",
+        "R2C8-prix-pierre-lefevre.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-francis-chantebel.html",
+        "R6C2-prix-de-synergie.html",
+        "R6C3-prix-de-breteuil.html",
+        "R6C4-prix-de-nozay.html",
+        "R6C5-prix-de-cabourg.html",
+        "R6C6-prix-presse-ocean.html",
+        "R6C7-prix-tenor-de-beaune.html",
+        "R6C8-prix-pierre-lefevre.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-francis-chantebel.html",
+        "R31C2-prix-de-synergie.html",
+        "R31C3-prix-de-breteuil.html",
+        "R31C4-prix-de-nozay.html",
+        "R31C5-prix-de-cabourg.html",
+        "R31C6-prix-presse-ocean.html",
+        "R31C7-prix-tenor-de-beaune.html",
+        "R31C8-prix-pierre-lefevre.html"
+      ],
+      "R70-le-cap-d-agde-perpignan": [
+        "R70C1-prix-francis-chantebel.html",
+        "R70C2-prix-de-synergie.html",
+        "R70C3-prix-de-breteuil.html",
+        "R70C4-prix-de-nozay.html",
+        "R70C5-prix-de-cabourg.html",
+        "R70C6-prix-presse-ocean.html",
+        "R70C7-prix-tenor-de-beaune.html",
+        "R70C8-prix-pierre-lefevre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:35:38.527408Z"
+}

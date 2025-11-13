@@ -1,0 +1,91 @@
+{
+  "date": "2025-05-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-22",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-22/2025-05-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-22/R1-paris-longchamp/R1C3-prix-du-musee-du-luxembourg.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R1-paris-longchamp/R1C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R1-paris-longchamp/R1C6-prix-finlande.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R1-paris-longchamp/R1C7-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C1-prix-de-montretout.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C3-prix-du-musee-du-luxembourg.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C4-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C6-prix-finlande.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R2-salon-de-provence/R2C7-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C3-prix-du-musee-du-luxembourg.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C4-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C6-prix-finlande.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C7-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R3-nantes/R3C8-prix-radio-fg-prix-du-pont-de-sully.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C1-prix-de-montretout.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C2-prix-hocquart.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C6-prix-finlande.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C7-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2025/05/2025-05-22/R4-le-mans/R4C8-prix-radio-fg-prix-du-pont-de-sully.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-salon-de-provence",
+      "R3-nantes",
+      "R4-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-montretout.html",
+        "R1C2-prix-hocquart.html",
+        "R1C3-prix-du-musee-du-luxembourg.html",
+        "R1C4-prix-du-jeu-de-paume.html",
+        "R1C5-prix-du-palais-de-la-decouverte.html",
+        "R1C6-prix-finlande.html",
+        "R1C7-prix-de-l-orangerie.html",
+        "R1C8-prix-radio-fg-prix-du-pont-de-sully.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-de-montretout.html",
+        "R2C2-prix-hocquart.html",
+        "R2C3-prix-du-musee-du-luxembourg.html",
+        "R2C4-prix-du-jeu-de-paume.html",
+        "R2C5-prix-du-palais-de-la-decouverte.html",
+        "R2C6-prix-finlande.html",
+        "R2C7-prix-de-l-orangerie.html",
+        "R2C8-prix-radio-fg-prix-du-pont-de-sully.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-montretout.html",
+        "R3C2-prix-hocquart.html",
+        "R3C3-prix-du-musee-du-luxembourg.html",
+        "R3C4-prix-du-jeu-de-paume.html",
+        "R3C5-prix-du-palais-de-la-decouverte.html",
+        "R3C6-prix-finlande.html",
+        "R3C7-prix-de-l-orangerie.html",
+        "R3C8-prix-radio-fg-prix-du-pont-de-sully.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-de-montretout.html",
+        "R4C2-prix-hocquart.html",
+        "R4C3-prix-du-musee-du-luxembourg.html",
+        "R4C4-prix-du-jeu-de-paume.html",
+        "R4C5-prix-du-palais-de-la-decouverte.html",
+        "R4C6-prix-finlande.html",
+        "R4C7-prix-de-l-orangerie.html",
+        "R4C8-prix-radio-fg-prix-du-pont-de-sully.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:57.598497Z"
+}

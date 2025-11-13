@@ -1,0 +1,67 @@
+{
+  "date": "2018-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/05/2018-05-23",
+    "date_html": "resultats-et-rapports/2018/05/2018-05-23/2018-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/05/2018-05-23/R1-le-croise-laroche/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R1-le-croise-laroche/R1C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R1-le-croise-laroche/R1C3-prix-pmu-de-l-arc-de-triomphe-lille.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R1-le-croise-laroche/R1C4-prix-grand-lille-tv.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R3-le-lion-d-angers/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R4-vichy/R4C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R4-vichy/R4C3-prix-pmu-de-l-arc-de-triomphe-lille.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R4-vichy/R4C4-prix-grand-lille-tv.html",
+      "resultats-et-rapports/2018/05/2018-05-23/R4-vichy/R4C8-prix-euro-ringeat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-croise-laroche",
+      "R3-le-lion-d-angers",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-le-croise-laroche": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-grand-national-des-amateurs.html",
+        "R1C3-prix-pmu-de-l-arc-de-triomphe-lille.html",
+        "R1C4-prix-grand-lille-tv.html",
+        "R1C5-prix-rent-a-car-la-madeleine.html",
+        "R1C6-prix-prince-du-verger.html",
+        "R1C7-prix-o-sullivan.html",
+        "R1C8-prix-euro-ringeat.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-grand-national-des-amateurs.html",
+        "R3C3-prix-pmu-de-l-arc-de-triomphe-lille.html",
+        "R3C4-prix-grand-lille-tv.html",
+        "R3C5-prix-rent-a-car-la-madeleine.html",
+        "R3C6-prix-prince-du-verger.html",
+        "R3C7-prix-o-sullivan.html",
+        "R3C8-prix-euro-ringeat.html"
+      ],
+      "R4-vichy": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-grand-national-des-amateurs.html",
+        "R4C3-prix-pmu-de-l-arc-de-triomphe-lille.html",
+        "R4C4-prix-grand-lille-tv.html",
+        "R4C5-prix-rent-a-car-la-madeleine.html",
+        "R4C6-prix-prince-du-verger.html",
+        "R4C7-prix-o-sullivan.html",
+        "R4C8-prix-euro-ringeat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:39.590867Z"
+}

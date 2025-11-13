@@ -1,0 +1,103 @@
+{
+  "date": "2017-08-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-29",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-29/2017-08-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C3-prix-les-courses-rmc.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C4-prix-team-duga.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C5-prix-super-football-show.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C6-prix-les-grandes-gueules.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C7-prix-radio-brunet.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R1-clairefontaine/R1C8-prix-m-comme-maitena.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C1-prix-bourdin-direct.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C2-prix-super-moscato-show.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C3-prix-les-courses-rmc.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C4-prix-team-duga.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C5-prix-super-football-show.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C6-prix-les-grandes-gueules.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R2-la-capelle/R2C7-prix-radio-brunet.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R3-dax/R3C7-prix-radio-brunet.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R3-dax/R3C8-prix-m-comme-maitena.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R4-laval/R4C3-prix-les-courses-rmc.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R4-laval/R4C4-prix-team-duga.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R4-laval/R4C5-prix-super-football-show.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R4-laval/R4C8-prix-m-comme-maitena.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R5-cabourg/R5C3-prix-les-courses-rmc.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R5-cabourg/R5C4-prix-team-duga.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R5-cabourg/R5C6-prix-les-grandes-gueules.html",
+      "resultats-et-rapports/2017/08/2017-08-29/R5-cabourg/R5C7-prix-radio-brunet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-la-capelle",
+      "R3-dax",
+      "R4-laval",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-bourdin-direct.html",
+        "R1C2-prix-super-moscato-show.html",
+        "R1C3-prix-les-courses-rmc.html",
+        "R1C4-prix-team-duga.html",
+        "R1C5-prix-super-football-show.html",
+        "R1C6-prix-les-grandes-gueules.html",
+        "R1C7-prix-radio-brunet.html",
+        "R1C8-prix-m-comme-maitena.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-bourdin-direct.html",
+        "R2C2-prix-super-moscato-show.html",
+        "R2C3-prix-les-courses-rmc.html",
+        "R2C4-prix-team-duga.html",
+        "R2C5-prix-super-football-show.html",
+        "R2C6-prix-les-grandes-gueules.html",
+        "R2C7-prix-radio-brunet.html",
+        "R2C8-prix-m-comme-maitena.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-bourdin-direct.html",
+        "R3C2-prix-super-moscato-show.html",
+        "R3C3-prix-les-courses-rmc.html",
+        "R3C4-prix-team-duga.html",
+        "R3C5-prix-super-football-show.html",
+        "R3C6-prix-les-grandes-gueules.html",
+        "R3C7-prix-radio-brunet.html",
+        "R3C8-prix-m-comme-maitena.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-bourdin-direct.html",
+        "R4C2-prix-super-moscato-show.html",
+        "R4C3-prix-les-courses-rmc.html",
+        "R4C4-prix-team-duga.html",
+        "R4C5-prix-super-football-show.html",
+        "R4C6-prix-les-grandes-gueules.html",
+        "R4C7-prix-radio-brunet.html",
+        "R4C8-prix-m-comme-maitena.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-bourdin-direct.html",
+        "R5C2-prix-super-moscato-show.html",
+        "R5C3-prix-les-courses-rmc.html",
+        "R5C4-prix-team-duga.html",
+        "R5C5-prix-super-football-show.html",
+        "R5C6-prix-les-grandes-gueules.html",
+        "R5C7-prix-radio-brunet.html",
+        "R5C8-prix-m-comme-maitena.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:20.560777Z"
+}

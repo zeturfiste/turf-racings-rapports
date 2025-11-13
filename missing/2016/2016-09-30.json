@@ -1,0 +1,93 @@
+{
+  "date": "2016-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-30",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-30/2016-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C1-prix-ella.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C2-prix-austria.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C3-prix-hekate.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C4-prix-felicitas.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C5-prix-irma.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C6-prix-etamin.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R1-vincennes/R1C7-prix-byblis.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R3-mauquenchy/R3C1-prix-ella.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R3-mauquenchy/R3C4-prix-felicitas.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R3-mauquenchy/R3C5-prix-irma.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R3-mauquenchy/R3C6-prix-etamin.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R5-lyon-la-soie/R5C4-prix-felicitas.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C1-prix-ella.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C2-prix-austria.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C3-prix-hekate.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C4-prix-felicitas.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C5-prix-irma.html",
+      "resultats-et-rapports/2016/09/2016-09-30/R6-laval/R6C6-prix-etamin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mauquenchy",
+      "R4-saint-cloud",
+      "R5-lyon-la-soie",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ella.html",
+        "R1C2-prix-austria.html",
+        "R1C3-prix-hekate.html",
+        "R1C4-prix-felicitas.html",
+        "R1C5-prix-irma.html",
+        "R1C6-prix-etamin.html",
+        "R1C7-prix-byblis.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-ella.html",
+        "R3C2-prix-austria.html",
+        "R3C3-prix-hekate.html",
+        "R3C4-prix-felicitas.html",
+        "R3C5-prix-irma.html",
+        "R3C6-prix-etamin.html",
+        "R3C7-prix-byblis.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-ella.html",
+        "R4C2-prix-austria.html",
+        "R4C3-prix-hekate.html",
+        "R4C4-prix-felicitas.html",
+        "R4C5-prix-irma.html",
+        "R4C6-prix-etamin.html",
+        "R4C7-prix-byblis.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-ella.html",
+        "R5C2-prix-austria.html",
+        "R5C3-prix-hekate.html",
+        "R5C4-prix-felicitas.html",
+        "R5C5-prix-irma.html",
+        "R5C6-prix-etamin.html",
+        "R5C7-prix-byblis.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-ella.html",
+        "R6C2-prix-austria.html",
+        "R6C3-prix-hekate.html",
+        "R6C4-prix-felicitas.html",
+        "R6C5-prix-irma.html",
+        "R6C6-prix-etamin.html",
+        "R6C7-prix-byblis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:40.252482Z"
+}

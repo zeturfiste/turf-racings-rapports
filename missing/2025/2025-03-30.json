@@ -1,0 +1,112 @@
+{
+  "date": "2025-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-30",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-30/2025-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-30/R1-auteuil/R1C2-prix-grandak.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R1-auteuil/R1C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R1-auteuil/R1C5-prix-necor.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R3-nantes/R3C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R4-cordemais/R4C6-grand-steeple-chase-masters-prix-murat.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R4-cordemais/R4C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R4-cordemais/R4C8-prix-rose-laurel.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R5-lyon-la-soie/R5C1-prix-geographie.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R5-lyon-la-soie/R5C8-prix-rose-laurel.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R9-rambouillet/R9C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R9-rambouillet/R9C5-prix-necor.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R9-rambouillet/R9C6-grand-steeple-chase-masters-prix-murat.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R9-rambouillet/R9C8-prix-rose-laurel.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C1-prix-geographie.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C2-prix-grandak.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C4-prix-fleuret.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C5-prix-necor.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C6-grand-steeple-chase-masters-prix-murat.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2025/03/2025-03-30/R10-beaumont-de-lomagne/R10C8-prix-rose-laurel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-nantes",
+      "R4-cordemais",
+      "R5-lyon-la-soie",
+      "R9-rambouillet",
+      "R10-beaumont-de-lomagne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-geographie.html",
+        "R1C2-prix-grandak.html",
+        "R1C3-prix-rose-or-no.html",
+        "R1C4-prix-fleuret.html",
+        "R1C5-prix-necor.html",
+        "R1C6-grand-steeple-chase-masters-prix-murat.html",
+        "R1C7-prix-alain-grimaux.html",
+        "R1C8-prix-rose-laurel.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-geographie.html",
+        "R3C2-prix-grandak.html",
+        "R3C3-prix-rose-or-no.html",
+        "R3C4-prix-fleuret.html",
+        "R3C5-prix-necor.html",
+        "R3C6-grand-steeple-chase-masters-prix-murat.html",
+        "R3C7-prix-alain-grimaux.html",
+        "R3C8-prix-rose-laurel.html"
+      ],
+      "R4-cordemais": [
+        "R4C1-prix-geographie.html",
+        "R4C2-prix-grandak.html",
+        "R4C3-prix-rose-or-no.html",
+        "R4C4-prix-fleuret.html",
+        "R4C5-prix-necor.html",
+        "R4C6-grand-steeple-chase-masters-prix-murat.html",
+        "R4C7-prix-alain-grimaux.html",
+        "R4C8-prix-rose-laurel.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-geographie.html",
+        "R5C2-prix-grandak.html",
+        "R5C3-prix-rose-or-no.html",
+        "R5C4-prix-fleuret.html",
+        "R5C5-prix-necor.html",
+        "R5C6-grand-steeple-chase-masters-prix-murat.html",
+        "R5C7-prix-alain-grimaux.html",
+        "R5C8-prix-rose-laurel.html"
+      ],
+      "R9-rambouillet": [
+        "R9C1-prix-geographie.html",
+        "R9C2-prix-grandak.html",
+        "R9C3-prix-rose-or-no.html",
+        "R9C4-prix-fleuret.html",
+        "R9C5-prix-necor.html",
+        "R9C6-grand-steeple-chase-masters-prix-murat.html",
+        "R9C7-prix-alain-grimaux.html",
+        "R9C8-prix-rose-laurel.html"
+      ],
+      "R10-beaumont-de-lomagne": [
+        "R10C1-prix-geographie.html",
+        "R10C2-prix-grandak.html",
+        "R10C3-prix-rose-or-no.html",
+        "R10C4-prix-fleuret.html",
+        "R10C5-prix-necor.html",
+        "R10C6-grand-steeple-chase-masters-prix-murat.html",
+        "R10C7-prix-alain-grimaux.html",
+        "R10C8-prix-rose-laurel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:37.560678Z"
+}

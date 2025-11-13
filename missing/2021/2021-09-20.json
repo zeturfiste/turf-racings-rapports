@@ -1,0 +1,82 @@
+{
+  "date": "2021-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-20",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-20/2021-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-20/R3-cavaillon/R3C6-prix-entreprise-lepatre-le-chatelet-en-brie.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R4-laval/R4C2-prix-de-la-grotte-aux-cristaux.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R4-laval/R4C5-prix-des-melezes.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R4-laval/R4C8-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R6-le-croise-laroche/R6C1-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R6-le-croise-laroche/R6C2-prix-de-la-grotte-aux-cristaux.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R6-le-croise-laroche/R6C3-prix-des-cerfs.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R6-le-croise-laroche/R6C4-prix-de-la-table-du-grand-maitre.html",
+      "resultats-et-rapports/2021/09/2021-09-20/R6-le-croise-laroche/R6C6-prix-entreprise-lepatre-le-chatelet-en-brie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-cavaillon",
+      "R4-laval",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-roland-fougedoire.html",
+        "R1C2-prix-de-la-grotte-aux-cristaux.html",
+        "R1C3-prix-des-cerfs.html",
+        "R1C4-prix-de-la-table-du-grand-maitre.html",
+        "R1C5-prix-des-melezes.html",
+        "R1C6-prix-entreprise-lepatre-le-chatelet-en-brie.html",
+        "R1C7-prix-de-la-lande-de-bruyere.html",
+        "R1C8-prix-du-bois-notre-dame.html",
+        "R1C9-prix-du-massif-forestier.html"
+      ],
+      "R3-cavaillon": [
+        "R3C1-prix-roland-fougedoire.html",
+        "R3C2-prix-de-la-grotte-aux-cristaux.html",
+        "R3C3-prix-des-cerfs.html",
+        "R3C4-prix-de-la-table-du-grand-maitre.html",
+        "R3C5-prix-des-melezes.html",
+        "R3C6-prix-entreprise-lepatre-le-chatelet-en-brie.html",
+        "R3C7-prix-de-la-lande-de-bruyere.html",
+        "R3C8-prix-du-bois-notre-dame.html",
+        "R3C9-prix-du-massif-forestier.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-roland-fougedoire.html",
+        "R4C2-prix-de-la-grotte-aux-cristaux.html",
+        "R4C3-prix-des-cerfs.html",
+        "R4C4-prix-de-la-table-du-grand-maitre.html",
+        "R4C5-prix-des-melezes.html",
+        "R4C6-prix-entreprise-lepatre-le-chatelet-en-brie.html",
+        "R4C7-prix-de-la-lande-de-bruyere.html",
+        "R4C8-prix-du-bois-notre-dame.html",
+        "R4C9-prix-du-massif-forestier.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-roland-fougedoire.html",
+        "R6C2-prix-de-la-grotte-aux-cristaux.html",
+        "R6C3-prix-des-cerfs.html",
+        "R6C4-prix-de-la-table-du-grand-maitre.html",
+        "R6C5-prix-des-melezes.html",
+        "R6C6-prix-entreprise-lepatre-le-chatelet-en-brie.html",
+        "R6C7-prix-de-la-lande-de-bruyere.html",
+        "R6C8-prix-du-bois-notre-dame.html",
+        "R6C9-prix-du-massif-forestier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:01.858155Z"
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2015-11-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-01",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-01/2015-11-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-01/R1-saint-cloud/R1C6-prix-de-flore.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R2-saint-brieuc/R2C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R2-saint-brieuc/R2C5-prix-du-manoir.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R2-saint-brieuc/R2C6-prix-de-flore.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R3-laval/R3C7-prix-perth.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R3-laval/R3C8-prix-de-chemoitou.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R7-nimes/R7C1-prix-paul-noel-delahoutre.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R7-nimes/R7C2-prix-de-feucherolles.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R7-nimes/R7C3-criterium-international.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R7-nimes/R7C5-prix-du-manoir.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R8-cherbourg/R8C2-prix-de-feucherolles.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R8-cherbourg/R8C3-criterium-international.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R8-cherbourg/R8C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R8-cherbourg/R8C6-prix-de-flore.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R8-cherbourg/R8C7-prix-perth.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C1-prix-paul-noel-delahoutre.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C2-prix-de-feucherolles.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C3-criterium-international.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C5-prix-du-manoir.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C6-prix-de-flore.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C7-prix-perth.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R9-lyon-parilly/R9C8-prix-de-chemoitou.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C2-prix-de-feucherolles.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C3-criterium-international.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C5-prix-du-manoir.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C6-prix-de-flore.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C7-prix-perth.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R10-beaumont-de-lomagne/R10C8-prix-de-chemoitou.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C1-prix-paul-noel-delahoutre.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C2-prix-de-feucherolles.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C3-criterium-international.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C5-prix-du-manoir.html",
+      "resultats-et-rapports/2015/11/2015-11-01/R11-pontchateau/R11C6-prix-de-flore.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-saint-brieuc",
+      "R3-laval",
+      "R7-nimes",
+      "R8-cherbourg",
+      "R9-lyon-parilly",
+      "R10-beaumont-de-lomagne",
+      "R11-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-paul-noel-delahoutre.html",
+        "R1C2-prix-de-feucherolles.html",
+        "R1C3-criterium-international.html",
+        "R1C4-criterium-de-saint-cloud.html",
+        "R1C5-prix-du-manoir.html",
+        "R1C6-prix-de-flore.html",
+        "R1C7-prix-perth.html",
+        "R1C8-prix-de-chemoitou.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-paul-noel-delahoutre.html",
+        "R2C2-prix-de-feucherolles.html",
+        "R2C3-criterium-international.html",
+        "R2C4-criterium-de-saint-cloud.html",
+        "R2C5-prix-du-manoir.html",
+        "R2C6-prix-de-flore.html",
+        "R2C7-prix-perth.html",
+        "R2C8-prix-de-chemoitou.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-paul-noel-delahoutre.html",
+        "R3C2-prix-de-feucherolles.html",
+        "R3C3-criterium-international.html",
+        "R3C4-criterium-de-saint-cloud.html",
+        "R3C5-prix-du-manoir.html",
+        "R3C6-prix-de-flore.html",
+        "R3C7-prix-perth.html",
+        "R3C8-prix-de-chemoitou.html"
+      ],
+      "R7-nimes": [
+        "R7C1-prix-paul-noel-delahoutre.html",
+        "R7C2-prix-de-feucherolles.html",
+        "R7C3-criterium-international.html",
+        "R7C4-criterium-de-saint-cloud.html",
+        "R7C5-prix-du-manoir.html",
+        "R7C6-prix-de-flore.html",
+        "R7C7-prix-perth.html",
+        "R7C8-prix-de-chemoitou.html"
+      ],
+      "R8-cherbourg": [
+        "R8C1-prix-paul-noel-delahoutre.html",
+        "R8C2-prix-de-feucherolles.html",
+        "R8C3-criterium-international.html",
+        "R8C4-criterium-de-saint-cloud.html",
+        "R8C5-prix-du-manoir.html",
+        "R8C6-prix-de-flore.html",
+        "R8C7-prix-perth.html",
+        "R8C8-prix-de-chemoitou.html"
+      ],
+      "R9-lyon-parilly": [
+        "R9C1-prix-paul-noel-delahoutre.html",
+        "R9C2-prix-de-feucherolles.html",
+        "R9C3-criterium-international.html",
+        "R9C4-criterium-de-saint-cloud.html",
+        "R9C5-prix-du-manoir.html",
+        "R9C6-prix-de-flore.html",
+        "R9C7-prix-perth.html",
+        "R9C8-prix-de-chemoitou.html"
+      ],
+      "R10-beaumont-de-lomagne": [
+        "R10C1-prix-paul-noel-delahoutre.html",
+        "R10C2-prix-de-feucherolles.html",
+        "R10C3-criterium-international.html",
+        "R10C4-criterium-de-saint-cloud.html",
+        "R10C5-prix-du-manoir.html",
+        "R10C6-prix-de-flore.html",
+        "R10C7-prix-perth.html",
+        "R10C8-prix-de-chemoitou.html"
+      ],
+      "R11-pontchateau": [
+        "R11C1-prix-paul-noel-delahoutre.html",
+        "R11C2-prix-de-feucherolles.html",
+        "R11C3-criterium-international.html",
+        "R11C4-criterium-de-saint-cloud.html",
+        "R11C5-prix-du-manoir.html",
+        "R11C6-prix-de-flore.html",
+        "R11C7-prix-perth.html",
+        "R11C8-prix-de-chemoitou.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:01.960835Z"
+}

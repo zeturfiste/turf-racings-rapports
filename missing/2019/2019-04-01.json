@@ -1,0 +1,95 @@
+{
+  "date": "2019-04-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-01",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-01/2019-04-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-01/R1-chantilly/R1C3-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R1-chantilly/R1C4-prix-de-la-belle-croix.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R2-argentan/R2C4-prix-de-la-belle-croix.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R4-reims/R4C1-prix-lypharita.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R4-reims/R4C6-prix-du-parc-de-valliere.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R4-reims/R4C7-prix-des-commercants-prix-lacovia.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R4-reims/R4C8-prix-caerlina.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R6-nantes/R6C3-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R6-nantes/R6C8-prix-caerlina.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C2-prix-de-brunehaut.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C3-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C4-prix-de-la-belle-croix.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C5-prix-right-royal.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C6-prix-du-parc-de-valliere.html",
+      "resultats-et-rapports/2019/04/2019-04-01/R7-le-croise-laroche/R7C7-prix-des-commercants-prix-lacovia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-argentan",
+      "R4-reims",
+      "R6-nantes",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-lypharita.html",
+        "R1C2-prix-de-brunehaut.html",
+        "R1C3-prix-du-pont-du-roi.html",
+        "R1C4-prix-de-la-belle-croix.html",
+        "R1C5-prix-right-royal.html",
+        "R1C6-prix-du-parc-de-valliere.html",
+        "R1C7-prix-des-commercants-prix-lacovia.html",
+        "R1C8-prix-caerlina.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-lypharita.html",
+        "R2C2-prix-de-brunehaut.html",
+        "R2C3-prix-du-pont-du-roi.html",
+        "R2C4-prix-de-la-belle-croix.html",
+        "R2C5-prix-right-royal.html",
+        "R2C6-prix-du-parc-de-valliere.html",
+        "R2C7-prix-des-commercants-prix-lacovia.html",
+        "R2C8-prix-caerlina.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-lypharita.html",
+        "R4C2-prix-de-brunehaut.html",
+        "R4C3-prix-du-pont-du-roi.html",
+        "R4C4-prix-de-la-belle-croix.html",
+        "R4C5-prix-right-royal.html",
+        "R4C6-prix-du-parc-de-valliere.html",
+        "R4C7-prix-des-commercants-prix-lacovia.html",
+        "R4C8-prix-caerlina.html"
+      ],
+      "R6-nantes": [
+        "R6C1-prix-lypharita.html",
+        "R6C2-prix-de-brunehaut.html",
+        "R6C3-prix-du-pont-du-roi.html",
+        "R6C4-prix-de-la-belle-croix.html",
+        "R6C5-prix-right-royal.html",
+        "R6C6-prix-du-parc-de-valliere.html",
+        "R6C7-prix-des-commercants-prix-lacovia.html",
+        "R6C8-prix-caerlina.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-lypharita.html",
+        "R7C2-prix-de-brunehaut.html",
+        "R7C3-prix-du-pont-du-roi.html",
+        "R7C4-prix-de-la-belle-croix.html",
+        "R7C5-prix-right-royal.html",
+        "R7C6-prix-du-parc-de-valliere.html",
+        "R7C7-prix-des-commercants-prix-lacovia.html",
+        "R7C8-prix-caerlina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:12.520071Z"
+}

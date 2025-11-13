@@ -1,0 +1,100 @@
+{
+  "date": "2006-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-21",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-21/2006-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-21/R2-maisons-laffitte/R2C2-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R2-maisons-laffitte/R2C4-prix-des-haras-de-montier-en-der.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R2-maisons-laffitte/R2C6-prix-du-champagne-jacquart.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R2-maisons-laffitte/R2C7-prix-du-conseil-general-de-la-marne.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R2-maisons-laffitte/R2C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R10-francfort-stadium-francfort/R10C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R10-francfort-stadium-francfort/R10C2-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R10-francfort-stadium-francfort/R10C3-prix-conseil-regional-champagne-ardenne.html",
+      "resultats-et-rapports/2006/06/2006-06-21/R10-francfort-stadium-francfort/R10C4-prix-des-haras-de-montier-en-der.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R2-maisons-laffitte",
+      "R10-francfort-stadium-francfort",
+      "R11-schalke-arena-gelsenkirchen",
+      "R12-allianz-arena-munich",
+      "R13-zentral-stadion-leipzig"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R1C2-prix-du-journal-l-union.html",
+        "R1C3-prix-conseil-regional-champagne-ardenne.html",
+        "R1C4-prix-des-haras-de-montier-en-der.html",
+        "R1C5-prix-julien-cornet.html",
+        "R1C6-prix-du-champagne-jacquart.html",
+        "R1C7-prix-du-conseil-general-de-la-marne.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R2C2-prix-du-journal-l-union.html",
+        "R2C3-prix-conseil-regional-champagne-ardenne.html",
+        "R2C4-prix-des-haras-de-montier-en-der.html",
+        "R2C5-prix-julien-cornet.html",
+        "R2C6-prix-du-champagne-jacquart.html",
+        "R2C7-prix-du-conseil-general-de-la-marne.html",
+        "R2C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R10-francfort-stadium-francfort": [
+        "R10C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R10C2-prix-du-journal-l-union.html",
+        "R10C3-prix-conseil-regional-champagne-ardenne.html",
+        "R10C4-prix-des-haras-de-montier-en-der.html",
+        "R10C5-prix-julien-cornet.html",
+        "R10C6-prix-du-champagne-jacquart.html",
+        "R10C7-prix-du-conseil-general-de-la-marne.html",
+        "R10C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R11-schalke-arena-gelsenkirchen": [
+        "R11C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R11C2-prix-du-journal-l-union.html",
+        "R11C3-prix-conseil-regional-champagne-ardenne.html",
+        "R11C4-prix-des-haras-de-montier-en-der.html",
+        "R11C5-prix-julien-cornet.html",
+        "R11C6-prix-du-champagne-jacquart.html",
+        "R11C7-prix-du-conseil-general-de-la-marne.html",
+        "R11C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R12-allianz-arena-munich": [
+        "R12C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R12C2-prix-du-journal-l-union.html",
+        "R12C3-prix-conseil-regional-champagne-ardenne.html",
+        "R12C4-prix-des-haras-de-montier-en-der.html",
+        "R12C5-prix-julien-cornet.html",
+        "R12C6-prix-du-champagne-jacquart.html",
+        "R12C7-prix-du-conseil-general-de-la-marne.html",
+        "R12C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R13-zentral-stadion-leipzig": [
+        "R13C1-prix-tierce-magazine-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R13C2-prix-du-journal-l-union.html",
+        "R13C3-prix-conseil-regional-champagne-ardenne.html",
+        "R13C4-prix-des-haras-de-montier-en-der.html",
+        "R13C5-prix-julien-cornet.html",
+        "R13C6-prix-du-champagne-jacquart.html",
+        "R13C7-prix-du-conseil-general-de-la-marne.html",
+        "R13C8-prix-de-la-societe-du-cheval-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:05.501497Z"
+}

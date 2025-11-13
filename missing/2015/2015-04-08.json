@@ -1,0 +1,82 @@
+{
+  "date": "2015-04-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-08",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-08/2015-04-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C2-prix-de-la-beauce.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C3-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C4-prix-de-la-champagne.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C5-prix-du-morbihan.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C6-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C7-prix-du-pas-de-calais.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R1-lyon-parilly/R1C8-prix-du-diois.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R3-chantilly/R3C7-prix-du-pas-de-calais.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R5-marseille-borely/R5C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R5-marseille-borely/R5C2-prix-de-la-beauce.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R5-marseille-borely/R5C3-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2015/04/2015-04-08/R5-marseille-borely/R5C6-prix-de-l-u-n-a-t.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-auteuil",
+      "R3-chantilly",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+        "R1C2-prix-de-la-beauce.html",
+        "R1C3-prix-du-pays-nicois.html",
+        "R1C4-prix-de-la-champagne.html",
+        "R1C5-prix-du-morbihan.html",
+        "R1C6-prix-de-l-u-n-a-t.html",
+        "R1C7-prix-du-pas-de-calais.html",
+        "R1C8-prix-du-diois.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+        "R2C2-prix-de-la-beauce.html",
+        "R2C3-prix-du-pays-nicois.html",
+        "R2C4-prix-de-la-champagne.html",
+        "R2C5-prix-du-morbihan.html",
+        "R2C6-prix-de-l-u-n-a-t.html",
+        "R2C7-prix-du-pas-de-calais.html",
+        "R2C8-prix-du-diois.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+        "R3C2-prix-de-la-beauce.html",
+        "R3C3-prix-du-pays-nicois.html",
+        "R3C4-prix-de-la-champagne.html",
+        "R3C5-prix-du-morbihan.html",
+        "R3C6-prix-de-l-u-n-a-t.html",
+        "R3C7-prix-du-pas-de-calais.html",
+        "R3C8-prix-du-diois.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-troisieme-etape-du-grand-national-du-trot-2015.html",
+        "R5C2-prix-de-la-beauce.html",
+        "R5C3-prix-du-pays-nicois.html",
+        "R5C4-prix-de-la-champagne.html",
+        "R5C5-prix-du-morbihan.html",
+        "R5C6-prix-de-l-u-n-a-t.html",
+        "R5C7-prix-du-pas-de-calais.html",
+        "R5C8-prix-du-diois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:54.832563Z"
+}

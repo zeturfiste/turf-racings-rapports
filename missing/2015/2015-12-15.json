@@ -1,0 +1,64 @@
+{
+  "date": "2015-12-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-15",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-15/2015-12-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-15/R1-pau/R1C1-prix-de-navarrenx.html",
+      "resultats-et-rapports/2015/12/2015-12-15/R1-pau/R1C2-prix-louis-sallenave.html",
+      "resultats-et-rapports/2015/12/2015-12-15/R1-pau/R1C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+      "resultats-et-rapports/2015/12/2015-12-15/R1-pau/R1C6-prix-de-limendous.html",
+      "resultats-et-rapports/2015/12/2015-12-15/R1-pau/R1C7-prix-de-lembeye.html",
+      "resultats-et-rapports/2015/12/2015-12-15/R3-marseille-vivaux/R3C7-prix-de-lembeye.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-vincennes",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-navarrenx.html",
+        "R1C2-prix-louis-sallenave.html",
+        "R1C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R1C4-prix-de-saint-vincent.html",
+        "R1C5-prix-jean-lamaysouette.html",
+        "R1C6-prix-de-limendous.html",
+        "R1C7-prix-de-lembeye.html",
+        "R1C8-prix-de-bardos.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-navarrenx.html",
+        "R2C2-prix-louis-sallenave.html",
+        "R2C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R2C4-prix-de-saint-vincent.html",
+        "R2C5-prix-jean-lamaysouette.html",
+        "R2C6-prix-de-limendous.html",
+        "R2C7-prix-de-lembeye.html",
+        "R2C8-prix-de-bardos.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-navarrenx.html",
+        "R3C2-prix-louis-sallenave.html",
+        "R3C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R3C4-prix-de-saint-vincent.html",
+        "R3C5-prix-jean-lamaysouette.html",
+        "R3C6-prix-de-limendous.html",
+        "R3C7-prix-de-lembeye.html",
+        "R3C8-prix-de-bardos.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:14.853367Z"
+}

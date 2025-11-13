@@ -1,0 +1,91 @@
+{
+  "date": "2023-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-25",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-25/2023-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-25/R1-toulouse/R1C1-grand-prix-dynavena.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R1-toulouse/R1C2-prix-de-l-hippodrome-de-bordeaux.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R1-toulouse/R1C3-prix-de-l-hippdrome-d-agen.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R1-toulouse/R1C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R1-toulouse/R1C8-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R3-pau/R3C2-prix-de-l-hippodrome-de-bordeaux.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R3-pau/R3C5-prix-actu-toulouse.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R3-pau/R3C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R3-pau/R3C8-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R4-lyon-la-soie/R4C1-grand-prix-dynavena.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R4-lyon-la-soie/R4C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R4-lyon-la-soie/R4C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R4-lyon-la-soie/R4C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R4-lyon-la-soie/R4C8-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C1-grand-prix-dynavena.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C2-prix-de-l-hippodrome-de-bordeaux.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C3-prix-de-l-hippdrome-d-agen.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C5-prix-actu-toulouse.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+      "resultats-et-rapports/2023/10/2023-10-25/R8-marseille-borely/R8C8-grand-prix-baron-d-ardeuil-aoc-buzet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R3-pau",
+      "R4-lyon-la-soie",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-grand-prix-dynavena.html",
+        "R1C2-prix-de-l-hippodrome-de-bordeaux.html",
+        "R1C3-prix-de-l-hippdrome-d-agen.html",
+        "R1C4-prix-de-la-depeche-du-midi.html",
+        "R1C5-prix-actu-toulouse.html",
+        "R1C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+        "R1C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+        "R1C8-grand-prix-baron-d-ardeuil-aoc-buzet.html"
+      ],
+      "R3-pau": [
+        "R3C1-grand-prix-dynavena.html",
+        "R3C2-prix-de-l-hippodrome-de-bordeaux.html",
+        "R3C3-prix-de-l-hippdrome-d-agen.html",
+        "R3C4-prix-de-la-depeche-du-midi.html",
+        "R3C5-prix-actu-toulouse.html",
+        "R3C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+        "R3C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+        "R3C8-grand-prix-baron-d-ardeuil-aoc-buzet.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-grand-prix-dynavena.html",
+        "R4C2-prix-de-l-hippodrome-de-bordeaux.html",
+        "R4C3-prix-de-l-hippdrome-d-agen.html",
+        "R4C4-prix-de-la-depeche-du-midi.html",
+        "R4C5-prix-actu-toulouse.html",
+        "R4C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+        "R4C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+        "R4C8-grand-prix-baron-d-ardeuil-aoc-buzet.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-grand-prix-dynavena.html",
+        "R8C2-prix-de-l-hippodrome-de-bordeaux.html",
+        "R8C3-prix-de-l-hippdrome-d-agen.html",
+        "R8C4-prix-de-la-depeche-du-midi.html",
+        "R8C5-prix-actu-toulouse.html",
+        "R8C6-prix-hippodrome-de-beaumont-de-lomagne.html",
+        "R8C7-46eme-grand-prix-du-sud-ouest-paris-turf.html",
+        "R8C8-grand-prix-baron-d-ardeuil-aoc-buzet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:33.098419Z"
+}

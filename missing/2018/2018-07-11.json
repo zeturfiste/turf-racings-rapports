@@ -1,0 +1,69 @@
+{
+  "date": "2018-07-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-11",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-11/2018-07-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-11/R1-enghien-soisy/R1C2-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R1-enghien-soisy/R1C3-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R1-enghien-soisy/R1C4-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R4-chateaubriant/R4C7-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R4-chateaubriant/R4C8-prix-de-rochechouart.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C3-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C4-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C5-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C6-prix-d-escurolles.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C7-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2018/07/2018-07-11/R5-beaumont-de-lomagne/R5C8-prix-de-rochechouart.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R4-chateaubriant",
+      "R5-beaumont-de-lomagne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-l-opera.html",
+        "R1C2-prix-de-la-place-du-mail.html",
+        "R1C3-prix-quiproquo-ii.html",
+        "R1C4-prix-de-la-gare-de-lyon.html",
+        "R1C5-prix-de-la-tour-saint-jacques.html",
+        "R1C6-prix-d-escurolles.html",
+        "R1C7-prix-du-jardin-des-plantes.html",
+        "R1C8-prix-de-rochechouart.html"
+      ],
+      "R4-chateaubriant": [
+        "R4C1-prix-de-l-opera.html",
+        "R4C2-prix-de-la-place-du-mail.html",
+        "R4C3-prix-quiproquo-ii.html",
+        "R4C4-prix-de-la-gare-de-lyon.html",
+        "R4C5-prix-de-la-tour-saint-jacques.html",
+        "R4C6-prix-d-escurolles.html",
+        "R4C7-prix-du-jardin-des-plantes.html",
+        "R4C8-prix-de-rochechouart.html"
+      ],
+      "R5-beaumont-de-lomagne": [
+        "R5C1-prix-de-l-opera.html",
+        "R5C2-prix-de-la-place-du-mail.html",
+        "R5C3-prix-quiproquo-ii.html",
+        "R5C4-prix-de-la-gare-de-lyon.html",
+        "R5C5-prix-de-la-tour-saint-jacques.html",
+        "R5C6-prix-d-escurolles.html",
+        "R5C7-prix-du-jardin-des-plantes.html",
+        "R5C8-prix-de-rochechouart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:55.585838Z"
+}

@@ -1,0 +1,94 @@
+{
+  "date": "2023-06-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-16",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-16/2023-06-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-16/R3-amiens/R3C4-prix-eudora.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R4-dieppe/R4C1-prix-lomia.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R4-dieppe/R4C5-prix-liguria.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R4-dieppe/R4C8-prix-iphigenia.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C2-prix-perseus.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C3-prix-tolosa.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C4-prix-eudora.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C5-prix-liguria.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C6-prix-hygica.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R5-craon/R5C7-prix-dido.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R6-toulouse/R6C3-prix-tolosa.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R6-toulouse/R6C5-prix-liguria.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R6-toulouse/R6C7-prix-dido.html",
+      "resultats-et-rapports/2023/06/2023-06-16/R6-toulouse/R6C8-prix-iphigenia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-amiens",
+      "R4-dieppe",
+      "R5-craon",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lomia.html",
+        "R1C2-prix-perseus.html",
+        "R1C3-prix-tolosa.html",
+        "R1C4-prix-eudora.html",
+        "R1C5-prix-liguria.html",
+        "R1C6-prix-hygica.html",
+        "R1C7-prix-dido.html",
+        "R1C8-prix-iphigenia.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-lomia.html",
+        "R3C2-prix-perseus.html",
+        "R3C3-prix-tolosa.html",
+        "R3C4-prix-eudora.html",
+        "R3C5-prix-liguria.html",
+        "R3C6-prix-hygica.html",
+        "R3C7-prix-dido.html",
+        "R3C8-prix-iphigenia.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-lomia.html",
+        "R4C2-prix-perseus.html",
+        "R4C3-prix-tolosa.html",
+        "R4C4-prix-eudora.html",
+        "R4C5-prix-liguria.html",
+        "R4C6-prix-hygica.html",
+        "R4C7-prix-dido.html",
+        "R4C8-prix-iphigenia.html"
+      ],
+      "R5-craon": [
+        "R5C1-prix-lomia.html",
+        "R5C2-prix-perseus.html",
+        "R5C3-prix-tolosa.html",
+        "R5C4-prix-eudora.html",
+        "R5C5-prix-liguria.html",
+        "R5C6-prix-hygica.html",
+        "R5C7-prix-dido.html",
+        "R5C8-prix-iphigenia.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-lomia.html",
+        "R6C2-prix-perseus.html",
+        "R6C3-prix-tolosa.html",
+        "R6C4-prix-eudora.html",
+        "R6C5-prix-liguria.html",
+        "R6C6-prix-hygica.html",
+        "R6C7-prix-dido.html",
+        "R6C8-prix-iphigenia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:44.197978Z"
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2012-12-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/12/2012-12-20",
+    "date_html": "resultats-et-rapports/2012/12/2012-12-20/2012-12-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/12/2012-12-20/R1-cabourg/R1C2-prix-des-orties.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R1-cabourg/R1C5-prix-des-platanes.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R1-cabourg/R1C6-prix-des-pissenlits.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R3-deauville/R3C1-prix-des-mufliers.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R3-deauville/R3C5-prix-des-platanes.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R4-cagnes-sur-mer/R4C3-prix-du-buis.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R4-cagnes-sur-mer/R4C7-prix-des-ormes-groupe-a.html",
+      "resultats-et-rapports/2012/12/2012-12-20/R4-cagnes-sur-mer/R4C8-prix-des-ormes-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-deauville-midi",
+      "R3-deauville",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-mufliers.html",
+        "R1C2-prix-des-orties.html",
+        "R1C3-prix-du-buis.html",
+        "R1C4-prix-des-silenes.html",
+        "R1C5-prix-des-platanes.html",
+        "R1C6-prix-des-pissenlits.html",
+        "R1C7-prix-des-ormes-groupe-a.html",
+        "R1C8-prix-des-ormes-groupe-b.html"
+      ],
+      "R2-deauville-midi": [
+        "R2C1-prix-des-mufliers.html",
+        "R2C2-prix-des-orties.html",
+        "R2C3-prix-du-buis.html",
+        "R2C4-prix-des-silenes.html",
+        "R2C5-prix-des-platanes.html",
+        "R2C6-prix-des-pissenlits.html",
+        "R2C7-prix-des-ormes-groupe-a.html",
+        "R2C8-prix-des-ormes-groupe-b.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-des-mufliers.html",
+        "R3C2-prix-des-orties.html",
+        "R3C3-prix-du-buis.html",
+        "R3C4-prix-des-silenes.html",
+        "R3C5-prix-des-platanes.html",
+        "R3C6-prix-des-pissenlits.html",
+        "R3C7-prix-des-ormes-groupe-a.html",
+        "R3C8-prix-des-ormes-groupe-b.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-des-mufliers.html",
+        "R4C2-prix-des-orties.html",
+        "R4C3-prix-du-buis.html",
+        "R4C4-prix-des-silenes.html",
+        "R4C5-prix-des-platanes.html",
+        "R4C6-prix-des-pissenlits.html",
+        "R4C7-prix-des-ormes-groupe-a.html",
+        "R4C8-prix-des-ormes-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:48.482860Z"
+}

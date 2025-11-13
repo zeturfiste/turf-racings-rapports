@@ -1,0 +1,75 @@
+{
+  "date": "2023-12-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/12/2023-12-01",
+    "date_html": "resultats-et-rapports/2023/12/2023-12-01/2023-12-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/12/2023-12-01/R2-chartres/R2C8-prix-gienah.html",
+      "resultats-et-rapports/2023/12/2023-12-01/R3-pau/R3C3-prix-melusina.html",
+      "resultats-et-rapports/2023/12/2023-12-01/R3-pau/R3C7-prix-des-rencontres-internationales.html",
+      "resultats-et-rapports/2023/12/2023-12-01/R4-pornichet-la-baule/R4C5-prix-arsinoe.html",
+      "resultats-et-rapports/2023/12/2023-12-01/R4-pornichet-la-baule/R4C6-prix-ottilia.html",
+      "resultats-et-rapports/2023/12/2023-12-01/R4-pornichet-la-baule/R4C8-prix-gienah.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chartres",
+      "R3-pau",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-draco.html",
+        "R1C2-prix-vesta.html",
+        "R1C3-prix-melusina.html",
+        "R1C4-prix-ceres.html",
+        "R1C5-prix-arsinoe.html",
+        "R1C6-prix-ottilia.html",
+        "R1C7-prix-des-rencontres-internationales.html",
+        "R1C8-prix-gienah.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-draco.html",
+        "R2C2-prix-vesta.html",
+        "R2C3-prix-melusina.html",
+        "R2C4-prix-ceres.html",
+        "R2C5-prix-arsinoe.html",
+        "R2C6-prix-ottilia.html",
+        "R2C7-prix-des-rencontres-internationales.html",
+        "R2C8-prix-gienah.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-draco.html",
+        "R3C2-prix-vesta.html",
+        "R3C3-prix-melusina.html",
+        "R3C4-prix-ceres.html",
+        "R3C5-prix-arsinoe.html",
+        "R3C6-prix-ottilia.html",
+        "R3C7-prix-des-rencontres-internationales.html",
+        "R3C8-prix-gienah.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-draco.html",
+        "R4C2-prix-vesta.html",
+        "R4C3-prix-melusina.html",
+        "R4C4-prix-ceres.html",
+        "R4C5-prix-arsinoe.html",
+        "R4C6-prix-ottilia.html",
+        "R4C7-prix-des-rencontres-internationales.html",
+        "R4C8-prix-gienah.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:46.812381Z"
+}

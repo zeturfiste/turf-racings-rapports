@@ -1,0 +1,94 @@
+{
+  "date": "2015-08-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-17",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-17/2015-08-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-17/R2-vincennes/R2C6-prix-de-la-region-bretagne.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R2-vincennes/R2C8-prix-gacko.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C2-prix-useful.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C3-prix-des-etoiles.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C6-prix-de-la-region-bretagne.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C7-prix-djarvis.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R3-cagnes-sur-mer/R3C8-prix-gacko.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R6-castera-verduzan/R6C2-prix-useful.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R6-castera-verduzan/R6C4-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R7-dieppe/R7C1-grand-prix-de-chateaubriant.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R7-dieppe/R7C6-prix-de-la-region-bretagne.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R7-dieppe/R7C7-prix-djarvis.html",
+      "resultats-et-rapports/2015/08/2015-08-17/R7-dieppe/R7C8-prix-gacko.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-vincennes",
+      "R3-cagnes-sur-mer",
+      "R6-castera-verduzan",
+      "R7-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-grand-prix-de-chateaubriant.html",
+        "R1C2-prix-useful.html",
+        "R1C3-prix-des-etoiles.html",
+        "R1C4-prix-de-saint-cloud.html",
+        "R1C5-prix-de-longchamp.html",
+        "R1C6-prix-de-la-region-bretagne.html",
+        "R1C7-prix-djarvis.html",
+        "R1C8-prix-gacko.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-grand-prix-de-chateaubriant.html",
+        "R2C2-prix-useful.html",
+        "R2C3-prix-des-etoiles.html",
+        "R2C4-prix-de-saint-cloud.html",
+        "R2C5-prix-de-longchamp.html",
+        "R2C6-prix-de-la-region-bretagne.html",
+        "R2C7-prix-djarvis.html",
+        "R2C8-prix-gacko.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-grand-prix-de-chateaubriant.html",
+        "R3C2-prix-useful.html",
+        "R3C3-prix-des-etoiles.html",
+        "R3C4-prix-de-saint-cloud.html",
+        "R3C5-prix-de-longchamp.html",
+        "R3C6-prix-de-la-region-bretagne.html",
+        "R3C7-prix-djarvis.html",
+        "R3C8-prix-gacko.html"
+      ],
+      "R6-castera-verduzan": [
+        "R6C1-grand-prix-de-chateaubriant.html",
+        "R6C2-prix-useful.html",
+        "R6C3-prix-des-etoiles.html",
+        "R6C4-prix-de-saint-cloud.html",
+        "R6C5-prix-de-longchamp.html",
+        "R6C6-prix-de-la-region-bretagne.html",
+        "R6C7-prix-djarvis.html",
+        "R6C8-prix-gacko.html"
+      ],
+      "R7-dieppe": [
+        "R7C1-grand-prix-de-chateaubriant.html",
+        "R7C2-prix-useful.html",
+        "R7C3-prix-des-etoiles.html",
+        "R7C4-prix-de-saint-cloud.html",
+        "R7C5-prix-de-longchamp.html",
+        "R7C6-prix-de-la-region-bretagne.html",
+        "R7C7-prix-djarvis.html",
+        "R7C8-prix-gacko.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:37.456908Z"
+}

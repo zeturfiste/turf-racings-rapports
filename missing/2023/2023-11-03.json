@@ -1,0 +1,70 @@
+{
+  "date": "2023-11-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-03",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-03/2023-11-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-03/R4-amiens/R4C2-prix-gallea.html",
+      "resultats-et-rapports/2023/11/2023-11-03/R4-amiens/R4C3-prix-barbara.html",
+      "resultats-et-rapports/2023/11/2023-11-03/R4-amiens/R4C6-prix-posidonius.html",
+      "resultats-et-rapports/2023/11/2023-11-03/R5-marseille-vivaux/R5C3-prix-barbara.html",
+      "resultats-et-rapports/2023/11/2023-11-03/R5-marseille-vivaux/R5C6-prix-posidonius.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-auteuil",
+      "R4-amiens",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-hilda.html",
+        "R1C2-prix-gallea.html",
+        "R1C3-prix-barbara.html",
+        "R1C4-prix-louis-tillaye.html",
+        "R1C5-prix-angelina.html",
+        "R1C6-prix-posidonius.html",
+        "R1C7-prix-una.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-hilda.html",
+        "R3C2-prix-gallea.html",
+        "R3C3-prix-barbara.html",
+        "R3C4-prix-louis-tillaye.html",
+        "R3C5-prix-angelina.html",
+        "R3C6-prix-posidonius.html",
+        "R3C7-prix-una.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-hilda.html",
+        "R4C2-prix-gallea.html",
+        "R4C3-prix-barbara.html",
+        "R4C4-prix-louis-tillaye.html",
+        "R4C5-prix-angelina.html",
+        "R4C6-prix-posidonius.html",
+        "R4C7-prix-una.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-hilda.html",
+        "R5C2-prix-gallea.html",
+        "R5C3-prix-barbara.html",
+        "R5C4-prix-louis-tillaye.html",
+        "R5C5-prix-angelina.html",
+        "R5C6-prix-posidonius.html",
+        "R5C7-prix-una.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:36.643426Z"
+}

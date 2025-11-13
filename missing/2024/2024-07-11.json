@@ -1,0 +1,76 @@
+{
+  "date": "2024-07-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-11",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-11/2024-07-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-11/R4-clairefontaine/R4C3-prix-bel-air-camping-pornichet.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R4-clairefontaine/R4C5-prix-jockiz.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R4-clairefontaine/R4C6-prix-cuisine-plus.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R4-clairefontaine/R4C7-prix-gca-toyota-saint-nazaire.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R4-clairefontaine/R4C8-prix-up-2-play.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R5-le-lion-d-angers/R5C2-prix-jlr.html",
+      "resultats-et-rapports/2024/07/2024-07-11/R5-le-lion-d-angers/R5C3-prix-bel-air-camping-pornichet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pornichet-la-baule",
+      "R3-amiens",
+      "R4-clairefontaine",
+      "R5-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-pornichet-la-baule": [
+        "R1C1-prix-hotel-escale-oceania-pornichet.html",
+        "R1C2-prix-jlr.html",
+        "R1C3-prix-bel-air-camping-pornichet.html",
+        "R1C4-prix-du-casino-partouche-de-pornichet.html",
+        "R1C5-prix-jockiz.html",
+        "R1C6-prix-cuisine-plus.html",
+        "R1C7-prix-gca-toyota-saint-nazaire.html",
+        "R1C8-prix-up-2-play.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-hotel-escale-oceania-pornichet.html",
+        "R3C2-prix-jlr.html",
+        "R3C3-prix-bel-air-camping-pornichet.html",
+        "R3C4-prix-du-casino-partouche-de-pornichet.html",
+        "R3C5-prix-jockiz.html",
+        "R3C6-prix-cuisine-plus.html",
+        "R3C7-prix-gca-toyota-saint-nazaire.html",
+        "R3C8-prix-up-2-play.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-hotel-escale-oceania-pornichet.html",
+        "R4C2-prix-jlr.html",
+        "R4C3-prix-bel-air-camping-pornichet.html",
+        "R4C4-prix-du-casino-partouche-de-pornichet.html",
+        "R4C5-prix-jockiz.html",
+        "R4C6-prix-cuisine-plus.html",
+        "R4C7-prix-gca-toyota-saint-nazaire.html",
+        "R4C8-prix-up-2-play.html"
+      ],
+      "R5-le-lion-d-angers": [
+        "R5C1-prix-hotel-escale-oceania-pornichet.html",
+        "R5C2-prix-jlr.html",
+        "R5C3-prix-bel-air-camping-pornichet.html",
+        "R5C4-prix-du-casino-partouche-de-pornichet.html",
+        "R5C5-prix-jockiz.html",
+        "R5C6-prix-cuisine-plus.html",
+        "R5C7-prix-gca-toyota-saint-nazaire.html",
+        "R5C8-prix-up-2-play.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:04.320214Z"
+}

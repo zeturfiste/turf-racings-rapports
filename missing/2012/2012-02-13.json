@@ -1,0 +1,96 @@
+{
+  "date": "2012-02-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/02/2012-02-13",
+    "date_html": "resultats-et-rapports/2012/02/2012-02-13/2012-02-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/02/2012-02-13/R1-vincennes/R1C2-prix-decidee.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R1-vincennes/R1C3-prix-du-mesle.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R1-vincennes/R1C5-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R1-vincennes/R1C6-prix-de-guerande.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R1-vincennes/R1C7-prix-de-montebourg.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C1-prix-de-senlis.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C3-prix-du-mesle.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C4-prix-de-bouguenais.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C5-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C6-prix-de-guerande.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C7-prix-de-montebourg.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R2-toulouse/R2C8-prix-d-oloron.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C1-prix-de-senlis.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C2-prix-decidee.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C3-prix-du-mesle.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C4-prix-de-bouguenais.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C6-prix-de-guerande.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C7-prix-de-montebourg.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R4-saint-brieuc/R4C8-prix-d-oloron.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C1-prix-de-senlis.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C2-prix-decidee.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C3-prix-du-mesle.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C4-prix-de-bouguenais.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C5-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C6-prix-de-guerande.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C7-prix-de-montebourg.html",
+      "resultats-et-rapports/2012/02/2012-02-13/R5-hyeres/R5C8-prix-d-oloron.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R4-saint-brieuc",
+      "R5-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-senlis.html",
+        "R1C2-prix-decidee.html",
+        "R1C3-prix-du-mesle.html",
+        "R1C4-prix-de-bouguenais.html",
+        "R1C5-prix-de-juan-les-pins.html",
+        "R1C6-prix-de-guerande.html",
+        "R1C7-prix-de-montebourg.html",
+        "R1C8-prix-d-oloron.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-de-senlis.html",
+        "R2C2-prix-decidee.html",
+        "R2C3-prix-du-mesle.html",
+        "R2C4-prix-de-bouguenais.html",
+        "R2C5-prix-de-juan-les-pins.html",
+        "R2C6-prix-de-guerande.html",
+        "R2C7-prix-de-montebourg.html",
+        "R2C8-prix-d-oloron.html"
+      ],
+      "R4-saint-brieuc": [
+        "R4C1-prix-de-senlis.html",
+        "R4C2-prix-decidee.html",
+        "R4C3-prix-du-mesle.html",
+        "R4C4-prix-de-bouguenais.html",
+        "R4C5-prix-de-juan-les-pins.html",
+        "R4C6-prix-de-guerande.html",
+        "R4C7-prix-de-montebourg.html",
+        "R4C8-prix-d-oloron.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-de-senlis.html",
+        "R5C2-prix-decidee.html",
+        "R5C3-prix-du-mesle.html",
+        "R5C4-prix-de-bouguenais.html",
+        "R5C5-prix-de-juan-les-pins.html",
+        "R5C6-prix-de-guerande.html",
+        "R5C7-prix-de-montebourg.html",
+        "R5C8-prix-d-oloron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:17.507119Z"
+}

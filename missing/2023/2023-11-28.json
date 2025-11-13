@@ -1,0 +1,75 @@
+{
+  "date": "2023-11-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-28",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-28/2023-11-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-28/R1-deauville/R1C1-prix-lyphard-polytrack-challenge.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R1-deauville/R1C2-prix-de-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R1-deauville/R1C3-prix-de-sword-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R1-deauville/R1C4-prix-de-juno-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R1-deauville/R1C5-prix-de-la-foret-d-andaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R3-mauquenchy/R3C2-prix-de-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R3-mauquenchy/R3C3-prix-de-sword-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R3-mauquenchy/R3C4-prix-de-juno-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R3-mauquenchy/R3C5-prix-de-la-foret-d-andaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C1-prix-lyphard-polytrack-challenge.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C2-prix-de-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C3-prix-de-sword-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C4-prix-de-juno-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C5-prix-de-la-foret-d-andaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C6-prix-d-omaha-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C7-prix-de-gold-beach.html",
+      "resultats-et-rapports/2023/11/2023-11-28/R4-vincennes/R4C8-prix-d-utah-beach.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-mauquenchy",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-lyphard-polytrack-challenge.html",
+        "R1C2-prix-de-bagnoles-de-l-orne.html",
+        "R1C3-prix-de-sword-beach.html",
+        "R1C4-prix-de-juno-beach.html",
+        "R1C5-prix-de-la-foret-d-andaigne.html",
+        "R1C6-prix-d-omaha-beach.html",
+        "R1C7-prix-de-gold-beach.html",
+        "R1C8-prix-d-utah-beach.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-lyphard-polytrack-challenge.html",
+        "R3C2-prix-de-bagnoles-de-l-orne.html",
+        "R3C3-prix-de-sword-beach.html",
+        "R3C4-prix-de-juno-beach.html",
+        "R3C5-prix-de-la-foret-d-andaigne.html",
+        "R3C6-prix-d-omaha-beach.html",
+        "R3C7-prix-de-gold-beach.html",
+        "R3C8-prix-d-utah-beach.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-lyphard-polytrack-challenge.html",
+        "R4C2-prix-de-bagnoles-de-l-orne.html",
+        "R4C3-prix-de-sword-beach.html",
+        "R4C4-prix-de-juno-beach.html",
+        "R4C5-prix-de-la-foret-d-andaigne.html",
+        "R4C6-prix-d-omaha-beach.html",
+        "R4C7-prix-de-gold-beach.html",
+        "R4C8-prix-d-utah-beach.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:46.073473Z"
+}

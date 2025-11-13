@@ -1,0 +1,93 @@
+{
+  "date": "2015-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-12",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-12/2015-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C3-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C5-prix-de-strasbourg.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C6-prix-de-nantes.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R1-lyon-la-soie/R1C7-prix-de-toulouse.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C3-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C4-prix-de-marseille.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C5-prix-de-strasbourg.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C6-prix-de-nantes.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C7-prix-de-toulouse.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R2-marseille-borely/R2C8-prix-de-cherbourg.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C5-prix-de-strasbourg.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C6-prix-de-nantes.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C7-prix-de-toulouse.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R3-saint-malo/R3C8-prix-de-cherbourg.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R4-vincennes/R4C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R4-vincennes/R4C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R4-vincennes/R4C3-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2015/05/2015-05-12/R4-vincennes/R4C6-prix-de-nantes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R2-marseille-borely",
+      "R3-saint-malo",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-prix-de-beaumont-de-lomagne.html",
+        "R1C2-prix-de-bordeaux.html",
+        "R1C3-grand-prix-de-la-soie.html",
+        "R1C4-prix-de-marseille.html",
+        "R1C5-prix-de-strasbourg.html",
+        "R1C6-prix-de-nantes.html",
+        "R1C7-prix-de-toulouse.html",
+        "R1C8-prix-de-cherbourg.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-beaumont-de-lomagne.html",
+        "R2C2-prix-de-bordeaux.html",
+        "R2C3-grand-prix-de-la-soie.html",
+        "R2C4-prix-de-marseille.html",
+        "R2C5-prix-de-strasbourg.html",
+        "R2C6-prix-de-nantes.html",
+        "R2C7-prix-de-toulouse.html",
+        "R2C8-prix-de-cherbourg.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-de-beaumont-de-lomagne.html",
+        "R3C2-prix-de-bordeaux.html",
+        "R3C3-grand-prix-de-la-soie.html",
+        "R3C4-prix-de-marseille.html",
+        "R3C5-prix-de-strasbourg.html",
+        "R3C6-prix-de-nantes.html",
+        "R3C7-prix-de-toulouse.html",
+        "R3C8-prix-de-cherbourg.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-beaumont-de-lomagne.html",
+        "R4C2-prix-de-bordeaux.html",
+        "R4C3-grand-prix-de-la-soie.html",
+        "R4C4-prix-de-marseille.html",
+        "R4C5-prix-de-strasbourg.html",
+        "R4C6-prix-de-nantes.html",
+        "R4C7-prix-de-toulouse.html",
+        "R4C8-prix-de-cherbourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:06.348314Z"
+}

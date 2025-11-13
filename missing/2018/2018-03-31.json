@@ -1,0 +1,105 @@
+{
+  "date": "2018-03-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-31",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-31/2018-03-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C1-prix-du-carrefour-du-duc-d-enghien.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C4-prix-de-precy.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C5-prix-des-frayoirs.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C6-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C7-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R1-chantilly/R1C8-prix-des-carrieres.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R4-laval/R4C1-prix-du-carrefour-du-duc-d-enghien.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R4-laval/R4C5-prix-des-frayoirs.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R4-laval/R4C7-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R4-laval/R4C8-prix-des-carrieres.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R5-graignes/R5C1-prix-du-carrefour-du-duc-d-enghien.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R5-graignes/R5C2-prix-de-joinville.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R5-graignes/R5C3-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R5-graignes/R5C5-prix-des-frayoirs.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R5-graignes/R5C8-prix-des-carrieres.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C1-prix-du-carrefour-du-duc-d-enghien.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C4-prix-de-precy.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C5-prix-des-frayoirs.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C6-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C7-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R6-marseille-borely/R6C8-prix-des-carrieres.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R7-le-lion-d-angers/R7C1-prix-du-carrefour-du-duc-d-enghien.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R7-le-lion-d-angers/R7C2-prix-de-joinville.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R7-le-lion-d-angers/R7C3-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2018/03/2018-03-31/R7-le-lion-d-angers/R7C6-prix-de-la-francilienne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R4-laval",
+      "R5-graignes",
+      "R6-marseille-borely",
+      "R7-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-carrefour-du-duc-d-enghien.html",
+        "R1C2-prix-de-joinville.html",
+        "R1C3-prix-du-pavillon-de-manse.html",
+        "R1C4-prix-de-precy.html",
+        "R1C5-prix-des-frayoirs.html",
+        "R1C6-prix-de-la-francilienne.html",
+        "R1C7-prix-de-l-institut-de-france.html",
+        "R1C8-prix-des-carrieres.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-du-carrefour-du-duc-d-enghien.html",
+        "R4C2-prix-de-joinville.html",
+        "R4C3-prix-du-pavillon-de-manse.html",
+        "R4C4-prix-de-precy.html",
+        "R4C5-prix-des-frayoirs.html",
+        "R4C6-prix-de-la-francilienne.html",
+        "R4C7-prix-de-l-institut-de-france.html",
+        "R4C8-prix-des-carrieres.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-du-carrefour-du-duc-d-enghien.html",
+        "R5C2-prix-de-joinville.html",
+        "R5C3-prix-du-pavillon-de-manse.html",
+        "R5C4-prix-de-precy.html",
+        "R5C5-prix-des-frayoirs.html",
+        "R5C6-prix-de-la-francilienne.html",
+        "R5C7-prix-de-l-institut-de-france.html",
+        "R5C8-prix-des-carrieres.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-du-carrefour-du-duc-d-enghien.html",
+        "R6C2-prix-de-joinville.html",
+        "R6C3-prix-du-pavillon-de-manse.html",
+        "R6C4-prix-de-precy.html",
+        "R6C5-prix-des-frayoirs.html",
+        "R6C6-prix-de-la-francilienne.html",
+        "R6C7-prix-de-l-institut-de-france.html",
+        "R6C8-prix-des-carrieres.html"
+      ],
+      "R7-le-lion-d-angers": [
+        "R7C1-prix-du-carrefour-du-duc-d-enghien.html",
+        "R7C2-prix-de-joinville.html",
+        "R7C3-prix-du-pavillon-de-manse.html",
+        "R7C4-prix-de-precy.html",
+        "R7C5-prix-des-frayoirs.html",
+        "R7C6-prix-de-la-francilienne.html",
+        "R7C7-prix-de-l-institut-de-france.html",
+        "R7C8-prix-des-carrieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:21.551364Z"
+}

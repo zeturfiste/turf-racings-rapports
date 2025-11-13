@@ -1,0 +1,77 @@
+{
+  "date": "2024-09-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-11",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-11/2024-09-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-11/R1-le-mans/R1C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R2-compiegne/R2C4-prix-volvo-thibault.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R2-compiegne/R2C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R4-lyon-parilly/R4C1-9eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R4-lyon-parilly/R4C8-prix-passenaud.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R8-marseille-borely/R8C3-prix-super-u-arnage.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R8-marseille-borely/R8C4-prix-volvo-thibault.html",
+      "resultats-et-rapports/2024/09/2024-09-11/R8-marseille-borely/R8C7-prix-bobet-materiel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-mans",
+      "R2-compiegne",
+      "R4-lyon-parilly",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-le-mans": [
+        "R1C1-9eme-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-c-c-m-b.html",
+        "R1C3-prix-super-u-arnage.html",
+        "R1C4-prix-volvo-thibault.html",
+        "R1C5-prix-ouest-nettoyage.html",
+        "R1C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+        "R1C7-prix-bobet-materiel.html",
+        "R1C8-prix-passenaud.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-9eme-etape-du-grand-national-du-trot.html",
+        "R2C2-prix-c-c-m-b.html",
+        "R2C3-prix-super-u-arnage.html",
+        "R2C4-prix-volvo-thibault.html",
+        "R2C5-prix-ouest-nettoyage.html",
+        "R2C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+        "R2C7-prix-bobet-materiel.html",
+        "R2C8-prix-passenaud.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-9eme-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-c-c-m-b.html",
+        "R4C3-prix-super-u-arnage.html",
+        "R4C4-prix-volvo-thibault.html",
+        "R4C5-prix-ouest-nettoyage.html",
+        "R4C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+        "R4C7-prix-bobet-materiel.html",
+        "R4C8-prix-passenaud.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-9eme-etape-du-grand-national-du-trot.html",
+        "R8C2-prix-c-c-m-b.html",
+        "R8C3-prix-super-u-arnage.html",
+        "R8C4-prix-volvo-thibault.html",
+        "R8C5-prix-ouest-nettoyage.html",
+        "R8C6-prix-super-u-avenue-de-la-liberation-le-mans.html",
+        "R8C7-prix-bobet-materiel.html",
+        "R8C8-prix-passenaud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:28.230228Z"
+}

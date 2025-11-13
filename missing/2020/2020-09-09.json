@@ -1,0 +1,61 @@
+{
+  "date": "2020-09-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-09",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-09/2020-09-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-09/R3-lyon-parilly/R3C3-prix-henri-gleizes.html",
+      "resultats-et-rapports/2020/09/2020-09-09/R3-lyon-parilly/R3C5-prix-xanthor.html",
+      "resultats-et-rapports/2020/09/2020-09-09/R4-les-sables-d-olonne/R4C4-prix-amati.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-alain-et-gilles-de-goulaine.html",
+        "R1C2-prix-finot-pouliches.html",
+        "R1C3-prix-henri-gleizes.html",
+        "R1C4-prix-amati.html",
+        "R1C5-prix-xanthor.html",
+        "R1C6-prix-marly-river.html",
+        "R1C7-prix-meli-melo.html",
+        "R1C8-prix-saint-etienne-de-corcoue.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-alain-et-gilles-de-goulaine.html",
+        "R3C2-prix-finot-pouliches.html",
+        "R3C3-prix-henri-gleizes.html",
+        "R3C4-prix-amati.html",
+        "R3C5-prix-xanthor.html",
+        "R3C6-prix-marly-river.html",
+        "R3C7-prix-meli-melo.html",
+        "R3C8-prix-saint-etienne-de-corcoue.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-alain-et-gilles-de-goulaine.html",
+        "R4C2-prix-finot-pouliches.html",
+        "R4C3-prix-henri-gleizes.html",
+        "R4C4-prix-amati.html",
+        "R4C5-prix-xanthor.html",
+        "R4C6-prix-marly-river.html",
+        "R4C7-prix-meli-melo.html",
+        "R4C8-prix-saint-etienne-de-corcoue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:50.379447Z"
+}

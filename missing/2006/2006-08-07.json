@@ -1,0 +1,120 @@
+{
+  "date": "2006-08-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-07",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-07/2006-08-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-07/R1-clairefontaine/R1C9-prix-hubert-le-baron-dutacq.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R2-enghien-soisy/R2C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R2-enghien-soisy/R2C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R3-rochefort-sur-loire/R3C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R4-aix-les-bains/R4C4-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R4-aix-les-bains/R4C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R5-brehal/R5C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R5-brehal/R5C3-prix-de-l-us-touques-basket-prix-virunga.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R5-brehal/R5C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R5-brehal/R5C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+      "resultats-et-rapports/2006/08/2006-08-07/R5-brehal/R5C8-prix-equip-horse-prix-du-vieux-poirier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-enghien-soisy",
+      "R3-rochefort-sur-loire",
+      "R4-aix-les-bains",
+      "R5-brehal",
+      "R6-auch",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R1C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R1C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R1C4-prix-du-journal-le-pays-d-auge.html",
+        "R1C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R1C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R1C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R1C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R1C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R2C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R2C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R2C4-prix-du-journal-le-pays-d-auge.html",
+        "R2C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R2C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R2C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R2C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R2C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R3-rochefort-sur-loire": [
+        "R3C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R3C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R3C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R3C4-prix-du-journal-le-pays-d-auge.html",
+        "R3C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R3C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R3C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R3C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R3C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R4C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R4C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R4C4-prix-du-journal-le-pays-d-auge.html",
+        "R4C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R4C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R4C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R4C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R4C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R5-brehal": [
+        "R5C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R5C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R5C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R5C4-prix-du-journal-le-pays-d-auge.html",
+        "R5C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R5C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R5C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R5C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R5C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R6-auch": [
+        "R6C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R6C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R6C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R6C4-prix-du-journal-le-pays-d-auge.html",
+        "R6C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R6C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R6C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R6C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R6C9-prix-hubert-le-baron-dutacq.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-du-stade-malherbe-de-caen-prix-carling.html",
+        "R7C2-prix-de-la-course-d-anes-de-trouville-sur-mer-prix-vitiges.html",
+        "R7C3-prix-de-l-us-touques-basket-prix-virunga.html",
+        "R7C4-prix-du-journal-le-pays-d-auge.html",
+        "R7C5-prix-de-l-amiraute-golf-prix-des-aubepines.html",
+        "R7C6-prix-du-tennis-de-trouville-sur-mer-prix-du-clos-fleuri.html",
+        "R7C7-prix-du-champagne-michel-mailliard-prix-de-l-orbiquet.html",
+        "R7C8-prix-equip-horse-prix-du-vieux-poirier.html",
+        "R7C9-prix-hubert-le-baron-dutacq.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:18.779893Z"
+}

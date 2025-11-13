@@ -1,0 +1,79 @@
+{
+  "date": "2021-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-10",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-10/2021-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-10/R1-reims/R1C3-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R2-saint-galmier/R2C7-prix-nicolas.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R2-saint-galmier/R2C8-prix-rfm.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R4-chantilly/R4C5-prix-des-pmu-de-la-marne.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R4-chantilly/R4C6-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R99-ante-post-gnt-2021/R99C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R99-ante-post-gnt-2021/R99C2-prix-oscar-collard.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R99-ante-post-gnt-2021/R99C3-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R99-ante-post-gnt-2021/R99C4-prix-du-champagne-castelnau.html",
+      "resultats-et-rapports/2021/03/2021-03-10/R99-ante-post-gnt-2021/R99C5-prix-des-pmu-de-la-marne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R2-saint-galmier",
+      "R4-chantilly",
+      "R99-ante-post-gnt-2021"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-oscar-collard.html",
+        "R1C3-grand-national-des-amateurs.html",
+        "R1C4-prix-du-champagne-castelnau.html",
+        "R1C5-prix-des-pmu-de-la-marne.html",
+        "R1C6-grand-national-des-jockeys.html",
+        "R1C7-prix-nicolas.html",
+        "R1C8-prix-rfm.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-oscar-collard.html",
+        "R2C3-grand-national-des-amateurs.html",
+        "R2C4-prix-du-champagne-castelnau.html",
+        "R2C5-prix-des-pmu-de-la-marne.html",
+        "R2C6-grand-national-des-jockeys.html",
+        "R2C7-prix-nicolas.html",
+        "R2C8-prix-rfm.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-oscar-collard.html",
+        "R4C3-grand-national-des-amateurs.html",
+        "R4C4-prix-du-champagne-castelnau.html",
+        "R4C5-prix-des-pmu-de-la-marne.html",
+        "R4C6-grand-national-des-jockeys.html",
+        "R4C7-prix-nicolas.html",
+        "R4C8-prix-rfm.html"
+      ],
+      "R99-ante-post-gnt-2021": [
+        "R99C1-grand-national-du-trot-paris-turf.html",
+        "R99C2-prix-oscar-collard.html",
+        "R99C3-grand-national-des-amateurs.html",
+        "R99C4-prix-du-champagne-castelnau.html",
+        "R99C5-prix-des-pmu-de-la-marne.html",
+        "R99C6-grand-national-des-jockeys.html",
+        "R99C7-prix-nicolas.html",
+        "R99C8-prix-rfm.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:50.202986Z"
+}

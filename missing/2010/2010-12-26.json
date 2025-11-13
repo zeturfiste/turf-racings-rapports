@@ -1,0 +1,114 @@
+{
+  "date": "2010-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-26",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-26/2010-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C1-prix-de-cresserons.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C2-prix-emile-riotteau.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C4-criterium-continental.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C6-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C7-prix-pierre-giffard.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C8-prix-de-marly.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R2-pau/R2C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C1-prix-de-cresserons.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C2-prix-emile-riotteau.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C3-prix-de-chateaudun.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C4-criterium-continental.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C6-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C7-prix-pierre-giffard.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C8-prix-de-marly.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R1-vincennes/R1C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R3-bordeaux-le-bouscat/R3C3-prix-de-chateaudun.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R3-bordeaux-le-bouscat/R3C4-criterium-continental.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R3-bordeaux-le-bouscat/R3C6-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R3-bordeaux-le-bouscat/R3C7-prix-pierre-giffard.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R3-bordeaux-le-bouscat/R3C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R4-cagnes-sur-mer/R4C6-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C1-prix-de-cresserons.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C2-prix-emile-riotteau.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C3-prix-de-chateaudun.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C4-criterium-continental.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C8-prix-de-marly.html",
+      "resultats-et-rapports/2010/12/2010-12-26/R5-montauban/R5C9-prix-de-fougeres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-pau",
+      "R1-vincennes",
+      "R3-bordeaux-le-bouscat",
+      "R4-cagnes-sur-mer",
+      "R5-montauban"
+    ],
+    "courses_by_reunion": {
+      "R2-pau": [
+        "R2C1-prix-de-cresserons.html",
+        "R2C2-prix-emile-riotteau.html",
+        "R2C3-prix-de-chateaudun.html",
+        "R2C4-criterium-continental.html",
+        "R2C5-prix-de-vincennes.html",
+        "R2C6-prix-de-chateau-chinon.html",
+        "R2C7-prix-pierre-giffard.html",
+        "R2C8-prix-de-marly.html",
+        "R2C9-prix-de-fougeres.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-de-cresserons.html",
+        "R1C2-prix-emile-riotteau.html",
+        "R1C3-prix-de-chateaudun.html",
+        "R1C4-criterium-continental.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-de-chateau-chinon.html",
+        "R1C7-prix-pierre-giffard.html",
+        "R1C8-prix-de-marly.html",
+        "R1C9-prix-de-fougeres.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-cresserons.html",
+        "R3C2-prix-emile-riotteau.html",
+        "R3C3-prix-de-chateaudun.html",
+        "R3C4-criterium-continental.html",
+        "R3C5-prix-de-vincennes.html",
+        "R3C6-prix-de-chateau-chinon.html",
+        "R3C7-prix-pierre-giffard.html",
+        "R3C8-prix-de-marly.html",
+        "R3C9-prix-de-fougeres.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-cresserons.html",
+        "R4C2-prix-emile-riotteau.html",
+        "R4C3-prix-de-chateaudun.html",
+        "R4C4-criterium-continental.html",
+        "R4C5-prix-de-vincennes.html",
+        "R4C6-prix-de-chateau-chinon.html",
+        "R4C7-prix-pierre-giffard.html",
+        "R4C8-prix-de-marly.html",
+        "R4C9-prix-de-fougeres.html"
+      ],
+      "R5-montauban": [
+        "R5C1-prix-de-cresserons.html",
+        "R5C2-prix-emile-riotteau.html",
+        "R5C3-prix-de-chateaudun.html",
+        "R5C4-criterium-continental.html",
+        "R5C5-prix-de-vincennes.html",
+        "R5C6-prix-de-chateau-chinon.html",
+        "R5C7-prix-pierre-giffard.html",
+        "R5C8-prix-de-marly.html",
+        "R5C9-prix-de-fougeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:24.893816Z"
+}

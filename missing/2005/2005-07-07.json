@@ -1,0 +1,44 @@
+{
+  "date": "2005-07-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-07",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-07/2005-07-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-de-charenton.html",
+        "R1C2-prix-de-menilmontant.html",
+        "R1C3-prix-de-la-tour-eiffel.html",
+        "R1C4-prix-de-la-place-vendome.html",
+        "R1C5-prix-de-la-madeleine.html",
+        "R1C6-prix-de-la-place-du-trocadero.html",
+        "R1C7-prix-du-pantheon.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-la-porte-de-charenton.html",
+        "R2C2-prix-de-menilmontant.html",
+        "R2C3-prix-de-la-tour-eiffel.html",
+        "R2C4-prix-de-la-place-vendome.html",
+        "R2C5-prix-de-la-madeleine.html",
+        "R2C6-prix-de-la-place-du-trocadero.html",
+        "R2C7-prix-du-pantheon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:01.715567Z"
+}

@@ -1,0 +1,123 @@
+{
+  "date": "2012-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-18",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-18/2012-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-18/R1-auteuil/R1C2-prix-petit-bob.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R1-auteuil/R1C3-prix-francois-de-poncins.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R2-le-mans/R2C5-prix-francois-de-ganay-prix-le-parisien.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R2-le-mans/R2C7-prix-metatero.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R2-le-mans/R2C8-prix-huron.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C1-prix-kerym.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C2-prix-petit-bob.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C3-prix-francois-de-poncins.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C4-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C5-prix-francois-de-ganay-prix-le-parisien.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C6-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C7-prix-metatero.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R3-beaumont-de-lomagne/R3C8-prix-huron.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C3-prix-francois-de-poncins.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C4-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C5-prix-francois-de-ganay-prix-le-parisien.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C6-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C7-prix-metatero.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R7-maure-de-bretagne/R7C8-prix-huron.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C1-prix-kerym.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C2-prix-petit-bob.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C3-prix-francois-de-poncins.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C4-prix-bernard-de-dufau.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C5-prix-francois-de-ganay-prix-le-parisien.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C6-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C7-prix-metatero.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R8-argentan/R8C8-prix-huron.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R9-nantes/R9C2-prix-petit-bob.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R9-nantes/R9C3-prix-francois-de-poncins.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R9-nantes/R9C6-prix-leon-olry-roederer.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R9-nantes/R9C7-prix-metatero.html",
+      "resultats-et-rapports/2012/11/2012-11-18/R9-nantes/R9C8-prix-huron.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-mans",
+      "R3-beaumont-de-lomagne",
+      "R7-maure-de-bretagne",
+      "R8-argentan",
+      "R9-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-kerym.html",
+        "R1C2-prix-petit-bob.html",
+        "R1C3-prix-francois-de-poncins.html",
+        "R1C4-prix-bernard-de-dufau.html",
+        "R1C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R1C6-prix-leon-olry-roederer.html",
+        "R1C7-prix-metatero.html",
+        "R1C8-prix-huron.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-kerym.html",
+        "R2C2-prix-petit-bob.html",
+        "R2C3-prix-francois-de-poncins.html",
+        "R2C4-prix-bernard-de-dufau.html",
+        "R2C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R2C6-prix-leon-olry-roederer.html",
+        "R2C7-prix-metatero.html",
+        "R2C8-prix-huron.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-kerym.html",
+        "R3C2-prix-petit-bob.html",
+        "R3C3-prix-francois-de-poncins.html",
+        "R3C4-prix-bernard-de-dufau.html",
+        "R3C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R3C6-prix-leon-olry-roederer.html",
+        "R3C7-prix-metatero.html",
+        "R3C8-prix-huron.html"
+      ],
+      "R7-maure-de-bretagne": [
+        "R7C1-prix-kerym.html",
+        "R7C2-prix-petit-bob.html",
+        "R7C3-prix-francois-de-poncins.html",
+        "R7C4-prix-bernard-de-dufau.html",
+        "R7C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R7C6-prix-leon-olry-roederer.html",
+        "R7C7-prix-metatero.html",
+        "R7C8-prix-huron.html"
+      ],
+      "R8-argentan": [
+        "R8C1-prix-kerym.html",
+        "R8C2-prix-petit-bob.html",
+        "R8C3-prix-francois-de-poncins.html",
+        "R8C4-prix-bernard-de-dufau.html",
+        "R8C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R8C6-prix-leon-olry-roederer.html",
+        "R8C7-prix-metatero.html",
+        "R8C8-prix-huron.html"
+      ],
+      "R9-nantes": [
+        "R9C1-prix-kerym.html",
+        "R9C2-prix-petit-bob.html",
+        "R9C3-prix-francois-de-poncins.html",
+        "R9C4-prix-bernard-de-dufau.html",
+        "R9C5-prix-francois-de-ganay-prix-le-parisien.html",
+        "R9C6-prix-leon-olry-roederer.html",
+        "R9C7-prix-metatero.html",
+        "R9C8-prix-huron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:40.072598Z"
+}

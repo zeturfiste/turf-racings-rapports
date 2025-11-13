@@ -1,0 +1,71 @@
+{
+  "date": "2023-09-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-27",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-27/2023-09-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-27/R1-le-mont-saint-michel/R1C4-prix-v-and-b-fougeres.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R1-le-mont-saint-michel/R1C6-prix-mma-assurances-philippe-bailleul.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R1-le-mont-saint-michel/R1C7-prix-des-entreprises-rault-fendt.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R1-le-mont-saint-michel/R1C8-prix-pmu-cafe-de-la-baie.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R3-auteuil/R3C1-11e-etape-du-grand-national-du-trot-2023.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R3-auteuil/R3C4-prix-v-and-b-fougeres.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R3-auteuil/R3C6-prix-mma-assurances-philippe-bailleul.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R3-auteuil/R3C7-prix-des-entreprises-rault-fendt.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R4-marseille-vivaux/R4C1-11e-etape-du-grand-national-du-trot-2023.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R4-marseille-vivaux/R4C3-prix-des-vans-mtm.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R4-marseille-vivaux/R4C4-prix-v-and-b-fougeres.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R4-marseille-vivaux/R4C5-prix-sarl-sarrazin.html",
+      "resultats-et-rapports/2023/09/2023-09-27/R4-marseille-vivaux/R4C8-prix-pmu-cafe-de-la-baie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-mont-saint-michel",
+      "R3-auteuil",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-le-mont-saint-michel": [
+        "R1C1-11e-etape-du-grand-national-du-trot-2023.html",
+        "R1C2-prix-ltp-loisel.html",
+        "R1C3-prix-des-vans-mtm.html",
+        "R1C4-prix-v-and-b-fougeres.html",
+        "R1C5-prix-sarl-sarrazin.html",
+        "R1C6-prix-mma-assurances-philippe-bailleul.html",
+        "R1C7-prix-des-entreprises-rault-fendt.html",
+        "R1C8-prix-pmu-cafe-de-la-baie.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-11e-etape-du-grand-national-du-trot-2023.html",
+        "R3C2-prix-ltp-loisel.html",
+        "R3C3-prix-des-vans-mtm.html",
+        "R3C4-prix-v-and-b-fougeres.html",
+        "R3C5-prix-sarl-sarrazin.html",
+        "R3C6-prix-mma-assurances-philippe-bailleul.html",
+        "R3C7-prix-des-entreprises-rault-fendt.html",
+        "R3C8-prix-pmu-cafe-de-la-baie.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-11e-etape-du-grand-national-du-trot-2023.html",
+        "R4C2-prix-ltp-loisel.html",
+        "R4C3-prix-des-vans-mtm.html",
+        "R4C4-prix-v-and-b-fougeres.html",
+        "R4C5-prix-sarl-sarrazin.html",
+        "R4C6-prix-mma-assurances-philippe-bailleul.html",
+        "R4C7-prix-des-entreprises-rault-fendt.html",
+        "R4C8-prix-pmu-cafe-de-la-baie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:23.266093Z"
+}

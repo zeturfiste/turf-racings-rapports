@@ -1,0 +1,64 @@
+{
+  "date": "2005-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-02",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-02/2005-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes",
+      "R3-marseille-vivaux",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-de-la-savoie.html",
+        "R1C2-prix-georges-pelat.html",
+        "R1C3-prix-gelas.html",
+        "R1C4-prix-vertige.html",
+        "R1C5-prix-world-citizen.html",
+        "R1C6-prix-kerym.html",
+        "R1C7-prix-de-barcelonnette.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-savoie.html",
+        "R2C2-prix-georges-pelat.html",
+        "R2C3-prix-gelas.html",
+        "R2C4-prix-vertige.html",
+        "R2C5-prix-world-citizen.html",
+        "R2C6-prix-kerym.html",
+        "R2C7-prix-de-barcelonnette.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-la-savoie.html",
+        "R3C2-prix-georges-pelat.html",
+        "R3C3-prix-gelas.html",
+        "R3C4-prix-vertige.html",
+        "R3C5-prix-world-citizen.html",
+        "R3C6-prix-kerym.html",
+        "R3C7-prix-de-barcelonnette.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-savoie.html",
+        "R4C2-prix-georges-pelat.html",
+        "R4C3-prix-gelas.html",
+        "R4C4-prix-vertige.html",
+        "R4C5-prix-world-citizen.html",
+        "R4C6-prix-kerym.html",
+        "R4C7-prix-de-barcelonnette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:11.585898Z"
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2021-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-06",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-06/2021-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-06/R1-paris-longchamp/R1C1-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R1-paris-longchamp/R1C4-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R1-paris-longchamp/R1C7-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R1-paris-longchamp/R1C8-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R1-paris-longchamp/R1C9-prix-de-l-hotel-de-bourgogne.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R3-compiegne/R3C7-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R3-compiegne/R3C8-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R3-compiegne/R3C9-prix-de-l-hotel-de-bourgogne.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C1-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C2-prix-des-quais.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C3-prix-de-l-allee-des-acacias.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C4-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C5-prix-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C6-prix-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C7-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2021/05/2021-05-06/R4-bordeaux-le-bouscat/R4C9-prix-de-l-hotel-de-bourgogne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-compiegne",
+      "R4-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-comedie-francaise.html",
+        "R1C2-prix-des-quais.html",
+        "R1C3-prix-de-l-allee-des-acacias.html",
+        "R1C4-prix-du-val-de-grace.html",
+        "R1C5-prix-du-bois-de-boulogne.html",
+        "R1C6-prix-du-bois-de-vincennes.html",
+        "R1C7-prix-des-pavillons-de-bercy.html",
+        "R1C8-prix-des-bouffes-parisiens.html",
+        "R1C9-prix-de-l-hotel-de-bourgogne.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-la-comedie-francaise.html",
+        "R3C2-prix-des-quais.html",
+        "R3C3-prix-de-l-allee-des-acacias.html",
+        "R3C4-prix-du-val-de-grace.html",
+        "R3C5-prix-du-bois-de-boulogne.html",
+        "R3C6-prix-du-bois-de-vincennes.html",
+        "R3C7-prix-des-pavillons-de-bercy.html",
+        "R3C8-prix-des-bouffes-parisiens.html",
+        "R3C9-prix-de-l-hotel-de-bourgogne.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-de-la-comedie-francaise.html",
+        "R4C2-prix-des-quais.html",
+        "R4C3-prix-de-l-allee-des-acacias.html",
+        "R4C4-prix-du-val-de-grace.html",
+        "R4C5-prix-du-bois-de-boulogne.html",
+        "R4C6-prix-du-bois-de-vincennes.html",
+        "R4C7-prix-des-pavillons-de-bercy.html",
+        "R4C8-prix-des-bouffes-parisiens.html",
+        "R4C9-prix-de-l-hotel-de-bourgogne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:10.102786Z"
+}

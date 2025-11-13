@@ -1,0 +1,93 @@
+{
+  "date": "2019-07-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/07/2019-07-16",
+    "date_html": "resultats-et-rapports/2019/07/2019-07-16/2019-07-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/07/2019-07-16/R1-vichy/R1C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R2-feurs/R2C7-prix-artus-de-maille-prix-de-durtol.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R2-feurs/R2C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R4-saint-malo/R4C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R4-saint-malo/R4C7-prix-artus-de-maille-prix-de-durtol.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R5-cabourg/R5C1-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R5-cabourg/R5C2-prix-francois-mathet-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R5-cabourg/R5C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R5-cabourg/R5C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R6-pornichet-la-baule/R6C2-prix-francois-mathet-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R6-pornichet-la-baule/R6C4-prix-vans-theault-prix-de-saint-menoux.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R6-pornichet-la-baule/R6C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+      "resultats-et-rapports/2019/07/2019-07-16/R6-pornichet-la-baule/R6C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-feurs",
+      "R4-saint-malo",
+      "R5-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-hubert-de-catheu.html",
+        "R1C2-prix-francois-mathet-prix-de-la-minardiere.html",
+        "R1C3-prix-langlois-reception-prix-de-pouilly-les-nonains.html",
+        "R1C4-prix-vans-theault-prix-de-saint-menoux.html",
+        "R1C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+        "R1C6-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R1C7-prix-artus-de-maille-prix-de-durtol.html",
+        "R1C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-hubert-de-catheu.html",
+        "R2C2-prix-francois-mathet-prix-de-la-minardiere.html",
+        "R2C3-prix-langlois-reception-prix-de-pouilly-les-nonains.html",
+        "R2C4-prix-vans-theault-prix-de-saint-menoux.html",
+        "R2C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+        "R2C6-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R2C7-prix-artus-de-maille-prix-de-durtol.html",
+        "R2C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+      ],
+      "R4-saint-malo": [
+        "R4C1-prix-hubert-de-catheu.html",
+        "R4C2-prix-francois-mathet-prix-de-la-minardiere.html",
+        "R4C3-prix-langlois-reception-prix-de-pouilly-les-nonains.html",
+        "R4C4-prix-vans-theault-prix-de-saint-menoux.html",
+        "R4C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+        "R4C6-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R4C7-prix-artus-de-maille-prix-de-durtol.html",
+        "R4C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-hubert-de-catheu.html",
+        "R5C2-prix-francois-mathet-prix-de-la-minardiere.html",
+        "R5C3-prix-langlois-reception-prix-de-pouilly-les-nonains.html",
+        "R5C4-prix-vans-theault-prix-de-saint-menoux.html",
+        "R5C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+        "R5C6-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R5C7-prix-artus-de-maille-prix-de-durtol.html",
+        "R5C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-hubert-de-catheu.html",
+        "R6C2-prix-francois-mathet-prix-de-la-minardiere.html",
+        "R6C3-prix-langlois-reception-prix-de-pouilly-les-nonains.html",
+        "R6C4-prix-vans-theault-prix-de-saint-menoux.html",
+        "R6C5-prix-un-enfant-par-la-main-prix-gabriel-brun.html",
+        "R6C6-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R6C7-prix-artus-de-maille-prix-de-durtol.html",
+        "R6C8-prix-de-l-hippodrome-de-casablanca-prix-de-l-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:47.220851Z"
+}

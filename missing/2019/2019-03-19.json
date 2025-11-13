@@ -1,0 +1,72 @@
+{
+  "date": "2019-03-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-19",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-19/2019-03-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-19/R1-chantilly/R1C1-prix-sagaro.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R1-chantilly/R1C5-prix-de-la-pistole.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R1-chantilly/R1C7-prix-de-puiseux-en-france.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R2-hyeres/R2C1-prix-sagaro.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R2-hyeres/R2C2-prix-du-pave-de-thiers.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R2-hyeres/R2C3-prix-du-belvedere.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R2-hyeres/R2C4-prix-du-pave-de-la-biche.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R2-hyeres/R2C6-prix-de-mareil-en-france.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C1-prix-sagaro.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C2-prix-du-pave-de-thiers.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C3-prix-du-belvedere.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C4-prix-du-pave-de-la-biche.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C5-prix-de-la-pistole.html",
+      "resultats-et-rapports/2019/03/2019-03-19/R4-enghien-soisy/R4C7-prix-de-puiseux-en-france.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-hyeres",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-sagaro.html",
+        "R1C2-prix-du-pave-de-thiers.html",
+        "R1C3-prix-du-belvedere.html",
+        "R1C4-prix-du-pave-de-la-biche.html",
+        "R1C5-prix-de-la-pistole.html",
+        "R1C6-prix-de-mareil-en-france.html",
+        "R1C7-prix-de-puiseux-en-france.html",
+        "R1C8-prix-buckskin.html"
+      ],
+      "R2-hyeres": [
+        "R2C1-prix-sagaro.html",
+        "R2C2-prix-du-pave-de-thiers.html",
+        "R2C3-prix-du-belvedere.html",
+        "R2C4-prix-du-pave-de-la-biche.html",
+        "R2C5-prix-de-la-pistole.html",
+        "R2C6-prix-de-mareil-en-france.html",
+        "R2C7-prix-de-puiseux-en-france.html",
+        "R2C8-prix-buckskin.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-sagaro.html",
+        "R4C2-prix-du-pave-de-thiers.html",
+        "R4C3-prix-du-belvedere.html",
+        "R4C4-prix-du-pave-de-la-biche.html",
+        "R4C5-prix-de-la-pistole.html",
+        "R4C6-prix-de-mareil-en-france.html",
+        "R4C7-prix-de-puiseux-en-france.html",
+        "R4C8-prix-buckskin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:08.723758Z"
+}

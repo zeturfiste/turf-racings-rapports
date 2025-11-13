@@ -1,0 +1,97 @@
+{
+  "date": "2014-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-16",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-16/2014-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-16/R1-maisons-laffitte/R1C5-prix-d-eaubonne.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R1-maisons-laffitte/R1C6-prix-de-maisons-sur-seine.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R1-maisons-laffitte/R1C8-prix-du-cercle-de-la-gloire.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R2-compiegne/R2C7-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C1-prix-joyeux-drille.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C4-prix-crystal-palace.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C5-prix-d-eaubonne.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C7-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R3-cabourg/R3C8-prix-du-cercle-de-la-gloire.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R4-laval/R4C1-prix-joyeux-drille.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R4-laval/R4C2-prix-tahiti.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R4-laval/R4C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R4-laval/R4C4-prix-crystal-palace.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R5-vincennes/R5C5-prix-d-eaubonne.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R5-vincennes/R5C6-prix-de-maisons-sur-seine.html",
+      "resultats-et-rapports/2014/09/2014-09-16/R5-vincennes/R5C7-prix-de-la-prairie-du-parc.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-compiegne",
+      "R3-cabourg",
+      "R4-laval",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-joyeux-drille.html",
+        "R1C2-prix-tahiti.html",
+        "R1C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R1C4-prix-crystal-palace.html",
+        "R1C5-prix-d-eaubonne.html",
+        "R1C6-prix-de-maisons-sur-seine.html",
+        "R1C7-prix-de-la-prairie-du-parc.html",
+        "R1C8-prix-du-cercle-de-la-gloire.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-joyeux-drille.html",
+        "R2C2-prix-tahiti.html",
+        "R2C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R2C4-prix-crystal-palace.html",
+        "R2C5-prix-d-eaubonne.html",
+        "R2C6-prix-de-maisons-sur-seine.html",
+        "R2C7-prix-de-la-prairie-du-parc.html",
+        "R2C8-prix-du-cercle-de-la-gloire.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-joyeux-drille.html",
+        "R3C2-prix-tahiti.html",
+        "R3C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R3C4-prix-crystal-palace.html",
+        "R3C5-prix-d-eaubonne.html",
+        "R3C6-prix-de-maisons-sur-seine.html",
+        "R3C7-prix-de-la-prairie-du-parc.html",
+        "R3C8-prix-du-cercle-de-la-gloire.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-joyeux-drille.html",
+        "R4C2-prix-tahiti.html",
+        "R4C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R4C4-prix-crystal-palace.html",
+        "R4C5-prix-d-eaubonne.html",
+        "R4C6-prix-de-maisons-sur-seine.html",
+        "R4C7-prix-de-la-prairie-du-parc.html",
+        "R4C8-prix-du-cercle-de-la-gloire.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-joyeux-drille.html",
+        "R5C2-prix-tahiti.html",
+        "R5C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R5C4-prix-crystal-palace.html",
+        "R5C5-prix-d-eaubonne.html",
+        "R5C6-prix-de-maisons-sur-seine.html",
+        "R5C7-prix-de-la-prairie-du-parc.html",
+        "R5C8-prix-du-cercle-de-la-gloire.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:55.317130Z"
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2005-04-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/04/2005-04-28",
+    "date_html": "resultats-et-rapports/2005/04/2005-04-28/2005-04-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-bourbon.html",
+        "R1C2-prix-de-nanterre.html",
+        "R1C3-prix-de-la-madeleine.html",
+        "R1C4-prix-des-arenes.html",
+        "R1C5-prix-des-epinettes.html",
+        "R1C6-prix-de-montmartre.html",
+        "R1C7-prix-des-centaures-challenge-spillers-trophee-l-affiche-restauration.html",
+        "R1C8-prix-de-villeneuve-l-etang.html",
+        "R1C9-prix-de-l-hotel-de-lassay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:51.672613Z"
+}

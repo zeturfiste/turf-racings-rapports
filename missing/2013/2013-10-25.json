@@ -1,0 +1,75 @@
+{
+  "date": "2013-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-25",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-25/2013-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C1-prix-le-pompier.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C2-prix-joseph-kerbiriou.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C3-prix-claude-rouget.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C4-prix-du-credit-mutuel-ocean.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C6-prix-du-conseil-general-de-la-vendee.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C7-prix-stephane-leignel.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R1-les-sables-d-olonne/R1C8-prix-jobic-severe.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R2-clairefontaine/R2C1-prix-le-pompier.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R2-clairefontaine/R2C2-prix-joseph-kerbiriou.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R2-clairefontaine/R2C4-prix-du-credit-mutuel-ocean.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R2-clairefontaine/R2C6-prix-du-conseil-general-de-la-vendee.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R2-clairefontaine/R2C8-prix-jobic-severe.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R3-vincennes/R3C1-prix-le-pompier.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R3-vincennes/R3C2-prix-joseph-kerbiriou.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R3-vincennes/R3C3-prix-claude-rouget.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R3-vincennes/R3C4-prix-du-credit-mutuel-ocean.html",
+      "resultats-et-rapports/2013/10/2013-10-25/R3-vincennes/R3C5-prix-roger-crossouard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R2-clairefontaine",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-le-pompier.html",
+        "R1C2-prix-joseph-kerbiriou.html",
+        "R1C3-prix-claude-rouget.html",
+        "R1C4-prix-du-credit-mutuel-ocean.html",
+        "R1C5-prix-roger-crossouard.html",
+        "R1C6-prix-du-conseil-general-de-la-vendee.html",
+        "R1C7-prix-stephane-leignel.html",
+        "R1C8-prix-jobic-severe.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-le-pompier.html",
+        "R2C2-prix-joseph-kerbiriou.html",
+        "R2C3-prix-claude-rouget.html",
+        "R2C4-prix-du-credit-mutuel-ocean.html",
+        "R2C5-prix-roger-crossouard.html",
+        "R2C6-prix-du-conseil-general-de-la-vendee.html",
+        "R2C7-prix-stephane-leignel.html",
+        "R2C8-prix-jobic-severe.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-le-pompier.html",
+        "R3C2-prix-joseph-kerbiriou.html",
+        "R3C3-prix-claude-rouget.html",
+        "R3C4-prix-du-credit-mutuel-ocean.html",
+        "R3C5-prix-roger-crossouard.html",
+        "R3C6-prix-du-conseil-general-de-la-vendee.html",
+        "R3C7-prix-stephane-leignel.html",
+        "R3C8-prix-jobic-severe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:18.071550Z"
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2015-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-12",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-12/2015-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C1-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C2-prix-de-la-fosse-aux-biches.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C3-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C4-prix-de-coye.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C5-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R1-chantilly/R1C8-prix-de-versigny.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R2-amiens/R2C7-prix-du-bois-de-la-tuilerie.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R2-amiens/R2C8-prix-de-versigny.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R3-saint-malo/R3C1-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R3-saint-malo/R3C3-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R3-saint-malo/R3C6-prix-jean-prat.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R4-castera-verduzan/R4C3-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R4-castera-verduzan/R4C4-prix-de-coye.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R4-castera-verduzan/R4C5-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R4-castera-verduzan/R4C7-prix-du-bois-de-la-tuilerie.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C2-prix-de-la-fosse-aux-biches.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C4-prix-de-coye.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C5-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C6-prix-jean-prat.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C7-prix-du-bois-de-la-tuilerie.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R5-saint-jean-de-monts/R5C8-prix-de-versigny.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R6-l-isle-sur-sorgue/R6C1-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R6-l-isle-sur-sorgue/R6C4-prix-de-coye.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R6-l-isle-sur-sorgue/R6C5-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R6-l-isle-sur-sorgue/R6C6-prix-jean-prat.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R6-l-isle-sur-sorgue/R6C8-prix-de-versigny.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C1-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C2-prix-de-la-fosse-aux-biches.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C3-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C4-prix-de-coye.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C5-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C6-prix-jean-prat.html",
+      "resultats-et-rapports/2015/07/2015-07-12/R7-vittel/R7C7-prix-du-bois-de-la-tuilerie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-amiens",
+      "R3-saint-malo",
+      "R4-castera-verduzan",
+      "R5-saint-jean-de-monts",
+      "R6-l-isle-sur-sorgue",
+      "R7-vittel"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-l-hermitage.html",
+        "R1C2-prix-de-la-fosse-aux-biches.html",
+        "R1C3-prix-des-grandes-ecuries.html",
+        "R1C4-prix-de-coye.html",
+        "R1C5-prix-du-bois-des-bouleaux.html",
+        "R1C6-prix-jean-prat.html",
+        "R1C7-prix-du-bois-de-la-tuilerie.html",
+        "R1C8-prix-de-versigny.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-de-l-hermitage.html",
+        "R2C2-prix-de-la-fosse-aux-biches.html",
+        "R2C3-prix-des-grandes-ecuries.html",
+        "R2C4-prix-de-coye.html",
+        "R2C5-prix-du-bois-des-bouleaux.html",
+        "R2C6-prix-jean-prat.html",
+        "R2C7-prix-du-bois-de-la-tuilerie.html",
+        "R2C8-prix-de-versigny.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-de-l-hermitage.html",
+        "R3C2-prix-de-la-fosse-aux-biches.html",
+        "R3C3-prix-des-grandes-ecuries.html",
+        "R3C4-prix-de-coye.html",
+        "R3C5-prix-du-bois-des-bouleaux.html",
+        "R3C6-prix-jean-prat.html",
+        "R3C7-prix-du-bois-de-la-tuilerie.html",
+        "R3C8-prix-de-versigny.html"
+      ],
+      "R4-castera-verduzan": [
+        "R4C1-prix-de-l-hermitage.html",
+        "R4C2-prix-de-la-fosse-aux-biches.html",
+        "R4C3-prix-des-grandes-ecuries.html",
+        "R4C4-prix-de-coye.html",
+        "R4C5-prix-du-bois-des-bouleaux.html",
+        "R4C6-prix-jean-prat.html",
+        "R4C7-prix-du-bois-de-la-tuilerie.html",
+        "R4C8-prix-de-versigny.html"
+      ],
+      "R5-saint-jean-de-monts": [
+        "R5C1-prix-de-l-hermitage.html",
+        "R5C2-prix-de-la-fosse-aux-biches.html",
+        "R5C3-prix-des-grandes-ecuries.html",
+        "R5C4-prix-de-coye.html",
+        "R5C5-prix-du-bois-des-bouleaux.html",
+        "R5C6-prix-jean-prat.html",
+        "R5C7-prix-du-bois-de-la-tuilerie.html",
+        "R5C8-prix-de-versigny.html"
+      ],
+      "R6-l-isle-sur-sorgue": [
+        "R6C1-prix-de-l-hermitage.html",
+        "R6C2-prix-de-la-fosse-aux-biches.html",
+        "R6C3-prix-des-grandes-ecuries.html",
+        "R6C4-prix-de-coye.html",
+        "R6C5-prix-du-bois-des-bouleaux.html",
+        "R6C6-prix-jean-prat.html",
+        "R6C7-prix-du-bois-de-la-tuilerie.html",
+        "R6C8-prix-de-versigny.html"
+      ],
+      "R7-vittel": [
+        "R7C1-prix-de-l-hermitage.html",
+        "R7C2-prix-de-la-fosse-aux-biches.html",
+        "R7C3-prix-des-grandes-ecuries.html",
+        "R7C4-prix-de-coye.html",
+        "R7C5-prix-du-bois-des-bouleaux.html",
+        "R7C6-prix-jean-prat.html",
+        "R7C7-prix-du-bois-de-la-tuilerie.html",
+        "R7C8-prix-de-versigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:25.705157Z"
+}

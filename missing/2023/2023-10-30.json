@@ -1,0 +1,65 @@
+{
+  "date": "2023-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-30",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-30/2023-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-30/R1-saint-cloud/R1C4-prix-glorieuse.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R3-fontainebleau/R3C5-prix-solitude.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R3-fontainebleau/R3C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R4-marseille-vivaux/R4C1-prix-antivari.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R4-marseille-vivaux/R4C3-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R4-marseille-vivaux/R4C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2023/10/2023-10-30/R4-marseille-vivaux/R4C8-prix-de-saint-martin-du-chene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-fontainebleau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-antivari.html",
+        "R1C2-prix-douve.html",
+        "R1C3-prix-de-saint-pair-du-mont.html",
+        "R1C4-prix-glorieuse.html",
+        "R1C5-prix-solitude.html",
+        "R1C6-prix-de-notre-dame-de-livaye.html",
+        "R1C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-antivari.html",
+        "R3C2-prix-douve.html",
+        "R3C3-prix-de-saint-pair-du-mont.html",
+        "R3C4-prix-glorieuse.html",
+        "R3C5-prix-solitude.html",
+        "R3C6-prix-de-notre-dame-de-livaye.html",
+        "R3C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-antivari.html",
+        "R4C2-prix-douve.html",
+        "R4C3-prix-de-saint-pair-du-mont.html",
+        "R4C4-prix-glorieuse.html",
+        "R4C5-prix-solitude.html",
+        "R4C6-prix-de-notre-dame-de-livaye.html",
+        "R4C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:35.160527Z"
+}

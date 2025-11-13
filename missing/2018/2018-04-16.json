@@ -1,0 +1,80 @@
+{
+  "date": "2018-04-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-16",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-16/2018-04-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C1-prix-carling.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C3-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C4-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C5-prix-du-bu.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C6-prix-du-lay-du-prieure.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C7-prix-du-reposoir.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R1-chantilly/R1C8-prix-magic-night.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C1-prix-carling.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C2-prix-de-valmondois.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C3-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C4-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C5-prix-du-bu.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C6-prix-du-lay-du-prieure.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C7-prix-du-reposoir.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R3-reims/R3C8-prix-magic-night.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C1-prix-carling.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C2-prix-de-valmondois.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C3-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C4-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C5-prix-du-bu.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C7-prix-du-reposoir.html",
+      "resultats-et-rapports/2018/04/2018-04-16/R4-moulins/R4C8-prix-magic-night.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-reims",
+      "R4-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-carling.html",
+        "R1C2-prix-de-valmondois.html",
+        "R1C3-prix-de-la-canardiere.html",
+        "R1C4-prix-de-la-goursaule.html",
+        "R1C5-prix-du-bu.html",
+        "R1C6-prix-du-lay-du-prieure.html",
+        "R1C7-prix-du-reposoir.html",
+        "R1C8-prix-magic-night.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-carling.html",
+        "R3C2-prix-de-valmondois.html",
+        "R3C3-prix-de-la-canardiere.html",
+        "R3C4-prix-de-la-goursaule.html",
+        "R3C5-prix-du-bu.html",
+        "R3C6-prix-du-lay-du-prieure.html",
+        "R3C7-prix-du-reposoir.html",
+        "R3C8-prix-magic-night.html"
+      ],
+      "R4-moulins": [
+        "R4C1-prix-carling.html",
+        "R4C2-prix-de-valmondois.html",
+        "R4C3-prix-de-la-canardiere.html",
+        "R4C4-prix-de-la-goursaule.html",
+        "R4C5-prix-du-bu.html",
+        "R4C6-prix-du-lay-du-prieure.html",
+        "R4C7-prix-du-reposoir.html",
+        "R4C8-prix-magic-night.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:27.039917Z"
+}

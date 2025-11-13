@@ -1,0 +1,62 @@
+{
+  "date": "2020-11-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-12",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-12/2020-11-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-12/R1-vincennes/R1C7-prix-de-valenciennes.html",
+      "resultats-et-rapports/2020/11/2020-11-12/R3-fontainebleau/R3C3-prix-du-grand-fougeray.html",
+      "resultats-et-rapports/2020/11/2020-11-12/R3-fontainebleau/R3C7-prix-de-valenciennes.html",
+      "resultats-et-rapports/2020/11/2020-11-12/R4-marseille-vivaux/R4C4-prix-d-annecy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cognac.html",
+        "R1C2-prix-marcel-laurent.html",
+        "R1C3-prix-du-grand-fougeray.html",
+        "R1C4-prix-d-annecy.html",
+        "R1C5-prix-olry-roederer.html",
+        "R1C6-prix-de-belfort.html",
+        "R1C7-prix-de-valenciennes.html",
+        "R1C8-prix-d-aix-les-bains.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-cognac.html",
+        "R3C2-prix-marcel-laurent.html",
+        "R3C3-prix-du-grand-fougeray.html",
+        "R3C4-prix-d-annecy.html",
+        "R3C5-prix-olry-roederer.html",
+        "R3C6-prix-de-belfort.html",
+        "R3C7-prix-de-valenciennes.html",
+        "R3C8-prix-d-aix-les-bains.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-cognac.html",
+        "R4C2-prix-marcel-laurent.html",
+        "R4C3-prix-du-grand-fougeray.html",
+        "R4C4-prix-d-annecy.html",
+        "R4C5-prix-olry-roederer.html",
+        "R4C6-prix-de-belfort.html",
+        "R4C7-prix-de-valenciennes.html",
+        "R4C8-prix-d-aix-les-bains.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:12.914902Z"
+}

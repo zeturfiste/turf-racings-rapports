@@ -1,0 +1,77 @@
+{
+  "date": "2024-02-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-16",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-16/2024-02-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-16/R3-nantes/R3C6-prix-de-cahors.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R4-chantilly/R4C2-prix-de-caussade.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R4-chantilly/R4C8-prix-de-chateaurenard.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R5-pornichet-la-baule/R5C2-prix-de-caussade.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R5-pornichet-la-baule/R5C4-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R5-pornichet-la-baule/R5C5-prix-paul-bastard.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R5-pornichet-la-baule/R5C6-prix-de-cahors.html",
+      "resultats-et-rapports/2024/02/2024-02-16/R5-pornichet-la-baule/R5C8-prix-de-chateaurenard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nantes",
+      "R4-chantilly",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-holly-du-locton.html",
+        "R1C2-prix-de-caussade.html",
+        "R1C3-prix-edouard-marcillac.html",
+        "R1C4-prix-de-bois-le-roi.html",
+        "R1C5-prix-paul-bastard.html",
+        "R1C6-prix-de-cahors.html",
+        "R1C7-prix-de-raulhac.html",
+        "R1C8-prix-de-chateaurenard.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-holly-du-locton.html",
+        "R3C2-prix-de-caussade.html",
+        "R3C3-prix-edouard-marcillac.html",
+        "R3C4-prix-de-bois-le-roi.html",
+        "R3C5-prix-paul-bastard.html",
+        "R3C6-prix-de-cahors.html",
+        "R3C7-prix-de-raulhac.html",
+        "R3C8-prix-de-chateaurenard.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-holly-du-locton.html",
+        "R4C2-prix-de-caussade.html",
+        "R4C3-prix-edouard-marcillac.html",
+        "R4C4-prix-de-bois-le-roi.html",
+        "R4C5-prix-paul-bastard.html",
+        "R4C6-prix-de-cahors.html",
+        "R4C7-prix-de-raulhac.html",
+        "R4C8-prix-de-chateaurenard.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-holly-du-locton.html",
+        "R5C2-prix-de-caussade.html",
+        "R5C3-prix-edouard-marcillac.html",
+        "R5C4-prix-de-bois-le-roi.html",
+        "R5C5-prix-paul-bastard.html",
+        "R5C6-prix-de-cahors.html",
+        "R5C7-prix-de-raulhac.html",
+        "R5C8-prix-de-chateaurenard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:11.664578Z"
+}

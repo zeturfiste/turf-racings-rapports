@@ -1,0 +1,102 @@
+{
+  "date": "2016-07-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-09",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-09/2016-07-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-09/R1-enghien-soisy/R1C5-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R3-nantes/R3C1-prix-d-armentieres.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R3-nantes/R3C3-prix-de-la-manche.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R3-nantes/R3C5-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R3-nantes/R3C7-prix-d-estry.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R4-clairefontaine/R4C1-prix-d-armentieres.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R4-clairefontaine/R4C7-prix-d-estry.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R4-clairefontaine/R4C8-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C3-prix-de-la-manche.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C4-prix-de-berlin.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C5-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C6-prix-de-l-ecole-militaire.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C7-prix-d-estry.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R5-vichy/R5C8-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C1-prix-d-armentieres.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C4-prix-de-berlin.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C5-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C6-prix-de-l-ecole-militaire.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C7-prix-d-estry.html",
+      "resultats-et-rapports/2016/07/2016-07-09/R7-graignes/R7C8-prix-du-parc-montsouris.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-nantes",
+      "R4-clairefontaine",
+      "R5-vichy",
+      "R7-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-armentieres.html",
+        "R1C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+        "R1C3-prix-de-la-manche.html",
+        "R1C4-prix-de-berlin.html",
+        "R1C5-prix-du-moulin-rouge.html",
+        "R1C6-prix-de-l-ecole-militaire.html",
+        "R1C7-prix-d-estry.html",
+        "R1C8-prix-du-parc-montsouris.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-d-armentieres.html",
+        "R3C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+        "R3C3-prix-de-la-manche.html",
+        "R3C4-prix-de-berlin.html",
+        "R3C5-prix-du-moulin-rouge.html",
+        "R3C6-prix-de-l-ecole-militaire.html",
+        "R3C7-prix-d-estry.html",
+        "R3C8-prix-du-parc-montsouris.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-d-armentieres.html",
+        "R4C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+        "R4C3-prix-de-la-manche.html",
+        "R4C4-prix-de-berlin.html",
+        "R4C5-prix-du-moulin-rouge.html",
+        "R4C6-prix-de-l-ecole-militaire.html",
+        "R4C7-prix-d-estry.html",
+        "R4C8-prix-du-parc-montsouris.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-d-armentieres.html",
+        "R5C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+        "R5C3-prix-de-la-manche.html",
+        "R5C4-prix-de-berlin.html",
+        "R5C5-prix-du-moulin-rouge.html",
+        "R5C6-prix-de-l-ecole-militaire.html",
+        "R5C7-prix-d-estry.html",
+        "R5C8-prix-du-parc-montsouris.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-d-armentieres.html",
+        "R7C2-prix-idfm-radio-enghien-prix-de-l-ardeche.html",
+        "R7C3-prix-de-la-manche.html",
+        "R7C4-prix-de-berlin.html",
+        "R7C5-prix-du-moulin-rouge.html",
+        "R7C6-prix-de-l-ecole-militaire.html",
+        "R7C7-prix-d-estry.html",
+        "R7C8-prix-du-parc-montsouris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:12.474511Z"
+}

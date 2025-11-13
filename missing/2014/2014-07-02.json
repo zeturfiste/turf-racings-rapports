@@ -1,0 +1,65 @@
+{
+  "date": "2014-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-02",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-02/2014-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-02/R1-vichy/R1C3-prix-medas-prix-de-l-indre.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R1-vichy/R1C5-prix-de-barcelone.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R2-deauville/R2C3-prix-medas-prix-de-l-indre.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R2-deauville/R2C8-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R3-lisieux/R3C5-prix-de-barcelone.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R3-lisieux/R3C6-prix-de-savoie.html",
+      "resultats-et-rapports/2014/07/2014-07-02/R3-lisieux/R3C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-deauville",
+      "R3-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-vincennes.html",
+        "R1C2-prix-de-vaumas.html",
+        "R1C3-prix-medas-prix-de-l-indre.html",
+        "R1C4-prix-de-l-ile-de-france.html",
+        "R1C5-prix-de-barcelone.html",
+        "R1C6-prix-de-savoie.html",
+        "R1C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-vincennes.html",
+        "R2C2-prix-de-vaumas.html",
+        "R2C3-prix-medas-prix-de-l-indre.html",
+        "R2C4-prix-de-l-ile-de-france.html",
+        "R2C5-prix-de-barcelone.html",
+        "R2C6-prix-de-savoie.html",
+        "R2C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R2C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-de-vincennes.html",
+        "R3C2-prix-de-vaumas.html",
+        "R3C3-prix-medas-prix-de-l-indre.html",
+        "R3C4-prix-de-l-ile-de-france.html",
+        "R3C5-prix-de-barcelone.html",
+        "R3C6-prix-de-savoie.html",
+        "R3C7-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R3C8-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:30.282420Z"
+}

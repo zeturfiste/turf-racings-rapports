@@ -1,0 +1,89 @@
+{
+  "date": "2022-09-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-01",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-01/2022-09-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-01/R1-paris-longchamp/R1C1-prix-de-liancourt.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R1-paris-longchamp/R1C2-prix-d-arenberg.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R1-paris-longchamp/R1C4-prix-de-la-cascade.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R1-paris-longchamp/R1C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R1-paris-longchamp/R1C8-prix-de-la-plaine-de-monceaux.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C1-prix-de-liancourt.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C2-prix-d-arenberg.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C3-prix-de-fontenoy.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C5-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C6-prix-de-madrid.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R2-le-croise-laroche/R2C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R3-marseille-borely/R3C2-prix-d-arenberg.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R3-marseille-borely/R3C5-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R3-marseille-borely/R3C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R3-marseille-borely/R3C8-prix-de-la-plaine-de-monceaux.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R4-laval/R4C1-prix-de-liancourt.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R4-laval/R4C2-prix-d-arenberg.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R4-laval/R4C4-prix-de-la-cascade.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R4-laval/R4C5-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2022/09/2022-09-01/R4-laval/R4C8-prix-de-la-plaine-de-monceaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-le-croise-laroche",
+      "R3-marseille-borely",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-liancourt.html",
+        "R1C2-prix-d-arenberg.html",
+        "R1C3-prix-de-fontenoy.html",
+        "R1C4-prix-de-la-cascade.html",
+        "R1C5-prix-de-la-reine-marguerite.html",
+        "R1C6-prix-de-madrid.html",
+        "R1C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R1C8-prix-de-la-plaine-de-monceaux.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-de-liancourt.html",
+        "R2C2-prix-d-arenberg.html",
+        "R2C3-prix-de-fontenoy.html",
+        "R2C4-prix-de-la-cascade.html",
+        "R2C5-prix-de-la-reine-marguerite.html",
+        "R2C6-prix-de-madrid.html",
+        "R2C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R2C8-prix-de-la-plaine-de-monceaux.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-liancourt.html",
+        "R3C2-prix-d-arenberg.html",
+        "R3C3-prix-de-fontenoy.html",
+        "R3C4-prix-de-la-cascade.html",
+        "R3C5-prix-de-la-reine-marguerite.html",
+        "R3C6-prix-de-madrid.html",
+        "R3C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R3C8-prix-de-la-plaine-de-monceaux.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-liancourt.html",
+        "R4C2-prix-d-arenberg.html",
+        "R4C3-prix-de-fontenoy.html",
+        "R4C4-prix-de-la-cascade.html",
+        "R4C5-prix-de-la-reine-marguerite.html",
+        "R4C6-prix-de-madrid.html",
+        "R4C7-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R4C8-prix-de-la-plaine-de-monceaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:03.719416Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2023-09-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-06",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-06/2023-09-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-06/R1-la-capelle/R1C8-prix-de-la-communaute-de-communes-de-la-thierache-du-centre-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R3-lyon-parilly/R3C2-prix-francois-caille.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R3-lyon-parilly/R3C4-prix-de-la-saur.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R4-vire/R4C4-prix-de-la-saur.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R4-vire/R4C6-prix-pierre-coignard-prix-d-arras.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R4-vire/R4C7-grand-prix-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R7-marseille-borely/R7C2-prix-francois-caille.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R7-marseille-borely/R7C5-prix-c-p-m-prix-de-laon.html",
+      "resultats-et-rapports/2023/09/2023-09-06/R7-marseille-borely/R7C7-grand-prix-federation-regionale-du-nord.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R3-lyon-parilly",
+      "R4-vire",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-du-credit-agricole-nord-est.html",
+        "R1C2-prix-francois-caille.html",
+        "R1C3-prix-groupe-lanie-prix-d-amiens.html",
+        "R1C4-prix-de-la-saur.html",
+        "R1C5-prix-c-p-m-prix-de-laon.html",
+        "R1C6-prix-pierre-coignard-prix-d-arras.html",
+        "R1C7-grand-prix-federation-regionale-du-nord.html",
+        "R1C8-prix-de-la-communaute-de-communes-de-la-thierache-du-centre-prix-du-croise-laroche.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-credit-agricole-nord-est.html",
+        "R3C2-prix-francois-caille.html",
+        "R3C3-prix-groupe-lanie-prix-d-amiens.html",
+        "R3C4-prix-de-la-saur.html",
+        "R3C5-prix-c-p-m-prix-de-laon.html",
+        "R3C6-prix-pierre-coignard-prix-d-arras.html",
+        "R3C7-grand-prix-federation-regionale-du-nord.html",
+        "R3C8-prix-de-la-communaute-de-communes-de-la-thierache-du-centre-prix-du-croise-laroche.html"
+      ],
+      "R4-vire": [
+        "R4C1-prix-du-credit-agricole-nord-est.html",
+        "R4C2-prix-francois-caille.html",
+        "R4C3-prix-groupe-lanie-prix-d-amiens.html",
+        "R4C4-prix-de-la-saur.html",
+        "R4C5-prix-c-p-m-prix-de-laon.html",
+        "R4C6-prix-pierre-coignard-prix-d-arras.html",
+        "R4C7-grand-prix-federation-regionale-du-nord.html",
+        "R4C8-prix-de-la-communaute-de-communes-de-la-thierache-du-centre-prix-du-croise-laroche.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-du-credit-agricole-nord-est.html",
+        "R7C2-prix-francois-caille.html",
+        "R7C3-prix-groupe-lanie-prix-d-amiens.html",
+        "R7C4-prix-de-la-saur.html",
+        "R7C5-prix-c-p-m-prix-de-laon.html",
+        "R7C6-prix-pierre-coignard-prix-d-arras.html",
+        "R7C7-grand-prix-federation-regionale-du-nord.html",
+        "R7C8-prix-de-la-communaute-de-communes-de-la-thierache-du-centre-prix-du-croise-laroche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:15.222522Z"
+}

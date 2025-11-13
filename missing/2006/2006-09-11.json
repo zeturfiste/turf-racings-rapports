@@ -1,0 +1,90 @@
+{
+  "date": "2006-09-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-11",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-11/2006-09-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-11/R1-vincennes/R1C4-prix-de-dormans.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R2-chantilly/R2C1-prix-de-bastia.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R2-chantilly/R2C4-prix-de-dormans.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R2-chantilly/R2C5-prix-d-aurillac.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R2-chantilly/R2C6-prix-de-montier-en-der.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R2-chantilly/R2C7-prix-camille-lepecq.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R3-vichy/R3C2-prix-des-pervenches.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R3-vichy/R3C4-prix-de-dormans.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R3-vichy/R3C5-prix-d-aurillac.html",
+      "resultats-et-rapports/2006/09/2006-09-11/R3-vichy/R3C7-prix-camille-lepecq.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R3-vichy",
+      "R4-auch",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bastia.html",
+        "R1C2-prix-des-pervenches.html",
+        "R1C3-prix-de-vimoutiers.html",
+        "R1C4-prix-de-dormans.html",
+        "R1C5-prix-d-aurillac.html",
+        "R1C6-prix-de-montier-en-der.html",
+        "R1C7-prix-camille-lepecq.html",
+        "R1C8-prix-de-bihorel.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-bastia.html",
+        "R2C2-prix-des-pervenches.html",
+        "R2C3-prix-de-vimoutiers.html",
+        "R2C4-prix-de-dormans.html",
+        "R2C5-prix-d-aurillac.html",
+        "R2C6-prix-de-montier-en-der.html",
+        "R2C7-prix-camille-lepecq.html",
+        "R2C8-prix-de-bihorel.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-bastia.html",
+        "R3C2-prix-des-pervenches.html",
+        "R3C3-prix-de-vimoutiers.html",
+        "R3C4-prix-de-dormans.html",
+        "R3C5-prix-d-aurillac.html",
+        "R3C6-prix-de-montier-en-der.html",
+        "R3C7-prix-camille-lepecq.html",
+        "R3C8-prix-de-bihorel.html"
+      ],
+      "R4-auch": [
+        "R4C1-prix-de-bastia.html",
+        "R4C2-prix-des-pervenches.html",
+        "R4C3-prix-de-vimoutiers.html",
+        "R4C4-prix-de-dormans.html",
+        "R4C5-prix-d-aurillac.html",
+        "R4C6-prix-de-montier-en-der.html",
+        "R4C7-prix-camille-lepecq.html",
+        "R4C8-prix-de-bihorel.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-bastia.html",
+        "R21C2-prix-des-pervenches.html",
+        "R21C3-prix-de-vimoutiers.html",
+        "R21C4-prix-de-dormans.html",
+        "R21C5-prix-d-aurillac.html",
+        "R21C6-prix-de-montier-en-der.html",
+        "R21C7-prix-camille-lepecq.html",
+        "R21C8-prix-de-bihorel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:28.660790Z"
+}

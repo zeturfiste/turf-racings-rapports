@@ -1,0 +1,70 @@
+{
+  "date": "2012-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-29",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-29/2012-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C1-prix-des-landes.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C4-prix-de-beauvoir.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C5-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C6-prix-de-troyes.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C7-prix-albert-libeer.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R2-fontainebleau/R2C8-prix-de-mirecourt.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C1-prix-des-landes.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C2-prix-de-saint-aubin-les-elbeuf.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C4-prix-de-beauvoir.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C5-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C6-prix-de-troyes.html",
+      "resultats-et-rapports/2012/11/2012-11-29/R3-amiens/R3C7-prix-albert-libeer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-fontainebleau",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-landes.html",
+        "R1C2-prix-de-saint-aubin-les-elbeuf.html",
+        "R1C3-prix-urgent.html",
+        "R1C4-prix-de-beauvoir.html",
+        "R1C5-prix-joseph-lafosse.html",
+        "R1C6-prix-de-troyes.html",
+        "R1C7-prix-albert-libeer.html",
+        "R1C8-prix-de-mirecourt.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-des-landes.html",
+        "R2C2-prix-de-saint-aubin-les-elbeuf.html",
+        "R2C3-prix-urgent.html",
+        "R2C4-prix-de-beauvoir.html",
+        "R2C5-prix-joseph-lafosse.html",
+        "R2C6-prix-de-troyes.html",
+        "R2C7-prix-albert-libeer.html",
+        "R2C8-prix-de-mirecourt.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-des-landes.html",
+        "R3C2-prix-de-saint-aubin-les-elbeuf.html",
+        "R3C3-prix-urgent.html",
+        "R3C4-prix-de-beauvoir.html",
+        "R3C5-prix-joseph-lafosse.html",
+        "R3C6-prix-de-troyes.html",
+        "R3C7-prix-albert-libeer.html",
+        "R3C8-prix-de-mirecourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:43.175769Z"
+}

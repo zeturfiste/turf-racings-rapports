@@ -1,0 +1,100 @@
+{
+  "date": "2021-12-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-08",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-08/2021-12-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C1-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C3-prix-d-ales.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C4-prix-de-nalliers.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C5-prix-de-villefranche.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C6-prix-de-decize.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C7-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R1-vincennes/R1C8-prix-de-blangy.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C1-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C2-prix-de-cresserons.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C3-prix-d-ales.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C4-prix-de-nalliers.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C5-prix-de-villefranche.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C6-prix-de-decize.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C7-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R3-pau/R3C8-prix-de-blangy.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C1-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C2-prix-de-cresserons.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C3-prix-d-ales.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C4-prix-de-nalliers.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C5-prix-de-villefranche.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C6-prix-de-decize.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C7-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R4-marseille-vivaux/R4C8-prix-de-blangy.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C1-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C2-prix-de-cresserons.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C3-prix-d-ales.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C4-prix-de-nalliers.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C5-prix-de-villefranche.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C6-prix-de-decize.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C7-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2021/12/2021-12-08/R11-deauville/R11C8-prix-de-blangy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux",
+      "R11-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-villers-cotterets.html",
+        "R1C2-prix-de-cresserons.html",
+        "R1C3-prix-d-ales.html",
+        "R1C4-prix-de-nalliers.html",
+        "R1C5-prix-de-villefranche.html",
+        "R1C6-prix-de-decize.html",
+        "R1C7-prix-les-mathes-la-palmyre.html",
+        "R1C8-prix-de-blangy.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-villers-cotterets.html",
+        "R3C2-prix-de-cresserons.html",
+        "R3C3-prix-d-ales.html",
+        "R3C4-prix-de-nalliers.html",
+        "R3C5-prix-de-villefranche.html",
+        "R3C6-prix-de-decize.html",
+        "R3C7-prix-les-mathes-la-palmyre.html",
+        "R3C8-prix-de-blangy.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-villers-cotterets.html",
+        "R4C2-prix-de-cresserons.html",
+        "R4C3-prix-d-ales.html",
+        "R4C4-prix-de-nalliers.html",
+        "R4C5-prix-de-villefranche.html",
+        "R4C6-prix-de-decize.html",
+        "R4C7-prix-les-mathes-la-palmyre.html",
+        "R4C8-prix-de-blangy.html"
+      ],
+      "R11-deauville": [
+        "R11C1-prix-de-villers-cotterets.html",
+        "R11C2-prix-de-cresserons.html",
+        "R11C3-prix-d-ales.html",
+        "R11C4-prix-de-nalliers.html",
+        "R11C5-prix-de-villefranche.html",
+        "R11C6-prix-de-decize.html",
+        "R11C7-prix-les-mathes-la-palmyre.html",
+        "R11C8-prix-de-blangy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:29.611828Z"
+}

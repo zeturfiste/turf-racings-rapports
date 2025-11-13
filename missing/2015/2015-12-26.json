@@ -1,0 +1,53 @@
+{
+  "date": "2015-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-26",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-26/2015-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-26/R1-vincennes/R1C1-prix-d-argentan.html",
+      "resultats-et-rapports/2015/12/2015-12-26/R1-vincennes/R1C2-prix-une-de-mai.html",
+      "resultats-et-rapports/2015/12/2015-12-26/R1-vincennes/R1C6-prix-de-strasbourg.html",
+      "resultats-et-rapports/2015/12/2015-12-26/R1-vincennes/R1C9-prix-de-plouescat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-argentan.html",
+        "R1C2-prix-une-de-mai.html",
+        "R1C3-prix-jules-lemonnier.html",
+        "R1C4-prix-de-luynes.html",
+        "R1C5-prix-de-vienne.html",
+        "R1C6-prix-de-strasbourg.html",
+        "R1C7-prix-de-fougeres.html",
+        "R1C8-prix-d-ispagnac.html",
+        "R1C9-prix-de-plouescat.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-argentan.html",
+        "R2C2-prix-une-de-mai.html",
+        "R2C3-prix-jules-lemonnier.html",
+        "R2C4-prix-de-luynes.html",
+        "R2C5-prix-de-vienne.html",
+        "R2C6-prix-de-strasbourg.html",
+        "R2C7-prix-de-fougeres.html",
+        "R2C8-prix-d-ispagnac.html",
+        "R2C9-prix-de-plouescat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:17.150845Z"
+}

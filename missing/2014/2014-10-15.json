@@ -1,0 +1,71 @@
+{
+  "date": "2014-10-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-15",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-15/2014-10-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C2-prix-du-morbihan.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C3-prix-equita-lyon-prix-du-diois.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C4-prix-de-l-entre-deux-mers.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C5-prix-de-la-baule.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C6-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R1-lyon-parilly/R1C7-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R2-saint-cloud/R2C2-prix-du-morbihan.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R2-saint-cloud/R2C3-prix-equita-lyon-prix-du-diois.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R2-saint-cloud/R2C7-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R3-amiens/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R3-amiens/R3C2-prix-du-morbihan.html",
+      "resultats-et-rapports/2014/10/2014-10-15/R3-amiens/R3C6-prix-de-l-u-n-a-t.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-saint-cloud",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-du-morbihan.html",
+        "R1C3-prix-equita-lyon-prix-du-diois.html",
+        "R1C4-prix-de-l-entre-deux-mers.html",
+        "R1C5-prix-de-la-baule.html",
+        "R1C6-prix-de-l-u-n-a-t.html",
+        "R1C7-prix-du-pays-nicois.html",
+        "R1C8-prix-de-la-champagne.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-du-morbihan.html",
+        "R2C3-prix-equita-lyon-prix-du-diois.html",
+        "R2C4-prix-de-l-entre-deux-mers.html",
+        "R2C5-prix-de-la-baule.html",
+        "R2C6-prix-de-l-u-n-a-t.html",
+        "R2C7-prix-du-pays-nicois.html",
+        "R2C8-prix-de-la-champagne.html"
+      ],
+      "R3-amiens": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-du-morbihan.html",
+        "R3C3-prix-equita-lyon-prix-du-diois.html",
+        "R3C4-prix-de-l-entre-deux-mers.html",
+        "R3C5-prix-de-la-baule.html",
+        "R3C6-prix-de-l-u-n-a-t.html",
+        "R3C7-prix-du-pays-nicois.html",
+        "R3C8-prix-de-la-champagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:05.232021Z"
+}

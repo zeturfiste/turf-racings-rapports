@@ -1,0 +1,46 @@
+{
+  "date": "2015-12-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-31",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-31/2015-12-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-saint-ouen-des-toits.html",
+        "R1C2-prix-de-salvanhac.html",
+        "R1C3-prix-d-albertville.html",
+        "R1C4-prix-de-chateau-chinon.html",
+        "R1C5-prix-de-juvignac.html",
+        "R1C6-prix-de-charroux.html",
+        "R1C7-prix-de-montbrison.html",
+        "R1C8-prix-de-formigny.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-saint-ouen-des-toits.html",
+        "R2C2-prix-de-salvanhac.html",
+        "R2C3-prix-d-albertville.html",
+        "R2C4-prix-de-chateau-chinon.html",
+        "R2C5-prix-de-juvignac.html",
+        "R2C6-prix-de-charroux.html",
+        "R2C7-prix-de-montbrison.html",
+        "R2C8-prix-de-formigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:18.178729Z"
+}

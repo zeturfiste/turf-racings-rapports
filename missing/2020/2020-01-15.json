@@ -1,0 +1,58 @@
+{
+  "date": "2020-01-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/01/2020-01-15",
+    "date_html": "resultats-et-rapports/2020/01/2020-01-15/2020-01-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/01/2020-01-15/R3-agen/R3C1-prix-cheret.html",
+      "resultats-et-rapports/2020/01/2020-01-15/R4-marseille-vivaux/R4C1-prix-cheret.html",
+      "resultats-et-rapports/2020/01/2020-01-15/R4-marseille-vivaux/R4C2-prix-de-cannes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-agen",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-cheret.html",
+        "R1C2-prix-de-cannes.html",
+        "R1C3-prix-bonnard.html",
+        "R1C4-prix-de-la-promenade-des-anglais.html",
+        "R1C5-prix-des-myosotis.html",
+        "R1C6-prix-de-la-croisette.html",
+        "R1C7-prix-du-val-carei.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-cheret.html",
+        "R3C2-prix-de-cannes.html",
+        "R3C3-prix-bonnard.html",
+        "R3C4-prix-de-la-promenade-des-anglais.html",
+        "R3C5-prix-des-myosotis.html",
+        "R3C6-prix-de-la-croisette.html",
+        "R3C7-prix-du-val-carei.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-cheret.html",
+        "R4C2-prix-de-cannes.html",
+        "R4C3-prix-bonnard.html",
+        "R4C4-prix-de-la-promenade-des-anglais.html",
+        "R4C5-prix-des-myosotis.html",
+        "R4C6-prix-de-la-croisette.html",
+        "R4C7-prix-du-val-carei.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:45.467356Z"
+}

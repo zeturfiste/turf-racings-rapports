@@ -1,0 +1,81 @@
+{
+  "date": "2008-09-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/09/2008-09-11",
+    "date_html": "resultats-et-rapports/2008/09/2008-09-11/2008-09-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/09/2008-09-11/R1-chantilly/R1C8-prix-du-potager-des-princes.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R2-cavaillon/R2C3-prix-du-terrier-des-houx.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R2-cavaillon/R2C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R3-vichy/R3C1-prix-du-musee-vivant-du-cheval.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R3-vichy/R3C5-prix-de-boulogne.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R3-vichy/R3C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R3-vichy/R3C8-prix-du-potager-des-princes.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R31-zerace/R31C3-prix-du-terrier-des-houx.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R31-zerace/R31C4-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R31-zerace/R31C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R31-zerace/R31C7-prix-d-osmond.html",
+      "resultats-et-rapports/2008/09/2008-09-11/R31-zerace/R31C8-prix-du-potager-des-princes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-cavaillon",
+      "R3-vichy",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-musee-vivant-du-cheval.html",
+        "R1C2-prix-d-arenberg.html",
+        "R1C3-prix-du-terrier-des-houx.html",
+        "R1C4-prix-de-la-mare-aux-oiseaux.html",
+        "R1C5-prix-de-boulogne.html",
+        "R1C6-prix-de-saint-nicolas-d-acy.html",
+        "R1C7-prix-d-osmond.html",
+        "R1C8-prix-du-potager-des-princes.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-du-musee-vivant-du-cheval.html",
+        "R2C2-prix-d-arenberg.html",
+        "R2C3-prix-du-terrier-des-houx.html",
+        "R2C4-prix-de-la-mare-aux-oiseaux.html",
+        "R2C5-prix-de-boulogne.html",
+        "R2C6-prix-de-saint-nicolas-d-acy.html",
+        "R2C7-prix-d-osmond.html",
+        "R2C8-prix-du-potager-des-princes.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-du-musee-vivant-du-cheval.html",
+        "R3C2-prix-d-arenberg.html",
+        "R3C3-prix-du-terrier-des-houx.html",
+        "R3C4-prix-de-la-mare-aux-oiseaux.html",
+        "R3C5-prix-de-boulogne.html",
+        "R3C6-prix-de-saint-nicolas-d-acy.html",
+        "R3C7-prix-d-osmond.html",
+        "R3C8-prix-du-potager-des-princes.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-musee-vivant-du-cheval.html",
+        "R31C2-prix-d-arenberg.html",
+        "R31C3-prix-du-terrier-des-houx.html",
+        "R31C4-prix-de-la-mare-aux-oiseaux.html",
+        "R31C5-prix-de-boulogne.html",
+        "R31C6-prix-de-saint-nicolas-d-acy.html",
+        "R31C7-prix-d-osmond.html",
+        "R31C8-prix-du-potager-des-princes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:33:20.654200Z"
+}

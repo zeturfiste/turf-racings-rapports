@@ -1,0 +1,77 @@
+{
+  "date": "2023-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/02/2023-02-24",
+    "date_html": "resultats-et-rapports/2023/02/2023-02-24/2023-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/02/2023-02-24/R3-mont-de-marsan/R3C4-prix-de-l-authie.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R3-mont-de-marsan/R3C8-prix-de-joncy.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R4-chantilly/R4C3-prix-de-pont-l-eveque.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R4-chantilly/R4C5-prix-gallus-ii.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R4-chantilly/R4C6-prix-salam.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R4-chantilly/R4C8-prix-de-joncy.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R5-cagnes-sur-mer/R5C1-prix-patrick-mottier.html",
+      "resultats-et-rapports/2023/02/2023-02-24/R5-cagnes-sur-mer/R5C2-prix-de-saint-pierre-la-cour.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mont-de-marsan",
+      "R4-chantilly",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-patrick-mottier.html",
+        "R1C2-prix-de-saint-pierre-la-cour.html",
+        "R1C3-prix-de-pont-l-eveque.html",
+        "R1C4-prix-de-l-authie.html",
+        "R1C5-prix-gallus-ii.html",
+        "R1C6-prix-salam.html",
+        "R1C7-prix-de-guerande.html",
+        "R1C8-prix-de-joncy.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-patrick-mottier.html",
+        "R3C2-prix-de-saint-pierre-la-cour.html",
+        "R3C3-prix-de-pont-l-eveque.html",
+        "R3C4-prix-de-l-authie.html",
+        "R3C5-prix-gallus-ii.html",
+        "R3C6-prix-salam.html",
+        "R3C7-prix-de-guerande.html",
+        "R3C8-prix-de-joncy.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-patrick-mottier.html",
+        "R4C2-prix-de-saint-pierre-la-cour.html",
+        "R4C3-prix-de-pont-l-eveque.html",
+        "R4C4-prix-de-l-authie.html",
+        "R4C5-prix-gallus-ii.html",
+        "R4C6-prix-salam.html",
+        "R4C7-prix-de-guerande.html",
+        "R4C8-prix-de-joncy.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-patrick-mottier.html",
+        "R5C2-prix-de-saint-pierre-la-cour.html",
+        "R5C3-prix-de-pont-l-eveque.html",
+        "R5C4-prix-de-l-authie.html",
+        "R5C5-prix-gallus-ii.html",
+        "R5C6-prix-salam.html",
+        "R5C7-prix-de-guerande.html",
+        "R5C8-prix-de-joncy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:04.700015Z"
+}

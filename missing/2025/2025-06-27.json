@@ -1,0 +1,94 @@
+{
+  "date": "2025-06-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-27",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-27/2025-06-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-27/R1-vincennes/R1C2-prix-urania.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R1-vincennes/R1C3-prix-isis.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R1-vincennes/R1C4-prix-eva.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R1-vincennes/R1C5-prix-nemausa.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R1-vincennes/R1C6-prix-furnerius.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R2-nancy/R2C2-prix-urania.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R2-nancy/R2C4-prix-eva.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R2-nancy/R2C5-prix-nemausa.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R2-nancy/R2C6-prix-furnerius.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C1-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C2-prix-urania.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C3-prix-isis.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C4-prix-eva.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C5-prix-nemausa.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C6-prix-furnerius.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C7-prix-cetus.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R4-compiegne/R4C8-prix-thalia.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C1-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C2-prix-urania.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C3-prix-isis.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C4-prix-eva.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C5-prix-nemausa.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C6-prix-furnerius.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C7-prix-cetus.html",
+      "resultats-et-rapports/2025/06/2025-06-27/R5-la-teste-de-buch/R5C8-prix-thalia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nancy",
+      "R4-compiegne",
+      "R5-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-guillaume-de-bellaigue.html",
+        "R1C2-prix-urania.html",
+        "R1C3-prix-isis.html",
+        "R1C4-prix-eva.html",
+        "R1C5-prix-nemausa.html",
+        "R1C6-prix-furnerius.html",
+        "R1C7-prix-cetus.html",
+        "R1C8-prix-thalia.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-guillaume-de-bellaigue.html",
+        "R2C2-prix-urania.html",
+        "R2C3-prix-isis.html",
+        "R2C4-prix-eva.html",
+        "R2C5-prix-nemausa.html",
+        "R2C6-prix-furnerius.html",
+        "R2C7-prix-cetus.html",
+        "R2C8-prix-thalia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-guillaume-de-bellaigue.html",
+        "R4C2-prix-urania.html",
+        "R4C3-prix-isis.html",
+        "R4C4-prix-eva.html",
+        "R4C5-prix-nemausa.html",
+        "R4C6-prix-furnerius.html",
+        "R4C7-prix-cetus.html",
+        "R4C8-prix-thalia.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-guillaume-de-bellaigue.html",
+        "R5C2-prix-urania.html",
+        "R5C3-prix-isis.html",
+        "R5C4-prix-eva.html",
+        "R5C5-prix-nemausa.html",
+        "R5C6-prix-furnerius.html",
+        "R5C7-prix-cetus.html",
+        "R5C8-prix-thalia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:11.042928Z"
+}

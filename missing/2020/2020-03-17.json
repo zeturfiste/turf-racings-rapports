@@ -1,0 +1,64 @@
+{
+  "date": "2020-03-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-17",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-17/2020-03-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-17/R1-chantilly/R1C8-prix-de-versigny.html",
+      "resultats-et-rapports/2020/03/2020-03-17/R3-hyeres/R3C5-prix-du-pave-de-la-biche.html",
+      "resultats-et-rapports/2020/03/2020-03-17/R3-hyeres/R3C6-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2020/03/2020-03-17/R3-hyeres/R3C8-prix-de-versigny.html",
+      "resultats-et-rapports/2020/03/2020-03-17/R4-enghien-soisy/R4C1-prix-de-roissy.html",
+      "resultats-et-rapports/2020/03/2020-03-17/R4-enghien-soisy/R4C8-prix-de-versigny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-hyeres",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-roissy.html",
+        "R1C2-prix-de-la-broutillerie.html",
+        "R1C3-prix-de-la-butte-aux-gens-d-armes.html",
+        "R1C4-prix-de-la-croix-des-ormeaux.html",
+        "R1C5-prix-du-pave-de-la-biche.html",
+        "R1C6-prix-du-canal-de-la-machine.html",
+        "R1C7-prix-du-pave-de-thiers.html",
+        "R1C8-prix-de-versigny.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-de-roissy.html",
+        "R3C2-prix-de-la-broutillerie.html",
+        "R3C3-prix-de-la-butte-aux-gens-d-armes.html",
+        "R3C4-prix-de-la-croix-des-ormeaux.html",
+        "R3C5-prix-du-pave-de-la-biche.html",
+        "R3C6-prix-du-canal-de-la-machine.html",
+        "R3C7-prix-du-pave-de-thiers.html",
+        "R3C8-prix-de-versigny.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-roissy.html",
+        "R4C2-prix-de-la-broutillerie.html",
+        "R4C3-prix-de-la-butte-aux-gens-d-armes.html",
+        "R4C4-prix-de-la-croix-des-ormeaux.html",
+        "R4C5-prix-du-pave-de-la-biche.html",
+        "R4C6-prix-du-canal-de-la-machine.html",
+        "R4C7-prix-du-pave-de-thiers.html",
+        "R4C8-prix-de-versigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:02.710138Z"
+}

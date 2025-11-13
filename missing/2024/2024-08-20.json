@@ -1,0 +1,75 @@
+{
+  "date": "2024-08-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-20",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-20/2024-08-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-20/R1-deauville/R1C2-prix-de-saint-hymer.html",
+      "resultats-et-rapports/2024/08/2024-08-20/R4-dax/R4C3-prix-de-fierville.html",
+      "resultats-et-rapports/2024/08/2024-08-20/R4-dax/R4C4-prix-de-brevedent.html",
+      "resultats-et-rapports/2024/08/2024-08-20/R5-cabourg/R5C3-prix-de-fierville.html",
+      "resultats-et-rapports/2024/08/2024-08-20/R5-cabourg/R5C7-prix-bfm-normandie-handicap-de-la-manche.html",
+      "resultats-et-rapports/2024/08/2024-08-20/R5-cabourg/R5C8-prix-du-mesnil-eudes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-divonne-les-bains",
+      "R4-dax",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-ablon.html",
+        "R1C2-prix-de-saint-hymer.html",
+        "R1C3-prix-de-fierville.html",
+        "R1C4-prix-de-brevedent.html",
+        "R1C5-prix-de-la-croix-d-heuland.html",
+        "R1C6-prix-du-mesnil-oger.html",
+        "R1C7-prix-bfm-normandie-handicap-de-la-manche.html",
+        "R1C8-prix-du-mesnil-eudes.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-d-ablon.html",
+        "R2C2-prix-de-saint-hymer.html",
+        "R2C3-prix-de-fierville.html",
+        "R2C4-prix-de-brevedent.html",
+        "R2C5-prix-de-la-croix-d-heuland.html",
+        "R2C6-prix-du-mesnil-oger.html",
+        "R2C7-prix-bfm-normandie-handicap-de-la-manche.html",
+        "R2C8-prix-du-mesnil-eudes.html"
+      ],
+      "R4-dax": [
+        "R4C1-prix-d-ablon.html",
+        "R4C2-prix-de-saint-hymer.html",
+        "R4C3-prix-de-fierville.html",
+        "R4C4-prix-de-brevedent.html",
+        "R4C5-prix-de-la-croix-d-heuland.html",
+        "R4C6-prix-du-mesnil-oger.html",
+        "R4C7-prix-bfm-normandie-handicap-de-la-manche.html",
+        "R4C8-prix-du-mesnil-eudes.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-d-ablon.html",
+        "R5C2-prix-de-saint-hymer.html",
+        "R5C3-prix-de-fierville.html",
+        "R5C4-prix-de-brevedent.html",
+        "R5C5-prix-de-la-croix-d-heuland.html",
+        "R5C6-prix-du-mesnil-oger.html",
+        "R5C7-prix-bfm-normandie-handicap-de-la-manche.html",
+        "R5C8-prix-du-mesnil-eudes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:19.982116Z"
+}

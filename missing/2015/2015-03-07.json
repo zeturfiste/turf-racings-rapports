@@ -1,0 +1,67 @@
+{
+  "date": "2015-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-07",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-07/2015-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-07/R1-saint-cloud/R1C6-prix-d-herblay.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R1-saint-cloud/R1C7-prix-du-lieu-manchon.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R2-caen/R2C4-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R2-caen/R2C6-prix-d-herblay.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R2-caen/R2C7-prix-du-lieu-manchon.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R2-caen/R2C8-prix-de-crecy-saint-james.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R3-le-croise-laroche/R3C1-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R3-le-croise-laroche/R3C5-prix-du-lieu-marmion.html",
+      "resultats-et-rapports/2015/03/2015-03-07/R3-le-croise-laroche/R3C8-prix-de-crecy-saint-james.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-kizil-kourgan.html",
+        "R1C2-prix-du-jardin-des-tourneroches.html",
+        "R1C3-prix-teddy.html",
+        "R1C4-prix-du-jardin-de-l-avre.html",
+        "R1C5-prix-du-lieu-marmion.html",
+        "R1C6-prix-d-herblay.html",
+        "R1C7-prix-du-lieu-manchon.html",
+        "R1C8-prix-de-crecy-saint-james.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-kizil-kourgan.html",
+        "R2C2-prix-du-jardin-des-tourneroches.html",
+        "R2C3-prix-teddy.html",
+        "R2C4-prix-du-jardin-de-l-avre.html",
+        "R2C5-prix-du-lieu-marmion.html",
+        "R2C6-prix-d-herblay.html",
+        "R2C7-prix-du-lieu-manchon.html",
+        "R2C8-prix-de-crecy-saint-james.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-kizil-kourgan.html",
+        "R3C2-prix-du-jardin-des-tourneroches.html",
+        "R3C3-prix-teddy.html",
+        "R3C4-prix-du-jardin-de-l-avre.html",
+        "R3C5-prix-du-lieu-marmion.html",
+        "R3C6-prix-d-herblay.html",
+        "R3C7-prix-du-lieu-manchon.html",
+        "R3C8-prix-de-crecy-saint-james.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:45.304770Z"
+}

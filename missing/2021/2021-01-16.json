@@ -1,0 +1,99 @@
+{
+  "date": "2021-01-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-16",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-16/2021-01-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-16/R1-vincennes/R1C1-prix-de-questembert.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R1-vincennes/R1C2-prix-de-francheville-la-barre.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R1-vincennes/R1C7-prix-de-bois-guillaume.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R1-vincennes/R1C9-prix-de-feneu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C2-prix-de-francheville-la-barre.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C3-prix-du-forez.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C5-prix-de-croix.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C6-prix-de-villedieu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C8-prix-de-saint-flour.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R2-angers/R2C9-prix-de-feneu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C1-prix-de-questembert.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C2-prix-de-francheville-la-barre.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C3-prix-du-forez.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C4-prix-gelinotte.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C5-prix-de-croix.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C6-prix-de-villedieu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C7-prix-de-bois-guillaume.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C8-prix-de-saint-flour.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R3-chantilly/R3C9-prix-de-feneu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C1-prix-de-questembert.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C3-prix-du-forez.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C4-prix-gelinotte.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C6-prix-de-villedieu.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C7-prix-de-bois-guillaume.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C8-prix-de-saint-flour.html",
+      "resultats-et-rapports/2021/01/2021-01-16/R4-toulouse/R4C9-prix-de-feneu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-chantilly",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-questembert.html",
+        "R1C2-prix-de-francheville-la-barre.html",
+        "R1C3-prix-du-forez.html",
+        "R1C4-prix-gelinotte.html",
+        "R1C5-prix-de-croix.html",
+        "R1C6-prix-de-villedieu.html",
+        "R1C7-prix-de-bois-guillaume.html",
+        "R1C8-prix-de-saint-flour.html",
+        "R1C9-prix-de-feneu.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-questembert.html",
+        "R2C2-prix-de-francheville-la-barre.html",
+        "R2C3-prix-du-forez.html",
+        "R2C4-prix-gelinotte.html",
+        "R2C5-prix-de-croix.html",
+        "R2C6-prix-de-villedieu.html",
+        "R2C7-prix-de-bois-guillaume.html",
+        "R2C8-prix-de-saint-flour.html",
+        "R2C9-prix-de-feneu.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-questembert.html",
+        "R3C2-prix-de-francheville-la-barre.html",
+        "R3C3-prix-du-forez.html",
+        "R3C4-prix-gelinotte.html",
+        "R3C5-prix-de-croix.html",
+        "R3C6-prix-de-villedieu.html",
+        "R3C7-prix-de-bois-guillaume.html",
+        "R3C8-prix-de-saint-flour.html",
+        "R3C9-prix-de-feneu.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-questembert.html",
+        "R4C2-prix-de-francheville-la-barre.html",
+        "R4C3-prix-du-forez.html",
+        "R4C4-prix-gelinotte.html",
+        "R4C5-prix-de-croix.html",
+        "R4C6-prix-de-villedieu.html",
+        "R4C7-prix-de-bois-guillaume.html",
+        "R4C8-prix-de-saint-flour.html",
+        "R4C9-prix-de-feneu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:33.217761Z"
+}

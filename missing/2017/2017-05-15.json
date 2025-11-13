@@ -1,0 +1,68 @@
+{
+  "date": "2017-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-15",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-15/2017-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-15/R1-saint-cloud/R1C1-prix-d-alsace.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C1-prix-d-alsace.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C4-prix-lavandin.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C5-prix-de-magny-en-vexin.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C6-prix-de-trie-chateau.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C7-prix-de-lorraine.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R3-la-rochelle/R3C8-prix-des-vosges.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R4-salon-de-provence/R4C1-prix-d-alsace.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R4-salon-de-provence/R4C2-prix-le-haar.html",
+      "resultats-et-rapports/2017/05/2017-05-15/R4-salon-de-provence/R4C8-prix-des-vosges.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-la-rochelle",
+      "R4-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-d-alsace.html",
+        "R1C2-prix-le-haar.html",
+        "R1C3-prix-de-garches.html",
+        "R1C4-prix-lavandin.html",
+        "R1C5-prix-de-magny-en-vexin.html",
+        "R1C6-prix-de-trie-chateau.html",
+        "R1C7-prix-de-lorraine.html",
+        "R1C8-prix-des-vosges.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-d-alsace.html",
+        "R3C2-prix-le-haar.html",
+        "R3C3-prix-de-garches.html",
+        "R3C4-prix-lavandin.html",
+        "R3C5-prix-de-magny-en-vexin.html",
+        "R3C6-prix-de-trie-chateau.html",
+        "R3C7-prix-de-lorraine.html",
+        "R3C8-prix-des-vosges.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-d-alsace.html",
+        "R4C2-prix-le-haar.html",
+        "R4C3-prix-de-garches.html",
+        "R4C4-prix-lavandin.html",
+        "R4C5-prix-de-magny-en-vexin.html",
+        "R4C6-prix-de-trie-chateau.html",
+        "R4C7-prix-de-lorraine.html",
+        "R4C8-prix-des-vosges.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:46.848787Z"
+}

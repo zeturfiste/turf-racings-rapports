@@ -1,0 +1,62 @@
+{
+  "date": "2013-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-25",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-25/2013-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-25/R3-compiegne/R3C5-prix-du-pavillon-de-bercy.html",
+      "resultats-et-rapports/2013/04/2013-04-25/R3-compiegne/R3C6-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2013/04/2013-04-25/R3-compiegne/R3C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2013/04/2013-04-25/R3-compiegne/R3C8-prix-des-victoires.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-caen",
+      "R3-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-nanterre.html",
+        "R1C2-prix-de-la-madeleine.html",
+        "R1C3-prix-de-l-odeon.html",
+        "R1C4-grand-handicap-de-longchamp.html",
+        "R1C5-prix-du-pavillon-de-bercy.html",
+        "R1C6-prix-de-saint-ouen.html",
+        "R1C7-prix-des-petits-champs.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-nanterre.html",
+        "R2C2-prix-de-la-madeleine.html",
+        "R2C3-prix-de-l-odeon.html",
+        "R2C4-grand-handicap-de-longchamp.html",
+        "R2C5-prix-du-pavillon-de-bercy.html",
+        "R2C6-prix-de-saint-ouen.html",
+        "R2C7-prix-des-petits-champs.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-nanterre.html",
+        "R3C2-prix-de-la-madeleine.html",
+        "R3C3-prix-de-l-odeon.html",
+        "R3C4-grand-handicap-de-longchamp.html",
+        "R3C5-prix-du-pavillon-de-bercy.html",
+        "R3C6-prix-de-saint-ouen.html",
+        "R3C7-prix-des-petits-champs.html",
+        "R3C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:19.950477Z"
+}

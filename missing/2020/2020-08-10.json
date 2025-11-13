@@ -1,0 +1,77 @@
+{
+  "date": "2020-08-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-10",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-10/2020-08-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-10/R3-beaumont-de-lomagne/R3C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R3-beaumont-de-lomagne/R3C4-prix-de-la-biscuiterie-de-l-abbaye-et-citronnade-mimouna-prix-buveurs-d-air.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R3-beaumont-de-lomagne/R3C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R4-hyeres/R4C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R6-dieppe/R6C2-prix-de-la-ville-de-pont-l-eveque-prix-the-wonder.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R6-dieppe/R6C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R6-dieppe/R6C5-prix-confrerie-chevaliers-du-camembert-pont-l-eveque-livarot-prix-tip-moss.html",
+      "resultats-et-rapports/2020/08/2020-08-10/R6-dieppe/R6C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-beaumont-de-lomagne",
+      "R4-hyeres",
+      "R6-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-fromagerie-graindorge-prix-miss-dan.html",
+        "R1C2-prix-de-la-ville-de-pont-l-eveque-prix-the-wonder.html",
+        "R1C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+        "R1C4-prix-de-la-biscuiterie-de-l-abbaye-et-citronnade-mimouna-prix-buveurs-d-air.html",
+        "R1C5-prix-confrerie-chevaliers-du-camembert-pont-l-eveque-livarot-prix-tip-moss.html",
+        "R1C6-prix-le-grand-ordre-du-trou-normand-calvados-cidres-et-pommeaux-prix-guillaume-le-conquerant.html",
+        "R1C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html",
+        "R1C8-prix-confrerie-des-fins-goustiers-du-pre-bocage-prix-du-torquesne.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-fromagerie-graindorge-prix-miss-dan.html",
+        "R3C2-prix-de-la-ville-de-pont-l-eveque-prix-the-wonder.html",
+        "R3C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+        "R3C4-prix-de-la-biscuiterie-de-l-abbaye-et-citronnade-mimouna-prix-buveurs-d-air.html",
+        "R3C5-prix-confrerie-chevaliers-du-camembert-pont-l-eveque-livarot-prix-tip-moss.html",
+        "R3C6-prix-le-grand-ordre-du-trou-normand-calvados-cidres-et-pommeaux-prix-guillaume-le-conquerant.html",
+        "R3C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html",
+        "R3C8-prix-confrerie-des-fins-goustiers-du-pre-bocage-prix-du-torquesne.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-fromagerie-graindorge-prix-miss-dan.html",
+        "R4C2-prix-de-la-ville-de-pont-l-eveque-prix-the-wonder.html",
+        "R4C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+        "R4C4-prix-de-la-biscuiterie-de-l-abbaye-et-citronnade-mimouna-prix-buveurs-d-air.html",
+        "R4C5-prix-confrerie-chevaliers-du-camembert-pont-l-eveque-livarot-prix-tip-moss.html",
+        "R4C6-prix-le-grand-ordre-du-trou-normand-calvados-cidres-et-pommeaux-prix-guillaume-le-conquerant.html",
+        "R4C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html",
+        "R4C8-prix-confrerie-des-fins-goustiers-du-pre-bocage-prix-du-torquesne.html"
+      ],
+      "R6-dieppe": [
+        "R6C1-prix-fromagerie-graindorge-prix-miss-dan.html",
+        "R6C2-prix-de-la-ville-de-pont-l-eveque-prix-the-wonder.html",
+        "R6C3-prix-de-saint-gatien-des-bois-prix-highest-honor.html",
+        "R6C4-prix-de-la-biscuiterie-de-l-abbaye-et-citronnade-mimouna-prix-buveurs-d-air.html",
+        "R6C5-prix-confrerie-chevaliers-du-camembert-pont-l-eveque-livarot-prix-tip-moss.html",
+        "R6C6-prix-le-grand-ordre-du-trou-normand-calvados-cidres-et-pommeaux-prix-guillaume-le-conquerant.html",
+        "R6C7-prix-objectif-vin-kara-delice-et-bel-orge-prix-de-saint-hymer.html",
+        "R6C8-prix-confrerie-des-fins-goustiers-du-pre-bocage-prix-du-torquesne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:39.552374Z"
+}

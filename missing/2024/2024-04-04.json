@@ -1,0 +1,65 @@
+{
+  "date": "2024-04-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-04",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-04/2024-04-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C2-prix-du-premier-pas.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C4-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C5-prix-de-la-petite-provence.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C6-prix-de-chamant.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C7-prix-de-la-maison-des-officiers.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R1-chantilly/R1C8-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2024/04/2024-04-04/R4-mauquenchy/R4C3-prix-d-apremont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-nancy",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-precy.html",
+        "R1C2-prix-du-premier-pas.html",
+        "R1C3-prix-d-apremont.html",
+        "R1C4-prix-du-haras-au-bois.html",
+        "R1C5-prix-de-la-petite-provence.html",
+        "R1C6-prix-de-chamant.html",
+        "R1C7-prix-de-la-maison-des-officiers.html",
+        "R1C8-prix-de-l-institut-de-france.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-de-precy.html",
+        "R3C2-prix-du-premier-pas.html",
+        "R3C3-prix-d-apremont.html",
+        "R3C4-prix-du-haras-au-bois.html",
+        "R3C5-prix-de-la-petite-provence.html",
+        "R3C6-prix-de-chamant.html",
+        "R3C7-prix-de-la-maison-des-officiers.html",
+        "R3C8-prix-de-l-institut-de-france.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-precy.html",
+        "R4C2-prix-du-premier-pas.html",
+        "R4C3-prix-d-apremont.html",
+        "R4C4-prix-du-haras-au-bois.html",
+        "R4C5-prix-de-la-petite-provence.html",
+        "R4C6-prix-de-chamant.html",
+        "R4C7-prix-de-la-maison-des-officiers.html",
+        "R4C8-prix-de-l-institut-de-france.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:28.093887Z"
+}

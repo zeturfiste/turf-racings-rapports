@@ -1,0 +1,75 @@
+{
+  "date": "2016-02-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-29",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-29/2016-02-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C2-prix-de-carro.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C3-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C4-prix-de-carry.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C6-prix-de-la-planche.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R1-marseille-borely/R1C7-prix-golden-tulip-prix-de-sainte-tulle.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C2-prix-de-carro.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C3-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C4-prix-de-carry.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C5-prix-de-lyon-la-soie.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C6-prix-de-la-planche.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R3-mont-de-marsan/R3C7-prix-golden-tulip-prix-de-sainte-tulle.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C2-prix-de-carro.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C3-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C4-prix-de-carry.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C5-prix-de-lyon-la-soie.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C6-prix-de-la-planche.html",
+      "resultats-et-rapports/2016/02/2016-02-29/R4-enghien-soisy/R4C7-prix-golden-tulip-prix-de-sainte-tulle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R3-mont-de-marsan",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-louis-brunet.html",
+        "R1C2-prix-de-carro.html",
+        "R1C3-prix-de-lyon-parilly.html",
+        "R1C4-prix-de-carry.html",
+        "R1C5-prix-de-lyon-la-soie.html",
+        "R1C6-prix-de-la-planche.html",
+        "R1C7-prix-golden-tulip-prix-de-sainte-tulle.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-louis-brunet.html",
+        "R3C2-prix-de-carro.html",
+        "R3C3-prix-de-lyon-parilly.html",
+        "R3C4-prix-de-carry.html",
+        "R3C5-prix-de-lyon-la-soie.html",
+        "R3C6-prix-de-la-planche.html",
+        "R3C7-prix-golden-tulip-prix-de-sainte-tulle.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-louis-brunet.html",
+        "R4C2-prix-de-carro.html",
+        "R4C3-prix-de-lyon-parilly.html",
+        "R4C4-prix-de-carry.html",
+        "R4C5-prix-de-lyon-la-soie.html",
+        "R4C6-prix-de-la-planche.html",
+        "R4C7-prix-golden-tulip-prix-de-sainte-tulle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:32.158398Z"
+}

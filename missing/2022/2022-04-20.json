@@ -1,0 +1,89 @@
+{
+  "date": "2022-04-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-20",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-20/2022-04-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-20/R1-cordemais/R1C1-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R1-cordemais/R1C8-prix-du-printemps.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C2-prix-de-la-ville-de-temple-de-bretagne.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C3-prix-ville-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C4-prix-anniversaire-de-mary-et-marjorie.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C5-prix-pierre-raffre.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C6-prix-de-la-ville-de-prinquiau.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R3-fontainebleau/R3C7-prix-paris-turf.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R4-chantilly/R4C2-prix-de-la-ville-de-temple-de-bretagne.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R4-chantilly/R4C3-prix-ville-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R4-chantilly/R4C6-prix-de-la-ville-de-prinquiau.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R4-chantilly/R4C7-prix-paris-turf.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R4-chantilly/R4C8-prix-du-printemps.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C1-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C3-prix-ville-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C4-prix-anniversaire-de-mary-et-marjorie.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C5-prix-pierre-raffre.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C6-prix-de-la-ville-de-prinquiau.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C7-prix-paris-turf.html",
+      "resultats-et-rapports/2022/04/2022-04-20/R8-toulouse/R8C8-prix-du-printemps.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R3-fontainebleau",
+      "R4-chantilly",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-prix-de-la-ville-de-cordemais.html",
+        "R1C2-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R1C3-prix-ville-de-saint-etienne-de-montluc.html",
+        "R1C4-prix-anniversaire-de-mary-et-marjorie.html",
+        "R1C5-prix-pierre-raffre.html",
+        "R1C6-prix-de-la-ville-de-prinquiau.html",
+        "R1C7-prix-paris-turf.html",
+        "R1C8-prix-du-printemps.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-la-ville-de-cordemais.html",
+        "R3C2-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R3C3-prix-ville-de-saint-etienne-de-montluc.html",
+        "R3C4-prix-anniversaire-de-mary-et-marjorie.html",
+        "R3C5-prix-pierre-raffre.html",
+        "R3C6-prix-de-la-ville-de-prinquiau.html",
+        "R3C7-prix-paris-turf.html",
+        "R3C8-prix-du-printemps.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-de-la-ville-de-cordemais.html",
+        "R4C2-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R4C3-prix-ville-de-saint-etienne-de-montluc.html",
+        "R4C4-prix-anniversaire-de-mary-et-marjorie.html",
+        "R4C5-prix-pierre-raffre.html",
+        "R4C6-prix-de-la-ville-de-prinquiau.html",
+        "R4C7-prix-paris-turf.html",
+        "R4C8-prix-du-printemps.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-de-la-ville-de-cordemais.html",
+        "R8C2-prix-de-la-ville-de-temple-de-bretagne.html",
+        "R8C3-prix-ville-de-saint-etienne-de-montluc.html",
+        "R8C4-prix-anniversaire-de-mary-et-marjorie.html",
+        "R8C5-prix-pierre-raffre.html",
+        "R8C6-prix-de-la-ville-de-prinquiau.html",
+        "R8C7-prix-paris-turf.html",
+        "R8C8-prix-du-printemps.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:13.565607Z"
+}

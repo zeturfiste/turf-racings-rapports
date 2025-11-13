@@ -1,0 +1,91 @@
+{
+  "date": "2017-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-06",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-06/2017-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-06/R1-compiegne/R1C1-prix-marise.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R1-compiegne/R1C4-prix-strada.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R1-compiegne/R1C5-prix-master-bob.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R1-compiegne/R1C6-prix-de-la-somme.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R3-caen/R3C2-prix-spumate.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R3-caen/R3C8-prix-avranchin.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R4-saint-galmier/R4C3-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R4-saint-galmier/R4C6-prix-de-la-somme.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R4-saint-galmier/R4C7-prix-varaville.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R4-saint-galmier/R4C8-prix-avranchin.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R6-le-croise-laroche/R6C6-prix-de-la-somme.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R6-le-croise-laroche/R6C7-prix-varaville.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R6-le-croise-laroche/R6C9-prix-gaston-de-la-motte.html",
+      "resultats-et-rapports/2017/03/2017-03-06/R6-le-croise-laroche/R6C10-prix-baroud-iii.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-caen",
+      "R4-saint-galmier",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-marise.html",
+        "R1C2-prix-spumate.html",
+        "R1C3-prix-d-essai-des-poulains.html",
+        "R1C4-prix-strada.html",
+        "R1C5-prix-master-bob.html",
+        "R1C6-prix-de-la-somme.html",
+        "R1C7-prix-varaville.html",
+        "R1C8-prix-avranchin.html",
+        "R1C9-prix-gaston-de-la-motte.html",
+        "R1C10-prix-baroud-iii.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-marise.html",
+        "R3C2-prix-spumate.html",
+        "R3C3-prix-d-essai-des-poulains.html",
+        "R3C4-prix-strada.html",
+        "R3C5-prix-master-bob.html",
+        "R3C6-prix-de-la-somme.html",
+        "R3C7-prix-varaville.html",
+        "R3C8-prix-avranchin.html",
+        "R3C9-prix-gaston-de-la-motte.html",
+        "R3C10-prix-baroud-iii.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-marise.html",
+        "R4C2-prix-spumate.html",
+        "R4C3-prix-d-essai-des-poulains.html",
+        "R4C4-prix-strada.html",
+        "R4C5-prix-master-bob.html",
+        "R4C6-prix-de-la-somme.html",
+        "R4C7-prix-varaville.html",
+        "R4C8-prix-avranchin.html",
+        "R4C9-prix-gaston-de-la-motte.html",
+        "R4C10-prix-baroud-iii.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-marise.html",
+        "R6C2-prix-spumate.html",
+        "R6C3-prix-d-essai-des-poulains.html",
+        "R6C4-prix-strada.html",
+        "R6C5-prix-master-bob.html",
+        "R6C6-prix-de-la-somme.html",
+        "R6C7-prix-varaville.html",
+        "R6C8-prix-avranchin.html",
+        "R6C9-prix-gaston-de-la-motte.html",
+        "R6C10-prix-baroud-iii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:24.735560Z"
+}

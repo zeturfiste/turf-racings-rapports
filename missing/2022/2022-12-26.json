@@ -1,0 +1,64 @@
+{
+  "date": "2022-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/12/2022-12-26",
+    "date_html": "resultats-et-rapports/2022/12/2022-12-26/2022-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/12/2022-12-26/R1-deauville/R1C6-prix-de-l-auberge-moisy.html",
+      "resultats-et-rapports/2022/12/2022-12-26/R1-deauville/R1C8-prix-de-l-auberge-des-peintres.html",
+      "resultats-et-rapports/2022/12/2022-12-26/R3-argentan/R3C5-prix-de-la-vallee-mayeux.html",
+      "resultats-et-rapports/2022/12/2022-12-26/R4-cagnes-sur-mer/R4C2-prix-du-val-henry.html",
+      "resultats-et-rapports/2022/12/2022-12-26/R4-cagnes-sur-mer/R4C4-prix-du-vexin-normand.html",
+      "resultats-et-rapports/2022/12/2022-12-26/R4-cagnes-sur-mer/R4C6-prix-de-l-auberge-moisy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-argentan",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-saint-ceneri-le-gerei.html",
+        "R1C2-prix-du-val-henry.html",
+        "R1C3-prix-du-moulin-de-trotte.html",
+        "R1C4-prix-du-vexin-normand.html",
+        "R1C5-prix-de-la-vallee-mayeux.html",
+        "R1C6-prix-de-l-auberge-moisy.html",
+        "R1C7-prix-du-belvedere-des-avaloirs.html",
+        "R1C8-prix-de-l-auberge-des-peintres.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-de-saint-ceneri-le-gerei.html",
+        "R3C2-prix-du-val-henry.html",
+        "R3C3-prix-du-moulin-de-trotte.html",
+        "R3C4-prix-du-vexin-normand.html",
+        "R3C5-prix-de-la-vallee-mayeux.html",
+        "R3C6-prix-de-l-auberge-moisy.html",
+        "R3C7-prix-du-belvedere-des-avaloirs.html",
+        "R3C8-prix-de-l-auberge-des-peintres.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-saint-ceneri-le-gerei.html",
+        "R4C2-prix-du-val-henry.html",
+        "R4C3-prix-du-moulin-de-trotte.html",
+        "R4C4-prix-du-vexin-normand.html",
+        "R4C5-prix-de-la-vallee-mayeux.html",
+        "R4C6-prix-de-l-auberge-moisy.html",
+        "R4C7-prix-du-belvedere-des-avaloirs.html",
+        "R4C8-prix-de-l-auberge-des-peintres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:45.999668Z"
+}

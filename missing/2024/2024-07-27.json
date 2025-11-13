@@ -1,0 +1,101 @@
+{
+  "date": "2024-07-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-27",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-27/2024-07-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-27/R1-enghien-soisy/R1C5-prix-de-la-place-d-italie.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R1-enghien-soisy/R1C9-prix-du-faubourg-montmartre.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R4-le-mans/R4C1-prix-de-la-celle-saint-cloud.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R5-cagnes-sur-mer/R5C1-prix-de-la-celle-saint-cloud.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R5-cagnes-sur-mer/R5C2-prix-du-roule.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R5-cagnes-sur-mer/R5C7-prix-du-palais-royal.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R5-cagnes-sur-mer/R5C9-prix-du-faubourg-montmartre.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C1-prix-de-la-celle-saint-cloud.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C2-prix-du-roule.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C3-prix-de-charonne.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C4-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C5-prix-de-la-place-d-italie.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C6-prix-de-l-hay-les-roses.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C7-prix-du-palais-royal.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C8-prix-dominique-savary.html",
+      "resultats-et-rapports/2024/07/2024-07-27/R8-compiegne/R8C9-prix-du-faubourg-montmartre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-clairefontaine",
+      "R4-le-mans",
+      "R5-cagnes-sur-mer",
+      "R8-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-celle-saint-cloud.html",
+        "R1C2-prix-du-roule.html",
+        "R1C3-prix-de-charonne.html",
+        "R1C4-prix-jean-luc-lagardere.html",
+        "R1C5-prix-de-la-place-d-italie.html",
+        "R1C6-prix-de-l-hay-les-roses.html",
+        "R1C7-prix-du-palais-royal.html",
+        "R1C8-prix-dominique-savary.html",
+        "R1C9-prix-du-faubourg-montmartre.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-la-celle-saint-cloud.html",
+        "R3C2-prix-du-roule.html",
+        "R3C3-prix-de-charonne.html",
+        "R3C4-prix-jean-luc-lagardere.html",
+        "R3C5-prix-de-la-place-d-italie.html",
+        "R3C6-prix-de-l-hay-les-roses.html",
+        "R3C7-prix-du-palais-royal.html",
+        "R3C8-prix-dominique-savary.html",
+        "R3C9-prix-du-faubourg-montmartre.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-de-la-celle-saint-cloud.html",
+        "R4C2-prix-du-roule.html",
+        "R4C3-prix-de-charonne.html",
+        "R4C4-prix-jean-luc-lagardere.html",
+        "R4C5-prix-de-la-place-d-italie.html",
+        "R4C6-prix-de-l-hay-les-roses.html",
+        "R4C7-prix-du-palais-royal.html",
+        "R4C8-prix-dominique-savary.html",
+        "R4C9-prix-du-faubourg-montmartre.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-la-celle-saint-cloud.html",
+        "R5C2-prix-du-roule.html",
+        "R5C3-prix-de-charonne.html",
+        "R5C4-prix-jean-luc-lagardere.html",
+        "R5C5-prix-de-la-place-d-italie.html",
+        "R5C6-prix-de-l-hay-les-roses.html",
+        "R5C7-prix-du-palais-royal.html",
+        "R5C8-prix-dominique-savary.html",
+        "R5C9-prix-du-faubourg-montmartre.html"
+      ],
+      "R8-compiegne": [
+        "R8C1-prix-de-la-celle-saint-cloud.html",
+        "R8C2-prix-du-roule.html",
+        "R8C3-prix-de-charonne.html",
+        "R8C4-prix-jean-luc-lagardere.html",
+        "R8C5-prix-de-la-place-d-italie.html",
+        "R8C6-prix-de-l-hay-les-roses.html",
+        "R8C7-prix-du-palais-royal.html",
+        "R8C8-prix-dominique-savary.html",
+        "R8C9-prix-du-faubourg-montmartre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:10.387683Z"
+}

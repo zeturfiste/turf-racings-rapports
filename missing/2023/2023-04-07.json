@@ -1,0 +1,73 @@
+{
+  "date": "2023-04-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-07",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-07/2023-04-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-07/R3-lyon-parilly/R3C8-prix-gratia.html",
+      "resultats-et-rapports/2023/04/2023-04-07/R4-saint-cloud/R4C3-prix-libra.html",
+      "resultats-et-rapports/2023/04/2023-04-07/R4-saint-cloud/R4C7-prix-aquila.html",
+      "resultats-et-rapports/2023/04/2023-04-07/R5-marseille-vivaux/R5C4-prix-isolda.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lyon-parilly",
+      "R4-saint-cloud",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-deimos.html",
+        "R1C2-prix-de-suresnes.html",
+        "R1C3-prix-libra.html",
+        "R1C4-prix-isolda.html",
+        "R1C5-prix-cephens.html",
+        "R1C6-prix-appolonia.html",
+        "R1C7-prix-aquila.html",
+        "R1C8-prix-gratia.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-deimos.html",
+        "R3C2-prix-de-suresnes.html",
+        "R3C3-prix-libra.html",
+        "R3C4-prix-isolda.html",
+        "R3C5-prix-cephens.html",
+        "R3C6-prix-appolonia.html",
+        "R3C7-prix-aquila.html",
+        "R3C8-prix-gratia.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-deimos.html",
+        "R4C2-prix-de-suresnes.html",
+        "R4C3-prix-libra.html",
+        "R4C4-prix-isolda.html",
+        "R4C5-prix-cephens.html",
+        "R4C6-prix-appolonia.html",
+        "R4C7-prix-aquila.html",
+        "R4C8-prix-gratia.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-deimos.html",
+        "R5C2-prix-de-suresnes.html",
+        "R5C3-prix-libra.html",
+        "R5C4-prix-isolda.html",
+        "R5C5-prix-cephens.html",
+        "R5C6-prix-appolonia.html",
+        "R5C7-prix-aquila.html",
+        "R5C8-prix-gratia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:18.746912Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2025-04-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-22",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-22/2025-04-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C1-prix-la-bate.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C2-prix-hopper.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C3-prix-miror.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C4-prix-du-grand-marechal.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C5-prix-du-brevent.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C6-prix-du-finistere.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C7-prix-du-mont-dore.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R1-compiegne/R1C8-prix-vanille.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C1-prix-la-bate.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C2-prix-hopper.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C3-prix-miror.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C5-prix-du-brevent.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C6-prix-du-finistere.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C7-prix-du-mont-dore.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R3-marseille-borely/R3C8-prix-vanille.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C1-prix-la-bate.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C2-prix-hopper.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C3-prix-miror.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C4-prix-du-grand-marechal.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C5-prix-du-brevent.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C6-prix-du-finistere.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C7-prix-du-mont-dore.html",
+      "resultats-et-rapports/2025/04/2025-04-22/R4-vincennes/R4C8-prix-vanille.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-la-bate.html",
+        "R1C2-prix-hopper.html",
+        "R1C3-prix-miror.html",
+        "R1C4-prix-du-grand-marechal.html",
+        "R1C5-prix-du-brevent.html",
+        "R1C6-prix-du-finistere.html",
+        "R1C7-prix-du-mont-dore.html",
+        "R1C8-prix-vanille.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-la-bate.html",
+        "R3C2-prix-hopper.html",
+        "R3C3-prix-miror.html",
+        "R3C4-prix-du-grand-marechal.html",
+        "R3C5-prix-du-brevent.html",
+        "R3C6-prix-du-finistere.html",
+        "R3C7-prix-du-mont-dore.html",
+        "R3C8-prix-vanille.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-la-bate.html",
+        "R4C2-prix-hopper.html",
+        "R4C3-prix-miror.html",
+        "R4C4-prix-du-grand-marechal.html",
+        "R4C5-prix-du-brevent.html",
+        "R4C6-prix-du-finistere.html",
+        "R4C7-prix-du-mont-dore.html",
+        "R4C8-prix-vanille.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:46.247487Z"
+}

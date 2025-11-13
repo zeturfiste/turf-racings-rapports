@@ -1,0 +1,112 @@
+{
+  "date": "2012-01-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/01/2012-01-08",
+    "date_html": "resultats-et-rapports/2012/01/2012-01-08/2012-01-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/01/2012-01-08/R2-cagnes-sur-mer/R2C3-prix-du-calvados.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R3-cordemais/R3C3-prix-du-calvados.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R3-cordemais/R3C7-prix-de-mauleon.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R4-mauquenchy/R4C5-prix-de-vic-sur-cere.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C2-prix-de-talence.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C4-prix-de-lille.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C5-prix-de-vic-sur-cere.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C6-prix-de-gontaud.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C8-prix-de-vic-fezensac.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R5-toulouse/R5C9-prix-de-colmar.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R6-saint-galmier/R6C4-prix-de-lille.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R6-saint-galmier/R6C5-prix-de-vic-sur-cere.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R6-saint-galmier/R6C7-prix-de-mauleon.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R6-saint-galmier/R6C8-prix-de-vic-fezensac.html",
+      "resultats-et-rapports/2012/01/2012-01-08/R6-saint-galmier/R6C9-prix-de-colmar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-cordemais",
+      "R4-mauquenchy",
+      "R5-toulouse",
+      "R6-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-forcalquier.html",
+        "R1C2-prix-de-talence.html",
+        "R1C3-prix-du-calvados.html",
+        "R1C4-prix-de-lille.html",
+        "R1C5-prix-de-vic-sur-cere.html",
+        "R1C6-prix-de-gontaud.html",
+        "R1C7-prix-de-mauleon.html",
+        "R1C8-prix-de-vic-fezensac.html",
+        "R1C9-prix-de-colmar.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-forcalquier.html",
+        "R2C2-prix-de-talence.html",
+        "R2C3-prix-du-calvados.html",
+        "R2C4-prix-de-lille.html",
+        "R2C5-prix-de-vic-sur-cere.html",
+        "R2C6-prix-de-gontaud.html",
+        "R2C7-prix-de-mauleon.html",
+        "R2C8-prix-de-vic-fezensac.html",
+        "R2C9-prix-de-colmar.html"
+      ],
+      "R3-cordemais": [
+        "R3C1-prix-de-forcalquier.html",
+        "R3C2-prix-de-talence.html",
+        "R3C3-prix-du-calvados.html",
+        "R3C4-prix-de-lille.html",
+        "R3C5-prix-de-vic-sur-cere.html",
+        "R3C6-prix-de-gontaud.html",
+        "R3C7-prix-de-mauleon.html",
+        "R3C8-prix-de-vic-fezensac.html",
+        "R3C9-prix-de-colmar.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-forcalquier.html",
+        "R4C2-prix-de-talence.html",
+        "R4C3-prix-du-calvados.html",
+        "R4C4-prix-de-lille.html",
+        "R4C5-prix-de-vic-sur-cere.html",
+        "R4C6-prix-de-gontaud.html",
+        "R4C7-prix-de-mauleon.html",
+        "R4C8-prix-de-vic-fezensac.html",
+        "R4C9-prix-de-colmar.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-de-forcalquier.html",
+        "R5C2-prix-de-talence.html",
+        "R5C3-prix-du-calvados.html",
+        "R5C4-prix-de-lille.html",
+        "R5C5-prix-de-vic-sur-cere.html",
+        "R5C6-prix-de-gontaud.html",
+        "R5C7-prix-de-mauleon.html",
+        "R5C8-prix-de-vic-fezensac.html",
+        "R5C9-prix-de-colmar.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-de-forcalquier.html",
+        "R6C2-prix-de-talence.html",
+        "R6C3-prix-du-calvados.html",
+        "R6C4-prix-de-lille.html",
+        "R6C5-prix-de-vic-sur-cere.html",
+        "R6C6-prix-de-gontaud.html",
+        "R6C7-prix-de-mauleon.html",
+        "R6C8-prix-de-vic-fezensac.html",
+        "R6C9-prix-de-colmar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:10.070526Z"
+}

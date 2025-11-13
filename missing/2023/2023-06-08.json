@@ -1,0 +1,79 @@
+{
+  "date": "2023-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-08",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-08/2023-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-08/R3-dieppe/R3C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R3-dieppe/R3C8-prix-mercedes-benz-paris-prix-de-la-glaciere.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R4-caen/R4C1-prix-du-vieux-colombier.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R4-caen/R4C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R4-caen/R4C6-prix-de-l-atelier.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R4-caen/R4C7-prix-du-chateau-de-bagatelle.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R5-toulouse/R5C3-prix-perplexite.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R5-toulouse/R5C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R5-toulouse/R5C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2023/06/2023-06-08/R5-toulouse/R5C6-prix-de-l-atelier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-dieppe",
+      "R4-caen",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-vieux-colombier.html",
+        "R1C2-prix-du-nabob.html",
+        "R1C3-prix-perplexite.html",
+        "R1C4-prix-des-mathurins.html",
+        "R1C5-prix-du-palais-de-la-decouverte.html",
+        "R1C6-prix-de-l-atelier.html",
+        "R1C7-prix-du-chateau-de-bagatelle.html",
+        "R1C8-prix-mercedes-benz-paris-prix-de-la-glaciere.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-du-vieux-colombier.html",
+        "R3C2-prix-du-nabob.html",
+        "R3C3-prix-perplexite.html",
+        "R3C4-prix-des-mathurins.html",
+        "R3C5-prix-du-palais-de-la-decouverte.html",
+        "R3C6-prix-de-l-atelier.html",
+        "R3C7-prix-du-chateau-de-bagatelle.html",
+        "R3C8-prix-mercedes-benz-paris-prix-de-la-glaciere.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-du-vieux-colombier.html",
+        "R4C2-prix-du-nabob.html",
+        "R4C3-prix-perplexite.html",
+        "R4C4-prix-des-mathurins.html",
+        "R4C5-prix-du-palais-de-la-decouverte.html",
+        "R4C6-prix-de-l-atelier.html",
+        "R4C7-prix-du-chateau-de-bagatelle.html",
+        "R4C8-prix-mercedes-benz-paris-prix-de-la-glaciere.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-du-vieux-colombier.html",
+        "R5C2-prix-du-nabob.html",
+        "R5C3-prix-perplexite.html",
+        "R5C4-prix-des-mathurins.html",
+        "R5C5-prix-du-palais-de-la-decouverte.html",
+        "R5C6-prix-de-l-atelier.html",
+        "R5C7-prix-du-chateau-de-bagatelle.html",
+        "R5C8-prix-mercedes-benz-paris-prix-de-la-glaciere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:41.668752Z"
+}

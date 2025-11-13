@@ -1,0 +1,84 @@
+{
+  "date": "2024-09-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-01",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-01/2024-09-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-01/R2-salon-de-provence/R2C3-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R2-salon-de-provence/R2C4-prix-de-liancourt.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C3-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C4-prix-de-liancourt.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C7-prix-de-madrid.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R4-craon/R4C9-prix-de-ponthieu.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R9-feurs/R9C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R9-feurs/R9C8-prix-du-lac.html",
+      "resultats-et-rapports/2024/09/2024-09-01/R9-feurs/R9C9-prix-de-ponthieu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-salon-de-provence",
+      "R4-craon",
+      "R9-feurs"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-d-arenberg.html",
+        "R1C2-darley-prix-joubert.html",
+        "R1C3-prix-de-la-reine-marguerite.html",
+        "R1C4-prix-de-liancourt.html",
+        "R1C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R1C7-prix-de-madrid.html",
+        "R1C8-prix-du-lac.html",
+        "R1C9-prix-de-ponthieu.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-d-arenberg.html",
+        "R2C2-darley-prix-joubert.html",
+        "R2C3-prix-de-la-reine-marguerite.html",
+        "R2C4-prix-de-liancourt.html",
+        "R2C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R2C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R2C7-prix-de-madrid.html",
+        "R2C8-prix-du-lac.html",
+        "R2C9-prix-de-ponthieu.html"
+      ],
+      "R4-craon": [
+        "R4C1-prix-d-arenberg.html",
+        "R4C2-darley-prix-joubert.html",
+        "R4C3-prix-de-la-reine-marguerite.html",
+        "R4C4-prix-de-liancourt.html",
+        "R4C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R4C7-prix-de-madrid.html",
+        "R4C8-prix-du-lac.html",
+        "R4C9-prix-de-ponthieu.html"
+      ],
+      "R9-feurs": [
+        "R9C1-prix-d-arenberg.html",
+        "R9C2-darley-prix-joubert.html",
+        "R9C3-prix-de-la-reine-marguerite.html",
+        "R9C4-prix-de-liancourt.html",
+        "R9C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R9C6-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R9C7-prix-de-madrid.html",
+        "R9C8-prix-du-lac.html",
+        "R9C9-prix-de-ponthieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:24.391372Z"
+}

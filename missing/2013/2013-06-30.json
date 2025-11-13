@@ -1,0 +1,126 @@
+{
+  "date": "2013-06-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-30",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-30/2013-06-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-30/R1-chantilly/R1C8-prix-du-pastillon.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R1-chantilly/R1C9-prix-de-la-renommee.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R2-dax/R2C2-prix-du-bois.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R2-dax/R2C3-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R2-dax/R2C7-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R2-dax/R2C8-prix-du-pastillon.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R2-dax/R2C9-prix-de-la-renommee.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R4-sable-sur-sarthe/R4C1-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R4-sable-sur-sarthe/R4C2-prix-du-bois.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R4-sable-sur-sarthe/R4C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R4-sable-sur-sarthe/R4C6-prix-chloe.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R4-sable-sur-sarthe/R4C8-prix-du-pastillon.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C1-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C2-prix-du-bois.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C3-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C6-prix-chloe.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C7-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C8-prix-du-pastillon.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R7-graignes/R7C9-prix-de-la-renommee.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C1-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C2-prix-du-bois.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C3-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C5-prix-jean-prat.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C6-prix-chloe.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C7-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C8-prix-du-pastillon.html",
+      "resultats-et-rapports/2013/06/2013-06-30/R8-rambouillet/R8C9-prix-de-la-renommee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-dax",
+      "R3-saint-galmier",
+      "R4-sable-sur-sarthe",
+      "R7-graignes",
+      "R8-rambouillet"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-grange-des-pres.html",
+        "R1C2-prix-du-bois.html",
+        "R1C3-coupe-de-france-des-chevaux-arabes.html",
+        "R1C4-prix-des-grandes-ecuries.html",
+        "R1C5-prix-jean-prat.html",
+        "R1C6-prix-chloe.html",
+        "R1C7-prix-du-puits-aux-chiens.html",
+        "R1C8-prix-du-pastillon.html",
+        "R1C9-prix-de-la-renommee.html"
+      ],
+      "R2-dax": [
+        "R2C1-prix-de-la-grange-des-pres.html",
+        "R2C2-prix-du-bois.html",
+        "R2C3-coupe-de-france-des-chevaux-arabes.html",
+        "R2C4-prix-des-grandes-ecuries.html",
+        "R2C5-prix-jean-prat.html",
+        "R2C6-prix-chloe.html",
+        "R2C7-prix-du-puits-aux-chiens.html",
+        "R2C8-prix-du-pastillon.html",
+        "R2C9-prix-de-la-renommee.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-de-la-grange-des-pres.html",
+        "R3C2-prix-du-bois.html",
+        "R3C3-coupe-de-france-des-chevaux-arabes.html",
+        "R3C4-prix-des-grandes-ecuries.html",
+        "R3C5-prix-jean-prat.html",
+        "R3C6-prix-chloe.html",
+        "R3C7-prix-du-puits-aux-chiens.html",
+        "R3C8-prix-du-pastillon.html",
+        "R3C9-prix-de-la-renommee.html"
+      ],
+      "R4-sable-sur-sarthe": [
+        "R4C1-prix-de-la-grange-des-pres.html",
+        "R4C2-prix-du-bois.html",
+        "R4C3-coupe-de-france-des-chevaux-arabes.html",
+        "R4C4-prix-des-grandes-ecuries.html",
+        "R4C5-prix-jean-prat.html",
+        "R4C6-prix-chloe.html",
+        "R4C7-prix-du-puits-aux-chiens.html",
+        "R4C8-prix-du-pastillon.html",
+        "R4C9-prix-de-la-renommee.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-de-la-grange-des-pres.html",
+        "R7C2-prix-du-bois.html",
+        "R7C3-coupe-de-france-des-chevaux-arabes.html",
+        "R7C4-prix-des-grandes-ecuries.html",
+        "R7C5-prix-jean-prat.html",
+        "R7C6-prix-chloe.html",
+        "R7C7-prix-du-puits-aux-chiens.html",
+        "R7C8-prix-du-pastillon.html",
+        "R7C9-prix-de-la-renommee.html"
+      ],
+      "R8-rambouillet": [
+        "R8C1-prix-de-la-grange-des-pres.html",
+        "R8C2-prix-du-bois.html",
+        "R8C3-coupe-de-france-des-chevaux-arabes.html",
+        "R8C4-prix-des-grandes-ecuries.html",
+        "R8C5-prix-jean-prat.html",
+        "R8C6-prix-chloe.html",
+        "R8C7-prix-du-puits-aux-chiens.html",
+        "R8C8-prix-du-pastillon.html",
+        "R8C9-prix-de-la-renommee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:40.991764Z"
+}

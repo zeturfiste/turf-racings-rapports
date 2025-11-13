@@ -1,0 +1,64 @@
+{
+  "date": "2020-10-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-01",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-01/2020-10-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-01/R3-compiegne/R3C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2020/10/2020-10-01/R3-compiegne/R3C5-prix-de-nantes.html",
+      "resultats-et-rapports/2020/10/2020-10-01/R3-compiegne/R3C7-prix-ucello-ii.html",
+      "resultats-et-rapports/2020/10/2020-10-01/R4-cabourg/R4C3-prix-pride-of-kildare.html",
+      "resultats-et-rapports/2020/10/2020-10-01/R4-cabourg/R4C7-prix-ucello-ii.html",
+      "resultats-et-rapports/2020/10/2020-10-01/R4-cabourg/R4C8-prix-hipparque.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-compiegne",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-guillaume-de-pracomtal.html",
+        "R1C2-prix-bayonnet.html",
+        "R1C3-prix-pride-of-kildare.html",
+        "R1C4-prix-magicienne.html",
+        "R1C5-prix-de-nantes.html",
+        "R1C6-prix-vivienne.html",
+        "R1C7-prix-ucello-ii.html",
+        "R1C8-prix-hipparque.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-guillaume-de-pracomtal.html",
+        "R3C2-prix-bayonnet.html",
+        "R3C3-prix-pride-of-kildare.html",
+        "R3C4-prix-magicienne.html",
+        "R3C5-prix-de-nantes.html",
+        "R3C6-prix-vivienne.html",
+        "R3C7-prix-ucello-ii.html",
+        "R3C8-prix-hipparque.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-guillaume-de-pracomtal.html",
+        "R4C2-prix-bayonnet.html",
+        "R4C3-prix-pride-of-kildare.html",
+        "R4C4-prix-magicienne.html",
+        "R4C5-prix-de-nantes.html",
+        "R4C6-prix-vivienne.html",
+        "R4C7-prix-ucello-ii.html",
+        "R4C8-prix-hipparque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:58.447281Z"
+}

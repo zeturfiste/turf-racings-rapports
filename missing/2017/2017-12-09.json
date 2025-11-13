@@ -1,0 +1,65 @@
+{
+  "date": "2017-12-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-09",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-09/2017-12-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-09/R1-vincennes/R1C6-prix-narquois.html",
+      "resultats-et-rapports/2017/12/2017-12-09/R1-vincennes/R1C7-prix-de-limermont.html",
+      "resultats-et-rapports/2017/12/2017-12-09/R3-pau/R3C1-prix-de-seiches-sur-le-loir.html",
+      "resultats-et-rapports/2017/12/2017-12-09/R4-le-croise-laroche/R4C7-prix-de-limermont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-seiches-sur-le-loir.html",
+        "R1C2-prix-d-hautefort.html",
+        "R1C3-prix-raoul-balliere.html",
+        "R1C4-criterium-des-3-ans.html",
+        "R1C5-prix-ariste-hemard.html",
+        "R1C6-prix-narquois.html",
+        "R1C7-prix-de-limermont.html",
+        "R1C8-prix-de-cancale.html",
+        "R1C9-prix-de-gex.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-seiches-sur-le-loir.html",
+        "R3C2-prix-d-hautefort.html",
+        "R3C3-prix-raoul-balliere.html",
+        "R3C4-criterium-des-3-ans.html",
+        "R3C5-prix-ariste-hemard.html",
+        "R3C6-prix-narquois.html",
+        "R3C7-prix-de-limermont.html",
+        "R3C8-prix-de-cancale.html",
+        "R3C9-prix-de-gex.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-de-seiches-sur-le-loir.html",
+        "R4C2-prix-d-hautefort.html",
+        "R4C3-prix-raoul-balliere.html",
+        "R4C4-criterium-des-3-ans.html",
+        "R4C5-prix-ariste-hemard.html",
+        "R4C6-prix-narquois.html",
+        "R4C7-prix-de-limermont.html",
+        "R4C8-prix-de-cancale.html",
+        "R4C9-prix-de-gex.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:53.572029Z"
+}

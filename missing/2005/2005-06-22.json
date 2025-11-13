@@ -1,0 +1,46 @@
+{
+  "date": "2005-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-22",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-22/2005-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R2-maisons-laffitte"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-prix-paris-turf-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R1C2-prix-du-journal-l-union.html",
+        "R1C3-prix-du-champagne-jacquart.html",
+        "R1C4-prix-du-conseil-regional-champagne-ardenne.html",
+        "R1C5-prix-des-haras-de-montier-en-der.html",
+        "R1C6-prix-julien-cornet.html",
+        "R1C7-prix-du-conseil-general-de-la-marne.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-paris-turf-geny-courses-rtl-grand-prix-de-la-ville-de-reims.html",
+        "R2C2-prix-du-journal-l-union.html",
+        "R2C3-prix-du-champagne-jacquart.html",
+        "R2C4-prix-du-conseil-regional-champagne-ardenne.html",
+        "R2C5-prix-des-haras-de-montier-en-der.html",
+        "R2C6-prix-julien-cornet.html",
+        "R2C7-prix-du-conseil-general-de-la-marne.html",
+        "R2C8-prix-de-la-societe-du-cheval-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:59.448332Z"
+}

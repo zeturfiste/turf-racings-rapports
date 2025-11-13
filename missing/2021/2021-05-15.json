@@ -1,0 +1,99 @@
+{
+  "date": "2021-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-15",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-15/2021-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-15/R2-toulouse/R2C1-prix-de-fecamp.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R2-toulouse/R2C2-prix-de-rennes.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R2-toulouse/R2C3-prix-jean-gabin.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R2-toulouse/R2C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R4-auteuil/R4C2-prix-de-rennes.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R4-auteuil/R4C6-prix-de-dreux.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R4-auteuil/R4C8-prix-de-viry-chatillon.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C1-prix-de-fecamp.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C2-prix-de-rennes.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C3-prix-jean-gabin.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C7-prix-du-gatinais.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C8-prix-de-viry-chatillon.html",
+      "resultats-et-rapports/2021/05/2021-05-15/R8-amiens/R8C9-prix-de-mamers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R3-nantes",
+      "R4-auteuil",
+      "R8-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-fecamp.html",
+        "R1C2-prix-de-rennes.html",
+        "R1C3-prix-jean-gabin.html",
+        "R1C4-prix-guillaume-de-bellaigue.html",
+        "R1C5-prix-du-perreux.html",
+        "R1C6-prix-de-dreux.html",
+        "R1C7-prix-du-gatinais.html",
+        "R1C8-prix-de-viry-chatillon.html",
+        "R1C9-prix-de-mamers.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-de-fecamp.html",
+        "R2C2-prix-de-rennes.html",
+        "R2C3-prix-jean-gabin.html",
+        "R2C4-prix-guillaume-de-bellaigue.html",
+        "R2C5-prix-du-perreux.html",
+        "R2C6-prix-de-dreux.html",
+        "R2C7-prix-du-gatinais.html",
+        "R2C8-prix-de-viry-chatillon.html",
+        "R2C9-prix-de-mamers.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-fecamp.html",
+        "R3C2-prix-de-rennes.html",
+        "R3C3-prix-jean-gabin.html",
+        "R3C4-prix-guillaume-de-bellaigue.html",
+        "R3C5-prix-du-perreux.html",
+        "R3C6-prix-de-dreux.html",
+        "R3C7-prix-du-gatinais.html",
+        "R3C8-prix-de-viry-chatillon.html",
+        "R3C9-prix-de-mamers.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-de-fecamp.html",
+        "R4C2-prix-de-rennes.html",
+        "R4C3-prix-jean-gabin.html",
+        "R4C4-prix-guillaume-de-bellaigue.html",
+        "R4C5-prix-du-perreux.html",
+        "R4C6-prix-de-dreux.html",
+        "R4C7-prix-du-gatinais.html",
+        "R4C8-prix-de-viry-chatillon.html",
+        "R4C9-prix-de-mamers.html"
+      ],
+      "R8-amiens": [
+        "R8C1-prix-de-fecamp.html",
+        "R8C2-prix-de-rennes.html",
+        "R8C3-prix-jean-gabin.html",
+        "R8C4-prix-guillaume-de-bellaigue.html",
+        "R8C5-prix-du-perreux.html",
+        "R8C6-prix-de-dreux.html",
+        "R8C7-prix-du-gatinais.html",
+        "R8C8-prix-de-viry-chatillon.html",
+        "R8C9-prix-de-mamers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:13.497593Z"
+}

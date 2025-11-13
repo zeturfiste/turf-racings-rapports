@@ -1,0 +1,82 @@
+{
+  "date": "2020-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-19",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-19/2020-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-19/R2-chantilly/R2C5-prix-clementina.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R2-chantilly/R2C6-prix-eurykleia.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R3-caen/R3C3-prix-lydia.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R6-laval/R6C3-prix-lydia.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R6-laval/R6C4-prix-xavier-de-saint-palais.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R6-laval/R6C5-prix-clementina.html",
+      "resultats-et-rapports/2020/06/2020-06-19/R6-laval/R6C7-prix-echo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-chantilly",
+      "R3-caen",
+      "R5-la-teste-de-buch",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-hygica.html",
+        "R1C2-prix-okda.html",
+        "R1C3-prix-lydia.html",
+        "R1C4-prix-xavier-de-saint-palais.html",
+        "R1C5-prix-clementina.html",
+        "R1C6-prix-eurykleia.html",
+        "R1C7-prix-echo.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-hygica.html",
+        "R2C2-prix-okda.html",
+        "R2C3-prix-lydia.html",
+        "R2C4-prix-xavier-de-saint-palais.html",
+        "R2C5-prix-clementina.html",
+        "R2C6-prix-eurykleia.html",
+        "R2C7-prix-echo.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-hygica.html",
+        "R3C2-prix-okda.html",
+        "R3C3-prix-lydia.html",
+        "R3C4-prix-xavier-de-saint-palais.html",
+        "R3C5-prix-clementina.html",
+        "R3C6-prix-eurykleia.html",
+        "R3C7-prix-echo.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-hygica.html",
+        "R5C2-prix-okda.html",
+        "R5C3-prix-lydia.html",
+        "R5C4-prix-xavier-de-saint-palais.html",
+        "R5C5-prix-clementina.html",
+        "R5C6-prix-eurykleia.html",
+        "R5C7-prix-echo.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-hygica.html",
+        "R6C2-prix-okda.html",
+        "R6C3-prix-lydia.html",
+        "R6C4-prix-xavier-de-saint-palais.html",
+        "R6C5-prix-clementina.html",
+        "R6C6-prix-eurykleia.html",
+        "R6C7-prix-echo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:20.654402Z"
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2014-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-29",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-29/2014-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-29/R1-auteuil/R1C4-prix-fleuret.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R1-auteuil/R1C6-prix-hypothese.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R1-auteuil/R1C7-prix-air-landais.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C1-prix-kashnil.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C4-prix-fleuret.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C5-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C6-prix-hypothese.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C7-prix-air-landais.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R2-caen/R2C8-prix-hubert-de-navailles.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C1-prix-kashnil.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C3-prix-romantisme.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C4-prix-fleuret.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C5-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C6-prix-hypothese.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C7-prix-air-landais.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R3-laval/R3C8-prix-hubert-de-navailles.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R6-bordeaux-le-bouscat/R6C1-prix-kashnil.html",
+      "resultats-et-rapports/2014/03/2014-03-29/R6-bordeaux-le-bouscat/R6C6-prix-hypothese.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-laval",
+      "R6-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-kashnil.html",
+        "R1C2-prix-de-saint-maixent.html",
+        "R1C3-prix-romantisme.html",
+        "R1C4-prix-fleuret.html",
+        "R1C5-prix-general-de-rougemont.html",
+        "R1C6-prix-hypothese.html",
+        "R1C7-prix-air-landais.html",
+        "R1C8-prix-hubert-de-navailles.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-kashnil.html",
+        "R2C2-prix-de-saint-maixent.html",
+        "R2C3-prix-romantisme.html",
+        "R2C4-prix-fleuret.html",
+        "R2C5-prix-general-de-rougemont.html",
+        "R2C6-prix-hypothese.html",
+        "R2C7-prix-air-landais.html",
+        "R2C8-prix-hubert-de-navailles.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-kashnil.html",
+        "R3C2-prix-de-saint-maixent.html",
+        "R3C3-prix-romantisme.html",
+        "R3C4-prix-fleuret.html",
+        "R3C5-prix-general-de-rougemont.html",
+        "R3C6-prix-hypothese.html",
+        "R3C7-prix-air-landais.html",
+        "R3C8-prix-hubert-de-navailles.html"
+      ],
+      "R6-bordeaux-le-bouscat": [
+        "R6C1-prix-kashnil.html",
+        "R6C2-prix-de-saint-maixent.html",
+        "R6C3-prix-romantisme.html",
+        "R6C4-prix-fleuret.html",
+        "R6C5-prix-general-de-rougemont.html",
+        "R6C6-prix-hypothese.html",
+        "R6C7-prix-air-landais.html",
+        "R6C8-prix-hubert-de-navailles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:57.841145Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2012-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-10",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-10/2012-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-10/R1-saint-cloud/R1C5-prix-du-brionnais-prix-du-journal-geny-courses.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R2-marseille-borely/R2C1-prix-hauban.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R2-marseille-borely/R2C2-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R2-marseille-borely/R2C4-prix-solitude.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R2-marseille-borely/R2C5-prix-du-brionnais-prix-du-journal-geny-courses.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R2-marseille-borely/R2C7-prix-des-naiades.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R3-le-croise-laroche/R3C1-prix-hauban.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R3-le-croise-laroche/R3C2-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2012/11/2012-11-10/R3-le-croise-laroche/R3C4-prix-solitude.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-marseille-borely",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-hauban.html",
+        "R1C2-prix-d-ecquevilly.html",
+        "R1C3-criterium-de-saint-cloud.html",
+        "R1C4-prix-solitude.html",
+        "R1C5-prix-du-brionnais-prix-du-journal-geny-courses.html",
+        "R1C6-prix-de-freneuse.html",
+        "R1C7-prix-des-naiades.html",
+        "R1C8-prix-du-charolais.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-hauban.html",
+        "R2C2-prix-d-ecquevilly.html",
+        "R2C3-criterium-de-saint-cloud.html",
+        "R2C4-prix-solitude.html",
+        "R2C5-prix-du-brionnais-prix-du-journal-geny-courses.html",
+        "R2C6-prix-de-freneuse.html",
+        "R2C7-prix-des-naiades.html",
+        "R2C8-prix-du-charolais.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-hauban.html",
+        "R3C2-prix-d-ecquevilly.html",
+        "R3C3-criterium-de-saint-cloud.html",
+        "R3C4-prix-solitude.html",
+        "R3C5-prix-du-brionnais-prix-du-journal-geny-courses.html",
+        "R3C6-prix-de-freneuse.html",
+        "R3C7-prix-des-naiades.html",
+        "R3C8-prix-du-charolais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:37.956264Z"
+}

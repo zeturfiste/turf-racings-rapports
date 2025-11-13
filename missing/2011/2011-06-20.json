@@ -1,0 +1,97 @@
+{
+  "date": "2011-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-20",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-20/2011-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-20/R2-maisons-laffitte/R2C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R2-maisons-laffitte/R2C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R2-maisons-laffitte/R2C6-prix-de-gannat.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R3-agen/R3C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R3-agen/R3C7-prix-roquepine-gr-a.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C6-prix-de-gannat.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C7-prix-roquepine-gr-a.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R4-le-lion-d-angers/R4C8-prix-roquepine-gr-b.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C6-prix-de-gannat.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C7-prix-roquepine-gr-a.html",
+      "resultats-et-rapports/2011/06/2011-06-20/R5-nantes/R5C8-prix-roquepine-gr-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-maisons-laffitte",
+      "R3-agen",
+      "R4-le-lion-d-angers",
+      "R5-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-cognat-lyonne.html",
+        "R1C2-prix-d-hauterive.html",
+        "R1C3-prix-bellino-ii.html",
+        "R1C4-prix-des-parcs-d-allier.html",
+        "R1C5-prix-de-gerzat.html",
+        "R1C6-prix-de-gannat.html",
+        "R1C7-prix-roquepine-gr-a.html",
+        "R1C8-prix-roquepine-gr-b.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-de-cognat-lyonne.html",
+        "R2C2-prix-d-hauterive.html",
+        "R2C3-prix-bellino-ii.html",
+        "R2C4-prix-des-parcs-d-allier.html",
+        "R2C5-prix-de-gerzat.html",
+        "R2C6-prix-de-gannat.html",
+        "R2C7-prix-roquepine-gr-a.html",
+        "R2C8-prix-roquepine-gr-b.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-de-cognat-lyonne.html",
+        "R3C2-prix-d-hauterive.html",
+        "R3C3-prix-bellino-ii.html",
+        "R3C4-prix-des-parcs-d-allier.html",
+        "R3C5-prix-de-gerzat.html",
+        "R3C6-prix-de-gannat.html",
+        "R3C7-prix-roquepine-gr-a.html",
+        "R3C8-prix-roquepine-gr-b.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-cognat-lyonne.html",
+        "R4C2-prix-d-hauterive.html",
+        "R4C3-prix-bellino-ii.html",
+        "R4C4-prix-des-parcs-d-allier.html",
+        "R4C5-prix-de-gerzat.html",
+        "R4C6-prix-de-gannat.html",
+        "R4C7-prix-roquepine-gr-a.html",
+        "R4C8-prix-roquepine-gr-b.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-de-cognat-lyonne.html",
+        "R5C2-prix-d-hauterive.html",
+        "R5C3-prix-bellino-ii.html",
+        "R5C4-prix-des-parcs-d-allier.html",
+        "R5C5-prix-de-gerzat.html",
+        "R5C6-prix-de-gannat.html",
+        "R5C7-prix-roquepine-gr-a.html",
+        "R5C8-prix-roquepine-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:12.863272Z"
+}

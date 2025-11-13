@@ -1,0 +1,95 @@
+{
+  "date": "2017-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-04",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-04/2017-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-04/R1-auteuil/R1C1-117eme-prix-de-france.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R1-auteuil/R1C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C1-117eme-prix-de-france.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C3-prix-congress.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C4-prix-le-parisien-prix-cacao.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R3-la-rochelle/R3C7-prix-oeneas.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R4-lyon-la-soie/R4C1-117eme-prix-de-france.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R4-lyon-la-soie/R4C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R4-lyon-la-soie/R4C3-prix-congress.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R4-lyon-la-soie/R4C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R4-lyon-la-soie/R4C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R5-toulouse/R5C4-prix-le-parisien-prix-cacao.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R7-maure-de-bretagne/R7C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R7-maure-de-bretagne/R7C3-prix-congress.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R7-maure-de-bretagne/R7C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R7-maure-de-bretagne/R7C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2017/11/2017-11-04/R7-maure-de-bretagne/R7C7-prix-oeneas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-la-rochelle",
+      "R4-lyon-la-soie",
+      "R5-toulouse",
+      "R7-maure-de-bretagne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-117eme-prix-de-france.html",
+        "R1C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+        "R1C3-prix-congress.html",
+        "R1C4-prix-le-parisien-prix-cacao.html",
+        "R1C5-grand-prix-d-automne.html",
+        "R1C6-prix-robert-weill-prix-ketch.html",
+        "R1C7-prix-oeneas.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-117eme-prix-de-france.html",
+        "R3C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+        "R3C3-prix-congress.html",
+        "R3C4-prix-le-parisien-prix-cacao.html",
+        "R3C5-grand-prix-d-automne.html",
+        "R3C6-prix-robert-weill-prix-ketch.html",
+        "R3C7-prix-oeneas.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-117eme-prix-de-france.html",
+        "R4C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+        "R4C3-prix-congress.html",
+        "R4C4-prix-le-parisien-prix-cacao.html",
+        "R4C5-grand-prix-d-automne.html",
+        "R4C6-prix-robert-weill-prix-ketch.html",
+        "R4C7-prix-oeneas.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-117eme-prix-de-france.html",
+        "R5C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+        "R5C3-prix-congress.html",
+        "R5C4-prix-le-parisien-prix-cacao.html",
+        "R5C5-grand-prix-d-automne.html",
+        "R5C6-prix-robert-weill-prix-ketch.html",
+        "R5C7-prix-oeneas.html"
+      ],
+      "R7-maure-de-bretagne": [
+        "R7C1-117eme-prix-de-france.html",
+        "R7C2-prix-bournosienne-prix-de-l-association-nationale-des-turfistes.html",
+        "R7C3-prix-congress.html",
+        "R7C4-prix-le-parisien-prix-cacao.html",
+        "R7C5-grand-prix-d-automne.html",
+        "R7C6-prix-robert-weill-prix-ketch.html",
+        "R7C7-prix-oeneas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:42.758647Z"
+}

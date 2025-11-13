@@ -1,0 +1,65 @@
+{
+  "date": "2024-03-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-13",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-13/2024-03-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-13/R1-laval/R1C5-prix-du-stade-lavallois-mayenne-fc-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R3-compiegne/R3C2-prix-de-la-societe-du-trotteur-francais.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R3-compiegne/R3C5-prix-du-stade-lavallois-mayenne-fc-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R3-compiegne/R3C7-prix-www-lamayenne-fr.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R3-compiegne/R3C8-prix-mayenne-tourisme.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R4-amiens/R4C6-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2024/03/2024-03-13/R4-amiens/R4C8-prix-mayenne-tourisme.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-compiegne",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-du-conseil-departemental-de-la-mayenne-grand-prix-ernest-jouanne.html",
+        "R1C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R1C3-prix-des-3-provinces.html",
+        "R1C4-prix-www-hippodrome-laval-fr.html",
+        "R1C5-prix-du-stade-lavallois-mayenne-fc-prix-france-bleu-mayenne.html",
+        "R1C6-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R1C7-prix-www-lamayenne-fr.html",
+        "R1C8-prix-mayenne-tourisme.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-prix-du-conseil-departemental-de-la-mayenne-grand-prix-ernest-jouanne.html",
+        "R3C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R3C3-prix-des-3-provinces.html",
+        "R3C4-prix-www-hippodrome-laval-fr.html",
+        "R3C5-prix-du-stade-lavallois-mayenne-fc-prix-france-bleu-mayenne.html",
+        "R3C6-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R3C7-prix-www-lamayenne-fr.html",
+        "R3C8-prix-mayenne-tourisme.html"
+      ],
+      "R4-amiens": [
+        "R4C1-grand-prix-du-conseil-departemental-de-la-mayenne-grand-prix-ernest-jouanne.html",
+        "R4C2-prix-de-la-societe-du-trotteur-francais.html",
+        "R4C3-prix-des-3-provinces.html",
+        "R4C4-prix-www-hippodrome-laval-fr.html",
+        "R4C5-prix-du-stade-lavallois-mayenne-fc-prix-france-bleu-mayenne.html",
+        "R4C6-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R4C7-prix-www-lamayenne-fr.html",
+        "R4C8-prix-mayenne-tourisme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:20.291500Z"
+}

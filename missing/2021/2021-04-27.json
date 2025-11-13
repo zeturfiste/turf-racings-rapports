@@ -1,0 +1,74 @@
+{
+  "date": "2021-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-27",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-27/2021-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-27/R3-marseille-borely/R3C4-prix-samaritain.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R3-marseille-borely/R3C10-prix-sc-immobilier-equestre-criterium-des-jeunes.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C1-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C2-prix-de-parempuyre.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C3-prix-daniel-guestier.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C4-prix-samaritain.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C5-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C6-prix-mon-romain.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C7-prix-du-tremblay.html",
+      "resultats-et-rapports/2021/04/2021-04-27/R4-vincennes/R4C10-prix-sc-immobilier-equestre-criterium-des-jeunes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-handicap-de-bordeaux.html",
+        "R1C2-prix-de-parempuyre.html",
+        "R1C3-prix-daniel-guestier.html",
+        "R1C4-prix-samaritain.html",
+        "R1C5-prix-robert-de-villemandy.html",
+        "R1C6-prix-mon-romain.html",
+        "R1C7-prix-du-tremblay.html",
+        "R1C8-prix-de-la-ville-du-bouscat.html",
+        "R1C9-prix-sottsass.html",
+        "R1C10-prix-sc-immobilier-equestre-criterium-des-jeunes.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-handicap-de-bordeaux.html",
+        "R3C2-prix-de-parempuyre.html",
+        "R3C3-prix-daniel-guestier.html",
+        "R3C4-prix-samaritain.html",
+        "R3C5-prix-robert-de-villemandy.html",
+        "R3C6-prix-mon-romain.html",
+        "R3C7-prix-du-tremblay.html",
+        "R3C8-prix-de-la-ville-du-bouscat.html",
+        "R3C9-prix-sottsass.html",
+        "R3C10-prix-sc-immobilier-equestre-criterium-des-jeunes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-handicap-de-bordeaux.html",
+        "R4C2-prix-de-parempuyre.html",
+        "R4C3-prix-daniel-guestier.html",
+        "R4C4-prix-samaritain.html",
+        "R4C5-prix-robert-de-villemandy.html",
+        "R4C6-prix-mon-romain.html",
+        "R4C7-prix-du-tremblay.html",
+        "R4C8-prix-de-la-ville-du-bouscat.html",
+        "R4C9-prix-sottsass.html",
+        "R4C10-prix-sc-immobilier-equestre-criterium-des-jeunes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:07.113274Z"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2020-01-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/01/2020-01-07",
+    "date_html": "resultats-et-rapports/2020/01/2020-01-07/2020-01-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/01/2020-01-07/R4-marseille-vivaux/R4C7-prix-ramses.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-limousin.html",
+        "R1C2-prix-de-clamecy.html",
+        "R1C3-prix-de-pouance.html",
+        "R1C4-prix-de-villereal.html",
+        "R1C5-prix-de-questembert.html",
+        "R1C6-prix-de-ribeauville.html",
+        "R1C7-prix-ramses.html",
+        "R1C8-prix-de-cheverny.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-du-limousin.html",
+        "R3C2-prix-de-clamecy.html",
+        "R3C3-prix-de-pouance.html",
+        "R3C4-prix-de-villereal.html",
+        "R3C5-prix-de-questembert.html",
+        "R3C6-prix-de-ribeauville.html",
+        "R3C7-prix-ramses.html",
+        "R3C8-prix-de-cheverny.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-du-limousin.html",
+        "R4C2-prix-de-clamecy.html",
+        "R4C3-prix-de-pouance.html",
+        "R4C4-prix-de-villereal.html",
+        "R4C5-prix-de-questembert.html",
+        "R4C6-prix-de-ribeauville.html",
+        "R4C7-prix-ramses.html",
+        "R4C8-prix-de-cheverny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:43.328562Z"
+}

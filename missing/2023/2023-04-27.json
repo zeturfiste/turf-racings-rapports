@@ -1,0 +1,74 @@
+{
+  "date": "2023-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-27",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-27/2023-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-27/R1-paris-longchamp/R1C6-prix-du-pavillon-des-anglais.html",
+      "resultats-et-rapports/2023/04/2023-04-27/R3-marseille-borely/R3C2-prix-de-ferrieres.html",
+      "resultats-et-rapports/2023/04/2023-04-27/R4-laval/R4C3-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2023/04/2023-04-27/R8-toulouse/R8C2-prix-de-ferrieres.html",
+      "resultats-et-rapports/2023/04/2023-04-27/R8-toulouse/R8C7-prix-du-totalisateur-automatique.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-marseille-borely",
+      "R4-laval",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-marly.html",
+        "R1C2-prix-de-ferrieres.html",
+        "R1C3-prix-de-la-madeleine.html",
+        "R1C4-prix-du-pont-neuf.html",
+        "R1C5-prix-du-gros-caillou.html",
+        "R1C6-prix-du-pavillon-des-anglais.html",
+        "R1C7-prix-du-totalisateur-automatique.html",
+        "R1C8-prix-de-sainte-gemme.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-marly.html",
+        "R3C2-prix-de-ferrieres.html",
+        "R3C3-prix-de-la-madeleine.html",
+        "R3C4-prix-du-pont-neuf.html",
+        "R3C5-prix-du-gros-caillou.html",
+        "R3C6-prix-du-pavillon-des-anglais.html",
+        "R3C7-prix-du-totalisateur-automatique.html",
+        "R3C8-prix-de-sainte-gemme.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-marly.html",
+        "R4C2-prix-de-ferrieres.html",
+        "R4C3-prix-de-la-madeleine.html",
+        "R4C4-prix-du-pont-neuf.html",
+        "R4C5-prix-du-gros-caillou.html",
+        "R4C6-prix-du-pavillon-des-anglais.html",
+        "R4C7-prix-du-totalisateur-automatique.html",
+        "R4C8-prix-de-sainte-gemme.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-de-marly.html",
+        "R8C2-prix-de-ferrieres.html",
+        "R8C3-prix-de-la-madeleine.html",
+        "R8C4-prix-du-pont-neuf.html",
+        "R8C5-prix-du-gros-caillou.html",
+        "R8C6-prix-du-pavillon-des-anglais.html",
+        "R8C7-prix-du-totalisateur-automatique.html",
+        "R8C8-prix-de-sainte-gemme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:26.070907Z"
+}

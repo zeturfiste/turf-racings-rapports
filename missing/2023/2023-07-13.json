@@ -1,0 +1,74 @@
+{
+  "date": "2023-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/07/2023-07-13",
+    "date_html": "resultats-et-rapports/2023/07/2023-07-13/2023-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/07/2023-07-13/R1-compiegne/R1C1-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R1-compiegne/R1C2-prix-de-lonval.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R1-compiegne/R1C7-prix-du-berval.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R3-amiens/R3C1-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R3-amiens/R3C3-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R3-amiens/R3C4-prix-de-l-agglomeration-de-la-region-de-compiegne-prix-de-clairoix.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R3-amiens/R3C7-prix-du-berval.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R3-amiens/R3C8-prix-d-haramont.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C1-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C2-prix-de-lonval.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C3-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C4-prix-de-l-agglomeration-de-la-region-de-compiegne-prix-de-clairoix.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C5-prix-de-la-vallee-de-l-automne.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C6-prix-de-fresnoy-la-riviere.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C7-prix-du-berval.html",
+      "resultats-et-rapports/2023/07/2023-07-13/R4-la-rochelle/R4C8-prix-d-haramont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-amiens",
+      "R4-la-rochelle"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-bonneuil-en-valois.html",
+        "R1C2-prix-de-lonval.html",
+        "R1C3-prix-de-villers-cotterets.html",
+        "R1C4-prix-de-l-agglomeration-de-la-region-de-compiegne-prix-de-clairoix.html",
+        "R1C5-prix-de-la-vallee-de-l-automne.html",
+        "R1C6-prix-de-fresnoy-la-riviere.html",
+        "R1C7-prix-du-berval.html",
+        "R1C8-prix-d-haramont.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-de-bonneuil-en-valois.html",
+        "R3C2-prix-de-lonval.html",
+        "R3C3-prix-de-villers-cotterets.html",
+        "R3C4-prix-de-l-agglomeration-de-la-region-de-compiegne-prix-de-clairoix.html",
+        "R3C5-prix-de-la-vallee-de-l-automne.html",
+        "R3C6-prix-de-fresnoy-la-riviere.html",
+        "R3C7-prix-du-berval.html",
+        "R3C8-prix-d-haramont.html"
+      ],
+      "R4-la-rochelle": [
+        "R4C1-prix-de-bonneuil-en-valois.html",
+        "R4C2-prix-de-lonval.html",
+        "R4C3-prix-de-villers-cotterets.html",
+        "R4C4-prix-de-l-agglomeration-de-la-region-de-compiegne-prix-de-clairoix.html",
+        "R4C5-prix-de-la-vallee-de-l-automne.html",
+        "R4C6-prix-de-fresnoy-la-riviere.html",
+        "R4C7-prix-du-berval.html",
+        "R4C8-prix-d-haramont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:54.184172Z"
+}

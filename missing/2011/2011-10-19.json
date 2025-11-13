@@ -1,0 +1,69 @@
+{
+  "date": "2011-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-19",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-19/2011-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-19/R1-lyon-parilly/R1C6-prix-de-la-champagne.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C3-prix-dufaud-assurances-prix-de-la-durance.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C4-prix-equita-lyon-prix-d-epinal.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C5-prix-le-progres-prix-de-belle-ile.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C7-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R2-deauville/R2C8-prix-de-l-unat.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R3-reims/R3C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R3-reims/R3C6-prix-de-la-champagne.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R3-reims/R3C7-prix-du-pays-nicois.html",
+      "resultats-et-rapports/2011/10/2011-10-19/R3-reims/R3C8-prix-de-l-unat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-deauville",
+      "R3-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-du-morvan.html",
+        "R1C3-prix-dufaud-assurances-prix-de-la-durance.html",
+        "R1C4-prix-equita-lyon-prix-d-epinal.html",
+        "R1C5-prix-le-progres-prix-de-belle-ile.html",
+        "R1C6-prix-de-la-champagne.html",
+        "R1C7-prix-du-pays-nicois.html",
+        "R1C8-prix-de-l-unat.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-du-morvan.html",
+        "R2C3-prix-dufaud-assurances-prix-de-la-durance.html",
+        "R2C4-prix-equita-lyon-prix-d-epinal.html",
+        "R2C5-prix-le-progres-prix-de-belle-ile.html",
+        "R2C6-prix-de-la-champagne.html",
+        "R2C7-prix-du-pays-nicois.html",
+        "R2C8-prix-de-l-unat.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-du-morvan.html",
+        "R3C3-prix-dufaud-assurances-prix-de-la-durance.html",
+        "R3C4-prix-equita-lyon-prix-d-epinal.html",
+        "R3C5-prix-le-progres-prix-de-belle-ile.html",
+        "R3C6-prix-de-la-champagne.html",
+        "R3C7-prix-du-pays-nicois.html",
+        "R3C8-prix-de-l-unat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:49.375956Z"
+}

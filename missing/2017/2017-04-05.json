@@ -1,0 +1,80 @@
+{
+  "date": "2017-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-05",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-05/2017-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-05/R1-angers/R1C1-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C4-prix-intermede-prix-lb-menuiseries.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C5-prix-tenor-de-baune-prix-sbs-informatique.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C6-prix-neric-barbes-prix-renault-garage-ficher.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C7-prix-gelinotte-prix-soteba-rsr.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R3-fontainebleau/R3C8-prix-timoko.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R4-argentan/R4C4-prix-intermede-prix-lb-menuiseries.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R5-marseille-vivaux/R5C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R5-marseille-vivaux/R5C4-prix-intermede-prix-lb-menuiseries.html",
+      "resultats-et-rapports/2017/04/2017-04-05/R5-marseille-vivaux/R5C6-prix-neric-barbes-prix-renault-garage-ficher.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-fontainebleau",
+      "R4-argentan",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-grand-prix-angers-loire-metropole.html",
+        "R1C2-prix-de-l-aubier-prix-atc-anjou-textile-creation.html",
+        "R1C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+        "R1C4-prix-intermede-prix-lb-menuiseries.html",
+        "R1C5-prix-tenor-de-baune-prix-sbs-informatique.html",
+        "R1C6-prix-neric-barbes-prix-renault-garage-ficher.html",
+        "R1C7-prix-gelinotte-prix-soteba-rsr.html",
+        "R1C8-prix-timoko.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-grand-prix-angers-loire-metropole.html",
+        "R3C2-prix-de-l-aubier-prix-atc-anjou-textile-creation.html",
+        "R3C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+        "R3C4-prix-intermede-prix-lb-menuiseries.html",
+        "R3C5-prix-tenor-de-baune-prix-sbs-informatique.html",
+        "R3C6-prix-neric-barbes-prix-renault-garage-ficher.html",
+        "R3C7-prix-gelinotte-prix-soteba-rsr.html",
+        "R3C8-prix-timoko.html"
+      ],
+      "R4-argentan": [
+        "R4C1-grand-prix-angers-loire-metropole.html",
+        "R4C2-prix-de-l-aubier-prix-atc-anjou-textile-creation.html",
+        "R4C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+        "R4C4-prix-intermede-prix-lb-menuiseries.html",
+        "R4C5-prix-tenor-de-baune-prix-sbs-informatique.html",
+        "R4C6-prix-neric-barbes-prix-renault-garage-ficher.html",
+        "R4C7-prix-gelinotte-prix-soteba-rsr.html",
+        "R4C8-prix-timoko.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-grand-prix-angers-loire-metropole.html",
+        "R5C2-prix-de-l-aubier-prix-atc-anjou-textile-creation.html",
+        "R5C3-prix-roxane-griff-prix-viveco-la-meignanne.html",
+        "R5C4-prix-intermede-prix-lb-menuiseries.html",
+        "R5C5-prix-tenor-de-baune-prix-sbs-informatique.html",
+        "R5C6-prix-neric-barbes-prix-renault-garage-ficher.html",
+        "R5C7-prix-gelinotte-prix-soteba-rsr.html",
+        "R5C8-prix-timoko.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:33.245140Z"
+}

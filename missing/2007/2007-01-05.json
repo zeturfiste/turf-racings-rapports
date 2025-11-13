@@ -1,0 +1,71 @@
+{
+  "date": "2007-01-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/01/2007-01-05",
+    "date_html": "resultats-et-rapports/2007/01/2007-01-05/2007-01-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/01/2007-01-05/R1-pau/R1C5-prix-renaud-du-vivier.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R1-pau/R1C8-prix-d-uzein.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R2-cagnes-sur-mer/R2C1-prix-d-ossau.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R2-cagnes-sur-mer/R2C2-prix-paul-larregain.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R2-cagnes-sur-mer/R2C6-prix-tierce-magazine-prix-pierre-estrem-rey.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R2-cagnes-sur-mer/R2C7-prix-pmu-le-florian-bagneres-de-bigorre-handicap-de-pau.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C1-prix-d-ossau.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C2-prix-paul-larregain.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C3-prix-de-morlaas.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C4-prix-de-guethary.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C5-prix-renaud-du-vivier.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C7-prix-pmu-le-florian-bagneres-de-bigorre-handicap-de-pau.html",
+      "resultats-et-rapports/2007/01/2007-01-05/R21-zerace/R21C8-prix-d-uzein.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-d-ossau.html",
+        "R1C2-prix-paul-larregain.html",
+        "R1C3-prix-de-morlaas.html",
+        "R1C4-prix-de-guethary.html",
+        "R1C5-prix-renaud-du-vivier.html",
+        "R1C6-prix-tierce-magazine-prix-pierre-estrem-rey.html",
+        "R1C7-prix-pmu-le-florian-bagneres-de-bigorre-handicap-de-pau.html",
+        "R1C8-prix-d-uzein.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-ossau.html",
+        "R2C2-prix-paul-larregain.html",
+        "R2C3-prix-de-morlaas.html",
+        "R2C4-prix-de-guethary.html",
+        "R2C5-prix-renaud-du-vivier.html",
+        "R2C6-prix-tierce-magazine-prix-pierre-estrem-rey.html",
+        "R2C7-prix-pmu-le-florian-bagneres-de-bigorre-handicap-de-pau.html",
+        "R2C8-prix-d-uzein.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-ossau.html",
+        "R21C2-prix-paul-larregain.html",
+        "R21C3-prix-de-morlaas.html",
+        "R21C4-prix-de-guethary.html",
+        "R21C5-prix-renaud-du-vivier.html",
+        "R21C6-prix-tierce-magazine-prix-pierre-estrem-rey.html",
+        "R21C7-prix-pmu-le-florian-bagneres-de-bigorre-handicap-de-pau.html",
+        "R21C8-prix-d-uzein.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:03.669017Z"
+}

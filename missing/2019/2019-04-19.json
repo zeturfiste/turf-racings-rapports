@@ -1,0 +1,72 @@
+{
+  "date": "2019-04-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-19",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-19/2019-04-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-19/R1-vincennes/R1C1-prix-neptuna.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R1-vincennes/R1C4-prix-martha.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R2-caen/R2C5-prix-clarisse.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R2-caen/R2C6-prix-palma.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R4-lyon-parilly/R4C1-prix-neptuna.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R4-lyon-parilly/R4C6-prix-palma.html",
+      "resultats-et-rapports/2019/04/2019-04-19/R4-lyon-parilly/R4C7-prix-euphrosyne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-caen",
+      "R4-lyon-parilly",
+      "R5-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-neptuna.html",
+        "R1C2-prix-asterope.html",
+        "R1C3-prix-aletheia.html",
+        "R1C4-prix-martha.html",
+        "R1C5-prix-clarisse.html",
+        "R1C6-prix-palma.html",
+        "R1C7-prix-euphrosyne.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-neptuna.html",
+        "R2C2-prix-asterope.html",
+        "R2C3-prix-aletheia.html",
+        "R2C4-prix-martha.html",
+        "R2C5-prix-clarisse.html",
+        "R2C6-prix-palma.html",
+        "R2C7-prix-euphrosyne.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-neptuna.html",
+        "R4C2-prix-asterope.html",
+        "R4C3-prix-aletheia.html",
+        "R4C4-prix-martha.html",
+        "R4C5-prix-clarisse.html",
+        "R4C6-prix-palma.html",
+        "R4C7-prix-euphrosyne.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-neptuna.html",
+        "R5C2-prix-asterope.html",
+        "R5C3-prix-aletheia.html",
+        "R5C4-prix-martha.html",
+        "R5C5-prix-clarisse.html",
+        "R5C6-prix-palma.html",
+        "R5C7-prix-euphrosyne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:18.148683Z"
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2025-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-02",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-02/2025-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-02/R1-saint-cloud/R1C6-prix-de-l-etang-de-saint-cucufa.html",
+      "resultats-et-rapports/2025/09/2025-09-02/R1-saint-cloud/R1C7-prix-du-haras-de-villeneuve.html",
+      "resultats-et-rapports/2025/09/2025-09-02/R1-saint-cloud/R1C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2025/09/2025-09-02/R3-beaumont-de-lomagne/R3C1-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2025/09/2025-09-02/R4-vincennes/R4C8-prix-de-saint-martin-du-chene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-beaumont-de-lomagne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-saint-pair-du-mont.html",
+        "R1C2-prix-ravinella.html",
+        "R1C3-prix-kendor.html",
+        "R1C4-prix-de-clairefontaine.html",
+        "R1C5-prix-pleben.html",
+        "R1C6-prix-de-l-etang-de-saint-cucufa.html",
+        "R1C7-prix-du-haras-de-villeneuve.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-de-saint-pair-du-mont.html",
+        "R3C2-prix-ravinella.html",
+        "R3C3-prix-kendor.html",
+        "R3C4-prix-de-clairefontaine.html",
+        "R3C5-prix-pleben.html",
+        "R3C6-prix-de-l-etang-de-saint-cucufa.html",
+        "R3C7-prix-du-haras-de-villeneuve.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-saint-pair-du-mont.html",
+        "R4C2-prix-ravinella.html",
+        "R4C3-prix-kendor.html",
+        "R4C4-prix-de-clairefontaine.html",
+        "R4C5-prix-pleben.html",
+        "R4C6-prix-de-l-etang-de-saint-cucufa.html",
+        "R4C7-prix-du-haras-de-villeneuve.html",
+        "R4C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:36.453506Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2021-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-31",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-31/2021-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-31/R1-dieppe/R1C5-prix-du-quebec.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R1-dieppe/R1C6-prix-des-vertes-salines.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R1-dieppe/R1C7-prix-du-pollet.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R3-la-capelle/R3C1-prix-region-normandie.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R3-la-capelle/R3C2-prix-nicholas.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R3-la-capelle/R3C5-prix-du-quebec.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R3-la-capelle/R3C6-prix-des-vertes-salines.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R4-vichy/R4C5-prix-du-quebec.html",
+      "resultats-et-rapports/2021/08/2021-08-31/R4-vichy/R4C6-prix-des-vertes-salines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R3-la-capelle",
+      "R4-vichy",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-region-normandie.html",
+        "R1C2-prix-nicholas.html",
+        "R1C3-prix-du-vieux-dieppe.html",
+        "R1C4-prix-oscar-wilde.html",
+        "R1C5-prix-du-quebec.html",
+        "R1C6-prix-des-vertes-salines.html",
+        "R1C7-prix-du-pollet.html",
+        "R1C8-prix-du-club-des-coyotes.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-region-normandie.html",
+        "R3C2-prix-nicholas.html",
+        "R3C3-prix-du-vieux-dieppe.html",
+        "R3C4-prix-oscar-wilde.html",
+        "R3C5-prix-du-quebec.html",
+        "R3C6-prix-des-vertes-salines.html",
+        "R3C7-prix-du-pollet.html",
+        "R3C8-prix-du-club-des-coyotes.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-region-normandie.html",
+        "R4C2-prix-nicholas.html",
+        "R4C3-prix-du-vieux-dieppe.html",
+        "R4C4-prix-oscar-wilde.html",
+        "R4C5-prix-du-quebec.html",
+        "R4C6-prix-des-vertes-salines.html",
+        "R4C7-prix-du-pollet.html",
+        "R4C8-prix-du-club-des-coyotes.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-region-normandie.html",
+        "R5C2-prix-nicholas.html",
+        "R5C3-prix-du-vieux-dieppe.html",
+        "R5C4-prix-oscar-wilde.html",
+        "R5C5-prix-du-quebec.html",
+        "R5C6-prix-des-vertes-salines.html",
+        "R5C7-prix-du-pollet.html",
+        "R5C8-prix-du-club-des-coyotes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:54.416057Z"
+}

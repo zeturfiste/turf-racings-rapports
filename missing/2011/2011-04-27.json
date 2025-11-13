@@ -1,0 +1,82 @@
+{
+  "date": "2011-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-27",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-27/2011-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-27/R1-beaumont-de-lomagne/R1C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R1-beaumont-de-lomagne/R1C2-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R2-maisons-laffitte/R2C3-prix-opal-viking.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R2-maisons-laffitte/R2C7-prix-gigant-neo.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R3-laval/R3C2-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R3-laval/R3C4-prix-jardy.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R3-laval/R3C7-prix-gigant-neo.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R3-laval/R3C8-prix-niky.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R4-marseille-borely/R4C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R4-marseille-borely/R4C2-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R4-marseille-borely/R4C3-prix-opal-viking.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R4-marseille-borely/R4C5-prix-vasterbo-daylight.html",
+      "resultats-et-rapports/2011/04/2011-04-27/R4-marseille-borely/R4C6-prix-general-du-lupin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-beaumont-de-lomagne",
+      "R2-maisons-laffitte",
+      "R3-laval",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-beaumont-de-lomagne": [
+        "R1C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-nimrod-borealis.html",
+        "R1C3-prix-opal-viking.html",
+        "R1C4-prix-jardy.html",
+        "R1C5-prix-vasterbo-daylight.html",
+        "R1C6-prix-general-du-lupin.html",
+        "R1C7-prix-gigant-neo.html",
+        "R1C8-prix-niky.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+        "R2C2-prix-nimrod-borealis.html",
+        "R2C3-prix-opal-viking.html",
+        "R2C4-prix-jardy.html",
+        "R2C5-prix-vasterbo-daylight.html",
+        "R2C6-prix-general-du-lupin.html",
+        "R2C7-prix-gigant-neo.html",
+        "R2C8-prix-niky.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-nimrod-borealis.html",
+        "R3C3-prix-opal-viking.html",
+        "R3C4-prix-jardy.html",
+        "R3C5-prix-vasterbo-daylight.html",
+        "R3C6-prix-general-du-lupin.html",
+        "R3C7-prix-gigant-neo.html",
+        "R3C8-prix-niky.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-geny-com-paris-turf-4eme-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-nimrod-borealis.html",
+        "R4C3-prix-opal-viking.html",
+        "R4C4-prix-jardy.html",
+        "R4C5-prix-vasterbo-daylight.html",
+        "R4C6-prix-general-du-lupin.html",
+        "R4C7-prix-gigant-neo.html",
+        "R4C8-prix-niky.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:55.997321Z"
+}

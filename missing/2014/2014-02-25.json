@@ -1,0 +1,77 @@
+{
+  "date": "2014-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-25",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-25/2014-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-25/R1-enghien-soisy/R1C1-prix-marise.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R1-enghien-soisy/R1C2-prix-du-pont-d-iena.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R1-enghien-soisy/R1C3-prix-beugnot.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R1-enghien-soisy/R1C5-prix-varaville.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R1-enghien-soisy/R1C7-prix-bougie.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R2-laval/R2C2-prix-du-pont-d-iena.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R2-laval/R2C4-prix-oiseleur.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R2-laval/R2C6-prix-fernand-roy.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R3-marseille-vivaux/R3C1-prix-marise.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R3-marseille-vivaux/R3C4-prix-oiseleur.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R4-cagnes-sur-mer/R4C1-prix-marise.html",
+      "resultats-et-rapports/2014/02/2014-02-25/R4-cagnes-sur-mer/R4C2-prix-du-pont-d-iena.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-laval",
+      "R3-marseille-vivaux",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-marise.html",
+        "R1C2-prix-du-pont-d-iena.html",
+        "R1C3-prix-beugnot.html",
+        "R1C4-prix-oiseleur.html",
+        "R1C5-prix-varaville.html",
+        "R1C6-prix-fernand-roy.html",
+        "R1C7-prix-bougie.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-marise.html",
+        "R2C2-prix-du-pont-d-iena.html",
+        "R2C3-prix-beugnot.html",
+        "R2C4-prix-oiseleur.html",
+        "R2C5-prix-varaville.html",
+        "R2C6-prix-fernand-roy.html",
+        "R2C7-prix-bougie.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-marise.html",
+        "R3C2-prix-du-pont-d-iena.html",
+        "R3C3-prix-beugnot.html",
+        "R3C4-prix-oiseleur.html",
+        "R3C5-prix-varaville.html",
+        "R3C6-prix-fernand-roy.html",
+        "R3C7-prix-bougie.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-marise.html",
+        "R4C2-prix-du-pont-d-iena.html",
+        "R4C3-prix-beugnot.html",
+        "R4C4-prix-oiseleur.html",
+        "R4C5-prix-varaville.html",
+        "R4C6-prix-fernand-roy.html",
+        "R4C7-prix-bougie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:48.700812Z"
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2011-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-11",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-11/2011-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-11/R1-enghien-soisy/R1C3-prix-du-brevent.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R1-enghien-soisy/R1C5-prix-ouargla.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R1-enghien-soisy/R1C6-prix-mehariste.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R1-enghien-soisy/R1C7-prix-de-l-ile-de-re.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R2-maure-de-bretagne/R2C1-prix-de-la-rochelle.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R2-maure-de-bretagne/R2C2-prix-du-finistere.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R2-maure-de-bretagne/R2C4-prix-hyeres-iii.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R2-maure-de-bretagne/R2C5-prix-ouargla.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R3-salon-de-provence/R3C5-prix-ouargla.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R3-salon-de-provence/R3C7-prix-de-l-ile-de-re.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R4-graignes/R4C1-prix-de-la-rochelle.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R4-graignes/R4C5-prix-ouargla.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R6-le-croise-laroche/R6C2-prix-du-finistere.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R6-le-croise-laroche/R6C5-prix-ouargla.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R6-le-croise-laroche/R6C6-prix-mehariste.html",
+      "resultats-et-rapports/2011/04/2011-04-11/R6-le-croise-laroche/R6C7-prix-de-l-ile-de-re.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-maure-de-bretagne",
+      "R3-salon-de-provence",
+      "R4-graignes",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-rochelle.html",
+        "R1C2-prix-du-finistere.html",
+        "R1C3-prix-du-brevent.html",
+        "R1C4-prix-hyeres-iii.html",
+        "R1C5-prix-ouargla.html",
+        "R1C6-prix-mehariste.html",
+        "R1C7-prix-de-l-ile-de-re.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-de-la-rochelle.html",
+        "R2C2-prix-du-finistere.html",
+        "R2C3-prix-du-brevent.html",
+        "R2C4-prix-hyeres-iii.html",
+        "R2C5-prix-ouargla.html",
+        "R2C6-prix-mehariste.html",
+        "R2C7-prix-de-l-ile-de-re.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-la-rochelle.html",
+        "R3C2-prix-du-finistere.html",
+        "R3C3-prix-du-brevent.html",
+        "R3C4-prix-hyeres-iii.html",
+        "R3C5-prix-ouargla.html",
+        "R3C6-prix-mehariste.html",
+        "R3C7-prix-de-l-ile-de-re.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-la-rochelle.html",
+        "R4C2-prix-du-finistere.html",
+        "R4C3-prix-du-brevent.html",
+        "R4C4-prix-hyeres-iii.html",
+        "R4C5-prix-ouargla.html",
+        "R4C6-prix-mehariste.html",
+        "R4C7-prix-de-l-ile-de-re.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-la-rochelle.html",
+        "R6C2-prix-du-finistere.html",
+        "R6C3-prix-du-brevent.html",
+        "R6C4-prix-hyeres-iii.html",
+        "R6C5-prix-ouargla.html",
+        "R6C6-prix-mehariste.html",
+        "R6C7-prix-de-l-ile-de-re.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:50.928983Z"
+}

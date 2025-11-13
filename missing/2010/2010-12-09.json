@@ -1,0 +1,72 @@
+{
+  "date": "2010-12-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-09",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-09/2010-12-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-09/R1-vincennes/R1C6-prix-de-limermont.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R1-vincennes/R1C7-prix-de-bouville.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R1-vincennes/R1C8-prix-de-montaigu.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R2-deauville/R2C2-prix-de-jussy.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R2-deauville/R2C3-prix-de-portbail.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R2-deauville/R2C6-prix-de-limermont.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R2-deauville/R2C9-prix-de-digne.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R3-deauville-midi/R3C1-prix-de-blois.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R3-deauville-midi/R3C5-prix-de-lecelles-gr-b.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R3-deauville-midi/R3C6-prix-de-limermont.html",
+      "resultats-et-rapports/2010/12/2010-12-09/R3-deauville-midi/R3C9-prix-de-digne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-blois.html",
+        "R1C2-prix-de-jussy.html",
+        "R1C3-prix-de-portbail.html",
+        "R1C4-prix-de-lecelles-gr-a.html",
+        "R1C5-prix-de-lecelles-gr-b.html",
+        "R1C6-prix-de-limermont.html",
+        "R1C7-prix-de-bouville.html",
+        "R1C8-prix-de-montaigu.html",
+        "R1C9-prix-de-digne.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-blois.html",
+        "R2C2-prix-de-jussy.html",
+        "R2C3-prix-de-portbail.html",
+        "R2C4-prix-de-lecelles-gr-a.html",
+        "R2C5-prix-de-lecelles-gr-b.html",
+        "R2C6-prix-de-limermont.html",
+        "R2C7-prix-de-bouville.html",
+        "R2C8-prix-de-montaigu.html",
+        "R2C9-prix-de-digne.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-blois.html",
+        "R3C2-prix-de-jussy.html",
+        "R3C3-prix-de-portbail.html",
+        "R3C4-prix-de-lecelles-gr-a.html",
+        "R3C5-prix-de-lecelles-gr-b.html",
+        "R3C6-prix-de-limermont.html",
+        "R3C7-prix-de-bouville.html",
+        "R3C8-prix-de-montaigu.html",
+        "R3C9-prix-de-digne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:20.743933Z"
+}

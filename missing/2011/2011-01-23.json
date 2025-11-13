@@ -1,0 +1,131 @@
+{
+  "date": "2011-01-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/01/2011-01-23",
+    "date_html": "resultats-et-rapports/2011/01/2011-01-23/2011-01-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/01/2011-01-23/R2-pau/R2C6-prix-de-dinan.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R2-pau/R2C7-prix-camille-de-wazieres.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R2-pau/R2C8-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R2-pau/R2C9-prix-de-blangy.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C2-prix-de-poligny.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C3-prix-de-brest.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C5-prix-de-valence.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C6-prix-de-dinan.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C7-prix-camille-de-wazieres.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C8-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R3-cagnes-sur-mer/R3C9-prix-de-blangy.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C1-prix-du-lion-d-angers.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C2-prix-de-poligny.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C3-prix-de-brest.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C6-prix-de-dinan.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C7-prix-camille-de-wazieres.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R4-nantes/R4C8-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C2-prix-de-poligny.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C5-prix-de-valence.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C7-prix-camille-de-wazieres.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C8-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R5-lyon-la-soie/R5C9-prix-de-blangy.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C1-prix-du-lion-d-angers.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C2-prix-de-poligny.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C3-prix-de-brest.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C5-prix-de-valence.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C6-prix-de-dinan.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C7-prix-camille-de-wazieres.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C8-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/01/2011-01-23/R6-toulouse/R6C9-prix-de-blangy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-cagnes-sur-mer",
+      "R4-nantes",
+      "R5-lyon-la-soie",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-lion-d-angers.html",
+        "R1C2-prix-de-poligny.html",
+        "R1C3-prix-de-brest.html",
+        "R1C4-prix-de-cornulier.html",
+        "R1C5-prix-de-valence.html",
+        "R1C6-prix-de-dinan.html",
+        "R1C7-prix-camille-de-wazieres.html",
+        "R1C8-prix-de-maisons-laffitte.html",
+        "R1C9-prix-de-blangy.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-lion-d-angers.html",
+        "R2C2-prix-de-poligny.html",
+        "R2C3-prix-de-brest.html",
+        "R2C4-prix-de-cornulier.html",
+        "R2C5-prix-de-valence.html",
+        "R2C6-prix-de-dinan.html",
+        "R2C7-prix-camille-de-wazieres.html",
+        "R2C8-prix-de-maisons-laffitte.html",
+        "R2C9-prix-de-blangy.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-lion-d-angers.html",
+        "R3C2-prix-de-poligny.html",
+        "R3C3-prix-de-brest.html",
+        "R3C4-prix-de-cornulier.html",
+        "R3C5-prix-de-valence.html",
+        "R3C6-prix-de-dinan.html",
+        "R3C7-prix-camille-de-wazieres.html",
+        "R3C8-prix-de-maisons-laffitte.html",
+        "R3C9-prix-de-blangy.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-du-lion-d-angers.html",
+        "R4C2-prix-de-poligny.html",
+        "R4C3-prix-de-brest.html",
+        "R4C4-prix-de-cornulier.html",
+        "R4C5-prix-de-valence.html",
+        "R4C6-prix-de-dinan.html",
+        "R4C7-prix-camille-de-wazieres.html",
+        "R4C8-prix-de-maisons-laffitte.html",
+        "R4C9-prix-de-blangy.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-du-lion-d-angers.html",
+        "R5C2-prix-de-poligny.html",
+        "R5C3-prix-de-brest.html",
+        "R5C4-prix-de-cornulier.html",
+        "R5C5-prix-de-valence.html",
+        "R5C6-prix-de-dinan.html",
+        "R5C7-prix-camille-de-wazieres.html",
+        "R5C8-prix-de-maisons-laffitte.html",
+        "R5C9-prix-de-blangy.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-du-lion-d-angers.html",
+        "R6C2-prix-de-poligny.html",
+        "R6C3-prix-de-brest.html",
+        "R6C4-prix-de-cornulier.html",
+        "R6C5-prix-de-valence.html",
+        "R6C6-prix-de-dinan.html",
+        "R6C7-prix-camille-de-wazieres.html",
+        "R6C8-prix-de-maisons-laffitte.html",
+        "R6C9-prix-de-blangy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:30.681416Z"
+}

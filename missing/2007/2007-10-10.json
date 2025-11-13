@@ -1,0 +1,102 @@
+{
+  "date": "2007-10-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-10",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-10/2007-10-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-10/R1-auteuil/R1C1-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R1-auteuil/R1C7-prix-de-salers.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R2-nantes/R2C1-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R2-nantes/R2C5-prix-bayonnet.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R2-nantes/R2C6-prix-fabiano.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R3-enghien-soisy/R3C1-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R3-enghien-soisy/R3C3-prix-noiro.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R3-enghien-soisy/R3C6-prix-fabiano.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R3-enghien-soisy/R3C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C2-prix-magne.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C3-prix-noiro.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C4-prix-piomares.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C5-prix-bayonnet.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C6-prix-fabiano.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C7-prix-de-salers.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R4-marseille-borely/R4C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C1-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C2-prix-magne.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C3-prix-noiro.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C4-prix-piomares.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C5-prix-bayonnet.html",
+      "resultats-et-rapports/2007/10/2007-10-10/R31-zerace/R31C6-prix-fabiano.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-nantes",
+      "R3-enghien-soisy",
+      "R4-marseille-borely",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-prince-d-ecouen.html",
+        "R1C2-prix-magne.html",
+        "R1C3-prix-noiro.html",
+        "R1C4-prix-piomares.html",
+        "R1C5-prix-bayonnet.html",
+        "R1C6-prix-fabiano.html",
+        "R1C7-prix-de-salers.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-prince-d-ecouen.html",
+        "R2C2-prix-magne.html",
+        "R2C3-prix-noiro.html",
+        "R2C4-prix-piomares.html",
+        "R2C5-prix-bayonnet.html",
+        "R2C6-prix-fabiano.html",
+        "R2C7-prix-de-salers.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-prince-d-ecouen.html",
+        "R3C2-prix-magne.html",
+        "R3C3-prix-noiro.html",
+        "R3C4-prix-piomares.html",
+        "R3C5-prix-bayonnet.html",
+        "R3C6-prix-fabiano.html",
+        "R3C7-prix-de-salers.html",
+        "R3C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-prince-d-ecouen.html",
+        "R4C2-prix-magne.html",
+        "R4C3-prix-noiro.html",
+        "R4C4-prix-piomares.html",
+        "R4C5-prix-bayonnet.html",
+        "R4C6-prix-fabiano.html",
+        "R4C7-prix-de-salers.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-prince-d-ecouen.html",
+        "R31C2-prix-magne.html",
+        "R31C3-prix-noiro.html",
+        "R31C4-prix-piomares.html",
+        "R31C5-prix-bayonnet.html",
+        "R31C6-prix-fabiano.html",
+        "R31C7-prix-de-salers.html",
+        "R31C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:47.354377Z"
+}

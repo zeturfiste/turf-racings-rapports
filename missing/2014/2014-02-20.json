@@ -1,0 +1,73 @@
+{
+  "date": "2014-02-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-20",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-20/2014-02-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-20/R2-marseille-borely/R2C6-prix-de-vire.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R2-marseille-borely/R2C7-prix-des-trotteurs-sang-froid.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R2-marseille-borely/R2C8-prix-d-epinay.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R2-marseille-borely/R2C9-prix-de-lauzun.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C1-prix-des-andelys.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C2-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C3-prix-du-cantal.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C4-prix-de-guise.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C5-prix-de-la-baule.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C6-prix-de-vire.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C7-prix-des-trotteurs-sang-froid.html",
+      "resultats-et-rapports/2014/02/2014-02-20/R3-saint-galmier/R3C9-prix-de-lauzun.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-marseille-borely",
+      "R3-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-andelys.html",
+        "R1C2-prix-du-plateau-de-gravelle.html",
+        "R1C3-prix-du-cantal.html",
+        "R1C4-prix-de-guise.html",
+        "R1C5-prix-de-la-baule.html",
+        "R1C6-prix-de-vire.html",
+        "R1C7-prix-des-trotteurs-sang-froid.html",
+        "R1C8-prix-d-epinay.html",
+        "R1C9-prix-de-lauzun.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-des-andelys.html",
+        "R2C2-prix-du-plateau-de-gravelle.html",
+        "R2C3-prix-du-cantal.html",
+        "R2C4-prix-de-guise.html",
+        "R2C5-prix-de-la-baule.html",
+        "R2C6-prix-de-vire.html",
+        "R2C7-prix-des-trotteurs-sang-froid.html",
+        "R2C8-prix-d-epinay.html",
+        "R2C9-prix-de-lauzun.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-des-andelys.html",
+        "R3C2-prix-du-plateau-de-gravelle.html",
+        "R3C3-prix-du-cantal.html",
+        "R3C4-prix-de-guise.html",
+        "R3C5-prix-de-la-baule.html",
+        "R3C6-prix-de-vire.html",
+        "R3C7-prix-des-trotteurs-sang-froid.html",
+        "R3C8-prix-d-epinay.html",
+        "R3C9-prix-de-lauzun.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:47.285784Z"
+}

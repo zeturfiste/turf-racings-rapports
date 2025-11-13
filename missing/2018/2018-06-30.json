@@ -1,0 +1,110 @@
+{
+  "date": "2018-06-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-30",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-30/2018-06-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-30/R1-enghien-soisy/R1C7-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R1-enghien-soisy/R1C8-prix-de-la-place-des-victoires.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R3-paris-longchamp/R3C3-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R4-aix-les-bains/R4C4-prix-du-roussillon.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R4-aix-les-bains/R4C7-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R5-vire/R5C4-prix-du-roussillon.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R5-vire/R5C7-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R6-marseille-vivaux/R6C4-prix-du-roussillon.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R6-marseille-vivaux/R6C5-prix-de-washington.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R6-marseille-vivaux/R6C6-prix-de-crepy-en-valois.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R6-marseille-vivaux/R6C7-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C1-prix-de-neuilly-levallois.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C2-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C3-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C4-prix-du-roussillon.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C5-prix-de-washington.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C6-prix-de-crepy-en-valois.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C7-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2018/06/2018-06-30/R8-amiens/R8C8-prix-de-la-place-des-victoires.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-paris-longchamp",
+      "R4-aix-les-bains",
+      "R5-vire",
+      "R6-marseille-vivaux",
+      "R8-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-neuilly-levallois.html",
+        "R1C2-prix-de-la-porte-saint-martin.html",
+        "R1C3-prix-de-l-observatoire.html",
+        "R1C4-prix-du-roussillon.html",
+        "R1C5-prix-de-washington.html",
+        "R1C6-prix-de-crepy-en-valois.html",
+        "R1C7-prix-de-la-place-des-alpes.html",
+        "R1C8-prix-de-la-place-des-victoires.html"
+      ],
+      "R3-paris-longchamp": [
+        "R3C1-prix-de-neuilly-levallois.html",
+        "R3C2-prix-de-la-porte-saint-martin.html",
+        "R3C3-prix-de-l-observatoire.html",
+        "R3C4-prix-du-roussillon.html",
+        "R3C5-prix-de-washington.html",
+        "R3C6-prix-de-crepy-en-valois.html",
+        "R3C7-prix-de-la-place-des-alpes.html",
+        "R3C8-prix-de-la-place-des-victoires.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-de-neuilly-levallois.html",
+        "R4C2-prix-de-la-porte-saint-martin.html",
+        "R4C3-prix-de-l-observatoire.html",
+        "R4C4-prix-du-roussillon.html",
+        "R4C5-prix-de-washington.html",
+        "R4C6-prix-de-crepy-en-valois.html",
+        "R4C7-prix-de-la-place-des-alpes.html",
+        "R4C8-prix-de-la-place-des-victoires.html"
+      ],
+      "R5-vire": [
+        "R5C1-prix-de-neuilly-levallois.html",
+        "R5C2-prix-de-la-porte-saint-martin.html",
+        "R5C3-prix-de-l-observatoire.html",
+        "R5C4-prix-du-roussillon.html",
+        "R5C5-prix-de-washington.html",
+        "R5C6-prix-de-crepy-en-valois.html",
+        "R5C7-prix-de-la-place-des-alpes.html",
+        "R5C8-prix-de-la-place-des-victoires.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-de-neuilly-levallois.html",
+        "R6C2-prix-de-la-porte-saint-martin.html",
+        "R6C3-prix-de-l-observatoire.html",
+        "R6C4-prix-du-roussillon.html",
+        "R6C5-prix-de-washington.html",
+        "R6C6-prix-de-crepy-en-valois.html",
+        "R6C7-prix-de-la-place-des-alpes.html",
+        "R6C8-prix-de-la-place-des-victoires.html"
+      ],
+      "R8-amiens": [
+        "R8C1-prix-de-neuilly-levallois.html",
+        "R8C2-prix-de-la-porte-saint-martin.html",
+        "R8C3-prix-de-l-observatoire.html",
+        "R8C4-prix-du-roussillon.html",
+        "R8C5-prix-de-washington.html",
+        "R8C6-prix-de-crepy-en-valois.html",
+        "R8C7-prix-de-la-place-des-alpes.html",
+        "R8C8-prix-de-la-place-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:52.056217Z"
+}

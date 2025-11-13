@@ -1,0 +1,103 @@
+{
+  "date": "2024-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-26",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-26/2024-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C3-grand-prix-du-nord.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C4-prix-du-bois-bourillon.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C5-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C6-prix-miesque.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R1-chantilly/R1C9-prix-de-saint-imier.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C1-prix-des-dauphines-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C3-grand-prix-du-nord.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C4-prix-du-bois-bourillon.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C6-prix-miesque.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C8-prix-du-bois-laris.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R2-bordeaux-le-bouscat/R2C9-prix-de-saint-imier.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C1-prix-des-dauphines-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C2-prix-isonomy.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C3-grand-prix-du-nord.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C5-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C6-prix-miesque.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C8-prix-du-bois-laris.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R3-salon-de-provence/R3C9-prix-de-saint-imier.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C1-prix-des-dauphines-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C2-prix-isonomy.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C3-grand-prix-du-nord.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C4-prix-du-bois-bourillon.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C5-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C6-prix-miesque.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C8-prix-du-bois-laris.html",
+      "resultats-et-rapports/2024/10/2024-10-26/R4-cabourg/R4C9-prix-de-saint-imier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-bordeaux-le-bouscat",
+      "R3-salon-de-provence",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-dauphines-trophee-studio-harcourt.html",
+        "R1C2-prix-isonomy.html",
+        "R1C3-grand-prix-du-nord.html",
+        "R1C4-prix-du-bois-bourillon.html",
+        "R1C5-prix-de-seine-et-oise.html",
+        "R1C6-prix-miesque.html",
+        "R1C7-prix-de-la-vieille-route.html",
+        "R1C8-prix-du-bois-laris.html",
+        "R1C9-prix-de-saint-imier.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-des-dauphines-trophee-studio-harcourt.html",
+        "R2C2-prix-isonomy.html",
+        "R2C3-grand-prix-du-nord.html",
+        "R2C4-prix-du-bois-bourillon.html",
+        "R2C5-prix-de-seine-et-oise.html",
+        "R2C6-prix-miesque.html",
+        "R2C7-prix-de-la-vieille-route.html",
+        "R2C8-prix-du-bois-laris.html",
+        "R2C9-prix-de-saint-imier.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-des-dauphines-trophee-studio-harcourt.html",
+        "R3C2-prix-isonomy.html",
+        "R3C3-grand-prix-du-nord.html",
+        "R3C4-prix-du-bois-bourillon.html",
+        "R3C5-prix-de-seine-et-oise.html",
+        "R3C6-prix-miesque.html",
+        "R3C7-prix-de-la-vieille-route.html",
+        "R3C8-prix-du-bois-laris.html",
+        "R3C9-prix-de-saint-imier.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-des-dauphines-trophee-studio-harcourt.html",
+        "R4C2-prix-isonomy.html",
+        "R4C3-grand-prix-du-nord.html",
+        "R4C4-prix-du-bois-bourillon.html",
+        "R4C5-prix-de-seine-et-oise.html",
+        "R4C6-prix-miesque.html",
+        "R4C7-prix-de-la-vieille-route.html",
+        "R4C8-prix-du-bois-laris.html",
+        "R4C9-prix-de-saint-imier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:44.716489Z"
+}

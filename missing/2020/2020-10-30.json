@@ -1,0 +1,89 @@
+{
+  "date": "2020-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-30",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-30/2020-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-30/R1-vincennes/R1C1-prix-gallea.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R1-vincennes/R1C2-prix-draco.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R1-vincennes/R1C5-prix-aurora.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R1-vincennes/R1C6-prix-una.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R1-vincennes/R1C7-prix-mensa.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R3-argentan/R3C1-prix-gallea.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R3-argentan/R3C2-prix-draco.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R3-argentan/R3C3-prix-barbara.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R3-argentan/R3C5-prix-aurora.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R3-argentan/R3C6-prix-una.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C1-prix-gallea.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C2-prix-draco.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C3-prix-barbara.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C4-prix-ismene.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C5-prix-aurora.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C6-prix-una.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R4-saint-cloud/R4C7-prix-mensa.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C1-prix-gallea.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C2-prix-draco.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C3-prix-barbara.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C4-prix-ismene.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C5-prix-aurora.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C6-prix-una.html",
+      "resultats-et-rapports/2020/10/2020-10-30/R5-amiens/R5C7-prix-mensa.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-argentan",
+      "R4-saint-cloud",
+      "R5-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gallea.html",
+        "R1C2-prix-draco.html",
+        "R1C3-prix-barbara.html",
+        "R1C4-prix-ismene.html",
+        "R1C5-prix-aurora.html",
+        "R1C6-prix-una.html",
+        "R1C7-prix-mensa.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-gallea.html",
+        "R3C2-prix-draco.html",
+        "R3C3-prix-barbara.html",
+        "R3C4-prix-ismene.html",
+        "R3C5-prix-aurora.html",
+        "R3C6-prix-una.html",
+        "R3C7-prix-mensa.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-gallea.html",
+        "R4C2-prix-draco.html",
+        "R4C3-prix-barbara.html",
+        "R4C4-prix-ismene.html",
+        "R4C5-prix-aurora.html",
+        "R4C6-prix-una.html",
+        "R4C7-prix-mensa.html"
+      ],
+      "R5-amiens": [
+        "R5C1-prix-gallea.html",
+        "R5C2-prix-draco.html",
+        "R5C3-prix-barbara.html",
+        "R5C4-prix-ismene.html",
+        "R5C5-prix-aurora.html",
+        "R5C6-prix-una.html",
+        "R5C7-prix-mensa.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:08.342993Z"
+}

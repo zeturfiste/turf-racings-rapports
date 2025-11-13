@@ -1,0 +1,62 @@
+{
+  "date": "2016-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-08",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-08/2016-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-08/R3-chateaubriant/R3C7-prix-de-saint-brieuc-prix-de-coulommiers.html",
+      "resultats-et-rapports/2016/02/2016-02-08/R4-marseille-vivaux/R4C5-prix-de-plouescat-prix-henri-hellard.html",
+      "resultats-et-rapports/2016/02/2016-02-08/R4-marseille-vivaux/R4C6-prix-de-ploubalay-lancieux-prix-de-bonnieux.html",
+      "resultats-et-rapports/2016/02/2016-02-08/R4-marseille-vivaux/R4C7-prix-de-saint-brieuc-prix-de-coulommiers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chateaubriant",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-trophee-des-plages-prix-des-rouges-terres.html",
+        "R1C2-prix-de-jullouville-les-pins-prix-du-poitou.html",
+        "R1C3-prix-des-federations-ouest-et-basse-normandie-prix-de-la-chartre-sur-le-loir.html",
+        "R1C4-prix-de-plestin-les-greves-prix-des-charentes.html",
+        "R1C5-prix-de-plouescat-prix-henri-hellard.html",
+        "R1C6-prix-de-ploubalay-lancieux-prix-de-bonnieux.html",
+        "R1C7-prix-de-saint-brieuc-prix-de-coulommiers.html",
+        "R1C8-prix-de-vitre.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-du-trophee-des-plages-prix-des-rouges-terres.html",
+        "R3C2-prix-de-jullouville-les-pins-prix-du-poitou.html",
+        "R3C3-prix-des-federations-ouest-et-basse-normandie-prix-de-la-chartre-sur-le-loir.html",
+        "R3C4-prix-de-plestin-les-greves-prix-des-charentes.html",
+        "R3C5-prix-de-plouescat-prix-henri-hellard.html",
+        "R3C6-prix-de-ploubalay-lancieux-prix-de-bonnieux.html",
+        "R3C7-prix-de-saint-brieuc-prix-de-coulommiers.html",
+        "R3C8-prix-de-vitre.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-du-trophee-des-plages-prix-des-rouges-terres.html",
+        "R4C2-prix-de-jullouville-les-pins-prix-du-poitou.html",
+        "R4C3-prix-des-federations-ouest-et-basse-normandie-prix-de-la-chartre-sur-le-loir.html",
+        "R4C4-prix-de-plestin-les-greves-prix-des-charentes.html",
+        "R4C5-prix-de-plouescat-prix-henri-hellard.html",
+        "R4C6-prix-de-ploubalay-lancieux-prix-de-bonnieux.html",
+        "R4C7-prix-de-saint-brieuc-prix-de-coulommiers.html",
+        "R4C8-prix-de-vitre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:26.840363Z"
+}

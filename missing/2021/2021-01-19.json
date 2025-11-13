@@ -1,0 +1,63 @@
+{
+  "date": "2021-01-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-19",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-19/2021-01-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-19/R1-pau/R1C8-prix-de-lescar.html",
+      "resultats-et-rapports/2021/01/2021-01-19/R3-cagnes-sur-mer/R3C8-prix-de-lescar.html",
+      "resultats-et-rapports/2021/01/2021-01-19/R4-lyon-la-soie/R4C1-prix-emile-lestorte.html",
+      "resultats-et-rapports/2021/01/2021-01-19/R4-lyon-la-soie/R4C3-prix-de-la-chalosse.html",
+      "resultats-et-rapports/2021/01/2021-01-19/R4-lyon-la-soie/R4C7-prix-emile-lalanne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R3-cagnes-sur-mer",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-emile-lestorte.html",
+        "R1C2-prix-equidia-auguste-de-castelbajac.html",
+        "R1C3-prix-de-la-chalosse.html",
+        "R1C4-prix-de-barinque.html",
+        "R1C5-prix-du-pic-du-midi.html",
+        "R1C6-prix-de-lasclaveries.html",
+        "R1C7-prix-emile-lalanne.html",
+        "R1C8-prix-de-lescar.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-emile-lestorte.html",
+        "R3C2-prix-equidia-auguste-de-castelbajac.html",
+        "R3C3-prix-de-la-chalosse.html",
+        "R3C4-prix-de-barinque.html",
+        "R3C5-prix-du-pic-du-midi.html",
+        "R3C6-prix-de-lasclaveries.html",
+        "R3C7-prix-emile-lalanne.html",
+        "R3C8-prix-de-lescar.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-emile-lestorte.html",
+        "R4C2-prix-equidia-auguste-de-castelbajac.html",
+        "R4C3-prix-de-la-chalosse.html",
+        "R4C4-prix-de-barinque.html",
+        "R4C5-prix-du-pic-du-midi.html",
+        "R4C6-prix-de-lasclaveries.html",
+        "R4C7-prix-emile-lalanne.html",
+        "R4C8-prix-de-lescar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:34.378116Z"
+}

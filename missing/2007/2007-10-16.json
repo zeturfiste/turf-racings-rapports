@@ -1,0 +1,83 @@
+{
+  "date": "2007-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-16",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-16/2007-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-16/R1-saint-cloud/R1C4-prix-buckskin.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R1-saint-cloud/R1C5-prix-de-l-hippodrome-d-avignon.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R1-saint-cloud/R1C7-prix-de-l-hippodrome-de-carpentras.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R2-marseille-borely/R2C1-prix-armistice.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R2-marseille-borely/R2C4-prix-buckskin.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R2-marseille-borely/R2C5-prix-de-l-hippodrome-d-avignon.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R2-marseille-borely/R2C7-prix-de-l-hippodrome-de-carpentras.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C1-prix-armistice.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C2-prix-douve.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C3-prix-sourbier.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C4-prix-buckskin.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C6-prix-general-de-saint-didier.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R3-vincennes/R3C7-prix-de-l-hippodrome-de-carpentras.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R31-zerace/R31C2-prix-douve.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R31-zerace/R31C3-prix-sourbier.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R31-zerace/R31C5-prix-de-l-hippodrome-d-avignon.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R31-zerace/R31C6-prix-general-de-saint-didier.html",
+      "resultats-et-rapports/2007/10/2007-10-16/R31-zerace/R31C7-prix-de-l-hippodrome-de-carpentras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-armistice.html",
+        "R1C2-prix-douve.html",
+        "R1C3-prix-sourbier.html",
+        "R1C4-prix-buckskin.html",
+        "R1C5-prix-de-l-hippodrome-d-avignon.html",
+        "R1C6-prix-general-de-saint-didier.html",
+        "R1C7-prix-de-l-hippodrome-de-carpentras.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-armistice.html",
+        "R2C2-prix-douve.html",
+        "R2C3-prix-sourbier.html",
+        "R2C4-prix-buckskin.html",
+        "R2C5-prix-de-l-hippodrome-d-avignon.html",
+        "R2C6-prix-general-de-saint-didier.html",
+        "R2C7-prix-de-l-hippodrome-de-carpentras.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-armistice.html",
+        "R3C2-prix-douve.html",
+        "R3C3-prix-sourbier.html",
+        "R3C4-prix-buckskin.html",
+        "R3C5-prix-de-l-hippodrome-d-avignon.html",
+        "R3C6-prix-general-de-saint-didier.html",
+        "R3C7-prix-de-l-hippodrome-de-carpentras.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-armistice.html",
+        "R31C2-prix-douve.html",
+        "R31C3-prix-sourbier.html",
+        "R31C4-prix-buckskin.html",
+        "R31C5-prix-de-l-hippodrome-d-avignon.html",
+        "R31C6-prix-general-de-saint-didier.html",
+        "R31C7-prix-de-l-hippodrome-de-carpentras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:49.927634Z"
+}

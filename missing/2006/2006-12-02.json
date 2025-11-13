@@ -1,0 +1,183 @@
+{
+  "date": "2006-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-02",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-02/2006-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C1-prix-de-langon.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C2-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C4-prix-de-quimper.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C5-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C6-prix-d-elbeuf.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R1-vincennes/R1C8-prix-de-la-ferte-vidame.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R2-bordeaux-le-bouscat/R2C1-prix-de-langon.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R2-bordeaux-le-bouscat/R2C2-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R2-bordeaux-le-bouscat/R2C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R2-bordeaux-le-bouscat/R2C4-prix-de-quimper.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C4-prix-de-quimper.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C5-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C6-prix-d-elbeuf.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C7-prix-de-pont-l-eveque.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C8-prix-de-la-ferte-vidame.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R31-felix-bollaert-lens/R31C9-prix-de-mirecourt.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R32-louis-dugauguez-sedan/R32C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R32-louis-dugauguez-sedan/R32C4-prix-de-quimper.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R32-louis-dugauguez-sedan/R32C6-prix-d-elbeuf.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R32-louis-dugauguez-sedan/R32C7-prix-de-pont-l-eveque.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R32-louis-dugauguez-sedan/R32C8-prix-de-la-ferte-vidame.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R34-louis-ii-monaco/R34C4-prix-de-quimper.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R36-geoffroy-guichard-saint-etienne/R36C8-prix-de-la-ferte-vidame.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R37-parc-des-sports-marcel-michelin-clermont-ferrand/R37C1-prix-de-langon.html",
+      "resultats-et-rapports/2006/12/2006-12-02/R37-parc-des-sports-marcel-michelin-clermont-ferrand/R37C7-prix-de-pont-l-eveque.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R21-zerace",
+      "R30-leon-bollee-le-mans",
+      "R31-felix-bollaert-lens",
+      "R32-louis-dugauguez-sedan",
+      "R33-l-abbe-deschamps-auxerre",
+      "R34-louis-ii-monaco",
+      "R35-stade-de-la-route-de-lorient-rennes",
+      "R36-geoffroy-guichard-saint-etienne",
+      "R37-parc-des-sports-marcel-michelin-clermont-ferrand"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langon.html",
+        "R1C2-prix-de-blain-bouvron-le-gavre.html",
+        "R1C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R1C4-prix-de-quimper.html",
+        "R1C5-prix-joseph-lafosse.html",
+        "R1C6-prix-d-elbeuf.html",
+        "R1C7-prix-de-pont-l-eveque.html",
+        "R1C8-prix-de-la-ferte-vidame.html",
+        "R1C9-prix-de-mirecourt.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-langon.html",
+        "R2C2-prix-de-blain-bouvron-le-gavre.html",
+        "R2C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R2C4-prix-de-quimper.html",
+        "R2C5-prix-joseph-lafosse.html",
+        "R2C6-prix-d-elbeuf.html",
+        "R2C7-prix-de-pont-l-eveque.html",
+        "R2C8-prix-de-la-ferte-vidame.html",
+        "R2C9-prix-de-mirecourt.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-langon.html",
+        "R21C2-prix-de-blain-bouvron-le-gavre.html",
+        "R21C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R21C4-prix-de-quimper.html",
+        "R21C5-prix-joseph-lafosse.html",
+        "R21C6-prix-d-elbeuf.html",
+        "R21C7-prix-de-pont-l-eveque.html",
+        "R21C8-prix-de-la-ferte-vidame.html",
+        "R21C9-prix-de-mirecourt.html"
+      ],
+      "R30-leon-bollee-le-mans": [
+        "R30C1-prix-de-langon.html",
+        "R30C2-prix-de-blain-bouvron-le-gavre.html",
+        "R30C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R30C4-prix-de-quimper.html",
+        "R30C5-prix-joseph-lafosse.html",
+        "R30C6-prix-d-elbeuf.html",
+        "R30C7-prix-de-pont-l-eveque.html",
+        "R30C8-prix-de-la-ferte-vidame.html",
+        "R30C9-prix-de-mirecourt.html"
+      ],
+      "R31-felix-bollaert-lens": [
+        "R31C1-prix-de-langon.html",
+        "R31C2-prix-de-blain-bouvron-le-gavre.html",
+        "R31C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R31C4-prix-de-quimper.html",
+        "R31C5-prix-joseph-lafosse.html",
+        "R31C6-prix-d-elbeuf.html",
+        "R31C7-prix-de-pont-l-eveque.html",
+        "R31C8-prix-de-la-ferte-vidame.html",
+        "R31C9-prix-de-mirecourt.html"
+      ],
+      "R32-louis-dugauguez-sedan": [
+        "R32C1-prix-de-langon.html",
+        "R32C2-prix-de-blain-bouvron-le-gavre.html",
+        "R32C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R32C4-prix-de-quimper.html",
+        "R32C5-prix-joseph-lafosse.html",
+        "R32C6-prix-d-elbeuf.html",
+        "R32C7-prix-de-pont-l-eveque.html",
+        "R32C8-prix-de-la-ferte-vidame.html",
+        "R32C9-prix-de-mirecourt.html"
+      ],
+      "R33-l-abbe-deschamps-auxerre": [
+        "R33C1-prix-de-langon.html",
+        "R33C2-prix-de-blain-bouvron-le-gavre.html",
+        "R33C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R33C4-prix-de-quimper.html",
+        "R33C5-prix-joseph-lafosse.html",
+        "R33C6-prix-d-elbeuf.html",
+        "R33C7-prix-de-pont-l-eveque.html",
+        "R33C8-prix-de-la-ferte-vidame.html",
+        "R33C9-prix-de-mirecourt.html"
+      ],
+      "R34-louis-ii-monaco": [
+        "R34C1-prix-de-langon.html",
+        "R34C2-prix-de-blain-bouvron-le-gavre.html",
+        "R34C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R34C4-prix-de-quimper.html",
+        "R34C5-prix-joseph-lafosse.html",
+        "R34C6-prix-d-elbeuf.html",
+        "R34C7-prix-de-pont-l-eveque.html",
+        "R34C8-prix-de-la-ferte-vidame.html",
+        "R34C9-prix-de-mirecourt.html"
+      ],
+      "R35-stade-de-la-route-de-lorient-rennes": [
+        "R35C1-prix-de-langon.html",
+        "R35C2-prix-de-blain-bouvron-le-gavre.html",
+        "R35C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R35C4-prix-de-quimper.html",
+        "R35C5-prix-joseph-lafosse.html",
+        "R35C6-prix-d-elbeuf.html",
+        "R35C7-prix-de-pont-l-eveque.html",
+        "R35C8-prix-de-la-ferte-vidame.html",
+        "R35C9-prix-de-mirecourt.html"
+      ],
+      "R36-geoffroy-guichard-saint-etienne": [
+        "R36C1-prix-de-langon.html",
+        "R36C2-prix-de-blain-bouvron-le-gavre.html",
+        "R36C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R36C4-prix-de-quimper.html",
+        "R36C5-prix-joseph-lafosse.html",
+        "R36C6-prix-d-elbeuf.html",
+        "R36C7-prix-de-pont-l-eveque.html",
+        "R36C8-prix-de-la-ferte-vidame.html",
+        "R36C9-prix-de-mirecourt.html"
+      ],
+      "R37-parc-des-sports-marcel-michelin-clermont-ferrand": [
+        "R37C1-prix-de-langon.html",
+        "R37C2-prix-de-blain-bouvron-le-gavre.html",
+        "R37C3-prix-france-soir-prix-bagnoles-de-l-orne.html",
+        "R37C4-prix-de-quimper.html",
+        "R37C5-prix-joseph-lafosse.html",
+        "R37C6-prix-d-elbeuf.html",
+        "R37C7-prix-de-pont-l-eveque.html",
+        "R37C8-prix-de-la-ferte-vidame.html",
+        "R37C9-prix-de-mirecourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:54.328416Z"
+}

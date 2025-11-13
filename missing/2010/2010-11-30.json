@@ -1,0 +1,80 @@
+{
+  "date": "2010-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-30",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-30/2010-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-30/R1-deauville/R1C1-prix-de-la-renommiere.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R1-deauville/R1C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R1-deauville/R1C4-prix-du-carrefour-de-l-obelisque.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R1-deauville/R1C8-prix-des-rochers-de-fontainebleau.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C4-prix-du-carrefour-de-l-obelisque.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C5-prix-belle-de-nuit.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C6-prix-du-rocher-bouligny.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C7-prix-de-la-ligue-francaise-pour-la-protection-du-cheval.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R2-lyon-parilly/R2C8-prix-des-rochers-de-fontainebleau.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C1-prix-de-la-renommiere.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C2-prix-de-fonteneroux.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C4-prix-du-carrefour-de-l-obelisque.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C5-prix-belle-de-nuit.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C6-prix-du-rocher-bouligny.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C7-prix-de-la-ligue-francaise-pour-la-protection-du-cheval.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C8-prix-des-rochers-de-fontainebleau.html",
+      "resultats-et-rapports/2010/11/2010-11-30/R3-vincennes/R3C9-prix-de-la-foret-royale-de-fontainebleau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-lyon-parilly",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-renommiere.html",
+        "R1C2-prix-de-fonteneroux.html",
+        "R1C3-prix-hubert-de-catheu.html",
+        "R1C4-prix-du-carrefour-de-l-obelisque.html",
+        "R1C5-prix-belle-de-nuit.html",
+        "R1C6-prix-du-rocher-bouligny.html",
+        "R1C7-prix-de-la-ligue-francaise-pour-la-protection-du-cheval.html",
+        "R1C8-prix-des-rochers-de-fontainebleau.html",
+        "R1C9-prix-de-la-foret-royale-de-fontainebleau.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-la-renommiere.html",
+        "R2C2-prix-de-fonteneroux.html",
+        "R2C3-prix-hubert-de-catheu.html",
+        "R2C4-prix-du-carrefour-de-l-obelisque.html",
+        "R2C5-prix-belle-de-nuit.html",
+        "R2C6-prix-du-rocher-bouligny.html",
+        "R2C7-prix-de-la-ligue-francaise-pour-la-protection-du-cheval.html",
+        "R2C8-prix-des-rochers-de-fontainebleau.html",
+        "R2C9-prix-de-la-foret-royale-de-fontainebleau.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-renommiere.html",
+        "R3C2-prix-de-fonteneroux.html",
+        "R3C3-prix-hubert-de-catheu.html",
+        "R3C4-prix-du-carrefour-de-l-obelisque.html",
+        "R3C5-prix-belle-de-nuit.html",
+        "R3C6-prix-du-rocher-bouligny.html",
+        "R3C7-prix-de-la-ligue-francaise-pour-la-protection-du-cheval.html",
+        "R3C8-prix-des-rochers-de-fontainebleau.html",
+        "R3C9-prix-de-la-foret-royale-de-fontainebleau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:18.681796Z"
+}

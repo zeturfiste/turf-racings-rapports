@@ -1,0 +1,89 @@
+{
+  "date": "2018-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-29",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-29/2018-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-29/R1-chantilly/R1C1-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R1-chantilly/R1C3-prix-d-alsace.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R1-chantilly/R1C4-prix-play-it-safe.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R1-chantilly/R1C6-prix-right-royal.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R2-nantes/R2C1-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R2-nantes/R2C4-prix-play-it-safe.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R2-nantes/R2C5-prix-des-caves-du-nord.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R2-nantes/R2C7-prix-de-la-place-marine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R2-nantes/R2C8-prix-de-lorraine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C1-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C3-prix-d-alsace.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C4-prix-play-it-safe.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C5-prix-des-caves-du-nord.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C7-prix-de-la-place-marine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R3-reims/R3C8-prix-de-lorraine.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R4-lyon-la-soie/R4C2-prix-zino.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R4-lyon-la-soie/R4C3-prix-d-alsace.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R4-lyon-la-soie/R4C5-prix-des-caves-du-nord.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R4-lyon-la-soie/R4C6-prix-right-royal.html",
+      "resultats-et-rapports/2018/03/2018-03-29/R4-lyon-la-soie/R4C7-prix-de-la-place-marine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nantes",
+      "R3-reims",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-conflans-sainte-honorine.html",
+        "R1C2-prix-zino.html",
+        "R1C3-prix-d-alsace.html",
+        "R1C4-prix-play-it-safe.html",
+        "R1C5-prix-des-caves-du-nord.html",
+        "R1C6-prix-right-royal.html",
+        "R1C7-prix-de-la-place-marine.html",
+        "R1C8-prix-de-lorraine.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-conflans-sainte-honorine.html",
+        "R2C2-prix-zino.html",
+        "R2C3-prix-d-alsace.html",
+        "R2C4-prix-play-it-safe.html",
+        "R2C5-prix-des-caves-du-nord.html",
+        "R2C6-prix-right-royal.html",
+        "R2C7-prix-de-la-place-marine.html",
+        "R2C8-prix-de-lorraine.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-de-conflans-sainte-honorine.html",
+        "R3C2-prix-zino.html",
+        "R3C3-prix-d-alsace.html",
+        "R3C4-prix-play-it-safe.html",
+        "R3C5-prix-des-caves-du-nord.html",
+        "R3C6-prix-right-royal.html",
+        "R3C7-prix-de-la-place-marine.html",
+        "R3C8-prix-de-lorraine.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-conflans-sainte-honorine.html",
+        "R4C2-prix-zino.html",
+        "R4C3-prix-d-alsace.html",
+        "R4C4-prix-play-it-safe.html",
+        "R4C5-prix-des-caves-du-nord.html",
+        "R4C6-prix-right-royal.html",
+        "R4C7-prix-de-la-place-marine.html",
+        "R4C8-prix-de-lorraine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:20.956063Z"
+}

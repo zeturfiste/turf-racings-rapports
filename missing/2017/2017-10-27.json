@@ -1,0 +1,65 @@
+{
+  "date": "2017-10-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-27",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-27/2017-10-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-27/R3-les-sables-d-olonne/R3C1-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R3-les-sables-d-olonne/R3C2-prix-geciloc.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R4-auteuil/R4C7-prix-www-eurotierce-be.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C1-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C2-prix-geciloc.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C3-prix-trba.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C4-prix-le-trot-com.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C5-prix-vaderpaarden-geniteurs.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C6-grand-prix-de-la-toussaint.html",
+      "resultats-et-rapports/2017/10/2017-10-27/R6-vincennes/R6C7-prix-www-eurotierce-be.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R3-les-sables-d-olonne",
+      "R4-auteuil",
+      "R6-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-champagne-moet-chandon.html",
+        "R3C2-prix-geciloc.html",
+        "R3C3-prix-trba.html",
+        "R3C4-prix-le-trot-com.html",
+        "R3C5-prix-vaderpaarden-geniteurs.html",
+        "R3C6-grand-prix-de-la-toussaint.html",
+        "R3C7-prix-www-eurotierce-be.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-champagne-moet-chandon.html",
+        "R4C2-prix-geciloc.html",
+        "R4C3-prix-trba.html",
+        "R4C4-prix-le-trot-com.html",
+        "R4C5-prix-vaderpaarden-geniteurs.html",
+        "R4C6-grand-prix-de-la-toussaint.html",
+        "R4C7-prix-www-eurotierce-be.html"
+      ],
+      "R6-vincennes": [
+        "R6C1-prix-champagne-moet-chandon.html",
+        "R6C2-prix-geciloc.html",
+        "R6C3-prix-trba.html",
+        "R6C4-prix-le-trot-com.html",
+        "R6C5-prix-vaderpaarden-geniteurs.html",
+        "R6C6-grand-prix-de-la-toussaint.html",
+        "R6C7-prix-www-eurotierce-be.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:40.059287Z"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2019-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/09/2019-09-24",
+    "date_html": "resultats-et-rapports/2019/09/2019-09-24/2019-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/09/2019-09-24/R1-fontainebleau/R1C1-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2019/09/2019-09-24/R2-bordeaux-le-bouscat/R2C5-prix-guy-thibault.html",
+      "resultats-et-rapports/2019/09/2019-09-24/R4-vincennes/R4C1-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2019/09/2019-09-24/R4-vincennes/R4C2-prix-du-long-rocher.html",
+      "resultats-et-rapports/2019/09/2019-09-24/R4-vincennes/R4C5-prix-guy-thibault.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-bordeaux-le-bouscat",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-roland-fougedoire.html",
+        "R1C2-prix-du-long-rocher.html",
+        "R1C3-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R1C4-prix-chateau-landon.html",
+        "R1C5-prix-guy-thibault.html",
+        "R1C6-prix-de-la-croix-de-vitry.html",
+        "R1C7-prix-artus-de-maille.html",
+        "R1C8-prix-de-la-sapiniere.html",
+        "R1C9-prix-de-la-pinede.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-roland-fougedoire.html",
+        "R2C2-prix-du-long-rocher.html",
+        "R2C3-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R2C4-prix-chateau-landon.html",
+        "R2C5-prix-guy-thibault.html",
+        "R2C6-prix-de-la-croix-de-vitry.html",
+        "R2C7-prix-artus-de-maille.html",
+        "R2C8-prix-de-la-sapiniere.html",
+        "R2C9-prix-de-la-pinede.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-roland-fougedoire.html",
+        "R4C2-prix-du-long-rocher.html",
+        "R4C3-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R4C4-prix-chateau-landon.html",
+        "R4C5-prix-guy-thibault.html",
+        "R4C6-prix-de-la-croix-de-vitry.html",
+        "R4C7-prix-artus-de-maille.html",
+        "R4C8-prix-de-la-sapiniere.html",
+        "R4C9-prix-de-la-pinede.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:10.944122Z"
+}

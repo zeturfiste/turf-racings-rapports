@@ -1,0 +1,83 @@
+{
+  "date": "2022-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-10",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-10/2022-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C1-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C3-prix-du-coq-chantant.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C4-prix-de-guiche.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C5-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C7-prix-de-la-fosse-aux-biches.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C8-prix-du-musee-vivant-du-cheval.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R1-chantilly/R1C9-prix-de-la-fontaine-rocaille.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C1-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C2-prix-de-la-mere-marie.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C5-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C6-prix-de-la-compagnie-equestre.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C8-prix-du-musee-vivant-du-cheval.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R3-marseille-borely/R3C9-prix-de-la-fontaine-rocaille.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C1-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C2-prix-de-la-mere-marie.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C3-prix-du-coq-chantant.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C4-prix-de-guiche.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C5-prix-de-l-hermitage.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C6-prix-de-la-compagnie-equestre.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C7-prix-de-la-fosse-aux-biches.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C8-prix-du-musee-vivant-du-cheval.html",
+      "resultats-et-rapports/2022/05/2022-05-10/R4-vincennes/R4C9-prix-de-la-fontaine-rocaille.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-grandes-ecuries.html",
+        "R1C2-prix-de-la-mere-marie.html",
+        "R1C3-prix-du-coq-chantant.html",
+        "R1C4-prix-de-guiche.html",
+        "R1C5-prix-de-l-hermitage.html",
+        "R1C6-prix-de-la-compagnie-equestre.html",
+        "R1C7-prix-de-la-fosse-aux-biches.html",
+        "R1C8-prix-du-musee-vivant-du-cheval.html",
+        "R1C9-prix-de-la-fontaine-rocaille.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-des-grandes-ecuries.html",
+        "R3C2-prix-de-la-mere-marie.html",
+        "R3C3-prix-du-coq-chantant.html",
+        "R3C4-prix-de-guiche.html",
+        "R3C5-prix-de-l-hermitage.html",
+        "R3C6-prix-de-la-compagnie-equestre.html",
+        "R3C7-prix-de-la-fosse-aux-biches.html",
+        "R3C8-prix-du-musee-vivant-du-cheval.html",
+        "R3C9-prix-de-la-fontaine-rocaille.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-grandes-ecuries.html",
+        "R4C2-prix-de-la-mere-marie.html",
+        "R4C3-prix-du-coq-chantant.html",
+        "R4C4-prix-de-guiche.html",
+        "R4C5-prix-de-l-hermitage.html",
+        "R4C6-prix-de-la-compagnie-equestre.html",
+        "R4C7-prix-de-la-fosse-aux-biches.html",
+        "R4C8-prix-du-musee-vivant-du-cheval.html",
+        "R4C9-prix-de-la-fontaine-rocaille.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:21.043570Z"
+}

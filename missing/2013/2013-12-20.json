@@ -1,0 +1,68 @@
+{
+  "date": "2013-12-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-20",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-20/2013-12-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-20/R1-vincennes/R1C1-prix-de-sable-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R1-vincennes/R1C5-prix-sans-dire-oui.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R2-cagnes-sur-mer/R2C4-prix-emmanuel-margouty.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R2-cagnes-sur-mer/R2C8-prix-de-noisy-le-sec.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C1-prix-de-sable-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C2-prix-d-amboise.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C3-prix-de-la-reole.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C5-prix-sans-dire-oui.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C6-prix-de-compiegne.html",
+      "resultats-et-rapports/2013/12/2013-12-20/R3-pornichet-la-baule/R3C7-prix-de-dordives.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-sable-sur-sarthe.html",
+        "R1C2-prix-d-amboise.html",
+        "R1C3-prix-de-la-reole.html",
+        "R1C4-prix-emmanuel-margouty.html",
+        "R1C5-prix-sans-dire-oui.html",
+        "R1C6-prix-de-compiegne.html",
+        "R1C7-prix-de-dordives.html",
+        "R1C8-prix-de-noisy-le-sec.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-sable-sur-sarthe.html",
+        "R2C2-prix-d-amboise.html",
+        "R2C3-prix-de-la-reole.html",
+        "R2C4-prix-emmanuel-margouty.html",
+        "R2C5-prix-sans-dire-oui.html",
+        "R2C6-prix-de-compiegne.html",
+        "R2C7-prix-de-dordives.html",
+        "R2C8-prix-de-noisy-le-sec.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-sable-sur-sarthe.html",
+        "R3C2-prix-d-amboise.html",
+        "R3C3-prix-de-la-reole.html",
+        "R3C4-prix-emmanuel-margouty.html",
+        "R3C5-prix-sans-dire-oui.html",
+        "R3C6-prix-de-compiegne.html",
+        "R3C7-prix-de-dordives.html",
+        "R3C8-prix-de-noisy-le-sec.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:33.432358Z"
+}

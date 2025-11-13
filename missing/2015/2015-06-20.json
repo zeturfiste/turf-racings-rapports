@@ -1,0 +1,100 @@
+{
+  "date": "2015-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-20",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-20/2015-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-20/R1-compiegne/R1C4-prix-ridgway.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R1-compiegne/R1C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R2-chartres/R2C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R2-chartres/R2C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R2-chartres/R2C7-prix-d-autreches.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R3-la-teste-de-buch/R3C1-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R3-la-teste-de-buch/R3C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R3-la-teste-de-buch/R3C5-grand-prix-de-compiegne.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R3-la-teste-de-buch/R3C7-prix-d-autreches.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R4-cavaillon/R4C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R4-cavaillon/R4C4-prix-ridgway.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R4-cavaillon/R4C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R4-cavaillon/R4C7-prix-d-autreches.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R4-cavaillon/R4C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C3-prix-de-l-artois.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C4-prix-ridgway.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C5-grand-prix-de-compiegne.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C7-prix-d-autreches.html",
+      "resultats-et-rapports/2015/06/2015-06-20/R7-feurs/R7C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-chartres",
+      "R3-la-teste-de-buch",
+      "R4-cavaillon",
+      "R7-feurs"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-taillefontaine.html",
+        "R1C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+        "R1C3-prix-de-l-artois.html",
+        "R1C4-prix-ridgway.html",
+        "R1C5-grand-prix-de-compiegne.html",
+        "R1C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+        "R1C7-prix-d-autreches.html",
+        "R1C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-de-taillefontaine.html",
+        "R2C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+        "R2C3-prix-de-l-artois.html",
+        "R2C4-prix-ridgway.html",
+        "R2C5-grand-prix-de-compiegne.html",
+        "R2C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+        "R2C7-prix-d-autreches.html",
+        "R2C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-taillefontaine.html",
+        "R3C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+        "R3C3-prix-de-l-artois.html",
+        "R3C4-prix-ridgway.html",
+        "R3C5-grand-prix-de-compiegne.html",
+        "R3C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+        "R3C7-prix-d-autreches.html",
+        "R3C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+      ],
+      "R4-cavaillon": [
+        "R4C1-prix-de-taillefontaine.html",
+        "R4C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+        "R4C3-prix-de-l-artois.html",
+        "R4C4-prix-ridgway.html",
+        "R4C5-grand-prix-de-compiegne.html",
+        "R4C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+        "R4C7-prix-d-autreches.html",
+        "R4C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+      ],
+      "R7-feurs": [
+        "R7C1-prix-de-taillefontaine.html",
+        "R7C2-prix-de-l-elegance-prix-imperatrice-eugenie.html",
+        "R7C3-prix-de-l-artois.html",
+        "R7C4-prix-ridgway.html",
+        "R7C5-grand-prix-de-compiegne.html",
+        "R7C6-prix-un-enfant-par-la-main-prix-d-acteon.html",
+        "R7C7-prix-d-autreches.html",
+        "R7C8-prix-de-la-royale-compiegne-prix-de-l-avesnois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:18.578970Z"
+}

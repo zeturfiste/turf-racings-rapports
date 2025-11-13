@@ -1,0 +1,55 @@
+{
+  "date": "2014-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-01",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-01/2014-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-01/R1-vincennes/R1C2-prix-de-paimboeuf.html",
+      "resultats-et-rapports/2014/02/2014-02-01/R1-vincennes/R1C3-prix-paul-viel.html",
+      "resultats-et-rapports/2014/02/2014-02-01/R1-vincennes/R1C4-prix-de-la-gironde.html",
+      "resultats-et-rapports/2014/02/2014-02-01/R1-vincennes/R1C8-prix-d-yvetot.html",
+      "resultats-et-rapports/2014/02/2014-02-01/R2-cagnes-sur-mer/R2C7-prix-roquepine.html",
+      "resultats-et-rapports/2014/02/2014-02-01/R2-cagnes-sur-mer/R2C8-prix-d-yvetot.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cagny.html",
+        "R1C2-prix-de-paimboeuf.html",
+        "R1C3-prix-paul-viel.html",
+        "R1C4-prix-de-la-gironde.html",
+        "R1C5-prix-de-lannemezan.html",
+        "R1C6-prix-d-avignon.html",
+        "R1C7-prix-roquepine.html",
+        "R1C8-prix-d-yvetot.html",
+        "R1C9-prix-de-daumesnil.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-cagny.html",
+        "R2C2-prix-de-paimboeuf.html",
+        "R2C3-prix-paul-viel.html",
+        "R2C4-prix-de-la-gironde.html",
+        "R2C5-prix-de-lannemezan.html",
+        "R2C6-prix-d-avignon.html",
+        "R2C7-prix-roquepine.html",
+        "R2C8-prix-d-yvetot.html",
+        "R2C9-prix-de-daumesnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:42.559216Z"
+}

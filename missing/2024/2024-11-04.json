@@ -1,0 +1,92 @@
+{
+  "date": "2024-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-04",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-04/2024-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-04/R1-fontainebleau/R1C6-prix-guy-thibault.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R2-chartres/R2C3-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R2-chartres/R2C4-prix-des-frenes.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R2-chartres/R2C6-prix-guy-thibault.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R2-chartres/R2C8-prix-des-erables.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R3-vincennes/R3C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R3-vincennes/R3C8-prix-des-erables.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R5-agen/R5C1-prix-des-pins-noirs.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R5-agen/R5C4-prix-des-frenes.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R5-agen/R5C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R5-agen/R5C6-prix-guy-thibault.html",
+      "resultats-et-rapports/2024/11/2024-11-04/R5-agen/R5C8-prix-des-erables.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-chartres",
+      "R3-vincennes",
+      "R4-lyon-la-soie",
+      "R5-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-pins-noirs.html",
+        "R1C2-prix-des-bosquets.html",
+        "R1C3-prix-roland-fougedoire.html",
+        "R1C4-prix-des-frenes.html",
+        "R1C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+        "R1C6-prix-guy-thibault.html",
+        "R1C7-prix-des-pins-laricio.html",
+        "R1C8-prix-des-erables.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-des-pins-noirs.html",
+        "R2C2-prix-des-bosquets.html",
+        "R2C3-prix-roland-fougedoire.html",
+        "R2C4-prix-des-frenes.html",
+        "R2C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+        "R2C6-prix-guy-thibault.html",
+        "R2C7-prix-des-pins-laricio.html",
+        "R2C8-prix-des-erables.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-pins-noirs.html",
+        "R3C2-prix-des-bosquets.html",
+        "R3C3-prix-roland-fougedoire.html",
+        "R3C4-prix-des-frenes.html",
+        "R3C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+        "R3C6-prix-guy-thibault.html",
+        "R3C7-prix-des-pins-laricio.html",
+        "R3C8-prix-des-erables.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-des-pins-noirs.html",
+        "R4C2-prix-des-bosquets.html",
+        "R4C3-prix-roland-fougedoire.html",
+        "R4C4-prix-des-frenes.html",
+        "R4C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+        "R4C6-prix-guy-thibault.html",
+        "R4C7-prix-des-pins-laricio.html",
+        "R4C8-prix-des-erables.html"
+      ],
+      "R5-agen": [
+        "R5C1-prix-des-pins-noirs.html",
+        "R5C2-prix-des-bosquets.html",
+        "R5C3-prix-roland-fougedoire.html",
+        "R5C4-prix-des-frenes.html",
+        "R5C5-prix-du-centre-d-ecotourisme-de-franchard.html",
+        "R5C6-prix-guy-thibault.html",
+        "R5C7-prix-des-pins-laricio.html",
+        "R5C8-prix-des-erables.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:48.373056Z"
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2009-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/03/2009-03-05",
+    "date_html": "resultats-et-rapports/2009/03/2009-03-05/2009-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C2-prix-du-mesnil-auger.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C3-prix-d-aurigny.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C4-prix-d-alderney.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C5-prix-d-ailly.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C6-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R1-deauville/R1C7-prix-du-pays-de-caux.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C2-prix-du-mesnil-auger.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C3-prix-d-aurigny.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C4-prix-d-alderney.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C5-prix-d-ailly.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R2-caen/R2C6-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C2-prix-du-mesnil-auger.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C3-prix-d-aurigny.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C4-prix-d-alderney.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C5-prix-d-ailly.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C6-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R3-laval/R3C7-prix-du-pays-de-caux.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C2-prix-du-mesnil-auger.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C3-prix-d-aurigny.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C4-prix-d-alderney.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C5-prix-d-ailly.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C6-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2009/03/2009-03-05/R31-zerace/R31C7-prix-du-pays-de-caux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-laval",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-pays-de-bray.html",
+        "R1C2-prix-du-mesnil-auger.html",
+        "R1C3-prix-d-aurigny.html",
+        "R1C4-prix-d-alderney.html",
+        "R1C5-prix-d-ailly.html",
+        "R1C6-prix-de-saint-vaast-en-auge.html",
+        "R1C7-prix-du-pays-de-caux.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-du-pays-de-bray.html",
+        "R2C2-prix-du-mesnil-auger.html",
+        "R2C3-prix-d-aurigny.html",
+        "R2C4-prix-d-alderney.html",
+        "R2C5-prix-d-ailly.html",
+        "R2C6-prix-de-saint-vaast-en-auge.html",
+        "R2C7-prix-du-pays-de-caux.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-du-pays-de-bray.html",
+        "R3C2-prix-du-mesnil-auger.html",
+        "R3C3-prix-d-aurigny.html",
+        "R3C4-prix-d-alderney.html",
+        "R3C5-prix-d-ailly.html",
+        "R3C6-prix-de-saint-vaast-en-auge.html",
+        "R3C7-prix-du-pays-de-caux.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-pays-de-bray.html",
+        "R31C2-prix-du-mesnil-auger.html",
+        "R31C3-prix-d-aurigny.html",
+        "R31C4-prix-d-alderney.html",
+        "R31C5-prix-d-ailly.html",
+        "R31C6-prix-de-saint-vaast-en-auge.html",
+        "R31C7-prix-du-pays-de-caux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:34:37.653976Z"
+}

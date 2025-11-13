@@ -1,0 +1,51 @@
+{
+  "date": "2014-08-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-14",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-14/2014-08-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-14/R1-clairefontaine/R1C3-prix-ecole-blondeau-prix-tip-moss.html",
+      "resultats-et-rapports/2014/08/2014-08-14/R2-meslay-du-maine/R2C1-prix-www-parionssurhippodrome-com-prix-highest-honor.html",
+      "resultats-et-rapports/2014/08/2014-08-14/R2-meslay-du-maine/R2C2-prix-cpm-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2014/08/2014-08-14/R2-meslay-du-maine/R2C3-prix-ecole-blondeau-prix-tip-moss.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-meslay-du-maine"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-www-parionssurhippodrome-com-prix-highest-honor.html",
+        "R1C2-prix-cpm-prix-de-la-cote-fleurie.html",
+        "R1C3-prix-ecole-blondeau-prix-tip-moss.html",
+        "R1C4-prix-dhevatara-prix-luth-enchantee-fonds-europeen-de-l-elevage.html",
+        "R1C5-prix-pari-2sur4-prix-djakao.html",
+        "R1C6-prix-pari-simple-prix-de-chouain.html",
+        "R1C7-prix-pari-couple-prix-des-aubepines.html",
+        "R1C8-prix-pari-trio-prix-d-ellon.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-www-parionssurhippodrome-com-prix-highest-honor.html",
+        "R2C2-prix-cpm-prix-de-la-cote-fleurie.html",
+        "R2C3-prix-ecole-blondeau-prix-tip-moss.html",
+        "R2C4-prix-dhevatara-prix-luth-enchantee-fonds-europeen-de-l-elevage.html",
+        "R2C5-prix-pari-2sur4-prix-djakao.html",
+        "R2C6-prix-pari-simple-prix-de-chouain.html",
+        "R2C7-prix-pari-couple-prix-des-aubepines.html",
+        "R2C8-prix-pari-trio-prix-d-ellon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:44.285938Z"
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2022-05-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-13",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-13/2022-05-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-13/R1-vincennes/R1C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R3-la-capelle/R3C4-prix-masina.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R3-la-capelle/R3C6-prix-diphda.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R3-la-capelle/R3C7-prix-eugenia.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R4-saint-cloud/R4C2-prix-paul-karle.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R4-saint-cloud/R4C7-prix-eugenia.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R5-marseille-borely/R5C1-prix-regulus.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R5-marseille-borely/R5C3-prix-leo.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R6-laval/R6C2-prix-paul-karle.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R6-laval/R6C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R6-laval/R6C6-prix-diphda.html",
+      "resultats-et-rapports/2022/05/2022-05-13/R6-laval/R6C7-prix-eugenia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-la-capelle",
+      "R4-saint-cloud",
+      "R5-marseille-borely",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-regulus.html",
+        "R1C2-prix-paul-karle.html",
+        "R1C3-prix-leo.html",
+        "R1C4-prix-masina.html",
+        "R1C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+        "R1C6-prix-diphda.html",
+        "R1C7-prix-eugenia.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-regulus.html",
+        "R3C2-prix-paul-karle.html",
+        "R3C3-prix-leo.html",
+        "R3C4-prix-masina.html",
+        "R3C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+        "R3C6-prix-diphda.html",
+        "R3C7-prix-eugenia.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-regulus.html",
+        "R4C2-prix-paul-karle.html",
+        "R4C3-prix-leo.html",
+        "R4C4-prix-masina.html",
+        "R4C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+        "R4C6-prix-diphda.html",
+        "R4C7-prix-eugenia.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-regulus.html",
+        "R5C2-prix-paul-karle.html",
+        "R5C3-prix-leo.html",
+        "R5C4-prix-masina.html",
+        "R5C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+        "R5C6-prix-diphda.html",
+        "R5C7-prix-eugenia.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-regulus.html",
+        "R6C2-prix-paul-karle.html",
+        "R6C3-prix-leo.html",
+        "R6C4-prix-masina.html",
+        "R6C5-etrier-5-ans-qualif-2-prix-jean-gauvreau.html",
+        "R6C6-prix-diphda.html",
+        "R6C7-prix-eugenia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:21.958659Z"
+}

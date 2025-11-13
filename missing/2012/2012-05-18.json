@@ -1,0 +1,117 @@
+{
+  "date": "2012-05-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-18",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-18/2012-05-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-18/R1-chantilly/R1C3-prix-de-brunehaut.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R1-chantilly/R1C7-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R2-salon-de-provence/R2C2-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R2-salon-de-provence/R2C3-prix-de-brunehaut.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R2-salon-de-provence/R2C4-prix-de-pontarme.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R2-salon-de-provence/R2C5-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R2-salon-de-provence/R2C6-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C4-prix-de-pontarme.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C5-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C6-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C7-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R3-vincennes/R3C8-prix-de-la-butte-ronde.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R5-graignes/R5C2-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R5-graignes/R5C3-prix-de-brunehaut.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R5-graignes/R5C8-prix-de-la-butte-ronde.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R6-laval/R6C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R6-laval/R6C2-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R6-laval/R6C4-prix-de-pontarme.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R6-laval/R6C5-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R6-laval/R6C8-prix-de-la-butte-ronde.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R7-toulouse/R7C2-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R7-toulouse/R7C3-prix-de-brunehaut.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R7-toulouse/R7C4-prix-de-pontarme.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R7-toulouse/R7C7-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2012/05/2012-05-18/R7-toulouse/R7C8-prix-de-la-butte-ronde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-salon-de-provence",
+      "R3-vincennes",
+      "R5-graignes",
+      "R6-laval",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-mont-de-po.html",
+        "R1C2-prix-du-pont-du-roi.html",
+        "R1C3-prix-de-brunehaut.html",
+        "R1C4-prix-de-pontarme.html",
+        "R1C5-prix-du-beau-flageux.html",
+        "R1C6-prix-de-la-plaine-de-jouvence.html",
+        "R1C7-prix-du-ru-de-suze.html",
+        "R1C8-prix-de-la-butte-ronde.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-du-mont-de-po.html",
+        "R2C2-prix-du-pont-du-roi.html",
+        "R2C3-prix-de-brunehaut.html",
+        "R2C4-prix-de-pontarme.html",
+        "R2C5-prix-du-beau-flageux.html",
+        "R2C6-prix-de-la-plaine-de-jouvence.html",
+        "R2C7-prix-du-ru-de-suze.html",
+        "R2C8-prix-de-la-butte-ronde.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-mont-de-po.html",
+        "R3C2-prix-du-pont-du-roi.html",
+        "R3C3-prix-de-brunehaut.html",
+        "R3C4-prix-de-pontarme.html",
+        "R3C5-prix-du-beau-flageux.html",
+        "R3C6-prix-de-la-plaine-de-jouvence.html",
+        "R3C7-prix-du-ru-de-suze.html",
+        "R3C8-prix-de-la-butte-ronde.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-du-mont-de-po.html",
+        "R5C2-prix-du-pont-du-roi.html",
+        "R5C3-prix-de-brunehaut.html",
+        "R5C4-prix-de-pontarme.html",
+        "R5C5-prix-du-beau-flageux.html",
+        "R5C6-prix-de-la-plaine-de-jouvence.html",
+        "R5C7-prix-du-ru-de-suze.html",
+        "R5C8-prix-de-la-butte-ronde.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-du-mont-de-po.html",
+        "R6C2-prix-du-pont-du-roi.html",
+        "R6C3-prix-de-brunehaut.html",
+        "R6C4-prix-de-pontarme.html",
+        "R6C5-prix-du-beau-flageux.html",
+        "R6C6-prix-de-la-plaine-de-jouvence.html",
+        "R6C7-prix-du-ru-de-suze.html",
+        "R6C8-prix-de-la-butte-ronde.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-du-mont-de-po.html",
+        "R7C2-prix-du-pont-du-roi.html",
+        "R7C3-prix-de-brunehaut.html",
+        "R7C4-prix-de-pontarme.html",
+        "R7C5-prix-du-beau-flageux.html",
+        "R7C6-prix-de-la-plaine-de-jouvence.html",
+        "R7C7-prix-du-ru-de-suze.html",
+        "R7C8-prix-de-la-butte-ronde.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:44.745834Z"
+}

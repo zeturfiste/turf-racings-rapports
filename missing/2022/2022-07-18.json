@@ -1,0 +1,78 @@
+{
+  "date": "2022-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-18",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-18/2022-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-18/R1-cherbourg/R1C7-prix-dynavena.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R2-vichy/R2C6-prix-hotel-ibis-cherbourg-la-glacerie.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R4-dieppe/R4C5-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C1-prix-la-manche-departement.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C2-prix-technibox-legiret.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C3-prix-des-maitres-laitiers-du-cotentin.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C4-prix-intermarche.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C5-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2022/07/2022-07-18/R5-cagnes-sur-mer/R5C8-prix-gds-section-equine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cherbourg",
+      "R2-vichy",
+      "R4-dieppe",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cherbourg": [
+        "R1C1-prix-la-manche-departement.html",
+        "R1C2-prix-technibox-legiret.html",
+        "R1C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R1C4-prix-intermarche.html",
+        "R1C5-grand-prix-de-la-region-normandie.html",
+        "R1C6-prix-hotel-ibis-cherbourg-la-glacerie.html",
+        "R1C7-prix-dynavena.html",
+        "R1C8-prix-gds-section-equine.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-la-manche-departement.html",
+        "R2C2-prix-technibox-legiret.html",
+        "R2C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R2C4-prix-intermarche.html",
+        "R2C5-grand-prix-de-la-region-normandie.html",
+        "R2C6-prix-hotel-ibis-cherbourg-la-glacerie.html",
+        "R2C7-prix-dynavena.html",
+        "R2C8-prix-gds-section-equine.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-la-manche-departement.html",
+        "R4C2-prix-technibox-legiret.html",
+        "R4C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R4C4-prix-intermarche.html",
+        "R4C5-grand-prix-de-la-region-normandie.html",
+        "R4C6-prix-hotel-ibis-cherbourg-la-glacerie.html",
+        "R4C7-prix-dynavena.html",
+        "R4C8-prix-gds-section-equine.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-la-manche-departement.html",
+        "R5C2-prix-technibox-legiret.html",
+        "R5C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R5C4-prix-intermarche.html",
+        "R5C5-grand-prix-de-la-region-normandie.html",
+        "R5C6-prix-hotel-ibis-cherbourg-la-glacerie.html",
+        "R5C7-prix-dynavena.html",
+        "R5C8-prix-gds-section-equine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:46.281920Z"
+}

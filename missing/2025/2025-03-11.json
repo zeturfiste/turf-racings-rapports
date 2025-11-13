@@ -1,0 +1,71 @@
+{
+  "date": "2025-03-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-11",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-11/2025-03-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-11/R1-saint-cloud/R1C4-prix-de-montmagny.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R1-saint-cloud/R1C5-prix-de-chaumont-en-vexin.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R1-saint-cloud/R1C6-prix-de-montmartin.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R3-fontainebleau/R3C1-prix-teddy.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R3-fontainebleau/R3C2-prix-gris-perle.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R3-fontainebleau/R3C4-prix-de-montmagny.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R3-fontainebleau/R3C7-prix-lavarede.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C1-prix-teddy.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C2-prix-gris-perle.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C3-prix-d-aigremont.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C5-prix-de-chaumont-en-vexin.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C7-prix-lavarede.html",
+      "resultats-et-rapports/2025/03/2025-03-11/R4-enghien-soisy/R4C8-prix-de-crecy-fitz-james.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-fontainebleau",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-teddy.html",
+        "R1C2-prix-gris-perle.html",
+        "R1C3-prix-d-aigremont.html",
+        "R1C4-prix-de-montmagny.html",
+        "R1C5-prix-de-chaumont-en-vexin.html",
+        "R1C6-prix-de-montmartin.html",
+        "R1C7-prix-lavarede.html",
+        "R1C8-prix-de-crecy-fitz-james.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-teddy.html",
+        "R3C2-prix-gris-perle.html",
+        "R3C3-prix-d-aigremont.html",
+        "R3C4-prix-de-montmagny.html",
+        "R3C5-prix-de-chaumont-en-vexin.html",
+        "R3C6-prix-de-montmartin.html",
+        "R3C7-prix-lavarede.html",
+        "R3C8-prix-de-crecy-fitz-james.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-teddy.html",
+        "R4C2-prix-gris-perle.html",
+        "R4C3-prix-d-aigremont.html",
+        "R4C4-prix-de-montmagny.html",
+        "R4C5-prix-de-chaumont-en-vexin.html",
+        "R4C6-prix-de-montmartin.html",
+        "R4C7-prix-lavarede.html",
+        "R4C8-prix-de-crecy-fitz-james.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:30.923047Z"
+}

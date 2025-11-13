@@ -1,0 +1,93 @@
+{
+  "date": "2022-08-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-17",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-17/2022-08-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-17/R3-argentan/R3C4-prix-de-la-porte-de-versailles.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R4-vichy/R4C5-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R8-royan-la-palmyre/R8C3-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R8-royan-la-palmyre/R8C5-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R8-royan-la-palmyre/R8C7-prix-association-nationale-des-turfistes.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R8-royan-la-palmyre/R8C8-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C2-prix-de-nouzonville.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C3-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C4-prix-de-la-porte-de-versailles.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C5-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C6-prix-des-grandes-carrieres.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C7-prix-association-nationale-des-turfistes.html",
+      "resultats-et-rapports/2022/08/2022-08-17/R9-les-sables-d-olonne/R9C8-prix-du-pont-de-l-alma.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-argentan",
+      "R4-vichy",
+      "R8-royan-la-palmyre",
+      "R9-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-d-orleans.html",
+        "R1C2-prix-de-nouzonville.html",
+        "R1C3-prix-de-la-porte-de-passy.html",
+        "R1C4-prix-de-la-porte-de-versailles.html",
+        "R1C5-prix-jean-luc-lagardere.html",
+        "R1C6-prix-des-grandes-carrieres.html",
+        "R1C7-prix-association-nationale-des-turfistes.html",
+        "R1C8-prix-du-pont-de-l-alma.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-de-la-porte-d-orleans.html",
+        "R3C2-prix-de-nouzonville.html",
+        "R3C3-prix-de-la-porte-de-passy.html",
+        "R3C4-prix-de-la-porte-de-versailles.html",
+        "R3C5-prix-jean-luc-lagardere.html",
+        "R3C6-prix-des-grandes-carrieres.html",
+        "R3C7-prix-association-nationale-des-turfistes.html",
+        "R3C8-prix-du-pont-de-l-alma.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-de-la-porte-d-orleans.html",
+        "R4C2-prix-de-nouzonville.html",
+        "R4C3-prix-de-la-porte-de-passy.html",
+        "R4C4-prix-de-la-porte-de-versailles.html",
+        "R4C5-prix-jean-luc-lagardere.html",
+        "R4C6-prix-des-grandes-carrieres.html",
+        "R4C7-prix-association-nationale-des-turfistes.html",
+        "R4C8-prix-du-pont-de-l-alma.html"
+      ],
+      "R8-royan-la-palmyre": [
+        "R8C1-prix-de-la-porte-d-orleans.html",
+        "R8C2-prix-de-nouzonville.html",
+        "R8C3-prix-de-la-porte-de-passy.html",
+        "R8C4-prix-de-la-porte-de-versailles.html",
+        "R8C5-prix-jean-luc-lagardere.html",
+        "R8C6-prix-des-grandes-carrieres.html",
+        "R8C7-prix-association-nationale-des-turfistes.html",
+        "R8C8-prix-du-pont-de-l-alma.html"
+      ],
+      "R9-les-sables-d-olonne": [
+        "R9C1-prix-de-la-porte-d-orleans.html",
+        "R9C2-prix-de-nouzonville.html",
+        "R9C3-prix-de-la-porte-de-passy.html",
+        "R9C4-prix-de-la-porte-de-versailles.html",
+        "R9C5-prix-jean-luc-lagardere.html",
+        "R9C6-prix-des-grandes-carrieres.html",
+        "R9C7-prix-association-nationale-des-turfistes.html",
+        "R9C8-prix-du-pont-de-l-alma.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:58.156058Z"
+}

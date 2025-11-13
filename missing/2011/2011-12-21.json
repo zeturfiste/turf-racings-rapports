@@ -1,0 +1,70 @@
+{
+  "date": "2011-12-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-21",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-21/2011-12-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-21/R1-vincennes/R1C6-prix-de-montaigu.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R1-vincennes/R1C8-prix-des-iris.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R2-deauville/R2C1-prix-de-la-tremblade.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R2-deauville/R2C2-prix-de-fustignac.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R2-deauville/R2C4-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R2-deauville/R2C5-prix-de-tulle.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R2-deauville/R2C6-prix-de-montaigu.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R3-deauville-midi/R3C2-prix-de-fustignac.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R3-deauville-midi/R3C4-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R3-deauville-midi/R3C5-prix-de-tulle.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R3-deauville-midi/R3C6-prix-de-montaigu.html",
+      "resultats-et-rapports/2011/12/2011-12-21/R3-deauville-midi/R3C8-prix-des-iris.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-tremblade.html",
+        "R1C2-prix-de-fustignac.html",
+        "R1C3-prix-de-flers.html",
+        "R1C4-prix-de-marennes-oleron.html",
+        "R1C5-prix-de-tulle.html",
+        "R1C6-prix-de-montaigu.html",
+        "R1C7-prix-pierre-giffard.html",
+        "R1C8-prix-des-iris.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-la-tremblade.html",
+        "R2C2-prix-de-fustignac.html",
+        "R2C3-prix-de-flers.html",
+        "R2C4-prix-de-marennes-oleron.html",
+        "R2C5-prix-de-tulle.html",
+        "R2C6-prix-de-montaigu.html",
+        "R2C7-prix-pierre-giffard.html",
+        "R2C8-prix-des-iris.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-la-tremblade.html",
+        "R3C2-prix-de-fustignac.html",
+        "R3C3-prix-de-flers.html",
+        "R3C4-prix-de-marennes-oleron.html",
+        "R3C5-prix-de-tulle.html",
+        "R3C6-prix-de-montaigu.html",
+        "R3C7-prix-pierre-giffard.html",
+        "R3C8-prix-des-iris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:06.517780Z"
+}

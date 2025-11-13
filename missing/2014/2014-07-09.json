@@ -1,0 +1,77 @@
+{
+  "date": "2014-07-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-09",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-09/2014-07-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-09/R1-enghien-soisy/R1C2-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R1-enghien-soisy/R1C4-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R1-enghien-soisy/R1C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R1-enghien-soisy/R1C7-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R1-enghien-soisy/R1C8-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C2-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C3-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C4-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C6-prix-d-escurolles.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C7-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R2-chantilly/R2C8-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C4-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C6-prix-d-escurolles.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C7-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2014/07/2014-07-09/R3-agen/R3C8-prix-de-la-gare-de-lyon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-chantilly",
+      "R3-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-l-opera.html",
+        "R1C2-prix-du-jardin-des-plantes.html",
+        "R1C3-prix-quiproquo-ii.html",
+        "R1C4-prix-de-la-place-du-mail.html",
+        "R1C5-prix-de-rochechouart.html",
+        "R1C6-prix-d-escurolles.html",
+        "R1C7-prix-de-la-tour-saint-jacques.html",
+        "R1C8-prix-de-la-gare-de-lyon.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-l-opera.html",
+        "R2C2-prix-du-jardin-des-plantes.html",
+        "R2C3-prix-quiproquo-ii.html",
+        "R2C4-prix-de-la-place-du-mail.html",
+        "R2C5-prix-de-rochechouart.html",
+        "R2C6-prix-d-escurolles.html",
+        "R2C7-prix-de-la-tour-saint-jacques.html",
+        "R2C8-prix-de-la-gare-de-lyon.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-de-l-opera.html",
+        "R3C2-prix-du-jardin-des-plantes.html",
+        "R3C3-prix-quiproquo-ii.html",
+        "R3C4-prix-de-la-place-du-mail.html",
+        "R3C5-prix-de-rochechouart.html",
+        "R3C6-prix-d-escurolles.html",
+        "R3C7-prix-de-la-tour-saint-jacques.html",
+        "R3C8-prix-de-la-gare-de-lyon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:32.602004Z"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2015-11-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-14",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-14/2015-11-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-14/R3-toulouse/R3C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C1-prix-ortie-blanche.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C2-prix-kantar.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C3-prix-jacques-de-vienne.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C4-prix-denisy.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C5-prix-belle-de-nuit.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C7-prix-de-la-chataigneraie.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R1-saint-cloud/R1C8-prix-des-haras.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C1-prix-ortie-blanche.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C2-prix-kantar.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C3-prix-jacques-de-vienne.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C5-prix-belle-de-nuit.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C7-prix-de-la-chataigneraie.html",
+      "resultats-et-rapports/2015/11/2015-11-14/R4-laval/R4C8-prix-des-haras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-compiegne",
+      "R3-toulouse",
+      "R1-saint-cloud",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R2-compiegne": [
+        "R2C1-prix-ortie-blanche.html",
+        "R2C2-prix-kantar.html",
+        "R2C3-prix-jacques-de-vienne.html",
+        "R2C4-prix-denisy.html",
+        "R2C5-prix-belle-de-nuit.html",
+        "R2C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+        "R2C7-prix-de-la-chataigneraie.html",
+        "R2C8-prix-des-haras.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-ortie-blanche.html",
+        "R3C2-prix-kantar.html",
+        "R3C3-prix-jacques-de-vienne.html",
+        "R3C4-prix-denisy.html",
+        "R3C5-prix-belle-de-nuit.html",
+        "R3C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+        "R3C7-prix-de-la-chataigneraie.html",
+        "R3C8-prix-des-haras.html"
+      ],
+      "R1-saint-cloud": [
+        "R1C1-prix-ortie-blanche.html",
+        "R1C2-prix-kantar.html",
+        "R1C3-prix-jacques-de-vienne.html",
+        "R1C4-prix-denisy.html",
+        "R1C5-prix-belle-de-nuit.html",
+        "R1C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+        "R1C7-prix-de-la-chataigneraie.html",
+        "R1C8-prix-des-haras.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-ortie-blanche.html",
+        "R4C2-prix-kantar.html",
+        "R4C3-prix-jacques-de-vienne.html",
+        "R4C4-prix-denisy.html",
+        "R4C5-prix-belle-de-nuit.html",
+        "R4C6-grand-handicap-de-l-elevage-prix-du-camp-canadien.html",
+        "R4C7-prix-de-la-chataigneraie.html",
+        "R4C8-prix-des-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:05.909540Z"
+}

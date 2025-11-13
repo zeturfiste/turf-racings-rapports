@@ -1,0 +1,82 @@
+{
+  "date": "2017-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-26",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-26/2017-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C1-prix-caro.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C2-prix-chloris.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C3-prix-des-aunettes.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C5-prix-zeddaan.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C7-prix-d-acheres.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R2-angers/R2C8-prix-du-moulin-de-maisons-laffitte.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R3-toulouse/R3C5-prix-zeddaan.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R3-toulouse/R3C6-prix-de-la-porte-du-parc.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R3-toulouse/R3C7-prix-d-acheres.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R4-cabourg/R4C1-prix-caro.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R4-cabourg/R4C3-prix-des-aunettes.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R4-cabourg/R4C5-prix-zeddaan.html",
+      "resultats-et-rapports/2017/10/2017-10-26/R4-cabourg/R4C8-prix-du-moulin-de-maisons-laffitte.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-angers",
+      "R3-toulouse",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-caro.html",
+        "R1C2-prix-chloris.html",
+        "R1C3-prix-des-aunettes.html",
+        "R1C4-prix-hermieres.html",
+        "R1C5-prix-zeddaan.html",
+        "R1C6-prix-de-la-porte-du-parc.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-du-moulin-de-maisons-laffitte.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-caro.html",
+        "R2C2-prix-chloris.html",
+        "R2C3-prix-des-aunettes.html",
+        "R2C4-prix-hermieres.html",
+        "R2C5-prix-zeddaan.html",
+        "R2C6-prix-de-la-porte-du-parc.html",
+        "R2C7-prix-d-acheres.html",
+        "R2C8-prix-du-moulin-de-maisons-laffitte.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-caro.html",
+        "R3C2-prix-chloris.html",
+        "R3C3-prix-des-aunettes.html",
+        "R3C4-prix-hermieres.html",
+        "R3C5-prix-zeddaan.html",
+        "R3C6-prix-de-la-porte-du-parc.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-du-moulin-de-maisons-laffitte.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-caro.html",
+        "R4C2-prix-chloris.html",
+        "R4C3-prix-des-aunettes.html",
+        "R4C4-prix-hermieres.html",
+        "R4C5-prix-zeddaan.html",
+        "R4C6-prix-de-la-porte-du-parc.html",
+        "R4C7-prix-d-acheres.html",
+        "R4C8-prix-du-moulin-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:39.785667Z"
+}

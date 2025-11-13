@@ -1,0 +1,97 @@
+{
+  "date": "2016-02-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-15",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-15/2016-02-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C1-prix-de-senlis.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C2-prix-de-bouguenais.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C3-prix-de-darnetal.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C4-prix-decidee.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C5-prix-d-oloron.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C6-prix-de-montebourg.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C7-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R1-vincennes/R1C8-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C1-prix-de-senlis.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C2-prix-de-bouguenais.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C5-prix-d-oloron.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C6-prix-de-montebourg.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C7-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R3-pau/R3C8-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C2-prix-de-bouguenais.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C3-prix-de-darnetal.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C4-prix-decidee.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C6-prix-de-montebourg.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C7-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R4-pornichet-la-baule/R4C8-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C1-prix-de-senlis.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C2-prix-de-bouguenais.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C3-prix-de-darnetal.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C4-prix-decidee.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C5-prix-d-oloron.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C6-prix-de-montebourg.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C7-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2016/02/2016-02-15/R6-saint-brieuc/R6C8-prix-de-juan-les-pins.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-pornichet-la-baule",
+      "R6-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-senlis.html",
+        "R1C2-prix-de-bouguenais.html",
+        "R1C3-prix-de-darnetal.html",
+        "R1C4-prix-decidee.html",
+        "R1C5-prix-d-oloron.html",
+        "R1C6-prix-de-montebourg.html",
+        "R1C7-prix-de-blain-bouvron-le-gavre.html",
+        "R1C8-prix-de-juan-les-pins.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-senlis.html",
+        "R3C2-prix-de-bouguenais.html",
+        "R3C3-prix-de-darnetal.html",
+        "R3C4-prix-decidee.html",
+        "R3C5-prix-d-oloron.html",
+        "R3C6-prix-de-montebourg.html",
+        "R3C7-prix-de-blain-bouvron-le-gavre.html",
+        "R3C8-prix-de-juan-les-pins.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-senlis.html",
+        "R4C2-prix-de-bouguenais.html",
+        "R4C3-prix-de-darnetal.html",
+        "R4C4-prix-decidee.html",
+        "R4C5-prix-d-oloron.html",
+        "R4C6-prix-de-montebourg.html",
+        "R4C7-prix-de-blain-bouvron-le-gavre.html",
+        "R4C8-prix-de-juan-les-pins.html"
+      ],
+      "R6-saint-brieuc": [
+        "R6C1-prix-de-senlis.html",
+        "R6C2-prix-de-bouguenais.html",
+        "R6C3-prix-de-darnetal.html",
+        "R6C4-prix-decidee.html",
+        "R6C5-prix-d-oloron.html",
+        "R6C6-prix-de-montebourg.html",
+        "R6C7-prix-de-blain-bouvron-le-gavre.html",
+        "R6C8-prix-de-juan-les-pins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:28.393073Z"
+}

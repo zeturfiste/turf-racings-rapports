@@ -1,0 +1,75 @@
+{
+  "date": "2006-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-09",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-09/2006-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C1-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C2-prix-feursmetal-prix-des-lilas.html",
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C3-prix-du-conseil-general-de-la-loire.html",
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C4-prix-laboratoire-les-3-chenes-prix-roses.html",
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C6-prix-chambre-de-commerce-et-d-industrie.html",
+      "resultats-et-rapports/2006/10/2006-10-09/R1-feurs/R1C7-prix-carrefour-feurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R2-chantilly",
+      "R3-enghien-soisy",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-prix-du-credit-mutuel.html",
+        "R1C2-prix-feursmetal-prix-des-lilas.html",
+        "R1C3-prix-du-conseil-general-de-la-loire.html",
+        "R1C4-prix-laboratoire-les-3-chenes-prix-roses.html",
+        "R1C5-prix-de-la-ville-de-feurs.html",
+        "R1C6-prix-chambre-de-commerce-et-d-industrie.html",
+        "R1C7-prix-carrefour-feurs.html",
+        "R1C8-prix-communaute-communes-de-feurs-en-forez.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-du-credit-mutuel.html",
+        "R2C2-prix-feursmetal-prix-des-lilas.html",
+        "R2C3-prix-du-conseil-general-de-la-loire.html",
+        "R2C4-prix-laboratoire-les-3-chenes-prix-roses.html",
+        "R2C5-prix-de-la-ville-de-feurs.html",
+        "R2C6-prix-chambre-de-commerce-et-d-industrie.html",
+        "R2C7-prix-carrefour-feurs.html",
+        "R2C8-prix-communaute-communes-de-feurs-en-forez.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-credit-mutuel.html",
+        "R3C2-prix-feursmetal-prix-des-lilas.html",
+        "R3C3-prix-du-conseil-general-de-la-loire.html",
+        "R3C4-prix-laboratoire-les-3-chenes-prix-roses.html",
+        "R3C5-prix-de-la-ville-de-feurs.html",
+        "R3C6-prix-chambre-de-commerce-et-d-industrie.html",
+        "R3C7-prix-carrefour-feurs.html",
+        "R3C8-prix-communaute-communes-de-feurs-en-forez.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-credit-mutuel.html",
+        "R21C2-prix-feursmetal-prix-des-lilas.html",
+        "R21C3-prix-du-conseil-general-de-la-loire.html",
+        "R21C4-prix-laboratoire-les-3-chenes-prix-roses.html",
+        "R21C5-prix-de-la-ville-de-feurs.html",
+        "R21C6-prix-chambre-de-commerce-et-d-industrie.html",
+        "R21C7-prix-carrefour-feurs.html",
+        "R21C8-prix-communaute-communes-de-feurs-en-forez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:37.680482Z"
+}

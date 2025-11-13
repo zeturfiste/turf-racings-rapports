@@ -1,0 +1,63 @@
+{
+  "date": "2015-01-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-23",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-23/2015-01-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-23/R1-pau/R1C7-prix-de-livron.html",
+      "resultats-et-rapports/2015/01/2015-01-23/R2-chantilly/R2C7-prix-de-livron.html",
+      "resultats-et-rapports/2015/01/2015-01-23/R3-cagnes-sur-mer/R3C2-prix-emile-lalanne.html",
+      "resultats-et-rapports/2015/01/2015-01-23/R3-cagnes-sur-mer/R3C3-prix-de-garlin.html",
+      "resultats-et-rapports/2015/01/2015-01-23/R3-cagnes-sur-mer/R3C8-prix-d-araujuzon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-chantilly",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-rene-cramail.html",
+        "R1C2-prix-emile-lalanne.html",
+        "R1C3-prix-de-garlin.html",
+        "R1C4-prix-louis-la-caze.html",
+        "R1C5-prix-de-jurancon.html",
+        "R1C6-prix-de-lescun.html",
+        "R1C7-prix-de-livron.html",
+        "R1C8-prix-d-araujuzon.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-rene-cramail.html",
+        "R2C2-prix-emile-lalanne.html",
+        "R2C3-prix-de-garlin.html",
+        "R2C4-prix-louis-la-caze.html",
+        "R2C5-prix-de-jurancon.html",
+        "R2C6-prix-de-lescun.html",
+        "R2C7-prix-de-livron.html",
+        "R2C8-prix-d-araujuzon.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-rene-cramail.html",
+        "R3C2-prix-emile-lalanne.html",
+        "R3C3-prix-de-garlin.html",
+        "R3C4-prix-louis-la-caze.html",
+        "R3C5-prix-de-jurancon.html",
+        "R3C6-prix-de-lescun.html",
+        "R3C7-prix-de-livron.html",
+        "R3C8-prix-d-araujuzon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:34.362820Z"
+}

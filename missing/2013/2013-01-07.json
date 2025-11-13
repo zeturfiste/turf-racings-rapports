@@ -1,0 +1,81 @@
+{
+  "date": "2013-01-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/01/2013-01-07",
+    "date_html": "resultats-et-rapports/2013/01/2013-01-07/2013-01-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/01/2013-01-07/R2-pau/R2C3-prix-de-chateaugiron-groupe-b.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R3-marseille-vivaux/R3C2-prix-de-l-aveyron.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R3-marseille-vivaux/R3C3-prix-de-chateaugiron-groupe-b.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R3-marseille-vivaux/R3C4-prix-de-villedieu.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R3-marseille-vivaux/R3C6-prix-de-sucy.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R3-marseille-vivaux/R3C9-prix-d-aubervilliers.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R5-pontchateau/R5C3-prix-de-chateaugiron-groupe-b.html",
+      "resultats-et-rapports/2013/01/2013-01-07/R5-pontchateau/R5C8-prix-de-montbeliard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-marseille-vivaux",
+      "R5-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chateaugiron-groupe-a.html",
+        "R1C2-prix-de-l-aveyron.html",
+        "R1C3-prix-de-chateaugiron-groupe-b.html",
+        "R1C4-prix-de-villedieu.html",
+        "R1C5-prix-de-ribeauville.html",
+        "R1C6-prix-de-sucy.html",
+        "R1C7-prix-de-colmar.html",
+        "R1C8-prix-de-montbeliard.html",
+        "R1C9-prix-d-aubervilliers.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-chateaugiron-groupe-a.html",
+        "R2C2-prix-de-l-aveyron.html",
+        "R2C3-prix-de-chateaugiron-groupe-b.html",
+        "R2C4-prix-de-villedieu.html",
+        "R2C5-prix-de-ribeauville.html",
+        "R2C6-prix-de-sucy.html",
+        "R2C7-prix-de-colmar.html",
+        "R2C8-prix-de-montbeliard.html",
+        "R2C9-prix-d-aubervilliers.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-chateaugiron-groupe-a.html",
+        "R3C2-prix-de-l-aveyron.html",
+        "R3C3-prix-de-chateaugiron-groupe-b.html",
+        "R3C4-prix-de-villedieu.html",
+        "R3C5-prix-de-ribeauville.html",
+        "R3C6-prix-de-sucy.html",
+        "R3C7-prix-de-colmar.html",
+        "R3C8-prix-de-montbeliard.html",
+        "R3C9-prix-d-aubervilliers.html"
+      ],
+      "R5-pontchateau": [
+        "R5C1-prix-de-chateaugiron-groupe-a.html",
+        "R5C2-prix-de-l-aveyron.html",
+        "R5C3-prix-de-chateaugiron-groupe-b.html",
+        "R5C4-prix-de-villedieu.html",
+        "R5C5-prix-de-ribeauville.html",
+        "R5C6-prix-de-sucy.html",
+        "R5C7-prix-de-colmar.html",
+        "R5C8-prix-de-montbeliard.html",
+        "R5C9-prix-d-aubervilliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:52.358650Z"
+}

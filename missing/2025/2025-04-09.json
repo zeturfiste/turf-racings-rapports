@@ -1,0 +1,65 @@
+{
+  "date": "2025-04-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-09",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-09/2025-04-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-09/R3-nantes/R3C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R3-nantes/R3C8-prix-pmu-au-bon-accueil.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R4-argentan/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R4-argentan/R4C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R4-argentan/R4C3-prix-oscar-collard.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R4-argentan/R4C5-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2025/04/2025-04-09/R4-argentan/R4C6-prix-de-la-marne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R3-nantes",
+      "R4-argentan"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-grand-national-des-amateurs.html",
+        "R1C3-prix-oscar-collard.html",
+        "R1C4-prix-du-champagne-castelnau.html",
+        "R1C5-grand-national-des-jockeys.html",
+        "R1C6-prix-de-la-marne.html",
+        "R1C7-prix-gilbert-cornet.html",
+        "R1C8-prix-pmu-au-bon-accueil.html"
+      ],
+      "R3-nantes": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-grand-national-des-amateurs.html",
+        "R3C3-prix-oscar-collard.html",
+        "R3C4-prix-du-champagne-castelnau.html",
+        "R3C5-grand-national-des-jockeys.html",
+        "R3C6-prix-de-la-marne.html",
+        "R3C7-prix-gilbert-cornet.html",
+        "R3C8-prix-pmu-au-bon-accueil.html"
+      ],
+      "R4-argentan": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-grand-national-des-amateurs.html",
+        "R4C3-prix-oscar-collard.html",
+        "R4C4-prix-du-champagne-castelnau.html",
+        "R4C5-grand-national-des-jockeys.html",
+        "R4C6-prix-de-la-marne.html",
+        "R4C7-prix-gilbert-cornet.html",
+        "R4C8-prix-pmu-au-bon-accueil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:41.196387Z"
+}

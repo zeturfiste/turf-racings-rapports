@@ -1,0 +1,75 @@
+{
+  "date": "2010-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-28",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-28/2010-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-28/R1-vincennes/R1C1-prix-de-craon.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R1-vincennes/R1C3-prix-d-embrun.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R1-vincennes/R1C5-prix-de-domfront.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R1-vincennes/R1C7-prix-de-collioure.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R1-vincennes/R1C8-prix-du-merlerault.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R2-deauville/R2C2-prix-de-chambord.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R2-deauville/R2C3-prix-d-embrun.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R2-deauville/R2C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R2-deauville/R2C7-prix-de-collioure.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R2-deauville/R2C8-prix-du-merlerault.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C1-prix-de-craon.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C3-prix-d-embrun.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C5-prix-de-domfront.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C6-prix-des-freesias.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C7-prix-de-collioure.html",
+      "resultats-et-rapports/2010/12/2010-12-28/R3-deauville-midi/R3C8-prix-du-merlerault.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-craon.html",
+        "R1C2-prix-de-chambord.html",
+        "R1C3-prix-d-embrun.html",
+        "R1C4-prix-de-juvignac.html",
+        "R1C5-prix-de-domfront.html",
+        "R1C6-prix-des-freesias.html",
+        "R1C7-prix-de-collioure.html",
+        "R1C8-prix-du-merlerault.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-craon.html",
+        "R2C2-prix-de-chambord.html",
+        "R2C3-prix-d-embrun.html",
+        "R2C4-prix-de-juvignac.html",
+        "R2C5-prix-de-domfront.html",
+        "R2C6-prix-des-freesias.html",
+        "R2C7-prix-de-collioure.html",
+        "R2C8-prix-du-merlerault.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-craon.html",
+        "R3C2-prix-de-chambord.html",
+        "R3C3-prix-d-embrun.html",
+        "R3C4-prix-de-juvignac.html",
+        "R3C5-prix-de-domfront.html",
+        "R3C6-prix-des-freesias.html",
+        "R3C7-prix-de-collioure.html",
+        "R3C8-prix-du-merlerault.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:25.409892Z"
+}

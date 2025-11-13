@@ -1,0 +1,90 @@
+{
+  "date": "2012-08-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-17",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-17/2012-08-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-17/R1-vichy/R1C2-prix-de-sevigne.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R1-vichy/R1C3-prix-de-royet.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R1-vichy/R1C5-prix-jean-gillois.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R1-vichy/R1C7-prix-valery-larbaud.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R2-meslay-du-maine/R2C2-prix-de-sevigne.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R2-meslay-du-maine/R2C3-prix-de-royet.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R2-meslay-du-maine/R2C5-prix-jean-gillois.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R2-meslay-du-maine/R2C6-prix-de-lapalisse.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R2-meslay-du-maine/R2C7-prix-valery-larbaud.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R3-pornichet-la-baule/R3C4-prix-du-puy-mary.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R3-pornichet-la-baule/R3C5-prix-jean-gillois.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R3-pornichet-la-baule/R3C6-prix-de-lapalisse.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R3-pornichet-la-baule/R3C7-prix-valery-larbaud.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C1-prix-de-la-besbre.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C2-prix-de-sevigne.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C3-prix-de-royet.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C4-prix-du-puy-mary.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C5-prix-jean-gillois.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C6-prix-de-lapalisse.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C7-prix-valery-larbaud.html",
+      "resultats-et-rapports/2012/08/2012-08-17/R4-cabourg/R4C8-prix-thibault-de-saint-pern.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-meslay-du-maine",
+      "R3-pornichet-la-baule",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-besbre.html",
+        "R1C2-prix-de-sevigne.html",
+        "R1C3-prix-de-royet.html",
+        "R1C4-prix-du-puy-mary.html",
+        "R1C5-prix-jean-gillois.html",
+        "R1C6-prix-de-lapalisse.html",
+        "R1C7-prix-valery-larbaud.html",
+        "R1C8-prix-thibault-de-saint-pern.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-de-la-besbre.html",
+        "R2C2-prix-de-sevigne.html",
+        "R2C3-prix-de-royet.html",
+        "R2C4-prix-du-puy-mary.html",
+        "R2C5-prix-jean-gillois.html",
+        "R2C6-prix-de-lapalisse.html",
+        "R2C7-prix-valery-larbaud.html",
+        "R2C8-prix-thibault-de-saint-pern.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-la-besbre.html",
+        "R3C2-prix-de-sevigne.html",
+        "R3C3-prix-de-royet.html",
+        "R3C4-prix-du-puy-mary.html",
+        "R3C5-prix-jean-gillois.html",
+        "R3C6-prix-de-lapalisse.html",
+        "R3C7-prix-valery-larbaud.html",
+        "R3C8-prix-thibault-de-saint-pern.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-la-besbre.html",
+        "R4C2-prix-de-sevigne.html",
+        "R4C3-prix-de-royet.html",
+        "R4C4-prix-du-puy-mary.html",
+        "R4C5-prix-jean-gillois.html",
+        "R4C6-prix-de-lapalisse.html",
+        "R4C7-prix-valery-larbaud.html",
+        "R4C8-prix-thibault-de-saint-pern.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:12.594892Z"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2016-02-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-26",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-26/2016-02-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-26/R1-enghien-soisy/R1C1-prix-elma.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R1-enghien-soisy/R1C2-prix-nicephore.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R1-enghien-soisy/R1C3-prix-de-saint-pierre-la-cour.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R1-enghien-soisy/R1C4-prix-gallus-ii.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R4-le-croise-laroche/R4C6-prix-de-caudebec.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R6-cagnes-sur-mer/R6C2-prix-nicephore.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R6-cagnes-sur-mer/R6C5-prix-du-tarn.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R6-cagnes-sur-mer/R6C6-prix-de-caudebec.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R6-cagnes-sur-mer/R6C7-prix-de-montsalvy.html",
+      "resultats-et-rapports/2016/02/2016-02-26/R6-cagnes-sur-mer/R6C8-prix-de-l-authie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-chantilly",
+      "R4-le-croise-laroche",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-elma.html",
+        "R1C2-prix-nicephore.html",
+        "R1C3-prix-de-saint-pierre-la-cour.html",
+        "R1C4-prix-gallus-ii.html",
+        "R1C5-prix-du-tarn.html",
+        "R1C6-prix-de-caudebec.html",
+        "R1C7-prix-de-montsalvy.html",
+        "R1C8-prix-de-l-authie.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-elma.html",
+        "R3C2-prix-nicephore.html",
+        "R3C3-prix-de-saint-pierre-la-cour.html",
+        "R3C4-prix-gallus-ii.html",
+        "R3C5-prix-du-tarn.html",
+        "R3C6-prix-de-caudebec.html",
+        "R3C7-prix-de-montsalvy.html",
+        "R3C8-prix-de-l-authie.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-elma.html",
+        "R4C2-prix-nicephore.html",
+        "R4C3-prix-de-saint-pierre-la-cour.html",
+        "R4C4-prix-gallus-ii.html",
+        "R4C5-prix-du-tarn.html",
+        "R4C6-prix-de-caudebec.html",
+        "R4C7-prix-de-montsalvy.html",
+        "R4C8-prix-de-l-authie.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-elma.html",
+        "R6C2-prix-nicephore.html",
+        "R6C3-prix-de-saint-pierre-la-cour.html",
+        "R6C4-prix-gallus-ii.html",
+        "R6C5-prix-du-tarn.html",
+        "R6C6-prix-de-caudebec.html",
+        "R6C7-prix-de-montsalvy.html",
+        "R6C8-prix-de-l-authie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:31.159834Z"
+}

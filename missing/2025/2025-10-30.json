@@ -1,0 +1,64 @@
+{
+  "date": "2025-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-30",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-30/2025-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-30/R3-lyon-parilly/R3C5-prix-d-amiens.html",
+      "resultats-et-rapports/2025/10/2025-10-30/R3-lyon-parilly/R3C6-prix-d-avesnes.html",
+      "resultats-et-rapports/2025/10/2025-10-30/R4-graignes/R4C3-prix-d-aubagne.html",
+      "resultats-et-rapports/2025/10/2025-10-30/R4-graignes/R4C5-prix-d-amiens.html",
+      "resultats-et-rapports/2025/10/2025-10-30/R4-graignes/R4C6-prix-d-avesnes.html",
+      "resultats-et-rapports/2025/10/2025-10-30/R4-graignes/R4C7-prix-d-embrun.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lyon-parilly",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-soulac.html",
+        "R1C2-prix-de-fouilloy.html",
+        "R1C3-prix-d-aubagne.html",
+        "R1C4-prix-du-dorat.html",
+        "R1C5-prix-d-amiens.html",
+        "R1C6-prix-d-avesnes.html",
+        "R1C7-prix-d-embrun.html",
+        "R1C8-prix-des-cevennes.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-soulac.html",
+        "R3C2-prix-de-fouilloy.html",
+        "R3C3-prix-d-aubagne.html",
+        "R3C4-prix-du-dorat.html",
+        "R3C5-prix-d-amiens.html",
+        "R3C6-prix-d-avesnes.html",
+        "R3C7-prix-d-embrun.html",
+        "R3C8-prix-des-cevennes.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-soulac.html",
+        "R4C2-prix-de-fouilloy.html",
+        "R4C3-prix-d-aubagne.html",
+        "R4C4-prix-du-dorat.html",
+        "R4C5-prix-d-amiens.html",
+        "R4C6-prix-d-avesnes.html",
+        "R4C7-prix-d-embrun.html",
+        "R4C8-prix-des-cevennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:56.880545Z"
+}

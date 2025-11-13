@@ -1,0 +1,76 @@
+{
+  "date": "2011-08-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/08/2011-08-04",
+    "date_html": "resultats-et-rapports/2011/08/2011-08-04/2011-08-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C1-prix-d-alencon.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C2-prix-de-la-bienne.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C3-prix-de-doumy.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C4-prix-du-cercle.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C5-prix-de-l-houay.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C6-prix-de-troarn.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C7-prix-du-phare.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R1-deauville/R1C8-prix-d-argentan.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R2-beaumont-de-lomagne/R2C2-prix-de-la-bienne.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R2-beaumont-de-lomagne/R2C4-prix-du-cercle.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R2-beaumont-de-lomagne/R2C5-prix-de-l-houay.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R2-beaumont-de-lomagne/R2C6-prix-de-troarn.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C1-prix-d-alencon.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C3-prix-de-doumy.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C5-prix-de-l-houay.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C6-prix-de-troarn.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C7-prix-du-phare.html",
+      "resultats-et-rapports/2011/08/2011-08-04/R3-la-teste-de-buch/R3C8-prix-d-argentan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-beaumont-de-lomagne",
+      "R3-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-alencon.html",
+        "R1C2-prix-de-la-bienne.html",
+        "R1C3-prix-de-doumy.html",
+        "R1C4-prix-du-cercle.html",
+        "R1C5-prix-de-l-houay.html",
+        "R1C6-prix-de-troarn.html",
+        "R1C7-prix-du-phare.html",
+        "R1C8-prix-d-argentan.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-d-alencon.html",
+        "R2C2-prix-de-la-bienne.html",
+        "R2C3-prix-de-doumy.html",
+        "R2C4-prix-du-cercle.html",
+        "R2C5-prix-de-l-houay.html",
+        "R2C6-prix-de-troarn.html",
+        "R2C7-prix-du-phare.html",
+        "R2C8-prix-d-argentan.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-d-alencon.html",
+        "R3C2-prix-de-la-bienne.html",
+        "R3C3-prix-de-doumy.html",
+        "R3C4-prix-du-cercle.html",
+        "R3C5-prix-de-l-houay.html",
+        "R3C6-prix-de-troarn.html",
+        "R3C7-prix-du-phare.html",
+        "R3C8-prix-d-argentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:26.371337Z"
+}

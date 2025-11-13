@@ -1,0 +1,82 @@
+{
+  "date": "2007-03-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-23",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-23/2007-03-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-23/R1-saint-cloud/R1C1-prix-des-platanes.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R1-saint-cloud/R1C4-prix-nikellora.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R1-saint-cloud/R1C5-prix-omnium-ii.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R2-toulouse/R2C8-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R3-vincennes/R3C8-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C1-prix-des-platanes.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C2-prix-du-debut.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C3-prix-la-camargo.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C4-prix-nikellora.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C5-prix-omnium-ii.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C6-prix-sica-boy.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C7-prix-de-gambais.html",
+      "resultats-et-rapports/2007/03/2007-03-23/R31-zerace/R31C8-prix-des-peupliers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-toulouse",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-des-platanes.html",
+        "R1C2-prix-du-debut.html",
+        "R1C3-prix-la-camargo.html",
+        "R1C4-prix-nikellora.html",
+        "R1C5-prix-omnium-ii.html",
+        "R1C6-prix-sica-boy.html",
+        "R1C7-prix-de-gambais.html",
+        "R1C8-prix-des-peupliers.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-des-platanes.html",
+        "R2C2-prix-du-debut.html",
+        "R2C3-prix-la-camargo.html",
+        "R2C4-prix-nikellora.html",
+        "R2C5-prix-omnium-ii.html",
+        "R2C6-prix-sica-boy.html",
+        "R2C7-prix-de-gambais.html",
+        "R2C8-prix-des-peupliers.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-platanes.html",
+        "R3C2-prix-du-debut.html",
+        "R3C3-prix-la-camargo.html",
+        "R3C4-prix-nikellora.html",
+        "R3C5-prix-omnium-ii.html",
+        "R3C6-prix-sica-boy.html",
+        "R3C7-prix-de-gambais.html",
+        "R3C8-prix-des-peupliers.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-platanes.html",
+        "R31C2-prix-du-debut.html",
+        "R31C3-prix-la-camargo.html",
+        "R31C4-prix-nikellora.html",
+        "R31C5-prix-omnium-ii.html",
+        "R31C6-prix-sica-boy.html",
+        "R31C7-prix-de-gambais.html",
+        "R31C8-prix-des-peupliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:29.703850Z"
+}

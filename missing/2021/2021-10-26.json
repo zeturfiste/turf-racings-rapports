@@ -1,0 +1,64 @@
+{
+  "date": "2021-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-26",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-26/2021-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-26/R1-chantilly/R1C2-prix-miesque.html",
+      "resultats-et-rapports/2021/10/2021-10-26/R1-chantilly/R1C5-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2021/10/2021-10-26/R3-fontainebleau/R3C6-prix-du-chene-de-la-basse-pommeraie.html",
+      "resultats-et-rapports/2021/10/2021-10-26/R4-vincennes/R4C1-prix-du-chene-du-coup-de-foudre.html",
+      "resultats-et-rapports/2021/10/2021-10-26/R4-vincennes/R4C5-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2021/10/2021-10-26/R4-vincennes/R4C8-prix-du-chene-des-gres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-fontainebleau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-chene-du-coup-de-foudre.html",
+        "R1C2-prix-miesque.html",
+        "R1C3-prix-de-la-voie-du-garde.html",
+        "R1C4-prix-du-mont-cesar.html",
+        "R1C5-prix-de-seine-et-oise.html",
+        "R1C6-prix-du-chene-de-la-basse-pommeraie.html",
+        "R1C7-prix-du-chene-des-trois-freres.html",
+        "R1C8-prix-du-chene-des-gres.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-du-chene-du-coup-de-foudre.html",
+        "R3C2-prix-miesque.html",
+        "R3C3-prix-de-la-voie-du-garde.html",
+        "R3C4-prix-du-mont-cesar.html",
+        "R3C5-prix-de-seine-et-oise.html",
+        "R3C6-prix-du-chene-de-la-basse-pommeraie.html",
+        "R3C7-prix-du-chene-des-trois-freres.html",
+        "R3C8-prix-du-chene-des-gres.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-chene-du-coup-de-foudre.html",
+        "R4C2-prix-miesque.html",
+        "R4C3-prix-de-la-voie-du-garde.html",
+        "R4C4-prix-du-mont-cesar.html",
+        "R4C5-prix-de-seine-et-oise.html",
+        "R4C6-prix-du-chene-de-la-basse-pommeraie.html",
+        "R4C7-prix-du-chene-des-trois-freres.html",
+        "R4C8-prix-du-chene-des-gres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:14.673697Z"
+}

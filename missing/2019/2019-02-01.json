@@ -1,0 +1,70 @@
+{
+  "date": "2019-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/02/2019-02-01",
+    "date_html": "resultats-et-rapports/2019/02/2019-02-01/2019-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/02/2019-02-01/R1-pau/R1C4-prix-de-pau.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R1-pau/R1C7-prix-de-la-croix-du-prince.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C2-prix-hotel-mercure-pau-palais-des-sports-prix-de-sarrance.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C3-prix-camille-duboscq.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C4-prix-de-pau.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C5-prix-exas-consultant-prix-guy-lefrant.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C6-prix-d-uzein.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R2-angers/R2C8-prix-charles-de-vanssay.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R4-cagnes-sur-mer/R4C1-prix-allianz-olivier-ournac-prix-annie-hutton.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R4-cagnes-sur-mer/R4C2-prix-hotel-mercure-pau-palais-des-sports-prix-de-sarrance.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R4-cagnes-sur-mer/R4C3-prix-camille-duboscq.html",
+      "resultats-et-rapports/2019/02/2019-02-01/R4-cagnes-sur-mer/R4C7-prix-de-la-croix-du-prince.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-angers",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-allianz-olivier-ournac-prix-annie-hutton.html",
+        "R1C2-prix-hotel-mercure-pau-palais-des-sports-prix-de-sarrance.html",
+        "R1C3-prix-camille-duboscq.html",
+        "R1C4-prix-de-pau.html",
+        "R1C5-prix-exas-consultant-prix-guy-lefrant.html",
+        "R1C6-prix-d-uzein.html",
+        "R1C7-prix-de-la-croix-du-prince.html",
+        "R1C8-prix-charles-de-vanssay.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-allianz-olivier-ournac-prix-annie-hutton.html",
+        "R2C2-prix-hotel-mercure-pau-palais-des-sports-prix-de-sarrance.html",
+        "R2C3-prix-camille-duboscq.html",
+        "R2C4-prix-de-pau.html",
+        "R2C5-prix-exas-consultant-prix-guy-lefrant.html",
+        "R2C6-prix-d-uzein.html",
+        "R2C7-prix-de-la-croix-du-prince.html",
+        "R2C8-prix-charles-de-vanssay.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-allianz-olivier-ournac-prix-annie-hutton.html",
+        "R4C2-prix-hotel-mercure-pau-palais-des-sports-prix-de-sarrance.html",
+        "R4C3-prix-camille-duboscq.html",
+        "R4C4-prix-de-pau.html",
+        "R4C5-prix-exas-consultant-prix-guy-lefrant.html",
+        "R4C6-prix-d-uzein.html",
+        "R4C7-prix-de-la-croix-du-prince.html",
+        "R4C8-prix-charles-de-vanssay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:56.815534Z"
+}

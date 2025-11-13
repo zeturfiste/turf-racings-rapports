@@ -1,0 +1,90 @@
+{
+  "date": "2017-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-21",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-21/2017-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-21/R1-reims/R1C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R1-reims/R1C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R1-reims/R1C7-prix-julien-cornet.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C3-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C5-prix-leopold-verroken.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R3-maisons-laffitte/R3C8-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R5-vichy/R5C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R5-vichy/R5C3-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R5-vichy/R5C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R5-vichy/R5C5-prix-leopold-verroken.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C3-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C5-prix-leopold-verroken.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C7-prix-julien-cornet.html",
+      "resultats-et-rapports/2017/06/2017-06-21/R7-marseille-borely/R7C8-prix-fernand-floribert-dubois.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R3-maisons-laffitte",
+      "R5-vichy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-l-unat.html",
+        "R1C3-prix-du-bon-accueil-tinqueux.html",
+        "R1C4-prix-du-journal-l-union.html",
+        "R1C5-prix-leopold-verroken.html",
+        "R1C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R1C7-prix-julien-cornet.html",
+        "R1C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-l-unat.html",
+        "R3C3-prix-du-bon-accueil-tinqueux.html",
+        "R3C4-prix-du-journal-l-union.html",
+        "R3C5-prix-leopold-verroken.html",
+        "R3C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R3C7-prix-julien-cornet.html",
+        "R3C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R5-vichy": [
+        "R5C1-grand-national-du-trot-paris-turf.html",
+        "R5C2-prix-de-l-unat.html",
+        "R5C3-prix-du-bon-accueil-tinqueux.html",
+        "R5C4-prix-du-journal-l-union.html",
+        "R5C5-prix-leopold-verroken.html",
+        "R5C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R5C7-prix-julien-cornet.html",
+        "R5C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-national-du-trot-paris-turf.html",
+        "R7C2-prix-de-l-unat.html",
+        "R7C3-prix-du-bon-accueil-tinqueux.html",
+        "R7C4-prix-du-journal-l-union.html",
+        "R7C5-prix-leopold-verroken.html",
+        "R7C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R7C7-prix-julien-cornet.html",
+        "R7C8-prix-fernand-floribert-dubois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:58.460507Z"
+}

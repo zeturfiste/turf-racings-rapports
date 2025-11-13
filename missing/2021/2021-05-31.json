@@ -1,0 +1,65 @@
+{
+  "date": "2021-05-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-31",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-31/2021-05-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-31/R1-marseille-borely/R1C3-prix-georges-trabaud.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R1-marseille-borely/R1C8-prix-de-la-couronne.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R3-amiens/R3C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R3-amiens/R3C2-prix-du-petit-cercle.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R4-vichy/R4C4-prix-des-glycines.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R4-vichy/R4C6-prix-du-rove.html",
+      "resultats-et-rapports/2021/05/2021-05-31/R4-vichy/R4C8-prix-de-la-couronne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R3-amiens",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-louis-brunet.html",
+        "R1C2-prix-du-petit-cercle.html",
+        "R1C3-prix-georges-trabaud.html",
+        "R1C4-prix-des-glycines.html",
+        "R1C5-prix-gerard-samoun.html",
+        "R1C6-prix-du-rove.html",
+        "R1C7-prix-du-pilon-du-roi.html",
+        "R1C8-prix-de-la-couronne.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-louis-brunet.html",
+        "R3C2-prix-du-petit-cercle.html",
+        "R3C3-prix-georges-trabaud.html",
+        "R3C4-prix-des-glycines.html",
+        "R3C5-prix-gerard-samoun.html",
+        "R3C6-prix-du-rove.html",
+        "R3C7-prix-du-pilon-du-roi.html",
+        "R3C8-prix-de-la-couronne.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-louis-brunet.html",
+        "R4C2-prix-du-petit-cercle.html",
+        "R4C3-prix-georges-trabaud.html",
+        "R4C4-prix-des-glycines.html",
+        "R4C5-prix-gerard-samoun.html",
+        "R4C6-prix-du-rove.html",
+        "R4C7-prix-du-pilon-du-roi.html",
+        "R4C8-prix-de-la-couronne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:19.683804Z"
+}

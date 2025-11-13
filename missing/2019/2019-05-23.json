@@ -1,0 +1,75 @@
+{
+  "date": "2019-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/05/2019-05-23",
+    "date_html": "resultats-et-rapports/2019/05/2019-05-23/2019-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/05/2019-05-23/R1-paris-longchamp/R1C6-prix-des-epinettes.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R2-reims/R2C4-prix-de-montretout.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R2-reims/R2C5-prix-du-musee-rodin.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R2-reims/R2C7-prix-du-musee-carnavalet.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C2-prix-de-pontarme.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C3-prix-des-batignolles.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C4-prix-de-montretout.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C5-prix-du-musee-rodin.html",
+      "resultats-et-rapports/2019/05/2019-05-23/R4-amiens/R4C7-prix-du-musee-carnavalet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-reims",
+      "R3-lyon-parilly",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-pont-alexandre-iii.html",
+        "R1C2-prix-de-pontarme.html",
+        "R1C3-prix-des-batignolles.html",
+        "R1C4-prix-de-montretout.html",
+        "R1C5-prix-du-musee-rodin.html",
+        "R1C6-prix-des-epinettes.html",
+        "R1C7-prix-du-musee-carnavalet.html"
+      ],
+      "R2-reims": [
+        "R2C1-prix-du-pont-alexandre-iii.html",
+        "R2C2-prix-de-pontarme.html",
+        "R2C3-prix-des-batignolles.html",
+        "R2C4-prix-de-montretout.html",
+        "R2C5-prix-du-musee-rodin.html",
+        "R2C6-prix-des-epinettes.html",
+        "R2C7-prix-du-musee-carnavalet.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-pont-alexandre-iii.html",
+        "R3C2-prix-de-pontarme.html",
+        "R3C3-prix-des-batignolles.html",
+        "R3C4-prix-de-montretout.html",
+        "R3C5-prix-du-musee-rodin.html",
+        "R3C6-prix-des-epinettes.html",
+        "R3C7-prix-du-musee-carnavalet.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-du-pont-alexandre-iii.html",
+        "R4C2-prix-de-pontarme.html",
+        "R4C3-prix-des-batignolles.html",
+        "R4C4-prix-de-montretout.html",
+        "R4C5-prix-du-musee-rodin.html",
+        "R4C6-prix-des-epinettes.html",
+        "R4C7-prix-du-musee-carnavalet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:29.603365Z"
+}

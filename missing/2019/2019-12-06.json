@@ -1,0 +1,84 @@
+{
+  "date": "2019-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/12/2019-12-06",
+    "date_html": "resultats-et-rapports/2019/12/2019-12-06/2019-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/12/2019-12-06/R1-vincennes/R1C3-prix-melusina.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R1-vincennes/R1C5-prix-philagoria.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R1-vincennes/R1C7-prix-edna.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R2-cagnes-sur-mer/R2C2-prix-unitas.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R2-cagnes-sur-mer/R2C4-prix-arsinoe.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R2-cagnes-sur-mer/R2C5-prix-philagoria.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R2-cagnes-sur-mer/R2C6-prix-dike.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R2-cagnes-sur-mer/R2C7-prix-edna.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C1-prix-vesta.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C2-prix-unitas.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C4-prix-arsinoe.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C5-prix-philagoria.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C6-prix-dike.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R3-chartres/R3C7-prix-edna.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R4-lyon-la-soie/R4C1-prix-vesta.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R4-lyon-la-soie/R4C2-prix-unitas.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R4-lyon-la-soie/R4C3-prix-melusina.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R4-lyon-la-soie/R4C6-prix-dike.html",
+      "resultats-et-rapports/2019/12/2019-12-06/R4-lyon-la-soie/R4C7-prix-edna.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-chartres",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-vesta.html",
+        "R1C2-prix-unitas.html",
+        "R1C3-prix-melusina.html",
+        "R1C4-prix-arsinoe.html",
+        "R1C5-prix-philagoria.html",
+        "R1C6-prix-dike.html",
+        "R1C7-prix-edna.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-vesta.html",
+        "R2C2-prix-unitas.html",
+        "R2C3-prix-melusina.html",
+        "R2C4-prix-arsinoe.html",
+        "R2C5-prix-philagoria.html",
+        "R2C6-prix-dike.html",
+        "R2C7-prix-edna.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-vesta.html",
+        "R3C2-prix-unitas.html",
+        "R3C3-prix-melusina.html",
+        "R3C4-prix-arsinoe.html",
+        "R3C5-prix-philagoria.html",
+        "R3C6-prix-dike.html",
+        "R3C7-prix-edna.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-vesta.html",
+        "R4C2-prix-unitas.html",
+        "R4C3-prix-melusina.html",
+        "R4C4-prix-arsinoe.html",
+        "R4C5-prix-philagoria.html",
+        "R4C6-prix-dike.html",
+        "R4C7-prix-edna.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:34.781646Z"
+}

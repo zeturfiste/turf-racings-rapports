@@ -1,0 +1,84 @@
+{
+  "date": "2013-08-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-29",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-29/2013-08-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-29/R2-vincennes/R2C1-prix-pelat.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R2-vincennes/R2C4-prix-jean-bart.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R2-vincennes/R2C6-prix-recruit-ii.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C2-prix-amati.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C3-prix-gelas.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C4-prix-jean-bart.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C5-prix-saida.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C6-prix-recruit-ii.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C7-prix-tournay.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R3-agen/R3C8-prix-mortemart.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R4-marseille-borely/R4C1-prix-pelat.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R4-marseille-borely/R4C5-prix-saida.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R4-marseille-borely/R4C6-prix-recruit-ii.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R4-marseille-borely/R4C7-prix-tournay.html",
+      "resultats-et-rapports/2013/08/2013-08-29/R4-marseille-borely/R4C8-prix-mortemart.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes",
+      "R3-agen",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-pelat.html",
+        "R1C2-prix-amati.html",
+        "R1C3-prix-gelas.html",
+        "R1C4-prix-jean-bart.html",
+        "R1C5-prix-saida.html",
+        "R1C6-prix-recruit-ii.html",
+        "R1C7-prix-tournay.html",
+        "R1C8-prix-mortemart.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-pelat.html",
+        "R2C2-prix-amati.html",
+        "R2C3-prix-gelas.html",
+        "R2C4-prix-jean-bart.html",
+        "R2C5-prix-saida.html",
+        "R2C6-prix-recruit-ii.html",
+        "R2C7-prix-tournay.html",
+        "R2C8-prix-mortemart.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-pelat.html",
+        "R3C2-prix-amati.html",
+        "R3C3-prix-gelas.html",
+        "R3C4-prix-jean-bart.html",
+        "R3C5-prix-saida.html",
+        "R3C6-prix-recruit-ii.html",
+        "R3C7-prix-tournay.html",
+        "R3C8-prix-mortemart.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-pelat.html",
+        "R4C2-prix-amati.html",
+        "R4C3-prix-gelas.html",
+        "R4C4-prix-jean-bart.html",
+        "R4C5-prix-saida.html",
+        "R4C6-prix-recruit-ii.html",
+        "R4C7-prix-tournay.html",
+        "R4C8-prix-mortemart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:59.709544Z"
+}

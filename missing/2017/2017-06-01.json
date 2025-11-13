@@ -1,0 +1,89 @@
+{
+  "date": "2017-06-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-01",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-01/2017-06-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C1-prix-de-la-haute-borne.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C2-prix-des-charmes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C3-prix-de-la-brie.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C4-prix-des-erables.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C5-prix-des-bouleaux.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C7-prix-des-vernes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R1-fontainebleau/R1C8-prix-des-chevreuils.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C1-prix-de-la-haute-borne.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C2-prix-des-charmes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C3-prix-de-la-brie.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C5-prix-des-bouleaux.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C7-prix-des-vernes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R2-nancy/R2C8-prix-des-chevreuils.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R3-lyon-parilly/R3C1-prix-de-la-haute-borne.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R3-lyon-parilly/R3C3-prix-de-la-brie.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R3-lyon-parilly/R3C7-prix-des-vernes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R3-lyon-parilly/R3C8-prix-des-chevreuils.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R4-cholet/R4C2-prix-des-charmes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R4-cholet/R4C7-prix-des-vernes.html",
+      "resultats-et-rapports/2017/06/2017-06-01/R4-cholet/R4C8-prix-des-chevreuils.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-nancy",
+      "R3-lyon-parilly",
+      "R4-cholet"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-haute-borne.html",
+        "R1C2-prix-des-charmes.html",
+        "R1C3-prix-de-la-brie.html",
+        "R1C4-prix-des-erables.html",
+        "R1C5-prix-des-bouleaux.html",
+        "R1C6-prix-des-cerfs.html",
+        "R1C7-prix-des-vernes.html",
+        "R1C8-prix-des-chevreuils.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-de-la-haute-borne.html",
+        "R2C2-prix-des-charmes.html",
+        "R2C3-prix-de-la-brie.html",
+        "R2C4-prix-des-erables.html",
+        "R2C5-prix-des-bouleaux.html",
+        "R2C6-prix-des-cerfs.html",
+        "R2C7-prix-des-vernes.html",
+        "R2C8-prix-des-chevreuils.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-la-haute-borne.html",
+        "R3C2-prix-des-charmes.html",
+        "R3C3-prix-de-la-brie.html",
+        "R3C4-prix-des-erables.html",
+        "R3C5-prix-des-bouleaux.html",
+        "R3C6-prix-des-cerfs.html",
+        "R3C7-prix-des-vernes.html",
+        "R3C8-prix-des-chevreuils.html"
+      ],
+      "R4-cholet": [
+        "R4C1-prix-de-la-haute-borne.html",
+        "R4C2-prix-des-charmes.html",
+        "R4C3-prix-de-la-brie.html",
+        "R4C4-prix-des-erables.html",
+        "R4C5-prix-des-bouleaux.html",
+        "R4C6-prix-des-cerfs.html",
+        "R4C7-prix-des-vernes.html",
+        "R4C8-prix-des-chevreuils.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:52.112369Z"
+}

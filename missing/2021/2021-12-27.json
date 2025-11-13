@@ -1,0 +1,66 @@
+{
+  "date": "2021-12-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-27",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-27/2021-12-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-27/R1-deauville/R1C6-prix-de-l-auberge-moisy.html",
+      "resultats-et-rapports/2021/12/2021-12-27/R1-deauville/R1C7-prix-du-buste-de-francois-andre.html",
+      "resultats-et-rapports/2021/12/2021-12-27/R3-argentan/R3C1-prix-de-saint-ceneri-le-gerei.html",
+      "resultats-et-rapports/2021/12/2021-12-27/R3-argentan/R3C5-prix-du-belvedere-des-avaloirs.html",
+      "resultats-et-rapports/2021/12/2021-12-27/R4-cagnes-sur-mer/R4C5-prix-du-belvedere-des-avaloirs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-argentan",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-saint-ceneri-le-gerei.html",
+        "R1C2-prix-de-pennedepie.html",
+        "R1C3-prix-du-moulin-de-trotte.html",
+        "R1C4-prix-helen-street.html",
+        "R1C5-prix-du-belvedere-des-avaloirs.html",
+        "R1C6-prix-de-l-auberge-moisy.html",
+        "R1C7-prix-du-buste-de-francois-andre.html",
+        "R1C8-prix-de-bourgeauville.html",
+        "R1C9-prix-de-l-auberge-des-peintres.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-de-saint-ceneri-le-gerei.html",
+        "R3C2-prix-de-pennedepie.html",
+        "R3C3-prix-du-moulin-de-trotte.html",
+        "R3C4-prix-helen-street.html",
+        "R3C5-prix-du-belvedere-des-avaloirs.html",
+        "R3C6-prix-de-l-auberge-moisy.html",
+        "R3C7-prix-du-buste-de-francois-andre.html",
+        "R3C8-prix-de-bourgeauville.html",
+        "R3C9-prix-de-l-auberge-des-peintres.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-saint-ceneri-le-gerei.html",
+        "R4C2-prix-de-pennedepie.html",
+        "R4C3-prix-du-moulin-de-trotte.html",
+        "R4C4-prix-helen-street.html",
+        "R4C5-prix-du-belvedere-des-avaloirs.html",
+        "R4C6-prix-de-l-auberge-moisy.html",
+        "R4C7-prix-du-buste-de-francois-andre.html",
+        "R4C8-prix-de-bourgeauville.html",
+        "R4C9-prix-de-l-auberge-des-peintres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:35.645017Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2022-03-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-23",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-23/2022-03-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-23/R1-lisieux/R1C1-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R1-lisieux/R1C5-prix-de-la-societe-des-courses-lisieux.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R1-lisieux/R1C8-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R3-la-teste-de-buch/R3C1-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R3-la-teste-de-buch/R3C6-prix-abc-ambulances.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R3-la-teste-de-buch/R3C7-prix-larcher-publicite.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R3-la-teste-de-buch/R3C8-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C2-prix-mfr-vimoutiers.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C3-prix-saveurs-traiteur.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C4-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C5-prix-de-la-societe-des-courses-lisieux.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C6-prix-abc-ambulances.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C7-prix-larcher-publicite.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R4-le-croise-laroche/R4C8-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C1-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C2-prix-mfr-vimoutiers.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C3-prix-saveurs-traiteur.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C4-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C6-prix-abc-ambulances.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C7-prix-larcher-publicite.html",
+      "resultats-et-rapports/2022/03/2022-03-23/R7-marseille-borely/R7C8-prix-du-credit-agricole-normandie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R3-la-teste-de-buch",
+      "R4-le-croise-laroche",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-prix-roger-ledoyen.html",
+        "R1C2-prix-mfr-vimoutiers.html",
+        "R1C3-prix-saveurs-traiteur.html",
+        "R1C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R1C5-prix-de-la-societe-des-courses-lisieux.html",
+        "R1C6-prix-abc-ambulances.html",
+        "R1C7-prix-larcher-publicite.html",
+        "R1C8-prix-du-credit-agricole-normandie.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-roger-ledoyen.html",
+        "R3C2-prix-mfr-vimoutiers.html",
+        "R3C3-prix-saveurs-traiteur.html",
+        "R3C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R3C5-prix-de-la-societe-des-courses-lisieux.html",
+        "R3C6-prix-abc-ambulances.html",
+        "R3C7-prix-larcher-publicite.html",
+        "R3C8-prix-du-credit-agricole-normandie.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-roger-ledoyen.html",
+        "R4C2-prix-mfr-vimoutiers.html",
+        "R4C3-prix-saveurs-traiteur.html",
+        "R4C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R4C5-prix-de-la-societe-des-courses-lisieux.html",
+        "R4C6-prix-abc-ambulances.html",
+        "R4C7-prix-larcher-publicite.html",
+        "R4C8-prix-du-credit-agricole-normandie.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-roger-ledoyen.html",
+        "R7C2-prix-mfr-vimoutiers.html",
+        "R7C3-prix-saveurs-traiteur.html",
+        "R7C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R7C5-prix-de-la-societe-des-courses-lisieux.html",
+        "R7C6-prix-abc-ambulances.html",
+        "R7C7-prix-larcher-publicite.html",
+        "R7C8-prix-du-credit-agricole-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:03.225780Z"
+}

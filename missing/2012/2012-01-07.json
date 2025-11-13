@@ -1,0 +1,65 @@
+{
+  "date": "2012-01-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/01/2012-01-07",
+    "date_html": "resultats-et-rapports/2012/01/2012-01-07/2012-01-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/01/2012-01-07/R1-vincennes/R1C3-prix-de-tonnac-villeneuve.html",
+      "resultats-et-rapports/2012/01/2012-01-07/R1-vincennes/R1C8-prix-de-valdampierre.html",
+      "resultats-et-rapports/2012/01/2012-01-07/R2-deauville/R2C2-prix-de-breteuil.html",
+      "resultats-et-rapports/2012/01/2012-01-07/R2-deauville/R2C4-prix-de-maisons-alfort.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-sully.html",
+        "R1C2-prix-de-breteuil.html",
+        "R1C3-prix-de-tonnac-villeneuve.html",
+        "R1C4-prix-de-maisons-alfort.html",
+        "R1C5-prix-de-saint-flour.html",
+        "R1C6-prix-leon-tacquet.html",
+        "R1C7-prix-de-douai.html",
+        "R1C8-prix-de-valdampierre.html",
+        "R1C9-prix-d-acigne.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-sully.html",
+        "R2C2-prix-de-breteuil.html",
+        "R2C3-prix-de-tonnac-villeneuve.html",
+        "R2C4-prix-de-maisons-alfort.html",
+        "R2C5-prix-de-saint-flour.html",
+        "R2C6-prix-leon-tacquet.html",
+        "R2C7-prix-de-douai.html",
+        "R2C8-prix-de-valdampierre.html",
+        "R2C9-prix-d-acigne.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-sully.html",
+        "R3C2-prix-de-breteuil.html",
+        "R3C3-prix-de-tonnac-villeneuve.html",
+        "R3C4-prix-de-maisons-alfort.html",
+        "R3C5-prix-de-saint-flour.html",
+        "R3C6-prix-leon-tacquet.html",
+        "R3C7-prix-de-douai.html",
+        "R3C8-prix-de-valdampierre.html",
+        "R3C9-prix-d-acigne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:09.881619Z"
+}

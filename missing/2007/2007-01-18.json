@@ -1,0 +1,70 @@
+{
+  "date": "2007-01-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/01/2007-01-18",
+    "date_html": "resultats-et-rapports/2007/01/2007-01-18/2007-01-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/01/2007-01-18/R1-vincennes/R1C1-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R1-vincennes/R1C2-prix-d-agen.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R1-vincennes/R1C3-prix-de-luchon.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R1-vincennes/R1C8-prix-d-orleans.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R2-pau/R2C1-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R2-pau/R2C2-prix-d-agen.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R2-pau/R2C3-prix-de-luchon.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R2-pau/R2C4-prix-de-bayonne.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R21-zerace/R21C5-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R21-zerace/R21C6-prix-de-saint-pol.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R21-zerace/R21C7-prix-de-marolles.html",
+      "resultats-et-rapports/2007/01/2007-01-18/R21-zerace/R21C8-prix-d-orleans.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-pont-a-mousson.html",
+        "R1C2-prix-d-agen.html",
+        "R1C3-prix-de-luchon.html",
+        "R1C4-prix-de-bayonne.html",
+        "R1C5-prix-de-pontault-combault.html",
+        "R1C6-prix-de-saint-pol.html",
+        "R1C7-prix-de-marolles.html",
+        "R1C8-prix-d-orleans.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-pont-a-mousson.html",
+        "R2C2-prix-d-agen.html",
+        "R2C3-prix-de-luchon.html",
+        "R2C4-prix-de-bayonne.html",
+        "R2C5-prix-de-pontault-combault.html",
+        "R2C6-prix-de-saint-pol.html",
+        "R2C7-prix-de-marolles.html",
+        "R2C8-prix-d-orleans.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-pont-a-mousson.html",
+        "R21C2-prix-d-agen.html",
+        "R21C3-prix-de-luchon.html",
+        "R21C4-prix-de-bayonne.html",
+        "R21C5-prix-de-pontault-combault.html",
+        "R21C6-prix-de-saint-pol.html",
+        "R21C7-prix-de-marolles.html",
+        "R21C8-prix-d-orleans.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:07.367751Z"
+}

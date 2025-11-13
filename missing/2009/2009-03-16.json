@@ -1,0 +1,131 @@
+{
+  "date": "2009-03-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/03/2009-03-16",
+    "date_html": "resultats-et-rapports/2009/03/2009-03-16/2009-03-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/03/2009-03-16/R1-compiegne/R1C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R1-compiegne/R1C2-prix-d-hautefontaine.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R1-compiegne/R1C3-prix-pierre-jamme.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R1-compiegne/R1C4-prix-henry-foy.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R1-compiegne/R1C5-prix-de-mercieres.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R2-hyeres/R2C3-prix-pierre-jamme.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R2-hyeres/R2C7-prix-de-berancourt.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R4-chatillon/R4C2-prix-d-hautefontaine.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R4-chatillon/R4C3-prix-pierre-jamme.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R4-chatillon/R4C6-prix-de-jaux.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R5-angers/R5C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R5-angers/R5C4-prix-henry-foy.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C3-prix-pierre-jamme.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C4-prix-henry-foy.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C5-prix-de-mercieres.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C6-prix-de-jaux.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R6-le-croise-laroche/R6C7-prix-de-berancourt.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C2-prix-d-hautefontaine.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C3-prix-pierre-jamme.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C4-prix-henry-foy.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C5-prix-de-mercieres.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C7-prix-de-berancourt.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R31-zerace/R31C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R70-stade-des-costieres-nimes/R70C2-prix-d-hautefontaine.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R70-stade-des-costieres-nimes/R70C4-prix-henry-foy.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R70-stade-des-costieres-nimes/R70C5-prix-de-mercieres.html",
+      "resultats-et-rapports/2009/03/2009-03-16/R70-stade-des-costieres-nimes/R70C6-prix-de-jaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-hyeres",
+      "R4-chatillon",
+      "R5-angers",
+      "R6-le-croise-laroche",
+      "R31-zerace",
+      "R70-stade-des-costieres-nimes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-chateau-de-compiegne.html",
+        "R1C2-prix-d-hautefontaine.html",
+        "R1C3-prix-pierre-jamme.html",
+        "R1C4-prix-henry-foy.html",
+        "R1C5-prix-de-mercieres.html",
+        "R1C6-prix-de-jaux.html",
+        "R1C7-prix-de-berancourt.html",
+        "R1C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R2-hyeres": [
+        "R2C1-prix-du-chateau-de-compiegne.html",
+        "R2C2-prix-d-hautefontaine.html",
+        "R2C3-prix-pierre-jamme.html",
+        "R2C4-prix-henry-foy.html",
+        "R2C5-prix-de-mercieres.html",
+        "R2C6-prix-de-jaux.html",
+        "R2C7-prix-de-berancourt.html",
+        "R2C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R4-chatillon": [
+        "R4C1-prix-du-chateau-de-compiegne.html",
+        "R4C2-prix-d-hautefontaine.html",
+        "R4C3-prix-pierre-jamme.html",
+        "R4C4-prix-henry-foy.html",
+        "R4C5-prix-de-mercieres.html",
+        "R4C6-prix-de-jaux.html",
+        "R4C7-prix-de-berancourt.html",
+        "R4C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R5-angers": [
+        "R5C1-prix-du-chateau-de-compiegne.html",
+        "R5C2-prix-d-hautefontaine.html",
+        "R5C3-prix-pierre-jamme.html",
+        "R5C4-prix-henry-foy.html",
+        "R5C5-prix-de-mercieres.html",
+        "R5C6-prix-de-jaux.html",
+        "R5C7-prix-de-berancourt.html",
+        "R5C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-du-chateau-de-compiegne.html",
+        "R6C2-prix-d-hautefontaine.html",
+        "R6C3-prix-pierre-jamme.html",
+        "R6C4-prix-henry-foy.html",
+        "R6C5-prix-de-mercieres.html",
+        "R6C6-prix-de-jaux.html",
+        "R6C7-prix-de-berancourt.html",
+        "R6C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-chateau-de-compiegne.html",
+        "R31C2-prix-d-hautefontaine.html",
+        "R31C3-prix-pierre-jamme.html",
+        "R31C4-prix-henry-foy.html",
+        "R31C5-prix-de-mercieres.html",
+        "R31C6-prix-de-jaux.html",
+        "R31C7-prix-de-berancourt.html",
+        "R31C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R70-stade-des-costieres-nimes": [
+        "R70C1-prix-du-chateau-de-compiegne.html",
+        "R70C2-prix-d-hautefontaine.html",
+        "R70C3-prix-pierre-jamme.html",
+        "R70C4-prix-henry-foy.html",
+        "R70C5-prix-de-mercieres.html",
+        "R70C6-prix-de-jaux.html",
+        "R70C7-prix-de-berancourt.html",
+        "R70C8-prix-des-bords-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:34:43.646992Z"
+}

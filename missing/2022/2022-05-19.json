@@ -1,0 +1,79 @@
+{
+  "date": "2022-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-19",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-19/2022-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-19/R1-paris-longchamp/R1C7-prix-des-quinze-vingts.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R2-angers/R2C5-prix-de-la-boetie.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R3-vichy/R3C1-prix-du-pont-alexandre-iii.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R3-vichy/R3C3-prix-d-argenteuil.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C2-prix-finlande.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C3-prix-d-argenteuil.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C4-prix-du-croule-barbe.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C5-prix-de-la-boetie.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C6-prix-du-ruisseau-de-longchamp.html",
+      "resultats-et-rapports/2022/05/2022-05-19/R4-lisieux/R4C8-prix-mercedes-benz-paris-prix-du-ruisseau-des-sablons.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-angers",
+      "R3-vichy",
+      "R4-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-pont-alexandre-iii.html",
+        "R1C2-prix-finlande.html",
+        "R1C3-prix-d-argenteuil.html",
+        "R1C4-prix-du-croule-barbe.html",
+        "R1C5-prix-de-la-boetie.html",
+        "R1C6-prix-du-ruisseau-de-longchamp.html",
+        "R1C7-prix-des-quinze-vingts.html",
+        "R1C8-prix-mercedes-benz-paris-prix-du-ruisseau-des-sablons.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-du-pont-alexandre-iii.html",
+        "R2C2-prix-finlande.html",
+        "R2C3-prix-d-argenteuil.html",
+        "R2C4-prix-du-croule-barbe.html",
+        "R2C5-prix-de-la-boetie.html",
+        "R2C6-prix-du-ruisseau-de-longchamp.html",
+        "R2C7-prix-des-quinze-vingts.html",
+        "R2C8-prix-mercedes-benz-paris-prix-du-ruisseau-des-sablons.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-du-pont-alexandre-iii.html",
+        "R3C2-prix-finlande.html",
+        "R3C3-prix-d-argenteuil.html",
+        "R3C4-prix-du-croule-barbe.html",
+        "R3C5-prix-de-la-boetie.html",
+        "R3C6-prix-du-ruisseau-de-longchamp.html",
+        "R3C7-prix-des-quinze-vingts.html",
+        "R3C8-prix-mercedes-benz-paris-prix-du-ruisseau-des-sablons.html"
+      ],
+      "R4-lisieux": [
+        "R4C1-prix-du-pont-alexandre-iii.html",
+        "R4C2-prix-finlande.html",
+        "R4C3-prix-d-argenteuil.html",
+        "R4C4-prix-du-croule-barbe.html",
+        "R4C5-prix-de-la-boetie.html",
+        "R4C6-prix-du-ruisseau-de-longchamp.html",
+        "R4C7-prix-des-quinze-vingts.html",
+        "R4C8-prix-mercedes-benz-paris-prix-du-ruisseau-des-sablons.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:24.129846Z"
+}

@@ -1,0 +1,141 @@
+{
+  "date": "2022-05-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-07",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-07/2022-05-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-07/R1-vincennes/R1C7-prix-de-menton.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R2-dax/R2C3-prix-du-rouergue.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R3-lyon-parilly/R3C3-prix-du-rouergue.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R3-lyon-parilly/R3C4-prix-de-rennes.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R3-lyon-parilly/R3C6-prix-albert-demarcq.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R3-lyon-parilly/R3C7-prix-de-menton.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R3-lyon-parilly/R3C9-prix-de-marcq-en-baroeul.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R4-auteuil/R4C3-prix-du-rouergue.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R4-auteuil/R4C5-prix-de-combree.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R4-auteuil/R4C8-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R4-auteuil/R4C9-prix-de-marcq-en-baroeul.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R7-cavaillon/R7C1-prix-de-louannec.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R7-cavaillon/R7C4-prix-de-rennes.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R7-cavaillon/R7C6-prix-albert-demarcq.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R7-cavaillon/R7C8-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R7-cavaillon/R7C9-prix-de-marcq-en-baroeul.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C3-prix-du-rouergue.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C4-prix-de-rennes.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C5-prix-de-combree.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C6-prix-albert-demarcq.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C7-prix-de-menton.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C8-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R8-graignes/R8C9-prix-de-marcq-en-baroeul.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C1-prix-de-louannec.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C2-prix-du-vaucluse.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C3-prix-du-rouergue.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C4-prix-de-rennes.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C5-prix-de-combree.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C6-prix-albert-demarcq.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C7-prix-de-menton.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C8-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2022/05/2022-05-07/R9-amiens/R9C9-prix-de-marcq-en-baroeul.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-dax",
+      "R3-lyon-parilly",
+      "R4-auteuil",
+      "R7-cavaillon",
+      "R8-graignes",
+      "R9-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-louannec.html",
+        "R1C2-prix-du-vaucluse.html",
+        "R1C3-prix-du-rouergue.html",
+        "R1C4-prix-de-rennes.html",
+        "R1C5-prix-de-combree.html",
+        "R1C6-prix-albert-demarcq.html",
+        "R1C7-prix-de-menton.html",
+        "R1C8-prix-roger-ledoyen.html",
+        "R1C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R2-dax": [
+        "R2C1-prix-de-louannec.html",
+        "R2C2-prix-du-vaucluse.html",
+        "R2C3-prix-du-rouergue.html",
+        "R2C4-prix-de-rennes.html",
+        "R2C5-prix-de-combree.html",
+        "R2C6-prix-albert-demarcq.html",
+        "R2C7-prix-de-menton.html",
+        "R2C8-prix-roger-ledoyen.html",
+        "R2C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-louannec.html",
+        "R3C2-prix-du-vaucluse.html",
+        "R3C3-prix-du-rouergue.html",
+        "R3C4-prix-de-rennes.html",
+        "R3C5-prix-de-combree.html",
+        "R3C6-prix-albert-demarcq.html",
+        "R3C7-prix-de-menton.html",
+        "R3C8-prix-roger-ledoyen.html",
+        "R3C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-de-louannec.html",
+        "R4C2-prix-du-vaucluse.html",
+        "R4C3-prix-du-rouergue.html",
+        "R4C4-prix-de-rennes.html",
+        "R4C5-prix-de-combree.html",
+        "R4C6-prix-albert-demarcq.html",
+        "R4C7-prix-de-menton.html",
+        "R4C8-prix-roger-ledoyen.html",
+        "R4C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R7-cavaillon": [
+        "R7C1-prix-de-louannec.html",
+        "R7C2-prix-du-vaucluse.html",
+        "R7C3-prix-du-rouergue.html",
+        "R7C4-prix-de-rennes.html",
+        "R7C5-prix-de-combree.html",
+        "R7C6-prix-albert-demarcq.html",
+        "R7C7-prix-de-menton.html",
+        "R7C8-prix-roger-ledoyen.html",
+        "R7C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R8-graignes": [
+        "R8C1-prix-de-louannec.html",
+        "R8C2-prix-du-vaucluse.html",
+        "R8C3-prix-du-rouergue.html",
+        "R8C4-prix-de-rennes.html",
+        "R8C5-prix-de-combree.html",
+        "R8C6-prix-albert-demarcq.html",
+        "R8C7-prix-de-menton.html",
+        "R8C8-prix-roger-ledoyen.html",
+        "R8C9-prix-de-marcq-en-baroeul.html"
+      ],
+      "R9-amiens": [
+        "R9C1-prix-de-louannec.html",
+        "R9C2-prix-du-vaucluse.html",
+        "R9C3-prix-du-rouergue.html",
+        "R9C4-prix-de-rennes.html",
+        "R9C5-prix-de-combree.html",
+        "R9C6-prix-albert-demarcq.html",
+        "R9C7-prix-de-menton.html",
+        "R9C8-prix-roger-ledoyen.html",
+        "R9C9-prix-de-marcq-en-baroeul.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:19.690327Z"
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2017-01-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/01/2017-01-09",
+    "date_html": "resultats-et-rapports/2017/01/2017-01-09/2017-01-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/01/2017-01-09/R1-vincennes/R1C5-prix-de-gretz.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R1-vincennes/R1C6-prix-de-croissanville.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R3-pau/R3C2-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R4-marseille-vivaux/R4C5-prix-de-gretz.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R4-marseille-vivaux/R4C7-prix-de-gavray.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R4-marseille-vivaux/R4C8-prix-d-aubervilliers.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C1-prix-de-l-aveyron.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C2-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C3-prix-d-etrepagny.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C4-prix-de-villedieu.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C5-prix-de-gretz.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C6-prix-de-croissanville.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R6-toulouse/R6C7-prix-de-gavray.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C1-prix-de-l-aveyron.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C2-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C3-prix-d-etrepagny.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C4-prix-de-villedieu.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C5-prix-de-gretz.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C6-prix-de-croissanville.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C7-prix-de-gavray.html",
+      "resultats-et-rapports/2017/01/2017-01-09/R7-chateaubriant/R7C8-prix-d-aubervilliers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux",
+      "R6-toulouse",
+      "R7-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-aveyron.html",
+        "R1C2-prix-christelle-zimmer.html",
+        "R1C3-prix-d-etrepagny.html",
+        "R1C4-prix-de-villedieu.html",
+        "R1C5-prix-de-gretz.html",
+        "R1C6-prix-de-croissanville.html",
+        "R1C7-prix-de-gavray.html",
+        "R1C8-prix-d-aubervilliers.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-l-aveyron.html",
+        "R3C2-prix-christelle-zimmer.html",
+        "R3C3-prix-d-etrepagny.html",
+        "R3C4-prix-de-villedieu.html",
+        "R3C5-prix-de-gretz.html",
+        "R3C6-prix-de-croissanville.html",
+        "R3C7-prix-de-gavray.html",
+        "R3C8-prix-d-aubervilliers.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-l-aveyron.html",
+        "R4C2-prix-christelle-zimmer.html",
+        "R4C3-prix-d-etrepagny.html",
+        "R4C4-prix-de-villedieu.html",
+        "R4C5-prix-de-gretz.html",
+        "R4C6-prix-de-croissanville.html",
+        "R4C7-prix-de-gavray.html",
+        "R4C8-prix-d-aubervilliers.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-de-l-aveyron.html",
+        "R6C2-prix-christelle-zimmer.html",
+        "R6C3-prix-d-etrepagny.html",
+        "R6C4-prix-de-villedieu.html",
+        "R6C5-prix-de-gretz.html",
+        "R6C6-prix-de-croissanville.html",
+        "R6C7-prix-de-gavray.html",
+        "R6C8-prix-d-aubervilliers.html"
+      ],
+      "R7-chateaubriant": [
+        "R7C1-prix-de-l-aveyron.html",
+        "R7C2-prix-christelle-zimmer.html",
+        "R7C3-prix-d-etrepagny.html",
+        "R7C4-prix-de-villedieu.html",
+        "R7C5-prix-de-gretz.html",
+        "R7C6-prix-de-croissanville.html",
+        "R7C7-prix-de-gavray.html",
+        "R7C8-prix-d-aubervilliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:10.976245Z"
+}

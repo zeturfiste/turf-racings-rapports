@@ -1,0 +1,106 @@
+{
+  "date": "2025-05-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-29",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-29/2025-05-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-29/R2-lyon-parilly/R2C3-prix-de-sevres.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R2-lyon-parilly/R2C7-prix-d-escoville.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R3-nantes/R3C1-prix-de-malmaison.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R3-nantes/R3C3-prix-de-sevres.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R4-le-lion-d-angers/R4C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R4-le-lion-d-angers/R4C3-prix-de-sevres.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R4-le-lion-d-angers/R4C5-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R4-le-lion-d-angers/R4C7-prix-d-escoville.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R6-rambouillet/R6C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R6-rambouillet/R6C8-prix-du-mail.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R7-saint-brieuc/R7C3-prix-de-sevres.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R7-saint-brieuc/R7C4-prix-des-jeuxdis.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R7-saint-brieuc/R7C6-prix-du-petit-pre.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R7-saint-brieuc/R7C7-prix-d-escoville.html",
+      "resultats-et-rapports/2025/05/2025-05-29/R7-saint-brieuc/R7C8-prix-du-mail.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-lyon-parilly",
+      "R3-nantes",
+      "R4-le-lion-d-angers",
+      "R6-rambouillet",
+      "R7-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-malmaison.html",
+        "R1C2-prix-du-jardin-de-l-avre.html",
+        "R1C3-prix-de-sevres.html",
+        "R1C4-prix-des-jeuxdis.html",
+        "R1C5-prix-du-bord-de-l-eau.html",
+        "R1C6-prix-du-petit-pre.html",
+        "R1C7-prix-d-escoville.html",
+        "R1C8-prix-du-mail.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-malmaison.html",
+        "R2C2-prix-du-jardin-de-l-avre.html",
+        "R2C3-prix-de-sevres.html",
+        "R2C4-prix-des-jeuxdis.html",
+        "R2C5-prix-du-bord-de-l-eau.html",
+        "R2C6-prix-du-petit-pre.html",
+        "R2C7-prix-d-escoville.html",
+        "R2C8-prix-du-mail.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-malmaison.html",
+        "R3C2-prix-du-jardin-de-l-avre.html",
+        "R3C3-prix-de-sevres.html",
+        "R3C4-prix-des-jeuxdis.html",
+        "R3C5-prix-du-bord-de-l-eau.html",
+        "R3C6-prix-du-petit-pre.html",
+        "R3C7-prix-d-escoville.html",
+        "R3C8-prix-du-mail.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-malmaison.html",
+        "R4C2-prix-du-jardin-de-l-avre.html",
+        "R4C3-prix-de-sevres.html",
+        "R4C4-prix-des-jeuxdis.html",
+        "R4C5-prix-du-bord-de-l-eau.html",
+        "R4C6-prix-du-petit-pre.html",
+        "R4C7-prix-d-escoville.html",
+        "R4C8-prix-du-mail.html"
+      ],
+      "R6-rambouillet": [
+        "R6C1-prix-de-malmaison.html",
+        "R6C2-prix-du-jardin-de-l-avre.html",
+        "R6C3-prix-de-sevres.html",
+        "R6C4-prix-des-jeuxdis.html",
+        "R6C5-prix-du-bord-de-l-eau.html",
+        "R6C6-prix-du-petit-pre.html",
+        "R6C7-prix-d-escoville.html",
+        "R6C8-prix-du-mail.html"
+      ],
+      "R7-saint-brieuc": [
+        "R7C1-prix-de-malmaison.html",
+        "R7C2-prix-du-jardin-de-l-avre.html",
+        "R7C3-prix-de-sevres.html",
+        "R7C4-prix-des-jeuxdis.html",
+        "R7C5-prix-du-bord-de-l-eau.html",
+        "R7C6-prix-du-petit-pre.html",
+        "R7C7-prix-d-escoville.html",
+        "R7C8-prix-du-mail.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:00.014087Z"
+}

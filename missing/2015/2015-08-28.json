@@ -1,0 +1,104 @@
+{
+  "date": "2015-08-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-28",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-28/2015-08-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-28/R1-marseille-borely/R1C1-prix-pierre-puget.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R1-marseille-borely/R1C4-prix-de-cadolive.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R1-marseille-borely/R1C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R2-bordeaux-le-bouscat/R2C1-prix-pierre-puget.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R2-bordeaux-le-bouscat/R2C2-prix-andre-gregori.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R2-bordeaux-le-bouscat/R2C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C1-prix-pierre-puget.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C2-prix-andre-gregori.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C4-prix-de-cadolive.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C5-prix-colonel-maldan.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C6-prix-des-goudes.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R3-pornichet-la-baule/R3C8-prix-des-societaires.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R4-cabourg/R4C1-prix-pierre-puget.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R4-cabourg/R4C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R4-cabourg/R4C5-prix-colonel-maldan.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R4-cabourg/R4C6-prix-des-goudes.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R4-cabourg/R4C8-prix-des-societaires.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C4-prix-de-cadolive.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C5-prix-colonel-maldan.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C6-prix-des-goudes.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/08/2015-08-28/R7-amiens/R7C8-prix-des-societaires.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-bordeaux-le-bouscat",
+      "R3-pornichet-la-baule",
+      "R4-cabourg",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-pierre-puget.html",
+        "R1C2-prix-andre-gregori.html",
+        "R1C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+        "R1C4-prix-de-cadolive.html",
+        "R1C5-prix-colonel-maldan.html",
+        "R1C6-prix-des-goudes.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-des-societaires.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-pierre-puget.html",
+        "R2C2-prix-andre-gregori.html",
+        "R2C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+        "R2C4-prix-de-cadolive.html",
+        "R2C5-prix-colonel-maldan.html",
+        "R2C6-prix-des-goudes.html",
+        "R2C7-prix-d-acheres.html",
+        "R2C8-prix-des-societaires.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-pierre-puget.html",
+        "R3C2-prix-andre-gregori.html",
+        "R3C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+        "R3C4-prix-de-cadolive.html",
+        "R3C5-prix-colonel-maldan.html",
+        "R3C6-prix-des-goudes.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-des-societaires.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-pierre-puget.html",
+        "R4C2-prix-andre-gregori.html",
+        "R4C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+        "R4C4-prix-de-cadolive.html",
+        "R4C5-prix-colonel-maldan.html",
+        "R4C6-prix-des-goudes.html",
+        "R4C7-prix-d-acheres.html",
+        "R4C8-prix-des-societaires.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-pierre-puget.html",
+        "R7C2-prix-andre-gregori.html",
+        "R7C3-prix-du-syndicat-des-proprietaires-du-sud-est.html",
+        "R7C4-prix-de-cadolive.html",
+        "R7C5-prix-colonel-maldan.html",
+        "R7C6-prix-des-goudes.html",
+        "R7C7-prix-d-acheres.html",
+        "R7C8-prix-des-societaires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:40.836455Z"
+}

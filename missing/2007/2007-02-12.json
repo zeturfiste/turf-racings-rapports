@@ -1,0 +1,81 @@
+{
+  "date": "2007-02-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/02/2007-02-12",
+    "date_html": "resultats-et-rapports/2007/02/2007-02-12/2007-02-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/02/2007-02-12/R1-enghien-soisy/R1C8-prix-de-commentry.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R2-pau/R2C5-prix-du-gave.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R21-zerace/R21C1-prix-de-jullianges.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R21-zerace/R21C2-prix-gady-bird-groupe-a.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R21-zerace/R21C6-prix-quick-williams.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R21-zerace/R21C7-prix-de-bagnolet.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R21-zerace/R21C8-prix-de-commentry.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R41-enghien/R41C1-prix-de-jullianges.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R41-enghien/R41C2-prix-gady-bird-groupe-a.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R41-enghien/R41C3-prix-gady-bird-groupe-b.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R41-enghien/R41C5-prix-du-gave.html",
+      "resultats-et-rapports/2007/02/2007-02-12/R41-enghien/R41C7-prix-de-bagnolet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-pau",
+      "R21-zerace",
+      "R41-enghien"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-jullianges.html",
+        "R1C2-prix-gady-bird-groupe-a.html",
+        "R1C3-prix-gady-bird-groupe-b.html",
+        "R1C4-prix-de-romilly.html",
+        "R1C5-prix-du-gave.html",
+        "R1C6-prix-quick-williams.html",
+        "R1C7-prix-de-bagnolet.html",
+        "R1C8-prix-de-commentry.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-jullianges.html",
+        "R2C2-prix-gady-bird-groupe-a.html",
+        "R2C3-prix-gady-bird-groupe-b.html",
+        "R2C4-prix-de-romilly.html",
+        "R2C5-prix-du-gave.html",
+        "R2C6-prix-quick-williams.html",
+        "R2C7-prix-de-bagnolet.html",
+        "R2C8-prix-de-commentry.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-jullianges.html",
+        "R21C2-prix-gady-bird-groupe-a.html",
+        "R21C3-prix-gady-bird-groupe-b.html",
+        "R21C4-prix-de-romilly.html",
+        "R21C5-prix-du-gave.html",
+        "R21C6-prix-quick-williams.html",
+        "R21C7-prix-de-bagnolet.html",
+        "R21C8-prix-de-commentry.html"
+      ],
+      "R41-enghien": [
+        "R41C1-prix-de-jullianges.html",
+        "R41C2-prix-gady-bird-groupe-a.html",
+        "R41C3-prix-gady-bird-groupe-b.html",
+        "R41C4-prix-de-romilly.html",
+        "R41C5-prix-du-gave.html",
+        "R41C6-prix-quick-williams.html",
+        "R41C7-prix-de-bagnolet.html",
+        "R41C8-prix-de-commentry.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:16.136103Z"
+}

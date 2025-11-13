@@ -1,0 +1,86 @@
+{
+  "date": "2024-09-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-05",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-05/2024-09-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-05/R2-toulouse/R2C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R2-toulouse/R2C8-prix-de-l-allee-des-brouillards.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R3-lyon-parilly/R3C4-prix-de-craon.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R3-lyon-parilly/R3C7-prix-de-la-rue-de-l-abreuvoir.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C1-prix-du-fer-a-moulin.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C3-prix-de-charonne.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C4-prix-de-craon.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C5-prix-de-la-galerie-des-varietes.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C6-prix-du-passage-feydeau.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C7-prix-de-la-rue-de-l-abreuvoir.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C8-prix-de-l-allee-des-brouillards.html",
+      "resultats-et-rapports/2024/09/2024-09-05/R4-vincennes/R4C9-prix-de-la-rue-des-saules.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-toulouse",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-fer-a-moulin.html",
+        "R1C2-prix-de-lormoy.html",
+        "R1C3-prix-de-charonne.html",
+        "R1C4-prix-de-craon.html",
+        "R1C5-prix-de-la-galerie-des-varietes.html",
+        "R1C6-prix-du-passage-feydeau.html",
+        "R1C7-prix-de-la-rue-de-l-abreuvoir.html",
+        "R1C8-prix-de-l-allee-des-brouillards.html",
+        "R1C9-prix-de-la-rue-des-saules.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-du-fer-a-moulin.html",
+        "R2C2-prix-de-lormoy.html",
+        "R2C3-prix-de-charonne.html",
+        "R2C4-prix-de-craon.html",
+        "R2C5-prix-de-la-galerie-des-varietes.html",
+        "R2C6-prix-du-passage-feydeau.html",
+        "R2C7-prix-de-la-rue-de-l-abreuvoir.html",
+        "R2C8-prix-de-l-allee-des-brouillards.html",
+        "R2C9-prix-de-la-rue-des-saules.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-fer-a-moulin.html",
+        "R3C2-prix-de-lormoy.html",
+        "R3C3-prix-de-charonne.html",
+        "R3C4-prix-de-craon.html",
+        "R3C5-prix-de-la-galerie-des-varietes.html",
+        "R3C6-prix-du-passage-feydeau.html",
+        "R3C7-prix-de-la-rue-de-l-abreuvoir.html",
+        "R3C8-prix-de-l-allee-des-brouillards.html",
+        "R3C9-prix-de-la-rue-des-saules.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-fer-a-moulin.html",
+        "R4C2-prix-de-lormoy.html",
+        "R4C3-prix-de-charonne.html",
+        "R4C4-prix-de-craon.html",
+        "R4C5-prix-de-la-galerie-des-varietes.html",
+        "R4C6-prix-du-passage-feydeau.html",
+        "R4C7-prix-de-la-rue-de-l-abreuvoir.html",
+        "R4C8-prix-de-l-allee-des-brouillards.html",
+        "R4C9-prix-de-la-rue-des-saules.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:25.724830Z"
+}

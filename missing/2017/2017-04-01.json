@@ -1,0 +1,65 @@
+{
+  "date": "2017-04-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-01",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-01/2017-04-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-01/R1-auteuil/R1C3-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R1-auteuil/R1C5-prix-fleuret.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R3-caen/R3C1-prix-mitsouko-iii.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R3-caen/R3C5-prix-fleuret.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R4-laval/R4C2-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R4-laval/R4C3-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2017/04/2017-04-01/R4-laval/R4C7-prix-air-landais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-mitsouko-iii.html",
+        "R1C2-prix-general-de-rougemont.html",
+        "R1C3-prix-de-saint-maixent.html",
+        "R1C4-prix-guy-hunault.html",
+        "R1C5-prix-fleuret.html",
+        "R1C6-prix-rabastens.html",
+        "R1C7-prix-air-landais.html",
+        "R1C8-prix-kashnil.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-mitsouko-iii.html",
+        "R3C2-prix-general-de-rougemont.html",
+        "R3C3-prix-de-saint-maixent.html",
+        "R3C4-prix-guy-hunault.html",
+        "R3C5-prix-fleuret.html",
+        "R3C6-prix-rabastens.html",
+        "R3C7-prix-air-landais.html",
+        "R3C8-prix-kashnil.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-mitsouko-iii.html",
+        "R4C2-prix-general-de-rougemont.html",
+        "R4C3-prix-de-saint-maixent.html",
+        "R4C4-prix-guy-hunault.html",
+        "R4C5-prix-fleuret.html",
+        "R4C6-prix-rabastens.html",
+        "R4C7-prix-air-landais.html",
+        "R4C8-prix-kashnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:31.907003Z"
+}

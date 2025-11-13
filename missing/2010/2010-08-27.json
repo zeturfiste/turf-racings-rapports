@@ -1,0 +1,109 @@
+{
+  "date": "2010-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-27",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-27/2010-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-27/R1-deauville/R1C1-prix-de-saint-leonard-des-parcs.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R1-deauville/R1C2-prix-d-amfreville.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R1-deauville/R1C4-prix-triple-galop-prix-de-campigny.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R1-deauville/R1C8-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R2-cagnes-sur-mer/R2C1-prix-de-saint-leonard-des-parcs.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R2-cagnes-sur-mer/R2C2-prix-d-amfreville.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R2-cagnes-sur-mer/R2C3-prix-tendance-ouest-prix-d-afinebault.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C1-prix-de-saint-leonard-des-parcs.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C2-prix-d-amfreville.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C3-prix-tendance-ouest-prix-d-afinebault.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C4-prix-triple-galop-prix-de-campigny.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C5-prix-du-canal-du-havre.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C6-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C7-prix-de-saint-julien-le-faucon.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R3-cabourg/R3C8-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C1-prix-de-saint-leonard-des-parcs.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C2-prix-d-amfreville.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C3-prix-tendance-ouest-prix-d-afinebault.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C4-prix-triple-galop-prix-de-campigny.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C5-prix-du-canal-du-havre.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C6-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C7-prix-de-saint-julien-le-faucon.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R4-pontchateau/R4C8-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C2-prix-d-amfreville.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C3-prix-tendance-ouest-prix-d-afinebault.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C4-prix-triple-galop-prix-de-campigny.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C5-prix-du-canal-du-havre.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C6-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2010/08/2010-08-27/R6-toulouse/R6C7-prix-de-saint-julien-le-faucon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-cagnes-sur-mer",
+      "R3-cabourg",
+      "R4-pontchateau",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-saint-leonard-des-parcs.html",
+        "R1C2-prix-d-amfreville.html",
+        "R1C3-prix-tendance-ouest-prix-d-afinebault.html",
+        "R1C4-prix-triple-galop-prix-de-campigny.html",
+        "R1C5-prix-du-canal-du-havre.html",
+        "R1C6-prix-du-mesnil-eudes.html",
+        "R1C7-prix-de-saint-julien-le-faucon.html",
+        "R1C8-prix-du-mesnil-oger.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-saint-leonard-des-parcs.html",
+        "R2C2-prix-d-amfreville.html",
+        "R2C3-prix-tendance-ouest-prix-d-afinebault.html",
+        "R2C4-prix-triple-galop-prix-de-campigny.html",
+        "R2C5-prix-du-canal-du-havre.html",
+        "R2C6-prix-du-mesnil-eudes.html",
+        "R2C7-prix-de-saint-julien-le-faucon.html",
+        "R2C8-prix-du-mesnil-oger.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-saint-leonard-des-parcs.html",
+        "R3C2-prix-d-amfreville.html",
+        "R3C3-prix-tendance-ouest-prix-d-afinebault.html",
+        "R3C4-prix-triple-galop-prix-de-campigny.html",
+        "R3C5-prix-du-canal-du-havre.html",
+        "R3C6-prix-du-mesnil-eudes.html",
+        "R3C7-prix-de-saint-julien-le-faucon.html",
+        "R3C8-prix-du-mesnil-oger.html"
+      ],
+      "R4-pontchateau": [
+        "R4C1-prix-de-saint-leonard-des-parcs.html",
+        "R4C2-prix-d-amfreville.html",
+        "R4C3-prix-tendance-ouest-prix-d-afinebault.html",
+        "R4C4-prix-triple-galop-prix-de-campigny.html",
+        "R4C5-prix-du-canal-du-havre.html",
+        "R4C6-prix-du-mesnil-eudes.html",
+        "R4C7-prix-de-saint-julien-le-faucon.html",
+        "R4C8-prix-du-mesnil-oger.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-de-saint-leonard-des-parcs.html",
+        "R6C2-prix-d-amfreville.html",
+        "R6C3-prix-tendance-ouest-prix-d-afinebault.html",
+        "R6C4-prix-triple-galop-prix-de-campigny.html",
+        "R6C5-prix-du-canal-du-havre.html",
+        "R6C6-prix-du-mesnil-eudes.html",
+        "R6C7-prix-de-saint-julien-le-faucon.html",
+        "R6C8-prix-du-mesnil-oger.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:51.310084Z"
+}

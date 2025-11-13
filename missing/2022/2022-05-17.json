@@ -1,0 +1,61 @@
+{
+  "date": "2022-05-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-17",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-17/2022-05-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-17/R3-graignes/R3C6-prix-double-rose.html",
+      "resultats-et-rapports/2022/05/2022-05-17/R4-vincennes/R4C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2022/05/2022-05-17/R4-vincennes/R4C3-prix-la-belle-ii.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-graignes",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-handicap-de-l-ile-de-france.html",
+        "R1C2-prix-hunyade.html",
+        "R1C3-prix-la-belle-ii.html",
+        "R1C4-prix-alcantara-ii.html",
+        "R1C5-prix-de-trie-chateau.html",
+        "R1C6-prix-double-rose.html",
+        "R1C7-prix-de-la-croix-verte.html",
+        "R1C8-handicap-de-normandie.html"
+      ],
+      "R3-graignes": [
+        "R3C1-handicap-de-l-ile-de-france.html",
+        "R3C2-prix-hunyade.html",
+        "R3C3-prix-la-belle-ii.html",
+        "R3C4-prix-alcantara-ii.html",
+        "R3C5-prix-de-trie-chateau.html",
+        "R3C6-prix-double-rose.html",
+        "R3C7-prix-de-la-croix-verte.html",
+        "R3C8-handicap-de-normandie.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-handicap-de-l-ile-de-france.html",
+        "R4C2-prix-hunyade.html",
+        "R4C3-prix-la-belle-ii.html",
+        "R4C4-prix-alcantara-ii.html",
+        "R4C5-prix-de-trie-chateau.html",
+        "R4C6-prix-double-rose.html",
+        "R4C7-prix-de-la-croix-verte.html",
+        "R4C8-handicap-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:23.614041Z"
+}

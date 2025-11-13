@@ -1,0 +1,104 @@
+{
+  "date": "2008-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/03/2008-03-07",
+    "date_html": "resultats-et-rapports/2008/03/2008-03-07/2008-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/03/2008-03-07/R2-cordemais/R2C6-prix-du-phare.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R2-cordemais/R2C7-prix-de-la-jetee.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R2-cordemais/R2C8-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C5-prix-d-alderney.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C6-prix-du-phare.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C7-prix-de-la-jetee.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R3-cagnes-sur-mer/R3C8-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C2-prix-du-vieux-marronnier.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C3-prix-nad-al-sheba.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C5-prix-d-alderney.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C6-prix-du-phare.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C7-prix-de-la-jetee.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R31-zerace/R31C8-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C2-prix-du-vieux-marronnier.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C3-prix-nad-al-sheba.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C6-prix-du-phare.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C7-prix-de-la-jetee.html",
+      "resultats-et-rapports/2008/03/2008-03-07/R70-stade-gabriel-montpied-clermont-ferrand/R70C8-prix-du-pays-de-cau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-cordemais",
+      "R3-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-stade-gabriel-montpied-clermont-ferrand"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-pays-de-bray.html",
+        "R1C2-prix-du-vieux-marronnier.html",
+        "R1C3-prix-nad-al-sheba.html",
+        "R1C4-prix-d-aurigny.html",
+        "R1C5-prix-d-alderney.html",
+        "R1C6-prix-du-phare.html",
+        "R1C7-prix-de-la-jetee.html",
+        "R1C8-prix-du-pays-de-cau.html"
+      ],
+      "R2-cordemais": [
+        "R2C1-prix-du-pays-de-bray.html",
+        "R2C2-prix-du-vieux-marronnier.html",
+        "R2C3-prix-nad-al-sheba.html",
+        "R2C4-prix-d-aurigny.html",
+        "R2C5-prix-d-alderney.html",
+        "R2C6-prix-du-phare.html",
+        "R2C7-prix-de-la-jetee.html",
+        "R2C8-prix-du-pays-de-cau.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-pays-de-bray.html",
+        "R3C2-prix-du-vieux-marronnier.html",
+        "R3C3-prix-nad-al-sheba.html",
+        "R3C4-prix-d-aurigny.html",
+        "R3C5-prix-d-alderney.html",
+        "R3C6-prix-du-phare.html",
+        "R3C7-prix-de-la-jetee.html",
+        "R3C8-prix-du-pays-de-cau.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-pays-de-bray.html",
+        "R31C2-prix-du-vieux-marronnier.html",
+        "R31C3-prix-nad-al-sheba.html",
+        "R31C4-prix-d-aurigny.html",
+        "R31C5-prix-d-alderney.html",
+        "R31C6-prix-du-phare.html",
+        "R31C7-prix-de-la-jetee.html",
+        "R31C8-prix-du-pays-de-cau.html"
+      ],
+      "R70-stade-gabriel-montpied-clermont-ferrand": [
+        "R70C1-prix-du-pays-de-bray.html",
+        "R70C2-prix-du-vieux-marronnier.html",
+        "R70C3-prix-nad-al-sheba.html",
+        "R70C4-prix-d-aurigny.html",
+        "R70C5-prix-d-alderney.html",
+        "R70C6-prix-du-phare.html",
+        "R70C7-prix-de-la-jetee.html",
+        "R70C8-prix-du-pays-de-cau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:51.235395Z"
+}

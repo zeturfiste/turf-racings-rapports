@@ -1,0 +1,96 @@
+{
+  "date": "2016-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-12",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-12/2016-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C1-prix-de-mauron.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C2-prix-du-pont-des-arts.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C3-prix-du-jardin-du-luxembourg.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C4-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C5-prix-de-la-seine-maritime.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R1-enghien-soisy/R1C8-prix-du-chateau-d-eau-groupe-b.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R3-chantilly/R3C5-prix-de-la-seine-maritime.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R3-chantilly/R3C7-prix-du-chateau-d-eau-groupe-a.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R3-chantilly/R3C9-prix-de-la-porte-d-aubervilliers.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C1-prix-de-mauron.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C2-prix-du-pont-des-arts.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C4-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C5-prix-de-la-seine-maritime.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C6-prix-de-la-porte-de-chatillon.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C7-prix-du-chateau-d-eau-groupe-a.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R4-toulouse/R4C8-prix-du-chateau-d-eau-groupe-b.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C1-prix-de-mauron.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C2-prix-du-pont-des-arts.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C3-prix-du-jardin-du-luxembourg.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C4-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C5-prix-de-la-seine-maritime.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C6-prix-de-la-porte-de-chatillon.html",
+      "resultats-et-rapports/2016/10/2016-10-12/R7-marseille-borely/R7C7-prix-du-chateau-d-eau-groupe-a.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-chantilly",
+      "R4-toulouse",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-mauron.html",
+        "R1C2-prix-du-pont-des-arts.html",
+        "R1C3-prix-du-jardin-du-luxembourg.html",
+        "R1C4-prix-de-la-tour-montparnasse.html",
+        "R1C5-prix-de-la-seine-maritime.html",
+        "R1C6-prix-de-la-porte-de-chatillon.html",
+        "R1C7-prix-du-chateau-d-eau-groupe-a.html",
+        "R1C8-prix-du-chateau-d-eau-groupe-b.html",
+        "R1C9-prix-de-la-porte-d-aubervilliers.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-mauron.html",
+        "R3C2-prix-du-pont-des-arts.html",
+        "R3C3-prix-du-jardin-du-luxembourg.html",
+        "R3C4-prix-de-la-tour-montparnasse.html",
+        "R3C5-prix-de-la-seine-maritime.html",
+        "R3C6-prix-de-la-porte-de-chatillon.html",
+        "R3C7-prix-du-chateau-d-eau-groupe-a.html",
+        "R3C8-prix-du-chateau-d-eau-groupe-b.html",
+        "R3C9-prix-de-la-porte-d-aubervilliers.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-mauron.html",
+        "R4C2-prix-du-pont-des-arts.html",
+        "R4C3-prix-du-jardin-du-luxembourg.html",
+        "R4C4-prix-de-la-tour-montparnasse.html",
+        "R4C5-prix-de-la-seine-maritime.html",
+        "R4C6-prix-de-la-porte-de-chatillon.html",
+        "R4C7-prix-du-chateau-d-eau-groupe-a.html",
+        "R4C8-prix-du-chateau-d-eau-groupe-b.html",
+        "R4C9-prix-de-la-porte-d-aubervilliers.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-de-mauron.html",
+        "R7C2-prix-du-pont-des-arts.html",
+        "R7C3-prix-du-jardin-du-luxembourg.html",
+        "R7C4-prix-de-la-tour-montparnasse.html",
+        "R7C5-prix-de-la-seine-maritime.html",
+        "R7C6-prix-de-la-porte-de-chatillon.html",
+        "R7C7-prix-du-chateau-d-eau-groupe-a.html",
+        "R7C8-prix-du-chateau-d-eau-groupe-b.html",
+        "R7C9-prix-de-la-porte-d-aubervilliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:44.611143Z"
+}

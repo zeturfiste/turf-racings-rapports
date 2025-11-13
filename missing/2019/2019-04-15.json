@@ -1,0 +1,106 @@
+{
+  "date": "2019-04-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-15",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-15/2019-04-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-15/R2-cavaillon/R2C3-prix-de-grignon.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R4-reims/R4C5-prix-de-beynes.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R4-reims/R4C7-prix-du-chateau-de-zhang-laffitte.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R6-angers/R6C4-prix-mincio.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R6-angers/R6C6-prix-durbar.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R6-angers/R6C7-prix-du-chateau-de-zhang-laffitte.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R7-caen/R7C7-prix-du-chateau-de-zhang-laffitte.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C1-prix-des-ecuries-du-chateau.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C2-prix-rieur.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C3-prix-de-grignon.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C4-prix-mincio.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C5-prix-de-beynes.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C6-prix-durbar.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C7-prix-du-chateau-de-zhang-laffitte.html",
+      "resultats-et-rapports/2019/04/2019-04-15/R8-toulouse/R8C8-prix-des-bords-de-seine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cavaillon",
+      "R4-reims",
+      "R6-angers",
+      "R7-caen",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-des-ecuries-du-chateau.html",
+        "R1C2-prix-rieur.html",
+        "R1C3-prix-de-grignon.html",
+        "R1C4-prix-mincio.html",
+        "R1C5-prix-de-beynes.html",
+        "R1C6-prix-durbar.html",
+        "R1C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R1C8-prix-des-bords-de-seine.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-des-ecuries-du-chateau.html",
+        "R2C2-prix-rieur.html",
+        "R2C3-prix-de-grignon.html",
+        "R2C4-prix-mincio.html",
+        "R2C5-prix-de-beynes.html",
+        "R2C6-prix-durbar.html",
+        "R2C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R2C8-prix-des-bords-de-seine.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-des-ecuries-du-chateau.html",
+        "R4C2-prix-rieur.html",
+        "R4C3-prix-de-grignon.html",
+        "R4C4-prix-mincio.html",
+        "R4C5-prix-de-beynes.html",
+        "R4C6-prix-durbar.html",
+        "R4C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R4C8-prix-des-bords-de-seine.html"
+      ],
+      "R6-angers": [
+        "R6C1-prix-des-ecuries-du-chateau.html",
+        "R6C2-prix-rieur.html",
+        "R6C3-prix-de-grignon.html",
+        "R6C4-prix-mincio.html",
+        "R6C5-prix-de-beynes.html",
+        "R6C6-prix-durbar.html",
+        "R6C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R6C8-prix-des-bords-de-seine.html"
+      ],
+      "R7-caen": [
+        "R7C1-prix-des-ecuries-du-chateau.html",
+        "R7C2-prix-rieur.html",
+        "R7C3-prix-de-grignon.html",
+        "R7C4-prix-mincio.html",
+        "R7C5-prix-de-beynes.html",
+        "R7C6-prix-durbar.html",
+        "R7C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R7C8-prix-des-bords-de-seine.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-des-ecuries-du-chateau.html",
+        "R8C2-prix-rieur.html",
+        "R8C3-prix-de-grignon.html",
+        "R8C4-prix-mincio.html",
+        "R8C5-prix-de-beynes.html",
+        "R8C6-prix-durbar.html",
+        "R8C7-prix-du-chateau-de-zhang-laffitte.html",
+        "R8C8-prix-des-bords-de-seine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:17.005040Z"
+}

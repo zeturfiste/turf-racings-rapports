@@ -1,0 +1,63 @@
+{
+  "date": "2023-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/08/2023-08-31",
+    "date_html": "resultats-et-rapports/2023/08/2023-08-31/2023-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/08/2023-08-31/R1-paris-longchamp/R1C6-prix-de-liancourt.html",
+      "resultats-et-rapports/2023/08/2023-08-31/R3-marseille-borely/R3C2-prix-de-la-cascade.html",
+      "resultats-et-rapports/2023/08/2023-08-31/R3-marseille-borely/R3C4-prix-gerald-de-geoffre-prix-de-lutece.html",
+      "resultats-et-rapports/2023/08/2023-08-31/R3-marseille-borely/R3C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2023/08/2023-08-31/R4-strasbourg/R4C2-prix-de-la-cascade.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-marseille-borely",
+      "R4-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-fontenoy.html",
+        "R1C2-prix-de-la-cascade.html",
+        "R1C3-prix-d-arenberg.html",
+        "R1C4-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R1C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-de-liancourt.html",
+        "R1C7-prix-de-picpus.html",
+        "R1C8-prix-du-bel-air.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-fontenoy.html",
+        "R3C2-prix-de-la-cascade.html",
+        "R3C3-prix-d-arenberg.html",
+        "R3C4-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R3C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-de-liancourt.html",
+        "R3C7-prix-de-picpus.html",
+        "R3C8-prix-du-bel-air.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-de-fontenoy.html",
+        "R4C2-prix-de-la-cascade.html",
+        "R4C3-prix-d-arenberg.html",
+        "R4C4-prix-gerald-de-geoffre-prix-de-lutece.html",
+        "R4C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-de-liancourt.html",
+        "R4C7-prix-de-picpus.html",
+        "R4C8-prix-du-bel-air.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:12.858083Z"
+}

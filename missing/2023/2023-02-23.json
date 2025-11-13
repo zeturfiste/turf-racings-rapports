@@ -1,0 +1,68 @@
+{
+  "date": "2023-02-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/02/2023-02-23",
+    "date_html": "resultats-et-rapports/2023/02/2023-02-23/2023-02-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/02/2023-02-23/R1-vincennes/R1C1-prix-de-vouziers.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R1-vincennes/R1C4-prix-de-mortagne.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R1-vincennes/R1C8-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R3-bordeaux-le-bouscat/R3C5-prix-de-marcenat.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C1-prix-de-vouziers.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C2-prix-de-poligny.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C3-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C6-prix-zeturf-une-histoire-de-turfiste.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C7-prix-de-plestin-les-greves.html",
+      "resultats-et-rapports/2023/02/2023-02-23/R4-lyon-la-soie/R4C8-prix-de-blain-bouvron-le-gavre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-bordeaux-le-bouscat",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-vouziers.html",
+        "R1C2-prix-de-poligny.html",
+        "R1C3-prix-de-pontault-combault.html",
+        "R1C4-prix-de-mortagne.html",
+        "R1C5-prix-de-marcenat.html",
+        "R1C6-prix-zeturf-une-histoire-de-turfiste.html",
+        "R1C7-prix-de-plestin-les-greves.html",
+        "R1C8-prix-de-blain-bouvron-le-gavre.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-vouziers.html",
+        "R3C2-prix-de-poligny.html",
+        "R3C3-prix-de-pontault-combault.html",
+        "R3C4-prix-de-mortagne.html",
+        "R3C5-prix-de-marcenat.html",
+        "R3C6-prix-zeturf-une-histoire-de-turfiste.html",
+        "R3C7-prix-de-plestin-les-greves.html",
+        "R3C8-prix-de-blain-bouvron-le-gavre.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-vouziers.html",
+        "R4C2-prix-de-poligny.html",
+        "R4C3-prix-de-pontault-combault.html",
+        "R4C4-prix-de-mortagne.html",
+        "R4C5-prix-de-marcenat.html",
+        "R4C6-prix-zeturf-une-histoire-de-turfiste.html",
+        "R4C7-prix-de-plestin-les-greves.html",
+        "R4C8-prix-de-blain-bouvron-le-gavre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:04.415101Z"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2021-09-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-08",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-08/2021-09-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-08/R1-pornichet-la-baule/R1C6-prix-rfm.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R1-pornichet-la-baule/R1C8-prix-de-la-carene.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R3-lyon-parilly/R3C5-prix-pmu-la-caravelle.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R3-lyon-parilly/R3C7-prix-seche-environnement.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R4-amiens/R4C2-prix-casino-partouche-de-pornichet.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R4-amiens/R4C5-prix-pmu-la-caravelle.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R7-toulouse/R7C3-prix-ds-store-saint-nazaire.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R7-toulouse/R7C4-prix-fouillet-artisans-pornichet.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R7-toulouse/R7C6-prix-rfm.html",
+      "resultats-et-rapports/2021/09/2021-09-08/R7-toulouse/R7C8-prix-de-la-carene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pornichet-la-baule",
+      "R3-lyon-parilly",
+      "R4-amiens",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-pornichet-la-baule": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-casino-partouche-de-pornichet.html",
+        "R1C3-prix-ds-store-saint-nazaire.html",
+        "R1C4-prix-fouillet-artisans-pornichet.html",
+        "R1C5-prix-pmu-la-caravelle.html",
+        "R1C6-prix-rfm.html",
+        "R1C7-prix-seche-environnement.html",
+        "R1C8-prix-de-la-carene.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-casino-partouche-de-pornichet.html",
+        "R3C3-prix-ds-store-saint-nazaire.html",
+        "R3C4-prix-fouillet-artisans-pornichet.html",
+        "R3C5-prix-pmu-la-caravelle.html",
+        "R3C6-prix-rfm.html",
+        "R3C7-prix-seche-environnement.html",
+        "R3C8-prix-de-la-carene.html"
+      ],
+      "R4-amiens": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-casino-partouche-de-pornichet.html",
+        "R4C3-prix-ds-store-saint-nazaire.html",
+        "R4C4-prix-fouillet-artisans-pornichet.html",
+        "R4C5-prix-pmu-la-caravelle.html",
+        "R4C6-prix-rfm.html",
+        "R4C7-prix-seche-environnement.html",
+        "R4C8-prix-de-la-carene.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-grand-national-du-trot-paris-turf.html",
+        "R7C2-prix-casino-partouche-de-pornichet.html",
+        "R7C3-prix-ds-store-saint-nazaire.html",
+        "R7C4-prix-fouillet-artisans-pornichet.html",
+        "R7C5-prix-pmu-la-caravelle.html",
+        "R7C6-prix-rfm.html",
+        "R7C7-prix-seche-environnement.html",
+        "R7C8-prix-de-la-carene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:57.233167Z"
+}

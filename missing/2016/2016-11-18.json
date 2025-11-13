@@ -1,0 +1,59 @@
+{
+  "date": "2016-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-18",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-18/2016-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-18/R4-lyon-la-soie/R4C1-prix-calliope.html",
+      "resultats-et-rapports/2016/11/2016-11-18/R4-lyon-la-soie/R4C2-prix-mizar.html",
+      "resultats-et-rapports/2016/11/2016-11-18/R4-lyon-la-soie/R4C3-prix-circinus.html",
+      "resultats-et-rapports/2016/11/2016-11-18/R4-lyon-la-soie/R4C5-prix-leona.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-saint-cloud",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-calliope.html",
+        "R1C2-prix-mizar.html",
+        "R1C3-prix-circinus.html",
+        "R1C4-prix-vulpecula.html",
+        "R1C5-prix-leona.html",
+        "R1C6-prix-siwa.html",
+        "R1C7-prix-hyperion.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-calliope.html",
+        "R3C2-prix-mizar.html",
+        "R3C3-prix-circinus.html",
+        "R3C4-prix-vulpecula.html",
+        "R3C5-prix-leona.html",
+        "R3C6-prix-siwa.html",
+        "R3C7-prix-hyperion.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-calliope.html",
+        "R4C2-prix-mizar.html",
+        "R4C3-prix-circinus.html",
+        "R4C4-prix-vulpecula.html",
+        "R4C5-prix-leona.html",
+        "R4C6-prix-siwa.html",
+        "R4C7-prix-hyperion.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:57.040374Z"
+}

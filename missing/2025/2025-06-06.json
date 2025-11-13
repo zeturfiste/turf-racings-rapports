@@ -1,0 +1,77 @@
+{
+  "date": "2025-06-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-06",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-06/2025-06-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-06/R1-vincennes/R1C7-prix-marsik.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R1-vincennes/R1C8-prix-lydia.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R4-compiegne/R4C3-prix-tropiques-fm-prix-mimas.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R4-compiegne/R4C4-prix-adalberta.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R5-nancy/R5C1-prix-titania.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R5-nancy/R5C2-prix-billets-discount-prix-kaitain.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R5-nancy/R5C4-prix-adalberta.html",
+      "resultats-et-rapports/2025/06/2025-06-06/R5-nancy/R5C6-prix-d-istres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-toulouse",
+      "R4-compiegne",
+      "R5-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-titania.html",
+        "R1C2-prix-billets-discount-prix-kaitain.html",
+        "R1C3-prix-tropiques-fm-prix-mimas.html",
+        "R1C4-prix-adalberta.html",
+        "R1C5-prix-trace-tv-prix-de-gien.html",
+        "R1C6-prix-d-istres.html",
+        "R1C7-prix-marsik.html",
+        "R1C8-prix-lydia.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-titania.html",
+        "R3C2-prix-billets-discount-prix-kaitain.html",
+        "R3C3-prix-tropiques-fm-prix-mimas.html",
+        "R3C4-prix-adalberta.html",
+        "R3C5-prix-trace-tv-prix-de-gien.html",
+        "R3C6-prix-d-istres.html",
+        "R3C7-prix-marsik.html",
+        "R3C8-prix-lydia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-titania.html",
+        "R4C2-prix-billets-discount-prix-kaitain.html",
+        "R4C3-prix-tropiques-fm-prix-mimas.html",
+        "R4C4-prix-adalberta.html",
+        "R4C5-prix-trace-tv-prix-de-gien.html",
+        "R4C6-prix-d-istres.html",
+        "R4C7-prix-marsik.html",
+        "R4C8-prix-lydia.html"
+      ],
+      "R5-nancy": [
+        "R5C1-prix-titania.html",
+        "R5C2-prix-billets-discount-prix-kaitain.html",
+        "R5C3-prix-tropiques-fm-prix-mimas.html",
+        "R5C4-prix-adalberta.html",
+        "R5C5-prix-trace-tv-prix-de-gien.html",
+        "R5C6-prix-d-istres.html",
+        "R5C7-prix-marsik.html",
+        "R5C8-prix-lydia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:03.157331Z"
+}

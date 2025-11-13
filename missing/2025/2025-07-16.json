@@ -1,0 +1,105 @@
+{
+  "date": "2025-07-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-16",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-16/2025-07-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-16/R1-le-mont-saint-michel/R1C8-prix-de-beauvoir.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R4-clairefontaine/R4C5-prix-des-vans-mtm.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R4-clairefontaine/R4C7-prix-des-etablissements-rault-tracteurs.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R5-vichy/R5C1-prix-sarl-sarrazin.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R5-vichy/R5C2-prix-de-pontorson.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R5-vichy/R5C4-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R5-vichy/R5C6-prix-paristurf.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R8-les-sables-d-olonne/R8C3-prix-sarl-tp-du-val-de-see.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R8-les-sables-d-olonne/R8C6-prix-paristurf.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R8-les-sables-d-olonne/R8C7-prix-des-etablissements-rault-tracteurs.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R8-les-sables-d-olonne/R8C8-prix-de-beauvoir.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R9-cagnes-sur-mer/R9C2-prix-de-pontorson.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R9-cagnes-sur-mer/R9C6-prix-paristurf.html",
+      "resultats-et-rapports/2025/07/2025-07-16/R9-cagnes-sur-mer/R9C8-prix-de-beauvoir.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-mont-saint-michel",
+      "R2-mont-de-marsan",
+      "R4-clairefontaine",
+      "R5-vichy",
+      "R8-les-sables-d-olonne",
+      "R9-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-le-mont-saint-michel": [
+        "R1C1-prix-sarl-sarrazin.html",
+        "R1C2-prix-de-pontorson.html",
+        "R1C3-prix-sarl-tp-du-val-de-see.html",
+        "R1C4-prix-du-conseil-regional-de-normandie.html",
+        "R1C5-prix-des-vans-mtm.html",
+        "R1C6-prix-paristurf.html",
+        "R1C7-prix-des-etablissements-rault-tracteurs.html",
+        "R1C8-prix-de-beauvoir.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-sarl-sarrazin.html",
+        "R2C2-prix-de-pontorson.html",
+        "R2C3-prix-sarl-tp-du-val-de-see.html",
+        "R2C4-prix-du-conseil-regional-de-normandie.html",
+        "R2C5-prix-des-vans-mtm.html",
+        "R2C6-prix-paristurf.html",
+        "R2C7-prix-des-etablissements-rault-tracteurs.html",
+        "R2C8-prix-de-beauvoir.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-sarl-sarrazin.html",
+        "R4C2-prix-de-pontorson.html",
+        "R4C3-prix-sarl-tp-du-val-de-see.html",
+        "R4C4-prix-du-conseil-regional-de-normandie.html",
+        "R4C5-prix-des-vans-mtm.html",
+        "R4C6-prix-paristurf.html",
+        "R4C7-prix-des-etablissements-rault-tracteurs.html",
+        "R4C8-prix-de-beauvoir.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-sarl-sarrazin.html",
+        "R5C2-prix-de-pontorson.html",
+        "R5C3-prix-sarl-tp-du-val-de-see.html",
+        "R5C4-prix-du-conseil-regional-de-normandie.html",
+        "R5C5-prix-des-vans-mtm.html",
+        "R5C6-prix-paristurf.html",
+        "R5C7-prix-des-etablissements-rault-tracteurs.html",
+        "R5C8-prix-de-beauvoir.html"
+      ],
+      "R8-les-sables-d-olonne": [
+        "R8C1-prix-sarl-sarrazin.html",
+        "R8C2-prix-de-pontorson.html",
+        "R8C3-prix-sarl-tp-du-val-de-see.html",
+        "R8C4-prix-du-conseil-regional-de-normandie.html",
+        "R8C5-prix-des-vans-mtm.html",
+        "R8C6-prix-paristurf.html",
+        "R8C7-prix-des-etablissements-rault-tracteurs.html",
+        "R8C8-prix-de-beauvoir.html"
+      ],
+      "R9-cagnes-sur-mer": [
+        "R9C1-prix-sarl-sarrazin.html",
+        "R9C2-prix-de-pontorson.html",
+        "R9C3-prix-sarl-tp-du-val-de-see.html",
+        "R9C4-prix-du-conseil-regional-de-normandie.html",
+        "R9C5-prix-des-vans-mtm.html",
+        "R9C6-prix-paristurf.html",
+        "R9C7-prix-des-etablissements-rault-tracteurs.html",
+        "R9C8-prix-de-beauvoir.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:17.945091Z"
+}

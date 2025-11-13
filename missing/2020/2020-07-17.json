@@ -1,0 +1,92 @@
+{
+  "date": "2020-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/07/2020-07-17",
+    "date_html": "resultats-et-rapports/2020/07/2020-07-17/2020-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/07/2020-07-17/R4-angers/R4C4-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R4-angers/R4C5-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R4-angers/R4C7-prix-des-listeres.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R5-chantilly/R5C1-prix-des-fuschias.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R5-chantilly/R5C6-prix-des-callunes.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R5-chantilly/R5C8-prix-des-euphraises.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R6-pornichet-la-baule/R6C1-prix-des-fuschias.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R6-pornichet-la-baule/R6C4-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R6-pornichet-la-baule/R6C8-prix-des-euphraises.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R7-cagnes-sur-mer/R7C2-prix-fandango.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R7-cagnes-sur-mer/R7C7-prix-des-listeres.html",
+      "resultats-et-rapports/2020/07/2020-07-17/R7-cagnes-sur-mer/R7C8-prix-des-euphraises.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R4-angers",
+      "R5-chantilly",
+      "R6-pornichet-la-baule",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-fuschias.html",
+        "R1C2-prix-fandango.html",
+        "R1C3-grand-prix-de-la-ville-de-cabourg.html",
+        "R1C4-prix-en-selle-pour-nos-soignants.html",
+        "R1C5-prix-normandie-cabourg-pays-d-auge.html",
+        "R1C6-prix-des-callunes.html",
+        "R1C7-prix-des-listeres.html",
+        "R1C8-prix-des-euphraises.html"
+      ],
+      "R4-angers": [
+        "R4C1-prix-des-fuschias.html",
+        "R4C2-prix-fandango.html",
+        "R4C3-grand-prix-de-la-ville-de-cabourg.html",
+        "R4C4-prix-en-selle-pour-nos-soignants.html",
+        "R4C5-prix-normandie-cabourg-pays-d-auge.html",
+        "R4C6-prix-des-callunes.html",
+        "R4C7-prix-des-listeres.html",
+        "R4C8-prix-des-euphraises.html"
+      ],
+      "R5-chantilly": [
+        "R5C1-prix-des-fuschias.html",
+        "R5C2-prix-fandango.html",
+        "R5C3-grand-prix-de-la-ville-de-cabourg.html",
+        "R5C4-prix-en-selle-pour-nos-soignants.html",
+        "R5C5-prix-normandie-cabourg-pays-d-auge.html",
+        "R5C6-prix-des-callunes.html",
+        "R5C7-prix-des-listeres.html",
+        "R5C8-prix-des-euphraises.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-des-fuschias.html",
+        "R6C2-prix-fandango.html",
+        "R6C3-grand-prix-de-la-ville-de-cabourg.html",
+        "R6C4-prix-en-selle-pour-nos-soignants.html",
+        "R6C5-prix-normandie-cabourg-pays-d-auge.html",
+        "R6C6-prix-des-callunes.html",
+        "R6C7-prix-des-listeres.html",
+        "R6C8-prix-des-euphraises.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-des-fuschias.html",
+        "R7C2-prix-fandango.html",
+        "R7C3-grand-prix-de-la-ville-de-cabourg.html",
+        "R7C4-prix-en-selle-pour-nos-soignants.html",
+        "R7C5-prix-normandie-cabourg-pays-d-auge.html",
+        "R7C6-prix-des-callunes.html",
+        "R7C7-prix-des-listeres.html",
+        "R7C8-prix-des-euphraises.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:30.901399Z"
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2009-04-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/04/2009-04-23",
+    "date_html": "resultats-et-rapports/2009/04/2009-04-23/2009-04-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/04/2009-04-23/R2-nancy/R2C9-prix-de-louvres.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C1-prix-d-orry.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C2-prix-du-poncel.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C3-prix-du-premier-pas.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C4-prix-de-suresnes.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C6-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C7-prix-du-tombray.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R3-laval/R3C9-prix-de-louvres.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R31-zerace/R31C5-prix-servanne.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R31-zerace/R31C7-prix-du-tombray.html",
+      "resultats-et-rapports/2009/04/2009-04-23/R31-zerace/R31C8-prix-de-la-borne-blanche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nancy",
+      "R3-laval",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-d-orry.html",
+        "R1C2-prix-du-poncel.html",
+        "R1C3-prix-du-premier-pas.html",
+        "R1C4-prix-de-suresnes.html",
+        "R1C5-prix-servanne.html",
+        "R1C6-prix-des-cotes-d-orleans.html",
+        "R1C7-prix-du-tombray.html",
+        "R1C8-prix-de-la-borne-blanche.html",
+        "R1C9-prix-de-louvres.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-d-orry.html",
+        "R2C2-prix-du-poncel.html",
+        "R2C3-prix-du-premier-pas.html",
+        "R2C4-prix-de-suresnes.html",
+        "R2C5-prix-servanne.html",
+        "R2C6-prix-des-cotes-d-orleans.html",
+        "R2C7-prix-du-tombray.html",
+        "R2C8-prix-de-la-borne-blanche.html",
+        "R2C9-prix-de-louvres.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-d-orry.html",
+        "R3C2-prix-du-poncel.html",
+        "R3C3-prix-du-premier-pas.html",
+        "R3C4-prix-de-suresnes.html",
+        "R3C5-prix-servanne.html",
+        "R3C6-prix-des-cotes-d-orleans.html",
+        "R3C7-prix-du-tombray.html",
+        "R3C8-prix-de-la-borne-blanche.html",
+        "R3C9-prix-de-louvres.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-d-orry.html",
+        "R31C2-prix-du-poncel.html",
+        "R31C3-prix-du-premier-pas.html",
+        "R31C4-prix-de-suresnes.html",
+        "R31C5-prix-servanne.html",
+        "R31C6-prix-des-cotes-d-orleans.html",
+        "R31C7-prix-du-tombray.html",
+        "R31C8-prix-de-la-borne-blanche.html",
+        "R31C9-prix-de-louvres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:35:01.989593Z"
+}

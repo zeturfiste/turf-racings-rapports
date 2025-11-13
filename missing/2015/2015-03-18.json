@@ -1,0 +1,89 @@
+{
+  "date": "2015-03-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-18",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-18/2015-03-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-18/R1-agen/R1C1-grand-prix-dynavena-maisagri-duran.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R1-agen/R1C4-prix-de-l-entreprise-malet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R1-agen/R1C5-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R1-agen/R1C6-prix-de-la-ville-le-passage.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R2-enghien-soisy/R2C1-grand-prix-dynavena-maisagri-duran.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R2-enghien-soisy/R2C2-prix-du-conseil-general-du-lot-et-garonne.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R2-enghien-soisy/R2C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R2-enghien-soisy/R2C5-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R2-enghien-soisy/R2C8-prix-roger-lagenebre.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R3-le-croise-laroche/R3C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R3-le-croise-laroche/R3C4-prix-de-l-entreprise-malet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R3-le-croise-laroche/R3C6-prix-de-la-ville-le-passage.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R3-le-croise-laroche/R3C7-prix-du-comite-regional-du-trot.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R3-le-croise-laroche/R3C8-prix-roger-lagenebre.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C1-grand-prix-dynavena-maisagri-duran.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C4-prix-de-l-entreprise-malet.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C5-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C7-prix-du-comite-regional-du-trot.html",
+      "resultats-et-rapports/2015/03/2015-03-18/R7-marseille-borely/R7C8-prix-roger-lagenebre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-agen",
+      "R2-enghien-soisy",
+      "R3-le-croise-laroche",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-agen": [
+        "R1C1-grand-prix-dynavena-maisagri-duran.html",
+        "R1C2-prix-du-conseil-general-du-lot-et-garonne.html",
+        "R1C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R1C4-prix-de-l-entreprise-malet.html",
+        "R1C5-prix-de-l-agglomeration-d-agen.html",
+        "R1C6-prix-de-la-ville-le-passage.html",
+        "R1C7-prix-du-comite-regional-du-trot.html",
+        "R1C8-prix-roger-lagenebre.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-prix-dynavena-maisagri-duran.html",
+        "R2C2-prix-du-conseil-general-du-lot-et-garonne.html",
+        "R2C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R2C4-prix-de-l-entreprise-malet.html",
+        "R2C5-prix-de-l-agglomeration-d-agen.html",
+        "R2C6-prix-de-la-ville-le-passage.html",
+        "R2C7-prix-du-comite-regional-du-trot.html",
+        "R2C8-prix-roger-lagenebre.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-grand-prix-dynavena-maisagri-duran.html",
+        "R3C2-prix-du-conseil-general-du-lot-et-garonne.html",
+        "R3C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R3C4-prix-de-l-entreprise-malet.html",
+        "R3C5-prix-de-l-agglomeration-d-agen.html",
+        "R3C6-prix-de-la-ville-le-passage.html",
+        "R3C7-prix-du-comite-regional-du-trot.html",
+        "R3C8-prix-roger-lagenebre.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-prix-dynavena-maisagri-duran.html",
+        "R7C2-prix-du-conseil-general-du-lot-et-garonne.html",
+        "R7C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R7C4-prix-de-l-entreprise-malet.html",
+        "R7C5-prix-de-l-agglomeration-d-agen.html",
+        "R7C6-prix-de-la-ville-le-passage.html",
+        "R7C7-prix-du-comite-regional-du-trot.html",
+        "R7C8-prix-roger-lagenebre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:48.519747Z"
+}

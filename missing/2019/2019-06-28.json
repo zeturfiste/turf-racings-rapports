@@ -1,0 +1,86 @@
+{
+  "date": "2019-06-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-28",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-28/2019-06-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-28/R2-le-mont-saint-michel/R2C4-prix-isis.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R4-clairefontaine/R4C4-prix-isis.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R4-clairefontaine/R4C6-prix-urania.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R5-feurs/R5C4-prix-isis.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R5-feurs/R5C6-prix-urania.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R5-feurs/R5C7-prix-furnerius.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R7-toulouse/R7C1-prix-nemausa.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R7-toulouse/R7C3-prix-eva.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R7-toulouse/R7C4-prix-isis.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R7-toulouse/R7C5-prix-irene.html",
+      "resultats-et-rapports/2019/06/2019-06-28/R7-toulouse/R7C6-prix-urania.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-le-mont-saint-michel",
+      "R4-clairefontaine",
+      "R5-feurs",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-nemausa.html",
+        "R1C2-prix-paul-delanoe.html",
+        "R1C3-prix-eva.html",
+        "R1C4-prix-isis.html",
+        "R1C5-prix-irene.html",
+        "R1C6-prix-urania.html",
+        "R1C7-prix-furnerius.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-nemausa.html",
+        "R2C2-prix-paul-delanoe.html",
+        "R2C3-prix-eva.html",
+        "R2C4-prix-isis.html",
+        "R2C5-prix-irene.html",
+        "R2C6-prix-urania.html",
+        "R2C7-prix-furnerius.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-nemausa.html",
+        "R4C2-prix-paul-delanoe.html",
+        "R4C3-prix-eva.html",
+        "R4C4-prix-isis.html",
+        "R4C5-prix-irene.html",
+        "R4C6-prix-urania.html",
+        "R4C7-prix-furnerius.html"
+      ],
+      "R5-feurs": [
+        "R5C1-prix-nemausa.html",
+        "R5C2-prix-paul-delanoe.html",
+        "R5C3-prix-eva.html",
+        "R5C4-prix-isis.html",
+        "R5C5-prix-irene.html",
+        "R5C6-prix-urania.html",
+        "R5C7-prix-furnerius.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-nemausa.html",
+        "R7C2-prix-paul-delanoe.html",
+        "R7C3-prix-eva.html",
+        "R7C4-prix-isis.html",
+        "R7C5-prix-irene.html",
+        "R7C6-prix-urania.html",
+        "R7C7-prix-furnerius.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:41.349055Z"
+}

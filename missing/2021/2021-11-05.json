@@ -1,0 +1,84 @@
+{
+  "date": "2021-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-05",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-05/2021-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-05/R4-le-croise-laroche/R4C3-prix-gallea.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R5-deauville/R5C3-prix-gallea.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R5-deauville/R5C4-prix-ismene.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R5-deauville/R5C5-prix-aurora.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R5-deauville/R5C6-prix-mensa.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R7-salon-de-provence/R7C4-prix-ismene.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R7-salon-de-provence/R7C5-prix-aurora.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R7-salon-de-provence/R7C6-prix-mensa.html",
+      "resultats-et-rapports/2021/11/2021-11-05/R7-salon-de-provence/R7C7-prix-una.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cholet",
+      "R4-le-croise-laroche",
+      "R5-deauville",
+      "R7-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-barbara.html",
+        "R1C2-prix-draco.html",
+        "R1C3-prix-gallea.html",
+        "R1C4-prix-ismene.html",
+        "R1C5-prix-aurora.html",
+        "R1C6-prix-mensa.html",
+        "R1C7-prix-una.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-barbara.html",
+        "R3C2-prix-draco.html",
+        "R3C3-prix-gallea.html",
+        "R3C4-prix-ismene.html",
+        "R3C5-prix-aurora.html",
+        "R3C6-prix-mensa.html",
+        "R3C7-prix-una.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-barbara.html",
+        "R4C2-prix-draco.html",
+        "R4C3-prix-gallea.html",
+        "R4C4-prix-ismene.html",
+        "R4C5-prix-aurora.html",
+        "R4C6-prix-mensa.html",
+        "R4C7-prix-una.html"
+      ],
+      "R5-deauville": [
+        "R5C1-prix-barbara.html",
+        "R5C2-prix-draco.html",
+        "R5C3-prix-gallea.html",
+        "R5C4-prix-ismene.html",
+        "R5C5-prix-aurora.html",
+        "R5C6-prix-mensa.html",
+        "R5C7-prix-una.html"
+      ],
+      "R7-salon-de-provence": [
+        "R7C1-prix-barbara.html",
+        "R7C2-prix-draco.html",
+        "R7C3-prix-gallea.html",
+        "R7C4-prix-ismene.html",
+        "R7C5-prix-aurora.html",
+        "R7C6-prix-mensa.html",
+        "R7C7-prix-una.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:18.032036Z"
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2011-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-24",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-24/2011-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C4-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C5-prix-palomelle.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C6-prix-always-earnest.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C7-prix-flyway.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R1-compiegne/R1C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C2-prix-satilla.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C4-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C5-prix-palomelle.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C6-prix-always-earnest.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C7-prix-flyway.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R2-angers/R2C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C2-prix-satilla.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C4-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C5-prix-palomelle.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C6-prix-always-earnest.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C7-prix-flyway.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R3-hyeres/R3C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C2-prix-satilla.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C3-prix-oxava.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C4-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C5-prix-palomelle.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C6-prix-always-earnest.html",
+      "resultats-et-rapports/2011/05/2011-05-24/R4-vincennes/R4C7-prix-flyway.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-angers",
+      "R3-hyeres",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-chateau-de-compiegne.html",
+        "R1C2-prix-satilla.html",
+        "R1C3-prix-oxava.html",
+        "R1C4-prix-gunboat-diplomacy.html",
+        "R1C5-prix-palomelle.html",
+        "R1C6-prix-always-earnest.html",
+        "R1C7-prix-flyway.html",
+        "R1C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-du-chateau-de-compiegne.html",
+        "R2C2-prix-satilla.html",
+        "R2C3-prix-oxava.html",
+        "R2C4-prix-gunboat-diplomacy.html",
+        "R2C5-prix-palomelle.html",
+        "R2C6-prix-always-earnest.html",
+        "R2C7-prix-flyway.html",
+        "R2C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-du-chateau-de-compiegne.html",
+        "R3C2-prix-satilla.html",
+        "R3C3-prix-oxava.html",
+        "R3C4-prix-gunboat-diplomacy.html",
+        "R3C5-prix-palomelle.html",
+        "R3C6-prix-always-earnest.html",
+        "R3C7-prix-flyway.html",
+        "R3C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-chateau-de-compiegne.html",
+        "R4C2-prix-satilla.html",
+        "R4C3-prix-oxava.html",
+        "R4C4-prix-gunboat-diplomacy.html",
+        "R4C5-prix-palomelle.html",
+        "R4C6-prix-always-earnest.html",
+        "R4C7-prix-flyway.html",
+        "R4C8-prix-des-bords-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:04.650750Z"
+}

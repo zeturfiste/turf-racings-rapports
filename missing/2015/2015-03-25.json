@@ -1,0 +1,76 @@
+{
+  "date": "2015-03-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-25",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-25/2015-03-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C4-prix-du-chateau-d-if-restaurant-le-greenwich-chateau-d-if.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C6-prix-de-salon-de-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C7-prix-de-cavaillon-restaurant-equinoxe.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R1-marseille-borely/R1C8-prix-des-caves-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R2-enghien-soisy/R2C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R2-enghien-soisy/R2C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R2-enghien-soisy/R2C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R2-enghien-soisy/R2C6-prix-de-salon-de-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R2-enghien-soisy/R2C8-prix-des-caves-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C4-prix-du-chateau-d-if-restaurant-le-greenwich-chateau-d-if.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C6-prix-de-salon-de-provence.html",
+      "resultats-et-rapports/2015/03/2015-03-25/R3-amiens/R3C8-prix-des-caves-saint-marc-de-caromb.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-enghien-soisy",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+        "R1C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+        "R1C4-prix-du-chateau-d-if-restaurant-le-greenwich-chateau-d-if.html",
+        "R1C5-prix-de-cagnes-sur-mer.html",
+        "R1C6-prix-de-salon-de-provence.html",
+        "R1C7-prix-de-cavaillon-restaurant-equinoxe.html",
+        "R1C8-prix-des-caves-saint-marc-de-caromb.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+        "R2C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+        "R2C4-prix-du-chateau-d-if-restaurant-le-greenwich-chateau-d-if.html",
+        "R2C5-prix-de-cagnes-sur-mer.html",
+        "R2C6-prix-de-salon-de-provence.html",
+        "R2C7-prix-de-cavaillon-restaurant-equinoxe.html",
+        "R2C8-prix-des-caves-saint-marc-de-caromb.html"
+      ],
+      "R3-amiens": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-le-bonneveine-de-marseille-de-cassis.html",
+        "R3C3-prix-docteur-yves-bachelier-prix-d-aix-en-provence.html",
+        "R3C4-prix-du-chateau-d-if-restaurant-le-greenwich-chateau-d-if.html",
+        "R3C5-prix-de-cagnes-sur-mer.html",
+        "R3C6-prix-de-salon-de-provence.html",
+        "R3C7-prix-de-cavaillon-restaurant-equinoxe.html",
+        "R3C8-prix-des-caves-saint-marc-de-caromb.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:50.302846Z"
+}

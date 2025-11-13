@@ -1,0 +1,99 @@
+{
+  "date": "2014-04-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-22",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-22/2014-04-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C1-prix-epinard.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C2-prix-bango.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C3-prix-de-suresnes.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C4-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C5-prix-servanne.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C6-prix-de-malmaison.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C7-prix-de-trie-chateau.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R1-maisons-laffitte/R1C8-prix-de-beauval.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C1-prix-epinard.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C2-prix-bango.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C3-prix-de-suresnes.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C4-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C5-prix-servanne.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C6-prix-de-malmaison.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C7-prix-de-trie-chateau.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R2-nancy/R2C8-prix-de-beauval.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C1-prix-epinard.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C2-prix-bango.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C3-prix-de-suresnes.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C4-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C5-prix-servanne.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R3-lyon-parilly/R3C8-prix-de-beauval.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C1-prix-epinard.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C2-prix-bango.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C3-prix-de-suresnes.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C4-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C5-prix-servanne.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C6-prix-de-malmaison.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C7-prix-de-trie-chateau.html",
+      "resultats-et-rapports/2014/04/2014-04-22/R4-vincennes/R4C8-prix-de-beauval.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-nancy",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-epinard.html",
+        "R1C2-prix-bango.html",
+        "R1C3-prix-de-suresnes.html",
+        "R1C4-prix-de-beaumesnil.html",
+        "R1C5-prix-servanne.html",
+        "R1C6-prix-de-malmaison.html",
+        "R1C7-prix-de-trie-chateau.html",
+        "R1C8-prix-de-beauval.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-epinard.html",
+        "R2C2-prix-bango.html",
+        "R2C3-prix-de-suresnes.html",
+        "R2C4-prix-de-beaumesnil.html",
+        "R2C5-prix-servanne.html",
+        "R2C6-prix-de-malmaison.html",
+        "R2C7-prix-de-trie-chateau.html",
+        "R2C8-prix-de-beauval.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-epinard.html",
+        "R3C2-prix-bango.html",
+        "R3C3-prix-de-suresnes.html",
+        "R3C4-prix-de-beaumesnil.html",
+        "R3C5-prix-servanne.html",
+        "R3C6-prix-de-malmaison.html",
+        "R3C7-prix-de-trie-chateau.html",
+        "R3C8-prix-de-beauval.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-epinard.html",
+        "R4C2-prix-bango.html",
+        "R4C3-prix-de-suresnes.html",
+        "R4C4-prix-de-beaumesnil.html",
+        "R4C5-prix-servanne.html",
+        "R4C6-prix-de-malmaison.html",
+        "R4C7-prix-de-trie-chateau.html",
+        "R4C8-prix-de-beauval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:05.864150Z"
+}

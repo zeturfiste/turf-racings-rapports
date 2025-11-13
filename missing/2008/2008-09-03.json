@@ -1,0 +1,75 @@
+{
+  "date": "2008-09-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/09/2008-09-03",
+    "date_html": "resultats-et-rapports/2008/09/2008-09-03/2008-09-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/09/2008-09-03/R31-zerace/R31C5-prix-de-pont-de-vivaux.html",
+      "resultats-et-rapports/2008/09/2008-09-03/R70-flushing-meadows-new-york/R70C4-prix-gerard-prudhon.html",
+      "resultats-et-rapports/2008/09/2008-09-03/R70-flushing-meadows-new-york/R70C5-prix-de-pont-de-vivaux.html",
+      "resultats-et-rapports/2008/09/2008-09-03/R70-flushing-meadows-new-york/R70C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2008/09/2008-09-03/R70-flushing-meadows-new-york/R70C7-prix-de-grosbois.html",
+      "resultats-et-rapports/2008/09/2008-09-03/R70-flushing-meadows-new-york/R70C8-prix-de-la-joliette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-vivaux",
+      "R2-chantilly",
+      "R31-zerace",
+      "R70-flushing-meadows-new-york"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-vivaux": [
+        "R1C1-prix-geny-courses-paris-turf-com.html",
+        "R1C2-prix-albert-viel.html",
+        "R1C3-prix-kerjacques.html",
+        "R1C4-prix-gerard-prudhon.html",
+        "R1C5-prix-de-pont-de-vivaux.html",
+        "R1C6-prix-des-oliviers.html",
+        "R1C7-prix-de-grosbois.html",
+        "R1C8-prix-de-la-joliette.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-geny-courses-paris-turf-com.html",
+        "R2C2-prix-albert-viel.html",
+        "R2C3-prix-kerjacques.html",
+        "R2C4-prix-gerard-prudhon.html",
+        "R2C5-prix-de-pont-de-vivaux.html",
+        "R2C6-prix-des-oliviers.html",
+        "R2C7-prix-de-grosbois.html",
+        "R2C8-prix-de-la-joliette.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-paris-turf-com.html",
+        "R31C2-prix-albert-viel.html",
+        "R31C3-prix-kerjacques.html",
+        "R31C4-prix-gerard-prudhon.html",
+        "R31C5-prix-de-pont-de-vivaux.html",
+        "R31C6-prix-des-oliviers.html",
+        "R31C7-prix-de-grosbois.html",
+        "R31C8-prix-de-la-joliette.html"
+      ],
+      "R70-flushing-meadows-new-york": [
+        "R70C1-prix-geny-courses-paris-turf-com.html",
+        "R70C2-prix-albert-viel.html",
+        "R70C3-prix-kerjacques.html",
+        "R70C4-prix-gerard-prudhon.html",
+        "R70C5-prix-de-pont-de-vivaux.html",
+        "R70C6-prix-des-oliviers.html",
+        "R70C7-prix-de-grosbois.html",
+        "R70C8-prix-de-la-joliette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:33:17.819222Z"
+}

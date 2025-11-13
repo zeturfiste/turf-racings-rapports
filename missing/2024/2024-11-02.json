@@ -1,0 +1,76 @@
+{
+  "date": "2024-11-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-02",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-02/2024-11-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-02/R3-deauville/R3C1-prix-colonel-d-englesqueville.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R3-deauville/R3C5-prix-de-besancon.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R4-graignes/R4C1-prix-colonel-d-englesqueville.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R4-graignes/R4C3-prix-de-saint-raphael.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R4-graignes/R4C4-prix-dominique-sartini.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R4-graignes/R4C5-prix-de-besancon.html",
+      "resultats-et-rapports/2024/11/2024-11-02/R4-graignes/R4C8-prix-cerilly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-le-mans",
+      "R3-deauville",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-colonel-d-englesqueville.html",
+        "R1C2-prix-kerlor.html",
+        "R1C3-prix-de-saint-raphael.html",
+        "R1C4-prix-dominique-sartini.html",
+        "R1C5-prix-de-besancon.html",
+        "R1C6-prix-cerealiste.html",
+        "R1C7-grand-steeple-chase-de-compiegne.html",
+        "R1C8-prix-cerilly.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-colonel-d-englesqueville.html",
+        "R2C2-prix-kerlor.html",
+        "R2C3-prix-de-saint-raphael.html",
+        "R2C4-prix-dominique-sartini.html",
+        "R2C5-prix-de-besancon.html",
+        "R2C6-prix-cerealiste.html",
+        "R2C7-grand-steeple-chase-de-compiegne.html",
+        "R2C8-prix-cerilly.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-colonel-d-englesqueville.html",
+        "R3C2-prix-kerlor.html",
+        "R3C3-prix-de-saint-raphael.html",
+        "R3C4-prix-dominique-sartini.html",
+        "R3C5-prix-de-besancon.html",
+        "R3C6-prix-cerealiste.html",
+        "R3C7-grand-steeple-chase-de-compiegne.html",
+        "R3C8-prix-cerilly.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-colonel-d-englesqueville.html",
+        "R4C2-prix-kerlor.html",
+        "R4C3-prix-de-saint-raphael.html",
+        "R4C4-prix-dominique-sartini.html",
+        "R4C5-prix-de-besancon.html",
+        "R4C6-prix-cerealiste.html",
+        "R4C7-grand-steeple-chase-de-compiegne.html",
+        "R4C8-prix-cerilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:47.432523Z"
+}

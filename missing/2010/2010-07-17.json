@@ -1,0 +1,126 @@
+{
+  "date": "2010-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-17",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-17/2010-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C2-prix-belebat.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C3-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C5-prix-messidor.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C6-prix-de-maurepas.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C7-prix-de-breteuil.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R1-maisons-laffitte/R1C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C1-prix-banshee.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C2-prix-belebat.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C3-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C5-prix-messidor.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C6-prix-de-maurepas.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C7-prix-de-breteuil.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R2-meslay-du-maine/R2C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R3-feurs/R3C1-prix-banshee.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R3-feurs/R3C2-prix-belebat.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R3-feurs/R3C5-prix-messidor.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R3-feurs/R3C7-prix-de-breteuil.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R3-feurs/R3C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R6-compiegne/R6C2-prix-belebat.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R6-compiegne/R6C5-prix-messidor.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R6-compiegne/R6C7-prix-de-breteuil.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R6-compiegne/R6C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R7-graignes/R7C1-prix-banshee.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R7-graignes/R7C3-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R7-graignes/R7C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R7-graignes/R7C6-prix-de-maurepas.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R7-graignes/R7C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C1-prix-banshee.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C2-prix-belebat.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C3-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C5-prix-messidor.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C6-prix-de-maurepas.html",
+      "resultats-et-rapports/2010/07/2010-07-17/R8-marseille-vivaux/R8C7-prix-de-breteuil.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-meslay-du-maine",
+      "R3-feurs",
+      "R6-compiegne",
+      "R7-graignes",
+      "R8-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-banshee.html",
+        "R1C2-prix-belebat.html",
+        "R1C3-prix-de-ris-orangis.html",
+        "R1C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R1C5-prix-messidor.html",
+        "R1C6-prix-de-maurepas.html",
+        "R1C7-prix-de-breteuil.html",
+        "R1C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-banshee.html",
+        "R2C2-prix-belebat.html",
+        "R2C3-prix-de-ris-orangis.html",
+        "R2C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R2C5-prix-messidor.html",
+        "R2C6-prix-de-maurepas.html",
+        "R2C7-prix-de-breteuil.html",
+        "R2C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R3-feurs": [
+        "R3C1-prix-banshee.html",
+        "R3C2-prix-belebat.html",
+        "R3C3-prix-de-ris-orangis.html",
+        "R3C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R3C5-prix-messidor.html",
+        "R3C6-prix-de-maurepas.html",
+        "R3C7-prix-de-breteuil.html",
+        "R3C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R6-compiegne": [
+        "R6C1-prix-banshee.html",
+        "R6C2-prix-belebat.html",
+        "R6C3-prix-de-ris-orangis.html",
+        "R6C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R6C5-prix-messidor.html",
+        "R6C6-prix-de-maurepas.html",
+        "R6C7-prix-de-breteuil.html",
+        "R6C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-banshee.html",
+        "R7C2-prix-belebat.html",
+        "R7C3-prix-de-ris-orangis.html",
+        "R7C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R7C5-prix-messidor.html",
+        "R7C6-prix-de-maurepas.html",
+        "R7C7-prix-de-breteuil.html",
+        "R7C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R8-marseille-vivaux": [
+        "R8C1-prix-banshee.html",
+        "R8C2-prix-belebat.html",
+        "R8C3-prix-de-ris-orangis.html",
+        "R8C4-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R8C5-prix-messidor.html",
+        "R8C6-prix-de-maurepas.html",
+        "R8C7-prix-de-breteuil.html",
+        "R8C8-prix-de-la-prairie-du-parc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:39.128311Z"
+}

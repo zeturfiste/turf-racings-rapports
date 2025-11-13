@@ -1,0 +1,77 @@
+{
+  "date": "2015-12-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-09",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-09/2015-12-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-09/R1-vincennes/R1C1-prix-de-balleroy.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R1-vincennes/R1C5-prix-de-vichy.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R1-vincennes/R1C6-prix-de-montargis.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C1-prix-de-balleroy.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C2-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C6-prix-de-montargis.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C7-prix-de-ploubalay.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C8-prix-des-gardenias-groupe-a.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R2-cagnes-sur-mer/R2C9-prix-des-gardenias-groupe-b.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C1-prix-de-balleroy.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C2-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C3-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C4-prix-de-chinon.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C5-prix-de-vichy.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C6-prix-de-montargis.html",
+      "resultats-et-rapports/2015/12/2015-12-09/R3-lyon-la-soie/R3C9-prix-des-gardenias-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-balleroy.html",
+        "R1C2-prix-de-villers-cotterets.html",
+        "R1C3-prix-les-mathes-la-palmyre.html",
+        "R1C4-prix-de-chinon.html",
+        "R1C5-prix-de-vichy.html",
+        "R1C6-prix-de-montargis.html",
+        "R1C7-prix-de-ploubalay.html",
+        "R1C8-prix-des-gardenias-groupe-a.html",
+        "R1C9-prix-des-gardenias-groupe-b.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-balleroy.html",
+        "R2C2-prix-de-villers-cotterets.html",
+        "R2C3-prix-les-mathes-la-palmyre.html",
+        "R2C4-prix-de-chinon.html",
+        "R2C5-prix-de-vichy.html",
+        "R2C6-prix-de-montargis.html",
+        "R2C7-prix-de-ploubalay.html",
+        "R2C8-prix-des-gardenias-groupe-a.html",
+        "R2C9-prix-des-gardenias-groupe-b.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-de-balleroy.html",
+        "R3C2-prix-de-villers-cotterets.html",
+        "R3C3-prix-les-mathes-la-palmyre.html",
+        "R3C4-prix-de-chinon.html",
+        "R3C5-prix-de-vichy.html",
+        "R3C6-prix-de-montargis.html",
+        "R3C7-prix-de-ploubalay.html",
+        "R3C8-prix-des-gardenias-groupe-a.html",
+        "R3C9-prix-des-gardenias-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:13.281688Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2016-10-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-31",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-31/2016-10-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-31/R1-cagnes-sur-mer/R1C1-handicap-de-marseille.html",
+      "resultats-et-rapports/2016/10/2016-10-31/R1-cagnes-sur-mer/R1C2-prix-gyptis-et-protis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-chantilly",
+      "R4-toulouse",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-handicap-de-marseille.html",
+        "R1C2-prix-gyptis-et-protis.html",
+        "R1C3-prix-saby-zaraya.html",
+        "R1C4-prix-de-l-association-des-jockeys.html",
+        "R1C5-prix-india-song.html",
+        "R1C6-prix-twig.html",
+        "R1C7-prix-des-societaires.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-handicap-de-marseille.html",
+        "R3C2-prix-gyptis-et-protis.html",
+        "R3C3-prix-saby-zaraya.html",
+        "R3C4-prix-de-l-association-des-jockeys.html",
+        "R3C5-prix-india-song.html",
+        "R3C6-prix-twig.html",
+        "R3C7-prix-des-societaires.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-handicap-de-marseille.html",
+        "R4C2-prix-gyptis-et-protis.html",
+        "R4C3-prix-saby-zaraya.html",
+        "R4C4-prix-de-l-association-des-jockeys.html",
+        "R4C5-prix-india-song.html",
+        "R4C6-prix-twig.html",
+        "R4C7-prix-des-societaires.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-handicap-de-marseille.html",
+        "R7C2-prix-gyptis-et-protis.html",
+        "R7C3-prix-saby-zaraya.html",
+        "R7C4-prix-de-l-association-des-jockeys.html",
+        "R7C5-prix-india-song.html",
+        "R7C6-prix-twig.html",
+        "R7C7-prix-des-societaires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:51.014392Z"
+}

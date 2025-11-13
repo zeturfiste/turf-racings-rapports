@@ -1,0 +1,81 @@
+{
+  "date": "2010-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-12",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-12/2010-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-12/R1-chantilly/R1C1-prix-de-precy.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R1-chantilly/R1C2-prix-du-portail.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R1-chantilly/R1C5-prix-de-la-garenelle.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R3-clairefontaine/R3C3-prix-de-la-table-d-apremont.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R3-clairefontaine/R3C5-prix-de-la-garenelle.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R3-clairefontaine/R3C7-prix-de-la-croix-du-lude.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R3-clairefontaine/R3C8-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R5-cagnes-sur-mer/R5C3-prix-de-la-table-d-apremont.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R5-cagnes-sur-mer/R5C5-prix-de-la-garenelle.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R5-cagnes-sur-mer/R5C6-prix-du-puits-de-commelle.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R5-cagnes-sur-mer/R5C7-prix-de-la-croix-du-lude.html",
+      "resultats-et-rapports/2010/07/2010-07-12/R5-cagnes-sur-mer/R5C8-prix-de-l-institut-de-france.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vichy",
+      "R3-clairefontaine",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-precy.html",
+        "R1C2-prix-du-portail.html",
+        "R1C3-prix-de-la-table-d-apremont.html",
+        "R1C4-prix-de-roberval.html",
+        "R1C5-prix-de-la-garenelle.html",
+        "R1C6-prix-du-puits-de-commelle.html",
+        "R1C7-prix-de-la-croix-du-lude.html",
+        "R1C8-prix-de-l-institut-de-france.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-precy.html",
+        "R2C2-prix-du-portail.html",
+        "R2C3-prix-de-la-table-d-apremont.html",
+        "R2C4-prix-de-roberval.html",
+        "R2C5-prix-de-la-garenelle.html",
+        "R2C6-prix-du-puits-de-commelle.html",
+        "R2C7-prix-de-la-croix-du-lude.html",
+        "R2C8-prix-de-l-institut-de-france.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-precy.html",
+        "R3C2-prix-du-portail.html",
+        "R3C3-prix-de-la-table-d-apremont.html",
+        "R3C4-prix-de-roberval.html",
+        "R3C5-prix-de-la-garenelle.html",
+        "R3C6-prix-du-puits-de-commelle.html",
+        "R3C7-prix-de-la-croix-du-lude.html",
+        "R3C8-prix-de-l-institut-de-france.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-precy.html",
+        "R5C2-prix-du-portail.html",
+        "R5C3-prix-de-la-table-d-apremont.html",
+        "R5C4-prix-de-roberval.html",
+        "R5C5-prix-de-la-garenelle.html",
+        "R5C6-prix-du-puits-de-commelle.html",
+        "R5C7-prix-de-la-croix-du-lude.html",
+        "R5C8-prix-de-l-institut-de-france.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:37.579913Z"
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2015-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-14",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-14/2015-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C1-prix-rush.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C2-prix-de-la-christiniere.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C4-prix-troytown.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C5-prix-d-indy.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C7-prix-samaritain.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R1-auteuil/R1C8-prix-lilium.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R2-lisieux/R2C1-prix-rush.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R2-lisieux/R2C2-prix-de-la-christiniere.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R2-lisieux/R2C7-prix-samaritain.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R2-lisieux/R2C8-prix-lilium.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C3-prix-predicateur.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C4-prix-troytown.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C5-prix-d-indy.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C7-prix-samaritain.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R3-toulouse/R3C8-prix-lilium.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C1-prix-rush.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C3-prix-predicateur.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C4-prix-troytown.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C5-prix-d-indy.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C7-prix-samaritain.html",
+      "resultats-et-rapports/2015/03/2015-03-14/R6-saint-galmier/R6C8-prix-lilium.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lisieux",
+      "R3-toulouse",
+      "R6-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rush.html",
+        "R1C2-prix-de-la-christiniere.html",
+        "R1C3-prix-predicateur.html",
+        "R1C4-prix-troytown.html",
+        "R1C5-prix-d-indy.html",
+        "R1C6-prix-jean-claude-evain.html",
+        "R1C7-prix-samaritain.html",
+        "R1C8-prix-lilium.html"
+      ],
+      "R2-lisieux": [
+        "R2C1-prix-rush.html",
+        "R2C2-prix-de-la-christiniere.html",
+        "R2C3-prix-predicateur.html",
+        "R2C4-prix-troytown.html",
+        "R2C5-prix-d-indy.html",
+        "R2C6-prix-jean-claude-evain.html",
+        "R2C7-prix-samaritain.html",
+        "R2C8-prix-lilium.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-rush.html",
+        "R3C2-prix-de-la-christiniere.html",
+        "R3C3-prix-predicateur.html",
+        "R3C4-prix-troytown.html",
+        "R3C5-prix-d-indy.html",
+        "R3C6-prix-jean-claude-evain.html",
+        "R3C7-prix-samaritain.html",
+        "R3C8-prix-lilium.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-rush.html",
+        "R6C2-prix-de-la-christiniere.html",
+        "R6C3-prix-predicateur.html",
+        "R6C4-prix-troytown.html",
+        "R6C5-prix-d-indy.html",
+        "R6C6-prix-jean-claude-evain.html",
+        "R6C7-prix-samaritain.html",
+        "R6C8-prix-lilium.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:47.370280Z"
+}

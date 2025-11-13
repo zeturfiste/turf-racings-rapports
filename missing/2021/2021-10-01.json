@@ -1,0 +1,100 @@
+{
+  "date": "2021-10-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-01",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-01/2021-10-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-01/R1-vincennes/R1C1-prix-gauricus.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R1-vincennes/R1C2-prix-ella.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R1-vincennes/R1C3-prix-austria.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R1-vincennes/R1C4-prix-hekate.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R1-vincennes/R1C5-prix-atalante.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R3-le-mans/R3C3-prix-austria.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R3-le-mans/R3C5-prix-atalante.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R3-le-mans/R3C6-prix-guericke.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R4-saint-cloud/R4C2-prix-ella.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R4-saint-cloud/R4C4-prix-hekate.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R4-saint-cloud/R4C6-prix-guericke.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R4-saint-cloud/R4C7-prix-byblis.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C2-prix-ella.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C3-prix-austria.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C4-prix-hekate.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C5-prix-atalante.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C6-prix-guericke.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R5-laval/R5C7-prix-byblis.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C1-prix-gauricus.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C2-prix-ella.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C3-prix-austria.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C4-prix-hekate.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C5-prix-atalante.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C6-prix-guericke.html",
+      "resultats-et-rapports/2021/10/2021-10-01/R6-toulouse/R6C7-prix-byblis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-le-mans",
+      "R4-saint-cloud",
+      "R5-laval",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gauricus.html",
+        "R1C2-prix-ella.html",
+        "R1C3-prix-austria.html",
+        "R1C4-prix-hekate.html",
+        "R1C5-prix-atalante.html",
+        "R1C6-prix-guericke.html",
+        "R1C7-prix-byblis.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-gauricus.html",
+        "R3C2-prix-ella.html",
+        "R3C3-prix-austria.html",
+        "R3C4-prix-hekate.html",
+        "R3C5-prix-atalante.html",
+        "R3C6-prix-guericke.html",
+        "R3C7-prix-byblis.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-gauricus.html",
+        "R4C2-prix-ella.html",
+        "R4C3-prix-austria.html",
+        "R4C4-prix-hekate.html",
+        "R4C5-prix-atalante.html",
+        "R4C6-prix-guericke.html",
+        "R4C7-prix-byblis.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-gauricus.html",
+        "R5C2-prix-ella.html",
+        "R5C3-prix-austria.html",
+        "R5C4-prix-hekate.html",
+        "R5C5-prix-atalante.html",
+        "R5C6-prix-guericke.html",
+        "R5C7-prix-byblis.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-gauricus.html",
+        "R6C2-prix-ella.html",
+        "R6C3-prix-austria.html",
+        "R6C4-prix-hekate.html",
+        "R6C5-prix-atalante.html",
+        "R6C6-prix-guericke.html",
+        "R6C7-prix-byblis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:05.578791Z"
+}

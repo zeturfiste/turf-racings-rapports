@@ -1,0 +1,93 @@
+{
+  "date": "2020-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-16",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-16/2020-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-16/R1-vincennes/R1C1-prix-carina.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R1-vincennes/R1C2-prix-themis.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R1-vincennes/R1C6-championnat-europeen-des-5-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R1-vincennes/R1C7-prix-cyrene.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R1-vincennes/R1C8-prix-ophiucus.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R3-chartres/R3C1-prix-carina.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R3-chartres/R3C3-prix-brucia.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R3-chartres/R3C4-grand-prix-de-l-u-e-t.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R3-chartres/R3C5-championnat-europeen-des-3-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R3-chartres/R3C6-championnat-europeen-des-5-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C1-prix-carina.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C3-prix-brucia.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C4-grand-prix-de-l-u-e-t.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C6-championnat-europeen-des-5-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C7-prix-cyrene.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R4-fontainebleau/R4C8-prix-ophiucus.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C1-prix-carina.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C2-prix-themis.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C3-prix-brucia.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C4-grand-prix-de-l-u-e-t.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C5-championnat-europeen-des-3-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C6-championnat-europeen-des-5-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C7-prix-cyrene.html",
+      "resultats-et-rapports/2020/10/2020-10-16/R5-amiens/R5C8-prix-ophiucus.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chartres",
+      "R4-fontainebleau",
+      "R5-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-carina.html",
+        "R1C2-prix-themis.html",
+        "R1C3-prix-brucia.html",
+        "R1C4-grand-prix-de-l-u-e-t.html",
+        "R1C5-championnat-europeen-des-3-ans.html",
+        "R1C6-championnat-europeen-des-5-ans.html",
+        "R1C7-prix-cyrene.html",
+        "R1C8-prix-ophiucus.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-carina.html",
+        "R3C2-prix-themis.html",
+        "R3C3-prix-brucia.html",
+        "R3C4-grand-prix-de-l-u-e-t.html",
+        "R3C5-championnat-europeen-des-3-ans.html",
+        "R3C6-championnat-europeen-des-5-ans.html",
+        "R3C7-prix-cyrene.html",
+        "R3C8-prix-ophiucus.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-carina.html",
+        "R4C2-prix-themis.html",
+        "R4C3-prix-brucia.html",
+        "R4C4-grand-prix-de-l-u-e-t.html",
+        "R4C5-championnat-europeen-des-3-ans.html",
+        "R4C6-championnat-europeen-des-5-ans.html",
+        "R4C7-prix-cyrene.html",
+        "R4C8-prix-ophiucus.html"
+      ],
+      "R5-amiens": [
+        "R5C1-prix-carina.html",
+        "R5C2-prix-themis.html",
+        "R5C3-prix-brucia.html",
+        "R5C4-grand-prix-de-l-u-e-t.html",
+        "R5C5-championnat-europeen-des-3-ans.html",
+        "R5C6-championnat-europeen-des-5-ans.html",
+        "R5C7-prix-cyrene.html",
+        "R5C8-prix-ophiucus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:03.736617Z"
+}

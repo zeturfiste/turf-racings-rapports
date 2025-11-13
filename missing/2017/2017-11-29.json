@@ -1,0 +1,105 @@
+{
+  "date": "2017-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-29",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-29/2017-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-29/R1-vincennes/R1C1-prix-d-harfleur.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R1-vincennes/R1C2-prix-de-picardie.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R1-vincennes/R1C4-prix-de-grenoble.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R1-vincennes/R1C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R4-deauville/R4C1-prix-d-harfleur.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R4-deauville/R4C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R4-deauville/R4C6-prix-de-bouville.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R4-deauville/R4C9-prix-de-nantes.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R5-le-croise-laroche/R5C2-prix-de-picardie.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R5-le-croise-laroche/R5C6-prix-de-bouville.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R6-toulouse/R6C2-prix-de-picardie.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R6-toulouse/R6C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R6-toulouse/R6C6-prix-de-bouville.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R6-toulouse/R6C8-prix-des-anemones-groupe-b.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C1-prix-d-harfleur.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C2-prix-de-picardie.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C3-prix-de-la-camargue.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C4-prix-de-grenoble.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2017/11/2017-11-29/R7-marseille-borely/R7C8-prix-des-anemones-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-deauville",
+      "R5-le-croise-laroche",
+      "R6-toulouse",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-harfleur.html",
+        "R1C2-prix-de-picardie.html",
+        "R1C3-prix-de-la-camargue.html",
+        "R1C4-prix-de-grenoble.html",
+        "R1C5-prix-jean-maurice-beteau.html",
+        "R1C6-prix-de-bouville.html",
+        "R1C7-prix-des-anemones-groupe-a.html",
+        "R1C8-prix-des-anemones-groupe-b.html",
+        "R1C9-prix-de-nantes.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-d-harfleur.html",
+        "R4C2-prix-de-picardie.html",
+        "R4C3-prix-de-la-camargue.html",
+        "R4C4-prix-de-grenoble.html",
+        "R4C5-prix-jean-maurice-beteau.html",
+        "R4C6-prix-de-bouville.html",
+        "R4C7-prix-des-anemones-groupe-a.html",
+        "R4C8-prix-des-anemones-groupe-b.html",
+        "R4C9-prix-de-nantes.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-d-harfleur.html",
+        "R5C2-prix-de-picardie.html",
+        "R5C3-prix-de-la-camargue.html",
+        "R5C4-prix-de-grenoble.html",
+        "R5C5-prix-jean-maurice-beteau.html",
+        "R5C6-prix-de-bouville.html",
+        "R5C7-prix-des-anemones-groupe-a.html",
+        "R5C8-prix-des-anemones-groupe-b.html",
+        "R5C9-prix-de-nantes.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-d-harfleur.html",
+        "R6C2-prix-de-picardie.html",
+        "R6C3-prix-de-la-camargue.html",
+        "R6C4-prix-de-grenoble.html",
+        "R6C5-prix-jean-maurice-beteau.html",
+        "R6C6-prix-de-bouville.html",
+        "R6C7-prix-des-anemones-groupe-a.html",
+        "R6C8-prix-des-anemones-groupe-b.html",
+        "R6C9-prix-de-nantes.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-d-harfleur.html",
+        "R7C2-prix-de-picardie.html",
+        "R7C3-prix-de-la-camargue.html",
+        "R7C4-prix-de-grenoble.html",
+        "R7C5-prix-jean-maurice-beteau.html",
+        "R7C6-prix-de-bouville.html",
+        "R7C7-prix-des-anemones-groupe-a.html",
+        "R7C8-prix-des-anemones-groupe-b.html",
+        "R7C9-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:50.836133Z"
+}

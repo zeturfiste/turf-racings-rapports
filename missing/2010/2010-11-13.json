@@ -1,0 +1,98 @@
+{
+  "date": "2010-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-13",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-13/2010-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-13/R5-toulouse/R5C1-prix-douve.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R5-toulouse/R5C2-prix-antivari.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R5-toulouse/R5C3-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R5-toulouse/R5C4-prix-denisy.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R1-saint-cloud/R1C8-prix-des-haras.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R2-marseille-borely/R2C2-prix-antivari.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R2-marseille-borely/R2C3-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R2-marseille-borely/R2C5-prix-de-l-elevage.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R2-marseille-borely/R2C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R2-marseille-borely/R2C8-prix-des-haras.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R3-le-croise-laroche/R3C1-prix-douve.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R3-le-croise-laroche/R3C3-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R3-le-croise-laroche/R3C4-prix-denisy.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R3-le-croise-laroche/R3C6-prix-chloris.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R3-le-croise-laroche/R3C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R4-fontainebleau/R4C5-prix-de-l-elevage.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R4-fontainebleau/R4C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2010/11/2010-11-13/R4-fontainebleau/R4C8-prix-des-haras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R5-toulouse",
+      "R1-saint-cloud",
+      "R2-marseille-borely",
+      "R3-le-croise-laroche",
+      "R4-fontainebleau"
+    ],
+    "courses_by_reunion": {
+      "R5-toulouse": [
+        "R5C1-prix-douve.html",
+        "R5C2-prix-antivari.html",
+        "R5C3-criterium-de-saint-cloud.html",
+        "R5C4-prix-denisy.html",
+        "R5C5-prix-de-l-elevage.html",
+        "R5C6-prix-chloris.html",
+        "R5C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R5C8-prix-des-haras.html"
+      ],
+      "R1-saint-cloud": [
+        "R1C1-prix-douve.html",
+        "R1C2-prix-antivari.html",
+        "R1C3-criterium-de-saint-cloud.html",
+        "R1C4-prix-denisy.html",
+        "R1C5-prix-de-l-elevage.html",
+        "R1C6-prix-chloris.html",
+        "R1C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R1C8-prix-des-haras.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-douve.html",
+        "R2C2-prix-antivari.html",
+        "R2C3-criterium-de-saint-cloud.html",
+        "R2C4-prix-denisy.html",
+        "R2C5-prix-de-l-elevage.html",
+        "R2C6-prix-chloris.html",
+        "R2C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R2C8-prix-des-haras.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-douve.html",
+        "R3C2-prix-antivari.html",
+        "R3C3-criterium-de-saint-cloud.html",
+        "R3C4-prix-denisy.html",
+        "R3C5-prix-de-l-elevage.html",
+        "R3C6-prix-chloris.html",
+        "R3C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R3C8-prix-des-haras.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-douve.html",
+        "R4C2-prix-antivari.html",
+        "R4C3-criterium-de-saint-cloud.html",
+        "R4C4-prix-denisy.html",
+        "R4C5-prix-de-l-elevage.html",
+        "R4C6-prix-chloris.html",
+        "R4C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R4C8-prix-des-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:14.145515Z"
+}

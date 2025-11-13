@@ -1,0 +1,75 @@
+{
+  "date": "2021-06-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-24",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-24/2021-06-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-24/R1-paris-longchamp/R1C2-prix-des-arenes-de-paris.html",
+      "resultats-et-rapports/2021/06/2021-06-24/R3-toulouse/R3C5-prix-de-thiberville.html",
+      "resultats-et-rapports/2021/06/2021-06-24/R4-mauquenchy/R4C2-prix-des-arenes-de-paris.html",
+      "resultats-et-rapports/2021/06/2021-06-24/R4-mauquenchy/R4C7-prix-de-bellevue.html",
+      "resultats-et-rapports/2021/06/2021-06-24/R5-vichy/R5C3-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2021/06/2021-06-24/R5-vichy/R5C8-prix-des-centaures.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-toulouse",
+      "R4-mauquenchy",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-gloriette-de-buffon.html",
+        "R1C2-prix-des-arenes-de-paris.html",
+        "R1C3-prix-des-arts-et-metiers.html",
+        "R1C4-prix-du-cours-la-reine.html",
+        "R1C5-prix-de-thiberville.html",
+        "R1C6-prix-du-palais-des-glaces.html",
+        "R1C7-prix-de-bellevue.html",
+        "R1C8-prix-des-centaures.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-gloriette-de-buffon.html",
+        "R3C2-prix-des-arenes-de-paris.html",
+        "R3C3-prix-des-arts-et-metiers.html",
+        "R3C4-prix-du-cours-la-reine.html",
+        "R3C5-prix-de-thiberville.html",
+        "R3C6-prix-du-palais-des-glaces.html",
+        "R3C7-prix-de-bellevue.html",
+        "R3C8-prix-des-centaures.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-la-gloriette-de-buffon.html",
+        "R4C2-prix-des-arenes-de-paris.html",
+        "R4C3-prix-des-arts-et-metiers.html",
+        "R4C4-prix-du-cours-la-reine.html",
+        "R4C5-prix-de-thiberville.html",
+        "R4C6-prix-du-palais-des-glaces.html",
+        "R4C7-prix-de-bellevue.html",
+        "R4C8-prix-des-centaures.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-de-la-gloriette-de-buffon.html",
+        "R5C2-prix-des-arenes-de-paris.html",
+        "R5C3-prix-des-arts-et-metiers.html",
+        "R5C4-prix-du-cours-la-reine.html",
+        "R5C5-prix-de-thiberville.html",
+        "R5C6-prix-du-palais-des-glaces.html",
+        "R5C7-prix-de-bellevue.html",
+        "R5C8-prix-des-centaures.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:27.911966Z"
+}

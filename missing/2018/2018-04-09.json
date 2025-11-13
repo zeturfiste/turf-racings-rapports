@@ -1,0 +1,87 @@
+{
+  "date": "2018-04-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-09",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-09/2018-04-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-09/R1-deauville/R1C3-prix-djebel.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C1-prix-de-montigny.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C2-prix-imprudence.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C3-prix-djebel.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C4-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C5-prix-le-pompon.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R3-tarbes/R3C7-prix-de-voisins.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R4-reims/R4C1-prix-de-montigny.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R5-le-croise-laroche/R5C7-prix-de-voisins.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R6-graignes/R6C3-prix-djebel.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R6-graignes/R6C4-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2018/04/2018-04-09/R6-graignes/R6C5-prix-le-pompon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-tarbes",
+      "R4-reims",
+      "R5-le-croise-laroche",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-montigny.html",
+        "R1C2-prix-imprudence.html",
+        "R1C3-prix-djebel.html",
+        "R1C4-prix-de-marly-le-roi.html",
+        "R1C5-prix-le-pompon.html",
+        "R1C6-prix-de-louveciennes.html",
+        "R1C7-prix-de-voisins.html"
+      ],
+      "R3-tarbes": [
+        "R3C1-prix-de-montigny.html",
+        "R3C2-prix-imprudence.html",
+        "R3C3-prix-djebel.html",
+        "R3C4-prix-de-marly-le-roi.html",
+        "R3C5-prix-le-pompon.html",
+        "R3C6-prix-de-louveciennes.html",
+        "R3C7-prix-de-voisins.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-de-montigny.html",
+        "R4C2-prix-imprudence.html",
+        "R4C3-prix-djebel.html",
+        "R4C4-prix-de-marly-le-roi.html",
+        "R4C5-prix-le-pompon.html",
+        "R4C6-prix-de-louveciennes.html",
+        "R4C7-prix-de-voisins.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-montigny.html",
+        "R5C2-prix-imprudence.html",
+        "R5C3-prix-djebel.html",
+        "R5C4-prix-de-marly-le-roi.html",
+        "R5C5-prix-le-pompon.html",
+        "R5C6-prix-de-louveciennes.html",
+        "R5C7-prix-de-voisins.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-de-montigny.html",
+        "R6C2-prix-imprudence.html",
+        "R6C3-prix-djebel.html",
+        "R6C4-prix-de-marly-le-roi.html",
+        "R6C5-prix-le-pompon.html",
+        "R6C6-prix-de-louveciennes.html",
+        "R6C7-prix-de-voisins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:24.714596Z"
+}

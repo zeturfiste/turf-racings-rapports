@@ -1,0 +1,128 @@
+{
+  "date": "2013-12-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-15",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-15/2013-12-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-15/R1-vincennes/R1C4-prix-de-chateaudun-prix-jean-dumouch.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R1-vincennes/R1C6-prix-de-limeil.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R1-vincennes/R1C7-prix-de-chalais.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R2-angers/R2C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R2-angers/R2C3-prix-de-briare.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R2-angers/R2C4-prix-de-chateaudun-prix-jean-dumouch.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R2-angers/R2C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R3-pau/R3C4-prix-de-chateaudun-prix-jean-dumouch.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R3-pau/R3C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R3-pau/R3C6-prix-de-limeil.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R3-pau/R3C7-prix-de-chalais.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R3-pau/R3C8-prix-de-manciet.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R5-lyon-parilly/R5C7-prix-de-chalais.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R5-lyon-parilly/R5C8-prix-de-manciet.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R5-lyon-parilly/R5C9-prix-de-roanne.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C1-prix-de-poissy.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C3-prix-de-briare.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C4-prix-de-chateaudun-prix-jean-dumouch.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C6-prix-de-limeil.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C7-prix-de-chalais.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R6-nantes/R6C9-prix-de-roanne.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C1-prix-de-poissy.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C3-prix-de-briare.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C4-prix-de-chateaudun-prix-jean-dumouch.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C6-prix-de-limeil.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C7-prix-de-chalais.html",
+      "resultats-et-rapports/2013/12/2013-12-15/R7-bordeaux-le-bouscat/R7C8-prix-de-manciet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-pau",
+      "R5-lyon-parilly",
+      "R6-nantes",
+      "R7-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-poissy.html",
+        "R1C2-prix-de-vaumas.html",
+        "R1C3-prix-de-briare.html",
+        "R1C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R1C5-prix-de-chateau-thierry.html",
+        "R1C6-prix-de-limeil.html",
+        "R1C7-prix-de-chalais.html",
+        "R1C8-prix-de-manciet.html",
+        "R1C9-prix-de-roanne.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-poissy.html",
+        "R2C2-prix-de-vaumas.html",
+        "R2C3-prix-de-briare.html",
+        "R2C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R2C5-prix-de-chateau-thierry.html",
+        "R2C6-prix-de-limeil.html",
+        "R2C7-prix-de-chalais.html",
+        "R2C8-prix-de-manciet.html",
+        "R2C9-prix-de-roanne.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-poissy.html",
+        "R3C2-prix-de-vaumas.html",
+        "R3C3-prix-de-briare.html",
+        "R3C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R3C5-prix-de-chateau-thierry.html",
+        "R3C6-prix-de-limeil.html",
+        "R3C7-prix-de-chalais.html",
+        "R3C8-prix-de-manciet.html",
+        "R3C9-prix-de-roanne.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-de-poissy.html",
+        "R5C2-prix-de-vaumas.html",
+        "R5C3-prix-de-briare.html",
+        "R5C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R5C5-prix-de-chateau-thierry.html",
+        "R5C6-prix-de-limeil.html",
+        "R5C7-prix-de-chalais.html",
+        "R5C8-prix-de-manciet.html",
+        "R5C9-prix-de-roanne.html"
+      ],
+      "R6-nantes": [
+        "R6C1-prix-de-poissy.html",
+        "R6C2-prix-de-vaumas.html",
+        "R6C3-prix-de-briare.html",
+        "R6C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R6C5-prix-de-chateau-thierry.html",
+        "R6C6-prix-de-limeil.html",
+        "R6C7-prix-de-chalais.html",
+        "R6C8-prix-de-manciet.html",
+        "R6C9-prix-de-roanne.html"
+      ],
+      "R7-bordeaux-le-bouscat": [
+        "R7C1-prix-de-poissy.html",
+        "R7C2-prix-de-vaumas.html",
+        "R7C3-prix-de-briare.html",
+        "R7C4-prix-de-chateaudun-prix-jean-dumouch.html",
+        "R7C5-prix-de-chateau-thierry.html",
+        "R7C6-prix-de-limeil.html",
+        "R7C7-prix-de-chalais.html",
+        "R7C8-prix-de-manciet.html",
+        "R7C9-prix-de-roanne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:32.311467Z"
+}

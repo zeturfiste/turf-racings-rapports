@@ -1,0 +1,100 @@
+{
+  "date": "2012-07-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-06",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-06/2012-07-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-06/R1-deauville/R1C4-prix-de-la-breche.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R1-deauville/R1C5-prix-de-villerville.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R1-deauville/R1C7-prix-de-l-iton.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C1-prix-du-vieux-pont.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C2-prix-sea-bird.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C3-prix-de-callenville.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C5-prix-de-villerville.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C6-prix-de-saint-pair.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R2-feurs/R2C8-prix-du-gue.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R3-cabourg/R3C4-prix-de-la-breche.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R3-cabourg/R3C7-prix-de-l-iton.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R3-cabourg/R3C8-prix-du-gue.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R5-pornichet-la-baule/R5C1-prix-du-vieux-pont.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R5-pornichet-la-baule/R5C2-prix-sea-bird.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R5-pornichet-la-baule/R5C7-prix-de-l-iton.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R6-cagnes-sur-mer/R6C2-prix-sea-bird.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R6-cagnes-sur-mer/R6C5-prix-de-villerville.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R6-cagnes-sur-mer/R6C6-prix-de-saint-pair.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R6-cagnes-sur-mer/R6C7-prix-de-l-iton.html",
+      "resultats-et-rapports/2012/07/2012-07-06/R6-cagnes-sur-mer/R6C8-prix-du-gue.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-feurs",
+      "R3-cabourg",
+      "R5-pornichet-la-baule",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-vieux-pont.html",
+        "R1C2-prix-sea-bird.html",
+        "R1C3-prix-de-callenville.html",
+        "R1C4-prix-de-la-breche.html",
+        "R1C5-prix-de-villerville.html",
+        "R1C6-prix-de-saint-pair.html",
+        "R1C7-prix-de-l-iton.html",
+        "R1C8-prix-du-gue.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-du-vieux-pont.html",
+        "R2C2-prix-sea-bird.html",
+        "R2C3-prix-de-callenville.html",
+        "R2C4-prix-de-la-breche.html",
+        "R2C5-prix-de-villerville.html",
+        "R2C6-prix-de-saint-pair.html",
+        "R2C7-prix-de-l-iton.html",
+        "R2C8-prix-du-gue.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-vieux-pont.html",
+        "R3C2-prix-sea-bird.html",
+        "R3C3-prix-de-callenville.html",
+        "R3C4-prix-de-la-breche.html",
+        "R3C5-prix-de-villerville.html",
+        "R3C6-prix-de-saint-pair.html",
+        "R3C7-prix-de-l-iton.html",
+        "R3C8-prix-du-gue.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-du-vieux-pont.html",
+        "R5C2-prix-sea-bird.html",
+        "R5C3-prix-de-callenville.html",
+        "R5C4-prix-de-la-breche.html",
+        "R5C5-prix-de-villerville.html",
+        "R5C6-prix-de-saint-pair.html",
+        "R5C7-prix-de-l-iton.html",
+        "R5C8-prix-du-gue.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-du-vieux-pont.html",
+        "R6C2-prix-sea-bird.html",
+        "R6C3-prix-de-callenville.html",
+        "R6C4-prix-de-la-breche.html",
+        "R6C5-prix-de-villerville.html",
+        "R6C6-prix-de-saint-pair.html",
+        "R6C7-prix-de-l-iton.html",
+        "R6C8-prix-du-gue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:59.407733Z"
+}

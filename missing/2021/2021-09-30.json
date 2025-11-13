@@ -1,0 +1,78 @@
+{
+  "date": "2021-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-30",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-30/2021-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-30/R1-auteuil/R1C7-prix-hipparque.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R4-enghien-soisy/R4C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R4-enghien-soisy/R4C2-prix-bayonnet.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R4-enghien-soisy/R4C7-prix-hipparque.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R4-enghien-soisy/R4C8-prix-grandlieu.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R7-vichy/R7C4-prix-fezensac.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R7-vichy/R7C5-prix-de-nantes.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R7-vichy/R7C7-prix-hipparque.html",
+      "resultats-et-rapports/2021/09/2021-09-30/R7-vichy/R7C8-prix-grandlieu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-fontainebleau",
+      "R4-enghien-soisy",
+      "R7-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-guillaume-de-pracomtal.html",
+        "R1C2-prix-bayonnet.html",
+        "R1C3-prix-pride-of-kildare.html",
+        "R1C4-prix-fezensac.html",
+        "R1C5-prix-de-nantes.html",
+        "R1C6-prix-ucello-ii.html",
+        "R1C7-prix-hipparque.html",
+        "R1C8-prix-grandlieu.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-guillaume-de-pracomtal.html",
+        "R3C2-prix-bayonnet.html",
+        "R3C3-prix-pride-of-kildare.html",
+        "R3C4-prix-fezensac.html",
+        "R3C5-prix-de-nantes.html",
+        "R3C6-prix-ucello-ii.html",
+        "R3C7-prix-hipparque.html",
+        "R3C8-prix-grandlieu.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-guillaume-de-pracomtal.html",
+        "R4C2-prix-bayonnet.html",
+        "R4C3-prix-pride-of-kildare.html",
+        "R4C4-prix-fezensac.html",
+        "R4C5-prix-de-nantes.html",
+        "R4C6-prix-ucello-ii.html",
+        "R4C7-prix-hipparque.html",
+        "R4C8-prix-grandlieu.html"
+      ],
+      "R7-vichy": [
+        "R7C1-prix-guillaume-de-pracomtal.html",
+        "R7C2-prix-bayonnet.html",
+        "R7C3-prix-pride-of-kildare.html",
+        "R7C4-prix-fezensac.html",
+        "R7C5-prix-de-nantes.html",
+        "R7C6-prix-ucello-ii.html",
+        "R7C7-prix-hipparque.html",
+        "R7C8-prix-grandlieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:05.222555Z"
+}

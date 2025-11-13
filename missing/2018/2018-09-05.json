@@ -1,0 +1,73 @@
+{
+  "date": "2018-09-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-05",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-05/2018-09-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C2-prix-casino-partouche-de-pornichet.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C3-prix-seche-environnement.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C4-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C6-prix-la-p-tite-franquette.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C7-prix-bar-pmu-le-ralli-pornichet.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R1-pornichet-la-baule/R1C8-prix-rca-la-radio.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R3-paris-longchamp/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R3-paris-longchamp/R3C2-prix-casino-partouche-de-pornichet.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R3-paris-longchamp/R3C5-prix-toyota-gca-saint-nazaire.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R4-toulouse/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R4-toulouse/R4C2-prix-casino-partouche-de-pornichet.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R4-toulouse/R4C4-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R4-toulouse/R4C5-prix-toyota-gca-saint-nazaire.html",
+      "resultats-et-rapports/2018/09/2018-09-05/R4-toulouse/R4C7-prix-bar-pmu-le-ralli-pornichet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pornichet-la-baule",
+      "R3-paris-longchamp",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-pornichet-la-baule": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-casino-partouche-de-pornichet.html",
+        "R1C3-prix-seche-environnement.html",
+        "R1C4-prix-moet-et-chandon.html",
+        "R1C5-prix-toyota-gca-saint-nazaire.html",
+        "R1C6-prix-la-p-tite-franquette.html",
+        "R1C7-prix-bar-pmu-le-ralli-pornichet.html",
+        "R1C8-prix-rca-la-radio.html"
+      ],
+      "R3-paris-longchamp": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-casino-partouche-de-pornichet.html",
+        "R3C3-prix-seche-environnement.html",
+        "R3C4-prix-moet-et-chandon.html",
+        "R3C5-prix-toyota-gca-saint-nazaire.html",
+        "R3C6-prix-la-p-tite-franquette.html",
+        "R3C7-prix-bar-pmu-le-ralli-pornichet.html",
+        "R3C8-prix-rca-la-radio.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-casino-partouche-de-pornichet.html",
+        "R4C3-prix-seche-environnement.html",
+        "R4C4-prix-moet-et-chandon.html",
+        "R4C5-prix-toyota-gca-saint-nazaire.html",
+        "R4C6-prix-la-p-tite-franquette.html",
+        "R4C7-prix-bar-pmu-le-ralli-pornichet.html",
+        "R4C8-prix-rca-la-radio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:14.146910Z"
+}

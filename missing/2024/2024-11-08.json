@@ -1,0 +1,93 @@
+{
+  "date": "2024-11-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-08",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-08/2024-11-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-08/R2-laval/R2C4-prix-xavier-de-saint-palais.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R2-laval/R2C7-prix-nemesis.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R2-laval/R2C9-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R2-laval/R2C10-prix-sophia.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R3-lyon-parilly/R3C1-prix-hilda.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R3-lyon-parilly/R3C2-prix-palatia.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R3-lyon-parilly/R3C8-prix-de-vaumas.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R3-lyon-parilly/R3C10-prix-sophia.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C1-prix-hilda.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C2-prix-palatia.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C3-prix-walpurga.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C4-prix-xavier-de-saint-palais.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C5-prix-dejopeja.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C6-prix-persephone.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C7-prix-nemesis.html",
+      "resultats-et-rapports/2024/11/2024-11-08/R4-deauville/R4C8-prix-de-vaumas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-laval",
+      "R3-lyon-parilly",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-hilda.html",
+        "R1C2-prix-palatia.html",
+        "R1C3-prix-walpurga.html",
+        "R1C4-prix-xavier-de-saint-palais.html",
+        "R1C5-prix-dejopeja.html",
+        "R1C6-prix-persephone.html",
+        "R1C7-prix-nemesis.html",
+        "R1C8-prix-de-vaumas.html",
+        "R1C9-prix-de-chateau-thierry.html",
+        "R1C10-prix-sophia.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-hilda.html",
+        "R2C2-prix-palatia.html",
+        "R2C3-prix-walpurga.html",
+        "R2C4-prix-xavier-de-saint-palais.html",
+        "R2C5-prix-dejopeja.html",
+        "R2C6-prix-persephone.html",
+        "R2C7-prix-nemesis.html",
+        "R2C8-prix-de-vaumas.html",
+        "R2C9-prix-de-chateau-thierry.html",
+        "R2C10-prix-sophia.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-hilda.html",
+        "R3C2-prix-palatia.html",
+        "R3C3-prix-walpurga.html",
+        "R3C4-prix-xavier-de-saint-palais.html",
+        "R3C5-prix-dejopeja.html",
+        "R3C6-prix-persephone.html",
+        "R3C7-prix-nemesis.html",
+        "R3C8-prix-de-vaumas.html",
+        "R3C9-prix-de-chateau-thierry.html",
+        "R3C10-prix-sophia.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-hilda.html",
+        "R4C2-prix-palatia.html",
+        "R4C3-prix-walpurga.html",
+        "R4C4-prix-xavier-de-saint-palais.html",
+        "R4C5-prix-dejopeja.html",
+        "R4C6-prix-persephone.html",
+        "R4C7-prix-nemesis.html",
+        "R4C8-prix-de-vaumas.html",
+        "R4C9-prix-de-chateau-thierry.html",
+        "R4C10-prix-sophia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:49.343126Z"
+}

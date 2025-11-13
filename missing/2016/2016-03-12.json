@@ -1,0 +1,105 @@
+{
+  "date": "2016-03-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-12",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-12/2016-03-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C1-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C2-prix-rose-de-mai.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C4-prix-dushka.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C5-prix-maurice-caillault.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C6-prix-altipan.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C7-prix-d-herblay.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R1-saint-cloud/R1C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R3-caen/R3C5-prix-maurice-caillault.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C1-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C4-prix-dushka.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C5-prix-maurice-caillault.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C7-prix-d-herblay.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R4-le-croise-laroche/R4C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C4-prix-dushka.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C5-prix-maurice-caillault.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C6-prix-altipan.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C7-prix-d-herblay.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R6-mont-de-marsan/R6C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R7-mauquenchy/R7C2-prix-rose-de-mai.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R7-mauquenchy/R7C3-prix-du-pays-basque.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R7-mauquenchy/R7C6-prix-altipan.html",
+      "resultats-et-rapports/2016/03/2016-03-12/R7-mauquenchy/R7C7-prix-d-herblay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R6-mont-de-marsan",
+      "R7-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-frauenfeld.html",
+        "R1C2-prix-rose-de-mai.html",
+        "R1C3-prix-du-pays-basque.html",
+        "R1C4-prix-dushka.html",
+        "R1C5-prix-maurice-caillault.html",
+        "R1C6-prix-altipan.html",
+        "R1C7-prix-d-herblay.html",
+        "R1C8-prix-de-la-bigorre.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-frauenfeld.html",
+        "R3C2-prix-rose-de-mai.html",
+        "R3C3-prix-du-pays-basque.html",
+        "R3C4-prix-dushka.html",
+        "R3C5-prix-maurice-caillault.html",
+        "R3C6-prix-altipan.html",
+        "R3C7-prix-d-herblay.html",
+        "R3C8-prix-de-la-bigorre.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-de-frauenfeld.html",
+        "R4C2-prix-rose-de-mai.html",
+        "R4C3-prix-du-pays-basque.html",
+        "R4C4-prix-dushka.html",
+        "R4C5-prix-maurice-caillault.html",
+        "R4C6-prix-altipan.html",
+        "R4C7-prix-d-herblay.html",
+        "R4C8-prix-de-la-bigorre.html"
+      ],
+      "R6-mont-de-marsan": [
+        "R6C1-prix-de-frauenfeld.html",
+        "R6C2-prix-rose-de-mai.html",
+        "R6C3-prix-du-pays-basque.html",
+        "R6C4-prix-dushka.html",
+        "R6C5-prix-maurice-caillault.html",
+        "R6C6-prix-altipan.html",
+        "R6C7-prix-d-herblay.html",
+        "R6C8-prix-de-la-bigorre.html"
+      ],
+      "R7-mauquenchy": [
+        "R7C1-prix-de-frauenfeld.html",
+        "R7C2-prix-rose-de-mai.html",
+        "R7C3-prix-du-pays-basque.html",
+        "R7C4-prix-dushka.html",
+        "R7C5-prix-maurice-caillault.html",
+        "R7C6-prix-altipan.html",
+        "R7C7-prix-d-herblay.html",
+        "R7C8-prix-de-la-bigorre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:35.067737Z"
+}

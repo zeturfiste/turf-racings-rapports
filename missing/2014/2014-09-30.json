@@ -1,0 +1,95 @@
+{
+  "date": "2014-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-30",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-30/2014-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-30/R1-enghien-soisy/R1C1-prix-de-bayonne.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R1-enghien-soisy/R1C2-prix-northerntown.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R1-enghien-soisy/R1C3-prix-de-beaune.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R1-enghien-soisy/R1C5-prix-dominique-sartini.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R1-enghien-soisy/R1C6-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R2-marseille-borely/R2C5-prix-dominique-sartini.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R3-cabourg/R3C7-prix-bay-archer.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R4-le-mans/R4C3-prix-de-beaune.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R4-le-mans/R4C4-prix-de-biarritz.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R4-le-mans/R4C5-prix-dominique-sartini.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R5-vincennes/R5C1-prix-de-bayonne.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R5-vincennes/R5C3-prix-de-beaune.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R5-vincennes/R5C5-prix-dominique-sartini.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R5-vincennes/R5C6-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2014/09/2014-09-30/R5-vincennes/R5C7-prix-bay-archer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-marseille-borely",
+      "R3-cabourg",
+      "R4-le-mans",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-bayonne.html",
+        "R1C2-prix-northerntown.html",
+        "R1C3-prix-de-beaune.html",
+        "R1C4-prix-de-biarritz.html",
+        "R1C5-prix-dominique-sartini.html",
+        "R1C6-prix-de-la-gascogne.html",
+        "R1C7-prix-bay-archer.html",
+        "R1C8-prix-de-chablis.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-bayonne.html",
+        "R2C2-prix-northerntown.html",
+        "R2C3-prix-de-beaune.html",
+        "R2C4-prix-de-biarritz.html",
+        "R2C5-prix-dominique-sartini.html",
+        "R2C6-prix-de-la-gascogne.html",
+        "R2C7-prix-bay-archer.html",
+        "R2C8-prix-de-chablis.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-bayonne.html",
+        "R3C2-prix-northerntown.html",
+        "R3C3-prix-de-beaune.html",
+        "R3C4-prix-de-biarritz.html",
+        "R3C5-prix-dominique-sartini.html",
+        "R3C6-prix-de-la-gascogne.html",
+        "R3C7-prix-bay-archer.html",
+        "R3C8-prix-de-chablis.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-de-bayonne.html",
+        "R4C2-prix-northerntown.html",
+        "R4C3-prix-de-beaune.html",
+        "R4C4-prix-de-biarritz.html",
+        "R4C5-prix-dominique-sartini.html",
+        "R4C6-prix-de-la-gascogne.html",
+        "R4C7-prix-bay-archer.html",
+        "R4C8-prix-de-chablis.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-bayonne.html",
+        "R5C2-prix-northerntown.html",
+        "R5C3-prix-de-beaune.html",
+        "R5C4-prix-de-biarritz.html",
+        "R5C5-prix-dominique-sartini.html",
+        "R5C6-prix-de-la-gascogne.html",
+        "R5C7-prix-bay-archer.html",
+        "R5C8-prix-de-chablis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:46:00.089630Z"
+}

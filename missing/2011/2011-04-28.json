@@ -1,0 +1,72 @@
+{
+  "date": "2011-04-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-28",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-28/2011-04-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-28/R1-chantilly/R1C5-prix-sigy.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R1-chantilly/R1C8-prix-de-la-borne-blanche.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R2-caen/R2C1-prix-d-orry.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R2-caen/R2C5-prix-sigy.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R2-caen/R2C6-prix-servanne.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R2-caen/R2C8-prix-de-la-borne-blanche.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C1-prix-d-orry.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C2-prix-du-cedre.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C3-prix-du-bois-renard.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C4-prix-de-la-prairie.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C5-prix-sigy.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C6-prix-servanne.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C7-prix-du-petit-parc.html",
+      "resultats-et-rapports/2011/04/2011-04-28/R3-enghien-soisy/R3C8-prix-de-la-borne-blanche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-caen",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-d-orry.html",
+        "R1C2-prix-du-cedre.html",
+        "R1C3-prix-du-bois-renard.html",
+        "R1C4-prix-de-la-prairie.html",
+        "R1C5-prix-sigy.html",
+        "R1C6-prix-servanne.html",
+        "R1C7-prix-du-petit-parc.html",
+        "R1C8-prix-de-la-borne-blanche.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-d-orry.html",
+        "R2C2-prix-du-cedre.html",
+        "R2C3-prix-du-bois-renard.html",
+        "R2C4-prix-de-la-prairie.html",
+        "R2C5-prix-sigy.html",
+        "R2C6-prix-servanne.html",
+        "R2C7-prix-du-petit-parc.html",
+        "R2C8-prix-de-la-borne-blanche.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-d-orry.html",
+        "R3C2-prix-du-cedre.html",
+        "R3C3-prix-du-bois-renard.html",
+        "R3C4-prix-de-la-prairie.html",
+        "R3C5-prix-sigy.html",
+        "R3C6-prix-servanne.html",
+        "R3C7-prix-du-petit-parc.html",
+        "R3C8-prix-de-la-borne-blanche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:56.289706Z"
+}

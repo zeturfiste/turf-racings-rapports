@@ -1,0 +1,65 @@
+{
+  "date": "2012-06-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-05",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-05/2012-06-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-05/R1-longchamp/R1C4-prix-des-lilas.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R1-longchamp/R1C6-prix-des-tilleuls.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R1-longchamp/R1C8-prix-de-l-hotel-de-lassay.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R2-le-lion-d-angers/R2C1-prix-du-palais-bourbon.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R3-vincennes/R3C1-prix-du-palais-bourbon.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R3-vincennes/R3C3-prix-du-vert-galant.html",
+      "resultats-et-rapports/2012/06/2012-06-05/R3-vincennes/R3C4-prix-des-lilas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-le-lion-d-angers",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-bourbon.html",
+        "R1C2-prix-du-bois-rouaud.html",
+        "R1C3-prix-du-vert-galant.html",
+        "R1C4-prix-des-lilas.html",
+        "R1C5-prix-de-bercy.html",
+        "R1C6-prix-des-tilleuls.html",
+        "R1C7-prix-du-chatelet.html",
+        "R1C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-du-palais-bourbon.html",
+        "R2C2-prix-du-bois-rouaud.html",
+        "R2C3-prix-du-vert-galant.html",
+        "R2C4-prix-des-lilas.html",
+        "R2C5-prix-de-bercy.html",
+        "R2C6-prix-des-tilleuls.html",
+        "R2C7-prix-du-chatelet.html",
+        "R2C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-palais-bourbon.html",
+        "R3C2-prix-du-bois-rouaud.html",
+        "R3C3-prix-du-vert-galant.html",
+        "R3C4-prix-des-lilas.html",
+        "R3C5-prix-de-bercy.html",
+        "R3C6-prix-des-tilleuls.html",
+        "R3C7-prix-du-chatelet.html",
+        "R3C8-prix-de-l-hotel-de-lassay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:50.494889Z"
+}

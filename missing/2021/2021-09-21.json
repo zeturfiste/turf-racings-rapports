@@ -1,0 +1,81 @@
+{
+  "date": "2021-09-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-21",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-21/2021-09-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C1-prix-calabrais.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C2-prix-kargal.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C3-prix-le-gourzy.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C4-prix-isopani.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C5-prix-de-thonon.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C6-prix-de-compiegne.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R1-auteuil/R1C7-prix-laniste.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C1-prix-calabrais.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C2-prix-kargal.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C3-prix-le-gourzy.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C4-prix-isopani.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C5-prix-de-thonon.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C6-prix-de-compiegne.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C7-prix-laniste.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R3-nantes/R3C8-prix-chakhansoor.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C1-prix-calabrais.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C2-prix-kargal.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C3-prix-le-gourzy.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C4-prix-isopani.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C5-prix-de-thonon.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C6-prix-de-compiegne.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C7-prix-laniste.html",
+      "resultats-et-rapports/2021/09/2021-09-21/R4-vincennes/R4C8-prix-chakhansoor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-nantes",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-calabrais.html",
+        "R1C2-prix-kargal.html",
+        "R1C3-prix-le-gourzy.html",
+        "R1C4-prix-isopani.html",
+        "R1C5-prix-de-thonon.html",
+        "R1C6-prix-de-compiegne.html",
+        "R1C7-prix-laniste.html",
+        "R1C8-prix-chakhansoor.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-calabrais.html",
+        "R3C2-prix-kargal.html",
+        "R3C3-prix-le-gourzy.html",
+        "R3C4-prix-isopani.html",
+        "R3C5-prix-de-thonon.html",
+        "R3C6-prix-de-compiegne.html",
+        "R3C7-prix-laniste.html",
+        "R3C8-prix-chakhansoor.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-calabrais.html",
+        "R4C2-prix-kargal.html",
+        "R4C3-prix-le-gourzy.html",
+        "R4C4-prix-isopani.html",
+        "R4C5-prix-de-thonon.html",
+        "R4C6-prix-de-compiegne.html",
+        "R4C7-prix-laniste.html",
+        "R4C8-prix-chakhansoor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:02.131081Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2021-12-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-11",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-11/2021-12-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-11/R2-angers/R2C5-prix-narquois.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R2-angers/R2C6-prix-albert-rayon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R2-angers/R2C9-prix-de-laon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R3-pau/R3C2-prix-de-la-bresse.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R3-pau/R3C3-prix-d-hautefort.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R3-pau/R3C4-prix-de-bussieres.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R3-pau/R3C5-prix-narquois.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R3-pau/R3C9-prix-de-laon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C2-prix-de-la-bresse.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C3-prix-d-hautefort.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C4-prix-de-bussieres.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C5-prix-narquois.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C6-prix-albert-rayon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R4-deauville/R4C9-prix-de-laon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R7-toulouse/R7C3-prix-d-hautefort.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R7-toulouse/R7C6-prix-albert-rayon.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R7-toulouse/R7C8-prix-urgent.html",
+      "resultats-et-rapports/2021/12/2021-12-11/R7-toulouse/R7C9-prix-de-laon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-pau",
+      "R4-deauville",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-barcelonnette.html",
+        "R1C2-prix-de-la-bresse.html",
+        "R1C3-prix-d-hautefort.html",
+        "R1C4-prix-de-bussieres.html",
+        "R1C5-prix-narquois.html",
+        "R1C6-prix-albert-rayon.html",
+        "R1C7-prix-octave-douesnel.html",
+        "R1C8-prix-urgent.html",
+        "R1C9-prix-de-laon.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-barcelonnette.html",
+        "R2C2-prix-de-la-bresse.html",
+        "R2C3-prix-d-hautefort.html",
+        "R2C4-prix-de-bussieres.html",
+        "R2C5-prix-narquois.html",
+        "R2C6-prix-albert-rayon.html",
+        "R2C7-prix-octave-douesnel.html",
+        "R2C8-prix-urgent.html",
+        "R2C9-prix-de-laon.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-barcelonnette.html",
+        "R3C2-prix-de-la-bresse.html",
+        "R3C3-prix-d-hautefort.html",
+        "R3C4-prix-de-bussieres.html",
+        "R3C5-prix-narquois.html",
+        "R3C6-prix-albert-rayon.html",
+        "R3C7-prix-octave-douesnel.html",
+        "R3C8-prix-urgent.html",
+        "R3C9-prix-de-laon.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-barcelonnette.html",
+        "R4C2-prix-de-la-bresse.html",
+        "R4C3-prix-d-hautefort.html",
+        "R4C4-prix-de-bussieres.html",
+        "R4C5-prix-narquois.html",
+        "R4C6-prix-albert-rayon.html",
+        "R4C7-prix-octave-douesnel.html",
+        "R4C8-prix-urgent.html",
+        "R4C9-prix-de-laon.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-de-barcelonnette.html",
+        "R7C2-prix-de-la-bresse.html",
+        "R7C3-prix-d-hautefort.html",
+        "R7C4-prix-de-bussieres.html",
+        "R7C5-prix-narquois.html",
+        "R7C6-prix-albert-rayon.html",
+        "R7C7-prix-octave-douesnel.html",
+        "R7C8-prix-urgent.html",
+        "R7C9-prix-de-laon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:30.548142Z"
+}

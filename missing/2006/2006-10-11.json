@@ -1,0 +1,104 @@
+{
+  "date": "2006-10-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-11",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-11/2006-10-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-11/R3-enghien-soisy/R3C6-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R3-enghien-soisy/R3C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R30-auguste-bonal-sochaux/R30C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R30-auguste-bonal-sochaux/R30C5-prix-biraben-foie-gras.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R30-auguste-bonal-sochaux/R30C6-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R30-auguste-bonal-sochaux/R30C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R30-auguste-bonal-sochaux/R30C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C1-prix-fernand-soubagne.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C5-prix-biraben-foie-gras.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C6-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+      "resultats-et-rapports/2006/10/2006-10-11/R31-maksimir-zagreb/R31C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-amiens",
+      "R3-enghien-soisy",
+      "R21-zerace",
+      "R30-auguste-bonal-sochaux",
+      "R31-maksimir-zagreb"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-fernand-soubagne.html",
+        "R1C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R1C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R1C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R1C5-prix-biraben-foie-gras.html",
+        "R1C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R1C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R1C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-fernand-soubagne.html",
+        "R2C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R2C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R2C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R2C5-prix-biraben-foie-gras.html",
+        "R2C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R2C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R2C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-fernand-soubagne.html",
+        "R3C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R3C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R3C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R3C5-prix-biraben-foie-gras.html",
+        "R3C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R3C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R3C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-fernand-soubagne.html",
+        "R21C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R21C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R21C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R21C5-prix-biraben-foie-gras.html",
+        "R21C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R21C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R21C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ],
+      "R30-auguste-bonal-sochaux": [
+        "R30C1-prix-fernand-soubagne.html",
+        "R30C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R30C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R30C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R30C5-prix-biraben-foie-gras.html",
+        "R30C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R30C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R30C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ],
+      "R31-maksimir-zagreb": [
+        "R31C1-prix-fernand-soubagne.html",
+        "R31C2-prix-france-bleu-gironde-prix-societe-d-encouragement-de-bordeaux.html",
+        "R31C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R31C4-prix-andre-baboin-grand-prix-des-provinces.html",
+        "R31C5-prix-biraben-foie-gras.html",
+        "R31C6-prix-pierre-baggio-geny-courses-3601.html",
+        "R31C7-grande-course-de-haies-des-4-ans-casino-barriere-de-bordeaux.html",
+        "R31C8-prix-de-l-hippodrome-du-bouscat-trophee-association-des-proprietaires-du-sud-ouest.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:38.125049Z"
+}

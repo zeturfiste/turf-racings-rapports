@@ -1,0 +1,73 @@
+{
+  "date": "2022-04-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-14",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-14/2022-04-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-14/R1-auteuil/R1C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R1-auteuil/R1C2-prix-alec-carter.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R1-auteuil/R1C3-prix-oteuil-sf.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R3-lyon-parilly/R3C3-prix-oteuil-sf.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R3-lyon-parilly/R3C4-prix-du-barry.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R3-lyon-parilly/R3C5-prix-aubepine.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R3-lyon-parilly/R3C6-prix-philippe-menager.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R3-lyon-parilly/R3C7-prix-necor.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C2-prix-alec-carter.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C3-prix-oteuil-sf.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C4-prix-du-barry.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C5-prix-aubepine.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C7-prix-necor.html",
+      "resultats-et-rapports/2022/04/2022-04-14/R4-le-mans/R4C8-prix-de-saumur.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-alec-carter.html",
+        "R1C3-prix-oteuil-sf.html",
+        "R1C4-prix-du-barry.html",
+        "R1C5-prix-aubepine.html",
+        "R1C6-prix-philippe-menager.html",
+        "R1C7-prix-necor.html",
+        "R1C8-prix-de-saumur.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-alec-carter.html",
+        "R3C3-prix-oteuil-sf.html",
+        "R3C4-prix-du-barry.html",
+        "R3C5-prix-aubepine.html",
+        "R3C6-prix-philippe-menager.html",
+        "R3C7-prix-necor.html",
+        "R3C8-prix-de-saumur.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-alec-carter.html",
+        "R4C3-prix-oteuil-sf.html",
+        "R4C4-prix-du-barry.html",
+        "R4C5-prix-aubepine.html",
+        "R4C6-prix-philippe-menager.html",
+        "R4C7-prix-necor.html",
+        "R4C8-prix-de-saumur.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:11.285955Z"
+}

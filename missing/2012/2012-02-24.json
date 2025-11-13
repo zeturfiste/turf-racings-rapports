@@ -1,0 +1,95 @@
+{
+  "date": "2012-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/02/2012-02-24",
+    "date_html": "resultats-et-rapports/2012/02/2012-02-24/2012-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/02/2012-02-24/R1-enghien-soisy/R1C2-prix-gallus-ii.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R2-lyon-la-soie/R2C3-prix-nicephore.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R2-lyon-la-soie/R2C4-prix-de-montsalvy.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R2-lyon-la-soie/R2C5-prix-de-l-authie.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R2-lyon-la-soie/R2C6-prix-du-tarn.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R2-lyon-la-soie/R2C7-prix-elma.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R3-pau/R3C1-prix-de-saint-pierre-la-cour.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R3-pau/R3C3-prix-nicephore.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R3-pau/R3C5-prix-de-l-authie.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R4-le-croise-laroche/R4C1-prix-de-saint-pierre-la-cour.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R4-le-croise-laroche/R4C3-prix-nicephore.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R4-le-croise-laroche/R4C6-prix-du-tarn.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R4-le-croise-laroche/R4C8-prix-de-giraumont.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R5-cagnes-sur-mer/R5C4-prix-de-montsalvy.html",
+      "resultats-et-rapports/2012/02/2012-02-24/R5-cagnes-sur-mer/R5C8-prix-de-giraumont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-lyon-la-soie",
+      "R3-pau",
+      "R4-le-croise-laroche",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-saint-pierre-la-cour.html",
+        "R1C2-prix-gallus-ii.html",
+        "R1C3-prix-nicephore.html",
+        "R1C4-prix-de-montsalvy.html",
+        "R1C5-prix-de-l-authie.html",
+        "R1C6-prix-du-tarn.html",
+        "R1C7-prix-elma.html",
+        "R1C8-prix-de-giraumont.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-de-saint-pierre-la-cour.html",
+        "R2C2-prix-gallus-ii.html",
+        "R2C3-prix-nicephore.html",
+        "R2C4-prix-de-montsalvy.html",
+        "R2C5-prix-de-l-authie.html",
+        "R2C6-prix-du-tarn.html",
+        "R2C7-prix-elma.html",
+        "R2C8-prix-de-giraumont.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-saint-pierre-la-cour.html",
+        "R3C2-prix-gallus-ii.html",
+        "R3C3-prix-nicephore.html",
+        "R3C4-prix-de-montsalvy.html",
+        "R3C5-prix-de-l-authie.html",
+        "R3C6-prix-du-tarn.html",
+        "R3C7-prix-elma.html",
+        "R3C8-prix-de-giraumont.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-de-saint-pierre-la-cour.html",
+        "R4C2-prix-gallus-ii.html",
+        "R4C3-prix-nicephore.html",
+        "R4C4-prix-de-montsalvy.html",
+        "R4C5-prix-de-l-authie.html",
+        "R4C6-prix-du-tarn.html",
+        "R4C7-prix-elma.html",
+        "R4C8-prix-de-giraumont.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-saint-pierre-la-cour.html",
+        "R5C2-prix-gallus-ii.html",
+        "R5C3-prix-nicephore.html",
+        "R5C4-prix-de-montsalvy.html",
+        "R5C5-prix-de-l-authie.html",
+        "R5C6-prix-du-tarn.html",
+        "R5C7-prix-elma.html",
+        "R5C8-prix-de-giraumont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:20.444659Z"
+}

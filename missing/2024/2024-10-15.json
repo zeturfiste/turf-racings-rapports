@@ -1,0 +1,65 @@
+{
+  "date": "2024-10-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-15",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-15/2024-10-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-15/R4-vincennes/R4C6-prix-du-chene-des-gres.html",
+      "resultats-et-rapports/2024/10/2024-10-15/R4-vincennes/R4C8-prix-de-l-hotel-de-vermandois.html",
+      "resultats-et-rapports/2024/10/2024-10-15/R3-nancy/R3C1-prix-du-canouvert.html",
+      "resultats-et-rapports/2024/10/2024-10-15/R3-nancy/R3C7-prix-de-senlis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R4-vincennes",
+      "R3-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-canouvert.html",
+        "R1C2-prix-du-chene-du-coup-de-foudre.html",
+        "R1C3-prix-de-coye.html",
+        "R1C4-prix-du-chene-sylvie.html",
+        "R1C5-prix-d-indrolles.html",
+        "R1C6-prix-du-chene-des-gres.html",
+        "R1C7-prix-de-senlis.html",
+        "R1C8-prix-de-l-hotel-de-vermandois.html",
+        "R1C9-prix-du-chene-de-la-basse-pommeraie.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-canouvert.html",
+        "R4C2-prix-du-chene-du-coup-de-foudre.html",
+        "R4C3-prix-de-coye.html",
+        "R4C4-prix-du-chene-sylvie.html",
+        "R4C5-prix-d-indrolles.html",
+        "R4C6-prix-du-chene-des-gres.html",
+        "R4C7-prix-de-senlis.html",
+        "R4C8-prix-de-l-hotel-de-vermandois.html",
+        "R4C9-prix-du-chene-de-la-basse-pommeraie.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-du-canouvert.html",
+        "R3C2-prix-du-chene-du-coup-de-foudre.html",
+        "R3C3-prix-de-coye.html",
+        "R3C4-prix-du-chene-sylvie.html",
+        "R3C5-prix-d-indrolles.html",
+        "R3C6-prix-du-chene-des-gres.html",
+        "R3C7-prix-de-senlis.html",
+        "R3C8-prix-de-l-hotel-de-vermandois.html",
+        "R3C9-prix-du-chene-de-la-basse-pommeraie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:40.911143Z"
+}

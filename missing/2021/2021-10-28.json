@@ -1,0 +1,65 @@
+{
+  "date": "2021-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-28",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-28/2021-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-28/R1-paris-longchamp/R1C6-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R3-bordeaux-le-bouscat/R3C1-prix-rieussec.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R3-bordeaux-le-bouscat/R3C2-prix-des-capucines.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R3-bordeaux-le-bouscat/R3C8-prix-de-la-ville-de-paris.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R4-cabourg/R4C2-prix-des-capucines.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R4-cabourg/R4C3-prix-de-pigalle.html",
+      "resultats-et-rapports/2021/10/2021-10-28/R4-cabourg/R4C8-prix-de-la-ville-de-paris.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-bordeaux-le-bouscat",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-rieussec.html",
+        "R1C2-prix-des-capucines.html",
+        "R1C3-prix-de-pigalle.html",
+        "R1C4-prix-de-solferino.html",
+        "R1C5-criterium-de-vitesse.html",
+        "R1C6-prix-du-parc-aux-daims.html",
+        "R1C7-prix-des-erables.html",
+        "R1C8-prix-de-la-ville-de-paris.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-rieussec.html",
+        "R3C2-prix-des-capucines.html",
+        "R3C3-prix-de-pigalle.html",
+        "R3C4-prix-de-solferino.html",
+        "R3C5-criterium-de-vitesse.html",
+        "R3C6-prix-du-parc-aux-daims.html",
+        "R3C7-prix-des-erables.html",
+        "R3C8-prix-de-la-ville-de-paris.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-rieussec.html",
+        "R4C2-prix-des-capucines.html",
+        "R4C3-prix-de-pigalle.html",
+        "R4C4-prix-de-solferino.html",
+        "R4C5-criterium-de-vitesse.html",
+        "R4C6-prix-du-parc-aux-daims.html",
+        "R4C7-prix-des-erables.html",
+        "R4C8-prix-de-la-ville-de-paris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:15.296050Z"
+}

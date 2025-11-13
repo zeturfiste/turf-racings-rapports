@@ -1,0 +1,57 @@
+{
+  "date": "2016-03-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-25",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-25/2016-03-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-25/R3-la-teste-de-buch/R3C2-prix-maia.html",
+      "resultats-et-rapports/2016/03/2016-03-25/R4-strasbourg/R4C1-prix-adeona.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-la-teste-de-buch",
+      "R4-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-adeona.html",
+        "R1C2-prix-maia.html",
+        "R1C3-prix-clorinde.html",
+        "R1C4-prix-enceladus.html",
+        "R1C5-prix-alcyone.html",
+        "R1C6-prix-leto.html",
+        "R1C7-prix-dresda.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-adeona.html",
+        "R3C2-prix-maia.html",
+        "R3C3-prix-clorinde.html",
+        "R3C4-prix-enceladus.html",
+        "R3C5-prix-alcyone.html",
+        "R3C6-prix-leto.html",
+        "R3C7-prix-dresda.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-adeona.html",
+        "R4C2-prix-maia.html",
+        "R4C3-prix-clorinde.html",
+        "R4C4-prix-enceladus.html",
+        "R4C5-prix-alcyone.html",
+        "R4C6-prix-leto.html",
+        "R4C7-prix-dresda.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:38.690392Z"
+}

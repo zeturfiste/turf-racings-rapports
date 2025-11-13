@@ -1,0 +1,68 @@
+{
+  "date": "2012-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-30",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-30/2012-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-30/R1-auteuil/R1C1-prix-jean-bart.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R1-auteuil/R1C3-prix-gelas.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R1-auteuil/R1C5-prix-saida.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R1-auteuil/R1C6-prix-tournay.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R2-vincennes/R2C5-prix-saida.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R2-vincennes/R2C6-prix-tournay.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R2-vincennes/R2C7-prix-recruit-ii.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R3-marseille-borely/R3C1-prix-jean-bart.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R3-marseille-borely/R3C3-prix-gelas.html",
+      "resultats-et-rapports/2012/08/2012-08-30/R3-marseille-borely/R3C5-prix-saida.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes",
+      "R3-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-bart.html",
+        "R1C2-prix-georges-pelat.html",
+        "R1C3-prix-gelas.html",
+        "R1C4-prix-blaviette.html",
+        "R1C5-prix-saida.html",
+        "R1C6-prix-tournay.html",
+        "R1C7-prix-recruit-ii.html",
+        "R1C8-prix-mortemart.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-jean-bart.html",
+        "R2C2-prix-georges-pelat.html",
+        "R2C3-prix-gelas.html",
+        "R2C4-prix-blaviette.html",
+        "R2C5-prix-saida.html",
+        "R2C6-prix-tournay.html",
+        "R2C7-prix-recruit-ii.html",
+        "R2C8-prix-mortemart.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-jean-bart.html",
+        "R3C2-prix-georges-pelat.html",
+        "R3C3-prix-gelas.html",
+        "R3C4-prix-blaviette.html",
+        "R3C5-prix-saida.html",
+        "R3C6-prix-tournay.html",
+        "R3C7-prix-recruit-ii.html",
+        "R3C8-prix-mortemart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:16.279946Z"
+}

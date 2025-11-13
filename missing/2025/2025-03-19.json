@@ -1,0 +1,70 @@
+{
+  "date": "2025-03-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-19",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-19/2025-03-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-19/R1-argentan/R1C1-prix-terres-d-argentan-normandie.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R1-argentan/R1C3-prix-du-chateau-de-sassy.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R1-argentan/R1C4-prix-paristurf.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R1-argentan/R1C7-prix-du-chateau-du-bourg-saint-leonard.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R1-argentan/R1C8-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R3-marseille-borely/R3C3-prix-du-chateau-de-sassy.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R3-marseille-borely/R3C5-prix-du-chateau-des-ducs-d-alencon.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R3-marseille-borely/R3C8-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R4-toulouse/R4C1-prix-terres-d-argentan-normandie.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R4-toulouse/R4C3-prix-du-chateau-de-sassy.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R4-toulouse/R4C4-prix-paristurf.html",
+      "resultats-et-rapports/2025/03/2025-03-19/R4-toulouse/R4C6-prix-du-chateau-du-haras-national-du-pin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-argentan",
+      "R3-marseille-borely",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-argentan": [
+        "R1C1-prix-terres-d-argentan-normandie.html",
+        "R1C2-prix-du-chateau-de-chambois.html",
+        "R1C3-prix-du-chateau-de-sassy.html",
+        "R1C4-prix-paristurf.html",
+        "R1C5-prix-du-chateau-des-ducs-d-alencon.html",
+        "R1C6-prix-du-chateau-du-haras-national-du-pin.html",
+        "R1C7-prix-du-chateau-du-bourg-saint-leonard.html",
+        "R1C8-prix-de-la-region-normandie.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-terres-d-argentan-normandie.html",
+        "R3C2-prix-du-chateau-de-chambois.html",
+        "R3C3-prix-du-chateau-de-sassy.html",
+        "R3C4-prix-paristurf.html",
+        "R3C5-prix-du-chateau-des-ducs-d-alencon.html",
+        "R3C6-prix-du-chateau-du-haras-national-du-pin.html",
+        "R3C7-prix-du-chateau-du-bourg-saint-leonard.html",
+        "R3C8-prix-de-la-region-normandie.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-terres-d-argentan-normandie.html",
+        "R4C2-prix-du-chateau-de-chambois.html",
+        "R4C3-prix-du-chateau-de-sassy.html",
+        "R4C4-prix-paristurf.html",
+        "R4C5-prix-du-chateau-des-ducs-d-alencon.html",
+        "R4C6-prix-du-chateau-du-haras-national-du-pin.html",
+        "R4C7-prix-du-chateau-du-bourg-saint-leonard.html",
+        "R4C8-prix-de-la-region-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:33.665074Z"
+}

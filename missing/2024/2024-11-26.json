@@ -1,0 +1,73 @@
+{
+  "date": "2024-11-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-26",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-26/2024-11-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-26/R3-chartres/R3C1-prix-de-l-hotel-du-croissant.html",
+      "resultats-et-rapports/2024/11/2024-11-26/R4-vincennes/R4C4-prix-du-conservatoire-de-la-dentelle.html",
+      "resultats-et-rapports/2024/11/2024-11-26/R4-vincennes/R4C6-prix-the-wonder.html",
+      "resultats-et-rapports/2024/11/2024-11-26/R4-vincennes/R4C7-prix-lyphard-polytrack-challenge.html",
+      "resultats-et-rapports/2024/11/2024-11-26/R4-vincennes/R4C9-prix-de-la-route-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2024/11/2024-11-26/R4-vincennes/R4C10-prix-de-l-arbre-a-fougeres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-chartres",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-l-hotel-du-croissant.html",
+        "R1C2-prix-du-chateau-de-bayeux.html",
+        "R1C3-prix-du-grand-hotel-d-argouges.html",
+        "R1C4-prix-du-conservatoire-de-la-dentelle.html",
+        "R1C5-prix-du-manoir-de-la-caillerie.html",
+        "R1C6-prix-the-wonder.html",
+        "R1C7-prix-lyphard-polytrack-challenge.html",
+        "R1C8-prix-grey-dawn.html",
+        "R1C9-prix-de-la-route-de-l-arbre-a-fougeres.html",
+        "R1C10-prix-de-l-arbre-a-fougeres.html",
+        "R1C11-prix-du-bois-d-enfer.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-de-l-hotel-du-croissant.html",
+        "R3C2-prix-du-chateau-de-bayeux.html",
+        "R3C3-prix-du-grand-hotel-d-argouges.html",
+        "R3C4-prix-du-conservatoire-de-la-dentelle.html",
+        "R3C5-prix-du-manoir-de-la-caillerie.html",
+        "R3C6-prix-the-wonder.html",
+        "R3C7-prix-lyphard-polytrack-challenge.html",
+        "R3C8-prix-grey-dawn.html",
+        "R3C9-prix-de-la-route-de-l-arbre-a-fougeres.html",
+        "R3C10-prix-de-l-arbre-a-fougeres.html",
+        "R3C11-prix-du-bois-d-enfer.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-l-hotel-du-croissant.html",
+        "R4C2-prix-du-chateau-de-bayeux.html",
+        "R4C3-prix-du-grand-hotel-d-argouges.html",
+        "R4C4-prix-du-conservatoire-de-la-dentelle.html",
+        "R4C5-prix-du-manoir-de-la-caillerie.html",
+        "R4C6-prix-the-wonder.html",
+        "R4C7-prix-lyphard-polytrack-challenge.html",
+        "R4C8-prix-grey-dawn.html",
+        "R4C9-prix-de-la-route-de-l-arbre-a-fougeres.html",
+        "R4C10-prix-de-l-arbre-a-fougeres.html",
+        "R4C11-prix-du-bois-d-enfer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:56.912114Z"
+}

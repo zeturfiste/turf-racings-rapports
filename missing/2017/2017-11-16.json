@@ -1,0 +1,69 @@
+{
+  "date": "2017-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-16",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-16/2017-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-16/R1-fontainebleau/R1C5-prix-contessina.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R1-fontainebleau/R1C7-prix-de-hericy-sur-seine.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R3-vincennes/R3C1-prix-des-acacias.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R3-vincennes/R3C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R3-vincennes/R3C4-prix-ceres.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R3-vincennes/R3C7-prix-de-hericy-sur-seine.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R4-reims/R4C1-prix-des-acacias.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R4-reims/R4C2-prix-de-la-sapiniere.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R4-reims/R4C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R4-reims/R4C4-prix-ceres.html",
+      "resultats-et-rapports/2017/11/2017-11-16/R4-reims/R4C7-prix-de-hericy-sur-seine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-vincennes",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-acacias.html",
+        "R1C2-prix-de-la-sapiniere.html",
+        "R1C3-prix-hubert-de-catheu.html",
+        "R1C4-prix-ceres.html",
+        "R1C5-prix-contessina.html",
+        "R1C6-prix-d-evry.html",
+        "R1C7-prix-de-hericy-sur-seine.html",
+        "R1C8-prix-de-vichy.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-acacias.html",
+        "R3C2-prix-de-la-sapiniere.html",
+        "R3C3-prix-hubert-de-catheu.html",
+        "R3C4-prix-ceres.html",
+        "R3C5-prix-contessina.html",
+        "R3C6-prix-d-evry.html",
+        "R3C7-prix-de-hericy-sur-seine.html",
+        "R3C8-prix-de-vichy.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-des-acacias.html",
+        "R4C2-prix-de-la-sapiniere.html",
+        "R4C3-prix-hubert-de-catheu.html",
+        "R4C4-prix-ceres.html",
+        "R4C5-prix-contessina.html",
+        "R4C6-prix-d-evry.html",
+        "R4C7-prix-de-hericy-sur-seine.html",
+        "R4C8-prix-de-vichy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:46.826930Z"
+}

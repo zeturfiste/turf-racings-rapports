@@ -1,0 +1,87 @@
+{
+  "date": "2008-02-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/02/2008-02-26",
+    "date_html": "resultats-et-rapports/2008/02/2008-02-26/2008-02-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/02/2008-02-26/R1-auteuil/R1C2-prix-rivoli.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R2-laval/R2C7-prix-fernand-roy.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R3-cagnes-sur-mer/R3C1-prix-souviens-toi.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R3-cagnes-sur-mer/R3C4-prix-agitato.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R31-zerace/R31C4-prix-agitato.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R31-zerace/R31C7-prix-fernand-roy.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C1-prix-souviens-toi.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C2-prix-rivoli.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C4-prix-agitato.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C5-prix-tofano.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C6-prix-marise.html",
+      "resultats-et-rapports/2008/02/2008-02-26/R70-parc-des-princes-paris/R70C7-prix-fernand-roy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-laval",
+      "R3-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-parc-des-princes-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-souviens-toi.html",
+        "R1C2-prix-rivoli.html",
+        "R1C3-prix-varaville.html",
+        "R1C4-prix-agitato.html",
+        "R1C5-prix-tofano.html",
+        "R1C6-prix-marise.html",
+        "R1C7-prix-fernand-roy.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-souviens-toi.html",
+        "R2C2-prix-rivoli.html",
+        "R2C3-prix-varaville.html",
+        "R2C4-prix-agitato.html",
+        "R2C5-prix-tofano.html",
+        "R2C6-prix-marise.html",
+        "R2C7-prix-fernand-roy.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-souviens-toi.html",
+        "R3C2-prix-rivoli.html",
+        "R3C3-prix-varaville.html",
+        "R3C4-prix-agitato.html",
+        "R3C5-prix-tofano.html",
+        "R3C6-prix-marise.html",
+        "R3C7-prix-fernand-roy.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-souviens-toi.html",
+        "R31C2-prix-rivoli.html",
+        "R31C3-prix-varaville.html",
+        "R31C4-prix-agitato.html",
+        "R31C5-prix-tofano.html",
+        "R31C6-prix-marise.html",
+        "R31C7-prix-fernand-roy.html"
+      ],
+      "R70-parc-des-princes-paris": [
+        "R70C1-prix-souviens-toi.html",
+        "R70C2-prix-rivoli.html",
+        "R70C3-prix-varaville.html",
+        "R70C4-prix-agitato.html",
+        "R70C5-prix-tofano.html",
+        "R70C6-prix-marise.html",
+        "R70C7-prix-fernand-roy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:47.176678Z"
+}

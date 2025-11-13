@@ -1,0 +1,160 @@
+{
+  "date": "2006-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-27",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-27/2006-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-27/R13-louis-ii-monaco/R13C4-grand-prix-de-deauville-lucien-barriere.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R14-geoffroy-guichard-saint-etienne/R14C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R14-geoffroy-guichard-saint-etienne/R14C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R14-geoffroy-guichard-saint-etienne/R14C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R15-santiago-bernabeu-madrid/R15C3-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R15-santiago-bernabeu-madrid/R15C5-prix-quincey-lucien-barriere.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R15-santiago-bernabeu-madrid/R15C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R15-santiago-bernabeu-madrid/R15C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R20-grand-prix-de-turquie-de-formule-1-a-istanbul/R20C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R30-saitama-japon/R30C3-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R30-saitama-japon/R30C5-prix-quincey-lucien-barriere.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R30-saitama-japon/R30C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R40-moscou-russie/R40C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+      "resultats-et-rapports/2006/08/2006-08-27/R40-moscou-russie/R40C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-beaumont-de-lomagne",
+      "R10-velodrome-marseille",
+      "R11-marcel-picot-nancy",
+      "R12-nungesser-valenciennes",
+      "R13-louis-ii-monaco",
+      "R14-geoffroy-guichard-saint-etienne",
+      "R15-santiago-bernabeu-madrid",
+      "R20-grand-prix-de-turquie-de-formule-1-a-istanbul",
+      "R30-saitama-japon",
+      "R40-moscou-russie"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R1C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R1C3-prix-de-meautry-lucien-barriere.html",
+        "R1C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R1C5-prix-quincey-lucien-barriere.html",
+        "R1C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R1C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R1C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R2C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R2C3-prix-de-meautry-lucien-barriere.html",
+        "R2C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R2C5-prix-quincey-lucien-barriere.html",
+        "R2C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R2C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R2C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R10-velodrome-marseille": [
+        "R10C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R10C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R10C3-prix-de-meautry-lucien-barriere.html",
+        "R10C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R10C5-prix-quincey-lucien-barriere.html",
+        "R10C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R10C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R10C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R11-marcel-picot-nancy": [
+        "R11C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R11C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R11C3-prix-de-meautry-lucien-barriere.html",
+        "R11C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R11C5-prix-quincey-lucien-barriere.html",
+        "R11C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R11C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R11C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R12-nungesser-valenciennes": [
+        "R12C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R12C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R12C3-prix-de-meautry-lucien-barriere.html",
+        "R12C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R12C5-prix-quincey-lucien-barriere.html",
+        "R12C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R12C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R12C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R13-louis-ii-monaco": [
+        "R13C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R13C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R13C3-prix-de-meautry-lucien-barriere.html",
+        "R13C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R13C5-prix-quincey-lucien-barriere.html",
+        "R13C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R13C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R13C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R14-geoffroy-guichard-saint-etienne": [
+        "R14C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R14C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R14C3-prix-de-meautry-lucien-barriere.html",
+        "R14C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R14C5-prix-quincey-lucien-barriere.html",
+        "R14C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R14C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R14C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R15-santiago-bernabeu-madrid": [
+        "R15C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R15C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R15C3-prix-de-meautry-lucien-barriere.html",
+        "R15C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R15C5-prix-quincey-lucien-barriere.html",
+        "R15C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R15C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R15C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R20-grand-prix-de-turquie-de-formule-1-a-istanbul": [
+        "R20C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R20C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R20C3-prix-de-meautry-lucien-barriere.html",
+        "R20C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R20C5-prix-quincey-lucien-barriere.html",
+        "R20C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R20C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R20C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R30-saitama-japon": [
+        "R30C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R30C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R30C3-prix-de-meautry-lucien-barriere.html",
+        "R30C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R30C5-prix-quincey-lucien-barriere.html",
+        "R30C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R30C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R30C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ],
+      "R40-moscou-russie": [
+        "R40C1-prix-du-haras-de-la-huderie-royal-barriere-de-deauville.html",
+        "R40C2-prix-du-casino-barriere-de-deauville-prix-francois-andre.html",
+        "R40C3-prix-de-meautry-lucien-barriere.html",
+        "R40C4-grand-prix-de-deauville-lucien-barriere.html",
+        "R40C5-prix-quincey-lucien-barriere.html",
+        "R40C6-prix-du-casino-barriere-de-trouville-prix-de-drubec.html",
+        "R40C7-prix-normandy-barriere-de-deauville-prix-des-entraineurs.html",
+        "R40C8-prix-hotel-du-golf-barriare-de-deauville-handicap-de-cloture.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:25.067900Z"
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2013-08-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-28",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-28/2013-08-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-28/R1-clairefontaine/R1C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R2-vincennes/R2C4-prix-cidre-pays-d-auge-prix-virunga.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R2-vincennes/R2C5-prix-pommeau-de-normandie-prix-vitiges.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R2-vincennes/R2C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C2-prix-la-digue-de-villers-sur-mer-prix-du-lieu-des-fieffes.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C4-prix-cidre-pays-d-auge-prix-virunga.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C5-prix-pommeau-de-normandie-prix-vitiges.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C7-prix-festival-du-cinema-americain-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-28/R3-moulins/R3C8-prix-cloture-du-meeting-de-clairefontaine-prix-north-jet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R3-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-courezauxcourses-com-prix-bellypha.html",
+        "R1C2-prix-la-digue-de-villers-sur-mer-prix-du-lieu-des-fieffes.html",
+        "R1C3-prix-don-du-sang-prix-des-nympheas.html",
+        "R1C4-prix-cidre-pays-d-auge-prix-virunga.html",
+        "R1C5-prix-pommeau-de-normandie-prix-vitiges.html",
+        "R1C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+        "R1C7-prix-festival-du-cinema-americain-de-deauville.html",
+        "R1C8-prix-cloture-du-meeting-de-clairefontaine-prix-north-jet.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-courezauxcourses-com-prix-bellypha.html",
+        "R2C2-prix-la-digue-de-villers-sur-mer-prix-du-lieu-des-fieffes.html",
+        "R2C3-prix-don-du-sang-prix-des-nympheas.html",
+        "R2C4-prix-cidre-pays-d-auge-prix-virunga.html",
+        "R2C5-prix-pommeau-de-normandie-prix-vitiges.html",
+        "R2C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+        "R2C7-prix-festival-du-cinema-americain-de-deauville.html",
+        "R2C8-prix-cloture-du-meeting-de-clairefontaine-prix-north-jet.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-courezauxcourses-com-prix-bellypha.html",
+        "R3C2-prix-la-digue-de-villers-sur-mer-prix-du-lieu-des-fieffes.html",
+        "R3C3-prix-don-du-sang-prix-des-nympheas.html",
+        "R3C4-prix-cidre-pays-d-auge-prix-virunga.html",
+        "R3C5-prix-pommeau-de-normandie-prix-vitiges.html",
+        "R3C6-prix-cima-de-triomphe-prix-du-pays-d-auge.html",
+        "R3C7-prix-festival-du-cinema-americain-de-deauville.html",
+        "R3C8-prix-cloture-du-meeting-de-clairefontaine-prix-north-jet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:59.482824Z"
+}

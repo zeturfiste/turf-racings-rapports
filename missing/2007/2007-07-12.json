@@ -1,0 +1,94 @@
+{
+  "date": "2007-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-12",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-12/2007-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C2-prix-de-rochechouart.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C5-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C6-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C7-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R31-zerace/R31C8-prix-de-la-porte-de-sevres.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C2-prix-de-rochechouart.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C3-prix-de-l-ardeche.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C4-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C5-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R70-estadio-polideportivo-cachamay-puerto-ordaz/R70C6-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R71-chablis-auntun/R71C6-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2007/07/2007-07-12/R71-chablis-auntun/R71C7-prix-de-la-gare-de-lyon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-chantilly",
+      "R31-zerace",
+      "R70-estadio-polideportivo-cachamay-puerto-ordaz",
+      "R71-chablis-auntun"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-l-opera.html",
+        "R1C2-prix-de-rochechouart.html",
+        "R1C3-prix-de-l-ardeche.html",
+        "R1C4-prix-de-la-tour-saint-jacques.html",
+        "R1C5-prix-de-la-place-du-mail.html",
+        "R1C6-prix-du-parc-montsouris.html",
+        "R1C7-prix-de-la-gare-de-lyon.html",
+        "R1C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-l-opera.html",
+        "R2C2-prix-de-rochechouart.html",
+        "R2C3-prix-de-l-ardeche.html",
+        "R2C4-prix-de-la-tour-saint-jacques.html",
+        "R2C5-prix-de-la-place-du-mail.html",
+        "R2C6-prix-du-parc-montsouris.html",
+        "R2C7-prix-de-la-gare-de-lyon.html",
+        "R2C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-l-opera.html",
+        "R31C2-prix-de-rochechouart.html",
+        "R31C3-prix-de-l-ardeche.html",
+        "R31C4-prix-de-la-tour-saint-jacques.html",
+        "R31C5-prix-de-la-place-du-mail.html",
+        "R31C6-prix-du-parc-montsouris.html",
+        "R31C7-prix-de-la-gare-de-lyon.html",
+        "R31C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R70-estadio-polideportivo-cachamay-puerto-ordaz": [
+        "R70C1-prix-de-l-opera.html",
+        "R70C2-prix-de-rochechouart.html",
+        "R70C3-prix-de-l-ardeche.html",
+        "R70C4-prix-de-la-tour-saint-jacques.html",
+        "R70C5-prix-de-la-place-du-mail.html",
+        "R70C6-prix-du-parc-montsouris.html",
+        "R70C7-prix-de-la-gare-de-lyon.html",
+        "R70C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R71-chablis-auntun": [
+        "R71C1-prix-de-l-opera.html",
+        "R71C2-prix-de-rochechouart.html",
+        "R71C3-prix-de-l-ardeche.html",
+        "R71C4-prix-de-la-tour-saint-jacques.html",
+        "R71C5-prix-de-la-place-du-mail.html",
+        "R71C6-prix-du-parc-montsouris.html",
+        "R71C7-prix-de-la-gare-de-lyon.html",
+        "R71C8-prix-de-la-porte-de-sevres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:08.121374Z"
+}

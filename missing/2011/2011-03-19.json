@@ -1,0 +1,71 @@
+{
+  "date": "2011-03-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-19",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-19/2011-03-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C3-prix-maurice-caillault.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C4-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C5-prix-exbury.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C6-prix-hubert-d-ideville.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C7-prix-de-montmagny.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R1-saint-cloud/R1C8-prix-des-coteaux-de-saint-cloud.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R2-lisieux/R2C1-prix-banassa.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R2-lisieux/R2C2-prix-rose-de-mai.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R2-lisieux/R2C3-prix-maurice-caillault.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R3-toulouse/R3C1-prix-banassa.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R3-toulouse/R3C2-prix-rose-de-mai.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R3-toulouse/R3C7-prix-de-montmagny.html",
+      "resultats-et-rapports/2011/03/2011-03-19/R3-toulouse/R3C8-prix-des-coteaux-de-saint-cloud.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lisieux",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-banassa.html",
+        "R1C2-prix-rose-de-mai.html",
+        "R1C3-prix-maurice-caillault.html",
+        "R1C4-prix-des-hauts-de-seine.html",
+        "R1C5-prix-exbury.html",
+        "R1C6-prix-hubert-d-ideville.html",
+        "R1C7-prix-de-montmagny.html",
+        "R1C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R2-lisieux": [
+        "R2C1-prix-banassa.html",
+        "R2C2-prix-rose-de-mai.html",
+        "R2C3-prix-maurice-caillault.html",
+        "R2C4-prix-des-hauts-de-seine.html",
+        "R2C5-prix-exbury.html",
+        "R2C6-prix-hubert-d-ideville.html",
+        "R2C7-prix-de-montmagny.html",
+        "R2C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-banassa.html",
+        "R3C2-prix-rose-de-mai.html",
+        "R3C3-prix-maurice-caillault.html",
+        "R3C4-prix-des-hauts-de-seine.html",
+        "R3C5-prix-exbury.html",
+        "R3C6-prix-hubert-d-ideville.html",
+        "R3C7-prix-de-montmagny.html",
+        "R3C8-prix-des-coteaux-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:44.028377Z"
+}

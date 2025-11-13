@@ -1,0 +1,46 @@
+{
+  "date": "2005-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-19",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-19/2005-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-villeurbanne",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-villeurbanne": [
+        "R1C1-prix-paris-turf-geny-courses-rtl.html",
+        "R1C2-prix-andre-gager.html",
+        "R1C3-prix-paul-gadoud.html",
+        "R1C4-prix-de-la-societe-du-cheval-francais.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-cave-saint-marc.html",
+        "R1C7-prix-fan-idole.html",
+        "R1C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-paris-turf-geny-courses-rtl.html",
+        "R2C2-prix-andre-gager.html",
+        "R2C3-prix-paul-gadoud.html",
+        "R2C4-prix-de-la-societe-du-cheval-francais.html",
+        "R2C5-prix-de-vincennes.html",
+        "R2C6-prix-cave-saint-marc.html",
+        "R2C7-prix-fan-idole.html",
+        "R2C8-prix-de-l-u-n-a-t.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:20.599612Z"
+}

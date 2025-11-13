@@ -1,0 +1,62 @@
+{
+  "date": "2020-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-18",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-18/2020-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-18/R3-chantilly/R3C3-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2020/11/2020-11-18/R3-chantilly/R3C8-prix-du-cafe-du-commerce-de-forges-les-eaux.html",
+      "resultats-et-rapports/2020/11/2020-11-18/R4-toulouse/R4C4-prix-jaguar.html",
+      "resultats-et-rapports/2020/11/2020-11-18/R4-toulouse/R4C7-prix-maurice-de-folleville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R3-chantilly",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-jean-maizeret.html",
+        "R1C3-grand-prix-des-amateurs.html",
+        "R1C4-prix-jaguar.html",
+        "R1C5-prix-andre-perdrix.html",
+        "R1C6-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R1C7-prix-maurice-de-folleville.html",
+        "R1C8-prix-du-cafe-du-commerce-de-forges-les-eaux.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-jean-maizeret.html",
+        "R3C3-grand-prix-des-amateurs.html",
+        "R3C4-prix-jaguar.html",
+        "R3C5-prix-andre-perdrix.html",
+        "R3C6-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R3C7-prix-maurice-de-folleville.html",
+        "R3C8-prix-du-cafe-du-commerce-de-forges-les-eaux.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-jean-maizeret.html",
+        "R4C3-grand-prix-des-amateurs.html",
+        "R4C4-prix-jaguar.html",
+        "R4C5-prix-andre-perdrix.html",
+        "R4C6-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R4C7-prix-maurice-de-folleville.html",
+        "R4C8-prix-du-cafe-du-commerce-de-forges-les-eaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:15.045594Z"
+}

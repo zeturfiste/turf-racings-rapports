@@ -1,0 +1,57 @@
+{
+  "date": "2021-01-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-05",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-05/2021-01-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-poitiers.html",
+        "R1C2-prix-de-lezignan.html",
+        "R1C3-prix-d-acigne.html",
+        "R1C4-prix-de-luchon.html",
+        "R1C5-prix-de-charleville.html",
+        "R1C6-prix-de-pavilly.html",
+        "R1C7-prix-de-servon.html",
+        "R1C8-prix-de-serrigny.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-poitiers.html",
+        "R3C2-prix-de-lezignan.html",
+        "R3C3-prix-d-acigne.html",
+        "R3C4-prix-de-luchon.html",
+        "R3C5-prix-de-charleville.html",
+        "R3C6-prix-de-pavilly.html",
+        "R3C7-prix-de-servon.html",
+        "R3C8-prix-de-serrigny.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-poitiers.html",
+        "R4C2-prix-de-lezignan.html",
+        "R4C3-prix-d-acigne.html",
+        "R4C4-prix-de-luchon.html",
+        "R4C5-prix-de-charleville.html",
+        "R4C6-prix-de-pavilly.html",
+        "R4C7-prix-de-servon.html",
+        "R4C8-prix-de-serrigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:29.851991Z"
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2022-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-27",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-27/2022-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-27/R1-chateaubriant/R1C8-prix-du-pmu-le-yearling.html",
+      "resultats-et-rapports/2022/04/2022-04-27/R3-la-teste-de-buch/R3C7-prix-l-eclaireur.html",
+      "resultats-et-rapports/2022/04/2022-04-27/R3-la-teste-de-buch/R3C8-prix-du-pmu-le-yearling.html",
+      "resultats-et-rapports/2022/04/2022-04-27/R4-fontainebleau/R4C4-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2022/04/2022-04-27/R4-fontainebleau/R4C5-prix-coktail-jet.html",
+      "resultats-et-rapports/2022/04/2022-04-27/R4-fontainebleau/R4C7-prix-l-eclaireur.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R3-la-teste-de-buch",
+      "R4-fontainebleau"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-la-galissonniere.html",
+        "R1C3-prix-de-la-ville-marie.html",
+        "R1C4-prix-nimrod-borealis.html",
+        "R1C5-prix-coktail-jet.html",
+        "R1C6-prix-xavier-hunault.html",
+        "R1C7-prix-l-eclaireur.html",
+        "R1C8-prix-du-pmu-le-yearling.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-la-galissonniere.html",
+        "R3C3-prix-de-la-ville-marie.html",
+        "R3C4-prix-nimrod-borealis.html",
+        "R3C5-prix-coktail-jet.html",
+        "R3C6-prix-xavier-hunault.html",
+        "R3C7-prix-l-eclaireur.html",
+        "R3C8-prix-du-pmu-le-yearling.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-de-la-galissonniere.html",
+        "R4C3-prix-de-la-ville-marie.html",
+        "R4C4-prix-nimrod-borealis.html",
+        "R4C5-prix-coktail-jet.html",
+        "R4C6-prix-xavier-hunault.html",
+        "R4C7-prix-l-eclaireur.html",
+        "R4C8-prix-du-pmu-le-yearling.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:16.137216Z"
+}

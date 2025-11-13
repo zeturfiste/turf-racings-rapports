@@ -1,0 +1,63 @@
+{
+  "date": "2021-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/07/2021-07-12",
+    "date_html": "resultats-et-rapports/2021/07/2021-07-12/2021-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/07/2021-07-12/R1-chateaubriant/R1C4-prix-xavier-hunault-president-fondateur.html",
+      "resultats-et-rapports/2021/07/2021-07-12/R3-clairefontaine/R3C7-prix-de-la-vallee-de-la-chere.html",
+      "resultats-et-rapports/2021/07/2021-07-12/R3-clairefontaine/R3C8-prix-ds-automobiles-chateaubriant.html",
+      "resultats-et-rapports/2021/07/2021-07-12/R4-hyeres/R4C1-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2021/07/2021-07-12/R4-hyeres/R4C7-prix-de-la-vallee-de-la-chere.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R3-clairefontaine",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-prix-nimrod-borealis.html",
+        "R1C2-prix-d-enghien.html",
+        "R1C3-prix-coktail-jet.html",
+        "R1C4-prix-xavier-hunault-president-fondateur.html",
+        "R1C5-prix-de-l-esperance.html",
+        "R1C6-prix-de-la-galissonniere.html",
+        "R1C7-prix-de-la-vallee-de-la-chere.html",
+        "R1C8-prix-ds-automobiles-chateaubriant.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-nimrod-borealis.html",
+        "R3C2-prix-d-enghien.html",
+        "R3C3-prix-coktail-jet.html",
+        "R3C4-prix-xavier-hunault-president-fondateur.html",
+        "R3C5-prix-de-l-esperance.html",
+        "R3C6-prix-de-la-galissonniere.html",
+        "R3C7-prix-de-la-vallee-de-la-chere.html",
+        "R3C8-prix-ds-automobiles-chateaubriant.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-nimrod-borealis.html",
+        "R4C2-prix-d-enghien.html",
+        "R4C3-prix-coktail-jet.html",
+        "R4C4-prix-xavier-hunault-president-fondateur.html",
+        "R4C5-prix-de-l-esperance.html",
+        "R4C6-prix-de-la-galissonniere.html",
+        "R4C7-prix-de-la-vallee-de-la-chere.html",
+        "R4C8-prix-ds-automobiles-chateaubriant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:34.864690Z"
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2019-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/07/2019-07-26",
+    "date_html": "resultats-et-rapports/2019/07/2019-07-26/2019-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/07/2019-07-26/R4-la-rochelle/R4C2-prix-mc-donald-s-dives-sur-mer.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R5-deauville/R5C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R5-deauville/R5C2-prix-mc-donald-s-dives-sur-mer.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R5-deauville/R5C4-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R6-pornichet-la-baule/R6C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R6-pornichet-la-baule/R6C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R7-cagnes-sur-mer/R7C2-prix-mc-donald-s-dives-sur-mer.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R7-cagnes-sur-mer/R7C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R10-deauville-midi/R10C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R10-deauville-midi/R10C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R10-deauville-midi/R10C4-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R10-deauville-midi/R10C5-prix-afasec-de-graignes.html",
+      "resultats-et-rapports/2019/07/2019-07-26/R10-deauville-midi/R10C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R4-la-rochelle",
+      "R5-deauville",
+      "R6-pornichet-la-baule",
+      "R7-cagnes-sur-mer",
+      "R10-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R1C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R1C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R1C4-prix-du-conseil-regional-de-normandie.html",
+        "R1C5-prix-afasec-de-graignes.html",
+        "R1C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R1C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R4-la-rochelle": [
+        "R4C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R4C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R4C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R4C4-prix-du-conseil-regional-de-normandie.html",
+        "R4C5-prix-afasec-de-graignes.html",
+        "R4C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R4C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R5-deauville": [
+        "R5C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R5C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R5C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R5C4-prix-du-conseil-regional-de-normandie.html",
+        "R5C5-prix-afasec-de-graignes.html",
+        "R5C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R5C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R6C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R6C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R6C4-prix-du-conseil-regional-de-normandie.html",
+        "R6C5-prix-afasec-de-graignes.html",
+        "R6C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R6C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R7C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R7C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R7C4-prix-du-conseil-regional-de-normandie.html",
+        "R7C5-prix-afasec-de-graignes.html",
+        "R7C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R7C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R10-deauville-midi": [
+        "R10C1-prix-cote-fleurie-magazine-prix-michel-d-ornano.html",
+        "R10C2-prix-mc-donald-s-dives-sur-mer.html",
+        "R10C3-prix-foncim-groupe-jean-prix-henri-balliere.html",
+        "R10C4-prix-du-conseil-regional-de-normandie.html",
+        "R10C5-prix-afasec-de-graignes.html",
+        "R10C6-prix-ds-store-caen-groupe-mary-prix-des-erines.html",
+        "R10C7-prix-du-conseil-des-chevaux-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:50.487929Z"
+}

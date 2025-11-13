@@ -1,0 +1,86 @@
+{
+  "date": "2023-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-16",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-16/2023-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C1-prix-du-chateau-de-bayeux.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C2-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C3-prix-de-l-hotel-du-doyen.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C5-prix-de-l-hotel-du-croissant.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C7-prix-du-conservatoire-de-la-dentelle.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C8-prix-du-grand-hotel-d-argouges.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R1-deauville/R1C9-prix-du-manoir-de-caillerie.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C1-prix-du-chateau-de-bayeux.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C2-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C3-prix-de-l-hotel-du-doyen.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C4-prix-de-la-pigeonniere.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C5-prix-de-l-hotel-du-croissant.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C6-prix-du-chateau-de-toqueville.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C7-prix-du-conservatoire-de-la-dentelle.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C8-prix-du-grand-hotel-d-argouges.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R3-pornichet-la-baule/R3C9-prix-du-manoir-de-caillerie.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C1-prix-du-chateau-de-bayeux.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C2-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C3-prix-de-l-hotel-du-doyen.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C4-prix-de-la-pigeonniere.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C5-prix-de-l-hotel-du-croissant.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C6-prix-du-chateau-de-toqueville.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C7-prix-du-conservatoire-de-la-dentelle.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C8-prix-du-grand-hotel-d-argouges.html",
+      "resultats-et-rapports/2023/11/2023-11-16/R4-vincennes/R4C9-prix-du-manoir-de-caillerie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-pornichet-la-baule",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-chateau-de-bayeux.html",
+        "R1C2-prix-de-la-motte-louvet.html",
+        "R1C3-prix-de-l-hotel-du-doyen.html",
+        "R1C4-prix-de-la-pigeonniere.html",
+        "R1C5-prix-de-l-hotel-du-croissant.html",
+        "R1C6-prix-du-chateau-de-toqueville.html",
+        "R1C7-prix-du-conservatoire-de-la-dentelle.html",
+        "R1C8-prix-du-grand-hotel-d-argouges.html",
+        "R1C9-prix-du-manoir-de-caillerie.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-chateau-de-bayeux.html",
+        "R3C2-prix-de-la-motte-louvet.html",
+        "R3C3-prix-de-l-hotel-du-doyen.html",
+        "R3C4-prix-de-la-pigeonniere.html",
+        "R3C5-prix-de-l-hotel-du-croissant.html",
+        "R3C6-prix-du-chateau-de-toqueville.html",
+        "R3C7-prix-du-conservatoire-de-la-dentelle.html",
+        "R3C8-prix-du-grand-hotel-d-argouges.html",
+        "R3C9-prix-du-manoir-de-caillerie.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-chateau-de-bayeux.html",
+        "R4C2-prix-de-la-motte-louvet.html",
+        "R4C3-prix-de-l-hotel-du-doyen.html",
+        "R4C4-prix-de-la-pigeonniere.html",
+        "R4C5-prix-de-l-hotel-du-croissant.html",
+        "R4C6-prix-du-chateau-de-toqueville.html",
+        "R4C7-prix-du-conservatoire-de-la-dentelle.html",
+        "R4C8-prix-du-grand-hotel-d-argouges.html",
+        "R4C9-prix-du-manoir-de-caillerie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:41.635982Z"
+}

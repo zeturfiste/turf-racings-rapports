@@ -1,0 +1,90 @@
+{
+  "date": "2012-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-12",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-12/2012-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C1-grand-prix-synergie.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C2-prix-de-la-chezine.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C3-prix-oniris-nantes-prix-de-thouare.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C4-prix-yves-lalleman.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R1-nantes/R1C8-prix-de-la-loire-atlantique.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C1-grand-prix-synergie.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C2-prix-de-la-chezine.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C3-prix-oniris-nantes-prix-de-thouare.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C4-prix-yves-lalleman.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C6-prix-claude-rouget.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C7-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R2-compiegne/R2C8-prix-de-la-loire-atlantique.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R3-aix-les-bains/R3C1-grand-prix-synergie.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R3-aix-les-bains/R3C2-prix-de-la-chezine.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R3-aix-les-bains/R3C3-prix-oniris-nantes-prix-de-thouare.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R3-aix-les-bains/R3C8-prix-de-la-loire-atlantique.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R4-vincennes/R4C1-grand-prix-synergie.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R4-vincennes/R4C4-prix-yves-lalleman.html",
+      "resultats-et-rapports/2012/06/2012-06-12/R4-vincennes/R4C6-prix-claude-rouget.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-compiegne",
+      "R3-aix-les-bains",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-grand-prix-synergie.html",
+        "R1C2-prix-de-la-chezine.html",
+        "R1C3-prix-oniris-nantes-prix-de-thouare.html",
+        "R1C4-prix-yves-lalleman.html",
+        "R1C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+        "R1C6-prix-claude-rouget.html",
+        "R1C7-prix-gerald-de-rochefort.html",
+        "R1C8-prix-de-la-loire-atlantique.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-grand-prix-synergie.html",
+        "R2C2-prix-de-la-chezine.html",
+        "R2C3-prix-oniris-nantes-prix-de-thouare.html",
+        "R2C4-prix-yves-lalleman.html",
+        "R2C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+        "R2C6-prix-claude-rouget.html",
+        "R2C7-prix-gerald-de-rochefort.html",
+        "R2C8-prix-de-la-loire-atlantique.html"
+      ],
+      "R3-aix-les-bains": [
+        "R3C1-grand-prix-synergie.html",
+        "R3C2-prix-de-la-chezine.html",
+        "R3C3-prix-oniris-nantes-prix-de-thouare.html",
+        "R3C4-prix-yves-lalleman.html",
+        "R3C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+        "R3C6-prix-claude-rouget.html",
+        "R3C7-prix-gerald-de-rochefort.html",
+        "R3C8-prix-de-la-loire-atlantique.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-grand-prix-synergie.html",
+        "R4C2-prix-de-la-chezine.html",
+        "R4C3-prix-oniris-nantes-prix-de-thouare.html",
+        "R4C4-prix-yves-lalleman.html",
+        "R4C5-prix-du-journal-geny-courses-grand-prix-des-aqps.html",
+        "R4C6-prix-claude-rouget.html",
+        "R4C7-prix-gerald-de-rochefort.html",
+        "R4C8-prix-de-la-loire-atlantique.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:52.583520Z"
+}

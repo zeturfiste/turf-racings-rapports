@@ -1,0 +1,79 @@
+{
+  "date": "2013-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/07/2013-07-18",
+    "date_html": "resultats-et-rapports/2013/07/2013-07-18/2013-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/07/2013-07-18/R1-vichy/R1C1-prix-vox-populi-prix-de-bellerive.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R1-vichy/R1C8-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R2-dieppe/R2C2-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R3-mont-de-marsan/R3C2-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R3-mont-de-marsan/R3C4-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R3-mont-de-marsan/R3C6-prix-de-combronde.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R3-mont-de-marsan/R3C8-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R4-saint-malo/R4C2-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R4-saint-malo/R4C3-prix-de-la-ville-de-bellerive-sur-allier-prix-de-la-ville-de-vichy.html",
+      "resultats-et-rapports/2013/07/2013-07-18/R4-saint-malo/R4C6-prix-de-combronde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-dieppe",
+      "R3-mont-de-marsan",
+      "R4-saint-malo"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-vox-populi-prix-de-bellerive.html",
+        "R1C2-prix-de-la-minardiere.html",
+        "R1C3-prix-de-la-ville-de-bellerive-sur-allier-prix-de-la-ville-de-vichy.html",
+        "R1C4-prix-madame-jean-couturie.html",
+        "R1C5-prix-du-golf-du-sporting.html",
+        "R1C6-prix-de-combronde.html",
+        "R1C7-prix-de-molles.html",
+        "R1C8-prix-nathanaelle-artu.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-vox-populi-prix-de-bellerive.html",
+        "R2C2-prix-de-la-minardiere.html",
+        "R2C3-prix-de-la-ville-de-bellerive-sur-allier-prix-de-la-ville-de-vichy.html",
+        "R2C4-prix-madame-jean-couturie.html",
+        "R2C5-prix-du-golf-du-sporting.html",
+        "R2C6-prix-de-combronde.html",
+        "R2C7-prix-de-molles.html",
+        "R2C8-prix-nathanaelle-artu.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-vox-populi-prix-de-bellerive.html",
+        "R3C2-prix-de-la-minardiere.html",
+        "R3C3-prix-de-la-ville-de-bellerive-sur-allier-prix-de-la-ville-de-vichy.html",
+        "R3C4-prix-madame-jean-couturie.html",
+        "R3C5-prix-du-golf-du-sporting.html",
+        "R3C6-prix-de-combronde.html",
+        "R3C7-prix-de-molles.html",
+        "R3C8-prix-nathanaelle-artu.html"
+      ],
+      "R4-saint-malo": [
+        "R4C1-prix-vox-populi-prix-de-bellerive.html",
+        "R4C2-prix-de-la-minardiere.html",
+        "R4C3-prix-de-la-ville-de-bellerive-sur-allier-prix-de-la-ville-de-vichy.html",
+        "R4C4-prix-madame-jean-couturie.html",
+        "R4C5-prix-du-golf-du-sporting.html",
+        "R4C6-prix-de-combronde.html",
+        "R4C7-prix-de-molles.html",
+        "R4C8-prix-nathanaelle-artu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:46.426136Z"
+}

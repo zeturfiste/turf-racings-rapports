@@ -1,0 +1,79 @@
+{
+  "date": "2021-06-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-15",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-15/2021-06-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C2-prix-de-bethancourt-en-valois.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C3-prix-morienval.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C4-prix-saint-leger-aux-bois.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C6-prix-des-beaux-monts.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C8-prix-de-saint-crepin.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R1-compiegne/R1C9-prix-du-chateau-de-pierrefonds.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R2-bordeaux-le-bouscat/R2C2-prix-de-bethancourt-en-valois.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R2-bordeaux-le-bouscat/R2C3-prix-morienval.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R2-bordeaux-le-bouscat/R2C5-prix-des-frondaisons.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R2-bordeaux-le-bouscat/R2C7-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C1-prix-de-gilocourt.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C2-prix-de-bethancourt-en-valois.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C4-prix-saint-leger-aux-bois.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C5-prix-des-frondaisons.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C6-prix-des-beaux-monts.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C7-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C8-prix-de-saint-crepin.html",
+      "resultats-et-rapports/2021/06/2021-06-15/R4-vincennes/R4C9-prix-du-chateau-de-pierrefonds.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-bordeaux-le-bouscat",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-gilocourt.html",
+        "R1C2-prix-de-bethancourt-en-valois.html",
+        "R1C3-prix-morienval.html",
+        "R1C4-prix-saint-leger-aux-bois.html",
+        "R1C5-prix-des-frondaisons.html",
+        "R1C6-prix-des-beaux-monts.html",
+        "R1C7-prix-du-chateau-de-compiegne.html",
+        "R1C8-prix-de-saint-crepin.html",
+        "R1C9-prix-du-chateau-de-pierrefonds.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-gilocourt.html",
+        "R2C2-prix-de-bethancourt-en-valois.html",
+        "R2C3-prix-morienval.html",
+        "R2C4-prix-saint-leger-aux-bois.html",
+        "R2C5-prix-des-frondaisons.html",
+        "R2C6-prix-des-beaux-monts.html",
+        "R2C7-prix-du-chateau-de-compiegne.html",
+        "R2C8-prix-de-saint-crepin.html",
+        "R2C9-prix-du-chateau-de-pierrefonds.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-gilocourt.html",
+        "R4C2-prix-de-bethancourt-en-valois.html",
+        "R4C3-prix-morienval.html",
+        "R4C4-prix-saint-leger-aux-bois.html",
+        "R4C5-prix-des-frondaisons.html",
+        "R4C6-prix-des-beaux-monts.html",
+        "R4C7-prix-du-chateau-de-compiegne.html",
+        "R4C8-prix-de-saint-crepin.html",
+        "R4C9-prix-du-chateau-de-pierrefonds.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:24.709641Z"
+}

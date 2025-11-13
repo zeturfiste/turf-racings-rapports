@@ -1,0 +1,92 @@
+{
+  "date": "2011-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-23",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-23/2011-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-23/R3-vichy/R3C1-prix-de-bourgogne.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R3-vichy/R3C4-prix-mirska.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R3-vichy/R3C8-prix-d-auvergne.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R4-salon-de-provence/R4C4-prix-mirska.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R4-salon-de-provence/R4C5-prix-corrida.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R4-salon-de-provence/R4C7-prix-marsyas.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R4-salon-de-provence/R4C8-prix-d-auvergne.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R5-graignes/R5C1-prix-de-bourgogne.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R5-graignes/R5C2-prix-luth-de-saron.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R5-graignes/R5C4-prix-mirska.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R5-graignes/R5C6-prix-margouillat.html",
+      "resultats-et-rapports/2011/05/2011-05-23/R5-graignes/R5C8-prix-d-auvergne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-chartres",
+      "R3-vichy",
+      "R4-salon-de-provence",
+      "R5-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-bourgogne.html",
+        "R1C2-prix-luth-de-saron.html",
+        "R1C3-prix-goodly.html",
+        "R1C4-prix-mirska.html",
+        "R1C5-prix-corrida.html",
+        "R1C6-prix-margouillat.html",
+        "R1C7-prix-marsyas.html",
+        "R1C8-prix-d-auvergne.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-de-bourgogne.html",
+        "R2C2-prix-luth-de-saron.html",
+        "R2C3-prix-goodly.html",
+        "R2C4-prix-mirska.html",
+        "R2C5-prix-corrida.html",
+        "R2C6-prix-margouillat.html",
+        "R2C7-prix-marsyas.html",
+        "R2C8-prix-d-auvergne.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-bourgogne.html",
+        "R3C2-prix-luth-de-saron.html",
+        "R3C3-prix-goodly.html",
+        "R3C4-prix-mirska.html",
+        "R3C5-prix-corrida.html",
+        "R3C6-prix-margouillat.html",
+        "R3C7-prix-marsyas.html",
+        "R3C8-prix-d-auvergne.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-de-bourgogne.html",
+        "R4C2-prix-luth-de-saron.html",
+        "R4C3-prix-goodly.html",
+        "R4C4-prix-mirska.html",
+        "R4C5-prix-corrida.html",
+        "R4C6-prix-margouillat.html",
+        "R4C7-prix-marsyas.html",
+        "R4C8-prix-d-auvergne.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-de-bourgogne.html",
+        "R5C2-prix-luth-de-saron.html",
+        "R5C3-prix-goodly.html",
+        "R5C4-prix-mirska.html",
+        "R5C5-prix-corrida.html",
+        "R5C6-prix-margouillat.html",
+        "R5C7-prix-marsyas.html",
+        "R5C8-prix-d-auvergne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:04.371502Z"
+}

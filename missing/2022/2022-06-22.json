@@ -1,0 +1,64 @@
+{
+  "date": "2022-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-22",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-22/2022-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-22/R3-auteuil/R3C2-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2022/06/2022-06-22/R3-auteuil/R3C4-prix-michel-marcel-gougeon-prix-rfm.html",
+      "resultats-et-rapports/2022/06/2022-06-22/R3-auteuil/R3C5-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2022/06/2022-06-22/R3-auteuil/R3C6-prix-lagon-services.html",
+      "resultats-et-rapports/2022/06/2022-06-22/R4-salon-de-provence/R4C3-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+      "resultats-et-rapports/2022/06/2022-06-22/R4-salon-de-provence/R4C5-prix-jean-alain-eliphe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R3-auteuil",
+      "R4-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-grand-national-du-trot-paristurf.html",
+        "R1C2-prix-de-la-depeche-du-midi.html",
+        "R1C3-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R1C4-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R1C5-prix-jean-alain-eliphe.html",
+        "R1C6-prix-lagon-services.html",
+        "R1C7-prix-pmu-la-petite-muretaine.html",
+        "R1C8-prix-de-l-ecurie-a-toi-l-honneur-prix-race-and-care.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-grand-national-du-trot-paristurf.html",
+        "R3C2-prix-de-la-depeche-du-midi.html",
+        "R3C3-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R3C4-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R3C5-prix-jean-alain-eliphe.html",
+        "R3C6-prix-lagon-services.html",
+        "R3C7-prix-pmu-la-petite-muretaine.html",
+        "R3C8-prix-de-l-ecurie-a-toi-l-honneur-prix-race-and-care.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-grand-national-du-trot-paristurf.html",
+        "R4C2-prix-de-la-depeche-du-midi.html",
+        "R4C3-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R4C4-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R4C5-prix-jean-alain-eliphe.html",
+        "R4C6-prix-lagon-services.html",
+        "R4C7-prix-pmu-la-petite-muretaine.html",
+        "R4C8-prix-de-l-ecurie-a-toi-l-honneur-prix-race-and-care.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:36.728755Z"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2010-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-02",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-02/2010-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C1-prix-jean-bart.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C2-prix-des-platanes.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C3-prix-weather-permitting.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C4-prix-tournay.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C5-prix-gelas.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C6-prix-saida.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R1-auteuil/R1C7-prix-world-citizen.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R2-vincennes/R2C1-prix-jean-bart.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R2-vincennes/R2C6-prix-saida.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R2-vincennes/R2C7-prix-world-citizen.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R2-vincennes/R2C8-prix-mortemart.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R3-marseille-borely/R3C1-prix-jean-bart.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R3-marseille-borely/R3C2-prix-des-platanes.html",
+      "resultats-et-rapports/2010/09/2010-09-02/R3-marseille-borely/R3C3-prix-weather-permitting.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes",
+      "R3-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-bart.html",
+        "R1C2-prix-des-platanes.html",
+        "R1C3-prix-weather-permitting.html",
+        "R1C4-prix-tournay.html",
+        "R1C5-prix-gelas.html",
+        "R1C6-prix-saida.html",
+        "R1C7-prix-world-citizen.html",
+        "R1C8-prix-mortemart.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-jean-bart.html",
+        "R2C2-prix-des-platanes.html",
+        "R2C3-prix-weather-permitting.html",
+        "R2C4-prix-tournay.html",
+        "R2C5-prix-gelas.html",
+        "R2C6-prix-saida.html",
+        "R2C7-prix-world-citizen.html",
+        "R2C8-prix-mortemart.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-jean-bart.html",
+        "R3C2-prix-des-platanes.html",
+        "R3C3-prix-weather-permitting.html",
+        "R3C4-prix-tournay.html",
+        "R3C5-prix-gelas.html",
+        "R3C6-prix-saida.html",
+        "R3C7-prix-world-citizen.html",
+        "R3C8-prix-mortemart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:53.026274Z"
+}

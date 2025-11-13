@@ -1,0 +1,75 @@
+{
+  "date": "2024-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-06",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-06/2024-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-06/R1-amiens/R1C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R1-amiens/R1C2-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R1-amiens/R1C3-prix-maisons-familiales-rurales.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R1-amiens/R1C5-prix-auchan-amiens-sud.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C3-prix-maisons-familiales-rurales.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C4-prix-de-l-unat-daniel-laborde.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C5-prix-auchan-amiens-sud.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C6-prix-point-de-vente-le-sulky-salouel.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C7-prix-afasec.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R3-fontainebleau/R3C8-prix-equiressources-ifce.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C2-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C3-prix-maisons-familiales-rurales.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C4-prix-de-l-unat-daniel-laborde.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C5-prix-auchan-amiens-sud.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C6-prix-point-de-vente-le-sulky-salouel.html",
+      "resultats-et-rapports/2024/03/2024-03-06/R4-saint-galmier/R4C7-prix-afasec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-fontainebleau",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-moet-et-chandon.html",
+        "R1C3-prix-maisons-familiales-rurales.html",
+        "R1C4-prix-de-l-unat-daniel-laborde.html",
+        "R1C5-prix-auchan-amiens-sud.html",
+        "R1C6-prix-point-de-vente-le-sulky-salouel.html",
+        "R1C7-prix-afasec.html",
+        "R1C8-prix-equiressources-ifce.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-moet-et-chandon.html",
+        "R3C3-prix-maisons-familiales-rurales.html",
+        "R3C4-prix-de-l-unat-daniel-laborde.html",
+        "R3C5-prix-auchan-amiens-sud.html",
+        "R3C6-prix-point-de-vente-le-sulky-salouel.html",
+        "R3C7-prix-afasec.html",
+        "R3C8-prix-equiressources-ifce.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-moet-et-chandon.html",
+        "R4C3-prix-maisons-familiales-rurales.html",
+        "R4C4-prix-de-l-unat-daniel-laborde.html",
+        "R4C5-prix-auchan-amiens-sud.html",
+        "R4C6-prix-point-de-vente-le-sulky-salouel.html",
+        "R4C7-prix-afasec.html",
+        "R4C8-prix-equiressources-ifce.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:18.058327Z"
+}

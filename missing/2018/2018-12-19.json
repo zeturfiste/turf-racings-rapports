@@ -1,0 +1,77 @@
+{
+  "date": "2018-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-19",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-19/2018-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-19/R1-pau/R1C10-prix-de-meillon.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C1-prix-charles-daguilhon-pujol.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C4-prix-biraben-foie-gras-prix-georges-pastre.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C5-prix-equidia-prix-de-bordes.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C6-prix-de-monein.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C7-prix-de-bielle.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C8-prix-francois-de-juge-montespieu-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R4-vincennes/R4C10-prix-de-meillon.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R5-cagnes-sur-mer/R5C1-prix-charles-daguilhon-pujol.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R5-cagnes-sur-mer/R5C2-prix-de-lons.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R5-cagnes-sur-mer/R5C8-prix-francois-de-juge-montespieu-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R5-cagnes-sur-mer/R5C9-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2018/12/2018-12-19/R5-cagnes-sur-mer/R5C10-prix-de-meillon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R4-vincennes",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-charles-daguilhon-pujol.html",
+        "R1C2-prix-de-lons.html",
+        "R1C3-prix-de-borderes.html",
+        "R1C4-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R1C5-prix-equidia-prix-de-bordes.html",
+        "R1C6-prix-de-monein.html",
+        "R1C7-prix-de-bielle.html",
+        "R1C8-prix-francois-de-juge-montespieu-prix-de-saint-vincent.html",
+        "R1C9-prix-jean-lamaysouette.html",
+        "R1C10-prix-de-meillon.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-charles-daguilhon-pujol.html",
+        "R4C2-prix-de-lons.html",
+        "R4C3-prix-de-borderes.html",
+        "R4C4-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R4C5-prix-equidia-prix-de-bordes.html",
+        "R4C6-prix-de-monein.html",
+        "R4C7-prix-de-bielle.html",
+        "R4C8-prix-francois-de-juge-montespieu-prix-de-saint-vincent.html",
+        "R4C9-prix-jean-lamaysouette.html",
+        "R4C10-prix-de-meillon.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-charles-daguilhon-pujol.html",
+        "R5C2-prix-de-lons.html",
+        "R5C3-prix-de-borderes.html",
+        "R5C4-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R5C5-prix-equidia-prix-de-bordes.html",
+        "R5C6-prix-de-monein.html",
+        "R5C7-prix-de-bielle.html",
+        "R5C8-prix-francois-de-juge-montespieu-prix-de-saint-vincent.html",
+        "R5C9-prix-jean-lamaysouette.html",
+        "R5C10-prix-de-meillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:46.963753Z"
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2024-07-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-07",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-07/2024-07-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-07/R3-la-capelle/R3C2-prix-de-lisieux.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R3-la-capelle/R3C6-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R3-la-capelle/R3C8-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R4-bernay/R4C3-prix-de-la-place-morny.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R4-bernay/R4C4-haras-d-etreham-prix-jean-prat.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R4-bernay/R4C5-prix-amandine.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R4-bernay/R4C8-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R4-bernay/R4C9-prix-de-la-fontaine-morny.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R5-hyeres/R5C2-prix-de-lisieux.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R5-hyeres/R5C9-prix-de-la-fontaine-morny.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C1-prix-de-tancarville.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C3-prix-de-la-place-morny.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C4-haras-d-etreham-prix-jean-prat.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C5-prix-amandine.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C8-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2024/07/2024-07-07/R10-pompadour/R10C9-prix-de-la-fontaine-morny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-la-capelle",
+      "R4-bernay",
+      "R5-hyeres",
+      "R10-pompadour"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-tancarville.html",
+        "R1C2-prix-de-lisieux.html",
+        "R1C3-prix-de-la-place-morny.html",
+        "R1C4-haras-d-etreham-prix-jean-prat.html",
+        "R1C5-prix-amandine.html",
+        "R1C6-prix-de-ris-orangis.html",
+        "R1C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-roland-de-chambure.html",
+        "R1C9-prix-de-la-fontaine-morny.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-de-tancarville.html",
+        "R3C2-prix-de-lisieux.html",
+        "R3C3-prix-de-la-place-morny.html",
+        "R3C4-haras-d-etreham-prix-jean-prat.html",
+        "R3C5-prix-amandine.html",
+        "R3C6-prix-de-ris-orangis.html",
+        "R3C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+        "R3C8-prix-roland-de-chambure.html",
+        "R3C9-prix-de-la-fontaine-morny.html"
+      ],
+      "R4-bernay": [
+        "R4C1-prix-de-tancarville.html",
+        "R4C2-prix-de-lisieux.html",
+        "R4C3-prix-de-la-place-morny.html",
+        "R4C4-haras-d-etreham-prix-jean-prat.html",
+        "R4C5-prix-amandine.html",
+        "R4C6-prix-de-ris-orangis.html",
+        "R4C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-roland-de-chambure.html",
+        "R4C9-prix-de-la-fontaine-morny.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-de-tancarville.html",
+        "R5C2-prix-de-lisieux.html",
+        "R5C3-prix-de-la-place-morny.html",
+        "R5C4-haras-d-etreham-prix-jean-prat.html",
+        "R5C5-prix-amandine.html",
+        "R5C6-prix-de-ris-orangis.html",
+        "R5C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+        "R5C8-prix-roland-de-chambure.html",
+        "R5C9-prix-de-la-fontaine-morny.html"
+      ],
+      "R10-pompadour": [
+        "R10C1-prix-de-tancarville.html",
+        "R10C2-prix-de-lisieux.html",
+        "R10C3-prix-de-la-place-morny.html",
+        "R10C4-haras-d-etreham-prix-jean-prat.html",
+        "R10C5-prix-amandine.html",
+        "R10C6-prix-de-ris-orangis.html",
+        "R10C7-prix-goldikova-prix-de-la-calonne-fonds-europeen-de-l-elevage.html",
+        "R10C8-prix-roland-de-chambure.html",
+        "R10C9-prix-de-la-fontaine-morny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:02.943105Z"
+}

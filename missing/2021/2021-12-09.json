@@ -1,0 +1,67 @@
+{
+  "date": "2021-12-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-09",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-09/2021-12-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-09/R3-cagnes-sur-mer/R3C1-prix-jean-boillereau.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R3-cagnes-sur-mer/R3C5-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C2-prix-d-oraison.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C3-prix-d-eragny.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C4-prix-des-camelias.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C5-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C6-prix-de-chinon.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C7-prix-d-honfleur.html",
+      "resultats-et-rapports/2021/12/2021-12-09/R4-pornichet-la-baule/R4C8-prix-de-murat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-jean-boillereau.html",
+        "R1C2-prix-d-oraison.html",
+        "R1C3-prix-d-eragny.html",
+        "R1C4-prix-des-camelias.html",
+        "R1C5-prix-de-quincy-sous-senart.html",
+        "R1C6-prix-de-chinon.html",
+        "R1C7-prix-d-honfleur.html",
+        "R1C8-prix-de-murat.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-jean-boillereau.html",
+        "R3C2-prix-d-oraison.html",
+        "R3C3-prix-d-eragny.html",
+        "R3C4-prix-des-camelias.html",
+        "R3C5-prix-de-quincy-sous-senart.html",
+        "R3C6-prix-de-chinon.html",
+        "R3C7-prix-d-honfleur.html",
+        "R3C8-prix-de-murat.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-jean-boillereau.html",
+        "R4C2-prix-d-oraison.html",
+        "R4C3-prix-d-eragny.html",
+        "R4C4-prix-des-camelias.html",
+        "R4C5-prix-de-quincy-sous-senart.html",
+        "R4C6-prix-de-chinon.html",
+        "R4C7-prix-d-honfleur.html",
+        "R4C8-prix-de-murat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:29.954868Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2020-11-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-24",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-24/2020-11-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-24/R1-deauville/R1C8-prix-des-poiriers.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R3-vincennes/R3C3-prix-des-pechers.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R3-vincennes/R3C4-prix-des-pommiers.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R3-vincennes/R3C5-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R4-mauquenchy/R4C4-prix-des-pommiers.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R4-mauquenchy/R4C5-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R4-mauquenchy/R4C7-prix-de-lianger.html",
+      "resultats-et-rapports/2020/11/2020-11-24/R4-mauquenchy/R4C8-prix-des-poiriers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-compiegne",
+      "R3-vincennes",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-cognassiers.html",
+        "R1C2-prix-de-la-pommeraie.html",
+        "R1C3-prix-des-pechers.html",
+        "R1C4-prix-des-pommiers.html",
+        "R1C5-prix-de-la-cerisaie.html",
+        "R1C6-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R1C7-prix-de-lianger.html",
+        "R1C8-prix-des-poiriers.html",
+        "R1C9-prix-des-pruniers.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-des-cognassiers.html",
+        "R2C2-prix-de-la-pommeraie.html",
+        "R2C3-prix-des-pechers.html",
+        "R2C4-prix-des-pommiers.html",
+        "R2C5-prix-de-la-cerisaie.html",
+        "R2C6-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R2C7-prix-de-lianger.html",
+        "R2C8-prix-des-poiriers.html",
+        "R2C9-prix-des-pruniers.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-cognassiers.html",
+        "R3C2-prix-de-la-pommeraie.html",
+        "R3C3-prix-des-pechers.html",
+        "R3C4-prix-des-pommiers.html",
+        "R3C5-prix-de-la-cerisaie.html",
+        "R3C6-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R3C7-prix-de-lianger.html",
+        "R3C8-prix-des-poiriers.html",
+        "R3C9-prix-des-pruniers.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-des-cognassiers.html",
+        "R4C2-prix-de-la-pommeraie.html",
+        "R4C3-prix-des-pechers.html",
+        "R4C4-prix-des-pommiers.html",
+        "R4C5-prix-de-la-cerisaie.html",
+        "R4C6-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R4C7-prix-de-lianger.html",
+        "R4C8-prix-des-poiriers.html",
+        "R4C9-prix-des-pruniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:17.164572Z"
+}

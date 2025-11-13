@@ -1,0 +1,71 @@
+{
+  "date": "2022-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-19",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-19/2022-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-19/R1-feurs/R1C1-grand-national-du-trot-paristurf.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R1-feurs/R1C5-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R1-feurs/R1C6-prix-des-benevoles.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R3-deauville/R3C2-prix-des-amateurs.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R3-deauville/R3C3-prix-de-la-region-auvergne-rhone-alpes.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R3-deauville/R3C4-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R3-deauville/R3C5-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R3-deauville/R3C8-prix-de-la-communaute-de-communes-de-forez-est.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R4-cabourg/R4C1-grand-national-du-trot-paristurf.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R4-cabourg/R4C5-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R4-cabourg/R4C6-prix-des-benevoles.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R4-cabourg/R4C7-prix-pmu-le-2006-prix-des-partenaires.html",
+      "resultats-et-rapports/2022/10/2022-10-19/R4-cabourg/R4C8-prix-de-la-communaute-de-communes-de-forez-est.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R3-deauville",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-grand-national-du-trot-paristurf.html",
+        "R1C2-prix-des-amateurs.html",
+        "R1C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R1C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R1C5-prix-de-la-ville-de-feurs.html",
+        "R1C6-prix-des-benevoles.html",
+        "R1C7-prix-pmu-le-2006-prix-des-partenaires.html",
+        "R1C8-prix-de-la-communaute-de-communes-de-forez-est.html"
+      ],
+      "R3-deauville": [
+        "R3C1-grand-national-du-trot-paristurf.html",
+        "R3C2-prix-des-amateurs.html",
+        "R3C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R3C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R3C5-prix-de-la-ville-de-feurs.html",
+        "R3C6-prix-des-benevoles.html",
+        "R3C7-prix-pmu-le-2006-prix-des-partenaires.html",
+        "R3C8-prix-de-la-communaute-de-communes-de-forez-est.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-grand-national-du-trot-paristurf.html",
+        "R4C2-prix-des-amateurs.html",
+        "R4C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R4C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R4C5-prix-de-la-ville-de-feurs.html",
+        "R4C6-prix-des-benevoles.html",
+        "R4C7-prix-pmu-le-2006-prix-des-partenaires.html",
+        "R4C8-prix-de-la-communaute-de-communes-de-forez-est.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:21.151600Z"
+}

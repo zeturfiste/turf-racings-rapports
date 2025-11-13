@@ -1,0 +1,60 @@
+{
+  "date": "2016-01-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/01/2016-01-02",
+    "date_html": "resultats-et-rapports/2016/01/2016-01-02/2016-01-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-divonne-les-bains.html",
+        "R1C2-prix-du-pertre.html",
+        "R1C3-prix-yvonnick-bodin.html",
+        "R1C4-prix-de-bar-le-duc.html",
+        "R1C5-prix-de-meulan.html",
+        "R1C6-prix-de-damville.html",
+        "R1C7-prix-de-sainte-marie-du-mont.html",
+        "R1C8-prix-de-valdampierre.html",
+        "R1C9-prix-des-eglantiers.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-divonne-les-bains.html",
+        "R3C2-prix-du-pertre.html",
+        "R3C3-prix-yvonnick-bodin.html",
+        "R3C4-prix-de-bar-le-duc.html",
+        "R3C5-prix-de-meulan.html",
+        "R3C6-prix-de-damville.html",
+        "R3C7-prix-de-sainte-marie-du-mont.html",
+        "R3C8-prix-de-valdampierre.html",
+        "R3C9-prix-des-eglantiers.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-divonne-les-bains.html",
+        "R6C2-prix-du-pertre.html",
+        "R6C3-prix-yvonnick-bodin.html",
+        "R6C4-prix-de-bar-le-duc.html",
+        "R6C5-prix-de-meulan.html",
+        "R6C6-prix-de-damville.html",
+        "R6C7-prix-de-sainte-marie-du-mont.html",
+        "R6C8-prix-de-valdampierre.html",
+        "R6C9-prix-des-eglantiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:18.457804Z"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2012-01-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/01/2012-01-03",
+    "date_html": "resultats-et-rapports/2012/01/2012-01-03/2012-01-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-bidart-premier-peloton.html",
+        "R1C2-prix-de-barcus.html",
+        "R1C3-prix-pierre-estrem-rey.html",
+        "R1C4-prix-pmu-tabac-journaux-des-5-cantons-anglet-prix-de-sames.html",
+        "R1C5-prix-de-bidart-deuxieme-peloton.html",
+        "R1C6-prix-d-araujuzon.html",
+        "R1C7-prix-renaud-du-vivier.html",
+        "R1C8-prix-de-lasclaveries.html",
+        "R1C9-prix-pmu-tabac-alimentation-poutou-ade-prix-de-lescar.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-bidart-premier-peloton.html",
+        "R2C2-prix-de-barcus.html",
+        "R2C3-prix-pierre-estrem-rey.html",
+        "R2C4-prix-pmu-tabac-journaux-des-5-cantons-anglet-prix-de-sames.html",
+        "R2C5-prix-de-bidart-deuxieme-peloton.html",
+        "R2C6-prix-d-araujuzon.html",
+        "R2C7-prix-renaud-du-vivier.html",
+        "R2C8-prix-de-lasclaveries.html",
+        "R2C9-prix-pmu-tabac-alimentation-poutou-ade-prix-de-lescar.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-bidart-premier-peloton.html",
+        "R3C2-prix-de-barcus.html",
+        "R3C3-prix-pierre-estrem-rey.html",
+        "R3C4-prix-pmu-tabac-journaux-des-5-cantons-anglet-prix-de-sames.html",
+        "R3C5-prix-de-bidart-deuxieme-peloton.html",
+        "R3C6-prix-d-araujuzon.html",
+        "R3C7-prix-renaud-du-vivier.html",
+        "R3C8-prix-de-lasclaveries.html",
+        "R3C9-prix-pmu-tabac-alimentation-poutou-ade-prix-de-lescar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:09.160909Z"
+}

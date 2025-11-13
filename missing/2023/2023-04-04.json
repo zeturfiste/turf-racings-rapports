@@ -1,0 +1,77 @@
+{
+  "date": "2023-04-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-04",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-04/2023-04-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-04/R1-fontainebleau/R1C1-prix-des-grandes-fontaines.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R1-fontainebleau/R1C3-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R1-fontainebleau/R1C4-prix-de-la-croix-de-vitry.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R1-fontainebleau/R1C6-prix-de-vulaines-sur-seine.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R1-fontainebleau/R1C8-prix-des-petites-fontaines.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C2-prix-des-cypres.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C3-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C4-prix-de-la-croix-de-vitry.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C6-prix-de-vulaines-sur-seine.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C7-prix-des-hetres.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R3-toulouse/R3C8-prix-des-petites-fontaines.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C1-prix-des-grandes-fontaines.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C2-prix-des-cypres.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C3-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C4-prix-de-la-croix-de-vitry.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C5-prix-des-hauteurs-de-la-solle.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C6-prix-de-vulaines-sur-seine.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C7-prix-des-hetres.html",
+      "resultats-et-rapports/2023/04/2023-04-04/R4-vincennes/R4C8-prix-des-petites-fontaines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-toulouse",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-grandes-fontaines.html",
+        "R1C2-prix-des-cypres.html",
+        "R1C3-prix-du-bois-de-la-commanderie.html",
+        "R1C4-prix-de-la-croix-de-vitry.html",
+        "R1C5-prix-des-hauteurs-de-la-solle.html",
+        "R1C6-prix-de-vulaines-sur-seine.html",
+        "R1C7-prix-des-hetres.html",
+        "R1C8-prix-des-petites-fontaines.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-des-grandes-fontaines.html",
+        "R3C2-prix-des-cypres.html",
+        "R3C3-prix-du-bois-de-la-commanderie.html",
+        "R3C4-prix-de-la-croix-de-vitry.html",
+        "R3C5-prix-des-hauteurs-de-la-solle.html",
+        "R3C6-prix-de-vulaines-sur-seine.html",
+        "R3C7-prix-des-hetres.html",
+        "R3C8-prix-des-petites-fontaines.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-grandes-fontaines.html",
+        "R4C2-prix-des-cypres.html",
+        "R4C3-prix-du-bois-de-la-commanderie.html",
+        "R4C4-prix-de-la-croix-de-vitry.html",
+        "R4C5-prix-des-hauteurs-de-la-solle.html",
+        "R4C6-prix-de-vulaines-sur-seine.html",
+        "R4C7-prix-des-hetres.html",
+        "R4C8-prix-des-petites-fontaines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:17.928702Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2022-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-14",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-14/2022-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-14/R1-compiegne/R1C3-prix-de-blerancourt.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R1-compiegne/R1C5-prix-de-morienval.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R2-argentan/R2C1-prix-des-neuf-fontaines.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R2-argentan/R2C3-prix-de-blerancourt.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R2-argentan/R2C6-prix-de-la-clairiere-de-l-armistice.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R4-vincennes/R4C5-prix-de-morienval.html",
+      "resultats-et-rapports/2022/06/2022-06-14/R4-vincennes/R4C8-prix-de-vaudranpont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-argentan",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-des-neuf-fontaines.html",
+        "R1C2-prix-de-la-foret-de-laigue.html",
+        "R1C3-prix-de-blerancourt.html",
+        "R1C4-prix-des-futaies.html",
+        "R1C5-prix-de-morienval.html",
+        "R1C6-prix-de-la-clairiere-de-l-armistice.html",
+        "R1C7-prix-des-gentlemen.html",
+        "R1C8-prix-de-vaudranpont.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-des-neuf-fontaines.html",
+        "R2C2-prix-de-la-foret-de-laigue.html",
+        "R2C3-prix-de-blerancourt.html",
+        "R2C4-prix-des-futaies.html",
+        "R2C5-prix-de-morienval.html",
+        "R2C6-prix-de-la-clairiere-de-l-armistice.html",
+        "R2C7-prix-des-gentlemen.html",
+        "R2C8-prix-de-vaudranpont.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-neuf-fontaines.html",
+        "R4C2-prix-de-la-foret-de-laigue.html",
+        "R4C3-prix-de-blerancourt.html",
+        "R4C4-prix-des-futaies.html",
+        "R4C5-prix-de-morienval.html",
+        "R4C6-prix-de-la-clairiere-de-l-armistice.html",
+        "R4C7-prix-des-gentlemen.html",
+        "R4C8-prix-de-vaudranpont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:33.700182Z"
+}

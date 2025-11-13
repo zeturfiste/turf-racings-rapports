@@ -1,0 +1,112 @@
+{
+  "date": "2019-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-09",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-09/2019-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-09/R1-auteuil/R1C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R1-auteuil/R1C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R1-auteuil/R1C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R1-auteuil/R1C8-prix-de-la-source.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C1-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C3-prix-univers-ii.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C4-prix-ventriloque.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R2-toulouse/R2C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C1-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C3-prix-univers-ii.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C4-prix-ventriloque.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R3-caen/R3C8-prix-de-la-source.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C1-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C3-prix-univers-ii.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C4-prix-ventriloque.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C7-prix-cousin-pons.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R4-le-croise-laroche/R4C8-prix-de-la-source.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C1-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C3-prix-univers-ii.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C4-prix-ventriloque.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C7-prix-cousin-pons.html",
+      "resultats-et-rapports/2019/03/2019-03-09/R7-cagnes-sur-mer/R7C8-prix-de-la-source.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-toulouse",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-claude-evain.html",
+        "R1C2-prix-de-l-yonne.html",
+        "R1C3-prix-univers-ii.html",
+        "R1C4-prix-ventriloque.html",
+        "R1C5-prix-duc-d-anjou.html",
+        "R1C6-prix-hubert-d-aillieres.html",
+        "R1C7-prix-cousin-pons.html",
+        "R1C8-prix-de-la-source.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-jean-claude-evain.html",
+        "R2C2-prix-de-l-yonne.html",
+        "R2C3-prix-univers-ii.html",
+        "R2C4-prix-ventriloque.html",
+        "R2C5-prix-duc-d-anjou.html",
+        "R2C6-prix-hubert-d-aillieres.html",
+        "R2C7-prix-cousin-pons.html",
+        "R2C8-prix-de-la-source.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-jean-claude-evain.html",
+        "R3C2-prix-de-l-yonne.html",
+        "R3C3-prix-univers-ii.html",
+        "R3C4-prix-ventriloque.html",
+        "R3C5-prix-duc-d-anjou.html",
+        "R3C6-prix-hubert-d-aillieres.html",
+        "R3C7-prix-cousin-pons.html",
+        "R3C8-prix-de-la-source.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-jean-claude-evain.html",
+        "R4C2-prix-de-l-yonne.html",
+        "R4C3-prix-univers-ii.html",
+        "R4C4-prix-ventriloque.html",
+        "R4C5-prix-duc-d-anjou.html",
+        "R4C6-prix-hubert-d-aillieres.html",
+        "R4C7-prix-cousin-pons.html",
+        "R4C8-prix-de-la-source.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-jean-claude-evain.html",
+        "R7C2-prix-de-l-yonne.html",
+        "R7C3-prix-univers-ii.html",
+        "R7C4-prix-ventriloque.html",
+        "R7C5-prix-duc-d-anjou.html",
+        "R7C6-prix-hubert-d-aillieres.html",
+        "R7C7-prix-cousin-pons.html",
+        "R7C8-prix-de-la-source.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:05.728341Z"
+}

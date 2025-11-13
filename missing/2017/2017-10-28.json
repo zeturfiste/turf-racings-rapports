@@ -1,0 +1,92 @@
+{
+  "date": "2017-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-28",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-28/2017-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C2-prix-de-bourges.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C3-prix-armand-de-coulange-prix-d-amiens.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C4-prix-de-besancon.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C5-grand-steeple-chase-de-compiegne.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C6-prix-roger-saint.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C7-prix-loggia.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R5-marseille-vivaux/R5C8-prix-du-treport.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R6-graignes/R6C1-prix-bernard-secly-al-capone-ii.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R6-graignes/R6C2-prix-de-bourges.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R6-graignes/R6C3-prix-armand-de-coulange-prix-d-amiens.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R6-graignes/R6C4-prix-de-besancon.html",
+      "resultats-et-rapports/2017/10/2017-10-28/R6-graignes/R6C7-prix-loggia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-noumea",
+      "R4-nantes",
+      "R5-marseille-vivaux",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-bernard-secly-al-capone-ii.html",
+        "R1C2-prix-de-bourges.html",
+        "R1C3-prix-armand-de-coulange-prix-d-amiens.html",
+        "R1C4-prix-de-besancon.html",
+        "R1C5-grand-steeple-chase-de-compiegne.html",
+        "R1C6-prix-roger-saint.html",
+        "R1C7-prix-loggia.html",
+        "R1C8-prix-du-treport.html"
+      ],
+      "R2-noumea": [
+        "R2C1-prix-bernard-secly-al-capone-ii.html",
+        "R2C2-prix-de-bourges.html",
+        "R2C3-prix-armand-de-coulange-prix-d-amiens.html",
+        "R2C4-prix-de-besancon.html",
+        "R2C5-grand-steeple-chase-de-compiegne.html",
+        "R2C6-prix-roger-saint.html",
+        "R2C7-prix-loggia.html",
+        "R2C8-prix-du-treport.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-bernard-secly-al-capone-ii.html",
+        "R4C2-prix-de-bourges.html",
+        "R4C3-prix-armand-de-coulange-prix-d-amiens.html",
+        "R4C4-prix-de-besancon.html",
+        "R4C5-grand-steeple-chase-de-compiegne.html",
+        "R4C6-prix-roger-saint.html",
+        "R4C7-prix-loggia.html",
+        "R4C8-prix-du-treport.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-bernard-secly-al-capone-ii.html",
+        "R5C2-prix-de-bourges.html",
+        "R5C3-prix-armand-de-coulange-prix-d-amiens.html",
+        "R5C4-prix-de-besancon.html",
+        "R5C5-grand-steeple-chase-de-compiegne.html",
+        "R5C6-prix-roger-saint.html",
+        "R5C7-prix-loggia.html",
+        "R5C8-prix-du-treport.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-bernard-secly-al-capone-ii.html",
+        "R6C2-prix-de-bourges.html",
+        "R6C3-prix-armand-de-coulange-prix-d-amiens.html",
+        "R6C4-prix-de-besancon.html",
+        "R6C5-grand-steeple-chase-de-compiegne.html",
+        "R6C6-prix-roger-saint.html",
+        "R6C7-prix-loggia.html",
+        "R6C8-prix-du-treport.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:40.248286Z"
+}

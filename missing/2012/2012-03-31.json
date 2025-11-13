@@ -1,0 +1,66 @@
+{
+  "date": "2012-03-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-31",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-31/2012-03-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-31/R1-auteuil/R1C3-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R1-auteuil/R1C7-prix-air-landais.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R2-caen/R2C1-prix-hubert-de-navailles.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R2-caen/R2C6-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R3-laval/R3C2-prix-kashnil.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R3-laval/R3C4-prix-fleuret.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R3-laval/R3C5-prix-hypothese.html",
+      "resultats-et-rapports/2012/03/2012-03-31/R3-laval/R3C8-prix-romantisme.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-hubert-de-navailles.html",
+        "R1C2-prix-kashnil.html",
+        "R1C3-prix-de-saint-maixent.html",
+        "R1C4-prix-fleuret.html",
+        "R1C5-prix-hypothese.html",
+        "R1C6-prix-general-de-rougemont.html",
+        "R1C7-prix-air-landais.html",
+        "R1C8-prix-romantisme.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-hubert-de-navailles.html",
+        "R2C2-prix-kashnil.html",
+        "R2C3-prix-de-saint-maixent.html",
+        "R2C4-prix-fleuret.html",
+        "R2C5-prix-hypothese.html",
+        "R2C6-prix-general-de-rougemont.html",
+        "R2C7-prix-air-landais.html",
+        "R2C8-prix-romantisme.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-hubert-de-navailles.html",
+        "R3C2-prix-kashnil.html",
+        "R3C3-prix-de-saint-maixent.html",
+        "R3C4-prix-fleuret.html",
+        "R3C5-prix-hypothese.html",
+        "R3C6-prix-general-de-rougemont.html",
+        "R3C7-prix-air-landais.html",
+        "R3C8-prix-romantisme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:30.064831Z"
+}

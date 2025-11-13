@@ -1,0 +1,80 @@
+{
+  "date": "2021-10-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-14",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-14/2021-10-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-14/R1-paris-longchamp/R1C3-prix-de-la-breche-aux-loups.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R1-paris-longchamp/R1C5-prix-de-la-fontaine-neuve.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R4-enghien-soisy/R4C2-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R4-enghien-soisy/R4C5-prix-de-la-fontaine-neuve.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R4-enghien-soisy/R4C7-prix-de-la-fontaine-des-haudriettes.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C2-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C3-prix-de-la-breche-aux-loups.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C4-prix-ernest-leroy.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C5-prix-de-la-fontaine-neuve.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C6-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2021/10/2021-10-14/R7-lyon-parilly/R7C8-prix-de-la-chaussee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-marseille-borely",
+      "R4-enghien-soisy",
+      "R7-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-carrus.html",
+        "R1C2-prix-de-la-faisanderie.html",
+        "R1C3-prix-de-la-breche-aux-loups.html",
+        "R1C4-prix-ernest-leroy.html",
+        "R1C5-prix-de-la-fontaine-neuve.html",
+        "R1C6-prix-de-saint-nicolas.html",
+        "R1C7-prix-de-la-fontaine-des-haudriettes.html",
+        "R1C8-prix-de-la-chaussee.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-carrus.html",
+        "R3C2-prix-de-la-faisanderie.html",
+        "R3C3-prix-de-la-breche-aux-loups.html",
+        "R3C4-prix-ernest-leroy.html",
+        "R3C5-prix-de-la-fontaine-neuve.html",
+        "R3C6-prix-de-saint-nicolas.html",
+        "R3C7-prix-de-la-fontaine-des-haudriettes.html",
+        "R3C8-prix-de-la-chaussee.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-carrus.html",
+        "R4C2-prix-de-la-faisanderie.html",
+        "R4C3-prix-de-la-breche-aux-loups.html",
+        "R4C4-prix-ernest-leroy.html",
+        "R4C5-prix-de-la-fontaine-neuve.html",
+        "R4C6-prix-de-saint-nicolas.html",
+        "R4C7-prix-de-la-fontaine-des-haudriettes.html",
+        "R4C8-prix-de-la-chaussee.html"
+      ],
+      "R7-lyon-parilly": [
+        "R7C1-prix-carrus.html",
+        "R7C2-prix-de-la-faisanderie.html",
+        "R7C3-prix-de-la-breche-aux-loups.html",
+        "R7C4-prix-ernest-leroy.html",
+        "R7C5-prix-de-la-fontaine-neuve.html",
+        "R7C6-prix-de-saint-nicolas.html",
+        "R7C7-prix-de-la-fontaine-des-haudriettes.html",
+        "R7C8-prix-de-la-chaussee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:10.268046Z"
+}

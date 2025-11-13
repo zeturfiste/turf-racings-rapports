@@ -1,0 +1,79 @@
+{
+  "date": "2016-08-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/08/2016-08-10",
+    "date_html": "resultats-et-rapports/2016/08/2016-08-10/2016-08-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/08/2016-08-10/R1-saint-malo/R1C6-prix-jacques-giboire.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R1-saint-malo/R1C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R3-mauquenchy/R3C1-8e-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R3-mauquenchy/R3C3-prix-du-president-maurice-de-folleville.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R3-mauquenchy/R3C5-prix-andre-carrus.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R3-mauquenchy/R3C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R4-la-teste-de-buch/R4C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R4-la-teste-de-buch/R4C5-prix-andre-carrus.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R6-les-sables-d-olonne/R6C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2016/08/2016-08-10/R6-les-sables-d-olonne/R6C6-prix-jacques-giboire.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-malo",
+      "R3-mauquenchy",
+      "R4-la-teste-de-buch",
+      "R6-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-malo": [
+        "R1C1-8e-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-des-thermes-marins-de-saint-malo.html",
+        "R1C3-prix-du-president-maurice-de-folleville.html",
+        "R1C4-prix-de-la-ville-de-saint-malo.html",
+        "R1C5-prix-andre-carrus.html",
+        "R1C6-prix-jacques-giboire.html",
+        "R1C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+        "R1C8-prix-du-casino-barriere-de-saint-malo.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-8e-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-des-thermes-marins-de-saint-malo.html",
+        "R3C3-prix-du-president-maurice-de-folleville.html",
+        "R3C4-prix-de-la-ville-de-saint-malo.html",
+        "R3C5-prix-andre-carrus.html",
+        "R3C6-prix-jacques-giboire.html",
+        "R3C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+        "R3C8-prix-du-casino-barriere-de-saint-malo.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-8e-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-des-thermes-marins-de-saint-malo.html",
+        "R4C3-prix-du-president-maurice-de-folleville.html",
+        "R4C4-prix-de-la-ville-de-saint-malo.html",
+        "R4C5-prix-andre-carrus.html",
+        "R4C6-prix-jacques-giboire.html",
+        "R4C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+        "R4C8-prix-du-casino-barriere-de-saint-malo.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-8e-etape-du-grand-national-du-trot.html",
+        "R6C2-prix-des-thermes-marins-de-saint-malo.html",
+        "R6C3-prix-du-president-maurice-de-folleville.html",
+        "R6C4-prix-de-la-ville-de-saint-malo.html",
+        "R6C5-prix-andre-carrus.html",
+        "R6C6-prix-jacques-giboire.html",
+        "R6C7-prix-de-la-laiterie-de-saint-malo-groupe-sill.html",
+        "R6C8-prix-du-casino-barriere-de-saint-malo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:23.110627Z"
+}

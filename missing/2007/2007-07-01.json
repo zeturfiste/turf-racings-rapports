@@ -1,0 +1,113 @@
+{
+  "date": "2007-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-01",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-01/2007-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-01/R1-maisons-laffitte/R1C1-prix-de-fontenay.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R1-maisons-laffitte/R1C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R1-maisons-laffitte/R1C5-prix-chloe.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R1-maisons-laffitte/R1C8-prix-carvin.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C1-prix-de-fontenay.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C3-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C4-prix-du-bois.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C7-hambourg-deutsches-derby.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R2-saint-galmier/R2C8-prix-carvin.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C1-prix-de-fontenay.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C4-prix-du-bois.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C5-prix-chloe.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C6-prix-de-la-ville-du-pecq.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C7-hambourg-deutsches-derby.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R3-erbray/R3C9-prix-du-petit-bosq.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R31-zerace/R31C4-prix-du-bois.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R31-zerace/R31C5-prix-chloe.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R31-zerace/R31C6-prix-de-la-ville-du-pecq.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R31-zerace/R31C8-prix-carvin.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R31-zerace/R31C9-prix-du-petit-bosq.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C1-prix-de-fontenay.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C4-prix-du-bois.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C5-prix-chloe.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C6-prix-de-la-ville-du-pecq.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C7-hambourg-deutsches-derby.html",
+      "resultats-et-rapports/2007/07/2007-07-01/R70-grand-prix-de-france-de-formule1-a-magny-cours/R70C8-prix-carvin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-saint-galmier",
+      "R3-erbray",
+      "R31-zerace",
+      "R70-grand-prix-de-france-de-formule1-a-magny-cours"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-fontenay.html",
+        "R1C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R1C3-prix-de-saint-germain-de-la-grange.html",
+        "R1C4-prix-du-bois.html",
+        "R1C5-prix-chloe.html",
+        "R1C6-prix-de-la-ville-du-pecq.html",
+        "R1C7-hambourg-deutsches-derby.html",
+        "R1C8-prix-carvin.html",
+        "R1C9-prix-du-petit-bosq.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-de-fontenay.html",
+        "R2C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R2C3-prix-de-saint-germain-de-la-grange.html",
+        "R2C4-prix-du-bois.html",
+        "R2C5-prix-chloe.html",
+        "R2C6-prix-de-la-ville-du-pecq.html",
+        "R2C7-hambourg-deutsches-derby.html",
+        "R2C8-prix-carvin.html",
+        "R2C9-prix-du-petit-bosq.html"
+      ],
+      "R3-erbray": [
+        "R3C1-prix-de-fontenay.html",
+        "R3C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R3C3-prix-de-saint-germain-de-la-grange.html",
+        "R3C4-prix-du-bois.html",
+        "R3C5-prix-chloe.html",
+        "R3C6-prix-de-la-ville-du-pecq.html",
+        "R3C7-hambourg-deutsches-derby.html",
+        "R3C8-prix-carvin.html",
+        "R3C9-prix-du-petit-bosq.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-fontenay.html",
+        "R31C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R31C3-prix-de-saint-germain-de-la-grange.html",
+        "R31C4-prix-du-bois.html",
+        "R31C5-prix-chloe.html",
+        "R31C6-prix-de-la-ville-du-pecq.html",
+        "R31C7-hambourg-deutsches-derby.html",
+        "R31C8-prix-carvin.html",
+        "R31C9-prix-du-petit-bosq.html"
+      ],
+      "R70-grand-prix-de-france-de-formule1-a-magny-cours": [
+        "R70C1-prix-de-fontenay.html",
+        "R70C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R70C3-prix-de-saint-germain-de-la-grange.html",
+        "R70C4-prix-du-bois.html",
+        "R70C5-prix-chloe.html",
+        "R70C6-prix-de-la-ville-du-pecq.html",
+        "R70C7-hambourg-deutsches-derby.html",
+        "R70C8-prix-carvin.html",
+        "R70C9-prix-du-petit-bosq.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:03.977037Z"
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2010-05-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/05/2010-05-31",
+    "date_html": "resultats-et-rapports/2010/05/2010-05-31/2010-05-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/05/2010-05-31/R1-longchamp/R1C7-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R1-longchamp/R1C8-prix-des-celestins.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R2-lyon-la-soie/R2C1-prix-des-gravilliers.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R2-lyon-la-soie/R2C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R2-lyon-la-soie/R2C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C4-prix-d-armenonville.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C5-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C7-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R3-angers/R3C8-prix-des-celestins.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R4-le-croise-laroche/R4C1-prix-des-gravilliers.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R4-le-croise-laroche/R4C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R4-le-croise-laroche/R4C4-prix-d-armenonville.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R4-le-croise-laroche/R4C6-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R4-le-croise-laroche/R4C8-prix-des-celestins.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R31-zerace/R31C4-prix-d-armenonville.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R31-zerace/R31C5-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R31-zerace/R31C6-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R31-zerace/R31C7-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R31-zerace/R31C8-prix-des-celestins.html",
+      "resultats-et-rapports/2010/05/2010-05-31/R70-paris-roland-garros/R70C3-prix-de-cheffreville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-lyon-la-soie",
+      "R3-angers",
+      "R4-le-croise-laroche",
+      "R31-zerace",
+      "R70-paris-roland-garros"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-gravilliers.html",
+        "R1C2-prix-de-lormoy.html",
+        "R1C3-prix-de-cheffreville.html",
+        "R1C4-prix-d-armenonville.html",
+        "R1C5-prix-du-quai-aux-fleurs.html",
+        "R1C6-prix-de-la-bienfaisance.html",
+        "R1C7-prix-de-villeneuve-l-etang.html",
+        "R1C8-prix-des-celestins.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-des-gravilliers.html",
+        "R2C2-prix-de-lormoy.html",
+        "R2C3-prix-de-cheffreville.html",
+        "R2C4-prix-d-armenonville.html",
+        "R2C5-prix-du-quai-aux-fleurs.html",
+        "R2C6-prix-de-la-bienfaisance.html",
+        "R2C7-prix-de-villeneuve-l-etang.html",
+        "R2C8-prix-des-celestins.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-des-gravilliers.html",
+        "R3C2-prix-de-lormoy.html",
+        "R3C3-prix-de-cheffreville.html",
+        "R3C4-prix-d-armenonville.html",
+        "R3C5-prix-du-quai-aux-fleurs.html",
+        "R3C6-prix-de-la-bienfaisance.html",
+        "R3C7-prix-de-villeneuve-l-etang.html",
+        "R3C8-prix-des-celestins.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-des-gravilliers.html",
+        "R4C2-prix-de-lormoy.html",
+        "R4C3-prix-de-cheffreville.html",
+        "R4C4-prix-d-armenonville.html",
+        "R4C5-prix-du-quai-aux-fleurs.html",
+        "R4C6-prix-de-la-bienfaisance.html",
+        "R4C7-prix-de-villeneuve-l-etang.html",
+        "R4C8-prix-des-celestins.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-gravilliers.html",
+        "R31C2-prix-de-lormoy.html",
+        "R31C3-prix-de-cheffreville.html",
+        "R31C4-prix-d-armenonville.html",
+        "R31C5-prix-du-quai-aux-fleurs.html",
+        "R31C6-prix-de-la-bienfaisance.html",
+        "R31C7-prix-de-villeneuve-l-etang.html",
+        "R31C8-prix-des-celestins.html"
+      ],
+      "R70-paris-roland-garros": [
+        "R70C1-prix-des-gravilliers.html",
+        "R70C2-prix-de-lormoy.html",
+        "R70C3-prix-de-cheffreville.html",
+        "R70C4-prix-d-armenonville.html",
+        "R70C5-prix-du-quai-aux-fleurs.html",
+        "R70C6-prix-de-la-bienfaisance.html",
+        "R70C7-prix-de-villeneuve-l-etang.html",
+        "R70C8-prix-des-celestins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:19.633352Z"
+}

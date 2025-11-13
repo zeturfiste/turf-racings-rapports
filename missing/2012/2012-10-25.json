@@ -1,0 +1,70 @@
+{
+  "date": "2012-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-25",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-25/2012-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-25/R1-auteuil/R1C2-prix-cerealiste.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R2-deauville/R2C5-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R2-deauville/R2C7-prix-pre-catelan.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R2-deauville/R2C8-prix-lyonnais.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R3-cabourg/R3C5-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R3-cabourg/R3C6-prix-moncourt.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R3-cabourg/R3C7-prix-pre-catelan.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R3-cabourg/R3C8-prix-lyonnais.html",
+      "resultats-et-rapports/2012/10/2012-10-25/R3-cabourg/R3C9-prix-falzarego.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-deauville",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-elisa.html",
+        "R1C2-prix-cerealiste.html",
+        "R1C3-prix-emilius-premier-peloton.html",
+        "R1C4-prix-triquerville.html",
+        "R1C5-prix-emilius-deuxieme-peloton.html",
+        "R1C6-prix-moncourt.html",
+        "R1C7-prix-pre-catelan.html",
+        "R1C8-prix-lyonnais.html",
+        "R1C9-prix-falzarego.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-elisa.html",
+        "R2C2-prix-cerealiste.html",
+        "R2C3-prix-emilius-premier-peloton.html",
+        "R2C4-prix-triquerville.html",
+        "R2C5-prix-emilius-deuxieme-peloton.html",
+        "R2C6-prix-moncourt.html",
+        "R2C7-prix-pre-catelan.html",
+        "R2C8-prix-lyonnais.html",
+        "R2C9-prix-falzarego.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-elisa.html",
+        "R3C2-prix-cerealiste.html",
+        "R3C3-prix-emilius-premier-peloton.html",
+        "R3C4-prix-triquerville.html",
+        "R3C5-prix-emilius-deuxieme-peloton.html",
+        "R3C6-prix-moncourt.html",
+        "R3C7-prix-pre-catelan.html",
+        "R3C8-prix-lyonnais.html",
+        "R3C9-prix-falzarego.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:33.138815Z"
+}

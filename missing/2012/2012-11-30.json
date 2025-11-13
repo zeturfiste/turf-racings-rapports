@@ -1,0 +1,104 @@
+{
+  "date": "2012-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-30",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-30/2012-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C1-prix-dandolo.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C2-prix-chalet.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C4-prix-leopold-bara.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C5-prix-oeneas.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C6-prix-jean-sens.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R1-auteuil/R1C8-prix-hamilton.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R2-chartres/R2C5-prix-oeneas.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R2-chartres/R2C8-prix-hamilton.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R3-marseille-vivaux/R3C2-prix-chalet.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R3-marseille-vivaux/R3C3-prix-elseneur.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R3-marseille-vivaux/R3C6-prix-jean-sens.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R3-marseille-vivaux/R3C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R4-vincennes/R4C3-prix-elseneur.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R4-vincennes/R4C4-prix-leopold-bara.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R4-vincennes/R4C5-prix-oeneas.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R4-vincennes/R4C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R4-vincennes/R4C8-prix-hamilton.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C1-prix-dandolo.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C2-prix-chalet.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C3-prix-elseneur.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C5-prix-oeneas.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C6-prix-jean-sens.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C7-prix-barcelonnette.html",
+      "resultats-et-rapports/2012/11/2012-11-30/R6-saint-galmier/R6C8-prix-hamilton.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-chartres",
+      "R3-marseille-vivaux",
+      "R4-vincennes",
+      "R6-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-dandolo.html",
+        "R1C2-prix-chalet.html",
+        "R1C3-prix-elseneur.html",
+        "R1C4-prix-leopold-bara.html",
+        "R1C5-prix-oeneas.html",
+        "R1C6-prix-jean-sens.html",
+        "R1C7-prix-barcelonnette.html",
+        "R1C8-prix-hamilton.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-dandolo.html",
+        "R2C2-prix-chalet.html",
+        "R2C3-prix-elseneur.html",
+        "R2C4-prix-leopold-bara.html",
+        "R2C5-prix-oeneas.html",
+        "R2C6-prix-jean-sens.html",
+        "R2C7-prix-barcelonnette.html",
+        "R2C8-prix-hamilton.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-dandolo.html",
+        "R3C2-prix-chalet.html",
+        "R3C3-prix-elseneur.html",
+        "R3C4-prix-leopold-bara.html",
+        "R3C5-prix-oeneas.html",
+        "R3C6-prix-jean-sens.html",
+        "R3C7-prix-barcelonnette.html",
+        "R3C8-prix-hamilton.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-dandolo.html",
+        "R4C2-prix-chalet.html",
+        "R4C3-prix-elseneur.html",
+        "R4C4-prix-leopold-bara.html",
+        "R4C5-prix-oeneas.html",
+        "R4C6-prix-jean-sens.html",
+        "R4C7-prix-barcelonnette.html",
+        "R4C8-prix-hamilton.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-dandolo.html",
+        "R6C2-prix-chalet.html",
+        "R6C3-prix-elseneur.html",
+        "R6C4-prix-leopold-bara.html",
+        "R6C5-prix-oeneas.html",
+        "R6C6-prix-jean-sens.html",
+        "R6C7-prix-barcelonnette.html",
+        "R6C8-prix-hamilton.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:43.404081Z"
+}

@@ -1,0 +1,121 @@
+{
+  "date": "2022-10-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-02",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-02/2022-10-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-02/R1-paris-longchamp/R1C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R2-strasbourg/R2C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R3-lyon-parilly/R3C6-prix-de-l-abbaye-de-longchamp-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R3-lyon-parilly/R3C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R4-graignes/R4C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R4-graignes/R4C3-qatar-arabian-world-cup.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R4-graignes/R4C5-prix-de-l-opera-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R4-graignes/R4C8-qatar-grand-handicap-des-flyers.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R4-graignes/R4C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C3-qatar-arabian-world-cup.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C4-qatar-prix-de-l-arc-de-triomphe.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C5-prix-de-l-opera-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C6-prix-de-l-abbaye-de-longchamp-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R5-moulins/R5C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C4-qatar-prix-de-l-arc-de-triomphe.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C5-prix-de-l-opera-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C6-prix-de-l-abbaye-de-longchamp-longines.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C8-qatar-grand-handicap-des-flyers.html",
+      "resultats-et-rapports/2022/10/2022-10-02/R6-cordemais/R6C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-strasbourg",
+      "R3-lyon-parilly",
+      "R4-graignes",
+      "R5-moulins",
+      "R6-cordemais"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R1C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R1C3-qatar-arabian-world-cup.html",
+        "R1C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R1C5-prix-de-l-opera-longines.html",
+        "R1C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R1C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R1C8-qatar-grand-handicap-des-flyers.html",
+        "R1C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R2C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R2C3-qatar-arabian-world-cup.html",
+        "R2C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R2C5-prix-de-l-opera-longines.html",
+        "R2C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R2C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R2C8-qatar-grand-handicap-des-flyers.html",
+        "R2C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R3C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R3C3-qatar-arabian-world-cup.html",
+        "R3C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R3C5-prix-de-l-opera-longines.html",
+        "R3C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R3C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R3C8-qatar-grand-handicap-des-flyers.html",
+        "R3C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ],
+      "R4-graignes": [
+        "R4C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R4C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R4C3-qatar-arabian-world-cup.html",
+        "R4C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R4C5-prix-de-l-opera-longines.html",
+        "R4C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R4C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R4C8-qatar-grand-handicap-des-flyers.html",
+        "R4C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ],
+      "R5-moulins": [
+        "R5C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R5C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R5C3-qatar-arabian-world-cup.html",
+        "R5C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R5C5-prix-de-l-opera-longines.html",
+        "R5C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R5C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R5C8-qatar-grand-handicap-des-flyers.html",
+        "R5C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ],
+      "R6-cordemais": [
+        "R6C1-qatar-prix-jean-luc-lagardere-grand-criterium-sponsorise-par-manateq.html",
+        "R6C2-qatar-prix-marcel-boussac-criterium-des-pouliches.html",
+        "R6C3-qatar-arabian-world-cup.html",
+        "R6C4-qatar-prix-de-l-arc-de-triomphe.html",
+        "R6C5-prix-de-l-opera-longines.html",
+        "R6C6-prix-de-l-abbaye-de-longchamp-longines.html",
+        "R6C7-qatar-prix-de-la-foret-presente-par-education-above-all.html",
+        "R6C8-qatar-grand-handicap-des-flyers.html",
+        "R6C9-qatar-prix-de-la-place-de-l-etoile-presente-par-rmc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:15.060428Z"
+}

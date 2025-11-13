@@ -1,0 +1,93 @@
+{
+  "date": "2011-04-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-20",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-20/2011-04-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C1-grand-prix-de-cordemais.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C2-prix-de-coueron.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C4-prix-jacques-fairand.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R1-cordemais/R1C8-prix-de-vigneux-de-bretagne.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R2-argentan/R2C1-grand-prix-de-cordemais.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R2-argentan/R2C5-prix-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C1-grand-prix-de-cordemais.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C2-prix-de-coueron.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C4-prix-jacques-fairand.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C5-prix-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R3-auteuil/R3C8-prix-de-vigneux-de-bretagne.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C1-grand-prix-de-cordemais.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C2-prix-de-coueron.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C4-prix-jacques-fairand.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C5-prix-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2011/04/2011-04-20/R4-marseille-borely/R4C8-prix-de-vigneux-de-bretagne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R2-argentan",
+      "R3-auteuil",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-grand-prix-de-cordemais.html",
+        "R1C2-prix-de-coueron.html",
+        "R1C3-prix-du-temple-de-bretagne.html",
+        "R1C4-prix-jacques-fairand.html",
+        "R1C5-prix-de-saint-etienne-de-montluc.html",
+        "R1C6-prix-bernard-babin.html",
+        "R1C7-prix-du-conseil-general.html",
+        "R1C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R2-argentan": [
+        "R2C1-grand-prix-de-cordemais.html",
+        "R2C2-prix-de-coueron.html",
+        "R2C3-prix-du-temple-de-bretagne.html",
+        "R2C4-prix-jacques-fairand.html",
+        "R2C5-prix-de-saint-etienne-de-montluc.html",
+        "R2C6-prix-bernard-babin.html",
+        "R2C7-prix-du-conseil-general.html",
+        "R2C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-grand-prix-de-cordemais.html",
+        "R3C2-prix-de-coueron.html",
+        "R3C3-prix-du-temple-de-bretagne.html",
+        "R3C4-prix-jacques-fairand.html",
+        "R3C5-prix-de-saint-etienne-de-montluc.html",
+        "R3C6-prix-bernard-babin.html",
+        "R3C7-prix-du-conseil-general.html",
+        "R3C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-grand-prix-de-cordemais.html",
+        "R4C2-prix-de-coueron.html",
+        "R4C3-prix-du-temple-de-bretagne.html",
+        "R4C4-prix-jacques-fairand.html",
+        "R4C5-prix-de-saint-etienne-de-montluc.html",
+        "R4C6-prix-bernard-babin.html",
+        "R4C7-prix-du-conseil-general.html",
+        "R4C8-prix-de-vigneux-de-bretagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:53.628965Z"
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2021-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-11",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-11/2021-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-11/R1-paris-longchamp/R1C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R3-nancy/R3C3-prix-de-chevilly.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R3-nancy/R3C4-prix-d-harcourt.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R4-toulouse/R4C1-prix-la-force.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R4-toulouse/R4C3-prix-de-chevilly.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R4-toulouse/R4C4-prix-d-harcourt.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R4-toulouse/R4C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R8-le-mont-saint-michel/R8C3-prix-de-chevilly.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R8-le-mont-saint-michel/R8C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C2-prix-vanteaux.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C3-prix-de-chevilly.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C4-prix-d-harcourt.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C7-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R9-la-capelle/R9C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C1-prix-la-force.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C2-prix-vanteaux.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C3-prix-de-chevilly.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C4-prix-d-harcourt.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C6-prix-noailles.html",
+      "resultats-et-rapports/2021/04/2021-04-11/R10-rambouillet/R10C7-prix-du-pont-au-change.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-nancy",
+      "R4-toulouse",
+      "R8-le-mont-saint-michel",
+      "R9-la-capelle",
+      "R10-rambouillet"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-la-force.html",
+        "R1C2-prix-vanteaux.html",
+        "R1C3-prix-de-chevilly.html",
+        "R1C4-prix-d-harcourt.html",
+        "R1C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-noailles.html",
+        "R1C7-prix-du-pont-au-change.html",
+        "R1C8-prix-de-glatigny.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-la-force.html",
+        "R3C2-prix-vanteaux.html",
+        "R3C3-prix-de-chevilly.html",
+        "R3C4-prix-d-harcourt.html",
+        "R3C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-noailles.html",
+        "R3C7-prix-du-pont-au-change.html",
+        "R3C8-prix-de-glatigny.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-la-force.html",
+        "R4C2-prix-vanteaux.html",
+        "R4C3-prix-de-chevilly.html",
+        "R4C4-prix-d-harcourt.html",
+        "R4C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-noailles.html",
+        "R4C7-prix-du-pont-au-change.html",
+        "R4C8-prix-de-glatigny.html"
+      ],
+      "R8-le-mont-saint-michel": [
+        "R8C1-prix-la-force.html",
+        "R8C2-prix-vanteaux.html",
+        "R8C3-prix-de-chevilly.html",
+        "R8C4-prix-d-harcourt.html",
+        "R8C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R8C6-prix-noailles.html",
+        "R8C7-prix-du-pont-au-change.html",
+        "R8C8-prix-de-glatigny.html"
+      ],
+      "R9-la-capelle": [
+        "R9C1-prix-la-force.html",
+        "R9C2-prix-vanteaux.html",
+        "R9C3-prix-de-chevilly.html",
+        "R9C4-prix-d-harcourt.html",
+        "R9C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R9C6-prix-noailles.html",
+        "R9C7-prix-du-pont-au-change.html",
+        "R9C8-prix-de-glatigny.html"
+      ],
+      "R10-rambouillet": [
+        "R10C1-prix-la-force.html",
+        "R10C2-prix-vanteaux.html",
+        "R10C3-prix-de-chevilly.html",
+        "R10C4-prix-d-harcourt.html",
+        "R10C5-prix-zarkava-fonds-europeen-de-l-elevage.html",
+        "R10C6-prix-noailles.html",
+        "R10C7-prix-du-pont-au-change.html",
+        "R10C8-prix-de-glatigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:01.409924Z"
+}

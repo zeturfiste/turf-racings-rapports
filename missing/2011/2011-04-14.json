@@ -1,0 +1,70 @@
+{
+  "date": "2011-04-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-14",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-14/2011-04-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-14/R1-longchamp/R1C8-prix-de-saint-mande.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R2-le-mans/R2C1-prix-du-palais-des-glaces.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R2-le-mans/R2C3-prix-d-escoville.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R2-le-mans/R2C4-prix-de-la-defense.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R2-le-mans/R2C6-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R2-le-mans/R2C8-prix-de-saint-mande.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C1-prix-du-palais-des-glaces.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C3-prix-d-escoville.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C4-prix-de-la-defense.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C5-prix-lord-seymour.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C6-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2011/04/2011-04-14/R3-moulins/R3C8-prix-de-saint-mande.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-le-mans",
+      "R3-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-des-glaces.html",
+        "R1C2-prix-de-la-grange-aux-belles.html",
+        "R1C3-prix-d-escoville.html",
+        "R1C4-prix-de-la-defense.html",
+        "R1C5-prix-lord-seymour.html",
+        "R1C6-prix-du-pont-au-change.html",
+        "R1C7-prix-du-cours-la-reine.html",
+        "R1C8-prix-de-saint-mande.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-du-palais-des-glaces.html",
+        "R2C2-prix-de-la-grange-aux-belles.html",
+        "R2C3-prix-d-escoville.html",
+        "R2C4-prix-de-la-defense.html",
+        "R2C5-prix-lord-seymour.html",
+        "R2C6-prix-du-pont-au-change.html",
+        "R2C7-prix-du-cours-la-reine.html",
+        "R2C8-prix-de-saint-mande.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-du-palais-des-glaces.html",
+        "R3C2-prix-de-la-grange-aux-belles.html",
+        "R3C3-prix-d-escoville.html",
+        "R3C4-prix-de-la-defense.html",
+        "R3C5-prix-lord-seymour.html",
+        "R3C6-prix-du-pont-au-change.html",
+        "R3C7-prix-du-cours-la-reine.html",
+        "R3C8-prix-de-saint-mande.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:51.808549Z"
+}

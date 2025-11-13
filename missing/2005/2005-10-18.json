@@ -1,0 +1,44 @@
+{
+  "date": "2005-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-18",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-18/2005-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-lieu-calice.html",
+        "R1C2-prix-des-chaumes.html",
+        "R1C3-prix-des-reservoirs.html",
+        "R1C4-prix-de-la-vespiere.html",
+        "R1C5-prix-de-la-croix-sonnet.html",
+        "R1C6-prix-de-dozule.html",
+        "R1C7-prix-d-auteuil.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-lieu-calice.html",
+        "R2C2-prix-des-chaumes.html",
+        "R2C3-prix-des-reservoirs.html",
+        "R2C4-prix-de-la-vespiere.html",
+        "R2C5-prix-de-la-croix-sonnet.html",
+        "R2C6-prix-de-dozule.html",
+        "R2C7-prix-d-auteuil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:20.469176Z"
+}

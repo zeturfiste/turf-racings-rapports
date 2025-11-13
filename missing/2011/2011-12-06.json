@@ -1,0 +1,71 @@
+{
+  "date": "2011-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-06",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-06/2011-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C1-prix-des-pyrenees.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C2-prix-de-louvigne-du-desert.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C3-prix-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C4-prix-de-gisors.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C5-prix-de-gencay.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C6-prix-de-carpentras.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C7-prix-de-saint-malo.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R1-vincennes/R1C8-prix-des-azalees.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R2-pau/R2C1-prix-des-pyrenees.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R2-pau/R2C3-prix-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R2-pau/R2C4-prix-de-gisors.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R2-pau/R2C5-prix-de-gencay.html",
+      "resultats-et-rapports/2011/12/2011-12-06/R3-marseille-vivaux/R3C8-prix-des-azalees.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-pyrenees.html",
+        "R1C2-prix-de-louvigne-du-desert.html",
+        "R1C3-prix-de-saint-jean-de-monts.html",
+        "R1C4-prix-de-gisors.html",
+        "R1C5-prix-de-gencay.html",
+        "R1C6-prix-de-carpentras.html",
+        "R1C7-prix-de-saint-malo.html",
+        "R1C8-prix-des-azalees.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-des-pyrenees.html",
+        "R2C2-prix-de-louvigne-du-desert.html",
+        "R2C3-prix-de-saint-jean-de-monts.html",
+        "R2C4-prix-de-gisors.html",
+        "R2C5-prix-de-gencay.html",
+        "R2C6-prix-de-carpentras.html",
+        "R2C7-prix-de-saint-malo.html",
+        "R2C8-prix-des-azalees.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-des-pyrenees.html",
+        "R3C2-prix-de-louvigne-du-desert.html",
+        "R3C3-prix-de-saint-jean-de-monts.html",
+        "R3C4-prix-de-gisors.html",
+        "R3C5-prix-de-gencay.html",
+        "R3C6-prix-de-carpentras.html",
+        "R3C7-prix-de-saint-malo.html",
+        "R3C8-prix-des-azalees.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:02.920450Z"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2006-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-14",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-14/2006-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-dunette.html",
+        "R1C2-prix-montenica.html",
+        "R1C3-prix-ronde-de-nuit.html",
+        "R1C4-prix-de-grignon.html",
+        "R1C6-prix-dahlia.html",
+        "R1C8-prix-a-tempo.html",
+        "R1C9-prix-de-plaisir.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-dunette.html",
+        "R2C2-prix-montenica.html",
+        "R2C3-prix-ronde-de-nuit.html",
+        "R2C4-prix-de-grignon.html",
+        "R2C6-prix-dahlia.html",
+        "R2C8-prix-a-tempo.html",
+        "R2C9-prix-de-plaisir.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:44.722132Z"
+}

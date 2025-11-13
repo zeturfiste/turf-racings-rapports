@@ -1,0 +1,79 @@
+{
+  "date": "2024-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-01",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-01/2024-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-01/R1-clairefontaine/R1C5-prix-ville-de-touques-prix-belle-isle.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R1-clairefontaine/R1C6-prix-de-vauville-prix-des-peupliers.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R1-clairefontaine/R1C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R2-vire/R2C3-prix-ville-de-villerville-prix-rideo.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R3-le-touquet/R3C1-prix-ville-de-saint-arnoult-prix-des-forsythias.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R3-le-touquet/R3C2-prix-ville-de-blonville-sur-mer-prix-port-said.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R3-le-touquet/R3C6-prix-de-vauville-prix-des-peupliers.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R3-le-touquet/R3C7-prix-ville-de-benerville-sur-mer-prix-des-illets.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R4-vichy/R4C3-prix-ville-de-villerville-prix-rideo.html",
+      "resultats-et-rapports/2024/07/2024-07-01/R4-vichy/R4C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vire",
+      "R3-le-touquet",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-ville-de-saint-arnoult-prix-des-forsythias.html",
+        "R1C2-prix-ville-de-blonville-sur-mer-prix-port-said.html",
+        "R1C3-prix-ville-de-villerville-prix-rideo.html",
+        "R1C4-prix-genybet-super-top-5-prix-leopold-d-orsetti.html",
+        "R1C5-prix-ville-de-touques-prix-belle-isle.html",
+        "R1C6-prix-de-vauville-prix-des-peupliers.html",
+        "R1C7-prix-ville-de-benerville-sur-mer-prix-des-illets.html",
+        "R1C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html"
+      ],
+      "R2-vire": [
+        "R2C1-prix-ville-de-saint-arnoult-prix-des-forsythias.html",
+        "R2C2-prix-ville-de-blonville-sur-mer-prix-port-said.html",
+        "R2C3-prix-ville-de-villerville-prix-rideo.html",
+        "R2C4-prix-genybet-super-top-5-prix-leopold-d-orsetti.html",
+        "R2C5-prix-ville-de-touques-prix-belle-isle.html",
+        "R2C6-prix-de-vauville-prix-des-peupliers.html",
+        "R2C7-prix-ville-de-benerville-sur-mer-prix-des-illets.html",
+        "R2C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html"
+      ],
+      "R3-le-touquet": [
+        "R3C1-prix-ville-de-saint-arnoult-prix-des-forsythias.html",
+        "R3C2-prix-ville-de-blonville-sur-mer-prix-port-said.html",
+        "R3C3-prix-ville-de-villerville-prix-rideo.html",
+        "R3C4-prix-genybet-super-top-5-prix-leopold-d-orsetti.html",
+        "R3C5-prix-ville-de-touques-prix-belle-isle.html",
+        "R3C6-prix-de-vauville-prix-des-peupliers.html",
+        "R3C7-prix-ville-de-benerville-sur-mer-prix-des-illets.html",
+        "R3C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-ville-de-saint-arnoult-prix-des-forsythias.html",
+        "R4C2-prix-ville-de-blonville-sur-mer-prix-port-said.html",
+        "R4C3-prix-ville-de-villerville-prix-rideo.html",
+        "R4C4-prix-genybet-super-top-5-prix-leopold-d-orsetti.html",
+        "R4C5-prix-ville-de-touques-prix-belle-isle.html",
+        "R4C6-prix-de-vauville-prix-des-peupliers.html",
+        "R4C7-prix-ville-de-benerville-sur-mer-prix-des-illets.html",
+        "R4C8-prix-de-trouville-sur-mer-prix-de-pennedepie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:00.875121Z"
+}

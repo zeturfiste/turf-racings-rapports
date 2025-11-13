@@ -1,0 +1,85 @@
+{
+  "date": "2016-07-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-21",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-21/2016-07-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-21/R1-deauville/R1C1-prix-amour-drake.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R1-deauville/R1C2-prix-de-gournay-en-bray.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R1-deauville/R1C7-prix-abdos.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R1-deauville/R1C8-prix-de-la-ville-de-trouvillle.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R2-mont-de-marsan/R2C2-prix-de-gournay-en-bray.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R2-mont-de-marsan/R2C3-prix-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R3-les-sables-d-olonne/R3C1-prix-amour-drake.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R3-les-sables-d-olonne/R3C2-prix-de-gournay-en-bray.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R3-les-sables-d-olonne/R3C4-prix-arreau.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R3-les-sables-d-olonne/R3C5-prix-sicarelle.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R3-les-sables-d-olonne/R3C6-prix-du-carrousel.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R5-cagnes-sur-mer/R5C3-prix-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R5-cagnes-sur-mer/R5C4-prix-arreau.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R5-cagnes-sur-mer/R5C6-prix-du-carrousel.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R5-cagnes-sur-mer/R5C7-prix-abdos.html",
+      "resultats-et-rapports/2016/07/2016-07-21/R5-cagnes-sur-mer/R5C8-prix-de-la-ville-de-trouvillle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-mont-de-marsan",
+      "R3-les-sables-d-olonne",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-amour-drake.html",
+        "R1C2-prix-de-gournay-en-bray.html",
+        "R1C3-prix-de-la-ville-de-deauville.html",
+        "R1C4-prix-arreau.html",
+        "R1C5-prix-sicarelle.html",
+        "R1C6-prix-du-carrousel.html",
+        "R1C7-prix-abdos.html",
+        "R1C8-prix-de-la-ville-de-trouvillle.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-amour-drake.html",
+        "R2C2-prix-de-gournay-en-bray.html",
+        "R2C3-prix-de-la-ville-de-deauville.html",
+        "R2C4-prix-arreau.html",
+        "R2C5-prix-sicarelle.html",
+        "R2C6-prix-du-carrousel.html",
+        "R2C7-prix-abdos.html",
+        "R2C8-prix-de-la-ville-de-trouvillle.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-amour-drake.html",
+        "R3C2-prix-de-gournay-en-bray.html",
+        "R3C3-prix-de-la-ville-de-deauville.html",
+        "R3C4-prix-arreau.html",
+        "R3C5-prix-sicarelle.html",
+        "R3C6-prix-du-carrousel.html",
+        "R3C7-prix-abdos.html",
+        "R3C8-prix-de-la-ville-de-trouvillle.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-amour-drake.html",
+        "R5C2-prix-de-gournay-en-bray.html",
+        "R5C3-prix-de-la-ville-de-deauville.html",
+        "R5C4-prix-arreau.html",
+        "R5C5-prix-sicarelle.html",
+        "R5C6-prix-du-carrousel.html",
+        "R5C7-prix-abdos.html",
+        "R5C8-prix-de-la-ville-de-trouvillle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:16.347783Z"
+}

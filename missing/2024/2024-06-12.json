@@ -1,0 +1,71 @@
+{
+  "date": "2024-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-12",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-12/2024-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-12/R1-compiegne/R1C1-prix-benjamin-boutin.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R1-compiegne/R1C2-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R1-compiegne/R1C6-prix-de-l-empereur-napoleon-iii.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R1-compiegne/R1C8-prix-de-l-oise.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R3-vire/R3C1-prix-benjamin-boutin.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R3-vire/R3C3-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R3-vire/R3C5-prix-de-compiegne-cite-imperiale.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R3-vire/R3C6-prix-de-l-empereur-napoleon-iii.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R3-vire/R3C7-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R4-vichy/R4C2-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R4-vichy/R4C3-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R4-vichy/R4C5-prix-de-compiegne-cite-imperiale.html",
+      "resultats-et-rapports/2024/06/2024-06-12/R4-vichy/R4C7-prix-du-chateau-de-compiegne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-vire",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-benjamin-boutin.html",
+        "R1C2-prix-de-bethisy-saint-pierre.html",
+        "R1C3-prix-du-puits-d-antin.html",
+        "R1C4-prix-de-la-launette.html",
+        "R1C5-prix-de-compiegne-cite-imperiale.html",
+        "R1C6-prix-de-l-empereur-napoleon-iii.html",
+        "R1C7-prix-du-chateau-de-compiegne.html",
+        "R1C8-prix-de-l-oise.html"
+      ],
+      "R3-vire": [
+        "R3C1-prix-benjamin-boutin.html",
+        "R3C2-prix-de-bethisy-saint-pierre.html",
+        "R3C3-prix-du-puits-d-antin.html",
+        "R3C4-prix-de-la-launette.html",
+        "R3C5-prix-de-compiegne-cite-imperiale.html",
+        "R3C6-prix-de-l-empereur-napoleon-iii.html",
+        "R3C7-prix-du-chateau-de-compiegne.html",
+        "R3C8-prix-de-l-oise.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-benjamin-boutin.html",
+        "R4C2-prix-de-bethisy-saint-pierre.html",
+        "R4C3-prix-du-puits-d-antin.html",
+        "R4C4-prix-de-la-launette.html",
+        "R4C5-prix-de-compiegne-cite-imperiale.html",
+        "R4C6-prix-de-l-empereur-napoleon-iii.html",
+        "R4C7-prix-du-chateau-de-compiegne.html",
+        "R4C8-prix-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:53.966119Z"
+}

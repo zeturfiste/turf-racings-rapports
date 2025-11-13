@@ -1,0 +1,71 @@
+{
+  "date": "2010-08-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-03",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-03/2010-08-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C1-prix-du-havre-athletic-club-prix-du-havre.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C2-prix-de-tancarville.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C3-prix-de-lisieux.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C4-prix-de-colleville.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C5-prix-de-cricqueville.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C6-prix-d-orbec.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C7-prix-de-la-pegaserie.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R1-deauville/R1C8-prix-de-dieppe.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R2-meslay-du-maine/R2C1-prix-du-havre-athletic-club-prix-du-havre.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R2-meslay-du-maine/R2C3-prix-de-lisieux.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R2-meslay-du-maine/R2C4-prix-de-colleville.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R3-cabourg/R3C5-prix-de-cricqueville.html",
+      "resultats-et-rapports/2010/08/2010-08-03/R3-cabourg/R3C6-prix-d-orbec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-meslay-du-maine",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-havre-athletic-club-prix-du-havre.html",
+        "R1C2-prix-de-tancarville.html",
+        "R1C3-prix-de-lisieux.html",
+        "R1C4-prix-de-colleville.html",
+        "R1C5-prix-de-cricqueville.html",
+        "R1C6-prix-d-orbec.html",
+        "R1C7-prix-de-la-pegaserie.html",
+        "R1C8-prix-de-dieppe.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-du-havre-athletic-club-prix-du-havre.html",
+        "R2C2-prix-de-tancarville.html",
+        "R2C3-prix-de-lisieux.html",
+        "R2C4-prix-de-colleville.html",
+        "R2C5-prix-de-cricqueville.html",
+        "R2C6-prix-d-orbec.html",
+        "R2C7-prix-de-la-pegaserie.html",
+        "R2C8-prix-de-dieppe.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-havre-athletic-club-prix-du-havre.html",
+        "R3C2-prix-de-tancarville.html",
+        "R3C3-prix-de-lisieux.html",
+        "R3C4-prix-de-colleville.html",
+        "R3C5-prix-de-cricqueville.html",
+        "R3C6-prix-d-orbec.html",
+        "R3C7-prix-de-la-pegaserie.html",
+        "R3C8-prix-de-dieppe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:44.589999Z"
+}

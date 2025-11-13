@@ -1,0 +1,81 @@
+{
+  "date": "2013-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/07/2013-07-08",
+    "date_html": "resultats-et-rapports/2013/07/2013-07-08/2013-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/07/2013-07-08/R1-chantilly/R1C5-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R1-chantilly/R1C6-prix-du-bois-de-pestre.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R2-vichy/R2C8-prix-rainbow.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R3-clairefontaine/R3C3-prix-du-grand-marisy.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C1-prix-jouvence.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C3-prix-du-grand-marisy.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C4-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C5-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C6-prix-du-bois-de-pestre.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C7-prix-du-bois-de-la-grande-mare.html",
+      "resultats-et-rapports/2013/07/2013-07-08/R5-cagnes-sur-mer/R5C8-prix-rainbow.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vichy",
+      "R3-clairefontaine",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-jouvence.html",
+        "R1C2-prix-du-soleil-de-bretagne.html",
+        "R1C3-prix-du-grand-marisy.html",
+        "R1C4-prix-de-la-verrerie.html",
+        "R1C5-prix-du-vivier-madame.html",
+        "R1C6-prix-du-bois-de-pestre.html",
+        "R1C7-prix-du-bois-de-la-grande-mare.html",
+        "R1C8-prix-rainbow.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-jouvence.html",
+        "R2C2-prix-du-soleil-de-bretagne.html",
+        "R2C3-prix-du-grand-marisy.html",
+        "R2C4-prix-de-la-verrerie.html",
+        "R2C5-prix-du-vivier-madame.html",
+        "R2C6-prix-du-bois-de-pestre.html",
+        "R2C7-prix-du-bois-de-la-grande-mare.html",
+        "R2C8-prix-rainbow.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-jouvence.html",
+        "R3C2-prix-du-soleil-de-bretagne.html",
+        "R3C3-prix-du-grand-marisy.html",
+        "R3C4-prix-de-la-verrerie.html",
+        "R3C5-prix-du-vivier-madame.html",
+        "R3C6-prix-du-bois-de-pestre.html",
+        "R3C7-prix-du-bois-de-la-grande-mare.html",
+        "R3C8-prix-rainbow.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-jouvence.html",
+        "R5C2-prix-du-soleil-de-bretagne.html",
+        "R5C3-prix-du-grand-marisy.html",
+        "R5C4-prix-de-la-verrerie.html",
+        "R5C5-prix-du-vivier-madame.html",
+        "R5C6-prix-du-bois-de-pestre.html",
+        "R5C7-prix-du-bois-de-la-grande-mare.html",
+        "R5C8-prix-rainbow.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:43:43.555488Z"
+}

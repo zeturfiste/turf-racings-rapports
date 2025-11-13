@@ -1,0 +1,91 @@
+{
+  "date": "2020-06-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-25",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-25/2020-06-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-25/R1-paris-longchamp/R1C8-prix-de-l-etang-des-tribunes.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R1-paris-longchamp/R1C9-prix-du-petit-pre.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R2-vichy/R2C1-la-coupe.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R3-laval/R3C2-prix-du-rochechouart.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R3-laval/R3C3-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R3-laval/R3C4-prix-de-la-porte-maillot.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R3-laval/R3C6-prix-de-villeron.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R3-laval/R3C8-prix-de-l-etang-des-tribunes.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C1-la-coupe.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C3-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C4-prix-de-la-porte-maillot.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C6-prix-de-villeron.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C9-prix-du-petit-pre.html",
+      "resultats-et-rapports/2020/06/2020-06-25/R4-dieppe/R4C10-prix-des-jardins-de-l-arc.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-vichy",
+      "R3-laval",
+      "R4-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-la-coupe.html",
+        "R1C2-prix-du-rochechouart.html",
+        "R1C3-prix-du-val-de-grace.html",
+        "R1C4-prix-de-la-porte-maillot.html",
+        "R1C5-prix-de-la-tour-saint-jacques.html",
+        "R1C6-prix-de-villeron.html",
+        "R1C7-prix-de-l-etang-de-boulogne.html",
+        "R1C8-prix-de-l-etang-des-tribunes.html",
+        "R1C9-prix-du-petit-pre.html",
+        "R1C10-prix-des-jardins-de-l-arc.html"
+      ],
+      "R2-vichy": [
+        "R2C1-la-coupe.html",
+        "R2C2-prix-du-rochechouart.html",
+        "R2C3-prix-du-val-de-grace.html",
+        "R2C4-prix-de-la-porte-maillot.html",
+        "R2C5-prix-de-la-tour-saint-jacques.html",
+        "R2C6-prix-de-villeron.html",
+        "R2C7-prix-de-l-etang-de-boulogne.html",
+        "R2C8-prix-de-l-etang-des-tribunes.html",
+        "R2C9-prix-du-petit-pre.html",
+        "R2C10-prix-des-jardins-de-l-arc.html"
+      ],
+      "R3-laval": [
+        "R3C1-la-coupe.html",
+        "R3C2-prix-du-rochechouart.html",
+        "R3C3-prix-du-val-de-grace.html",
+        "R3C4-prix-de-la-porte-maillot.html",
+        "R3C5-prix-de-la-tour-saint-jacques.html",
+        "R3C6-prix-de-villeron.html",
+        "R3C7-prix-de-l-etang-de-boulogne.html",
+        "R3C8-prix-de-l-etang-des-tribunes.html",
+        "R3C9-prix-du-petit-pre.html",
+        "R3C10-prix-des-jardins-de-l-arc.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-la-coupe.html",
+        "R4C2-prix-du-rochechouart.html",
+        "R4C3-prix-du-val-de-grace.html",
+        "R4C4-prix-de-la-porte-maillot.html",
+        "R4C5-prix-de-la-tour-saint-jacques.html",
+        "R4C6-prix-de-villeron.html",
+        "R4C7-prix-de-l-etang-de-boulogne.html",
+        "R4C8-prix-de-l-etang-des-tribunes.html",
+        "R4C9-prix-du-petit-pre.html",
+        "R4C10-prix-des-jardins-de-l-arc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:22.660929Z"
+}

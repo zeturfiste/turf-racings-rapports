@@ -1,0 +1,80 @@
+{
+  "date": "2021-01-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-27",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-27/2021-01-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-27/R1-cagnes-sur-mer/R1C5-prix-houston-laukko.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R1-cagnes-sur-mer/R1C6-prix-des-ancolies-prix-journal-paris-turf.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R1-cagnes-sur-mer/R1C7-prix-henri-estable.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R1-cagnes-sur-mer/R1C8-prix-rastel-bihan.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R4-pau/R4C4-prix-tigre-royal.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R5-pornichet-la-baule/R5C4-prix-tigre-royal.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R5-pornichet-la-baule/R5C5-prix-houston-laukko.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R7-angers/R7C1-prix-une-de-mai.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R7-angers/R7C3-prix-des-gorges-de-la-mescla.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R7-angers/R7C7-prix-henri-estable.html",
+      "resultats-et-rapports/2021/01/2021-01-27/R7-angers/R7C8-prix-rastel-bihan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R4-pau",
+      "R5-pornichet-la-baule",
+      "R7-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-une-de-mai.html",
+        "R1C2-prix-du-perigord.html",
+        "R1C3-prix-des-gorges-de-la-mescla.html",
+        "R1C4-prix-tigre-royal.html",
+        "R1C5-prix-houston-laukko.html",
+        "R1C6-prix-des-ancolies-prix-journal-paris-turf.html",
+        "R1C7-prix-henri-estable.html",
+        "R1C8-prix-rastel-bihan.html"
+      ],
+      "R4-pau": [
+        "R4C1-prix-une-de-mai.html",
+        "R4C2-prix-du-perigord.html",
+        "R4C3-prix-des-gorges-de-la-mescla.html",
+        "R4C4-prix-tigre-royal.html",
+        "R4C5-prix-houston-laukko.html",
+        "R4C6-prix-des-ancolies-prix-journal-paris-turf.html",
+        "R4C7-prix-henri-estable.html",
+        "R4C8-prix-rastel-bihan.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-une-de-mai.html",
+        "R5C2-prix-du-perigord.html",
+        "R5C3-prix-des-gorges-de-la-mescla.html",
+        "R5C4-prix-tigre-royal.html",
+        "R5C5-prix-houston-laukko.html",
+        "R5C6-prix-des-ancolies-prix-journal-paris-turf.html",
+        "R5C7-prix-henri-estable.html",
+        "R5C8-prix-rastel-bihan.html"
+      ],
+      "R7-angers": [
+        "R7C1-prix-une-de-mai.html",
+        "R7C2-prix-du-perigord.html",
+        "R7C3-prix-des-gorges-de-la-mescla.html",
+        "R7C4-prix-tigre-royal.html",
+        "R7C5-prix-houston-laukko.html",
+        "R7C6-prix-des-ancolies-prix-journal-paris-turf.html",
+        "R7C7-prix-henri-estable.html",
+        "R7C8-prix-rastel-bihan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:36.829663Z"
+}

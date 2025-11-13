@@ -1,0 +1,84 @@
+{
+  "date": "2022-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-04",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-04/2022-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-04/R1-auteuil/R1C2-prix-vieux-beaufai.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R1-auteuil/R1C4-prix-le-bonbon-prix-rocking-chair.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R3-lyon-parilly/R3C6-prix-beaumanoir.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R3-lyon-parilly/R3C9-prix-andre-boingneres.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C2-prix-vieux-beaufai.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C3-prix-de-la-muette.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C5-prix-virgin-radio-prix-james-hennessy.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C6-prix-beaumanoir.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C7-prix-quo-vadis.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C8-prix-bois-rouaud.html",
+      "resultats-et-rapports/2022/06/2022-06-04/R4-vichy/R4C9-prix-andre-boingneres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-pontchateau",
+      "R3-lyon-parilly",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-victor.html",
+        "R1C2-prix-vieux-beaufai.html",
+        "R1C3-prix-de-la-muette.html",
+        "R1C4-prix-le-bonbon-prix-rocking-chair.html",
+        "R1C5-prix-virgin-radio-prix-james-hennessy.html",
+        "R1C6-prix-beaumanoir.html",
+        "R1C7-prix-quo-vadis.html",
+        "R1C8-prix-bois-rouaud.html",
+        "R1C9-prix-andre-boingneres.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-jean-victor.html",
+        "R2C2-prix-vieux-beaufai.html",
+        "R2C3-prix-de-la-muette.html",
+        "R2C4-prix-le-bonbon-prix-rocking-chair.html",
+        "R2C5-prix-virgin-radio-prix-james-hennessy.html",
+        "R2C6-prix-beaumanoir.html",
+        "R2C7-prix-quo-vadis.html",
+        "R2C8-prix-bois-rouaud.html",
+        "R2C9-prix-andre-boingneres.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-jean-victor.html",
+        "R3C2-prix-vieux-beaufai.html",
+        "R3C3-prix-de-la-muette.html",
+        "R3C4-prix-le-bonbon-prix-rocking-chair.html",
+        "R3C5-prix-virgin-radio-prix-james-hennessy.html",
+        "R3C6-prix-beaumanoir.html",
+        "R3C7-prix-quo-vadis.html",
+        "R3C8-prix-bois-rouaud.html",
+        "R3C9-prix-andre-boingneres.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-jean-victor.html",
+        "R4C2-prix-vieux-beaufai.html",
+        "R4C3-prix-de-la-muette.html",
+        "R4C4-prix-le-bonbon-prix-rocking-chair.html",
+        "R4C5-prix-virgin-radio-prix-james-hennessy.html",
+        "R4C6-prix-beaumanoir.html",
+        "R4C7-prix-quo-vadis.html",
+        "R4C8-prix-bois-rouaud.html",
+        "R4C9-prix-andre-boingneres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:30.185851Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2021-02-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-18",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-18/2021-02-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-18/R1-vincennes/R1C8-prix-de-briey.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R3-argentan/R3C1-prix-de-chateaurenard.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R3-argentan/R3C7-prix-de-cahors.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R4-fontainebleau/R4C4-prix-de-vibraye.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R4-fontainebleau/R4C8-prix-de-briey.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R5-marseille-vivaux/R5C2-prix-de-castellane.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R5-marseille-vivaux/R5C3-prix-d-argenton-sur-creuse.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R5-marseille-vivaux/R5C5-prix-de-raulhac.html",
+      "resultats-et-rapports/2021/02/2021-02-18/R5-marseille-vivaux/R5C7-prix-de-cahors.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-argentan",
+      "R4-fontainebleau",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chateaurenard.html",
+        "R1C2-prix-de-castellane.html",
+        "R1C3-prix-d-argenton-sur-creuse.html",
+        "R1C4-prix-de-vibraye.html",
+        "R1C5-prix-de-raulhac.html",
+        "R1C6-prix-de-nevers.html",
+        "R1C7-prix-de-cahors.html",
+        "R1C8-prix-de-briey.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-de-chateaurenard.html",
+        "R3C2-prix-de-castellane.html",
+        "R3C3-prix-d-argenton-sur-creuse.html",
+        "R3C4-prix-de-vibraye.html",
+        "R3C5-prix-de-raulhac.html",
+        "R3C6-prix-de-nevers.html",
+        "R3C7-prix-de-cahors.html",
+        "R3C8-prix-de-briey.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-de-chateaurenard.html",
+        "R4C2-prix-de-castellane.html",
+        "R4C3-prix-d-argenton-sur-creuse.html",
+        "R4C4-prix-de-vibraye.html",
+        "R4C5-prix-de-raulhac.html",
+        "R4C6-prix-de-nevers.html",
+        "R4C7-prix-de-cahors.html",
+        "R4C8-prix-de-briey.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-de-chateaurenard.html",
+        "R5C2-prix-de-castellane.html",
+        "R5C3-prix-d-argenton-sur-creuse.html",
+        "R5C4-prix-de-vibraye.html",
+        "R5C5-prix-de-raulhac.html",
+        "R5C6-prix-de-nevers.html",
+        "R5C7-prix-de-cahors.html",
+        "R5C8-prix-de-briey.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:43.750831Z"
+}

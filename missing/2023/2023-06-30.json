@@ -1,0 +1,71 @@
+{
+  "date": "2023-06-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-30",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-30/2023-06-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-30/R3-chartres/R3C2-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2023/06/2023-06-30/R3-chartres/R3C3-prix-nemausa.html",
+      "resultats-et-rapports/2023/06/2023-06-30/R3-chartres/R3C4-prix-isis.html",
+      "resultats-et-rapports/2023/06/2023-06-30/R3-chartres/R3C5-prix-eva.html",
+      "resultats-et-rapports/2023/06/2023-06-30/R3-chartres/R3C6-prix-cetus.html",
+      "resultats-et-rapports/2023/06/2023-06-30/R5-aix-les-bains/R5C3-prix-nemausa.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chartres",
+      "R4-clairefontaine",
+      "R5-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-urania.html",
+        "R1C2-prix-guillaume-de-bellaigue.html",
+        "R1C3-prix-nemausa.html",
+        "R1C4-prix-isis.html",
+        "R1C5-prix-eva.html",
+        "R1C6-prix-cetus.html",
+        "R1C7-prix-thalia.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-urania.html",
+        "R3C2-prix-guillaume-de-bellaigue.html",
+        "R3C3-prix-nemausa.html",
+        "R3C4-prix-isis.html",
+        "R3C5-prix-eva.html",
+        "R3C6-prix-cetus.html",
+        "R3C7-prix-thalia.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-urania.html",
+        "R4C2-prix-guillaume-de-bellaigue.html",
+        "R4C3-prix-nemausa.html",
+        "R4C4-prix-isis.html",
+        "R4C5-prix-eva.html",
+        "R4C6-prix-cetus.html",
+        "R4C7-prix-thalia.html"
+      ],
+      "R5-aix-les-bains": [
+        "R5C1-prix-urania.html",
+        "R5C2-prix-guillaume-de-bellaigue.html",
+        "R5C3-prix-nemausa.html",
+        "R5C4-prix-isis.html",
+        "R5C5-prix-eva.html",
+        "R5C6-prix-cetus.html",
+        "R5C7-prix-thalia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:49.581190Z"
+}

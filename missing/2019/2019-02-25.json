@@ -1,0 +1,81 @@
+{
+  "date": "2019-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/02/2019-02-25",
+    "date_html": "resultats-et-rapports/2019/02/2019-02-25/2019-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C1-handicap-de-marseille-borely.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C2-prix-de-carro.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C3-prix-de-carry.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C4-prix-de-marseille-vivaux.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C6-prix-de-cabries.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C7-prix-de-calas.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R1-marseille-borely/R1C8-prix-de-lyon-la-soie.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C1-handicap-de-marseille-borely.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C3-prix-de-carry.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C4-prix-de-marseille-vivaux.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C6-prix-de-cabries.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C7-prix-de-calas.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R2-mont-de-marsan/R2C8-prix-de-lyon-la-soie.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C1-handicap-de-marseille-borely.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C2-prix-de-carro.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C3-prix-de-carry.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C4-prix-de-marseille-vivaux.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C6-prix-de-cabries.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C7-prix-de-calas.html",
+      "resultats-et-rapports/2019/02/2019-02-25/R4-le-croise-laroche/R4C8-prix-de-lyon-la-soie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-mont-de-marsan",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-handicap-de-marseille-borely.html",
+        "R1C2-prix-de-carro.html",
+        "R1C3-prix-de-carry.html",
+        "R1C4-prix-de-marseille-vivaux.html",
+        "R1C5-prix-de-lyon-parilly.html",
+        "R1C6-prix-de-cabries.html",
+        "R1C7-prix-de-calas.html",
+        "R1C8-prix-de-lyon-la-soie.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-handicap-de-marseille-borely.html",
+        "R2C2-prix-de-carro.html",
+        "R2C3-prix-de-carry.html",
+        "R2C4-prix-de-marseille-vivaux.html",
+        "R2C5-prix-de-lyon-parilly.html",
+        "R2C6-prix-de-cabries.html",
+        "R2C7-prix-de-calas.html",
+        "R2C8-prix-de-lyon-la-soie.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-handicap-de-marseille-borely.html",
+        "R4C2-prix-de-carro.html",
+        "R4C3-prix-de-carry.html",
+        "R4C4-prix-de-marseille-vivaux.html",
+        "R4C5-prix-de-lyon-parilly.html",
+        "R4C6-prix-de-cabries.html",
+        "R4C7-prix-de-calas.html",
+        "R4C8-prix-de-lyon-la-soie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:54:02.758855Z"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2011-01-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/01/2011-01-05",
+    "date_html": "resultats-et-rapports/2011/01/2011-01-05/2011-01-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chatelguyon.html",
+        "R1C2-prix-d-erbray.html",
+        "R1C3-prix-de-barcelonnette.html",
+        "R1C4-prix-de-lignieres.html",
+        "R1C5-prix-de-vernon.html",
+        "R1C6-prix-hersilie.html",
+        "R1C7-prix-de-pontchateau.html",
+        "R1C8-prix-de-charleville-groupe-a.html",
+        "R1C9-prix-de-charleville-groupe-b.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-chatelguyon.html",
+        "R2C2-prix-d-erbray.html",
+        "R2C3-prix-de-barcelonnette.html",
+        "R2C4-prix-de-lignieres.html",
+        "R2C5-prix-de-vernon.html",
+        "R2C6-prix-hersilie.html",
+        "R2C7-prix-de-pontchateau.html",
+        "R2C8-prix-de-charleville-groupe-a.html",
+        "R2C9-prix-de-charleville-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:27.123094Z"
+}

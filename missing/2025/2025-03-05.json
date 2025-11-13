@@ -1,0 +1,72 @@
+{
+  "date": "2025-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-05",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-05/2025-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C3-prix-point-de-vente-pmu-le-nemrod-prix-duc-de-reve.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C4-prix-des-parieurs-prix-marco-bonheur.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C5-prix-du-pole-de-la-licorne-prix-king-black.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C6-prix-du-petit-saint-jean-prix-ouragon.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R1-amiens/R1C7-prix-des-hauts-de-france-prix-marathon-man.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R3-bordeaux-le-bouscat/R3C5-prix-du-pole-de-la-licorne-prix-king-black.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R3-bordeaux-le-bouscat/R3C6-prix-du-petit-saint-jean-prix-ouragon.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R3-bordeaux-le-bouscat/R3C7-prix-des-hauts-de-france-prix-marathon-man.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R4-saint-galmier/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R4-saint-galmier/R4C6-prix-du-petit-saint-jean-prix-ouragon.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R4-saint-galmier/R4C7-prix-des-hauts-de-france-prix-marathon-man.html",
+      "resultats-et-rapports/2025/03/2025-03-05/R4-saint-galmier/R4C8-moet-et-chandon-prix-kemi.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-bordeaux-le-bouscat",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-de-l-unat.html",
+        "R1C3-prix-point-de-vente-pmu-le-nemrod-prix-duc-de-reve.html",
+        "R1C4-prix-des-parieurs-prix-marco-bonheur.html",
+        "R1C5-prix-du-pole-de-la-licorne-prix-king-black.html",
+        "R1C6-prix-du-petit-saint-jean-prix-ouragon.html",
+        "R1C7-prix-des-hauts-de-france-prix-marathon-man.html",
+        "R1C8-moet-et-chandon-prix-kemi.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-de-l-unat.html",
+        "R3C3-prix-point-de-vente-pmu-le-nemrod-prix-duc-de-reve.html",
+        "R3C4-prix-des-parieurs-prix-marco-bonheur.html",
+        "R3C5-prix-du-pole-de-la-licorne-prix-king-black.html",
+        "R3C6-prix-du-petit-saint-jean-prix-ouragon.html",
+        "R3C7-prix-des-hauts-de-france-prix-marathon-man.html",
+        "R3C8-moet-et-chandon-prix-kemi.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-de-l-unat.html",
+        "R4C3-prix-point-de-vente-pmu-le-nemrod-prix-duc-de-reve.html",
+        "R4C4-prix-des-parieurs-prix-marco-bonheur.html",
+        "R4C5-prix-du-pole-de-la-licorne-prix-king-black.html",
+        "R4C6-prix-du-petit-saint-jean-prix-ouragon.html",
+        "R4C7-prix-des-hauts-de-france-prix-marathon-man.html",
+        "R4C8-moet-et-chandon-prix-kemi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:28.905611Z"
+}

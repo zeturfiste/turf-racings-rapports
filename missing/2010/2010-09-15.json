@@ -1,0 +1,99 @@
+{
+  "date": "2010-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-15",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-15/2010-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-15/R1-auteuil/R1C6-prix-de-la-savoie.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R1-auteuil/R1C7-prix-pierre-cypres.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R1-auteuil/R1C8-prix-recruit-ii.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R1-auteuil/R1C9-prix-chakhansoor.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C1-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C2-prix-finot-poulains.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C3-prix-finot-poulains.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C4-prix-edmond-barrachin.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C6-prix-de-la-savoie.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R2-bordeaux-le-bouscat/R2C7-prix-pierre-cypres.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C1-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C3-prix-finot-poulains.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C4-prix-edmond-barrachin.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C5-prix-de-compiegne.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C6-prix-de-la-savoie.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C7-prix-pierre-cypres.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C8-prix-recruit-ii.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R3-fontainebleau/R3C9-prix-chakhansoor.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C1-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C2-prix-finot-poulains.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C3-prix-finot-poulains.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C4-prix-edmond-barrachin.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C5-prix-de-compiegne.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C6-prix-de-la-savoie.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C7-prix-pierre-cypres.html",
+      "resultats-et-rapports/2010/09/2010-09-15/R4-marseille-borely/R4C8-prix-recruit-ii.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-bordeaux-le-bouscat",
+      "R3-fontainebleau",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-alain-et-gilles-de-goulaine.html",
+        "R1C2-prix-finot-poulains.html",
+        "R1C3-prix-finot-poulains.html",
+        "R1C4-prix-edmond-barrachin.html",
+        "R1C5-prix-de-compiegne.html",
+        "R1C6-prix-de-la-savoie.html",
+        "R1C7-prix-pierre-cypres.html",
+        "R1C8-prix-recruit-ii.html",
+        "R1C9-prix-chakhansoor.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-alain-et-gilles-de-goulaine.html",
+        "R2C2-prix-finot-poulains.html",
+        "R2C3-prix-finot-poulains.html",
+        "R2C4-prix-edmond-barrachin.html",
+        "R2C5-prix-de-compiegne.html",
+        "R2C6-prix-de-la-savoie.html",
+        "R2C7-prix-pierre-cypres.html",
+        "R2C8-prix-recruit-ii.html",
+        "R2C9-prix-chakhansoor.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-alain-et-gilles-de-goulaine.html",
+        "R3C2-prix-finot-poulains.html",
+        "R3C3-prix-finot-poulains.html",
+        "R3C4-prix-edmond-barrachin.html",
+        "R3C5-prix-de-compiegne.html",
+        "R3C6-prix-de-la-savoie.html",
+        "R3C7-prix-pierre-cypres.html",
+        "R3C8-prix-recruit-ii.html",
+        "R3C9-prix-chakhansoor.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-alain-et-gilles-de-goulaine.html",
+        "R4C2-prix-finot-poulains.html",
+        "R4C3-prix-finot-poulains.html",
+        "R4C4-prix-edmond-barrachin.html",
+        "R4C5-prix-de-compiegne.html",
+        "R4C6-prix-de-la-savoie.html",
+        "R4C7-prix-pierre-cypres.html",
+        "R4C8-prix-recruit-ii.html",
+        "R4C9-prix-chakhansoor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:57.035544Z"
+}

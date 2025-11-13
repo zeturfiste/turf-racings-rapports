@@ -1,0 +1,111 @@
+{
+  "date": "2022-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-12",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-12/2022-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-12/R1-paris-longchamp/R1C2-prix-de-la-colonne-vendome.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R1-paris-longchamp/R1C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R1-paris-longchamp/R1C7-prix-d-evreux.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R5-alencon/R5C2-prix-de-la-colonne-vendome.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R5-alencon/R5C3-prix-melisande.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R5-alencon/R5C7-prix-d-evreux.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R5-alencon/R5C8-prix-des-petits-champs.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R5-alencon/R5C10-prix-de-l-etang-de-boulogne.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C1-prix-ridgway.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C3-prix-melisande.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C6-la-coupe.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C8-prix-des-petits-champs.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R6-les-sables-d-olonne/R6C10-prix-de-l-etang-de-boulogne.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C1-prix-ridgway.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C2-prix-de-la-colonne-vendome.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C3-prix-melisande.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C5-prix-volterra.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C7-prix-d-evreux.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C8-prix-des-petits-champs.html",
+      "resultats-et-rapports/2022/06/2022-06-12/R11-strasbourg/R11C9-prix-d-orcy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R4-chartres",
+      "R5-alencon",
+      "R6-les-sables-d-olonne",
+      "R11-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-ridgway.html",
+        "R1C2-prix-de-la-colonne-vendome.html",
+        "R1C3-prix-melisande.html",
+        "R1C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+        "R1C5-prix-volterra.html",
+        "R1C6-la-coupe.html",
+        "R1C7-prix-d-evreux.html",
+        "R1C8-prix-des-petits-champs.html",
+        "R1C9-prix-d-orcy.html",
+        "R1C10-prix-de-l-etang-de-boulogne.html"
+      ],
+      "R4-chartres": [
+        "R4C1-prix-ridgway.html",
+        "R4C2-prix-de-la-colonne-vendome.html",
+        "R4C3-prix-melisande.html",
+        "R4C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+        "R4C5-prix-volterra.html",
+        "R4C6-la-coupe.html",
+        "R4C7-prix-d-evreux.html",
+        "R4C8-prix-des-petits-champs.html",
+        "R4C9-prix-d-orcy.html",
+        "R4C10-prix-de-l-etang-de-boulogne.html"
+      ],
+      "R5-alencon": [
+        "R5C1-prix-ridgway.html",
+        "R5C2-prix-de-la-colonne-vendome.html",
+        "R5C3-prix-melisande.html",
+        "R5C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+        "R5C5-prix-volterra.html",
+        "R5C6-la-coupe.html",
+        "R5C7-prix-d-evreux.html",
+        "R5C8-prix-des-petits-champs.html",
+        "R5C9-prix-d-orcy.html",
+        "R5C10-prix-de-l-etang-de-boulogne.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-ridgway.html",
+        "R6C2-prix-de-la-colonne-vendome.html",
+        "R6C3-prix-melisande.html",
+        "R6C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+        "R6C5-prix-volterra.html",
+        "R6C6-la-coupe.html",
+        "R6C7-prix-d-evreux.html",
+        "R6C8-prix-des-petits-champs.html",
+        "R6C9-prix-d-orcy.html",
+        "R6C10-prix-de-l-etang-de-boulogne.html"
+      ],
+      "R11-strasbourg": [
+        "R11C1-prix-ridgway.html",
+        "R11C2-prix-de-la-colonne-vendome.html",
+        "R11C3-prix-melisande.html",
+        "R11C4-prix-le-figaroscope-prix-de-la-place-vendome.html",
+        "R11C5-prix-volterra.html",
+        "R11C6-la-coupe.html",
+        "R11C7-prix-d-evreux.html",
+        "R11C8-prix-des-petits-champs.html",
+        "R11C9-prix-d-orcy.html",
+        "R11C10-prix-de-l-etang-de-boulogne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:33.028166Z"
+}

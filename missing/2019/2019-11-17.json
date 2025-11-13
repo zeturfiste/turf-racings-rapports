@@ -1,0 +1,118 @@
+{
+  "date": "2019-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/11/2019-11-17",
+    "date_html": "resultats-et-rapports/2019/11/2019-11-17/2019-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/11/2019-11-17/R1-vincennes/R1C6-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R3-marseille-borely/R3C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R3-marseille-borely/R3C6-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R3-marseille-borely/R3C9-prix-de-senonnes.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R6-lyon-la-soie/R6C1-coupe-des-amateurs-gr-a.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R6-lyon-la-soie/R6C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R6-lyon-la-soie/R6C6-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R7-nantes/R7C6-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R7-nantes/R7C7-prix-de-brioude.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R7-nantes/R7C8-prix-d-azay-le-rideau.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R8-bordeaux-le-bouscat/R8C2-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R8-bordeaux-le-bouscat/R8C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R8-bordeaux-le-bouscat/R8C7-prix-de-brioude.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R8-bordeaux-le-bouscat/R8C9-prix-de-senonnes.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C1-coupe-des-amateurs-gr-a.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C3-coupe-des-amateurs-gr-b.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C6-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C7-prix-de-brioude.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C8-prix-d-azay-le-rideau.html",
+      "resultats-et-rapports/2019/11/2019-11-17/R9-graignes/R9C9-prix-de-senonnes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R6-lyon-la-soie",
+      "R7-nantes",
+      "R8-bordeaux-le-bouscat",
+      "R9-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-coupe-des-amateurs-gr-a.html",
+        "R1C2-prix-jean-maurice-beteau.html",
+        "R1C3-coupe-des-amateurs-gr-b.html",
+        "R1C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R1C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R1C6-prix-de-boissy-saint-leger.html",
+        "R1C7-prix-de-brioude.html",
+        "R1C8-prix-d-azay-le-rideau.html",
+        "R1C9-prix-de-senonnes.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-coupe-des-amateurs-gr-a.html",
+        "R3C2-prix-jean-maurice-beteau.html",
+        "R3C3-coupe-des-amateurs-gr-b.html",
+        "R3C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R3C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R3C6-prix-de-boissy-saint-leger.html",
+        "R3C7-prix-de-brioude.html",
+        "R3C8-prix-d-azay-le-rideau.html",
+        "R3C9-prix-de-senonnes.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-coupe-des-amateurs-gr-a.html",
+        "R6C2-prix-jean-maurice-beteau.html",
+        "R6C3-coupe-des-amateurs-gr-b.html",
+        "R6C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R6C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R6C6-prix-de-boissy-saint-leger.html",
+        "R6C7-prix-de-brioude.html",
+        "R6C8-prix-d-azay-le-rideau.html",
+        "R6C9-prix-de-senonnes.html"
+      ],
+      "R7-nantes": [
+        "R7C1-coupe-des-amateurs-gr-a.html",
+        "R7C2-prix-jean-maurice-beteau.html",
+        "R7C3-coupe-des-amateurs-gr-b.html",
+        "R7C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R7C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R7C6-prix-de-boissy-saint-leger.html",
+        "R7C7-prix-de-brioude.html",
+        "R7C8-prix-d-azay-le-rideau.html",
+        "R7C9-prix-de-senonnes.html"
+      ],
+      "R8-bordeaux-le-bouscat": [
+        "R8C1-coupe-des-amateurs-gr-a.html",
+        "R8C2-prix-jean-maurice-beteau.html",
+        "R8C3-coupe-des-amateurs-gr-b.html",
+        "R8C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R8C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R8C6-prix-de-boissy-saint-leger.html",
+        "R8C7-prix-de-brioude.html",
+        "R8C8-prix-d-azay-le-rideau.html",
+        "R8C9-prix-de-senonnes.html"
+      ],
+      "R9-graignes": [
+        "R9C1-coupe-des-amateurs-gr-a.html",
+        "R9C2-prix-jean-maurice-beteau.html",
+        "R9C3-coupe-des-amateurs-gr-b.html",
+        "R9C4-grand-prix-de-bretagne-la-course-des-bleus.html",
+        "R9C5-prix-case-ih-prix-de-cosse-le-vivien.html",
+        "R9C6-prix-de-boissy-saint-leger.html",
+        "R9C7-prix-de-brioude.html",
+        "R9C8-prix-d-azay-le-rideau.html",
+        "R9C9-prix-de-senonnes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:29.155250Z"
+}

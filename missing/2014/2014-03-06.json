@@ -1,0 +1,73 @@
+{
+  "date": "2014-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-06",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-06/2014-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C1-prix-de-louviers.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C2-prix-de-douville.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C3-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C4-prix-d-hudimesnil.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C5-prix-de-cormeilles.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C6-prix-de-branville.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C7-prix-de-la-varenne.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C8-prix-du-mont-saint-leger.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R1-deauville/R1C9-prix-des-collines-de-normandie.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R3-laval/R3C5-prix-de-cormeilles.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R3-laval/R3C8-prix-du-mont-saint-leger.html",
+      "resultats-et-rapports/2014/03/2014-03-06/R3-laval/R3C9-prix-des-collines-de-normandie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-louviers.html",
+        "R1C2-prix-de-douville.html",
+        "R1C3-prix-du-mont-saint-jean.html",
+        "R1C4-prix-d-hudimesnil.html",
+        "R1C5-prix-de-cormeilles.html",
+        "R1C6-prix-de-branville.html",
+        "R1C7-prix-de-la-varenne.html",
+        "R1C8-prix-du-mont-saint-leger.html",
+        "R1C9-prix-des-collines-de-normandie.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-louviers.html",
+        "R2C2-prix-de-douville.html",
+        "R2C3-prix-du-mont-saint-jean.html",
+        "R2C4-prix-d-hudimesnil.html",
+        "R2C5-prix-de-cormeilles.html",
+        "R2C6-prix-de-branville.html",
+        "R2C7-prix-de-la-varenne.html",
+        "R2C8-prix-du-mont-saint-leger.html",
+        "R2C9-prix-des-collines-de-normandie.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-de-louviers.html",
+        "R3C2-prix-de-douville.html",
+        "R3C3-prix-du-mont-saint-jean.html",
+        "R3C4-prix-d-hudimesnil.html",
+        "R3C5-prix-de-cormeilles.html",
+        "R3C6-prix-de-branville.html",
+        "R3C7-prix-de-la-varenne.html",
+        "R3C8-prix-du-mont-saint-leger.html",
+        "R3C9-prix-des-collines-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:51.191225Z"
+}

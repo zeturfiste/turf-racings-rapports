@@ -1,0 +1,90 @@
+{
+  "date": "2007-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-23",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-23/2007-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C2-prix-sobaten.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C3-prix-transports-dewitte.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C4-prix-francois-caille.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C5-prix-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R1-la-capelle/R1C7-prix-jacquart.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R2-saint-cloud/R2C3-prix-transports-dewitte.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R2-saint-cloud/R2C4-prix-francois-caille.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R2-saint-cloud/R2C5-prix-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C2-prix-sobaten.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C3-prix-transports-dewitte.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C4-prix-francois-caille.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C5-prix-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C6-prix-andre-carrus.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C7-prix-jacquart.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R31-zerace/R31C8-prix-l-aisne-nouvelle.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R70-stade-olympique-athenes/R70C3-prix-transports-dewitte.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R70-stade-olympique-athenes/R70C4-prix-francois-caille.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R70-stade-olympique-athenes/R70C5-prix-donneurs-d-organes-de-l-aisne.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R70-stade-olympique-athenes/R70C6-prix-andre-carrus.html",
+      "resultats-et-rapports/2007/05/2007-05-23/R70-stade-olympique-athenes/R70C8-prix-l-aisne-nouvelle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R2-saint-cloud",
+      "R31-zerace",
+      "R70-stade-olympique-athenes"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-geny-courses-paris-turf-com.html",
+        "R1C2-prix-sobaten.html",
+        "R1C3-prix-transports-dewitte.html",
+        "R1C4-prix-francois-caille.html",
+        "R1C5-prix-donneurs-d-organes-de-l-aisne.html",
+        "R1C6-prix-andre-carrus.html",
+        "R1C7-prix-jacquart.html",
+        "R1C8-prix-l-aisne-nouvelle.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-geny-courses-paris-turf-com.html",
+        "R2C2-prix-sobaten.html",
+        "R2C3-prix-transports-dewitte.html",
+        "R2C4-prix-francois-caille.html",
+        "R2C5-prix-donneurs-d-organes-de-l-aisne.html",
+        "R2C6-prix-andre-carrus.html",
+        "R2C7-prix-jacquart.html",
+        "R2C8-prix-l-aisne-nouvelle.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-paris-turf-com.html",
+        "R31C2-prix-sobaten.html",
+        "R31C3-prix-transports-dewitte.html",
+        "R31C4-prix-francois-caille.html",
+        "R31C5-prix-donneurs-d-organes-de-l-aisne.html",
+        "R31C6-prix-andre-carrus.html",
+        "R31C7-prix-jacquart.html",
+        "R31C8-prix-l-aisne-nouvelle.html"
+      ],
+      "R70-stade-olympique-athenes": [
+        "R70C1-prix-geny-courses-paris-turf-com.html",
+        "R70C2-prix-sobaten.html",
+        "R70C3-prix-transports-dewitte.html",
+        "R70C4-prix-francois-caille.html",
+        "R70C5-prix-donneurs-d-organes-de-l-aisne.html",
+        "R70C6-prix-andre-carrus.html",
+        "R70C7-prix-jacquart.html",
+        "R70C8-prix-l-aisne-nouvelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:51.211999Z"
+}

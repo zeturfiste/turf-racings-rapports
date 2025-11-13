@@ -1,0 +1,81 @@
+{
+  "date": "2016-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-19",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-19/2016-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-19/R1-fontainebleau/R1C1-prix-de-la-platiere-d-apremont.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R1-fontainebleau/R1C3-prix-de-la-foret-de-fontainebleau.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R1-fontainebleau/R1C7-prix-de-la-foret-de-biere.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R1-fontainebleau/R1C8-prix-du-belvedere-des-druides.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R2-lyon-parilly/R2C2-prix-du-bilboquet.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R2-lyon-parilly/R2C3-prix-de-la-foret-de-fontainebleau.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R3-chartres/R3C2-prix-du-bilboquet.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R3-chartres/R3C4-prix-de-la-foret-des-trois-pignons.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R3-chartres/R3C5-prix-de-la-grotte-aux-cristaux.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R3-chartres/R3C6-prix-des-pins-laricio.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R3-chartres/R3C8-prix-du-belvedere-des-druides.html",
+      "resultats-et-rapports/2016/05/2016-05-19/R4-le-lion-d-angers/R4C4-prix-de-la-foret-des-trois-pignons.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-lyon-parilly",
+      "R3-chartres",
+      "R4-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-platiere-d-apremont.html",
+        "R1C2-prix-du-bilboquet.html",
+        "R1C3-prix-de-la-foret-de-fontainebleau.html",
+        "R1C4-prix-de-la-foret-des-trois-pignons.html",
+        "R1C5-prix-de-la-grotte-aux-cristaux.html",
+        "R1C6-prix-des-pins-laricio.html",
+        "R1C7-prix-de-la-foret-de-biere.html",
+        "R1C8-prix-du-belvedere-des-druides.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-la-platiere-d-apremont.html",
+        "R2C2-prix-du-bilboquet.html",
+        "R2C3-prix-de-la-foret-de-fontainebleau.html",
+        "R2C4-prix-de-la-foret-des-trois-pignons.html",
+        "R2C5-prix-de-la-grotte-aux-cristaux.html",
+        "R2C6-prix-des-pins-laricio.html",
+        "R2C7-prix-de-la-foret-de-biere.html",
+        "R2C8-prix-du-belvedere-des-druides.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-de-la-platiere-d-apremont.html",
+        "R3C2-prix-du-bilboquet.html",
+        "R3C3-prix-de-la-foret-de-fontainebleau.html",
+        "R3C4-prix-de-la-foret-des-trois-pignons.html",
+        "R3C5-prix-de-la-grotte-aux-cristaux.html",
+        "R3C6-prix-des-pins-laricio.html",
+        "R3C7-prix-de-la-foret-de-biere.html",
+        "R3C8-prix-du-belvedere-des-druides.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-la-platiere-d-apremont.html",
+        "R4C2-prix-du-bilboquet.html",
+        "R4C3-prix-de-la-foret-de-fontainebleau.html",
+        "R4C4-prix-de-la-foret-des-trois-pignons.html",
+        "R4C5-prix-de-la-grotte-aux-cristaux.html",
+        "R4C6-prix-des-pins-laricio.html",
+        "R4C7-prix-de-la-foret-de-biere.html",
+        "R4C8-prix-du-belvedere-des-druides.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:56.556513Z"
+}

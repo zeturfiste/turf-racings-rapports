@@ -1,0 +1,74 @@
+{
+  "date": "2021-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-16",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-16/2021-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-16/R4-mauquenchy/R4C3-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2021/09/2021-09-16/R4-mauquenchy/R4C6-prix-du-fer-a-moulin.html",
+      "resultats-et-rapports/2021/09/2021-09-16/R7-marseille-borely/R7C2-prix-de-la-place-jeanne-d-arc.html",
+      "resultats-et-rapports/2021/09/2021-09-16/R7-marseille-borely/R7C3-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2021/09/2021-09-16/R7-marseille-borely/R7C5-prix-de-sainte-opportune.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-mont-de-marsan",
+      "R4-mauquenchy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-lormoy.html",
+        "R1C2-prix-de-la-place-jeanne-d-arc.html",
+        "R1C3-prix-du-quai-aux-fleurs.html",
+        "R1C4-prix-de-la-verrerie.html",
+        "R1C5-prix-de-sainte-opportune.html",
+        "R1C6-prix-du-fer-a-moulin.html",
+        "R1C7-grand-prix-des-anglo-arabes.html",
+        "R1C8-prix-des-lavandieres.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-de-lormoy.html",
+        "R3C2-prix-de-la-place-jeanne-d-arc.html",
+        "R3C3-prix-du-quai-aux-fleurs.html",
+        "R3C4-prix-de-la-verrerie.html",
+        "R3C5-prix-de-sainte-opportune.html",
+        "R3C6-prix-du-fer-a-moulin.html",
+        "R3C7-grand-prix-des-anglo-arabes.html",
+        "R3C8-prix-des-lavandieres.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-lormoy.html",
+        "R4C2-prix-de-la-place-jeanne-d-arc.html",
+        "R4C3-prix-du-quai-aux-fleurs.html",
+        "R4C4-prix-de-la-verrerie.html",
+        "R4C5-prix-de-sainte-opportune.html",
+        "R4C6-prix-du-fer-a-moulin.html",
+        "R4C7-grand-prix-des-anglo-arabes.html",
+        "R4C8-prix-des-lavandieres.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-de-lormoy.html",
+        "R7C2-prix-de-la-place-jeanne-d-arc.html",
+        "R7C3-prix-du-quai-aux-fleurs.html",
+        "R7C4-prix-de-la-verrerie.html",
+        "R7C5-prix-de-sainte-opportune.html",
+        "R7C6-prix-du-fer-a-moulin.html",
+        "R7C7-grand-prix-des-anglo-arabes.html",
+        "R7C8-prix-des-lavandieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:00.162652Z"
+}

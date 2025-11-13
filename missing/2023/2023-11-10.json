@@ -1,0 +1,97 @@
+{
+  "date": "2023-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-10",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-10/2023-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C1-prix-palatia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C2-prix-sophia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C3-prix-dejopeja.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C4-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C5-prix-persephone.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C6-prix-victoria.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R3-compiegne/R3C7-prix-josephina.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R4-saint-cloud/R4C1-prix-palatia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R4-saint-cloud/R4C2-prix-sophia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R4-saint-cloud/R4C3-prix-dejopeja.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C1-prix-palatia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C2-prix-sophia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C3-prix-dejopeja.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C4-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C5-prix-persephone.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R5-le-croise-laroche/R5C6-prix-victoria.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C2-prix-sophia.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C3-prix-dejopeja.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C4-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C5-prix-persephone.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C6-prix-victoria.html",
+      "resultats-et-rapports/2023/11/2023-11-10/R8-salon-de-provence/R8C7-prix-josephina.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-compiegne",
+      "R4-saint-cloud",
+      "R5-le-croise-laroche",
+      "R8-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-palatia.html",
+        "R1C2-prix-sophia.html",
+        "R1C3-prix-dejopeja.html",
+        "R1C4-prix-ceneri-forcinal.html",
+        "R1C5-prix-persephone.html",
+        "R1C6-prix-victoria.html",
+        "R1C7-prix-josephina.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-palatia.html",
+        "R3C2-prix-sophia.html",
+        "R3C3-prix-dejopeja.html",
+        "R3C4-prix-ceneri-forcinal.html",
+        "R3C5-prix-persephone.html",
+        "R3C6-prix-victoria.html",
+        "R3C7-prix-josephina.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-palatia.html",
+        "R4C2-prix-sophia.html",
+        "R4C3-prix-dejopeja.html",
+        "R4C4-prix-ceneri-forcinal.html",
+        "R4C5-prix-persephone.html",
+        "R4C6-prix-victoria.html",
+        "R4C7-prix-josephina.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-palatia.html",
+        "R5C2-prix-sophia.html",
+        "R5C3-prix-dejopeja.html",
+        "R5C4-prix-ceneri-forcinal.html",
+        "R5C5-prix-persephone.html",
+        "R5C6-prix-victoria.html",
+        "R5C7-prix-josephina.html"
+      ],
+      "R8-salon-de-provence": [
+        "R8C1-prix-palatia.html",
+        "R8C2-prix-sophia.html",
+        "R8C3-prix-dejopeja.html",
+        "R8C4-prix-ceneri-forcinal.html",
+        "R8C5-prix-persephone.html",
+        "R8C6-prix-victoria.html",
+        "R8C7-prix-josephina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:39.022489Z"
+}

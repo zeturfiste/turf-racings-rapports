@@ -1,0 +1,91 @@
+{
+  "date": "2022-02-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/02/2022-02-19",
+    "date_html": "resultats-et-rapports/2022/02/2022-02-19/2022-02-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/02/2022-02-19/R1-cagnes-sur-mer/R1C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R1-cagnes-sur-mer/R1C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R1-cagnes-sur-mer/R1C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R1-cagnes-sur-mer/R1C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R1-cagnes-sur-mer/R1C6-prix-saonois.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R2-machecoul/R2C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R2-machecoul/R2C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R2-machecoul/R2C6-prix-saonois.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C6-prix-saonois.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R3-agen/R3C8-prix-des-collettes-breguieres-prix-de-dieppe.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C6-prix-saonois.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+      "resultats-et-rapports/2022/02/2022-02-19/R4-laval/R4C8-prix-des-collettes-breguieres-prix-de-dieppe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-machecoul",
+      "R3-agen",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+        "R1C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+        "R1C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+        "R1C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+        "R1C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+        "R1C6-prix-saonois.html",
+        "R1C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+        "R1C8-prix-des-collettes-breguieres-prix-de-dieppe.html"
+      ],
+      "R2-machecoul": [
+        "R2C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+        "R2C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+        "R2C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+        "R2C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+        "R2C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+        "R2C6-prix-saonois.html",
+        "R2C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+        "R2C8-prix-des-collettes-breguieres-prix-de-dieppe.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+        "R3C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+        "R3C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+        "R3C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+        "R3C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+        "R3C6-prix-saonois.html",
+        "R3C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+        "R3C8-prix-des-collettes-breguieres-prix-de-dieppe.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-du-vieux-bourg-prix-des-genevriers.html",
+        "R4C2-prix-du-polygone-saint-jean-prix-des-maures.html",
+        "R4C3-prix-du-cros-de-cagnes-prix-des-issambres.html",
+        "R4C4-prix-de-la-promenade-de-la-plage-prix-jacques-geliot.html",
+        "R4C5-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-des-glycines.html",
+        "R4C6-prix-saonois.html",
+        "R4C7-prix-du-val-fleuri-et-des-vespins-prix-de-l-esterel.html",
+        "R4C8-prix-des-collettes-breguieres-prix-de-dieppe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:52.319931Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2011-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-20",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-20/2011-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-20/R1-maisons-laffitte/R1C4-prix-sourdine.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R1-maisons-laffitte/R1C5-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R2-laval/R2C4-prix-sourdine.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R2-laval/R2C6-prix-pelat.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R3-dieppe/R3C2-prix-saraca.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R3-dieppe/R3C5-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C2-prix-saraca.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C3-prix-de-levis-saint-nom.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C5-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C6-prix-pelat.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C7-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2011/09/2011-09-20/R4-vincennes/R4C8-prix-des-iles-de-la-seine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-laval",
+      "R3-dieppe",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-des-boucles-de-la-seine.html",
+        "R1C2-prix-saraca.html",
+        "R1C3-prix-de-levis-saint-nom.html",
+        "R1C4-prix-sourdine.html",
+        "R1C5-prix-de-bures-sur-yvette.html",
+        "R1C6-prix-pelat.html",
+        "R1C7-prix-des-falaises-de-craies.html",
+        "R1C8-prix-des-iles-de-la-seine.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-des-boucles-de-la-seine.html",
+        "R2C2-prix-saraca.html",
+        "R2C3-prix-de-levis-saint-nom.html",
+        "R2C4-prix-sourdine.html",
+        "R2C5-prix-de-bures-sur-yvette.html",
+        "R2C6-prix-pelat.html",
+        "R2C7-prix-des-falaises-de-craies.html",
+        "R2C8-prix-des-iles-de-la-seine.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-des-boucles-de-la-seine.html",
+        "R3C2-prix-saraca.html",
+        "R3C3-prix-de-levis-saint-nom.html",
+        "R3C4-prix-sourdine.html",
+        "R3C5-prix-de-bures-sur-yvette.html",
+        "R3C6-prix-pelat.html",
+        "R3C7-prix-des-falaises-de-craies.html",
+        "R3C8-prix-des-iles-de-la-seine.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-boucles-de-la-seine.html",
+        "R4C2-prix-saraca.html",
+        "R4C3-prix-de-levis-saint-nom.html",
+        "R4C4-prix-sourdine.html",
+        "R4C5-prix-de-bures-sur-yvette.html",
+        "R4C6-prix-pelat.html",
+        "R4C7-prix-des-falaises-de-craies.html",
+        "R4C8-prix-des-iles-de-la-seine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:41.199987Z"
+}

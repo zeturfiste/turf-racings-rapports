@@ -1,0 +1,62 @@
+{
+  "date": "2018-02-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/02/2018-02-28",
+    "date_html": "resultats-et-rapports/2018/02/2018-02-28/2018-02-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/02/2018-02-28/R1-enghien-soisy/R1C5-prix-des-cotes-d-armor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R4-mauquenchy",
+      "R6-enghien-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-sedan.html",
+        "R1C2-prix-de-contrexeville.html",
+        "R1C3-prix-de-lure.html",
+        "R1C4-prix-d-herblay.html",
+        "R1C5-prix-des-cotes-d-armor.html",
+        "R1C6-prix-de-l-alene-d-or.html",
+        "R1C7-prix-de-chennevieres-groupe-a.html",
+        "R1C8-prix-de-chennevieres-groupe-b.html",
+        "R1C9-prix-de-marennes.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-sedan.html",
+        "R4C2-prix-de-contrexeville.html",
+        "R4C3-prix-de-lure.html",
+        "R4C4-prix-d-herblay.html",
+        "R4C5-prix-des-cotes-d-armor.html",
+        "R4C6-prix-de-l-alene-d-or.html",
+        "R4C7-prix-de-chennevieres-groupe-a.html",
+        "R4C8-prix-de-chennevieres-groupe-b.html",
+        "R4C9-prix-de-marennes.html"
+      ],
+      "R6-enghien-midi": [
+        "R6C1-prix-de-sedan.html",
+        "R6C2-prix-de-contrexeville.html",
+        "R6C3-prix-de-lure.html",
+        "R6C4-prix-d-herblay.html",
+        "R6C5-prix-des-cotes-d-armor.html",
+        "R6C6-prix-de-l-alene-d-or.html",
+        "R6C7-prix-de-chennevieres-groupe-a.html",
+        "R6C8-prix-de-chennevieres-groupe-b.html",
+        "R6C9-prix-de-marennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:12.908637Z"
+}

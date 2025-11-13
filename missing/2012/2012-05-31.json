@@ -1,0 +1,67 @@
+{
+  "date": "2012-05-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-31",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-31/2012-05-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-31/R1-longchamp/R1C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R1-longchamp/R1C5-prix-de-poitronville.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R1-longchamp/R1C8-prix-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R2-mauquenchy/R2C2-prix-de-viroflay.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R2-mauquenchy/R2C3-prix-de-verneuil.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R2-mauquenchy/R2C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R2-mauquenchy/R2C5-prix-de-poitronville.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R3-bordeaux-le-bouscat/R3C1-prix-du-bois-de-boulogne.html",
+      "resultats-et-rapports/2012/05/2012-05-31/R3-bordeaux-le-bouscat/R3C4-prix-de-la-bienfaisance.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-mauquenchy",
+      "R3-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-bois-de-boulogne.html",
+        "R1C2-prix-de-viroflay.html",
+        "R1C3-prix-de-verneuil.html",
+        "R1C4-prix-de-la-bienfaisance.html",
+        "R1C5-prix-de-poitronville.html",
+        "R1C6-prix-du-palais-d-art-moderne.html",
+        "R1C7-prix-des-amazones.html",
+        "R1C8-prix-du-bois-de-vincennes.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-du-bois-de-boulogne.html",
+        "R2C2-prix-de-viroflay.html",
+        "R2C3-prix-de-verneuil.html",
+        "R2C4-prix-de-la-bienfaisance.html",
+        "R2C5-prix-de-poitronville.html",
+        "R2C6-prix-du-palais-d-art-moderne.html",
+        "R2C7-prix-des-amazones.html",
+        "R2C8-prix-du-bois-de-vincennes.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-du-bois-de-boulogne.html",
+        "R3C2-prix-de-viroflay.html",
+        "R3C3-prix-de-verneuil.html",
+        "R3C4-prix-de-la-bienfaisance.html",
+        "R3C5-prix-de-poitronville.html",
+        "R3C6-prix-du-palais-d-art-moderne.html",
+        "R3C7-prix-des-amazones.html",
+        "R3C8-prix-du-bois-de-vincennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:48.729894Z"
+}

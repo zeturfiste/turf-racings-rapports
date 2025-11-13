@@ -1,0 +1,79 @@
+{
+  "date": "2024-08-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-08",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-08/2024-08-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-08/R1-enghien-soisy/R1C3-prix-des-pyramides.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R1-enghien-soisy/R1C7-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R3-saint-malo/R3C7-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R4-deauville/R4C2-prix-de-la-place-denfert-rochereau.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R4-deauville/R4C4-prix-de-la-concorde.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R4-deauville/R4C5-prix-de-la-haute-saone.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R4-deauville/R4C6-prix-de-l-aigle.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R4-deauville/R4C7-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R5-pornichet-la-baule/R5C2-prix-de-la-place-denfert-rochereau.html",
+      "resultats-et-rapports/2024/08/2024-08-08/R5-pornichet-la-baule/R5C4-prix-de-la-concorde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-saint-malo",
+      "R4-deauville",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-d-asnieres.html",
+        "R1C2-prix-de-la-place-denfert-rochereau.html",
+        "R1C3-prix-des-pyramides.html",
+        "R1C4-prix-de-la-concorde.html",
+        "R1C5-prix-de-la-haute-saone.html",
+        "R1C6-prix-de-l-aigle.html",
+        "R1C7-prix-de-la-porte-d-italie.html",
+        "R1C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-de-la-porte-d-asnieres.html",
+        "R3C2-prix-de-la-place-denfert-rochereau.html",
+        "R3C3-prix-des-pyramides.html",
+        "R3C4-prix-de-la-concorde.html",
+        "R3C5-prix-de-la-haute-saone.html",
+        "R3C6-prix-de-l-aigle.html",
+        "R3C7-prix-de-la-porte-d-italie.html",
+        "R3C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-la-porte-d-asnieres.html",
+        "R4C2-prix-de-la-place-denfert-rochereau.html",
+        "R4C3-prix-des-pyramides.html",
+        "R4C4-prix-de-la-concorde.html",
+        "R4C5-prix-de-la-haute-saone.html",
+        "R4C6-prix-de-l-aigle.html",
+        "R4C7-prix-de-la-porte-d-italie.html",
+        "R4C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-de-la-porte-d-asnieres.html",
+        "R5C2-prix-de-la-place-denfert-rochereau.html",
+        "R5C3-prix-des-pyramides.html",
+        "R5C4-prix-de-la-concorde.html",
+        "R5C5-prix-de-la-haute-saone.html",
+        "R5C6-prix-de-l-aigle.html",
+        "R5C7-prix-de-la-porte-d-italie.html",
+        "R5C8-prix-de-la-porte-de-montreuil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:15.213947Z"
+}

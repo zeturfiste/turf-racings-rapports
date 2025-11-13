@@ -1,0 +1,67 @@
+{
+  "date": "2010-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-08",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-08/2010-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-08/R1-enghien-soisy/R1C8-prix-de-menilmontant.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R2-clairefontaine/R2C4-prix-de-la-place-saint-augustin.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R2-clairefontaine/R2C7-prix-du-pantheon.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C1-prix-de-la-porte-de-charenton.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C2-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C3-prix-de-souillac.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C4-prix-de-la-place-saint-augustin.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C5-prix-de-la-tour-eiffel.html",
+      "resultats-et-rapports/2010/07/2010-07-08/R3-vichy/R3C6-prix-de-la-place-du-trocadero.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-clairefontaine",
+      "R3-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-de-charenton.html",
+        "R1C2-prix-de-la-madeleine.html",
+        "R1C3-prix-de-souillac.html",
+        "R1C4-prix-de-la-place-saint-augustin.html",
+        "R1C5-prix-de-la-tour-eiffel.html",
+        "R1C6-prix-de-la-place-du-trocadero.html",
+        "R1C7-prix-du-pantheon.html",
+        "R1C8-prix-de-menilmontant.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-la-porte-de-charenton.html",
+        "R2C2-prix-de-la-madeleine.html",
+        "R2C3-prix-de-souillac.html",
+        "R2C4-prix-de-la-place-saint-augustin.html",
+        "R2C5-prix-de-la-tour-eiffel.html",
+        "R2C6-prix-de-la-place-du-trocadero.html",
+        "R2C7-prix-du-pantheon.html",
+        "R2C8-prix-de-menilmontant.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-la-porte-de-charenton.html",
+        "R3C2-prix-de-la-madeleine.html",
+        "R3C3-prix-de-souillac.html",
+        "R3C4-prix-de-la-place-saint-augustin.html",
+        "R3C5-prix-de-la-tour-eiffel.html",
+        "R3C6-prix-de-la-place-du-trocadero.html",
+        "R3C7-prix-du-pantheon.html",
+        "R3C8-prix-de-menilmontant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:36.128213Z"
+}

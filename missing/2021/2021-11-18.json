@@ -1,0 +1,88 @@
+{
+  "date": "2021-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-18",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-18/2021-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-18/R1-fontainebleau/R1C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R3-vincennes/R3C1-prix-des-chevreuils.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R3-vincennes/R3C5-prix-des-chataigniers.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R3-vincennes/R3C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R3-vincennes/R3C8-prix-de-meaux.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C1-prix-des-chevreuils.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C2-prix-philippe-lorain.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C3-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C4-prix-ceres.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C5-prix-des-chataigniers.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R4-lyon-la-soie/R4C8-prix-de-meaux.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C1-prix-des-chevreuils.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C2-prix-philippe-lorain.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C3-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C4-prix-ceres.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C5-prix-des-chataigniers.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2021/11/2021-11-18/R8-marseille-borely/R8C8-prix-de-meaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-vincennes",
+      "R4-lyon-la-soie",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-chevreuils.html",
+        "R1C2-prix-philippe-lorain.html",
+        "R1C3-prix-de-la-seine-et-marne.html",
+        "R1C4-prix-ceres.html",
+        "R1C5-prix-des-chataigniers.html",
+        "R1C6-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R1C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-de-meaux.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-chevreuils.html",
+        "R3C2-prix-philippe-lorain.html",
+        "R3C3-prix-de-la-seine-et-marne.html",
+        "R3C4-prix-ceres.html",
+        "R3C5-prix-des-chataigniers.html",
+        "R3C6-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R3C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+        "R3C8-prix-de-meaux.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-des-chevreuils.html",
+        "R4C2-prix-philippe-lorain.html",
+        "R4C3-prix-de-la-seine-et-marne.html",
+        "R4C4-prix-ceres.html",
+        "R4C5-prix-des-chataigniers.html",
+        "R4C6-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R4C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-de-meaux.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-prix-des-chevreuils.html",
+        "R8C2-prix-philippe-lorain.html",
+        "R8C3-prix-de-la-seine-et-marne.html",
+        "R8C4-prix-ceres.html",
+        "R8C5-prix-des-chataigniers.html",
+        "R8C6-prix-de-la-societe-des-courses-de-rambouillet.html",
+        "R8C7-grand-prix-de-fontainebleau-fonds-europeen-de-l-elevage.html",
+        "R8C8-prix-de-meaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:22.804730Z"
+}

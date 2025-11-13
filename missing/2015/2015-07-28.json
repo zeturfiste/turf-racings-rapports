@@ -1,0 +1,82 @@
+{
+  "date": "2015-07-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-28",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-28/2015-07-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C2-prix-du-canal-saint-jean.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C3-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C4-prix-de-mongresin.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C5-prix-de-l-ile-d-amour.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C6-prix-de-laigneville.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R1-chantilly/R1C7-prix-des-lions.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R2-la-teste-de-buch/R2C1-prix-de-bertinval.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R2-la-teste-de-buch/R2C4-prix-de-mongresin.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R3-hyeres/R3C1-prix-de-bertinval.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R4-cabourg/R4C4-prix-de-mongresin.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R4-cabourg/R4C6-prix-de-laigneville.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R4-cabourg/R4C7-prix-des-lions.html",
+      "resultats-et-rapports/2015/07/2015-07-28/R4-cabourg/R4C8-prix-de-l-arbre-a-fougeres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-la-teste-de-buch",
+      "R3-hyeres",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-bertinval.html",
+        "R1C2-prix-du-canal-saint-jean.html",
+        "R1C3-prix-du-bois-brandin.html",
+        "R1C4-prix-de-mongresin.html",
+        "R1C5-prix-de-l-ile-d-amour.html",
+        "R1C6-prix-de-laigneville.html",
+        "R1C7-prix-des-lions.html",
+        "R1C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-de-bertinval.html",
+        "R2C2-prix-du-canal-saint-jean.html",
+        "R2C3-prix-du-bois-brandin.html",
+        "R2C4-prix-de-mongresin.html",
+        "R2C5-prix-de-l-ile-d-amour.html",
+        "R2C6-prix-de-laigneville.html",
+        "R2C7-prix-des-lions.html",
+        "R2C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-de-bertinval.html",
+        "R3C2-prix-du-canal-saint-jean.html",
+        "R3C3-prix-du-bois-brandin.html",
+        "R3C4-prix-de-mongresin.html",
+        "R3C5-prix-de-l-ile-d-amour.html",
+        "R3C6-prix-de-laigneville.html",
+        "R3C7-prix-des-lions.html",
+        "R3C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-bertinval.html",
+        "R4C2-prix-du-canal-saint-jean.html",
+        "R4C3-prix-du-bois-brandin.html",
+        "R4C4-prix-de-mongresin.html",
+        "R4C5-prix-de-l-ile-d-amour.html",
+        "R4C6-prix-de-laigneville.html",
+        "R4C7-prix-des-lions.html",
+        "R4C8-prix-de-l-arbre-a-fougeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:30.789551Z"
+}

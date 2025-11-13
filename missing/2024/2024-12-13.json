@@ -1,0 +1,79 @@
+{
+  "date": "2024-12-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-13",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-13/2024-12-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C1-prix-des-giroflees.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C2-prix-d-ales.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C3-prix-de-cancale.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C4-prix-de-quissac.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C5-prix-de-divonne-les-bains.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C7-prix-de-clamart.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R1-vincennes/R1C8-prix-de-tourcoing.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C1-prix-des-giroflees.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C2-prix-d-ales.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C3-prix-de-cancale.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C4-prix-de-quissac.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C5-prix-de-divonne-les-bains.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R2-graignes/R2C7-prix-de-clamart.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C1-prix-des-giroflees.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C2-prix-d-ales.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C3-prix-de-cancale.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C4-prix-de-quissac.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C5-prix-de-divonne-les-bains.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C6-prix-de-campbon.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C7-prix-de-clamart.html",
+      "resultats-et-rapports/2024/12/2024-12-13/R4-deauville/R4C8-prix-de-tourcoing.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-graignes",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-giroflees.html",
+        "R1C2-prix-d-ales.html",
+        "R1C3-prix-de-cancale.html",
+        "R1C4-prix-de-quissac.html",
+        "R1C5-prix-de-divonne-les-bains.html",
+        "R1C6-prix-de-campbon.html",
+        "R1C7-prix-de-clamart.html",
+        "R1C8-prix-de-tourcoing.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-des-giroflees.html",
+        "R2C2-prix-d-ales.html",
+        "R2C3-prix-de-cancale.html",
+        "R2C4-prix-de-quissac.html",
+        "R2C5-prix-de-divonne-les-bains.html",
+        "R2C6-prix-de-campbon.html",
+        "R2C7-prix-de-clamart.html",
+        "R2C8-prix-de-tourcoing.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-des-giroflees.html",
+        "R4C2-prix-d-ales.html",
+        "R4C3-prix-de-cancale.html",
+        "R4C4-prix-de-quissac.html",
+        "R4C5-prix-de-divonne-les-bains.html",
+        "R4C6-prix-de-campbon.html",
+        "R4C7-prix-de-clamart.html",
+        "R4C8-prix-de-tourcoing.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:03.110851Z"
+}

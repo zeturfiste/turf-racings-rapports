@@ -1,0 +1,46 @@
+{
+  "date": "2005-12-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-22",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-22/2005-12-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-briare.html",
+        "R1C2-prix-de-collioure.html",
+        "R1C3-prix-d-aix-les-bains.html",
+        "R1C4-prix-de-l-angoumois.html",
+        "R1C5-prix-de-tourcoing.html",
+        "R1C6-prix-de-clisson.html",
+        "R1C7-prix-de-montebourg.html",
+        "R1C8-prix-de-limermont.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-briare.html",
+        "R2C2-prix-de-collioure.html",
+        "R2C3-prix-d-aix-les-bains.html",
+        "R2C4-prix-de-l-angoumois.html",
+        "R2C5-prix-de-tourcoing.html",
+        "R2C6-prix-de-clisson.html",
+        "R2C7-prix-de-montebourg.html",
+        "R2C8-prix-de-limermont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:31.377308Z"
+}

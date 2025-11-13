@@ -1,0 +1,99 @@
+{
+  "date": "2014-05-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/05/2014-05-17",
+    "date_html": "resultats-et-rapports/2014/05/2014-05-17/2014-05-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/05/2014-05-17/R1-maisons-laffitte/R1C1-prix-pawneese.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R1-maisons-laffitte/R1C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R1-maisons-laffitte/R1C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R1-maisons-laffitte/R1C8-prix-du-carrefour-montesson-prix-de-troyes.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R2-caen/R2C1-prix-pawneese.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R2-caen/R2C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R3-beaumont-de-lomagne/R3C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R3-beaumont-de-lomagne/R3C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R3-beaumont-de-lomagne/R3C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R3-beaumont-de-lomagne/R3C8-prix-du-carrefour-montesson-prix-de-troyes.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R4-vichy/R4C1-prix-pawneese.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R4-vichy/R4C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R4-vichy/R4C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R4-vichy/R4C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R4-vichy/R4C8-prix-du-carrefour-montesson-prix-de-troyes.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R8-cavaillon/R8C1-prix-pawneese.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R8-cavaillon/R8C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R8-cavaillon/R8C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+      "resultats-et-rapports/2014/05/2014-05-17/R8-cavaillon/R8C7-prix-du-centre-commercial-montesson-prix-hildegarde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-caen",
+      "R3-beaumont-de-lomagne",
+      "R4-vichy",
+      "R8-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-pawneese.html",
+        "R1C2-prix-du-parc-de-maisons-laffitte-prix-riverman.html",
+        "R1C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+        "R1C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+        "R1C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+        "R1C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+        "R1C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+        "R1C8-prix-du-carrefour-montesson-prix-de-troyes.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-pawneese.html",
+        "R2C2-prix-du-parc-de-maisons-laffitte-prix-riverman.html",
+        "R2C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+        "R2C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+        "R2C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+        "R2C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+        "R2C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+        "R2C8-prix-du-carrefour-montesson-prix-de-troyes.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-pawneese.html",
+        "R3C2-prix-du-parc-de-maisons-laffitte-prix-riverman.html",
+        "R3C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+        "R3C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+        "R3C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+        "R3C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+        "R3C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+        "R3C8-prix-du-carrefour-montesson-prix-de-troyes.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-pawneese.html",
+        "R4C2-prix-du-parc-de-maisons-laffitte-prix-riverman.html",
+        "R4C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+        "R4C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+        "R4C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+        "R4C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+        "R4C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+        "R4C8-prix-du-carrefour-montesson-prix-de-troyes.html"
+      ],
+      "R8-cavaillon": [
+        "R8C1-prix-pawneese.html",
+        "R8C2-prix-du-parc-de-maisons-laffitte-prix-riverman.html",
+        "R8C3-prix-de-l-association-des-entrepreneurs-de-maisons-laffitte-prix-margouillat.html",
+        "R8C4-prix-du-mesnil-le-roi-prix-luth-de-saron.html",
+        "R8C5-prix-du-golf-de-maisons-laffitte-prix-rieur.html",
+        "R8C6-prix-de-la-ville-de-maisons-laffitte-prix-d-auxerre.html",
+        "R8C7-prix-du-centre-commercial-montesson-prix-hildegarde.html",
+        "R8C8-prix-du-carrefour-montesson-prix-de-troyes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:14.357359Z"
+}

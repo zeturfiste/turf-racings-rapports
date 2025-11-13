@@ -1,0 +1,88 @@
+{
+  "date": "2010-03-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/03/2010-03-04",
+    "date_html": "resultats-et-rapports/2010/03/2010-03-04/2010-03-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/03/2010-03-04/R1-vincennes/R1C6-prix-de-tignes.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R1-vincennes/R1C7-prix-de-marmande.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R1-vincennes/R1C8-prix-de-senlis.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R2-fontainebleau/R2C2-prix-vindex.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R2-fontainebleau/R2C3-prix-ali-hawas.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C2-prix-vindex.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C3-prix-ali-hawas.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C4-prix-de-lorient.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C5-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C6-prix-de-tignes.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C7-prix-de-marmande.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R3-le-croise-laroche/R3C8-prix-de-senlis.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C2-prix-vindex.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C3-prix-ali-hawas.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C4-prix-de-lorient.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C5-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C6-prix-de-tignes.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C7-prix-de-marmande.html",
+      "resultats-et-rapports/2010/03/2010-03-04/R31-zerace/R31C8-prix-de-senlis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-fontainebleau",
+      "R3-le-croise-laroche",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emile-allix-courboy.html",
+        "R1C2-prix-vindex.html",
+        "R1C3-prix-ali-hawas.html",
+        "R1C4-prix-de-lorient.html",
+        "R1C5-prix-felicien-gauvreau.html",
+        "R1C6-prix-de-tignes.html",
+        "R1C7-prix-de-marmande.html",
+        "R1C8-prix-de-senlis.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-emile-allix-courboy.html",
+        "R2C2-prix-vindex.html",
+        "R2C3-prix-ali-hawas.html",
+        "R2C4-prix-de-lorient.html",
+        "R2C5-prix-felicien-gauvreau.html",
+        "R2C6-prix-de-tignes.html",
+        "R2C7-prix-de-marmande.html",
+        "R2C8-prix-de-senlis.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-emile-allix-courboy.html",
+        "R3C2-prix-vindex.html",
+        "R3C3-prix-ali-hawas.html",
+        "R3C4-prix-de-lorient.html",
+        "R3C5-prix-felicien-gauvreau.html",
+        "R3C6-prix-de-tignes.html",
+        "R3C7-prix-de-marmande.html",
+        "R3C8-prix-de-senlis.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-emile-allix-courboy.html",
+        "R31C2-prix-vindex.html",
+        "R31C3-prix-ali-hawas.html",
+        "R31C4-prix-de-lorient.html",
+        "R31C5-prix-felicien-gauvreau.html",
+        "R31C6-prix-de-tignes.html",
+        "R31C7-prix-de-marmande.html",
+        "R31C8-prix-de-senlis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:37:32.203745Z"
+}

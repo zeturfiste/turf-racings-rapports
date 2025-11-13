@@ -1,0 +1,91 @@
+{
+  "date": "2016-08-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/08/2016-08-03",
+    "date_html": "resultats-et-rapports/2016/08/2016-08-03/2016-08-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C1-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C2-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C3-prix-de-jonquieres.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C4-prix-de-saint-cernin.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C5-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R1-enghien-soisy/R1C6-prix-de-pigalle.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R3-meslay-du-maine/R3C1-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R3-meslay-du-maine/R3C4-prix-de-saint-cernin.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R3-meslay-du-maine/R3C5-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R3-meslay-du-maine/R3C8-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C1-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C2-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C3-prix-de-jonquieres.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C4-prix-de-saint-cernin.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C5-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C6-prix-de-pigalle.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C7-prix-d-uzes.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R4-la-teste-de-buch/R4C8-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R6-les-sables-d-olonne/R6C1-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R6-les-sables-d-olonne/R6C2-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R6-les-sables-d-olonne/R6C3-prix-de-jonquieres.html",
+      "resultats-et-rapports/2016/08/2016-08-03/R6-les-sables-d-olonne/R6C4-prix-de-saint-cernin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-meslay-du-maine",
+      "R4-la-teste-de-buch",
+      "R6-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-parc-des-princes.html",
+        "R1C2-prix-de-la-place-saint-michel.html",
+        "R1C3-prix-de-jonquieres.html",
+        "R1C4-prix-de-saint-cernin.html",
+        "R1C5-prix-de-croulebarbe.html",
+        "R1C6-prix-de-pigalle.html",
+        "R1C7-prix-d-uzes.html",
+        "R1C8-prix-du-pre-saint-gervais.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-du-parc-des-princes.html",
+        "R3C2-prix-de-la-place-saint-michel.html",
+        "R3C3-prix-de-jonquieres.html",
+        "R3C4-prix-de-saint-cernin.html",
+        "R3C5-prix-de-croulebarbe.html",
+        "R3C6-prix-de-pigalle.html",
+        "R3C7-prix-d-uzes.html",
+        "R3C8-prix-du-pre-saint-gervais.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-du-parc-des-princes.html",
+        "R4C2-prix-de-la-place-saint-michel.html",
+        "R4C3-prix-de-jonquieres.html",
+        "R4C4-prix-de-saint-cernin.html",
+        "R4C5-prix-de-croulebarbe.html",
+        "R4C6-prix-de-pigalle.html",
+        "R4C7-prix-d-uzes.html",
+        "R4C8-prix-du-pre-saint-gervais.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-du-parc-des-princes.html",
+        "R6C2-prix-de-la-place-saint-michel.html",
+        "R6C3-prix-de-jonquieres.html",
+        "R6C4-prix-de-saint-cernin.html",
+        "R6C5-prix-de-croulebarbe.html",
+        "R6C6-prix-de-pigalle.html",
+        "R6C7-prix-d-uzes.html",
+        "R6C8-prix-du-pre-saint-gervais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:20.577161Z"
+}

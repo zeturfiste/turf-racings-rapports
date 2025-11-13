@@ -1,0 +1,88 @@
+{
+  "date": "2023-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-22",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-22/2023-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-22/R1-mauquenchy/R1C2-prix-danone-one-planet-one-health.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R1-mauquenchy/R1C3-grand-prix-des-amateurs-v-and-b.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R1-mauquenchy/R1C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R1-mauquenchy/R1C7-prix-andre-perdrix.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R3-angers/R3C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R3-angers/R3C7-prix-andre-perdrix.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C1-grand-national-du-trot-jacques-brion.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C3-grand-prix-des-amateurs-v-and-b.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C7-prix-andre-perdrix.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R4-lyon-la-soie/R4C8-prix-jaguar.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C1-grand-national-du-trot-jacques-brion.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C2-prix-danone-one-planet-one-health.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C7-prix-andre-perdrix.html",
+      "resultats-et-rapports/2023/11/2023-11-22/R7-marseille-borely/R7C8-prix-jaguar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R3-angers",
+      "R4-lyon-la-soie",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-grand-national-du-trot-jacques-brion.html",
+        "R1C2-prix-danone-one-planet-one-health.html",
+        "R1C3-grand-prix-des-amateurs-v-and-b.html",
+        "R1C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+        "R1C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+        "R1C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+        "R1C7-prix-andre-perdrix.html",
+        "R1C8-prix-jaguar.html"
+      ],
+      "R3-angers": [
+        "R3C1-grand-national-du-trot-jacques-brion.html",
+        "R3C2-prix-danone-one-planet-one-health.html",
+        "R3C3-grand-prix-des-amateurs-v-and-b.html",
+        "R3C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+        "R3C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+        "R3C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+        "R3C7-prix-andre-perdrix.html",
+        "R3C8-prix-jaguar.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-grand-national-du-trot-jacques-brion.html",
+        "R4C2-prix-danone-one-planet-one-health.html",
+        "R4C3-grand-prix-des-amateurs-v-and-b.html",
+        "R4C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+        "R4C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+        "R4C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+        "R4C7-prix-andre-perdrix.html",
+        "R4C8-prix-jaguar.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-national-du-trot-jacques-brion.html",
+        "R7C2-prix-danone-one-planet-one-health.html",
+        "R7C3-grand-prix-des-amateurs-v-and-b.html",
+        "R7C4-prix-du-conseil-departemental-de-seine-maritime-jean-maizeret.html",
+        "R7C5-prix-de-la-region-normandie-prix-maurice-de-folleville.html",
+        "R7C6-prix-pmu-civette-du-vieux-marche-rouen.html",
+        "R7C7-prix-andre-perdrix.html",
+        "R7C8-prix-jaguar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:43.906603Z"
+}

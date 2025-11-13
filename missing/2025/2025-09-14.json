@@ -1,0 +1,81 @@
+{
+  "date": "2025-09-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-14",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-14/2025-09-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-14/R4-strasbourg/R4C6-prix-de-bolivar.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R4-strasbourg/R4C8-prix-ernest-leroy.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R5-reims/R5C1-prix-du-petit-couvert.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R5-reims/R5C3-super-handicap-de-la-rentree.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R5-reims/R5C4-prix-du-pin.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R10-chateaubriant/R10C5-prix-de-l-hotel-du-chevalier-du-guet.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R10-chateaubriant/R10C8-prix-ernest-leroy.html",
+      "resultats-et-rapports/2025/09/2025-09-14/R10-chateaubriant/R10C9-prix-de-miromesnil.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R4-strasbourg",
+      "R5-reims",
+      "R10-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-petit-couvert.html",
+        "R1C2-prix-du-prince-d-orange.html",
+        "R1C3-super-handicap-de-la-rentree.html",
+        "R1C4-prix-du-pin.html",
+        "R1C5-prix-de-l-hotel-du-chevalier-du-guet.html",
+        "R1C6-prix-de-bolivar.html",
+        "R1C7-prix-du-parc-aux-daims.html",
+        "R1C8-prix-ernest-leroy.html",
+        "R1C9-prix-de-miromesnil.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-du-petit-couvert.html",
+        "R4C2-prix-du-prince-d-orange.html",
+        "R4C3-super-handicap-de-la-rentree.html",
+        "R4C4-prix-du-pin.html",
+        "R4C5-prix-de-l-hotel-du-chevalier-du-guet.html",
+        "R4C6-prix-de-bolivar.html",
+        "R4C7-prix-du-parc-aux-daims.html",
+        "R4C8-prix-ernest-leroy.html",
+        "R4C9-prix-de-miromesnil.html"
+      ],
+      "R5-reims": [
+        "R5C1-prix-du-petit-couvert.html",
+        "R5C2-prix-du-prince-d-orange.html",
+        "R5C3-super-handicap-de-la-rentree.html",
+        "R5C4-prix-du-pin.html",
+        "R5C5-prix-de-l-hotel-du-chevalier-du-guet.html",
+        "R5C6-prix-de-bolivar.html",
+        "R5C7-prix-du-parc-aux-daims.html",
+        "R5C8-prix-ernest-leroy.html",
+        "R5C9-prix-de-miromesnil.html"
+      ],
+      "R10-chateaubriant": [
+        "R10C1-prix-du-petit-couvert.html",
+        "R10C2-prix-du-prince-d-orange.html",
+        "R10C3-super-handicap-de-la-rentree.html",
+        "R10C4-prix-du-pin.html",
+        "R10C5-prix-de-l-hotel-du-chevalier-du-guet.html",
+        "R10C6-prix-de-bolivar.html",
+        "R10C7-prix-du-parc-aux-daims.html",
+        "R10C8-prix-ernest-leroy.html",
+        "R10C9-prix-de-miromesnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:40.990916Z"
+}

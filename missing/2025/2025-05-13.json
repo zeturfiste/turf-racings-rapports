@@ -1,0 +1,61 @@
+{
+  "date": "2025-05-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-13",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-13/2025-05-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-13/R1-saint-cloud/R1C6-prix-des-narcisses.html",
+      "resultats-et-rapports/2025/05/2025-05-13/R1-saint-cloud/R1C7-prix-des-forsythias.html",
+      "resultats-et-rapports/2025/05/2025-05-13/R4-vincennes/R4C6-prix-des-narcisses.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-cholet",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-pistol-packer.html",
+        "R1C2-prix-de-vaureal.html",
+        "R1C3-prix-des-pyrenees.html",
+        "R1C4-prix-jumilhac.html",
+        "R1C5-prix-du-musee-des-avelines.html",
+        "R1C6-prix-des-narcisses.html",
+        "R1C7-prix-des-forsythias.html",
+        "R1C8-prix-comtesse-de-loir.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-pistol-packer.html",
+        "R3C2-prix-de-vaureal.html",
+        "R3C3-prix-des-pyrenees.html",
+        "R3C4-prix-jumilhac.html",
+        "R3C5-prix-du-musee-des-avelines.html",
+        "R3C6-prix-des-narcisses.html",
+        "R3C7-prix-des-forsythias.html",
+        "R3C8-prix-comtesse-de-loir.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-pistol-packer.html",
+        "R4C2-prix-de-vaureal.html",
+        "R4C3-prix-des-pyrenees.html",
+        "R4C4-prix-jumilhac.html",
+        "R4C5-prix-du-musee-des-avelines.html",
+        "R4C6-prix-des-narcisses.html",
+        "R4C7-prix-des-forsythias.html",
+        "R4C8-prix-comtesse-de-loir.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:54.263039Z"
+}

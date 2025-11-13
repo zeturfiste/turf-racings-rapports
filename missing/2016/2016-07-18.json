@@ -1,0 +1,81 @@
+{
+  "date": "2016-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-18",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-18/2016-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C1-prix-de-chevrieres.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C4-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C5-prix-de-la-verse.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C7-prix-du-bois-du-lude.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R1-chantilly/R1C8-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C1-prix-de-chevrieres.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C4-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C5-prix-de-la-verse.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C6-prix-de-rivecourt.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C7-prix-du-bois-du-lude.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R2-clairefontaine/R2C8-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C1-prix-de-chevrieres.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C4-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C5-prix-de-la-verse.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C6-prix-de-rivecourt.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C7-prix-du-bois-du-lude.html",
+      "resultats-et-rapports/2016/07/2016-07-18/R3-pornichet-la-baule/R3C8-prix-des-cotes-d-orleans.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-clairefontaine",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-chevrieres.html",
+        "R1C2-prix-du-soleil-de-bretagne.html",
+        "R1C3-prix-de-gascourt.html",
+        "R1C4-prix-de-la-verrerie.html",
+        "R1C5-prix-de-la-verse.html",
+        "R1C6-prix-de-rivecourt.html",
+        "R1C7-prix-du-bois-du-lude.html",
+        "R1C8-prix-des-cotes-d-orleans.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-chevrieres.html",
+        "R2C2-prix-du-soleil-de-bretagne.html",
+        "R2C3-prix-de-gascourt.html",
+        "R2C4-prix-de-la-verrerie.html",
+        "R2C5-prix-de-la-verse.html",
+        "R2C6-prix-de-rivecourt.html",
+        "R2C7-prix-du-bois-du-lude.html",
+        "R2C8-prix-des-cotes-d-orleans.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-chevrieres.html",
+        "R3C2-prix-du-soleil-de-bretagne.html",
+        "R3C3-prix-de-gascourt.html",
+        "R3C4-prix-de-la-verrerie.html",
+        "R3C5-prix-de-la-verse.html",
+        "R3C6-prix-de-rivecourt.html",
+        "R3C7-prix-du-bois-du-lude.html",
+        "R3C8-prix-des-cotes-d-orleans.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:15.631225Z"
+}

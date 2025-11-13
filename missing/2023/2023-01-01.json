@@ -1,0 +1,44 @@
+{
+  "date": "2023-01-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/01/2023-01-01",
+    "date_html": "resultats-et-rapports/2023/01/2023-01-01/2023-01-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-pithiviers.html",
+        "R1C2-prix-20-minutes-prix-de-conde.html",
+        "R1C3-prix-wtw-hipcover-assurances-hippiques.html",
+        "R1C4-prix-d-amerique-races-zeturf-q5-prix-de-bourgogne.html",
+        "R1C5-prix-rmc-prix-du-croise-laroche.html",
+        "R1C6-prix-de-tournon.html",
+        "R1C7-prix-dominik-cordeau.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-pithiviers.html",
+        "R2C2-prix-20-minutes-prix-de-conde.html",
+        "R2C3-prix-wtw-hipcover-assurances-hippiques.html",
+        "R2C4-prix-d-amerique-races-zeturf-q5-prix-de-bourgogne.html",
+        "R2C5-prix-rmc-prix-du-croise-laroche.html",
+        "R2C6-prix-de-tournon.html",
+        "R2C7-prix-dominik-cordeau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:47.574520Z"
+}

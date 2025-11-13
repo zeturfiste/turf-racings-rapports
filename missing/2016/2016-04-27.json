@@ -1,0 +1,93 @@
+{
+  "date": "2016-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-27",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-27/2016-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-27/R1-bordeaux-le-bouscat/R1C6-prix-yves-bournazel-g-n-a.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R1-bordeaux-le-bouscat/R1C8-prix-de-l-hippodrome-de-toulouse.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C4-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C5-prix-de-sauternes.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C6-prix-yves-bournazel-g-n-a.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R3-auteuil/R3C8-prix-de-l-hippodrome-de-toulouse.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C1-grand-national-du-trot-2016.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C4-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C5-prix-de-sauternes.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C6-prix-yves-bournazel-g-n-a.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R4-caen/R4C8-prix-de-l-hippodrome-de-toulouse.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C1-grand-national-du-trot-2016.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C5-prix-de-sauternes.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C6-prix-yves-bournazel-g-n-a.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2016/04/2016-04-27/R7-marseille-borely/R7C8-prix-de-l-hippodrome-de-toulouse.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R3-auteuil",
+      "R4-caen",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-grand-national-du-trot-2016.html",
+        "R1C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+        "R1C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R1C4-prix-maurice-de-folleville.html",
+        "R1C5-prix-de-sauternes.html",
+        "R1C6-prix-yves-bournazel-g-n-a.html",
+        "R1C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+        "R1C8-prix-de-l-hippodrome-de-toulouse.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-grand-national-du-trot-2016.html",
+        "R3C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+        "R3C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R3C4-prix-maurice-de-folleville.html",
+        "R3C5-prix-de-sauternes.html",
+        "R3C6-prix-yves-bournazel-g-n-a.html",
+        "R3C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+        "R3C8-prix-de-l-hippodrome-de-toulouse.html"
+      ],
+      "R4-caen": [
+        "R4C1-grand-national-du-trot-2016.html",
+        "R4C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+        "R4C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R4C4-prix-maurice-de-folleville.html",
+        "R4C5-prix-de-sauternes.html",
+        "R4C6-prix-yves-bournazel-g-n-a.html",
+        "R4C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+        "R4C8-prix-de-l-hippodrome-de-toulouse.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-national-du-trot-2016.html",
+        "R7C2-prix-de-l-hippodrome-d-agen-le-passage.html",
+        "R7C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R7C4-prix-maurice-de-folleville.html",
+        "R7C5-prix-de-sauternes.html",
+        "R7C6-prix-yves-bournazel-g-n-a.html",
+        "R7C7-prix-de-l-hippodrome-de-beaumont-de-lomagne.html",
+        "R7C8-prix-de-l-hippodrome-de-toulouse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:49.126382Z"
+}

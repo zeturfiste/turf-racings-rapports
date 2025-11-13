@@ -1,0 +1,78 @@
+{
+  "date": "2021-04-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-19",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-19/2021-04-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-19/R1-saint-cloud/R1C1-prix-ivanjica.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R1-saint-cloud/R1C6-prix-de-frascati.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R4-le-lion-d-angers/R4C2-prix-de-buc.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R4-le-lion-d-angers/R4C5-prix-de-rolleboise.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R4-le-lion-d-angers/R4C7-prix-de-courtrai.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R7-cholet/R7C1-prix-ivanjica.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R7-cholet/R7C2-prix-de-buc.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R7-cholet/R7C3-prix-de-chatou.html",
+      "resultats-et-rapports/2021/04/2021-04-19/R7-cholet/R7C8-prix-madelia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-feurs",
+      "R4-le-lion-d-angers",
+      "R7-cholet"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-ivanjica.html",
+        "R1C2-prix-de-buc.html",
+        "R1C3-prix-de-chatou.html",
+        "R1C4-prix-balbo.html",
+        "R1C5-prix-de-rolleboise.html",
+        "R1C6-prix-de-frascati.html",
+        "R1C7-prix-de-courtrai.html",
+        "R1C8-prix-madelia.html"
+      ],
+      "R3-feurs": [
+        "R3C1-prix-ivanjica.html",
+        "R3C2-prix-de-buc.html",
+        "R3C3-prix-de-chatou.html",
+        "R3C4-prix-balbo.html",
+        "R3C5-prix-de-rolleboise.html",
+        "R3C6-prix-de-frascati.html",
+        "R3C7-prix-de-courtrai.html",
+        "R3C8-prix-madelia.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-ivanjica.html",
+        "R4C2-prix-de-buc.html",
+        "R4C3-prix-de-chatou.html",
+        "R4C4-prix-balbo.html",
+        "R4C5-prix-de-rolleboise.html",
+        "R4C6-prix-de-frascati.html",
+        "R4C7-prix-de-courtrai.html",
+        "R4C8-prix-madelia.html"
+      ],
+      "R7-cholet": [
+        "R7C1-prix-ivanjica.html",
+        "R7C2-prix-de-buc.html",
+        "R7C3-prix-de-chatou.html",
+        "R7C4-prix-balbo.html",
+        "R7C5-prix-de-rolleboise.html",
+        "R7C6-prix-de-frascati.html",
+        "R7C7-prix-de-courtrai.html",
+        "R7C8-prix-madelia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:04.253321Z"
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2007-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-02",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-02/2007-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-02/R1-dieppe/R1C6-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R1-dieppe/R1C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R1-dieppe/R1C8-prix-dream-well.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R2-lisieux/R2C2-prix-toshiba.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R2-lisieux/R2C3-prix-framo.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R2-lisieux/R2C6-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R2-lisieux/R2C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R3-vichy/R3C5-prix-sainte-marine.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R4-le-lion-d-angers/R4C2-prix-toshiba.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R4-le-lion-d-angers/R4C3-prix-framo.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R4-le-lion-d-angers/R4C6-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R4-le-lion-d-angers/R4C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R5-le-croise-laroche/R5C1-prix-dieppe-maritime.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R5-le-croise-laroche/R5C2-prix-toshiba.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R5-le-croise-laroche/R5C3-prix-framo.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R5-le-croise-laroche/R5C4-prix-daf-h-n-v-i.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C3-prix-framo.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C4-prix-daf-h-n-v-i.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C5-prix-sainte-marine.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C6-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+      "resultats-et-rapports/2007/07/2007-07-02/R31-zerace/R31C8-prix-dream-well.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-lisieux",
+      "R3-vichy",
+      "R4-le-lion-d-angers",
+      "R5-le-croise-laroche",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-dieppe-maritime.html",
+        "R1C2-prix-toshiba.html",
+        "R1C3-prix-framo.html",
+        "R1C4-prix-daf-h-n-v-i.html",
+        "R1C5-prix-sainte-marine.html",
+        "R1C6-prix-region-haute-normandie.html",
+        "R1C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R1C8-prix-dream-well.html"
+      ],
+      "R2-lisieux": [
+        "R2C1-prix-dieppe-maritime.html",
+        "R2C2-prix-toshiba.html",
+        "R2C3-prix-framo.html",
+        "R2C4-prix-daf-h-n-v-i.html",
+        "R2C5-prix-sainte-marine.html",
+        "R2C6-prix-region-haute-normandie.html",
+        "R2C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R2C8-prix-dream-well.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-dieppe-maritime.html",
+        "R3C2-prix-toshiba.html",
+        "R3C3-prix-framo.html",
+        "R3C4-prix-daf-h-n-v-i.html",
+        "R3C5-prix-sainte-marine.html",
+        "R3C6-prix-region-haute-normandie.html",
+        "R3C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R3C8-prix-dream-well.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-dieppe-maritime.html",
+        "R4C2-prix-toshiba.html",
+        "R4C3-prix-framo.html",
+        "R4C4-prix-daf-h-n-v-i.html",
+        "R4C5-prix-sainte-marine.html",
+        "R4C6-prix-region-haute-normandie.html",
+        "R4C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R4C8-prix-dream-well.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-dieppe-maritime.html",
+        "R5C2-prix-toshiba.html",
+        "R5C3-prix-framo.html",
+        "R5C4-prix-daf-h-n-v-i.html",
+        "R5C5-prix-sainte-marine.html",
+        "R5C6-prix-region-haute-normandie.html",
+        "R5C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R5C8-prix-dream-well.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-dieppe-maritime.html",
+        "R31C2-prix-toshiba.html",
+        "R31C3-prix-framo.html",
+        "R31C4-prix-daf-h-n-v-i.html",
+        "R31C5-prix-sainte-marine.html",
+        "R31C6-prix-region-haute-normandie.html",
+        "R31C7-prix-ikos-environnement-prix-de-la-patinoire.html",
+        "R31C8-prix-dream-well.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:04.330509Z"
+}

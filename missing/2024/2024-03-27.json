@@ -1,0 +1,62 @@
+{
+  "date": "2024-03-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-27",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-27/2024-03-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-27/R1-marseille-borely/R1C6-prix-des-caves-de-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2024/03/2024-03-27/R3-caen/R3C6-prix-des-caves-de-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2024/03/2024-03-27/R4-pornichet-la-baule/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/03/2024-03-27/R4-pornichet-la-baule/R4C7-prix-de-cagnes-sur-mer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R3-caen",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-les-spartiates-de-marseille.html",
+        "R1C3-prix-trophee-paristurf.html",
+        "R1C4-prix-bar-tabac-du-tunnel.html",
+        "R1C5-prix-du-chateau-d-if.html",
+        "R1C6-prix-des-caves-de-saint-marc-de-caromb.html",
+        "R1C7-prix-de-cagnes-sur-mer.html",
+        "R1C8-prix-du-docteur-yves-bachelier.html"
+      ],
+      "R3-caen": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-les-spartiates-de-marseille.html",
+        "R3C3-prix-trophee-paristurf.html",
+        "R3C4-prix-bar-tabac-du-tunnel.html",
+        "R3C5-prix-du-chateau-d-if.html",
+        "R3C6-prix-des-caves-de-saint-marc-de-caromb.html",
+        "R3C7-prix-de-cagnes-sur-mer.html",
+        "R3C8-prix-du-docteur-yves-bachelier.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-les-spartiates-de-marseille.html",
+        "R4C3-prix-trophee-paristurf.html",
+        "R4C4-prix-bar-tabac-du-tunnel.html",
+        "R4C5-prix-du-chateau-d-if.html",
+        "R4C6-prix-des-caves-de-saint-marc-de-caromb.html",
+        "R4C7-prix-de-cagnes-sur-mer.html",
+        "R4C8-prix-du-docteur-yves-bachelier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:25.209937Z"
+}

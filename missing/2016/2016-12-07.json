@@ -1,0 +1,91 @@
+{
+  "date": "2016-12-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-07",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-07/2016-12-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C1-prix-de-la-ville-de-royan.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C3-prix-de-bourigny.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C4-prix-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C5-prix-d-honfleur.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C6-prix-de-mirecourt.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C7-prix-d-ales.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R3-deauville/R3C8-prix-de-saint-malo.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C1-prix-de-la-ville-de-royan.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C2-prix-du-berry.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C3-prix-de-bourigny.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C4-prix-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C5-prix-d-honfleur.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C6-prix-de-mirecourt.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C7-prix-d-ales.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R4-lyon-la-soie/R4C8-prix-de-saint-malo.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C1-prix-de-la-ville-de-royan.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C3-prix-de-bourigny.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C4-prix-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C5-prix-d-honfleur.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C6-prix-de-mirecourt.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C7-prix-d-ales.html",
+      "resultats-et-rapports/2016/12/2016-12-07/R6-marseille-borely/R6C8-prix-de-saint-malo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-lyon-la-soie",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-ville-de-royan.html",
+        "R1C2-prix-du-berry.html",
+        "R1C3-prix-de-bourigny.html",
+        "R1C4-prix-de-saint-jean-de-monts.html",
+        "R1C5-prix-d-honfleur.html",
+        "R1C6-prix-de-mirecourt.html",
+        "R1C7-prix-d-ales.html",
+        "R1C8-prix-de-saint-malo.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-la-ville-de-royan.html",
+        "R3C2-prix-du-berry.html",
+        "R3C3-prix-de-bourigny.html",
+        "R3C4-prix-de-saint-jean-de-monts.html",
+        "R3C5-prix-d-honfleur.html",
+        "R3C6-prix-de-mirecourt.html",
+        "R3C7-prix-d-ales.html",
+        "R3C8-prix-de-saint-malo.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-la-ville-de-royan.html",
+        "R4C2-prix-du-berry.html",
+        "R4C3-prix-de-bourigny.html",
+        "R4C4-prix-de-saint-jean-de-monts.html",
+        "R4C5-prix-d-honfleur.html",
+        "R4C6-prix-de-mirecourt.html",
+        "R4C7-prix-d-ales.html",
+        "R4C8-prix-de-saint-malo.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-de-la-ville-de-royan.html",
+        "R6C2-prix-du-berry.html",
+        "R6C3-prix-de-bourigny.html",
+        "R6C4-prix-de-saint-jean-de-monts.html",
+        "R6C5-prix-d-honfleur.html",
+        "R6C6-prix-de-mirecourt.html",
+        "R6C7-prix-d-ales.html",
+        "R6C8-prix-de-saint-malo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:02.925390Z"
+}

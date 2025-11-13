@@ -1,0 +1,71 @@
+{
+  "date": "2014-02-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-28",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-28/2014-02-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C1-prix-des-trois-clairieres.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C2-prix-de-seugy.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C3-prix-du-carrefour-laversin.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C4-prix-du-castel.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C5-prix-de-lassy.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C6-prix-du-lude.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C7-prix-de-bruyere-sur-oise.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R1-chantilly/R1C8-prix-de-noisy-sur-oise.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R2-pontchateau/R2C1-prix-des-trois-clairieres.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R2-pontchateau/R2C2-prix-de-seugy.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R3-cagnes-sur-mer/R3C2-prix-de-seugy.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R3-cagnes-sur-mer/R3C4-prix-du-castel.html",
+      "resultats-et-rapports/2014/02/2014-02-28/R3-cagnes-sur-mer/R3C5-prix-de-lassy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-pontchateau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-trois-clairieres.html",
+        "R1C2-prix-de-seugy.html",
+        "R1C3-prix-du-carrefour-laversin.html",
+        "R1C4-prix-du-castel.html",
+        "R1C5-prix-de-lassy.html",
+        "R1C6-prix-du-lude.html",
+        "R1C7-prix-de-bruyere-sur-oise.html",
+        "R1C8-prix-de-noisy-sur-oise.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-des-trois-clairieres.html",
+        "R2C2-prix-de-seugy.html",
+        "R2C3-prix-du-carrefour-laversin.html",
+        "R2C4-prix-du-castel.html",
+        "R2C5-prix-de-lassy.html",
+        "R2C6-prix-du-lude.html",
+        "R2C7-prix-de-bruyere-sur-oise.html",
+        "R2C8-prix-de-noisy-sur-oise.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-des-trois-clairieres.html",
+        "R3C2-prix-de-seugy.html",
+        "R3C3-prix-du-carrefour-laversin.html",
+        "R3C4-prix-du-castel.html",
+        "R3C5-prix-de-lassy.html",
+        "R3C6-prix-du-lude.html",
+        "R3C7-prix-de-bruyere-sur-oise.html",
+        "R3C8-prix-de-noisy-sur-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:49.394397Z"
+}

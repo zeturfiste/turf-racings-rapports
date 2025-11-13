@@ -1,0 +1,77 @@
+{
+  "date": "2025-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-27",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-27/2025-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-27/R2-vincennes/R2C7-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R4-vittel/R4C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R4-vittel/R4C4-prix-des-ypreaux-prix-du-public-de-la-ville-de-deauville-2025.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R4-vittel/R4C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R5-les-sables-d-olonne/R5C1-prix-des-sycomores-prix-genybet.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R5-les-sables-d-olonne/R5C2-prix-astrolabe-prix-de-la-critique.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R5-les-sables-d-olonne/R5C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+      "resultats-et-rapports/2025/08/2025-08-27/R5-les-sables-d-olonne/R5C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R4-vittel",
+      "R5-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-des-sycomores-prix-genybet.html",
+        "R1C2-prix-astrolabe-prix-de-la-critique.html",
+        "R1C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+        "R1C4-prix-des-ypreaux-prix-du-public-de-la-ville-de-deauville-2025.html",
+        "R1C5-prix-des-troenes-prix-du-grand-jury-du-festival-du-cinema-americain-de-deauville.html",
+        "R1C6-prix-des-fusains-prix-d-ornano-valenti.html",
+        "R1C7-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R1C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-des-sycomores-prix-genybet.html",
+        "R2C2-prix-astrolabe-prix-de-la-critique.html",
+        "R2C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+        "R2C4-prix-des-ypreaux-prix-du-public-de-la-ville-de-deauville-2025.html",
+        "R2C5-prix-des-troenes-prix-du-grand-jury-du-festival-du-cinema-americain-de-deauville.html",
+        "R2C6-prix-des-fusains-prix-d-ornano-valenti.html",
+        "R2C7-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R2C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html"
+      ],
+      "R4-vittel": [
+        "R4C1-prix-des-sycomores-prix-genybet.html",
+        "R4C2-prix-astrolabe-prix-de-la-critique.html",
+        "R4C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+        "R4C4-prix-des-ypreaux-prix-du-public-de-la-ville-de-deauville-2025.html",
+        "R4C5-prix-des-troenes-prix-du-grand-jury-du-festival-du-cinema-americain-de-deauville.html",
+        "R4C6-prix-des-fusains-prix-d-ornano-valenti.html",
+        "R4C7-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R4C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-des-sycomores-prix-genybet.html",
+        "R5C2-prix-astrolabe-prix-de-la-critique.html",
+        "R5C3-prix-de-la-risle-prix-du-51e-festival-du-cinema-americain-de-deauville.html",
+        "R5C4-prix-des-ypreaux-prix-du-public-de-la-ville-de-deauville-2025.html",
+        "R5C5-prix-des-troenes-prix-du-grand-jury-du-festival-du-cinema-americain-de-deauville.html",
+        "R5C6-prix-des-fusains-prix-d-ornano-valenti.html",
+        "R5C7-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R5C8-prix-des-lavateres-prix-du-jury-de-la-revelation.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:33.975036Z"
+}

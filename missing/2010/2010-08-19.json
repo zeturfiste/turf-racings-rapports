@@ -1,0 +1,72 @@
+{
+  "date": "2010-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-19",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-19/2010-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-19/R1-clairefontaine/R1C1-prix-carling.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R2-enghien-soisy/R2C4-prix-pink-pearl.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R2-enghien-soisy/R2C5-prix-de-bienville.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R2-enghien-soisy/R2C6-prix-des-roselys.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R2-enghien-soisy/R2C7-prix-de-la-cressonniere.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C2-prix-d-auberville.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C3-prix-de-vauville.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C4-prix-pink-pearl.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C5-prix-de-bienville.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C6-prix-des-roselys.html",
+      "resultats-et-rapports/2010/08/2010-08-19/R3-le-lion-d-angers/R3C7-prix-de-la-cressonniere.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-enghien-soisy",
+      "R3-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-carling.html",
+        "R1C2-prix-d-auberville.html",
+        "R1C3-prix-de-vauville.html",
+        "R1C4-prix-pink-pearl.html",
+        "R1C5-prix-de-bienville.html",
+        "R1C6-prix-des-roselys.html",
+        "R1C7-prix-de-la-cressonniere.html",
+        "R1C8-prix-des-bignones.html",
+        "R1C9-prix-de-la-mare-aux-canards.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-carling.html",
+        "R2C2-prix-d-auberville.html",
+        "R2C3-prix-de-vauville.html",
+        "R2C4-prix-pink-pearl.html",
+        "R2C5-prix-de-bienville.html",
+        "R2C6-prix-des-roselys.html",
+        "R2C7-prix-de-la-cressonniere.html",
+        "R2C8-prix-des-bignones.html",
+        "R2C9-prix-de-la-mare-aux-canards.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-carling.html",
+        "R3C2-prix-d-auberville.html",
+        "R3C3-prix-de-vauville.html",
+        "R3C4-prix-pink-pearl.html",
+        "R3C5-prix-de-bienville.html",
+        "R3C6-prix-des-roselys.html",
+        "R3C7-prix-de-la-cressonniere.html",
+        "R3C8-prix-des-bignones.html",
+        "R3C9-prix-de-la-mare-aux-canards.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:38:49.291823Z"
+}

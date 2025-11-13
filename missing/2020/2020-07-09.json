@@ -1,0 +1,79 @@
+{
+  "date": "2020-07-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/07/2020-07-09",
+    "date_html": "resultats-et-rapports/2020/07/2020-07-09/2020-07-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/07/2020-07-09/R1-paris-longchamp/R1C7-prix-des-mathurins.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R1-paris-longchamp/R1C8-prix-de-l-ile-seguin.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R2-saint-malo/R2C2-prix-de-la-huchette.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R2-saint-malo/R2C5-prix-de-saint-lambert.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R2-saint-malo/R2C7-prix-des-mathurins.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R3-chateaubriant/R3C6-prix-du-vieux-colombier.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R3-chateaubriant/R3C8-prix-de-l-ile-seguin.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R4-aix-les-bains/R4C2-prix-de-la-huchette.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R4-aix-les-bains/R4C4-prix-de-l-ile-de-la-jatte.html",
+      "resultats-et-rapports/2020/07/2020-07-09/R4-aix-les-bains/R4C6-prix-du-vieux-colombier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-saint-malo",
+      "R3-chateaubriant",
+      "R4-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-d-issy-les-moulineaux.html",
+        "R1C2-prix-de-la-huchette.html",
+        "R1C3-prix-de-l-axe-majeur.html",
+        "R1C4-prix-de-l-ile-de-la-jatte.html",
+        "R1C5-prix-de-saint-lambert.html",
+        "R1C6-prix-du-vieux-colombier.html",
+        "R1C7-prix-des-mathurins.html",
+        "R1C8-prix-de-l-ile-seguin.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-d-issy-les-moulineaux.html",
+        "R2C2-prix-de-la-huchette.html",
+        "R2C3-prix-de-l-axe-majeur.html",
+        "R2C4-prix-de-l-ile-de-la-jatte.html",
+        "R2C5-prix-de-saint-lambert.html",
+        "R2C6-prix-du-vieux-colombier.html",
+        "R2C7-prix-des-mathurins.html",
+        "R2C8-prix-de-l-ile-seguin.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-d-issy-les-moulineaux.html",
+        "R3C2-prix-de-la-huchette.html",
+        "R3C3-prix-de-l-axe-majeur.html",
+        "R3C4-prix-de-l-ile-de-la-jatte.html",
+        "R3C5-prix-de-saint-lambert.html",
+        "R3C6-prix-du-vieux-colombier.html",
+        "R3C7-prix-des-mathurins.html",
+        "R3C8-prix-de-l-ile-seguin.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-d-issy-les-moulineaux.html",
+        "R4C2-prix-de-la-huchette.html",
+        "R4C3-prix-de-l-axe-majeur.html",
+        "R4C4-prix-de-l-ile-de-la-jatte.html",
+        "R4C5-prix-de-saint-lambert.html",
+        "R4C6-prix-du-vieux-colombier.html",
+        "R4C7-prix-des-mathurins.html",
+        "R4C8-prix-de-l-ile-seguin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:27.856716Z"
+}

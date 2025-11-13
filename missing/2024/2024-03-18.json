@@ -1,0 +1,82 @@
+{
+  "date": "2024-03-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-18",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-18/2024-03-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C1-prix-des-quatre-glacieres.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C2-prix-tandem.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C4-prix-talweg.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C6-prix-de-la-glaciere-d-avilly.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C7-prix-des-frayoirs.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R1-chantilly/R1C8-prix-de-la-petite-glaciere-de-sylvie.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C1-prix-des-quatre-glacieres.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C2-prix-tandem.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C4-prix-talweg.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C6-prix-de-la-glaciere-d-avilly.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C7-prix-des-frayoirs.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R3-caen/R3C8-prix-de-la-petite-glaciere-de-sylvie.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C1-prix-des-quatre-glacieres.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C2-prix-tandem.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C4-prix-talweg.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C6-prix-de-la-glaciere-d-avilly.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C7-prix-des-frayoirs.html",
+      "resultats-et-rapports/2024/03/2024-03-18/R4-mauquenchy/R4C8-prix-de-la-petite-glaciere-de-sylvie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-caen",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-quatre-glacieres.html",
+        "R1C2-prix-tandem.html",
+        "R1C3-prix-du-canal-de-la-machine.html",
+        "R1C4-prix-talweg.html",
+        "R1C5-prix-ronde-de-nuit.html",
+        "R1C6-prix-de-la-glaciere-d-avilly.html",
+        "R1C7-prix-des-frayoirs.html",
+        "R1C8-prix-de-la-petite-glaciere-de-sylvie.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-des-quatre-glacieres.html",
+        "R3C2-prix-tandem.html",
+        "R3C3-prix-du-canal-de-la-machine.html",
+        "R3C4-prix-talweg.html",
+        "R3C5-prix-ronde-de-nuit.html",
+        "R3C6-prix-de-la-glaciere-d-avilly.html",
+        "R3C7-prix-des-frayoirs.html",
+        "R3C8-prix-de-la-petite-glaciere-de-sylvie.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-des-quatre-glacieres.html",
+        "R4C2-prix-tandem.html",
+        "R4C3-prix-du-canal-de-la-machine.html",
+        "R4C4-prix-talweg.html",
+        "R4C5-prix-ronde-de-nuit.html",
+        "R4C6-prix-de-la-glaciere-d-avilly.html",
+        "R4C7-prix-des-frayoirs.html",
+        "R4C8-prix-de-la-petite-glaciere-de-sylvie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:22.231706Z"
+}

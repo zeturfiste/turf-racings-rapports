@@ -1,0 +1,99 @@
+{
+  "date": "2016-05-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-17",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-17/2016-05-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C1-prix-jean-thomas.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C2-prix-a-s-s-e.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C6-prix-christian-pallandre-traiteur.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C7-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R1-saint-galmier/R1C8-prix-france-bleu-saint-etienne-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C1-prix-jean-thomas.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C2-prix-a-s-s-e.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C3-grand-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C4-prix-de-la-chorale-de-roanne.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C6-prix-christian-pallandre-traiteur.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C7-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R2-compiegne/R2C8-prix-france-bleu-saint-etienne-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C1-prix-jean-thomas.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C2-prix-a-s-s-e.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C3-grand-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C4-prix-de-la-chorale-de-roanne.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C6-prix-christian-pallandre-traiteur.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C7-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R3-cagnes-sur-mer/R3C8-prix-france-bleu-saint-etienne-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C1-prix-jean-thomas.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C2-prix-a-s-s-e.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C3-grand-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C4-prix-de-la-chorale-de-roanne.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C6-prix-christian-pallandre-traiteur.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C7-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2016/05/2016-05-17/R5-vincennes/R5C8-prix-france-bleu-saint-etienne-loire.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R2-compiegne",
+      "R3-cagnes-sur-mer",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-prix-jean-thomas.html",
+        "R1C2-prix-a-s-s-e.html",
+        "R1C3-grand-prix-de-la-ville-de-saint-galmier.html",
+        "R1C4-prix-de-la-chorale-de-roanne.html",
+        "R1C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+        "R1C6-prix-christian-pallandre-traiteur.html",
+        "R1C7-prix-du-conseil-departemental-de-la-loire.html",
+        "R1C8-prix-france-bleu-saint-etienne-loire.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-jean-thomas.html",
+        "R2C2-prix-a-s-s-e.html",
+        "R2C3-grand-prix-de-la-ville-de-saint-galmier.html",
+        "R2C4-prix-de-la-chorale-de-roanne.html",
+        "R2C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+        "R2C6-prix-christian-pallandre-traiteur.html",
+        "R2C7-prix-du-conseil-departemental-de-la-loire.html",
+        "R2C8-prix-france-bleu-saint-etienne-loire.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-jean-thomas.html",
+        "R3C2-prix-a-s-s-e.html",
+        "R3C3-grand-prix-de-la-ville-de-saint-galmier.html",
+        "R3C4-prix-de-la-chorale-de-roanne.html",
+        "R3C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+        "R3C6-prix-christian-pallandre-traiteur.html",
+        "R3C7-prix-du-conseil-departemental-de-la-loire.html",
+        "R3C8-prix-france-bleu-saint-etienne-loire.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-jean-thomas.html",
+        "R5C2-prix-a-s-s-e.html",
+        "R5C3-grand-prix-de-la-ville-de-saint-galmier.html",
+        "R5C4-prix-de-la-chorale-de-roanne.html",
+        "R5C5-prix-de-la-communaute-de-communes-du-pays-de-saint-galmier.html",
+        "R5C6-prix-christian-pallandre-traiteur.html",
+        "R5C7-prix-du-conseil-departemental-de-la-loire.html",
+        "R5C8-prix-france-bleu-saint-etienne-loire.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:56.086668Z"
+}

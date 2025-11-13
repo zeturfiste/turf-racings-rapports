@@ -1,0 +1,142 @@
+{
+  "date": "2020-09-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-19",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-19/2020-09-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-19/R2-mont-de-marsan/R2C4-prix-tenebreuse.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R2-mont-de-marsan/R2C6-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R2-mont-de-marsan/R2C9-prix-de-la-gare-de-saint-cloud.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R4-vichy/R4C1-prix-fourire.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R4-vichy/R4C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R4-vichy/R4C4-prix-tenebreuse.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R4-vichy/R4C6-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R4-vichy/R4C9-prix-de-la-gare-de-saint-cloud.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C1-prix-fourire.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C6-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C7-prix-de-buzenval.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C8-prix-de-la-gare-du-val-d-or.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R6-craon/R6C9-prix-de-la-gare-de-saint-cloud.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C1-prix-fourire.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C4-prix-tenebreuse.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C6-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C7-prix-de-buzenval.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R7-amiens/R7C8-prix-de-la-gare-du-val-d-or.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C1-prix-fourire.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C4-prix-tenebreuse.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C6-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C7-prix-de-buzenval.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C8-prix-de-la-gare-du-val-d-or.html",
+      "resultats-et-rapports/2020/09/2020-09-19/R8-reims/R8C9-prix-de-la-gare-de-saint-cloud.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-mont-de-marsan",
+      "R3-chartres",
+      "R4-vichy",
+      "R6-craon",
+      "R7-amiens",
+      "R8-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-fourire.html",
+        "R1C2-prix-as-d-atout.html",
+        "R1C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R1C4-prix-tenebreuse.html",
+        "R1C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-des-falaises-de-craies.html",
+        "R1C7-prix-de-buzenval.html",
+        "R1C8-prix-de-la-gare-du-val-d-or.html",
+        "R1C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-fourire.html",
+        "R2C2-prix-as-d-atout.html",
+        "R2C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R2C4-prix-tenebreuse.html",
+        "R2C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R2C6-prix-des-falaises-de-craies.html",
+        "R2C7-prix-de-buzenval.html",
+        "R2C8-prix-de-la-gare-du-val-d-or.html",
+        "R2C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-fourire.html",
+        "R3C2-prix-as-d-atout.html",
+        "R3C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R3C4-prix-tenebreuse.html",
+        "R3C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-des-falaises-de-craies.html",
+        "R3C7-prix-de-buzenval.html",
+        "R3C8-prix-de-la-gare-du-val-d-or.html",
+        "R3C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-fourire.html",
+        "R4C2-prix-as-d-atout.html",
+        "R4C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R4C4-prix-tenebreuse.html",
+        "R4C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-des-falaises-de-craies.html",
+        "R4C7-prix-de-buzenval.html",
+        "R4C8-prix-de-la-gare-du-val-d-or.html",
+        "R4C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R6-craon": [
+        "R6C1-prix-fourire.html",
+        "R6C2-prix-as-d-atout.html",
+        "R6C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R6C4-prix-tenebreuse.html",
+        "R6C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R6C6-prix-des-falaises-de-craies.html",
+        "R6C7-prix-de-buzenval.html",
+        "R6C8-prix-de-la-gare-du-val-d-or.html",
+        "R6C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-fourire.html",
+        "R7C2-prix-as-d-atout.html",
+        "R7C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R7C4-prix-tenebreuse.html",
+        "R7C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R7C6-prix-des-falaises-de-craies.html",
+        "R7C7-prix-de-buzenval.html",
+        "R7C8-prix-de-la-gare-du-val-d-or.html",
+        "R7C9-prix-de-la-gare-de-saint-cloud.html"
+      ],
+      "R8-reims": [
+        "R8C1-prix-fourire.html",
+        "R8C2-prix-as-d-atout.html",
+        "R8C3-prix-le-parisien-prix-des-boucles-de-la-seine.html",
+        "R8C4-prix-tenebreuse.html",
+        "R8C5-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R8C6-prix-des-falaises-de-craies.html",
+        "R8C7-prix-de-buzenval.html",
+        "R8C8-prix-de-la-gare-du-val-d-or.html",
+        "R8C9-prix-de-la-gare-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:54.183865Z"
+}

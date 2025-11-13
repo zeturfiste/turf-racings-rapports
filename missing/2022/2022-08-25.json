@@ -1,0 +1,80 @@
+{
+  "date": "2022-08-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-25",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-25/2022-08-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-25/R1-deauville/R1C3-prix-de-saint-laurent-sur-mer-prix-super-moscato-show-15h-18h.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R1-deauville/R1C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R3-chateaubriant/R3C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R3-chateaubriant/R3C5-prix-de-glanville-prix-les-grandes-gueules-du-sport-9h-12h-samedi-dimanche.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R3-chateaubriant/R3C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R3-chateaubriant/R3C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R3-chateaubriant/R3C8-prix-d-hudimesnil-prix-rothen-s-enflamme-18h-20h.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R5-pornichet-la-baule/R5C1-prix-du-quartier-saint-francois-prix-les-grandes-gueules-9h-12h.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R5-pornichet-la-baule/R5C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R5-pornichet-la-baule/R5C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+      "resultats-et-rapports/2022/08/2022-08-25/R5-pornichet-la-baule/R5C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-chateaubriant",
+      "R4-divonne-les-bains",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-quartier-saint-francois-prix-les-grandes-gueules-9h-12h.html",
+        "R1C2-prix-de-la-maison-de-l-armateur-prix-estelle-midi-12h-15h.html",
+        "R1C3-prix-de-saint-laurent-sur-mer-prix-super-moscato-show-15h-18h.html",
+        "R1C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+        "R1C5-prix-de-glanville-prix-les-grandes-gueules-du-sport-9h-12h-samedi-dimanche.html",
+        "R1C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+        "R1C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html",
+        "R1C8-prix-d-hudimesnil-prix-rothen-s-enflamme-18h-20h.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-du-quartier-saint-francois-prix-les-grandes-gueules-9h-12h.html",
+        "R3C2-prix-de-la-maison-de-l-armateur-prix-estelle-midi-12h-15h.html",
+        "R3C3-prix-de-saint-laurent-sur-mer-prix-super-moscato-show-15h-18h.html",
+        "R3C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+        "R3C5-prix-de-glanville-prix-les-grandes-gueules-du-sport-9h-12h-samedi-dimanche.html",
+        "R3C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+        "R3C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html",
+        "R3C8-prix-d-hudimesnil-prix-rothen-s-enflamme-18h-20h.html"
+      ],
+      "R4-divonne-les-bains": [
+        "R4C1-prix-du-quartier-saint-francois-prix-les-grandes-gueules-9h-12h.html",
+        "R4C2-prix-de-la-maison-de-l-armateur-prix-estelle-midi-12h-15h.html",
+        "R4C3-prix-de-saint-laurent-sur-mer-prix-super-moscato-show-15h-18h.html",
+        "R4C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+        "R4C5-prix-de-glanville-prix-les-grandes-gueules-du-sport-9h-12h-samedi-dimanche.html",
+        "R4C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+        "R4C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html",
+        "R4C8-prix-d-hudimesnil-prix-rothen-s-enflamme-18h-20h.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-du-quartier-saint-francois-prix-les-grandes-gueules-9h-12h.html",
+        "R5C2-prix-de-la-maison-de-l-armateur-prix-estelle-midi-12h-15h.html",
+        "R5C3-prix-de-saint-laurent-sur-mer-prix-super-moscato-show-15h-18h.html",
+        "R5C4-prix-du-thenney-prix-after-foot-20h-minuit.html",
+        "R5C5-prix-de-glanville-prix-les-grandes-gueules-du-sport-9h-12h-samedi-dimanche.html",
+        "R5C6-prix-de-brevedent-prix-les-paris-rmc-12h-13h-samedi-dimanche.html",
+        "R5C7-handicap-de-la-manche-prix-apolline-matin-6h-9h.html",
+        "R5C8-prix-d-hudimesnil-prix-rothen-s-enflamme-18h-20h.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:01.222507Z"
+}

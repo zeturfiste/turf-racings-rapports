@@ -1,0 +1,81 @@
+{
+  "date": "2022-07-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-16",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-16/2022-07-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-16/R2-mont-de-marsan/R2C6-prix-de-romainville.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R4-saint-cloud/R4C3-prix-de-la-porte-de-sevres.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R4-saint-cloud/R4C7-prix-de-villiers.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R7-amiens/R7C3-prix-de-la-porte-de-sevres.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R7-amiens/R7C4-prix-d-uzerche.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R7-amiens/R7C6-prix-de-romainville.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R7-amiens/R7C8-prix-d-escurolles.html",
+      "resultats-et-rapports/2022/07/2022-07-16/R7-amiens/R7C9-prix-de-pont-saint-martin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-mont-de-marsan",
+      "R4-saint-cloud",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-sorbonne.html",
+        "R1C2-prix-du-jardin-des-plantes.html",
+        "R1C3-prix-de-la-porte-de-sevres.html",
+        "R1C4-prix-d-uzerche.html",
+        "R1C5-prix-du-palais-de-chaillot.html",
+        "R1C6-prix-de-romainville.html",
+        "R1C7-prix-de-villiers.html",
+        "R1C8-prix-d-escurolles.html",
+        "R1C9-prix-de-pont-saint-martin.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-de-la-sorbonne.html",
+        "R2C2-prix-du-jardin-des-plantes.html",
+        "R2C3-prix-de-la-porte-de-sevres.html",
+        "R2C4-prix-d-uzerche.html",
+        "R2C5-prix-du-palais-de-chaillot.html",
+        "R2C6-prix-de-romainville.html",
+        "R2C7-prix-de-villiers.html",
+        "R2C8-prix-d-escurolles.html",
+        "R2C9-prix-de-pont-saint-martin.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-de-la-sorbonne.html",
+        "R4C2-prix-du-jardin-des-plantes.html",
+        "R4C3-prix-de-la-porte-de-sevres.html",
+        "R4C4-prix-d-uzerche.html",
+        "R4C5-prix-du-palais-de-chaillot.html",
+        "R4C6-prix-de-romainville.html",
+        "R4C7-prix-de-villiers.html",
+        "R4C8-prix-d-escurolles.html",
+        "R4C9-prix-de-pont-saint-martin.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-de-la-sorbonne.html",
+        "R7C2-prix-du-jardin-des-plantes.html",
+        "R7C3-prix-de-la-porte-de-sevres.html",
+        "R7C4-prix-d-uzerche.html",
+        "R7C5-prix-du-palais-de-chaillot.html",
+        "R7C6-prix-de-romainville.html",
+        "R7C7-prix-de-villiers.html",
+        "R7C8-prix-d-escurolles.html",
+        "R7C9-prix-de-pont-saint-martin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:45.456482Z"
+}

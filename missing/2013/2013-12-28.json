@@ -1,0 +1,57 @@
+{
+  "date": "2013-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-28",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-28/2013-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C2-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C3-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C4-prix-de-bar-le-duc.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C6-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C7-prix-d-ispagnac.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R1-vincennes/R1C9-prix-du-touquet.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R2-pau/R2C5-prix-de-pierrefonds.html",
+      "resultats-et-rapports/2013/12/2013-12-28/R2-pau/R2C6-prix-de-sainte-marie-du-mont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-gambais.html",
+        "R1C2-prix-d-aix-les-bains.html",
+        "R1C3-prix-yvonnick-bodin.html",
+        "R1C4-prix-de-bar-le-duc.html",
+        "R1C5-prix-de-pierrefonds.html",
+        "R1C6-prix-de-sainte-marie-du-mont.html",
+        "R1C7-prix-d-ispagnac.html",
+        "R1C8-prix-d-eragny.html",
+        "R1C9-prix-du-touquet.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-gambais.html",
+        "R2C2-prix-d-aix-les-bains.html",
+        "R2C3-prix-yvonnick-bodin.html",
+        "R2C4-prix-de-bar-le-duc.html",
+        "R2C5-prix-de-pierrefonds.html",
+        "R2C6-prix-de-sainte-marie-du-mont.html",
+        "R2C7-prix-d-ispagnac.html",
+        "R2C8-prix-d-eragny.html",
+        "R2C9-prix-du-touquet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:35.107379Z"
+}

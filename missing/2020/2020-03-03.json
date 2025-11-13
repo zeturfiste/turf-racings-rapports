@@ -1,0 +1,65 @@
+{
+  "date": "2020-03-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-03",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-03/2020-03-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-03/R3-pornichet-la-baule/R3C3-prix-darshaan.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R3-pornichet-la-baule/R3C7-prix-montjeu.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R3-pornichet-la-baule/R3C8-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R4-cagnes-sur-mer/R4C2-prix-de-la-traversiere.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R4-cagnes-sur-mer/R4C3-prix-darshaan.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R4-cagnes-sur-mer/R4C4-prix-de-la-serpentine.html",
+      "resultats-et-rapports/2020/03/2020-03-03/R4-cagnes-sur-mer/R4C6-prix-de-l-etang-chapon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-pornichet-la-baule",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-pays-de-france.html",
+        "R1C2-prix-de-la-traversiere.html",
+        "R1C3-prix-darshaan.html",
+        "R1C4-prix-de-la-serpentine.html",
+        "R1C5-prix-anabaa.html",
+        "R1C6-prix-de-l-etang-chapon.html",
+        "R1C7-prix-montjeu.html",
+        "R1C8-prix-du-pays-valoisien.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-pays-de-france.html",
+        "R3C2-prix-de-la-traversiere.html",
+        "R3C3-prix-darshaan.html",
+        "R3C4-prix-de-la-serpentine.html",
+        "R3C5-prix-anabaa.html",
+        "R3C6-prix-de-l-etang-chapon.html",
+        "R3C7-prix-montjeu.html",
+        "R3C8-prix-du-pays-valoisien.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-pays-de-france.html",
+        "R4C2-prix-de-la-traversiere.html",
+        "R4C3-prix-darshaan.html",
+        "R4C4-prix-de-la-serpentine.html",
+        "R4C5-prix-anabaa.html",
+        "R4C6-prix-de-l-etang-chapon.html",
+        "R4C7-prix-montjeu.html",
+        "R4C8-prix-du-pays-valoisien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:58.508099Z"
+}

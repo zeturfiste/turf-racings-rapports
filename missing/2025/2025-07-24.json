@@ -1,0 +1,78 @@
+{
+  "date": "2025-07-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-24",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-24/2025-07-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-24/R4-mauquenchy/R4C5-prix-pelleas.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R4-mauquenchy/R4C7-prix-eulalie.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R4-mauquenchy/R4C8-prix-de-la-vallee-de-l-oise.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C2-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C3-prix-de-la-vallee-de-l-automne.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C5-prix-pelleas.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C6-prix-de-vieux-moulin.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C7-prix-eulalie.html",
+      "resultats-et-rapports/2025/07/2025-07-24/R5-pornichet-la-baule/R5C8-prix-de-la-vallee-de-l-oise.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-saint-malo",
+      "R4-mauquenchy",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-lonval.html",
+        "R1C2-prix-de-villers-cotterets.html",
+        "R1C3-prix-de-la-vallee-de-l-automne.html",
+        "R1C4-prix-de-la-breviere.html",
+        "R1C5-prix-pelleas.html",
+        "R1C6-prix-de-vieux-moulin.html",
+        "R1C7-prix-eulalie.html",
+        "R1C8-prix-de-la-vallee-de-l-oise.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-du-lonval.html",
+        "R2C2-prix-de-villers-cotterets.html",
+        "R2C3-prix-de-la-vallee-de-l-automne.html",
+        "R2C4-prix-de-la-breviere.html",
+        "R2C5-prix-pelleas.html",
+        "R2C6-prix-de-vieux-moulin.html",
+        "R2C7-prix-eulalie.html",
+        "R2C8-prix-de-la-vallee-de-l-oise.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-du-lonval.html",
+        "R4C2-prix-de-villers-cotterets.html",
+        "R4C3-prix-de-la-vallee-de-l-automne.html",
+        "R4C4-prix-de-la-breviere.html",
+        "R4C5-prix-pelleas.html",
+        "R4C6-prix-de-vieux-moulin.html",
+        "R4C7-prix-eulalie.html",
+        "R4C8-prix-de-la-vallee-de-l-oise.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-du-lonval.html",
+        "R5C2-prix-de-villers-cotterets.html",
+        "R5C3-prix-de-la-vallee-de-l-automne.html",
+        "R5C4-prix-de-la-breviere.html",
+        "R5C5-prix-pelleas.html",
+        "R5C6-prix-de-vieux-moulin.html",
+        "R5C7-prix-eulalie.html",
+        "R5C8-prix-de-la-vallee-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:20.943103Z"
+}

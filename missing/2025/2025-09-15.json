@@ -1,0 +1,105 @@
+{
+  "date": "2025-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-15",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-15/2025-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C3-prix-de-toulouse.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C4-grand-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C5-prix-du-passage-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R1-agen/R1C6-prix-du-conseil-departemental-47.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C3-prix-de-toulouse.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C4-grand-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C5-prix-du-passage-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C6-prix-du-conseil-departemental-47.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R2-marseille-borely/R2C7-prix-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R3-chantilly/R3C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R3-chantilly/R3C4-grand-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R3-chantilly/R3C5-prix-du-passage-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R3-chantilly/R3C7-prix-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C3-prix-de-toulouse.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C4-grand-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C5-prix-du-passage-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C6-prix-du-conseil-departemental-47.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R4-laval/R4C7-prix-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C1-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C2-prix-de-bordeaux.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C3-prix-de-toulouse.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C4-grand-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C5-prix-du-passage-d-agen.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C6-prix-du-conseil-departemental-47.html",
+      "resultats-et-rapports/2025/09/2025-09-15/R6-le-croise-laroche/R6C7-prix-d-agen.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-agen",
+      "R2-marseille-borely",
+      "R3-chantilly",
+      "R4-laval",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-agen": [
+        "R1C1-prix-de-beaumont-de-lomagne.html",
+        "R1C2-prix-de-bordeaux.html",
+        "R1C3-prix-de-toulouse.html",
+        "R1C4-grand-prix-de-l-agglomeration-d-agen.html",
+        "R1C5-prix-du-passage-d-agen.html",
+        "R1C6-prix-du-conseil-departemental-47.html",
+        "R1C7-prix-d-agen.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-beaumont-de-lomagne.html",
+        "R2C2-prix-de-bordeaux.html",
+        "R2C3-prix-de-toulouse.html",
+        "R2C4-grand-prix-de-l-agglomeration-d-agen.html",
+        "R2C5-prix-du-passage-d-agen.html",
+        "R2C6-prix-du-conseil-departemental-47.html",
+        "R2C7-prix-d-agen.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-beaumont-de-lomagne.html",
+        "R3C2-prix-de-bordeaux.html",
+        "R3C3-prix-de-toulouse.html",
+        "R3C4-grand-prix-de-l-agglomeration-d-agen.html",
+        "R3C5-prix-du-passage-d-agen.html",
+        "R3C6-prix-du-conseil-departemental-47.html",
+        "R3C7-prix-d-agen.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-beaumont-de-lomagne.html",
+        "R4C2-prix-de-bordeaux.html",
+        "R4C3-prix-de-toulouse.html",
+        "R4C4-grand-prix-de-l-agglomeration-d-agen.html",
+        "R4C5-prix-du-passage-d-agen.html",
+        "R4C6-prix-du-conseil-departemental-47.html",
+        "R4C7-prix-d-agen.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-beaumont-de-lomagne.html",
+        "R6C2-prix-de-bordeaux.html",
+        "R6C3-prix-de-toulouse.html",
+        "R6C4-grand-prix-de-l-agglomeration-d-agen.html",
+        "R6C5-prix-du-passage-d-agen.html",
+        "R6C6-prix-du-conseil-departemental-47.html",
+        "R6C7-prix-d-agen.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:41.259785Z"
+}

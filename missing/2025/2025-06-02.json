@@ -1,0 +1,92 @@
+{
+  "date": "2025-06-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-02",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-02/2025-06-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-02/R3-la-teste-de-buch/R3C3-prix-de-meillard.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R3-la-teste-de-buch/R3C8-prix-de-fleuriel.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R4-nantes/R4C1-prix-d-apremont-sur-allier.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R4-nantes/R4C2-prix-de-bourbon-l-archambault.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R4-nantes/R4C7-prix-de-la-source-vichy-celestins.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R4-nantes/R4C8-prix-de-fleuriel.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C2-prix-de-bourbon-l-archambault.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C3-prix-de-meillard.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C4-prix-de-grosbois.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C5-prix-de-chemilly.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C6-prix-jean-tortel.html",
+      "resultats-et-rapports/2025/06/2025-06-02/R7-le-croise-laroche/R7C8-prix-de-fleuriel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-cholet",
+      "R3-la-teste-de-buch",
+      "R4-nantes",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-d-apremont-sur-allier.html",
+        "R1C2-prix-de-bourbon-l-archambault.html",
+        "R1C3-prix-de-meillard.html",
+        "R1C4-prix-de-grosbois.html",
+        "R1C5-prix-de-chemilly.html",
+        "R1C6-prix-jean-tortel.html",
+        "R1C7-prix-de-la-source-vichy-celestins.html",
+        "R1C8-prix-de-fleuriel.html"
+      ],
+      "R2-cholet": [
+        "R2C1-prix-d-apremont-sur-allier.html",
+        "R2C2-prix-de-bourbon-l-archambault.html",
+        "R2C3-prix-de-meillard.html",
+        "R2C4-prix-de-grosbois.html",
+        "R2C5-prix-de-chemilly.html",
+        "R2C6-prix-jean-tortel.html",
+        "R2C7-prix-de-la-source-vichy-celestins.html",
+        "R2C8-prix-de-fleuriel.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-d-apremont-sur-allier.html",
+        "R3C2-prix-de-bourbon-l-archambault.html",
+        "R3C3-prix-de-meillard.html",
+        "R3C4-prix-de-grosbois.html",
+        "R3C5-prix-de-chemilly.html",
+        "R3C6-prix-jean-tortel.html",
+        "R3C7-prix-de-la-source-vichy-celestins.html",
+        "R3C8-prix-de-fleuriel.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-d-apremont-sur-allier.html",
+        "R4C2-prix-de-bourbon-l-archambault.html",
+        "R4C3-prix-de-meillard.html",
+        "R4C4-prix-de-grosbois.html",
+        "R4C5-prix-de-chemilly.html",
+        "R4C6-prix-jean-tortel.html",
+        "R4C7-prix-de-la-source-vichy-celestins.html",
+        "R4C8-prix-de-fleuriel.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-d-apremont-sur-allier.html",
+        "R7C2-prix-de-bourbon-l-archambault.html",
+        "R7C3-prix-de-meillard.html",
+        "R7C4-prix-de-grosbois.html",
+        "R7C5-prix-de-chemilly.html",
+        "R7C6-prix-jean-tortel.html",
+        "R7C7-prix-de-la-source-vichy-celestins.html",
+        "R7C8-prix-de-fleuriel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:01.784256Z"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2017-09-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/09/2017-09-09",
+    "date_html": "resultats-et-rapports/2017/09/2017-09-09/2017-09-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C2-prix-suisse-trot-prix-de-berck-sur-mer.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C3-prix-svensk-travsport-prix-de-basly.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C4-prix-rmc-finale-european-trotting-masters.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C5-prix-joseph-aveline.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C6-prix-du-mont-saint-michel.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R1-vincennes/R1C8-prix-emile-wendling.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R3-bordeaux-le-bouscat/R3C3-prix-svensk-travsport-prix-de-basly.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R3-bordeaux-le-bouscat/R3C5-prix-joseph-aveline.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R3-bordeaux-le-bouscat/R3C7-prix-de-montier-en-der.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R3-bordeaux-le-bouscat/R3C8-prix-emile-wendling.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C2-prix-suisse-trot-prix-de-berck-sur-mer.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C3-prix-svensk-travsport-prix-de-basly.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C4-prix-rmc-finale-european-trotting-masters.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C5-prix-joseph-aveline.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C6-prix-du-mont-saint-michel.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C7-prix-de-montier-en-der.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C8-prix-emile-wendling.html",
+      "resultats-et-rapports/2017/09/2017-09-09/R5-vichy/R5C9-prix-de-nueil-sur-layon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-bordeaux-le-bouscat",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-federation-belge-des-courses-hippiques.html",
+        "R1C2-prix-suisse-trot-prix-de-berck-sur-mer.html",
+        "R1C3-prix-svensk-travsport-prix-de-basly.html",
+        "R1C4-prix-rmc-finale-european-trotting-masters.html",
+        "R1C5-prix-joseph-aveline.html",
+        "R1C6-prix-du-mont-saint-michel.html",
+        "R1C7-prix-de-montier-en-der.html",
+        "R1C8-prix-emile-wendling.html",
+        "R1C9-prix-de-nueil-sur-layon.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-la-federation-belge-des-courses-hippiques.html",
+        "R3C2-prix-suisse-trot-prix-de-berck-sur-mer.html",
+        "R3C3-prix-svensk-travsport-prix-de-basly.html",
+        "R3C4-prix-rmc-finale-european-trotting-masters.html",
+        "R3C5-prix-joseph-aveline.html",
+        "R3C6-prix-du-mont-saint-michel.html",
+        "R3C7-prix-de-montier-en-der.html",
+        "R3C8-prix-emile-wendling.html",
+        "R3C9-prix-de-nueil-sur-layon.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-de-la-federation-belge-des-courses-hippiques.html",
+        "R5C2-prix-suisse-trot-prix-de-berck-sur-mer.html",
+        "R5C3-prix-svensk-travsport-prix-de-basly.html",
+        "R5C4-prix-rmc-finale-european-trotting-masters.html",
+        "R5C5-prix-joseph-aveline.html",
+        "R5C6-prix-du-mont-saint-michel.html",
+        "R5C7-prix-de-montier-en-der.html",
+        "R5C8-prix-emile-wendling.html",
+        "R5C9-prix-de-nueil-sur-layon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:24.013752Z"
+}

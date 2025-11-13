@@ -1,0 +1,68 @@
+{
+  "date": "2016-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-15",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-15/2016-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-15/R1-chantilly/R1C1-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R1-chantilly/R1C2-prix-de-morrieres.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R1-chantilly/R1C3-prix-du-bat-l-eau.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R1-chantilly/R1C4-prix-jocker.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R1-chantilly/R1C5-prix-de-la-belle-croix.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R2-fontainebleau/R2C3-prix-du-bat-l-eau.html",
+      "resultats-et-rapports/2016/03/2016-03-15/R5-cagnes-sur-mer/R5C1-prix-de-la-queue-du-renard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-fontainebleau",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-queue-du-renard.html",
+        "R1C2-prix-de-morrieres.html",
+        "R1C3-prix-du-bat-l-eau.html",
+        "R1C4-prix-jocker.html",
+        "R1C5-prix-de-la-belle-croix.html",
+        "R1C6-prix-de-la-route-manon.html",
+        "R1C7-prix-du-grand-marais.html",
+        "R1C8-prix-janus.html",
+        "R1C9-prix-du-petit-etang.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-la-queue-du-renard.html",
+        "R2C2-prix-de-morrieres.html",
+        "R2C3-prix-du-bat-l-eau.html",
+        "R2C4-prix-jocker.html",
+        "R2C5-prix-de-la-belle-croix.html",
+        "R2C6-prix-de-la-route-manon.html",
+        "R2C7-prix-du-grand-marais.html",
+        "R2C8-prix-janus.html",
+        "R2C9-prix-du-petit-etang.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-la-queue-du-renard.html",
+        "R5C2-prix-de-morrieres.html",
+        "R5C3-prix-du-bat-l-eau.html",
+        "R5C4-prix-jocker.html",
+        "R5C5-prix-de-la-belle-croix.html",
+        "R5C6-prix-de-la-route-manon.html",
+        "R5C7-prix-du-grand-marais.html",
+        "R5C8-prix-janus.html",
+        "R5C9-prix-du-petit-etang.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:36.115490Z"
+}

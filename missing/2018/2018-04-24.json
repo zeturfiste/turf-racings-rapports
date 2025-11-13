@@ -1,0 +1,92 @@
+{
+  "date": "2018-04-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-24",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-24/2018-04-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-24/R1-paris-longchamp/R1C3-prix-de-solferino.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R1-paris-longchamp/R1C5-prix-de-chaillot.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R1-paris-longchamp/R1C7-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R1-paris-longchamp/R1C8-prix-du-colisee.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C1-prix-de-l-universite.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C2-prix-de-juigne.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C3-prix-de-solferino.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C4-prix-du-pantheon.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C5-prix-de-chaillot.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C6-prix-finlande.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R2-fontainebleau/R2C7-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C1-prix-de-l-universite.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C3-prix-de-solferino.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C4-prix-du-pantheon.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C5-prix-de-chaillot.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C6-prix-finlande.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R3-lyon-parilly/R3C8-prix-du-colisee.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C1-prix-de-l-universite.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C2-prix-de-juigne.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C4-prix-du-pantheon.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C5-prix-de-chaillot.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C6-prix-finlande.html",
+      "resultats-et-rapports/2018/04/2018-04-24/R5-vincennes/R5C8-prix-du-colisee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-fontainebleau",
+      "R3-lyon-parilly",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-universite.html",
+        "R1C2-prix-de-juigne.html",
+        "R1C3-prix-de-solferino.html",
+        "R1C4-prix-du-pantheon.html",
+        "R1C5-prix-de-chaillot.html",
+        "R1C6-prix-finlande.html",
+        "R1C7-prix-du-gros-caillou.html",
+        "R1C8-prix-du-colisee.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-l-universite.html",
+        "R2C2-prix-de-juigne.html",
+        "R2C3-prix-de-solferino.html",
+        "R2C4-prix-du-pantheon.html",
+        "R2C5-prix-de-chaillot.html",
+        "R2C6-prix-finlande.html",
+        "R2C7-prix-du-gros-caillou.html",
+        "R2C8-prix-du-colisee.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-l-universite.html",
+        "R3C2-prix-de-juigne.html",
+        "R3C3-prix-de-solferino.html",
+        "R3C4-prix-du-pantheon.html",
+        "R3C5-prix-de-chaillot.html",
+        "R3C6-prix-finlande.html",
+        "R3C7-prix-du-gros-caillou.html",
+        "R3C8-prix-du-colisee.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-l-universite.html",
+        "R5C2-prix-de-juigne.html",
+        "R5C3-prix-de-solferino.html",
+        "R5C4-prix-du-pantheon.html",
+        "R5C5-prix-de-chaillot.html",
+        "R5C6-prix-finlande.html",
+        "R5C7-prix-du-gros-caillou.html",
+        "R5C8-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:29.717410Z"
+}

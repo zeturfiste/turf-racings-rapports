@@ -1,0 +1,74 @@
+{
+  "date": "2023-10-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-02",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-02/2023-10-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-02/R3-marseille-borely/R3C8-prix-de-la-bourse.html",
+      "resultats-et-rapports/2023/10/2023-10-02/R5-le-croise-laroche/R5C4-prix-de-thomery.html",
+      "resultats-et-rapports/2023/10/2023-10-02/R5-le-croise-laroche/R5C5-prix-de-champillon.html",
+      "resultats-et-rapports/2023/10/2023-10-02/R5-le-croise-laroche/R5C6-prix-d-egletons.html",
+      "resultats-et-rapports/2023/10/2023-10-02/R5-le-croise-laroche/R5C8-prix-de-la-bourse.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-marseille-borely",
+      "R4-pornichet-la-baule",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-saint-chamond.html",
+        "R1C2-prix-de-la-bastille.html",
+        "R1C3-prix-du-pont-de-tolbiac.html",
+        "R1C4-prix-de-thomery.html",
+        "R1C5-prix-de-champillon.html",
+        "R1C6-prix-d-egletons.html",
+        "R1C7-prix-de-moissac.html",
+        "R1C8-prix-de-la-bourse.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-saint-chamond.html",
+        "R3C2-prix-de-la-bastille.html",
+        "R3C3-prix-du-pont-de-tolbiac.html",
+        "R3C4-prix-de-thomery.html",
+        "R3C5-prix-de-champillon.html",
+        "R3C6-prix-d-egletons.html",
+        "R3C7-prix-de-moissac.html",
+        "R3C8-prix-de-la-bourse.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-saint-chamond.html",
+        "R4C2-prix-de-la-bastille.html",
+        "R4C3-prix-du-pont-de-tolbiac.html",
+        "R4C4-prix-de-thomery.html",
+        "R4C5-prix-de-champillon.html",
+        "R4C6-prix-d-egletons.html",
+        "R4C7-prix-de-moissac.html",
+        "R4C8-prix-de-la-bourse.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-saint-chamond.html",
+        "R5C2-prix-de-la-bastille.html",
+        "R5C3-prix-du-pont-de-tolbiac.html",
+        "R5C4-prix-de-thomery.html",
+        "R5C5-prix-de-champillon.html",
+        "R5C6-prix-d-egletons.html",
+        "R5C7-prix-de-moissac.html",
+        "R5C8-prix-de-la-bourse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:25.174398Z"
+}

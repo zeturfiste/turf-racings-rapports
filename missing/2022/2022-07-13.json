@@ -1,0 +1,90 @@
+{
+  "date": "2022-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-13",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-13/2022-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-13/R1-enghien-soisy/R1C6-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R1-enghien-soisy/R1C7-prix-de-bertincourt.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R3-saint-malo/R3C3-prix-serge-chavatte.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R3-saint-malo/R3C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R3-saint-malo/R3C6-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R3-saint-malo/R3C8-prix-de-l-opera.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C2-prix-de-menilmontant.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C3-prix-serge-chavatte.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C4-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C6-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C7-prix-de-bertincourt.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R4-la-teste-de-buch/R4C8-prix-de-l-opera.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C1-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C2-prix-de-menilmontant.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C3-prix-serge-chavatte.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C4-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C5-prix-de-rochechouart.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C6-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C7-prix-de-bertincourt.html",
+      "resultats-et-rapports/2022/07/2022-07-13/R7-cagnes-sur-mer/R7C8-prix-de-l-opera.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-saint-malo",
+      "R4-la-teste-de-buch",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-gare-de-lyon.html",
+        "R1C2-prix-de-menilmontant.html",
+        "R1C3-prix-serge-chavatte.html",
+        "R1C4-prix-quiproquo-ii.html",
+        "R1C5-prix-de-rochechouart.html",
+        "R1C6-prix-de-la-place-du-mail.html",
+        "R1C7-prix-de-bertincourt.html",
+        "R1C8-prix-de-l-opera.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-de-la-gare-de-lyon.html",
+        "R3C2-prix-de-menilmontant.html",
+        "R3C3-prix-serge-chavatte.html",
+        "R3C4-prix-quiproquo-ii.html",
+        "R3C5-prix-de-rochechouart.html",
+        "R3C6-prix-de-la-place-du-mail.html",
+        "R3C7-prix-de-bertincourt.html",
+        "R3C8-prix-de-l-opera.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-de-la-gare-de-lyon.html",
+        "R4C2-prix-de-menilmontant.html",
+        "R4C3-prix-serge-chavatte.html",
+        "R4C4-prix-quiproquo-ii.html",
+        "R4C5-prix-de-rochechouart.html",
+        "R4C6-prix-de-la-place-du-mail.html",
+        "R4C7-prix-de-bertincourt.html",
+        "R4C8-prix-de-l-opera.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-de-la-gare-de-lyon.html",
+        "R7C2-prix-de-menilmontant.html",
+        "R7C3-prix-serge-chavatte.html",
+        "R7C4-prix-quiproquo-ii.html",
+        "R7C5-prix-de-rochechouart.html",
+        "R7C6-prix-de-la-place-du-mail.html",
+        "R7C7-prix-de-bertincourt.html",
+        "R7C8-prix-de-l-opera.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:44.213087Z"
+}

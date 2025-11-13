@@ -1,0 +1,98 @@
+{
+  "date": "2020-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-01",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-01/2020-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-01/R1-vincennes/R1C2-prix-paul-viel.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R1-vincennes/R1C3-prix-de-la-gironde.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R1-vincennes/R1C5-prix-d-avignon.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C2-prix-paul-viel.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C3-prix-de-la-gironde.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C4-prix-de-cagny.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C5-prix-d-avignon.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C8-prix-de-pouillac.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R2-machecoul/R2C9-prix-de-vitre.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C1-prix-roquepine.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C2-prix-paul-viel.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C3-prix-de-la-gironde.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C4-prix-de-cagny.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C5-prix-d-avignon.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C6-prix-des-charentes.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R3-cagnes-sur-mer/R3C9-prix-de-vitre.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C1-prix-roquepine.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C3-prix-de-la-gironde.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C4-prix-de-cagny.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C5-prix-d-avignon.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C6-prix-des-charentes.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C7-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C8-prix-de-pouillac.html",
+      "resultats-et-rapports/2020/02/2020-02-01/R4-mauquenchy/R4C9-prix-de-vitre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-machecoul",
+      "R3-cagnes-sur-mer",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-roquepine.html",
+        "R1C2-prix-paul-viel.html",
+        "R1C3-prix-de-la-gironde.html",
+        "R1C4-prix-de-cagny.html",
+        "R1C5-prix-d-avignon.html",
+        "R1C6-prix-des-charentes.html",
+        "R1C7-prix-de-la-genevraye.html",
+        "R1C8-prix-de-pouillac.html",
+        "R1C9-prix-de-vitre.html"
+      ],
+      "R2-machecoul": [
+        "R2C1-prix-roquepine.html",
+        "R2C2-prix-paul-viel.html",
+        "R2C3-prix-de-la-gironde.html",
+        "R2C4-prix-de-cagny.html",
+        "R2C5-prix-d-avignon.html",
+        "R2C6-prix-des-charentes.html",
+        "R2C7-prix-de-la-genevraye.html",
+        "R2C8-prix-de-pouillac.html",
+        "R2C9-prix-de-vitre.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-roquepine.html",
+        "R3C2-prix-paul-viel.html",
+        "R3C3-prix-de-la-gironde.html",
+        "R3C4-prix-de-cagny.html",
+        "R3C5-prix-d-avignon.html",
+        "R3C6-prix-des-charentes.html",
+        "R3C7-prix-de-la-genevraye.html",
+        "R3C8-prix-de-pouillac.html",
+        "R3C9-prix-de-vitre.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-roquepine.html",
+        "R4C2-prix-paul-viel.html",
+        "R4C3-prix-de-la-gironde.html",
+        "R4C4-prix-de-cagny.html",
+        "R4C5-prix-d-avignon.html",
+        "R4C6-prix-des-charentes.html",
+        "R4C7-prix-de-la-genevraye.html",
+        "R4C8-prix-de-pouillac.html",
+        "R4C9-prix-de-vitre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:49.945847Z"
+}

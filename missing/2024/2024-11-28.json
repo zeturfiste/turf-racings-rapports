@@ -1,0 +1,63 @@
+{
+  "date": "2024-11-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-28",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-28/2024-11-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-28/R3-salon-de-provence/R3C2-prix-de-massiac.html",
+      "resultats-et-rapports/2024/11/2024-11-28/R3-salon-de-provence/R3C5-prix-du-sap.html",
+      "resultats-et-rapports/2024/11/2024-11-28/R3-salon-de-provence/R3C6-prix-de-maintenon.html",
+      "resultats-et-rapports/2024/11/2024-11-28/R4-mauquenchy/R4C5-prix-du-sap.html",
+      "resultats-et-rapports/2024/11/2024-11-28/R4-mauquenchy/R4C7-prix-paul-buquet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-salon-de-provence",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bourigny.html",
+        "R1C2-prix-de-massiac.html",
+        "R1C3-prix-d-avranches.html",
+        "R1C4-prix-de-gensac.html",
+        "R1C5-prix-du-sap.html",
+        "R1C6-prix-de-maintenon.html",
+        "R1C7-prix-paul-buquet.html",
+        "R1C8-prix-de-la-ville-de-royan.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-bourigny.html",
+        "R3C2-prix-de-massiac.html",
+        "R3C3-prix-d-avranches.html",
+        "R3C4-prix-de-gensac.html",
+        "R3C5-prix-du-sap.html",
+        "R3C6-prix-de-maintenon.html",
+        "R3C7-prix-paul-buquet.html",
+        "R3C8-prix-de-la-ville-de-royan.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-bourigny.html",
+        "R4C2-prix-de-massiac.html",
+        "R4C3-prix-d-avranches.html",
+        "R4C4-prix-de-gensac.html",
+        "R4C5-prix-du-sap.html",
+        "R4C6-prix-de-maintenon.html",
+        "R4C7-prix-paul-buquet.html",
+        "R4C8-prix-de-la-ville-de-royan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:05:57.437474Z"
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2021-04-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-08",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-08/2021-04-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-08/R1-deauville/R1C2-prix-de-gruchy.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R1-deauville/R1C3-prix-djebel.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R1-deauville/R1C5-prix-imprudence.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R1-deauville/R1C6-prix-de-l-operation-neptune.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R1-deauville/R1C8-prix-de-la-perriere.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R3-lyon-parilly/R3C1-prix-de-l-operation-overlord.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R3-lyon-parilly/R3C2-prix-de-gruchy.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R3-lyon-parilly/R3C4-prix-de-saint-lo.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R3-lyon-parilly/R3C5-prix-imprudence.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R3-lyon-parilly/R3C6-prix-de-l-operation-neptune.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C1-prix-de-l-operation-overlord.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C2-prix-de-gruchy.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C3-prix-djebel.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C4-prix-de-saint-lo.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C5-prix-imprudence.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C6-prix-de-l-operation-neptune.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C7-prix-de-l-operation-fortitude.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R4-mauquenchy/R4C8-prix-de-la-perriere.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C1-prix-de-l-operation-overlord.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C2-prix-de-gruchy.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C3-prix-djebel.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C4-prix-de-saint-lo.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C5-prix-imprudence.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C6-prix-de-l-operation-neptune.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C7-prix-de-l-operation-fortitude.html",
+      "resultats-et-rapports/2021/04/2021-04-08/R10-toulouse/R10C8-prix-de-la-perriere.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-lyon-parilly",
+      "R4-mauquenchy",
+      "R10-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-l-operation-overlord.html",
+        "R1C2-prix-de-gruchy.html",
+        "R1C3-prix-djebel.html",
+        "R1C4-prix-de-saint-lo.html",
+        "R1C5-prix-imprudence.html",
+        "R1C6-prix-de-l-operation-neptune.html",
+        "R1C7-prix-de-l-operation-fortitude.html",
+        "R1C8-prix-de-la-perriere.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-l-operation-overlord.html",
+        "R3C2-prix-de-gruchy.html",
+        "R3C3-prix-djebel.html",
+        "R3C4-prix-de-saint-lo.html",
+        "R3C5-prix-imprudence.html",
+        "R3C6-prix-de-l-operation-neptune.html",
+        "R3C7-prix-de-l-operation-fortitude.html",
+        "R3C8-prix-de-la-perriere.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-l-operation-overlord.html",
+        "R4C2-prix-de-gruchy.html",
+        "R4C3-prix-djebel.html",
+        "R4C4-prix-de-saint-lo.html",
+        "R4C5-prix-imprudence.html",
+        "R4C6-prix-de-l-operation-neptune.html",
+        "R4C7-prix-de-l-operation-fortitude.html",
+        "R4C8-prix-de-la-perriere.html"
+      ],
+      "R10-toulouse": [
+        "R10C1-prix-de-l-operation-overlord.html",
+        "R10C2-prix-de-gruchy.html",
+        "R10C3-prix-djebel.html",
+        "R10C4-prix-de-saint-lo.html",
+        "R10C5-prix-imprudence.html",
+        "R10C6-prix-de-l-operation-neptune.html",
+        "R10C7-prix-de-l-operation-fortitude.html",
+        "R10C8-prix-de-la-perriere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:58:00.277865Z"
+}

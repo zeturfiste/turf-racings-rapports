@@ -1,0 +1,110 @@
+{
+  "date": "2020-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-30",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-30/2020-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-30/R4-marseille-borely/R4C1-barriere-prix-de-meautry.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R4-marseille-borely/R4C2-barriere-prix-quincey.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R4-marseille-borely/R4C3-prix-casino-barriere-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R4-marseille-borely/R4C8-prix-hotel-barriere-l-hotel-du-golf.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R6-laval/R6C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R6-laval/R6C7-prix-hotel-barriere-le-royal-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R6-laval/R6C8-prix-hotel-barriere-l-hotel-du-golf.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R7-rambouillet/R7C1-barriere-prix-de-meautry.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R7-rambouillet/R7C2-barriere-prix-quincey.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R7-rambouillet/R7C3-prix-casino-barriere-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R7-rambouillet/R7C6-prix-hotel-barriere-le-normandy.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R7-rambouillet/R7C7-prix-hotel-barriere-le-royal-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C1-barriere-prix-de-meautry.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C3-prix-casino-barriere-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C4-prix-casino-barriere-trouville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C6-prix-hotel-barriere-le-normandy.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C7-prix-hotel-barriere-le-royal-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-30/R8-compiegne/R8C8-prix-hotel-barriere-l-hotel-du-golf.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-le-mont-saint-michel",
+      "R4-marseille-borely",
+      "R6-laval",
+      "R7-rambouillet",
+      "R8-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-barriere-prix-de-meautry.html",
+        "R1C2-barriere-prix-quincey.html",
+        "R1C3-prix-casino-barriere-deauville.html",
+        "R1C4-prix-casino-barriere-trouville.html",
+        "R1C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R1C6-prix-hotel-barriere-le-normandy.html",
+        "R1C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R1C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ],
+      "R3-le-mont-saint-michel": [
+        "R3C1-barriere-prix-de-meautry.html",
+        "R3C2-barriere-prix-quincey.html",
+        "R3C3-prix-casino-barriere-deauville.html",
+        "R3C4-prix-casino-barriere-trouville.html",
+        "R3C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R3C6-prix-hotel-barriere-le-normandy.html",
+        "R3C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R3C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-barriere-prix-de-meautry.html",
+        "R4C2-barriere-prix-quincey.html",
+        "R4C3-prix-casino-barriere-deauville.html",
+        "R4C4-prix-casino-barriere-trouville.html",
+        "R4C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R4C6-prix-hotel-barriere-le-normandy.html",
+        "R4C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R4C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ],
+      "R6-laval": [
+        "R6C1-barriere-prix-de-meautry.html",
+        "R6C2-barriere-prix-quincey.html",
+        "R6C3-prix-casino-barriere-deauville.html",
+        "R6C4-prix-casino-barriere-trouville.html",
+        "R6C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R6C6-prix-hotel-barriere-le-normandy.html",
+        "R6C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R6C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ],
+      "R7-rambouillet": [
+        "R7C1-barriere-prix-de-meautry.html",
+        "R7C2-barriere-prix-quincey.html",
+        "R7C3-prix-casino-barriere-deauville.html",
+        "R7C4-prix-casino-barriere-trouville.html",
+        "R7C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R7C6-prix-hotel-barriere-le-normandy.html",
+        "R7C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R7C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ],
+      "R8-compiegne": [
+        "R8C1-barriere-prix-de-meautry.html",
+        "R8C2-barriere-prix-quincey.html",
+        "R8C3-prix-casino-barriere-deauville.html",
+        "R8C4-prix-casino-barriere-trouville.html",
+        "R8C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R8C6-prix-hotel-barriere-le-normandy.html",
+        "R8C7-prix-hotel-barriere-le-royal-deauville.html",
+        "R8C8-prix-hotel-barriere-l-hotel-du-golf.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:46.817167Z"
+}

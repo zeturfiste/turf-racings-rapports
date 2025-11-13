@@ -1,0 +1,77 @@
+{
+  "date": "2024-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-21",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-21/2024-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-21/R1-vincennes/R1C4-prix-rhodope.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R2-la-capelle/R2C6-prix-eurykleia.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R4-saint-cloud/R4C1-prix-okda.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R5-marseille-borely/R5C2-prix-clementina.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R5-marseille-borely/R5C3-prix-melpomene.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R5-marseille-borely/R5C6-prix-eurykleia.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R5-marseille-borely/R5C7-prix-callisto.html",
+      "resultats-et-rapports/2024/06/2024-06-21/R5-marseille-borely/R5C8-prix-cybele.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-la-capelle",
+      "R4-saint-cloud",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-okda.html",
+        "R1C2-prix-clementina.html",
+        "R1C3-prix-melpomene.html",
+        "R1C4-prix-rhodope.html",
+        "R1C5-prix-terpsichore.html",
+        "R1C6-prix-eurykleia.html",
+        "R1C7-prix-callisto.html",
+        "R1C8-prix-cybele.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-okda.html",
+        "R2C2-prix-clementina.html",
+        "R2C3-prix-melpomene.html",
+        "R2C4-prix-rhodope.html",
+        "R2C5-prix-terpsichore.html",
+        "R2C6-prix-eurykleia.html",
+        "R2C7-prix-callisto.html",
+        "R2C8-prix-cybele.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-okda.html",
+        "R4C2-prix-clementina.html",
+        "R4C3-prix-melpomene.html",
+        "R4C4-prix-rhodope.html",
+        "R4C5-prix-terpsichore.html",
+        "R4C6-prix-eurykleia.html",
+        "R4C7-prix-callisto.html",
+        "R4C8-prix-cybele.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-okda.html",
+        "R5C2-prix-clementina.html",
+        "R5C3-prix-melpomene.html",
+        "R5C4-prix-rhodope.html",
+        "R5C5-prix-terpsichore.html",
+        "R5C6-prix-eurykleia.html",
+        "R5C7-prix-callisto.html",
+        "R5C8-prix-cybele.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:57.116406Z"
+}

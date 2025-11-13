@@ -1,0 +1,79 @@
+{
+  "date": "2023-09-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-19",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-19/2023-09-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C1-prix-velleda.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C2-prix-de-bazet.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C3-prix-enis.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C4-prix-aludra.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C5-prix-de-beaucaire.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C7-prix-sagitta.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R1-vincennes/R1C8-prix-centaurus.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C1-prix-velleda.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C3-prix-enis.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C4-prix-aludra.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C5-prix-de-beaucaire.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C6-prix-goberta.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C7-prix-sagitta.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R3-salon-de-provence/R3C8-prix-centaurus.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C1-prix-velleda.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C2-prix-de-bazet.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C3-prix-enis.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C4-prix-aludra.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C6-prix-goberta.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C7-prix-sagitta.html",
+      "resultats-et-rapports/2023/09/2023-09-19/R4-auteuil/R4C8-prix-centaurus.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-salon-de-provence",
+      "R4-auteuil"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-velleda.html",
+        "R1C2-prix-de-bazet.html",
+        "R1C3-prix-enis.html",
+        "R1C4-prix-aludra.html",
+        "R1C5-prix-de-beaucaire.html",
+        "R1C6-prix-goberta.html",
+        "R1C7-prix-sagitta.html",
+        "R1C8-prix-centaurus.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-velleda.html",
+        "R3C2-prix-de-bazet.html",
+        "R3C3-prix-enis.html",
+        "R3C4-prix-aludra.html",
+        "R3C5-prix-de-beaucaire.html",
+        "R3C6-prix-goberta.html",
+        "R3C7-prix-sagitta.html",
+        "R3C8-prix-centaurus.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-velleda.html",
+        "R4C2-prix-de-bazet.html",
+        "R4C3-prix-enis.html",
+        "R4C4-prix-aludra.html",
+        "R4C5-prix-de-beaucaire.html",
+        "R4C6-prix-goberta.html",
+        "R4C7-prix-sagitta.html",
+        "R4C8-prix-centaurus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:20.329705Z"
+}

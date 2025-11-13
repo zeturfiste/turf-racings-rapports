@@ -1,0 +1,94 @@
+{
+  "date": "2007-11-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/11/2007-11-27",
+    "date_html": "resultats-et-rapports/2007/11/2007-11-27/2007-11-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/11/2007-11-27/R1-deauville/R1C8-prix-de-berd-huis.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R2-toulouse/R2C5-prix-de-la-durdent.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R2-toulouse/R2C8-prix-de-berd-huis.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R3-vincennes/R3C2-prix-de-la-mare-elan.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R3-vincennes/R3C4-prix-de-pierrepont.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R3-vincennes/R3C6-prix-de-beaufai.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R3-vincennes/R3C7-prix-des-perrets.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C1-prix-de-la-vallee-de-reux.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C2-prix-de-la-mare-elan.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C3-prix-de-la-gisloterie.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C4-prix-de-pierrepont.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C5-prix-de-la-durdent.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C7-prix-des-perrets.html",
+      "resultats-et-rapports/2007/11/2007-11-27/R70-gerland-lyon/R70C8-prix-de-berd-huis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-toulouse",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-gerland-lyon"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-vallee-de-reux.html",
+        "R1C2-prix-de-la-mare-elan.html",
+        "R1C3-prix-de-la-gisloterie.html",
+        "R1C4-prix-de-pierrepont.html",
+        "R1C5-prix-de-la-durdent.html",
+        "R1C6-prix-de-beaufai.html",
+        "R1C7-prix-des-perrets.html",
+        "R1C8-prix-de-berd-huis.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-de-la-vallee-de-reux.html",
+        "R2C2-prix-de-la-mare-elan.html",
+        "R2C3-prix-de-la-gisloterie.html",
+        "R2C4-prix-de-pierrepont.html",
+        "R2C5-prix-de-la-durdent.html",
+        "R2C6-prix-de-beaufai.html",
+        "R2C7-prix-des-perrets.html",
+        "R2C8-prix-de-berd-huis.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-vallee-de-reux.html",
+        "R3C2-prix-de-la-mare-elan.html",
+        "R3C3-prix-de-la-gisloterie.html",
+        "R3C4-prix-de-pierrepont.html",
+        "R3C5-prix-de-la-durdent.html",
+        "R3C6-prix-de-beaufai.html",
+        "R3C7-prix-des-perrets.html",
+        "R3C8-prix-de-berd-huis.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-vallee-de-reux.html",
+        "R31C2-prix-de-la-mare-elan.html",
+        "R31C3-prix-de-la-gisloterie.html",
+        "R31C4-prix-de-pierrepont.html",
+        "R31C5-prix-de-la-durdent.html",
+        "R31C6-prix-de-beaufai.html",
+        "R31C7-prix-des-perrets.html",
+        "R31C8-prix-de-berd-huis.html"
+      ],
+      "R70-gerland-lyon": [
+        "R70C1-prix-de-la-vallee-de-reux.html",
+        "R70C2-prix-de-la-mare-elan.html",
+        "R70C3-prix-de-la-gisloterie.html",
+        "R70C4-prix-de-pierrepont.html",
+        "R70C5-prix-de-la-durdent.html",
+        "R70C6-prix-de-beaufai.html",
+        "R70C7-prix-des-perrets.html",
+        "R70C8-prix-de-berd-huis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:08.835031Z"
+}

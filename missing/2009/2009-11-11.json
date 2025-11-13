@@ -1,0 +1,119 @@
+{
+  "date": "2009-11-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/11/2009-11-11",
+    "date_html": "resultats-et-rapports/2009/11/2009-11-11/2009-11-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/11/2009-11-11/R1-toulouse/R1C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R1-toulouse/R1C2-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R1-toulouse/R1C3-criterium-du-languedoc.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R1-toulouse/R1C4-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R1-toulouse/R1C5-prix-fille-de-l-air.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R2-lyon-la-soie/R2C2-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R2-lyon-la-soie/R2C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R5-la-capelle/R5C5-prix-fille-de-l-air.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R6-angers/R6C9-prix-lacanaux.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R7-graignes/R7C2-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R7-graignes/R7C4-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R7-graignes/R7C6-prix-georges-sicard.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R7-graignes/R7C7-grand-national-des-anglo-arabes-a-12-5.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C2-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C3-criterium-du-languedoc.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C4-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C5-prix-fille-de-l-air.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C6-prix-georges-sicard.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C7-grand-national-des-anglo-arabes-a-12-5.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+      "resultats-et-rapports/2009/11/2009-11-11/R31-zerace/R31C9-prix-lacanaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-lyon-la-soie",
+      "R5-la-capelle",
+      "R6-angers",
+      "R7-graignes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R1C2-prix-de-la-ville-de-toulouse.html",
+        "R1C3-criterium-du-languedoc.html",
+        "R1C4-prix-la-depeche-du-midi.html",
+        "R1C5-prix-fille-de-l-air.html",
+        "R1C6-prix-georges-sicard.html",
+        "R1C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R1C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R1C9-prix-lacanaux.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R2C2-prix-de-la-ville-de-toulouse.html",
+        "R2C3-criterium-du-languedoc.html",
+        "R2C4-prix-la-depeche-du-midi.html",
+        "R2C5-prix-fille-de-l-air.html",
+        "R2C6-prix-georges-sicard.html",
+        "R2C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R2C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R2C9-prix-lacanaux.html"
+      ],
+      "R5-la-capelle": [
+        "R5C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R5C2-prix-de-la-ville-de-toulouse.html",
+        "R5C3-criterium-du-languedoc.html",
+        "R5C4-prix-la-depeche-du-midi.html",
+        "R5C5-prix-fille-de-l-air.html",
+        "R5C6-prix-georges-sicard.html",
+        "R5C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R5C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R5C9-prix-lacanaux.html"
+      ],
+      "R6-angers": [
+        "R6C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R6C2-prix-de-la-ville-de-toulouse.html",
+        "R6C3-criterium-du-languedoc.html",
+        "R6C4-prix-la-depeche-du-midi.html",
+        "R6C5-prix-fille-de-l-air.html",
+        "R6C6-prix-georges-sicard.html",
+        "R6C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R6C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R6C9-prix-lacanaux.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R7C2-prix-de-la-ville-de-toulouse.html",
+        "R7C3-criterium-du-languedoc.html",
+        "R7C4-prix-la-depeche-du-midi.html",
+        "R7C5-prix-fille-de-l-air.html",
+        "R7C6-prix-georges-sicard.html",
+        "R7C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R7C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R7C9-prix-lacanaux.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-citroen-groupe-dallard-prix-de-la-ville-de-cugnaux.html",
+        "R31C2-prix-de-la-ville-de-toulouse.html",
+        "R31C3-criterium-du-languedoc.html",
+        "R31C4-prix-la-depeche-du-midi.html",
+        "R31C5-prix-fille-de-l-air.html",
+        "R31C6-prix-georges-sicard.html",
+        "R31C7-grand-national-des-anglo-arabes-a-12-5.html",
+        "R31C8-prix-casino-theatre-barriere-de-toulouse-prix-du-quartier-saint-cyprien.html",
+        "R31C9-prix-lacanaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:36:41.701981Z"
+}

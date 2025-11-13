@@ -1,0 +1,70 @@
+{
+  "date": "2017-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-20",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-20/2017-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C1-prix-de-montmarault.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C2-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C3-prix-burgos.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C4-prix-du-golf-du-sporting-de-vichy.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C5-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C6-prix-makalu.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C7-prix-de-l-imprimerie-vidal-prix-de-saint-felix.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R1-vichy/R1C8-prix-de-moulins.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R2-mont-de-marsan/R2C1-prix-de-montmarault.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R2-mont-de-marsan/R2C2-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R2-mont-de-marsan/R2C3-prix-burgos.html",
+      "resultats-et-rapports/2017/07/2017-07-20/R2-mont-de-marsan/R2C6-prix-makalu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-mont-de-marsan",
+      "R3-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-montmarault.html",
+        "R1C2-prix-de-la-tour-de-chenillat.html",
+        "R1C3-prix-burgos.html",
+        "R1C4-prix-du-golf-du-sporting-de-vichy.html",
+        "R1C5-prix-des-reves-d-or-jacques-bouchara.html",
+        "R1C6-prix-makalu.html",
+        "R1C7-prix-de-l-imprimerie-vidal-prix-de-saint-felix.html",
+        "R1C8-prix-de-moulins.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-de-montmarault.html",
+        "R2C2-prix-de-la-tour-de-chenillat.html",
+        "R2C3-prix-burgos.html",
+        "R2C4-prix-du-golf-du-sporting-de-vichy.html",
+        "R2C5-prix-des-reves-d-or-jacques-bouchara.html",
+        "R2C6-prix-makalu.html",
+        "R2C7-prix-de-l-imprimerie-vidal-prix-de-saint-felix.html",
+        "R2C8-prix-de-moulins.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-de-montmarault.html",
+        "R3C2-prix-de-la-tour-de-chenillat.html",
+        "R3C3-prix-burgos.html",
+        "R3C4-prix-du-golf-du-sporting-de-vichy.html",
+        "R3C5-prix-des-reves-d-or-jacques-bouchara.html",
+        "R3C6-prix-makalu.html",
+        "R3C7-prix-de-l-imprimerie-vidal-prix-de-saint-felix.html",
+        "R3C8-prix-de-moulins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:07.806080Z"
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2008-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/03/2008-03-05",
+    "date_html": "resultats-et-rapports/2008/03/2008-03-05/2008-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/03/2008-03-05/R1-amiens/R1C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R2-fontainebleau/R2C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R3-marseille-borely/R3C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R3-marseille-borely/R3C2-prix-des-chenes.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R3-marseille-borely/R3C5-prix-des-bouleaux.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R3-marseille-borely/R3C7-prix-des-peupliers.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R3-marseille-borely/R3C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R31-zerace/R31C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R31-zerace/R31C2-prix-des-chenes.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R31-zerace/R31C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R31-zerace/R31C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R31-zerace/R31C5-prix-des-bouleaux.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R70-santiago-bernabeu-madrid/R70C2-prix-des-chenes.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R70-santiago-bernabeu-madrid/R70C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R70-santiago-bernabeu-madrid/R70C6-prix-des-erables.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C5-prix-des-bouleaux.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C6-prix-des-erables.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C7-prix-des-peupliers.html",
+      "resultats-et-rapports/2008/03/2008-03-05/R71-do-dragao-porto/R71C8-prix-des-tilleuls.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R2-fontainebleau",
+      "R3-marseille-borely",
+      "R31-zerace",
+      "R70-santiago-bernabeu-madrid",
+      "R71-do-dragao-porto"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R1C2-prix-des-chenes.html",
+        "R1C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R1C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R1C5-prix-des-bouleaux.html",
+        "R1C6-prix-des-erables.html",
+        "R1C7-prix-des-peupliers.html",
+        "R1C8-prix-des-tilleuls.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R2C2-prix-des-chenes.html",
+        "R2C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R2C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R2C5-prix-des-bouleaux.html",
+        "R2C6-prix-des-erables.html",
+        "R2C7-prix-des-peupliers.html",
+        "R2C8-prix-des-tilleuls.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R3C2-prix-des-chenes.html",
+        "R3C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R3C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R3C5-prix-des-bouleaux.html",
+        "R3C6-prix-des-erables.html",
+        "R3C7-prix-des-peupliers.html",
+        "R3C8-prix-des-tilleuls.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R31C2-prix-des-chenes.html",
+        "R31C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R31C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R31C5-prix-des-bouleaux.html",
+        "R31C6-prix-des-erables.html",
+        "R31C7-prix-des-peupliers.html",
+        "R31C8-prix-des-tilleuls.html"
+      ],
+      "R70-santiago-bernabeu-madrid": [
+        "R70C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R70C2-prix-des-chenes.html",
+        "R70C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R70C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R70C5-prix-des-bouleaux.html",
+        "R70C6-prix-des-erables.html",
+        "R70C7-prix-des-peupliers.html",
+        "R70C8-prix-des-tilleuls.html"
+      ],
+      "R71-do-dragao-porto": [
+        "R71C1-prix-geny-courses-3601-paris-turf-com-grand-prix-de-la-ville-d-amiens.html",
+        "R71C2-prix-des-chenes.html",
+        "R71C3-prix-armand-de-bellaigue-prix-des-rosiers.html",
+        "R71C4-prix-ligue-contre-la-cardiomyopathie-prix-des-hetres.html",
+        "R71C5-prix-des-bouleaux.html",
+        "R71C6-prix-des-erables.html",
+        "R71C7-prix-des-peupliers.html",
+        "R71C8-prix-des-tilleuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:50.502703Z"
+}

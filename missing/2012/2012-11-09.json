@@ -1,0 +1,92 @@
+{
+  "date": "2012-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-09",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-09/2012-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-09/R1-maure-de-bretagne/R1C2-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R1-maure-de-bretagne/R1C3-prix-pussy-cat-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R1-maure-de-bretagne/R1C6-prix-conseil-general-d-ille-et-vilaine.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R1-maure-de-bretagne/R1C7-prix-triskalia.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R1-maure-de-bretagne/R1C8-prix-infos-du-pays-de-ploermel.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C1-prix-andre-ricaud.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C3-prix-pussy-cat-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C4-prix-pussy-cat-prix-www-federation-ouest-fr-groupe-b.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C5-prix-michel-bazire.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C6-prix-conseil-general-d-ille-et-vilaine.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C7-prix-triskalia.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R2-chantilly/R2C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R3-vichy/R3C2-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R3-vichy/R3C3-prix-pussy-cat-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R3-vichy/R3C7-prix-triskalia.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R3-vichy/R3C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R4-vincennes/R4C6-prix-conseil-general-d-ille-et-vilaine.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R4-vincennes/R4C7-prix-triskalia.html",
+      "resultats-et-rapports/2012/11/2012-11-09/R4-vincennes/R4C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maure-de-bretagne",
+      "R2-chantilly",
+      "R3-vichy",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maure-de-bretagne": [
+        "R1C1-prix-andre-ricaud.html",
+        "R1C2-prix-de-la-societe-du-cheval-francais.html",
+        "R1C3-prix-pussy-cat-groupe-a.html",
+        "R1C4-prix-pussy-cat-prix-www-federation-ouest-fr-groupe-b.html",
+        "R1C5-prix-michel-bazire.html",
+        "R1C6-prix-conseil-general-d-ille-et-vilaine.html",
+        "R1C7-prix-triskalia.html",
+        "R1C8-prix-infos-du-pays-de-ploermel.html",
+        "R1C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-andre-ricaud.html",
+        "R2C2-prix-de-la-societe-du-cheval-francais.html",
+        "R2C3-prix-pussy-cat-groupe-a.html",
+        "R2C4-prix-pussy-cat-prix-www-federation-ouest-fr-groupe-b.html",
+        "R2C5-prix-michel-bazire.html",
+        "R2C6-prix-conseil-general-d-ille-et-vilaine.html",
+        "R2C7-prix-triskalia.html",
+        "R2C8-prix-infos-du-pays-de-ploermel.html",
+        "R2C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-andre-ricaud.html",
+        "R3C2-prix-de-la-societe-du-cheval-francais.html",
+        "R3C3-prix-pussy-cat-groupe-a.html",
+        "R3C4-prix-pussy-cat-prix-www-federation-ouest-fr-groupe-b.html",
+        "R3C5-prix-michel-bazire.html",
+        "R3C6-prix-conseil-general-d-ille-et-vilaine.html",
+        "R3C7-prix-triskalia.html",
+        "R3C8-prix-infos-du-pays-de-ploermel.html",
+        "R3C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-andre-ricaud.html",
+        "R4C2-prix-de-la-societe-du-cheval-francais.html",
+        "R4C3-prix-pussy-cat-groupe-a.html",
+        "R4C4-prix-pussy-cat-prix-www-federation-ouest-fr-groupe-b.html",
+        "R4C5-prix-michel-bazire.html",
+        "R4C6-prix-conseil-general-d-ille-et-vilaine.html",
+        "R4C7-prix-triskalia.html",
+        "R4C8-prix-infos-du-pays-de-ploermel.html",
+        "R4C9-prix-de-la-maison-du-tourisme-du-pays-de-redon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:37.666165Z"
+}

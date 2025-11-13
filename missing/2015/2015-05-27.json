@@ -1,0 +1,67 @@
+{
+  "date": "2015-05-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-27",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-27/2015-05-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-27/R2-caen/R2C5-prix-du-petit-palais.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R2-caen/R2C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C1-prix-du-palais-bourbon.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C3-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C4-prix-de-la-lancette.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C5-prix-du-petit-palais.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C6-prix-de-puteaux.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2015/05/2015-05-27/R3-le-croise-laroche/R3C8-prix-de-l-hotel-de-lassay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-caen",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-bourbon.html",
+        "R1C2-prix-du-mont-cenis.html",
+        "R1C3-prix-de-la-bienfaisance.html",
+        "R1C4-prix-de-la-lancette.html",
+        "R1C5-prix-du-petit-palais.html",
+        "R1C6-prix-de-puteaux.html",
+        "R1C7-prix-de-pontoise.html",
+        "R1C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-du-palais-bourbon.html",
+        "R2C2-prix-du-mont-cenis.html",
+        "R2C3-prix-de-la-bienfaisance.html",
+        "R2C4-prix-de-la-lancette.html",
+        "R2C5-prix-du-petit-palais.html",
+        "R2C6-prix-de-puteaux.html",
+        "R2C7-prix-de-pontoise.html",
+        "R2C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-du-palais-bourbon.html",
+        "R3C2-prix-du-mont-cenis.html",
+        "R3C3-prix-de-la-bienfaisance.html",
+        "R3C4-prix-de-la-lancette.html",
+        "R3C5-prix-du-petit-palais.html",
+        "R3C6-prix-de-puteaux.html",
+        "R3C7-prix-de-pontoise.html",
+        "R3C8-prix-de-l-hotel-de-lassay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:11.095312Z"
+}

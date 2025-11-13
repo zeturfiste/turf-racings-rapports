@@ -1,0 +1,101 @@
+{
+  "date": "2023-05-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-29",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-29/2023-05-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-29/R3-reims/R3C3-prix-de-la-concorde.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R3-reims/R3C7-prix-vicomtesse-vigier.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R4-salon-de-provence/R4C3-prix-de-la-concorde.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R4-salon-de-provence/R4C4-prix-d-escoville.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R7-saint-malo/R7C3-prix-de-la-concorde.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R7-saint-malo/R7C4-prix-d-escoville.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R7-saint-malo/R7C6-prix-de-croissy.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R7-saint-malo/R7C7-prix-vicomtesse-vigier.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R7-saint-malo/R7C8-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C1-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C3-prix-de-la-concorde.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C4-prix-d-escoville.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C5-prix-d-ispahan.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C6-prix-de-croissy.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C8-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2023/05/2023-05-29/R8-la-rochelle/R8C9-prix-des-champs-elysees.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-reims",
+      "R4-salon-de-provence",
+      "R7-saint-malo",
+      "R8-la-rochelle"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-haras-royal-de-meudon.html",
+        "R1C2-prix-du-palais-royal.html",
+        "R1C3-prix-de-la-concorde.html",
+        "R1C4-prix-d-escoville.html",
+        "R1C5-prix-d-ispahan.html",
+        "R1C6-prix-de-croissy.html",
+        "R1C7-prix-vicomtesse-vigier.html",
+        "R1C8-prix-du-pont-au-change.html",
+        "R1C9-prix-des-champs-elysees.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-du-haras-royal-de-meudon.html",
+        "R3C2-prix-du-palais-royal.html",
+        "R3C3-prix-de-la-concorde.html",
+        "R3C4-prix-d-escoville.html",
+        "R3C5-prix-d-ispahan.html",
+        "R3C6-prix-de-croissy.html",
+        "R3C7-prix-vicomtesse-vigier.html",
+        "R3C8-prix-du-pont-au-change.html",
+        "R3C9-prix-des-champs-elysees.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-du-haras-royal-de-meudon.html",
+        "R4C2-prix-du-palais-royal.html",
+        "R4C3-prix-de-la-concorde.html",
+        "R4C4-prix-d-escoville.html",
+        "R4C5-prix-d-ispahan.html",
+        "R4C6-prix-de-croissy.html",
+        "R4C7-prix-vicomtesse-vigier.html",
+        "R4C8-prix-du-pont-au-change.html",
+        "R4C9-prix-des-champs-elysees.html"
+      ],
+      "R7-saint-malo": [
+        "R7C1-prix-du-haras-royal-de-meudon.html",
+        "R7C2-prix-du-palais-royal.html",
+        "R7C3-prix-de-la-concorde.html",
+        "R7C4-prix-d-escoville.html",
+        "R7C5-prix-d-ispahan.html",
+        "R7C6-prix-de-croissy.html",
+        "R7C7-prix-vicomtesse-vigier.html",
+        "R7C8-prix-du-pont-au-change.html",
+        "R7C9-prix-des-champs-elysees.html"
+      ],
+      "R8-la-rochelle": [
+        "R8C1-prix-du-haras-royal-de-meudon.html",
+        "R8C2-prix-du-palais-royal.html",
+        "R8C3-prix-de-la-concorde.html",
+        "R8C4-prix-d-escoville.html",
+        "R8C5-prix-d-ispahan.html",
+        "R8C6-prix-de-croissy.html",
+        "R8C7-prix-vicomtesse-vigier.html",
+        "R8C8-prix-du-pont-au-change.html",
+        "R8C9-prix-des-champs-elysees.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:38.080678Z"
+}

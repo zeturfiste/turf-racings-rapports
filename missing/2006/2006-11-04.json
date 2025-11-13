@@ -1,0 +1,161 @@
+{
+  "date": "2006-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-04",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-04/2006-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-04/R1-auteuil/R1C1-106eme-prix-de-france.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R1-auteuil/R1C2-prix-bournosienne.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R32-louis-dugauguez-sedan/R32C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R32-louis-dugauguez-sedan/R32C6-prix-de-beaugency.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R33-auguste-bonal-sochaux/R33C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R33-auguste-bonal-sochaux/R33C6-prix-de-beaugency.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R35-l-abbe-deschamps-auxerre/R35C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R35-l-abbe-deschamps-auxerre/R35C7-prix-fondeur.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R38-auteuil/R38C4-prix-congress.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R38-auteuil/R38C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R38-auteuil/R38C6-prix-de-beaugency.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R39-churchill-downs/R39C1-106eme-prix-de-france.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R39-churchill-downs/R39C2-prix-bournosienne.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R39-churchill-downs/R39C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R39-churchill-downs/R39C4-prix-congress.html",
+      "resultats-et-rapports/2006/11/2006-11-04/R39-churchill-downs/R39C6-prix-de-beaugency.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-vivaux",
+      "R21-zerace",
+      "R30-stade-de-la-route-de-lorient-rennes",
+      "R31-louis-ii-monaco",
+      "R32-louis-dugauguez-sedan",
+      "R33-auguste-bonal-sochaux",
+      "R35-l-abbe-deschamps-auxerre",
+      "R36-nungesser-valenciennes",
+      "R37-geoffroy-guichard-saint-etienne",
+      "R38-auteuil",
+      "R39-churchill-downs"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-106eme-prix-de-france.html",
+        "R1C2-prix-bournosienne.html",
+        "R1C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R1C4-prix-congress.html",
+        "R1C5-grand-prix-d-automne.html",
+        "R1C6-prix-de-beaugency.html",
+        "R1C7-prix-fondeur.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-106eme-prix-de-france.html",
+        "R2C2-prix-bournosienne.html",
+        "R2C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R2C4-prix-congress.html",
+        "R2C5-grand-prix-d-automne.html",
+        "R2C6-prix-de-beaugency.html",
+        "R2C7-prix-fondeur.html"
+      ],
+      "R21-zerace": [
+        "R21C1-106eme-prix-de-france.html",
+        "R21C2-prix-bournosienne.html",
+        "R21C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R21C4-prix-congress.html",
+        "R21C5-grand-prix-d-automne.html",
+        "R21C6-prix-de-beaugency.html",
+        "R21C7-prix-fondeur.html"
+      ],
+      "R30-stade-de-la-route-de-lorient-rennes": [
+        "R30C1-106eme-prix-de-france.html",
+        "R30C2-prix-bournosienne.html",
+        "R30C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R30C4-prix-congress.html",
+        "R30C5-grand-prix-d-automne.html",
+        "R30C6-prix-de-beaugency.html",
+        "R30C7-prix-fondeur.html"
+      ],
+      "R31-louis-ii-monaco": [
+        "R31C1-106eme-prix-de-france.html",
+        "R31C2-prix-bournosienne.html",
+        "R31C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R31C4-prix-congress.html",
+        "R31C5-grand-prix-d-automne.html",
+        "R31C6-prix-de-beaugency.html",
+        "R31C7-prix-fondeur.html"
+      ],
+      "R32-louis-dugauguez-sedan": [
+        "R32C1-106eme-prix-de-france.html",
+        "R32C2-prix-bournosienne.html",
+        "R32C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R32C4-prix-congress.html",
+        "R32C5-grand-prix-d-automne.html",
+        "R32C6-prix-de-beaugency.html",
+        "R32C7-prix-fondeur.html"
+      ],
+      "R33-auguste-bonal-sochaux": [
+        "R33C1-106eme-prix-de-france.html",
+        "R33C2-prix-bournosienne.html",
+        "R33C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R33C4-prix-congress.html",
+        "R33C5-grand-prix-d-automne.html",
+        "R33C6-prix-de-beaugency.html",
+        "R33C7-prix-fondeur.html"
+      ],
+      "R35-l-abbe-deschamps-auxerre": [
+        "R35C1-106eme-prix-de-france.html",
+        "R35C2-prix-bournosienne.html",
+        "R35C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R35C4-prix-congress.html",
+        "R35C5-grand-prix-d-automne.html",
+        "R35C6-prix-de-beaugency.html",
+        "R35C7-prix-fondeur.html"
+      ],
+      "R36-nungesser-valenciennes": [
+        "R36C1-106eme-prix-de-france.html",
+        "R36C2-prix-bournosienne.html",
+        "R36C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R36C4-prix-congress.html",
+        "R36C5-grand-prix-d-automne.html",
+        "R36C6-prix-de-beaugency.html",
+        "R36C7-prix-fondeur.html"
+      ],
+      "R37-geoffroy-guichard-saint-etienne": [
+        "R37C1-106eme-prix-de-france.html",
+        "R37C2-prix-bournosienne.html",
+        "R37C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R37C4-prix-congress.html",
+        "R37C5-grand-prix-d-automne.html",
+        "R37C6-prix-de-beaugency.html",
+        "R37C7-prix-fondeur.html"
+      ],
+      "R38-auteuil": [
+        "R38C1-106eme-prix-de-france.html",
+        "R38C2-prix-bournosienne.html",
+        "R38C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R38C4-prix-congress.html",
+        "R38C5-grand-prix-d-automne.html",
+        "R38C6-prix-de-beaugency.html",
+        "R38C7-prix-fondeur.html"
+      ],
+      "R39-churchill-downs": [
+        "R39C1-106eme-prix-de-france.html",
+        "R39C2-prix-bournosienne.html",
+        "R39C3-prix-salon-du-cheval-de-paris-2006-prix-marc-antony.html",
+        "R39C4-prix-congress.html",
+        "R39C5-grand-prix-d-automne.html",
+        "R39C6-prix-de-beaugency.html",
+        "R39C7-prix-fondeur.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:45.927043Z"
+}

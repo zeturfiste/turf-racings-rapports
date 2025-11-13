@@ -1,0 +1,61 @@
+{
+  "date": "2013-02-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/02/2013-02-04",
+    "date_html": "resultats-et-rapports/2013/02/2013-02-04/2013-02-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/02/2013-02-04/R1-vincennes/R1C2-prix-des-charentes.html",
+      "resultats-et-rapports/2013/02/2013-02-04/R1-vincennes/R1C3-prix-du-poitou.html",
+      "resultats-et-rapports/2013/02/2013-02-04/R3-marseille-vivaux/R3C2-prix-des-charentes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chateaubriant",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-chartre-sur-le-loir.html",
+        "R1C2-prix-des-charentes.html",
+        "R1C3-prix-du-poitou.html",
+        "R1C4-prix-de-briey.html",
+        "R1C5-prix-henri-hellard.html",
+        "R1C6-prix-des-rouges-terres.html",
+        "R1C7-prix-de-vitre.html",
+        "R1C8-prix-de-coulommiers.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-de-la-chartre-sur-le-loir.html",
+        "R2C2-prix-des-charentes.html",
+        "R2C3-prix-du-poitou.html",
+        "R2C4-prix-de-briey.html",
+        "R2C5-prix-henri-hellard.html",
+        "R2C6-prix-des-rouges-terres.html",
+        "R2C7-prix-de-vitre.html",
+        "R2C8-prix-de-coulommiers.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-la-chartre-sur-le-loir.html",
+        "R3C2-prix-des-charentes.html",
+        "R3C3-prix-du-poitou.html",
+        "R3C4-prix-de-briey.html",
+        "R3C5-prix-henri-hellard.html",
+        "R3C6-prix-des-rouges-terres.html",
+        "R3C7-prix-de-vitre.html",
+        "R3C8-prix-de-coulommiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:42:58.420714Z"
+}

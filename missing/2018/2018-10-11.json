@@ -1,0 +1,88 @@
+{
+  "date": "2018-10-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-11",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-11/2018-10-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-11/R1-saint-cloud/R1C1-prix-victrix.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R1-saint-cloud/R1C3-prix-du-brionnais.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R1-saint-cloud/R1C7-prix-du-tunnel-de-saint-cloud.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R1-saint-cloud/R1C8-prix-du-viaduc-de-saint-cloud.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C1-prix-victrix.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C2-prix-des-halles.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C3-prix-du-brionnais.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C5-prix-du-charolais.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C6-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R2-bordeaux-le-bouscat/R2C8-prix-du-viaduc-de-saint-cloud.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R3-enghien-soisy/R3C1-prix-victrix.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R3-enghien-soisy/R3C3-prix-du-brionnais.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R3-enghien-soisy/R3C4-prix-barquette.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R3-enghien-soisy/R3C6-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R3-enghien-soisy/R3C7-prix-du-tunnel-de-saint-cloud.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R4-reims/R4C1-prix-victrix.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R4-reims/R4C2-prix-des-halles.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R4-reims/R4C5-prix-du-charolais.html",
+      "resultats-et-rapports/2018/10/2018-10-11/R4-reims/R4C8-prix-du-viaduc-de-saint-cloud.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-bordeaux-le-bouscat",
+      "R3-enghien-soisy",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-victrix.html",
+        "R1C2-prix-des-halles.html",
+        "R1C3-prix-du-brionnais.html",
+        "R1C4-prix-barquette.html",
+        "R1C5-prix-du-charolais.html",
+        "R1C6-prix-de-rennemoulin.html",
+        "R1C7-prix-du-tunnel-de-saint-cloud.html",
+        "R1C8-prix-du-viaduc-de-saint-cloud.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-victrix.html",
+        "R2C2-prix-des-halles.html",
+        "R2C3-prix-du-brionnais.html",
+        "R2C4-prix-barquette.html",
+        "R2C5-prix-du-charolais.html",
+        "R2C6-prix-de-rennemoulin.html",
+        "R2C7-prix-du-tunnel-de-saint-cloud.html",
+        "R2C8-prix-du-viaduc-de-saint-cloud.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-victrix.html",
+        "R3C2-prix-des-halles.html",
+        "R3C3-prix-du-brionnais.html",
+        "R3C4-prix-barquette.html",
+        "R3C5-prix-du-charolais.html",
+        "R3C6-prix-de-rennemoulin.html",
+        "R3C7-prix-du-tunnel-de-saint-cloud.html",
+        "R3C8-prix-du-viaduc-de-saint-cloud.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-victrix.html",
+        "R4C2-prix-des-halles.html",
+        "R4C3-prix-du-brionnais.html",
+        "R4C4-prix-barquette.html",
+        "R4C5-prix-du-charolais.html",
+        "R4C6-prix-de-rennemoulin.html",
+        "R4C7-prix-du-tunnel-de-saint-cloud.html",
+        "R4C8-prix-du-viaduc-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:53:25.909207Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2013-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/11/2013-11-04",
+    "date_html": "resultats-et-rapports/2013/11/2013-11-04/2013-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C1-prix-de-picardie.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C2-prix-d-arcachon.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C3-prix-reine-du-corta.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C4-prix-olry-roederer.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C5-prix-d-amiens.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C6-prix-abel-bassigny.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C7-prix-d-hiesville.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R1-vincennes/R1C8-prix-de-morlaix-groupe-a.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R2-chantilly/R2C2-prix-d-arcachon.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R2-chantilly/R2C5-prix-d-amiens.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R2-chantilly/R2C6-prix-abel-bassigny.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R2-chantilly/R2C8-prix-de-morlaix-groupe-a.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C1-prix-de-picardie.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C3-prix-reine-du-corta.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C4-prix-olry-roederer.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C5-prix-d-amiens.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C6-prix-abel-bassigny.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C7-prix-d-hiesville.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C8-prix-de-morlaix-groupe-a.html",
+      "resultats-et-rapports/2013/11/2013-11-04/R3-graignes/R3C9-prix-de-morlaix-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-picardie.html",
+        "R1C2-prix-d-arcachon.html",
+        "R1C3-prix-reine-du-corta.html",
+        "R1C4-prix-olry-roederer.html",
+        "R1C5-prix-d-amiens.html",
+        "R1C6-prix-abel-bassigny.html",
+        "R1C7-prix-d-hiesville.html",
+        "R1C8-prix-de-morlaix-groupe-a.html",
+        "R1C9-prix-de-morlaix-groupe-b.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-picardie.html",
+        "R2C2-prix-d-arcachon.html",
+        "R2C3-prix-reine-du-corta.html",
+        "R2C4-prix-olry-roederer.html",
+        "R2C5-prix-d-amiens.html",
+        "R2C6-prix-abel-bassigny.html",
+        "R2C7-prix-d-hiesville.html",
+        "R2C8-prix-de-morlaix-groupe-a.html",
+        "R2C9-prix-de-morlaix-groupe-b.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-de-picardie.html",
+        "R3C2-prix-d-arcachon.html",
+        "R3C3-prix-reine-du-corta.html",
+        "R3C4-prix-olry-roederer.html",
+        "R3C5-prix-d-amiens.html",
+        "R3C6-prix-abel-bassigny.html",
+        "R3C7-prix-d-hiesville.html",
+        "R3C8-prix-de-morlaix-groupe-a.html",
+        "R3C9-prix-de-morlaix-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:44:21.366095Z"
+}

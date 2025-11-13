@@ -1,0 +1,117 @@
+{
+  "date": "2008-01-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/01/2008-01-21",
+    "date_html": "resultats-et-rapports/2008/01/2008-01-21/2008-01-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/01/2008-01-21/R1-cagnes-sur-mer/R1C1-prix-de-marseille.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R2-vincennes/R2C2-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R2-vincennes/R2C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R4-toulouse/R4C5-prix-des-anemones.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R31-zerace/R31C4-prix-des-dattiers.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R31-zerace/R31C5-prix-des-anemones.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R31-zerace/R31C6-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R31-zerace/R31C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R70-stade-gabriel-montpied-clermont-ferrand/R70C5-prix-des-anemones.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R70-stade-gabriel-montpied-clermont-ferrand/R70C6-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R70-stade-gabriel-montpied-clermont-ferrand/R70C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C1-prix-de-marseille.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C2-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C3-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C4-prix-des-dattiers.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C5-prix-des-anemones.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C6-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R71-sekondi-ghana/R71C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R72-melbourne-park-australie/R72C1-prix-de-marseille.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R72-melbourne-park-australie/R72C2-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R72-melbourne-park-australie/R72C3-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2008/01/2008-01-21/R72-melbourne-park-australie/R72C5-prix-des-anemones.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R4-toulouse",
+      "R31-zerace",
+      "R70-stade-gabriel-montpied-clermont-ferrand",
+      "R71-sekondi-ghana",
+      "R72-melbourne-park-australie"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-marseille.html",
+        "R1C2-prix-de-la-maurienne.html",
+        "R1C3-prix-robert-villeneuve-bargemon.html",
+        "R1C4-prix-des-dattiers.html",
+        "R1C5-prix-des-anemones.html",
+        "R1C6-prix-du-col-de-braus.html",
+        "R1C7-prix-du-vieux-port.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-marseille.html",
+        "R2C2-prix-de-la-maurienne.html",
+        "R2C3-prix-robert-villeneuve-bargemon.html",
+        "R2C4-prix-des-dattiers.html",
+        "R2C5-prix-des-anemones.html",
+        "R2C6-prix-du-col-de-braus.html",
+        "R2C7-prix-du-vieux-port.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-marseille.html",
+        "R4C2-prix-de-la-maurienne.html",
+        "R4C3-prix-robert-villeneuve-bargemon.html",
+        "R4C4-prix-des-dattiers.html",
+        "R4C5-prix-des-anemones.html",
+        "R4C6-prix-du-col-de-braus.html",
+        "R4C7-prix-du-vieux-port.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-marseille.html",
+        "R31C2-prix-de-la-maurienne.html",
+        "R31C3-prix-robert-villeneuve-bargemon.html",
+        "R31C4-prix-des-dattiers.html",
+        "R31C5-prix-des-anemones.html",
+        "R31C6-prix-du-col-de-braus.html",
+        "R31C7-prix-du-vieux-port.html"
+      ],
+      "R70-stade-gabriel-montpied-clermont-ferrand": [
+        "R70C1-prix-de-marseille.html",
+        "R70C2-prix-de-la-maurienne.html",
+        "R70C3-prix-robert-villeneuve-bargemon.html",
+        "R70C4-prix-des-dattiers.html",
+        "R70C5-prix-des-anemones.html",
+        "R70C6-prix-du-col-de-braus.html",
+        "R70C7-prix-du-vieux-port.html"
+      ],
+      "R71-sekondi-ghana": [
+        "R71C1-prix-de-marseille.html",
+        "R71C2-prix-de-la-maurienne.html",
+        "R71C3-prix-robert-villeneuve-bargemon.html",
+        "R71C4-prix-des-dattiers.html",
+        "R71C5-prix-des-anemones.html",
+        "R71C6-prix-du-col-de-braus.html",
+        "R71C7-prix-du-vieux-port.html"
+      ],
+      "R72-melbourne-park-australie": [
+        "R72C1-prix-de-marseille.html",
+        "R72C2-prix-de-la-maurienne.html",
+        "R72C3-prix-robert-villeneuve-bargemon.html",
+        "R72C4-prix-des-dattiers.html",
+        "R72C5-prix-des-anemones.html",
+        "R72C6-prix-du-col-de-braus.html",
+        "R72C7-prix-du-vieux-port.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:31:31.374077Z"
+}

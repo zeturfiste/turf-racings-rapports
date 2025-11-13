@@ -1,0 +1,114 @@
+{
+  "date": "2006-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-13",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-13/2006-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C1-prix-du-republicain-lorrain.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C2-prix-la-bidouze.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C4-prix-x-de-vregille.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C6-prix-paris-turf.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R1-nancy/R1C8-prix-de-l-est-republicain.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R2-vichy/R2C1-prix-du-republicain-lorrain.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R2-vichy/R2C2-prix-la-bidouze.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R2-vichy/R2C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R2-vichy/R2C4-prix-x-de-vregille.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R2-vichy/R2C6-prix-paris-turf.html",
+      "resultats-et-rapports/2006/09/2006-09-13/R21-zerace/R21C4-prix-x-de-vregille.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nancy",
+      "R2-vichy",
+      "R10-old-trafford-manchester",
+      "R11-aol-arena-hambourg",
+      "R12-constant-vanden-stock-bruxelles",
+      "R13-gerland-lyon",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-nancy": [
+        "R1C1-prix-du-republicain-lorrain.html",
+        "R1C2-prix-la-bidouze.html",
+        "R1C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R1C4-prix-x-de-vregille.html",
+        "R1C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R1C6-prix-paris-turf.html",
+        "R1C7-prix-geny-courses.html",
+        "R1C8-prix-de-l-est-republicain.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-du-republicain-lorrain.html",
+        "R2C2-prix-la-bidouze.html",
+        "R2C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R2C4-prix-x-de-vregille.html",
+        "R2C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R2C6-prix-paris-turf.html",
+        "R2C7-prix-geny-courses.html",
+        "R2C8-prix-de-l-est-republicain.html"
+      ],
+      "R10-old-trafford-manchester": [
+        "R10C1-prix-du-republicain-lorrain.html",
+        "R10C2-prix-la-bidouze.html",
+        "R10C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R10C4-prix-x-de-vregille.html",
+        "R10C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R10C6-prix-paris-turf.html",
+        "R10C7-prix-geny-courses.html",
+        "R10C8-prix-de-l-est-republicain.html"
+      ],
+      "R11-aol-arena-hambourg": [
+        "R11C1-prix-du-republicain-lorrain.html",
+        "R11C2-prix-la-bidouze.html",
+        "R11C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R11C4-prix-x-de-vregille.html",
+        "R11C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R11C6-prix-paris-turf.html",
+        "R11C7-prix-geny-courses.html",
+        "R11C8-prix-de-l-est-republicain.html"
+      ],
+      "R12-constant-vanden-stock-bruxelles": [
+        "R12C1-prix-du-republicain-lorrain.html",
+        "R12C2-prix-la-bidouze.html",
+        "R12C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R12C4-prix-x-de-vregille.html",
+        "R12C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R12C6-prix-paris-turf.html",
+        "R12C7-prix-geny-courses.html",
+        "R12C8-prix-de-l-est-republicain.html"
+      ],
+      "R13-gerland-lyon": [
+        "R13C1-prix-du-republicain-lorrain.html",
+        "R13C2-prix-la-bidouze.html",
+        "R13C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R13C4-prix-x-de-vregille.html",
+        "R13C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R13C6-prix-paris-turf.html",
+        "R13C7-prix-geny-courses.html",
+        "R13C8-prix-de-l-est-republicain.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-republicain-lorrain.html",
+        "R21C2-prix-la-bidouze.html",
+        "R21C3-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R21C4-prix-x-de-vregille.html",
+        "R21C5-prix-du-conseil-general-de-meurthe-et-moselle.html",
+        "R21C6-prix-paris-turf.html",
+        "R21C7-prix-geny-courses.html",
+        "R21C8-prix-de-l-est-republicain.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:28:29.331478Z"
+}

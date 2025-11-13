@@ -1,0 +1,86 @@
+{
+  "date": "2015-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-18",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-18/2015-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-18/R2-caen/R2C1-prix-de-bougival.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R2-caen/R2C7-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R2-caen/R2C8-prix-de-l-horloge.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R2-caen/R2C9-prix-de-l-ile-aux-cygnes.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C3-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C5-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C6-prix-de-bagnolet.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C7-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C8-prix-de-l-horloge.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R3-reims/R3C9-prix-de-l-ile-aux-cygnes.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R4-la-teste-de-buch/R4C1-prix-de-bougival.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R4-la-teste-de-buch/R4C3-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2015/06/2015-06-18/R4-la-teste-de-buch/R4C4-prix-de-l-ile-de-la-cite.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-caen",
+      "R3-reims",
+      "R4-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-bougival.html",
+        "R1C2-prix-du-musee-des-arts-forains.html",
+        "R1C3-prix-de-la-cerisaie.html",
+        "R1C4-prix-de-l-ile-de-la-cite.html",
+        "R1C5-prix-de-l-ile-saint-louis.html",
+        "R1C6-prix-de-bagnolet.html",
+        "R1C7-prix-du-quai-aux-fleurs.html",
+        "R1C8-prix-de-l-horloge.html",
+        "R1C9-prix-de-l-ile-aux-cygnes.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-bougival.html",
+        "R2C2-prix-du-musee-des-arts-forains.html",
+        "R2C3-prix-de-la-cerisaie.html",
+        "R2C4-prix-de-l-ile-de-la-cite.html",
+        "R2C5-prix-de-l-ile-saint-louis.html",
+        "R2C6-prix-de-bagnolet.html",
+        "R2C7-prix-du-quai-aux-fleurs.html",
+        "R2C8-prix-de-l-horloge.html",
+        "R2C9-prix-de-l-ile-aux-cygnes.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-de-bougival.html",
+        "R3C2-prix-du-musee-des-arts-forains.html",
+        "R3C3-prix-de-la-cerisaie.html",
+        "R3C4-prix-de-l-ile-de-la-cite.html",
+        "R3C5-prix-de-l-ile-saint-louis.html",
+        "R3C6-prix-de-bagnolet.html",
+        "R3C7-prix-du-quai-aux-fleurs.html",
+        "R3C8-prix-de-l-horloge.html",
+        "R3C9-prix-de-l-ile-aux-cygnes.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-de-bougival.html",
+        "R4C2-prix-du-musee-des-arts-forains.html",
+        "R4C3-prix-de-la-cerisaie.html",
+        "R4C4-prix-de-l-ile-de-la-cite.html",
+        "R4C5-prix-de-l-ile-saint-louis.html",
+        "R4C6-prix-de-bagnolet.html",
+        "R4C7-prix-du-quai-aux-fleurs.html",
+        "R4C8-prix-de-l-horloge.html",
+        "R4C9-prix-de-l-ile-aux-cygnes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:47:17.999652Z"
+}

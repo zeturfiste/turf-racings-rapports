@@ -1,0 +1,78 @@
+{
+  "date": "2023-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-13",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-13/2023-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C4-prix-de-savigny-sur-braye.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C6-prix-de-laval.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C7-prix-de-meslay-du-maine.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R1-angers/R1C8-prix-d-ecommoy.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C3-prix-de-meral.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C4-prix-de-savigny-sur-braye.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C6-prix-de-laval.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C7-prix-de-meslay-du-maine.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R3-chantilly/R3C8-prix-d-ecommoy.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C2-prix-jacques-dy.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C3-prix-de-meral.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C6-prix-de-laval.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C7-prix-de-meslay-du-maine.html",
+      "resultats-et-rapports/2023/09/2023-09-13/R4-reims/R4C8-prix-d-ecommoy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-chantilly",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-jacques-dy.html",
+        "R1C3-prix-de-meral.html",
+        "R1C4-prix-de-savigny-sur-braye.html",
+        "R1C5-prix-de-la-roche-posay.html",
+        "R1C6-prix-de-laval.html",
+        "R1C7-prix-de-meslay-du-maine.html",
+        "R1C8-prix-d-ecommoy.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-jacques-dy.html",
+        "R3C3-prix-de-meral.html",
+        "R3C4-prix-de-savigny-sur-braye.html",
+        "R3C5-prix-de-la-roche-posay.html",
+        "R3C6-prix-de-laval.html",
+        "R3C7-prix-de-meslay-du-maine.html",
+        "R3C8-prix-d-ecommoy.html"
+      ],
+      "R4-reims": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-jacques-dy.html",
+        "R4C3-prix-de-meral.html",
+        "R4C4-prix-de-savigny-sur-braye.html",
+        "R4C5-prix-de-la-roche-posay.html",
+        "R4C6-prix-de-laval.html",
+        "R4C7-prix-de-meslay-du-maine.html",
+        "R4C8-prix-d-ecommoy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:17.977680Z"
+}

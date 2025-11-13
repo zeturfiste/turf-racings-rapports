@@ -1,0 +1,91 @@
+{
+  "date": "2025-07-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-06",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-06/2025-07-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-06/R3-la-capelle/R3C5-prix-jean-prat.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R3-la-capelle/R3C8-prix-de-la-lorette.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R4-carentan/R4C7-prix-de-la-fontaine-morny.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R5-laval/R5C1-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R5-laval/R5C3-prix-de-la-place-morny.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R5-laval/R5C7-prix-de-la-fontaine-morny.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R5-laval/R5C8-prix-de-la-lorette.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R9-pompadour/R9C4-darley-prix-amandine.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R9-pompadour/R9C6-prix-goldikova.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R9-pompadour/R9C7-prix-de-la-fontaine-morny.html",
+      "resultats-et-rapports/2025/07/2025-07-06/R9-pompadour/R9C8-prix-de-la-lorette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-la-capelle",
+      "R4-carentan",
+      "R5-laval",
+      "R9-pompadour"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-roland-de-chambure.html",
+        "R1C2-singapore-pools-prix-de-ris-orangis.html",
+        "R1C3-prix-de-la-place-morny.html",
+        "R1C4-darley-prix-amandine.html",
+        "R1C5-prix-jean-prat.html",
+        "R1C6-prix-goldikova.html",
+        "R1C7-prix-de-la-fontaine-morny.html",
+        "R1C8-prix-de-la-lorette.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-roland-de-chambure.html",
+        "R3C2-singapore-pools-prix-de-ris-orangis.html",
+        "R3C3-prix-de-la-place-morny.html",
+        "R3C4-darley-prix-amandine.html",
+        "R3C5-prix-jean-prat.html",
+        "R3C6-prix-goldikova.html",
+        "R3C7-prix-de-la-fontaine-morny.html",
+        "R3C8-prix-de-la-lorette.html"
+      ],
+      "R4-carentan": [
+        "R4C1-prix-roland-de-chambure.html",
+        "R4C2-singapore-pools-prix-de-ris-orangis.html",
+        "R4C3-prix-de-la-place-morny.html",
+        "R4C4-darley-prix-amandine.html",
+        "R4C5-prix-jean-prat.html",
+        "R4C6-prix-goldikova.html",
+        "R4C7-prix-de-la-fontaine-morny.html",
+        "R4C8-prix-de-la-lorette.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-roland-de-chambure.html",
+        "R5C2-singapore-pools-prix-de-ris-orangis.html",
+        "R5C3-prix-de-la-place-morny.html",
+        "R5C4-darley-prix-amandine.html",
+        "R5C5-prix-jean-prat.html",
+        "R5C6-prix-goldikova.html",
+        "R5C7-prix-de-la-fontaine-morny.html",
+        "R5C8-prix-de-la-lorette.html"
+      ],
+      "R9-pompadour": [
+        "R9C1-prix-roland-de-chambure.html",
+        "R9C2-singapore-pools-prix-de-ris-orangis.html",
+        "R9C3-prix-de-la-place-morny.html",
+        "R9C4-darley-prix-amandine.html",
+        "R9C5-prix-jean-prat.html",
+        "R9C6-prix-goldikova.html",
+        "R9C7-prix-de-la-fontaine-morny.html",
+        "R9C8-prix-de-la-lorette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:14.276551Z"
+}

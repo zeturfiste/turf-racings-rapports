@@ -1,0 +1,70 @@
+{
+  "date": "2025-01-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-16",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-16/2025-01-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-16/R1-vincennes/R1C1-prix-d-erbray.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R1-vincennes/R1C2-prix-de-juvisy.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R1-vincennes/R1C3-prix-louis-cussinet.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R1-vincennes/R1C4-prix-de-biarritz.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R1-vincennes/R1C7-prix-de-la-ferte-bernard.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R3-chantilly/R3C5-prix-jean-pierre-reynaldo.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C3-prix-louis-cussinet.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C4-prix-de-biarritz.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C5-prix-jean-pierre-reynaldo.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C6-prix-de-cantin.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C7-prix-de-la-ferte-bernard.html",
+      "resultats-et-rapports/2025/01/2025-01-16/R4-toulouse/R4C8-prix-de-bernay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-erbray.html",
+        "R1C2-prix-de-juvisy.html",
+        "R1C3-prix-louis-cussinet.html",
+        "R1C4-prix-de-biarritz.html",
+        "R1C5-prix-jean-pierre-reynaldo.html",
+        "R1C6-prix-de-cantin.html",
+        "R1C7-prix-de-la-ferte-bernard.html",
+        "R1C8-prix-de-bernay.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-d-erbray.html",
+        "R3C2-prix-de-juvisy.html",
+        "R3C3-prix-louis-cussinet.html",
+        "R3C4-prix-de-biarritz.html",
+        "R3C5-prix-jean-pierre-reynaldo.html",
+        "R3C6-prix-de-cantin.html",
+        "R3C7-prix-de-la-ferte-bernard.html",
+        "R3C8-prix-de-bernay.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-d-erbray.html",
+        "R4C2-prix-de-juvisy.html",
+        "R4C3-prix-louis-cussinet.html",
+        "R4C4-prix-de-biarritz.html",
+        "R4C5-prix-jean-pierre-reynaldo.html",
+        "R4C6-prix-de-cantin.html",
+        "R4C7-prix-de-la-ferte-bernard.html",
+        "R4C8-prix-de-bernay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:12.958858Z"
+}

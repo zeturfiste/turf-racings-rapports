@@ -1,0 +1,48 @@
+{
+  "date": "2005-05-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-21",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-21/2005-05-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-des-petrons.html",
+        "R1C2-prix-de-fromainville.html",
+        "R1C3-prix-des-boucles-de-la-seine.html",
+        "R1C4-prix-d-acheres.html",
+        "R1C5-prix-de-carrieres-sous-bois.html",
+        "R1C6-prix-des-loges.html",
+        "R1C7-curragh-irish-2000-guineas.html",
+        "R1C8-prix-de-montesson.html",
+        "R1C9-prix-des-falaises-de-craies.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-des-petrons.html",
+        "R2C2-prix-de-fromainville.html",
+        "R2C3-prix-des-boucles-de-la-seine.html",
+        "R2C4-prix-d-acheres.html",
+        "R2C5-prix-de-carrieres-sous-bois.html",
+        "R2C6-prix-des-loges.html",
+        "R2C7-curragh-irish-2000-guineas.html",
+        "R2C8-prix-de-montesson.html",
+        "R2C9-prix-des-falaises-de-craies.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:54.690156Z"
+}

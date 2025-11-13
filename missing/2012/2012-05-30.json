@@ -1,0 +1,67 @@
+{
+  "date": "2012-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-30",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-30/2012-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-30/R1-chantilly/R1C7-prix-aly-khan.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R1-chantilly/R1C8-prix-de-versigny.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R2-caen/R2C1-prix-de-roissy.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R2-caen/R2C3-prix-de-la-croix-marquet.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R2-caen/R2C4-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R2-caen/R2C5-prix-du-sagittaire.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R2-caen/R2C7-prix-aly-khan.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R3-nancy/R3C3-prix-de-la-croix-marquet.html",
+      "resultats-et-rapports/2012/05/2012-05-30/R3-nancy/R3C4-prix-des-cotes-d-orleans.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-caen",
+      "R3-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-roissy.html",
+        "R1C2-prix-de-la-croix-saint-rieul.html",
+        "R1C3-prix-de-la-croix-marquet.html",
+        "R1C4-prix-des-cotes-d-orleans.html",
+        "R1C5-prix-du-sagittaire.html",
+        "R1C6-prix-de-magdeleine.html",
+        "R1C7-prix-aly-khan.html",
+        "R1C8-prix-de-versigny.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-roissy.html",
+        "R2C2-prix-de-la-croix-saint-rieul.html",
+        "R2C3-prix-de-la-croix-marquet.html",
+        "R2C4-prix-des-cotes-d-orleans.html",
+        "R2C5-prix-du-sagittaire.html",
+        "R2C6-prix-de-magdeleine.html",
+        "R2C7-prix-aly-khan.html",
+        "R2C8-prix-de-versigny.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-de-roissy.html",
+        "R3C2-prix-de-la-croix-saint-rieul.html",
+        "R3C3-prix-de-la-croix-marquet.html",
+        "R3C4-prix-des-cotes-d-orleans.html",
+        "R3C5-prix-du-sagittaire.html",
+        "R3C6-prix-de-magdeleine.html",
+        "R3C7-prix-aly-khan.html",
+        "R3C8-prix-de-versigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:41:48.547890Z"
+}

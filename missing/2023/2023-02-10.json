@@ -1,0 +1,76 @@
+{
+  "date": "2023-02-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/02/2023-02-10",
+    "date_html": "resultats-et-rapports/2023/02/2023-02-10/2023-02-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/02/2023-02-10/R1-vincennes/R1C5-prix-de-juvigny.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R3-argentan/R3C6-prix-jacques-orliaguet.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R4-deauville/R4C2-prix-maurice-et-jerome-bernardet-prix-d-anet.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R4-deauville/R4C5-prix-de-juvigny.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R4-deauville/R4C6-prix-jacques-orliaguet.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R4-deauville/R4C7-prix-guy-lux-et-leon-zitrone-prix-de-la-nievre.html",
+      "resultats-et-rapports/2023/02/2023-02-10/R4-deauville/R4C8-prix-dominique-savary-prix-de-ramatuelle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-lyon-la-soie",
+      "R3-argentan",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-andre-theron.html",
+        "R1C2-prix-maurice-et-jerome-bernardet-prix-d-anet.html",
+        "R1C3-prix-gerard-brami-prix-de-louviers.html",
+        "R1C4-prix-jean-paul-bertrand-prix-de-bourges.html",
+        "R1C5-prix-de-juvigny.html",
+        "R1C6-prix-jacques-orliaguet.html",
+        "R1C7-prix-guy-lux-et-leon-zitrone-prix-de-la-nievre.html",
+        "R1C8-prix-dominique-savary-prix-de-ramatuelle.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-andre-theron.html",
+        "R2C2-prix-maurice-et-jerome-bernardet-prix-d-anet.html",
+        "R2C3-prix-gerard-brami-prix-de-louviers.html",
+        "R2C4-prix-jean-paul-bertrand-prix-de-bourges.html",
+        "R2C5-prix-de-juvigny.html",
+        "R2C6-prix-jacques-orliaguet.html",
+        "R2C7-prix-guy-lux-et-leon-zitrone-prix-de-la-nievre.html",
+        "R2C8-prix-dominique-savary-prix-de-ramatuelle.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-andre-theron.html",
+        "R3C2-prix-maurice-et-jerome-bernardet-prix-d-anet.html",
+        "R3C3-prix-gerard-brami-prix-de-louviers.html",
+        "R3C4-prix-jean-paul-bertrand-prix-de-bourges.html",
+        "R3C5-prix-de-juvigny.html",
+        "R3C6-prix-jacques-orliaguet.html",
+        "R3C7-prix-guy-lux-et-leon-zitrone-prix-de-la-nievre.html",
+        "R3C8-prix-dominique-savary-prix-de-ramatuelle.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-andre-theron.html",
+        "R4C2-prix-maurice-et-jerome-bernardet-prix-d-anet.html",
+        "R4C3-prix-gerard-brami-prix-de-louviers.html",
+        "R4C4-prix-jean-paul-bertrand-prix-de-bourges.html",
+        "R4C5-prix-de-juvigny.html",
+        "R4C6-prix-jacques-orliaguet.html",
+        "R4C7-prix-guy-lux-et-leon-zitrone-prix-de-la-nievre.html",
+        "R4C8-prix-dominique-savary-prix-de-ramatuelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:00.303489Z"
+}

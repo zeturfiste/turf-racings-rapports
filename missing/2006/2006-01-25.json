@@ -1,0 +1,44 @@
+{
+  "date": "2006-01-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/01/2006-01-25",
+    "date_html": "resultats-et-rapports/2006/01/2006-01-25/2006-01-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-charles-gastaud.html",
+        "R1C2-prix-des-citronniers.html",
+        "R1C3-prix-de-cabries.html",
+        "R1C4-prix-des-mimosas.html",
+        "R1C5-prix-de-la-madeleine.html",
+        "R1C6-prix-de-tunis-kassar-said.html",
+        "R1C7-prix-firouzan.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-charles-gastaud.html",
+        "R2C2-prix-des-citronniers.html",
+        "R2C3-prix-de-cabries.html",
+        "R2C4-prix-des-mimosas.html",
+        "R2C5-prix-de-la-madeleine.html",
+        "R2C6-prix-de-tunis-kassar-said.html",
+        "R2C7-prix-firouzan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:36.317553Z"
+}

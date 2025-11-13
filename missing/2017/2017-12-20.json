@@ -1,0 +1,76 @@
+{
+  "date": "2017-12-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-20",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-20/2017-12-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-20/R1-pau/R1C1-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R1-pau/R1C2-prix-de-monein.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R1-pau/R1C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R1-pau/R1C5-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R1-pau/R1C7-prix-de-lembeye.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R4-vincennes/R4C2-prix-de-monein.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R4-vincennes/R4C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R4-vincennes/R4C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C2-prix-de-monein.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C5-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C6-prix-de-meillon.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C7-prix-de-lembeye.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C8-prix-d-arudy.html",
+      "resultats-et-rapports/2017/12/2017-12-20/R5-cagnes-sur-mer/R5C9-prix-de-bielle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R4-vincennes",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-saint-vincent.html",
+        "R1C2-prix-de-monein.html",
+        "R1C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R1C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+        "R1C5-prix-jean-lamaysouette.html",
+        "R1C6-prix-de-meillon.html",
+        "R1C7-prix-de-lembeye.html",
+        "R1C8-prix-d-arudy.html",
+        "R1C9-prix-de-bielle.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-saint-vincent.html",
+        "R4C2-prix-de-monein.html",
+        "R4C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R4C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+        "R4C5-prix-jean-lamaysouette.html",
+        "R4C6-prix-de-meillon.html",
+        "R4C7-prix-de-lembeye.html",
+        "R4C8-prix-d-arudy.html",
+        "R4C9-prix-de-bielle.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-saint-vincent.html",
+        "R5C2-prix-de-monein.html",
+        "R5C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R5C4-prix-cluster-so-horse-alliances-prix-de-bordes.html",
+        "R5C5-prix-jean-lamaysouette.html",
+        "R5C6-prix-de-meillon.html",
+        "R5C7-prix-de-lembeye.html",
+        "R5C8-prix-d-arudy.html",
+        "R5C9-prix-de-bielle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:56.531572Z"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2005-07-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-05",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-05/2005-07-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-journal-le-pays-d-auge.html",
+        "R1C2-prix-de-caen.html",
+        "R1C3-prix-d-englesqueville.html",
+        "R1C4-prix-de-martinvast.html",
+        "R1C5-prix-de-cayras.html",
+        "R1C6-newmarket-falmouth-stakes.html",
+        "R1C7-prix-des-monceaux.html",
+        "R1C8-prix-de-branville.html",
+        "R1C9-prix-de-canapville.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-journal-le-pays-d-auge.html",
+        "R2C2-prix-de-caen.html",
+        "R2C3-prix-d-englesqueville.html",
+        "R2C4-prix-de-martinvast.html",
+        "R2C5-prix-de-cayras.html",
+        "R2C6-newmarket-falmouth-stakes.html",
+        "R2C7-prix-des-monceaux.html",
+        "R2C8-prix-de-branville.html",
+        "R2C9-prix-de-canapville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:01.434831Z"
+}

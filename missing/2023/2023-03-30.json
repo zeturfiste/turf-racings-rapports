@@ -1,0 +1,64 @@
+{
+  "date": "2023-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/03/2023-03-30",
+    "date_html": "resultats-et-rapports/2023/03/2023-03-30/2023-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/03/2023-03-30/R1-chantilly/R1C6-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2023/03/2023-03-30/R1-chantilly/R1C7-prix-de-la-route-manon.html",
+      "resultats-et-rapports/2023/03/2023-03-30/R1-chantilly/R1C8-prix-de-la-fabrique-de-l-extravagance.html",
+      "resultats-et-rapports/2023/03/2023-03-30/R4-lyon-la-soie/R4C6-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2023/03/2023-03-30/R4-lyon-la-soie/R4C7-prix-de-la-route-manon.html",
+      "resultats-et-rapports/2023/03/2023-03-30/R4-lyon-la-soie/R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-journee-des-plantes.html",
+        "R1C2-prix-de-l-allee-janvier.html",
+        "R1C3-prix-le-sancy.html",
+        "R1C4-prix-de-la-fu-madame.html",
+        "R1C5-prix-de-l-allee-elf.html",
+        "R1C6-prix-du-haras-au-bois.html",
+        "R1C7-prix-de-la-route-manon.html",
+        "R1C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-la-journee-des-plantes.html",
+        "R3C2-prix-de-l-allee-janvier.html",
+        "R3C3-prix-le-sancy.html",
+        "R3C4-prix-de-la-fu-madame.html",
+        "R3C5-prix-de-l-allee-elf.html",
+        "R3C6-prix-du-haras-au-bois.html",
+        "R3C7-prix-de-la-route-manon.html",
+        "R3C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-la-journee-des-plantes.html",
+        "R4C2-prix-de-l-allee-janvier.html",
+        "R4C3-prix-le-sancy.html",
+        "R4C4-prix-de-la-fu-madame.html",
+        "R4C5-prix-de-l-allee-elf.html",
+        "R4C6-prix-du-haras-au-bois.html",
+        "R4C7-prix-de-la-route-manon.html",
+        "R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:02:16.045869Z"
+}

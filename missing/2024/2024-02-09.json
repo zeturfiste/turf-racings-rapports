@@ -1,0 +1,88 @@
+{
+  "date": "2024-02-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-09",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-09/2024-02-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-09/R1-vincennes/R1C2-prix-gerard-brami.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R1-vincennes/R1C5-prix-jean-paul-bertrand.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R1-vincennes/R1C7-prix-andre-theron.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R1-vincennes/R1C8-prix-guy-lux-et-leon-zitrone.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R3-argentan/R3C1-prix-jacques-orliaguet.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R3-argentan/R3C2-prix-gerard-brami.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R3-argentan/R3C3-prix-maurice-et-jerome-bernardet.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R3-argentan/R3C4-prix-dominique-savary.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R4-chantilly/R4C3-prix-maurice-et-jerome-bernardet.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R4-chantilly/R4C6-prix-de-juvigny.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R4-chantilly/R4C7-prix-andre-theron.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R4-chantilly/R4C8-prix-guy-lux-et-leon-zitrone.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C2-prix-gerard-brami.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C3-prix-maurice-et-jerome-bernardet.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C4-prix-dominique-savary.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C5-prix-jean-paul-bertrand.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C6-prix-de-juvigny.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C7-prix-andre-theron.html",
+      "resultats-et-rapports/2024/02/2024-02-09/R5-pornichet-la-baule/R5C8-prix-guy-lux-et-leon-zitrone.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-argentan",
+      "R4-chantilly",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-jacques-orliaguet.html",
+        "R1C2-prix-gerard-brami.html",
+        "R1C3-prix-maurice-et-jerome-bernardet.html",
+        "R1C4-prix-dominique-savary.html",
+        "R1C5-prix-jean-paul-bertrand.html",
+        "R1C6-prix-de-juvigny.html",
+        "R1C7-prix-andre-theron.html",
+        "R1C8-prix-guy-lux-et-leon-zitrone.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-jacques-orliaguet.html",
+        "R3C2-prix-gerard-brami.html",
+        "R3C3-prix-maurice-et-jerome-bernardet.html",
+        "R3C4-prix-dominique-savary.html",
+        "R3C5-prix-jean-paul-bertrand.html",
+        "R3C6-prix-de-juvigny.html",
+        "R3C7-prix-andre-theron.html",
+        "R3C8-prix-guy-lux-et-leon-zitrone.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-jacques-orliaguet.html",
+        "R4C2-prix-gerard-brami.html",
+        "R4C3-prix-maurice-et-jerome-bernardet.html",
+        "R4C4-prix-dominique-savary.html",
+        "R4C5-prix-jean-paul-bertrand.html",
+        "R4C6-prix-de-juvigny.html",
+        "R4C7-prix-andre-theron.html",
+        "R4C8-prix-guy-lux-et-leon-zitrone.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-jacques-orliaguet.html",
+        "R5C2-prix-gerard-brami.html",
+        "R5C3-prix-maurice-et-jerome-bernardet.html",
+        "R5C4-prix-dominique-savary.html",
+        "R5C5-prix-jean-paul-bertrand.html",
+        "R5C6-prix-de-juvigny.html",
+        "R5C7-prix-andre-theron.html",
+        "R5C8-prix-guy-lux-et-leon-zitrone.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:09.432222Z"
+}

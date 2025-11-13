@@ -1,0 +1,54 @@
+{
+  "date": "2006-03-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-31",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-31/2006-03-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-marseille-vivaux",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-saint-germain-en-laye.html",
+        "R1C2-prix-le-sancy.html",
+        "R1C3-prix-gyges.html",
+        "R1C4-prix-du-castel.html",
+        "R1C5-prix-roger-de-la-vaissiere.html",
+        "R1C6-prix-de-la-mayenne.html",
+        "R1C7-prix-d-estimauville.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-de-saint-germain-en-laye.html",
+        "R2C2-prix-le-sancy.html",
+        "R2C3-prix-gyges.html",
+        "R2C4-prix-du-castel.html",
+        "R2C5-prix-roger-de-la-vaissiere.html",
+        "R2C6-prix-de-la-mayenne.html",
+        "R2C7-prix-d-estimauville.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-saint-germain-en-laye.html",
+        "R3C2-prix-le-sancy.html",
+        "R3C3-prix-gyges.html",
+        "R3C4-prix-du-castel.html",
+        "R3C5-prix-roger-de-la-vaissiere.html",
+        "R3C6-prix-de-la-mayenne.html",
+        "R3C7-prix-d-estimauville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:47.525454Z"
+}

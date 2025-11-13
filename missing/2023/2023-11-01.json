@@ -1,0 +1,142 @@
+{
+  "date": "2023-11-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-01",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-01/2023-11-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-01/R3-nantes/R3C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R4-le-croise-laroche/R4C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R4-le-croise-laroche/R4C4-prix-credit-agricole-anjou-maine.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R4-le-croise-laroche/R4C6-prix-annick-et-georges-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R4-le-croise-laroche/R4C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R4-le-croise-laroche/R4C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R7-lyon-la-soie/R7C1-prix-paristurf.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R7-lyon-la-soie/R7C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C1-prix-paristurf.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C4-prix-credit-agricole-anjou-maine.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C5-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C6-prix-annick-et-georges-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C8-prix-president-professionnel.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R8-lisieux/R8C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C1-prix-paristurf.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C4-prix-credit-agricole-anjou-maine.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C5-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C6-prix-annick-et-georges-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C8-prix-president-professionnel.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R9-beaumont-de-lomagne/R9C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C1-prix-paristurf.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C4-prix-credit-agricole-anjou-maine.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C5-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C6-prix-annick-et-georges-dreux.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C8-prix-president-professionnel.html",
+      "resultats-et-rapports/2023/11/2023-11-01/R10-reims/R10C9-prix-georges-porcher.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-nantes",
+      "R4-le-croise-laroche",
+      "R7-lyon-la-soie",
+      "R8-lisieux",
+      "R9-beaumont-de-lomagne",
+      "R10-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-paristurf.html",
+        "R1C2-prix-moet-chandon.html",
+        "R1C3-grand-prix-de-la-ville-de-laval.html",
+        "R1C4-prix-credit-agricole-anjou-maine.html",
+        "R1C5-prix-andre-louis-dreux.html",
+        "R1C6-prix-annick-et-georges-dreux.html",
+        "R1C7-grand-prix-andre-de-la-vaissiere.html",
+        "R1C8-prix-president-professionnel.html",
+        "R1C9-prix-georges-porcher.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-paristurf.html",
+        "R3C2-prix-moet-chandon.html",
+        "R3C3-grand-prix-de-la-ville-de-laval.html",
+        "R3C4-prix-credit-agricole-anjou-maine.html",
+        "R3C5-prix-andre-louis-dreux.html",
+        "R3C6-prix-annick-et-georges-dreux.html",
+        "R3C7-grand-prix-andre-de-la-vaissiere.html",
+        "R3C8-prix-president-professionnel.html",
+        "R3C9-prix-georges-porcher.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-paristurf.html",
+        "R4C2-prix-moet-chandon.html",
+        "R4C3-grand-prix-de-la-ville-de-laval.html",
+        "R4C4-prix-credit-agricole-anjou-maine.html",
+        "R4C5-prix-andre-louis-dreux.html",
+        "R4C6-prix-annick-et-georges-dreux.html",
+        "R4C7-grand-prix-andre-de-la-vaissiere.html",
+        "R4C8-prix-president-professionnel.html",
+        "R4C9-prix-georges-porcher.html"
+      ],
+      "R7-lyon-la-soie": [
+        "R7C1-prix-paristurf.html",
+        "R7C2-prix-moet-chandon.html",
+        "R7C3-grand-prix-de-la-ville-de-laval.html",
+        "R7C4-prix-credit-agricole-anjou-maine.html",
+        "R7C5-prix-andre-louis-dreux.html",
+        "R7C6-prix-annick-et-georges-dreux.html",
+        "R7C7-grand-prix-andre-de-la-vaissiere.html",
+        "R7C8-prix-president-professionnel.html",
+        "R7C9-prix-georges-porcher.html"
+      ],
+      "R8-lisieux": [
+        "R8C1-prix-paristurf.html",
+        "R8C2-prix-moet-chandon.html",
+        "R8C3-grand-prix-de-la-ville-de-laval.html",
+        "R8C4-prix-credit-agricole-anjou-maine.html",
+        "R8C5-prix-andre-louis-dreux.html",
+        "R8C6-prix-annick-et-georges-dreux.html",
+        "R8C7-grand-prix-andre-de-la-vaissiere.html",
+        "R8C8-prix-president-professionnel.html",
+        "R8C9-prix-georges-porcher.html"
+      ],
+      "R9-beaumont-de-lomagne": [
+        "R9C1-prix-paristurf.html",
+        "R9C2-prix-moet-chandon.html",
+        "R9C3-grand-prix-de-la-ville-de-laval.html",
+        "R9C4-prix-credit-agricole-anjou-maine.html",
+        "R9C5-prix-andre-louis-dreux.html",
+        "R9C6-prix-annick-et-georges-dreux.html",
+        "R9C7-grand-prix-andre-de-la-vaissiere.html",
+        "R9C8-prix-president-professionnel.html",
+        "R9C9-prix-georges-porcher.html"
+      ],
+      "R10-reims": [
+        "R10C1-prix-paristurf.html",
+        "R10C2-prix-moet-chandon.html",
+        "R10C3-grand-prix-de-la-ville-de-laval.html",
+        "R10C4-prix-credit-agricole-anjou-maine.html",
+        "R10C5-prix-andre-louis-dreux.html",
+        "R10C6-prix-annick-et-georges-dreux.html",
+        "R10C7-grand-prix-andre-de-la-vaissiere.html",
+        "R10C8-prix-president-professionnel.html",
+        "R10C9-prix-georges-porcher.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:03:35.769175Z"
+}

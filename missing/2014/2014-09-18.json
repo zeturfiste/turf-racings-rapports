@@ -1,0 +1,82 @@
+{
+  "date": "2014-09-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-18",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-18/2014-09-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-18/R2-nancy/R2C5-prix-de-taverny.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R2-nancy/R2C6-prix-gaston-roussel.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R2-nancy/R2C7-prix-de-mehun-sur-yevre.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C1-prix-de-montmorillon.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C3-prix-bernard-le-quellec.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C5-prix-de-taverny.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C6-prix-gaston-roussel.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C7-prix-de-mehun-sur-yevre.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R3-marseille-borely/R3C8-prix-de-givors.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R4-saint-cloud/R4C1-prix-de-montmorillon.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R4-saint-cloud/R4C3-prix-bernard-le-quellec.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R4-saint-cloud/R4C7-prix-de-mehun-sur-yevre.html",
+      "resultats-et-rapports/2014/09/2014-09-18/R4-saint-cloud/R4C8-prix-de-givors.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nancy",
+      "R3-marseille-borely",
+      "R4-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montmorillon.html",
+        "R1C2-prix-de-gaillon.html",
+        "R1C3-prix-bernard-le-quellec.html",
+        "R1C4-prix-de-narbonne.html",
+        "R1C5-prix-de-taverny.html",
+        "R1C6-prix-gaston-roussel.html",
+        "R1C7-prix-de-mehun-sur-yevre.html",
+        "R1C8-prix-de-givors.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-de-montmorillon.html",
+        "R2C2-prix-de-gaillon.html",
+        "R2C3-prix-bernard-le-quellec.html",
+        "R2C4-prix-de-narbonne.html",
+        "R2C5-prix-de-taverny.html",
+        "R2C6-prix-gaston-roussel.html",
+        "R2C7-prix-de-mehun-sur-yevre.html",
+        "R2C8-prix-de-givors.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-montmorillon.html",
+        "R3C2-prix-de-gaillon.html",
+        "R3C3-prix-bernard-le-quellec.html",
+        "R3C4-prix-de-narbonne.html",
+        "R3C5-prix-de-taverny.html",
+        "R3C6-prix-gaston-roussel.html",
+        "R3C7-prix-de-mehun-sur-yevre.html",
+        "R3C8-prix-de-givors.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-de-montmorillon.html",
+        "R4C2-prix-de-gaillon.html",
+        "R4C3-prix-bernard-le-quellec.html",
+        "R4C4-prix-de-narbonne.html",
+        "R4C5-prix-de-taverny.html",
+        "R4C6-prix-gaston-roussel.html",
+        "R4C7-prix-de-mehun-sur-yevre.html",
+        "R4C8-prix-de-givors.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:55.932499Z"
+}

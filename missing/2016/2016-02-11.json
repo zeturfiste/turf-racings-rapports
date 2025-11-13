@@ -1,0 +1,46 @@
+{
+  "date": "2016-02-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-11",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-11/2016-02-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-guy-lux.html",
+        "R1C2-prix-gerard-brami.html",
+        "R1C3-prix-leon-zitrone.html",
+        "R1C4-prix-andre-theron.html",
+        "R1C5-prix-dominique-savary.html",
+        "R1C6-prix-jacques-orliaguet.html",
+        "R1C7-prix-jean-le-gonidec.html",
+        "R1C8-prix-maurice-bernardet.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-guy-lux.html",
+        "R3C2-prix-gerard-brami.html",
+        "R3C3-prix-leon-zitrone.html",
+        "R3C4-prix-andre-theron.html",
+        "R3C5-prix-dominique-savary.html",
+        "R3C6-prix-jacques-orliaguet.html",
+        "R3C7-prix-jean-le-gonidec.html",
+        "R3C8-prix-maurice-bernardet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:48:27.349139Z"
+}

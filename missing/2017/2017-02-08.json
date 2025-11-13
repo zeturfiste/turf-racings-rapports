@@ -1,0 +1,48 @@
+{
+  "date": "2017-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/02/2017-02-08",
+    "date_html": "resultats-et-rapports/2017/02/2017-02-08/2017-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-douvres.html",
+        "R1C2-prix-de-l-ille-et-vilaine.html",
+        "R1C3-prix-de-bourg-en-bresse.html",
+        "R1C4-prix-de-rozay-en-brie.html",
+        "R1C5-prix-de-vibraye.html",
+        "R1C6-prix-henri-hellard.html",
+        "R1C7-prix-de-montlucon-groupe-a.html",
+        "R1C8-prix-de-montlucon-groupe-b.html",
+        "R1C9-prix-de-perigueux.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-douvres.html",
+        "R4C2-prix-de-l-ille-et-vilaine.html",
+        "R4C3-prix-de-bourg-en-bresse.html",
+        "R4C4-prix-de-rozay-en-brie.html",
+        "R4C5-prix-de-vibraye.html",
+        "R4C6-prix-henri-hellard.html",
+        "R4C7-prix-de-montlucon-groupe-a.html",
+        "R4C8-prix-de-montlucon-groupe-b.html",
+        "R4C9-prix-de-perigueux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:18.001515Z"
+}

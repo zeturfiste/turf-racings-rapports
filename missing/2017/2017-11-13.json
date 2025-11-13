@@ -1,0 +1,91 @@
+{
+  "date": "2017-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-13",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-13/2017-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-13/R1-vincennes/R1C2-prix-du-languedoc.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R1-vincennes/R1C3-prix-louis-tillaye.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R1-vincennes/R1C4-prix-atlantic.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R1-vincennes/R1C5-prix-de-bacqueville.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R4-cabourg/R4C1-prix-d-hiesville.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R4-cabourg/R4C3-prix-louis-tillaye.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R4-cabourg/R4C5-prix-de-bacqueville.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R4-cabourg/R4C7-prix-de-colombes.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R4-cabourg/R4C8-prix-de-beauvais.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C1-prix-d-hiesville.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C2-prix-du-languedoc.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C3-prix-louis-tillaye.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C4-prix-atlantic.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C5-prix-de-bacqueville.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C6-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C7-prix-de-colombes.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C8-prix-de-beauvais.html",
+      "resultats-et-rapports/2017/11/2017-11-13/R6-le-croise-laroche/R6C9-prix-d-argentan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-cabourg",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-hiesville.html",
+        "R1C2-prix-du-languedoc.html",
+        "R1C3-prix-louis-tillaye.html",
+        "R1C4-prix-atlantic.html",
+        "R1C5-prix-de-bacqueville.html",
+        "R1C6-prix-de-castelsarrasin.html",
+        "R1C7-prix-de-colombes.html",
+        "R1C8-prix-de-beauvais.html",
+        "R1C9-prix-d-argentan.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-d-hiesville.html",
+        "R3C2-prix-du-languedoc.html",
+        "R3C3-prix-louis-tillaye.html",
+        "R3C4-prix-atlantic.html",
+        "R3C5-prix-de-bacqueville.html",
+        "R3C6-prix-de-castelsarrasin.html",
+        "R3C7-prix-de-colombes.html",
+        "R3C8-prix-de-beauvais.html",
+        "R3C9-prix-d-argentan.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-d-hiesville.html",
+        "R4C2-prix-du-languedoc.html",
+        "R4C3-prix-louis-tillaye.html",
+        "R4C4-prix-atlantic.html",
+        "R4C5-prix-de-bacqueville.html",
+        "R4C6-prix-de-castelsarrasin.html",
+        "R4C7-prix-de-colombes.html",
+        "R4C8-prix-de-beauvais.html",
+        "R4C9-prix-d-argentan.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-d-hiesville.html",
+        "R6C2-prix-du-languedoc.html",
+        "R6C3-prix-louis-tillaye.html",
+        "R6C4-prix-atlantic.html",
+        "R6C5-prix-de-bacqueville.html",
+        "R6C6-prix-de-castelsarrasin.html",
+        "R6C7-prix-de-colombes.html",
+        "R6C8-prix-de-beauvais.html",
+        "R6C9-prix-d-argentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:46.013151Z"
+}

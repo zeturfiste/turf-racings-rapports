@@ -1,0 +1,89 @@
+{
+  "date": "2021-12-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-07",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-07/2021-12-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-07/R1-chantilly/R1C2-prix-de-la-piste-sea-bird.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R1-chantilly/R1C6-prix-de-la-piste-des-lions.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R3-vincennes/R3C1-prix-de-l-arbre-de-noel.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R3-vincennes/R3C7-prix-magdelene.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R3-vincennes/R3C8-prix-du-carrefour-des-marchands-de-navet.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R3-vincennes/R3C9-prix-de-la-garenne-de-charlemont.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R3-vincennes/R3C10-prix-de-la-pelouse-aux-yearlings.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R4-amiens/R4C1-prix-de-l-arbre-de-noel.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R4-amiens/R4C3-prix-du-carrefour-du-chene-sec.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R4-amiens/R4C4-prix-de-la-piste-d-avilly.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R4-amiens/R4C6-prix-de-la-piste-des-lions.html",
+      "resultats-et-rapports/2021/12/2021-12-07/R4-amiens/R4C9-prix-de-la-garenne-de-charlemont.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-graignes",
+      "R3-vincennes",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-l-arbre-de-noel.html",
+        "R1C2-prix-de-la-piste-sea-bird.html",
+        "R1C3-prix-du-carrefour-du-chene-sec.html",
+        "R1C4-prix-de-la-piste-d-avilly.html",
+        "R1C5-prix-de-l-enguerande.html",
+        "R1C6-prix-de-la-piste-des-lions.html",
+        "R1C7-prix-magdelene.html",
+        "R1C8-prix-du-carrefour-des-marchands-de-navet.html",
+        "R1C9-prix-de-la-garenne-de-charlemont.html",
+        "R1C10-prix-de-la-pelouse-aux-yearlings.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-de-l-arbre-de-noel.html",
+        "R2C2-prix-de-la-piste-sea-bird.html",
+        "R2C3-prix-du-carrefour-du-chene-sec.html",
+        "R2C4-prix-de-la-piste-d-avilly.html",
+        "R2C5-prix-de-l-enguerande.html",
+        "R2C6-prix-de-la-piste-des-lions.html",
+        "R2C7-prix-magdelene.html",
+        "R2C8-prix-du-carrefour-des-marchands-de-navet.html",
+        "R2C9-prix-de-la-garenne-de-charlemont.html",
+        "R2C10-prix-de-la-pelouse-aux-yearlings.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-l-arbre-de-noel.html",
+        "R3C2-prix-de-la-piste-sea-bird.html",
+        "R3C3-prix-du-carrefour-du-chene-sec.html",
+        "R3C4-prix-de-la-piste-d-avilly.html",
+        "R3C5-prix-de-l-enguerande.html",
+        "R3C6-prix-de-la-piste-des-lions.html",
+        "R3C7-prix-magdelene.html",
+        "R3C8-prix-du-carrefour-des-marchands-de-navet.html",
+        "R3C9-prix-de-la-garenne-de-charlemont.html",
+        "R3C10-prix-de-la-pelouse-aux-yearlings.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-de-l-arbre-de-noel.html",
+        "R4C2-prix-de-la-piste-sea-bird.html",
+        "R4C3-prix-du-carrefour-du-chene-sec.html",
+        "R4C4-prix-de-la-piste-d-avilly.html",
+        "R4C5-prix-de-l-enguerande.html",
+        "R4C6-prix-de-la-piste-des-lions.html",
+        "R4C7-prix-magdelene.html",
+        "R4C8-prix-du-carrefour-des-marchands-de-navet.html",
+        "R4C9-prix-de-la-garenne-de-charlemont.html",
+        "R4C10-prix-de-la-pelouse-aux-yearlings.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:29.335853Z"
+}

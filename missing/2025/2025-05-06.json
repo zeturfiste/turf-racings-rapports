@@ -1,0 +1,71 @@
+{
+  "date": "2025-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-06",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-06/2025-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-06/R1-chantilly/R1C1-prix-de-montagny.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R1-chantilly/R1C2-prix-de-la-mere-marie.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R1-chantilly/R1C3-prix-de-guiche.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R1-chantilly/R1C5-prix-du-cerfouillet.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R1-chantilly/R1C6-prix-de-la-pierre-tournante.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R3-le-lion-d-angers/R3C1-prix-de-montagny.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R3-le-lion-d-angers/R3C2-prix-de-la-mere-marie.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R3-le-lion-d-angers/R3C6-prix-de-la-pierre-tournante.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R3-le-lion-d-angers/R3C7-prix-des-chataigniers.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C1-prix-de-montagny.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C2-prix-de-la-mere-marie.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C3-prix-de-guiche.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C4-prix-des-lilas.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C5-prix-du-cerfouillet.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C6-prix-de-la-pierre-tournante.html",
+      "resultats-et-rapports/2025/05/2025-05-06/R4-vincennes/R4C7-prix-des-chataigniers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-le-lion-d-angers",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-montagny.html",
+        "R1C2-prix-de-la-mere-marie.html",
+        "R1C3-prix-de-guiche.html",
+        "R1C4-prix-des-lilas.html",
+        "R1C5-prix-du-cerfouillet.html",
+        "R1C6-prix-de-la-pierre-tournante.html",
+        "R1C7-prix-des-chataigniers.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-de-montagny.html",
+        "R3C2-prix-de-la-mere-marie.html",
+        "R3C3-prix-de-guiche.html",
+        "R3C4-prix-des-lilas.html",
+        "R3C5-prix-du-cerfouillet.html",
+        "R3C6-prix-de-la-pierre-tournante.html",
+        "R3C7-prix-des-chataigniers.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-montagny.html",
+        "R4C2-prix-de-la-mere-marie.html",
+        "R4C3-prix-de-guiche.html",
+        "R4C4-prix-des-lilas.html",
+        "R4C5-prix-du-cerfouillet.html",
+        "R4C6-prix-de-la-pierre-tournante.html",
+        "R4C7-prix-des-chataigniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:51.540041Z"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2005-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-15",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-15/2005-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-cordova.html",
+        "R1C2-prix-coaraze.html",
+        "R1C3-prix-de-port-marly.html",
+        "R1C4-prix-papillon-rose.html",
+        "R1C5-prix-de-marly-le-roi.html",
+        "R1C6-prix-des-acacias.html",
+        "R1C7-prix-des-ormes.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-cordova.html",
+        "R2C2-prix-coaraze.html",
+        "R2C3-prix-de-port-marly.html",
+        "R2C4-prix-papillon-rose.html",
+        "R2C5-prix-de-marly-le-roi.html",
+        "R2C6-prix-des-acacias.html",
+        "R2C7-prix-des-ormes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:25.352220Z"
+}

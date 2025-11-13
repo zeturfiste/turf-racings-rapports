@@ -1,0 +1,87 @@
+{
+  "date": "2016-09-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-23",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-23/2016-09-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-23/R3-caen/R3C3-prix-klytia.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R3-caen/R3C4-prix-aquitania.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R3-caen/R3C5-prix-hydrus.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R3-caen/R3C6-prix-eridanus.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R3-caen/R3C7-prix-sagitta.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R4-fontainebleau/R4C2-prix-cleomede.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R4-fontainebleau/R4C3-prix-klytia.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R4-fontainebleau/R4C5-prix-hydrus.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R5-nantes/R5C6-prix-eridanus.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R8-toulouse/R8C1-prix-bruna.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R8-toulouse/R8C4-prix-aquitania.html",
+      "resultats-et-rapports/2016/09/2016-09-23/R8-toulouse/R8C7-prix-sagitta.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-caen",
+      "R4-fontainebleau",
+      "R5-nantes",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-bruna.html",
+        "R1C2-prix-cleomede.html",
+        "R1C3-prix-klytia.html",
+        "R1C4-prix-aquitania.html",
+        "R1C5-prix-hydrus.html",
+        "R1C6-prix-eridanus.html",
+        "R1C7-prix-sagitta.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-bruna.html",
+        "R3C2-prix-cleomede.html",
+        "R3C3-prix-klytia.html",
+        "R3C4-prix-aquitania.html",
+        "R3C5-prix-hydrus.html",
+        "R3C6-prix-eridanus.html",
+        "R3C7-prix-sagitta.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-bruna.html",
+        "R4C2-prix-cleomede.html",
+        "R4C3-prix-klytia.html",
+        "R4C4-prix-aquitania.html",
+        "R4C5-prix-hydrus.html",
+        "R4C6-prix-eridanus.html",
+        "R4C7-prix-sagitta.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-bruna.html",
+        "R5C2-prix-cleomede.html",
+        "R5C3-prix-klytia.html",
+        "R5C4-prix-aquitania.html",
+        "R5C5-prix-hydrus.html",
+        "R5C6-prix-eridanus.html",
+        "R5C7-prix-sagitta.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-bruna.html",
+        "R8C2-prix-cleomede.html",
+        "R8C3-prix-klytia.html",
+        "R8C4-prix-aquitania.html",
+        "R8C5-prix-hydrus.html",
+        "R8C6-prix-eridanus.html",
+        "R8C7-prix-sagitta.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:37.874528Z"
+}

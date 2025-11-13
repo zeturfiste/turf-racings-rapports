@@ -1,0 +1,46 @@
+{
+  "date": "2006-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-11",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-11/2006-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-hyeres-iii.html",
+        "R1C2-prix-kashnil.html",
+        "R1C3-prix-champoreau.html",
+        "R1C4-prix-maguelonne.html",
+        "R1C5-prix-romantisme.html",
+        "R1C6-prix-spirou.html",
+        "R1C7-prix-john-cunnington.html",
+        "R1C8-prix-romantisme.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-hyeres-iii.html",
+        "R2C2-prix-kashnil.html",
+        "R2C3-prix-champoreau.html",
+        "R2C4-prix-maguelonne.html",
+        "R2C5-prix-romantisme.html",
+        "R2C6-prix-spirou.html",
+        "R2C7-prix-john-cunnington.html",
+        "R2C8-prix-romantisme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:49.760841Z"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2014-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/06/2014-06-14",
+    "date_html": "resultats-et-rapports/2014/06/2014-06-14/2014-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/06/2014-06-14/R1-enghien-soisy/R1C6-prix-de-la-place-balard.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R2-saint-brieuc/R2C1-prix-de-bonne-nouvelle.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R2-saint-brieuc/R2C2-prix-de-la-place-dupleix.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R2-saint-brieuc/R2C3-prix-de-la-porte-de-la-plaine.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R2-saint-brieuc/R2C4-prix-de-levet.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R3-le-lion-d-angers/R3C1-prix-de-bonne-nouvelle.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R3-le-lion-d-angers/R3C2-prix-de-la-place-dupleix.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R3-le-lion-d-angers/R3C3-prix-de-la-porte-de-la-plaine.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R3-le-lion-d-angers/R3C4-prix-de-levet.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R3-le-lion-d-angers/R3C7-prix-de-new-york.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C2-prix-de-la-place-dupleix.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C4-prix-de-levet.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C5-prix-des-invalides.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C6-prix-de-la-place-balard.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C7-prix-de-new-york.html",
+      "resultats-et-rapports/2014/06/2014-06-14/R4-lyon-parilly/R4C8-prix-d-hermonville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-saint-brieuc",
+      "R3-le-lion-d-angers",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-bonne-nouvelle.html",
+        "R1C2-prix-de-la-place-dupleix.html",
+        "R1C3-prix-de-la-porte-de-la-plaine.html",
+        "R1C4-prix-de-levet.html",
+        "R1C5-prix-des-invalides.html",
+        "R1C6-prix-de-la-place-balard.html",
+        "R1C7-prix-de-new-york.html",
+        "R1C8-prix-d-hermonville.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-de-bonne-nouvelle.html",
+        "R2C2-prix-de-la-place-dupleix.html",
+        "R2C3-prix-de-la-porte-de-la-plaine.html",
+        "R2C4-prix-de-levet.html",
+        "R2C5-prix-des-invalides.html",
+        "R2C6-prix-de-la-place-balard.html",
+        "R2C7-prix-de-new-york.html",
+        "R2C8-prix-d-hermonville.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-de-bonne-nouvelle.html",
+        "R3C2-prix-de-la-place-dupleix.html",
+        "R3C3-prix-de-la-porte-de-la-plaine.html",
+        "R3C4-prix-de-levet.html",
+        "R3C5-prix-des-invalides.html",
+        "R3C6-prix-de-la-place-balard.html",
+        "R3C7-prix-de-new-york.html",
+        "R3C8-prix-d-hermonville.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-de-bonne-nouvelle.html",
+        "R4C2-prix-de-la-place-dupleix.html",
+        "R4C3-prix-de-la-porte-de-la-plaine.html",
+        "R4C4-prix-de-levet.html",
+        "R4C5-prix-des-invalides.html",
+        "R4C6-prix-de-la-place-balard.html",
+        "R4C7-prix-de-new-york.html",
+        "R4C8-prix-d-hermonville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:24.143131Z"
+}

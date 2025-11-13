@@ -1,0 +1,74 @@
+{
+  "date": "2022-05-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-18",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-18/2022-05-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-18/R1-vincennes/R1C2-prix-de-dreux.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R1-vincennes/R1C3-prix-de-l-aube.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R1-vincennes/R1C4-prix-d-aire-sur-l-adour.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R1-vincennes/R1C5-prix-du-perreux.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R3-strasbourg/R3C1-prix-du-gatinais.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R3-strasbourg/R3C2-prix-de-dreux.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R3-strasbourg/R3C6-prix-de-fecamp.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R3-strasbourg/R3C7-prix-jean-gabin.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R3-strasbourg/R3C8-prix-de-nice.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C1-prix-du-gatinais.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C2-prix-de-dreux.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C4-prix-d-aire-sur-l-adour.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C5-prix-du-perreux.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C6-prix-de-fecamp.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C7-prix-jean-gabin.html",
+      "resultats-et-rapports/2022/05/2022-05-18/R4-le-lion-d-angers/R4C8-prix-de-nice.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-strasbourg",
+      "R4-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-gatinais.html",
+        "R1C2-prix-de-dreux.html",
+        "R1C3-prix-de-l-aube.html",
+        "R1C4-prix-d-aire-sur-l-adour.html",
+        "R1C5-prix-du-perreux.html",
+        "R1C6-prix-de-fecamp.html",
+        "R1C7-prix-jean-gabin.html",
+        "R1C8-prix-de-nice.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-du-gatinais.html",
+        "R3C2-prix-de-dreux.html",
+        "R3C3-prix-de-l-aube.html",
+        "R3C4-prix-d-aire-sur-l-adour.html",
+        "R3C5-prix-du-perreux.html",
+        "R3C6-prix-de-fecamp.html",
+        "R3C7-prix-jean-gabin.html",
+        "R3C8-prix-de-nice.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-du-gatinais.html",
+        "R4C2-prix-de-dreux.html",
+        "R4C3-prix-de-l-aube.html",
+        "R4C4-prix-d-aire-sur-l-adour.html",
+        "R4C5-prix-du-perreux.html",
+        "R4C6-prix-de-fecamp.html",
+        "R4C7-prix-jean-gabin.html",
+        "R4C8-prix-de-nice.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:23.886139Z"
+}

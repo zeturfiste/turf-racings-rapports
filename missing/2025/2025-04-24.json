@@ -1,0 +1,98 @@
+{
+  "date": "2025-04-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-24",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-24/2025-04-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-24/R1-paris-longchamp/R1C8-prix-de-ferrieres.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C1-prix-des-gemeaux-parisiens.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C3-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C4-prix-du-pont-neuf.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C7-prix-de-balard.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C8-prix-de-ferrieres.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R2-la-teste-de-buch/R2C9-prix-de-marly.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C1-prix-des-gemeaux-parisiens.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C2-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C3-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C4-prix-du-pont-neuf.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C5-prix-de-sainte-gemme.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C6-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C7-prix-de-balard.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C8-prix-de-ferrieres.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R3-reims/R3C9-prix-de-marly.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C1-prix-des-gemeaux-parisiens.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C2-prix-des-bouffes-parisiens.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C3-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C4-prix-du-pont-neuf.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C5-prix-de-sainte-gemme.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C6-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C7-prix-de-balard.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C8-prix-de-ferrieres.html",
+      "resultats-et-rapports/2025/04/2025-04-24/R4-laval/R4C9-prix-de-marly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-la-teste-de-buch",
+      "R3-reims",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-des-gemeaux-parisiens.html",
+        "R1C2-prix-des-bouffes-parisiens.html",
+        "R1C3-prix-de-la-comedie-francaise.html",
+        "R1C4-prix-du-pont-neuf.html",
+        "R1C5-prix-de-sainte-gemme.html",
+        "R1C6-prix-du-val-de-grace.html",
+        "R1C7-prix-de-balard.html",
+        "R1C8-prix-de-ferrieres.html",
+        "R1C9-prix-de-marly.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-des-gemeaux-parisiens.html",
+        "R2C2-prix-des-bouffes-parisiens.html",
+        "R2C3-prix-de-la-comedie-francaise.html",
+        "R2C4-prix-du-pont-neuf.html",
+        "R2C5-prix-de-sainte-gemme.html",
+        "R2C6-prix-du-val-de-grace.html",
+        "R2C7-prix-de-balard.html",
+        "R2C8-prix-de-ferrieres.html",
+        "R2C9-prix-de-marly.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-des-gemeaux-parisiens.html",
+        "R3C2-prix-des-bouffes-parisiens.html",
+        "R3C3-prix-de-la-comedie-francaise.html",
+        "R3C4-prix-du-pont-neuf.html",
+        "R3C5-prix-de-sainte-gemme.html",
+        "R3C6-prix-du-val-de-grace.html",
+        "R3C7-prix-de-balard.html",
+        "R3C8-prix-de-ferrieres.html",
+        "R3C9-prix-de-marly.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-des-gemeaux-parisiens.html",
+        "R4C2-prix-des-bouffes-parisiens.html",
+        "R4C3-prix-de-la-comedie-francaise.html",
+        "R4C4-prix-du-pont-neuf.html",
+        "R4C5-prix-de-sainte-gemme.html",
+        "R4C6-prix-du-val-de-grace.html",
+        "R4C7-prix-de-balard.html",
+        "R4C8-prix-de-ferrieres.html",
+        "R4C9-prix-de-marly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:06:46.796494Z"
+}

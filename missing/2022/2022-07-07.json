@@ -1,0 +1,111 @@
+{
+  "date": "2022-07-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-07",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-07/2022-07-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-07/R1-paris-longchamp/R1C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R1-paris-longchamp/R1C4-prix-de-la-salpetriere.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R1-paris-longchamp/R1C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C3-prix-de-la-gare.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C5-prix-d-argences.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C6-prix-du-petit-pre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R3-nantes/R3C8-prix-de-la-maison-blanche.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C1-prix-de-cheffreville.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C3-prix-de-la-gare.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C6-prix-du-petit-pre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R4-lisieux/R4C8-prix-de-la-maison-blanche.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C1-prix-de-cheffreville.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C3-prix-de-la-gare.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C4-prix-de-la-salpetriere.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C5-prix-d-argences.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C6-prix-du-petit-pre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R5-vichy/R5C8-prix-de-la-maison-blanche.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C1-prix-de-cheffreville.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C2-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C3-prix-de-la-gare.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C4-prix-de-la-salpetriere.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C5-prix-d-argences.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C6-prix-du-petit-pre.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+      "resultats-et-rapports/2022/07/2022-07-07/R7-graignes/R7C8-prix-de-la-maison-blanche.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-nantes",
+      "R4-lisieux",
+      "R5-vichy",
+      "R7-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-cheffreville.html",
+        "R1C2-prix-du-jardin-de-l-avre.html",
+        "R1C3-prix-de-la-gare.html",
+        "R1C4-prix-de-la-salpetriere.html",
+        "R1C5-prix-d-argences.html",
+        "R1C6-prix-du-petit-pre.html",
+        "R1C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+        "R1C8-prix-de-la-maison-blanche.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-cheffreville.html",
+        "R3C2-prix-du-jardin-de-l-avre.html",
+        "R3C3-prix-de-la-gare.html",
+        "R3C4-prix-de-la-salpetriere.html",
+        "R3C5-prix-d-argences.html",
+        "R3C6-prix-du-petit-pre.html",
+        "R3C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+        "R3C8-prix-de-la-maison-blanche.html"
+      ],
+      "R4-lisieux": [
+        "R4C1-prix-de-cheffreville.html",
+        "R4C2-prix-du-jardin-de-l-avre.html",
+        "R4C3-prix-de-la-gare.html",
+        "R4C4-prix-de-la-salpetriere.html",
+        "R4C5-prix-d-argences.html",
+        "R4C6-prix-du-petit-pre.html",
+        "R4C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+        "R4C8-prix-de-la-maison-blanche.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-de-cheffreville.html",
+        "R5C2-prix-du-jardin-de-l-avre.html",
+        "R5C3-prix-de-la-gare.html",
+        "R5C4-prix-de-la-salpetriere.html",
+        "R5C5-prix-d-argences.html",
+        "R5C6-prix-du-petit-pre.html",
+        "R5C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+        "R5C8-prix-de-la-maison-blanche.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-de-cheffreville.html",
+        "R7C2-prix-du-jardin-de-l-avre.html",
+        "R7C3-prix-de-la-gare.html",
+        "R7C4-prix-de-la-salpetriere.html",
+        "R7C5-prix-d-argences.html",
+        "R7C6-prix-du-petit-pre.html",
+        "R7C7-prix-mercedes-benz-paris-prix-de-l-axe-majeur.html",
+        "R7C8-prix-de-la-maison-blanche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:42.192560Z"
+}

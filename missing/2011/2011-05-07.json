@@ -1,0 +1,123 @@
+{
+  "date": "2011-05-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-07",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-07/2011-05-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-07/R1-vincennes/R1C8-prix-d-arpajon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R1-vincennes/R1C9-prix-de-quiberon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R2-nantes/R2C3-prix-de-combree.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R2-nantes/R2C4-criterium-des-4-ans-prix-conquerant.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R2-nantes/R2C6-prix-du-rouergue.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R2-nantes/R2C7-prix-albert-demarcq.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R2-nantes/R2C8-prix-d-arpajon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R3-saint-cloud/R3C7-prix-albert-demarcq.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R7-amiens/R7C5-prix-jean-gauvreau.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R7-amiens/R7C6-prix-du-rouergue.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R7-amiens/R7C7-prix-albert-demarcq.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R7-amiens/R7C8-prix-d-arpajon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C2-prix-de-faulquemont.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C3-prix-de-combree.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C5-prix-jean-gauvreau.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C7-prix-albert-demarcq.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C8-prix-d-arpajon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R8-graignes/R8C9-prix-de-quiberon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C1-prix-de-concarneau.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C2-prix-de-faulquemont.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C3-prix-de-combree.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C4-criterium-des-4-ans-prix-conquerant.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C5-prix-jean-gauvreau.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C6-prix-du-rouergue.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C8-prix-d-arpajon.html",
+      "resultats-et-rapports/2011/05/2011-05-07/R9-reims/R9C9-prix-de-quiberon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nantes",
+      "R3-saint-cloud",
+      "R7-amiens",
+      "R8-graignes",
+      "R9-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-concarneau.html",
+        "R1C2-prix-de-faulquemont.html",
+        "R1C3-prix-de-combree.html",
+        "R1C4-criterium-des-4-ans-prix-conquerant.html",
+        "R1C5-prix-jean-gauvreau.html",
+        "R1C6-prix-du-rouergue.html",
+        "R1C7-prix-albert-demarcq.html",
+        "R1C8-prix-d-arpajon.html",
+        "R1C9-prix-de-quiberon.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-concarneau.html",
+        "R2C2-prix-de-faulquemont.html",
+        "R2C3-prix-de-combree.html",
+        "R2C4-criterium-des-4-ans-prix-conquerant.html",
+        "R2C5-prix-jean-gauvreau.html",
+        "R2C6-prix-du-rouergue.html",
+        "R2C7-prix-albert-demarcq.html",
+        "R2C8-prix-d-arpajon.html",
+        "R2C9-prix-de-quiberon.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-de-concarneau.html",
+        "R3C2-prix-de-faulquemont.html",
+        "R3C3-prix-de-combree.html",
+        "R3C4-criterium-des-4-ans-prix-conquerant.html",
+        "R3C5-prix-jean-gauvreau.html",
+        "R3C6-prix-du-rouergue.html",
+        "R3C7-prix-albert-demarcq.html",
+        "R3C8-prix-d-arpajon.html",
+        "R3C9-prix-de-quiberon.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-de-concarneau.html",
+        "R7C2-prix-de-faulquemont.html",
+        "R7C3-prix-de-combree.html",
+        "R7C4-criterium-des-4-ans-prix-conquerant.html",
+        "R7C5-prix-jean-gauvreau.html",
+        "R7C6-prix-du-rouergue.html",
+        "R7C7-prix-albert-demarcq.html",
+        "R7C8-prix-d-arpajon.html",
+        "R7C9-prix-de-quiberon.html"
+      ],
+      "R8-graignes": [
+        "R8C1-prix-de-concarneau.html",
+        "R8C2-prix-de-faulquemont.html",
+        "R8C3-prix-de-combree.html",
+        "R8C4-criterium-des-4-ans-prix-conquerant.html",
+        "R8C5-prix-jean-gauvreau.html",
+        "R8C6-prix-du-rouergue.html",
+        "R8C7-prix-albert-demarcq.html",
+        "R8C8-prix-d-arpajon.html",
+        "R8C9-prix-de-quiberon.html"
+      ],
+      "R9-reims": [
+        "R9C1-prix-de-concarneau.html",
+        "R9C2-prix-de-faulquemont.html",
+        "R9C3-prix-de-combree.html",
+        "R9C4-criterium-des-4-ans-prix-conquerant.html",
+        "R9C5-prix-jean-gauvreau.html",
+        "R9C6-prix-du-rouergue.html",
+        "R9C7-prix-albert-demarcq.html",
+        "R9C8-prix-d-arpajon.html",
+        "R9C9-prix-de-quiberon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:59.189070Z"
+}

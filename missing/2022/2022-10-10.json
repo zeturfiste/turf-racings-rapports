@@ -1,0 +1,78 @@
+{
+  "date": "2022-10-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-10",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-10/2022-10-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-10/R3-marseille-borely/R3C8-prix-de-saulieu.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R4-amiens/R4C1-prix-du-pont-des-arts.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R4-amiens/R4C2-prix-de-mauperthuis.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R4-amiens/R4C7-prix-des-buttes-chaumont.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R4-amiens/R4C8-prix-de-saulieu.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R7-saint-brieuc/R7C1-prix-du-pont-des-arts.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R7-saint-brieuc/R7C4-prix-du-haut-rhin.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R7-saint-brieuc/R7C7-prix-des-buttes-chaumont.html",
+      "resultats-et-rapports/2022/10/2022-10-10/R7-saint-brieuc/R7C8-prix-de-saulieu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-marseille-borely",
+      "R4-amiens",
+      "R7-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-pont-des-arts.html",
+        "R1C2-prix-de-mauperthuis.html",
+        "R1C3-prix-dic-williams.html",
+        "R1C4-prix-du-haut-rhin.html",
+        "R1C5-prix-de-la-porte-de-chatillon.html",
+        "R1C6-prix-du-jardin-du-luxembourg.html",
+        "R1C7-prix-des-buttes-chaumont.html",
+        "R1C8-prix-de-saulieu.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-du-pont-des-arts.html",
+        "R3C2-prix-de-mauperthuis.html",
+        "R3C3-prix-dic-williams.html",
+        "R3C4-prix-du-haut-rhin.html",
+        "R3C5-prix-de-la-porte-de-chatillon.html",
+        "R3C6-prix-du-jardin-du-luxembourg.html",
+        "R3C7-prix-des-buttes-chaumont.html",
+        "R3C8-prix-de-saulieu.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-du-pont-des-arts.html",
+        "R4C2-prix-de-mauperthuis.html",
+        "R4C3-prix-dic-williams.html",
+        "R4C4-prix-du-haut-rhin.html",
+        "R4C5-prix-de-la-porte-de-chatillon.html",
+        "R4C6-prix-du-jardin-du-luxembourg.html",
+        "R4C7-prix-des-buttes-chaumont.html",
+        "R4C8-prix-de-saulieu.html"
+      ],
+      "R7-saint-brieuc": [
+        "R7C1-prix-du-pont-des-arts.html",
+        "R7C2-prix-de-mauperthuis.html",
+        "R7C3-prix-dic-williams.html",
+        "R7C4-prix-du-haut-rhin.html",
+        "R7C5-prix-de-la-porte-de-chatillon.html",
+        "R7C6-prix-du-jardin-du-luxembourg.html",
+        "R7C7-prix-des-buttes-chaumont.html",
+        "R7C8-prix-de-saulieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:01:18.047017Z"
+}

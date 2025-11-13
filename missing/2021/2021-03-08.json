@@ -1,0 +1,95 @@
+{
+  "date": "2021-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-08",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-08/2021-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-08/R2-pornichet-la-baule/R2C1-prix-de-cussy.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R2-pornichet-la-baule/R2C5-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R3-le-croise-laroche/R3C5-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R4-marseille-vivaux/R4C1-prix-de-cussy.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R4-marseille-vivaux/R4C3-prix-de-boulleville.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R4-marseille-vivaux/R4C5-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R4-marseille-vivaux/R4C6-prix-de-gace.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R4-marseille-vivaux/R4C7-prix-de-trun.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C1-prix-de-cussy.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C2-prix-de-tinchebray.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C3-prix-de-boulleville.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C4-prix-d-ondefontaine.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C5-prix-de-nonant-le-pin.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C6-prix-de-gace.html",
+      "resultats-et-rapports/2021/03/2021-03-08/R7-agen/R7C7-prix-de-trun.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-pornichet-la-baule",
+      "R3-le-croise-laroche",
+      "R4-marseille-vivaux",
+      "R7-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-cussy.html",
+        "R1C2-prix-de-tinchebray.html",
+        "R1C3-prix-de-boulleville.html",
+        "R1C4-prix-d-ondefontaine.html",
+        "R1C5-prix-de-nonant-le-pin.html",
+        "R1C6-prix-de-gace.html",
+        "R1C7-prix-de-trun.html",
+        "R1C8-prix-de-saint-etienne.html"
+      ],
+      "R2-pornichet-la-baule": [
+        "R2C1-prix-de-cussy.html",
+        "R2C2-prix-de-tinchebray.html",
+        "R2C3-prix-de-boulleville.html",
+        "R2C4-prix-d-ondefontaine.html",
+        "R2C5-prix-de-nonant-le-pin.html",
+        "R2C6-prix-de-gace.html",
+        "R2C7-prix-de-trun.html",
+        "R2C8-prix-de-saint-etienne.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-de-cussy.html",
+        "R3C2-prix-de-tinchebray.html",
+        "R3C3-prix-de-boulleville.html",
+        "R3C4-prix-d-ondefontaine.html",
+        "R3C5-prix-de-nonant-le-pin.html",
+        "R3C6-prix-de-gace.html",
+        "R3C7-prix-de-trun.html",
+        "R3C8-prix-de-saint-etienne.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-cussy.html",
+        "R4C2-prix-de-tinchebray.html",
+        "R4C3-prix-de-boulleville.html",
+        "R4C4-prix-d-ondefontaine.html",
+        "R4C5-prix-de-nonant-le-pin.html",
+        "R4C6-prix-de-gace.html",
+        "R4C7-prix-de-trun.html",
+        "R4C8-prix-de-saint-etienne.html"
+      ],
+      "R7-agen": [
+        "R7C1-prix-de-cussy.html",
+        "R7C2-prix-de-tinchebray.html",
+        "R7C3-prix-de-boulleville.html",
+        "R7C4-prix-d-ondefontaine.html",
+        "R7C5-prix-de-nonant-le-pin.html",
+        "R7C6-prix-de-gace.html",
+        "R7C7-prix-de-trun.html",
+        "R7C8-prix-de-saint-etienne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:49.597046Z"
+}

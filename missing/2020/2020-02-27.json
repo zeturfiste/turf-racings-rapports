@@ -1,0 +1,73 @@
+{
+  "date": "2020-02-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-27",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-27/2020-02-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-27/R1-vincennes/R1C2-prix-ali-hawas.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R1-vincennes/R1C8-prix-de-luneville.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C3-prix-de-tignes.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C4-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C5-prix-de-lorient.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C6-prix-vindex.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R3-angers/R3C7-prix-des-andelys.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C2-prix-ali-hawas.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C3-prix-de-tignes.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C5-prix-de-lorient.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C6-prix-vindex.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C7-prix-des-andelys.html",
+      "resultats-et-rapports/2020/02/2020-02-27/R4-lyon-la-soie/R4C8-prix-de-luneville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emile-allix-courboy.html",
+        "R1C2-prix-ali-hawas.html",
+        "R1C3-prix-de-tignes.html",
+        "R1C4-prix-felicien-gauvreau.html",
+        "R1C5-prix-de-lorient.html",
+        "R1C6-prix-vindex.html",
+        "R1C7-prix-des-andelys.html",
+        "R1C8-prix-de-luneville.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-emile-allix-courboy.html",
+        "R3C2-prix-ali-hawas.html",
+        "R3C3-prix-de-tignes.html",
+        "R3C4-prix-felicien-gauvreau.html",
+        "R3C5-prix-de-lorient.html",
+        "R3C6-prix-vindex.html",
+        "R3C7-prix-des-andelys.html",
+        "R3C8-prix-de-luneville.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-emile-allix-courboy.html",
+        "R4C2-prix-ali-hawas.html",
+        "R4C3-prix-de-tignes.html",
+        "R4C4-prix-felicien-gauvreau.html",
+        "R4C5-prix-de-lorient.html",
+        "R4C6-prix-vindex.html",
+        "R4C7-prix-des-andelys.html",
+        "R4C8-prix-de-luneville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:57.042901Z"
+}

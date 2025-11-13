@@ -1,0 +1,103 @@
+{
+  "date": "2025-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-20",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-20/2025-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-20/R1-chantilly/R1C4-darley-prix-chloe.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R1-chantilly/R1C5-prix-de-la-pepiniere.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R1-chantilly/R1C7-prix-messidor.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R1-chantilly/R1C8-prix-du-petit-chateau.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R1-chantilly/R1C9-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R3-vittel/R3C1-prix-de-la-butte-blanche.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R3-vittel/R3C3-prix-du-chateau-neuf.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R5-hyeres/R5C4-darley-prix-chloe.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R5-hyeres/R5C5-prix-de-la-pepiniere.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R5-hyeres/R5C8-prix-du-petit-chateau.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R5-hyeres/R5C9-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C1-prix-de-la-butte-blanche.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C3-prix-du-chateau-neuf.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C4-darley-prix-chloe.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C6-goffs-prix-robert-papin.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C7-prix-messidor.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C8-prix-du-petit-chateau.html",
+      "resultats-et-rapports/2025/07/2025-07-20/R10-clairefontaine/R10C9-prix-sans-souci-ii.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-vittel",
+      "R4-royan-la-palmyre",
+      "R5-hyeres",
+      "R10-clairefontaine"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-butte-blanche.html",
+        "R1C2-prix-du-fosse-la-coque.html",
+        "R1C3-prix-du-chateau-neuf.html",
+        "R1C4-darley-prix-chloe.html",
+        "R1C5-prix-de-la-pepiniere.html",
+        "R1C6-goffs-prix-robert-papin.html",
+        "R1C7-prix-messidor.html",
+        "R1C8-prix-du-petit-chateau.html",
+        "R1C9-prix-sans-souci-ii.html"
+      ],
+      "R3-vittel": [
+        "R3C1-prix-de-la-butte-blanche.html",
+        "R3C2-prix-du-fosse-la-coque.html",
+        "R3C3-prix-du-chateau-neuf.html",
+        "R3C4-darley-prix-chloe.html",
+        "R3C5-prix-de-la-pepiniere.html",
+        "R3C6-goffs-prix-robert-papin.html",
+        "R3C7-prix-messidor.html",
+        "R3C8-prix-du-petit-chateau.html",
+        "R3C9-prix-sans-souci-ii.html"
+      ],
+      "R4-royan-la-palmyre": [
+        "R4C1-prix-de-la-butte-blanche.html",
+        "R4C2-prix-du-fosse-la-coque.html",
+        "R4C3-prix-du-chateau-neuf.html",
+        "R4C4-darley-prix-chloe.html",
+        "R4C5-prix-de-la-pepiniere.html",
+        "R4C6-goffs-prix-robert-papin.html",
+        "R4C7-prix-messidor.html",
+        "R4C8-prix-du-petit-chateau.html",
+        "R4C9-prix-sans-souci-ii.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-de-la-butte-blanche.html",
+        "R5C2-prix-du-fosse-la-coque.html",
+        "R5C3-prix-du-chateau-neuf.html",
+        "R5C4-darley-prix-chloe.html",
+        "R5C5-prix-de-la-pepiniere.html",
+        "R5C6-goffs-prix-robert-papin.html",
+        "R5C7-prix-messidor.html",
+        "R5C8-prix-du-petit-chateau.html",
+        "R5C9-prix-sans-souci-ii.html"
+      ],
+      "R10-clairefontaine": [
+        "R10C1-prix-de-la-butte-blanche.html",
+        "R10C2-prix-du-fosse-la-coque.html",
+        "R10C3-prix-du-chateau-neuf.html",
+        "R10C4-darley-prix-chloe.html",
+        "R10C5-prix-de-la-pepiniere.html",
+        "R10C6-goffs-prix-robert-papin.html",
+        "R10C7-prix-messidor.html",
+        "R10C8-prix-du-petit-chateau.html",
+        "R10C9-prix-sans-souci-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:19.607147Z"
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2007-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-09",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-09/2007-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C1-prix-du-rouergue.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C2-prix-de-biarritz.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C3-prix-dominique-sartini.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C4-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C6-prix-louis-champion.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R1-enghien-soisy/R1C7-prix-bay-archer.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C1-prix-du-rouergue.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C2-prix-de-biarritz.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C3-prix-dominique-sartini.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C4-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C6-prix-louis-champion.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R2-lyon-parilly/R2C7-prix-bay-archer.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C1-prix-du-rouergue.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C2-prix-de-biarritz.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C3-prix-dominique-sartini.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C4-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C6-prix-louis-champion.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R3-vincennes/R3C7-prix-bay-archer.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C1-prix-du-rouergue.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C2-prix-de-biarritz.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C3-prix-dominique-sartini.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C4-prix-de-la-gascogne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C6-prix-louis-champion.html",
+      "resultats-et-rapports/2007/10/2007-10-09/R31-zerace/R31C7-prix-bay-archer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-rouergue.html",
+        "R1C2-prix-de-biarritz.html",
+        "R1C3-prix-dominique-sartini.html",
+        "R1C4-prix-de-la-gascogne.html",
+        "R1C5-prix-de-bayonne.html",
+        "R1C6-prix-louis-champion.html",
+        "R1C7-prix-bay-archer.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-du-rouergue.html",
+        "R2C2-prix-de-biarritz.html",
+        "R2C3-prix-dominique-sartini.html",
+        "R2C4-prix-de-la-gascogne.html",
+        "R2C5-prix-de-bayonne.html",
+        "R2C6-prix-louis-champion.html",
+        "R2C7-prix-bay-archer.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-rouergue.html",
+        "R3C2-prix-de-biarritz.html",
+        "R3C3-prix-dominique-sartini.html",
+        "R3C4-prix-de-la-gascogne.html",
+        "R3C5-prix-de-bayonne.html",
+        "R3C6-prix-louis-champion.html",
+        "R3C7-prix-bay-archer.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-rouergue.html",
+        "R31C2-prix-de-biarritz.html",
+        "R31C3-prix-dominique-sartini.html",
+        "R31C4-prix-de-la-gascogne.html",
+        "R31C5-prix-de-bayonne.html",
+        "R31C6-prix-louis-champion.html",
+        "R31C7-prix-bay-archer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:47.130572Z"
+}

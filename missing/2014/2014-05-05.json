@@ -1,0 +1,81 @@
+{
+  "date": "2014-05-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/05/2014-05-05",
+    "date_html": "resultats-et-rapports/2014/05/2014-05-05/2014-05-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/05/2014-05-05/R1-maisons-laffitte/R1C2-prix-northern-taste.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R1-maisons-laffitte/R1C3-prix-de-newmarket.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R1-maisons-laffitte/R1C4-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R1-maisons-laffitte/R1C7-prix-de-houdan.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R1-maisons-laffitte/R1C8-prix-de-lambourn.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R2-caen/R2C3-prix-de-newmarket.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R3-marseille-borely/R3C3-prix-de-newmarket.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R3-marseille-borely/R3C4-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R5-le-croise-laroche/R5C2-prix-northern-taste.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R5-le-croise-laroche/R5C3-prix-de-newmarket.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R5-le-croise-laroche/R5C5-prix-d-acheres.html",
+      "resultats-et-rapports/2014/05/2014-05-05/R5-le-croise-laroche/R5C7-prix-de-houdan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-caen",
+      "R3-marseille-borely",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-le-pompon.html",
+        "R1C2-prix-northern-taste.html",
+        "R1C3-prix-de-newmarket.html",
+        "R1C4-prix-de-la-croix-blanche.html",
+        "R1C5-prix-d-acheres.html",
+        "R1C6-prix-lavandin.html",
+        "R1C7-prix-de-houdan.html",
+        "R1C8-prix-de-lambourn.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-le-pompon.html",
+        "R2C2-prix-northern-taste.html",
+        "R2C3-prix-de-newmarket.html",
+        "R2C4-prix-de-la-croix-blanche.html",
+        "R2C5-prix-d-acheres.html",
+        "R2C6-prix-lavandin.html",
+        "R2C7-prix-de-houdan.html",
+        "R2C8-prix-de-lambourn.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-le-pompon.html",
+        "R3C2-prix-northern-taste.html",
+        "R3C3-prix-de-newmarket.html",
+        "R3C4-prix-de-la-croix-blanche.html",
+        "R3C5-prix-d-acheres.html",
+        "R3C6-prix-lavandin.html",
+        "R3C7-prix-de-houdan.html",
+        "R3C8-prix-de-lambourn.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-le-pompon.html",
+        "R5C2-prix-northern-taste.html",
+        "R5C3-prix-de-newmarket.html",
+        "R5C4-prix-de-la-croix-blanche.html",
+        "R5C5-prix-d-acheres.html",
+        "R5C6-prix-lavandin.html",
+        "R5C7-prix-de-houdan.html",
+        "R5C8-prix-de-lambourn.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:10.334820Z"
+}

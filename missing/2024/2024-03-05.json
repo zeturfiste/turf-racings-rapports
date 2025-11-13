@@ -1,0 +1,64 @@
+{
+  "date": "2024-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-05",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-05/2024-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-05/R1-chantilly/R1C6-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2024/03/2024-03-05/R1-chantilly/R1C8-prix-janus.html",
+      "resultats-et-rapports/2024/03/2024-03-05/R3-compiegne/R3C1-prix-jocker.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-jocker.html",
+        "R1C2-prix-de-la-broutillerie.html",
+        "R1C3-prix-du-carrefour-saint-remy.html",
+        "R1C4-prix-de-la-croix-des-ormeaux.html",
+        "R1C5-prix-de-la-goursaule.html",
+        "R1C6-prix-de-la-queue-du-renard.html",
+        "R1C7-prix-jongleur.html",
+        "R1C8-prix-janus.html",
+        "R1C9-prix-saturne.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-jocker.html",
+        "R3C2-prix-de-la-broutillerie.html",
+        "R3C3-prix-du-carrefour-saint-remy.html",
+        "R3C4-prix-de-la-croix-des-ormeaux.html",
+        "R3C5-prix-de-la-goursaule.html",
+        "R3C6-prix-de-la-queue-du-renard.html",
+        "R3C7-prix-jongleur.html",
+        "R3C8-prix-janus.html",
+        "R3C9-prix-saturne.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-jocker.html",
+        "R4C2-prix-de-la-broutillerie.html",
+        "R4C3-prix-du-carrefour-saint-remy.html",
+        "R4C4-prix-de-la-croix-des-ormeaux.html",
+        "R4C5-prix-de-la-goursaule.html",
+        "R4C6-prix-de-la-queue-du-renard.html",
+        "R4C7-prix-jongleur.html",
+        "R4C8-prix-janus.html",
+        "R4C9-prix-saturne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:17.827907Z"
+}

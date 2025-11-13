@@ -1,0 +1,84 @@
+{
+  "date": "2017-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-29",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-29/2017-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C1-prix-de-carpentras.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C4-prix-de-chevagnes.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C5-prix-pierre-coulon.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C6-prix-de-rochefort-montagne.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C7-prix-de-cosne-sur-loire.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R1-vichy/R1C8-prix-de-la-source-de-l-hopital.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C1-prix-de-carpentras.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C2-prix-du-dauphine.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C3-prix-du-bois-du-bouc.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C4-prix-de-chevagnes.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C5-prix-pierre-coulon.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C6-prix-de-rochefort-montagne.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C7-prix-de-cosne-sur-loire.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R2-salon-de-provence/R2C8-prix-de-la-source-de-l-hopital.html",
+      "resultats-et-rapports/2017/06/2017-06-29/R4-enghien-soisy/R4C3-prix-du-bois-du-bouc.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-salon-de-provence",
+      "R3-deauville",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-carpentras.html",
+        "R1C2-prix-du-dauphine.html",
+        "R1C3-prix-du-bois-du-bouc.html",
+        "R1C4-prix-de-chevagnes.html",
+        "R1C5-prix-pierre-coulon.html",
+        "R1C6-prix-de-rochefort-montagne.html",
+        "R1C7-prix-de-cosne-sur-loire.html",
+        "R1C8-prix-de-la-source-de-l-hopital.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-de-carpentras.html",
+        "R2C2-prix-du-dauphine.html",
+        "R2C3-prix-du-bois-du-bouc.html",
+        "R2C4-prix-de-chevagnes.html",
+        "R2C5-prix-pierre-coulon.html",
+        "R2C6-prix-de-rochefort-montagne.html",
+        "R2C7-prix-de-cosne-sur-loire.html",
+        "R2C8-prix-de-la-source-de-l-hopital.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-carpentras.html",
+        "R3C2-prix-du-dauphine.html",
+        "R3C3-prix-du-bois-du-bouc.html",
+        "R3C4-prix-de-chevagnes.html",
+        "R3C5-prix-pierre-coulon.html",
+        "R3C6-prix-de-rochefort-montagne.html",
+        "R3C7-prix-de-cosne-sur-loire.html",
+        "R3C8-prix-de-la-source-de-l-hopital.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-carpentras.html",
+        "R4C2-prix-du-dauphine.html",
+        "R4C3-prix-du-bois-du-bouc.html",
+        "R4C4-prix-de-chevagnes.html",
+        "R4C5-prix-pierre-coulon.html",
+        "R4C6-prix-de-rochefort-montagne.html",
+        "R4C7-prix-de-cosne-sur-loire.html",
+        "R4C8-prix-de-la-source-de-l-hopital.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:01.060521Z"
+}

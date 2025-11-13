@@ -1,0 +1,73 @@
+{
+  "date": "2008-12-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-25",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-25/2008-12-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-25/R1-vincennes/R1C1-prix-de-craon.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R1-vincennes/R1C2-prix-de-la-moselle.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R1-vincennes/R1C4-prix-constant-hervieu.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R1-vincennes/R1C5-prix-de-montbrison.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R1-vincennes/R1C6-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R2-cagnes-sur-mer/R2C5-prix-de-montbrison.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R2-cagnes-sur-mer/R2C7-prix-de-brioude.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R31-zerace/R31C5-prix-de-montbrison.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R31-zerace/R31C6-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R31-zerace/R31C7-prix-de-brioude.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R31-zerace/R31C8-prix-de-gex.html",
+      "resultats-et-rapports/2008/12/2008-12-25/R31-zerace/R31C9-prix-des-gardenias.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-craon.html",
+        "R1C2-prix-de-la-moselle.html",
+        "R1C3-prix-d-ispagnac.html",
+        "R1C4-prix-constant-hervieu.html",
+        "R1C5-prix-de-montbrison.html",
+        "R1C6-prix-d-aix-les-bains.html",
+        "R1C7-prix-de-brioude.html",
+        "R1C8-prix-de-gex.html",
+        "R1C9-prix-des-gardenias.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-craon.html",
+        "R2C2-prix-de-la-moselle.html",
+        "R2C3-prix-d-ispagnac.html",
+        "R2C4-prix-constant-hervieu.html",
+        "R2C5-prix-de-montbrison.html",
+        "R2C6-prix-d-aix-les-bains.html",
+        "R2C7-prix-de-brioude.html",
+        "R2C8-prix-de-gex.html",
+        "R2C9-prix-des-gardenias.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-craon.html",
+        "R31C2-prix-de-la-moselle.html",
+        "R31C3-prix-d-ispagnac.html",
+        "R31C4-prix-constant-hervieu.html",
+        "R31C5-prix-de-montbrison.html",
+        "R31C6-prix-d-aix-les-bains.html",
+        "R31C7-prix-de-brioude.html",
+        "R31C8-prix-de-gex.html",
+        "R31C9-prix-des-gardenias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:34:09.663652Z"
+}

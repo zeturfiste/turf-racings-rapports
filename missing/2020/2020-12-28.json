@@ -1,0 +1,70 @@
+{
+  "date": "2020-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/12/2020-12-28",
+    "date_html": "resultats-et-rapports/2020/12/2020-12-28/2020-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/12/2020-12-28/R2-nantes/R2C1-prix-de-prail.html",
+      "resultats-et-rapports/2020/12/2020-12-28/R2-nantes/R2C6-prix-de-bavent.html",
+      "resultats-et-rapports/2020/12/2020-12-28/R3-cabourg/R3C2-prix-helen-street.html",
+      "resultats-et-rapports/2020/12/2020-12-28/R3-cabourg/R3C5-prix-de-mont-fleuri.html",
+      "resultats-et-rapports/2020/12/2020-12-28/R3-cabourg/R3C9-prix-du-hoguenet.html",
+      "resultats-et-rapports/2020/12/2020-12-28/R3-cabourg/R3C10-prix-de-ver-sur-mer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-nantes",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-prail.html",
+        "R1C2-prix-helen-street.html",
+        "R1C3-prix-de-basly.html",
+        "R1C4-prix-de-la-pierre-aux-fees.html",
+        "R1C5-prix-de-mont-fleuri.html",
+        "R1C6-prix-de-bavent.html",
+        "R1C7-prix-de-vaux-sur-mer.html",
+        "R1C8-prix-de-manneville.html",
+        "R1C9-prix-du-hoguenet.html",
+        "R1C10-prix-de-ver-sur-mer.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-prail.html",
+        "R2C2-prix-helen-street.html",
+        "R2C3-prix-de-basly.html",
+        "R2C4-prix-de-la-pierre-aux-fees.html",
+        "R2C5-prix-de-mont-fleuri.html",
+        "R2C6-prix-de-bavent.html",
+        "R2C7-prix-de-vaux-sur-mer.html",
+        "R2C8-prix-de-manneville.html",
+        "R2C9-prix-du-hoguenet.html",
+        "R2C10-prix-de-ver-sur-mer.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-prail.html",
+        "R3C2-prix-helen-street.html",
+        "R3C3-prix-de-basly.html",
+        "R3C4-prix-de-la-pierre-aux-fees.html",
+        "R3C5-prix-de-mont-fleuri.html",
+        "R3C6-prix-de-bavent.html",
+        "R3C7-prix-de-vaux-sur-mer.html",
+        "R3C8-prix-de-manneville.html",
+        "R3C9-prix-du-hoguenet.html",
+        "R3C10-prix-de-ver-sur-mer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:57:27.672429Z"
+}

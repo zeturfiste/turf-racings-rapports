@@ -1,0 +1,84 @@
+{
+  "date": "2016-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-25",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-25/2016-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-25/R2-les-sables-d-olonne/R2C1-prix-emilius.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R2-les-sables-d-olonne/R2C2-prix-des-pyrenees.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R2-les-sables-d-olonne/R2C6-prix-mid-dancer.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R2-les-sables-d-olonne/R2C7-prix-ucello-ii.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R2-les-sables-d-olonne/R2C8-prix-jean-sens.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C1-prix-emilius.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C2-prix-des-pyrenees.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C3-prix-cerealiste.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C4-prix-de-pornic.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C6-prix-mid-dancer.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C7-prix-ucello-ii.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R3-marseille-vivaux/R3C8-prix-jean-sens.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R6-vincennes/R6C1-prix-emilius.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R6-vincennes/R6C6-prix-mid-dancer.html",
+      "resultats-et-rapports/2016/10/2016-10-25/R6-vincennes/R6C8-prix-jean-sens.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-les-sables-d-olonne",
+      "R3-marseille-vivaux",
+      "R6-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-emilius.html",
+        "R1C2-prix-des-pyrenees.html",
+        "R1C3-prix-cerealiste.html",
+        "R1C4-prix-de-pornic.html",
+        "R1C5-prix-robert-bates.html",
+        "R1C6-prix-mid-dancer.html",
+        "R1C7-prix-ucello-ii.html",
+        "R1C8-prix-jean-sens.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-emilius.html",
+        "R2C2-prix-des-pyrenees.html",
+        "R2C3-prix-cerealiste.html",
+        "R2C4-prix-de-pornic.html",
+        "R2C5-prix-robert-bates.html",
+        "R2C6-prix-mid-dancer.html",
+        "R2C7-prix-ucello-ii.html",
+        "R2C8-prix-jean-sens.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-emilius.html",
+        "R3C2-prix-des-pyrenees.html",
+        "R3C3-prix-cerealiste.html",
+        "R3C4-prix-de-pornic.html",
+        "R3C5-prix-robert-bates.html",
+        "R3C6-prix-mid-dancer.html",
+        "R3C7-prix-ucello-ii.html",
+        "R3C8-prix-jean-sens.html"
+      ],
+      "R6-vincennes": [
+        "R6C1-prix-emilius.html",
+        "R6C2-prix-des-pyrenees.html",
+        "R6C3-prix-cerealiste.html",
+        "R6C4-prix-de-pornic.html",
+        "R6C5-prix-robert-bates.html",
+        "R6C6-prix-mid-dancer.html",
+        "R6C7-prix-ucello-ii.html",
+        "R6C8-prix-jean-sens.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:49.144533Z"
+}

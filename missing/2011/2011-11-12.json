@@ -1,0 +1,77 @@
+{
+  "date": "2011-11-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-12",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-12/2011-11-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C3-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C4-prix-denisy.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C5-prix-de-l-elevage.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C6-prix-chloris.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C7-prix-paul-noel-delahoutre.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R1-saint-cloud/R1C8-prix-des-haras.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C3-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C4-prix-denisy.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C5-prix-de-l-elevage.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C6-prix-chloris.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C7-prix-paul-noel-delahoutre.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R2-marseille-borely/R2C8-prix-des-haras.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R3-le-croise-laroche/R3C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R3-le-croise-laroche/R3C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2011/11/2011-11-12/R3-le-croise-laroche/R3C5-prix-de-l-elevage.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-marseille-borely",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-as-d-atout.html",
+        "R1C2-prix-tenebreuse.html",
+        "R1C3-criterium-de-saint-cloud.html",
+        "R1C4-prix-denisy.html",
+        "R1C5-prix-de-l-elevage.html",
+        "R1C6-prix-chloris.html",
+        "R1C7-prix-paul-noel-delahoutre.html",
+        "R1C8-prix-des-haras.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-as-d-atout.html",
+        "R2C2-prix-tenebreuse.html",
+        "R2C3-criterium-de-saint-cloud.html",
+        "R2C4-prix-denisy.html",
+        "R2C5-prix-de-l-elevage.html",
+        "R2C6-prix-chloris.html",
+        "R2C7-prix-paul-noel-delahoutre.html",
+        "R2C8-prix-des-haras.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-as-d-atout.html",
+        "R3C2-prix-tenebreuse.html",
+        "R3C3-criterium-de-saint-cloud.html",
+        "R3C4-prix-denisy.html",
+        "R3C5-prix-de-l-elevage.html",
+        "R3C6-prix-chloris.html",
+        "R3C7-prix-paul-noel-delahoutre.html",
+        "R3C8-prix-des-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:56.251794Z"
+}

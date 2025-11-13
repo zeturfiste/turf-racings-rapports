@@ -1,0 +1,113 @@
+{
+  "date": "2009-08-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/08/2009-08-25",
+    "date_html": "resultats-et-rapports/2009/08/2009-08-25/2009-08-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/08/2009-08-25/R1-clairefontaine/R1C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R1-clairefontaine/R1C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R1-clairefontaine/R1C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R1-clairefontaine/R1C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R1-clairefontaine/R1C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R2-la-capelle/R2C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R2-la-capelle/R2C2-grand-prix-de-la-ville-de-tourgeville.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R2-la-capelle/R2C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R31-zerace/R31C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R31-zerace/R31C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C2-grand-prix-de-la-ville-de-tourgeville.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R70-constant-vanden-stock-stadium-anderlecht/R70C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R71-vicente-calderon-madrid-atletico-madrid/R71C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R71-vicente-calderon-madrid-atletico-madrid/R71C2-grand-prix-de-la-ville-de-tourgeville.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R71-vicente-calderon-madrid-atletico-madrid/R71C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R71-vicente-calderon-madrid-atletico-madrid/R71C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+      "resultats-et-rapports/2009/08/2009-08-25/R71-vicente-calderon-madrid-atletico-madrid/R71C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-la-capelle",
+      "R3-cabourg",
+      "R31-zerace",
+      "R70-constant-vanden-stock-stadium-anderlecht",
+      "R71-vicente-calderon-madrid-atletico-madrid"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R1C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R1C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R1C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R1C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R1C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R1C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R1C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R2C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R2C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R2C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R2C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R2C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R2C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R2C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R3C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R3C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R3C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R3C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R3C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R3C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R3C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R31C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R31C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R31C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R31C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R31C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R31C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R31C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ],
+      "R70-constant-vanden-stock-stadium-anderlecht": [
+        "R70C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R70C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R70C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R70C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R70C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R70C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R70C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R70C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ],
+      "R71-vicente-calderon-madrid-atletico-madrid": [
+        "R71C1-prix-uph-union-de-la-presse-hippique-prix-de-la-risle.html",
+        "R71C2-grand-prix-de-la-ville-de-tourgeville.html",
+        "R71C3-prix-de-l-hippodrome-de-punchestown-prix-des-lavateres.html",
+        "R71C4-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R71C5-prix-des-fromageries-graindorge-prix-des-herbages.html",
+        "R71C6-prix-des-chevaliers-de-pont-l-eveque-prix-des-paturages.html",
+        "R71C7-idac-interprofession-des-aoc-cidricoles-gd-ordre-du-trou-normand.html",
+        "R71C8-grand-prix-de-la-ville-de-pont-l-eveque-prix-des-villas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:36:01.491603Z"
+}

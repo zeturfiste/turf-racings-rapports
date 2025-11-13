@@ -1,0 +1,86 @@
+{
+  "date": "2016-10-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-22",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-22/2016-10-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C1-prix-vatelys.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C2-prix-de-bourges.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C3-prix-d-amiens.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C5-grand-steeple-chase-d-enghien.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C6-prix-de-besancon.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C7-prix-roger-saint.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R1-enghien-soisy/R1C8-prix-du-treport.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R3-caen/R3C1-prix-vatelys.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R3-caen/R3C2-prix-de-bourges.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R3-caen/R3C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R3-caen/R3C6-prix-de-besancon.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R3-caen/R3C8-prix-du-treport.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R4-le-croise-laroche/R4C2-prix-de-bourges.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R5-les-sables-d-olonne/R5C5-grand-steeple-chase-d-enghien.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R5-les-sables-d-olonne/R5C6-prix-de-besancon.html",
+      "resultats-et-rapports/2016/10/2016-10-22/R5-les-sables-d-olonne/R5C8-prix-du-treport.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R5-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-vatelys.html",
+        "R1C2-prix-de-bourges.html",
+        "R1C3-prix-d-amiens.html",
+        "R1C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+        "R1C5-grand-steeple-chase-d-enghien.html",
+        "R1C6-prix-de-besancon.html",
+        "R1C7-prix-roger-saint.html",
+        "R1C8-prix-du-treport.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-vatelys.html",
+        "R3C2-prix-de-bourges.html",
+        "R3C3-prix-d-amiens.html",
+        "R3C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+        "R3C5-grand-steeple-chase-d-enghien.html",
+        "R3C6-prix-de-besancon.html",
+        "R3C7-prix-roger-saint.html",
+        "R3C8-prix-du-treport.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-vatelys.html",
+        "R4C2-prix-de-bourges.html",
+        "R4C3-prix-d-amiens.html",
+        "R4C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+        "R4C5-grand-steeple-chase-d-enghien.html",
+        "R4C6-prix-de-besancon.html",
+        "R4C7-prix-roger-saint.html",
+        "R4C8-prix-du-treport.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-vatelys.html",
+        "R5C2-prix-de-bourges.html",
+        "R5C3-prix-d-amiens.html",
+        "R5C4-prix-de-la-ville-de-soisy-sous-montmorency.html",
+        "R5C5-grand-steeple-chase-d-enghien.html",
+        "R5C6-prix-de-besancon.html",
+        "R5C7-prix-roger-saint.html",
+        "R5C8-prix-du-treport.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:48.077871Z"
+}

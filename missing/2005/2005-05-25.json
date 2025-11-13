@@ -1,0 +1,46 @@
+{
+  "date": "2005-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-25",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-25/2005-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-croise-laroche",
+      "R2-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-le-croise-laroche": [
+        "R1C1-prix-paris-turf-geny-courses-prix-rtl-grand-prix-h-sion.html",
+        "R1C2-prix-d-helsinki.html",
+        "R1C3-prix-de-moscou.html",
+        "R1C4-prix-d-avenches.html",
+        "R1C5-prix-paris-turf-geny-courses-rtl.html",
+        "R1C6-prix-de-solvalla.html",
+        "R1C7-prix-d-oslo.html",
+        "R1C8-prix-de-meadowland.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-paris-turf-geny-courses-prix-rtl-grand-prix-h-sion.html",
+        "R2C2-prix-d-helsinki.html",
+        "R2C3-prix-de-moscou.html",
+        "R2C4-prix-d-avenches.html",
+        "R2C5-prix-paris-turf-geny-courses-rtl.html",
+        "R2C6-prix-de-solvalla.html",
+        "R2C7-prix-d-oslo.html",
+        "R2C8-prix-de-meadowland.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:26:55.325499Z"
+}

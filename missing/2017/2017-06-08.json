@@ -1,0 +1,82 @@
+{
+  "date": "2017-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-08",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-08/2017-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-08/R2-caen/R2C2-prix-de-saint-remy-en-rollat.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R2-caen/R2C4-prix-de-chambord-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R2-caen/R2C7-prix-du-vivarais.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R3-marseille-borely/R3C3-prix-vichy-celestins.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R3-marseille-borely/R3C5-prix-de-chambord-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R3-marseille-borely/R3C6-prix-de-grosbois.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R3-marseille-borely/R3C8-prix-de-la-sologne.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C1-prix-de-treteau.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C2-prix-de-saint-remy-en-rollat.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C3-prix-vichy-celestins.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C4-prix-de-chambord-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C6-prix-de-grosbois.html",
+      "resultats-et-rapports/2017/06/2017-06-08/R4-dieppe/R4C7-prix-du-vivarais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-caen",
+      "R3-marseille-borely",
+      "R4-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-treteau.html",
+        "R1C2-prix-de-saint-remy-en-rollat.html",
+        "R1C3-prix-vichy-celestins.html",
+        "R1C4-prix-de-chambord-groupe-a.html",
+        "R1C5-prix-de-chambord-groupe-b.html",
+        "R1C6-prix-de-grosbois.html",
+        "R1C7-prix-du-vivarais.html",
+        "R1C8-prix-de-la-sologne.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-treteau.html",
+        "R2C2-prix-de-saint-remy-en-rollat.html",
+        "R2C3-prix-vichy-celestins.html",
+        "R2C4-prix-de-chambord-groupe-a.html",
+        "R2C5-prix-de-chambord-groupe-b.html",
+        "R2C6-prix-de-grosbois.html",
+        "R2C7-prix-du-vivarais.html",
+        "R2C8-prix-de-la-sologne.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-treteau.html",
+        "R3C2-prix-de-saint-remy-en-rollat.html",
+        "R3C3-prix-vichy-celestins.html",
+        "R3C4-prix-de-chambord-groupe-a.html",
+        "R3C5-prix-de-chambord-groupe-b.html",
+        "R3C6-prix-de-grosbois.html",
+        "R3C7-prix-du-vivarais.html",
+        "R3C8-prix-de-la-sologne.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-de-treteau.html",
+        "R4C2-prix-de-saint-remy-en-rollat.html",
+        "R4C3-prix-vichy-celestins.html",
+        "R4C4-prix-de-chambord-groupe-a.html",
+        "R4C5-prix-de-chambord-groupe-b.html",
+        "R4C6-prix-de-grosbois.html",
+        "R4C7-prix-du-vivarais.html",
+        "R4C8-prix-de-la-sologne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:50:54.199539Z"
+}

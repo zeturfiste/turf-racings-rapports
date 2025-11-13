@@ -1,0 +1,60 @@
+{
+  "date": "2022-01-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/01/2022-01-07",
+    "date_html": "resultats-et-rapports/2022/01/2022-01-07/2022-01-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-cabourg",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-volcan.html",
+        "R1C2-prix-de-port-mulberry.html",
+        "R1C3-prix-de-saint-roch.html",
+        "R1C4-prix-de-bonnerie.html",
+        "R1C5-prix-de-beaufosse.html",
+        "R1C6-prix-du-bassin-du-commerce.html",
+        "R1C7-prix-maxime-garcia.html",
+        "R1C8-prix-de-l-eglise-saint-joseph.html",
+        "R1C9-prix-de-folleville.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-volcan.html",
+        "R3C2-prix-de-port-mulberry.html",
+        "R3C3-prix-de-saint-roch.html",
+        "R3C4-prix-de-bonnerie.html",
+        "R3C5-prix-de-beaufosse.html",
+        "R3C6-prix-du-bassin-du-commerce.html",
+        "R3C7-prix-maxime-garcia.html",
+        "R3C8-prix-de-l-eglise-saint-joseph.html",
+        "R3C9-prix-de-folleville.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-volcan.html",
+        "R4C2-prix-de-port-mulberry.html",
+        "R4C3-prix-de-saint-roch.html",
+        "R4C4-prix-de-bonnerie.html",
+        "R4C5-prix-de-beaufosse.html",
+        "R4C6-prix-du-bassin-du-commerce.html",
+        "R4C7-prix-maxime-garcia.html",
+        "R4C8-prix-de-l-eglise-saint-joseph.html",
+        "R4C9-prix-de-folleville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:38.568385Z"
+}

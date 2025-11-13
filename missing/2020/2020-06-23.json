@@ -1,0 +1,82 @@
+{
+  "date": "2020-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-23",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-23/2020-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-23/R1-auteuil/R1C2-prix-bois-rouaud.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R3-caen/R3C1-prix-al-capone-ii.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R4-le-croise-laroche/R4C2-prix-bois-rouaud.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C1-prix-al-capone-ii.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C2-prix-bois-rouaud.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C4-prix-rocking-chair.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C5-prix-saint-sauveur.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C6-prix-de-chantilly.html",
+      "resultats-et-rapports/2020/06/2020-06-23/R5-vincennes/R5C7-prix-d-acheres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-al-capone-ii.html",
+        "R1C2-prix-bois-rouaud.html",
+        "R1C3-prix-katko.html",
+        "R1C4-prix-rocking-chair.html",
+        "R1C5-prix-saint-sauveur.html",
+        "R1C6-prix-de-chantilly.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-pharaon.html",
+        "R1C9-prix-du-vesinet.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-al-capone-ii.html",
+        "R3C2-prix-bois-rouaud.html",
+        "R3C3-prix-katko.html",
+        "R3C4-prix-rocking-chair.html",
+        "R3C5-prix-saint-sauveur.html",
+        "R3C6-prix-de-chantilly.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-pharaon.html",
+        "R3C9-prix-du-vesinet.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-al-capone-ii.html",
+        "R4C2-prix-bois-rouaud.html",
+        "R4C3-prix-katko.html",
+        "R4C4-prix-rocking-chair.html",
+        "R4C5-prix-saint-sauveur.html",
+        "R4C6-prix-de-chantilly.html",
+        "R4C7-prix-d-acheres.html",
+        "R4C8-prix-pharaon.html",
+        "R4C9-prix-du-vesinet.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-al-capone-ii.html",
+        "R5C2-prix-bois-rouaud.html",
+        "R5C3-prix-katko.html",
+        "R5C4-prix-rocking-chair.html",
+        "R5C5-prix-saint-sauveur.html",
+        "R5C6-prix-de-chantilly.html",
+        "R5C7-prix-d-acheres.html",
+        "R5C8-prix-pharaon.html",
+        "R5C9-prix-du-vesinet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:56:22.123917Z"
+}

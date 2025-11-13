@@ -1,0 +1,89 @@
+{
+  "date": "2017-07-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-03",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-03/2017-07-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-03/R1-maisons-laffitte/R1C1-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R1-maisons-laffitte/R1C3-prix-de-port-marly.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R1-maisons-laffitte/R1C4-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R1-maisons-laffitte/R1C5-prix-amandine.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C1-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C2-prix-le-paillon.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C3-prix-de-port-marly.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C5-prix-amandine.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C7-prix-du-vesinet.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R3-nantes/R3C8-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R4-vichy/R4C2-prix-le-paillon.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R4-vichy/R4C3-prix-de-port-marly.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R4-vichy/R4C5-prix-amandine.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R4-vichy/R4C7-prix-du-vesinet.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R4-vichy/R4C8-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R6-le-croise-laroche/R6C2-prix-le-paillon.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R6-le-croise-laroche/R6C3-prix-de-port-marly.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R6-le-croise-laroche/R6C5-prix-amandine.html",
+      "resultats-et-rapports/2017/07/2017-07-03/R6-le-croise-laroche/R6C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R3-nantes",
+      "R4-vichy",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-le-roi-soleil.html",
+        "R1C2-prix-le-paillon.html",
+        "R1C3-prix-de-port-marly.html",
+        "R1C4-prix-de-marly-le-roi.html",
+        "R1C5-prix-amandine.html",
+        "R1C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html",
+        "R1C7-prix-du-vesinet.html",
+        "R1C8-prix-sans-souci-ii.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-le-roi-soleil.html",
+        "R3C2-prix-le-paillon.html",
+        "R3C3-prix-de-port-marly.html",
+        "R3C4-prix-de-marly-le-roi.html",
+        "R3C5-prix-amandine.html",
+        "R3C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html",
+        "R3C7-prix-du-vesinet.html",
+        "R3C8-prix-sans-souci-ii.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-le-roi-soleil.html",
+        "R4C2-prix-le-paillon.html",
+        "R4C3-prix-de-port-marly.html",
+        "R4C4-prix-de-marly-le-roi.html",
+        "R4C5-prix-amandine.html",
+        "R4C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html",
+        "R4C7-prix-du-vesinet.html",
+        "R4C8-prix-sans-souci-ii.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-le-roi-soleil.html",
+        "R6C2-prix-le-paillon.html",
+        "R6C3-prix-de-port-marly.html",
+        "R6C4-prix-de-marly-le-roi.html",
+        "R6C5-prix-amandine.html",
+        "R6C6-prix-du-conseil-departemental-des-yvelines-fegentri-world-cup-nations.html",
+        "R6C7-prix-du-vesinet.html",
+        "R6C8-prix-sans-souci-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:51:02.402128Z"
+}

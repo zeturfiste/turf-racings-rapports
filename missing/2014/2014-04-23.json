@@ -1,0 +1,77 @@
+{
+  "date": "2014-04-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-23",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-23/2014-04-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-23/R1-agen/R1C3-prix-de-la-ville-du-passage.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R1-agen/R1C5-prix-d-agen.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R1-agen/R1C6-prix-roger-lagenebre.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R1-agen/R1C7-prix-de-biarritz.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R2-auteuil/R2C4-prix-de-l-agglomeration-d-agen.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R3-laval/R3C2-prix-de-l-entreprise-malet.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R3-laval/R3C6-prix-roger-lagenebre.html",
+      "resultats-et-rapports/2014/04/2014-04-23/R5-marseille-borely/R5C6-prix-roger-lagenebre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-agen",
+      "R2-auteuil",
+      "R3-laval",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-agen": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-l-entreprise-malet.html",
+        "R1C3-prix-de-la-ville-du-passage.html",
+        "R1C4-prix-de-l-agglomeration-d-agen.html",
+        "R1C5-prix-d-agen.html",
+        "R1C6-prix-roger-lagenebre.html",
+        "R1C7-prix-de-biarritz.html",
+        "R1C8-prix-du-comite-regional-du-trot.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-de-l-entreprise-malet.html",
+        "R2C3-prix-de-la-ville-du-passage.html",
+        "R2C4-prix-de-l-agglomeration-d-agen.html",
+        "R2C5-prix-d-agen.html",
+        "R2C6-prix-roger-lagenebre.html",
+        "R2C7-prix-de-biarritz.html",
+        "R2C8-prix-du-comite-regional-du-trot.html"
+      ],
+      "R3-laval": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-l-entreprise-malet.html",
+        "R3C3-prix-de-la-ville-du-passage.html",
+        "R3C4-prix-de-l-agglomeration-d-agen.html",
+        "R3C5-prix-d-agen.html",
+        "R3C6-prix-roger-lagenebre.html",
+        "R3C7-prix-de-biarritz.html",
+        "R3C8-prix-du-comite-regional-du-trot.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-grand-national-du-trot-paris-turf.html",
+        "R5C2-prix-de-l-entreprise-malet.html",
+        "R5C3-prix-de-la-ville-du-passage.html",
+        "R5C4-prix-de-l-agglomeration-d-agen.html",
+        "R5C5-prix-d-agen.html",
+        "R5C6-prix-roger-lagenebre.html",
+        "R5C7-prix-de-biarritz.html",
+        "R5C8-prix-du-comite-regional-du-trot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:45:06.157428Z"
+}

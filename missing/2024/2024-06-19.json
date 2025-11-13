@@ -1,0 +1,64 @@
+{
+  "date": "2024-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-19",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-19/2024-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-19/R1-bordeaux-le-bouscat/R1C2-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/06/2024-06-19/R1-bordeaux-le-bouscat/R1C5-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2024/06/2024-06-19/R3-toulouse/R3C1-prix-du-pari-tourny-a-bordeaux.html",
+      "resultats-et-rapports/2024/06/2024-06-19/R3-toulouse/R3C5-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2024/06/2024-06-19/R3-toulouse/R3C6-prix-de-la-ville-du-bouscat.html",
+      "resultats-et-rapports/2024/06/2024-06-19/R4-chartres/R4C4-prix-de-l-hippodrome-de-saint-malo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R3-toulouse",
+      "R4-chartres"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-du-pari-tourny-a-bordeaux.html",
+        "R1C2-grand-national-du-trot.html",
+        "R1C3-grand-national-des-amateurs.html",
+        "R1C4-prix-de-l-hippodrome-de-saint-malo.html",
+        "R1C5-grand-national-des-jockeys.html",
+        "R1C6-prix-de-la-ville-du-bouscat.html",
+        "R1C7-prix-bordeaux-metropole.html",
+        "R1C8-prix-caliceo-bordeaux.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-du-pari-tourny-a-bordeaux.html",
+        "R3C2-grand-national-du-trot.html",
+        "R3C3-grand-national-des-amateurs.html",
+        "R3C4-prix-de-l-hippodrome-de-saint-malo.html",
+        "R3C5-grand-national-des-jockeys.html",
+        "R3C6-prix-de-la-ville-du-bouscat.html",
+        "R3C7-prix-bordeaux-metropole.html",
+        "R3C8-prix-caliceo-bordeaux.html"
+      ],
+      "R4-chartres": [
+        "R4C1-prix-du-pari-tourny-a-bordeaux.html",
+        "R4C2-grand-national-du-trot.html",
+        "R4C3-grand-national-des-amateurs.html",
+        "R4C4-prix-de-l-hippodrome-de-saint-malo.html",
+        "R4C5-grand-national-des-jockeys.html",
+        "R4C6-prix-de-la-ville-du-bouscat.html",
+        "R4C7-prix-bordeaux-metropole.html",
+        "R4C8-prix-caliceo-bordeaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:04:56.532569Z"
+}

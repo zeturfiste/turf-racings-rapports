@@ -1,0 +1,101 @@
+{
+  "date": "2021-10-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-02",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-02/2021-10-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-02/R1-paris-longchamp/R1C5-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C3-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C5-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C7-qatar-prix-dollar.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C8-qatar-prix-de-la-place-de-l-etoile.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R3-nantes/R3C9-prix-qatar-racing-and-equestrian-club.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R4-marseille-vivaux/R4C5-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R4-marseille-vivaux/R4C8-qatar-prix-de-la-place-de-l-etoile.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C3-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C5-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C6-haras-de-bouquetot-criterium-arqana.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C8-qatar-prix-de-la-place-de-l-etoile.html",
+      "resultats-et-rapports/2021/10/2021-10-02/R7-amiens/R7C9-prix-qatar-racing-and-equestrian-club.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-angers",
+      "R3-nantes",
+      "R4-marseille-vivaux",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-qatar-prix-chaudenay.html",
+        "R1C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R1C3-qatar-prix-daniel-wildenstein.html",
+        "R1C4-qatar-prix-du-cadran.html",
+        "R1C5-qatar-prix-de-royallieu.html",
+        "R1C6-haras-de-bouquetot-criterium-arqana.html",
+        "R1C7-qatar-prix-dollar.html",
+        "R1C8-qatar-prix-de-la-place-de-l-etoile.html",
+        "R1C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R2-angers": [
+        "R2C1-qatar-prix-chaudenay.html",
+        "R2C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R2C3-qatar-prix-daniel-wildenstein.html",
+        "R2C4-qatar-prix-du-cadran.html",
+        "R2C5-qatar-prix-de-royallieu.html",
+        "R2C6-haras-de-bouquetot-criterium-arqana.html",
+        "R2C7-qatar-prix-dollar.html",
+        "R2C8-qatar-prix-de-la-place-de-l-etoile.html",
+        "R2C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R3-nantes": [
+        "R3C1-qatar-prix-chaudenay.html",
+        "R3C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R3C3-qatar-prix-daniel-wildenstein.html",
+        "R3C4-qatar-prix-du-cadran.html",
+        "R3C5-qatar-prix-de-royallieu.html",
+        "R3C6-haras-de-bouquetot-criterium-arqana.html",
+        "R3C7-qatar-prix-dollar.html",
+        "R3C8-qatar-prix-de-la-place-de-l-etoile.html",
+        "R3C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-qatar-prix-chaudenay.html",
+        "R4C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R4C3-qatar-prix-daniel-wildenstein.html",
+        "R4C4-qatar-prix-du-cadran.html",
+        "R4C5-qatar-prix-de-royallieu.html",
+        "R4C6-haras-de-bouquetot-criterium-arqana.html",
+        "R4C7-qatar-prix-dollar.html",
+        "R4C8-qatar-prix-de-la-place-de-l-etoile.html",
+        "R4C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R7-amiens": [
+        "R7C1-qatar-prix-chaudenay.html",
+        "R7C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R7C3-qatar-prix-daniel-wildenstein.html",
+        "R7C4-qatar-prix-du-cadran.html",
+        "R7C5-qatar-prix-de-royallieu.html",
+        "R7C6-haras-de-bouquetot-criterium-arqana.html",
+        "R7C7-qatar-prix-dollar.html",
+        "R7C8-qatar-prix-de-la-place-de-l-etoile.html",
+        "R7C9-prix-qatar-racing-and-equestrian-club.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:05.933531Z"
+}

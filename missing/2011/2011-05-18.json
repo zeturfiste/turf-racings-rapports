@@ -1,0 +1,73 @@
+{
+  "date": "2011-05-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-18",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-18/2011-05-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-18/R1-caen/R1C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R1-caen/R1C3-prix-henri-balliere.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R1-caen/R1C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R1-caen/R1C6-prix-de-romigny.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R2-marseille-borely/R2C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R2-marseille-borely/R2C7-prix-du-calvados.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R2-marseille-borely/R2C8-prix-de-la-touques.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C3-prix-henri-balliere.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C4-prix-normandie-tv-prix-de-cambremer.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C6-prix-de-romigny.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C7-prix-du-calvados.html",
+      "resultats-et-rapports/2011/05/2011-05-18/R3-saint-cloud/R3C8-prix-de-la-touques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-marseille-borely",
+      "R3-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-des-ducs-de-normandie.html",
+        "R1C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R1C3-prix-henri-balliere.html",
+        "R1C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R1C5-saint-leger-des-trotteurs.html",
+        "R1C6-prix-de-romigny.html",
+        "R1C7-prix-du-calvados.html",
+        "R1C8-prix-de-la-touques.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-des-ducs-de-normandie.html",
+        "R2C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R2C3-prix-henri-balliere.html",
+        "R2C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R2C5-saint-leger-des-trotteurs.html",
+        "R2C6-prix-de-romigny.html",
+        "R2C7-prix-du-calvados.html",
+        "R2C8-prix-de-la-touques.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-des-ducs-de-normandie.html",
+        "R3C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R3C3-prix-henri-balliere.html",
+        "R3C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R3C5-saint-leger-des-trotteurs.html",
+        "R3C6-prix-de-romigny.html",
+        "R3C7-prix-du-calvados.html",
+        "R3C8-prix-de-la-touques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:40:02.789933Z"
+}

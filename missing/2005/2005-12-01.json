@@ -1,0 +1,48 @@
+{
+  "date": "2005-12-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-01",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-01/2005-12-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-landes.html",
+        "R1C2-prix-d-ales-trophee-republique-tatarstan.html",
+        "R1C3-prix-de-castelsarrasin.html",
+        "R1C4-prix-de-l-orne-trophee-de-la-ville-de-perm.html",
+        "R1C5-prix-paul-buquet.html",
+        "R1C6-prix-de-moscou.html",
+        "R1C7-prix-de-ferrieres-trophee-de-la-ville-de-yaroslavl.html",
+        "R1C8-prix-d-apt-trophee-de-la-ville-de-tyumen.html",
+        "R1C9-prix-des-dahlias.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-des-landes.html",
+        "R2C2-prix-d-ales-trophee-republique-tatarstan.html",
+        "R2C3-prix-de-castelsarrasin.html",
+        "R2C4-prix-de-l-orne-trophee-de-la-ville-de-perm.html",
+        "R2C5-prix-paul-buquet.html",
+        "R2C6-prix-de-moscou.html",
+        "R2C7-prix-de-ferrieres-trophee-de-la-ville-de-yaroslavl.html",
+        "R2C8-prix-d-apt-trophee-de-la-ville-de-tyumen.html",
+        "R2C9-prix-des-dahlias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:28.075712Z"
+}

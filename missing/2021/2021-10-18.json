@@ -1,0 +1,79 @@
+{
+  "date": "2021-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-18",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-18/2021-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-18/R1-clairefontaine/R1C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R1-clairefontaine/R1C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R3-compiegne/R3C6-godolphin-tfri-prixx-cfa-agricole-de-sees-prix-de-la-mare-a-touques.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R3-compiegne/R3C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R4-enghien-soisy/R4C1-trotting-bloodstock-prix-mfr-balleroy-prix-des-equidays.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R4-enghien-soisy/R4C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R4-enghien-soisy/R4C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R7-salon-de-provence/R7C3-equi-ressources-prix-mfr-de-bernay-prix-des-astrances.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R7-salon-de-provence/R7C4-haras-de-bouquetot-prix-mfr-cfa-blangy-le-chateau-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2021/10/2021-10-18/R7-salon-de-provence/R7C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-compiegne",
+      "R4-enghien-soisy",
+      "R7-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-trotting-bloodstock-prix-mfr-balleroy-prix-des-equidays.html",
+        "R1C2-journee-educative-prix-le-turf-vu-d-un-autre-oeil-prix-des-liserons.html",
+        "R1C3-equi-ressources-prix-mfr-de-bernay-prix-des-astrances.html",
+        "R1C4-haras-de-bouquetot-prix-mfr-cfa-blangy-le-chateau-prix-de-l-etablissement-des-ventes.html",
+        "R1C5-prix-aux-courses-les-jeunes-decouv-de-la-filiere-des-courses-prix-de-fleurigny.html",
+        "R1C6-godolphin-tfri-prixx-cfa-agricole-de-sees-prix-de-la-mare-a-touques.html",
+        "R1C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+        "R1C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-trotting-bloodstock-prix-mfr-balleroy-prix-des-equidays.html",
+        "R3C2-journee-educative-prix-le-turf-vu-d-un-autre-oeil-prix-des-liserons.html",
+        "R3C3-equi-ressources-prix-mfr-de-bernay-prix-des-astrances.html",
+        "R3C4-haras-de-bouquetot-prix-mfr-cfa-blangy-le-chateau-prix-de-l-etablissement-des-ventes.html",
+        "R3C5-prix-aux-courses-les-jeunes-decouv-de-la-filiere-des-courses-prix-de-fleurigny.html",
+        "R3C6-godolphin-tfri-prixx-cfa-agricole-de-sees-prix-de-la-mare-a-touques.html",
+        "R3C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+        "R3C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-trotting-bloodstock-prix-mfr-balleroy-prix-des-equidays.html",
+        "R4C2-journee-educative-prix-le-turf-vu-d-un-autre-oeil-prix-des-liserons.html",
+        "R4C3-equi-ressources-prix-mfr-de-bernay-prix-des-astrances.html",
+        "R4C4-haras-de-bouquetot-prix-mfr-cfa-blangy-le-chateau-prix-de-l-etablissement-des-ventes.html",
+        "R4C5-prix-aux-courses-les-jeunes-decouv-de-la-filiere-des-courses-prix-de-fleurigny.html",
+        "R4C6-godolphin-tfri-prixx-cfa-agricole-de-sees-prix-de-la-mare-a-touques.html",
+        "R4C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+        "R4C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html"
+      ],
+      "R7-salon-de-provence": [
+        "R7C1-trotting-bloodstock-prix-mfr-balleroy-prix-des-equidays.html",
+        "R7C2-journee-educative-prix-le-turf-vu-d-un-autre-oeil-prix-des-liserons.html",
+        "R7C3-equi-ressources-prix-mfr-de-bernay-prix-des-astrances.html",
+        "R7C4-haras-de-bouquetot-prix-mfr-cfa-blangy-le-chateau-prix-de-l-etablissement-des-ventes.html",
+        "R7C5-prix-aux-courses-les-jeunes-decouv-de-la-filiere-des-courses-prix-de-fleurigny.html",
+        "R7C6-godolphin-tfri-prixx-cfa-agricole-de-sees-prix-de-la-mare-a-touques.html",
+        "R7C7-prix-du-bottey-prix-conseil-des-chevaux-de-normandie.html",
+        "R7C8-prix-de-la-couture-bardin-prix-normandie-grands-evenements.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:59:11.934895Z"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2007-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-05",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-05/2007-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C1-prix-du-palais-de-glace.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C2-prix-juigne.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C3-prix-de-chaillot.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C4-prix-de-verneuil.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C5-prix-de-viroflay.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C6-prix-de-la-defense.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C7-prix-de-la-huchette.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R1-longchamp/R1C8-prix-de-fleurus.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R2-la-capelle/R2C1-prix-du-palais-de-glace.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R31-zerace/R31C1-prix-du-palais-de-glace.html",
+      "resultats-et-rapports/2007/04/2007-04-05/R31-zerace/R31C9-prix-cours-de-la-reine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-la-capelle",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-de-glace.html",
+        "R1C2-prix-juigne.html",
+        "R1C3-prix-de-chaillot.html",
+        "R1C4-prix-de-verneuil.html",
+        "R1C5-prix-de-viroflay.html",
+        "R1C6-prix-de-la-defense.html",
+        "R1C7-prix-de-la-huchette.html",
+        "R1C8-prix-de-fleurus.html",
+        "R1C9-prix-cours-de-la-reine.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-palais-de-glace.html",
+        "R2C2-prix-juigne.html",
+        "R2C3-prix-de-chaillot.html",
+        "R2C4-prix-de-verneuil.html",
+        "R2C5-prix-de-viroflay.html",
+        "R2C6-prix-de-la-defense.html",
+        "R2C7-prix-de-la-huchette.html",
+        "R2C8-prix-de-fleurus.html",
+        "R2C9-prix-cours-de-la-reine.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-palais-de-glace.html",
+        "R31C2-prix-juigne.html",
+        "R31C3-prix-de-chaillot.html",
+        "R31C4-prix-de-verneuil.html",
+        "R31C5-prix-de-viroflay.html",
+        "R31C6-prix-de-la-defense.html",
+        "R31C7-prix-de-la-huchette.html",
+        "R31C8-prix-de-fleurus.html",
+        "R31C9-prix-cours-de-la-reine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:33.673050Z"
+}

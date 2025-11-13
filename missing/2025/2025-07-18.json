@@ -1,0 +1,75 @@
+{
+  "date": "2025-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-18",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-18/2025-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-18/R1-cabourg/R1C1-prix-fandango.html",
+      "resultats-et-rapports/2025/07/2025-07-18/R1-cabourg/R1C5-prix-sulky-passion.html",
+      "resultats-et-rapports/2025/07/2025-07-18/R4-vichy/R4C4-grand-prix-de-la-ville-de-cabourg.html",
+      "resultats-et-rapports/2025/07/2025-07-18/R4-vichy/R4C6-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2025/07/2025-07-18/R5-le-lion-d-angers/R5C6-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2025/07/2025-07-18/R5-le-lion-d-angers/R5C7-prix-du-conseil-departemental-du-calvados.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-feurs",
+      "R4-vichy",
+      "R5-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-fandango.html",
+        "R1C2-prix-du-conseil-regional-de-normandie.html",
+        "R1C3-prix-afasec-de-graignes.html",
+        "R1C4-grand-prix-de-la-ville-de-cabourg.html",
+        "R1C5-prix-sulky-passion.html",
+        "R1C6-prix-normandie-cabourg-pays-d-auge.html",
+        "R1C7-prix-du-conseil-departemental-du-calvados.html",
+        "R1C8-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-fandango.html",
+        "R2C2-prix-du-conseil-regional-de-normandie.html",
+        "R2C3-prix-afasec-de-graignes.html",
+        "R2C4-grand-prix-de-la-ville-de-cabourg.html",
+        "R2C5-prix-sulky-passion.html",
+        "R2C6-prix-normandie-cabourg-pays-d-auge.html",
+        "R2C7-prix-du-conseil-departemental-du-calvados.html",
+        "R2C8-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-fandango.html",
+        "R4C2-prix-du-conseil-regional-de-normandie.html",
+        "R4C3-prix-afasec-de-graignes.html",
+        "R4C4-grand-prix-de-la-ville-de-cabourg.html",
+        "R4C5-prix-sulky-passion.html",
+        "R4C6-prix-normandie-cabourg-pays-d-auge.html",
+        "R4C7-prix-du-conseil-departemental-du-calvados.html",
+        "R4C8-prix-du-conseil-des-chevaux-de-normandie.html"
+      ],
+      "R5-le-lion-d-angers": [
+        "R5C1-prix-fandango.html",
+        "R5C2-prix-du-conseil-regional-de-normandie.html",
+        "R5C3-prix-afasec-de-graignes.html",
+        "R5C4-grand-prix-de-la-ville-de-cabourg.html",
+        "R5C5-prix-sulky-passion.html",
+        "R5C6-prix-normandie-cabourg-pays-d-auge.html",
+        "R5C7-prix-du-conseil-departemental-du-calvados.html",
+        "R5C8-prix-du-conseil-des-chevaux-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:07:18.767793Z"
+}

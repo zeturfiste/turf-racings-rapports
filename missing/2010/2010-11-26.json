@@ -1,0 +1,72 @@
+{
+  "date": "2010-11-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-26",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-26/2010-11-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-26/R1-bordeaux-le-bouscat/R1C8-prix-amedee-de-carayon-latour.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C1-prix-de-floirac.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C3-prix-de-la-societe-d-encouragement-de-bordeaux.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C4-prix-de-newmarket.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C5-prix-de-l-institut-du-droit-equin-prix-du-tremblay.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C6-prix-bertrand-du-vivier.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C7-prix-de-la-5000eme-victoire-de-jean-claude-rouget.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R2-angers/R2C8-prix-amedee-de-carayon-latour.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C1-prix-de-floirac.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C2-prix-jonathan-besse.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C3-prix-de-la-societe-d-encouragement-de-bordeaux.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C4-prix-de-newmarket.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C5-prix-de-l-institut-du-droit-equin-prix-du-tremblay.html",
+      "resultats-et-rapports/2010/11/2010-11-26/R3-vincennes/R3C6-prix-bertrand-du-vivier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-angers",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-de-floirac.html",
+        "R1C2-prix-jonathan-besse.html",
+        "R1C3-prix-de-la-societe-d-encouragement-de-bordeaux.html",
+        "R1C4-prix-de-newmarket.html",
+        "R1C5-prix-de-l-institut-du-droit-equin-prix-du-tremblay.html",
+        "R1C6-prix-bertrand-du-vivier.html",
+        "R1C7-prix-de-la-5000eme-victoire-de-jean-claude-rouget.html",
+        "R1C8-prix-amedee-de-carayon-latour.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-floirac.html",
+        "R2C2-prix-jonathan-besse.html",
+        "R2C3-prix-de-la-societe-d-encouragement-de-bordeaux.html",
+        "R2C4-prix-de-newmarket.html",
+        "R2C5-prix-de-l-institut-du-droit-equin-prix-du-tremblay.html",
+        "R2C6-prix-bertrand-du-vivier.html",
+        "R2C7-prix-de-la-5000eme-victoire-de-jean-claude-rouget.html",
+        "R2C8-prix-amedee-de-carayon-latour.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-floirac.html",
+        "R3C2-prix-jonathan-besse.html",
+        "R3C3-prix-de-la-societe-d-encouragement-de-bordeaux.html",
+        "R3C4-prix-de-newmarket.html",
+        "R3C5-prix-de-l-institut-du-droit-equin-prix-du-tremblay.html",
+        "R3C6-prix-bertrand-du-vivier.html",
+        "R3C7-prix-de-la-5000eme-victoire-de-jean-claude-rouget.html",
+        "R3C8-prix-amedee-de-carayon-latour.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:39:17.674306Z"
+}

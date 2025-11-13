@@ -1,0 +1,107 @@
+{
+  "date": "2007-02-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/02/2007-02-02",
+    "date_html": "resultats-et-rapports/2007/02/2007-02-02/2007-02-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/02/2007-02-02/R2-cagnes-sur-mer/R2C6-prix-arthur-d-este.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R2-cagnes-sur-mer/R2C9-prix-d-espelette.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C1-prix-amaury-de-cazanove.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C7-120e-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R21-zerace/R21C9-prix-d-espelette.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R41-pau/R41C2-prix-fernand-roy.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R41-pau/R41C6-prix-arthur-d-este.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R41-pau/R41C7-120e-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R41-pau/R41C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R41-pau/R41C9-prix-d-espelette.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C1-prix-amaury-de-cazanove.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C2-prix-fernand-roy.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C6-prix-arthur-d-este.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C7-120e-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+      "resultats-et-rapports/2007/02/2007-02-02/R42-cagnes-sur-mer/R42C9-prix-d-espelette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer",
+      "R21-zerace",
+      "R41-pau",
+      "R42-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-amaury-de-cazanove.html",
+        "R1C2-prix-fernand-roy.html",
+        "R1C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+        "R1C4-prix-camille-duboscq.html",
+        "R1C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R1C6-prix-arthur-d-este.html",
+        "R1C7-120e-grande-course-de-haies-de-pau.html",
+        "R1C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+        "R1C9-prix-d-espelette.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-amaury-de-cazanove.html",
+        "R2C2-prix-fernand-roy.html",
+        "R2C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+        "R2C4-prix-camille-duboscq.html",
+        "R2C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R2C6-prix-arthur-d-este.html",
+        "R2C7-120e-grande-course-de-haies-de-pau.html",
+        "R2C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+        "R2C9-prix-d-espelette.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-amaury-de-cazanove.html",
+        "R21C2-prix-fernand-roy.html",
+        "R21C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+        "R21C4-prix-camille-duboscq.html",
+        "R21C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R21C6-prix-arthur-d-este.html",
+        "R21C7-120e-grande-course-de-haies-de-pau.html",
+        "R21C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+        "R21C9-prix-d-espelette.html"
+      ],
+      "R41-pau": [
+        "R41C1-prix-amaury-de-cazanove.html",
+        "R41C2-prix-fernand-roy.html",
+        "R41C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+        "R41C4-prix-camille-duboscq.html",
+        "R41C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R41C6-prix-arthur-d-este.html",
+        "R41C7-120e-grande-course-de-haies-de-pau.html",
+        "R41C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+        "R41C9-prix-d-espelette.html"
+      ],
+      "R42-cagnes-sur-mer": [
+        "R42C1-prix-amaury-de-cazanove.html",
+        "R42C2-prix-fernand-roy.html",
+        "R42C3-prix-du-conseil-general-des-p-a-prix-guy-lefrant.html",
+        "R42C4-prix-camille-duboscq.html",
+        "R42C5-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R42C6-prix-arthur-d-este.html",
+        "R42C7-120e-grande-course-de-haies-de-pau.html",
+        "R42C8-prix-france-bleu-bearn-prix-d-hendaye.html",
+        "R42C9-prix-d-espelette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:29:12.641959Z"
+}

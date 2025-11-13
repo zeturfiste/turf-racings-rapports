@@ -1,0 +1,53 @@
+{
+  "date": "2018-01-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/01/2018-01-25",
+    "date_html": "resultats-et-rapports/2018/01/2018-01-25/2018-01-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/01/2018-01-25/R1-vincennes/R1C7-prix-des-baleares.html",
+      "resultats-et-rapports/2018/01/2018-01-25/R3-cagnes-sur-mer/R3C2-prix-de-mons.html",
+      "resultats-et-rapports/2018/01/2018-01-25/R3-cagnes-sur-mer/R3C3-prix-de-yonkers-raceway.html",
+      "resultats-et-rapports/2018/01/2018-01-25/R3-cagnes-sur-mer/R3C4-prix-de-la-valette.html",
+      "resultats-et-rapports/2018/01/2018-01-25/R3-cagnes-sur-mer/R3C5-prix-de-vienne-krieau.html",
+      "resultats-et-rapports/2018/01/2018-01-25/R3-cagnes-sur-mer/R3C6-prix-de-gelsenkirchen.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-semaine-internationale-prix-de-la-thierache.html",
+        "R1C2-prix-de-mons.html",
+        "R1C3-prix-de-yonkers-raceway.html",
+        "R1C4-prix-de-la-valette.html",
+        "R1C5-prix-de-vienne-krieau.html",
+        "R1C6-prix-de-gelsenkirchen.html",
+        "R1C7-prix-des-baleares.html",
+        "R1C8-prix-de-wolvega.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-la-semaine-internationale-prix-de-la-thierache.html",
+        "R3C2-prix-de-mons.html",
+        "R3C3-prix-de-yonkers-raceway.html",
+        "R3C4-prix-de-la-valette.html",
+        "R3C5-prix-de-vienne-krieau.html",
+        "R3C6-prix-de-gelsenkirchen.html",
+        "R3C7-prix-des-baleares.html",
+        "R3C8-prix-de-wolvega.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:52:04.760323Z"
+}

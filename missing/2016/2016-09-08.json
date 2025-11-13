@@ -1,0 +1,85 @@
+{
+  "date": "2016-09-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-08",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-08/2016-09-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-08/R1-chantilly/R1C1-prix-de-la-cascade.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R1-chantilly/R1C2-prix-des-chenes.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R1-chantilly/R1C4-prix-de-fontenoy.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R1-chantilly/R1C5-prix-d-aumale.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R1-chantilly/R1C6-prix-du-pin.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R2-strasbourg/R2C5-prix-d-aumale.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R2-strasbourg/R2C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R3-mauquenchy/R3C2-prix-des-chenes.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R3-mauquenchy/R3C3-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R3-mauquenchy/R3C5-prix-d-aumale.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C2-prix-des-chenes.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C3-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C4-prix-de-fontenoy.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C5-prix-d-aumale.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C6-prix-du-pin.html",
+      "resultats-et-rapports/2016/09/2016-09-08/R4-lyon-la-soie/R4C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-strasbourg",
+      "R3-mauquenchy",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-cascade.html",
+        "R1C2-prix-des-chenes.html",
+        "R1C3-prix-de-l-ile-de-france.html",
+        "R1C4-prix-de-fontenoy.html",
+        "R1C5-prix-d-aumale.html",
+        "R1C6-prix-du-pin.html",
+        "R1C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-de-la-picardie.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-la-cascade.html",
+        "R2C2-prix-des-chenes.html",
+        "R2C3-prix-de-l-ile-de-france.html",
+        "R2C4-prix-de-fontenoy.html",
+        "R2C5-prix-d-aumale.html",
+        "R2C6-prix-du-pin.html",
+        "R2C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R2C8-prix-de-la-picardie.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-de-la-cascade.html",
+        "R3C2-prix-des-chenes.html",
+        "R3C3-prix-de-l-ile-de-france.html",
+        "R3C4-prix-de-fontenoy.html",
+        "R3C5-prix-d-aumale.html",
+        "R3C6-prix-du-pin.html",
+        "R3C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R3C8-prix-de-la-picardie.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-la-cascade.html",
+        "R4C2-prix-des-chenes.html",
+        "R4C3-prix-de-l-ile-de-france.html",
+        "R4C4-prix-de-fontenoy.html",
+        "R4C5-prix-d-aumale.html",
+        "R4C6-prix-du-pin.html",
+        "R4C7-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-de-la-picardie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:49:32.646642Z"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2020-01-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/01/2020-01-03",
+    "date_html": "resultats-et-rapports/2020/01/2020-01-03/2020-01-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-pau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-crennes.html",
+        "R1C2-prix-d-haspel.html",
+        "R1C3-prix-de-l-esque.html",
+        "R1C4-prix-de-la-beauvoisiniere.html",
+        "R1C5-prix-de-saint-roch.html",
+        "R1C6-prix-de-l-aure.html",
+        "R1C7-prix-du-port-mulberry.html",
+        "R1C8-prix-de-l-aurette.html",
+        "R1C9-prix-des-rouges-terres.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-crennes.html",
+        "R2C2-prix-d-haspel.html",
+        "R2C3-prix-de-l-esque.html",
+        "R2C4-prix-de-la-beauvoisiniere.html",
+        "R2C5-prix-de-saint-roch.html",
+        "R2C6-prix-de-l-aure.html",
+        "R2C7-prix-du-port-mulberry.html",
+        "R2C8-prix-de-l-aurette.html",
+        "R2C9-prix-des-rouges-terres.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-crennes.html",
+        "R3C2-prix-d-haspel.html",
+        "R3C3-prix-de-l-esque.html",
+        "R3C4-prix-de-la-beauvoisiniere.html",
+        "R3C5-prix-de-saint-roch.html",
+        "R3C6-prix-de-l-aure.html",
+        "R3C7-prix-du-port-mulberry.html",
+        "R3C8-prix-de-l-aurette.html",
+        "R3C9-prix-des-rouges-terres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:55:42.058770Z"
+}

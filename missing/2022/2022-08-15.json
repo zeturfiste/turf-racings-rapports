@@ -1,0 +1,102 @@
+{
+  "date": "2022-08-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-15",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-15/2022-08-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-15/R1-deauville/R1C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R1-deauville/R1C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R3-pontchateau/R3C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R3-pontchateau/R3C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R4-vichy/R4C1-prix-d-etreham.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R4-vichy/R4C5-prix-de-lieurey.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R4-vichy/R4C6-prix-michel-houyvet.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R4-vichy/R4C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R4-vichy/R4C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R6-pompadour/R6C2-prix-du-mezeray.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R6-pompadour/R6C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R6-pompadour/R6C6-prix-michel-houyvet.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R7-cagnes-sur-mer/R7C1-prix-d-etreham.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R7-cagnes-sur-mer/R7C2-prix-du-mezeray.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R7-cagnes-sur-mer/R7C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R7-cagnes-sur-mer/R7C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2022/08/2022-08-15/R7-cagnes-sur-mer/R7C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-pontchateau",
+      "R4-vichy",
+      "R6-pompadour",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-etreham.html",
+        "R1C2-prix-du-mezeray.html",
+        "R1C3-prix-hong-kong-jockey-club-grand-handicap-des-sprinters.html",
+        "R1C4-prix-guillaume-d-ornano.html",
+        "R1C5-prix-de-lieurey.html",
+        "R1C6-prix-michel-houyvet.html",
+        "R1C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+        "R1C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R1C9-prix-de-cagny.html"
+      ],
+      "R3-pontchateau": [
+        "R3C1-prix-d-etreham.html",
+        "R3C2-prix-du-mezeray.html",
+        "R3C3-prix-hong-kong-jockey-club-grand-handicap-des-sprinters.html",
+        "R3C4-prix-guillaume-d-ornano.html",
+        "R3C5-prix-de-lieurey.html",
+        "R3C6-prix-michel-houyvet.html",
+        "R3C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+        "R3C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R3C9-prix-de-cagny.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-d-etreham.html",
+        "R4C2-prix-du-mezeray.html",
+        "R4C3-prix-hong-kong-jockey-club-grand-handicap-des-sprinters.html",
+        "R4C4-prix-guillaume-d-ornano.html",
+        "R4C5-prix-de-lieurey.html",
+        "R4C6-prix-michel-houyvet.html",
+        "R4C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+        "R4C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R4C9-prix-de-cagny.html"
+      ],
+      "R6-pompadour": [
+        "R6C1-prix-d-etreham.html",
+        "R6C2-prix-du-mezeray.html",
+        "R6C3-prix-hong-kong-jockey-club-grand-handicap-des-sprinters.html",
+        "R6C4-prix-guillaume-d-ornano.html",
+        "R6C5-prix-de-lieurey.html",
+        "R6C6-prix-michel-houyvet.html",
+        "R6C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+        "R6C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R6C9-prix-de-cagny.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-d-etreham.html",
+        "R7C2-prix-du-mezeray.html",
+        "R7C3-prix-hong-kong-jockey-club-grand-handicap-des-sprinters.html",
+        "R7C4-prix-guillaume-d-ornano.html",
+        "R7C5-prix-de-lieurey.html",
+        "R7C6-prix-michel-houyvet.html",
+        "R7C7-67eme-prix-georges-courtois-trophee-studio-harcourt.html",
+        "R7C8-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R7C9-prix-de-cagny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T08:00:57.344975Z"
+}

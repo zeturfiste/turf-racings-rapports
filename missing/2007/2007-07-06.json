@@ -1,0 +1,102 @@
+{
+  "date": "2007-07-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-06",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-06/2007-07-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-06/R1-clairefontaine/R1C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R3-cabourg/R3C1-prix-gde-prix-d-hotot-en-auge.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R3-cabourg/R3C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R4-cagnes-sur-mer/R4C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R4-cagnes-sur-mer/R4C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R4-cagnes-sur-mer/R4C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R4-cagnes-sur-mer/R4C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R4-cagnes-sur-mer/R4C6-prix-blangy-intercom-prix-des-jacinthes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R31-zerace/R31C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R31-zerace/R31C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R31-zerace/R31C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R31-zerace/R31C6-prix-blangy-intercom-prix-des-jacinthes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R70-wimbledon-london/R70C1-prix-gde-prix-d-hotot-en-auge.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R70-wimbledon-london/R70C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R70-wimbledon-london/R70C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R70-wimbledon-london/R70C6-prix-blangy-intercom-prix-des-jacinthes.html",
+      "resultats-et-rapports/2007/07/2007-07-06/R70-wimbledon-london/R70C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-feurs",
+      "R3-cabourg",
+      "R4-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-wimbledon-london"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R1C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R1C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R1C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R1C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R1C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R1C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R2C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R2C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R2C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R2C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R2C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R2C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R3C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R3C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R3C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R3C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R3C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R3C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R4C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R4C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R4C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R4C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R4C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R4C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R31C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R31C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R31C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R31C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R31C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R31C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ],
+      "R70-wimbledon-london": [
+        "R70C1-prix-gde-prix-d-hotot-en-auge.html",
+        "R70C2-prix-des-communautes-de-communes-coeur-cote-fleurie-perriers-auge.html",
+        "R70C3-prix-ecostu-air-prix-de-la-croix-brisee.html",
+        "R70C4-prix-de-la-dame-blanche-et-sa-ferme-nature-prix-des-tulipes.html",
+        "R70C5-prix-imprimerie-escandre-sorel-prix-du-golf.html",
+        "R70C6-prix-blangy-intercom-prix-des-jacinthes.html",
+        "R70C7-prix-veolia-eau-prix-de-putot-en-auge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:30:05.574601Z"
+}

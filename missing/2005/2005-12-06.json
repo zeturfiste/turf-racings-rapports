@@ -1,0 +1,44 @@
+{
+  "date": "2005-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-06",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-06/2005-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-mieuxce.html",
+        "R1C2-prix-belle-sicambre.html",
+        "R1C3-prix-de-la-croix-de-noailles.html",
+        "R1C4-prix-ukrania.html",
+        "R1C5-prix-de-l-abbaye-de-port-royal.html",
+        "R1C6-prix-de-saint-forget.html",
+        "R1C7-prix-de-l-abbaye-des-vaulx-de-cernay.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-mieuxce.html",
+        "R2C2-prix-belle-sicambre.html",
+        "R2C3-prix-de-la-croix-de-noailles.html",
+        "R2C4-prix-ukrania.html",
+        "R2C5-prix-de-l-abbaye-de-port-royal.html",
+        "R2C6-prix-de-saint-forget.html",
+        "R2C7-prix-de-l-abbaye-des-vaulx-de-cernay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T07:27:29.011905Z"
+}
