@@ -1,0 +1,111 @@
+{
+  "date": "2009-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/12/2009-12-02",
+    "date_html": "resultats-et-rapports/2009/12/2009-12-02/2009-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/12/2009-12-02/R1-marseille-borely/R1C2-prix-louis-brunet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R1-marseille-borely/R1C5-prix-d-endurance.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R1-marseille-borely/R1C7-prix-du-pontet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R2-vincennes/R2C2-prix-louis-brunet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R2-vincennes/R2C3-prix-saby-zaraya.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R2-vincennes/R2C5-prix-d-endurance.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R31-zerace/R31C1-prix-pierre-massot.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R31-zerace/R31C2-prix-louis-brunet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R31-zerace/R31C3-prix-saby-zaraya.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R31-zerace/R31C5-prix-d-endurance.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R70-stade-de-la-liberation-boulogne-sur-mer/R70C1-prix-pierre-massot.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R70-stade-de-la-liberation-boulogne-sur-mer/R70C4-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R70-stade-de-la-liberation-boulogne-sur-mer/R70C5-prix-d-endurance.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R70-stade-de-la-liberation-boulogne-sur-mer/R70C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C1-prix-pierre-massot.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C2-prix-louis-brunet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C3-prix-saby-zaraya.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C4-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C5-prix-d-endurance.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R71-mestalla-valence/R71C7-prix-du-pontet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R72-city-of-manchester-stadium/R72C1-prix-pierre-massot.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R72-city-of-manchester-stadium/R72C2-prix-louis-brunet.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R72-city-of-manchester-stadium/R72C3-prix-saby-zaraya.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R72-city-of-manchester-stadium/R72C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2009/12/2009-12-02/R72-city-of-manchester-stadium/R72C7-prix-du-pontet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-vincennes",
+      "R31-zerace",
+      "R70-stade-de-la-liberation-boulogne-sur-mer",
+      "R71-mestalla-valence",
+      "R72-city-of-manchester-stadium"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-pierre-massot.html",
+        "R1C2-prix-louis-brunet.html",
+        "R1C3-prix-saby-zaraya.html",
+        "R1C4-prix-du-comite-regional-du-sud-est.html",
+        "R1C5-prix-d-endurance.html",
+        "R1C6-prix-de-montmajour.html",
+        "R1C7-prix-du-pontet.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-pierre-massot.html",
+        "R2C2-prix-louis-brunet.html",
+        "R2C3-prix-saby-zaraya.html",
+        "R2C4-prix-du-comite-regional-du-sud-est.html",
+        "R2C5-prix-d-endurance.html",
+        "R2C6-prix-de-montmajour.html",
+        "R2C7-prix-du-pontet.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-pierre-massot.html",
+        "R31C2-prix-louis-brunet.html",
+        "R31C3-prix-saby-zaraya.html",
+        "R31C4-prix-du-comite-regional-du-sud-est.html",
+        "R31C5-prix-d-endurance.html",
+        "R31C6-prix-de-montmajour.html",
+        "R31C7-prix-du-pontet.html"
+      ],
+      "R70-stade-de-la-liberation-boulogne-sur-mer": [
+        "R70C1-prix-pierre-massot.html",
+        "R70C2-prix-louis-brunet.html",
+        "R70C3-prix-saby-zaraya.html",
+        "R70C4-prix-du-comite-regional-du-sud-est.html",
+        "R70C5-prix-d-endurance.html",
+        "R70C6-prix-de-montmajour.html",
+        "R70C7-prix-du-pontet.html"
+      ],
+      "R71-mestalla-valence": [
+        "R71C1-prix-pierre-massot.html",
+        "R71C2-prix-louis-brunet.html",
+        "R71C3-prix-saby-zaraya.html",
+        "R71C4-prix-du-comite-regional-du-sud-est.html",
+        "R71C5-prix-d-endurance.html",
+        "R71C6-prix-de-montmajour.html",
+        "R71C7-prix-du-pontet.html"
+      ],
+      "R72-city-of-manchester-stadium": [
+        "R72C1-prix-pierre-massot.html",
+        "R72C2-prix-louis-brunet.html",
+        "R72C3-prix-saby-zaraya.html",
+        "R72C4-prix-du-comite-regional-du-sud-est.html",
+        "R72C5-prix-d-endurance.html",
+        "R72C6-prix-de-montmajour.html",
+        "R72C7-prix-du-pontet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:58.557421Z"
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2015-02-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-14",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-14/2015-02-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-14/R1-cagnes-sur-mer/R1C4-prix-saonois.html",
+      "resultats-et-rapports/2015/02/2015-02-14/R2-agen/R2C2-prix-de-fontmerle.html",
+      "resultats-et-rapports/2015/02/2015-02-14/R2-agen/R2C4-prix-saonois.html",
+      "resultats-et-rapports/2015/02/2015-02-14/R2-agen/R2C7-prix-des-semboules.html",
+      "resultats-et-rapports/2015/02/2015-02-14/R2-agen/R2C8-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2015/02/2015-02-14/R3-pau/R3C1-prix-du-fort-vauban.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-agen",
+      "R3-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-fort-vauban.html",
+        "R1C2-prix-de-fontmerle.html",
+        "R1C3-prix-d-antibes.html",
+        "R1C4-prix-saonois.html",
+        "R1C5-prix-du-fort-carre.html",
+        "R1C6-prix-hotel-j-w-marriott-cannes.html",
+        "R1C7-prix-des-semboules.html",
+        "R1C8-prix-de-juan-les-pins.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-du-fort-vauban.html",
+        "R2C2-prix-de-fontmerle.html",
+        "R2C3-prix-d-antibes.html",
+        "R2C4-prix-saonois.html",
+        "R2C5-prix-du-fort-carre.html",
+        "R2C6-prix-hotel-j-w-marriott-cannes.html",
+        "R2C7-prix-des-semboules.html",
+        "R2C8-prix-de-juan-les-pins.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-du-fort-vauban.html",
+        "R3C2-prix-de-fontmerle.html",
+        "R3C3-prix-d-antibes.html",
+        "R3C4-prix-saonois.html",
+        "R3C5-prix-du-fort-carre.html",
+        "R3C6-prix-hotel-j-w-marriott-cannes.html",
+        "R3C7-prix-des-semboules.html",
+        "R3C8-prix-de-juan-les-pins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:07.625398Z"
+}

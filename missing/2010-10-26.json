@@ -1,0 +1,61 @@
+{
+  "date": "2010-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/10/2010-10-26",
+    "date_html": "resultats-et-rapports/2010/10/2010-10-26/2010-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/10/2010-10-26/R2-nantes/R2C3-prix-ravinella.html",
+      "resultats-et-rapports/2010/10/2010-10-26/R3-vincennes/R3C5-prix-sagaro.html",
+      "resultats-et-rapports/2010/10/2010-10-26/R3-vincennes/R3C6-prix-val-de-loir.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-nantes",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-brionnais.html",
+        "R1C2-prix-kendor.html",
+        "R1C3-prix-ravinella.html",
+        "R1C4-prix-de-flore.html",
+        "R1C5-prix-sagaro.html",
+        "R1C6-prix-val-de-loir.html",
+        "R1C7-prix-de-buzenval.html",
+        "R1C8-prix-du-charolais.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-brionnais.html",
+        "R2C2-prix-kendor.html",
+        "R2C3-prix-ravinella.html",
+        "R2C4-prix-de-flore.html",
+        "R2C5-prix-sagaro.html",
+        "R2C6-prix-val-de-loir.html",
+        "R2C7-prix-de-buzenval.html",
+        "R2C8-prix-du-charolais.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-brionnais.html",
+        "R3C2-prix-kendor.html",
+        "R3C3-prix-ravinella.html",
+        "R3C4-prix-de-flore.html",
+        "R3C5-prix-sagaro.html",
+        "R3C6-prix-val-de-loir.html",
+        "R3C7-prix-de-buzenval.html",
+        "R3C8-prix-du-charolais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:26.336884Z"
+}

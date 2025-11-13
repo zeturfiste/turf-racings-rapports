@@ -1,0 +1,80 @@
+{
+  "date": "2016-04-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-02",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-02/2016-04-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-02/R1-auteuil/R1C7-prix-hubert-de-navailles.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R1-auteuil/R1C8-prix-romantisme.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C1-prix-kashnil.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C3-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C4-prix-fleuret.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C6-prix-air-landais.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R3-caen/R3C8-prix-romantisme.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R4-laval/R4C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R6-avignon/R6C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2016/04/2016-04-02/R6-avignon/R6C4-prix-fleuret.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R4-laval",
+      "R6-avignon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-kashnil.html",
+        "R1C2-prix-de-saint-maixent.html",
+        "R1C3-prix-general-de-rougemont.html",
+        "R1C4-prix-fleuret.html",
+        "R1C5-prix-hypothese.html",
+        "R1C6-prix-air-landais.html",
+        "R1C7-prix-hubert-de-navailles.html",
+        "R1C8-prix-romantisme.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-kashnil.html",
+        "R3C2-prix-de-saint-maixent.html",
+        "R3C3-prix-general-de-rougemont.html",
+        "R3C4-prix-fleuret.html",
+        "R3C5-prix-hypothese.html",
+        "R3C6-prix-air-landais.html",
+        "R3C7-prix-hubert-de-navailles.html",
+        "R3C8-prix-romantisme.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-kashnil.html",
+        "R4C2-prix-de-saint-maixent.html",
+        "R4C3-prix-general-de-rougemont.html",
+        "R4C4-prix-fleuret.html",
+        "R4C5-prix-hypothese.html",
+        "R4C6-prix-air-landais.html",
+        "R4C7-prix-hubert-de-navailles.html",
+        "R4C8-prix-romantisme.html"
+      ],
+      "R6-avignon": [
+        "R6C1-prix-kashnil.html",
+        "R6C2-prix-de-saint-maixent.html",
+        "R6C3-prix-general-de-rougemont.html",
+        "R6C4-prix-fleuret.html",
+        "R6C5-prix-hypothese.html",
+        "R6C6-prix-air-landais.html",
+        "R6C7-prix-hubert-de-navailles.html",
+        "R6C8-prix-romantisme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:13.466548Z"
+}

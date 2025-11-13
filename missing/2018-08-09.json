@@ -1,0 +1,95 @@
+{
+  "date": "2018-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/08/2018-08-09",
+    "date_html": "resultats-et-rapports/2018/08/2018-08-09/2018-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C1-prix-de-ruffec.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C2-prix-du-ballon-d-alsace.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C3-prix-de-la-haute-saone.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C4-prix-de-la-concorde.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C5-prix-de-nouzonville.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C6-prix-de-la-place-vauban.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C7-prix-du-faubourg-saint-honore.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R1-enghien-soisy/R1C8-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R4-vichy-soir/R4C4-prix-de-la-concorde.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R4-vichy-soir/R4C7-prix-du-faubourg-saint-honore.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R5-carentan/R5C1-prix-de-ruffec.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R5-carentan/R5C4-prix-de-la-concorde.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R5-carentan/R5C5-prix-de-nouzonville.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R5-carentan/R5C6-prix-de-la-place-vauban.html",
+      "resultats-et-rapports/2018/08/2018-08-09/R5-carentan/R5C7-prix-du-faubourg-saint-honore.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-deauville",
+      "R3-vichy",
+      "R4-vichy-soir",
+      "R5-carentan"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-ruffec.html",
+        "R1C2-prix-du-ballon-d-alsace.html",
+        "R1C3-prix-de-la-haute-saone.html",
+        "R1C4-prix-de-la-concorde.html",
+        "R1C5-prix-de-nouzonville.html",
+        "R1C6-prix-de-la-place-vauban.html",
+        "R1C7-prix-du-faubourg-saint-honore.html",
+        "R1C8-prix-de-la-porte-d-italie.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-ruffec.html",
+        "R2C2-prix-du-ballon-d-alsace.html",
+        "R2C3-prix-de-la-haute-saone.html",
+        "R2C4-prix-de-la-concorde.html",
+        "R2C5-prix-de-nouzonville.html",
+        "R2C6-prix-de-la-place-vauban.html",
+        "R2C7-prix-du-faubourg-saint-honore.html",
+        "R2C8-prix-de-la-porte-d-italie.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-ruffec.html",
+        "R3C2-prix-du-ballon-d-alsace.html",
+        "R3C3-prix-de-la-haute-saone.html",
+        "R3C4-prix-de-la-concorde.html",
+        "R3C5-prix-de-nouzonville.html",
+        "R3C6-prix-de-la-place-vauban.html",
+        "R3C7-prix-du-faubourg-saint-honore.html",
+        "R3C8-prix-de-la-porte-d-italie.html"
+      ],
+      "R4-vichy-soir": [
+        "R4C1-prix-de-ruffec.html",
+        "R4C2-prix-du-ballon-d-alsace.html",
+        "R4C3-prix-de-la-haute-saone.html",
+        "R4C4-prix-de-la-concorde.html",
+        "R4C5-prix-de-nouzonville.html",
+        "R4C6-prix-de-la-place-vauban.html",
+        "R4C7-prix-du-faubourg-saint-honore.html",
+        "R4C8-prix-de-la-porte-d-italie.html"
+      ],
+      "R5-carentan": [
+        "R5C1-prix-de-ruffec.html",
+        "R5C2-prix-du-ballon-d-alsace.html",
+        "R5C3-prix-de-la-haute-saone.html",
+        "R5C4-prix-de-la-concorde.html",
+        "R5C5-prix-de-nouzonville.html",
+        "R5C6-prix-de-la-place-vauban.html",
+        "R5C7-prix-du-faubourg-saint-honore.html",
+        "R5C8-prix-de-la-porte-d-italie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:57.128531Z"
+}

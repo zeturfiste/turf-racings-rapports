@@ -1,0 +1,82 @@
+{
+  "date": "2013-04-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-10",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-10/2013-04-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-10/R1-saint-galmier/R1C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R1-saint-galmier/R1C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R2-auteuil/R2C4-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R2-auteuil/R2C6-prix-du-parcours-gourmand-maison-pallandre.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R2-auteuil/R2C7-prix-de-la-chorale-de-roanne.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R3-chantilly/R3C6-prix-du-parcours-gourmand-maison-pallandre.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R3-chantilly/R3C8-prix-asse.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C5-prix-du-conseil-general.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C6-prix-du-parcours-gourmand-maison-pallandre.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C7-prix-de-la-chorale-de-roanne.html",
+      "resultats-et-rapports/2013/04/2013-04-10/R4-salon-de-provence/R4C8-prix-asse.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R2-auteuil",
+      "R3-chantilly",
+      "R4-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+        "R1C3-prix-jean-thomas.html",
+        "R1C4-prix-de-la-ville-de-saint-galmier.html",
+        "R1C5-prix-du-conseil-general.html",
+        "R1C6-prix-du-parcours-gourmand-maison-pallandre.html",
+        "R1C7-prix-de-la-chorale-de-roanne.html",
+        "R1C8-prix-asse.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+        "R2C3-prix-jean-thomas.html",
+        "R2C4-prix-de-la-ville-de-saint-galmier.html",
+        "R2C5-prix-du-conseil-general.html",
+        "R2C6-prix-du-parcours-gourmand-maison-pallandre.html",
+        "R2C7-prix-de-la-chorale-de-roanne.html",
+        "R2C8-prix-asse.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+        "R3C3-prix-jean-thomas.html",
+        "R3C4-prix-de-la-ville-de-saint-galmier.html",
+        "R3C5-prix-du-conseil-general.html",
+        "R3C6-prix-du-parcours-gourmand-maison-pallandre.html",
+        "R3C7-prix-de-la-chorale-de-roanne.html",
+        "R3C8-prix-asse.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-geny-com-paris-turf.html",
+        "R4C2-prix-de-la-communaute-du-pays-de-saint-galmier.html",
+        "R4C3-prix-jean-thomas.html",
+        "R4C4-prix-de-la-ville-de-saint-galmier.html",
+        "R4C5-prix-du-conseil-general.html",
+        "R4C6-prix-du-parcours-gourmand-maison-pallandre.html",
+        "R4C7-prix-de-la-chorale-de-roanne.html",
+        "R4C8-prix-asse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:37.815482Z"
+}

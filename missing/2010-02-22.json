@@ -1,0 +1,107 @@
+{
+  "date": "2010-02-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/02/2010-02-22",
+    "date_html": "resultats-et-rapports/2010/02/2010-02-22/2010-02-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/02/2010-02-22/R1-vincennes/R1C3-prix-de-mortagne.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R1-vincennes/R1C7-prix-de-rugles.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R1-vincennes/R1C8-prix-de-graignes.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C1-prix-de-cahors.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C2-prix-de-bracieux.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C3-prix-de-mortagne.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C4-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C5-prix-patrick-mottier.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C6-prix-de-carquebut.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R2-cagnes-sur-mer/R2C7-prix-de-rugles.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R5-nantes/R5C7-prix-de-rugles.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R5-nantes/R5C8-prix-de-graignes.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C2-prix-de-bracieux.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C3-prix-de-mortagne.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C4-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C5-prix-patrick-mottier.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C6-prix-de-carquebut.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C7-prix-de-rugles.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R6-chatillon/R6C8-prix-de-graignes.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C1-prix-de-cahors.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C2-prix-de-bracieux.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C3-prix-de-mortagne.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C4-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C5-prix-patrick-mottier.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C6-prix-de-carquebut.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C7-prix-de-rugles.html",
+      "resultats-et-rapports/2010/02/2010-02-22/R31-zerace/R31C8-prix-de-graignes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R5-nantes",
+      "R6-chatillon",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cahors.html",
+        "R1C2-prix-de-bracieux.html",
+        "R1C3-prix-de-mortagne.html",
+        "R1C4-prix-ovide-moulinet.html",
+        "R1C5-prix-patrick-mottier.html",
+        "R1C6-prix-de-carquebut.html",
+        "R1C7-prix-de-rugles.html",
+        "R1C8-prix-de-graignes.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-cahors.html",
+        "R2C2-prix-de-bracieux.html",
+        "R2C3-prix-de-mortagne.html",
+        "R2C4-prix-ovide-moulinet.html",
+        "R2C5-prix-patrick-mottier.html",
+        "R2C6-prix-de-carquebut.html",
+        "R2C7-prix-de-rugles.html",
+        "R2C8-prix-de-graignes.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-de-cahors.html",
+        "R5C2-prix-de-bracieux.html",
+        "R5C3-prix-de-mortagne.html",
+        "R5C4-prix-ovide-moulinet.html",
+        "R5C5-prix-patrick-mottier.html",
+        "R5C6-prix-de-carquebut.html",
+        "R5C7-prix-de-rugles.html",
+        "R5C8-prix-de-graignes.html"
+      ],
+      "R6-chatillon": [
+        "R6C1-prix-de-cahors.html",
+        "R6C2-prix-de-bracieux.html",
+        "R6C3-prix-de-mortagne.html",
+        "R6C4-prix-ovide-moulinet.html",
+        "R6C5-prix-patrick-mottier.html",
+        "R6C6-prix-de-carquebut.html",
+        "R6C7-prix-de-rugles.html",
+        "R6C8-prix-de-graignes.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-cahors.html",
+        "R31C2-prix-de-bracieux.html",
+        "R31C3-prix-de-mortagne.html",
+        "R31C4-prix-ovide-moulinet.html",
+        "R31C5-prix-patrick-mottier.html",
+        "R31C6-prix-de-carquebut.html",
+        "R31C7-prix-de-rugles.html",
+        "R31C8-prix-de-graignes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:37.856539Z"
+}

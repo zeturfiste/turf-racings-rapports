@@ -1,0 +1,73 @@
+{
+  "date": "2014-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/11/2014-11-04",
+    "date_html": "resultats-et-rapports/2014/11/2014-11-04/2014-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/11/2014-11-04/R1-maisons-laffitte/R1C1-prix-des-naiades.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R1-maisons-laffitte/R1C3-prix-miesque.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R1-maisons-laffitte/R1C4-prix-du-rey.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R1-maisons-laffitte/R1C5-criterium-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R1-maisons-laffitte/R1C8-prix-de-tursan.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C1-prix-des-naiades.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C2-prix-de-freneuse.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C4-prix-du-rey.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C5-criterium-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C6-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R2-bordeaux-le-bouscat/R2C8-prix-de-tursan.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R3-vincennes/R3C1-prix-des-naiades.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R3-vincennes/R3C2-prix-de-freneuse.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R3-vincennes/R3C4-prix-du-rey.html",
+      "resultats-et-rapports/2014/11/2014-11-04/R3-vincennes/R3C7-prix-de-mauries.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-des-naiades.html",
+        "R1C2-prix-de-freneuse.html",
+        "R1C3-prix-miesque.html",
+        "R1C4-prix-du-rey.html",
+        "R1C5-criterium-de-maisons-laffitte.html",
+        "R1C6-prix-de-seine-et-oise.html",
+        "R1C7-prix-de-mauries.html",
+        "R1C8-prix-de-tursan.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-des-naiades.html",
+        "R2C2-prix-de-freneuse.html",
+        "R2C3-prix-miesque.html",
+        "R2C4-prix-du-rey.html",
+        "R2C5-criterium-de-maisons-laffitte.html",
+        "R2C6-prix-de-seine-et-oise.html",
+        "R2C7-prix-de-mauries.html",
+        "R2C8-prix-de-tursan.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-naiades.html",
+        "R3C2-prix-de-freneuse.html",
+        "R3C3-prix-miesque.html",
+        "R3C4-prix-du-rey.html",
+        "R3C5-criterium-de-maisons-laffitte.html",
+        "R3C6-prix-de-seine-et-oise.html",
+        "R3C7-prix-de-mauries.html",
+        "R3C8-prix-de-tursan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:40.307191Z"
+}

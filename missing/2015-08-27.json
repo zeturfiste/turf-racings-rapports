@@ -1,0 +1,75 @@
+{
+  "date": "2015-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-27",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-27/2015-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-27/R1-clairefontaine/R1C6-prix-astd-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R1-clairefontaine/R1C7-prix-casa-rina-deauville-prix-bellypha.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R1-clairefontaine/R1C8-prix-club-judo-astd-prix-des-bignones.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R1-clairefontaine/R1C9-prix-de-la-cloture-du-meeting-de-clairefontaine-prix-du-cedre-bleu.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C1-prix-la-normandie-en-2cv-prix-de-la-risle.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C2-prix-triple-galop-prix-des-lavateres.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C3-grand-steeple-chase-de-la-ville-de-deauville-festival-du-cinema-americain.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C5-prix-de-la-plage-de-couleurs-prix-voix-du-nord.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C6-prix-astd-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R2-vincennes/R2C7-prix-casa-rina-deauville-prix-bellypha.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R3-moulins/R3C5-prix-de-la-plage-de-couleurs-prix-voix-du-nord.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R3-moulins/R3C6-prix-astd-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R3-moulins/R3C7-prix-casa-rina-deauville-prix-bellypha.html",
+      "resultats-et-rapports/2015/08/2015-08-27/R3-moulins/R3C9-prix-de-la-cloture-du-meeting-de-clairefontaine-prix-du-cedre-bleu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R3-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-la-normandie-en-2cv-prix-de-la-risle.html",
+        "R1C2-prix-triple-galop-prix-des-lavateres.html",
+        "R1C3-grand-steeple-chase-de-la-ville-de-deauville-festival-du-cinema-americain.html",
+        "R1C4-prix-courezauxcourses-com-prix-de-la-ville-de-tourgeville.html",
+        "R1C5-prix-de-la-plage-de-couleurs-prix-voix-du-nord.html",
+        "R1C6-prix-astd-prix-du-grand-jardin.html",
+        "R1C7-prix-casa-rina-deauville-prix-bellypha.html",
+        "R1C8-prix-club-judo-astd-prix-des-bignones.html",
+        "R1C9-prix-de-la-cloture-du-meeting-de-clairefontaine-prix-du-cedre-bleu.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-la-normandie-en-2cv-prix-de-la-risle.html",
+        "R2C2-prix-triple-galop-prix-des-lavateres.html",
+        "R2C3-grand-steeple-chase-de-la-ville-de-deauville-festival-du-cinema-americain.html",
+        "R2C4-prix-courezauxcourses-com-prix-de-la-ville-de-tourgeville.html",
+        "R2C5-prix-de-la-plage-de-couleurs-prix-voix-du-nord.html",
+        "R2C6-prix-astd-prix-du-grand-jardin.html",
+        "R2C7-prix-casa-rina-deauville-prix-bellypha.html",
+        "R2C8-prix-club-judo-astd-prix-des-bignones.html",
+        "R2C9-prix-de-la-cloture-du-meeting-de-clairefontaine-prix-du-cedre-bleu.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-la-normandie-en-2cv-prix-de-la-risle.html",
+        "R3C2-prix-triple-galop-prix-des-lavateres.html",
+        "R3C3-grand-steeple-chase-de-la-ville-de-deauville-festival-du-cinema-americain.html",
+        "R3C4-prix-courezauxcourses-com-prix-de-la-ville-de-tourgeville.html",
+        "R3C5-prix-de-la-plage-de-couleurs-prix-voix-du-nord.html",
+        "R3C6-prix-astd-prix-du-grand-jardin.html",
+        "R3C7-prix-casa-rina-deauville-prix-bellypha.html",
+        "R3C8-prix-club-judo-astd-prix-des-bignones.html",
+        "R3C9-prix-de-la-cloture-du-meeting-de-clairefontaine-prix-du-cedre-bleu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:10.591152Z"
+}

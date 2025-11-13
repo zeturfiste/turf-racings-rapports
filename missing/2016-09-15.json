@@ -1,0 +1,83 @@
+{
+  "date": "2016-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-15",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-15/2016-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-15/R1-auteuil/R1C3-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R1-auteuil/R1C5-prix-de-compiegne.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R1-auteuil/R1C6-prix-the-fellow-prix-edmond-barrachin.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R1-auteuil/R1C7-prix-chakhansoor.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R2-lyon-parilly/R2C3-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R2-lyon-parilly/R2C4-prix-henri-gleizes.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R3-reims/R3C3-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R3-reims/R3C4-prix-henri-gleizes.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R3-reims/R3C6-prix-the-fellow-prix-edmond-barrachin.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R3-reims/R3C7-prix-chakhansoor.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R4-les-sables-d-olonne/R4C1-prix-royal-junior.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R4-les-sables-d-olonne/R4C2-prix-recruit-ii.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R4-les-sables-d-olonne/R4C3-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2016/09/2016-09-15/R4-les-sables-d-olonne/R4C7-prix-chakhansoor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-parilly",
+      "R3-reims",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-royal-junior.html",
+        "R1C2-prix-recruit-ii.html",
+        "R1C3-prix-alain-et-gilles-de-goulaine.html",
+        "R1C4-prix-henri-gleizes.html",
+        "R1C5-prix-de-compiegne.html",
+        "R1C6-prix-the-fellow-prix-edmond-barrachin.html",
+        "R1C7-prix-chakhansoor.html",
+        "R1C8-prix-meli-melo.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-royal-junior.html",
+        "R2C2-prix-recruit-ii.html",
+        "R2C3-prix-alain-et-gilles-de-goulaine.html",
+        "R2C4-prix-henri-gleizes.html",
+        "R2C5-prix-de-compiegne.html",
+        "R2C6-prix-the-fellow-prix-edmond-barrachin.html",
+        "R2C7-prix-chakhansoor.html",
+        "R2C8-prix-meli-melo.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-royal-junior.html",
+        "R3C2-prix-recruit-ii.html",
+        "R3C3-prix-alain-et-gilles-de-goulaine.html",
+        "R3C4-prix-henri-gleizes.html",
+        "R3C5-prix-de-compiegne.html",
+        "R3C6-prix-the-fellow-prix-edmond-barrachin.html",
+        "R3C7-prix-chakhansoor.html",
+        "R3C8-prix-meli-melo.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-royal-junior.html",
+        "R4C2-prix-recruit-ii.html",
+        "R4C3-prix-alain-et-gilles-de-goulaine.html",
+        "R4C4-prix-henri-gleizes.html",
+        "R4C5-prix-de-compiegne.html",
+        "R4C6-prix-the-fellow-prix-edmond-barrachin.html",
+        "R4C7-prix-chakhansoor.html",
+        "R4C8-prix-meli-melo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:11.904160Z"
+}

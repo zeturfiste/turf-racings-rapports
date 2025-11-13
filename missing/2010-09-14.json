@@ -1,0 +1,64 @@
+{
+  "date": "2010-09-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-14",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-14/2010-09-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-14/R1-saint-cloud/R1C2-prix-guemul.html",
+      "resultats-et-rapports/2010/09/2010-09-14/R1-saint-cloud/R1C5-prix-jongleur.html",
+      "resultats-et-rapports/2010/09/2010-09-14/R3-vincennes/R3C2-prix-guemul.html",
+      "resultats-et-rapports/2010/09/2010-09-14/R3-vincennes/R3C3-prix-gay-mecene.html",
+      "resultats-et-rapports/2010/09/2010-09-14/R3-vincennes/R3C4-prix-de-marsinval.html",
+      "resultats-et-rapports/2010/09/2010-09-14/R3-vincennes/R3C5-prix-jongleur.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-cavaillon",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-saint-pair-du-mont.html",
+        "R1C2-prix-guemul.html",
+        "R1C3-prix-gay-mecene.html",
+        "R1C4-prix-de-marsinval.html",
+        "R1C5-prix-jongleur.html",
+        "R1C6-prix-d-herblay.html",
+        "R1C7-prix-duc-d-alburquerque.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-de-saint-pair-du-mont.html",
+        "R2C2-prix-guemul.html",
+        "R2C3-prix-gay-mecene.html",
+        "R2C4-prix-de-marsinval.html",
+        "R2C5-prix-jongleur.html",
+        "R2C6-prix-d-herblay.html",
+        "R2C7-prix-duc-d-alburquerque.html",
+        "R2C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-saint-pair-du-mont.html",
+        "R3C2-prix-guemul.html",
+        "R3C3-prix-gay-mecene.html",
+        "R3C4-prix-de-marsinval.html",
+        "R3C5-prix-jongleur.html",
+        "R3C6-prix-d-herblay.html",
+        "R3C7-prix-duc-d-alburquerque.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:13.477177Z"
+}

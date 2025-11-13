@@ -1,0 +1,83 @@
+{
+  "date": "2012-04-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-03",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-03/2012-04-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-03/R1-enghien-soisy/R1C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R1-enghien-soisy/R1C2-prix-des-cadettes.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R1-enghien-soisy/R1C3-prix-de-dinard.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R1-enghien-soisy/R1C4-prix-aubepine.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R1-enghien-soisy/R1C5-prix-journaliste.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R2-moulins/R2C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R2-moulins/R2C3-prix-de-dinard.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R2-moulins/R2C4-prix-aubepine.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R2-moulins/R2C5-prix-journaliste.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R2-moulins/R2C6-prix-orvilliers.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R3-marseille-borely/R3C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R3-marseille-borely/R3C2-prix-des-cadettes.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R3-marseille-borely/R3C4-prix-aubepine.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R4-vincennes/R4C2-prix-des-cadettes.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R4-vincennes/R4C4-prix-aubepine.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R4-vincennes/R4C5-prix-journaliste.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R4-vincennes/R4C6-prix-orvilliers.html",
+      "resultats-et-rapports/2012/04/2012-04-03/R4-vincennes/R4C7-prix-necor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-moulins",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-des-cadettes.html",
+        "R1C3-prix-de-dinard.html",
+        "R1C4-prix-aubepine.html",
+        "R1C5-prix-journaliste.html",
+        "R1C6-prix-orvilliers.html",
+        "R1C7-prix-necor.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-rose-or-no.html",
+        "R2C2-prix-des-cadettes.html",
+        "R2C3-prix-de-dinard.html",
+        "R2C4-prix-aubepine.html",
+        "R2C5-prix-journaliste.html",
+        "R2C6-prix-orvilliers.html",
+        "R2C7-prix-necor.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-des-cadettes.html",
+        "R3C3-prix-de-dinard.html",
+        "R3C4-prix-aubepine.html",
+        "R3C5-prix-journaliste.html",
+        "R3C6-prix-orvilliers.html",
+        "R3C7-prix-necor.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-des-cadettes.html",
+        "R4C3-prix-de-dinard.html",
+        "R4C4-prix-aubepine.html",
+        "R4C5-prix-journaliste.html",
+        "R4C6-prix-orvilliers.html",
+        "R4C7-prix-necor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:49.444836Z"
+}

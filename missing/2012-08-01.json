@@ -1,0 +1,85 @@
+{
+  "date": "2012-08-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-01",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-01/2012-08-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-01/R1-enghien-soisy/R1C1-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R1-enghien-soisy/R1C2-prix-de-jonquieres.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R1-enghien-soisy/R1C4-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R1-enghien-soisy/R1C6-prix-du-faubourg-saint-antoine.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R1-enghien-soisy/R1C7-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R2-les-sables-d-olonne/R2C2-prix-de-jonquieres.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R3-vichy/R3C2-prix-de-jonquieres.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R3-vichy/R3C3-prix-d-uzes.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R3-vichy/R3C7-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C2-prix-de-jonquieres.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C3-prix-d-uzes.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C4-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C5-prix-de-gravelines.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C6-prix-du-faubourg-saint-antoine.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C7-prix-de-la-place-saint-michel.html",
+      "resultats-et-rapports/2012/08/2012-08-01/R6-cagnes-sur-mer/R6C8-prix-de-la-porte-doree.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-les-sables-d-olonne",
+      "R3-vichy",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-parc-des-princes.html",
+        "R1C2-prix-de-jonquieres.html",
+        "R1C3-prix-d-uzes.html",
+        "R1C4-prix-de-croulebarbe.html",
+        "R1C5-prix-de-gravelines.html",
+        "R1C6-prix-du-faubourg-saint-antoine.html",
+        "R1C7-prix-de-la-place-saint-michel.html",
+        "R1C8-prix-de-la-porte-doree.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-du-parc-des-princes.html",
+        "R2C2-prix-de-jonquieres.html",
+        "R2C3-prix-d-uzes.html",
+        "R2C4-prix-de-croulebarbe.html",
+        "R2C5-prix-de-gravelines.html",
+        "R2C6-prix-du-faubourg-saint-antoine.html",
+        "R2C7-prix-de-la-place-saint-michel.html",
+        "R2C8-prix-de-la-porte-doree.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-du-parc-des-princes.html",
+        "R3C2-prix-de-jonquieres.html",
+        "R3C3-prix-d-uzes.html",
+        "R3C4-prix-de-croulebarbe.html",
+        "R3C5-prix-de-gravelines.html",
+        "R3C6-prix-du-faubourg-saint-antoine.html",
+        "R3C7-prix-de-la-place-saint-michel.html",
+        "R3C8-prix-de-la-porte-doree.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-du-parc-des-princes.html",
+        "R6C2-prix-de-jonquieres.html",
+        "R6C3-prix-d-uzes.html",
+        "R6C4-prix-de-croulebarbe.html",
+        "R6C5-prix-de-gravelines.html",
+        "R6C6-prix-du-faubourg-saint-antoine.html",
+        "R6C7-prix-de-la-place-saint-michel.html",
+        "R6C8-prix-de-la-porte-doree.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:27.294830Z"
+}

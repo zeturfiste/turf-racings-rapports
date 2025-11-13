@@ -1,0 +1,63 @@
+{
+  "date": "2013-04-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-17",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-17/2013-04-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-17/R1-cordemais/R1C7-prix-jose-david.html",
+      "resultats-et-rapports/2013/04/2013-04-17/R1-cordemais/R1C8-prix-jacques-dy.html",
+      "resultats-et-rapports/2013/04/2013-04-17/R3-chantilly/R3C3-prix-de-la-ville-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2013/04/2013-04-17/R3-chantilly/R3C6-prix-jacques-fairan.html",
+      "resultats-et-rapports/2013/04/2013-04-17/R3-chantilly/R3C8-prix-jacques-dy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R2-auteuil",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-prix-de-la-ville-de-cordemais.html",
+        "R1C2-prix-de-la-ville-de-coueron.html",
+        "R1C3-prix-de-la-ville-de-saint-etienne-de-montluc.html",
+        "R1C4-prix-de-la-ville-du-temple-de-bretagne.html",
+        "R1C5-prix-de-la-ville-de-malville.html",
+        "R1C6-prix-jacques-fairan.html",
+        "R1C7-prix-jose-david.html",
+        "R1C8-prix-jacques-dy.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-la-ville-de-cordemais.html",
+        "R2C2-prix-de-la-ville-de-coueron.html",
+        "R2C3-prix-de-la-ville-de-saint-etienne-de-montluc.html",
+        "R2C4-prix-de-la-ville-du-temple-de-bretagne.html",
+        "R2C5-prix-de-la-ville-de-malville.html",
+        "R2C6-prix-jacques-fairan.html",
+        "R2C7-prix-jose-david.html",
+        "R2C8-prix-jacques-dy.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-la-ville-de-cordemais.html",
+        "R3C2-prix-de-la-ville-de-coueron.html",
+        "R3C3-prix-de-la-ville-de-saint-etienne-de-montluc.html",
+        "R3C4-prix-de-la-ville-du-temple-de-bretagne.html",
+        "R3C5-prix-de-la-ville-de-malville.html",
+        "R3C6-prix-jacques-fairan.html",
+        "R3C7-prix-jose-david.html",
+        "R3C8-prix-jacques-dy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:39.927885Z"
+}

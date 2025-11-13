@@ -1,0 +1,90 @@
+{
+  "date": "2016-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-06",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-06/2016-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-06/R1-angers/R1C1-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R1-angers/R1C3-prix-de-l-aubier.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R1-angers/R1C4-prix-oscar-rl.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R1-angers/R1C7-prix-gelinotte-groupe-b.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C1-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C2-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C3-prix-de-l-aubier.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C4-prix-oscar-rl.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C5-prix-olinus.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R3-fontainebleau/R3C6-prix-gelinotte-groupe-a.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R4-chantilly/R4C1-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R4-chantilly/R4C2-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R5-marseille-vivaux/R5C1-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R5-marseille-vivaux/R5C2-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R5-marseille-vivaux/R5C4-prix-oscar-rl.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R5-marseille-vivaux/R5C5-prix-olinus.html",
+      "resultats-et-rapports/2016/04/2016-04-06/R5-marseille-vivaux/R5C9-prix-intermede.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-fontainebleau",
+      "R4-chantilly",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-tenor-de-baune.html",
+        "R1C2-grand-prix-angers-loire-metropole.html",
+        "R1C3-prix-de-l-aubier.html",
+        "R1C4-prix-oscar-rl.html",
+        "R1C5-prix-olinus.html",
+        "R1C6-prix-gelinotte-groupe-a.html",
+        "R1C7-prix-gelinotte-groupe-b.html",
+        "R1C8-prix-neric-barbes.html",
+        "R1C9-prix-intermede.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-tenor-de-baune.html",
+        "R3C2-grand-prix-angers-loire-metropole.html",
+        "R3C3-prix-de-l-aubier.html",
+        "R3C4-prix-oscar-rl.html",
+        "R3C5-prix-olinus.html",
+        "R3C6-prix-gelinotte-groupe-a.html",
+        "R3C7-prix-gelinotte-groupe-b.html",
+        "R3C8-prix-neric-barbes.html",
+        "R3C9-prix-intermede.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-tenor-de-baune.html",
+        "R4C2-grand-prix-angers-loire-metropole.html",
+        "R4C3-prix-de-l-aubier.html",
+        "R4C4-prix-oscar-rl.html",
+        "R4C5-prix-olinus.html",
+        "R4C6-prix-gelinotte-groupe-a.html",
+        "R4C7-prix-gelinotte-groupe-b.html",
+        "R4C8-prix-neric-barbes.html",
+        "R4C9-prix-intermede.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-tenor-de-baune.html",
+        "R5C2-grand-prix-angers-loire-metropole.html",
+        "R5C3-prix-de-l-aubier.html",
+        "R5C4-prix-oscar-rl.html",
+        "R5C5-prix-olinus.html",
+        "R5C6-prix-gelinotte-groupe-a.html",
+        "R5C7-prix-gelinotte-groupe-b.html",
+        "R5C8-prix-neric-barbes.html",
+        "R5C9-prix-intermede.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:14.902746Z"
+}

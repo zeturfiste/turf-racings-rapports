@@ -1,0 +1,108 @@
+{
+  "date": "2009-01-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-12",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-12/2009-01-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C1-prix-de-brionne.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C3-prix-de-roubaix.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C4-prix-de-machecoul.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C5-prix-de-castera-verduzan.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C6-prix-de-riom.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C7-prix-de-guerlesquin.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C8-prix-de-cantin-gr-a.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R1-vincennes/R1C9-prix-de-cantin-gr-b.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C1-prix-de-brionne.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C2-prix-de-la-capelle.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C3-prix-de-roubaix.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C4-prix-de-machecoul.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C5-prix-de-castera-verduzan.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C6-prix-de-riom.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C7-prix-de-guerlesquin.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C8-prix-de-cantin-gr-a.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R2-cagnes-sur-mer/R2C9-prix-de-cantin-gr-b.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C1-prix-de-brionne.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C2-prix-de-la-capelle.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C3-prix-de-roubaix.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C4-prix-de-machecoul.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C5-prix-de-castera-verduzan.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C6-prix-de-riom.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C7-prix-de-guerlesquin.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C8-prix-de-cantin-gr-a.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R4-toulouse/R4C9-prix-de-cantin-gr-b.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C1-prix-de-brionne.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C2-prix-de-la-capelle.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C3-prix-de-roubaix.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C4-prix-de-machecoul.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C5-prix-de-castera-verduzan.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C6-prix-de-riom.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C7-prix-de-guerlesquin.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C8-prix-de-cantin-gr-a.html",
+      "resultats-et-rapports/2009/01/2009-01-12/R31-zerace/R31C9-prix-de-cantin-gr-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R4-toulouse",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-brionne.html",
+        "R1C2-prix-de-la-capelle.html",
+        "R1C3-prix-de-roubaix.html",
+        "R1C4-prix-de-machecoul.html",
+        "R1C5-prix-de-castera-verduzan.html",
+        "R1C6-prix-de-riom.html",
+        "R1C7-prix-de-guerlesquin.html",
+        "R1C8-prix-de-cantin-gr-a.html",
+        "R1C9-prix-de-cantin-gr-b.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-brionne.html",
+        "R2C2-prix-de-la-capelle.html",
+        "R2C3-prix-de-roubaix.html",
+        "R2C4-prix-de-machecoul.html",
+        "R2C5-prix-de-castera-verduzan.html",
+        "R2C6-prix-de-riom.html",
+        "R2C7-prix-de-guerlesquin.html",
+        "R2C8-prix-de-cantin-gr-a.html",
+        "R2C9-prix-de-cantin-gr-b.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-brionne.html",
+        "R4C2-prix-de-la-capelle.html",
+        "R4C3-prix-de-roubaix.html",
+        "R4C4-prix-de-machecoul.html",
+        "R4C5-prix-de-castera-verduzan.html",
+        "R4C6-prix-de-riom.html",
+        "R4C7-prix-de-guerlesquin.html",
+        "R4C8-prix-de-cantin-gr-a.html",
+        "R4C9-prix-de-cantin-gr-b.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-brionne.html",
+        "R31C2-prix-de-la-capelle.html",
+        "R31C3-prix-de-roubaix.html",
+        "R31C4-prix-de-machecoul.html",
+        "R31C5-prix-de-castera-verduzan.html",
+        "R31C6-prix-de-riom.html",
+        "R31C7-prix-de-guerlesquin.html",
+        "R31C8-prix-de-cantin-gr-a.html",
+        "R31C9-prix-de-cantin-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:12.029190Z"
+}

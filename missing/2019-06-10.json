@@ -1,0 +1,100 @@
+{
+  "date": "2019-06-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-10",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-10/2019-06-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-10/R4-reims/R4C3-prix-du-palais-bourbon.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R4-reims/R4C4-prix-de-trevise.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R4-reims/R4C6-la-coupe.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R4-reims/R4C8-prix-d-argences.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R5-salon-de-provence/R5C2-prix-melisande.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R5-salon-de-provence/R5C6-la-coupe.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R5-salon-de-provence/R5C8-prix-d-argences.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R7-la-rochelle/R7C1-prix-de-l-opera-comique.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R7-la-rochelle/R7C5-prix-volterra.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R7-la-rochelle/R7C6-la-coupe.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R7-la-rochelle/R7C7-prix-du-musee-de-la-femme.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R8-saint-malo/R8C1-prix-de-l-opera-comique.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R8-saint-malo/R8C7-prix-du-musee-de-la-femme.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R8-saint-malo/R8C8-prix-d-argences.html",
+      "resultats-et-rapports/2019/06/2019-06-10/R8-saint-malo/R8C9-prix-de-l-hotel-de-lassay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R4-reims",
+      "R5-salon-de-provence",
+      "R7-la-rochelle",
+      "R8-saint-malo"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-opera-comique.html",
+        "R1C2-prix-melisande.html",
+        "R1C3-prix-du-palais-bourbon.html",
+        "R1C4-prix-de-trevise.html",
+        "R1C5-prix-volterra.html",
+        "R1C6-la-coupe.html",
+        "R1C7-prix-du-musee-de-la-femme.html",
+        "R1C8-prix-d-argences.html",
+        "R1C9-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-de-l-opera-comique.html",
+        "R4C2-prix-melisande.html",
+        "R4C3-prix-du-palais-bourbon.html",
+        "R4C4-prix-de-trevise.html",
+        "R4C5-prix-volterra.html",
+        "R4C6-la-coupe.html",
+        "R4C7-prix-du-musee-de-la-femme.html",
+        "R4C8-prix-d-argences.html",
+        "R4C9-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R5-salon-de-provence": [
+        "R5C1-prix-de-l-opera-comique.html",
+        "R5C2-prix-melisande.html",
+        "R5C3-prix-du-palais-bourbon.html",
+        "R5C4-prix-de-trevise.html",
+        "R5C5-prix-volterra.html",
+        "R5C6-la-coupe.html",
+        "R5C7-prix-du-musee-de-la-femme.html",
+        "R5C8-prix-d-argences.html",
+        "R5C9-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R7-la-rochelle": [
+        "R7C1-prix-de-l-opera-comique.html",
+        "R7C2-prix-melisande.html",
+        "R7C3-prix-du-palais-bourbon.html",
+        "R7C4-prix-de-trevise.html",
+        "R7C5-prix-volterra.html",
+        "R7C6-la-coupe.html",
+        "R7C7-prix-du-musee-de-la-femme.html",
+        "R7C8-prix-d-argences.html",
+        "R7C9-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R8-saint-malo": [
+        "R8C1-prix-de-l-opera-comique.html",
+        "R8C2-prix-melisande.html",
+        "R8C3-prix-du-palais-bourbon.html",
+        "R8C4-prix-de-trevise.html",
+        "R8C5-prix-volterra.html",
+        "R8C6-la-coupe.html",
+        "R8C7-prix-du-musee-de-la-femme.html",
+        "R8C8-prix-d-argences.html",
+        "R8C9-prix-de-l-hotel-de-lassay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:33.342905Z"
+}

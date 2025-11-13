@@ -1,0 +1,74 @@
+{
+  "date": "2011-09-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-08",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-08/2011-09-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-08/R1-longchamp/R1C1-grand-handicap-des-flyers.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R1-longchamp/R1C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R2-strasbourg/R2C2-prix-des-melezes.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R2-strasbourg/R2C5-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R2-strasbourg/R2C9-prix-des-platanes.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C2-prix-des-melezes.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C3-prix-d-aumale.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C4-prix-de-la-masseliere.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C5-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C6-prix-de-craon-grand-prix-des-a-q-p-s.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C8-prix-du-moulin-joly.html",
+      "resultats-et-rapports/2011/09/2011-09-08/R3-graignes/R3C9-prix-des-platanes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-strasbourg",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-grand-handicap-des-flyers.html",
+        "R1C2-prix-des-melezes.html",
+        "R1C3-prix-d-aumale.html",
+        "R1C4-prix-de-la-masseliere.html",
+        "R1C5-prix-des-federations-regionales.html",
+        "R1C6-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R1C7-grand-prix-des-anglo-arabes.html",
+        "R1C8-prix-du-moulin-joly.html",
+        "R1C9-prix-des-platanes.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-grand-handicap-des-flyers.html",
+        "R2C2-prix-des-melezes.html",
+        "R2C3-prix-d-aumale.html",
+        "R2C4-prix-de-la-masseliere.html",
+        "R2C5-prix-des-federations-regionales.html",
+        "R2C6-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R2C7-grand-prix-des-anglo-arabes.html",
+        "R2C8-prix-du-moulin-joly.html",
+        "R2C9-prix-des-platanes.html"
+      ],
+      "R3-graignes": [
+        "R3C1-grand-handicap-des-flyers.html",
+        "R3C2-prix-des-melezes.html",
+        "R3C3-prix-d-aumale.html",
+        "R3C4-prix-de-la-masseliere.html",
+        "R3C5-prix-des-federations-regionales.html",
+        "R3C6-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R3C7-grand-prix-des-anglo-arabes.html",
+        "R3C8-prix-du-moulin-joly.html",
+        "R3C9-prix-des-platanes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:54.403054Z"
+}

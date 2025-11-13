@@ -1,0 +1,123 @@
+{
+  "date": "2012-02-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/02/2012-02-12",
+    "date_html": "resultats-et-rapports/2012/02/2012-02-12/2012-02-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/02/2012-02-12/R1-vincennes/R1C3-grand-prix-du-japon-prix-de-france.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R2-cagnes-sur-mer/R2C9-prix-de-divonne.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C1-prix-salam.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C2-prix-de-juvigny.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C3-grand-prix-du-japon-prix-de-france.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C4-prix-des-vosges.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C5-prix-de-josselin.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C6-prix-de-macon.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C7-prix-des-centaures.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R4-lyon-la-soie/R4C8-prix-de-janval.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R5-mauquenchy/R5C1-prix-salam.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R5-mauquenchy/R5C2-prix-de-juvigny.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R5-mauquenchy/R5C5-prix-de-josselin.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R5-mauquenchy/R5C6-prix-de-macon.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R5-mauquenchy/R5C8-prix-de-janval.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R7-challans/R7C2-prix-de-juvigny.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R7-challans/R7C3-grand-prix-du-japon-prix-de-france.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R7-challans/R7C8-prix-de-janval.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R7-challans/R7C9-prix-de-divonne.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C1-prix-salam.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C2-prix-de-juvigny.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C3-grand-prix-du-japon-prix-de-france.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C4-prix-des-vosges.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C5-prix-de-josselin.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C6-prix-de-macon.html",
+      "resultats-et-rapports/2012/02/2012-02-12/R3-angers/R3C8-prix-de-janval.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R4-lyon-la-soie",
+      "R5-mauquenchy",
+      "R7-challans",
+      "R3-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-salam.html",
+        "R1C2-prix-de-juvigny.html",
+        "R1C3-grand-prix-du-japon-prix-de-france.html",
+        "R1C4-prix-des-vosges.html",
+        "R1C5-prix-de-josselin.html",
+        "R1C6-prix-de-macon.html",
+        "R1C7-prix-des-centaures.html",
+        "R1C8-prix-de-janval.html",
+        "R1C9-prix-de-divonne.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-salam.html",
+        "R2C2-prix-de-juvigny.html",
+        "R2C3-grand-prix-du-japon-prix-de-france.html",
+        "R2C4-prix-des-vosges.html",
+        "R2C5-prix-de-josselin.html",
+        "R2C6-prix-de-macon.html",
+        "R2C7-prix-des-centaures.html",
+        "R2C8-prix-de-janval.html",
+        "R2C9-prix-de-divonne.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-salam.html",
+        "R4C2-prix-de-juvigny.html",
+        "R4C3-grand-prix-du-japon-prix-de-france.html",
+        "R4C4-prix-des-vosges.html",
+        "R4C5-prix-de-josselin.html",
+        "R4C6-prix-de-macon.html",
+        "R4C7-prix-des-centaures.html",
+        "R4C8-prix-de-janval.html",
+        "R4C9-prix-de-divonne.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-salam.html",
+        "R5C2-prix-de-juvigny.html",
+        "R5C3-grand-prix-du-japon-prix-de-france.html",
+        "R5C4-prix-des-vosges.html",
+        "R5C5-prix-de-josselin.html",
+        "R5C6-prix-de-macon.html",
+        "R5C7-prix-des-centaures.html",
+        "R5C8-prix-de-janval.html",
+        "R5C9-prix-de-divonne.html"
+      ],
+      "R7-challans": [
+        "R7C1-prix-salam.html",
+        "R7C2-prix-de-juvigny.html",
+        "R7C3-grand-prix-du-japon-prix-de-france.html",
+        "R7C4-prix-des-vosges.html",
+        "R7C5-prix-de-josselin.html",
+        "R7C6-prix-de-macon.html",
+        "R7C7-prix-des-centaures.html",
+        "R7C8-prix-de-janval.html",
+        "R7C9-prix-de-divonne.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-salam.html",
+        "R3C2-prix-de-juvigny.html",
+        "R3C3-grand-prix-du-japon-prix-de-france.html",
+        "R3C4-prix-des-vosges.html",
+        "R3C5-prix-de-josselin.html",
+        "R3C6-prix-de-macon.html",
+        "R3C7-prix-des-centaures.html",
+        "R3C8-prix-de-janval.html",
+        "R3C9-prix-de-divonne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:35.212140Z"
+}

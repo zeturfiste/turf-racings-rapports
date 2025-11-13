@@ -1,0 +1,89 @@
+{
+  "date": "2017-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-28",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-28/2017-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-28/R1-vincennes/R1C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R1-vincennes/R1C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R3-nantes/R3C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R3-nantes/R3C6-prix-de-bidart.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R3-nantes/R3C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R3-nantes/R3C8-prix-de-montbrison.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C1-prix-de-salvanhac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C2-prix-de-compiegne.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C3-prix-de-saint-ouen-des-toits.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C5-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C6-prix-de-bidart.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R4-pornichet-la-baule/R4C8-prix-de-montbrison.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C1-prix-de-salvanhac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C2-prix-de-compiegne.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C3-prix-de-saint-ouen-des-toits.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C4-prix-de-juvignac.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C5-prix-de-chateau-chinon.html",
+      "resultats-et-rapports/2017/12/2017-12-28/R6-cagnes-sur-mer/R6C6-prix-de-bidart.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nantes",
+      "R4-pornichet-la-baule",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-salvanhac.html",
+        "R1C2-prix-de-compiegne.html",
+        "R1C3-prix-de-saint-ouen-des-toits.html",
+        "R1C4-prix-de-juvignac.html",
+        "R1C5-prix-de-chateau-chinon.html",
+        "R1C6-prix-de-bidart.html",
+        "R1C7-prix-du-mele-sur-sarthe.html",
+        "R1C8-prix-de-montbrison.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-salvanhac.html",
+        "R3C2-prix-de-compiegne.html",
+        "R3C3-prix-de-saint-ouen-des-toits.html",
+        "R3C4-prix-de-juvignac.html",
+        "R3C5-prix-de-chateau-chinon.html",
+        "R3C6-prix-de-bidart.html",
+        "R3C7-prix-du-mele-sur-sarthe.html",
+        "R3C8-prix-de-montbrison.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-salvanhac.html",
+        "R4C2-prix-de-compiegne.html",
+        "R4C3-prix-de-saint-ouen-des-toits.html",
+        "R4C4-prix-de-juvignac.html",
+        "R4C5-prix-de-chateau-chinon.html",
+        "R4C6-prix-de-bidart.html",
+        "R4C7-prix-du-mele-sur-sarthe.html",
+        "R4C8-prix-de-montbrison.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-salvanhac.html",
+        "R6C2-prix-de-compiegne.html",
+        "R6C3-prix-de-saint-ouen-des-toits.html",
+        "R6C4-prix-de-juvignac.html",
+        "R6C5-prix-de-chateau-chinon.html",
+        "R6C6-prix-de-bidart.html",
+        "R6C7-prix-du-mele-sur-sarthe.html",
+        "R6C8-prix-de-montbrison.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:48.085188Z"
+}

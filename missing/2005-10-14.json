@@ -1,0 +1,57 @@
+{
+  "date": "2005-10-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-14",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-14/2005-10-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vincennes",
+      "R3-chatillon"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-gouvieux.html",
+        "R1C2-criterium-de-vitesse.html",
+        "R1C3-prix-du-val-profond.html",
+        "R1C4-prix-de-sandricourt.html",
+        "R1C5-prix-de-laigneville.html",
+        "R1C6-prix-du-crochet-de-coye.html",
+        "R1C7-prix-de-la-theve.html",
+        "R1C8-prix-de-la-montee-des-princes.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-gouvieux.html",
+        "R2C2-criterium-de-vitesse.html",
+        "R2C3-prix-du-val-profond.html",
+        "R2C4-prix-de-sandricourt.html",
+        "R2C5-prix-de-laigneville.html",
+        "R2C6-prix-du-crochet-de-coye.html",
+        "R2C7-prix-de-la-theve.html",
+        "R2C8-prix-de-la-montee-des-princes.html"
+      ],
+      "R3-chatillon": [
+        "R3C1-prix-de-gouvieux.html",
+        "R3C2-criterium-de-vitesse.html",
+        "R3C3-prix-du-val-profond.html",
+        "R3C4-prix-de-sandricourt.html",
+        "R3C5-prix-de-laigneville.html",
+        "R3C6-prix-du-crochet-de-coye.html",
+        "R3C7-prix-de-la-theve.html",
+        "R3C8-prix-de-la-montee-des-princes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:28.303590Z"
+}

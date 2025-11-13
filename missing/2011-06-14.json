@@ -1,0 +1,83 @@
+{
+  "date": "2011-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-14",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-14/2011-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-14/R2-compiegne/R2C3-prix-bois-rouaud.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R2-compiegne/R2C7-prix-maurice-de-nexon.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R3-aix-les-bains/R3C1-prix-du-boulonnais.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R3-aix-les-bains/R3C2-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R3-aix-les-bains/R3C3-prix-bois-rouaud.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R3-aix-les-bains/R3C7-prix-maurice-de-nexon.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C1-prix-du-boulonnais.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C2-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C3-prix-bois-rouaud.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C4-prix-xavier-de-chevigny.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C5-prix-belle-isle.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C6-prix-de-chantilly.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C7-prix-maurice-de-nexon.html",
+      "resultats-et-rapports/2011/06/2011-06-14/R4-vincennes/R4C8-prix-beaumanoir.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-compiegne",
+      "R3-aix-les-bains",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-du-boulonnais.html",
+        "R1C2-prix-daniel-lescalle.html",
+        "R1C3-prix-bois-rouaud.html",
+        "R1C4-prix-xavier-de-chevigny.html",
+        "R1C5-prix-belle-isle.html",
+        "R1C6-prix-de-chantilly.html",
+        "R1C7-prix-maurice-de-nexon.html",
+        "R1C8-prix-beaumanoir.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-du-boulonnais.html",
+        "R2C2-prix-daniel-lescalle.html",
+        "R2C3-prix-bois-rouaud.html",
+        "R2C4-prix-xavier-de-chevigny.html",
+        "R2C5-prix-belle-isle.html",
+        "R2C6-prix-de-chantilly.html",
+        "R2C7-prix-maurice-de-nexon.html",
+        "R2C8-prix-beaumanoir.html"
+      ],
+      "R3-aix-les-bains": [
+        "R3C1-prix-du-boulonnais.html",
+        "R3C2-prix-daniel-lescalle.html",
+        "R3C3-prix-bois-rouaud.html",
+        "R3C4-prix-xavier-de-chevigny.html",
+        "R3C5-prix-belle-isle.html",
+        "R3C6-prix-de-chantilly.html",
+        "R3C7-prix-maurice-de-nexon.html",
+        "R3C8-prix-beaumanoir.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-boulonnais.html",
+        "R4C2-prix-daniel-lescalle.html",
+        "R4C3-prix-bois-rouaud.html",
+        "R4C4-prix-xavier-de-chevigny.html",
+        "R4C5-prix-belle-isle.html",
+        "R4C6-prix-de-chantilly.html",
+        "R4C7-prix-maurice-de-nexon.html",
+        "R4C8-prix-beaumanoir.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:27.773125Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2014-03-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-26",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-26/2014-03-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C1-grand-national-du-trot-paris-turf-2eme-etape-du-gnt.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C2-prix-de-cassis.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C3-prix-d-aix-en-provence.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C4-prix-du-chateau-d-if.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C6-prix-de-salon-de-provence.html",
+      "resultats-et-rapports/2014/03/2014-03-26/R3-amiens/R3C7-prix-de-cavaillon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-enghien-soisy",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-grand-national-du-trot-paris-turf-2eme-etape-du-gnt.html",
+        "R1C2-prix-de-cassis.html",
+        "R1C3-prix-d-aix-en-provence.html",
+        "R1C4-prix-du-chateau-d-if.html",
+        "R1C5-prix-de-cagnes-sur-mer.html",
+        "R1C6-prix-de-salon-de-provence.html",
+        "R1C7-prix-de-cavaillon.html",
+        "R1C8-prix-des-caves-saint-marc-de-caromb.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-national-du-trot-paris-turf-2eme-etape-du-gnt.html",
+        "R2C2-prix-de-cassis.html",
+        "R2C3-prix-d-aix-en-provence.html",
+        "R2C4-prix-du-chateau-d-if.html",
+        "R2C5-prix-de-cagnes-sur-mer.html",
+        "R2C6-prix-de-salon-de-provence.html",
+        "R2C7-prix-de-cavaillon.html",
+        "R2C8-prix-des-caves-saint-marc-de-caromb.html"
+      ],
+      "R3-amiens": [
+        "R3C1-grand-national-du-trot-paris-turf-2eme-etape-du-gnt.html",
+        "R3C2-prix-de-cassis.html",
+        "R3C3-prix-d-aix-en-provence.html",
+        "R3C4-prix-du-chateau-d-if.html",
+        "R3C5-prix-de-cagnes-sur-mer.html",
+        "R3C6-prix-de-salon-de-provence.html",
+        "R3C7-prix-de-cavaillon.html",
+        "R3C8-prix-des-caves-saint-marc-de-caromb.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:23.786306Z"
+}

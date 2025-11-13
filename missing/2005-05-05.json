@@ -1,0 +1,57 @@
+{
+  "date": "2005-05-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-05",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-05/2005-05-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-nantes",
+      "R3-langon"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-merial.html",
+        "R1C2-prix-des-poulains.html",
+        "R1C3-prix-theodore-ravier.html",
+        "R1C4-prix-georges-courtois.html",
+        "R1C5-prix-de-l-anniversaire.html",
+        "R1C6-prix-le-progres-prix-du-printemps.html",
+        "R1C7-prix-des-fondateurs.html",
+        "R1C8-prix-la-licorne.html"
+      ],
+      "R2-nantes": [
+        "R2C1-grand-prix-merial.html",
+        "R2C2-prix-des-poulains.html",
+        "R2C3-prix-theodore-ravier.html",
+        "R2C4-prix-georges-courtois.html",
+        "R2C5-prix-de-l-anniversaire.html",
+        "R2C6-prix-le-progres-prix-du-printemps.html",
+        "R2C7-prix-des-fondateurs.html",
+        "R2C8-prix-la-licorne.html"
+      ],
+      "R3-langon": [
+        "R3C1-grand-prix-merial.html",
+        "R3C2-prix-des-poulains.html",
+        "R3C3-prix-theodore-ravier.html",
+        "R3C4-prix-georges-courtois.html",
+        "R3C5-prix-de-l-anniversaire.html",
+        "R3C6-prix-le-progres-prix-du-printemps.html",
+        "R3C7-prix-des-fondateurs.html",
+        "R3C8-prix-la-licorne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:03.054198Z"
+}

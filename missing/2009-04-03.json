@@ -1,0 +1,131 @@
+{
+  "date": "2009-04-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/04/2009-04-03",
+    "date_html": "resultats-et-rapports/2009/04/2009-04-03/2009-04-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/04/2009-04-03/R1-auteuil/R1C1-prix-champoreau.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R1-auteuil/R1C2-prix-le-touquet.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R1-auteuil/R1C5-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R1-auteuil/R1C6-prix-air-landais.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R1-auteuil/R1C7-prix-guy-hunault.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C1-prix-champoreau.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C2-prix-le-touquet.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C3-prix-champaubert.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C4-prix-fils-de-reine.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C5-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C6-prix-air-landais.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R2-moulins/R2C7-prix-guy-hunault.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R3-vincennes/R3C1-prix-champoreau.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R3-vincennes/R3C2-prix-le-touquet.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R70-stade-pierre-rajon-bourgoin-jallieu/R70C7-prix-guy-hunault.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R71-stade-auguste-delaune-reims/R71C1-prix-champoreau.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R71-stade-auguste-delaune-reims/R71C2-prix-le-touquet.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R72-stade-de-la-vallee-du-cher-tours/R72C3-prix-champaubert.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R72-stade-de-la-vallee-du-cher-tours/R72C4-prix-fils-de-reine.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R72-stade-de-la-vallee-du-cher-tours/R72C5-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R72-stade-de-la-vallee-du-cher-tours/R72C6-prix-air-landais.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R72-stade-de-la-vallee-du-cher-tours/R72C7-prix-guy-hunault.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R73-tennis-masters-series-miami/R73C3-prix-champaubert.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R73-tennis-masters-series-miami/R73C5-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R73-tennis-masters-series-miami/R73C6-prix-air-landais.html",
+      "resultats-et-rapports/2009/04/2009-04-03/R73-tennis-masters-series-miami/R73C7-prix-guy-hunault.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-moulins",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-stade-pierre-rajon-bourgoin-jallieu",
+      "R71-stade-auguste-delaune-reims",
+      "R72-stade-de-la-vallee-du-cher-tours",
+      "R73-tennis-masters-series-miami"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-champoreau.html",
+        "R1C2-prix-le-touquet.html",
+        "R1C3-prix-champaubert.html",
+        "R1C4-prix-fils-de-reine.html",
+        "R1C5-prix-hubert-d-aillieres.html",
+        "R1C6-prix-air-landais.html",
+        "R1C7-prix-guy-hunault.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-champoreau.html",
+        "R2C2-prix-le-touquet.html",
+        "R2C3-prix-champaubert.html",
+        "R2C4-prix-fils-de-reine.html",
+        "R2C5-prix-hubert-d-aillieres.html",
+        "R2C6-prix-air-landais.html",
+        "R2C7-prix-guy-hunault.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-champoreau.html",
+        "R3C2-prix-le-touquet.html",
+        "R3C3-prix-champaubert.html",
+        "R3C4-prix-fils-de-reine.html",
+        "R3C5-prix-hubert-d-aillieres.html",
+        "R3C6-prix-air-landais.html",
+        "R3C7-prix-guy-hunault.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-champoreau.html",
+        "R31C2-prix-le-touquet.html",
+        "R31C3-prix-champaubert.html",
+        "R31C4-prix-fils-de-reine.html",
+        "R31C5-prix-hubert-d-aillieres.html",
+        "R31C6-prix-air-landais.html",
+        "R31C7-prix-guy-hunault.html"
+      ],
+      "R70-stade-pierre-rajon-bourgoin-jallieu": [
+        "R70C1-prix-champoreau.html",
+        "R70C2-prix-le-touquet.html",
+        "R70C3-prix-champaubert.html",
+        "R70C4-prix-fils-de-reine.html",
+        "R70C5-prix-hubert-d-aillieres.html",
+        "R70C6-prix-air-landais.html",
+        "R70C7-prix-guy-hunault.html"
+      ],
+      "R71-stade-auguste-delaune-reims": [
+        "R71C1-prix-champoreau.html",
+        "R71C2-prix-le-touquet.html",
+        "R71C3-prix-champaubert.html",
+        "R71C4-prix-fils-de-reine.html",
+        "R71C5-prix-hubert-d-aillieres.html",
+        "R71C6-prix-air-landais.html",
+        "R71C7-prix-guy-hunault.html"
+      ],
+      "R72-stade-de-la-vallee-du-cher-tours": [
+        "R72C1-prix-champoreau.html",
+        "R72C2-prix-le-touquet.html",
+        "R72C3-prix-champaubert.html",
+        "R72C4-prix-fils-de-reine.html",
+        "R72C5-prix-hubert-d-aillieres.html",
+        "R72C6-prix-air-landais.html",
+        "R72C7-prix-guy-hunault.html"
+      ],
+      "R73-tennis-masters-series-miami": [
+        "R73C1-prix-champoreau.html",
+        "R73C2-prix-le-touquet.html",
+        "R73C3-prix-champaubert.html",
+        "R73C4-prix-fils-de-reine.html",
+        "R73C5-prix-hubert-d-aillieres.html",
+        "R73C6-prix-air-landais.html",
+        "R73C7-prix-guy-hunault.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:51.659331Z"
+}

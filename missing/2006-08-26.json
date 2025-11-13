@@ -1,0 +1,154 @@
+{
+  "date": "2006-08-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-26",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-26/2006-08-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-26/R3-cagnes-sur-mer/R3C4-prix-ovidius-naso.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R10-stade-municipal-du-ray-nice/R10C9-prix-de-molay.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C1-prix-de-bosc-renoult.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C2-prix-de-nueil-sur-layon.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C3-prix-de-mortain.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C4-prix-ovidius-naso.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C7-prix-de-tours.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R11-stadium-lille-metropole-villeneuve-d-ascq/R11C8-prix-d-asnieres.html",
+      "resultats-et-rapports/2006/08/2006-08-26/R12-le-moustoir-lorient/R12C3-prix-de-mortain.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-clairefontaine",
+      "R3-cagnes-sur-mer",
+      "R6-graignes",
+      "R10-stade-municipal-du-ray-nice",
+      "R11-stadium-lille-metropole-villeneuve-d-ascq",
+      "R12-le-moustoir-lorient",
+      "R13-auguste-bonal-sochaux",
+      "R14-stade-de-l-aube-troyes",
+      "R20-grand-prix-de-turquie-de-formule-1-a-istanbul"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bosc-renoult.html",
+        "R1C2-prix-de-nueil-sur-layon.html",
+        "R1C3-prix-de-mortain.html",
+        "R1C4-prix-ovidius-naso.html",
+        "R1C5-prix-de-bazet.html",
+        "R1C6-prix-de-provence.html",
+        "R1C7-prix-de-tours.html",
+        "R1C8-prix-d-asnieres.html",
+        "R1C9-prix-de-molay.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-bosc-renoult.html",
+        "R2C2-prix-de-nueil-sur-layon.html",
+        "R2C3-prix-de-mortain.html",
+        "R2C4-prix-ovidius-naso.html",
+        "R2C5-prix-de-bazet.html",
+        "R2C6-prix-de-provence.html",
+        "R2C7-prix-de-tours.html",
+        "R2C8-prix-d-asnieres.html",
+        "R2C9-prix-de-molay.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-bosc-renoult.html",
+        "R3C2-prix-de-nueil-sur-layon.html",
+        "R3C3-prix-de-mortain.html",
+        "R3C4-prix-ovidius-naso.html",
+        "R3C5-prix-de-bazet.html",
+        "R3C6-prix-de-provence.html",
+        "R3C7-prix-de-tours.html",
+        "R3C8-prix-d-asnieres.html",
+        "R3C9-prix-de-molay.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-de-bosc-renoult.html",
+        "R6C2-prix-de-nueil-sur-layon.html",
+        "R6C3-prix-de-mortain.html",
+        "R6C4-prix-ovidius-naso.html",
+        "R6C5-prix-de-bazet.html",
+        "R6C6-prix-de-provence.html",
+        "R6C7-prix-de-tours.html",
+        "R6C8-prix-d-asnieres.html",
+        "R6C9-prix-de-molay.html"
+      ],
+      "R10-stade-municipal-du-ray-nice": [
+        "R10C1-prix-de-bosc-renoult.html",
+        "R10C2-prix-de-nueil-sur-layon.html",
+        "R10C3-prix-de-mortain.html",
+        "R10C4-prix-ovidius-naso.html",
+        "R10C5-prix-de-bazet.html",
+        "R10C6-prix-de-provence.html",
+        "R10C7-prix-de-tours.html",
+        "R10C8-prix-d-asnieres.html",
+        "R10C9-prix-de-molay.html"
+      ],
+      "R11-stadium-lille-metropole-villeneuve-d-ascq": [
+        "R11C1-prix-de-bosc-renoult.html",
+        "R11C2-prix-de-nueil-sur-layon.html",
+        "R11C3-prix-de-mortain.html",
+        "R11C4-prix-ovidius-naso.html",
+        "R11C5-prix-de-bazet.html",
+        "R11C6-prix-de-provence.html",
+        "R11C7-prix-de-tours.html",
+        "R11C8-prix-d-asnieres.html",
+        "R11C9-prix-de-molay.html"
+      ],
+      "R12-le-moustoir-lorient": [
+        "R12C1-prix-de-bosc-renoult.html",
+        "R12C2-prix-de-nueil-sur-layon.html",
+        "R12C3-prix-de-mortain.html",
+        "R12C4-prix-ovidius-naso.html",
+        "R12C5-prix-de-bazet.html",
+        "R12C6-prix-de-provence.html",
+        "R12C7-prix-de-tours.html",
+        "R12C8-prix-d-asnieres.html",
+        "R12C9-prix-de-molay.html"
+      ],
+      "R13-auguste-bonal-sochaux": [
+        "R13C1-prix-de-bosc-renoult.html",
+        "R13C2-prix-de-nueil-sur-layon.html",
+        "R13C3-prix-de-mortain.html",
+        "R13C4-prix-ovidius-naso.html",
+        "R13C5-prix-de-bazet.html",
+        "R13C6-prix-de-provence.html",
+        "R13C7-prix-de-tours.html",
+        "R13C8-prix-d-asnieres.html",
+        "R13C9-prix-de-molay.html"
+      ],
+      "R14-stade-de-l-aube-troyes": [
+        "R14C1-prix-de-bosc-renoult.html",
+        "R14C2-prix-de-nueil-sur-layon.html",
+        "R14C3-prix-de-mortain.html",
+        "R14C4-prix-ovidius-naso.html",
+        "R14C5-prix-de-bazet.html",
+        "R14C6-prix-de-provence.html",
+        "R14C7-prix-de-tours.html",
+        "R14C8-prix-d-asnieres.html",
+        "R14C9-prix-de-molay.html"
+      ],
+      "R20-grand-prix-de-turquie-de-formule-1-a-istanbul": [
+        "R20C1-prix-de-bosc-renoult.html",
+        "R20C2-prix-de-nueil-sur-layon.html",
+        "R20C3-prix-de-mortain.html",
+        "R20C4-prix-ovidius-naso.html",
+        "R20C5-prix-de-bazet.html",
+        "R20C6-prix-de-provence.html",
+        "R20C7-prix-de-tours.html",
+        "R20C8-prix-d-asnieres.html",
+        "R20C9-prix-de-molay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:29.867189Z"
+}

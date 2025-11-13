@@ -1,0 +1,54 @@
+{
+  "date": "2005-05-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-03",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-03/2005-05-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-toulouse",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-gaston-branere.html",
+        "R1C2-prix-maubourguet.html",
+        "R1C3-prix-go-ahead.html",
+        "R1C4-prix-jean-stern.html",
+        "R1C5-prix-de-saint-germain.html",
+        "R1C6-prix-quo-vadis.html",
+        "R1C7-prix-pansa.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-gaston-branere.html",
+        "R2C2-prix-maubourguet.html",
+        "R2C3-prix-go-ahead.html",
+        "R2C4-prix-jean-stern.html",
+        "R2C5-prix-de-saint-germain.html",
+        "R2C6-prix-quo-vadis.html",
+        "R2C7-prix-pansa.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-gaston-branere.html",
+        "R3C2-prix-maubourguet.html",
+        "R3C3-prix-go-ahead.html",
+        "R3C4-prix-jean-stern.html",
+        "R3C5-prix-de-saint-germain.html",
+        "R3C6-prix-quo-vadis.html",
+        "R3C7-prix-pansa.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:02.753424Z"
+}

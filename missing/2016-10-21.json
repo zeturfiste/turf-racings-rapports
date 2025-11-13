@@ -1,0 +1,79 @@
+{
+  "date": "2016-10-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-21",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-21/2016-10-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-21/R3-moulins/R3C7-prix-athamantis.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C1-prix-klymene.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C3-prix-euterpe.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C4-prix-arethusa.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C5-prix-aludra.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C6-prix-cyrene.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R4-deauville/R4C7-prix-athamantis.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C1-prix-klymene.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C2-prix-le-parisien-prix-themis.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C3-prix-euterpe.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C4-prix-arethusa.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C5-prix-aludra.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C6-prix-cyrene.html",
+      "resultats-et-rapports/2016/10/2016-10-21/R5-amiens/R5C7-prix-athamantis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-moulins",
+      "R4-deauville",
+      "R5-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-klymene.html",
+        "R1C2-prix-le-parisien-prix-themis.html",
+        "R1C3-prix-euterpe.html",
+        "R1C4-prix-arethusa.html",
+        "R1C5-prix-aludra.html",
+        "R1C6-prix-cyrene.html",
+        "R1C7-prix-athamantis.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-klymene.html",
+        "R3C2-prix-le-parisien-prix-themis.html",
+        "R3C3-prix-euterpe.html",
+        "R3C4-prix-arethusa.html",
+        "R3C5-prix-aludra.html",
+        "R3C6-prix-cyrene.html",
+        "R3C7-prix-athamantis.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-klymene.html",
+        "R4C2-prix-le-parisien-prix-themis.html",
+        "R4C3-prix-euterpe.html",
+        "R4C4-prix-arethusa.html",
+        "R4C5-prix-aludra.html",
+        "R4C6-prix-cyrene.html",
+        "R4C7-prix-athamantis.html"
+      ],
+      "R5-amiens": [
+        "R5C1-prix-klymene.html",
+        "R5C2-prix-le-parisien-prix-themis.html",
+        "R5C3-prix-euterpe.html",
+        "R5C4-prix-arethusa.html",
+        "R5C5-prix-aludra.html",
+        "R5C6-prix-cyrene.html",
+        "R5C7-prix-athamantis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:24.700709Z"
+}

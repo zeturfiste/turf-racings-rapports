@@ -1,0 +1,73 @@
+{
+  "date": "2012-02-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/02/2012-02-29",
+    "date_html": "resultats-et-rapports/2012/02/2012-02-29/2012-02-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C1-prix-de-sedan.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C3-prix-d-herblay.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C5-prix-d-hyeres.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C6-prix-de-contrexeville.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C7-prix-de-chennevieres.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R1-enghien-soisy/R1C8-prix-de-l-alene-d-or.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C1-prix-de-sedan.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C2-prix-de-marennes.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C3-prix-d-herblay.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C5-prix-d-hyeres.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C6-prix-de-contrexeville.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R2-lyon-la-soie/R2C8-prix-de-l-alene-d-or.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R3-toulouse/R3C1-prix-de-sedan.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R3-toulouse/R3C6-prix-de-contrexeville.html",
+      "resultats-et-rapports/2012/02/2012-02-29/R3-toulouse/R3C8-prix-de-l-alene-d-or.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-lyon-la-soie",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-sedan.html",
+        "R1C2-prix-de-marennes.html",
+        "R1C3-prix-d-herblay.html",
+        "R1C4-prix-de-lure.html",
+        "R1C5-prix-d-hyeres.html",
+        "R1C6-prix-de-contrexeville.html",
+        "R1C7-prix-de-chennevieres.html",
+        "R1C8-prix-de-l-alene-d-or.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-de-sedan.html",
+        "R2C2-prix-de-marennes.html",
+        "R2C3-prix-d-herblay.html",
+        "R2C4-prix-de-lure.html",
+        "R2C5-prix-d-hyeres.html",
+        "R2C6-prix-de-contrexeville.html",
+        "R2C7-prix-de-chennevieres.html",
+        "R2C8-prix-de-l-alene-d-or.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-sedan.html",
+        "R3C2-prix-de-marennes.html",
+        "R3C3-prix-d-herblay.html",
+        "R3C4-prix-de-lure.html",
+        "R3C5-prix-d-hyeres.html",
+        "R3C6-prix-de-contrexeville.html",
+        "R3C7-prix-de-chennevieres.html",
+        "R3C8-prix-de-l-alene-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:40.176640Z"
+}

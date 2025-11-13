@@ -1,0 +1,93 @@
+{
+  "date": "2007-06-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/06/2007-06-26",
+    "date_html": "resultats-et-rapports/2007/06/2007-06-26/2007-06-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/06/2007-06-26/R1-auteuil/R1C1-prix-du-defile.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R1-auteuil/R1C2-prix-lindor.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R1-auteuil/R1C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R1-auteuil/R1C5-prix-dawn-run.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R1-auteuil/R1C7-prix-d-acheres.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R3-vincennes/R3C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R3-vincennes/R3C6-prix-rigoletto.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R3-vincennes/R3C7-prix-d-acheres.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R31-zerace/R31C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R70-venezuela-amerique-du-sud/R70C3-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R70-venezuela-amerique-du-sud/R70C5-prix-dawn-run.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R70-venezuela-amerique-du-sud/R70C6-prix-rigoletto.html",
+      "resultats-et-rapports/2007/06/2007-06-26/R70-venezuela-amerique-du-sud/R70C7-prix-d-acheres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-venezuela-amerique-du-sud"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-du-defile.html",
+        "R1C2-prix-lindor.html",
+        "R1C3-prix-gerald-de-rochefort.html",
+        "R1C4-prix-al-capone-ii.html",
+        "R1C5-prix-dawn-run.html",
+        "R1C6-prix-rigoletto.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-maurice-de-nexon.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-defile.html",
+        "R2C2-prix-lindor.html",
+        "R2C3-prix-gerald-de-rochefort.html",
+        "R2C4-prix-al-capone-ii.html",
+        "R2C5-prix-dawn-run.html",
+        "R2C6-prix-rigoletto.html",
+        "R2C7-prix-d-acheres.html",
+        "R2C8-prix-maurice-de-nexon.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-defile.html",
+        "R3C2-prix-lindor.html",
+        "R3C3-prix-gerald-de-rochefort.html",
+        "R3C4-prix-al-capone-ii.html",
+        "R3C5-prix-dawn-run.html",
+        "R3C6-prix-rigoletto.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-maurice-de-nexon.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-defile.html",
+        "R31C2-prix-lindor.html",
+        "R31C3-prix-gerald-de-rochefort.html",
+        "R31C4-prix-al-capone-ii.html",
+        "R31C5-prix-dawn-run.html",
+        "R31C6-prix-rigoletto.html",
+        "R31C7-prix-d-acheres.html",
+        "R31C8-prix-maurice-de-nexon.html"
+      ],
+      "R70-venezuela-amerique-du-sud": [
+        "R70C1-prix-du-defile.html",
+        "R70C2-prix-lindor.html",
+        "R70C3-prix-gerald-de-rochefort.html",
+        "R70C4-prix-al-capone-ii.html",
+        "R70C5-prix-dawn-run.html",
+        "R70C6-prix-rigoletto.html",
+        "R70C7-prix-d-acheres.html",
+        "R70C8-prix-maurice-de-nexon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:02.088740Z"
+}

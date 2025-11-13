@@ -1,0 +1,108 @@
+{
+  "date": "2009-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/10/2009-10-13",
+    "date_html": "resultats-et-rapports/2009/10/2009-10-13/2009-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C1-prix-du-nabob.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C2-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C3-prix-du-puits-de-l-ermite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C4-prix-du-pont-aux-biches.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C5-prix-de-clichy.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C6-prix-de-la-croix-catelan.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C7-prix-du-village.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R1-longchamp/R1C8-prix-perplexite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C1-prix-du-nabob.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C3-prix-du-puits-de-l-ermite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C5-prix-de-clichy.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C6-prix-de-la-croix-catelan.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C7-prix-du-village.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R2-marseille-borely/R2C8-prix-perplexite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R3-vincennes/R3C4-prix-du-pont-aux-biches.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R3-vincennes/R3C5-prix-de-clichy.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R3-vincennes/R3C8-prix-perplexite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C1-prix-du-nabob.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C3-prix-du-puits-de-l-ermite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C4-prix-du-pont-aux-biches.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C6-prix-de-la-croix-catelan.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C7-prix-du-village.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R31-zerace/R31C8-prix-perplexite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R70-stade-le-canonnier-mouscron/R70C2-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R70-stade-le-canonnier-mouscron/R70C3-prix-du-puits-de-l-ermite.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R70-stade-le-canonnier-mouscron/R70C5-prix-de-clichy.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R70-stade-le-canonnier-mouscron/R70C6-prix-de-la-croix-catelan.html",
+      "resultats-et-rapports/2009/10/2009-10-13/R70-stade-le-canonnier-mouscron/R70C8-prix-perplexite.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-stade-le-canonnier-mouscron"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-nabob.html",
+        "R1C2-prix-de-la-tour-saint-jacques.html",
+        "R1C3-prix-du-puits-de-l-ermite.html",
+        "R1C4-prix-du-pont-aux-biches.html",
+        "R1C5-prix-de-clichy.html",
+        "R1C6-prix-de-la-croix-catelan.html",
+        "R1C7-prix-du-village.html",
+        "R1C8-prix-perplexite.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-nabob.html",
+        "R2C2-prix-de-la-tour-saint-jacques.html",
+        "R2C3-prix-du-puits-de-l-ermite.html",
+        "R2C4-prix-du-pont-aux-biches.html",
+        "R2C5-prix-de-clichy.html",
+        "R2C6-prix-de-la-croix-catelan.html",
+        "R2C7-prix-du-village.html",
+        "R2C8-prix-perplexite.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-nabob.html",
+        "R3C2-prix-de-la-tour-saint-jacques.html",
+        "R3C3-prix-du-puits-de-l-ermite.html",
+        "R3C4-prix-du-pont-aux-biches.html",
+        "R3C5-prix-de-clichy.html",
+        "R3C6-prix-de-la-croix-catelan.html",
+        "R3C7-prix-du-village.html",
+        "R3C8-prix-perplexite.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-nabob.html",
+        "R31C2-prix-de-la-tour-saint-jacques.html",
+        "R31C3-prix-du-puits-de-l-ermite.html",
+        "R31C4-prix-du-pont-aux-biches.html",
+        "R31C5-prix-de-clichy.html",
+        "R31C6-prix-de-la-croix-catelan.html",
+        "R31C7-prix-du-village.html",
+        "R31C8-prix-perplexite.html"
+      ],
+      "R70-stade-le-canonnier-mouscron": [
+        "R70C1-prix-du-nabob.html",
+        "R70C2-prix-de-la-tour-saint-jacques.html",
+        "R70C3-prix-du-puits-de-l-ermite.html",
+        "R70C4-prix-du-pont-aux-biches.html",
+        "R70C5-prix-de-clichy.html",
+        "R70C6-prix-de-la-croix-catelan.html",
+        "R70C7-prix-du-village.html",
+        "R70C8-prix-perplexite.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:32.305695Z"
+}

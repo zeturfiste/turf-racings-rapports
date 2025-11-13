@@ -1,0 +1,115 @@
+{
+  "date": "2007-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-26",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-26/2007-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-26/R1-auteuil/R1C1-prix-calabrais.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R1-auteuil/R1C2-prix-robert-bates.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R1-auteuil/R1C7-prix-decazes.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R2-le-croise-laroche/R2C1-prix-calabrais.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R2-le-croise-laroche/R2C2-prix-robert-bates.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R2-le-croise-laroche/R2C3-prix-beaurepaire.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R2-le-croise-laroche/R2C4-prix-moncourt.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R2-le-croise-laroche/R2C5-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R3-vincennes/R3C3-prix-beaurepaire.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R3-vincennes/R3C4-prix-moncourt.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R3-vincennes/R3C5-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R3-vincennes/R3C7-prix-decazes.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R6-marseille-vivaux/R6C1-prix-calabrais.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R6-marseille-vivaux/R6C4-prix-moncourt.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R6-marseille-vivaux/R6C5-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R6-marseille-vivaux/R6C6-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R6-marseille-vivaux/R6C7-prix-decazes.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C1-prix-calabrais.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C2-prix-robert-bates.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C3-prix-beaurepaire.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C4-prix-moncourt.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C5-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C6-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R31-zerace/R31C7-prix-decazes.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C1-prix-calabrais.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C3-prix-beaurepaire.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C4-prix-moncourt.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C5-prix-adrien-besnouin.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C6-prix-gerard-philippeau.html",
+      "resultats-et-rapports/2007/10/2007-10-26/R70-stade-de-l-aube-troyes/R70C7-prix-decazes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-croise-laroche",
+      "R3-vincennes",
+      "R6-marseille-vivaux",
+      "R31-zerace",
+      "R70-stade-de-l-aube-troyes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-calabrais.html",
+        "R1C2-prix-robert-bates.html",
+        "R1C3-prix-beaurepaire.html",
+        "R1C4-prix-moncourt.html",
+        "R1C5-prix-adrien-besnouin.html",
+        "R1C6-prix-gerard-philippeau.html",
+        "R1C7-prix-decazes.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-calabrais.html",
+        "R2C2-prix-robert-bates.html",
+        "R2C3-prix-beaurepaire.html",
+        "R2C4-prix-moncourt.html",
+        "R2C5-prix-adrien-besnouin.html",
+        "R2C6-prix-gerard-philippeau.html",
+        "R2C7-prix-decazes.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-calabrais.html",
+        "R3C2-prix-robert-bates.html",
+        "R3C3-prix-beaurepaire.html",
+        "R3C4-prix-moncourt.html",
+        "R3C5-prix-adrien-besnouin.html",
+        "R3C6-prix-gerard-philippeau.html",
+        "R3C7-prix-decazes.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-calabrais.html",
+        "R6C2-prix-robert-bates.html",
+        "R6C3-prix-beaurepaire.html",
+        "R6C4-prix-moncourt.html",
+        "R6C5-prix-adrien-besnouin.html",
+        "R6C6-prix-gerard-philippeau.html",
+        "R6C7-prix-decazes.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-calabrais.html",
+        "R31C2-prix-robert-bates.html",
+        "R31C3-prix-beaurepaire.html",
+        "R31C4-prix-moncourt.html",
+        "R31C5-prix-adrien-besnouin.html",
+        "R31C6-prix-gerard-philippeau.html",
+        "R31C7-prix-decazes.html"
+      ],
+      "R70-stade-de-l-aube-troyes": [
+        "R70C1-prix-calabrais.html",
+        "R70C2-prix-robert-bates.html",
+        "R70C3-prix-beaurepaire.html",
+        "R70C4-prix-moncourt.html",
+        "R70C5-prix-adrien-besnouin.html",
+        "R70C6-prix-gerard-philippeau.html",
+        "R70C7-prix-decazes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:50.056504Z"
+}

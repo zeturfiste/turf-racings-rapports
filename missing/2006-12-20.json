@@ -1,0 +1,123 @@
+{
+  "date": "2006-12-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-20",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-20/2006-12-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-20/R4-cagnes-sur-mer/R4C4-prix-emmanuel-margouty.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R4-cagnes-sur-mer/R4C7-prix-sans-dire-oui.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R4-cagnes-sur-mer/R4C8-prix-de-manciet.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R21-zerace/R21C1-prix-de-flers.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R21-zerace/R21C6-prix-de-tourcoing.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R21-zerace/R21C8-prix-de-manciet.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R30-stade-gerland-lyon/R30C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R30-stade-gerland-lyon/R30C6-prix-de-tourcoing.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R30-stade-gerland-lyon/R30C7-prix-sans-dire-oui.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R30-stade-gerland-lyon/R30C8-prix-de-manciet.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R31-auguste-bonal-sochaux/R31C2-prix-de-chatellerault-gr-a.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R31-auguste-bonal-sochaux/R31C3-prix-de-chatellerault-gr-b.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R31-auguste-bonal-sochaux/R31C8-prix-de-manciet.html",
+      "resultats-et-rapports/2006/12/2006-12-20/R31-auguste-bonal-sochaux/R31C9-prix-de-thouars.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R4-cagnes-sur-mer",
+      "R21-zerace",
+      "R30-stade-gerland-lyon",
+      "R31-auguste-bonal-sochaux",
+      "R32-stade-de-la-route-de-lorient-rennes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-flers.html",
+        "R1C2-prix-de-chatellerault-gr-a.html",
+        "R1C3-prix-de-chatellerault-gr-b.html",
+        "R1C4-prix-emmanuel-margouty.html",
+        "R1C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R1C6-prix-de-tourcoing.html",
+        "R1C7-prix-sans-dire-oui.html",
+        "R1C8-prix-de-manciet.html",
+        "R1C9-prix-de-thouars.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-flers.html",
+        "R2C2-prix-de-chatellerault-gr-a.html",
+        "R2C3-prix-de-chatellerault-gr-b.html",
+        "R2C4-prix-emmanuel-margouty.html",
+        "R2C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R2C6-prix-de-tourcoing.html",
+        "R2C7-prix-sans-dire-oui.html",
+        "R2C8-prix-de-manciet.html",
+        "R2C9-prix-de-thouars.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-flers.html",
+        "R4C2-prix-de-chatellerault-gr-a.html",
+        "R4C3-prix-de-chatellerault-gr-b.html",
+        "R4C4-prix-emmanuel-margouty.html",
+        "R4C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R4C6-prix-de-tourcoing.html",
+        "R4C7-prix-sans-dire-oui.html",
+        "R4C8-prix-de-manciet.html",
+        "R4C9-prix-de-thouars.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-flers.html",
+        "R21C2-prix-de-chatellerault-gr-a.html",
+        "R21C3-prix-de-chatellerault-gr-b.html",
+        "R21C4-prix-emmanuel-margouty.html",
+        "R21C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R21C6-prix-de-tourcoing.html",
+        "R21C7-prix-sans-dire-oui.html",
+        "R21C8-prix-de-manciet.html",
+        "R21C9-prix-de-thouars.html"
+      ],
+      "R30-stade-gerland-lyon": [
+        "R30C1-prix-de-flers.html",
+        "R30C2-prix-de-chatellerault-gr-a.html",
+        "R30C3-prix-de-chatellerault-gr-b.html",
+        "R30C4-prix-emmanuel-margouty.html",
+        "R30C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R30C6-prix-de-tourcoing.html",
+        "R30C7-prix-sans-dire-oui.html",
+        "R30C8-prix-de-manciet.html",
+        "R30C9-prix-de-thouars.html"
+      ],
+      "R31-auguste-bonal-sochaux": [
+        "R31C1-prix-de-flers.html",
+        "R31C2-prix-de-chatellerault-gr-a.html",
+        "R31C3-prix-de-chatellerault-gr-b.html",
+        "R31C4-prix-emmanuel-margouty.html",
+        "R31C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R31C6-prix-de-tourcoing.html",
+        "R31C7-prix-sans-dire-oui.html",
+        "R31C8-prix-de-manciet.html",
+        "R31C9-prix-de-thouars.html"
+      ],
+      "R32-stade-de-la-route-de-lorient-rennes": [
+        "R32C1-prix-de-flers.html",
+        "R32C2-prix-de-chatellerault-gr-a.html",
+        "R32C3-prix-de-chatellerault-gr-b.html",
+        "R32C4-prix-emmanuel-margouty.html",
+        "R32C5-prix-pas-d-enfants-sans-noel-prix-de-saint-georges-de-didonne.html",
+        "R32C6-prix-de-tourcoing.html",
+        "R32C7-prix-sans-dire-oui.html",
+        "R32C8-prix-de-manciet.html",
+        "R32C9-prix-de-thouars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:03.557328Z"
+}

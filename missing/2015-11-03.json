@@ -1,0 +1,66 @@
+{
+  "date": "2015-11-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-03",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-03/2015-11-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-03/R1-chantilly/R1C6-prix-de-la-route-ronde.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R2-bordeaux-le-bouscat/R2C5-prix-des-brisees.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C1-prix-du-buisson-creux.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C2-prix-du-moulin-a-vent.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C3-prix-de-survilliers.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C4-prix-isola-bella.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C7-prix-de-la-route-de-la-loge.html",
+      "resultats-et-rapports/2015/11/2015-11-03/R3-vincennes/R3C8-prix-de-saint-witz.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-buisson-creux.html",
+        "R1C2-prix-du-moulin-a-vent.html",
+        "R1C3-prix-de-survilliers.html",
+        "R1C4-prix-isola-bella.html",
+        "R1C5-prix-des-brisees.html",
+        "R1C6-prix-de-la-route-ronde.html",
+        "R1C7-prix-de-la-route-de-la-loge.html",
+        "R1C8-prix-de-saint-witz.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-du-buisson-creux.html",
+        "R2C2-prix-du-moulin-a-vent.html",
+        "R2C3-prix-de-survilliers.html",
+        "R2C4-prix-isola-bella.html",
+        "R2C5-prix-des-brisees.html",
+        "R2C6-prix-de-la-route-ronde.html",
+        "R2C7-prix-de-la-route-de-la-loge.html",
+        "R2C8-prix-de-saint-witz.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-buisson-creux.html",
+        "R3C2-prix-du-moulin-a-vent.html",
+        "R3C3-prix-de-survilliers.html",
+        "R3C4-prix-isola-bella.html",
+        "R3C5-prix-des-brisees.html",
+        "R3C6-prix-de-la-route-ronde.html",
+        "R3C7-prix-de-la-route-de-la-loge.html",
+        "R3C8-prix-de-saint-witz.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:33.497015Z"
+}

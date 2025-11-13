@@ -1,0 +1,76 @@
+{
+  "date": "2016-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-02",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-02/2016-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-02/R1-vincennes/R1C1-prix-alexandra.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R1-vincennes/R1C2-prix-lampetia.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R1-vincennes/R1C3-prix-peitho.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R1-vincennes/R1C6-prix-aegle.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R4-fontainebleau/R4C3-prix-peitho.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R4-fontainebleau/R4C6-prix-aegle.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R4-fontainebleau/R4C7-prix-abulfeda.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R5-beaumont-de-lomagne/R5C3-prix-peitho.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R5-beaumont-de-lomagne/R5C6-prix-aegle.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R6-vichy/R6C3-prix-peitho.html",
+      "resultats-et-rapports/2016/09/2016-09-02/R6-vichy/R6C6-prix-aegle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-fontainebleau",
+      "R5-beaumont-de-lomagne",
+      "R6-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-alexandra.html",
+        "R1C2-prix-lampetia.html",
+        "R1C3-prix-peitho.html",
+        "R1C4-prix-ino.html",
+        "R1C5-prix-aschera.html",
+        "R1C6-prix-aegle.html",
+        "R1C7-prix-abulfeda.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-alexandra.html",
+        "R4C2-prix-lampetia.html",
+        "R4C3-prix-peitho.html",
+        "R4C4-prix-ino.html",
+        "R4C5-prix-aschera.html",
+        "R4C6-prix-aegle.html",
+        "R4C7-prix-abulfeda.html"
+      ],
+      "R5-beaumont-de-lomagne": [
+        "R5C1-prix-alexandra.html",
+        "R5C2-prix-lampetia.html",
+        "R5C3-prix-peitho.html",
+        "R5C4-prix-ino.html",
+        "R5C5-prix-aschera.html",
+        "R5C6-prix-aegle.html",
+        "R5C7-prix-abulfeda.html"
+      ],
+      "R6-vichy": [
+        "R6C1-prix-alexandra.html",
+        "R6C2-prix-lampetia.html",
+        "R6C3-prix-peitho.html",
+        "R6C4-prix-ino.html",
+        "R6C5-prix-aschera.html",
+        "R6C6-prix-aegle.html",
+        "R6C7-prix-abulfeda.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:07.157627Z"
+}

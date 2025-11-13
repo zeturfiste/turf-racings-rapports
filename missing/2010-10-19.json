@@ -1,0 +1,97 @@
+{
+  "date": "2010-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/10/2010-10-19",
+    "date_html": "resultats-et-rapports/2010/10/2010-10-19/2010-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C1-prix-des-equidays.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C2-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C4-prix-du-bois-bourdon.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C5-prix-d-aubigny.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C6-prix-de-dampierre-en-bray.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C7-prix-des-trois-mares.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C8-prix-de-ferrieres-en-bray.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R1-deauville/R1C9-prix-de-gournay.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C1-prix-des-equidays.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C2-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C4-prix-du-bois-bourdon.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C7-prix-des-trois-mares.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R2-angers/R2C9-prix-de-gournay.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C1-prix-des-equidays.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C2-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C4-prix-du-bois-bourdon.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C5-prix-d-aubigny.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C6-prix-de-dampierre-en-bray.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R3-vincennes/R3C7-prix-des-trois-mares.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R4-deauville-midi/R4C4-prix-du-bois-bourdon.html",
+      "resultats-et-rapports/2010/10/2010-10-19/R4-deauville-midi/R4C5-prix-d-aubigny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-angers",
+      "R3-vincennes",
+      "R4-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-equidays.html",
+        "R1C2-prix-de-l-epronniere.html",
+        "R1C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R1C4-prix-du-bois-bourdon.html",
+        "R1C5-prix-d-aubigny.html",
+        "R1C6-prix-de-dampierre-en-bray.html",
+        "R1C7-prix-des-trois-mares.html",
+        "R1C8-prix-de-ferrieres-en-bray.html",
+        "R1C9-prix-de-gournay.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-equidays.html",
+        "R2C2-prix-de-l-epronniere.html",
+        "R2C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R2C4-prix-du-bois-bourdon.html",
+        "R2C5-prix-d-aubigny.html",
+        "R2C6-prix-de-dampierre-en-bray.html",
+        "R2C7-prix-des-trois-mares.html",
+        "R2C8-prix-de-ferrieres-en-bray.html",
+        "R2C9-prix-de-gournay.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-equidays.html",
+        "R3C2-prix-de-l-epronniere.html",
+        "R3C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R3C4-prix-du-bois-bourdon.html",
+        "R3C5-prix-d-aubigny.html",
+        "R3C6-prix-de-dampierre-en-bray.html",
+        "R3C7-prix-des-trois-mares.html",
+        "R3C8-prix-de-ferrieres-en-bray.html",
+        "R3C9-prix-de-gournay.html"
+      ],
+      "R4-deauville-midi": [
+        "R4C1-prix-des-equidays.html",
+        "R4C2-prix-de-l-epronniere.html",
+        "R4C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R4C4-prix-du-bois-bourdon.html",
+        "R4C5-prix-d-aubigny.html",
+        "R4C6-prix-de-dampierre-en-bray.html",
+        "R4C7-prix-des-trois-mares.html",
+        "R4C8-prix-de-ferrieres-en-bray.html",
+        "R4C9-prix-de-gournay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:24.154238Z"
+}

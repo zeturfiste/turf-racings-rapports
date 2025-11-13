@@ -1,0 +1,118 @@
+{
+  "date": "2009-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/09/2009-09-02",
+    "date_html": "resultats-et-rapports/2009/09/2009-09-02/2009-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/09/2009-09-02/R1-marseille-vivaux/R1C1-prix-kerjacques.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R1-marseille-vivaux/R1C2-prix-geny-com.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R1-marseille-vivaux/R1C3-prix-albert-viel.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R1-marseille-vivaux/R1C5-prix-de-pont-de-vivaux.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R1-marseille-vivaux/R1C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R2-chantilly/R2C4-prix-gerard-prudhon.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R2-chantilly/R2C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R2-chantilly/R2C8-prix-de-la-joliette.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R31-zerace/R31C1-prix-kerjacques.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R31-zerace/R31C2-prix-geny-com.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R31-zerace/R31C4-prix-gerard-prudhon.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R31-zerace/R31C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R31-zerace/R31C8-prix-de-la-joliette.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C1-prix-kerjacques.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C2-prix-geny-com.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C3-prix-albert-viel.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C5-prix-de-pont-de-vivaux.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C7-prix-de-grosbois.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R70-flushing-meadows-new-york/R70C8-prix-de-la-joliette.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R71-stade-aime-giral-perpignan/R71C1-prix-kerjacques.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R71-stade-aime-giral-perpignan/R71C2-prix-geny-com.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R71-stade-aime-giral-perpignan/R71C6-prix-des-oliviers.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R71-stade-aime-giral-perpignan/R71C8-prix-de-la-joliette.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R72-stade-mayol-toulon/R72C5-prix-de-pont-de-vivaux.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R72-stade-mayol-toulon/R72C7-prix-de-grosbois.html",
+      "resultats-et-rapports/2009/09/2009-09-02/R72-stade-mayol-toulon/R72C8-prix-de-la-joliette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-vivaux",
+      "R2-chantilly",
+      "R31-zerace",
+      "R70-flushing-meadows-new-york",
+      "R71-stade-aime-giral-perpignan",
+      "R72-stade-mayol-toulon"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-vivaux": [
+        "R1C1-prix-kerjacques.html",
+        "R1C2-prix-geny-com.html",
+        "R1C3-prix-albert-viel.html",
+        "R1C4-prix-gerard-prudhon.html",
+        "R1C5-prix-de-pont-de-vivaux.html",
+        "R1C6-prix-des-oliviers.html",
+        "R1C7-prix-de-grosbois.html",
+        "R1C8-prix-de-la-joliette.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-kerjacques.html",
+        "R2C2-prix-geny-com.html",
+        "R2C3-prix-albert-viel.html",
+        "R2C4-prix-gerard-prudhon.html",
+        "R2C5-prix-de-pont-de-vivaux.html",
+        "R2C6-prix-des-oliviers.html",
+        "R2C7-prix-de-grosbois.html",
+        "R2C8-prix-de-la-joliette.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-kerjacques.html",
+        "R31C2-prix-geny-com.html",
+        "R31C3-prix-albert-viel.html",
+        "R31C4-prix-gerard-prudhon.html",
+        "R31C5-prix-de-pont-de-vivaux.html",
+        "R31C6-prix-des-oliviers.html",
+        "R31C7-prix-de-grosbois.html",
+        "R31C8-prix-de-la-joliette.html"
+      ],
+      "R70-flushing-meadows-new-york": [
+        "R70C1-prix-kerjacques.html",
+        "R70C2-prix-geny-com.html",
+        "R70C3-prix-albert-viel.html",
+        "R70C4-prix-gerard-prudhon.html",
+        "R70C5-prix-de-pont-de-vivaux.html",
+        "R70C6-prix-des-oliviers.html",
+        "R70C7-prix-de-grosbois.html",
+        "R70C8-prix-de-la-joliette.html"
+      ],
+      "R71-stade-aime-giral-perpignan": [
+        "R71C1-prix-kerjacques.html",
+        "R71C2-prix-geny-com.html",
+        "R71C3-prix-albert-viel.html",
+        "R71C4-prix-gerard-prudhon.html",
+        "R71C5-prix-de-pont-de-vivaux.html",
+        "R71C6-prix-des-oliviers.html",
+        "R71C7-prix-de-grosbois.html",
+        "R71C8-prix-de-la-joliette.html"
+      ],
+      "R72-stade-mayol-toulon": [
+        "R72C1-prix-kerjacques.html",
+        "R72C2-prix-geny-com.html",
+        "R72C3-prix-albert-viel.html",
+        "R72C4-prix-gerard-prudhon.html",
+        "R72C5-prix-de-pont-de-vivaux.html",
+        "R72C6-prix-des-oliviers.html",
+        "R72C7-prix-de-grosbois.html",
+        "R72C8-prix-de-la-joliette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:09.519273Z"
+}

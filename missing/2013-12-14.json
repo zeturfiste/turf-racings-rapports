@@ -1,0 +1,48 @@
+{
+  "date": "2013-12-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-14",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-14/2013-12-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langeac.html",
+        "R1C2-prix-de-chatellerault.html",
+        "R1C3-prix-de-rostrenen.html",
+        "R1C4-prix-oscar-collard.html",
+        "R1C5-prix-de-pithiviers.html",
+        "R1C6-prix-de-saint-james.html",
+        "R1C7-prix-d-evreux.html",
+        "R1C8-prix-de-florac.html",
+        "R1C9-prix-de-pondurat.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-langeac.html",
+        "R2C2-prix-de-chatellerault.html",
+        "R2C3-prix-de-rostrenen.html",
+        "R2C4-prix-oscar-collard.html",
+        "R2C5-prix-de-pithiviers.html",
+        "R2C6-prix-de-saint-james.html",
+        "R2C7-prix-d-evreux.html",
+        "R2C8-prix-de-florac.html",
+        "R2C9-prix-de-pondurat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:57.754289Z"
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2018-09-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-21",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-21/2018-09-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-21/R1-vincennes/R1C5-prix-lacadeira.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R1-vincennes/R1C6-prix-aquitania.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R1-vincennes/R1C7-prix-artemis.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R3-caen/R3C1-prix-bruna.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R3-caen/R3C2-prix-cleomede.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R3-caen/R3C3-prix-klytia.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R3-caen/R3C6-prix-aquitania.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C1-prix-bruna.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C2-prix-cleomede.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C3-prix-klytia.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C4-prix-alkmene.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C5-prix-lacadeira.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R4-chantilly/R4C7-prix-artemis.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C1-prix-bruna.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C3-prix-klytia.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C4-prix-alkmene.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C5-prix-lacadeira.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C6-prix-aquitania.html",
+      "resultats-et-rapports/2018/09/2018-09-21/R5-nantes/R5C7-prix-artemis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-caen",
+      "R4-chantilly",
+      "R5-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-bruna.html",
+        "R1C2-prix-cleomede.html",
+        "R1C3-prix-klytia.html",
+        "R1C4-prix-alkmene.html",
+        "R1C5-prix-lacadeira.html",
+        "R1C6-prix-aquitania.html",
+        "R1C7-prix-artemis.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-bruna.html",
+        "R3C2-prix-cleomede.html",
+        "R3C3-prix-klytia.html",
+        "R3C4-prix-alkmene.html",
+        "R3C5-prix-lacadeira.html",
+        "R3C6-prix-aquitania.html",
+        "R3C7-prix-artemis.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-bruna.html",
+        "R4C2-prix-cleomede.html",
+        "R4C3-prix-klytia.html",
+        "R4C4-prix-alkmene.html",
+        "R4C5-prix-lacadeira.html",
+        "R4C6-prix-aquitania.html",
+        "R4C7-prix-artemis.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-bruna.html",
+        "R5C2-prix-cleomede.html",
+        "R5C3-prix-klytia.html",
+        "R5C4-prix-alkmene.html",
+        "R5C5-prix-lacadeira.html",
+        "R5C6-prix-aquitania.html",
+        "R5C7-prix-artemis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:11.857040Z"
+}

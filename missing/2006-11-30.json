@@ -1,0 +1,101 @@
+{
+  "date": "2006-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-30",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-30/2006-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-30/R2-deauville/R2C1-prix-d-ales.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R21-zerace/R21C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R21-zerace/R21C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R21-zerace/R21C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C5-prix-des-landes.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C6-prix-de-moscou-rencontre-franco-russe.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C8-prix-d-apt.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R30-mestsky-mlada-boleslav/R30C9-prix-des-dahlias.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R31-marcel-picot-nancy/R31C1-prix-d-ales.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R31-marcel-picot-nancy/R31C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R31-marcel-picot-nancy/R31C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2006/11/2006-11-30/R31-marcel-picot-nancy/R31C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R21-zerace",
+      "R30-mestsky-mlada-boleslav",
+      "R31-marcel-picot-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-ales.html",
+        "R1C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+        "R1C3-prix-paul-buquet.html",
+        "R1C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+        "R1C5-prix-des-landes.html",
+        "R1C6-prix-de-moscou-rencontre-franco-russe.html",
+        "R1C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+        "R1C8-prix-d-apt.html",
+        "R1C9-prix-des-dahlias.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-d-ales.html",
+        "R2C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+        "R2C3-prix-paul-buquet.html",
+        "R2C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+        "R2C5-prix-des-landes.html",
+        "R2C6-prix-de-moscou-rencontre-franco-russe.html",
+        "R2C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+        "R2C8-prix-d-apt.html",
+        "R2C9-prix-des-dahlias.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-ales.html",
+        "R21C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+        "R21C3-prix-paul-buquet.html",
+        "R21C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+        "R21C5-prix-des-landes.html",
+        "R21C6-prix-de-moscou-rencontre-franco-russe.html",
+        "R21C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+        "R21C8-prix-d-apt.html",
+        "R21C9-prix-des-dahlias.html"
+      ],
+      "R30-mestsky-mlada-boleslav": [
+        "R30C1-prix-d-ales.html",
+        "R30C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+        "R30C3-prix-paul-buquet.html",
+        "R30C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+        "R30C5-prix-des-landes.html",
+        "R30C6-prix-de-moscou-rencontre-franco-russe.html",
+        "R30C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+        "R30C8-prix-d-apt.html",
+        "R30C9-prix-des-dahlias.html"
+      ],
+      "R31-marcel-picot-nancy": [
+        "R31C1-prix-d-ales.html",
+        "R31C2-prix-de-castelsarrasin-trophee-de-novossibirsk.html",
+        "R31C3-prix-paul-buquet.html",
+        "R31C4-prix-de-l-orne-trophee-de-l-hippodrome-de-kazan.html",
+        "R31C5-prix-des-landes.html",
+        "R31C6-prix-de-moscou-rencontre-franco-russe.html",
+        "R31C7-prix-de-ferrieres-trophee-akbouzat-hippodrome-de-ufa.html",
+        "R31C8-prix-d-apt.html",
+        "R31C9-prix-des-dahlias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:57.894120Z"
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2012-10-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-23",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-23/2012-10-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-23/R1-deauville/R1C1-prix-des-equidays.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R1-deauville/R1C2-prix-du-lieu-calice.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R1-deauville/R1C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R1-deauville/R1C7-prix-d-anguerny.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R2-nantes/R2C1-prix-des-equidays.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R2-nantes/R2C4-prix-de-la-motteraye.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R3-toulouse/R3C6-prix-de-beneauville.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R3-toulouse/R3C7-prix-d-anguerny.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R3-toulouse/R3C8-prix-des-crouas.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R4-vincennes/R4C1-prix-des-equidays.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R4-vincennes/R4C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R4-vincennes/R4C5-prix-de-danestal.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R4-vincennes/R4C7-prix-d-anguerny.html",
+      "resultats-et-rapports/2012/10/2012-10-23/R4-vincennes/R4C9-prix-de-l-etablissement-des-ventes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-nantes",
+      "R3-toulouse",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-equidays.html",
+        "R1C2-prix-du-lieu-calice.html",
+        "R1C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+        "R1C4-prix-de-la-motteraye.html",
+        "R1C5-prix-de-danestal.html",
+        "R1C6-prix-de-beneauville.html",
+        "R1C7-prix-d-anguerny.html",
+        "R1C8-prix-des-crouas.html",
+        "R1C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-des-equidays.html",
+        "R2C2-prix-du-lieu-calice.html",
+        "R2C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+        "R2C4-prix-de-la-motteraye.html",
+        "R2C5-prix-de-danestal.html",
+        "R2C6-prix-de-beneauville.html",
+        "R2C7-prix-d-anguerny.html",
+        "R2C8-prix-des-crouas.html",
+        "R2C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-des-equidays.html",
+        "R3C2-prix-du-lieu-calice.html",
+        "R3C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+        "R3C4-prix-de-la-motteraye.html",
+        "R3C5-prix-de-danestal.html",
+        "R3C6-prix-de-beneauville.html",
+        "R3C7-prix-d-anguerny.html",
+        "R3C8-prix-des-crouas.html",
+        "R3C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-equidays.html",
+        "R4C2-prix-du-lieu-calice.html",
+        "R4C3-prix-de-falaise-prix-du-journal-le-pays-d-auge.html",
+        "R4C4-prix-de-la-motteraye.html",
+        "R4C5-prix-de-danestal.html",
+        "R4C6-prix-de-beneauville.html",
+        "R4C7-prix-d-anguerny.html",
+        "R4C8-prix-des-crouas.html",
+        "R4C9-prix-de-l-etablissement-des-ventes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:53.554234Z"
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2007-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-14",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-14/2007-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-14/R1-laval/R1C3-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R1-laval/R1C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R1-laval/R1C5-prix-les-tables-de-la-mayenne.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R1-laval/R1C7-prix-du-maine-gr-b.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R1-laval/R1C9-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C3-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C6-prix-du-maine-gr-a.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C7-prix-du-maine-gr-b.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C8-prix-de-bellevue-la-foret.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R2-enghien-soisy/R2C9-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C5-prix-les-tables-de-la-mayenne.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C6-prix-du-maine-gr-a.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C7-prix-du-maine-gr-b.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C8-prix-de-bellevue-la-foret.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R21-zerace/R21C9-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R70-bayarena-leverkusen/R70C1-grand-prix-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R70-bayarena-leverkusen/R70C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R70-bayarena-leverkusen/R70C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R70-bayarena-leverkusen/R70C5-prix-les-tables-de-la-mayenne.html",
+      "resultats-et-rapports/2007/03/2007-03-14/R70-bayarena-leverkusen/R70C7-prix-du-maine-gr-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-enghien-soisy",
+      "R21-zerace",
+      "R70-bayarena-leverkusen"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R1C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R1C3-prix-france-bleu-mayenne.html",
+        "R1C4-prix-de-la-societe-du-cheval-francais.html",
+        "R1C5-prix-les-tables-de-la-mayenne.html",
+        "R1C6-prix-du-maine-gr-a.html",
+        "R1C7-prix-du-maine-gr-b.html",
+        "R1C8-prix-de-bellevue-la-foret.html",
+        "R1C9-prix-des-trois-provinces.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-prix-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R2C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R2C3-prix-france-bleu-mayenne.html",
+        "R2C4-prix-de-la-societe-du-cheval-francais.html",
+        "R2C5-prix-les-tables-de-la-mayenne.html",
+        "R2C6-prix-du-maine-gr-a.html",
+        "R2C7-prix-du-maine-gr-b.html",
+        "R2C8-prix-de-bellevue-la-foret.html",
+        "R2C9-prix-des-trois-provinces.html"
+      ],
+      "R21-zerace": [
+        "R21C1-grand-prix-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R21C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R21C3-prix-france-bleu-mayenne.html",
+        "R21C4-prix-de-la-societe-du-cheval-francais.html",
+        "R21C5-prix-les-tables-de-la-mayenne.html",
+        "R21C6-prix-du-maine-gr-a.html",
+        "R21C7-prix-du-maine-gr-b.html",
+        "R21C8-prix-de-bellevue-la-foret.html",
+        "R21C9-prix-des-trois-provinces.html"
+      ],
+      "R70-bayarena-leverkusen": [
+        "R70C1-grand-prix-conseil-general-de-la-mayenne-grand-prix-charley-mills.html",
+        "R70C2-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R70C3-prix-france-bleu-mayenne.html",
+        "R70C4-prix-de-la-societe-du-cheval-francais.html",
+        "R70C5-prix-les-tables-de-la-mayenne.html",
+        "R70C6-prix-du-maine-gr-a.html",
+        "R70C7-prix-du-maine-gr-b.html",
+        "R70C8-prix-de-bellevue-la-foret.html",
+        "R70C9-prix-des-trois-provinces.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:29.317448Z"
+}

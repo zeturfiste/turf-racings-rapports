@@ -1,0 +1,60 @@
+{
+  "date": "2019-01-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/01/2019-01-04",
+    "date_html": "resultats-et-rapports/2019/01/2019-01-04/2019-01-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-pau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-crennes.html",
+        "R1C2-prix-de-la-fontaine-teauvillaise.html",
+        "R1C3-prix-de-folleville.html",
+        "R1C4-prix-de-la-beauvoisiniere.html",
+        "R1C5-prix-de-la-bareliere.html",
+        "R1C6-prix-de-la-perdriere.html",
+        "R1C7-prix-des-rouges-terres.html",
+        "R1C8-prix-du-bois-guimon.html",
+        "R1C9-prix-de-la-perriere.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-crennes.html",
+        "R2C2-prix-de-la-fontaine-teauvillaise.html",
+        "R2C3-prix-de-folleville.html",
+        "R2C4-prix-de-la-beauvoisiniere.html",
+        "R2C5-prix-de-la-bareliere.html",
+        "R2C6-prix-de-la-perdriere.html",
+        "R2C7-prix-des-rouges-terres.html",
+        "R2C8-prix-du-bois-guimon.html",
+        "R2C9-prix-de-la-perriere.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-crennes.html",
+        "R3C2-prix-de-la-fontaine-teauvillaise.html",
+        "R3C3-prix-de-folleville.html",
+        "R3C4-prix-de-la-beauvoisiniere.html",
+        "R3C5-prix-de-la-bareliere.html",
+        "R3C6-prix-de-la-perdriere.html",
+        "R3C7-prix-des-rouges-terres.html",
+        "R3C8-prix-du-bois-guimon.html",
+        "R3C9-prix-de-la-perriere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:44.412873Z"
+}

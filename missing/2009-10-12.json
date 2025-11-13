@@ -1,0 +1,119 @@
+{
+  "date": "2009-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/10/2009-10-12",
+    "date_html": "resultats-et-rapports/2009/10/2009-10-12/2009-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/10/2009-10-12/R2-chantilly/R2C3-prix-de-la-porte-d-orleans.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R2-chantilly/R2C5-prix-du-pont-mirabeau.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R2-chantilly/R2C6-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R2-chantilly/R2C8-prix-de-vauvert.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R4-hyeres/R4C2-prix-armand-de-bellaigue.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R4-hyeres/R4C4-prix-de-la-porte-d-ivry.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R4-hyeres/R4C5-prix-du-pont-mirabeau.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R4-hyeres/R4C7-prix-de-la-porte-saint-denis.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R4-hyeres/R4C8-prix-de-vauvert.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C2-prix-armand-de-bellaigue.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C3-prix-de-la-porte-d-orleans.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C4-prix-de-la-porte-d-ivry.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C5-prix-du-pont-mirabeau.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C6-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C7-prix-de-la-porte-saint-denis.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R5-toulouse/R5C8-prix-de-vauvert.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C2-prix-armand-de-bellaigue.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C3-prix-de-la-porte-d-orleans.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C4-prix-de-la-porte-d-ivry.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C5-prix-du-pont-mirabeau.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C6-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R6-le-croise-laroche/R6C7-prix-de-la-porte-saint-denis.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R31-zerace/R31C3-prix-de-la-porte-d-orleans.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R31-zerace/R31C5-prix-du-pont-mirabeau.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R31-zerace/R31C6-prix-de-la-tour-montparnasse.html",
+      "resultats-et-rapports/2009/10/2009-10-12/R31-zerace/R31C8-prix-de-vauvert.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-chantilly",
+      "R4-hyeres",
+      "R5-toulouse",
+      "R6-le-croise-laroche",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-des-gobelins.html",
+        "R1C2-prix-armand-de-bellaigue.html",
+        "R1C3-prix-de-la-porte-d-orleans.html",
+        "R1C4-prix-de-la-porte-d-ivry.html",
+        "R1C5-prix-du-pont-mirabeau.html",
+        "R1C6-prix-de-la-tour-montparnasse.html",
+        "R1C7-prix-de-la-porte-saint-denis.html",
+        "R1C8-prix-de-vauvert.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-des-gobelins.html",
+        "R2C2-prix-armand-de-bellaigue.html",
+        "R2C3-prix-de-la-porte-d-orleans.html",
+        "R2C4-prix-de-la-porte-d-ivry.html",
+        "R2C5-prix-du-pont-mirabeau.html",
+        "R2C6-prix-de-la-tour-montparnasse.html",
+        "R2C7-prix-de-la-porte-saint-denis.html",
+        "R2C8-prix-de-vauvert.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-des-gobelins.html",
+        "R4C2-prix-armand-de-bellaigue.html",
+        "R4C3-prix-de-la-porte-d-orleans.html",
+        "R4C4-prix-de-la-porte-d-ivry.html",
+        "R4C5-prix-du-pont-mirabeau.html",
+        "R4C6-prix-de-la-tour-montparnasse.html",
+        "R4C7-prix-de-la-porte-saint-denis.html",
+        "R4C8-prix-de-vauvert.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-des-gobelins.html",
+        "R5C2-prix-armand-de-bellaigue.html",
+        "R5C3-prix-de-la-porte-d-orleans.html",
+        "R5C4-prix-de-la-porte-d-ivry.html",
+        "R5C5-prix-du-pont-mirabeau.html",
+        "R5C6-prix-de-la-tour-montparnasse.html",
+        "R5C7-prix-de-la-porte-saint-denis.html",
+        "R5C8-prix-de-vauvert.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-des-gobelins.html",
+        "R6C2-prix-armand-de-bellaigue.html",
+        "R6C3-prix-de-la-porte-d-orleans.html",
+        "R6C4-prix-de-la-porte-d-ivry.html",
+        "R6C5-prix-du-pont-mirabeau.html",
+        "R6C6-prix-de-la-tour-montparnasse.html",
+        "R6C7-prix-de-la-porte-saint-denis.html",
+        "R6C8-prix-de-vauvert.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-gobelins.html",
+        "R31C2-prix-armand-de-bellaigue.html",
+        "R31C3-prix-de-la-porte-d-orleans.html",
+        "R31C4-prix-de-la-porte-d-ivry.html",
+        "R31C5-prix-du-pont-mirabeau.html",
+        "R31C6-prix-de-la-tour-montparnasse.html",
+        "R31C7-prix-de-la-porte-saint-denis.html",
+        "R31C8-prix-de-vauvert.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:32.001355Z"
+}

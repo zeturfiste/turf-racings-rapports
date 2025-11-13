@@ -1,0 +1,132 @@
+{
+  "date": "2013-12-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-22",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-22/2013-12-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C2-prix-de-cresseron.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C3-prix-emile-riotteau.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C4-criterium-continental.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C6-prix-du-gard.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C8-prix-de-marly.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R1-vincennes/R1C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C4-criterium-continental.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C6-prix-du-gard.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C8-prix-de-marly.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R2-mauquenchy/R2C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C2-prix-de-cresseron.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C3-prix-emile-riotteau.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C4-criterium-continental.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C8-prix-de-marly.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R3-grenade-sur-garonne/R3C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R4-angers/R4C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R4-angers/R4C2-prix-de-cresseron.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R4-angers/R4C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R4-angers/R4C8-prix-de-marly.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C2-prix-de-cresseron.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C3-prix-emile-riotteau.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C7-prix-du-mele-sur-sarthe.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C8-prix-de-marly.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R5-nantes/R5C9-prix-de-fougeres.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R6-cagnes-sur-mer/R6C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2013/12/2013-12-22/R6-cagnes-sur-mer/R6C4-criterium-continental.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-mauquenchy",
+      "R3-grenade-sur-garonne",
+      "R4-angers",
+      "R5-nantes",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-mortemart.html",
+        "R1C2-prix-de-cresseron.html",
+        "R1C3-prix-emile-riotteau.html",
+        "R1C4-criterium-continental.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-du-gard.html",
+        "R1C7-prix-du-mele-sur-sarthe.html",
+        "R1C8-prix-de-marly.html",
+        "R1C9-prix-de-fougeres.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-de-mortemart.html",
+        "R2C2-prix-de-cresseron.html",
+        "R2C3-prix-emile-riotteau.html",
+        "R2C4-criterium-continental.html",
+        "R2C5-prix-de-vincennes.html",
+        "R2C6-prix-du-gard.html",
+        "R2C7-prix-du-mele-sur-sarthe.html",
+        "R2C8-prix-de-marly.html",
+        "R2C9-prix-de-fougeres.html"
+      ],
+      "R3-grenade-sur-garonne": [
+        "R3C1-prix-de-mortemart.html",
+        "R3C2-prix-de-cresseron.html",
+        "R3C3-prix-emile-riotteau.html",
+        "R3C4-criterium-continental.html",
+        "R3C5-prix-de-vincennes.html",
+        "R3C6-prix-du-gard.html",
+        "R3C7-prix-du-mele-sur-sarthe.html",
+        "R3C8-prix-de-marly.html",
+        "R3C9-prix-de-fougeres.html"
+      ],
+      "R4-angers": [
+        "R4C1-prix-de-mortemart.html",
+        "R4C2-prix-de-cresseron.html",
+        "R4C3-prix-emile-riotteau.html",
+        "R4C4-criterium-continental.html",
+        "R4C5-prix-de-vincennes.html",
+        "R4C6-prix-du-gard.html",
+        "R4C7-prix-du-mele-sur-sarthe.html",
+        "R4C8-prix-de-marly.html",
+        "R4C9-prix-de-fougeres.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-de-mortemart.html",
+        "R5C2-prix-de-cresseron.html",
+        "R5C3-prix-emile-riotteau.html",
+        "R5C4-criterium-continental.html",
+        "R5C5-prix-de-vincennes.html",
+        "R5C6-prix-du-gard.html",
+        "R5C7-prix-du-mele-sur-sarthe.html",
+        "R5C8-prix-de-marly.html",
+        "R5C9-prix-de-fougeres.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-mortemart.html",
+        "R6C2-prix-de-cresseron.html",
+        "R6C3-prix-emile-riotteau.html",
+        "R6C4-criterium-continental.html",
+        "R6C5-prix-de-vincennes.html",
+        "R6C6-prix-du-gard.html",
+        "R6C7-prix-du-mele-sur-sarthe.html",
+        "R6C8-prix-de-marly.html",
+        "R6C9-prix-de-fougeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:59.560653Z"
+}

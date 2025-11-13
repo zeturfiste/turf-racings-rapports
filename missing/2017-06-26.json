@@ -1,0 +1,83 @@
+{
+  "date": "2017-06-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-26",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-26/2017-06-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-26/R1-saint-cloud/R1C2-prix-mordant.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R1-saint-cloud/R1C4-prix-d-orgeval.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R3-caen/R3C2-prix-mordant.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R3-caen/R3C4-prix-d-orgeval.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R3-caen/R3C6-prix-de-bretigny.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R3-caen/R3C7-prix-du-bois-briard.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R3-caen/R3C8-prix-la-bascoe.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R4-aix-les-bains/R4C5-prix-de-bonnelles.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R4-aix-les-bains/R4C6-prix-de-bretigny.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R4-aix-les-bains/R4C7-prix-du-bois-briard.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R4-aix-les-bains/R4C8-prix-la-bascoe.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R6-beaumont-de-lomagne/R6C3-prix-de-voisins.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R6-beaumont-de-lomagne/R6C6-prix-de-bretigny.html",
+      "resultats-et-rapports/2017/06/2017-06-26/R6-beaumont-de-lomagne/R6C8-prix-la-bascoe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-aix-les-bains",
+      "R6-beaumont-de-lomagne"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-montigny.html",
+        "R1C2-prix-mordant.html",
+        "R1C3-prix-de-voisins.html",
+        "R1C4-prix-d-orgeval.html",
+        "R1C5-prix-de-bonnelles.html",
+        "R1C6-prix-de-bretigny.html",
+        "R1C7-prix-du-bois-briard.html",
+        "R1C8-prix-la-bascoe.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-montigny.html",
+        "R3C2-prix-mordant.html",
+        "R3C3-prix-de-voisins.html",
+        "R3C4-prix-d-orgeval.html",
+        "R3C5-prix-de-bonnelles.html",
+        "R3C6-prix-de-bretigny.html",
+        "R3C7-prix-du-bois-briard.html",
+        "R3C8-prix-la-bascoe.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-de-montigny.html",
+        "R4C2-prix-mordant.html",
+        "R4C3-prix-de-voisins.html",
+        "R4C4-prix-d-orgeval.html",
+        "R4C5-prix-de-bonnelles.html",
+        "R4C6-prix-de-bretigny.html",
+        "R4C7-prix-du-bois-briard.html",
+        "R4C8-prix-la-bascoe.html"
+      ],
+      "R6-beaumont-de-lomagne": [
+        "R6C1-prix-de-montigny.html",
+        "R6C2-prix-mordant.html",
+        "R6C3-prix-de-voisins.html",
+        "R6C4-prix-d-orgeval.html",
+        "R6C5-prix-de-bonnelles.html",
+        "R6C6-prix-de-bretigny.html",
+        "R6C7-prix-du-bois-briard.html",
+        "R6C8-prix-la-bascoe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:43.171301Z"
+}

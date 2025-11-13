@@ -1,0 +1,88 @@
+{
+  "date": "2010-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-05",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-05/2010-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-05/R1-mauquenchy/R1C5-prix-conseil-des-chevaux-haute-normandie.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R1-mauquenchy/R1C6-prix-jean-francois-lambert.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R1-mauquenchy/R1C8-prix-tombola-de-la-federation.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R2-enghien-soisy/R2C1-prix-du-mont-halbout.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R2-enghien-soisy/R2C4-prix-www-courseschevaux-fr.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R2-enghien-soisy/R2C7-prix-vans-fautras-jean-francois-demarcy.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R2-enghien-soisy/R2C8-prix-tombola-de-la-federation.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R2-enghien-soisy/R2C9-prix-www-hippodrome-mauquenchy-com.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R3-vincennes/R3C7-prix-vans-fautras-jean-francois-demarcy.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R3-vincennes/R3C9-prix-www-hippodrome-mauquenchy-com.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R5-saint-galmier/R5C1-prix-du-mont-halbout.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R5-saint-galmier/R5C2-prix-de-la-boutonniere-gr-a.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R5-saint-galmier/R5C4-prix-www-courseschevaux-fr.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R5-saint-galmier/R5C8-prix-tombola-de-la-federation.html",
+      "resultats-et-rapports/2010/11/2010-11-05/R5-saint-galmier/R5C9-prix-www-hippodrome-mauquenchy-com.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-enghien-soisy",
+      "R3-vincennes",
+      "R5-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-du-mont-halbout.html",
+        "R1C2-prix-de-la-boutonniere-gr-a.html",
+        "R1C3-prix-clean-service-gr-b.html",
+        "R1C4-prix-www-courseschevaux-fr.html",
+        "R1C5-prix-conseil-des-chevaux-haute-normandie.html",
+        "R1C6-prix-jean-francois-lambert.html",
+        "R1C7-prix-vans-fautras-jean-francois-demarcy.html",
+        "R1C8-prix-tombola-de-la-federation.html",
+        "R1C9-prix-www-hippodrome-mauquenchy-com.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-mont-halbout.html",
+        "R2C2-prix-de-la-boutonniere-gr-a.html",
+        "R2C3-prix-clean-service-gr-b.html",
+        "R2C4-prix-www-courseschevaux-fr.html",
+        "R2C5-prix-conseil-des-chevaux-haute-normandie.html",
+        "R2C6-prix-jean-francois-lambert.html",
+        "R2C7-prix-vans-fautras-jean-francois-demarcy.html",
+        "R2C8-prix-tombola-de-la-federation.html",
+        "R2C9-prix-www-hippodrome-mauquenchy-com.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-mont-halbout.html",
+        "R3C2-prix-de-la-boutonniere-gr-a.html",
+        "R3C3-prix-clean-service-gr-b.html",
+        "R3C4-prix-www-courseschevaux-fr.html",
+        "R3C5-prix-conseil-des-chevaux-haute-normandie.html",
+        "R3C6-prix-jean-francois-lambert.html",
+        "R3C7-prix-vans-fautras-jean-francois-demarcy.html",
+        "R3C8-prix-tombola-de-la-federation.html",
+        "R3C9-prix-www-hippodrome-mauquenchy-com.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-du-mont-halbout.html",
+        "R5C2-prix-de-la-boutonniere-gr-a.html",
+        "R5C3-prix-clean-service-gr-b.html",
+        "R5C4-prix-www-courseschevaux-fr.html",
+        "R5C5-prix-conseil-des-chevaux-haute-normandie.html",
+        "R5C6-prix-jean-francois-lambert.html",
+        "R5C7-prix-vans-fautras-jean-francois-demarcy.html",
+        "R5C8-prix-tombola-de-la-federation.html",
+        "R5C9-prix-www-hippodrome-mauquenchy-com.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:28.939912Z"
+}

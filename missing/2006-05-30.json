@@ -1,0 +1,49 @@
+{
+  "date": "2006-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-30",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-30/2006-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/05/2006-05-30/R1-maisons-laffitte/R1C7-prix-d-elancourt.html",
+      "resultats-et-rapports/2006/05/2006-05-30/R2-vincennes/R2C4-prix-basse-pointe.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-blushing-groom.html",
+        "R1C2-prix-de-chanteloup.html",
+        "R1C3-prix-bruleur.html",
+        "R1C4-prix-basse-pointe.html",
+        "R1C5-prix-loisir.html",
+        "R1C6-prix-de-ponthierry.html",
+        "R1C7-prix-d-elancourt.html",
+        "R1C8-prix-du-perche.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-blushing-groom.html",
+        "R2C2-prix-de-chanteloup.html",
+        "R2C3-prix-bruleur.html",
+        "R2C4-prix-basse-pointe.html",
+        "R2C5-prix-loisir.html",
+        "R2C6-prix-de-ponthierry.html",
+        "R2C7-prix-d-elancourt.html",
+        "R2C8-prix-du-perche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:05.977851Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2012-04-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-28",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-28/2012-04-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-28/R1-auteuil/R1C1-prix-wild-monarch-premier-peloton.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R1-auteuil/R1C4-prix-gaston-branere.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R2-la-teste-de-buch/R2C2-prix-wild-monarch-deuxieme-peloton.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C1-prix-wild-monarch-premier-peloton.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C5-prix-amadou.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C6-prix-ingre.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C7-prix-jean-stern.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C8-prix-leon-rambaud.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R3-argentan/R3C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R4-chantilly/R4C1-prix-wild-monarch-premier-peloton.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C2-prix-wild-monarch-deuxieme-peloton.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C3-prix-de-castets.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C4-prix-gaston-branere.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C5-prix-amadou.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C6-prix-ingre.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C7-prix-jean-stern.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C8-prix-leon-rambaud.html",
+      "resultats-et-rapports/2012/04/2012-04-28/R6-cavaillon/R6C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-la-teste-de-buch",
+      "R3-argentan",
+      "R4-chantilly",
+      "R6-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-wild-monarch-premier-peloton.html",
+        "R1C2-prix-wild-monarch-deuxieme-peloton.html",
+        "R1C3-prix-de-castets.html",
+        "R1C4-prix-gaston-branere.html",
+        "R1C5-prix-amadou.html",
+        "R1C6-prix-ingre.html",
+        "R1C7-prix-jean-stern.html",
+        "R1C8-prix-leon-rambaud.html",
+        "R1C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-wild-monarch-premier-peloton.html",
+        "R2C2-prix-wild-monarch-deuxieme-peloton.html",
+        "R2C3-prix-de-castets.html",
+        "R2C4-prix-gaston-branere.html",
+        "R2C5-prix-amadou.html",
+        "R2C6-prix-ingre.html",
+        "R2C7-prix-jean-stern.html",
+        "R2C8-prix-leon-rambaud.html",
+        "R2C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-wild-monarch-premier-peloton.html",
+        "R3C2-prix-wild-monarch-deuxieme-peloton.html",
+        "R3C3-prix-de-castets.html",
+        "R3C4-prix-gaston-branere.html",
+        "R3C5-prix-amadou.html",
+        "R3C6-prix-ingre.html",
+        "R3C7-prix-jean-stern.html",
+        "R3C8-prix-leon-rambaud.html",
+        "R3C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-wild-monarch-premier-peloton.html",
+        "R4C2-prix-wild-monarch-deuxieme-peloton.html",
+        "R4C3-prix-de-castets.html",
+        "R4C4-prix-gaston-branere.html",
+        "R4C5-prix-amadou.html",
+        "R4C6-prix-ingre.html",
+        "R4C7-prix-jean-stern.html",
+        "R4C8-prix-leon-rambaud.html",
+        "R4C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+      ],
+      "R6-cavaillon": [
+        "R6C1-prix-wild-monarch-premier-peloton.html",
+        "R6C2-prix-wild-monarch-deuxieme-peloton.html",
+        "R6C3-prix-de-castets.html",
+        "R6C4-prix-gaston-branere.html",
+        "R6C5-prix-amadou.html",
+        "R6C6-prix-ingre.html",
+        "R6C7-prix-jean-stern.html",
+        "R6C8-prix-leon-rambaud.html",
+        "R6C9-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:57.056824Z"
+}

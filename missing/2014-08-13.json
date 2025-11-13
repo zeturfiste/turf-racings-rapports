@@ -1,0 +1,84 @@
+{
+  "date": "2014-08-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-13",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-13/2014-08-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-13/R1-enghien-soisy/R1C2-px-de-l-union-de-la-presse-hippique.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R2-le-mont-saint-michel/R2C5-prix-de-vauvillers.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R2-le-mont-saint-michel/R2C7-prix-de-la-porte-brunet.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R2-le-mont-saint-michel/R2C8-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R3-vichy/R3C2-px-de-l-union-de-la-presse-hippique.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R3-vichy/R3C3-px-de-l-asso-nationale-des-turfistes.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R3-vichy/R3C4-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R3-vichy/R3C5-prix-de-vauvillers.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R3-vichy/R3C8-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C1-prix-des-grandes-carrieres.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C2-px-de-l-union-de-la-presse-hippique.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C4-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C5-prix-de-vauvillers.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C6-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2014/08/2014-08-13/R5-les-sables-d-olonne/R5C7-prix-de-la-porte-brunet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-le-mont-saint-michel",
+      "R3-vichy",
+      "R5-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-des-grandes-carrieres.html",
+        "R1C2-px-de-l-union-de-la-presse-hippique.html",
+        "R1C3-px-de-l-asso-nationale-des-turfistes.html",
+        "R1C4-prix-jean-luc-lagardere.html",
+        "R1C5-prix-de-vauvillers.html",
+        "R1C6-prix-du-pont-de-l-alma.html",
+        "R1C7-prix-de-la-porte-brunet.html",
+        "R1C8-prix-de-jouy-en-josas.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-des-grandes-carrieres.html",
+        "R2C2-px-de-l-union-de-la-presse-hippique.html",
+        "R2C3-px-de-l-asso-nationale-des-turfistes.html",
+        "R2C4-prix-jean-luc-lagardere.html",
+        "R2C5-prix-de-vauvillers.html",
+        "R2C6-prix-du-pont-de-l-alma.html",
+        "R2C7-prix-de-la-porte-brunet.html",
+        "R2C8-prix-de-jouy-en-josas.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-des-grandes-carrieres.html",
+        "R3C2-px-de-l-union-de-la-presse-hippique.html",
+        "R3C3-px-de-l-asso-nationale-des-turfistes.html",
+        "R3C4-prix-jean-luc-lagardere.html",
+        "R3C5-prix-de-vauvillers.html",
+        "R3C6-prix-du-pont-de-l-alma.html",
+        "R3C7-prix-de-la-porte-brunet.html",
+        "R3C8-prix-de-jouy-en-josas.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-des-grandes-carrieres.html",
+        "R5C2-px-de-l-union-de-la-presse-hippique.html",
+        "R5C3-px-de-l-asso-nationale-des-turfistes.html",
+        "R5C4-prix-jean-luc-lagardere.html",
+        "R5C5-prix-de-vauvillers.html",
+        "R5C6-prix-du-pont-de-l-alma.html",
+        "R5C7-prix-de-la-porte-brunet.html",
+        "R5C8-prix-de-jouy-en-josas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:11.031299Z"
+}

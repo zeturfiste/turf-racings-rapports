@@ -1,0 +1,95 @@
+{
+  "date": "2011-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-12",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-12/2011-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-12/R1-chateaubriant/R1C6-prix-du-parc.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R3-la-teste-de-buch/R3C5-prix-de-la-compa.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R3-la-teste-de-buch/R3C6-prix-du-parc.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R3-la-teste-de-buch/R3C7-prix-tenor-de-beaune.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R3-la-teste-de-buch/R3C8-prix-pierre-lefeuvre.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R4-cabourg/R4C1-prix-de-synergie.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R4-cabourg/R4C2-prix-de-breteuil.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R4-cabourg/R4C4-grand-prix-d-ete.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R4-cabourg/R4C7-prix-tenor-de-beaune.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C1-prix-de-synergie.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C2-prix-de-breteuil.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C3-prix-francis-chantebel.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C5-prix-de-la-compa.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C7-prix-tenor-de-beaune.html",
+      "resultats-et-rapports/2011/07/2011-07-12/R5-pornichet-la-baule/R5C8-prix-pierre-lefeuvre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-le-lion-d-angers",
+      "R3-la-teste-de-buch",
+      "R4-cabourg",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-prix-de-synergie.html",
+        "R1C2-prix-de-breteuil.html",
+        "R1C3-prix-francis-chantebel.html",
+        "R1C4-grand-prix-d-ete.html",
+        "R1C5-prix-de-la-compa.html",
+        "R1C6-prix-du-parc.html",
+        "R1C7-prix-tenor-de-beaune.html",
+        "R1C8-prix-pierre-lefeuvre.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-de-synergie.html",
+        "R2C2-prix-de-breteuil.html",
+        "R2C3-prix-francis-chantebel.html",
+        "R2C4-grand-prix-d-ete.html",
+        "R2C5-prix-de-la-compa.html",
+        "R2C6-prix-du-parc.html",
+        "R2C7-prix-tenor-de-beaune.html",
+        "R2C8-prix-pierre-lefeuvre.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-synergie.html",
+        "R3C2-prix-de-breteuil.html",
+        "R3C3-prix-francis-chantebel.html",
+        "R3C4-grand-prix-d-ete.html",
+        "R3C5-prix-de-la-compa.html",
+        "R3C6-prix-du-parc.html",
+        "R3C7-prix-tenor-de-beaune.html",
+        "R3C8-prix-pierre-lefeuvre.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-synergie.html",
+        "R4C2-prix-de-breteuil.html",
+        "R4C3-prix-francis-chantebel.html",
+        "R4C4-grand-prix-d-ete.html",
+        "R4C5-prix-de-la-compa.html",
+        "R4C6-prix-du-parc.html",
+        "R4C7-prix-tenor-de-beaune.html",
+        "R4C8-prix-pierre-lefeuvre.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-de-synergie.html",
+        "R5C2-prix-de-breteuil.html",
+        "R5C3-prix-francis-chantebel.html",
+        "R5C4-grand-prix-d-ete.html",
+        "R5C5-prix-de-la-compa.html",
+        "R5C6-prix-du-parc.html",
+        "R5C7-prix-tenor-de-beaune.html",
+        "R5C8-prix-pierre-lefeuvre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:36.085469Z"
+}

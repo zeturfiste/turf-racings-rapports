@@ -1,0 +1,86 @@
+{
+  "date": "2007-03-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-13",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-13/2007-03-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-13/R1-deauville/R1C2-prix-le-pompon.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R1-deauville/R1C3-prix-flamant.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R1-deauville/R1C4-prix-de-montainville.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R1-deauville/R1C5-prix-tarentelle.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R1-deauville/R1C7-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R2-caen/R2C2-prix-le-pompon.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R2-caen/R2C4-prix-de-montainville.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R2-caen/R2C5-prix-tarentelle.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R2-caen/R2C7-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C1-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C2-prix-le-pompon.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C3-prix-flamant.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C4-prix-de-montainville.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C5-prix-tarentelle.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C6-prix-de-juvisy.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C7-prix-du-pays-de-cau.html",
+      "resultats-et-rapports/2007/03/2007-03-13/R3-cagnes-sur-mer/R3C8-prix-d-arques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-cagnes-sur-mer",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-pays-de-bray.html",
+        "R1C2-prix-le-pompon.html",
+        "R1C3-prix-flamant.html",
+        "R1C4-prix-de-montainville.html",
+        "R1C5-prix-tarentelle.html",
+        "R1C6-prix-de-juvisy.html",
+        "R1C7-prix-du-pays-de-cau.html",
+        "R1C8-prix-d-arques.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-du-pays-de-bray.html",
+        "R2C2-prix-le-pompon.html",
+        "R2C3-prix-flamant.html",
+        "R2C4-prix-de-montainville.html",
+        "R2C5-prix-tarentelle.html",
+        "R2C6-prix-de-juvisy.html",
+        "R2C7-prix-du-pays-de-cau.html",
+        "R2C8-prix-d-arques.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-pays-de-bray.html",
+        "R3C2-prix-le-pompon.html",
+        "R3C3-prix-flamant.html",
+        "R3C4-prix-de-montainville.html",
+        "R3C5-prix-tarentelle.html",
+        "R3C6-prix-de-juvisy.html",
+        "R3C7-prix-du-pays-de-cau.html",
+        "R3C8-prix-d-arques.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-pays-de-bray.html",
+        "R21C2-prix-le-pompon.html",
+        "R21C3-prix-flamant.html",
+        "R21C4-prix-de-montainville.html",
+        "R21C5-prix-tarentelle.html",
+        "R21C6-prix-de-juvisy.html",
+        "R21C7-prix-du-pays-de-cau.html",
+        "R21C8-prix-d-arques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:29.115917Z"
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2013-11-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/11/2013-11-06",
+    "date_html": "resultats-et-rapports/2013/11/2013-11-06/2013-11-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/11/2013-11-06/R1-nantes/R1C1-grand-prix-du-fc-nantes.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R1-nantes/R1C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R1-nantes/R1C3-prix-oniris-nantes.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R1-nantes/R1C5-prix-presse-ocean.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R2-enghien-soisy/R2C9-prix-des-vignerons-du-pays-nantais-gr-b.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C3-prix-oniris-nantes.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C5-prix-presse-ocean.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C6-grand-prix-synergie.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C7-prix-france-bleu-loire-ocean.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C8-grand-prix-des-vins-de-nantes-loire-gr-a.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R3-cabourg/R3C9-prix-des-vignerons-du-pays-nantais-gr-b.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C1-grand-prix-du-fc-nantes.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C3-prix-oniris-nantes.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C4-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C6-grand-prix-synergie.html",
+      "resultats-et-rapports/2013/11/2013-11-06/R6-marseille-borely/R6C9-prix-des-vignerons-du-pays-nantais-gr-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-enghien-soisy",
+      "R3-cabourg",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-grand-prix-du-fc-nantes.html",
+        "R1C2-prix-geny-com-paris-turf.html",
+        "R1C3-prix-oniris-nantes.html",
+        "R1C4-prix-general-du-pommeau.html",
+        "R1C5-prix-presse-ocean.html",
+        "R1C6-grand-prix-synergie.html",
+        "R1C7-prix-france-bleu-loire-ocean.html",
+        "R1C8-grand-prix-des-vins-de-nantes-loire-gr-a.html",
+        "R1C9-prix-des-vignerons-du-pays-nantais-gr-b.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-prix-du-fc-nantes.html",
+        "R2C2-prix-geny-com-paris-turf.html",
+        "R2C3-prix-oniris-nantes.html",
+        "R2C4-prix-general-du-pommeau.html",
+        "R2C5-prix-presse-ocean.html",
+        "R2C6-grand-prix-synergie.html",
+        "R2C7-prix-france-bleu-loire-ocean.html",
+        "R2C8-grand-prix-des-vins-de-nantes-loire-gr-a.html",
+        "R2C9-prix-des-vignerons-du-pays-nantais-gr-b.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-grand-prix-du-fc-nantes.html",
+        "R3C2-prix-geny-com-paris-turf.html",
+        "R3C3-prix-oniris-nantes.html",
+        "R3C4-prix-general-du-pommeau.html",
+        "R3C5-prix-presse-ocean.html",
+        "R3C6-grand-prix-synergie.html",
+        "R3C7-prix-france-bleu-loire-ocean.html",
+        "R3C8-grand-prix-des-vins-de-nantes-loire-gr-a.html",
+        "R3C9-prix-des-vignerons-du-pays-nantais-gr-b.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-grand-prix-du-fc-nantes.html",
+        "R6C2-prix-geny-com-paris-turf.html",
+        "R6C3-prix-oniris-nantes.html",
+        "R6C4-prix-general-du-pommeau.html",
+        "R6C5-prix-presse-ocean.html",
+        "R6C6-grand-prix-synergie.html",
+        "R6C7-prix-france-bleu-loire-ocean.html",
+        "R6C8-grand-prix-des-vins-de-nantes-loire-gr-a.html",
+        "R6C9-prix-des-vignerons-du-pays-nantais-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:47.053097Z"
+}

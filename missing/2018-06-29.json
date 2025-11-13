@@ -1,0 +1,101 @@
+{
+  "date": "2018-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-29",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-29/2018-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-29/R1-vincennes/R1C1-prix-eva.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R1-vincennes/R1C2-prix-nemausa.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R1-vincennes/R1C4-prix-nunky.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R1-vincennes/R1C7-prix-baptistina.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C2-prix-nemausa.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C4-prix-nunky.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C5-prix-urania.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C6-prix-isis.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R3-le-mont-saint-michel/R3C7-prix-baptistina.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C1-prix-eva.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C2-prix-nemausa.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C4-prix-nunky.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C5-prix-urania.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C6-prix-isis.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R4-clairefontaine/R4C7-prix-baptistina.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R6-feurs/R6C1-prix-eva.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R6-feurs/R6C2-prix-nemausa.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R6-feurs/R6C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R6-feurs/R6C4-prix-nunky.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R6-feurs/R6C6-prix-isis.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R7-toulouse/R7C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R7-toulouse/R7C4-prix-nunky.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R7-toulouse/R7C5-prix-urania.html",
+      "resultats-et-rapports/2018/06/2018-06-29/R7-toulouse/R7C7-prix-baptistina.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-le-mont-saint-michel",
+      "R4-clairefontaine",
+      "R6-feurs",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-eva.html",
+        "R1C2-prix-nemausa.html",
+        "R1C3-prix-paul-delanoe.html",
+        "R1C4-prix-nunky.html",
+        "R1C5-prix-urania.html",
+        "R1C6-prix-isis.html",
+        "R1C7-prix-baptistina.html"
+      ],
+      "R3-le-mont-saint-michel": [
+        "R3C1-prix-eva.html",
+        "R3C2-prix-nemausa.html",
+        "R3C3-prix-paul-delanoe.html",
+        "R3C4-prix-nunky.html",
+        "R3C5-prix-urania.html",
+        "R3C6-prix-isis.html",
+        "R3C7-prix-baptistina.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-eva.html",
+        "R4C2-prix-nemausa.html",
+        "R4C3-prix-paul-delanoe.html",
+        "R4C4-prix-nunky.html",
+        "R4C5-prix-urania.html",
+        "R4C6-prix-isis.html",
+        "R4C7-prix-baptistina.html"
+      ],
+      "R6-feurs": [
+        "R6C1-prix-eva.html",
+        "R6C2-prix-nemausa.html",
+        "R6C3-prix-paul-delanoe.html",
+        "R6C4-prix-nunky.html",
+        "R6C5-prix-urania.html",
+        "R6C6-prix-isis.html",
+        "R6C7-prix-baptistina.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-eva.html",
+        "R7C2-prix-nemausa.html",
+        "R7C3-prix-paul-delanoe.html",
+        "R7C4-prix-nunky.html",
+        "R7C5-prix-urania.html",
+        "R7C6-prix-isis.html",
+        "R7C7-prix-baptistina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:43.430985Z"
+}

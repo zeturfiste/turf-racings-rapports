@@ -1,0 +1,74 @@
+{
+  "date": "2011-04-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-16",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-16/2011-04-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-16/R1-vincennes/R1C4-prix-de-la-lorraine.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R2-marseille-borely/R2C2-prix-d-auxerre.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R2-marseille-borely/R2C5-prix-hemine.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R2-marseille-borely/R2C6-prix-de-chelles.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R2-marseille-borely/R2C8-prix-de-langres.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R2-marseille-borely/R2C9-prix-de-jonzac.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C3-prix-de-chateau-gaillard.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C4-prix-de-la-lorraine.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C5-prix-hemine.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C6-prix-de-chelles.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C7-prix-henri-levesque.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C8-prix-de-langres.html",
+      "resultats-et-rapports/2011/04/2011-04-16/R3-bordeaux-le-bouscat/R3C9-prix-de-jonzac.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-marseille-borely",
+      "R3-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-beaumanoir.html",
+        "R1C2-prix-d-auxerre.html",
+        "R1C3-prix-de-chateau-gaillard.html",
+        "R1C4-prix-de-la-lorraine.html",
+        "R1C5-prix-hemine.html",
+        "R1C6-prix-de-chelles.html",
+        "R1C7-prix-henri-levesque.html",
+        "R1C8-prix-de-langres.html",
+        "R1C9-prix-de-jonzac.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-beaumanoir.html",
+        "R2C2-prix-d-auxerre.html",
+        "R2C3-prix-de-chateau-gaillard.html",
+        "R2C4-prix-de-la-lorraine.html",
+        "R2C5-prix-hemine.html",
+        "R2C6-prix-de-chelles.html",
+        "R2C7-prix-henri-levesque.html",
+        "R2C8-prix-de-langres.html",
+        "R2C9-prix-de-jonzac.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-beaumanoir.html",
+        "R3C2-prix-d-auxerre.html",
+        "R3C3-prix-de-chateau-gaillard.html",
+        "R3C4-prix-de-la-lorraine.html",
+        "R3C5-prix-hemine.html",
+        "R3C6-prix-de-chelles.html",
+        "R3C7-prix-henri-levesque.html",
+        "R3C8-prix-de-langres.html",
+        "R3C9-prix-de-jonzac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:09.760606Z"
+}

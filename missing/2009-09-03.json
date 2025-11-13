@@ -1,0 +1,111 @@
+{
+  "date": "2009-09-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/09/2009-09-03",
+    "date_html": "resultats-et-rapports/2009/09/2009-09-03/2009-09-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/09/2009-09-03/R1-auteuil/R1C2-prix-jean-bart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R1-auteuil/R1C3-prix-world-citizen.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R1-auteuil/R1C4-prix-weather-permitting.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C1-prix-des-platanes.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C2-prix-jean-bart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C3-prix-world-citizen.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C4-prix-weather-permitting.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C6-prix-gelas.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C7-prix-oteuil-sf.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R2-strasbourg/R2C8-prix-mortemart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C1-prix-des-platanes.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C2-prix-jean-bart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C3-prix-world-citizen.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C4-prix-weather-permitting.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C5-prix-saida.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C6-prix-gelas.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C7-prix-oteuil-sf.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R3-vichy/R3C8-prix-mortemart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C1-prix-des-platanes.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C2-prix-jean-bart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C3-prix-world-citizen.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C4-prix-weather-permitting.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C5-prix-saida.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R31-zerace/R31C8-prix-mortemart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C1-prix-des-platanes.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C2-prix-jean-bart.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C3-prix-world-citizen.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C4-prix-weather-permitting.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C5-prix-saida.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C6-prix-gelas.html",
+      "resultats-et-rapports/2009/09/2009-09-03/R70-flushing-meadows-new-york/R70C7-prix-oteuil-sf.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-strasbourg",
+      "R3-vichy",
+      "R31-zerace",
+      "R70-flushing-meadows-new-york"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-des-platanes.html",
+        "R1C2-prix-jean-bart.html",
+        "R1C3-prix-world-citizen.html",
+        "R1C4-prix-weather-permitting.html",
+        "R1C5-prix-saida.html",
+        "R1C6-prix-gelas.html",
+        "R1C7-prix-oteuil-sf.html",
+        "R1C8-prix-mortemart.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-des-platanes.html",
+        "R2C2-prix-jean-bart.html",
+        "R2C3-prix-world-citizen.html",
+        "R2C4-prix-weather-permitting.html",
+        "R2C5-prix-saida.html",
+        "R2C6-prix-gelas.html",
+        "R2C7-prix-oteuil-sf.html",
+        "R2C8-prix-mortemart.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-des-platanes.html",
+        "R3C2-prix-jean-bart.html",
+        "R3C3-prix-world-citizen.html",
+        "R3C4-prix-weather-permitting.html",
+        "R3C5-prix-saida.html",
+        "R3C6-prix-gelas.html",
+        "R3C7-prix-oteuil-sf.html",
+        "R3C8-prix-mortemart.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-platanes.html",
+        "R31C2-prix-jean-bart.html",
+        "R31C3-prix-world-citizen.html",
+        "R31C4-prix-weather-permitting.html",
+        "R31C5-prix-saida.html",
+        "R31C6-prix-gelas.html",
+        "R31C7-prix-oteuil-sf.html",
+        "R31C8-prix-mortemart.html"
+      ],
+      "R70-flushing-meadows-new-york": [
+        "R70C1-prix-des-platanes.html",
+        "R70C2-prix-jean-bart.html",
+        "R70C3-prix-world-citizen.html",
+        "R70C4-prix-weather-permitting.html",
+        "R70C5-prix-saida.html",
+        "R70C6-prix-gelas.html",
+        "R70C7-prix-oteuil-sf.html",
+        "R70C8-prix-mortemart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:09.857748Z"
+}

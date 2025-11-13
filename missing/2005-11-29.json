@@ -1,0 +1,44 @@
+{
+  "date": "2005-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-29",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-29/2005-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-hotweed.html",
+        "R1C2-prix-de-bures-sur-yvette.html",
+        "R1C3-prix-de-medicis.html",
+        "R1C4-prix-du-mont-andart.html",
+        "R1C5-prix-de-la-croix-verte.html",
+        "R1C6-prix-de-feucherolles.html",
+        "R1C7-prix-des-clairieres.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-hotweed.html",
+        "R2C2-prix-de-bures-sur-yvette.html",
+        "R2C3-prix-de-medicis.html",
+        "R2C4-prix-du-mont-andart.html",
+        "R2C5-prix-de-la-croix-verte.html",
+        "R2C6-prix-de-feucherolles.html",
+        "R2C7-prix-des-clairieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:35.807172Z"
+}

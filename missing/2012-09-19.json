@@ -1,0 +1,98 @@
+{
+  "date": "2012-09-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-19",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-19/2012-09-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C1-prix-holiday-inn.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C2-grand-prix-de-la-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C3-prix-du-119eme-congres-des-pompiers.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C4-prix-des-residences-picardes.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C5-prix-cdp-regions-affichage.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C6-prix-du-pole-de-la-licorne.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C7-prix-des-fondateurs.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R1-amiens/R1C8-prix-soleil-et-neige.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C1-prix-holiday-inn.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C2-grand-prix-de-la-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C3-prix-du-119eme-congres-des-pompiers.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C4-prix-des-residences-picardes.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C5-prix-cdp-regions-affichage.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C6-prix-du-pole-de-la-licorne.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R2-auteuil/R2C7-prix-des-fondateurs.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R3-chantilly/R3C4-prix-des-residences-picardes.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R5-marseille-borely/R5C8-prix-soleil-et-neige.html",
+      "resultats-et-rapports/2012/09/2012-09-19/R6-bordeaux-le-bouscat/R6C1-prix-holiday-inn.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R2-auteuil",
+      "R3-chantilly",
+      "R5-marseille-borely",
+      "R6-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-holiday-inn.html",
+        "R1C2-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R1C3-prix-du-119eme-congres-des-pompiers.html",
+        "R1C4-prix-des-residences-picardes.html",
+        "R1C5-prix-cdp-regions-affichage.html",
+        "R1C6-prix-du-pole-de-la-licorne.html",
+        "R1C7-prix-des-fondateurs.html",
+        "R1C8-prix-soleil-et-neige.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-holiday-inn.html",
+        "R2C2-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R2C3-prix-du-119eme-congres-des-pompiers.html",
+        "R2C4-prix-des-residences-picardes.html",
+        "R2C5-prix-cdp-regions-affichage.html",
+        "R2C6-prix-du-pole-de-la-licorne.html",
+        "R2C7-prix-des-fondateurs.html",
+        "R2C8-prix-soleil-et-neige.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-holiday-inn.html",
+        "R3C2-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R3C3-prix-du-119eme-congres-des-pompiers.html",
+        "R3C4-prix-des-residences-picardes.html",
+        "R3C5-prix-cdp-regions-affichage.html",
+        "R3C6-prix-du-pole-de-la-licorne.html",
+        "R3C7-prix-des-fondateurs.html",
+        "R3C8-prix-soleil-et-neige.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-holiday-inn.html",
+        "R5C2-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R5C3-prix-du-119eme-congres-des-pompiers.html",
+        "R5C4-prix-des-residences-picardes.html",
+        "R5C5-prix-cdp-regions-affichage.html",
+        "R5C6-prix-du-pole-de-la-licorne.html",
+        "R5C7-prix-des-fondateurs.html",
+        "R5C8-prix-soleil-et-neige.html"
+      ],
+      "R6-bordeaux-le-bouscat": [
+        "R6C1-prix-holiday-inn.html",
+        "R6C2-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R6C3-prix-du-119eme-congres-des-pompiers.html",
+        "R6C4-prix-des-residences-picardes.html",
+        "R6C5-prix-cdp-regions-affichage.html",
+        "R6C6-prix-du-pole-de-la-licorne.html",
+        "R6C7-prix-des-fondateurs.html",
+        "R6C8-prix-soleil-et-neige.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:42.779274Z"
+}

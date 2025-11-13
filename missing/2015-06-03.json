@@ -1,0 +1,94 @@
+{
+  "date": "2015-06-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-03",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-03/2015-06-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-03/R1-laval/R1C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R1-laval/R1C5-prix-de-la-recherche-medicale.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R1-laval/R1C6-prix-pierre-seche.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R1-laval/R1C7-prix-henri-desmontils.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R2-la-teste-de-buch/R2C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R2-la-teste-de-buch/R2C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R2-la-teste-de-buch/R2C5-prix-de-la-recherche-medicale.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R2-la-teste-de-buch/R2C8-prix-baron-guy-de-meynard-groupe-a.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R2-la-teste-de-buch/R2C9-prix-baron-guy-de-meynard-groupe-b.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R3-maisons-laffitte/R3C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R3-maisons-laffitte/R3C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R3-maisons-laffitte/R3C7-prix-henri-desmontils.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R3-maisons-laffitte/R3C9-prix-baron-guy-de-meynard-groupe-b.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C5-prix-de-la-recherche-medicale.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C6-prix-pierre-seche.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C7-prix-henri-desmontils.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C8-prix-baron-guy-de-meynard-groupe-a.html",
+      "resultats-et-rapports/2015/06/2015-06-03/R5-lyon-parilly/R5C9-prix-baron-guy-de-meynard-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-la-teste-de-buch",
+      "R3-maisons-laffitte",
+      "R5-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R1C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+        "R1C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R1C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+        "R1C5-prix-de-la-recherche-medicale.html",
+        "R1C6-prix-pierre-seche.html",
+        "R1C7-prix-henri-desmontils.html",
+        "R1C8-prix-baron-guy-de-meynard-groupe-a.html",
+        "R1C9-prix-baron-guy-de-meynard-groupe-b.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R2C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+        "R2C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R2C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+        "R2C5-prix-de-la-recherche-medicale.html",
+        "R2C6-prix-pierre-seche.html",
+        "R2C7-prix-henri-desmontils.html",
+        "R2C8-prix-baron-guy-de-meynard-groupe-a.html",
+        "R2C9-prix-baron-guy-de-meynard-groupe-b.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R3C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+        "R3C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R3C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+        "R3C5-prix-de-la-recherche-medicale.html",
+        "R3C6-prix-pierre-seche.html",
+        "R3C7-prix-henri-desmontils.html",
+        "R3C8-prix-baron-guy-de-meynard-groupe-a.html",
+        "R3C9-prix-baron-guy-de-meynard-groupe-b.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-du-p-m-u-l-entracte-lavalexconseilr-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R5C2-grand-national-du-trot-paris-turf-prix-ernest-jouanne.html",
+        "R5C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R5C4-prix-laval-ambulances-bellanger-beaufils-prix-albert-viel.html",
+        "R5C5-prix-de-la-recherche-medicale.html",
+        "R5C6-prix-pierre-seche.html",
+        "R5C7-prix-henri-desmontils.html",
+        "R5C8-prix-baron-guy-de-meynard-groupe-a.html",
+        "R5C9-prix-baron-guy-de-meynard-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:42.175797Z"
+}

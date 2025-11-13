@@ -1,0 +1,57 @@
+{
+  "date": "2005-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-28",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-28/2005-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-vincennes",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-omnium.html",
+        "R1C2-prix-de-belleville.html",
+        "R1C3-prix-de-la-chapelle.html",
+        "R1C4-prix-du-moulin-a-vent.html",
+        "R1C5-prix-de-sevres.html",
+        "R1C6-prix-de-gaillon.html",
+        "R1C7-prix-de-la-coulee-verte.html",
+        "R1C8-handicap-d-octobre.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-omnium.html",
+        "R2C2-prix-de-belleville.html",
+        "R2C3-prix-de-la-chapelle.html",
+        "R2C4-prix-du-moulin-a-vent.html",
+        "R2C5-prix-de-sevres.html",
+        "R2C6-prix-de-gaillon.html",
+        "R2C7-prix-de-la-coulee-verte.html",
+        "R2C8-handicap-d-octobre.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-omnium.html",
+        "R3C2-prix-de-belleville.html",
+        "R3C3-prix-de-la-chapelle.html",
+        "R3C4-prix-du-moulin-a-vent.html",
+        "R3C5-prix-de-sevres.html",
+        "R3C6-prix-de-gaillon.html",
+        "R3C7-prix-de-la-coulee-verte.html",
+        "R3C8-handicap-d-octobre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:30.523911Z"
+}

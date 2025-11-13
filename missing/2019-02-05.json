@@ -1,0 +1,70 @@
+{
+  "date": "2019-02-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/02/2019-02-05",
+    "date_html": "resultats-et-rapports/2019/02/2019-02-05/2019-02-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C2-prix-pierre-laroque-prix-henri-callier.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C4-prix-des-boutons-d-or.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C5-prix-de-la-bruyere.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C6-prix-des-anemones.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C7-prix-des-mimosas.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R1-cagnes-sur-mer/R1C8-prix-des-lys-martagon.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R2-pau/R2C2-prix-pierre-laroque-prix-henri-callier.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R2-pau/R2C7-prix-des-mimosas.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R2-pau/R2C8-prix-des-lys-martagon.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R4-pornichet-la-baule/R4C6-prix-des-anemones.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R4-pornichet-la-baule/R4C7-prix-des-mimosas.html",
+      "resultats-et-rapports/2019/02/2019-02-05/R4-pornichet-la-baule/R4C8-prix-des-lys-martagon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-pau",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-grace-ducal.html",
+        "R1C2-prix-pierre-laroque-prix-henri-callier.html",
+        "R1C3-prix-des-roses.html",
+        "R1C4-prix-des-boutons-d-or.html",
+        "R1C5-prix-de-la-bruyere.html",
+        "R1C6-prix-des-anemones.html",
+        "R1C7-prix-des-mimosas.html",
+        "R1C8-prix-des-lys-martagon.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-grace-ducal.html",
+        "R2C2-prix-pierre-laroque-prix-henri-callier.html",
+        "R2C3-prix-des-roses.html",
+        "R2C4-prix-des-boutons-d-or.html",
+        "R2C5-prix-de-la-bruyere.html",
+        "R2C6-prix-des-anemones.html",
+        "R2C7-prix-des-mimosas.html",
+        "R2C8-prix-des-lys-martagon.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-grace-ducal.html",
+        "R4C2-prix-pierre-laroque-prix-henri-callier.html",
+        "R4C3-prix-des-roses.html",
+        "R4C4-prix-des-boutons-d-or.html",
+        "R4C5-prix-de-la-bruyere.html",
+        "R4C6-prix-des-anemones.html",
+        "R4C7-prix-des-mimosas.html",
+        "R4C8-prix-des-lys-martagon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:52.655114Z"
+}

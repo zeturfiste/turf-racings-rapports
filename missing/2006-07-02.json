@@ -1,0 +1,87 @@
+{
+  "date": "2006-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/07/2006-07-02",
+    "date_html": "resultats-et-rapports/2006/07/2006-07-02/2006-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C1-prix-de-fontenay.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C3-prix-pot-au-feu.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C4-prix-du-bois.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C5-prix-chloe.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C6-prix-de-la-ville-du-pecq.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C7-prix-d-hennemont.html",
+      "resultats-et-rapports/2006/07/2006-07-02/R30-tour-de-france/R30C8-prix-du-petit-bosq.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-saint-galmier",
+      "R5-agon-coutainville",
+      "R6-bernay",
+      "R30-tour-de-france"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-fontenay.html",
+        "R1C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R1C3-prix-pot-au-feu.html",
+        "R1C4-prix-du-bois.html",
+        "R1C5-prix-chloe.html",
+        "R1C6-prix-de-la-ville-du-pecq.html",
+        "R1C7-prix-d-hennemont.html",
+        "R1C8-prix-du-petit-bosq.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-de-fontenay.html",
+        "R2C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R2C3-prix-pot-au-feu.html",
+        "R2C4-prix-du-bois.html",
+        "R2C5-prix-chloe.html",
+        "R2C6-prix-de-la-ville-du-pecq.html",
+        "R2C7-prix-d-hennemont.html",
+        "R2C8-prix-du-petit-bosq.html"
+      ],
+      "R5-agon-coutainville": [
+        "R5C1-prix-de-fontenay.html",
+        "R5C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R5C3-prix-pot-au-feu.html",
+        "R5C4-prix-du-bois.html",
+        "R5C5-prix-chloe.html",
+        "R5C6-prix-de-la-ville-du-pecq.html",
+        "R5C7-prix-d-hennemont.html",
+        "R5C8-prix-du-petit-bosq.html"
+      ],
+      "R6-bernay": [
+        "R6C1-prix-de-fontenay.html",
+        "R6C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R6C3-prix-pot-au-feu.html",
+        "R6C4-prix-du-bois.html",
+        "R6C5-prix-chloe.html",
+        "R6C6-prix-de-la-ville-du-pecq.html",
+        "R6C7-prix-d-hennemont.html",
+        "R6C8-prix-du-petit-bosq.html"
+      ],
+      "R30-tour-de-france": [
+        "R30C1-prix-de-fontenay.html",
+        "R30C2-prix-de-la-ville-de-maisons-laffitte-prix-du-petit-tellier.html",
+        "R30C3-prix-pot-au-feu.html",
+        "R30C4-prix-du-bois.html",
+        "R30C5-prix-chloe.html",
+        "R30C6-prix-de-la-ville-du-pecq.html",
+        "R30C7-prix-d-hennemont.html",
+        "R30C8-prix-du-petit-bosq.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:14.849004Z"
+}

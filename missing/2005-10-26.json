@@ -1,0 +1,44 @@
+{
+  "date": "2005-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-26",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-26/2005-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-pomarez.html",
+        "R1C2-prix-du-palais-royal.html",
+        "R1C3-prix-du-pont-de-tolbiac.html",
+        "R1C4-prix-de-la-place-saint-charles.html",
+        "R1C5-prix-de-la-tour-montparnasse.html",
+        "R1C6-prix-de-l-observatoire.html",
+        "R1C7-prix-de-la-porte-de-saint-mande.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-pomarez.html",
+        "R2C2-prix-du-palais-royal.html",
+        "R2C3-prix-du-pont-de-tolbiac.html",
+        "R2C4-prix-de-la-place-saint-charles.html",
+        "R2C5-prix-de-la-tour-montparnasse.html",
+        "R2C6-prix-de-l-observatoire.html",
+        "R2C7-prix-de-la-porte-de-saint-mande.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:30.263764Z"
+}

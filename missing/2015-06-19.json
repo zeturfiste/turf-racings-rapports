@@ -1,0 +1,110 @@
+{
+  "date": "2015-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-19",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-19/2015-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-19/R1-chantilly/R1C2-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R1-chantilly/R1C3-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R1-chantilly/R1C6-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R2-la-teste-de-buch/R2C1-prix-de-thimecourt.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R2-la-teste-de-buch/R2C3-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R2-la-teste-de-buch/R2C4-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R2-la-teste-de-buch/R2C7-prix-serge-boireau.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R2-la-teste-de-buch/R2C8-prix-des-hetres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C2-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C3-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C4-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C5-prix-de-la-montee-des-princes.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C6-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C7-prix-serge-boireau.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R3-marseille-vivaux/R3C8-prix-des-hetres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C1-prix-de-thimecourt.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C3-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C4-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C5-prix-de-la-montee-des-princes.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C6-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C7-prix-serge-boireau.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R4-vincennes/R4C8-prix-des-hetres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C1-prix-de-thimecourt.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C2-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C3-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C4-prix-de-la-francilienne.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C5-prix-de-la-montee-des-princes.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C6-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C7-prix-serge-boireau.html",
+      "resultats-et-rapports/2015/06/2015-06-19/R8-toulouse/R8C8-prix-des-hetres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-la-teste-de-buch",
+      "R3-marseille-vivaux",
+      "R4-vincennes",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-thimecourt.html",
+        "R1C2-prix-de-valgenceuse.html",
+        "R1C3-prix-du-puits-aux-chiens.html",
+        "R1C4-prix-de-la-francilienne.html",
+        "R1C5-prix-de-la-montee-des-princes.html",
+        "R1C6-prix-de-la-grange-des-pres.html",
+        "R1C7-prix-serge-boireau.html",
+        "R1C8-prix-des-hetres.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-de-thimecourt.html",
+        "R2C2-prix-de-valgenceuse.html",
+        "R2C3-prix-du-puits-aux-chiens.html",
+        "R2C4-prix-de-la-francilienne.html",
+        "R2C5-prix-de-la-montee-des-princes.html",
+        "R2C6-prix-de-la-grange-des-pres.html",
+        "R2C7-prix-serge-boireau.html",
+        "R2C8-prix-des-hetres.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-thimecourt.html",
+        "R3C2-prix-de-valgenceuse.html",
+        "R3C3-prix-du-puits-aux-chiens.html",
+        "R3C4-prix-de-la-francilienne.html",
+        "R3C5-prix-de-la-montee-des-princes.html",
+        "R3C6-prix-de-la-grange-des-pres.html",
+        "R3C7-prix-serge-boireau.html",
+        "R3C8-prix-des-hetres.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-thimecourt.html",
+        "R4C2-prix-de-valgenceuse.html",
+        "R4C3-prix-du-puits-aux-chiens.html",
+        "R4C4-prix-de-la-francilienne.html",
+        "R4C5-prix-de-la-montee-des-princes.html",
+        "R4C6-prix-de-la-grange-des-pres.html",
+        "R4C7-prix-serge-boireau.html",
+        "R4C8-prix-des-hetres.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-de-thimecourt.html",
+        "R8C2-prix-de-valgenceuse.html",
+        "R8C3-prix-du-puits-aux-chiens.html",
+        "R8C4-prix-de-la-francilienne.html",
+        "R8C5-prix-de-la-montee-des-princes.html",
+        "R8C6-prix-de-la-grange-des-pres.html",
+        "R8C7-prix-serge-boireau.html",
+        "R8C8-prix-des-hetres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:47.339896Z"
+}

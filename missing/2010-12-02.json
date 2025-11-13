@@ -1,0 +1,51 @@
+{
+  "date": "2010-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-02",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-02/2010-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-02/R3-amiens/R3C2-prix-d-elbeuf.html",
+      "resultats-et-rapports/2010/12/2010-12-02/R3-amiens/R3C3-prix-urgent.html",
+      "resultats-et-rapports/2010/12/2010-12-02/R3-amiens/R3C7-prix-de-dordives.html",
+      "resultats-et-rapports/2010/12/2010-12-02/R3-amiens/R3C8-prix-de-langon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-landes.html",
+        "R1C2-prix-d-elbeuf.html",
+        "R1C3-prix-urgent.html",
+        "R1C4-prix-de-beauvoir.html",
+        "R1C5-prix-joseph-lafosse.html",
+        "R1C6-prix-de-mirecourt.html",
+        "R1C7-prix-de-dordives.html",
+        "R1C8-prix-de-langon.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-des-landes.html",
+        "R3C2-prix-d-elbeuf.html",
+        "R3C3-prix-urgent.html",
+        "R3C4-prix-de-beauvoir.html",
+        "R3C5-prix-joseph-lafosse.html",
+        "R3C6-prix-de-mirecourt.html",
+        "R3C7-prix-de-dordives.html",
+        "R3C8-prix-de-langon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:36.432545Z"
+}

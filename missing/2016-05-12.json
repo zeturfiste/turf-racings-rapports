@@ -1,0 +1,88 @@
+{
+  "date": "2016-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-12",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-12/2016-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-12/R1-bordeaux-le-bouscat/R1C4-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R1-bordeaux-le-bouscat/R1C5-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R2-meslay-du-maine/R2C4-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C4-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C5-prix-robert-de-villemandy.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C7-prix-djerba-oua.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C8-prix-centre-porsche-bordeaux-grand-prix-d-aquitaine.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R3-vichy/R3C9-prix-de-la-ville-du-bouscat.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C1-prix-djelfor.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C3-prix-du-tremblay.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C6-prix-jonathan-besse.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C7-prix-djerba-oua.html",
+      "resultats-et-rapports/2016/05/2016-05-12/R4-lyon-parilly/R4C9-prix-de-la-ville-du-bouscat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-meslay-du-maine",
+      "R3-vichy",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-djelfor.html",
+        "R1C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+        "R1C3-prix-du-tremblay.html",
+        "R1C4-handicap-de-bordeaux.html",
+        "R1C5-prix-robert-de-villemandy.html",
+        "R1C6-prix-jonathan-besse.html",
+        "R1C7-prix-djerba-oua.html",
+        "R1C8-prix-centre-porsche-bordeaux-grand-prix-d-aquitaine.html",
+        "R1C9-prix-de-la-ville-du-bouscat.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-djelfor.html",
+        "R2C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+        "R2C3-prix-du-tremblay.html",
+        "R2C4-handicap-de-bordeaux.html",
+        "R2C5-prix-robert-de-villemandy.html",
+        "R2C6-prix-jonathan-besse.html",
+        "R2C7-prix-djerba-oua.html",
+        "R2C8-prix-centre-porsche-bordeaux-grand-prix-d-aquitaine.html",
+        "R2C9-prix-de-la-ville-du-bouscat.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-djelfor.html",
+        "R3C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+        "R3C3-prix-du-tremblay.html",
+        "R3C4-handicap-de-bordeaux.html",
+        "R3C5-prix-robert-de-villemandy.html",
+        "R3C6-prix-jonathan-besse.html",
+        "R3C7-prix-djerba-oua.html",
+        "R3C8-prix-centre-porsche-bordeaux-grand-prix-d-aquitaine.html",
+        "R3C9-prix-de-la-ville-du-bouscat.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-djelfor.html",
+        "R4C2-prix-de-l-office-du-tourisme-de-bordeaux-prix-de-sauternes.html",
+        "R4C3-prix-du-tremblay.html",
+        "R4C4-handicap-de-bordeaux.html",
+        "R4C5-prix-robert-de-villemandy.html",
+        "R4C6-prix-jonathan-besse.html",
+        "R4C7-prix-djerba-oua.html",
+        "R4C8-prix-centre-porsche-bordeaux-grand-prix-d-aquitaine.html",
+        "R4C9-prix-de-la-ville-du-bouscat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:27.697506Z"
+}

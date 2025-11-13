@@ -1,0 +1,44 @@
+{
+  "date": "2006-03-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-21",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-21/2006-03-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-lunadix.html",
+        "R1C2-prix-mendez.html",
+        "R1C3-prix-espace-vital.html",
+        "R1C4-prix-de-bailly.html",
+        "R1C5-prix-du-grand-morin.html",
+        "R1C6-prix-de-noisy-le-roi.html",
+        "R1C7-prix-du-petit-morin.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-lunadix.html",
+        "R2C2-prix-mendez.html",
+        "R2C3-prix-espace-vital.html",
+        "R2C4-prix-de-bailly.html",
+        "R2C5-prix-du-grand-morin.html",
+        "R2C6-prix-de-noisy-le-roi.html",
+        "R2C7-prix-du-petit-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:52.590508Z"
+}

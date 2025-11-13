@@ -1,0 +1,95 @@
+{
+  "date": "2008-07-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/07/2008-07-31",
+    "date_html": "resultats-et-rapports/2008/07/2008-07-31/2008-07-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/07/2008-07-31/R1-chantilly/R1C5-prix-de-coye.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R2-les-sables-d-olonne/R2C2-prix-du-plessis-chamant.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R2-les-sables-d-olonne/R2C3-prix-ridgway.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R2-les-sables-d-olonne/R2C8-prix-du-noyer.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R3-cagnes-sur-mer/R3C1-prix-de-chauffour.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R3-cagnes-sur-mer/R3C3-prix-ridgway.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R3-cagnes-sur-mer/R3C7-prix-du-neflier.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R31-zerace/R31C5-prix-de-coye.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R31-zerace/R31C7-prix-du-neflier.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C1-prix-de-chauffour.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C2-prix-du-plessis-chamant.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C3-prix-ridgway.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C4-prix-de-chanteclerc.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C5-prix-de-coye.html",
+      "resultats-et-rapports/2008/07/2008-07-31/R70-tennis-masters-series-cincinnati/R70C8-prix-du-noyer.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-les-sables-d-olonne",
+      "R3-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-tennis-masters-series-cincinnati"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-chauffour.html",
+        "R1C2-prix-du-plessis-chamant.html",
+        "R1C3-prix-ridgway.html",
+        "R1C4-prix-de-chanteclerc.html",
+        "R1C5-prix-de-coye.html",
+        "R1C6-prix-du-bois-franc.html",
+        "R1C7-prix-du-neflier.html",
+        "R1C8-prix-du-noyer.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-de-chauffour.html",
+        "R2C2-prix-du-plessis-chamant.html",
+        "R2C3-prix-ridgway.html",
+        "R2C4-prix-de-chanteclerc.html",
+        "R2C5-prix-de-coye.html",
+        "R2C6-prix-du-bois-franc.html",
+        "R2C7-prix-du-neflier.html",
+        "R2C8-prix-du-noyer.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-chauffour.html",
+        "R3C2-prix-du-plessis-chamant.html",
+        "R3C3-prix-ridgway.html",
+        "R3C4-prix-de-chanteclerc.html",
+        "R3C5-prix-de-coye.html",
+        "R3C6-prix-du-bois-franc.html",
+        "R3C7-prix-du-neflier.html",
+        "R3C8-prix-du-noyer.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-chauffour.html",
+        "R31C2-prix-du-plessis-chamant.html",
+        "R31C3-prix-ridgway.html",
+        "R31C4-prix-de-chanteclerc.html",
+        "R31C5-prix-de-coye.html",
+        "R31C6-prix-du-bois-franc.html",
+        "R31C7-prix-du-neflier.html",
+        "R31C8-prix-du-noyer.html"
+      ],
+      "R70-tennis-masters-series-cincinnati": [
+        "R70C1-prix-de-chauffour.html",
+        "R70C2-prix-du-plessis-chamant.html",
+        "R70C3-prix-ridgway.html",
+        "R70C4-prix-de-chanteclerc.html",
+        "R70C5-prix-de-coye.html",
+        "R70C6-prix-du-bois-franc.html",
+        "R70C7-prix-du-neflier.html",
+        "R70C8-prix-du-noyer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:42:54.861519Z"
+}

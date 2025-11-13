@@ -1,0 +1,46 @@
+{
+  "date": "2017-02-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/02/2017-02-02",
+    "date_html": "resultats-et-rapports/2017/02/2017-02-02/2017-02-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langeais.html",
+        "R1C2-prix-d-auch.html",
+        "R1C3-prix-de-verdun.html",
+        "R1C4-prix-de-dozule.html",
+        "R1C5-prix-de-feucherolles.html",
+        "R1C6-prix-de-chambery.html",
+        "R1C7-prix-de-calais.html",
+        "R1C8-prix-de-pouillac.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-de-langeais.html",
+        "R4C2-prix-d-auch.html",
+        "R4C3-prix-de-verdun.html",
+        "R4C4-prix-de-dozule.html",
+        "R4C5-prix-de-feucherolles.html",
+        "R4C6-prix-de-chambery.html",
+        "R4C7-prix-de-calais.html",
+        "R4C8-prix-de-pouillac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:55.190488Z"
+}

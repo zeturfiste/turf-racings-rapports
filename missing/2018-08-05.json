@@ -1,0 +1,106 @@
+{
+  "date": "2018-08-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/08/2018-08-05",
+    "date_html": "resultats-et-rapports/2018/08/2018-08-05/2018-08-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/08/2018-08-05/R1-deauville/R1C8-prix-hipodromo-de-gavea.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R2-chateaubriant/R2C3-larc-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R2-chateaubriant/R2C4-prix-du-haras-de-la-pomme.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R2-chateaubriant/R2C5-prix-hipodromo-de-san-isidro.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R4-brehal/R4C1-prix-haras-don-alberto.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R4-brehal/R4C3-larc-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R4-brehal/R4C4-prix-du-haras-de-la-pomme.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R4-brehal/R4C8-prix-hipodromo-de-gavea.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R5-enghien-soisy/R5C3-larc-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R5-enghien-soisy/R5C4-prix-du-haras-de-la-pomme.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R5-enghien-soisy/R5C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R10-aix-les-bains/R10C5-prix-hipodromo-de-san-isidro.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R11-dieppe/R11C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R11-dieppe/R11C7-prix-hipodromo-de-monterrico.html",
+      "resultats-et-rapports/2018/08/2018-08-05/R11-dieppe/R11C8-prix-hipodromo-de-gavea.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-chateaubriant",
+      "R4-brehal",
+      "R5-enghien-soisy",
+      "R10-aix-les-bains",
+      "R11-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-haras-don-alberto.html",
+        "R1C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R1C3-larc-prix-maurice-de-gheest.html",
+        "R1C4-prix-du-haras-de-la-pomme.html",
+        "R1C5-prix-hipodromo-de-san-isidro.html",
+        "R1C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R1C7-prix-hipodromo-de-monterrico.html",
+        "R1C8-prix-hipodromo-de-gavea.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-haras-don-alberto.html",
+        "R2C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R2C3-larc-prix-maurice-de-gheest.html",
+        "R2C4-prix-du-haras-de-la-pomme.html",
+        "R2C5-prix-hipodromo-de-san-isidro.html",
+        "R2C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R2C7-prix-hipodromo-de-monterrico.html",
+        "R2C8-prix-hipodromo-de-gavea.html"
+      ],
+      "R4-brehal": [
+        "R4C1-prix-haras-don-alberto.html",
+        "R4C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R4C3-larc-prix-maurice-de-gheest.html",
+        "R4C4-prix-du-haras-de-la-pomme.html",
+        "R4C5-prix-hipodromo-de-san-isidro.html",
+        "R4C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R4C7-prix-hipodromo-de-monterrico.html",
+        "R4C8-prix-hipodromo-de-gavea.html"
+      ],
+      "R5-enghien-soisy": [
+        "R5C1-prix-haras-don-alberto.html",
+        "R5C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R5C3-larc-prix-maurice-de-gheest.html",
+        "R5C4-prix-du-haras-de-la-pomme.html",
+        "R5C5-prix-hipodromo-de-san-isidro.html",
+        "R5C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R5C7-prix-hipodromo-de-monterrico.html",
+        "R5C8-prix-hipodromo-de-gavea.html"
+      ],
+      "R10-aix-les-bains": [
+        "R10C1-prix-haras-don-alberto.html",
+        "R10C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R10C3-larc-prix-maurice-de-gheest.html",
+        "R10C4-prix-du-haras-de-la-pomme.html",
+        "R10C5-prix-hipodromo-de-san-isidro.html",
+        "R10C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R10C7-prix-hipodromo-de-monterrico.html",
+        "R10C8-prix-hipodromo-de-gavea.html"
+      ],
+      "R11-dieppe": [
+        "R11C1-prix-haras-don-alberto.html",
+        "R11C2-prix-valparaiso-sporting-club-prix-de-reux.html",
+        "R11C3-larc-prix-maurice-de-gheest.html",
+        "R11C4-prix-du-haras-de-la-pomme.html",
+        "R11C5-prix-hipodromo-de-san-isidro.html",
+        "R11C6-prix-haras-el-paraiso-prix-michel-houyvet.html",
+        "R11C7-prix-hipodromo-de-monterrico.html",
+        "R11C8-prix-hipodromo-de-gavea.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:55.694361Z"
+}

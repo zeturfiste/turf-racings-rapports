@@ -1,0 +1,97 @@
+{
+  "date": "2018-11-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/11/2018-11-20",
+    "date_html": "resultats-et-rapports/2018/11/2018-11-20/2018-11-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C1-prix-du-bois-de-la-croix-l-oignon.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C2-prix-magdelene.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C3-prix-du-paddock.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C4-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C5-prix-du-manege.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C6-prix-herod.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C7-prix-du-mont-profit.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R1-chantilly/R1C8-prix-de-la-remise-a-peignant.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C1-prix-du-bois-de-la-croix-l-oignon.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C2-prix-magdelene.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C3-prix-du-paddock.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C4-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C5-prix-du-manege.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C6-prix-herod.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C7-prix-du-mont-profit.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R2-lyon-parilly/R2C8-prix-de-la-remise-a-peignant.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C1-prix-du-bois-de-la-croix-l-oignon.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C2-prix-magdelene.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C3-prix-du-paddock.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C4-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C5-prix-du-manege.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C6-prix-herod.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C7-prix-du-mont-profit.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R3-marseille-vivaux/R3C8-prix-de-la-remise-a-peignant.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R5-vincennes/R5C4-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R5-vincennes/R5C5-prix-du-manege.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R5-vincennes/R5C7-prix-du-mont-profit.html",
+      "resultats-et-rapports/2018/11/2018-11-20/R5-vincennes/R5C8-prix-de-la-remise-a-peignant.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-lyon-parilly",
+      "R3-marseille-vivaux",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-de-la-croix-l-oignon.html",
+        "R1C2-prix-magdelene.html",
+        "R1C3-prix-du-paddock.html",
+        "R1C4-prix-de-la-boucle-d-en-haut.html",
+        "R1C5-prix-du-manege.html",
+        "R1C6-prix-herod.html",
+        "R1C7-prix-du-mont-profit.html",
+        "R1C8-prix-de-la-remise-a-peignant.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-du-bois-de-la-croix-l-oignon.html",
+        "R2C2-prix-magdelene.html",
+        "R2C3-prix-du-paddock.html",
+        "R2C4-prix-de-la-boucle-d-en-haut.html",
+        "R2C5-prix-du-manege.html",
+        "R2C6-prix-herod.html",
+        "R2C7-prix-du-mont-profit.html",
+        "R2C8-prix-de-la-remise-a-peignant.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-du-bois-de-la-croix-l-oignon.html",
+        "R3C2-prix-magdelene.html",
+        "R3C3-prix-du-paddock.html",
+        "R3C4-prix-de-la-boucle-d-en-haut.html",
+        "R3C5-prix-du-manege.html",
+        "R3C6-prix-herod.html",
+        "R3C7-prix-du-mont-profit.html",
+        "R3C8-prix-de-la-remise-a-peignant.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-du-bois-de-la-croix-l-oignon.html",
+        "R5C2-prix-magdelene.html",
+        "R5C3-prix-du-paddock.html",
+        "R5C4-prix-de-la-boucle-d-en-haut.html",
+        "R5C5-prix-du-manege.html",
+        "R5C6-prix-herod.html",
+        "R5C7-prix-du-mont-profit.html",
+        "R5C8-prix-de-la-remise-a-peignant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:32.262056Z"
+}

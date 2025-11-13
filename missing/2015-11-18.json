@@ -1,0 +1,95 @@
+{
+  "date": "2015-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-18",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-18/2015-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-18/R2-argentan/R2C1-prix-du-domaine-de-forges.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R2-argentan/R2C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R2-argentan/R2C6-prix-paris-normandie-normandie-dimanche.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R2-argentan/R2C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R2-argentan/R2C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C1-prix-du-domaine-de-forges.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C2-prix-du-comite.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C3-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C5-prix-andre-perdrix.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C6-prix-paris-normandie-normandie-dimanche.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C7-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R3-compiegne/R3C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C1-prix-du-domaine-de-forges.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C2-prix-du-comite.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C3-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C5-prix-andre-perdrix.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C6-prix-paris-normandie-normandie-dimanche.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C7-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+      "resultats-et-rapports/2015/11/2015-11-18/R9-marseille-borely/R9C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-argentan",
+      "R3-compiegne",
+      "R9-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-du-domaine-de-forges.html",
+        "R1C2-prix-du-comite.html",
+        "R1C3-prix-maurice-de-folleville.html",
+        "R1C4-grand-national-du-trot-paris-turf.html",
+        "R1C5-prix-andre-perdrix.html",
+        "R1C6-prix-paris-normandie-normandie-dimanche.html",
+        "R1C7-grand-prix-des-amateurs.html",
+        "R1C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+        "R1C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-du-domaine-de-forges.html",
+        "R2C2-prix-du-comite.html",
+        "R2C3-prix-maurice-de-folleville.html",
+        "R2C4-grand-national-du-trot-paris-turf.html",
+        "R2C5-prix-andre-perdrix.html",
+        "R2C6-prix-paris-normandie-normandie-dimanche.html",
+        "R2C7-grand-prix-des-amateurs.html",
+        "R2C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+        "R2C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-du-domaine-de-forges.html",
+        "R3C2-prix-du-comite.html",
+        "R3C3-prix-maurice-de-folleville.html",
+        "R3C4-grand-national-du-trot-paris-turf.html",
+        "R3C5-prix-andre-perdrix.html",
+        "R3C6-prix-paris-normandie-normandie-dimanche.html",
+        "R3C7-grand-prix-des-amateurs.html",
+        "R3C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+        "R3C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html"
+      ],
+      "R9-marseille-borely": [
+        "R9C1-prix-du-domaine-de-forges.html",
+        "R9C2-prix-du-comite.html",
+        "R9C3-prix-maurice-de-folleville.html",
+        "R9C4-grand-national-du-trot-paris-turf.html",
+        "R9C5-prix-andre-perdrix.html",
+        "R9C6-prix-paris-normandie-normandie-dimanche.html",
+        "R9C7-grand-prix-des-amateurs.html",
+        "R9C8-prix-des-sources-thermales-de-forges-les-eaux-groupe-a.html",
+        "R9C9-prix-du-cafe-commerce-de-forges-les-eaux-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:38.224057Z"
+}

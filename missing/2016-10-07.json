@@ -1,0 +1,86 @@
+{
+  "date": "2016-10-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-07",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-07/2016-10-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-07/R1-vincennes/R1C3-prix-lilaca-prix-rovanier.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R1-vincennes/R1C6-prix-dione.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R1-vincennes/R1C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R3-angers/R3C4-prix-elsa.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R3-angers/R3C5-prix-honoria.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R3-angers/R3C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R4-maisons-laffitte/R4C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R5-marseille-vivaux/R5C6-prix-dione.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R5-marseille-vivaux/R5C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R9-toulouse/R9C3-prix-lilaca-prix-rovanier.html",
+      "resultats-et-rapports/2016/10/2016-10-07/R9-toulouse/R9C7-prix-eliane-de-bellaigue.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-maisons-laffitte",
+      "R5-marseille-vivaux",
+      "R9-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-atropos.html",
+        "R1C2-prix-charley-mills.html",
+        "R1C3-prix-lilaca-prix-rovanier.html",
+        "R1C4-prix-elsa.html",
+        "R1C5-prix-honoria.html",
+        "R1C6-prix-dione.html",
+        "R1C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-atropos.html",
+        "R3C2-prix-charley-mills.html",
+        "R3C3-prix-lilaca-prix-rovanier.html",
+        "R3C4-prix-elsa.html",
+        "R3C5-prix-honoria.html",
+        "R3C6-prix-dione.html",
+        "R3C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R4-maisons-laffitte": [
+        "R4C1-prix-atropos.html",
+        "R4C2-prix-charley-mills.html",
+        "R4C3-prix-lilaca-prix-rovanier.html",
+        "R4C4-prix-elsa.html",
+        "R4C5-prix-honoria.html",
+        "R4C6-prix-dione.html",
+        "R4C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-atropos.html",
+        "R5C2-prix-charley-mills.html",
+        "R5C3-prix-lilaca-prix-rovanier.html",
+        "R5C4-prix-elsa.html",
+        "R5C5-prix-honoria.html",
+        "R5C6-prix-dione.html",
+        "R5C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R9-toulouse": [
+        "R9C1-prix-atropos.html",
+        "R9C2-prix-charley-mills.html",
+        "R9C3-prix-lilaca-prix-rovanier.html",
+        "R9C4-prix-elsa.html",
+        "R9C5-prix-honoria.html",
+        "R9C6-prix-dione.html",
+        "R9C7-prix-eliane-de-bellaigue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:19.764911Z"
+}

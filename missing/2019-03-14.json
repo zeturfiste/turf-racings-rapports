@@ -1,0 +1,61 @@
+{
+  "date": "2019-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-14",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-14/2019-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-14/R2-lyon-parilly/R2C1-prix-otto.html",
+      "resultats-et-rapports/2019/03/2019-03-14/R2-lyon-parilly/R2C4-prix-montenica.html",
+      "resultats-et-rapports/2019/03/2019-03-14/R4-enghien-soisy/R4C4-prix-montenica.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-lyon-parilly",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-otto.html",
+        "R1C2-prix-du-beauvaisis.html",
+        "R1C3-prix-de-la-grange-des-bois.html",
+        "R1C4-prix-montenica.html",
+        "R1C5-prix-du-soissonnais.html",
+        "R1C6-prix-ronde-de-nuit.html",
+        "R1C7-prix-du-chene-pouilleux.html",
+        "R1C8-prix-esso.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-otto.html",
+        "R2C2-prix-du-beauvaisis.html",
+        "R2C3-prix-de-la-grange-des-bois.html",
+        "R2C4-prix-montenica.html",
+        "R2C5-prix-du-soissonnais.html",
+        "R2C6-prix-ronde-de-nuit.html",
+        "R2C7-prix-du-chene-pouilleux.html",
+        "R2C8-prix-esso.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-otto.html",
+        "R4C2-prix-du-beauvaisis.html",
+        "R4C3-prix-de-la-grange-des-bois.html",
+        "R4C4-prix-montenica.html",
+        "R4C5-prix-du-soissonnais.html",
+        "R4C6-prix-ronde-de-nuit.html",
+        "R4C7-prix-du-chene-pouilleux.html",
+        "R4C8-prix-esso.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:03.456505Z"
+}

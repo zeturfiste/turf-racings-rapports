@@ -1,0 +1,106 @@
+{
+  "date": "2014-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-25",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-25/2014-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C1-prix-loggia.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C2-prix-vatelys.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C3-prix-de-bourges.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C5-prix-roger-saint.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C6-prix-d-amiens.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R1-enghien-soisy/R1C8-prix-du-treport.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R2-nantes/R2C2-prix-vatelys.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R2-nantes/R2C3-prix-de-bourges.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R2-nantes/R2C4-prix-de-besancon.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R2-nantes/R2C5-prix-roger-saint.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R3-graignes/R3C3-prix-de-bourges.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R3-graignes/R3C4-prix-de-besancon.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R3-graignes/R3C6-prix-d-amiens.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R3-graignes/R3C8-prix-du-treport.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C1-prix-loggia.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C2-prix-vatelys.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C4-prix-de-besancon.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C5-prix-roger-saint.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C7-grand-steeple-chase-d-enghien.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R4-marseille-vivaux/R4C8-prix-du-treport.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C1-prix-loggia.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C2-prix-vatelys.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C3-prix-de-bourges.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C4-prix-de-besancon.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C6-prix-d-amiens.html",
+      "resultats-et-rapports/2014/10/2014-10-25/R6-le-mans/R6C8-prix-du-treport.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-nantes",
+      "R3-graignes",
+      "R4-marseille-vivaux",
+      "R6-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-loggia.html",
+        "R1C2-prix-vatelys.html",
+        "R1C3-prix-de-bourges.html",
+        "R1C4-prix-de-besancon.html",
+        "R1C5-prix-roger-saint.html",
+        "R1C6-prix-d-amiens.html",
+        "R1C7-grand-steeple-chase-d-enghien.html",
+        "R1C8-prix-du-treport.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-loggia.html",
+        "R2C2-prix-vatelys.html",
+        "R2C3-prix-de-bourges.html",
+        "R2C4-prix-de-besancon.html",
+        "R2C5-prix-roger-saint.html",
+        "R2C6-prix-d-amiens.html",
+        "R2C7-grand-steeple-chase-d-enghien.html",
+        "R2C8-prix-du-treport.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-loggia.html",
+        "R3C2-prix-vatelys.html",
+        "R3C3-prix-de-bourges.html",
+        "R3C4-prix-de-besancon.html",
+        "R3C5-prix-roger-saint.html",
+        "R3C6-prix-d-amiens.html",
+        "R3C7-grand-steeple-chase-d-enghien.html",
+        "R3C8-prix-du-treport.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-loggia.html",
+        "R4C2-prix-vatelys.html",
+        "R4C3-prix-de-bourges.html",
+        "R4C4-prix-de-besancon.html",
+        "R4C5-prix-roger-saint.html",
+        "R4C6-prix-d-amiens.html",
+        "R4C7-grand-steeple-chase-d-enghien.html",
+        "R4C8-prix-du-treport.html"
+      ],
+      "R6-le-mans": [
+        "R6C1-prix-loggia.html",
+        "R6C2-prix-vatelys.html",
+        "R6C3-prix-de-bourges.html",
+        "R6C4-prix-de-besancon.html",
+        "R6C5-prix-roger-saint.html",
+        "R6C6-prix-d-amiens.html",
+        "R6C7-grand-steeple-chase-d-enghien.html",
+        "R6C8-prix-du-treport.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:36.368849Z"
+}

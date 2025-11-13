@@ -1,0 +1,99 @@
+{
+  "date": "2008-08-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/08/2008-08-06",
+    "date_html": "resultats-et-rapports/2008/08/2008-08-06/2008-08-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/08/2008-08-06/R1-saint-malo/R1C6-prix-intermarche-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R2-deauville/R2C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R4-royan-la-palmyre/R4C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R4-royan-la-palmyre/R4C5-prix-du-casino-barriere-de-dinard.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R4-royan-la-palmyre/R4C6-prix-intermarche-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R4-royan-la-palmyre/R4C7-prix-des-thermes-marins-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R4-royan-la-palmyre/R4C8-prix-du-casino-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R5-bagneres-de-luchon/R5C1-prix-geny-courses-3601-paris-turf-com.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R5-bagneres-de-luchon/R5C2-prix-jacques-giboire.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R5-bagneres-de-luchon/R5C3-prix-de-la-laiterie-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R5-bagneres-de-luchon/R5C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R5-bagneres-de-luchon/R5C6-prix-intermarche-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C1-prix-geny-courses-3601-paris-turf-com.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C2-prix-jacques-giboire.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C3-prix-de-la-laiterie-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C4-prix-de-la-ville-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C6-prix-intermarche-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C7-prix-des-thermes-marins-de-saint-malo.html",
+      "resultats-et-rapports/2008/08/2008-08-06/R31-zerace/R31C8-prix-du-casino-de-saint-malo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-malo",
+      "R2-deauville",
+      "R4-royan-la-palmyre",
+      "R5-bagneres-de-luchon",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-malo": [
+        "R1C1-prix-geny-courses-3601-paris-turf-com.html",
+        "R1C2-prix-jacques-giboire.html",
+        "R1C3-prix-de-la-laiterie-de-saint-malo.html",
+        "R1C4-prix-de-la-ville-de-saint-malo.html",
+        "R1C5-prix-du-casino-barriere-de-dinard.html",
+        "R1C6-prix-intermarche-saint-malo.html",
+        "R1C7-prix-des-thermes-marins-de-saint-malo.html",
+        "R1C8-prix-du-casino-de-saint-malo.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-geny-courses-3601-paris-turf-com.html",
+        "R2C2-prix-jacques-giboire.html",
+        "R2C3-prix-de-la-laiterie-de-saint-malo.html",
+        "R2C4-prix-de-la-ville-de-saint-malo.html",
+        "R2C5-prix-du-casino-barriere-de-dinard.html",
+        "R2C6-prix-intermarche-saint-malo.html",
+        "R2C7-prix-des-thermes-marins-de-saint-malo.html",
+        "R2C8-prix-du-casino-de-saint-malo.html"
+      ],
+      "R4-royan-la-palmyre": [
+        "R4C1-prix-geny-courses-3601-paris-turf-com.html",
+        "R4C2-prix-jacques-giboire.html",
+        "R4C3-prix-de-la-laiterie-de-saint-malo.html",
+        "R4C4-prix-de-la-ville-de-saint-malo.html",
+        "R4C5-prix-du-casino-barriere-de-dinard.html",
+        "R4C6-prix-intermarche-saint-malo.html",
+        "R4C7-prix-des-thermes-marins-de-saint-malo.html",
+        "R4C8-prix-du-casino-de-saint-malo.html"
+      ],
+      "R5-bagneres-de-luchon": [
+        "R5C1-prix-geny-courses-3601-paris-turf-com.html",
+        "R5C2-prix-jacques-giboire.html",
+        "R5C3-prix-de-la-laiterie-de-saint-malo.html",
+        "R5C4-prix-de-la-ville-de-saint-malo.html",
+        "R5C5-prix-du-casino-barriere-de-dinard.html",
+        "R5C6-prix-intermarche-saint-malo.html",
+        "R5C7-prix-des-thermes-marins-de-saint-malo.html",
+        "R5C8-prix-du-casino-de-saint-malo.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-3601-paris-turf-com.html",
+        "R31C2-prix-jacques-giboire.html",
+        "R31C3-prix-de-la-laiterie-de-saint-malo.html",
+        "R31C4-prix-de-la-ville-de-saint-malo.html",
+        "R31C5-prix-du-casino-barriere-de-dinard.html",
+        "R31C6-prix-intermarche-saint-malo.html",
+        "R31C7-prix-des-thermes-marins-de-saint-malo.html",
+        "R31C8-prix-du-casino-de-saint-malo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:42:57.343322Z"
+}

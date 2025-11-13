@@ -1,0 +1,85 @@
+{
+  "date": "2007-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/06/2007-06-20",
+    "date_html": "resultats-et-rapports/2007/06/2007-06-20/2007-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/06/2007-06-20/R1-reims/R1C2-prix-du-champagne-jacquart.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R1-reims/R1C4-prix-conseil-regional-champagne-ardennes.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R1-reims/R1C5-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R1-reims/R1C6-prix-julien-cornet.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R1-reims/R1C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R2-dieppe/R2C3-prix-des-haras-de-montier-en-der.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R2-dieppe/R2C4-prix-conseil-regional-champagne-ardennes.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R2-dieppe/R2C5-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R2-dieppe/R2C6-prix-julien-cornet.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R2-dieppe/R2C7-prix-du-conseil-general-de-la-marne.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R31-zerace/R31C2-prix-du-champagne-jacquart.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R31-zerace/R31C6-prix-julien-cornet.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R31-zerace/R31C8-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R80-swindon-angleterre/R80C1-prix-geny-courses-paris-turf-com-grand-prix-de-la-ville-de-reims.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R80-swindon-angleterre/R80C3-prix-des-haras-de-montier-en-der.html",
+      "resultats-et-rapports/2007/06/2007-06-20/R80-swindon-angleterre/R80C5-prix-du-journal-l-union.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R2-dieppe",
+      "R31-zerace",
+      "R80-swindon-angleterre"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-prix-geny-courses-paris-turf-com-grand-prix-de-la-ville-de-reims.html",
+        "R1C2-prix-du-champagne-jacquart.html",
+        "R1C3-prix-des-haras-de-montier-en-der.html",
+        "R1C4-prix-conseil-regional-champagne-ardennes.html",
+        "R1C5-prix-du-journal-l-union.html",
+        "R1C6-prix-julien-cornet.html",
+        "R1C7-prix-du-conseil-general-de-la-marne.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-geny-courses-paris-turf-com-grand-prix-de-la-ville-de-reims.html",
+        "R2C2-prix-du-champagne-jacquart.html",
+        "R2C3-prix-des-haras-de-montier-en-der.html",
+        "R2C4-prix-conseil-regional-champagne-ardennes.html",
+        "R2C5-prix-du-journal-l-union.html",
+        "R2C6-prix-julien-cornet.html",
+        "R2C7-prix-du-conseil-general-de-la-marne.html",
+        "R2C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-paris-turf-com-grand-prix-de-la-ville-de-reims.html",
+        "R31C2-prix-du-champagne-jacquart.html",
+        "R31C3-prix-des-haras-de-montier-en-der.html",
+        "R31C4-prix-conseil-regional-champagne-ardennes.html",
+        "R31C5-prix-du-journal-l-union.html",
+        "R31C6-prix-julien-cornet.html",
+        "R31C7-prix-du-conseil-general-de-la-marne.html",
+        "R31C8-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R80-swindon-angleterre": [
+        "R80C1-prix-geny-courses-paris-turf-com-grand-prix-de-la-ville-de-reims.html",
+        "R80C2-prix-du-champagne-jacquart.html",
+        "R80C3-prix-des-haras-de-montier-en-der.html",
+        "R80C4-prix-conseil-regional-champagne-ardennes.html",
+        "R80C5-prix-du-journal-l-union.html",
+        "R80C6-prix-julien-cornet.html",
+        "R80C7-prix-du-conseil-general-de-la-marne.html",
+        "R80C8-prix-de-la-societe-du-cheval-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:00.523671Z"
+}

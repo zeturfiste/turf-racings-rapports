@@ -1,0 +1,46 @@
+{
+  "date": "2018-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/02/2018-02-08",
+    "date_html": "resultats-et-rapports/2018/02/2018-02-08/2018-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-guy-lux-prix-de-la-nievre.html",
+        "R1C2-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R1C3-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R1C4-prix-de-luneville.html",
+        "R1C5-prix-leon-zitrone-prix-de-monsegur.html",
+        "R1C6-prix-andre-theron-prix-de-romorantin.html",
+        "R1C7-prix-maurice-bernardet-prix-d-anet.html",
+        "R1C8-prix-gerard-brami-prix-de-louviers.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-guy-lux-prix-de-la-nievre.html",
+        "R3C2-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R3C3-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R3C4-prix-de-luneville.html",
+        "R3C5-prix-leon-zitrone-prix-de-monsegur.html",
+        "R3C6-prix-andre-theron-prix-de-romorantin.html",
+        "R3C7-prix-maurice-bernardet-prix-d-anet.html",
+        "R3C8-prix-gerard-brami-prix-de-louviers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:58.215109Z"
+}

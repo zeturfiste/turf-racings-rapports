@@ -1,0 +1,94 @@
+{
+  "date": "2008-03-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/03/2008-03-27",
+    "date_html": "resultats-et-rapports/2008/03/2008-03-27/2008-03-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/03/2008-03-27/R1-saint-cloud/R1C4-prix-francois-mathet.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R2-caen/R2C1-prix-de-gascogne.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R2-caen/R2C6-prix-banassa.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R3-marseille-borely/R3C3-prix-nikellora.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R3-marseille-borely/R3C4-prix-francois-mathet.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R3-marseille-borely/R3C5-prix-sica-boy.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R3-marseille-borely/R3C6-prix-banassa.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R3-marseille-borely/R3C7-prix-de-beynes.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R31-zerace/R31C3-prix-nikellora.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R70-tennis-masters-series-miami/R70C1-prix-de-gascogne.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R70-tennis-masters-series-miami/R70C4-prix-francois-mathet.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R70-tennis-masters-series-miami/R70C5-prix-sica-boy.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R70-tennis-masters-series-miami/R70C7-prix-de-beynes.html",
+      "resultats-et-rapports/2008/03/2008-03-27/R70-tennis-masters-series-miami/R70C8-prix-du-perigord.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R3-marseille-borely",
+      "R31-zerace",
+      "R70-tennis-masters-series-miami"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-gascogne.html",
+        "R1C2-prix-de-rolleboise.html",
+        "R1C3-prix-nikellora.html",
+        "R1C4-prix-francois-mathet.html",
+        "R1C5-prix-sica-boy.html",
+        "R1C6-prix-banassa.html",
+        "R1C7-prix-de-beynes.html",
+        "R1C8-prix-du-perigord.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-gascogne.html",
+        "R2C2-prix-de-rolleboise.html",
+        "R2C3-prix-nikellora.html",
+        "R2C4-prix-francois-mathet.html",
+        "R2C5-prix-sica-boy.html",
+        "R2C6-prix-banassa.html",
+        "R2C7-prix-de-beynes.html",
+        "R2C8-prix-du-perigord.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-gascogne.html",
+        "R3C2-prix-de-rolleboise.html",
+        "R3C3-prix-nikellora.html",
+        "R3C4-prix-francois-mathet.html",
+        "R3C5-prix-sica-boy.html",
+        "R3C6-prix-banassa.html",
+        "R3C7-prix-de-beynes.html",
+        "R3C8-prix-du-perigord.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-gascogne.html",
+        "R31C2-prix-de-rolleboise.html",
+        "R31C3-prix-nikellora.html",
+        "R31C4-prix-francois-mathet.html",
+        "R31C5-prix-sica-boy.html",
+        "R31C6-prix-banassa.html",
+        "R31C7-prix-de-beynes.html",
+        "R31C8-prix-du-perigord.html"
+      ],
+      "R70-tennis-masters-series-miami": [
+        "R70C1-prix-de-gascogne.html",
+        "R70C2-prix-de-rolleboise.html",
+        "R70C3-prix-nikellora.html",
+        "R70C4-prix-francois-mathet.html",
+        "R70C5-prix-sica-boy.html",
+        "R70C6-prix-banassa.html",
+        "R70C7-prix-de-beynes.html",
+        "R70C8-prix-du-perigord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:54.748984Z"
+}

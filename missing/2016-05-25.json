@@ -1,0 +1,80 @@
+{
+  "date": "2016-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-25",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-25/2016-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C2-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C3-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C4-prix-francois-caille.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C5-prix-duval-leroy.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C6-prix-du-pmu-le-longchamps-la-capelle.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R1-la-capelle/R1C8-prix-dupont-restauration.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C2-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C3-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C4-prix-francois-caille.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C6-prix-du-pmu-le-longchamps-la-capelle.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C7-prix-du-pmu-le-nouvion.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R3-maisons-laffitte/R3C8-prix-dupont-restauration.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C2-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C3-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C4-prix-francois-caille.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C5-prix-duval-leroy.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C6-prix-du-pmu-le-longchamps-la-capelle.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C7-prix-du-pmu-le-nouvion.html",
+      "resultats-et-rapports/2016/05/2016-05-25/R5-vichy/R5C8-prix-dupont-restauration.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R3-maisons-laffitte",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-l-u-n-a-t.html",
+        "R1C3-prix-fernand-floribert-dubois.html",
+        "R1C4-prix-francois-caille.html",
+        "R1C5-prix-duval-leroy.html",
+        "R1C6-prix-du-pmu-le-longchamps-la-capelle.html",
+        "R1C7-prix-du-pmu-le-nouvion.html",
+        "R1C8-prix-dupont-restauration.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-l-u-n-a-t.html",
+        "R3C3-prix-fernand-floribert-dubois.html",
+        "R3C4-prix-francois-caille.html",
+        "R3C5-prix-duval-leroy.html",
+        "R3C6-prix-du-pmu-le-longchamps-la-capelle.html",
+        "R3C7-prix-du-pmu-le-nouvion.html",
+        "R3C8-prix-dupont-restauration.html"
+      ],
+      "R5-vichy": [
+        "R5C1-grand-national-du-trot-paris-turf.html",
+        "R5C2-prix-de-l-u-n-a-t.html",
+        "R5C3-prix-fernand-floribert-dubois.html",
+        "R5C4-prix-francois-caille.html",
+        "R5C5-prix-duval-leroy.html",
+        "R5C6-prix-du-pmu-le-longchamps-la-capelle.html",
+        "R5C7-prix-du-pmu-le-nouvion.html",
+        "R5C8-prix-dupont-restauration.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:32.144779Z"
+}

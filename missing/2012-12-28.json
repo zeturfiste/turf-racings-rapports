@@ -1,0 +1,63 @@
+{
+  "date": "2012-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/12/2012-12-28",
+    "date_html": "resultats-et-rapports/2012/12/2012-12-28/2012-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/12/2012-12-28/R1-vincennes/R1C7-prix-des-eglantiers.html",
+      "resultats-et-rapports/2012/12/2012-12-28/R2-deauville-midi/R2C2-prix-de-courteilles.html",
+      "resultats-et-rapports/2012/12/2012-12-28/R3-deauville/R3C3-prix-de-salvanhac.html",
+      "resultats-et-rapports/2012/12/2012-12-28/R3-deauville/R3C4-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2012/12/2012-12-28/R3-deauville/R3C8-prix-d-erbray.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville-midi",
+      "R3-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-moselle.html",
+        "R1C2-prix-de-courteilles.html",
+        "R1C3-prix-de-salvanhac.html",
+        "R1C4-prix-de-beaumont-de-lomagne.html",
+        "R1C5-prix-de-tence.html",
+        "R1C6-prix-de-joigny.html",
+        "R1C7-prix-des-eglantiers.html",
+        "R1C8-prix-d-erbray.html"
+      ],
+      "R2-deauville-midi": [
+        "R2C1-prix-de-la-moselle.html",
+        "R2C2-prix-de-courteilles.html",
+        "R2C3-prix-de-salvanhac.html",
+        "R2C4-prix-de-beaumont-de-lomagne.html",
+        "R2C5-prix-de-tence.html",
+        "R2C6-prix-de-joigny.html",
+        "R2C7-prix-des-eglantiers.html",
+        "R2C8-prix-d-erbray.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-la-moselle.html",
+        "R3C2-prix-de-courteilles.html",
+        "R3C3-prix-de-salvanhac.html",
+        "R3C4-prix-de-beaumont-de-lomagne.html",
+        "R3C5-prix-de-tence.html",
+        "R3C6-prix-de-joigny.html",
+        "R3C7-prix-des-eglantiers.html",
+        "R3C8-prix-d-erbray.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:11.606832Z"
+}

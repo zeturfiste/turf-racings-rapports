@@ -1,0 +1,57 @@
+{
+  "date": "2005-06-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-13",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-13/2005-06-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-vichy",
+      "R3-senonnes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-saint-pair-du-mont.html",
+        "R1C2-prix-tonnelle.html",
+        "R1C3-prix-de-fontenay.html",
+        "R1C4-prix-telegram.html",
+        "R1C5-prix-de-lagny.html",
+        "R1C6-prix-barneveldt.html",
+        "R1C7-prix-banshee.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-saint-pair-du-mont.html",
+        "R2C2-prix-tonnelle.html",
+        "R2C3-prix-de-fontenay.html",
+        "R2C4-prix-telegram.html",
+        "R2C5-prix-de-lagny.html",
+        "R2C6-prix-barneveldt.html",
+        "R2C7-prix-banshee.html",
+        "R2C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-senonnes": [
+        "R3C1-prix-de-saint-pair-du-mont.html",
+        "R3C2-prix-tonnelle.html",
+        "R3C3-prix-de-fontenay.html",
+        "R3C4-prix-telegram.html",
+        "R3C5-prix-de-lagny.html",
+        "R3C6-prix-barneveldt.html",
+        "R3C7-prix-banshee.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:08.376070Z"
+}

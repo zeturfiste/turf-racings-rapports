@@ -1,0 +1,77 @@
+{
+  "date": "2011-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-06",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-06/2011-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-06/R1-saint-cloud/R1C4-prix-rose-royale-2eme-peloton.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R1-saint-cloud/R1C8-prix-de-buzenval.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R1-saint-cloud/R1C9-prix-du-val-d-or.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C1-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C3-prix-prince-bio.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C4-prix-rose-royale-2eme-peloton.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C5-prix-thomas-bryon.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C7-prix-rheingold.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C8-prix-de-buzenval.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R2-marseille-borely/R2C9-prix-du-val-d-or.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C1-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C2-prix-rose-royale-1er-peloton.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C3-prix-prince-bio.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C4-prix-rose-royale-2eme-peloton.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C7-prix-rheingold.html",
+      "resultats-et-rapports/2011/10/2011-10-06/R3-enghien-soisy/R3C9-prix-du-val-d-or.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-marseille-borely",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-val-d-oise.html",
+        "R1C2-prix-rose-royale-1er-peloton.html",
+        "R1C3-prix-prince-bio.html",
+        "R1C4-prix-rose-royale-2eme-peloton.html",
+        "R1C5-prix-thomas-bryon.html",
+        "R1C6-prix-scaramouche.html",
+        "R1C7-prix-rheingold.html",
+        "R1C8-prix-de-buzenval.html",
+        "R1C9-prix-du-val-d-or.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-val-d-oise.html",
+        "R2C2-prix-rose-royale-1er-peloton.html",
+        "R2C3-prix-prince-bio.html",
+        "R2C4-prix-rose-royale-2eme-peloton.html",
+        "R2C5-prix-thomas-bryon.html",
+        "R2C6-prix-scaramouche.html",
+        "R2C7-prix-rheingold.html",
+        "R2C8-prix-de-buzenval.html",
+        "R2C9-prix-du-val-d-or.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-val-d-oise.html",
+        "R3C2-prix-rose-royale-1er-peloton.html",
+        "R3C3-prix-prince-bio.html",
+        "R3C4-prix-rose-royale-2eme-peloton.html",
+        "R3C5-prix-thomas-bryon.html",
+        "R3C6-prix-scaramouche.html",
+        "R3C7-prix-rheingold.html",
+        "R3C8-prix-de-buzenval.html",
+        "R3C9-prix-du-val-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:02.988376Z"
+}

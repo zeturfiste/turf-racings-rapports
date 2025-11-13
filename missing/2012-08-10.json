@@ -1,0 +1,121 @@
+{
+  "date": "2012-08-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-10",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-10/2012-08-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-10/R1-deauville/R1C1-prix-des-marettes.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R1-deauville/R1C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R1-deauville/R1C3-prix-de-la-hetraie.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C4-prix-d-auquainville.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C5-prix-de-cerisy-la-foret.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C7-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C8-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C9-prix-de-beuzeville.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R3-cabourg/R3C11-prix-de-saint-leger-dubosq.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C1-prix-des-marettes.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C3-prix-de-la-hetraie.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C4-prix-d-auquainville.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C5-prix-de-cerisy-la-foret.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C6-prix-de-la-pegaserie.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C7-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C10-prix-de-saint-jouin.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R5-pornichet-la-baule/R5C11-prix-de-saint-leger-dubosq.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C1-prix-des-marettes.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C5-prix-de-cerisy-la-foret.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C6-prix-de-la-pegaserie.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C8-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C9-prix-de-beuzeville.html",
+      "resultats-et-rapports/2012/08/2012-08-10/R6-cagnes-sur-mer/R6C10-prix-de-saint-jouin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vichy",
+      "R3-cabourg",
+      "R5-pornichet-la-baule",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-marettes.html",
+        "R1C2-prix-de-crevecoeur.html",
+        "R1C3-prix-de-la-hetraie.html",
+        "R1C4-prix-d-auquainville.html",
+        "R1C5-prix-de-cerisy-la-foret.html",
+        "R1C6-prix-de-la-pegaserie.html",
+        "R1C7-prix-du-bois-hellain.html",
+        "R1C8-prix-du-bois-barbot.html",
+        "R1C9-prix-de-beuzeville.html",
+        "R1C10-prix-de-saint-jouin.html",
+        "R1C11-prix-de-saint-leger-dubosq.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-des-marettes.html",
+        "R2C2-prix-de-crevecoeur.html",
+        "R2C3-prix-de-la-hetraie.html",
+        "R2C4-prix-d-auquainville.html",
+        "R2C5-prix-de-cerisy-la-foret.html",
+        "R2C6-prix-de-la-pegaserie.html",
+        "R2C7-prix-du-bois-hellain.html",
+        "R2C8-prix-du-bois-barbot.html",
+        "R2C9-prix-de-beuzeville.html",
+        "R2C10-prix-de-saint-jouin.html",
+        "R2C11-prix-de-saint-leger-dubosq.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-des-marettes.html",
+        "R3C2-prix-de-crevecoeur.html",
+        "R3C3-prix-de-la-hetraie.html",
+        "R3C4-prix-d-auquainville.html",
+        "R3C5-prix-de-cerisy-la-foret.html",
+        "R3C6-prix-de-la-pegaserie.html",
+        "R3C7-prix-du-bois-hellain.html",
+        "R3C8-prix-du-bois-barbot.html",
+        "R3C9-prix-de-beuzeville.html",
+        "R3C10-prix-de-saint-jouin.html",
+        "R3C11-prix-de-saint-leger-dubosq.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-des-marettes.html",
+        "R5C2-prix-de-crevecoeur.html",
+        "R5C3-prix-de-la-hetraie.html",
+        "R5C4-prix-d-auquainville.html",
+        "R5C5-prix-de-cerisy-la-foret.html",
+        "R5C6-prix-de-la-pegaserie.html",
+        "R5C7-prix-du-bois-hellain.html",
+        "R5C8-prix-du-bois-barbot.html",
+        "R5C9-prix-de-beuzeville.html",
+        "R5C10-prix-de-saint-jouin.html",
+        "R5C11-prix-de-saint-leger-dubosq.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-des-marettes.html",
+        "R6C2-prix-de-crevecoeur.html",
+        "R6C3-prix-de-la-hetraie.html",
+        "R6C4-prix-d-auquainville.html",
+        "R6C5-prix-de-cerisy-la-foret.html",
+        "R6C6-prix-de-la-pegaserie.html",
+        "R6C7-prix-du-bois-hellain.html",
+        "R6C8-prix-du-bois-barbot.html",
+        "R6C9-prix-de-beuzeville.html",
+        "R6C10-prix-de-saint-jouin.html",
+        "R6C11-prix-de-saint-leger-dubosq.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:30.235946Z"
+}

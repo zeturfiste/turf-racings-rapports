@@ -1,0 +1,109 @@
+{
+  "date": "2017-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-18",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-18/2017-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-18/R1-chantilly/R1C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R1-chantilly/R1C2-prix-hocquart-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R1-chantilly/R1C3-prix-bertrand-du-breuil-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R2-graignes/R2C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R3-corlay/R3C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R3-corlay/R3C2-prix-hocquart-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R3-corlay/R3C4-prix-de-diane-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R3-corlay/R3C5-grand-prix-longines-prix-d-ecouen.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R3-corlay/R3C7-prix-du-musee-de-la-renaissance-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R4-le-lion-d-angers/R4C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R4-le-lion-d-angers/R4C7-prix-du-musee-de-la-renaissance-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C2-prix-hocquart-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C3-prix-bertrand-du-breuil-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C4-prix-de-diane-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C5-grand-prix-longines-prix-d-ecouen.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R5-wissembourg/R5C7-prix-du-musee-de-la-renaissance-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C2-prix-hocquart-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C3-prix-bertrand-du-breuil-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C4-prix-de-diane-longines.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C5-grand-prix-longines-prix-d-ecouen.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+      "resultats-et-rapports/2017/06/2017-06-18/R8-pontchateau/R8C7-prix-du-musee-de-la-renaissance-longines.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-graignes",
+      "R3-corlay",
+      "R4-le-lion-d-angers",
+      "R5-wissembourg",
+      "R8-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R1C2-prix-hocquart-longines.html",
+        "R1C3-prix-bertrand-du-breuil-longines.html",
+        "R1C4-prix-de-diane-longines.html",
+        "R1C5-grand-prix-longines-prix-d-ecouen.html",
+        "R1C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R1C7-prix-du-musee-de-la-renaissance-longines.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R2C2-prix-hocquart-longines.html",
+        "R2C3-prix-bertrand-du-breuil-longines.html",
+        "R2C4-prix-de-diane-longines.html",
+        "R2C5-grand-prix-longines-prix-d-ecouen.html",
+        "R2C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R2C7-prix-du-musee-de-la-renaissance-longines.html"
+      ],
+      "R3-corlay": [
+        "R3C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R3C2-prix-hocquart-longines.html",
+        "R3C3-prix-bertrand-du-breuil-longines.html",
+        "R3C4-prix-de-diane-longines.html",
+        "R3C5-grand-prix-longines-prix-d-ecouen.html",
+        "R3C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R3C7-prix-du-musee-de-la-renaissance-longines.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R4C2-prix-hocquart-longines.html",
+        "R4C3-prix-bertrand-du-breuil-longines.html",
+        "R4C4-prix-de-diane-longines.html",
+        "R4C5-grand-prix-longines-prix-d-ecouen.html",
+        "R4C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R4C7-prix-du-musee-de-la-renaissance-longines.html"
+      ],
+      "R5-wissembourg": [
+        "R5C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R5C2-prix-hocquart-longines.html",
+        "R5C3-prix-bertrand-du-breuil-longines.html",
+        "R5C4-prix-de-diane-longines.html",
+        "R5C5-grand-prix-longines-prix-d-ecouen.html",
+        "R5C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R5C7-prix-du-musee-de-la-renaissance-longines.html"
+      ],
+      "R8-pontchateau": [
+        "R8C1-prix-de-la-croix-des-veneurs-longines-presente-par-le-figaro-magazine.html",
+        "R8C2-prix-hocquart-longines.html",
+        "R8C3-prix-bertrand-du-breuil-longines.html",
+        "R8C4-prix-de-diane-longines.html",
+        "R8C5-grand-prix-longines-prix-d-ecouen.html",
+        "R8C6-qatar-derby-des-pur-sang-arabe-de-4-ans.html",
+        "R8C7-prix-du-musee-de-la-renaissance-longines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:40.027338Z"
+}

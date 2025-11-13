@@ -1,0 +1,94 @@
+{
+  "date": "2014-11-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/11/2014-11-18",
+    "date_html": "resultats-et-rapports/2014/11/2014-11-18/2014-11-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/11/2014-11-18/R1-saint-cloud/R1C1-prix-tanerko.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R1-saint-cloud/R1C2-prix-urgence.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R1-saint-cloud/R1C3-prix-pharsale.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R1-saint-cloud/R1C6-prix-fairy-legend.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R1-saint-cloud/R1C8-prix-des-haras.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R2-lyon-parilly/R2C1-prix-tanerko.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R2-lyon-parilly/R2C4-grand-handicap-de-l-elevage.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R2-lyon-parilly/R2C5-prix-albarelle.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R2-lyon-parilly/R2C6-prix-fairy-legend.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R2-lyon-parilly/R2C8-prix-des-haras.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C1-prix-tanerko.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C2-prix-urgence.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C3-prix-pharsale.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C4-grand-handicap-de-l-elevage.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C5-prix-albarelle.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C6-prix-fairy-legend.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R3-marseille-vivaux/R3C7-prix-de-gambais.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C1-prix-tanerko.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C2-prix-urgence.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C3-prix-pharsale.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C4-grand-handicap-de-l-elevage.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C5-prix-albarelle.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C6-prix-fairy-legend.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C7-prix-de-gambais.html",
+      "resultats-et-rapports/2014/11/2014-11-18/R4-vincennes/R4C8-prix-des-haras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-tanerko.html",
+        "R1C2-prix-urgence.html",
+        "R1C3-prix-pharsale.html",
+        "R1C4-grand-handicap-de-l-elevage.html",
+        "R1C5-prix-albarelle.html",
+        "R1C6-prix-fairy-legend.html",
+        "R1C7-prix-de-gambais.html",
+        "R1C8-prix-des-haras.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-tanerko.html",
+        "R2C2-prix-urgence.html",
+        "R2C3-prix-pharsale.html",
+        "R2C4-grand-handicap-de-l-elevage.html",
+        "R2C5-prix-albarelle.html",
+        "R2C6-prix-fairy-legend.html",
+        "R2C7-prix-de-gambais.html",
+        "R2C8-prix-des-haras.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-tanerko.html",
+        "R3C2-prix-urgence.html",
+        "R3C3-prix-pharsale.html",
+        "R3C4-grand-handicap-de-l-elevage.html",
+        "R3C5-prix-albarelle.html",
+        "R3C6-prix-fairy-legend.html",
+        "R3C7-prix-de-gambais.html",
+        "R3C8-prix-des-haras.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-tanerko.html",
+        "R4C2-prix-urgence.html",
+        "R4C3-prix-pharsale.html",
+        "R4C4-grand-handicap-de-l-elevage.html",
+        "R4C5-prix-albarelle.html",
+        "R4C6-prix-fairy-legend.html",
+        "R4C7-prix-de-gambais.html",
+        "R4C8-prix-des-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:45.367880Z"
+}

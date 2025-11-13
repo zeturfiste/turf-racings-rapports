@@ -1,0 +1,74 @@
+{
+  "date": "2012-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-06",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-06/2012-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C1-prix-meydan-race-course.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C2-prix-meydan-golf-course.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C3-prix-des-princesses.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C4-prix-du-lieutenant.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C5-prix-de-molton.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C6-prix-du-chene-pouilleux.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R1-chantilly/R1C7-prix-de-la-grange-des-bois.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R2-nantes/R2C1-prix-meydan-race-course.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R2-nantes/R2C2-prix-meydan-golf-course.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R2-nantes/R2C3-prix-des-princesses.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R2-nantes/R2C6-prix-du-chene-pouilleux.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R3-cagnes-sur-mer/R3C2-prix-meydan-golf-course.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R3-cagnes-sur-mer/R3C3-prix-des-princesses.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R3-cagnes-sur-mer/R3C4-prix-du-lieutenant.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R3-cagnes-sur-mer/R3C7-prix-de-la-grange-des-bois.html",
+      "resultats-et-rapports/2012/03/2012-03-06/R3-cagnes-sur-mer/R3C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nantes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-meydan-race-course.html",
+        "R1C2-prix-meydan-golf-course.html",
+        "R1C3-prix-des-princesses.html",
+        "R1C4-prix-du-lieutenant.html",
+        "R1C5-prix-de-molton.html",
+        "R1C6-prix-du-chene-pouilleux.html",
+        "R1C7-prix-de-la-grange-des-bois.html",
+        "R1C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-meydan-race-course.html",
+        "R2C2-prix-meydan-golf-course.html",
+        "R2C3-prix-des-princesses.html",
+        "R2C4-prix-du-lieutenant.html",
+        "R2C5-prix-de-molton.html",
+        "R2C6-prix-du-chene-pouilleux.html",
+        "R2C7-prix-de-la-grange-des-bois.html",
+        "R2C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-meydan-race-course.html",
+        "R3C2-prix-meydan-golf-course.html",
+        "R3C3-prix-des-princesses.html",
+        "R3C4-prix-du-lieutenant.html",
+        "R3C5-prix-de-molton.html",
+        "R3C6-prix-du-chene-pouilleux.html",
+        "R3C7-prix-de-la-grange-des-bois.html",
+        "R3C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:41.791321Z"
+}

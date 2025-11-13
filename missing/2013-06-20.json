@@ -1,0 +1,86 @@
+{
+  "date": "2013-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-20",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-20/2013-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-20/R1-auteuil/R1C6-prix-la-perichole.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C2-prix-sagan.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C3-prix-frascati.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C4-prix-chinco.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C5-prix-christian-de-tredern.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C6-prix-la-perichole.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C7-prix-pharaon.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R2-caen/R2C8-prix-de-chantilly.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C1-prix-al-capone-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C2-prix-sagan.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C3-prix-frascati.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C4-prix-chinco.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C5-prix-christian-de-tredern.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C6-prix-la-perichole.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R3-hyeres/R3C7-prix-pharaon.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R4-la-teste-de-buch/R4C1-prix-al-capone-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-20/R4-la-teste-de-buch/R4C6-prix-la-perichole.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-hyeres",
+      "R4-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-al-capone-ii.html",
+        "R1C2-prix-sagan.html",
+        "R1C3-prix-frascati.html",
+        "R1C4-prix-chinco.html",
+        "R1C5-prix-christian-de-tredern.html",
+        "R1C6-prix-la-perichole.html",
+        "R1C7-prix-pharaon.html",
+        "R1C8-prix-de-chantilly.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-al-capone-ii.html",
+        "R2C2-prix-sagan.html",
+        "R2C3-prix-frascati.html",
+        "R2C4-prix-chinco.html",
+        "R2C5-prix-christian-de-tredern.html",
+        "R2C6-prix-la-perichole.html",
+        "R2C7-prix-pharaon.html",
+        "R2C8-prix-de-chantilly.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-al-capone-ii.html",
+        "R3C2-prix-sagan.html",
+        "R3C3-prix-frascati.html",
+        "R3C4-prix-chinco.html",
+        "R3C5-prix-christian-de-tredern.html",
+        "R3C6-prix-la-perichole.html",
+        "R3C7-prix-pharaon.html",
+        "R3C8-prix-de-chantilly.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-al-capone-ii.html",
+        "R4C2-prix-sagan.html",
+        "R4C3-prix-frascati.html",
+        "R4C4-prix-chinco.html",
+        "R4C5-prix-christian-de-tredern.html",
+        "R4C6-prix-la-perichole.html",
+        "R4C7-prix-pharaon.html",
+        "R4C8-prix-de-chantilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:01.144556Z"
+}

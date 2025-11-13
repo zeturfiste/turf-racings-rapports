@@ -1,0 +1,104 @@
+{
+  "date": "2008-02-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/02/2008-02-13",
+    "date_html": "resultats-et-rapports/2008/02/2008-02-13/2008-02-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C4-prix-d-isola-2000-prix-de-vittel.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C6-prix-d-auron-prix-de-cogolin.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R1-cagnes-sur-mer/R1C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C4-prix-d-isola-2000-prix-de-vittel.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R2-angers/R2C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R31-zerace/R31C4-prix-d-isola-2000-prix-de-vittel.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R31-zerace/R31C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R31-zerace/R31C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R70-stade-velodrome-marseille/R70C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R70-stade-velodrome-marseille/R70C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C4-prix-d-isola-2000-prix-de-vittel.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C6-prix-d-auron-prix-de-cogolin.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+      "resultats-et-rapports/2008/02/2008-02-13/R71-constant-vanden-stock-bruxelles/R71C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-angers",
+      "R31-zerace",
+      "R70-stade-velodrome-marseille",
+      "R71-constant-vanden-stock-bruxelles"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+        "R1C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+        "R1C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+        "R1C4-prix-d-isola-2000-prix-de-vittel.html",
+        "R1C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+        "R1C6-prix-d-auron-prix-de-cogolin.html",
+        "R1C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+        "R1C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+        "R2C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+        "R2C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+        "R2C4-prix-d-isola-2000-prix-de-vittel.html",
+        "R2C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+        "R2C6-prix-d-auron-prix-de-cogolin.html",
+        "R2C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+        "R2C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+        "R31C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+        "R31C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+        "R31C4-prix-d-isola-2000-prix-de-vittel.html",
+        "R31C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+        "R31C6-prix-d-auron-prix-de-cogolin.html",
+        "R31C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+        "R31C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+      ],
+      "R70-stade-velodrome-marseille": [
+        "R70C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+        "R70C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+        "R70C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+        "R70C4-prix-d-isola-2000-prix-de-vittel.html",
+        "R70C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+        "R70C6-prix-d-auron-prix-de-cogolin.html",
+        "R70C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+        "R70C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+      ],
+      "R71-constant-vanden-stock-bruxelles": [
+        "R71C1-prix-des-stations-du-mercantour-prix-de-chantilly.html",
+        "R71C2-prix-de-saint-etienne-de-tinee-prix-des-bougainvilles.html",
+        "R71C3-prix-de-la-federation-du-port-de-nice-prix-de-maisons-laffitte.html",
+        "R71C4-prix-d-isola-2000-prix-de-vittel.html",
+        "R71C5-grand-prix-de-la-ville-de-nice-prix-de-brignoles.html",
+        "R71C6-prix-d-auron-prix-de-cogolin.html",
+        "R71C7-prix-le-nautic-port-de-nice-prix-du-boreon.html",
+        "R71C8-prix-de-saint-dalmas-le-selvage-prix-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:34.177685Z"
+}

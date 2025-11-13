@@ -1,0 +1,97 @@
+{
+  "date": "2009-06-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/06/2009-06-11",
+    "date_html": "resultats-et-rapports/2009/06/2009-06-11/2009-06-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C1-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C2-prix-dagor.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C3-prix-riverman.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C4-prix-pawneese.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C6-prix-de-vaureal.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R1-maisons-laffitte/R1C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C1-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C3-prix-riverman.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C4-prix-pawneese.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C7-prix-carvin.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R2-graignes/R2C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C2-prix-dagor.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C3-prix-riverman.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C4-prix-pawneese.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C6-prix-de-vaureal.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C7-prix-carvin.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R3-vichy/R3C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C1-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C2-prix-dagor.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C3-prix-riverman.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C4-prix-pawneese.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C6-prix-de-vaureal.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C7-prix-carvin.html",
+      "resultats-et-rapports/2009/06/2009-06-11/R31-zerace/R31C8-prix-de-la-foret-de-marly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-graignes",
+      "R3-vichy",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-la-foret-de-saint-germain.html",
+        "R1C2-prix-dagor.html",
+        "R1C3-prix-riverman.html",
+        "R1C4-prix-pawneese.html",
+        "R1C5-prix-d-orgeval.html",
+        "R1C6-prix-de-vaureal.html",
+        "R1C7-prix-carvin.html",
+        "R1C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-de-la-foret-de-saint-germain.html",
+        "R2C2-prix-dagor.html",
+        "R2C3-prix-riverman.html",
+        "R2C4-prix-pawneese.html",
+        "R2C5-prix-d-orgeval.html",
+        "R2C6-prix-de-vaureal.html",
+        "R2C7-prix-carvin.html",
+        "R2C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-la-foret-de-saint-germain.html",
+        "R3C2-prix-dagor.html",
+        "R3C3-prix-riverman.html",
+        "R3C4-prix-pawneese.html",
+        "R3C5-prix-d-orgeval.html",
+        "R3C6-prix-de-vaureal.html",
+        "R3C7-prix-carvin.html",
+        "R3C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-foret-de-saint-germain.html",
+        "R31C2-prix-dagor.html",
+        "R31C3-prix-riverman.html",
+        "R31C4-prix-pawneese.html",
+        "R31C5-prix-d-orgeval.html",
+        "R31C6-prix-de-vaureal.html",
+        "R31C7-prix-carvin.html",
+        "R31C8-prix-de-la-foret-de-marly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:45:29.912339Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2008-12-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-27",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-27/2008-12-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C1-prix-de-tarbes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C2-prix-de-nozay.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C3-prix-de-luynes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C4-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C6-prix-de-saint-leonard.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R1-vincennes/R1C9-prix-des-eglantiers.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C1-prix-de-tarbes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C2-prix-de-nozay.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C3-prix-de-luynes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C4-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C8-prix-de-gambais.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R2-pau/R2C9-prix-des-eglantiers.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C2-prix-de-nozay.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C3-prix-de-luynes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C4-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C6-prix-de-saint-leonard.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C7-prix-de-meulan.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C8-prix-de-gambais.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R4-grenade-sur-garonne/R4C9-prix-des-eglantiers.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C1-prix-de-tarbes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C2-prix-de-nozay.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C3-prix-de-luynes.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C4-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C6-prix-de-saint-leonard.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C7-prix-de-meulan.html",
+      "resultats-et-rapports/2008/12/2008-12-27/R31-zerace/R31C8-prix-de-gambais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R4-grenade-sur-garonne",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-tarbes.html",
+        "R1C2-prix-de-nozay.html",
+        "R1C3-prix-de-luynes.html",
+        "R1C4-prix-de-chateau-salins.html",
+        "R1C5-prix-yvonnick-bodin.html",
+        "R1C6-prix-de-saint-leonard.html",
+        "R1C7-prix-de-meulan.html",
+        "R1C8-prix-de-gambais.html",
+        "R1C9-prix-des-eglantiers.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-tarbes.html",
+        "R2C2-prix-de-nozay.html",
+        "R2C3-prix-de-luynes.html",
+        "R2C4-prix-de-chateau-salins.html",
+        "R2C5-prix-yvonnick-bodin.html",
+        "R2C6-prix-de-saint-leonard.html",
+        "R2C7-prix-de-meulan.html",
+        "R2C8-prix-de-gambais.html",
+        "R2C9-prix-des-eglantiers.html"
+      ],
+      "R4-grenade-sur-garonne": [
+        "R4C1-prix-de-tarbes.html",
+        "R4C2-prix-de-nozay.html",
+        "R4C3-prix-de-luynes.html",
+        "R4C4-prix-de-chateau-salins.html",
+        "R4C5-prix-yvonnick-bodin.html",
+        "R4C6-prix-de-saint-leonard.html",
+        "R4C7-prix-de-meulan.html",
+        "R4C8-prix-de-gambais.html",
+        "R4C9-prix-des-eglantiers.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-tarbes.html",
+        "R31C2-prix-de-nozay.html",
+        "R31C3-prix-de-luynes.html",
+        "R31C4-prix-de-chateau-salins.html",
+        "R31C5-prix-yvonnick-bodin.html",
+        "R31C6-prix-de-saint-leonard.html",
+        "R31C7-prix-de-meulan.html",
+        "R31C8-prix-de-gambais.html",
+        "R31C9-prix-des-eglantiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:05.404659Z"
+}

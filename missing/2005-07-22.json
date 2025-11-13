@@ -1,0 +1,64 @@
+{
+  "date": "2005-07-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-22",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-22/2005-07-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-cabourg",
+      "R3-biarritz",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-du-parc-des-sources.html",
+        "R1C2-prix-des-arvernes.html",
+        "R1C3-prix-des-reves-d-or.html",
+        "R1C4-prix-de-combronde.html",
+        "R1C5-prix-de-saint-cyr-les-vignes.html",
+        "R1C6-prix-de-molles.html",
+        "R1C7-prix-du-parc-de-l-allier.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-parc-des-sources.html",
+        "R2C2-prix-des-arvernes.html",
+        "R2C3-prix-des-reves-d-or.html",
+        "R2C4-prix-de-combronde.html",
+        "R2C5-prix-de-saint-cyr-les-vignes.html",
+        "R2C6-prix-de-molles.html",
+        "R2C7-prix-du-parc-de-l-allier.html"
+      ],
+      "R3-biarritz": [
+        "R3C1-prix-du-parc-des-sources.html",
+        "R3C2-prix-des-arvernes.html",
+        "R3C3-prix-des-reves-d-or.html",
+        "R3C4-prix-de-combronde.html",
+        "R3C5-prix-de-saint-cyr-les-vignes.html",
+        "R3C6-prix-de-molles.html",
+        "R3C7-prix-du-parc-de-l-allier.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-parc-des-sources.html",
+        "R4C2-prix-des-arvernes.html",
+        "R4C3-prix-des-reves-d-or.html",
+        "R4C4-prix-de-combronde.html",
+        "R4C5-prix-de-saint-cyr-les-vignes.html",
+        "R4C6-prix-de-molles.html",
+        "R4C7-prix-du-parc-de-l-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:13.941797Z"
+}

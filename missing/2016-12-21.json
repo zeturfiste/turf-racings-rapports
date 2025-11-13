@@ -1,0 +1,75 @@
+{
+  "date": "2016-12-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-21",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-21/2016-12-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-21/R1-pau/R1C8-prix-de-meillon.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C1-prix-de-monein.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C5-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C6-prix-de-bordes.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C7-prix-fernand-roy.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C8-prix-de-meillon.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R3-vincennes/R3C9-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C1-prix-de-monein.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C2-prix-d-arudy.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C5-prix-de-saint-vincent.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C6-prix-de-bordes.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C7-prix-fernand-roy.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C8-prix-de-meillon.html",
+      "resultats-et-rapports/2016/12/2016-12-21/R4-cagnes-sur-mer/R4C9-prix-jean-lamaysouette.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R3-vincennes",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-monein.html",
+        "R1C2-prix-d-arudy.html",
+        "R1C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R1C4-prix-de-bielle.html",
+        "R1C5-prix-de-saint-vincent.html",
+        "R1C6-prix-de-bordes.html",
+        "R1C7-prix-fernand-roy.html",
+        "R1C8-prix-de-meillon.html",
+        "R1C9-prix-jean-lamaysouette.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-monein.html",
+        "R3C2-prix-d-arudy.html",
+        "R3C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R3C4-prix-de-bielle.html",
+        "R3C5-prix-de-saint-vincent.html",
+        "R3C6-prix-de-bordes.html",
+        "R3C7-prix-fernand-roy.html",
+        "R3C8-prix-de-meillon.html",
+        "R3C9-prix-jean-lamaysouette.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-monein.html",
+        "R4C2-prix-d-arudy.html",
+        "R4C3-prix-biraben-foie-gras-prix-georges-pastre.html",
+        "R4C4-prix-de-bielle.html",
+        "R4C5-prix-de-saint-vincent.html",
+        "R4C6-prix-de-bordes.html",
+        "R4C7-prix-fernand-roy.html",
+        "R4C8-prix-de-meillon.html",
+        "R4C9-prix-jean-lamaysouette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:44.454971Z"
+}

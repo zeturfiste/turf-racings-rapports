@@ -1,0 +1,93 @@
+{
+  "date": "2013-05-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-16",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-16/2013-05-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-16/R1-vichy/R1C2-prix-de-la-source-chomel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R1-vichy/R1C5-prix-de-l-esterel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R1-vichy/R1C8-prix-de-biarritz.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C1-prix-de-marcigny.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C3-prix-de-parilly.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C5-prix-de-l-esterel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C6-prix-de-bel-air-gr-a.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C7-prix-de-bel-air-gr-b.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R2-le-croise-laroche/R2C8-prix-de-biarritz.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C1-prix-de-marcigny.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C2-prix-de-la-source-chomel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C3-prix-de-parilly.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C4-prix-des-bois-noirs.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C5-prix-de-l-esterel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C6-prix-de-bel-air-gr-a.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C7-prix-de-bel-air-gr-b.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R3-cholet/R3C8-prix-de-biarritz.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C1-prix-de-marcigny.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C2-prix-de-la-source-chomel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C4-prix-des-bois-noirs.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C5-prix-de-l-esterel.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C6-prix-de-bel-air-gr-a.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C7-prix-de-bel-air-gr-b.html",
+      "resultats-et-rapports/2013/05/2013-05-16/R4-compiegne/R4C8-prix-de-biarritz.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-le-croise-laroche",
+      "R3-cholet",
+      "R4-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-marcigny.html",
+        "R1C2-prix-de-la-source-chomel.html",
+        "R1C3-prix-de-parilly.html",
+        "R1C4-prix-des-bois-noirs.html",
+        "R1C5-prix-de-l-esterel.html",
+        "R1C6-prix-de-bel-air-gr-a.html",
+        "R1C7-prix-de-bel-air-gr-b.html",
+        "R1C8-prix-de-biarritz.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-de-marcigny.html",
+        "R2C2-prix-de-la-source-chomel.html",
+        "R2C3-prix-de-parilly.html",
+        "R2C4-prix-des-bois-noirs.html",
+        "R2C5-prix-de-l-esterel.html",
+        "R2C6-prix-de-bel-air-gr-a.html",
+        "R2C7-prix-de-bel-air-gr-b.html",
+        "R2C8-prix-de-biarritz.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-de-marcigny.html",
+        "R3C2-prix-de-la-source-chomel.html",
+        "R3C3-prix-de-parilly.html",
+        "R3C4-prix-des-bois-noirs.html",
+        "R3C5-prix-de-l-esterel.html",
+        "R3C6-prix-de-bel-air-gr-a.html",
+        "R3C7-prix-de-bel-air-gr-b.html",
+        "R3C8-prix-de-biarritz.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-de-marcigny.html",
+        "R4C2-prix-de-la-source-chomel.html",
+        "R4C3-prix-de-parilly.html",
+        "R4C4-prix-des-bois-noirs.html",
+        "R4C5-prix-de-l-esterel.html",
+        "R4C6-prix-de-bel-air-gr-a.html",
+        "R4C7-prix-de-bel-air-gr-b.html",
+        "R4C8-prix-de-biarritz.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:49.604352Z"
+}

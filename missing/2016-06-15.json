@@ -1,0 +1,71 @@
+{
+  "date": "2016-06-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-15",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-15/2016-06-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-15/R1-auteuil/R1C2-prix-katko.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R1-auteuil/R1C3-prix-sagan.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R1-auteuil/R1C7-prix-de-royan.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C1-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C2-prix-katko.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C3-prix-sagan.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C4-prix-du-boulonnais.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C5-prix-galafron.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C6-prix-xavier-de-chevigny.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R3-bordeaux-le-bouscat/R3C7-prix-de-royan.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R5-vichy/R5C5-prix-galafron.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R5-vichy/R5C6-prix-xavier-de-chevigny.html",
+      "resultats-et-rapports/2016/06/2016-06-15/R5-vichy/R5C7-prix-de-royan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-bordeaux-le-bouscat",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-daniel-lescalle.html",
+        "R1C2-prix-katko.html",
+        "R1C3-prix-sagan.html",
+        "R1C4-prix-du-boulonnais.html",
+        "R1C5-prix-galafron.html",
+        "R1C6-prix-xavier-de-chevigny.html",
+        "R1C7-prix-de-royan.html",
+        "R1C8-prix-maurice-de-nexon.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-daniel-lescalle.html",
+        "R3C2-prix-katko.html",
+        "R3C3-prix-sagan.html",
+        "R3C4-prix-du-boulonnais.html",
+        "R3C5-prix-galafron.html",
+        "R3C6-prix-xavier-de-chevigny.html",
+        "R3C7-prix-de-royan.html",
+        "R3C8-prix-maurice-de-nexon.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-daniel-lescalle.html",
+        "R5C2-prix-katko.html",
+        "R5C3-prix-sagan.html",
+        "R5C4-prix-du-boulonnais.html",
+        "R5C5-prix-galafron.html",
+        "R5C6-prix-xavier-de-chevigny.html",
+        "R5C7-prix-de-royan.html",
+        "R5C8-prix-maurice-de-nexon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:39.243378Z"
+}

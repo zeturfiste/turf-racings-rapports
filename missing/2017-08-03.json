@@ -1,0 +1,81 @@
+{
+  "date": "2017-08-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-03",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-03/2017-08-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-03/R1-clairefontaine/R1C1-prix-confrerie-des-chevaliers-du-livarot.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R1-clairefontaine/R1C4-prix-confrerie-de-la-teurgoule-et-fallue-de-normandie.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R1-clairefontaine/R1C5-prix-confrerie-du-gd-ordre-du-trou-normand.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R1-clairefontaine/R1C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R1-clairefontaine/R1C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R2-la-rochelle/R2C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R2-la-rochelle/R2C7-prix-interprofession-des-appellations-cidricoles.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R3-meslay-du-maine/R3C1-prix-confrerie-des-chevaliers-du-livarot.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R3-meslay-du-maine/R3C2-prix-confrerie-des-chevaliers-du-camembert.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R3-meslay-du-maine/R3C7-prix-interprofession-des-appellations-cidricoles.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R4-vichy/R4C1-prix-confrerie-des-chevaliers-du-livarot.html",
+      "resultats-et-rapports/2017/08/2017-08-03/R4-vichy/R4C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-la-rochelle",
+      "R3-meslay-du-maine",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R1C2-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R1C3-prix-fromageries-graindorge.html",
+        "R1C4-prix-confrerie-de-la-teurgoule-et-fallue-de-normandie.html",
+        "R1C5-prix-confrerie-du-gd-ordre-du-trou-normand.html",
+        "R1C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R1C7-prix-interprofession-des-appellations-cidricoles.html",
+        "R1C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html"
+      ],
+      "R2-la-rochelle": [
+        "R2C1-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R2C2-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R2C3-prix-fromageries-graindorge.html",
+        "R2C4-prix-confrerie-de-la-teurgoule-et-fallue-de-normandie.html",
+        "R2C5-prix-confrerie-du-gd-ordre-du-trou-normand.html",
+        "R2C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R2C7-prix-interprofession-des-appellations-cidricoles.html",
+        "R2C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R3C2-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R3C3-prix-fromageries-graindorge.html",
+        "R3C4-prix-confrerie-de-la-teurgoule-et-fallue-de-normandie.html",
+        "R3C5-prix-confrerie-du-gd-ordre-du-trou-normand.html",
+        "R3C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R3C7-prix-interprofession-des-appellations-cidricoles.html",
+        "R3C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R4C2-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R4C3-prix-fromageries-graindorge.html",
+        "R4C4-prix-confrerie-de-la-teurgoule-et-fallue-de-normandie.html",
+        "R4C5-prix-confrerie-du-gd-ordre-du-trou-normand.html",
+        "R4C6-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R4C7-prix-interprofession-des-appellations-cidricoles.html",
+        "R4C8-prix-confrerie-des-chevaliers-du-pont-l-eveque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:57.339949Z"
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2009-01-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-09",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-09/2009-01-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/01/2009-01-09/R71-stade-auguste-delaune-reims/R71C6-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R71-stade-auguste-delaune-reims/R71C7-prix-promising-catch.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R1-cagnes-sur-mer/R1C7-prix-promising-catch.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R2-pau/R2C3-prix-meteor-ii.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R2-pau/R2C5-prix-kaizer-soze.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R3-deauville-midi/R3C8-prix-junior-du-rib.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R4-deauville/R4C2-prix-elaine-rodney.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R4-deauville/R4C5-prix-kaizer-soze.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R4-deauville/R4C7-prix-promising-catch.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R4-deauville/R4C8-prix-junior-du-rib.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R31-zerace/R31C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R31-zerace/R31C2-prix-elaine-rodney.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R31-zerace/R31C3-prix-meteor-ii.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R31-zerace/R31C5-prix-kaizer-soze.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R31-zerace/R31C6-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R70-la-mosson-montpellier/R70C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R70-la-mosson-montpellier/R70C5-prix-kaizer-soze.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R70-la-mosson-montpellier/R70C6-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C2-prix-elaine-rodney.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C3-prix-meteor-ii.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C4-prix-hulk-de-godisson.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C5-prix-kaizer-soze.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C6-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C7-prix-promising-catch.html",
+      "resultats-et-rapports/2009/01/2009-01-09/R72-stade-maurice-boyau-dax/R72C8-prix-junior-du-rib.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R71-stade-auguste-delaune-reims",
+      "R1-cagnes-sur-mer",
+      "R2-pau",
+      "R3-deauville-midi",
+      "R4-deauville",
+      "R31-zerace",
+      "R70-la-mosson-montpellier",
+      "R72-stade-maurice-boyau-dax"
+    ],
+    "courses_by_reunion": {
+      "R71-stade-auguste-delaune-reims": [
+        "R71C1-prix-de-la-cote-d-azur.html",
+        "R71C2-prix-elaine-rodney.html",
+        "R71C3-prix-meteor-ii.html",
+        "R71C4-prix-hulk-de-godisson.html",
+        "R71C5-prix-kaizer-soze.html",
+        "R71C6-prix-de-cagnes-sur-mer.html",
+        "R71C7-prix-promising-catch.html",
+        "R71C8-prix-junior-du-rib.html"
+      ],
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-la-cote-d-azur.html",
+        "R1C2-prix-elaine-rodney.html",
+        "R1C3-prix-meteor-ii.html",
+        "R1C4-prix-hulk-de-godisson.html",
+        "R1C5-prix-kaizer-soze.html",
+        "R1C6-prix-de-cagnes-sur-mer.html",
+        "R1C7-prix-promising-catch.html",
+        "R1C8-prix-junior-du-rib.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-la-cote-d-azur.html",
+        "R2C2-prix-elaine-rodney.html",
+        "R2C3-prix-meteor-ii.html",
+        "R2C4-prix-hulk-de-godisson.html",
+        "R2C5-prix-kaizer-soze.html",
+        "R2C6-prix-de-cagnes-sur-mer.html",
+        "R2C7-prix-promising-catch.html",
+        "R2C8-prix-junior-du-rib.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-la-cote-d-azur.html",
+        "R3C2-prix-elaine-rodney.html",
+        "R3C3-prix-meteor-ii.html",
+        "R3C4-prix-hulk-de-godisson.html",
+        "R3C5-prix-kaizer-soze.html",
+        "R3C6-prix-de-cagnes-sur-mer.html",
+        "R3C7-prix-promising-catch.html",
+        "R3C8-prix-junior-du-rib.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-la-cote-d-azur.html",
+        "R4C2-prix-elaine-rodney.html",
+        "R4C3-prix-meteor-ii.html",
+        "R4C4-prix-hulk-de-godisson.html",
+        "R4C5-prix-kaizer-soze.html",
+        "R4C6-prix-de-cagnes-sur-mer.html",
+        "R4C7-prix-promising-catch.html",
+        "R4C8-prix-junior-du-rib.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-cote-d-azur.html",
+        "R31C2-prix-elaine-rodney.html",
+        "R31C3-prix-meteor-ii.html",
+        "R31C4-prix-hulk-de-godisson.html",
+        "R31C5-prix-kaizer-soze.html",
+        "R31C6-prix-de-cagnes-sur-mer.html",
+        "R31C7-prix-promising-catch.html",
+        "R31C8-prix-junior-du-rib.html"
+      ],
+      "R70-la-mosson-montpellier": [
+        "R70C1-prix-de-la-cote-d-azur.html",
+        "R70C2-prix-elaine-rodney.html",
+        "R70C3-prix-meteor-ii.html",
+        "R70C4-prix-hulk-de-godisson.html",
+        "R70C5-prix-kaizer-soze.html",
+        "R70C6-prix-de-cagnes-sur-mer.html",
+        "R70C7-prix-promising-catch.html",
+        "R70C8-prix-junior-du-rib.html"
+      ],
+      "R72-stade-maurice-boyau-dax": [
+        "R72C1-prix-de-la-cote-d-azur.html",
+        "R72C2-prix-elaine-rodney.html",
+        "R72C3-prix-meteor-ii.html",
+        "R72C4-prix-hulk-de-godisson.html",
+        "R72C5-prix-kaizer-soze.html",
+        "R72C6-prix-de-cagnes-sur-mer.html",
+        "R72C7-prix-promising-catch.html",
+        "R72C8-prix-junior-du-rib.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:09.903049Z"
+}

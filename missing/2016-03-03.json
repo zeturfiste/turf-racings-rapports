@@ -1,0 +1,63 @@
+{
+  "date": "2016-03-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-03",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-03/2016-03-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-03/R1-vincennes/R1C6-prix-de-marmande.html",
+      "resultats-et-rapports/2016/03/2016-03-03/R1-vincennes/R1C7-prix-de-tignes.html",
+      "resultats-et-rapports/2016/03/2016-03-03/R3-chantilly/R3C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2016/03/2016-03-03/R5-lyon-la-soie/R5C5-prix-vindex.html",
+      "resultats-et-rapports/2016/03/2016-03-03/R5-lyon-la-soie/R5C7-prix-de-tignes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emile-allix-courboy.html",
+        "R1C2-prix-ali-hawas.html",
+        "R1C3-prix-de-lorient.html",
+        "R1C4-prix-felicien-gauvreau.html",
+        "R1C5-prix-vindex.html",
+        "R1C6-prix-de-marmande.html",
+        "R1C7-prix-de-tignes.html",
+        "R1C8-prix-de-saint-lo.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-emile-allix-courboy.html",
+        "R3C2-prix-ali-hawas.html",
+        "R3C3-prix-de-lorient.html",
+        "R3C4-prix-felicien-gauvreau.html",
+        "R3C5-prix-vindex.html",
+        "R3C6-prix-de-marmande.html",
+        "R3C7-prix-de-tignes.html",
+        "R3C8-prix-de-saint-lo.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-emile-allix-courboy.html",
+        "R5C2-prix-ali-hawas.html",
+        "R5C3-prix-de-lorient.html",
+        "R5C4-prix-felicien-gauvreau.html",
+        "R5C5-prix-vindex.html",
+        "R5C6-prix-de-marmande.html",
+        "R5C7-prix-de-tignes.html",
+        "R5C8-prix-de-saint-lo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:04.630102Z"
+}

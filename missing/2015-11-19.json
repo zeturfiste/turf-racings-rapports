@@ -1,0 +1,91 @@
+{
+  "date": "2015-11-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-19",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-19/2015-11-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-19/R1-fontainebleau/R1C6-prix-contessina.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R1-fontainebleau/R1C9-prix-de-vichy.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R2-vincennes/R2C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R2-vincennes/R2C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R2-vincennes/R2C6-prix-contessina.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R2-vincennes/R2C7-prix-ceres.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R2-vincennes/R2C8-prix-d-evry.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C3-prix-de-la-pinede.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C5-prix-de-la-touche-aux-mulets.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C6-prix-contessina.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C7-prix-ceres.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C8-prix-d-evry.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R3-toulouse/R3C9-prix-de-vichy.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R4-laval/R4C1-prix-de-la-sapiniere.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R4-laval/R4C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R4-laval/R4C3-prix-de-la-pinede.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R4-laval/R4C6-prix-contessina.html",
+      "resultats-et-rapports/2015/11/2015-11-19/R4-laval/R4C7-prix-ceres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-vincennes",
+      "R3-toulouse",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-sapiniere.html",
+        "R1C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+        "R1C3-prix-de-la-pinede.html",
+        "R1C4-prix-hubert-de-catheu.html",
+        "R1C5-prix-de-la-touche-aux-mulets.html",
+        "R1C6-prix-contessina.html",
+        "R1C7-prix-ceres.html",
+        "R1C8-prix-d-evry.html",
+        "R1C9-prix-de-vichy.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-sapiniere.html",
+        "R2C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+        "R2C3-prix-de-la-pinede.html",
+        "R2C4-prix-hubert-de-catheu.html",
+        "R2C5-prix-de-la-touche-aux-mulets.html",
+        "R2C6-prix-contessina.html",
+        "R2C7-prix-ceres.html",
+        "R2C8-prix-d-evry.html",
+        "R2C9-prix-de-vichy.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-sapiniere.html",
+        "R3C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+        "R3C3-prix-de-la-pinede.html",
+        "R3C4-prix-hubert-de-catheu.html",
+        "R3C5-prix-de-la-touche-aux-mulets.html",
+        "R3C6-prix-contessina.html",
+        "R3C7-prix-ceres.html",
+        "R3C8-prix-d-evry.html",
+        "R3C9-prix-de-vichy.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-sapiniere.html",
+        "R4C2-prix-du-comite-departemental-du-tourisme-de-seine-et-marne.html",
+        "R4C3-prix-de-la-pinede.html",
+        "R4C4-prix-hubert-de-catheu.html",
+        "R4C5-prix-de-la-touche-aux-mulets.html",
+        "R4C6-prix-contessina.html",
+        "R4C7-prix-ceres.html",
+        "R4C8-prix-d-evry.html",
+        "R4C9-prix-de-vichy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:38.547232Z"
+}

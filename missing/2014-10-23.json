@@ -1,0 +1,81 @@
+{
+  "date": "2014-10-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-23",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-23/2014-10-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C1-prix-cerealiste.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C3-prix-emilius.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C4-prix-lusignan.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C5-prix-triquerville.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C6-prix-moncourt.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C7-prix-falzarego.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R1-auteuil/R1C8-prix-laniste.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C1-prix-cerealiste.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C2-prix-lyonnais.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C3-prix-emilius.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C4-prix-lusignan.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C5-prix-triquerville.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C6-prix-moncourt.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C7-prix-falzarego.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R2-deauville/R2C8-prix-laniste.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C1-prix-cerealiste.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C2-prix-lyonnais.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C3-prix-emilius.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C4-prix-lusignan.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C5-prix-triquerville.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C6-prix-moncourt.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C7-prix-falzarego.html",
+      "resultats-et-rapports/2014/10/2014-10-23/R3-cabourg/R3C8-prix-laniste.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-deauville",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-cerealiste.html",
+        "R1C2-prix-lyonnais.html",
+        "R1C3-prix-emilius.html",
+        "R1C4-prix-lusignan.html",
+        "R1C5-prix-triquerville.html",
+        "R1C6-prix-moncourt.html",
+        "R1C7-prix-falzarego.html",
+        "R1C8-prix-laniste.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-cerealiste.html",
+        "R2C2-prix-lyonnais.html",
+        "R2C3-prix-emilius.html",
+        "R2C4-prix-lusignan.html",
+        "R2C5-prix-triquerville.html",
+        "R2C6-prix-moncourt.html",
+        "R2C7-prix-falzarego.html",
+        "R2C8-prix-laniste.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-cerealiste.html",
+        "R3C2-prix-lyonnais.html",
+        "R3C3-prix-emilius.html",
+        "R3C4-prix-lusignan.html",
+        "R3C5-prix-triquerville.html",
+        "R3C6-prix-moncourt.html",
+        "R3C7-prix-falzarego.html",
+        "R3C8-prix-laniste.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:35.937708Z"
+}

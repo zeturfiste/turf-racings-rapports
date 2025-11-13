@@ -1,0 +1,76 @@
+{
+  "date": "2019-05-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/05/2019-05-27",
+    "date_html": "resultats-et-rapports/2019/05/2019-05-27/2019-05-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/05/2019-05-27/R2-amiens/R2C4-prix-cadum.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C1-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C4-prix-cadum.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C5-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C6-prix-de-vaureal.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C7-prix-burgos.html",
+      "resultats-et-rapports/2019/05/2019-05-27/R6-toulouse/R6C8-prix-du-triangle-de-rocquencourt.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-amiens",
+      "R4-vichy",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-l-autoroute-de-l-ouest.html",
+        "R1C2-prix-hunyade.html",
+        "R1C3-prix-la-belle-ii.html",
+        "R1C4-prix-cadum.html",
+        "R1C5-prix-de-la-croix-verte.html",
+        "R1C6-prix-de-vaureal.html",
+        "R1C7-prix-burgos.html",
+        "R1C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-de-l-autoroute-de-l-ouest.html",
+        "R2C2-prix-hunyade.html",
+        "R2C3-prix-la-belle-ii.html",
+        "R2C4-prix-cadum.html",
+        "R2C5-prix-de-la-croix-verte.html",
+        "R2C6-prix-de-vaureal.html",
+        "R2C7-prix-burgos.html",
+        "R2C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-de-l-autoroute-de-l-ouest.html",
+        "R4C2-prix-hunyade.html",
+        "R4C3-prix-la-belle-ii.html",
+        "R4C4-prix-cadum.html",
+        "R4C5-prix-de-la-croix-verte.html",
+        "R4C6-prix-de-vaureal.html",
+        "R4C7-prix-burgos.html",
+        "R4C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-de-l-autoroute-de-l-ouest.html",
+        "R6C2-prix-hunyade.html",
+        "R6C3-prix-la-belle-ii.html",
+        "R6C4-prix-cadum.html",
+        "R6C5-prix-de-la-croix-verte.html",
+        "R6C6-prix-de-vaureal.html",
+        "R6C7-prix-burgos.html",
+        "R6C8-prix-du-triangle-de-rocquencourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:28.759577Z"
+}

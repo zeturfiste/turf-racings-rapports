@@ -1,0 +1,81 @@
+{
+  "date": "2014-11-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/11/2014-11-20",
+    "date_html": "resultats-et-rapports/2014/11/2014-11-20/2014-11-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/11/2014-11-20/R1-fontainebleau/R1C2-prix-des-erables.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R1-fontainebleau/R1C8-prix-d-evry.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C1-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C2-prix-des-erables.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C3-prix-de-la-touche-aux-mulets.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C5-prix-zeddaan.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C6-prix-contessina.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C7-prix-ceres.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C8-prix-d-evry.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R2-vincennes/R2C9-prix-de-vichy.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C1-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C2-prix-des-erables.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C3-prix-de-la-touche-aux-mulets.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C5-prix-zeddaan.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C6-prix-contessina.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C7-prix-ceres.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C8-prix-d-evry.html",
+      "resultats-et-rapports/2014/11/2014-11-20/R3-graignes/R3C9-prix-de-vichy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-vincennes",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-bois-notre-dame.html",
+        "R1C2-prix-des-erables.html",
+        "R1C3-prix-de-la-touche-aux-mulets.html",
+        "R1C4-prix-hubert-de-catheu.html",
+        "R1C5-prix-zeddaan.html",
+        "R1C6-prix-contessina.html",
+        "R1C7-prix-ceres.html",
+        "R1C8-prix-d-evry.html",
+        "R1C9-prix-de-vichy.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-bois-notre-dame.html",
+        "R2C2-prix-des-erables.html",
+        "R2C3-prix-de-la-touche-aux-mulets.html",
+        "R2C4-prix-hubert-de-catheu.html",
+        "R2C5-prix-zeddaan.html",
+        "R2C6-prix-contessina.html",
+        "R2C7-prix-ceres.html",
+        "R2C8-prix-d-evry.html",
+        "R2C9-prix-de-vichy.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-du-bois-notre-dame.html",
+        "R3C2-prix-des-erables.html",
+        "R3C3-prix-de-la-touche-aux-mulets.html",
+        "R3C4-prix-hubert-de-catheu.html",
+        "R3C5-prix-zeddaan.html",
+        "R3C6-prix-contessina.html",
+        "R3C7-prix-ceres.html",
+        "R3C8-prix-d-evry.html",
+        "R3C9-prix-de-vichy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:45.961086Z"
+}

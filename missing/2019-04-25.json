@@ -1,0 +1,65 @@
+{
+  "date": "2019-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-25",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-25/2019-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C2-prix-de-sospel.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C3-prix-nivolet.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C4-prix-de-castets.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C5-prix-hopper.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C6-prix-acreon.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R1-compiegne/R1C7-prix-colonel-bernard-marlin.html",
+      "resultats-et-rapports/2019/04/2019-04-25/R2-laval/R2C7-prix-colonel-bernard-marlin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-laval",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-gaston-branere.html",
+        "R1C2-prix-de-sospel.html",
+        "R1C3-prix-nivolet.html",
+        "R1C4-prix-de-castets.html",
+        "R1C5-prix-hopper.html",
+        "R1C6-prix-acreon.html",
+        "R1C7-prix-colonel-bernard-marlin.html",
+        "R1C8-prix-du-grand-marechal.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-gaston-branere.html",
+        "R2C2-prix-de-sospel.html",
+        "R2C3-prix-nivolet.html",
+        "R2C4-prix-de-castets.html",
+        "R2C5-prix-hopper.html",
+        "R2C6-prix-acreon.html",
+        "R2C7-prix-colonel-bernard-marlin.html",
+        "R2C8-prix-du-grand-marechal.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-gaston-branere.html",
+        "R4C2-prix-de-sospel.html",
+        "R4C3-prix-nivolet.html",
+        "R4C4-prix-de-castets.html",
+        "R4C5-prix-hopper.html",
+        "R4C6-prix-acreon.html",
+        "R4C7-prix-colonel-bernard-marlin.html",
+        "R4C8-prix-du-grand-marechal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:17.323999Z"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2011-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-26",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-26/2011-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-26/R1-maisons-laffitte/R1C2-prix-de-canouvert.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R1-maisons-laffitte/R1C4-prix-de-gascourt.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R1-maisons-laffitte/R1C5-prix-de-maysel.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R1-maisons-laffitte/R1C6-prix-dominique-giniaux.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R2-le-lion-d-angers/R2C1-prix-de-la-foret-de-chantilly.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R2-le-lion-d-angers/R2C2-prix-de-canouvert.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R2-le-lion-d-angers/R2C7-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R6-pornichet-la-baule/R6C5-prix-de-maysel.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R6-pornichet-la-baule/R6C6-prix-dominique-giniaux.html",
+      "resultats-et-rapports/2011/07/2011-07-26/R6-pornichet-la-baule/R6C8-prix-de-la-foret-du-lys.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-le-lion-d-angers",
+      "R3-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-la-foret-de-chantilly.html",
+        "R1C2-prix-de-canouvert.html",
+        "R1C3-prix-de-bagatelle.html",
+        "R1C4-prix-de-gascourt.html",
+        "R1C5-prix-de-maysel.html",
+        "R1C6-prix-dominique-giniaux.html",
+        "R1C7-prix-de-la-goursaule.html",
+        "R1C8-prix-de-la-foret-du-lys.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-de-la-foret-de-chantilly.html",
+        "R2C2-prix-de-canouvert.html",
+        "R2C3-prix-de-bagatelle.html",
+        "R2C4-prix-de-gascourt.html",
+        "R2C5-prix-de-maysel.html",
+        "R2C6-prix-dominique-giniaux.html",
+        "R2C7-prix-de-la-goursaule.html",
+        "R2C8-prix-de-la-foret-du-lys.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-la-foret-de-chantilly.html",
+        "R3C2-prix-de-canouvert.html",
+        "R3C3-prix-de-bagatelle.html",
+        "R3C4-prix-de-gascourt.html",
+        "R3C5-prix-de-maysel.html",
+        "R3C6-prix-dominique-giniaux.html",
+        "R3C7-prix-de-la-goursaule.html",
+        "R3C8-prix-de-la-foret-du-lys.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-de-la-foret-de-chantilly.html",
+        "R6C2-prix-de-canouvert.html",
+        "R6C3-prix-de-bagatelle.html",
+        "R6C4-prix-de-gascourt.html",
+        "R6C5-prix-de-maysel.html",
+        "R6C6-prix-dominique-giniaux.html",
+        "R6C7-prix-de-la-goursaule.html",
+        "R6C8-prix-de-la-foret-du-lys.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:40.465688Z"
+}

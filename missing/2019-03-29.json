@@ -1,0 +1,83 @@
+{
+  "date": "2019-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-29",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-29/2019-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-29/R1-vincennes/R1C1-prix-lucia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R1-vincennes/R1C2-prix-eos.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R1-vincennes/R1C4-prix-aemilia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R1-vincennes/R1C5-prix-adrastea.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R1-vincennes/R1C6-prix-idunna.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C1-prix-lucia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C3-prix-amalthea.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C4-prix-aemilia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C5-prix-adrastea.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C6-prix-idunna.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R2-bordeaux-le-bouscat/R2C7-prix-alcor.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R4-fontainebleau/R4C4-prix-aemilia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R4-fontainebleau/R4C5-prix-adrastea.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R5-marseille-vivaux/R5C1-prix-lucia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R5-marseille-vivaux/R5C2-prix-eos.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R5-marseille-vivaux/R5C3-prix-amalthea.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R5-marseille-vivaux/R5C4-prix-aemilia.html",
+      "resultats-et-rapports/2019/03/2019-03-29/R5-marseille-vivaux/R5C7-prix-alcor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R4-fontainebleau",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lucia.html",
+        "R1C2-prix-eos.html",
+        "R1C3-prix-amalthea.html",
+        "R1C4-prix-aemilia.html",
+        "R1C5-prix-adrastea.html",
+        "R1C6-prix-idunna.html",
+        "R1C7-prix-alcor.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-lucia.html",
+        "R2C2-prix-eos.html",
+        "R2C3-prix-amalthea.html",
+        "R2C4-prix-aemilia.html",
+        "R2C5-prix-adrastea.html",
+        "R2C6-prix-idunna.html",
+        "R2C7-prix-alcor.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-lucia.html",
+        "R4C2-prix-eos.html",
+        "R4C3-prix-amalthea.html",
+        "R4C4-prix-aemilia.html",
+        "R4C5-prix-adrastea.html",
+        "R4C6-prix-idunna.html",
+        "R4C7-prix-alcor.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-lucia.html",
+        "R5C2-prix-eos.html",
+        "R5C3-prix-amalthea.html",
+        "R5C4-prix-aemilia.html",
+        "R5C5-prix-adrastea.html",
+        "R5C6-prix-idunna.html",
+        "R5C7-prix-alcor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:08.230009Z"
+}

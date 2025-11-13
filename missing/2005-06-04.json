@@ -1,0 +1,48 @@
+{
+  "date": "2005-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-04",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-04/2005-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-franc.html",
+        "R1C2-la-coupe-goffs-france-des-chevaux-arabes.html",
+        "R1C3-prix-du-conseil-general-de-picardie-prix-de-roissy.html",
+        "R1C4-prix-aly-khan.html",
+        "R1C5-prix-de-royaumont.html",
+        "R1C6-prix-de-la-francilienne.html",
+        "R1C7-coupe-d-europe-des-chevaux-arabes.html",
+        "R1C8-derby-stakes-epsom.html",
+        "R1C9-prix-de-versigny.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-bois-franc.html",
+        "R2C2-la-coupe-goffs-france-des-chevaux-arabes.html",
+        "R2C3-prix-du-conseil-general-de-picardie-prix-de-roissy.html",
+        "R2C4-prix-aly-khan.html",
+        "R2C5-prix-de-royaumont.html",
+        "R2C6-prix-de-la-francilienne.html",
+        "R2C7-coupe-d-europe-des-chevaux-arabes.html",
+        "R2C8-derby-stakes-epsom.html",
+        "R2C9-prix-de-versigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:07.086559Z"
+}

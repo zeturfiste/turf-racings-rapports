@@ -1,0 +1,112 @@
+{
+  "date": "2015-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-23",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-23/2015-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C1-prix-pharamond.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C3-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C4-prix-avenger.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R1-maisons-laffitte/R1C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C1-prix-pharamond.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C4-prix-avenger.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C5-prix-de-la-clementerie.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C6-prix-double-rose.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R2-aix-les-bains/R2C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R3-marseille-borely/R3C1-prix-pharamond.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R3-marseille-borely/R3C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R3-marseille-borely/R3C6-prix-double-rose.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R3-marseille-borely/R3C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R3-marseille-borely/R3C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C1-prix-pharamond.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C3-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C4-prix-avenger.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C5-prix-de-la-clementerie.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R4-vichy/R4C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C1-prix-pharamond.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C3-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C4-prix-avenger.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C6-prix-double-rose.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C7-prix-d-acheres.html",
+      "resultats-et-rapports/2015/06/2015-06-23/R5-vincennes/R5C8-prix-de-la-foret-de-marly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-aix-les-bains",
+      "R3-marseille-borely",
+      "R4-vichy",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-pharamond.html",
+        "R1C2-prix-de-marly-le-roi.html",
+        "R1C3-prix-de-la-foret-de-saint-germain.html",
+        "R1C4-prix-avenger.html",
+        "R1C5-prix-de-la-clementerie.html",
+        "R1C6-prix-double-rose.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R2-aix-les-bains": [
+        "R2C1-prix-pharamond.html",
+        "R2C2-prix-de-marly-le-roi.html",
+        "R2C3-prix-de-la-foret-de-saint-germain.html",
+        "R2C4-prix-avenger.html",
+        "R2C5-prix-de-la-clementerie.html",
+        "R2C6-prix-double-rose.html",
+        "R2C7-prix-d-acheres.html",
+        "R2C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-pharamond.html",
+        "R3C2-prix-de-marly-le-roi.html",
+        "R3C3-prix-de-la-foret-de-saint-germain.html",
+        "R3C4-prix-avenger.html",
+        "R3C5-prix-de-la-clementerie.html",
+        "R3C6-prix-double-rose.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-pharamond.html",
+        "R4C2-prix-de-marly-le-roi.html",
+        "R4C3-prix-de-la-foret-de-saint-germain.html",
+        "R4C4-prix-avenger.html",
+        "R4C5-prix-de-la-clementerie.html",
+        "R4C6-prix-double-rose.html",
+        "R4C7-prix-d-acheres.html",
+        "R4C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-pharamond.html",
+        "R5C2-prix-de-marly-le-roi.html",
+        "R5C3-prix-de-la-foret-de-saint-germain.html",
+        "R5C4-prix-avenger.html",
+        "R5C5-prix-de-la-clementerie.html",
+        "R5C6-prix-double-rose.html",
+        "R5C7-prix-d-acheres.html",
+        "R5C8-prix-de-la-foret-de-marly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:48.603528Z"
+}

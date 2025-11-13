@@ -1,0 +1,72 @@
+{
+  "date": "2011-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-18",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-18/2011-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-18/R1-deauville/R1C6-prix-de-lianger.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R1-deauville/R1C7-prix-d-aubigny.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R1-deauville/R1C8-prix-de-gournay.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R2-angers/R2C1-prix-des-equidays.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R2-angers/R2C2-prix-de-la-placiere-prix-deauville-aime-le-cheval.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R2-angers/R2C5-prix-de-la-banche.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R3-vincennes/R3C2-prix-de-la-placiere-prix-deauville-aime-le-cheval.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R3-vincennes/R3C3-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R3-vincennes/R3C4-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R3-vincennes/R3C5-prix-de-la-banche.html",
+      "resultats-et-rapports/2011/10/2011-10-18/R3-vincennes/R3C7-prix-d-aubigny.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-angers",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-equidays.html",
+        "R1C2-prix-de-la-placiere-prix-deauville-aime-le-cheval.html",
+        "R1C3-prix-de-l-epronniere.html",
+        "R1C4-prix-des-reservoirs-haras-d-etreham.html",
+        "R1C5-prix-de-la-banche.html",
+        "R1C6-prix-de-lianger.html",
+        "R1C7-prix-d-aubigny.html",
+        "R1C8-prix-de-gournay.html",
+        "R1C9-prix-de-dampierre.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-equidays.html",
+        "R2C2-prix-de-la-placiere-prix-deauville-aime-le-cheval.html",
+        "R2C3-prix-de-l-epronniere.html",
+        "R2C4-prix-des-reservoirs-haras-d-etreham.html",
+        "R2C5-prix-de-la-banche.html",
+        "R2C6-prix-de-lianger.html",
+        "R2C7-prix-d-aubigny.html",
+        "R2C8-prix-de-gournay.html",
+        "R2C9-prix-de-dampierre.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-equidays.html",
+        "R3C2-prix-de-la-placiere-prix-deauville-aime-le-cheval.html",
+        "R3C3-prix-de-l-epronniere.html",
+        "R3C4-prix-des-reservoirs-haras-d-etreham.html",
+        "R3C5-prix-de-la-banche.html",
+        "R3C6-prix-de-lianger.html",
+        "R3C7-prix-d-aubigny.html",
+        "R3C8-prix-de-gournay.html",
+        "R3C9-prix-de-dampierre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:06.613053Z"
+}

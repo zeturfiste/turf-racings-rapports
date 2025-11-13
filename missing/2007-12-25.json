@@ -1,0 +1,74 @@
+{
+  "date": "2007-12-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-25",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-25/2007-12-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-25/R1-vincennes/R1C1-prix-constant-hervieu.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R1-vincennes/R1C3-prix-d-issoudun.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R1-vincennes/R1C4-prix-de-salvanhac.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R2-pau/R2C2-prix-de-brive-la-gaillarde.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R2-pau/R2C3-prix-d-issoudun.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R2-pau/R2C6-prix-du-touquet.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R2-pau/R2C7-prix-de-gambais.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R2-pau/R2C9-prix-des-genets.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R31-zerace/R31C1-prix-constant-hervieu.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R31-zerace/R31C2-prix-de-brive-la-gaillarde.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R31-zerace/R31C4-prix-de-salvanhac.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R31-zerace/R31C5-prix-de-tulle.html",
+      "resultats-et-rapports/2007/12/2007-12-25/R31-zerace/R31C9-prix-des-genets.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-constant-hervieu.html",
+        "R1C2-prix-de-brive-la-gaillarde.html",
+        "R1C3-prix-d-issoudun.html",
+        "R1C4-prix-de-salvanhac.html",
+        "R1C5-prix-de-tulle.html",
+        "R1C6-prix-du-touquet.html",
+        "R1C7-prix-de-gambais.html",
+        "R1C8-prix-de-bricquebec.html",
+        "R1C9-prix-des-genets.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-constant-hervieu.html",
+        "R2C2-prix-de-brive-la-gaillarde.html",
+        "R2C3-prix-d-issoudun.html",
+        "R2C4-prix-de-salvanhac.html",
+        "R2C5-prix-de-tulle.html",
+        "R2C6-prix-du-touquet.html",
+        "R2C7-prix-de-gambais.html",
+        "R2C8-prix-de-bricquebec.html",
+        "R2C9-prix-des-genets.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-constant-hervieu.html",
+        "R31C2-prix-de-brive-la-gaillarde.html",
+        "R31C3-prix-d-issoudun.html",
+        "R31C4-prix-de-salvanhac.html",
+        "R31C5-prix-de-tulle.html",
+        "R31C6-prix-du-touquet.html",
+        "R31C7-prix-de-gambais.html",
+        "R31C8-prix-de-bricquebec.html",
+        "R31C9-prix-des-genets.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:15.038106Z"
+}

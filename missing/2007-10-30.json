@@ -1,0 +1,89 @@
+{
+  "date": "2007-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-30",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-30/2007-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-30/R1-fontainebleau/R1C2-prix-de-port-marly.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R1-fontainebleau/R1C5-prix-de-vaux-sur-seine.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R1-fontainebleau/R1C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C1-prix-bagheera.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C2-prix-de-port-marly.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C3-prix-de-jouy-le-moutier.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C4-prix-tantieme.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C5-prix-de-vaux-sur-seine.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R2-lyon-parilly/R2C7-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R31-zerace/R31C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R70-velodrome-marseille/R70C2-prix-de-port-marly.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R70-velodrome-marseille/R70C3-prix-de-jouy-le-moutier.html",
+      "resultats-et-rapports/2007/10/2007-10-30/R70-velodrome-marseille/R70C4-prix-tantieme.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-velodrome-marseille"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-bagheera.html",
+        "R1C2-prix-de-port-marly.html",
+        "R1C3-prix-de-jouy-le-moutier.html",
+        "R1C4-prix-tantieme.html",
+        "R1C5-prix-de-vaux-sur-seine.html",
+        "R1C6-prix-duc-d-alburquerque.html",
+        "R1C7-prix-de-la-croix-verte.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-bagheera.html",
+        "R2C2-prix-de-port-marly.html",
+        "R2C3-prix-de-jouy-le-moutier.html",
+        "R2C4-prix-tantieme.html",
+        "R2C5-prix-de-vaux-sur-seine.html",
+        "R2C6-prix-duc-d-alburquerque.html",
+        "R2C7-prix-de-la-croix-verte.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-bagheera.html",
+        "R3C2-prix-de-port-marly.html",
+        "R3C3-prix-de-jouy-le-moutier.html",
+        "R3C4-prix-tantieme.html",
+        "R3C5-prix-de-vaux-sur-seine.html",
+        "R3C6-prix-duc-d-alburquerque.html",
+        "R3C7-prix-de-la-croix-verte.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-bagheera.html",
+        "R31C2-prix-de-port-marly.html",
+        "R31C3-prix-de-jouy-le-moutier.html",
+        "R31C4-prix-tantieme.html",
+        "R31C5-prix-de-vaux-sur-seine.html",
+        "R31C6-prix-duc-d-alburquerque.html",
+        "R31C7-prix-de-la-croix-verte.html"
+      ],
+      "R70-velodrome-marseille": [
+        "R70C1-prix-bagheera.html",
+        "R70C2-prix-de-port-marly.html",
+        "R70C3-prix-de-jouy-le-moutier.html",
+        "R70C4-prix-tantieme.html",
+        "R70C5-prix-de-vaux-sur-seine.html",
+        "R70C6-prix-duc-d-alburquerque.html",
+        "R70C7-prix-de-la-croix-verte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:51.843776Z"
+}

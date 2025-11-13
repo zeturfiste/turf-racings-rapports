@@ -1,0 +1,58 @@
+{
+  "date": "2012-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-16",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-16/2012-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-16/R2-lyon-parilly/R2C7-prix-de-menton.html",
+      "resultats-et-rapports/2012/11/2012-11-16/R3-vincennes/R3C1-prix-de-beauce.html",
+      "resultats-et-rapports/2012/11/2012-11-16/R3-vincennes/R3C6-prix-du-valois.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-lyon-parilly",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-beauce.html",
+        "R1C2-prix-choute.html",
+        "R1C3-prix-des-archers-de-compiegne.html",
+        "R1C4-prix-bernard-secly-prix-du-champ-de-mars.html",
+        "R1C5-grand-steeple-chase-cross-country-de-compiegne.html",
+        "R1C6-prix-du-valois.html",
+        "R1C7-prix-de-menton.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-beauce.html",
+        "R2C2-prix-choute.html",
+        "R2C3-prix-des-archers-de-compiegne.html",
+        "R2C4-prix-bernard-secly-prix-du-champ-de-mars.html",
+        "R2C5-grand-steeple-chase-cross-country-de-compiegne.html",
+        "R2C6-prix-du-valois.html",
+        "R2C7-prix-de-menton.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-beauce.html",
+        "R3C2-prix-choute.html",
+        "R3C3-prix-des-archers-de-compiegne.html",
+        "R3C4-prix-bernard-secly-prix-du-champ-de-mars.html",
+        "R3C5-grand-steeple-chase-cross-country-de-compiegne.html",
+        "R3C6-prix-du-valois.html",
+        "R3C7-prix-de-menton.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:00.623557Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2017-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-11",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-11/2017-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-11/R3-la-capelle/R3C5-prix-des-liserons-prix-locatech-artifice.html",
+      "resultats-et-rapports/2017/08/2017-08-11/R3-la-capelle/R3C6-prix-des-niveoles.html",
+      "resultats-et-rapports/2017/08/2017-08-11/R4-clairefontaine/R4C1-prix-des-verveines.html",
+      "resultats-et-rapports/2017/08/2017-08-11/R5-moulins/R5C3-prix-equin-normand-prix-des-soucis.html",
+      "resultats-et-rapports/2017/08/2017-08-11/R7-cagnes-sur-mer/R7C1-prix-des-verveines.html",
+      "resultats-et-rapports/2017/08/2017-08-11/R7-cagnes-sur-mer/R7C7-prix-des-ifs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-la-capelle",
+      "R4-clairefontaine",
+      "R5-moulins",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-verveines.html",
+        "R1C2-prix-bruno-coquatrix.html",
+        "R1C3-prix-equin-normand-prix-des-soucis.html",
+        "R1C4-prix-conseil-des-chevaux-de-normandie-prix-des-coreopsis.html",
+        "R1C5-prix-des-liserons-prix-locatech-artifice.html",
+        "R1C6-prix-des-niveoles.html",
+        "R1C7-prix-des-ifs.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-des-verveines.html",
+        "R3C2-prix-bruno-coquatrix.html",
+        "R3C3-prix-equin-normand-prix-des-soucis.html",
+        "R3C4-prix-conseil-des-chevaux-de-normandie-prix-des-coreopsis.html",
+        "R3C5-prix-des-liserons-prix-locatech-artifice.html",
+        "R3C6-prix-des-niveoles.html",
+        "R3C7-prix-des-ifs.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-des-verveines.html",
+        "R4C2-prix-bruno-coquatrix.html",
+        "R4C3-prix-equin-normand-prix-des-soucis.html",
+        "R4C4-prix-conseil-des-chevaux-de-normandie-prix-des-coreopsis.html",
+        "R4C5-prix-des-liserons-prix-locatech-artifice.html",
+        "R4C6-prix-des-niveoles.html",
+        "R4C7-prix-des-ifs.html"
+      ],
+      "R5-moulins": [
+        "R5C1-prix-des-verveines.html",
+        "R5C2-prix-bruno-coquatrix.html",
+        "R5C3-prix-equin-normand-prix-des-soucis.html",
+        "R5C4-prix-conseil-des-chevaux-de-normandie-prix-des-coreopsis.html",
+        "R5C5-prix-des-liserons-prix-locatech-artifice.html",
+        "R5C6-prix-des-niveoles.html",
+        "R5C7-prix-des-ifs.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-des-verveines.html",
+        "R7C2-prix-bruno-coquatrix.html",
+        "R7C3-prix-equin-normand-prix-des-soucis.html",
+        "R7C4-prix-conseil-des-chevaux-de-normandie-prix-des-coreopsis.html",
+        "R7C5-prix-des-liserons-prix-locatech-artifice.html",
+        "R7C6-prix-des-niveoles.html",
+        "R7C7-prix-des-ifs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:00.242800Z"
+}

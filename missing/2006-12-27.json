@@ -1,0 +1,60 @@
+{
+  "date": "2006-12-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-27",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-27/2006-12-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-bordeaux-le-bouscat",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-prail.html",
+        "R1C2-prix-du-houlbec.html",
+        "R1C3-prix-de-precolette.html",
+        "R1C4-prix-de-taverny.html",
+        "R1C5-prix-du-haras-du-pin.html",
+        "R1C6-prix-des-perrets.html",
+        "R1C7-prix-des-trois-mares.html",
+        "R1C8-prix-du-pays-d-ouche.html",
+        "R1C9-prix-de-l-aigle.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-prail.html",
+        "R2C2-prix-du-houlbec.html",
+        "R2C3-prix-de-precolette.html",
+        "R2C4-prix-de-taverny.html",
+        "R2C5-prix-du-haras-du-pin.html",
+        "R2C6-prix-des-perrets.html",
+        "R2C7-prix-des-trois-mares.html",
+        "R2C8-prix-du-pays-d-ouche.html",
+        "R2C9-prix-de-l-aigle.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-prail.html",
+        "R21C2-prix-du-houlbec.html",
+        "R21C3-prix-de-precolette.html",
+        "R21C4-prix-de-taverny.html",
+        "R21C5-prix-du-haras-du-pin.html",
+        "R21C6-prix-des-perrets.html",
+        "R21C7-prix-des-trois-mares.html",
+        "R21C8-prix-du-pays-d-ouche.html",
+        "R21C9-prix-de-l-aigle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:05.397817Z"
+}

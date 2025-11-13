@@ -1,0 +1,67 @@
+{
+  "date": "2018-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-06",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-06/2018-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-06/R1-chantilly/R1C3-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R1-chantilly/R1C5-prix-du-clos-du-prieure.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C1-prix-du-bois-bonnet.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C2-prix-anabaa.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C3-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C4-prix-darshaan.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C5-prix-du-clos-du-prieure.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R2-nantes/R2C6-prix-montjeu.html",
+      "resultats-et-rapports/2018/03/2018-03-06/R3-cagnes-sur-mer/R3C7-prix-du-pays-soissonnais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nantes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-bonnet.html",
+        "R1C2-prix-anabaa.html",
+        "R1C3-prix-du-pays-de-france.html",
+        "R1C4-prix-darshaan.html",
+        "R1C5-prix-du-clos-du-prieure.html",
+        "R1C6-prix-montjeu.html",
+        "R1C7-prix-du-pays-soissonnais.html",
+        "R1C8-prix-du-pays-valoisien.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-bois-bonnet.html",
+        "R2C2-prix-anabaa.html",
+        "R2C3-prix-du-pays-de-france.html",
+        "R2C4-prix-darshaan.html",
+        "R2C5-prix-du-clos-du-prieure.html",
+        "R2C6-prix-montjeu.html",
+        "R2C7-prix-du-pays-soissonnais.html",
+        "R2C8-prix-du-pays-valoisien.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-bois-bonnet.html",
+        "R3C2-prix-anabaa.html",
+        "R3C3-prix-du-pays-de-france.html",
+        "R3C4-prix-darshaan.html",
+        "R3C5-prix-du-clos-du-prieure.html",
+        "R3C6-prix-montjeu.html",
+        "R3C7-prix-du-pays-soissonnais.html",
+        "R3C8-prix-du-pays-valoisien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:05.153709Z"
+}

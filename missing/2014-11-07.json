@@ -1,0 +1,81 @@
+{
+  "date": "2014-11-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/11/2014-11-07",
+    "date_html": "resultats-et-rapports/2014/11/2014-11-07/2014-11-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/11/2014-11-07/R1-chantilly/R1C4-prix-de-l-allee-dubar.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R1-chantilly/R1C8-prix-du-paddock.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R2-maure-de-bretagne/R2C2-prix-du-rond-alicante.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R2-maure-de-bretagne/R2C8-prix-du-paddock.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R3-lyon-la-soie/R3C4-prix-de-l-allee-dubar.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R3-lyon-la-soie/R3C5-prix-de-montpensier.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R3-lyon-la-soie/R3C7-prix-du-manege.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R4-vincennes/R4C1-prix-du-rond-du-chene.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R4-vincennes/R4C3-prix-des-garennes.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R4-vincennes/R4C4-prix-de-l-allee-dubar.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R4-vincennes/R4C5-prix-de-montpensier.html",
+      "resultats-et-rapports/2014/11/2014-11-07/R4-vincennes/R4C7-prix-du-manege.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-maure-de-bretagne",
+      "R3-lyon-la-soie",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-rond-du-chene.html",
+        "R1C2-prix-du-rond-alicante.html",
+        "R1C3-prix-des-garennes.html",
+        "R1C4-prix-de-l-allee-dubar.html",
+        "R1C5-prix-de-montpensier.html",
+        "R1C6-prix-de-l-allee-camelia.html",
+        "R1C7-prix-du-manege.html",
+        "R1C8-prix-du-paddock.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-du-rond-du-chene.html",
+        "R2C2-prix-du-rond-alicante.html",
+        "R2C3-prix-des-garennes.html",
+        "R2C4-prix-de-l-allee-dubar.html",
+        "R2C5-prix-de-montpensier.html",
+        "R2C6-prix-de-l-allee-camelia.html",
+        "R2C7-prix-du-manege.html",
+        "R2C8-prix-du-paddock.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-du-rond-du-chene.html",
+        "R3C2-prix-du-rond-alicante.html",
+        "R3C3-prix-des-garennes.html",
+        "R3C4-prix-de-l-allee-dubar.html",
+        "R3C5-prix-de-montpensier.html",
+        "R3C6-prix-de-l-allee-camelia.html",
+        "R3C7-prix-du-manege.html",
+        "R3C8-prix-du-paddock.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-rond-du-chene.html",
+        "R4C2-prix-du-rond-alicante.html",
+        "R4C3-prix-des-garennes.html",
+        "R4C4-prix-de-l-allee-dubar.html",
+        "R4C5-prix-de-montpensier.html",
+        "R4C6-prix-de-l-allee-camelia.html",
+        "R4C7-prix-du-manege.html",
+        "R4C8-prix-du-paddock.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:41.088157Z"
+}

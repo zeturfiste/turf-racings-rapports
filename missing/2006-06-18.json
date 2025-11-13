@@ -1,0 +1,108 @@
+{
+  "date": "2006-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-18",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-18/2006-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-18/R3-argentan/R3C6-prix-albert-viel-prix-capucine.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C2-prix-karibea-hotels-prix-d-essai.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C3-prix-de-grosbois.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C4-prix-rene-balliere.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C5-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C6-prix-albert-viel-prix-capucine.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R11-allianz-arena-munich/R11C7-prix-air-caraibes-prix-de-grasse.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R12-zentral-stadion-leipzig/R12C5-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R12-zentral-stadion-leipzig/R12C6-prix-albert-viel-prix-capucine.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R12-zentral-stadion-leipzig/R12C7-prix-air-caraibes-prix-de-grasse.html",
+      "resultats-et-rapports/2006/06/2006-06-18/R12-zentral-stadion-leipzig/R12C9-prix-de-nesles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R3-argentan",
+      "R10-franken-stadion-nuremberg",
+      "R11-allianz-arena-munich",
+      "R12-zentral-stadion-leipzig"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-raymond-fouard.html",
+        "R1C2-prix-karibea-hotels-prix-d-essai.html",
+        "R1C3-prix-de-grosbois.html",
+        "R1C4-prix-rene-balliere.html",
+        "R1C5-prix-du-president-de-la-republique.html",
+        "R1C6-prix-albert-viel-prix-capucine.html",
+        "R1C7-prix-air-caraibes-prix-de-grasse.html",
+        "R1C8-prix-xavier-de-saint-palais.html",
+        "R1C9-prix-de-nesles.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-raymond-fouard.html",
+        "R2C2-prix-karibea-hotels-prix-d-essai.html",
+        "R2C3-prix-de-grosbois.html",
+        "R2C4-prix-rene-balliere.html",
+        "R2C5-prix-du-president-de-la-republique.html",
+        "R2C6-prix-albert-viel-prix-capucine.html",
+        "R2C7-prix-air-caraibes-prix-de-grasse.html",
+        "R2C8-prix-xavier-de-saint-palais.html",
+        "R2C9-prix-de-nesles.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-raymond-fouard.html",
+        "R3C2-prix-karibea-hotels-prix-d-essai.html",
+        "R3C3-prix-de-grosbois.html",
+        "R3C4-prix-rene-balliere.html",
+        "R3C5-prix-du-president-de-la-republique.html",
+        "R3C6-prix-albert-viel-prix-capucine.html",
+        "R3C7-prix-air-caraibes-prix-de-grasse.html",
+        "R3C8-prix-xavier-de-saint-palais.html",
+        "R3C9-prix-de-nesles.html"
+      ],
+      "R10-franken-stadion-nuremberg": [
+        "R10C1-prix-raymond-fouard.html",
+        "R10C2-prix-karibea-hotels-prix-d-essai.html",
+        "R10C3-prix-de-grosbois.html",
+        "R10C4-prix-rene-balliere.html",
+        "R10C5-prix-du-president-de-la-republique.html",
+        "R10C6-prix-albert-viel-prix-capucine.html",
+        "R10C7-prix-air-caraibes-prix-de-grasse.html",
+        "R10C8-prix-xavier-de-saint-palais.html",
+        "R10C9-prix-de-nesles.html"
+      ],
+      "R11-allianz-arena-munich": [
+        "R11C1-prix-raymond-fouard.html",
+        "R11C2-prix-karibea-hotels-prix-d-essai.html",
+        "R11C3-prix-de-grosbois.html",
+        "R11C4-prix-rene-balliere.html",
+        "R11C5-prix-du-president-de-la-republique.html",
+        "R11C6-prix-albert-viel-prix-capucine.html",
+        "R11C7-prix-air-caraibes-prix-de-grasse.html",
+        "R11C8-prix-xavier-de-saint-palais.html",
+        "R11C9-prix-de-nesles.html"
+      ],
+      "R12-zentral-stadion-leipzig": [
+        "R12C1-prix-raymond-fouard.html",
+        "R12C2-prix-karibea-hotels-prix-d-essai.html",
+        "R12C3-prix-de-grosbois.html",
+        "R12C4-prix-rene-balliere.html",
+        "R12C5-prix-du-president-de-la-republique.html",
+        "R12C6-prix-albert-viel-prix-capucine.html",
+        "R12C7-prix-air-caraibes-prix-de-grasse.html",
+        "R12C8-prix-xavier-de-saint-palais.html",
+        "R12C9-prix-de-nesles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:10.373972Z"
+}

@@ -1,0 +1,116 @@
+{
+  "date": "2016-01-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/01/2016-01-10",
+    "date_html": "resultats-et-rapports/2016/01/2016-01-10/2016-01-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/01/2016-01-10/R2-cordemais/R2C8-prix-beachcomber-hotels-le-victoria.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R3-cagnes-sur-mer/R3C1-prix-beachcomber-hotels-royal-palm.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R3-cagnes-sur-mer/R3C9-prix-beachcomber-hotels-le-canonnier.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C1-prix-beachcomber-hotels-royal-palm.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C3-prix-beachcomber-hotels-shandrani.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C4-prix-beachcomber-hotels-trou-aux-biches.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C5-prix-beachcomber-hotels-dinarobin.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C6-prix-beachcomber-hotels-paradis.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C7-prix-beachcomber-hotels-le-mauricia.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C8-prix-beachcomber-hotels-le-victoria.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R7-cabourg/R7C9-prix-beachcomber-hotels-le-canonnier.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R8-mauquenchy/R8C1-prix-beachcomber-hotels-royal-palm.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R8-mauquenchy/R8C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R8-mauquenchy/R8C6-prix-beachcomber-hotels-paradis.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R9-saint-galmier/R9C3-prix-beachcomber-hotels-shandrani.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R9-saint-galmier/R9C4-prix-beachcomber-hotels-trou-aux-biches.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R9-saint-galmier/R9C5-prix-beachcomber-hotels-dinarobin.html",
+      "resultats-et-rapports/2016/01/2016-01-10/R9-saint-galmier/R9C7-prix-beachcomber-hotels-le-mauricia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cordemais",
+      "R3-cagnes-sur-mer",
+      "R7-cabourg",
+      "R8-mauquenchy",
+      "R9-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-beachcomber-hotels-royal-palm.html",
+        "R1C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R1C3-prix-beachcomber-hotels-shandrani.html",
+        "R1C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R1C5-prix-beachcomber-hotels-dinarobin.html",
+        "R1C6-prix-beachcomber-hotels-paradis.html",
+        "R1C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R1C8-prix-beachcomber-hotels-le-victoria.html",
+        "R1C9-prix-beachcomber-hotels-le-canonnier.html"
+      ],
+      "R2-cordemais": [
+        "R2C1-prix-beachcomber-hotels-royal-palm.html",
+        "R2C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R2C3-prix-beachcomber-hotels-shandrani.html",
+        "R2C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R2C5-prix-beachcomber-hotels-dinarobin.html",
+        "R2C6-prix-beachcomber-hotels-paradis.html",
+        "R2C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R2C8-prix-beachcomber-hotels-le-victoria.html",
+        "R2C9-prix-beachcomber-hotels-le-canonnier.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-beachcomber-hotels-royal-palm.html",
+        "R3C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R3C3-prix-beachcomber-hotels-shandrani.html",
+        "R3C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R3C5-prix-beachcomber-hotels-dinarobin.html",
+        "R3C6-prix-beachcomber-hotels-paradis.html",
+        "R3C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R3C8-prix-beachcomber-hotels-le-victoria.html",
+        "R3C9-prix-beachcomber-hotels-le-canonnier.html"
+      ],
+      "R7-cabourg": [
+        "R7C1-prix-beachcomber-hotels-royal-palm.html",
+        "R7C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R7C3-prix-beachcomber-hotels-shandrani.html",
+        "R7C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R7C5-prix-beachcomber-hotels-dinarobin.html",
+        "R7C6-prix-beachcomber-hotels-paradis.html",
+        "R7C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R7C8-prix-beachcomber-hotels-le-victoria.html",
+        "R7C9-prix-beachcomber-hotels-le-canonnier.html"
+      ],
+      "R8-mauquenchy": [
+        "R8C1-prix-beachcomber-hotels-royal-palm.html",
+        "R8C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R8C3-prix-beachcomber-hotels-shandrani.html",
+        "R8C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R8C5-prix-beachcomber-hotels-dinarobin.html",
+        "R8C6-prix-beachcomber-hotels-paradis.html",
+        "R8C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R8C8-prix-beachcomber-hotels-le-victoria.html",
+        "R8C9-prix-beachcomber-hotels-le-canonnier.html"
+      ],
+      "R9-saint-galmier": [
+        "R9C1-prix-beachcomber-hotels-royal-palm.html",
+        "R9C2-prix-mtpa-office-du-tourisme-de-l-ile-maurice.html",
+        "R9C3-prix-beachcomber-hotels-shandrani.html",
+        "R9C4-prix-beachcomber-hotels-trou-aux-biches.html",
+        "R9C5-prix-beachcomber-hotels-dinarobin.html",
+        "R9C6-prix-beachcomber-hotels-paradis.html",
+        "R9C7-prix-beachcomber-hotels-le-mauricia.html",
+        "R9C8-prix-beachcomber-hotels-le-victoria.html",
+        "R9C9-prix-beachcomber-hotels-le-canonnier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:51.568566Z"
+}

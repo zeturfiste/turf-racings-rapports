@@ -1,0 +1,98 @@
+{
+  "date": "2013-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-06",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-06/2013-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C2-prix-good-luck.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C3-prix-balbonella.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C4-prix-le-pompon.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C5-prix-de-lambourn.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C6-prix-d-andresy.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R1-maisons-laffitte/R1C8-prix-de-malton.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C2-prix-good-luck.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C3-prix-balbonella.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C4-prix-le-pompon.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C5-prix-de-lambourn.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C7-prix-de-malborough.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R2-caen/R2C8-prix-de-malton.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C2-prix-good-luck.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C3-prix-balbonella.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C4-prix-le-pompon.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C5-prix-de-lambourn.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C6-prix-d-andresy.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C7-prix-de-malborough.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R3-marseille-borely/R3C8-prix-de-malton.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C2-prix-good-luck.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C4-prix-le-pompon.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C5-prix-de-lambourn.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C6-prix-d-andresy.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C7-prix-de-malborough.html",
+      "resultats-et-rapports/2013/05/2013-05-06/R5-le-croise-laroche/R5C8-prix-de-malton.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-caen",
+      "R3-marseille-borely",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-newmarket.html",
+        "R1C2-prix-good-luck.html",
+        "R1C3-prix-balbonella.html",
+        "R1C4-prix-le-pompon.html",
+        "R1C5-prix-de-lambourn.html",
+        "R1C6-prix-d-andresy.html",
+        "R1C7-prix-de-malborough.html",
+        "R1C8-prix-de-malton.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-newmarket.html",
+        "R2C2-prix-good-luck.html",
+        "R2C3-prix-balbonella.html",
+        "R2C4-prix-le-pompon.html",
+        "R2C5-prix-de-lambourn.html",
+        "R2C6-prix-d-andresy.html",
+        "R2C7-prix-de-malborough.html",
+        "R2C8-prix-de-malton.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-newmarket.html",
+        "R3C2-prix-good-luck.html",
+        "R3C3-prix-balbonella.html",
+        "R3C4-prix-le-pompon.html",
+        "R3C5-prix-de-lambourn.html",
+        "R3C6-prix-d-andresy.html",
+        "R3C7-prix-de-malborough.html",
+        "R3C8-prix-de-malton.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-newmarket.html",
+        "R5C2-prix-good-luck.html",
+        "R5C3-prix-balbonella.html",
+        "R5C4-prix-le-pompon.html",
+        "R5C5-prix-de-lambourn.html",
+        "R5C6-prix-d-andresy.html",
+        "R5C7-prix-de-malborough.html",
+        "R5C8-prix-de-malton.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:46.182285Z"
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2019-02-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/02/2019-02-07",
+    "date_html": "resultats-et-rapports/2019/02/2019-02-07/2019-02-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/02/2019-02-07/R1-vincennes/R1C2-prix-andre-theron.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R1-vincennes/R1C4-prix-jacques-orliaguet.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R1-vincennes/R1C5-prix-leon-zitrone.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R1-vincennes/R1C6-prix-maurice-et-jerome-bernardet.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R1-vincennes/R1C7-prix-jean-paul-bertrand.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R2-chantilly/R2C1-prix-guy-lux.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R2-chantilly/R2C3-prix-dominique-savary.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R2-chantilly/R2C5-prix-leon-zitrone.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R2-chantilly/R2C6-prix-maurice-et-jerome-bernardet.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R2-chantilly/R2C8-prix-gerard-brami.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C1-prix-guy-lux.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C2-prix-andre-theron.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C3-prix-dominique-savary.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C4-prix-jacques-orliaguet.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C5-prix-leon-zitrone.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C7-prix-jean-paul-bertrand.html",
+      "resultats-et-rapports/2019/02/2019-02-07/R4-graignes/R4C8-prix-gerard-brami.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-guy-lux.html",
+        "R1C2-prix-andre-theron.html",
+        "R1C3-prix-dominique-savary.html",
+        "R1C4-prix-jacques-orliaguet.html",
+        "R1C5-prix-leon-zitrone.html",
+        "R1C6-prix-maurice-et-jerome-bernardet.html",
+        "R1C7-prix-jean-paul-bertrand.html",
+        "R1C8-prix-gerard-brami.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-guy-lux.html",
+        "R2C2-prix-andre-theron.html",
+        "R2C3-prix-dominique-savary.html",
+        "R2C4-prix-jacques-orliaguet.html",
+        "R2C5-prix-leon-zitrone.html",
+        "R2C6-prix-maurice-et-jerome-bernardet.html",
+        "R2C7-prix-jean-paul-bertrand.html",
+        "R2C8-prix-gerard-brami.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-guy-lux.html",
+        "R4C2-prix-andre-theron.html",
+        "R4C3-prix-dominique-savary.html",
+        "R4C4-prix-jacques-orliaguet.html",
+        "R4C5-prix-leon-zitrone.html",
+        "R4C6-prix-maurice-et-jerome-bernardet.html",
+        "R4C7-prix-jean-paul-bertrand.html",
+        "R4C8-prix-gerard-brami.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:53.170142Z"
+}

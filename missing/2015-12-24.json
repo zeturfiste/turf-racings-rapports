@@ -1,0 +1,52 @@
+{
+  "date": "2015-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-24",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-24/2015-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-24/R1-vincennes/R1C1-prix-de-mortemart.html",
+      "resultats-et-rapports/2015/12/2015-12-24/R1-vincennes/R1C7-prix-de-jonvelle.html",
+      "resultats-et-rapports/2015/12/2015-12-24/R2-cagnes-sur-mer/R2C4-prix-de-sable-sur-sarthe.html",
+      "resultats-et-rapports/2015/12/2015-12-24/R2-cagnes-sur-mer/R2C6-prix-de-gencay.html",
+      "resultats-et-rapports/2015/12/2015-12-24/R2-cagnes-sur-mer/R2C8-prix-des-iris.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-mortemart.html",
+        "R1C2-prix-d-amboise.html",
+        "R1C3-prix-de-compiegne.html",
+        "R1C4-prix-de-sable-sur-sarthe.html",
+        "R1C5-prix-de-joigny.html",
+        "R1C6-prix-de-gencay.html",
+        "R1C7-prix-de-jonvelle.html",
+        "R1C8-prix-des-iris.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-mortemart.html",
+        "R2C2-prix-d-amboise.html",
+        "R2C3-prix-de-compiegne.html",
+        "R2C4-prix-de-sable-sur-sarthe.html",
+        "R2C5-prix-de-joigny.html",
+        "R2C6-prix-de-gencay.html",
+        "R2C7-prix-de-jonvelle.html",
+        "R2C8-prix-des-iris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:48.165624Z"
+}

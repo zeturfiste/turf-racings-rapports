@@ -1,0 +1,122 @@
+{
+  "date": "2006-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-26",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-26/2006-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-26/R11-saint-cloud/R11C2-prix-urgence.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R21-zerace/R21C5-prix-de-saint-guenault.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R21-zerace/R21C6-prix-de-l-hippodrome-d-amiens.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R21-zerace/R21C7-prix-les-alluets-le-roi.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R30-steaua-bucarest/R30C3-prix-du-bourbonnais.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R30-steaua-bucarest/R30C7-prix-les-alluets-le-roi.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R30-steaua-bucarest/R30C8-prix-de-l-hippodrome-du-croise-laroche.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R31-estadio-de-la-luz-lisbonne/R31C1-prix-diatome.html",
+      "resultats-et-rapports/2006/09/2006-09-26/R32-felix-bollaert-lens/R32C2-prix-urgence.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-vincennes",
+      "R11-saint-cloud",
+      "R21-zerace",
+      "R30-steaua-bucarest",
+      "R31-estadio-de-la-luz-lisbonne",
+      "R32-felix-bollaert-lens",
+      "R33-emirates-stadium-arsenal"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-diatome.html",
+        "R1C2-prix-urgence.html",
+        "R1C3-prix-du-bourbonnais.html",
+        "R1C4-prix-coronation.html",
+        "R1C5-prix-de-saint-guenault.html",
+        "R1C6-prix-de-l-hippodrome-d-amiens.html",
+        "R1C7-prix-les-alluets-le-roi.html",
+        "R1C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-diatome.html",
+        "R2C2-prix-urgence.html",
+        "R2C3-prix-du-bourbonnais.html",
+        "R2C4-prix-coronation.html",
+        "R2C5-prix-de-saint-guenault.html",
+        "R2C6-prix-de-l-hippodrome-d-amiens.html",
+        "R2C7-prix-les-alluets-le-roi.html",
+        "R2C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R11-saint-cloud": [
+        "R11C1-prix-diatome.html",
+        "R11C2-prix-urgence.html",
+        "R11C3-prix-du-bourbonnais.html",
+        "R11C4-prix-coronation.html",
+        "R11C5-prix-de-saint-guenault.html",
+        "R11C6-prix-de-l-hippodrome-d-amiens.html",
+        "R11C7-prix-les-alluets-le-roi.html",
+        "R11C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-diatome.html",
+        "R21C2-prix-urgence.html",
+        "R21C3-prix-du-bourbonnais.html",
+        "R21C4-prix-coronation.html",
+        "R21C5-prix-de-saint-guenault.html",
+        "R21C6-prix-de-l-hippodrome-d-amiens.html",
+        "R21C7-prix-les-alluets-le-roi.html",
+        "R21C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R30-steaua-bucarest": [
+        "R30C1-prix-diatome.html",
+        "R30C2-prix-urgence.html",
+        "R30C3-prix-du-bourbonnais.html",
+        "R30C4-prix-coronation.html",
+        "R30C5-prix-de-saint-guenault.html",
+        "R30C6-prix-de-l-hippodrome-d-amiens.html",
+        "R30C7-prix-les-alluets-le-roi.html",
+        "R30C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R31-estadio-de-la-luz-lisbonne": [
+        "R31C1-prix-diatome.html",
+        "R31C2-prix-urgence.html",
+        "R31C3-prix-du-bourbonnais.html",
+        "R31C4-prix-coronation.html",
+        "R31C5-prix-de-saint-guenault.html",
+        "R31C6-prix-de-l-hippodrome-d-amiens.html",
+        "R31C7-prix-les-alluets-le-roi.html",
+        "R31C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R32-felix-bollaert-lens": [
+        "R32C1-prix-diatome.html",
+        "R32C2-prix-urgence.html",
+        "R32C3-prix-du-bourbonnais.html",
+        "R32C4-prix-coronation.html",
+        "R32C5-prix-de-saint-guenault.html",
+        "R32C6-prix-de-l-hippodrome-d-amiens.html",
+        "R32C7-prix-les-alluets-le-roi.html",
+        "R32C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ],
+      "R33-emirates-stadium-arsenal": [
+        "R33C1-prix-diatome.html",
+        "R33C2-prix-urgence.html",
+        "R33C3-prix-du-bourbonnais.html",
+        "R33C4-prix-coronation.html",
+        "R33C5-prix-de-saint-guenault.html",
+        "R33C6-prix-de-l-hippodrome-d-amiens.html",
+        "R33C7-prix-les-alluets-le-roi.html",
+        "R33C8-prix-de-l-hippodrome-du-croise-laroche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:38.490054Z"
+}

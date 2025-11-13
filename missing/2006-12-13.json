@@ -1,0 +1,102 @@
+{
+  "date": "2006-12-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-13",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-13/2006-12-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C1-prix-de-decize.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C2-prix-urgent.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C3-prix-de-sautron-gr-a.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C4-prix-de-sautron-gr-b.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C5-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C6-prix-de-chambord.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C7-prix-du-neubourg.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C8-prix-de-gretz.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R21-zerace/R21C9-prix-de-richelieu.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C1-prix-de-decize.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C2-prix-urgent.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C3-prix-de-sautron-gr-a.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C4-prix-de-sautron-gr-b.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C5-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C6-prix-de-chambord.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C7-prix-du-neubourg.html",
+      "resultats-et-rapports/2006/12/2006-12-13/R30-erwood-park-blackburn/R30C9-prix-de-richelieu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R21-zerace",
+      "R30-erwood-park-blackburn",
+      "R31-parc-des-princes-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-decize.html",
+        "R1C2-prix-urgent.html",
+        "R1C3-prix-de-sautron-gr-a.html",
+        "R1C4-prix-de-sautron-gr-b.html",
+        "R1C5-prix-de-marennes-oleron.html",
+        "R1C6-prix-de-chambord.html",
+        "R1C7-prix-du-neubourg.html",
+        "R1C8-prix-de-gretz.html",
+        "R1C9-prix-de-richelieu.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-decize.html",
+        "R2C2-prix-urgent.html",
+        "R2C3-prix-de-sautron-gr-a.html",
+        "R2C4-prix-de-sautron-gr-b.html",
+        "R2C5-prix-de-marennes-oleron.html",
+        "R2C6-prix-de-chambord.html",
+        "R2C7-prix-du-neubourg.html",
+        "R2C8-prix-de-gretz.html",
+        "R2C9-prix-de-richelieu.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-decize.html",
+        "R21C2-prix-urgent.html",
+        "R21C3-prix-de-sautron-gr-a.html",
+        "R21C4-prix-de-sautron-gr-b.html",
+        "R21C5-prix-de-marennes-oleron.html",
+        "R21C6-prix-de-chambord.html",
+        "R21C7-prix-du-neubourg.html",
+        "R21C8-prix-de-gretz.html",
+        "R21C9-prix-de-richelieu.html"
+      ],
+      "R30-erwood-park-blackburn": [
+        "R30C1-prix-de-decize.html",
+        "R30C2-prix-urgent.html",
+        "R30C3-prix-de-sautron-gr-a.html",
+        "R30C4-prix-de-sautron-gr-b.html",
+        "R30C5-prix-de-marennes-oleron.html",
+        "R30C6-prix-de-chambord.html",
+        "R30C7-prix-du-neubourg.html",
+        "R30C8-prix-de-gretz.html",
+        "R30C9-prix-de-richelieu.html"
+      ],
+      "R31-parc-des-princes-paris": [
+        "R31C1-prix-de-decize.html",
+        "R31C2-prix-urgent.html",
+        "R31C3-prix-de-sautron-gr-a.html",
+        "R31C4-prix-de-sautron-gr-b.html",
+        "R31C5-prix-de-marennes-oleron.html",
+        "R31C6-prix-de-chambord.html",
+        "R31C7-prix-du-neubourg.html",
+        "R31C8-prix-de-gretz.html",
+        "R31C9-prix-de-richelieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:01.617446Z"
+}

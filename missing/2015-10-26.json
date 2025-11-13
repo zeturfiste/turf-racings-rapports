@@ -1,0 +1,78 @@
+{
+  "date": "2015-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-26",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-26/2015-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-26/R1-marseille-borely/R1C7-prix-de-l-association-des-jockeys.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R2-compiegne/R2C2-prix-india-song.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R2-compiegne/R2C4-prix-gyptis.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R2-compiegne/R2C5-prix-des-societaires.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R2-compiegne/R2C6-prix-saby-zaraya.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R2-compiegne/R2C7-prix-de-l-association-des-jockeys.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R3-toulouse/R3C2-prix-india-song.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R3-toulouse/R3C3-prix-twig.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R3-toulouse/R3C6-prix-saby-zaraya.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R5-le-croise-laroche/R5C1-grand-handicap-de-marseille.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R5-le-croise-laroche/R5C3-prix-twig.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R5-le-croise-laroche/R5C6-prix-saby-zaraya.html",
+      "resultats-et-rapports/2015/10/2015-10-26/R5-le-croise-laroche/R5C7-prix-de-l-association-des-jockeys.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-compiegne",
+      "R3-toulouse",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-grand-handicap-de-marseille.html",
+        "R1C2-prix-india-song.html",
+        "R1C3-prix-twig.html",
+        "R1C4-prix-gyptis.html",
+        "R1C5-prix-des-societaires.html",
+        "R1C6-prix-saby-zaraya.html",
+        "R1C7-prix-de-l-association-des-jockeys.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-grand-handicap-de-marseille.html",
+        "R2C2-prix-india-song.html",
+        "R2C3-prix-twig.html",
+        "R2C4-prix-gyptis.html",
+        "R2C5-prix-des-societaires.html",
+        "R2C6-prix-saby-zaraya.html",
+        "R2C7-prix-de-l-association-des-jockeys.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-grand-handicap-de-marseille.html",
+        "R3C2-prix-india-song.html",
+        "R3C3-prix-twig.html",
+        "R3C4-prix-gyptis.html",
+        "R3C5-prix-des-societaires.html",
+        "R3C6-prix-saby-zaraya.html",
+        "R3C7-prix-de-l-association-des-jockeys.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-grand-handicap-de-marseille.html",
+        "R5C2-prix-india-song.html",
+        "R5C3-prix-twig.html",
+        "R5C4-prix-gyptis.html",
+        "R5C5-prix-des-societaires.html",
+        "R5C6-prix-saby-zaraya.html",
+        "R5C7-prix-de-l-association-des-jockeys.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:30.895860Z"
+}

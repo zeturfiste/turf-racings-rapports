@@ -1,0 +1,117 @@
+{
+  "date": "2012-05-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-28",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-28/2012-05-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-28/R1-saint-cloud/R1C1-prix-de-bourgogne.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R2-reims/R2C2-prix-de-rueil.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R2-reims/R2C4-prix-avenger.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R2-reims/R2C7-prix-de-malmaison.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R3-salon-de-provence/R3C3-prix-double-rose.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R3-salon-de-provence/R3C6-prix-marsyas.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R3-salon-de-provence/R3C7-prix-de-malmaison.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R3-salon-de-provence/R3C8-prix-d-auvergne.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R4-saint-malo/R4C1-prix-de-bourgogne.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R4-saint-malo/R4C2-prix-de-rueil.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R4-saint-malo/R4C5-prix-corrida.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R4-saint-malo/R4C6-prix-marsyas.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C2-prix-de-rueil.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C3-prix-double-rose.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C4-prix-avenger.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C5-prix-corrida.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C6-prix-marsyas.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R5-senonnes/R5C7-prix-de-malmaison.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C1-prix-de-bourgogne.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C2-prix-de-rueil.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C3-prix-double-rose.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C4-prix-avenger.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C5-prix-corrida.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C6-prix-marsyas.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C7-prix-de-malmaison.html",
+      "resultats-et-rapports/2012/05/2012-05-28/R6-montauban/R6C8-prix-d-auvergne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-reims",
+      "R3-salon-de-provence",
+      "R4-saint-malo",
+      "R5-senonnes",
+      "R6-montauban"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-bourgogne.html",
+        "R1C2-prix-de-rueil.html",
+        "R1C3-prix-double-rose.html",
+        "R1C4-prix-avenger.html",
+        "R1C5-prix-corrida.html",
+        "R1C6-prix-marsyas.html",
+        "R1C7-prix-de-malmaison.html",
+        "R1C8-prix-d-auvergne.html"
+      ],
+      "R2-reims": [
+        "R2C1-prix-de-bourgogne.html",
+        "R2C2-prix-de-rueil.html",
+        "R2C3-prix-double-rose.html",
+        "R2C4-prix-avenger.html",
+        "R2C5-prix-corrida.html",
+        "R2C6-prix-marsyas.html",
+        "R2C7-prix-de-malmaison.html",
+        "R2C8-prix-d-auvergne.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-bourgogne.html",
+        "R3C2-prix-de-rueil.html",
+        "R3C3-prix-double-rose.html",
+        "R3C4-prix-avenger.html",
+        "R3C5-prix-corrida.html",
+        "R3C6-prix-marsyas.html",
+        "R3C7-prix-de-malmaison.html",
+        "R3C8-prix-d-auvergne.html"
+      ],
+      "R4-saint-malo": [
+        "R4C1-prix-de-bourgogne.html",
+        "R4C2-prix-de-rueil.html",
+        "R4C3-prix-double-rose.html",
+        "R4C4-prix-avenger.html",
+        "R4C5-prix-corrida.html",
+        "R4C6-prix-marsyas.html",
+        "R4C7-prix-de-malmaison.html",
+        "R4C8-prix-d-auvergne.html"
+      ],
+      "R5-senonnes": [
+        "R5C1-prix-de-bourgogne.html",
+        "R5C2-prix-de-rueil.html",
+        "R5C3-prix-double-rose.html",
+        "R5C4-prix-avenger.html",
+        "R5C5-prix-corrida.html",
+        "R5C6-prix-marsyas.html",
+        "R5C7-prix-de-malmaison.html",
+        "R5C8-prix-d-auvergne.html"
+      ],
+      "R6-montauban": [
+        "R6C1-prix-de-bourgogne.html",
+        "R6C2-prix-de-rueil.html",
+        "R6C3-prix-double-rose.html",
+        "R6C4-prix-avenger.html",
+        "R6C5-prix-corrida.html",
+        "R6C6-prix-marsyas.html",
+        "R6C7-prix-de-malmaison.html",
+        "R6C8-prix-d-auvergne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:07.004157Z"
+}

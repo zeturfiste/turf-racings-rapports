@@ -1,0 +1,77 @@
+{
+  "date": "2018-07-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-05",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-05/2018-07-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-05/R4-vichy/R4C3-prix-de-la-gare-saint-lazare.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R4-vichy/R4C4-prix-de-la-place-saint-augustin.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R4-vichy/R4C6-prix-de-menilmontant.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R4-vichy/R4C8-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R5-paris-longchamp/R5C2-prix-de-la-place-du-trocadero.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R5-paris-longchamp/R5C4-prix-de-la-place-saint-augustin.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R5-paris-longchamp/R5C6-prix-de-menilmontant.html",
+      "resultats-et-rapports/2018/07/2018-07-05/R5-paris-longchamp/R5C8-prix-de-la-madeleine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-dax",
+      "R4-vichy",
+      "R5-paris-longchamp"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-porte-de-charenton.html",
+        "R1C2-prix-de-la-place-du-trocadero.html",
+        "R1C3-prix-de-la-gare-saint-lazare.html",
+        "R1C4-prix-de-la-place-saint-augustin.html",
+        "R1C5-prix-de-la-tour-eiffel.html",
+        "R1C6-prix-de-menilmontant.html",
+        "R1C7-prix-du-pantheon.html",
+        "R1C8-prix-de-la-madeleine.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-de-la-porte-de-charenton.html",
+        "R3C2-prix-de-la-place-du-trocadero.html",
+        "R3C3-prix-de-la-gare-saint-lazare.html",
+        "R3C4-prix-de-la-place-saint-augustin.html",
+        "R3C5-prix-de-la-tour-eiffel.html",
+        "R3C6-prix-de-menilmontant.html",
+        "R3C7-prix-du-pantheon.html",
+        "R3C8-prix-de-la-madeleine.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-de-la-porte-de-charenton.html",
+        "R4C2-prix-de-la-place-du-trocadero.html",
+        "R4C3-prix-de-la-gare-saint-lazare.html",
+        "R4C4-prix-de-la-place-saint-augustin.html",
+        "R4C5-prix-de-la-tour-eiffel.html",
+        "R4C6-prix-de-menilmontant.html",
+        "R4C7-prix-du-pantheon.html",
+        "R4C8-prix-de-la-madeleine.html"
+      ],
+      "R5-paris-longchamp": [
+        "R5C1-prix-de-la-porte-de-charenton.html",
+        "R5C2-prix-de-la-place-du-trocadero.html",
+        "R5C3-prix-de-la-gare-saint-lazare.html",
+        "R5C4-prix-de-la-place-saint-augustin.html",
+        "R5C5-prix-de-la-tour-eiffel.html",
+        "R5C6-prix-de-menilmontant.html",
+        "R5C7-prix-du-pantheon.html",
+        "R5C8-prix-de-la-madeleine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:45.526543Z"
+}

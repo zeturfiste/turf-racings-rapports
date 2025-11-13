@@ -1,0 +1,57 @@
+{
+  "date": "2018-01-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/01/2018-01-13",
+    "date_html": "resultats-et-rapports/2018/01/2018-01-13/2018-01-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/01/2018-01-13/R1-vincennes/R1C9-prix-de-francheville-la-barre.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C3-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C4-prix-du-forez.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C5-prix-de-croix.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C6-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C7-prix-de-saint-flour.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C8-prix-les-seniors-des-courses.html",
+      "resultats-et-rapports/2018/01/2018-01-13/R3-cagnes-sur-mer/R3C9-prix-de-francheville-la-barre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montreuil.html",
+        "R1C2-prix-de-joinville.html",
+        "R1C3-prix-de-mauquenchy.html",
+        "R1C4-prix-du-forez.html",
+        "R1C5-prix-de-croix.html",
+        "R1C6-prix-maurice-de-gheest.html",
+        "R1C7-prix-de-saint-flour.html",
+        "R1C8-prix-les-seniors-des-courses.html",
+        "R1C9-prix-de-francheville-la-barre.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-montreuil.html",
+        "R3C2-prix-de-joinville.html",
+        "R3C3-prix-de-mauquenchy.html",
+        "R3C4-prix-du-forez.html",
+        "R3C5-prix-de-croix.html",
+        "R3C6-prix-maurice-de-gheest.html",
+        "R3C7-prix-de-saint-flour.html",
+        "R3C8-prix-les-seniors-des-courses.html",
+        "R3C9-prix-de-francheville-la-barre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:51.904821Z"
+}

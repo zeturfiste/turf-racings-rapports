@@ -1,0 +1,81 @@
+{
+  "date": "2011-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-17",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-17/2011-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-17/R2-saint-cloud/R2C6-prix-de-bacqueville.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R2-saint-cloud/R2C7-prix-de-valenciennes.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R3-reims/R3C3-prix-de-l-ile-d-oleron.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R3-reims/R3C4-prix-atlantic.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R3-reims/R3C6-prix-de-bacqueville.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R3-reims/R3C8-prix-d-oraison.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C1-prix-de-boissy-saint-leger.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C2-prix-d-annecy.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C3-prix-de-l-ile-d-oleron.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C4-prix-atlantic.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C6-prix-de-bacqueville.html",
+      "resultats-et-rapports/2011/11/2011-11-17/R4-salon-de-provence/R4C7-prix-de-valenciennes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-saint-cloud",
+      "R3-reims",
+      "R4-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-boissy-saint-leger.html",
+        "R1C2-prix-d-annecy.html",
+        "R1C3-prix-de-l-ile-d-oleron.html",
+        "R1C4-prix-atlantic.html",
+        "R1C5-prix-de-vitteaux.html",
+        "R1C6-prix-de-bacqueville.html",
+        "R1C7-prix-de-valenciennes.html",
+        "R1C8-prix-d-oraison.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-de-boissy-saint-leger.html",
+        "R2C2-prix-d-annecy.html",
+        "R2C3-prix-de-l-ile-d-oleron.html",
+        "R2C4-prix-atlantic.html",
+        "R2C5-prix-de-vitteaux.html",
+        "R2C6-prix-de-bacqueville.html",
+        "R2C7-prix-de-valenciennes.html",
+        "R2C8-prix-d-oraison.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-de-boissy-saint-leger.html",
+        "R3C2-prix-d-annecy.html",
+        "R3C3-prix-de-l-ile-d-oleron.html",
+        "R3C4-prix-atlantic.html",
+        "R3C5-prix-de-vitteaux.html",
+        "R3C6-prix-de-bacqueville.html",
+        "R3C7-prix-de-valenciennes.html",
+        "R3C8-prix-d-oraison.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-de-boissy-saint-leger.html",
+        "R4C2-prix-d-annecy.html",
+        "R4C3-prix-de-l-ile-d-oleron.html",
+        "R4C4-prix-atlantic.html",
+        "R4C5-prix-de-vitteaux.html",
+        "R4C6-prix-de-bacqueville.html",
+        "R4C7-prix-de-valenciennes.html",
+        "R4C8-prix-d-oraison.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:15.083948Z"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2011-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-12",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-12/2011-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-12/R1-maisons-laffitte/R1C5-prix-kasteel.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R1-maisons-laffitte/R1C7-prix-de-marly-la-ville.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R1-maisons-laffitte/R1C8-prix-de-la-vallee-de-l-yvette.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R2-les-sables-d-olonne/R2C1-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R2-les-sables-d-olonne/R2C2-prix-gris-perle.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R2-les-sables-d-olonne/R2C3-prix-eclipse.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R2-les-sables-d-olonne/R2C6-prix-glorieuse.html",
+      "resultats-et-rapports/2011/10/2011-10-12/R3-enghien-soisy/R3C1-prix-de-la-vallee-de-chevreuse.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-les-sables-d-olonne",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-la-vallee-de-chevreuse.html",
+        "R1C2-prix-gris-perle.html",
+        "R1C3-prix-eclipse.html",
+        "R1C4-prix-de-saint-cyr.html",
+        "R1C5-prix-kasteel.html",
+        "R1C6-prix-glorieuse.html",
+        "R1C7-prix-de-marly-la-ville.html",
+        "R1C8-prix-de-la-vallee-de-l-yvette.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-de-la-vallee-de-chevreuse.html",
+        "R2C2-prix-gris-perle.html",
+        "R2C3-prix-eclipse.html",
+        "R2C4-prix-de-saint-cyr.html",
+        "R2C5-prix-kasteel.html",
+        "R2C6-prix-glorieuse.html",
+        "R2C7-prix-de-marly-la-ville.html",
+        "R2C8-prix-de-la-vallee-de-l-yvette.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-vallee-de-chevreuse.html",
+        "R3C2-prix-gris-perle.html",
+        "R3C3-prix-eclipse.html",
+        "R3C4-prix-de-saint-cyr.html",
+        "R3C5-prix-kasteel.html",
+        "R3C6-prix-glorieuse.html",
+        "R3C7-prix-de-marly-la-ville.html",
+        "R3C8-prix-de-la-vallee-de-l-yvette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:04.789574Z"
+}

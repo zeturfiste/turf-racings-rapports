@@ -1,0 +1,93 @@
+{
+  "date": "2013-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-14",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-14/2013-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-14/R1-toulouse/R1C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R1-toulouse/R1C8-prix-nostalgie.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R2-le-croise-laroche/R2C4-derby-du-languedoc.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R2-le-croise-laroche/R2C5-prix-de-pechbonnieu.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R2-le-croise-laroche/R2C6-prix-de-curzay.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R2-le-croise-laroche/R2C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R2-le-croise-laroche/R2C8-prix-nostalgie.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R4-laval/R4C7-prix-alain-grimaux.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R4-laval/R4C8-prix-nostalgie.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R6-marseille-vivaux/R6C3-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R6-marseille-vivaux/R6C5-prix-de-pechbonnieu.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R6-marseille-vivaux/R6C6-prix-de-curzay.html",
+      "resultats-et-rapports/2013/06/2013-06-14/R6-marseille-vivaux/R6C8-prix-nostalgie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-le-croise-laroche",
+      "R3-vincennes",
+      "R4-laval",
+      "R6-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-de-la-croix-daurade.html",
+        "R1C2-prix-de-l-association-des-proprietaires-du-galop-du-sud-ouest.html",
+        "R1C3-prix-la-depeche-du-midi.html",
+        "R1C4-derby-du-languedoc.html",
+        "R1C5-prix-de-pechbonnieu.html",
+        "R1C6-prix-de-curzay.html",
+        "R1C7-prix-alain-grimaux.html",
+        "R1C8-prix-nostalgie.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-de-la-croix-daurade.html",
+        "R2C2-prix-de-l-association-des-proprietaires-du-galop-du-sud-ouest.html",
+        "R2C3-prix-la-depeche-du-midi.html",
+        "R2C4-derby-du-languedoc.html",
+        "R2C5-prix-de-pechbonnieu.html",
+        "R2C6-prix-de-curzay.html",
+        "R2C7-prix-alain-grimaux.html",
+        "R2C8-prix-nostalgie.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-croix-daurade.html",
+        "R3C2-prix-de-l-association-des-proprietaires-du-galop-du-sud-ouest.html",
+        "R3C3-prix-la-depeche-du-midi.html",
+        "R3C4-derby-du-languedoc.html",
+        "R3C5-prix-de-pechbonnieu.html",
+        "R3C6-prix-de-curzay.html",
+        "R3C7-prix-alain-grimaux.html",
+        "R3C8-prix-nostalgie.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-croix-daurade.html",
+        "R4C2-prix-de-l-association-des-proprietaires-du-galop-du-sud-ouest.html",
+        "R4C3-prix-la-depeche-du-midi.html",
+        "R4C4-derby-du-languedoc.html",
+        "R4C5-prix-de-pechbonnieu.html",
+        "R4C6-prix-de-curzay.html",
+        "R4C7-prix-alain-grimaux.html",
+        "R4C8-prix-nostalgie.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-de-la-croix-daurade.html",
+        "R6C2-prix-de-l-association-des-proprietaires-du-galop-du-sud-ouest.html",
+        "R6C3-prix-la-depeche-du-midi.html",
+        "R6C4-derby-du-languedoc.html",
+        "R6C5-prix-de-pechbonnieu.html",
+        "R6C6-prix-de-curzay.html",
+        "R6C7-prix-alain-grimaux.html",
+        "R6C8-prix-nostalgie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:59.314540Z"
+}

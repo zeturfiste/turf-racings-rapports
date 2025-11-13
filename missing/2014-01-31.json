@@ -1,0 +1,63 @@
+{
+  "date": "2014-01-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/01/2014-01-31",
+    "date_html": "resultats-et-rapports/2014/01/2014-01-31/2014-01-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/01/2014-01-31/R3-cagnes-sur-mer/R3C4-prix-duralock-prix-frederik-henry-prince.html",
+      "resultats-et-rapports/2014/01/2014-01-31/R3-cagnes-sur-mer/R3C5-prix-camille-duboscq.html",
+      "resultats-et-rapports/2014/01/2014-01-31/R3-cagnes-sur-mer/R3C6-prix-pmu-buffet-des-gares-lourdes-biarritz-prix-de-rontignon.html",
+      "resultats-et-rapports/2014/01/2014-01-31/R3-cagnes-sur-mer/R3C7-prix-pmu-bar-du-rond-point-hossegor-prix-de-la-croix-du-prince.html",
+      "resultats-et-rapports/2014/01/2014-01-31/R3-cagnes-sur-mer/R3C8-prix-de-sevignacq.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-chantilly",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-sarrance.html",
+        "R1C2-prix-allianz-agence-olivier-ournac-prix-annie-hutton.html",
+        "R1C3-prix-guy-lefrant.html",
+        "R1C4-prix-duralock-prix-frederik-henry-prince.html",
+        "R1C5-prix-camille-duboscq.html",
+        "R1C6-prix-pmu-buffet-des-gares-lourdes-biarritz-prix-de-rontignon.html",
+        "R1C7-prix-pmu-bar-du-rond-point-hossegor-prix-de-la-croix-du-prince.html",
+        "R1C8-prix-de-sevignacq.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-sarrance.html",
+        "R2C2-prix-allianz-agence-olivier-ournac-prix-annie-hutton.html",
+        "R2C3-prix-guy-lefrant.html",
+        "R2C4-prix-duralock-prix-frederik-henry-prince.html",
+        "R2C5-prix-camille-duboscq.html",
+        "R2C6-prix-pmu-buffet-des-gares-lourdes-biarritz-prix-de-rontignon.html",
+        "R2C7-prix-pmu-bar-du-rond-point-hossegor-prix-de-la-croix-du-prince.html",
+        "R2C8-prix-de-sevignacq.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-sarrance.html",
+        "R3C2-prix-allianz-agence-olivier-ournac-prix-annie-hutton.html",
+        "R3C3-prix-guy-lefrant.html",
+        "R3C4-prix-duralock-prix-frederik-henry-prince.html",
+        "R3C5-prix-camille-duboscq.html",
+        "R3C6-prix-pmu-buffet-des-gares-lourdes-biarritz-prix-de-rontignon.html",
+        "R3C7-prix-pmu-bar-du-rond-point-hossegor-prix-de-la-croix-du-prince.html",
+        "R3C8-prix-de-sevignacq.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:08.437737Z"
+}

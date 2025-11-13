@@ -1,0 +1,85 @@
+{
+  "date": "2016-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-23",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-23/2016-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-23/R1-la-teste-de-buch/R1C5-prix-la-sorellina.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R1-la-teste-de-buch/R1C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R1-la-teste-de-buch/R1C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R1-la-teste-de-buch/R1C8-prix-foies-gras-biraben.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R2-reims/R2C1-prix-d-aquitaine.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R2-reims/R2C8-prix-foies-gras-biraben.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R3-auteuil/R3C2-prix-nissan-ags.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R3-auteuil/R3C8-prix-foies-gras-biraben.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C1-prix-d-aquitaine.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C2-prix-nissan-ags.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C3-prix-du-bassin-d-arcachon.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C4-prix-de-la-source-des-abatilles.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C5-prix-la-sorellina.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2016/06/2016-06-23/R4-caen/R4C8-prix-foies-gras-biraben.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-teste-de-buch",
+      "R2-reims",
+      "R3-auteuil",
+      "R4-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-la-teste-de-buch": [
+        "R1C1-prix-d-aquitaine.html",
+        "R1C2-prix-nissan-ags.html",
+        "R1C3-prix-du-bassin-d-arcachon.html",
+        "R1C4-prix-de-la-source-des-abatilles.html",
+        "R1C5-prix-la-sorellina.html",
+        "R1C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R1C7-prix-champagne-duval-leroy.html",
+        "R1C8-prix-foies-gras-biraben.html"
+      ],
+      "R2-reims": [
+        "R2C1-prix-d-aquitaine.html",
+        "R2C2-prix-nissan-ags.html",
+        "R2C3-prix-du-bassin-d-arcachon.html",
+        "R2C4-prix-de-la-source-des-abatilles.html",
+        "R2C5-prix-la-sorellina.html",
+        "R2C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R2C7-prix-champagne-duval-leroy.html",
+        "R2C8-prix-foies-gras-biraben.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-d-aquitaine.html",
+        "R3C2-prix-nissan-ags.html",
+        "R3C3-prix-du-bassin-d-arcachon.html",
+        "R3C4-prix-de-la-source-des-abatilles.html",
+        "R3C5-prix-la-sorellina.html",
+        "R3C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R3C7-prix-champagne-duval-leroy.html",
+        "R3C8-prix-foies-gras-biraben.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-d-aquitaine.html",
+        "R4C2-prix-nissan-ags.html",
+        "R4C3-prix-du-bassin-d-arcachon.html",
+        "R4C4-prix-de-la-source-des-abatilles.html",
+        "R4C5-prix-la-sorellina.html",
+        "R4C6-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R4C7-prix-champagne-duval-leroy.html",
+        "R4C8-prix-foies-gras-biraben.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:41.708723Z"
+}

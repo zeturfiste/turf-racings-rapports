@@ -1,0 +1,72 @@
+{
+  "date": "2017-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-09",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-09/2017-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C1-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C2-prix-des-trois-massifs.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C3-prix-de-l-essonne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C4-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C6-prix-du-haras-de-montgermont.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R1-fontainebleau/R1C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R3-caen/R3C1-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R3-caen/R3C2-prix-des-trois-massifs.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R3-caen/R3C3-prix-de-l-essonne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R3-caen/R3C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R3-caen/R3C8-prix-du-loiret.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R5-laval/R5C1-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R5-laval/R5C4-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2017/03/2017-03-09/R5-laval/R5C5-prix-maurice-caillault.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-caen",
+      "R5-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-seine-et-marne.html",
+        "R1C2-prix-des-trois-massifs.html",
+        "R1C3-prix-de-l-essonne.html",
+        "R1C4-prix-de-la-dame-jouanne.html",
+        "R1C5-prix-maurice-caillault.html",
+        "R1C6-prix-du-haras-de-montgermont.html",
+        "R1C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R1C8-prix-du-loiret.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-seine-et-marne.html",
+        "R3C2-prix-des-trois-massifs.html",
+        "R3C3-prix-de-l-essonne.html",
+        "R3C4-prix-de-la-dame-jouanne.html",
+        "R3C5-prix-maurice-caillault.html",
+        "R3C6-prix-du-haras-de-montgermont.html",
+        "R3C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R3C8-prix-du-loiret.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-de-la-seine-et-marne.html",
+        "R5C2-prix-des-trois-massifs.html",
+        "R5C3-prix-de-l-essonne.html",
+        "R5C4-prix-de-la-dame-jouanne.html",
+        "R5C5-prix-maurice-caillault.html",
+        "R5C6-prix-du-haras-de-montgermont.html",
+        "R5C7-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R5C8-prix-du-loiret.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:04.684175Z"
+}

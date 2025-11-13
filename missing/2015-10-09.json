@@ -1,0 +1,93 @@
+{
+  "date": "2015-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-09",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-09/2015-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C4-prix-du-ranelagh.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C5-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C6-prix-de-l-allee-du-mail.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C7-prix-du-clos-des-vignes.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R1-chantilly/R1C8-prix-de-la-butte-ronde.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C4-prix-du-ranelagh.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C5-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C6-prix-de-l-allee-du-mail.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C7-prix-du-clos-des-vignes.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R2-le-mont-saint-michel/R2C8-prix-de-la-butte-ronde.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R3-marseille-vivaux/R3C7-prix-du-clos-des-vignes.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C4-prix-du-ranelagh.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C5-prix-de-la-boucle-d-en-haut.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C6-prix-de-l-allee-du-mail.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C7-prix-du-clos-des-vignes.html",
+      "resultats-et-rapports/2015/10/2015-10-09/R4-vincennes/R4C8-prix-de-la-butte-ronde.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-le-mont-saint-michel",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-sandricourt.html",
+        "R1C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+        "R1C3-criterium-de-vitesse.html",
+        "R1C4-prix-du-ranelagh.html",
+        "R1C5-prix-de-la-boucle-d-en-haut.html",
+        "R1C6-prix-de-l-allee-du-mail.html",
+        "R1C7-prix-du-clos-des-vignes.html",
+        "R1C8-prix-de-la-butte-ronde.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-de-sandricourt.html",
+        "R2C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+        "R2C3-criterium-de-vitesse.html",
+        "R2C4-prix-du-ranelagh.html",
+        "R2C5-prix-de-la-boucle-d-en-haut.html",
+        "R2C6-prix-de-l-allee-du-mail.html",
+        "R2C7-prix-du-clos-des-vignes.html",
+        "R2C8-prix-de-la-butte-ronde.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-sandricourt.html",
+        "R3C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+        "R3C3-criterium-de-vitesse.html",
+        "R3C4-prix-du-ranelagh.html",
+        "R3C5-prix-de-la-boucle-d-en-haut.html",
+        "R3C6-prix-de-l-allee-du-mail.html",
+        "R3C7-prix-du-clos-des-vignes.html",
+        "R3C8-prix-de-la-butte-ronde.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-sandricourt.html",
+        "R4C2-prix-du-20e-anniversaire-du-jumelage-avec-epsom.html",
+        "R4C3-criterium-de-vitesse.html",
+        "R4C4-prix-du-ranelagh.html",
+        "R4C5-prix-de-la-boucle-d-en-haut.html",
+        "R4C6-prix-de-l-allee-du-mail.html",
+        "R4C7-prix-du-clos-des-vignes.html",
+        "R4C8-prix-de-la-butte-ronde.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:25.046877Z"
+}

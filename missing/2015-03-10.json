@@ -1,0 +1,66 @@
+{
+  "date": "2015-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-10",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-10/2015-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-10/R1-saint-cloud/R1C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C1-prix-dushka.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C4-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C5-prix-de-magny-en-vexin.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C6-prix-canot.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C7-prix-de-chaumont-en-vexin.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R2-fontainebleau/R2C8-prix-de-la-bigorre.html",
+      "resultats-et-rapports/2015/03/2015-03-10/R3-cagnes-sur-mer/R3C2-prix-durbar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-fontainebleau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dushka.html",
+        "R1C2-prix-durbar.html",
+        "R1C3-prix-du-pays-basque.html",
+        "R1C4-prix-de-frauenfeld.html",
+        "R1C5-prix-de-magny-en-vexin.html",
+        "R1C6-prix-canot.html",
+        "R1C7-prix-de-chaumont-en-vexin.html",
+        "R1C8-prix-de-la-bigorre.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-dushka.html",
+        "R2C2-prix-durbar.html",
+        "R2C3-prix-du-pays-basque.html",
+        "R2C4-prix-de-frauenfeld.html",
+        "R2C5-prix-de-magny-en-vexin.html",
+        "R2C6-prix-canot.html",
+        "R2C7-prix-de-chaumont-en-vexin.html",
+        "R2C8-prix-de-la-bigorre.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-dushka.html",
+        "R3C2-prix-durbar.html",
+        "R3C3-prix-du-pays-basque.html",
+        "R3C4-prix-de-frauenfeld.html",
+        "R3C5-prix-de-magny-en-vexin.html",
+        "R3C6-prix-canot.html",
+        "R3C7-prix-de-chaumont-en-vexin.html",
+        "R3C8-prix-de-la-bigorre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:14.504425Z"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2016-03-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-16",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-16/2016-03-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-16/R1-laval/R1C3-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R1-laval/R1C6-prix-www-lamayenne-fr.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R1-laval/R1C7-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R1-laval/R1C8-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C2-prix-de-la-federation-anjou-maine-centre.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C3-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C6-prix-www-lamayenne-fr.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R3-enghien-soisy/R3C8-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R4-amiens/R4C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R4-amiens/R4C3-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R4-amiens/R4C4-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2016/03/2016-03-16/R4-amiens/R4C7-prix-www-hippodrome-laval-fr.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-enghien-soisy",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R1C2-prix-de-la-federation-anjou-maine-centre.html",
+        "R1C3-prix-france-bleu-mayenne.html",
+        "R1C4-prix-de-la-societe-du-cheval-francais.html",
+        "R1C5-prix-du-comite-departemental-du-tourisme.html",
+        "R1C6-prix-www-lamayenne-fr.html",
+        "R1C7-prix-www-hippodrome-laval-fr.html",
+        "R1C8-prix-des-trois-provinces.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R3C2-prix-de-la-federation-anjou-maine-centre.html",
+        "R3C3-prix-france-bleu-mayenne.html",
+        "R3C4-prix-de-la-societe-du-cheval-francais.html",
+        "R3C5-prix-du-comite-departemental-du-tourisme.html",
+        "R3C6-prix-www-lamayenne-fr.html",
+        "R3C7-prix-www-hippodrome-laval-fr.html",
+        "R3C8-prix-des-trois-provinces.html"
+      ],
+      "R4-amiens": [
+        "R4C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R4C2-prix-de-la-federation-anjou-maine-centre.html",
+        "R4C3-prix-france-bleu-mayenne.html",
+        "R4C4-prix-de-la-societe-du-cheval-francais.html",
+        "R4C5-prix-du-comite-departemental-du-tourisme.html",
+        "R4C6-prix-www-lamayenne-fr.html",
+        "R4C7-prix-www-hippodrome-laval-fr.html",
+        "R4C8-prix-des-trois-provinces.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:08.296064Z"
+}

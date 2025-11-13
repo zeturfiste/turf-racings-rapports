@@ -1,0 +1,48 @@
+{
+  "date": "2005-11-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-19",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-19/2005-11-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-castelnaudary.html",
+        "R1C2-prix-edmond-henry.html",
+        "R1C3-prix-rtl-prix-de-bretagne.html",
+        "R1C4-prix-de-l-ile-de-re.html",
+        "R1C5-prix-atlantic.html",
+        "R1C6-prix-de-chenonceaux.html",
+        "R1C7-prix-maurice-thevenon.html",
+        "R1C8-prix-de-ranville.html",
+        "R1C9-prix-de-guerande.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-castelnaudary.html",
+        "R2C2-prix-edmond-henry.html",
+        "R2C3-prix-rtl-prix-de-bretagne.html",
+        "R2C4-prix-de-l-ile-de-re.html",
+        "R2C5-prix-atlantic.html",
+        "R2C6-prix-de-chenonceaux.html",
+        "R2C7-prix-maurice-thevenon.html",
+        "R2C8-prix-de-ranville.html",
+        "R2C9-prix-de-guerande.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:34.146257Z"
+}

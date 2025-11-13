@@ -1,0 +1,68 @@
+{
+  "date": "2014-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/05/2014-05-19",
+    "date_html": "resultats-et-rapports/2014/05/2014-05-19/2014-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/05/2014-05-19/R1-saint-cloud/R1C1-prix-sicarelle.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R1-saint-cloud/R1C2-prix-amour-drake.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R1-saint-cloud/R1C7-prix-d-herbeville.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R2-caen/R2C1-prix-sicarelle.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R2-caen/R2C4-prix-de-rolleboise.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R2-caen/R2C5-prix-de-pontarme.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R2-caen/R2C6-prix-de-montmagny.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R3-marseille-vivaux/R3C2-prix-amour-drake.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R3-marseille-vivaux/R3C7-prix-d-herbeville.html",
+      "resultats-et-rapports/2014/05/2014-05-19/R3-marseille-vivaux/R3C8-prix-de-courteilles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-sicarelle.html",
+        "R1C2-prix-amour-drake.html",
+        "R1C3-prix-du-mandinet.html",
+        "R1C4-prix-de-rolleboise.html",
+        "R1C5-prix-de-pontarme.html",
+        "R1C6-prix-de-montmagny.html",
+        "R1C7-prix-d-herbeville.html",
+        "R1C8-prix-de-courteilles.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-sicarelle.html",
+        "R2C2-prix-amour-drake.html",
+        "R2C3-prix-du-mandinet.html",
+        "R2C4-prix-de-rolleboise.html",
+        "R2C5-prix-de-pontarme.html",
+        "R2C6-prix-de-montmagny.html",
+        "R2C7-prix-d-herbeville.html",
+        "R2C8-prix-de-courteilles.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-sicarelle.html",
+        "R3C2-prix-amour-drake.html",
+        "R3C3-prix-du-mandinet.html",
+        "R3C4-prix-de-rolleboise.html",
+        "R3C5-prix-de-pontarme.html",
+        "R3C6-prix-de-montmagny.html",
+        "R3C7-prix-d-herbeville.html",
+        "R3C8-prix-de-courteilles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:42.308592Z"
+}

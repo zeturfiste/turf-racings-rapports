@@ -1,0 +1,67 @@
+{
+  "date": "2012-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-06",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-06/2012-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-06/R1-auteuil/R1C1-prix-grandak.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R1-auteuil/R1C4-prix-guy-hunault.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R1-auteuil/R1C6-prix-murat.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R2-compiegne/R2C6-prix-murat.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R3-vincennes/R3C2-prix-le-touquet.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R3-vincennes/R3C3-prix-de-pepinvast.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R3-vincennes/R3C4-prix-guy-hunault.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R3-vincennes/R3C6-prix-murat.html",
+      "resultats-et-rapports/2012/04/2012-04-06/R3-vincennes/R3C8-prix-arthur-veil-picard.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-compiegne",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-grandak.html",
+        "R1C2-prix-le-touquet.html",
+        "R1C3-prix-de-pepinvast.html",
+        "R1C4-prix-guy-hunault.html",
+        "R1C5-prix-champaubert.html",
+        "R1C6-prix-murat.html",
+        "R1C7-prix-the-coyote.html",
+        "R1C8-prix-arthur-veil-picard.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-grandak.html",
+        "R2C2-prix-le-touquet.html",
+        "R2C3-prix-de-pepinvast.html",
+        "R2C4-prix-guy-hunault.html",
+        "R2C5-prix-champaubert.html",
+        "R2C6-prix-murat.html",
+        "R2C7-prix-the-coyote.html",
+        "R2C8-prix-arthur-veil-picard.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-grandak.html",
+        "R3C2-prix-le-touquet.html",
+        "R3C3-prix-de-pepinvast.html",
+        "R3C4-prix-guy-hunault.html",
+        "R3C5-prix-champaubert.html",
+        "R3C6-prix-murat.html",
+        "R3C7-prix-the-coyote.html",
+        "R3C8-prix-arthur-veil-picard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:50.239572Z"
+}

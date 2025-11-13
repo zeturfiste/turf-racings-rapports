@@ -1,0 +1,74 @@
+{
+  "date": "2015-04-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-30",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-30/2015-04-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-30/R1-auteuil/R1C1-prix-jean-de-la-rochefoucauld.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R1-auteuil/R1C2-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R1-auteuil/R1C5-prix-de-pau.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R1-auteuil/R1C6-prix-regalia.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R1-auteuil/R1C8-prix-andrea.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C1-prix-jean-de-la-rochefoucauld.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C2-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C3-grande-course-de-haies-de-printemps.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C4-prix-maubourguet.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C6-prix-regalia.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C7-prix-vanille.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R2-chartres/R2C8-prix-andrea.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R3-strasbourg/R3C1-prix-jean-de-la-rochefoucauld.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R3-strasbourg/R3C2-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R3-strasbourg/R3C5-prix-de-pau.html",
+      "resultats-et-rapports/2015/04/2015-04-30/R3-strasbourg/R3C6-prix-regalia.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-chartres",
+      "R3-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-de-la-rochefoucauld.html",
+        "R1C2-prix-wild-monarch-pouliches.html",
+        "R1C3-grande-course-de-haies-de-printemps.html",
+        "R1C4-prix-maubourguet.html",
+        "R1C5-prix-de-pau.html",
+        "R1C6-prix-regalia.html",
+        "R1C7-prix-vanille.html",
+        "R1C8-prix-andrea.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-jean-de-la-rochefoucauld.html",
+        "R2C2-prix-wild-monarch-pouliches.html",
+        "R2C3-grande-course-de-haies-de-printemps.html",
+        "R2C4-prix-maubourguet.html",
+        "R2C5-prix-de-pau.html",
+        "R2C6-prix-regalia.html",
+        "R2C7-prix-vanille.html",
+        "R2C8-prix-andrea.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-jean-de-la-rochefoucauld.html",
+        "R3C2-prix-wild-monarch-pouliches.html",
+        "R3C3-grande-course-de-haies-de-printemps.html",
+        "R3C4-prix-maubourguet.html",
+        "R3C5-prix-de-pau.html",
+        "R3C6-prix-regalia.html",
+        "R3C7-prix-vanille.html",
+        "R3C8-prix-andrea.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:30.598975Z"
+}

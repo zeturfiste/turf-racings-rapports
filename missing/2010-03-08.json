@@ -1,0 +1,134 @@
+{
+  "date": "2010-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/03/2010-03-08",
+    "date_html": "resultats-et-rapports/2010/03/2010-03-08/2010-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/03/2010-03-08/R1-saint-cloud/R1C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R1-saint-cloud/R1C3-prix-gazala.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R2-caen/R2C2-prix-youth.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R2-caen/R2C4-prix-de-chatou.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R2-caen/R2C5-prix-worden.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R2-caen/R2C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R4-agen/R4C2-prix-youth.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R4-agen/R4C3-prix-gazala.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R4-agen/R4C8-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R5-hyeres/R5C4-prix-de-chatou.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R5-hyeres/R5C5-prix-worden.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R5-hyeres/R5C8-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C2-prix-youth.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C4-prix-de-chatou.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C7-handicap-de-basse-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R6-le-croise-laroche/R6C8-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C2-prix-youth.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C3-prix-gazala.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C4-prix-de-chatou.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C5-prix-worden.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C7-handicap-de-basse-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R31-zerace/R31C8-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C3-prix-gazala.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C4-prix-de-chatou.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C5-prix-worden.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C7-handicap-de-basse-normandie.html",
+      "resultats-et-rapports/2010/03/2010-03-08/R70-stade-francis-le-basser-laval/R70C8-handicap-de-haute-normandie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R4-agen",
+      "R5-hyeres",
+      "R6-le-croise-laroche",
+      "R31-zerace",
+      "R70-stade-francis-le-basser-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-handicap-de-l-ile-de-france.html",
+        "R1C2-prix-youth.html",
+        "R1C3-prix-gazala.html",
+        "R1C4-prix-de-chatou.html",
+        "R1C5-prix-worden.html",
+        "R1C6-prix-du-vesinet.html",
+        "R1C7-handicap-de-basse-normandie.html",
+        "R1C8-handicap-de-haute-normandie.html"
+      ],
+      "R2-caen": [
+        "R2C1-handicap-de-l-ile-de-france.html",
+        "R2C2-prix-youth.html",
+        "R2C3-prix-gazala.html",
+        "R2C4-prix-de-chatou.html",
+        "R2C5-prix-worden.html",
+        "R2C6-prix-du-vesinet.html",
+        "R2C7-handicap-de-basse-normandie.html",
+        "R2C8-handicap-de-haute-normandie.html"
+      ],
+      "R4-agen": [
+        "R4C1-handicap-de-l-ile-de-france.html",
+        "R4C2-prix-youth.html",
+        "R4C3-prix-gazala.html",
+        "R4C4-prix-de-chatou.html",
+        "R4C5-prix-worden.html",
+        "R4C6-prix-du-vesinet.html",
+        "R4C7-handicap-de-basse-normandie.html",
+        "R4C8-handicap-de-haute-normandie.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-handicap-de-l-ile-de-france.html",
+        "R5C2-prix-youth.html",
+        "R5C3-prix-gazala.html",
+        "R5C4-prix-de-chatou.html",
+        "R5C5-prix-worden.html",
+        "R5C6-prix-du-vesinet.html",
+        "R5C7-handicap-de-basse-normandie.html",
+        "R5C8-handicap-de-haute-normandie.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-handicap-de-l-ile-de-france.html",
+        "R6C2-prix-youth.html",
+        "R6C3-prix-gazala.html",
+        "R6C4-prix-de-chatou.html",
+        "R6C5-prix-worden.html",
+        "R6C6-prix-du-vesinet.html",
+        "R6C7-handicap-de-basse-normandie.html",
+        "R6C8-handicap-de-haute-normandie.html"
+      ],
+      "R31-zerace": [
+        "R31C1-handicap-de-l-ile-de-france.html",
+        "R31C2-prix-youth.html",
+        "R31C3-prix-gazala.html",
+        "R31C4-prix-de-chatou.html",
+        "R31C5-prix-worden.html",
+        "R31C6-prix-du-vesinet.html",
+        "R31C7-handicap-de-basse-normandie.html",
+        "R31C8-handicap-de-haute-normandie.html"
+      ],
+      "R70-stade-francis-le-basser-laval": [
+        "R70C1-handicap-de-l-ile-de-france.html",
+        "R70C2-prix-youth.html",
+        "R70C3-prix-gazala.html",
+        "R70C4-prix-de-chatou.html",
+        "R70C5-prix-worden.html",
+        "R70C6-prix-du-vesinet.html",
+        "R70C7-handicap-de-basse-normandie.html",
+        "R70C8-handicap-de-haute-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:45.475744Z"
+}

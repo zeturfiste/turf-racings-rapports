@@ -1,0 +1,70 @@
+{
+  "date": "2017-03-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-01",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-01/2017-03-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-01/R1-enghien-soisy/R1C1-prix-de-sedan.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R1-enghien-soisy/R1C2-prix-de-contrexeville.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R1-enghien-soisy/R1C5-prix-des-cotes-d-armor.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R1-enghien-soisy/R1C7-prix-de-chennevieres.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R3-deauville/R3C4-prix-d-herblay.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R3-deauville/R3C6-prix-de-l-alene-d-or.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R3-deauville/R3C7-prix-de-chennevieres.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R5-mauquenchy/R5C3-prix-de-lure.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R5-mauquenchy/R5C4-prix-d-herblay.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R5-mauquenchy/R5C5-prix-des-cotes-d-armor.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R5-mauquenchy/R5C6-prix-de-l-alene-d-or.html",
+      "resultats-et-rapports/2017/03/2017-03-01/R5-mauquenchy/R5C7-prix-de-chennevieres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-deauville",
+      "R5-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-sedan.html",
+        "R1C2-prix-de-contrexeville.html",
+        "R1C3-prix-de-lure.html",
+        "R1C4-prix-d-herblay.html",
+        "R1C5-prix-des-cotes-d-armor.html",
+        "R1C6-prix-de-l-alene-d-or.html",
+        "R1C7-prix-de-chennevieres.html",
+        "R1C8-prix-de-marennes.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-sedan.html",
+        "R3C2-prix-de-contrexeville.html",
+        "R3C3-prix-de-lure.html",
+        "R3C4-prix-d-herblay.html",
+        "R3C5-prix-des-cotes-d-armor.html",
+        "R3C6-prix-de-l-alene-d-or.html",
+        "R3C7-prix-de-chennevieres.html",
+        "R3C8-prix-de-marennes.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-de-sedan.html",
+        "R5C2-prix-de-contrexeville.html",
+        "R5C3-prix-de-lure.html",
+        "R5C4-prix-d-herblay.html",
+        "R5C5-prix-des-cotes-d-armor.html",
+        "R5C6-prix-de-l-alene-d-or.html",
+        "R5C7-prix-de-chennevieres.html",
+        "R5C8-prix-de-marennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:02.433187Z"
+}

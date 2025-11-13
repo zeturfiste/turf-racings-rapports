@@ -1,0 +1,46 @@
+{
+  "date": "2005-07-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-04",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-04/2005-07-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-dieppe-maritime-prix-des-fondettes.html",
+        "R1C2-prix-toshiba-prix-du-pin.html",
+        "R1C3-prix-auchan-dieppe-prix-des-falaises.html",
+        "R1C4-prix-region-haute-normandie.html",
+        "R1C5-prix-dream-well.html",
+        "R1C6-prix-sainte-marine.html",
+        "R1C7-prix-davigel-prix-remy-mouquet.html",
+        "R1C8-prix-francois-boutin.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-dieppe-maritime-prix-des-fondettes.html",
+        "R2C2-prix-toshiba-prix-du-pin.html",
+        "R2C3-prix-auchan-dieppe-prix-des-falaises.html",
+        "R2C4-prix-region-haute-normandie.html",
+        "R2C5-prix-dream-well.html",
+        "R2C6-prix-sainte-marine.html",
+        "R2C7-prix-davigel-prix-remy-mouquet.html",
+        "R2C8-prix-francois-boutin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:11.372978Z"
+}

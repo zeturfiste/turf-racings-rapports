@@ -1,0 +1,103 @@
+{
+  "date": "2017-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-06",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-06/2017-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-06/R1-vincennes/R1C6-prix-dione.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R3-angers/R3C5-prix-honoria.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R3-angers/R3C6-prix-dione.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R3-angers/R3C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R4-maisons-laffitte/R4C3-prix-lilaca.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R4-maisons-laffitte/R4C4-prix-elsa.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R4-maisons-laffitte/R4C5-prix-honoria.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R5-marseille-vivaux/R5C2-prix-charley-mills.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R5-marseille-vivaux/R5C3-prix-lilaca.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R5-marseille-vivaux/R5C4-prix-elsa.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R5-marseille-vivaux/R5C5-prix-honoria.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R5-marseille-vivaux/R5C6-prix-dione.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R8-toulouse/R8C1-prix-atropos.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R8-toulouse/R8C4-prix-elsa.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R8-toulouse/R8C6-prix-dione.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R9-mauquenchy/R9C3-prix-lilaca.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R9-mauquenchy/R9C4-prix-elsa.html",
+      "resultats-et-rapports/2017/10/2017-10-06/R9-mauquenchy/R9C7-prix-eliane-de-bellaigue.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-maisons-laffitte",
+      "R5-marseille-vivaux",
+      "R8-toulouse",
+      "R9-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-atropos.html",
+        "R1C2-prix-charley-mills.html",
+        "R1C3-prix-lilaca.html",
+        "R1C4-prix-elsa.html",
+        "R1C5-prix-honoria.html",
+        "R1C6-prix-dione.html",
+        "R1C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-atropos.html",
+        "R3C2-prix-charley-mills.html",
+        "R3C3-prix-lilaca.html",
+        "R3C4-prix-elsa.html",
+        "R3C5-prix-honoria.html",
+        "R3C6-prix-dione.html",
+        "R3C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R4-maisons-laffitte": [
+        "R4C1-prix-atropos.html",
+        "R4C2-prix-charley-mills.html",
+        "R4C3-prix-lilaca.html",
+        "R4C4-prix-elsa.html",
+        "R4C5-prix-honoria.html",
+        "R4C6-prix-dione.html",
+        "R4C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-atropos.html",
+        "R5C2-prix-charley-mills.html",
+        "R5C3-prix-lilaca.html",
+        "R5C4-prix-elsa.html",
+        "R5C5-prix-honoria.html",
+        "R5C6-prix-dione.html",
+        "R5C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-atropos.html",
+        "R8C2-prix-charley-mills.html",
+        "R8C3-prix-lilaca.html",
+        "R8C4-prix-elsa.html",
+        "R8C5-prix-honoria.html",
+        "R8C6-prix-dione.html",
+        "R8C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R9-mauquenchy": [
+        "R9C1-prix-atropos.html",
+        "R9C2-prix-charley-mills.html",
+        "R9C3-prix-lilaca.html",
+        "R9C4-prix-elsa.html",
+        "R9C5-prix-honoria.html",
+        "R9C6-prix-dione.html",
+        "R9C7-prix-eliane-de-bellaigue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:21.121902Z"
+}

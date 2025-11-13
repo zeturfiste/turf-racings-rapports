@@ -1,0 +1,112 @@
+{
+  "date": "2011-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-06",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-06/2011-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-06/R1-auteuil/R1C1-prix-rohan.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R1-auteuil/R1C2-prix-agitato.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R1-auteuil/R1C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R1-auteuil/R1C7-prix-rivoli.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R2-agen/R2C1-prix-rohan.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R2-agen/R2C3-prix-juigne.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R2-agen/R2C5-prix-robert-de-clermont-tonnerre.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R2-agen/R2C8-prix-souviens-toi.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R3-chartres/R3C1-prix-rohan.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R4-lyon-la-soie/R4C5-prix-robert-de-clermont-tonnerre.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R4-lyon-la-soie/R4C7-prix-rivoli.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R4-lyon-la-soie/R4C8-prix-souviens-toi.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R5-saint-brieuc/R5C3-prix-juigne.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R5-saint-brieuc/R5C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R5-saint-brieuc/R5C6-prix-quomodo.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R5-saint-brieuc/R5C7-prix-rivoli.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R5-saint-brieuc/R5C8-prix-souviens-toi.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R6-nantes/R6C1-prix-rohan.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R6-nantes/R6C2-prix-agitato.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R6-nantes/R6C5-prix-robert-de-clermont-tonnerre.html",
+      "resultats-et-rapports/2011/03/2011-03-06/R6-nantes/R6C8-prix-souviens-toi.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-agen",
+      "R3-chartres",
+      "R4-lyon-la-soie",
+      "R5-saint-brieuc",
+      "R6-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rohan.html",
+        "R1C2-prix-agitato.html",
+        "R1C3-prix-juigne.html",
+        "R1C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R1C5-prix-robert-de-clermont-tonnerre.html",
+        "R1C6-prix-quomodo.html",
+        "R1C7-prix-rivoli.html",
+        "R1C8-prix-souviens-toi.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-rohan.html",
+        "R2C2-prix-agitato.html",
+        "R2C3-prix-juigne.html",
+        "R2C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R2C5-prix-robert-de-clermont-tonnerre.html",
+        "R2C6-prix-quomodo.html",
+        "R2C7-prix-rivoli.html",
+        "R2C8-prix-souviens-toi.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-rohan.html",
+        "R3C2-prix-agitato.html",
+        "R3C3-prix-juigne.html",
+        "R3C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R3C5-prix-robert-de-clermont-tonnerre.html",
+        "R3C6-prix-quomodo.html",
+        "R3C7-prix-rivoli.html",
+        "R3C8-prix-souviens-toi.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-rohan.html",
+        "R4C2-prix-agitato.html",
+        "R4C3-prix-juigne.html",
+        "R4C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R4C5-prix-robert-de-clermont-tonnerre.html",
+        "R4C6-prix-quomodo.html",
+        "R4C7-prix-rivoli.html",
+        "R4C8-prix-souviens-toi.html"
+      ],
+      "R5-saint-brieuc": [
+        "R5C1-prix-rohan.html",
+        "R5C2-prix-agitato.html",
+        "R5C3-prix-juigne.html",
+        "R5C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R5C5-prix-robert-de-clermont-tonnerre.html",
+        "R5C6-prix-quomodo.html",
+        "R5C7-prix-rivoli.html",
+        "R5C8-prix-souviens-toi.html"
+      ],
+      "R6-nantes": [
+        "R6C1-prix-rohan.html",
+        "R6C2-prix-agitato.html",
+        "R6C3-prix-juigne.html",
+        "R6C4-prix-du-cheval-de-l-annee-2010-courses-elevage-prix-karcimont.html",
+        "R6C5-prix-robert-de-clermont-tonnerre.html",
+        "R6C6-prix-quomodo.html",
+        "R6C7-prix-rivoli.html",
+        "R6C8-prix-souviens-toi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:58.063494Z"
+}

@@ -1,0 +1,99 @@
+{
+  "date": "2010-07-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-30",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-30/2010-07-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-30/R1-deauville/R1C3-prix-de-la-cote-de-grace.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R2-la-teste-de-buch/R2C1-prix-d-etreham.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R2-la-teste-de-buch/R2C3-prix-de-la-cote-de-grace.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R2-la-teste-de-buch/R2C6-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R2-la-teste-de-buch/R2C7-prix-du-pre-du-roi.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R2-la-teste-de-buch/R2C8-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R3-cabourg/R3C1-prix-d-etreham.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R3-cabourg/R3C5-prix-du-carrousel.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R3-cabourg/R3C8-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R6-cagnes-sur-mer/R6C1-prix-d-etreham.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R6-cagnes-sur-mer/R6C2-prix-du-mezeray.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R6-cagnes-sur-mer/R6C3-prix-de-la-cote-de-grace.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R6-cagnes-sur-mer/R6C7-prix-du-pre-du-roi.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R6-cagnes-sur-mer/R6C8-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R7-biarritz/R7C1-prix-d-etreham.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R7-biarritz/R7C2-prix-du-mezeray.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R7-biarritz/R7C5-prix-du-carrousel.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R7-biarritz/R7C6-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2010/07/2010-07-30/R7-biarritz/R7C8-prix-du-bois-hellain.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-la-teste-de-buch",
+      "R3-cabourg",
+      "R6-cagnes-sur-mer",
+      "R7-biarritz"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-etreham.html",
+        "R1C2-prix-du-mezeray.html",
+        "R1C3-prix-de-la-cote-de-grace.html",
+        "R1C4-prix-de-la-rocque.html",
+        "R1C5-prix-du-carrousel.html",
+        "R1C6-prix-du-bois-barbot.html",
+        "R1C7-prix-du-pre-du-roi.html",
+        "R1C8-prix-du-bois-hellain.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-d-etreham.html",
+        "R2C2-prix-du-mezeray.html",
+        "R2C3-prix-de-la-cote-de-grace.html",
+        "R2C4-prix-de-la-rocque.html",
+        "R2C5-prix-du-carrousel.html",
+        "R2C6-prix-du-bois-barbot.html",
+        "R2C7-prix-du-pre-du-roi.html",
+        "R2C8-prix-du-bois-hellain.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-d-etreham.html",
+        "R3C2-prix-du-mezeray.html",
+        "R3C3-prix-de-la-cote-de-grace.html",
+        "R3C4-prix-de-la-rocque.html",
+        "R3C5-prix-du-carrousel.html",
+        "R3C6-prix-du-bois-barbot.html",
+        "R3C7-prix-du-pre-du-roi.html",
+        "R3C8-prix-du-bois-hellain.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-d-etreham.html",
+        "R6C2-prix-du-mezeray.html",
+        "R6C3-prix-de-la-cote-de-grace.html",
+        "R6C4-prix-de-la-rocque.html",
+        "R6C5-prix-du-carrousel.html",
+        "R6C6-prix-du-bois-barbot.html",
+        "R6C7-prix-du-pre-du-roi.html",
+        "R6C8-prix-du-bois-hellain.html"
+      ],
+      "R7-biarritz": [
+        "R7C1-prix-d-etreham.html",
+        "R7C2-prix-du-mezeray.html",
+        "R7C3-prix-de-la-cote-de-grace.html",
+        "R7C4-prix-de-la-rocque.html",
+        "R7C5-prix-du-carrousel.html",
+        "R7C6-prix-du-bois-barbot.html",
+        "R7C7-prix-du-pre-du-roi.html",
+        "R7C8-prix-du-bois-hellain.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:48:59.579979Z"
+}

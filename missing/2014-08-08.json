@@ -1,0 +1,109 @@
+{
+  "date": "2014-08-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-08",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-08/2014-08-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C1-prix-du-secours-populaire-prix-de-montaigu.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C3-prix-de-la-reboursiere.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C5-prix-des-chaumieres.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C6-prix-du-thenney.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C7-prix-de-la-monnerie.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R1-deauville/R1C8-prix-de-glanville.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C1-prix-du-secours-populaire-prix-de-montaigu.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C4-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C5-prix-des-chaumieres.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C6-prix-du-thenney.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C7-prix-de-la-monnerie.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R2-la-capelle/R2C8-prix-de-glanville.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C1-prix-du-secours-populaire-prix-de-montaigu.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C3-prix-de-la-reboursiere.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C4-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C5-prix-des-chaumieres.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R3-pornichet-la-baule/R3C6-prix-du-thenney.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C1-prix-du-secours-populaire-prix-de-montaigu.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C3-prix-de-la-reboursiere.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C4-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C5-prix-des-chaumieres.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C7-prix-de-la-monnerie.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R4-cabourg/R4C8-prix-de-glanville.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R5-cagnes-sur-mer/R5C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R5-cagnes-sur-mer/R5C7-prix-de-la-monnerie.html",
+      "resultats-et-rapports/2014/08/2014-08-08/R5-cagnes-sur-mer/R5C8-prix-de-glanville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-la-capelle",
+      "R3-pornichet-la-baule",
+      "R4-cabourg",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-secours-populaire-prix-de-montaigu.html",
+        "R1C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+        "R1C3-prix-de-la-reboursiere.html",
+        "R1C4-prix-du-mesnil-oger.html",
+        "R1C5-prix-des-chaumieres.html",
+        "R1C6-prix-du-thenney.html",
+        "R1C7-prix-de-la-monnerie.html",
+        "R1C8-prix-de-glanville.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-secours-populaire-prix-de-montaigu.html",
+        "R2C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+        "R2C3-prix-de-la-reboursiere.html",
+        "R2C4-prix-du-mesnil-oger.html",
+        "R2C5-prix-des-chaumieres.html",
+        "R2C6-prix-du-thenney.html",
+        "R2C7-prix-de-la-monnerie.html",
+        "R2C8-prix-de-glanville.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-secours-populaire-prix-de-montaigu.html",
+        "R3C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+        "R3C3-prix-de-la-reboursiere.html",
+        "R3C4-prix-du-mesnil-oger.html",
+        "R3C5-prix-des-chaumieres.html",
+        "R3C6-prix-du-thenney.html",
+        "R3C7-prix-de-la-monnerie.html",
+        "R3C8-prix-de-glanville.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-du-secours-populaire-prix-de-montaigu.html",
+        "R4C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+        "R4C3-prix-de-la-reboursiere.html",
+        "R4C4-prix-du-mesnil-oger.html",
+        "R4C5-prix-des-chaumieres.html",
+        "R4C6-prix-du-thenney.html",
+        "R4C7-prix-de-la-monnerie.html",
+        "R4C8-prix-de-glanville.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-du-secours-populaire-prix-de-montaigu.html",
+        "R5C2-prix-de-l-ane-a-theme-prix-du-mesnil-eudes.html",
+        "R5C3-prix-de-la-reboursiere.html",
+        "R5C4-prix-du-mesnil-oger.html",
+        "R5C5-prix-des-chaumieres.html",
+        "R5C6-prix-du-thenney.html",
+        "R5C7-prix-de-la-monnerie.html",
+        "R5C8-prix-de-glanville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:09.147834Z"
+}

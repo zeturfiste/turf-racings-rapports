@@ -1,0 +1,84 @@
+{
+  "date": "2018-08-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/08/2018-08-29",
+    "date_html": "resultats-et-rapports/2018/08/2018-08-29/2018-08-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/08/2018-08-29/R1-deauville/R1C7-prix-des-fresneaux.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R3-vincennes/R3C1-prix-du-bocage-normand.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R3-vincennes/R3C5-prix-de-la-cour-du-chasseur.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R3-vincennes/R3C8-prix-des-plaines-de-normandie.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R4-dieppe/R4C2-prix-de-louvieres-en-auge.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R4-dieppe/R4C3-prix-des-cotes-de-normandie.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R4-dieppe/R4C4-prix-du-hamel.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R4-dieppe/R4C8-prix-des-plaines-de-normandie.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C1-prix-du-bocage-normand.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C2-prix-de-louvieres-en-auge.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C3-prix-des-cotes-de-normandie.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C4-prix-du-hamel.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C5-prix-de-la-cour-du-chasseur.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C6-prix-de-la-banche.html",
+      "resultats-et-rapports/2018/08/2018-08-29/R7-les-sables-d-olonne/R7C7-prix-des-fresneaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-vincennes",
+      "R4-dieppe",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-bocage-normand.html",
+        "R1C2-prix-de-louvieres-en-auge.html",
+        "R1C3-prix-des-cotes-de-normandie.html",
+        "R1C4-prix-du-hamel.html",
+        "R1C5-prix-de-la-cour-du-chasseur.html",
+        "R1C6-prix-de-la-banche.html",
+        "R1C7-prix-des-fresneaux.html",
+        "R1C8-prix-des-plaines-de-normandie.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-bocage-normand.html",
+        "R3C2-prix-de-louvieres-en-auge.html",
+        "R3C3-prix-des-cotes-de-normandie.html",
+        "R3C4-prix-du-hamel.html",
+        "R3C5-prix-de-la-cour-du-chasseur.html",
+        "R3C6-prix-de-la-banche.html",
+        "R3C7-prix-des-fresneaux.html",
+        "R3C8-prix-des-plaines-de-normandie.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-du-bocage-normand.html",
+        "R4C2-prix-de-louvieres-en-auge.html",
+        "R4C3-prix-des-cotes-de-normandie.html",
+        "R4C4-prix-du-hamel.html",
+        "R4C5-prix-de-la-cour-du-chasseur.html",
+        "R4C6-prix-de-la-banche.html",
+        "R4C7-prix-des-fresneaux.html",
+        "R4C8-prix-des-plaines-de-normandie.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-du-bocage-normand.html",
+        "R7C2-prix-de-louvieres-en-auge.html",
+        "R7C3-prix-des-cotes-de-normandie.html",
+        "R7C4-prix-du-hamel.html",
+        "R7C5-prix-de-la-cour-du-chasseur.html",
+        "R7C6-prix-de-la-banche.html",
+        "R7C7-prix-des-fresneaux.html",
+        "R7C8-prix-des-plaines-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:04.003424Z"
+}

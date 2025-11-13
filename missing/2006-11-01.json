@@ -1,0 +1,89 @@
+{
+  "date": "2006-11-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-01",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-01/2006-11-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C1-prix-vatelys.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C2-prix-loggia.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C3-prix-roger-saint.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C6-prix-des-pyrenees.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C7-prix-de-bourges.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R30-gerland-lyon/R30C8-prix-de-chablis.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R31-nikos-goumas-athenes/R31C1-prix-vatelys.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R31-nikos-goumas-athenes/R31C2-prix-loggia.html",
+      "resultats-et-rapports/2006/11/2006-11-01/R31-nikos-goumas-athenes/R31C3-prix-roger-saint.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-laval",
+      "R21-zerace",
+      "R30-gerland-lyon",
+      "R31-nikos-goumas-athenes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-vatelys.html",
+        "R1C2-prix-loggia.html",
+        "R1C3-prix-roger-saint.html",
+        "R1C4-grand-steeple-chase-d-enghien.html",
+        "R1C5-prix-de-beaune.html",
+        "R1C6-prix-des-pyrenees.html",
+        "R1C7-prix-de-bourges.html",
+        "R1C8-prix-de-chablis.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-vatelys.html",
+        "R2C2-prix-loggia.html",
+        "R2C3-prix-roger-saint.html",
+        "R2C4-grand-steeple-chase-d-enghien.html",
+        "R2C5-prix-de-beaune.html",
+        "R2C6-prix-des-pyrenees.html",
+        "R2C7-prix-de-bourges.html",
+        "R2C8-prix-de-chablis.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-vatelys.html",
+        "R21C2-prix-loggia.html",
+        "R21C3-prix-roger-saint.html",
+        "R21C4-grand-steeple-chase-d-enghien.html",
+        "R21C5-prix-de-beaune.html",
+        "R21C6-prix-des-pyrenees.html",
+        "R21C7-prix-de-bourges.html",
+        "R21C8-prix-de-chablis.html"
+      ],
+      "R30-gerland-lyon": [
+        "R30C1-prix-vatelys.html",
+        "R30C2-prix-loggia.html",
+        "R30C3-prix-roger-saint.html",
+        "R30C4-grand-steeple-chase-d-enghien.html",
+        "R30C5-prix-de-beaune.html",
+        "R30C6-prix-des-pyrenees.html",
+        "R30C7-prix-de-bourges.html",
+        "R30C8-prix-de-chablis.html"
+      ],
+      "R31-nikos-goumas-athenes": [
+        "R31C1-prix-vatelys.html",
+        "R31C2-prix-loggia.html",
+        "R31C3-prix-roger-saint.html",
+        "R31C4-grand-steeple-chase-d-enghien.html",
+        "R31C5-prix-de-beaune.html",
+        "R31C6-prix-des-pyrenees.html",
+        "R31C7-prix-de-bourges.html",
+        "R31C8-prix-de-chablis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:49.534016Z"
+}

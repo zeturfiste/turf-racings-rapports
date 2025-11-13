@@ -1,0 +1,64 @@
+{
+  "date": "2019-01-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/01/2019-01-17",
+    "date_html": "resultats-et-rapports/2019/01/2019-01-17/2019-01-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/01/2019-01-17/R1-vincennes/R1C2-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2019/01/2019-01-17/R1-vincennes/R1C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2019/01/2019-01-17/R1-vincennes/R1C6-prix-louis-cussinet.html",
+      "resultats-et-rapports/2019/01/2019-01-17/R4-cagnes-sur-mer/R4C2-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2019/01/2019-01-17/R4-cagnes-sur-mer/R4C7-prix-noville.html",
+      "resultats-et-rapports/2019/01/2019-01-17/R4-cagnes-sur-mer/R4C8-prix-de-juvisy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-douvres.html",
+        "R1C2-prix-de-pont-a-mousson.html",
+        "R1C3-prix-de-pontault-combault.html",
+        "R1C4-prix-jean-pierre-reynaldo.html",
+        "R1C5-prix-de-bayonne.html",
+        "R1C6-prix-louis-cussinet.html",
+        "R1C7-prix-noville.html",
+        "R1C8-prix-de-juvisy.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-douvres.html",
+        "R2C2-prix-de-pont-a-mousson.html",
+        "R2C3-prix-de-pontault-combault.html",
+        "R2C4-prix-jean-pierre-reynaldo.html",
+        "R2C5-prix-de-bayonne.html",
+        "R2C6-prix-louis-cussinet.html",
+        "R2C7-prix-noville.html",
+        "R2C8-prix-de-juvisy.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-douvres.html",
+        "R4C2-prix-de-pont-a-mousson.html",
+        "R4C3-prix-de-pontault-combault.html",
+        "R4C4-prix-jean-pierre-reynaldo.html",
+        "R4C5-prix-de-bayonne.html",
+        "R4C6-prix-louis-cussinet.html",
+        "R4C7-prix-noville.html",
+        "R4C8-prix-de-juvisy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:47.649990Z"
+}

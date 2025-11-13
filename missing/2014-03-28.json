@@ -1,0 +1,84 @@
+{
+  "date": "2014-03-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-28",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-28/2014-03-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C1-prix-des-frenes.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C2-prix-de-samois-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C3-prix-de-hericy-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C4-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C5-prix-des-melezes.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C6-prix-de-montereau.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C7-prix-des-cypres.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R1-fontainebleau/R1C8-prix-de-meaux.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R2-marseille-vivaux/R2C1-prix-des-frenes.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R3-lyon-la-soie/R3C2-prix-de-samois-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R3-lyon-la-soie/R3C3-prix-de-hericy-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R4-vincennes/R4C1-prix-des-frenes.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R4-vincennes/R4C2-prix-de-samois-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R4-vincennes/R4C3-prix-de-hericy-sur-seine.html",
+      "resultats-et-rapports/2014/03/2014-03-28/R4-vincennes/R4C6-prix-de-montereau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-marseille-vivaux",
+      "R3-lyon-la-soie",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-frenes.html",
+        "R1C2-prix-de-samois-sur-seine.html",
+        "R1C3-prix-de-hericy-sur-seine.html",
+        "R1C4-prix-cor-de-chasse.html",
+        "R1C5-prix-des-melezes.html",
+        "R1C6-prix-de-montereau.html",
+        "R1C7-prix-des-cypres.html",
+        "R1C8-prix-de-meaux.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-des-frenes.html",
+        "R2C2-prix-de-samois-sur-seine.html",
+        "R2C3-prix-de-hericy-sur-seine.html",
+        "R2C4-prix-cor-de-chasse.html",
+        "R2C5-prix-des-melezes.html",
+        "R2C6-prix-de-montereau.html",
+        "R2C7-prix-des-cypres.html",
+        "R2C8-prix-de-meaux.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-des-frenes.html",
+        "R3C2-prix-de-samois-sur-seine.html",
+        "R3C3-prix-de-hericy-sur-seine.html",
+        "R3C4-prix-cor-de-chasse.html",
+        "R3C5-prix-des-melezes.html",
+        "R3C6-prix-de-montereau.html",
+        "R3C7-prix-des-cypres.html",
+        "R3C8-prix-de-meaux.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-frenes.html",
+        "R4C2-prix-de-samois-sur-seine.html",
+        "R4C3-prix-de-hericy-sur-seine.html",
+        "R4C4-prix-cor-de-chasse.html",
+        "R4C5-prix-des-melezes.html",
+        "R4C6-prix-de-montereau.html",
+        "R4C7-prix-des-cypres.html",
+        "R4C8-prix-de-meaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:24.231115Z"
+}

@@ -1,0 +1,99 @@
+{
+  "date": "2008-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/07/2008-07-01",
+    "date_html": "resultats-et-rapports/2008/07/2008-07-01/2008-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/07/2008-07-01/R1-compiegne/R1C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R2-argentan/R2C6-prix-des-gardes.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R2-argentan/R2C7-prix-de-la-societe-generale-prix-de-crepy.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R2-argentan/R2C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R3-vincennes/R3C3-prix-de-la-route-de-l-echo.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R3-vincennes/R3C4-prix-de-mercieres.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R3-vincennes/R3C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R3-vincennes/R3C6-prix-des-gardes.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R3-vincennes/R3C7-prix-de-la-societe-generale-prix-de-crepy.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R31-zerace/R31C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R31-zerace/R31C3-prix-de-la-route-de-l-echo.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R31-zerace/R31C4-prix-de-mercieres.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R31-zerace/R31C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R31-zerace/R31C8-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R70-wimbledon-london/R70C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R70-wimbledon-london/R70C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R70-wimbledon-london/R70C4-prix-de-mercieres.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R70-wimbledon-london/R70C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2008/07/2008-07-01/R70-wimbledon-london/R70C6-prix-des-gardes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-argentan",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-wimbledon-london"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-chateau-de-compiegne.html",
+        "R1C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+        "R1C3-prix-de-la-route-de-l-echo.html",
+        "R1C4-prix-de-mercieres.html",
+        "R1C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+        "R1C6-prix-des-gardes.html",
+        "R1C7-prix-de-la-societe-generale-prix-de-crepy.html",
+        "R1C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-du-chateau-de-compiegne.html",
+        "R2C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+        "R2C3-prix-de-la-route-de-l-echo.html",
+        "R2C4-prix-de-mercieres.html",
+        "R2C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+        "R2C6-prix-des-gardes.html",
+        "R2C7-prix-de-la-societe-generale-prix-de-crepy.html",
+        "R2C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-chateau-de-compiegne.html",
+        "R3C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+        "R3C3-prix-de-la-route-de-l-echo.html",
+        "R3C4-prix-de-mercieres.html",
+        "R3C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+        "R3C6-prix-des-gardes.html",
+        "R3C7-prix-de-la-societe-generale-prix-de-crepy.html",
+        "R3C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-chateau-de-compiegne.html",
+        "R31C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+        "R31C3-prix-de-la-route-de-l-echo.html",
+        "R31C4-prix-de-mercieres.html",
+        "R31C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+        "R31C6-prix-des-gardes.html",
+        "R31C7-prix-de-la-societe-generale-prix-de-crepy.html",
+        "R31C8-prix-des-bords-de-l-oise.html"
+      ],
+      "R70-wimbledon-london": [
+        "R70C1-prix-du-chateau-de-compiegne.html",
+        "R70C2-prix-de-la-federation-francaise-de-parachutisme-prix-des-vest.html",
+        "R70C3-prix-de-la-route-de-l-echo.html",
+        "R70C4-prix-de-mercieres.html",
+        "R70C5-grand-prix-de-compiegne-5eme-etape-du-defi-du-galop.html",
+        "R70C6-prix-des-gardes.html",
+        "R70C7-prix-de-la-societe-generale-prix-de-crepy.html",
+        "R70C8-prix-des-bords-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:42:43.305948Z"
+}

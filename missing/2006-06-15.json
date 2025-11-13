@@ -1,0 +1,95 @@
+{
+  "date": "2006-06-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-15",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-15/2006-06-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-15/R2-vichy/R2C3-prix-de-reuilly.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R2-vichy/R2C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R2-vichy/R2C8-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C1-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C2-prix-la-fleche.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C3-prix-de-reuilly.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C4-la-coupe.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C7-prix-de-la-rapee.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R10-aol-arena-hambourg/R10C8-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R11-franken-stadion-nuremberg/R11C1-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R11-franken-stadion-nuremberg/R11C2-prix-la-fleche.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R11-franken-stadion-nuremberg/R11C3-prix-de-reuilly.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R11-franken-stadion-nuremberg/R11C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2006/06/2006-06-15/R11-franken-stadion-nuremberg/R11C7-prix-de-la-rapee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-vichy",
+      "R10-aol-arena-hambourg",
+      "R11-franken-stadion-nuremberg",
+      "R12-olympia-stadion-berlin"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-l-ile-de-la-cite.html",
+        "R1C2-prix-la-fleche.html",
+        "R1C3-prix-de-reuilly.html",
+        "R1C4-la-coupe.html",
+        "R1C5-prix-de-grenelle.html",
+        "R1C6-prix-du-pre-saint-gervais.html",
+        "R1C7-prix-de-la-rapee.html",
+        "R1C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-l-ile-de-la-cite.html",
+        "R2C2-prix-la-fleche.html",
+        "R2C3-prix-de-reuilly.html",
+        "R2C4-la-coupe.html",
+        "R2C5-prix-de-grenelle.html",
+        "R2C6-prix-du-pre-saint-gervais.html",
+        "R2C7-prix-de-la-rapee.html",
+        "R2C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R10-aol-arena-hambourg": [
+        "R10C1-prix-de-l-ile-de-la-cite.html",
+        "R10C2-prix-la-fleche.html",
+        "R10C3-prix-de-reuilly.html",
+        "R10C4-la-coupe.html",
+        "R10C5-prix-de-grenelle.html",
+        "R10C6-prix-du-pre-saint-gervais.html",
+        "R10C7-prix-de-la-rapee.html",
+        "R10C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R11-franken-stadion-nuremberg": [
+        "R11C1-prix-de-l-ile-de-la-cite.html",
+        "R11C2-prix-la-fleche.html",
+        "R11C3-prix-de-reuilly.html",
+        "R11C4-la-coupe.html",
+        "R11C5-prix-de-grenelle.html",
+        "R11C6-prix-du-pre-saint-gervais.html",
+        "R11C7-prix-de-la-rapee.html",
+        "R11C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R12-olympia-stadion-berlin": [
+        "R12C1-prix-de-l-ile-de-la-cite.html",
+        "R12C2-prix-la-fleche.html",
+        "R12C3-prix-de-reuilly.html",
+        "R12C4-la-coupe.html",
+        "R12C5-prix-de-grenelle.html",
+        "R12C6-prix-du-pre-saint-gervais.html",
+        "R12C7-prix-de-la-rapee.html",
+        "R12C8-prix-de-l-ile-saint-louis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:09.507642Z"
+}

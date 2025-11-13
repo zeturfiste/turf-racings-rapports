@@ -1,0 +1,112 @@
+{
+  "date": "2010-07-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-23",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-23/2010-07-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C1-prix-de-l-afig.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C3-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C5-prix-reine-des-villes-d-eaux.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C6-prix-du-parc-des-sources.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C7-prix-du-palais-des-congres-opera.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R1-vichy/R1C8-prix-du-parc-de-l-allier.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C1-prix-de-l-afig.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C2-prix-munet.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C3-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C4-prix-de-molles.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C5-prix-reine-des-villes-d-eaux.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C6-prix-du-parc-des-sources.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C7-prix-du-palais-des-congres-opera.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R2-le-mans/R2C8-prix-du-parc-de-l-allier.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C1-prix-de-l-afig.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C2-prix-munet.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C3-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C4-prix-de-molles.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C5-prix-reine-des-villes-d-eaux.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C6-prix-du-parc-des-sources.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C7-prix-du-palais-des-congres-opera.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R3-cabourg/R3C8-prix-du-parc-de-l-allier.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C1-prix-de-l-afig.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C2-prix-munet.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C3-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C4-prix-de-molles.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C5-prix-reine-des-villes-d-eaux.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C6-prix-du-parc-des-sources.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C7-prix-du-palais-des-congres-opera.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R6-cagnes-sur-mer/R6C8-prix-du-parc-de-l-allier.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R7-biarritz/R7C1-prix-de-l-afig.html",
+      "resultats-et-rapports/2010/07/2010-07-23/R7-biarritz/R7C7-prix-du-palais-des-congres-opera.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-le-mans",
+      "R3-cabourg",
+      "R6-cagnes-sur-mer",
+      "R7-biarritz"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-l-afig.html",
+        "R1C2-prix-munet.html",
+        "R1C3-prix-de-saint-yorre.html",
+        "R1C4-prix-de-molles.html",
+        "R1C5-prix-reine-des-villes-d-eaux.html",
+        "R1C6-prix-du-parc-des-sources.html",
+        "R1C7-prix-du-palais-des-congres-opera.html",
+        "R1C8-prix-du-parc-de-l-allier.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-de-l-afig.html",
+        "R2C2-prix-munet.html",
+        "R2C3-prix-de-saint-yorre.html",
+        "R2C4-prix-de-molles.html",
+        "R2C5-prix-reine-des-villes-d-eaux.html",
+        "R2C6-prix-du-parc-des-sources.html",
+        "R2C7-prix-du-palais-des-congres-opera.html",
+        "R2C8-prix-du-parc-de-l-allier.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-l-afig.html",
+        "R3C2-prix-munet.html",
+        "R3C3-prix-de-saint-yorre.html",
+        "R3C4-prix-de-molles.html",
+        "R3C5-prix-reine-des-villes-d-eaux.html",
+        "R3C6-prix-du-parc-des-sources.html",
+        "R3C7-prix-du-palais-des-congres-opera.html",
+        "R3C8-prix-du-parc-de-l-allier.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-l-afig.html",
+        "R6C2-prix-munet.html",
+        "R6C3-prix-de-saint-yorre.html",
+        "R6C4-prix-de-molles.html",
+        "R6C5-prix-reine-des-villes-d-eaux.html",
+        "R6C6-prix-du-parc-des-sources.html",
+        "R6C7-prix-du-palais-des-congres-opera.html",
+        "R6C8-prix-du-parc-de-l-allier.html"
+      ],
+      "R7-biarritz": [
+        "R7C1-prix-de-l-afig.html",
+        "R7C2-prix-munet.html",
+        "R7C3-prix-de-saint-yorre.html",
+        "R7C4-prix-de-molles.html",
+        "R7C5-prix-reine-des-villes-d-eaux.html",
+        "R7C6-prix-du-parc-des-sources.html",
+        "R7C7-prix-du-palais-des-congres-opera.html",
+        "R7C8-prix-du-parc-de-l-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:48:57.228138Z"
+}

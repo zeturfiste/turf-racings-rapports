@@ -1,0 +1,105 @@
+{
+  "date": "2016-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-07",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-07/2016-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-07/R1-enghien-soisy/R1C3-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R1-enghien-soisy/R1C9-prix-strada.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R2-caen/R2C2-prix-spumate.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R2-caen/R2C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R2-caen/R2C6-prix-avranchin.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R2-caen/R2C8-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R2-caen/R2C9-prix-strada.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R3-saint-galmier/R3C6-prix-avranchin.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R5-agen/R5C2-prix-spumate.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R5-agen/R5C4-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R5-agen/R5C6-prix-avranchin.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R5-agen/R5C7-prix-master-bob.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R5-agen/R5C8-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C2-prix-spumate.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C3-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C4-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C6-prix-avranchin.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C7-prix-master-bob.html",
+      "resultats-et-rapports/2016/03/2016-03-07/R6-le-croise-laroche/R6C9-prix-strada.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-caen",
+      "R3-saint-galmier",
+      "R5-agen",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-essai-des-poulains.html",
+        "R1C2-prix-spumate.html",
+        "R1C3-prix-d-essai-des-poulains.html",
+        "R1C4-prix-du-mont-cenis.html",
+        "R1C5-prix-baroud-iii.html",
+        "R1C6-prix-avranchin.html",
+        "R1C7-prix-master-bob.html",
+        "R1C8-prix-de-la-chapelle-en-serval.html",
+        "R1C9-prix-strada.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-d-essai-des-poulains.html",
+        "R2C2-prix-spumate.html",
+        "R2C3-prix-d-essai-des-poulains.html",
+        "R2C4-prix-du-mont-cenis.html",
+        "R2C5-prix-baroud-iii.html",
+        "R2C6-prix-avranchin.html",
+        "R2C7-prix-master-bob.html",
+        "R2C8-prix-de-la-chapelle-en-serval.html",
+        "R2C9-prix-strada.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-d-essai-des-poulains.html",
+        "R3C2-prix-spumate.html",
+        "R3C3-prix-d-essai-des-poulains.html",
+        "R3C4-prix-du-mont-cenis.html",
+        "R3C5-prix-baroud-iii.html",
+        "R3C6-prix-avranchin.html",
+        "R3C7-prix-master-bob.html",
+        "R3C8-prix-de-la-chapelle-en-serval.html",
+        "R3C9-prix-strada.html"
+      ],
+      "R5-agen": [
+        "R5C1-prix-d-essai-des-poulains.html",
+        "R5C2-prix-spumate.html",
+        "R5C3-prix-d-essai-des-poulains.html",
+        "R5C4-prix-du-mont-cenis.html",
+        "R5C5-prix-baroud-iii.html",
+        "R5C6-prix-avranchin.html",
+        "R5C7-prix-master-bob.html",
+        "R5C8-prix-de-la-chapelle-en-serval.html",
+        "R5C9-prix-strada.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-d-essai-des-poulains.html",
+        "R6C2-prix-spumate.html",
+        "R6C3-prix-d-essai-des-poulains.html",
+        "R6C4-prix-du-mont-cenis.html",
+        "R6C5-prix-baroud-iii.html",
+        "R6C6-prix-avranchin.html",
+        "R6C7-prix-master-bob.html",
+        "R6C8-prix-de-la-chapelle-en-serval.html",
+        "R6C9-prix-strada.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:05.772819Z"
+}

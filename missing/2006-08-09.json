@@ -1,0 +1,120 @@
+{
+  "date": "2006-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-09",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-09/2006-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-09/R10-stadium-lille-metropole-villeneuve-d-ascq/R10C8-prix-de-beaufour.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C2-prix-du-mezeray.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C3-prix-d-etreham.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C6-prix-caprice.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C7-prix-d-hermanville.html",
+      "resultats-et-rapports/2006/08/2006-08-09/R12-san-siro-milan/R12C8-prix-de-beaufour.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-chateaubriant",
+      "R4-castera-verduzan",
+      "R5-les-sables-d-olonne",
+      "R10-stadium-lille-metropole-villeneuve-d-ascq",
+      "R11-aol-arena-hambourg",
+      "R12-san-siro-milan",
+      "R20-goteborg-suede"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R1C2-prix-du-mezeray.html",
+        "R1C3-prix-d-etreham.html",
+        "R1C4-prix-de-douvres.html",
+        "R1C5-prix-des-bergeries.html",
+        "R1C6-prix-caprice.html",
+        "R1C7-prix-d-hermanville.html",
+        "R1C8-prix-de-beaufour.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R2C2-prix-du-mezeray.html",
+        "R2C3-prix-d-etreham.html",
+        "R2C4-prix-de-douvres.html",
+        "R2C5-prix-des-bergeries.html",
+        "R2C6-prix-caprice.html",
+        "R2C7-prix-d-hermanville.html",
+        "R2C8-prix-de-beaufour.html"
+      ],
+      "R4-castera-verduzan": [
+        "R4C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R4C2-prix-du-mezeray.html",
+        "R4C3-prix-d-etreham.html",
+        "R4C4-prix-de-douvres.html",
+        "R4C5-prix-des-bergeries.html",
+        "R4C6-prix-caprice.html",
+        "R4C7-prix-d-hermanville.html",
+        "R4C8-prix-de-beaufour.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R5C2-prix-du-mezeray.html",
+        "R5C3-prix-d-etreham.html",
+        "R5C4-prix-de-douvres.html",
+        "R5C5-prix-des-bergeries.html",
+        "R5C6-prix-caprice.html",
+        "R5C7-prix-d-hermanville.html",
+        "R5C8-prix-de-beaufour.html"
+      ],
+      "R10-stadium-lille-metropole-villeneuve-d-ascq": [
+        "R10C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R10C2-prix-du-mezeray.html",
+        "R10C3-prix-d-etreham.html",
+        "R10C4-prix-de-douvres.html",
+        "R10C5-prix-des-bergeries.html",
+        "R10C6-prix-caprice.html",
+        "R10C7-prix-d-hermanville.html",
+        "R10C8-prix-de-beaufour.html"
+      ],
+      "R11-aol-arena-hambourg": [
+        "R11C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R11C2-prix-du-mezeray.html",
+        "R11C3-prix-d-etreham.html",
+        "R11C4-prix-de-douvres.html",
+        "R11C5-prix-des-bergeries.html",
+        "R11C6-prix-caprice.html",
+        "R11C7-prix-d-hermanville.html",
+        "R11C8-prix-de-beaufour.html"
+      ],
+      "R12-san-siro-milan": [
+        "R12C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R12C2-prix-du-mezeray.html",
+        "R12C3-prix-d-etreham.html",
+        "R12C4-prix-de-douvres.html",
+        "R12C5-prix-des-bergeries.html",
+        "R12C6-prix-caprice.html",
+        "R12C7-prix-d-hermanville.html",
+        "R12C8-prix-de-beaufour.html"
+      ],
+      "R20-goteborg-suede": [
+        "R20C1-prix-cocktail-fm-prix-de-saint-pierre-sur-dives.html",
+        "R20C2-prix-du-mezeray.html",
+        "R20C3-prix-d-etreham.html",
+        "R20C4-prix-de-douvres.html",
+        "R20C5-prix-des-bergeries.html",
+        "R20C6-prix-caprice.html",
+        "R20C7-prix-d-hermanville.html",
+        "R20C8-prix-de-beaufour.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:24.722839Z"
+}

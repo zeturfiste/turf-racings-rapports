@@ -1,0 +1,95 @@
+{
+  "date": "2013-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/07/2013-07-25",
+    "date_html": "resultats-et-rapports/2013/07/2013-07-25/2013-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/07/2013-07-25/R1-chantilly/R1C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R1-chantilly/R1C3-prix-de-precy.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R1-chantilly/R1C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R1-chantilly/R1C8-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C3-prix-de-precy.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C5-prix-de-gascourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C6-prix-de-luzarches.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C7-prix-du-crochet-du-coye.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R2-enghien-soisy/R2C8-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C3-prix-de-precy.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C5-prix-de-gascourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C6-prix-de-luzarches.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R3-la-rochelle/R3C8-prix-de-l-institut-de-france.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C3-prix-de-precy.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C5-prix-de-gascourt.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C6-prix-de-luzarches.html",
+      "resultats-et-rapports/2013/07/2013-07-25/R4-vichy/R4C7-prix-du-crochet-du-coye.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-enghien-soisy",
+      "R3-la-rochelle",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-valgenceuse.html",
+        "R1C2-prix-de-thimecourt.html",
+        "R1C3-prix-de-precy.html",
+        "R1C4-prix-de-bagatelle.html",
+        "R1C5-prix-de-gascourt.html",
+        "R1C6-prix-de-luzarches.html",
+        "R1C7-prix-du-crochet-du-coye.html",
+        "R1C8-prix-de-l-institut-de-france.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-de-valgenceuse.html",
+        "R2C2-prix-de-thimecourt.html",
+        "R2C3-prix-de-precy.html",
+        "R2C4-prix-de-bagatelle.html",
+        "R2C5-prix-de-gascourt.html",
+        "R2C6-prix-de-luzarches.html",
+        "R2C7-prix-du-crochet-du-coye.html",
+        "R2C8-prix-de-l-institut-de-france.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-de-valgenceuse.html",
+        "R3C2-prix-de-thimecourt.html",
+        "R3C3-prix-de-precy.html",
+        "R3C4-prix-de-bagatelle.html",
+        "R3C5-prix-de-gascourt.html",
+        "R3C6-prix-de-luzarches.html",
+        "R3C7-prix-du-crochet-du-coye.html",
+        "R3C8-prix-de-l-institut-de-france.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-de-valgenceuse.html",
+        "R4C2-prix-de-thimecourt.html",
+        "R4C3-prix-de-precy.html",
+        "R4C4-prix-de-bagatelle.html",
+        "R4C5-prix-de-gascourt.html",
+        "R4C6-prix-de-luzarches.html",
+        "R4C7-prix-du-crochet-du-coye.html",
+        "R4C8-prix-de-l-institut-de-france.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:12.898188Z"
+}

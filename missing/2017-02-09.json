@@ -1,0 +1,53 @@
+{
+  "date": "2017-02-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/02/2017-02-09",
+    "date_html": "resultats-et-rapports/2017/02/2017-02-09/2017-02-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/02/2017-02-09/R1-vincennes/R1C4-prix-andre-theron-prix-de-romorantin.html",
+      "resultats-et-rapports/2017/02/2017-02-09/R1-vincennes/R1C6-prix-de-ramatuelle-gr-b.html",
+      "resultats-et-rapports/2017/02/2017-02-09/R1-vincennes/R1C7-prix-jacques-orliaguet-prix-de-bourges.html",
+      "resultats-et-rapports/2017/02/2017-02-09/R1-vincennes/R1C8-prix-jean-le-gonidec.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gerard-brami-prix-de-louviers.html",
+        "R1C2-prix-guy-lux-prix-de-la-nievre.html",
+        "R1C3-prix-leon-zitrone-prix-de-monsegur.html",
+        "R1C4-prix-andre-theron-prix-de-romorantin.html",
+        "R1C5-prix-dominique-savary-prix-de-ramatuelle-gr-a.html",
+        "R1C6-prix-de-ramatuelle-gr-b.html",
+        "R1C7-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R1C8-prix-jean-le-gonidec.html",
+        "R1C9-prix-maurice-bernardet-prix-d-anet.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-gerard-brami-prix-de-louviers.html",
+        "R3C2-prix-guy-lux-prix-de-la-nievre.html",
+        "R3C3-prix-leon-zitrone-prix-de-monsegur.html",
+        "R3C4-prix-andre-theron-prix-de-romorantin.html",
+        "R3C5-prix-dominique-savary-prix-de-ramatuelle-gr-a.html",
+        "R3C6-prix-de-ramatuelle-gr-b.html",
+        "R3C7-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R3C8-prix-jean-le-gonidec.html",
+        "R3C9-prix-maurice-bernardet-prix-d-anet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:56.803281Z"
+}

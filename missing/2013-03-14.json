@@ -1,0 +1,51 @@
+{
+  "date": "2013-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/03/2013-03-14",
+    "date_html": "resultats-et-rapports/2013/03/2013-03-14/2013-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/03/2013-03-14/R1-lyon-parilly/R1C1-prix-du-barrois.html",
+      "resultats-et-rapports/2013/03/2013-03-14/R1-lyon-parilly/R1C2-prix-du-pays-de-caux.html",
+      "resultats-et-rapports/2013/03/2013-03-14/R1-lyon-parilly/R1C3-prix-de-la-marne.html",
+      "resultats-et-rapports/2013/03/2013-03-14/R1-lyon-parilly/R1C4-criterium-de-trot-de-lyon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-du-barrois.html",
+        "R1C2-prix-du-pays-de-caux.html",
+        "R1C3-prix-de-la-marne.html",
+        "R1C4-criterium-de-trot-de-lyon.html",
+        "R1C5-prix-du-vaucluse.html",
+        "R1C6-prix-du-perigord.html",
+        "R1C7-prix-du-duche-de-bretagne.html",
+        "R1C8-prix-de-la-tarentaise.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-du-barrois.html",
+        "R2C2-prix-du-pays-de-caux.html",
+        "R2C3-prix-de-la-marne.html",
+        "R2C4-criterium-de-trot-de-lyon.html",
+        "R2C5-prix-du-vaucluse.html",
+        "R2C6-prix-du-perigord.html",
+        "R2C7-prix-du-duche-de-bretagne.html",
+        "R2C8-prix-de-la-tarentaise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:29.734442Z"
+}

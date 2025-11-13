@@ -1,0 +1,85 @@
+{
+  "date": "2019-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-05",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-05/2019-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-05/R2-salon-de-provence/R2C5-prix-libra.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R4-compiegne/R4C1-prix-appolania.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R4-compiegne/R4C5-prix-libra.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R5-saint-galmier/R5C1-prix-appolania.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R5-saint-galmier/R5C2-prix-cephens.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R5-saint-galmier/R5C4-prix-isolda.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R7-laval/R7C2-prix-cephens.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R7-laval/R7C3-prix-gratia.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R7-laval/R7C5-prix-libra.html",
+      "resultats-et-rapports/2019/04/2019-04-05/R7-laval/R7C6-prix-aquila.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-salon-de-provence",
+      "R4-compiegne",
+      "R5-saint-galmier",
+      "R7-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-appolania.html",
+        "R1C2-prix-cephens.html",
+        "R1C3-prix-gratia.html",
+        "R1C4-prix-isolda.html",
+        "R1C5-prix-libra.html",
+        "R1C6-prix-aquila.html",
+        "R1C7-prix-deimos.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-appolania.html",
+        "R2C2-prix-cephens.html",
+        "R2C3-prix-gratia.html",
+        "R2C4-prix-isolda.html",
+        "R2C5-prix-libra.html",
+        "R2C6-prix-aquila.html",
+        "R2C7-prix-deimos.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-appolania.html",
+        "R4C2-prix-cephens.html",
+        "R4C3-prix-gratia.html",
+        "R4C4-prix-isolda.html",
+        "R4C5-prix-libra.html",
+        "R4C6-prix-aquila.html",
+        "R4C7-prix-deimos.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-appolania.html",
+        "R5C2-prix-cephens.html",
+        "R5C3-prix-gratia.html",
+        "R5C4-prix-isolda.html",
+        "R5C5-prix-libra.html",
+        "R5C6-prix-aquila.html",
+        "R5C7-prix-deimos.html"
+      ],
+      "R7-laval": [
+        "R7C1-prix-appolania.html",
+        "R7C2-prix-cephens.html",
+        "R7C3-prix-gratia.html",
+        "R7C4-prix-isolda.html",
+        "R7C5-prix-libra.html",
+        "R7C6-prix-aquila.html",
+        "R7C7-prix-deimos.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:10.379741Z"
+}

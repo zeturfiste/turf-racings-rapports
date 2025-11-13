@@ -1,0 +1,104 @@
+{
+  "date": "2010-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-09",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-09/2010-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-09/R1-clairefontaine/R1C2-prix-air-mauritius-prix-des-pommiers.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R1-clairefontaine/R1C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R1-clairefontaine/R1C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R1-clairefontaine/R1C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R2-enghien-soisy/R2C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R2-enghien-soisy/R2C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R2-enghien-soisy/R2C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R2-enghien-soisy/R2C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R3-la-teste-de-buch/R3C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R3-la-teste-de-buch/R3C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R3-la-teste-de-buch/R3C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R3-la-teste-de-buch/R3C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R4-dieppe/R4C2-prix-air-mauritius-prix-des-pommiers.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R4-dieppe/R4C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R4-dieppe/R4C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R4-dieppe/R4C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R6-cagnes-sur-mer/R6C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R6-cagnes-sur-mer/R6C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+      "resultats-et-rapports/2010/08/2010-08-09/R6-cagnes-sur-mer/R6C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-enghien-soisy",
+      "R3-la-teste-de-buch",
+      "R4-dieppe",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+        "R1C2-prix-air-mauritius-prix-des-pommiers.html",
+        "R1C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+        "R1C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+        "R1C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+        "R1C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+        "R1C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+        "R1C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+        "R1C9-prix-beachcomber-hotels-le-paradis-prix-du-vieux-bourg.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+        "R2C2-prix-air-mauritius-prix-des-pommiers.html",
+        "R2C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+        "R2C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+        "R2C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+        "R2C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+        "R2C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+        "R2C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+        "R2C9-prix-beachcomber-hotels-le-paradis-prix-du-vieux-bourg.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+        "R3C2-prix-air-mauritius-prix-des-pommiers.html",
+        "R3C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+        "R3C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+        "R3C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+        "R3C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+        "R3C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+        "R3C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+        "R3C9-prix-beachcomber-hotels-le-paradis-prix-du-vieux-bourg.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+        "R4C2-prix-air-mauritius-prix-des-pommiers.html",
+        "R4C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+        "R4C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+        "R4C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+        "R4C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+        "R4C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+        "R4C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+        "R4C9-prix-beachcomber-hotels-le-paradis-prix-du-vieux-bourg.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-beachcomber-hotels-prix-de-la-cote-fleurie.html",
+        "R6C2-prix-air-mauritius-prix-des-pommiers.html",
+        "R6C3-prix-beachcomber-hotels-le-royal-palm-prix-des-poiriers.html",
+        "R6C4-prix-beachcomber-hotels-le-mauricia-prix-sallenelles.html",
+        "R6C5-prix-beachcomber-hotels-le-victoria-prix-des-lobelias.html",
+        "R6C6-prix-beachcomber-hotels-le-dinarobin-prix-vitiges.html",
+        "R6C7-prix-beachcomber-hotels-le-shandrani-prix-virunga.html",
+        "R6C8-prix-mtpa-office-de-tourisme-prix-des-pivoines.html",
+        "R6C9-prix-beachcomber-hotels-le-paradis-prix-du-vieux-bourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:02.635953Z"
+}

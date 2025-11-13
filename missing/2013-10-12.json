@@ -1,0 +1,133 @@
+{
+  "date": "2013-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-12",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-12/2013-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-12/R1-maisons-laffitte/R1C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R1-maisons-laffitte/R1C5-prix-sanctus.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R1-maisons-laffitte/R1C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R2-cabourg/R2C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R2-cabourg/R2C2-prix-kendor.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R3-marseille-vivaux/R3C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R3-marseille-vivaux/R3C3-prix-soya.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R3-marseille-vivaux/R3C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R3-marseille-vivaux/R3C5-prix-sanctus.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R3-marseille-vivaux/R3C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R4-saint-galmier/R4C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R4-saint-galmier/R4C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R4-saint-galmier/R4C5-prix-sanctus.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R4-saint-galmier/R4C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R6-meslay-du-maine/R6C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R6-meslay-du-maine/R6C2-prix-kendor.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R6-meslay-du-maine/R6C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R6-meslay-du-maine/R6C7-prix-de-velizy.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R6-meslay-du-maine/R6C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R7-dax/R7C2-prix-kendor.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R7-dax/R7C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R7-dax/R7C5-prix-sanctus.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R7-dax/R7C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R7-dax/R7C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C1-prix-ravinella.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C2-prix-kendor.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C5-prix-sanctus.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C7-prix-de-velizy.html",
+      "resultats-et-rapports/2013/10/2013-10-12/R8-la-teste-de-buch/R8C8-prix-de-saint-martin-du-chene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cabourg",
+      "R3-marseille-vivaux",
+      "R4-saint-galmier",
+      "R6-meslay-du-maine",
+      "R7-dax",
+      "R8-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-ravinella.html",
+        "R1C2-prix-kendor.html",
+        "R1C3-prix-soya.html",
+        "R1C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R1C5-prix-sanctus.html",
+        "R1C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R1C7-prix-de-velizy.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-ravinella.html",
+        "R2C2-prix-kendor.html",
+        "R2C3-prix-soya.html",
+        "R2C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R2C5-prix-sanctus.html",
+        "R2C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R2C7-prix-de-velizy.html",
+        "R2C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-ravinella.html",
+        "R3C2-prix-kendor.html",
+        "R3C3-prix-soya.html",
+        "R3C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R3C5-prix-sanctus.html",
+        "R3C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R3C7-prix-de-velizy.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-ravinella.html",
+        "R4C2-prix-kendor.html",
+        "R4C3-prix-soya.html",
+        "R4C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R4C5-prix-sanctus.html",
+        "R4C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R4C7-prix-de-velizy.html",
+        "R4C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R6-meslay-du-maine": [
+        "R6C1-prix-ravinella.html",
+        "R6C2-prix-kendor.html",
+        "R6C3-prix-soya.html",
+        "R6C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R6C5-prix-sanctus.html",
+        "R6C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R6C7-prix-de-velizy.html",
+        "R6C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R7-dax": [
+        "R7C1-prix-ravinella.html",
+        "R7C2-prix-kendor.html",
+        "R7C3-prix-soya.html",
+        "R7C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R7C5-prix-sanctus.html",
+        "R7C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R7C7-prix-de-velizy.html",
+        "R7C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R8-la-teste-de-buch": [
+        "R8C1-prix-ravinella.html",
+        "R8C2-prix-kendor.html",
+        "R8C3-prix-soya.html",
+        "R8C4-prix-carrefour-et-centre-commercial-montesson-prix-de-bezons.html",
+        "R8C5-prix-sanctus.html",
+        "R8C6-prix-de-la-ville-de-maisons-laffitte-prix-de-saint-pair-du-mont.html",
+        "R8C7-prix-de-velizy.html",
+        "R8C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:38.835565Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2010-09-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/09/2010-09-10",
+    "date_html": "resultats-et-rapports/2010/09/2010-09-10/2010-09-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/09/2010-09-10/R1-auteuil/R1C4-prix-sapin.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R1-auteuil/R1C5-prix-achille-fould-annulee-remboursee.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R1-auteuil/R1C6-prix-xanthor.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R1-auteuil/R1C7-prix-marly-river.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C1-prix-finot-pouliches.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C4-prix-sapin.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C5-prix-achille-fould-annulee-remboursee.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C6-prix-xanthor.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R2-marseille-borely/R2C7-prix-marly-river.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C1-prix-finot-pouliches.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C3-prix-royal-junior.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C4-prix-sapin.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C5-prix-achille-fould-annulee-remboursee.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R3-vincennes/R3C7-prix-marly-river.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R4-pontchateau/R4C1-prix-finot-pouliches.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R4-pontchateau/R4C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R4-pontchateau/R4C5-prix-achille-fould-annulee-remboursee.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R4-pontchateau/R4C6-prix-xanthor.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R4-pontchateau/R4C7-prix-marly-river.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C1-prix-finot-pouliches.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C3-prix-royal-junior.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C4-prix-sapin.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C5-prix-achille-fould-annulee-remboursee.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C6-prix-xanthor.html",
+      "resultats-et-rapports/2010/09/2010-09-10/R6-laval/R6C7-prix-marly-river.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R4-pontchateau",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-finot-pouliches.html",
+        "R1C2-prix-jean-noiret.html",
+        "R1C3-prix-royal-junior.html",
+        "R1C4-prix-sapin.html",
+        "R1C5-prix-achille-fould-annulee-remboursee.html",
+        "R1C6-prix-xanthor.html",
+        "R1C7-prix-marly-river.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-finot-pouliches.html",
+        "R2C2-prix-jean-noiret.html",
+        "R2C3-prix-royal-junior.html",
+        "R2C4-prix-sapin.html",
+        "R2C5-prix-achille-fould-annulee-remboursee.html",
+        "R2C6-prix-xanthor.html",
+        "R2C7-prix-marly-river.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-finot-pouliches.html",
+        "R3C2-prix-jean-noiret.html",
+        "R3C3-prix-royal-junior.html",
+        "R3C4-prix-sapin.html",
+        "R3C5-prix-achille-fould-annulee-remboursee.html",
+        "R3C6-prix-xanthor.html",
+        "R3C7-prix-marly-river.html"
+      ],
+      "R4-pontchateau": [
+        "R4C1-prix-finot-pouliches.html",
+        "R4C2-prix-jean-noiret.html",
+        "R4C3-prix-royal-junior.html",
+        "R4C4-prix-sapin.html",
+        "R4C5-prix-achille-fould-annulee-remboursee.html",
+        "R4C6-prix-xanthor.html",
+        "R4C7-prix-marly-river.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-finot-pouliches.html",
+        "R6C2-prix-jean-noiret.html",
+        "R6C3-prix-royal-junior.html",
+        "R6C4-prix-sapin.html",
+        "R6C5-prix-achille-fould-annulee-remboursee.html",
+        "R6C6-prix-xanthor.html",
+        "R6C7-prix-marly-river.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:11.868538Z"
+}

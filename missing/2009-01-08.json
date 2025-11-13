@@ -1,0 +1,110 @@
+{
+  "date": "2009-01-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-08",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-08/2009-01-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C1-prix-de-la-beauce.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C2-prix-de-montivilliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C4-prix-de-ranes.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C5-prix-de-nalliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C6-prix-de-figeac.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R1-vincennes/R1C8-prix-de-sartilly.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R3-deauville-midi/R3C1-prix-de-la-beauce.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R3-deauville-midi/R3C2-prix-de-montivilliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R3-deauville-midi/R3C4-prix-de-ranes.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R3-deauville-midi/R3C5-prix-de-nalliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R3-deauville-midi/R3C8-prix-de-sartilly.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R4-deauville/R4C1-prix-de-la-beauce.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R4-deauville/R4C2-prix-de-montivilliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R4-deauville/R4C4-prix-de-ranes.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R4-deauville/R4C7-prix-de-vic-bigorre.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C2-prix-de-montivilliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C3-prix-de-riberac.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C4-prix-de-ranes.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C5-prix-de-nalliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C6-prix-de-figeac.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C7-prix-de-vic-bigorre.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R31-zerace/R31C8-prix-de-sartilly.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C1-prix-de-la-beauce.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C2-prix-de-montivilliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C3-prix-de-riberac.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C4-prix-de-ranes.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C5-prix-de-nalliers.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C6-prix-de-figeac.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C7-prix-de-vic-bigorre.html",
+      "resultats-et-rapports/2009/01/2009-01-08/R70-stade-de-la-liberation-boulogne-sur-mer/R70C8-prix-de-sartilly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville-midi",
+      "R4-deauville",
+      "R31-zerace",
+      "R70-stade-de-la-liberation-boulogne-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-beauce.html",
+        "R1C2-prix-de-montivilliers.html",
+        "R1C3-prix-de-riberac.html",
+        "R1C4-prix-de-ranes.html",
+        "R1C5-prix-de-nalliers.html",
+        "R1C6-prix-de-figeac.html",
+        "R1C7-prix-de-vic-bigorre.html",
+        "R1C8-prix-de-sartilly.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-la-beauce.html",
+        "R3C2-prix-de-montivilliers.html",
+        "R3C3-prix-de-riberac.html",
+        "R3C4-prix-de-ranes.html",
+        "R3C5-prix-de-nalliers.html",
+        "R3C6-prix-de-figeac.html",
+        "R3C7-prix-de-vic-bigorre.html",
+        "R3C8-prix-de-sartilly.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-la-beauce.html",
+        "R4C2-prix-de-montivilliers.html",
+        "R4C3-prix-de-riberac.html",
+        "R4C4-prix-de-ranes.html",
+        "R4C5-prix-de-nalliers.html",
+        "R4C6-prix-de-figeac.html",
+        "R4C7-prix-de-vic-bigorre.html",
+        "R4C8-prix-de-sartilly.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-beauce.html",
+        "R31C2-prix-de-montivilliers.html",
+        "R31C3-prix-de-riberac.html",
+        "R31C4-prix-de-ranes.html",
+        "R31C5-prix-de-nalliers.html",
+        "R31C6-prix-de-figeac.html",
+        "R31C7-prix-de-vic-bigorre.html",
+        "R31C8-prix-de-sartilly.html"
+      ],
+      "R70-stade-de-la-liberation-boulogne-sur-mer": [
+        "R70C1-prix-de-la-beauce.html",
+        "R70C2-prix-de-montivilliers.html",
+        "R70C3-prix-de-riberac.html",
+        "R70C4-prix-de-ranes.html",
+        "R70C5-prix-de-nalliers.html",
+        "R70C6-prix-de-figeac.html",
+        "R70C7-prix-de-vic-bigorre.html",
+        "R70C8-prix-de-sartilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:09.543193Z"
+}

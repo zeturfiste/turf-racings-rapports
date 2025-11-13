@@ -1,0 +1,56 @@
+{
+  "date": "2015-01-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-24",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-24/2015-01-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-24/R1-vincennes/R1C1-prix-jag-de-bellouet.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R1-vincennes/R1C2-prix-ready-cash.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R1-vincennes/R1C3-prix-varenne.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R1-vincennes/R1C8-coupe-d-europe-des-amateurs.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R2-pau/R2C7-prix-offshore-dream.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R2-pau/R2C8-coupe-d-europe-des-amateurs.html",
+      "resultats-et-rapports/2015/01/2015-01-24/R2-pau/R2C9-prix-moni-maker.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-jag-de-bellouet.html",
+        "R1C2-prix-ready-cash.html",
+        "R1C3-prix-varenne.html",
+        "R1C4-prix-du-luxembourg.html",
+        "R1C5-prix-de-paray-le-monial.html",
+        "R1C6-prix-de-chateaubriant.html",
+        "R1C7-prix-offshore-dream.html",
+        "R1C8-coupe-d-europe-des-amateurs.html",
+        "R1C9-prix-moni-maker.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-jag-de-bellouet.html",
+        "R2C2-prix-ready-cash.html",
+        "R2C3-prix-varenne.html",
+        "R2C4-prix-du-luxembourg.html",
+        "R2C5-prix-de-paray-le-monial.html",
+        "R2C6-prix-de-chateaubriant.html",
+        "R2C7-prix-offshore-dream.html",
+        "R2C8-coupe-d-europe-des-amateurs.html",
+        "R2C9-prix-moni-maker.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:02.557440Z"
+}

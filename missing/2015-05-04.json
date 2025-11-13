@@ -1,0 +1,101 @@
+{
+  "date": "2015-05-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-04",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-04/2015-05-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C1-prix-de-roissy.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C2-prix-de-joinville.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C3-prix-du-mont-alta.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C4-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C5-prix-maurice-zilber.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C6-prix-de-montlognon.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C7-prix-du-chene-de-la-justice.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R1-chantilly/R1C8-prix-du-bourget.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C1-prix-de-roissy.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C2-prix-de-joinville.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C3-prix-du-mont-alta.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C4-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C5-prix-maurice-zilber.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C6-prix-de-montlognon.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C7-prix-du-chene-de-la-justice.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R2-marseille-borely/R2C8-prix-du-bourget.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C1-prix-de-roissy.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C2-prix-de-joinville.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C3-prix-du-mont-alta.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C4-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C5-prix-maurice-zilber.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C6-prix-de-montlognon.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C7-prix-du-chene-de-la-justice.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R3-caen/R3C8-prix-du-bourget.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C1-prix-de-roissy.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C2-prix-de-joinville.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C3-prix-du-mont-alta.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C4-prix-du-pavillon-de-manse.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C5-prix-maurice-zilber.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C6-prix-de-montlognon.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C7-prix-du-chene-de-la-justice.html",
+      "resultats-et-rapports/2015/05/2015-05-04/R6-le-croise-laroche/R6C8-prix-du-bourget.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-marseille-borely",
+      "R3-caen",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-roissy.html",
+        "R1C2-prix-de-joinville.html",
+        "R1C3-prix-du-mont-alta.html",
+        "R1C4-prix-du-pavillon-de-manse.html",
+        "R1C5-prix-maurice-zilber.html",
+        "R1C6-prix-de-montlognon.html",
+        "R1C7-prix-du-chene-de-la-justice.html",
+        "R1C8-prix-du-bourget.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-roissy.html",
+        "R2C2-prix-de-joinville.html",
+        "R2C3-prix-du-mont-alta.html",
+        "R2C4-prix-du-pavillon-de-manse.html",
+        "R2C5-prix-maurice-zilber.html",
+        "R2C6-prix-de-montlognon.html",
+        "R2C7-prix-du-chene-de-la-justice.html",
+        "R2C8-prix-du-bourget.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-roissy.html",
+        "R3C2-prix-de-joinville.html",
+        "R3C3-prix-du-mont-alta.html",
+        "R3C4-prix-du-pavillon-de-manse.html",
+        "R3C5-prix-maurice-zilber.html",
+        "R3C6-prix-de-montlognon.html",
+        "R3C7-prix-du-chene-de-la-justice.html",
+        "R3C8-prix-du-bourget.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-roissy.html",
+        "R6C2-prix-de-joinville.html",
+        "R6C3-prix-du-mont-alta.html",
+        "R6C4-prix-du-pavillon-de-manse.html",
+        "R6C5-prix-maurice-zilber.html",
+        "R6C6-prix-de-montlognon.html",
+        "R6C7-prix-du-chene-de-la-justice.html",
+        "R6C8-prix-du-bourget.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:32.291001Z"
+}

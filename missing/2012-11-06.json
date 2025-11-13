@@ -1,0 +1,64 @@
+{
+  "date": "2012-11-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-06",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-06/2012-11-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-06/R1-maisons-laffitte/R1C7-l-express.html",
+      "resultats-et-rapports/2012/11/2012-11-06/R1-maisons-laffitte/R1C8-prix-de-la-moselle.html",
+      "resultats-et-rapports/2012/11/2012-11-06/R2-bordeaux-le-bouscat/R2C1-prix-finasseur.html",
+      "resultats-et-rapports/2012/11/2012-11-06/R2-bordeaux-le-bouscat/R2C2-prix-du-rhin.html",
+      "resultats-et-rapports/2012/11/2012-11-06/R2-bordeaux-le-bouscat/R2C7-l-express.html",
+      "resultats-et-rapports/2012/11/2012-11-06/R3-vincennes/R3C6-prix-de-triel.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-finasseur.html",
+        "R1C2-prix-du-rhin.html",
+        "R1C3-prix-miesque.html",
+        "R1C4-criterium-de-maisons-laffitte.html",
+        "R1C5-prix-de-seine-et-oise.html",
+        "R1C6-prix-de-triel.html",
+        "R1C7-l-express.html",
+        "R1C8-prix-de-la-moselle.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-finasseur.html",
+        "R2C2-prix-du-rhin.html",
+        "R2C3-prix-miesque.html",
+        "R2C4-criterium-de-maisons-laffitte.html",
+        "R2C5-prix-de-seine-et-oise.html",
+        "R2C6-prix-de-triel.html",
+        "R2C7-l-express.html",
+        "R2C8-prix-de-la-moselle.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-finasseur.html",
+        "R3C2-prix-du-rhin.html",
+        "R3C3-prix-miesque.html",
+        "R3C4-criterium-de-maisons-laffitte.html",
+        "R3C5-prix-de-seine-et-oise.html",
+        "R3C6-prix-de-triel.html",
+        "R3C7-l-express.html",
+        "R3C8-prix-de-la-moselle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:57.860817Z"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2011-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-13",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-13/2011-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-13/R1-maisons-laffitte/R1C2-prix-guemul.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R1-maisons-laffitte/R1C4-prix-crystal-palace.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R1-maisons-laffitte/R1C5-prix-sourbier.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R1-maisons-laffitte/R1C6-prix-du-club-des-gentlemen-riders.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R1-maisons-laffitte/R1C8-prix-de-grisy.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R2-cavaillon/R2C2-prix-guemul.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R2-cavaillon/R2C3-prix-d-arenberg.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R2-cavaillon/R2C6-prix-du-club-des-gentlemen-riders.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R2-cavaillon/R2C7-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R2-cavaillon/R2C8-prix-de-grisy.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C1-prix-albine.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C2-prix-guemul.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C3-prix-d-arenberg.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C4-prix-crystal-palace.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C5-prix-sourbier.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C6-prix-du-club-des-gentlemen-riders.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C7-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2011/09/2011-09-13/R3-vincennes/R3C8-prix-de-grisy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cavaillon",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-albine.html",
+        "R1C2-prix-guemul.html",
+        "R1C3-prix-d-arenberg.html",
+        "R1C4-prix-crystal-palace.html",
+        "R1C5-prix-sourbier.html",
+        "R1C6-prix-du-club-des-gentlemen-riders.html",
+        "R1C7-prix-de-conflans-sainte-honorine.html",
+        "R1C8-prix-de-grisy.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-albine.html",
+        "R2C2-prix-guemul.html",
+        "R2C3-prix-d-arenberg.html",
+        "R2C4-prix-crystal-palace.html",
+        "R2C5-prix-sourbier.html",
+        "R2C6-prix-du-club-des-gentlemen-riders.html",
+        "R2C7-prix-de-conflans-sainte-honorine.html",
+        "R2C8-prix-de-grisy.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-albine.html",
+        "R3C2-prix-guemul.html",
+        "R3C3-prix-d-arenberg.html",
+        "R3C4-prix-crystal-palace.html",
+        "R3C5-prix-sourbier.html",
+        "R3C6-prix-du-club-des-gentlemen-riders.html",
+        "R3C7-prix-de-conflans-sainte-honorine.html",
+        "R3C8-prix-de-grisy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:56.231692Z"
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2009-10-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/10/2009-10-08",
+    "date_html": "resultats-et-rapports/2009/10/2009-10-08/2009-10-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/10/2009-10-08/R1-bordeaux-le-bouscat/R1C2-prix-france-bleu-gironde.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R1-bordeaux-le-bouscat/R1C4-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R1-bordeaux-le-bouscat/R1C5-prix-henri-niviere.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R1-bordeaux-le-bouscat/R1C6-prix-colonel-reglade.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R1-bordeaux-le-bouscat/R1C7-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R2-amiens/R2C2-prix-france-bleu-gironde.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R2-amiens/R2C5-prix-henri-niviere.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R2-amiens/R2C7-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R3-enghien-soisy/R3C1-prix-biraben-foie-gras.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R3-enghien-soisy/R3C2-prix-france-bleu-gironde.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R31-zerace/R31C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R31-zerace/R31C4-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R31-zerace/R31C5-prix-henri-niviere.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R31-zerace/R31C7-prix-pierre-baggio-geny-courses-3601.html",
+      "resultats-et-rapports/2009/10/2009-10-08/R31-zerace/R31C8-prix-de-l-hippodrome-du-bouscat-trophee-assoc-proprietaire-sud-ouest.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-amiens",
+      "R3-enghien-soisy",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-biraben-foie-gras.html",
+        "R1C2-prix-france-bleu-gironde.html",
+        "R1C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R1C4-prix-de-la-croix-blanche.html",
+        "R1C5-prix-henri-niviere.html",
+        "R1C6-prix-colonel-reglade.html",
+        "R1C7-prix-pierre-baggio-geny-courses-3601.html",
+        "R1C8-prix-de-l-hippodrome-du-bouscat-trophee-assoc-proprietaire-sud-ouest.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-biraben-foie-gras.html",
+        "R2C2-prix-france-bleu-gironde.html",
+        "R2C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R2C4-prix-de-la-croix-blanche.html",
+        "R2C5-prix-henri-niviere.html",
+        "R2C6-prix-colonel-reglade.html",
+        "R2C7-prix-pierre-baggio-geny-courses-3601.html",
+        "R2C8-prix-de-l-hippodrome-du-bouscat-trophee-assoc-proprietaire-sud-ouest.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-biraben-foie-gras.html",
+        "R3C2-prix-france-bleu-gironde.html",
+        "R3C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R3C4-prix-de-la-croix-blanche.html",
+        "R3C5-prix-henri-niviere.html",
+        "R3C6-prix-colonel-reglade.html",
+        "R3C7-prix-pierre-baggio-geny-courses-3601.html",
+        "R3C8-prix-de-l-hippodrome-du-bouscat-trophee-assoc-proprietaire-sud-ouest.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-biraben-foie-gras.html",
+        "R31C2-prix-france-bleu-gironde.html",
+        "R31C3-grand-criterium-de-bordeaux-prix-de-sauternes.html",
+        "R31C4-prix-de-la-croix-blanche.html",
+        "R31C5-prix-henri-niviere.html",
+        "R31C6-prix-colonel-reglade.html",
+        "R31C7-prix-pierre-baggio-geny-courses-3601.html",
+        "R31C8-prix-de-l-hippodrome-du-bouscat-trophee-assoc-proprietaire-sud-ouest.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:46:29.920116Z"
+}

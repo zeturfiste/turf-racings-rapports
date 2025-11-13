@@ -1,0 +1,84 @@
+{
+  "date": "2017-07-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-11",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-11/2017-07-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C1-prix-de-l-esperance.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C3-prix-synergie.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C4-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C5-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C6-prix-d-enghien.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C7-prix-de-la-galissonniere.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R1-chateaubriant/R1C8-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C1-prix-de-l-esperance.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C2-prix-de-la-ville-marie.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C3-prix-synergie.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C4-prix-nimrod-borealis.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C5-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C6-prix-d-enghien.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R2-dieppe/R2C7-prix-de-la-galissonniere.html",
+      "resultats-et-rapports/2017/07/2017-07-11/R3-la-teste-de-buch/R3C2-prix-de-la-ville-marie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-dieppe",
+      "R3-la-teste-de-buch",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-prix-de-l-esperance.html",
+        "R1C2-prix-de-la-ville-marie.html",
+        "R1C3-prix-synergie.html",
+        "R1C4-prix-nimrod-borealis.html",
+        "R1C5-prix-tenor-de-baune.html",
+        "R1C6-prix-d-enghien.html",
+        "R1C7-prix-de-la-galissonniere.html",
+        "R1C8-prix-coktail-jet.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-de-l-esperance.html",
+        "R2C2-prix-de-la-ville-marie.html",
+        "R2C3-prix-synergie.html",
+        "R2C4-prix-nimrod-borealis.html",
+        "R2C5-prix-tenor-de-baune.html",
+        "R2C6-prix-d-enghien.html",
+        "R2C7-prix-de-la-galissonniere.html",
+        "R2C8-prix-coktail-jet.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-l-esperance.html",
+        "R3C2-prix-de-la-ville-marie.html",
+        "R3C3-prix-synergie.html",
+        "R3C4-prix-nimrod-borealis.html",
+        "R3C5-prix-tenor-de-baune.html",
+        "R3C6-prix-d-enghien.html",
+        "R3C7-prix-de-la-galissonniere.html",
+        "R3C8-prix-coktail-jet.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-l-esperance.html",
+        "R5C2-prix-de-la-ville-marie.html",
+        "R5C3-prix-synergie.html",
+        "R5C4-prix-nimrod-borealis.html",
+        "R5C5-prix-tenor-de-baune.html",
+        "R5C6-prix-d-enghien.html",
+        "R5C7-prix-de-la-galissonniere.html",
+        "R5C8-prix-coktail-jet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:48.354362Z"
+}

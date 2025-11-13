@@ -1,0 +1,107 @@
+{
+  "date": "2015-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/09/2015-09-25",
+    "date_html": "resultats-et-rapports/2015/09/2015-09-25/2015-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/09/2015-09-25/R1-saint-cloud/R1C1-prix-rheingold.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R1-saint-cloud/R1C6-prix-chuchoteur.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R1-saint-cloud/R1C8-prix-incertitude.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R2-mauquenchy/R2C1-prix-rheingold.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R2-mauquenchy/R2C2-prix-marcel-delzons.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R2-mauquenchy/R2C3-prix-pharsale.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R2-mauquenchy/R2C5-prix-coronation.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R2-mauquenchy/R2C6-prix-chuchoteur.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R3-toulouse/R3C2-prix-marcel-delzons.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R3-toulouse/R3C4-prix-du-prieure-de-jardy.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R3-toulouse/R3C8-prix-incertitude.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C1-prix-rheingold.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C2-prix-marcel-delzons.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C3-prix-pharsale.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C4-prix-du-prieure-de-jardy.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C5-prix-coronation.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C6-prix-chuchoteur.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C7-prix-de-huez.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R4-laval/R4C8-prix-incertitude.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C1-prix-rheingold.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C2-prix-marcel-delzons.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C3-prix-pharsale.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C4-prix-du-prieure-de-jardy.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C5-prix-coronation.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C6-prix-chuchoteur.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C7-prix-de-huez.html",
+      "resultats-et-rapports/2015/09/2015-09-25/R5-vincennes/R5C8-prix-incertitude.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-mauquenchy",
+      "R3-toulouse",
+      "R4-laval",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-rheingold.html",
+        "R1C2-prix-marcel-delzons.html",
+        "R1C3-prix-pharsale.html",
+        "R1C4-prix-du-prieure-de-jardy.html",
+        "R1C5-prix-coronation.html",
+        "R1C6-prix-chuchoteur.html",
+        "R1C7-prix-de-huez.html",
+        "R1C8-prix-incertitude.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-rheingold.html",
+        "R2C2-prix-marcel-delzons.html",
+        "R2C3-prix-pharsale.html",
+        "R2C4-prix-du-prieure-de-jardy.html",
+        "R2C5-prix-coronation.html",
+        "R2C6-prix-chuchoteur.html",
+        "R2C7-prix-de-huez.html",
+        "R2C8-prix-incertitude.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-rheingold.html",
+        "R3C2-prix-marcel-delzons.html",
+        "R3C3-prix-pharsale.html",
+        "R3C4-prix-du-prieure-de-jardy.html",
+        "R3C5-prix-coronation.html",
+        "R3C6-prix-chuchoteur.html",
+        "R3C7-prix-de-huez.html",
+        "R3C8-prix-incertitude.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-rheingold.html",
+        "R4C2-prix-marcel-delzons.html",
+        "R4C3-prix-pharsale.html",
+        "R4C4-prix-du-prieure-de-jardy.html",
+        "R4C5-prix-coronation.html",
+        "R4C6-prix-chuchoteur.html",
+        "R4C7-prix-de-huez.html",
+        "R4C8-prix-incertitude.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-rheingold.html",
+        "R5C2-prix-marcel-delzons.html",
+        "R5C3-prix-pharsale.html",
+        "R5C4-prix-du-prieure-de-jardy.html",
+        "R5C5-prix-coronation.html",
+        "R5C6-prix-chuchoteur.html",
+        "R5C7-prix-de-huez.html",
+        "R5C8-prix-incertitude.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:20.487528Z"
+}

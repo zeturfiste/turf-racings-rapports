@@ -1,0 +1,85 @@
+{
+  "date": "2010-12-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-13",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-13/2010-12-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C3-prix-ubu-iii.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C4-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C5-prix-du-mont-sainte-marie.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C6-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C7-prix-du-mont-bego.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R2-vincennes/R2C8-prix-raube-capeu.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C3-prix-ubu-iii.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C4-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C5-prix-du-mont-sainte-marie.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C7-prix-du-mont-bego.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R3-bordeaux-le-bouscat/R3C8-prix-raube-capeu.html",
+      "resultats-et-rapports/2010/12/2010-12-13/R4-fontainebleau/R4C2-prix-de-la-promenade-des-anglais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R3-bordeaux-le-bouscat",
+      "R4-fontainebleau"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-mont-vial.html",
+        "R1C2-prix-de-la-promenade-des-anglais.html",
+        "R1C3-prix-ubu-iii.html",
+        "R1C4-prix-du-mont-falourde.html",
+        "R1C5-prix-du-mont-sainte-marie.html",
+        "R1C6-prix-du-general-du-corail.html",
+        "R1C7-prix-du-mont-bego.html",
+        "R1C8-prix-raube-capeu.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-mont-vial.html",
+        "R2C2-prix-de-la-promenade-des-anglais.html",
+        "R2C3-prix-ubu-iii.html",
+        "R2C4-prix-du-mont-falourde.html",
+        "R2C5-prix-du-mont-sainte-marie.html",
+        "R2C6-prix-du-general-du-corail.html",
+        "R2C7-prix-du-mont-bego.html",
+        "R2C8-prix-raube-capeu.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-du-mont-vial.html",
+        "R3C2-prix-de-la-promenade-des-anglais.html",
+        "R3C3-prix-ubu-iii.html",
+        "R3C4-prix-du-mont-falourde.html",
+        "R3C5-prix-du-mont-sainte-marie.html",
+        "R3C6-prix-du-general-du-corail.html",
+        "R3C7-prix-du-mont-bego.html",
+        "R3C8-prix-raube-capeu.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-du-mont-vial.html",
+        "R4C2-prix-de-la-promenade-des-anglais.html",
+        "R4C3-prix-ubu-iii.html",
+        "R4C4-prix-du-mont-falourde.html",
+        "R4C5-prix-du-mont-sainte-marie.html",
+        "R4C6-prix-du-general-du-corail.html",
+        "R4C7-prix-du-mont-bego.html",
+        "R4C8-prix-raube-capeu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:39.418465Z"
+}

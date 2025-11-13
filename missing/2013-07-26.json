@@ -1,0 +1,94 @@
+{
+  "date": "2013-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/07/2013-07-26",
+    "date_html": "resultats-et-rapports/2013/07/2013-07-26/2013-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/07/2013-07-26/R2-les-sables-d-olonne/R2C1-prix-journal-geny-courses-prix-roseliere.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R2-les-sables-d-olonne/R2C3-prix-asmodee-prix-des-primeveres.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R2-les-sables-d-olonne/R2C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R2-les-sables-d-olonne/R2C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R2-les-sables-d-olonne/R2C8-prix-don-du-sang-prix-des-orchidees.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R3-cabourg/R3C1-prix-journal-geny-courses-prix-roseliere.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C2-prix-familiscope-prix-misti.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C3-prix-asmodee-prix-des-primeveres.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R4-cagnes-sur-mer/R4C7-prix-andre-theron-prix-de-la-garenne.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R6-pornichet-la-baule/R6C7-prix-andre-theron-prix-de-la-garenne.html",
+      "resultats-et-rapports/2013/07/2013-07-26/R6-pornichet-la-baule/R6C8-prix-don-du-sang-prix-des-orchidees.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-les-sables-d-olonne",
+      "R3-cabourg",
+      "R4-cagnes-sur-mer",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-journal-geny-courses-prix-roseliere.html",
+        "R1C2-prix-familiscope-prix-misti.html",
+        "R1C3-prix-asmodee-prix-des-primeveres.html",
+        "R1C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+        "R1C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+        "R1C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+        "R1C7-prix-andre-theron-prix-de-la-garenne.html",
+        "R1C8-prix-don-du-sang-prix-des-orchidees.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-journal-geny-courses-prix-roseliere.html",
+        "R2C2-prix-familiscope-prix-misti.html",
+        "R2C3-prix-asmodee-prix-des-primeveres.html",
+        "R2C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+        "R2C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+        "R2C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+        "R2C7-prix-andre-theron-prix-de-la-garenne.html",
+        "R2C8-prix-don-du-sang-prix-des-orchidees.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-journal-geny-courses-prix-roseliere.html",
+        "R3C2-prix-familiscope-prix-misti.html",
+        "R3C3-prix-asmodee-prix-des-primeveres.html",
+        "R3C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+        "R3C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+        "R3C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+        "R3C7-prix-andre-theron-prix-de-la-garenne.html",
+        "R3C8-prix-don-du-sang-prix-des-orchidees.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-journal-geny-courses-prix-roseliere.html",
+        "R4C2-prix-familiscope-prix-misti.html",
+        "R4C3-prix-asmodee-prix-des-primeveres.html",
+        "R4C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+        "R4C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+        "R4C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+        "R4C7-prix-andre-theron-prix-de-la-garenne.html",
+        "R4C8-prix-don-du-sang-prix-des-orchidees.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-journal-geny-courses-prix-roseliere.html",
+        "R6C2-prix-familiscope-prix-misti.html",
+        "R6C3-prix-asmodee-prix-des-primeveres.html",
+        "R6C4-prix-cheval-mag-prix-du-chemin-du-marais.html",
+        "R6C5-prix-www-prevacancesauxcourses-com-prix-du-chemin-de-l-hippodrome.html",
+        "R6C6-prix-la-digue-de-villers-sur-mer-prix-des-capucines.html",
+        "R6C7-prix-andre-theron-prix-de-la-garenne.html",
+        "R6C8-prix-don-du-sang-prix-des-orchidees.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:13.139746Z"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2016-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-28",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-28/2016-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-28/R3-auteuil/R3C1-prix-le-trot-com.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R3-auteuil/R3C3-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R3-auteuil/R3C6-grand-prix-de-la-toussaint.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R3-auteuil/R3C7-prix-journal-eurotierce.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R3-auteuil/R3C8-prix-palma-de-majorque.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C1-prix-le-trot-com.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C2-grand-prix-paris-turf.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C3-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C4-prix-trba.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C5-finale-grand-prix-des-geniteurs.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C6-grand-prix-de-la-toussaint.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C7-prix-journal-eurotierce.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R4-compiegne/R4C8-prix-palma-de-majorque.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R6-vincennes/R6C2-grand-prix-paris-turf.html",
+      "resultats-et-rapports/2016/10/2016-10-28/R6-vincennes/R6C7-prix-journal-eurotierce.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R3-auteuil",
+      "R4-compiegne",
+      "R6-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R3-auteuil": [
+        "R3C1-prix-le-trot-com.html",
+        "R3C2-grand-prix-paris-turf.html",
+        "R3C3-prix-champagne-moet-chandon.html",
+        "R3C4-prix-trba.html",
+        "R3C5-finale-grand-prix-des-geniteurs.html",
+        "R3C6-grand-prix-de-la-toussaint.html",
+        "R3C7-prix-journal-eurotierce.html",
+        "R3C8-prix-palma-de-majorque.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-le-trot-com.html",
+        "R4C2-grand-prix-paris-turf.html",
+        "R4C3-prix-champagne-moet-chandon.html",
+        "R4C4-prix-trba.html",
+        "R4C5-finale-grand-prix-des-geniteurs.html",
+        "R4C6-grand-prix-de-la-toussaint.html",
+        "R4C7-prix-journal-eurotierce.html",
+        "R4C8-prix-palma-de-majorque.html"
+      ],
+      "R6-vincennes": [
+        "R6C1-prix-le-trot-com.html",
+        "R6C2-grand-prix-paris-turf.html",
+        "R6C3-prix-champagne-moet-chandon.html",
+        "R6C4-prix-trba.html",
+        "R6C5-finale-grand-prix-des-geniteurs.html",
+        "R6C6-grand-prix-de-la-toussaint.html",
+        "R6C7-prix-journal-eurotierce.html",
+        "R6C8-prix-palma-de-majorque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:27.034195Z"
+}

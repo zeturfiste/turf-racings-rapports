@@ -1,0 +1,92 @@
+{
+  "date": "2010-02-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/02/2010-02-02",
+    "date_html": "resultats-et-rapports/2010/02/2010-02-02/2010-02-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/02/2010-02-02/R1-vincennes/R1C1-prix-de-vittel.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R1-vincennes/R1C2-prix-de-laval.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R1-vincennes/R1C3-prix-de-cholet.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R1-vincennes/R1C5-prix-de-faverolles.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R1-vincennes/R1C8-prix-de-moutiers.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C1-prix-de-vittel.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C2-prix-de-laval.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C3-prix-de-cholet.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C4-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C5-prix-de-faverolles.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C6-prix-d-ambert.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C7-prix-de-carcassonne.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R2-pau/R2C8-prix-de-moutiers.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C1-prix-de-vittel.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C2-prix-de-laval.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C3-prix-de-cholet.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C4-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C5-prix-de-faverolles.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C6-prix-d-ambert.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C7-prix-de-carcassonne.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R31-zerace/R31C8-prix-de-moutiers.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R70-jacques-chaban-delmas-bordeaux/R70C1-prix-de-vittel.html",
+      "resultats-et-rapports/2010/02/2010-02-02/R70-jacques-chaban-delmas-bordeaux/R70C7-prix-de-carcassonne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R31-zerace",
+      "R70-jacques-chaban-delmas-bordeaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-vittel.html",
+        "R1C2-prix-de-laval.html",
+        "R1C3-prix-de-cholet.html",
+        "R1C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R1C5-prix-de-faverolles.html",
+        "R1C6-prix-d-ambert.html",
+        "R1C7-prix-de-carcassonne.html",
+        "R1C8-prix-de-moutiers.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-vittel.html",
+        "R2C2-prix-de-laval.html",
+        "R2C3-prix-de-cholet.html",
+        "R2C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R2C5-prix-de-faverolles.html",
+        "R2C6-prix-d-ambert.html",
+        "R2C7-prix-de-carcassonne.html",
+        "R2C8-prix-de-moutiers.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-vittel.html",
+        "R31C2-prix-de-laval.html",
+        "R31C3-prix-de-cholet.html",
+        "R31C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R31C5-prix-de-faverolles.html",
+        "R31C6-prix-d-ambert.html",
+        "R31C7-prix-de-carcassonne.html",
+        "R31C8-prix-de-moutiers.html"
+      ],
+      "R70-jacques-chaban-delmas-bordeaux": [
+        "R70C1-prix-de-vittel.html",
+        "R70C2-prix-de-laval.html",
+        "R70C3-prix-de-cholet.html",
+        "R70C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R70C5-prix-de-faverolles.html",
+        "R70C6-prix-d-ambert.html",
+        "R70C7-prix-de-carcassonne.html",
+        "R70C8-prix-de-moutiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:27.609627Z"
+}

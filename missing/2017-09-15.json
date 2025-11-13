@@ -1,0 +1,101 @@
+{
+  "date": "2017-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/09/2017-09-15",
+    "date_html": "resultats-et-rapports/2017/09/2017-09-15/2017-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/09/2017-09-15/R1-vincennes/R1C1-prix-alhena.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R1-vincennes/R1C2-prix-ophelia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R1-vincennes/R1C5-prix-enis.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R3-compiegne/R3C3-prix-massalia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R3-compiegne/R3C4-prix-galathea.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R3-compiegne/R3C5-prix-enis.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R3-compiegne/R3C6-prix-cursa.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R3-compiegne/R3C7-prix-menkar.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R4-salon-de-provence/R4C1-prix-alhena.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R4-salon-de-provence/R4C2-prix-ophelia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R4-salon-de-provence/R4C3-prix-massalia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R4-salon-de-provence/R4C4-prix-galathea.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R4-salon-de-provence/R4C6-prix-cursa.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C1-prix-alhena.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C2-prix-ophelia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C3-prix-massalia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C4-prix-galathea.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C5-prix-enis.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R6-le-croise-laroche/R6C7-prix-menkar.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C1-prix-alhena.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C2-prix-ophelia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C3-prix-massalia.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C4-prix-galathea.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C5-prix-enis.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C6-prix-cursa.html",
+      "resultats-et-rapports/2017/09/2017-09-15/R7-toulouse/R7C7-prix-menkar.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-compiegne",
+      "R4-salon-de-provence",
+      "R6-le-croise-laroche",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-alhena.html",
+        "R1C2-prix-ophelia.html",
+        "R1C3-prix-massalia.html",
+        "R1C4-prix-galathea.html",
+        "R1C5-prix-enis.html",
+        "R1C6-prix-cursa.html",
+        "R1C7-prix-menkar.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-alhena.html",
+        "R3C2-prix-ophelia.html",
+        "R3C3-prix-massalia.html",
+        "R3C4-prix-galathea.html",
+        "R3C5-prix-enis.html",
+        "R3C6-prix-cursa.html",
+        "R3C7-prix-menkar.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-alhena.html",
+        "R4C2-prix-ophelia.html",
+        "R4C3-prix-massalia.html",
+        "R4C4-prix-galathea.html",
+        "R4C5-prix-enis.html",
+        "R4C6-prix-cursa.html",
+        "R4C7-prix-menkar.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-alhena.html",
+        "R6C2-prix-ophelia.html",
+        "R6C3-prix-massalia.html",
+        "R6C4-prix-galathea.html",
+        "R6C5-prix-enis.html",
+        "R6C6-prix-cursa.html",
+        "R6C7-prix-menkar.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-alhena.html",
+        "R7C2-prix-ophelia.html",
+        "R7C3-prix-massalia.html",
+        "R7C4-prix-galathea.html",
+        "R7C5-prix-enis.html",
+        "R7C6-prix-cursa.html",
+        "R7C7-prix-menkar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:13.334312Z"
+}

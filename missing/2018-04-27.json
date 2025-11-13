@@ -1,0 +1,78 @@
+{
+  "date": "2018-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-27",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-27/2018-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-27/R1-vincennes/R1C1-prix-maginus.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R3-marseille-borely/R3C2-prix-huberta.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R3-marseille-borely/R3C3-prix-claudia.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R3-marseille-borely/R3C5-prix-libussa.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R3-marseille-borely/R3C7-prix-regina.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R4-chantilly/R4C4-prix-antigone.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R4-chantilly/R4C5-prix-libussa.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R4-chantilly/R4C7-prix-regina.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R5-la-teste-de-buch/R5C2-prix-huberta.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R5-la-teste-de-buch/R5C3-prix-claudia.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R5-la-teste-de-buch/R5C4-prix-antigone.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R5-la-teste-de-buch/R5C5-prix-libussa.html",
+      "resultats-et-rapports/2018/04/2018-04-27/R5-la-teste-de-buch/R5C6-prix-anna.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-chantilly",
+      "R5-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-maginus.html",
+        "R1C2-prix-huberta.html",
+        "R1C3-prix-claudia.html",
+        "R1C4-prix-antigone.html",
+        "R1C5-prix-libussa.html",
+        "R1C6-prix-anna.html",
+        "R1C7-prix-regina.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-maginus.html",
+        "R3C2-prix-huberta.html",
+        "R3C3-prix-claudia.html",
+        "R3C4-prix-antigone.html",
+        "R3C5-prix-libussa.html",
+        "R3C6-prix-anna.html",
+        "R3C7-prix-regina.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-maginus.html",
+        "R4C2-prix-huberta.html",
+        "R4C3-prix-claudia.html",
+        "R4C4-prix-antigone.html",
+        "R4C5-prix-libussa.html",
+        "R4C6-prix-anna.html",
+        "R4C7-prix-regina.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-maginus.html",
+        "R5C2-prix-huberta.html",
+        "R5C3-prix-claudia.html",
+        "R5C4-prix-antigone.html",
+        "R5C5-prix-libussa.html",
+        "R5C6-prix-anna.html",
+        "R5C7-prix-regina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:21.590812Z"
+}

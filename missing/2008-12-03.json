@@ -1,0 +1,101 @@
+{
+  "date": "2008-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-03",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-03/2008-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-03/R1-marseille-borely/R1C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R1-marseille-borely/R1C7-prix-d-endurance.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R1-marseille-borely/R1C8-prix-du-pontet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R2-vincennes/R2C3-prix-paris-turf-prix-louis-brunet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R2-vincennes/R2C4-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R2-vincennes/R2C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R2-vincennes/R2C8-prix-du-pontet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R31-zerace/R31C1-prix-pierre-massot.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R31-zerace/R31C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C2-prix-du-prado.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C3-prix-paris-turf-prix-louis-brunet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C4-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C5-prix-des-glaieuls.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C6-prix-de-montmajour.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C7-prix-d-endurance.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R70-stade-de-sclessin-liege/R70C8-prix-du-pontet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R71-city-of-manchester-stadium/R71C3-prix-paris-turf-prix-louis-brunet.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R71-city-of-manchester-stadium/R71C4-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R71-city-of-manchester-stadium/R71C5-prix-des-glaieuls.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R71-city-of-manchester-stadium/R71C7-prix-d-endurance.html",
+      "resultats-et-rapports/2008/12/2008-12-03/R71-city-of-manchester-stadium/R71C8-prix-du-pontet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-vincennes",
+      "R31-zerace",
+      "R70-stade-de-sclessin-liege",
+      "R71-city-of-manchester-stadium"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-pierre-massot.html",
+        "R1C2-prix-du-prado.html",
+        "R1C3-prix-paris-turf-prix-louis-brunet.html",
+        "R1C4-prix-du-comite-regional-du-sud-est.html",
+        "R1C5-prix-des-glaieuls.html",
+        "R1C6-prix-de-montmajour.html",
+        "R1C7-prix-d-endurance.html",
+        "R1C8-prix-du-pontet.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-pierre-massot.html",
+        "R2C2-prix-du-prado.html",
+        "R2C3-prix-paris-turf-prix-louis-brunet.html",
+        "R2C4-prix-du-comite-regional-du-sud-est.html",
+        "R2C5-prix-des-glaieuls.html",
+        "R2C6-prix-de-montmajour.html",
+        "R2C7-prix-d-endurance.html",
+        "R2C8-prix-du-pontet.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-pierre-massot.html",
+        "R31C2-prix-du-prado.html",
+        "R31C3-prix-paris-turf-prix-louis-brunet.html",
+        "R31C4-prix-du-comite-regional-du-sud-est.html",
+        "R31C5-prix-des-glaieuls.html",
+        "R31C6-prix-de-montmajour.html",
+        "R31C7-prix-d-endurance.html",
+        "R31C8-prix-du-pontet.html"
+      ],
+      "R70-stade-de-sclessin-liege": [
+        "R70C1-prix-pierre-massot.html",
+        "R70C2-prix-du-prado.html",
+        "R70C3-prix-paris-turf-prix-louis-brunet.html",
+        "R70C4-prix-du-comite-regional-du-sud-est.html",
+        "R70C5-prix-des-glaieuls.html",
+        "R70C6-prix-de-montmajour.html",
+        "R70C7-prix-d-endurance.html",
+        "R70C8-prix-du-pontet.html"
+      ],
+      "R71-city-of-manchester-stadium": [
+        "R71C1-prix-pierre-massot.html",
+        "R71C2-prix-du-prado.html",
+        "R71C3-prix-paris-turf-prix-louis-brunet.html",
+        "R71C4-prix-du-comite-regional-du-sud-est.html",
+        "R71C5-prix-des-glaieuls.html",
+        "R71C6-prix-de-montmajour.html",
+        "R71C7-prix-d-endurance.html",
+        "R71C8-prix-du-pontet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:43:54.954292Z"
+}

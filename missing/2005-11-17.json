@@ -1,0 +1,46 @@
+{
+  "date": "2005-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-17",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-17/2005-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-kerautem.html",
+        "R1C2-prix-domaine-de-bablut-chateau-de-brissac-prix-d-anjou.html",
+        "R1C3-prix-de-jumilhac.html",
+        "R1C4-grand-prix-d-angers.html",
+        "R1C5-grande-course-de-haies-d-angers.html",
+        "R1C6-prix-david-d-angers.html",
+        "R1C7-prix-des-jardins-du-mail.html",
+        "R1C8-prix-tv10-angers.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-kerautem.html",
+        "R2C2-prix-domaine-de-bablut-chateau-de-brissac-prix-d-anjou.html",
+        "R2C3-prix-de-jumilhac.html",
+        "R2C4-grand-prix-d-angers.html",
+        "R2C5-grande-course-de-haies-d-angers.html",
+        "R2C6-prix-david-d-angers.html",
+        "R2C7-prix-des-jardins-du-mail.html",
+        "R2C8-prix-tv10-angers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:33.838340Z"
+}

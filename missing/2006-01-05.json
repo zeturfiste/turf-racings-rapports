@@ -1,0 +1,46 @@
+{
+  "date": "2006-01-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/01/2006-01-05",
+    "date_html": "resultats-et-rapports/2006/01/2006-01-05/2006-01-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-poitiers.html",
+        "R1C2-prix-noville.html",
+        "R1C3-prix-d-albertville.html",
+        "R1C4-prix-de-la-beauce.html",
+        "R1C5-prix-de-pontchateau.html",
+        "R1C6-prix-de-luynes.html",
+        "R1C7-prix-d-acigne.html",
+        "R1C8-prix-de-dieppe.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-poitiers.html",
+        "R2C2-prix-noville.html",
+        "R2C3-prix-d-albertville.html",
+        "R2C4-prix-de-la-beauce.html",
+        "R2C5-prix-de-pontchateau.html",
+        "R2C6-prix-de-luynes.html",
+        "R2C7-prix-d-acigne.html",
+        "R2C8-prix-de-dieppe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:41.069691Z"
+}

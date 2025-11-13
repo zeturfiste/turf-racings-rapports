@@ -1,0 +1,105 @@
+{
+  "date": "2011-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-30",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-30/2011-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C1-prix-de-la-sequana.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C5-prix-du-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C7-prix-d-armenonville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R1-longchamp/R1C8-prix-de-la-bievre.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R2-lyon-la-soie/R2C1-prix-de-la-sequana.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R2-lyon-la-soie/R2C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R2-lyon-la-soie/R2C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R2-lyon-la-soie/R2C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C1-prix-de-la-sequana.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C7-prix-d-armenonville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R3-angers/R3C8-prix-de-la-bievre.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R4-graignes/R4C1-prix-de-la-sequana.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R4-graignes/R4C2-prix-de-lormoy.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R4-graignes/R4C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R4-graignes/R4C6-prix-du-quai-aux-fleurs.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R5-le-croise-laroche/R5C3-prix-de-cheffreville.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R5-le-croise-laroche/R5C4-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2011/05/2011-05-30/R5-le-croise-laroche/R5C6-prix-du-quai-aux-fleurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-lyon-la-soie",
+      "R3-angers",
+      "R4-graignes",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-la-sequana.html",
+        "R1C2-prix-de-lormoy.html",
+        "R1C3-prix-de-cheffreville.html",
+        "R1C4-prix-de-la-bienfaisance.html",
+        "R1C5-prix-du-palais-de-la-decouverte.html",
+        "R1C6-prix-du-quai-aux-fleurs.html",
+        "R1C7-prix-d-armenonville.html",
+        "R1C8-prix-de-la-bievre.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-de-la-sequana.html",
+        "R2C2-prix-de-lormoy.html",
+        "R2C3-prix-de-cheffreville.html",
+        "R2C4-prix-de-la-bienfaisance.html",
+        "R2C5-prix-du-palais-de-la-decouverte.html",
+        "R2C6-prix-du-quai-aux-fleurs.html",
+        "R2C7-prix-d-armenonville.html",
+        "R2C8-prix-de-la-bievre.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-de-la-sequana.html",
+        "R3C2-prix-de-lormoy.html",
+        "R3C3-prix-de-cheffreville.html",
+        "R3C4-prix-de-la-bienfaisance.html",
+        "R3C5-prix-du-palais-de-la-decouverte.html",
+        "R3C6-prix-du-quai-aux-fleurs.html",
+        "R3C7-prix-d-armenonville.html",
+        "R3C8-prix-de-la-bievre.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-la-sequana.html",
+        "R4C2-prix-de-lormoy.html",
+        "R4C3-prix-de-cheffreville.html",
+        "R4C4-prix-de-la-bienfaisance.html",
+        "R4C5-prix-du-palais-de-la-decouverte.html",
+        "R4C6-prix-du-quai-aux-fleurs.html",
+        "R4C7-prix-d-armenonville.html",
+        "R4C8-prix-de-la-bievre.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-la-sequana.html",
+        "R5C2-prix-de-lormoy.html",
+        "R5C3-prix-de-cheffreville.html",
+        "R5C4-prix-de-la-bienfaisance.html",
+        "R5C5-prix-du-palais-de-la-decouverte.html",
+        "R5C6-prix-du-quai-aux-fleurs.html",
+        "R5C7-prix-d-armenonville.html",
+        "R5C8-prix-de-la-bievre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:23.257427Z"
+}

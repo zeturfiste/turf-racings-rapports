@@ -1,0 +1,91 @@
+{
+  "date": "2014-09-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-17",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-17/2014-09-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C1-prix-georges-courtois.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C3-prix-des-charmes.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C4-prix-du-rocher-cassepot.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C5-prix-de-la-sapiniere.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C6-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C7-prix-anne-fevre.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R1-fontainebleau/R1C8-prix-de-la-cour-des-adieux.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R2-la-capelle/R2C1-prix-georges-courtois.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R2-la-capelle/R2C2-prix-de-la-pinede.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R2-la-capelle/R2C6-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R2-la-capelle/R2C7-prix-anne-fevre.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R2-la-capelle/R2C8-prix-de-la-cour-des-adieux.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C1-prix-georges-courtois.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C2-prix-de-la-pinede.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C4-prix-du-rocher-cassepot.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C6-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C7-prix-anne-fevre.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R3-auteuil/R3C8-prix-de-la-cour-des-adieux.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R4-beaumont-de-lomagne/R4C1-prix-georges-courtois.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R4-beaumont-de-lomagne/R4C5-prix-de-la-sapiniere.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R4-beaumont-de-lomagne/R4C7-prix-anne-fevre.html",
+      "resultats-et-rapports/2014/09/2014-09-17/R4-beaumont-de-lomagne/R4C8-prix-de-la-cour-des-adieux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-la-capelle",
+      "R3-auteuil",
+      "R4-beaumont-de-lomagne"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-georges-courtois.html",
+        "R1C2-prix-de-la-pinede.html",
+        "R1C3-prix-des-charmes.html",
+        "R1C4-prix-du-rocher-cassepot.html",
+        "R1C5-prix-de-la-sapiniere.html",
+        "R1C6-prix-des-gorges-d-apremont.html",
+        "R1C7-prix-anne-fevre.html",
+        "R1C8-prix-de-la-cour-des-adieux.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-georges-courtois.html",
+        "R2C2-prix-de-la-pinede.html",
+        "R2C3-prix-des-charmes.html",
+        "R2C4-prix-du-rocher-cassepot.html",
+        "R2C5-prix-de-la-sapiniere.html",
+        "R2C6-prix-des-gorges-d-apremont.html",
+        "R2C7-prix-anne-fevre.html",
+        "R2C8-prix-de-la-cour-des-adieux.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-georges-courtois.html",
+        "R3C2-prix-de-la-pinede.html",
+        "R3C3-prix-des-charmes.html",
+        "R3C4-prix-du-rocher-cassepot.html",
+        "R3C5-prix-de-la-sapiniere.html",
+        "R3C6-prix-des-gorges-d-apremont.html",
+        "R3C7-prix-anne-fevre.html",
+        "R3C8-prix-de-la-cour-des-adieux.html"
+      ],
+      "R4-beaumont-de-lomagne": [
+        "R4C1-prix-georges-courtois.html",
+        "R4C2-prix-de-la-pinede.html",
+        "R4C3-prix-des-charmes.html",
+        "R4C4-prix-du-rocher-cassepot.html",
+        "R4C5-prix-de-la-sapiniere.html",
+        "R4C6-prix-des-gorges-d-apremont.html",
+        "R4C7-prix-anne-fevre.html",
+        "R4C8-prix-de-la-cour-des-adieux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:23.043275Z"
+}

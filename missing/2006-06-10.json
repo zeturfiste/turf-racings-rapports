@@ -1,0 +1,94 @@
+{
+  "date": "2006-06-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-10",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-10/2006-06-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-10/R2-amiens/R2C2-prix-du-dauphine.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R2-amiens/R2C8-prix-d-istres.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R10-westfalen-stadion-dortmund/R10C1-prix-de-ploermel.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R11-aol-arena-hambourg/R11C6-prix-louis-jariel.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R11-aol-arena-hambourg/R11C7-prix-d-arles.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R11-aol-arena-hambourg/R11C9-prix-de-gien.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R13-waldstadion-francfort/R13C2-prix-du-dauphine.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R13-waldstadion-francfort/R13C3-prix-du-quercy.html",
+      "resultats-et-rapports/2006/06/2006-06-10/R13-waldstadion-francfort/R13C4-prix-de-fecamp.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-amiens",
+      "R10-westfalen-stadion-dortmund",
+      "R11-aol-arena-hambourg",
+      "R13-waldstadion-francfort"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-ploermel.html",
+        "R1C2-prix-du-dauphine.html",
+        "R1C3-prix-du-quercy.html",
+        "R1C4-prix-de-fecamp.html",
+        "R1C5-prix-de-villeneuve-sur-lot.html",
+        "R1C6-prix-louis-jariel.html",
+        "R1C7-prix-d-arles.html",
+        "R1C8-prix-d-istres.html",
+        "R1C9-prix-de-gien.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-de-ploermel.html",
+        "R2C2-prix-du-dauphine.html",
+        "R2C3-prix-du-quercy.html",
+        "R2C4-prix-de-fecamp.html",
+        "R2C5-prix-de-villeneuve-sur-lot.html",
+        "R2C6-prix-louis-jariel.html",
+        "R2C7-prix-d-arles.html",
+        "R2C8-prix-d-istres.html",
+        "R2C9-prix-de-gien.html"
+      ],
+      "R10-westfalen-stadion-dortmund": [
+        "R10C1-prix-de-ploermel.html",
+        "R10C2-prix-du-dauphine.html",
+        "R10C3-prix-du-quercy.html",
+        "R10C4-prix-de-fecamp.html",
+        "R10C5-prix-de-villeneuve-sur-lot.html",
+        "R10C6-prix-louis-jariel.html",
+        "R10C7-prix-d-arles.html",
+        "R10C8-prix-d-istres.html",
+        "R10C9-prix-de-gien.html"
+      ],
+      "R11-aol-arena-hambourg": [
+        "R11C1-prix-de-ploermel.html",
+        "R11C2-prix-du-dauphine.html",
+        "R11C3-prix-du-quercy.html",
+        "R11C4-prix-de-fecamp.html",
+        "R11C5-prix-de-villeneuve-sur-lot.html",
+        "R11C6-prix-louis-jariel.html",
+        "R11C7-prix-d-arles.html",
+        "R11C8-prix-d-istres.html",
+        "R11C9-prix-de-gien.html"
+      ],
+      "R13-waldstadion-francfort": [
+        "R13C1-prix-de-ploermel.html",
+        "R13C2-prix-du-dauphine.html",
+        "R13C3-prix-du-quercy.html",
+        "R13C4-prix-de-fecamp.html",
+        "R13C5-prix-de-villeneuve-sur-lot.html",
+        "R13C6-prix-louis-jariel.html",
+        "R13C7-prix-d-arles.html",
+        "R13C8-prix-d-istres.html",
+        "R13C9-prix-de-gien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:07.943582Z"
+}

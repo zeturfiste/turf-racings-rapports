@@ -1,0 +1,70 @@
+{
+  "date": "2011-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-30",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-30/2011-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-30/R1-vincennes/R1C1-prix-de-meslay-du-maine.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R1-vincennes/R1C7-prix-du-dorat.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R1-vincennes/R1C8-prix-de-nantes.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R2-angers/R2C4-prix-d-angles.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R2-angers/R2C5-prix-de-menneval.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R2-angers/R2C6-prix-d-honfleur.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C2-prix-de-bourigny.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C3-prix-de-grenoble.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C4-prix-d-angles.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C5-prix-de-menneval.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C6-prix-d-honfleur.html",
+      "resultats-et-rapports/2011/11/2011-11-30/R3-marseille-vivaux/R3C7-prix-du-dorat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-meslay-du-maine.html",
+        "R1C2-prix-de-bourigny.html",
+        "R1C3-prix-de-grenoble.html",
+        "R1C4-prix-d-angles.html",
+        "R1C5-prix-de-menneval.html",
+        "R1C6-prix-d-honfleur.html",
+        "R1C7-prix-du-dorat.html",
+        "R1C8-prix-de-nantes.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-meslay-du-maine.html",
+        "R2C2-prix-de-bourigny.html",
+        "R2C3-prix-de-grenoble.html",
+        "R2C4-prix-d-angles.html",
+        "R2C5-prix-de-menneval.html",
+        "R2C6-prix-d-honfleur.html",
+        "R2C7-prix-du-dorat.html",
+        "R2C8-prix-de-nantes.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-meslay-du-maine.html",
+        "R3C2-prix-de-bourigny.html",
+        "R3C3-prix-de-grenoble.html",
+        "R3C4-prix-d-angles.html",
+        "R3C5-prix-de-menneval.html",
+        "R3C6-prix-d-honfleur.html",
+        "R3C7-prix-du-dorat.html",
+        "R3C8-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:18.838225Z"
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2011-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-23",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-23/2011-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-23/R1-auteuil/R1C1-prix-chinco.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R1-auteuil/R1C2-prix-sagan.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R1-auteuil/R1C3-prix-du-bearn.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R1-auteuil/R1C5-prix-la-perichole.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C1-prix-chinco.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C3-prix-du-bearn.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C4-prix-burgrave-ii.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C6-prix-jason.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C7-prix-colombelles.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R2-caen/R2C8-prix-pharaon.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C1-prix-chinco.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C2-prix-sagan.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C4-prix-burgrave-ii.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C5-prix-la-perichole.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C7-prix-colombelles.html",
+      "resultats-et-rapports/2011/06/2011-06-23/R3-la-teste-de-buch/R3C8-prix-pharaon.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-chinco.html",
+        "R1C2-prix-sagan.html",
+        "R1C3-prix-du-bearn.html",
+        "R1C4-prix-burgrave-ii.html",
+        "R1C5-prix-la-perichole.html",
+        "R1C6-prix-jason.html",
+        "R1C7-prix-colombelles.html",
+        "R1C8-prix-pharaon.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-chinco.html",
+        "R2C2-prix-sagan.html",
+        "R2C3-prix-du-bearn.html",
+        "R2C4-prix-burgrave-ii.html",
+        "R2C5-prix-la-perichole.html",
+        "R2C6-prix-jason.html",
+        "R2C7-prix-colombelles.html",
+        "R2C8-prix-pharaon.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-chinco.html",
+        "R3C2-prix-sagan.html",
+        "R3C3-prix-du-bearn.html",
+        "R3C4-prix-burgrave-ii.html",
+        "R3C5-prix-la-perichole.html",
+        "R3C6-prix-jason.html",
+        "R3C7-prix-colombelles.html",
+        "R3C8-prix-pharaon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:30.351498Z"
+}

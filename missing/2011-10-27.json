@@ -1,0 +1,63 @@
+{
+  "date": "2011-10-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-27",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-27/2011-10-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-27/R1-marseille-borely/R1C1-prix-beachcomber-hotels-trou-aux-biches-l-prix-de-l-endurance.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R1-marseille-borely/R1C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice-prix-de-saint-just.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R1-marseille-borely/R1C3-prix-beachcomber-hotels-dinarobin-l-prix-pierre-puget.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R1-marseille-borely/R1C4-prix-beachcomber-hotels-royal-palm-l-prix-de-l-association-des-jockeys.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R1-marseille-borely/R1C7-prix-beachcomber-hotels-le-paradis-l-prix-herve-ginoux.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R2-maisons-laffitte/R2C5-prix-air-mauritius-grand-handicap-de-marseille.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R2-maisons-laffitte/R2C7-prix-beachcomber-hotels-le-paradis-l-prix-herve-ginoux.html",
+      "resultats-et-rapports/2011/10/2011-10-27/R3-cabourg/R3C6-prix-beachcomber-hotels-shandrani-prix-sainte-croix.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-maisons-laffitte",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-beachcomber-hotels-trou-aux-biches-l-prix-de-l-endurance.html",
+        "R1C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice-prix-de-saint-just.html",
+        "R1C3-prix-beachcomber-hotels-dinarobin-l-prix-pierre-puget.html",
+        "R1C4-prix-beachcomber-hotels-royal-palm-l-prix-de-l-association-des-jockeys.html",
+        "R1C5-prix-air-mauritius-grand-handicap-de-marseille.html",
+        "R1C6-prix-beachcomber-hotels-shandrani-prix-sainte-croix.html",
+        "R1C7-prix-beachcomber-hotels-le-paradis-l-prix-herve-ginoux.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-beachcomber-hotels-trou-aux-biches-l-prix-de-l-endurance.html",
+        "R2C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice-prix-de-saint-just.html",
+        "R2C3-prix-beachcomber-hotels-dinarobin-l-prix-pierre-puget.html",
+        "R2C4-prix-beachcomber-hotels-royal-palm-l-prix-de-l-association-des-jockeys.html",
+        "R2C5-prix-air-mauritius-grand-handicap-de-marseille.html",
+        "R2C6-prix-beachcomber-hotels-shandrani-prix-sainte-croix.html",
+        "R2C7-prix-beachcomber-hotels-le-paradis-l-prix-herve-ginoux.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-beachcomber-hotels-trou-aux-biches-l-prix-de-l-endurance.html",
+        "R3C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice-prix-de-saint-just.html",
+        "R3C3-prix-beachcomber-hotels-dinarobin-l-prix-pierre-puget.html",
+        "R3C4-prix-beachcomber-hotels-royal-palm-l-prix-de-l-association-des-jockeys.html",
+        "R3C5-prix-air-mauritius-grand-handicap-de-marseille.html",
+        "R3C6-prix-beachcomber-hotels-shandrani-prix-sainte-croix.html",
+        "R3C7-prix-beachcomber-hotels-le-paradis-l-prix-herve-ginoux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:08.977179Z"
+}

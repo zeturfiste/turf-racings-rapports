@@ -1,0 +1,70 @@
+{
+  "date": "2013-01-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/01/2013-01-12",
+    "date_html": "resultats-et-rapports/2013/01/2013-01-12/2013-01-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/01/2013-01-12/R1-vincennes/R1C1-prix-de-cheverny.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R1-vincennes/R1C8-prix-de-la-beauce.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C1-prix-de-cheverny.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C3-prix-de-joinville.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C5-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C7-prix-de-luneville.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C8-prix-de-la-beauce.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R2-deauville-midi/R2C9-prix-de-neuville.html",
+      "resultats-et-rapports/2013/01/2013-01-12/R3-deauville/R3C4-prix-du-forez.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville-midi",
+      "R3-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cheverny.html",
+        "R1C2-prix-de-croix.html",
+        "R1C3-prix-de-joinville.html",
+        "R1C4-prix-du-forez.html",
+        "R1C5-prix-maurice-de-gheest.html",
+        "R1C6-prix-de-riberac.html",
+        "R1C7-prix-de-luneville.html",
+        "R1C8-prix-de-la-beauce.html",
+        "R1C9-prix-de-neuville.html"
+      ],
+      "R2-deauville-midi": [
+        "R2C1-prix-de-cheverny.html",
+        "R2C2-prix-de-croix.html",
+        "R2C3-prix-de-joinville.html",
+        "R2C4-prix-du-forez.html",
+        "R2C5-prix-maurice-de-gheest.html",
+        "R2C6-prix-de-riberac.html",
+        "R2C7-prix-de-luneville.html",
+        "R2C8-prix-de-la-beauce.html",
+        "R2C9-prix-de-neuville.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-cheverny.html",
+        "R3C2-prix-de-croix.html",
+        "R3C3-prix-de-joinville.html",
+        "R3C4-prix-du-forez.html",
+        "R3C5-prix-maurice-de-gheest.html",
+        "R3C6-prix-de-riberac.html",
+        "R3C7-prix-de-luneville.html",
+        "R3C8-prix-de-la-beauce.html",
+        "R3C9-prix-de-neuville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:14.837334Z"
+}

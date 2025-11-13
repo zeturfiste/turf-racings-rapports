@@ -1,0 +1,91 @@
+{
+  "date": "2018-04-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-13",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-13/2018-04-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-13/R1-vincennes/R1C7-prix-proserpina.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R3-la-teste-de-buch/R3C1-prix-algenib.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R3-la-teste-de-buch/R3C4-prix-ariel.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R3-la-teste-de-buch/R3C5-prix-izar.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R3-la-teste-de-buch/R3C6-prix-chloe.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R4-chantilly/R4C1-prix-algenib.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R4-chantilly/R4C2-prix-eukrate.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R4-chantilly/R4C3-prix-jean-riaud-prix-jamin.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R4-chantilly/R4C4-prix-ariel.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R4-chantilly/R4C6-prix-chloe.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R5-lyon-parilly/R5C4-prix-ariel.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R5-lyon-parilly/R5C7-prix-proserpina.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R6-toulouse/R6C3-prix-jean-riaud-prix-jamin.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R6-toulouse/R6C4-prix-ariel.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R6-toulouse/R6C5-prix-izar.html",
+      "resultats-et-rapports/2018/04/2018-04-13/R6-toulouse/R6C7-prix-proserpina.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-la-teste-de-buch",
+      "R4-chantilly",
+      "R5-lyon-parilly",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-algenib.html",
+        "R1C2-prix-eukrate.html",
+        "R1C3-prix-jean-riaud-prix-jamin.html",
+        "R1C4-prix-ariel.html",
+        "R1C5-prix-izar.html",
+        "R1C6-prix-chloe.html",
+        "R1C7-prix-proserpina.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-algenib.html",
+        "R3C2-prix-eukrate.html",
+        "R3C3-prix-jean-riaud-prix-jamin.html",
+        "R3C4-prix-ariel.html",
+        "R3C5-prix-izar.html",
+        "R3C6-prix-chloe.html",
+        "R3C7-prix-proserpina.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-algenib.html",
+        "R4C2-prix-eukrate.html",
+        "R4C3-prix-jean-riaud-prix-jamin.html",
+        "R4C4-prix-ariel.html",
+        "R4C5-prix-izar.html",
+        "R4C6-prix-chloe.html",
+        "R4C7-prix-proserpina.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-algenib.html",
+        "R5C2-prix-eukrate.html",
+        "R5C3-prix-jean-riaud-prix-jamin.html",
+        "R5C4-prix-ariel.html",
+        "R5C5-prix-izar.html",
+        "R5C6-prix-chloe.html",
+        "R5C7-prix-proserpina.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-algenib.html",
+        "R6C2-prix-eukrate.html",
+        "R6C3-prix-jean-riaud-prix-jamin.html",
+        "R6C4-prix-ariel.html",
+        "R6C5-prix-izar.html",
+        "R6C6-prix-chloe.html",
+        "R6C7-prix-proserpina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:16.743455Z"
+}

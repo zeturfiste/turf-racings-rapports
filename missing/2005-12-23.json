@@ -1,0 +1,46 @@
+{
+  "date": "2005-12-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-23",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-23/2005-12-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-bedous.html",
+        "R1C2-prix-tierce-magazine-prix-jean-lamaysouette.html",
+        "R1C3-prix-pmu-le-zodiaque-morcenx-prix-d-idron.html",
+        "R1C4-prix-de-beuste.html",
+        "R1C5-prix-d-aressy.html",
+        "R1C6-prix-pmu-plazza-cafe-aire-sur-adour-prix-du-pau-hunt-races.html",
+        "R1C7-prix-georges-pastre.html",
+        "R1C8-prix-abel-ramon-diago.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-de-bedous.html",
+        "R2C2-prix-tierce-magazine-prix-jean-lamaysouette.html",
+        "R2C3-prix-pmu-le-zodiaque-morcenx-prix-d-idron.html",
+        "R2C4-prix-de-beuste.html",
+        "R2C5-prix-d-aressy.html",
+        "R2C6-prix-pmu-plazza-cafe-aire-sur-adour-prix-du-pau-hunt-races.html",
+        "R2C7-prix-georges-pastre.html",
+        "R2C8-prix-abel-ramon-diago.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:39.321311Z"
+}

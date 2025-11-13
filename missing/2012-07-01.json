@@ -1,0 +1,127 @@
+{
+  "date": "2012-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-01",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-01/2012-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-01/R1-chantilly/R1C2-prix-du-bois.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R1-chantilly/R1C5-prix-jean-prat.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R1-chantilly/R1C6-prix-chloe.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R1-chantilly/R1C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R1-chantilly/R1C9-prix-des-chataigniers.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R2-dax/R2C5-prix-jean-prat.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R2-dax/R2C6-prix-chloe.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R2-dax/R2C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R3-saint-galmier/R3C1-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R3-saint-galmier/R3C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R3-saint-galmier/R3C9-prix-des-chataigniers.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C1-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C2-prix-du-bois.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C5-prix-jean-prat.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C6-prix-chloe.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R4-saint-malo/R4C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C1-prix-du-puits-aux-chiens.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C2-prix-du-bois.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C6-prix-chloe.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R8-agon-coutainville/R8C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C4-prix-des-grandes-ecuries.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C5-prix-jean-prat.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C6-prix-chloe.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C8-prix-de-la-renommee.html",
+      "resultats-et-rapports/2012/07/2012-07-01/R9-le-touquet/R9C9-prix-des-chataigniers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-dax",
+      "R3-saint-galmier",
+      "R4-saint-malo",
+      "R8-agon-coutainville",
+      "R9-le-touquet"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-puits-aux-chiens.html",
+        "R1C2-prix-du-bois.html",
+        "R1C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R1C4-prix-des-grandes-ecuries.html",
+        "R1C5-prix-jean-prat.html",
+        "R1C6-prix-chloe.html",
+        "R1C7-prix-de-la-grange-des-pres.html",
+        "R1C8-prix-de-la-renommee.html",
+        "R1C9-prix-des-chataigniers.html"
+      ],
+      "R2-dax": [
+        "R2C1-prix-du-puits-aux-chiens.html",
+        "R2C2-prix-du-bois.html",
+        "R2C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R2C4-prix-des-grandes-ecuries.html",
+        "R2C5-prix-jean-prat.html",
+        "R2C6-prix-chloe.html",
+        "R2C7-prix-de-la-grange-des-pres.html",
+        "R2C8-prix-de-la-renommee.html",
+        "R2C9-prix-des-chataigniers.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-du-puits-aux-chiens.html",
+        "R3C2-prix-du-bois.html",
+        "R3C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R3C4-prix-des-grandes-ecuries.html",
+        "R3C5-prix-jean-prat.html",
+        "R3C6-prix-chloe.html",
+        "R3C7-prix-de-la-grange-des-pres.html",
+        "R3C8-prix-de-la-renommee.html",
+        "R3C9-prix-des-chataigniers.html"
+      ],
+      "R4-saint-malo": [
+        "R4C1-prix-du-puits-aux-chiens.html",
+        "R4C2-prix-du-bois.html",
+        "R4C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R4C4-prix-des-grandes-ecuries.html",
+        "R4C5-prix-jean-prat.html",
+        "R4C6-prix-chloe.html",
+        "R4C7-prix-de-la-grange-des-pres.html",
+        "R4C8-prix-de-la-renommee.html",
+        "R4C9-prix-des-chataigniers.html"
+      ],
+      "R8-agon-coutainville": [
+        "R8C1-prix-du-puits-aux-chiens.html",
+        "R8C2-prix-du-bois.html",
+        "R8C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R8C4-prix-des-grandes-ecuries.html",
+        "R8C5-prix-jean-prat.html",
+        "R8C6-prix-chloe.html",
+        "R8C7-prix-de-la-grange-des-pres.html",
+        "R8C8-prix-de-la-renommee.html",
+        "R8C9-prix-des-chataigniers.html"
+      ],
+      "R9-le-touquet": [
+        "R9C1-prix-du-puits-aux-chiens.html",
+        "R9C2-prix-du-bois.html",
+        "R9C3-qatar-coupe-de-france-des-chevaux-arabes.html",
+        "R9C4-prix-des-grandes-ecuries.html",
+        "R9C5-prix-jean-prat.html",
+        "R9C6-prix-chloe.html",
+        "R9C7-prix-de-la-grange-des-pres.html",
+        "R9C8-prix-de-la-renommee.html",
+        "R9C9-prix-des-chataigniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:17.499856Z"
+}

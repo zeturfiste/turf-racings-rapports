@@ -1,0 +1,66 @@
+{
+  "date": "2012-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-10",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-10/2012-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-10/R1-saint-cloud/R1C2-prix-youth.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R1-saint-cloud/R1C6-prix-altipan.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R1-saint-cloud/R1C8-prix-de-crecy-fitz-james.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R2-caen/R2C1-prix-gazala.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R2-caen/R2C2-prix-youth.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R2-caen/R2C4-prix-teddy.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R3-le-croise-laroche/R3C7-prix-de-la-hume.html",
+      "resultats-et-rapports/2012/03/2012-03-10/R3-le-croise-laroche/R3C8-prix-de-crecy-fitz-james.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-caen",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-gazala.html",
+        "R1C2-prix-youth.html",
+        "R1C3-prix-cadet-roussel.html",
+        "R1C4-prix-teddy.html",
+        "R1C5-prix-calandria.html",
+        "R1C6-prix-altipan.html",
+        "R1C7-prix-de-la-hume.html",
+        "R1C8-prix-de-crecy-fitz-james.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-gazala.html",
+        "R2C2-prix-youth.html",
+        "R2C3-prix-cadet-roussel.html",
+        "R2C4-prix-teddy.html",
+        "R2C5-prix-calandria.html",
+        "R2C6-prix-altipan.html",
+        "R2C7-prix-de-la-hume.html",
+        "R2C8-prix-de-crecy-fitz-james.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-gazala.html",
+        "R3C2-prix-youth.html",
+        "R3C3-prix-cadet-roussel.html",
+        "R3C4-prix-teddy.html",
+        "R3C5-prix-calandria.html",
+        "R3C6-prix-altipan.html",
+        "R3C7-prix-de-la-hume.html",
+        "R3C8-prix-de-crecy-fitz-james.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:42.730861Z"
+}

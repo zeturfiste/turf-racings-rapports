@@ -1,0 +1,70 @@
+{
+  "date": "2012-07-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-31",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-31/2012-07-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-31/R1-deauville/R1C6-prix-de-la-source.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R1-deauville/R1C7-prix-d-orbec.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C1-prix-du-tunnel-sous-la-manche.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C2-prix-irish-river.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C4-prix-de-la-pomme.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C5-prix-de-la-cote-de-grace.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C6-prix-de-la-source.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C7-prix-d-orbec.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R2-meslay-du-maine/R2C8-prix-du-channel.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R3-cabourg/R3C2-prix-irish-river.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R3-cabourg/R3C3-prix-d-avranches.html",
+      "resultats-et-rapports/2012/07/2012-07-31/R3-cabourg/R3C5-prix-de-la-cote-de-grace.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-meslay-du-maine",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-tunnel-sous-la-manche.html",
+        "R1C2-prix-irish-river.html",
+        "R1C3-prix-d-avranches.html",
+        "R1C4-prix-de-la-pomme.html",
+        "R1C5-prix-de-la-cote-de-grace.html",
+        "R1C6-prix-de-la-source.html",
+        "R1C7-prix-d-orbec.html",
+        "R1C8-prix-du-channel.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-du-tunnel-sous-la-manche.html",
+        "R2C2-prix-irish-river.html",
+        "R2C3-prix-d-avranches.html",
+        "R2C4-prix-de-la-pomme.html",
+        "R2C5-prix-de-la-cote-de-grace.html",
+        "R2C6-prix-de-la-source.html",
+        "R2C7-prix-d-orbec.html",
+        "R2C8-prix-du-channel.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-tunnel-sous-la-manche.html",
+        "R3C2-prix-irish-river.html",
+        "R3C3-prix-d-avranches.html",
+        "R3C4-prix-de-la-pomme.html",
+        "R3C5-prix-de-la-cote-de-grace.html",
+        "R3C6-prix-de-la-source.html",
+        "R3C7-prix-d-orbec.html",
+        "R3C8-prix-du-channel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:27.106580Z"
+}

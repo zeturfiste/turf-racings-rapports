@@ -1,0 +1,91 @@
+{
+  "date": "2007-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-09",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-09/2007-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C1-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C2-prix-des-saules.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C3-prix-du-loing.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C4-prix-de-melun.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C5-prix-des-cypres.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R1-fontainebleau/R1C7-prix-du-gatinais.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C1-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C2-prix-des-saules.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C3-prix-du-loing.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C4-prix-de-melun.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C5-prix-des-cypres.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C6-prix-de-meaux.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R2-caen/R2C7-prix-du-gatinais.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C1-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C2-prix-des-saules.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C4-prix-de-melun.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C5-prix-des-cypres.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C6-prix-de-meaux.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R3-cagnes-sur-mer/R3C7-prix-du-gatinais.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C1-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C2-prix-des-saules.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C3-prix-du-loing.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C4-prix-de-melun.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C5-prix-des-cypres.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C6-prix-de-meaux.html",
+      "resultats-et-rapports/2007/03/2007-03-09/R21-zerace/R21C7-prix-du-gatinais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-caen",
+      "R3-cagnes-sur-mer",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-hubert-de-catheu.html",
+        "R1C2-prix-des-saules.html",
+        "R1C3-prix-du-loing.html",
+        "R1C4-prix-de-melun.html",
+        "R1C5-prix-des-cypres.html",
+        "R1C6-prix-de-meaux.html",
+        "R1C7-prix-du-gatinais.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-hubert-de-catheu.html",
+        "R2C2-prix-des-saules.html",
+        "R2C3-prix-du-loing.html",
+        "R2C4-prix-de-melun.html",
+        "R2C5-prix-des-cypres.html",
+        "R2C6-prix-de-meaux.html",
+        "R2C7-prix-du-gatinais.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-hubert-de-catheu.html",
+        "R3C2-prix-des-saules.html",
+        "R3C3-prix-du-loing.html",
+        "R3C4-prix-de-melun.html",
+        "R3C5-prix-des-cypres.html",
+        "R3C6-prix-de-meaux.html",
+        "R3C7-prix-du-gatinais.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-hubert-de-catheu.html",
+        "R21C2-prix-des-saules.html",
+        "R21C3-prix-du-loing.html",
+        "R21C4-prix-de-melun.html",
+        "R21C5-prix-des-cypres.html",
+        "R21C6-prix-de-meaux.html",
+        "R21C7-prix-du-gatinais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:27.538690Z"
+}

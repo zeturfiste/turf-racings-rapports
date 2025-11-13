@@ -1,0 +1,90 @@
+{
+  "date": "2012-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-30",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-30/2012-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C1-prix-la-sega.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C2-prix-des-aunettes.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C3-prix-pharamond.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C4-prix-pelat.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C5-prix-de-thoiry.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C6-prix-gris-perle.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C7-prix-du-moulin-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R1-maisons-laffitte/R1C8-prix-de-la-vieille-piste.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C1-prix-la-sega.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C2-prix-des-aunettes.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C3-prix-pharamond.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C4-prix-pelat.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C5-prix-de-thoiry.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C6-prix-gris-perle.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C7-prix-du-moulin-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R2-le-mont-saint-michel/R2C8-prix-de-la-vieille-piste.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R3-marseille-vivaux/R3C1-prix-la-sega.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R3-marseille-vivaux/R3C4-prix-pelat.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R4-vincennes/R4C5-prix-de-thoiry.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R4-vincennes/R4C6-prix-gris-perle.html",
+      "resultats-et-rapports/2012/10/2012-10-30/R4-vincennes/R4C8-prix-de-la-vieille-piste.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-le-mont-saint-michel",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-la-sega.html",
+        "R1C2-prix-des-aunettes.html",
+        "R1C3-prix-pharamond.html",
+        "R1C4-prix-pelat.html",
+        "R1C5-prix-de-thoiry.html",
+        "R1C6-prix-gris-perle.html",
+        "R1C7-prix-du-moulin-de-maisons-laffitte.html",
+        "R1C8-prix-de-la-vieille-piste.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-la-sega.html",
+        "R2C2-prix-des-aunettes.html",
+        "R2C3-prix-pharamond.html",
+        "R2C4-prix-pelat.html",
+        "R2C5-prix-de-thoiry.html",
+        "R2C6-prix-gris-perle.html",
+        "R2C7-prix-du-moulin-de-maisons-laffitte.html",
+        "R2C8-prix-de-la-vieille-piste.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-la-sega.html",
+        "R3C2-prix-des-aunettes.html",
+        "R3C3-prix-pharamond.html",
+        "R3C4-prix-pelat.html",
+        "R3C5-prix-de-thoiry.html",
+        "R3C6-prix-gris-perle.html",
+        "R3C7-prix-du-moulin-de-maisons-laffitte.html",
+        "R3C8-prix-de-la-vieille-piste.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-la-sega.html",
+        "R4C2-prix-des-aunettes.html",
+        "R4C3-prix-pharamond.html",
+        "R4C4-prix-pelat.html",
+        "R4C5-prix-de-thoiry.html",
+        "R4C6-prix-gris-perle.html",
+        "R4C7-prix-du-moulin-de-maisons-laffitte.html",
+        "R4C8-prix-de-la-vieille-piste.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:55.472652Z"
+}

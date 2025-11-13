@@ -1,0 +1,62 @@
+{
+  "date": "2019-01-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/01/2019-01-25",
+    "date_html": "resultats-et-rapports/2019/01/2019-01-25/2019-01-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/01/2019-01-25/R4-cagnes-sur-mer/R4C4-prix-calixte-bayrou.html",
+      "resultats-et-rapports/2019/01/2019-01-25/R4-cagnes-sur-mer/R4C6-prix-ferdiant-riant-prix-saint-castin.html",
+      "resultats-et-rapports/2019/01/2019-01-25/R4-cagnes-sur-mer/R4C7-prix-d-araujuzon.html",
+      "resultats-et-rapports/2019/01/2019-01-25/R4-cagnes-sur-mer/R4C8-prix-de-livron.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-chantilly",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-equidia-prix-rene-cramail.html",
+        "R1C2-prix-du-cercle-anglais.html",
+        "R1C3-prix-antoine-berchon.html",
+        "R1C4-prix-calixte-bayrou.html",
+        "R1C5-prix-de-lescun.html",
+        "R1C6-prix-ferdiant-riant-prix-saint-castin.html",
+        "R1C7-prix-d-araujuzon.html",
+        "R1C8-prix-de-livron.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-equidia-prix-rene-cramail.html",
+        "R2C2-prix-du-cercle-anglais.html",
+        "R2C3-prix-antoine-berchon.html",
+        "R2C4-prix-calixte-bayrou.html",
+        "R2C5-prix-de-lescun.html",
+        "R2C6-prix-ferdiant-riant-prix-saint-castin.html",
+        "R2C7-prix-d-araujuzon.html",
+        "R2C8-prix-de-livron.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-equidia-prix-rene-cramail.html",
+        "R4C2-prix-du-cercle-anglais.html",
+        "R4C3-prix-antoine-berchon.html",
+        "R4C4-prix-calixte-bayrou.html",
+        "R4C5-prix-de-lescun.html",
+        "R4C6-prix-ferdiant-riant-prix-saint-castin.html",
+        "R4C7-prix-d-araujuzon.html",
+        "R4C8-prix-de-livron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:49.658287Z"
+}

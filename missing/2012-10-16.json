@@ -1,0 +1,78 @@
+{
+  "date": "2012-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-16",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-16/2012-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C3-prix-des-nuits-de-fourviere-prix-des-camelias.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C5-prix-des-archives-departementales-prix-de-charbonnieres-les-bains.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C6-prix-du-docteur-dugoujon-prix-de-lentilly.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C7-prix-du-conseil-general-des-jeunes-prix-du-mont-blanc.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R1-lyon-parilly/R1C8-prix-du-musee-des-confluences-prix-du-parc-lacroix-laval.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C3-prix-des-nuits-de-fourviere-prix-des-camelias.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C5-prix-des-archives-departementales-prix-de-charbonnieres-les-bains.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C6-prix-du-docteur-dugoujon-prix-de-lentilly.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C7-prix-du-conseil-general-des-jeunes-prix-du-mont-blanc.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R2-angers/R2C8-prix-du-musee-des-confluences-prix-du-parc-lacroix-laval.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R3-vincennes/R3C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R3-vincennes/R3C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R3-vincennes/R3C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+      "resultats-et-rapports/2012/10/2012-10-16/R3-vincennes/R3C6-prix-du-docteur-dugoujon-prix-de-lentilly.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-angers",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+        "R1C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+        "R1C3-prix-des-nuits-de-fourviere-prix-des-camelias.html",
+        "R1C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+        "R1C5-prix-des-archives-departementales-prix-de-charbonnieres-les-bains.html",
+        "R1C6-prix-du-docteur-dugoujon-prix-de-lentilly.html",
+        "R1C7-prix-du-conseil-general-des-jeunes-prix-du-mont-blanc.html",
+        "R1C8-prix-du-musee-des-confluences-prix-du-parc-lacroix-laval.html"
+      ],
+      "R2-angers": [
+        "R2C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+        "R2C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+        "R2C3-prix-des-nuits-de-fourviere-prix-des-camelias.html",
+        "R2C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+        "R2C5-prix-des-archives-departementales-prix-de-charbonnieres-les-bains.html",
+        "R2C6-prix-du-docteur-dugoujon-prix-de-lentilly.html",
+        "R2C7-prix-du-conseil-general-des-jeunes-prix-du-mont-blanc.html",
+        "R2C8-prix-du-musee-des-confluences-prix-du-parc-lacroix-laval.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-grand-prix-du-departement-du-rhone-prix-de-la-federation-du-centre-est.html",
+        "R3C2-prix-du-parc-departemental-de-parilly-prix-des-orchidees.html",
+        "R3C3-prix-des-nuits-de-fourviere-prix-des-camelias.html",
+        "R3C4-prix-des-sapeurs-pompiers-du-rhone-prix-de-fromainville.html",
+        "R3C5-prix-des-archives-departementales-prix-de-charbonnieres-les-bains.html",
+        "R3C6-prix-du-docteur-dugoujon-prix-de-lentilly.html",
+        "R3C7-prix-du-conseil-general-des-jeunes-prix-du-mont-blanc.html",
+        "R3C8-prix-du-musee-des-confluences-prix-du-parc-lacroix-laval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:51.484376Z"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2005-11-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-26",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-26/2005-11-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-madrigal-course-annulee.html",
+        "R1C2-prix-zariba-course-annulee.html",
+        "R1C3-prix-isonomy-course-annulee.html",
+        "R1C4-prix-du-manoir-course-annulee.html",
+        "R1C5-prix-petite-etoile-course-annulee.html",
+        "R1C6-prix-chloris-course-annulee.html",
+        "R1C7-prix-du-traquet-course-annulee.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-madrigal-course-annulee.html",
+        "R2C2-prix-zariba-course-annulee.html",
+        "R2C3-prix-isonomy-course-annulee.html",
+        "R2C4-prix-du-manoir-course-annulee.html",
+        "R2C5-prix-petite-etoile-course-annulee.html",
+        "R2C6-prix-chloris-course-annulee.html",
+        "R2C7-prix-du-traquet-course-annulee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:35.332909Z"
+}

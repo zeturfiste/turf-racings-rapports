@@ -1,0 +1,48 @@
+{
+  "date": "2006-01-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/01/2006-01-14",
+    "date_html": "resultats-et-rapports/2006/01/2006-01-14/2006-01-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-neuville.html",
+        "R1C2-prix-de-questembert.html",
+        "R1C3-prix-du-forez.html",
+        "R1C4-prix-maurice-de-gheest.html",
+        "R1C5-prix-de-mauriac.html",
+        "R1C6-prix-leon-tacquet.html",
+        "R1C7-prix-de-saint-flour.html",
+        "R1C8-prix-de-mauleon.html",
+        "R1C9-prix-de-coulommiers.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-neuville.html",
+        "R2C2-prix-de-questembert.html",
+        "R2C3-prix-du-forez.html",
+        "R2C4-prix-maurice-de-gheest.html",
+        "R2C5-prix-de-mauriac.html",
+        "R2C6-prix-leon-tacquet.html",
+        "R2C7-prix-de-saint-flour.html",
+        "R2C8-prix-de-mauleon.html",
+        "R2C9-prix-de-coulommiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:42.301057Z"
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2010-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/05/2010-05-19",
+    "date_html": "resultats-et-rapports/2010/05/2010-05-19/2010-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/05/2010-05-19/R1-caen/R1C4-prix-normandie-tv-prix-de-cambremer.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R1-caen/R1C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R1-caen/R1C6-prix-de-romigny.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R1-caen/R1C7-prix-du-calvados.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R1-caen/R1C8-prix-de-la-touques.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R2-saint-cloud/R2C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R2-saint-cloud/R2C8-prix-de-la-touques.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R3-marseille-borely/R3C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R31-zerace/R31C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R31-zerace/R31C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R31-zerace/R31C6-prix-de-romigny.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R31-zerace/R31C7-prix-du-calvados.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C5-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C6-prix-de-romigny.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C7-prix-du-calvados.html",
+      "resultats-et-rapports/2010/05/2010-05-19/R70-nou-camp-barcelone/R70C8-prix-de-la-touques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-saint-cloud",
+      "R3-marseille-borely",
+      "R31-zerace",
+      "R70-nou-camp-barcelone"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-des-ducs-de-normandie.html",
+        "R1C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R1C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+        "R1C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R1C5-saint-leger-des-trotteurs.html",
+        "R1C6-prix-de-romigny.html",
+        "R1C7-prix-du-calvados.html",
+        "R1C8-prix-de-la-touques.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-des-ducs-de-normandie.html",
+        "R2C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R2C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+        "R2C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R2C5-saint-leger-des-trotteurs.html",
+        "R2C6-prix-de-romigny.html",
+        "R2C7-prix-du-calvados.html",
+        "R2C8-prix-de-la-touques.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-des-ducs-de-normandie.html",
+        "R3C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R3C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+        "R3C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R3C5-saint-leger-des-trotteurs.html",
+        "R3C6-prix-de-romigny.html",
+        "R3C7-prix-du-calvados.html",
+        "R3C8-prix-de-la-touques.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-ducs-de-normandie.html",
+        "R31C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R31C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+        "R31C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R31C5-saint-leger-des-trotteurs.html",
+        "R31C6-prix-de-romigny.html",
+        "R31C7-prix-du-calvados.html",
+        "R31C8-prix-de-la-touques.html"
+      ],
+      "R70-nou-camp-barcelone": [
+        "R70C1-prix-des-ducs-de-normandie.html",
+        "R70C2-prix-de-la-ville-de-caen-prix-georges-dreux.html",
+        "R70C3-prix-france-bleu-basse-normandie-prix-henri-balliere.html",
+        "R70C4-prix-normandie-tv-prix-de-cambremer.html",
+        "R70C5-saint-leger-des-trotteurs.html",
+        "R70C6-prix-de-romigny.html",
+        "R70C7-prix-du-calvados.html",
+        "R70C8-prix-de-la-touques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:48:28.743839Z"
+}

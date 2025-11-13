@@ -1,0 +1,75 @@
+{
+  "date": "2011-03-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-17",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-17/2011-03-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C3-prix-de-carentan.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C4-prix-montenica.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C6-prix-des-prairies.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C7-prix-des-places.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R1-deauville/R1C8-prix-des-aiguilles.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R2-lyon-parilly/R2C1-prix-de-carteret.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R2-lyon-parilly/R2C4-prix-montenica.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R2-lyon-parilly/R2C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R2-lyon-parilly/R2C7-prix-des-places.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R2-lyon-parilly/R2C8-prix-des-aiguilles.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C1-prix-de-carteret.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C3-prix-de-carentan.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C4-prix-montenica.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C6-prix-des-prairies.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C7-prix-des-places.html",
+      "resultats-et-rapports/2011/03/2011-03-17/R3-amiens/R3C8-prix-des-aiguilles.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-lyon-parilly",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-carteret.html",
+        "R1C2-prix-des-falaises.html",
+        "R1C3-prix-de-carentan.html",
+        "R1C4-prix-montenica.html",
+        "R1C5-prix-ronde-de-nuit.html",
+        "R1C6-prix-des-prairies.html",
+        "R1C7-prix-des-places.html",
+        "R1C8-prix-des-aiguilles.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-carteret.html",
+        "R2C2-prix-des-falaises.html",
+        "R2C3-prix-de-carentan.html",
+        "R2C4-prix-montenica.html",
+        "R2C5-prix-ronde-de-nuit.html",
+        "R2C6-prix-des-prairies.html",
+        "R2C7-prix-des-places.html",
+        "R2C8-prix-des-aiguilles.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-de-carteret.html",
+        "R3C2-prix-des-falaises.html",
+        "R3C3-prix-de-carentan.html",
+        "R3C4-prix-montenica.html",
+        "R3C5-prix-ronde-de-nuit.html",
+        "R3C6-prix-des-prairies.html",
+        "R3C7-prix-des-places.html",
+        "R3C8-prix-des-aiguilles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:00.839974Z"
+}

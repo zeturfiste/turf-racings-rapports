@@ -1,0 +1,106 @@
+{
+  "date": "2009-07-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/07/2009-07-10",
+    "date_html": "resultats-et-rapports/2009/07/2009-07-10/2009-07-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/07/2009-07-10/R1-deauville/R1C5-prix-de-la-jetee.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R3-cabourg/R3C4-prix-du-phare.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R3-cabourg/R3C5-prix-de-la-jetee.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R3-cabourg/R3C6-prix-du-manoir-pottier.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R3-cabourg/R3C7-prix-de-conde-sur-noireau.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C1-prix-irish-river.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C2-prix-d-avranches.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C4-prix-du-phare.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C5-prix-de-la-jetee.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R7-pornichet-la-baule/R7C6-prix-du-manoir-pottier.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R31-zerace/R31C2-prix-d-avranches.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R31-zerace/R31C4-prix-du-phare.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R31-zerace/R31C6-prix-du-manoir-pottier.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C1-prix-irish-river.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C2-prix-d-avranches.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C4-prix-du-phare.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C5-prix-de-la-jetee.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C6-prix-du-manoir-pottier.html",
+      "resultats-et-rapports/2009/07/2009-07-10/R70-barcelone-andorre-arcalis/R70C7-prix-de-conde-sur-noireau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-beaumont-de-lomagne",
+      "R3-cabourg",
+      "R7-pornichet-la-baule",
+      "R31-zerace",
+      "R70-barcelone-andorre-arcalis"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-irish-river.html",
+        "R1C2-prix-d-avranches.html",
+        "R1C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R1C4-prix-du-phare.html",
+        "R1C5-prix-de-la-jetee.html",
+        "R1C6-prix-du-manoir-pottier.html",
+        "R1C7-prix-de-conde-sur-noireau.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-irish-river.html",
+        "R2C2-prix-d-avranches.html",
+        "R2C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R2C4-prix-du-phare.html",
+        "R2C5-prix-de-la-jetee.html",
+        "R2C6-prix-du-manoir-pottier.html",
+        "R2C7-prix-de-conde-sur-noireau.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-irish-river.html",
+        "R3C2-prix-d-avranches.html",
+        "R3C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R3C4-prix-du-phare.html",
+        "R3C5-prix-de-la-jetee.html",
+        "R3C6-prix-du-manoir-pottier.html",
+        "R3C7-prix-de-conde-sur-noireau.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-irish-river.html",
+        "R7C2-prix-d-avranches.html",
+        "R7C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R7C4-prix-du-phare.html",
+        "R7C5-prix-de-la-jetee.html",
+        "R7C6-prix-du-manoir-pottier.html",
+        "R7C7-prix-de-conde-sur-noireau.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-irish-river.html",
+        "R31C2-prix-d-avranches.html",
+        "R31C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R31C4-prix-du-phare.html",
+        "R31C5-prix-de-la-jetee.html",
+        "R31C6-prix-du-manoir-pottier.html",
+        "R31C7-prix-de-conde-sur-noireau.html"
+      ],
+      "R70-barcelone-andorre-arcalis": [
+        "R70C1-prix-irish-river.html",
+        "R70C2-prix-d-avranches.html",
+        "R70C3-prix-deauville-aime-le-cheval-prix-du-cochet.html",
+        "R70C4-prix-du-phare.html",
+        "R70C5-prix-de-la-jetee.html",
+        "R70C6-prix-du-manoir-pottier.html",
+        "R70C7-prix-de-conde-sur-noireau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:45:42.265750Z"
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2011-07-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-14",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-14/2011-07-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-14/R1-longchamp/R1C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R1-longchamp/R1C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R1-longchamp/R1C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R1-longchamp/R1C7-prix-des-fortifications.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R1-longchamp/R1C8-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R2-amiens/R2C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R2-amiens/R2C3-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R3-beaumont-de-lomagne/R3C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R3-beaumont-de-lomagne/R3C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R4-saint-malo/R4C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R4-saint-malo/R4C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R4-saint-malo/R4C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C3-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C7-prix-des-fortifications.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R5-dax/R5C8-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C3-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C7-prix-des-fortifications.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R6-cavaillon/R6C8-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C1-prix-relko.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C2-prix-longines.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C3-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2011/07/2011-07-14/R7-le-touquet/R7C8-prix-du-petit-montrouge.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-amiens",
+      "R3-beaumont-de-lomagne",
+      "R4-saint-malo",
+      "R5-dax",
+      "R6-cavaillon",
+      "R7-le-touquet"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-relko.html",
+        "R1C2-prix-longines.html",
+        "R1C3-prix-roland-de-chambure.html",
+        "R1C4-prix-de-thiberville.html",
+        "R1C5-prix-maurice-de-nieuil.html",
+        "R1C6-juddmonte-grand-prix-de-paris.html",
+        "R1C7-prix-des-fortifications.html",
+        "R1C8-prix-du-petit-montrouge.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-relko.html",
+        "R2C2-prix-longines.html",
+        "R2C3-prix-roland-de-chambure.html",
+        "R2C4-prix-de-thiberville.html",
+        "R2C5-prix-maurice-de-nieuil.html",
+        "R2C6-juddmonte-grand-prix-de-paris.html",
+        "R2C7-prix-des-fortifications.html",
+        "R2C8-prix-du-petit-montrouge.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-relko.html",
+        "R3C2-prix-longines.html",
+        "R3C3-prix-roland-de-chambure.html",
+        "R3C4-prix-de-thiberville.html",
+        "R3C5-prix-maurice-de-nieuil.html",
+        "R3C6-juddmonte-grand-prix-de-paris.html",
+        "R3C7-prix-des-fortifications.html",
+        "R3C8-prix-du-petit-montrouge.html"
+      ],
+      "R4-saint-malo": [
+        "R4C1-prix-relko.html",
+        "R4C2-prix-longines.html",
+        "R4C3-prix-roland-de-chambure.html",
+        "R4C4-prix-de-thiberville.html",
+        "R4C5-prix-maurice-de-nieuil.html",
+        "R4C6-juddmonte-grand-prix-de-paris.html",
+        "R4C7-prix-des-fortifications.html",
+        "R4C8-prix-du-petit-montrouge.html"
+      ],
+      "R5-dax": [
+        "R5C1-prix-relko.html",
+        "R5C2-prix-longines.html",
+        "R5C3-prix-roland-de-chambure.html",
+        "R5C4-prix-de-thiberville.html",
+        "R5C5-prix-maurice-de-nieuil.html",
+        "R5C6-juddmonte-grand-prix-de-paris.html",
+        "R5C7-prix-des-fortifications.html",
+        "R5C8-prix-du-petit-montrouge.html"
+      ],
+      "R6-cavaillon": [
+        "R6C1-prix-relko.html",
+        "R6C2-prix-longines.html",
+        "R6C3-prix-roland-de-chambure.html",
+        "R6C4-prix-de-thiberville.html",
+        "R6C5-prix-maurice-de-nieuil.html",
+        "R6C6-juddmonte-grand-prix-de-paris.html",
+        "R6C7-prix-des-fortifications.html",
+        "R6C8-prix-du-petit-montrouge.html"
+      ],
+      "R7-le-touquet": [
+        "R7C1-prix-relko.html",
+        "R7C2-prix-longines.html",
+        "R7C3-prix-roland-de-chambure.html",
+        "R7C4-prix-de-thiberville.html",
+        "R7C5-prix-maurice-de-nieuil.html",
+        "R7C6-juddmonte-grand-prix-de-paris.html",
+        "R7C7-prix-des-fortifications.html",
+        "R7C8-prix-du-petit-montrouge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:36.701043Z"
+}

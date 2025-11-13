@@ -1,0 +1,112 @@
+{
+  "date": "2008-09-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/09/2008-09-05",
+    "date_html": "resultats-et-rapports/2008/09/2008-09-05/2008-09-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/09/2008-09-05/R1-longchamp/R1C2-prix-des-aigles.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R1-longchamp/R1C3-prix-de-lutece.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R1-longchamp/R1C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R1-longchamp/R1C8-prix-des-victoires.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R2-vichy/R2C2-prix-des-aigles.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R3-vincennes/R3C6-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R3-vincennes/R3C8-prix-des-victoires.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R31-zerace/R31C2-prix-des-aigles.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R31-zerace/R31C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R70-stade-jean-dauger-bayonne/R70C2-prix-des-aigles.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R70-stade-jean-dauger-bayonne/R70C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R70-stade-jean-dauger-bayonne/R70C6-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R70-stade-jean-dauger-bayonne/R70C8-prix-des-victoires.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C1-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C2-prix-des-aigles.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C3-prix-de-lutece.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C4-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C6-prix-des-federations-regionales.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2008/09/2008-09-05/R71-flushing-meadows-new-york/R71C8-prix-des-victoires.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-vichy",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-stade-jean-dauger-bayonne",
+      "R71-flushing-meadows-new-york"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-la-sorbonne.html",
+        "R1C2-prix-des-aigles.html",
+        "R1C3-prix-de-lutece.html",
+        "R1C4-grand-prix-des-anglo-arabes.html",
+        "R1C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R1C6-prix-des-federations-regionales.html",
+        "R1C7-prix-des-petits-champs.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-la-sorbonne.html",
+        "R2C2-prix-des-aigles.html",
+        "R2C3-prix-de-lutece.html",
+        "R2C4-grand-prix-des-anglo-arabes.html",
+        "R2C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R2C6-prix-des-federations-regionales.html",
+        "R2C7-prix-des-petits-champs.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-sorbonne.html",
+        "R3C2-prix-des-aigles.html",
+        "R3C3-prix-de-lutece.html",
+        "R3C4-grand-prix-des-anglo-arabes.html",
+        "R3C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R3C6-prix-des-federations-regionales.html",
+        "R3C7-prix-des-petits-champs.html",
+        "R3C8-prix-des-victoires.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-sorbonne.html",
+        "R31C2-prix-des-aigles.html",
+        "R31C3-prix-de-lutece.html",
+        "R31C4-grand-prix-des-anglo-arabes.html",
+        "R31C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R31C6-prix-des-federations-regionales.html",
+        "R31C7-prix-des-petits-champs.html",
+        "R31C8-prix-des-victoires.html"
+      ],
+      "R70-stade-jean-dauger-bayonne": [
+        "R70C1-prix-de-la-sorbonne.html",
+        "R70C2-prix-des-aigles.html",
+        "R70C3-prix-de-lutece.html",
+        "R70C4-grand-prix-des-anglo-arabes.html",
+        "R70C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R70C6-prix-des-federations-regionales.html",
+        "R70C7-prix-des-petits-champs.html",
+        "R70C8-prix-des-victoires.html"
+      ],
+      "R71-flushing-meadows-new-york": [
+        "R71C1-prix-de-la-sorbonne.html",
+        "R71C2-prix-des-aigles.html",
+        "R71C3-prix-de-lutece.html",
+        "R71C4-grand-prix-des-anglo-arabes.html",
+        "R71C5-prix-de-craon-grand-prix-des-a-q-p-s.html",
+        "R71C6-prix-des-federations-regionales.html",
+        "R71C7-prix-des-petits-champs.html",
+        "R71C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:43:12.073902Z"
+}

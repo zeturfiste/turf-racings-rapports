@@ -1,0 +1,76 @@
+{
+  "date": "2019-03-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-22",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-22/2019-03-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-22/R1-vincennes/R1C7-prix-leto.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R2-fontainebleau/R2C1-prix-canopus.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R2-fontainebleau/R2C4-prix-adeona.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R4-caen/R4C1-prix-canopus.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R4-caen/R4C3-prix-maia.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R4-caen/R4C5-prix-alcyone.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R5-toulouse/R5C1-prix-canopus.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R5-toulouse/R5C2-prix-enceladus.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R5-toulouse/R5C3-prix-maia.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R5-toulouse/R5C5-prix-alcyone.html",
+      "resultats-et-rapports/2019/03/2019-03-22/R5-toulouse/R5C7-prix-leto.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-fontainebleau",
+      "R4-caen",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-canopus.html",
+        "R1C2-prix-enceladus.html",
+        "R1C3-prix-maia.html",
+        "R1C4-prix-adeona.html",
+        "R1C5-prix-alcyone.html",
+        "R1C6-prix-dresda.html",
+        "R1C7-prix-leto.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-canopus.html",
+        "R2C2-prix-enceladus.html",
+        "R2C3-prix-maia.html",
+        "R2C4-prix-adeona.html",
+        "R2C5-prix-alcyone.html",
+        "R2C6-prix-dresda.html",
+        "R2C7-prix-leto.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-canopus.html",
+        "R4C2-prix-enceladus.html",
+        "R4C3-prix-maia.html",
+        "R4C4-prix-adeona.html",
+        "R4C5-prix-alcyone.html",
+        "R4C6-prix-dresda.html",
+        "R4C7-prix-leto.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-canopus.html",
+        "R5C2-prix-enceladus.html",
+        "R5C3-prix-maia.html",
+        "R5C4-prix-adeona.html",
+        "R5C5-prix-alcyone.html",
+        "R5C6-prix-dresda.html",
+        "R5C7-prix-leto.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:05.927784Z"
+}

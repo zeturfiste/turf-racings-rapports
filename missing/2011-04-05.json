@@ -1,0 +1,79 @@
+{
+  "date": "2011-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-05",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-05/2011-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-05/R1-enghien-soisy/R1C5-prix-turco.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R1-enghien-soisy/R1C7-prix-des-breviaires.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R3-marseille-borely/R3C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R3-marseille-borely/R3C3-prix-orvilliers.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C3-prix-orvilliers.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C4-prix-de-dinard.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C5-prix-turco.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C6-prix-journaliste.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C7-prix-des-breviaires.html",
+      "resultats-et-rapports/2011/04/2011-04-05/R4-vincennes/R4C8-prix-necor.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-moulins",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-des-cadettes.html",
+        "R1C3-prix-orvilliers.html",
+        "R1C4-prix-de-dinard.html",
+        "R1C5-prix-turco.html",
+        "R1C6-prix-journaliste.html",
+        "R1C7-prix-des-breviaires.html",
+        "R1C8-prix-necor.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-rose-or-no.html",
+        "R2C2-prix-des-cadettes.html",
+        "R2C3-prix-orvilliers.html",
+        "R2C4-prix-de-dinard.html",
+        "R2C5-prix-turco.html",
+        "R2C6-prix-journaliste.html",
+        "R2C7-prix-des-breviaires.html",
+        "R2C8-prix-necor.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-des-cadettes.html",
+        "R3C3-prix-orvilliers.html",
+        "R3C4-prix-de-dinard.html",
+        "R3C5-prix-turco.html",
+        "R3C6-prix-journaliste.html",
+        "R3C7-prix-des-breviaires.html",
+        "R3C8-prix-necor.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-des-cadettes.html",
+        "R4C3-prix-orvilliers.html",
+        "R4C4-prix-de-dinard.html",
+        "R4C5-prix-turco.html",
+        "R4C6-prix-journaliste.html",
+        "R4C7-prix-des-breviaires.html",
+        "R4C8-prix-necor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:06.643407Z"
+}

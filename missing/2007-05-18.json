@@ -1,0 +1,104 @@
+{
+  "date": "2007-05-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-18",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-18/2007-05-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-18/R1-lyon-parilly/R1C1-grand-prix-du-departement-du-rhone.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R1-lyon-parilly/R1C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R1-lyon-parilly/R1C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R1-lyon-parilly/R1C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C1-grand-prix-du-departement-du-rhone.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C2-prix-docteur-dugoujon.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R2-dieppe/R2C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R3-vincennes/R3C1-grand-prix-du-departement-du-rhone.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R3-vincennes/R3C2-prix-docteur-dugoujon.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R3-vincennes/R3C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R3-vincennes/R3C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R3-vincennes/R3C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R4-toulouse/R4C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R4-toulouse/R4C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R31-zerace/R31C2-prix-docteur-dugoujon.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R31-zerace/R31C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R31-zerace/R31C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R31-zerace/R31C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+      "resultats-et-rapports/2007/05/2007-05-18/R31-zerace/R31C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-dieppe",
+      "R3-vincennes",
+      "R4-toulouse",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-du-departement-du-rhone.html",
+        "R1C2-prix-docteur-dugoujon.html",
+        "R1C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+        "R1C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+        "R1C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+        "R1C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+        "R1C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+        "R1C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-grand-prix-du-departement-du-rhone.html",
+        "R2C2-prix-docteur-dugoujon.html",
+        "R2C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+        "R2C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+        "R2C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+        "R2C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+        "R2C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+        "R2C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-grand-prix-du-departement-du-rhone.html",
+        "R3C2-prix-docteur-dugoujon.html",
+        "R3C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+        "R3C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+        "R3C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+        "R3C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+        "R3C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+        "R3C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-prix-du-departement-du-rhone.html",
+        "R4C2-prix-docteur-dugoujon.html",
+        "R4C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+        "R4C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+        "R4C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+        "R4C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+        "R4C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+        "R4C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+      ],
+      "R31-zerace": [
+        "R31C1-grand-prix-du-departement-du-rhone.html",
+        "R31C2-prix-docteur-dugoujon.html",
+        "R31C3-prix-des-nuits-de-fourviere-prix-des-oeillets.html",
+        "R31C4-prix-du-parc-de-lacroix-laval-prix-montplaisir.html",
+        "R31C5-prix-des-musees-gallo-romains-prix-colonel-bidault.html",
+        "R31C6-prix-du-musee-des-confluences-prix-henri-audras.html",
+        "R31C7-prix-du-museum-d-histoire-naturelle-prix-marcel-callier.html",
+        "R31C8-prix-de-l-hippodrome-de-parilly-prix-camelia-xii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:49.582727Z"
+}

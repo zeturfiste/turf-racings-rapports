@@ -1,0 +1,103 @@
+{
+  "date": "2012-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-24",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-24/2012-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C1-prix-du-pole-international-du-cheval.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C4-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C5-prix-vulcain.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C6-prix-de-la-banche.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C7-prix-du-saubouas.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R1-deauville/R1C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C1-prix-du-pole-international-du-cheval.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C2-prix-de-la-placiere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C4-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C5-prix-vulcain.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C6-prix-de-la-banche.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C7-prix-du-saubouas.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R2-strasbourg/R2C9-prix-ox-and-bucks.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C1-prix-du-pole-international-du-cheval.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C2-prix-de-la-placiere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C4-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C5-prix-vulcain.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C7-prix-du-saubouas.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R3-enghien-soisy/R3C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C1-prix-du-pole-international-du-cheval.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C2-prix-de-la-placiere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C3-prix-des-reservoirs-haras-d-etreham.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C4-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C6-prix-de-la-banche.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C7-prix-du-saubouas.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-24/R4-marseille-borely/R4C9-prix-ox-and-bucks.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-strasbourg",
+      "R3-enghien-soisy",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-pole-international-du-cheval.html",
+        "R1C2-prix-de-la-placiere.html",
+        "R1C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R1C4-prix-de-l-epronniere.html",
+        "R1C5-prix-vulcain.html",
+        "R1C6-prix-de-la-banche.html",
+        "R1C7-prix-du-saubouas.html",
+        "R1C8-prix-du-grand-manege.html",
+        "R1C9-prix-ox-and-bucks.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-du-pole-international-du-cheval.html",
+        "R2C2-prix-de-la-placiere.html",
+        "R2C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R2C4-prix-de-l-epronniere.html",
+        "R2C5-prix-vulcain.html",
+        "R2C6-prix-de-la-banche.html",
+        "R2C7-prix-du-saubouas.html",
+        "R2C8-prix-du-grand-manege.html",
+        "R2C9-prix-ox-and-bucks.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-pole-international-du-cheval.html",
+        "R3C2-prix-de-la-placiere.html",
+        "R3C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R3C4-prix-de-l-epronniere.html",
+        "R3C5-prix-vulcain.html",
+        "R3C6-prix-de-la-banche.html",
+        "R3C7-prix-du-saubouas.html",
+        "R3C8-prix-du-grand-manege.html",
+        "R3C9-prix-ox-and-bucks.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-du-pole-international-du-cheval.html",
+        "R4C2-prix-de-la-placiere.html",
+        "R4C3-prix-des-reservoirs-haras-d-etreham.html",
+        "R4C4-prix-de-l-epronniere.html",
+        "R4C5-prix-vulcain.html",
+        "R4C6-prix-de-la-banche.html",
+        "R4C7-prix-du-saubouas.html",
+        "R4C8-prix-du-grand-manege.html",
+        "R4C9-prix-ox-and-bucks.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:53.845892Z"
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2015-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-11",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-11/2015-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-11/R1-vincennes/R1C2-prix-d-auxerre.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R2-marseille-vivaux/R2C1-prix-beaumanoir.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R2-marseille-vivaux/R2C3-prix-de-chelles.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R2-marseille-vivaux/R2C4-prix-de-la-lorraine.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R2-marseille-vivaux/R2C8-prix-de-langres.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R2-marseille-vivaux/R2C9-prix-de-jonzac.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R3-bordeaux-le-bouscat/R3C1-prix-beaumanoir.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R3-bordeaux-le-bouscat/R3C2-prix-d-auxerre.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R3-bordeaux-le-bouscat/R3C8-prix-de-langres.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R4-amiens/R4C1-prix-beaumanoir.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R4-amiens/R4C3-prix-de-chelles.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R4-amiens/R4C7-prix-henri-levesque.html",
+      "resultats-et-rapports/2015/04/2015-04-11/R4-amiens/R4C9-prix-de-jonzac.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-marseille-vivaux",
+      "R3-bordeaux-le-bouscat",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-beaumanoir.html",
+        "R1C2-prix-d-auxerre.html",
+        "R1C3-prix-de-chelles.html",
+        "R1C4-prix-de-la-lorraine.html",
+        "R1C5-prix-hemine.html",
+        "R1C6-prix-de-chateau-gaillard.html",
+        "R1C7-prix-henri-levesque.html",
+        "R1C8-prix-de-langres.html",
+        "R1C9-prix-de-jonzac.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-beaumanoir.html",
+        "R2C2-prix-d-auxerre.html",
+        "R2C3-prix-de-chelles.html",
+        "R2C4-prix-de-la-lorraine.html",
+        "R2C5-prix-hemine.html",
+        "R2C6-prix-de-chateau-gaillard.html",
+        "R2C7-prix-henri-levesque.html",
+        "R2C8-prix-de-langres.html",
+        "R2C9-prix-de-jonzac.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-beaumanoir.html",
+        "R3C2-prix-d-auxerre.html",
+        "R3C3-prix-de-chelles.html",
+        "R3C4-prix-de-la-lorraine.html",
+        "R3C5-prix-hemine.html",
+        "R3C6-prix-de-chateau-gaillard.html",
+        "R3C7-prix-henri-levesque.html",
+        "R3C8-prix-de-langres.html",
+        "R3C9-prix-de-jonzac.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-beaumanoir.html",
+        "R4C2-prix-d-auxerre.html",
+        "R4C3-prix-de-chelles.html",
+        "R4C4-prix-de-la-lorraine.html",
+        "R4C5-prix-hemine.html",
+        "R4C6-prix-de-chateau-gaillard.html",
+        "R4C7-prix-henri-levesque.html",
+        "R4C8-prix-de-langres.html",
+        "R4C9-prix-de-jonzac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:24.121356Z"
+}

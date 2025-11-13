@@ -1,0 +1,60 @@
+{
+  "date": "2006-12-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-12",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-12/2006-12-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-oraison.html",
+        "R1C2-prix-d-isigny-groupe-a.html",
+        "R1C3-prix-d-isigny-groupe-b.html",
+        "R1C4-prix-de-portbail.html",
+        "R1C5-prix-poitou-charentes.html",
+        "R1C6-prix-de-beauvais.html",
+        "R1C7-prix-de-ploubalay.html",
+        "R1C8-prix-des-iris.html",
+        "R1C9-prix-de-saint-malo.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-d-oraison.html",
+        "R2C2-prix-d-isigny-groupe-a.html",
+        "R2C3-prix-d-isigny-groupe-b.html",
+        "R2C4-prix-de-portbail.html",
+        "R2C5-prix-poitou-charentes.html",
+        "R2C6-prix-de-beauvais.html",
+        "R2C7-prix-de-ploubalay.html",
+        "R2C8-prix-des-iris.html",
+        "R2C9-prix-de-saint-malo.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-oraison.html",
+        "R21C2-prix-d-isigny-groupe-a.html",
+        "R21C3-prix-d-isigny-groupe-b.html",
+        "R21C4-prix-de-portbail.html",
+        "R21C5-prix-poitou-charentes.html",
+        "R21C6-prix-de-beauvais.html",
+        "R21C7-prix-de-ploubalay.html",
+        "R21C8-prix-des-iris.html",
+        "R21C9-prix-de-saint-malo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:01.422807Z"
+}

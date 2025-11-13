@@ -1,0 +1,70 @@
+{
+  "date": "2017-05-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-03",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-03/2017-05-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-03/R1-lyon-la-soie/R1C1-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R1-lyon-la-soie/R1C2-prix-de-toulouse.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R1-lyon-la-soie/R1C8-prix-henri-callier.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R3-chantilly/R3C1-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R3-chantilly/R3C7-prix-de-nantes.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C1-grand-prix-de-la-soie.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C3-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C4-prix-province-courses-prix-de-marseille.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C5-prix-de-bordeaux.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C6-prix-de-strasbourg.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C7-prix-de-nantes.html",
+      "resultats-et-rapports/2017/05/2017-05-03/R4-nancy/R4C8-prix-henri-callier.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R3-chantilly",
+      "R4-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-grand-prix-de-la-soie.html",
+        "R1C2-prix-de-toulouse.html",
+        "R1C3-grand-prix-du-centre-est.html",
+        "R1C4-prix-province-courses-prix-de-marseille.html",
+        "R1C5-prix-de-bordeaux.html",
+        "R1C6-prix-de-strasbourg.html",
+        "R1C7-prix-de-nantes.html",
+        "R1C8-prix-henri-callier.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-prix-de-la-soie.html",
+        "R3C2-prix-de-toulouse.html",
+        "R3C3-grand-prix-du-centre-est.html",
+        "R3C4-prix-province-courses-prix-de-marseille.html",
+        "R3C5-prix-de-bordeaux.html",
+        "R3C6-prix-de-strasbourg.html",
+        "R3C7-prix-de-nantes.html",
+        "R3C8-prix-henri-callier.html"
+      ],
+      "R4-nancy": [
+        "R4C1-grand-prix-de-la-soie.html",
+        "R4C2-prix-de-toulouse.html",
+        "R4C3-grand-prix-du-centre-est.html",
+        "R4C4-prix-province-courses-prix-de-marseille.html",
+        "R4C5-prix-de-bordeaux.html",
+        "R4C6-prix-de-strasbourg.html",
+        "R4C7-prix-de-nantes.html",
+        "R4C8-prix-henri-callier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:23.096230Z"
+}

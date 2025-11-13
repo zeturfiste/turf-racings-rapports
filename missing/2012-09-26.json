@@ -1,0 +1,98 @@
+{
+  "date": "2012-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-26",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-26/2012-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-26/R1-vire/R1C3-prix-jardy-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R1-vire/R1C8-prix-leclerc-drive.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R1-vire/R1C9-prix-peugeot-mary-automobiles-vire.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C1-grand-national-du-trot-10e-etape.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C2-prix-s-t-e-f-transports-vire.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C3-prix-jardy-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C4-prix-brico-leclerc-groupe-a.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C5-prix-brico-leclerc-groupe-b.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C6-prix-espace-culturel-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C7-prix-hypermarche-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C8-prix-leclerc-drive.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R2-enghien-soisy/R2C9-prix-peugeot-mary-automobiles-vire.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C1-grand-national-du-trot-10e-etape.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C2-prix-s-t-e-f-transports-vire.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C3-prix-jardy-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C4-prix-brico-leclerc-groupe-a.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C5-prix-brico-leclerc-groupe-b.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C6-prix-espace-culturel-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R3-toulouse/R3C7-prix-hypermarche-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C2-prix-s-t-e-f-transports-vire.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C3-prix-jardy-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C6-prix-espace-culturel-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C7-prix-hypermarche-leclerc.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C8-prix-leclerc-drive.html",
+      "resultats-et-rapports/2012/09/2012-09-26/R5-marseille-vivaux/R5C9-prix-peugeot-mary-automobiles-vire.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vire",
+      "R2-enghien-soisy",
+      "R3-toulouse",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vire": [
+        "R1C1-grand-national-du-trot-10e-etape.html",
+        "R1C2-prix-s-t-e-f-transports-vire.html",
+        "R1C3-prix-jardy-leclerc.html",
+        "R1C4-prix-brico-leclerc-groupe-a.html",
+        "R1C5-prix-brico-leclerc-groupe-b.html",
+        "R1C6-prix-espace-culturel-leclerc.html",
+        "R1C7-prix-hypermarche-leclerc.html",
+        "R1C8-prix-leclerc-drive.html",
+        "R1C9-prix-peugeot-mary-automobiles-vire.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-national-du-trot-10e-etape.html",
+        "R2C2-prix-s-t-e-f-transports-vire.html",
+        "R2C3-prix-jardy-leclerc.html",
+        "R2C4-prix-brico-leclerc-groupe-a.html",
+        "R2C5-prix-brico-leclerc-groupe-b.html",
+        "R2C6-prix-espace-culturel-leclerc.html",
+        "R2C7-prix-hypermarche-leclerc.html",
+        "R2C8-prix-leclerc-drive.html",
+        "R2C9-prix-peugeot-mary-automobiles-vire.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-grand-national-du-trot-10e-etape.html",
+        "R3C2-prix-s-t-e-f-transports-vire.html",
+        "R3C3-prix-jardy-leclerc.html",
+        "R3C4-prix-brico-leclerc-groupe-a.html",
+        "R3C5-prix-brico-leclerc-groupe-b.html",
+        "R3C6-prix-espace-culturel-leclerc.html",
+        "R3C7-prix-hypermarche-leclerc.html",
+        "R3C8-prix-leclerc-drive.html",
+        "R3C9-prix-peugeot-mary-automobiles-vire.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-grand-national-du-trot-10e-etape.html",
+        "R5C2-prix-s-t-e-f-transports-vire.html",
+        "R5C3-prix-jardy-leclerc.html",
+        "R5C4-prix-brico-leclerc-groupe-a.html",
+        "R5C5-prix-brico-leclerc-groupe-b.html",
+        "R5C6-prix-espace-culturel-leclerc.html",
+        "R5C7-prix-hypermarche-leclerc.html",
+        "R5C8-prix-leclerc-drive.html",
+        "R5C9-prix-peugeot-mary-automobiles-vire.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:44.901585Z"
+}

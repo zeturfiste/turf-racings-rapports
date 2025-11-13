@@ -1,0 +1,104 @@
+{
+  "date": "2012-11-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-21",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-21/2012-11-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C2-prix-paris-normandie.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C3-13e-etape-du-grand-national-du-trot-2012.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C4-prix-du-comite.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C5-prix-du-donjon.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C6-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C7-prix-liberte-dimanche-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C8-prix-erisay-traiteur-groupe-b.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R1-mauquenchy/R1C9-prix-de-la-societe-des-courses-de-mauquenchy.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C2-prix-paris-normandie.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C4-prix-du-comite.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C5-prix-du-donjon.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C6-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C7-prix-liberte-dimanche-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C8-prix-erisay-traiteur-groupe-b.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R2-enghien-soisy/R2C9-prix-de-la-societe-des-courses-de-mauquenchy.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C1-prix-de-la-tour-de-beurre.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C2-prix-paris-normandie.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C3-13e-etape-du-grand-national-du-trot-2012.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C4-prix-du-comite.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C5-prix-du-donjon.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C7-prix-liberte-dimanche-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R3-le-croise-laroche/R3C9-prix-de-la-societe-des-courses-de-mauquenchy.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C1-prix-de-la-tour-de-beurre.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C2-prix-paris-normandie.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C3-13e-etape-du-grand-national-du-trot-2012.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C4-prix-du-comite.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C5-prix-du-donjon.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C6-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C7-prix-liberte-dimanche-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C8-prix-erisay-traiteur-groupe-b.html",
+      "resultats-et-rapports/2012/11/2012-11-21/R6-marseille-borely/R6C9-prix-de-la-societe-des-courses-de-mauquenchy.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-enghien-soisy",
+      "R3-le-croise-laroche",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-de-la-tour-de-beurre.html",
+        "R1C2-prix-paris-normandie.html",
+        "R1C3-13e-etape-du-grand-national-du-trot-2012.html",
+        "R1C4-prix-du-comite.html",
+        "R1C5-prix-du-donjon.html",
+        "R1C6-grand-prix-des-amateurs.html",
+        "R1C7-prix-liberte-dimanche-groupe-a.html",
+        "R1C8-prix-erisay-traiteur-groupe-b.html",
+        "R1C9-prix-de-la-societe-des-courses-de-mauquenchy.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-de-la-tour-de-beurre.html",
+        "R2C2-prix-paris-normandie.html",
+        "R2C3-13e-etape-du-grand-national-du-trot-2012.html",
+        "R2C4-prix-du-comite.html",
+        "R2C5-prix-du-donjon.html",
+        "R2C6-grand-prix-des-amateurs.html",
+        "R2C7-prix-liberte-dimanche-groupe-a.html",
+        "R2C8-prix-erisay-traiteur-groupe-b.html",
+        "R2C9-prix-de-la-societe-des-courses-de-mauquenchy.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-de-la-tour-de-beurre.html",
+        "R3C2-prix-paris-normandie.html",
+        "R3C3-13e-etape-du-grand-national-du-trot-2012.html",
+        "R3C4-prix-du-comite.html",
+        "R3C5-prix-du-donjon.html",
+        "R3C6-grand-prix-des-amateurs.html",
+        "R3C7-prix-liberte-dimanche-groupe-a.html",
+        "R3C8-prix-erisay-traiteur-groupe-b.html",
+        "R3C9-prix-de-la-societe-des-courses-de-mauquenchy.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-de-la-tour-de-beurre.html",
+        "R6C2-prix-paris-normandie.html",
+        "R6C3-13e-etape-du-grand-national-du-trot-2012.html",
+        "R6C4-prix-du-comite.html",
+        "R6C5-prix-du-donjon.html",
+        "R6C6-grand-prix-des-amateurs.html",
+        "R6C7-prix-liberte-dimanche-groupe-a.html",
+        "R6C8-prix-erisay-traiteur-groupe-b.html",
+        "R6C9-prix-de-la-societe-des-courses-de-mauquenchy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:02.013747Z"
+}

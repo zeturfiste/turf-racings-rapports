@@ -1,0 +1,65 @@
+{
+  "date": "2015-02-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-23",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-23/2015-02-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C2-prix-de-carro.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C3-prix-de-carry.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C4-prix-de-lyon-la-soie.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C6-prix-de-la-planche.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R1-marseille-borely/R1C7-prix-de-sainte-tulle.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R2-mont-de-marsan/R2C1-prix-louis-brunet.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R2-mont-de-marsan/R2C2-prix-de-carro.html",
+      "resultats-et-rapports/2015/02/2015-02-23/R3-enghien-soisy/R3C2-prix-de-carro.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-mont-de-marsan",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-louis-brunet.html",
+        "R1C2-prix-de-carro.html",
+        "R1C3-prix-de-carry.html",
+        "R1C4-prix-de-lyon-la-soie.html",
+        "R1C5-prix-de-lyon-parilly.html",
+        "R1C6-prix-de-la-planche.html",
+        "R1C7-prix-de-sainte-tulle.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-louis-brunet.html",
+        "R2C2-prix-de-carro.html",
+        "R2C3-prix-de-carry.html",
+        "R2C4-prix-de-lyon-la-soie.html",
+        "R2C5-prix-de-lyon-parilly.html",
+        "R2C6-prix-de-la-planche.html",
+        "R2C7-prix-de-sainte-tulle.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-louis-brunet.html",
+        "R3C2-prix-de-carro.html",
+        "R3C3-prix-de-carry.html",
+        "R3C4-prix-de-lyon-la-soie.html",
+        "R3C5-prix-de-lyon-parilly.html",
+        "R3C6-prix-de-la-planche.html",
+        "R3C7-prix-de-sainte-tulle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:10.361702Z"
+}

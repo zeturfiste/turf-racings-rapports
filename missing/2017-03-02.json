@@ -1,0 +1,65 @@
+{
+  "date": "2017-03-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-02",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-02/2017-03-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-02/R3-chantilly/R3C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R3-chantilly/R3C4-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R3-chantilly/R3C5-prix-de-lorient.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R4-lyon-la-soie/R4C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R4-lyon-la-soie/R4C2-prix-ali-hawas.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R4-lyon-la-soie/R4C7-prix-de-tignes.html",
+      "resultats-et-rapports/2017/03/2017-03-02/R4-lyon-la-soie/R4C8-prix-de-saint-lo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emile-allix-courboy.html",
+        "R1C2-prix-ali-hawas.html",
+        "R1C3-prix-vindex.html",
+        "R1C4-prix-felicien-gauvreau.html",
+        "R1C5-prix-de-lorient.html",
+        "R1C6-prix-de-marmande.html",
+        "R1C7-prix-de-tignes.html",
+        "R1C8-prix-de-saint-lo.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-emile-allix-courboy.html",
+        "R3C2-prix-ali-hawas.html",
+        "R3C3-prix-vindex.html",
+        "R3C4-prix-felicien-gauvreau.html",
+        "R3C5-prix-de-lorient.html",
+        "R3C6-prix-de-marmande.html",
+        "R3C7-prix-de-tignes.html",
+        "R3C8-prix-de-saint-lo.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-emile-allix-courboy.html",
+        "R4C2-prix-ali-hawas.html",
+        "R4C3-prix-vindex.html",
+        "R4C4-prix-felicien-gauvreau.html",
+        "R4C5-prix-de-lorient.html",
+        "R4C6-prix-de-marmande.html",
+        "R4C7-prix-de-tignes.html",
+        "R4C8-prix-de-saint-lo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:02.631983Z"
+}

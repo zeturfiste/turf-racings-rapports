@@ -1,0 +1,89 @@
+{
+  "date": "2016-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-04",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-04/2016-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-04/R1-vincennes/R1C3-prix-boucles-de-l-aulne-prix-draco.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R1-vincennes/R1C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R1-vincennes/R1C7-grand-prix-de-denain-prix-mensa.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R3-lyon-parilly/R3C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R3-lyon-parilly/R3C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R3-lyon-parilly/R3C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R3-lyon-parilly/R3C7-grand-prix-de-denain-prix-mensa.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R3-lyon-parilly/R3C8-prix-una.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C1-prix-tour-du-doubs-prix-barbara.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C3-prix-boucles-de-l-aulne-prix-draco.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R4-bordeaux-le-bouscat/R4C6-grand-prix-d-isbergues-prix-aurora.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C3-prix-boucles-de-l-aulne-prix-draco.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C6-grand-prix-d-isbergues-prix-aurora.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C7-grand-prix-de-denain-prix-mensa.html",
+      "resultats-et-rapports/2016/11/2016-11-04/R5-le-croise-laroche/R5C8-prix-una.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lyon-parilly",
+      "R4-bordeaux-le-bouscat",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-tour-du-doubs-prix-barbara.html",
+        "R1C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+        "R1C3-prix-boucles-de-l-aulne-prix-draco.html",
+        "R1C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+        "R1C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+        "R1C6-grand-prix-d-isbergues-prix-aurora.html",
+        "R1C7-grand-prix-de-denain-prix-mensa.html",
+        "R1C8-prix-una.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-tour-du-doubs-prix-barbara.html",
+        "R3C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+        "R3C3-prix-boucles-de-l-aulne-prix-draco.html",
+        "R3C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+        "R3C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+        "R3C6-grand-prix-d-isbergues-prix-aurora.html",
+        "R3C7-grand-prix-de-denain-prix-mensa.html",
+        "R3C8-prix-una.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-tour-du-doubs-prix-barbara.html",
+        "R4C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+        "R4C3-prix-boucles-de-l-aulne-prix-draco.html",
+        "R4C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+        "R4C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+        "R4C6-grand-prix-d-isbergues-prix-aurora.html",
+        "R4C7-grand-prix-de-denain-prix-mensa.html",
+        "R4C8-prix-una.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-tour-du-doubs-prix-barbara.html",
+        "R5C2-prix-de-la-ligue-nationale-de-cyclisme-prix-gallea.html",
+        "R5C3-prix-boucles-de-l-aulne-prix-draco.html",
+        "R5C4-prix-classic-loire-atlantique-prix-ismene-groupe-a.html",
+        "R5C5-prix-route-adelie-de-vitre-prix-ismene-groupe-b.html",
+        "R5C6-grand-prix-d-isbergues-prix-aurora.html",
+        "R5C7-grand-prix-de-denain-prix-mensa.html",
+        "R5C8-prix-una.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:29.405534Z"
+}

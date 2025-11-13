@@ -1,0 +1,48 @@
+{
+  "date": "2006-02-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-23",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-23/2006-02-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-plateau-de-gravelle.html",
+        "R1C2-prix-des-andelys.html",
+        "R1C3-prix-de-montauban.html",
+        "R1C4-prix-de-falot.html",
+        "R1C5-prix-du-cantal.html",
+        "R1C6-prix-des-trotteurs-sang-froid.html",
+        "R1C7-prix-d-erbray.html",
+        "R1C8-prix-de-briey.html",
+        "R1C9-prix-de-larre.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-plateau-de-gravelle.html",
+        "R2C2-prix-des-andelys.html",
+        "R2C3-prix-de-montauban.html",
+        "R2C4-prix-de-falot.html",
+        "R2C5-prix-du-cantal.html",
+        "R2C6-prix-des-trotteurs-sang-froid.html",
+        "R2C7-prix-d-erbray.html",
+        "R2C8-prix-de-briey.html",
+        "R2C9-prix-de-larre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:48.368398Z"
+}

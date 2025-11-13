@@ -1,0 +1,57 @@
+{
+  "date": "2006-04-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-12",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-12/2006-04-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-villeurbanne",
+      "R2-maisons-laffitte",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-villeurbanne": [
+        "R1C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R1C2-prix-cave-saint-marc-caromb-andre-gager.html",
+        "R1C3-prix-paul-gadoud.html",
+        "R1C4-prix-de-la-societe-du-cheval-francais.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-de-compiegne.html",
+        "R1C7-prix-fan-idole.html",
+        "R1C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R2C2-prix-cave-saint-marc-caromb-andre-gager.html",
+        "R2C3-prix-paul-gadoud.html",
+        "R2C4-prix-de-la-societe-du-cheval-francais.html",
+        "R2C5-prix-de-vincennes.html",
+        "R2C6-prix-de-compiegne.html",
+        "R2C7-prix-fan-idole.html",
+        "R2C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R4C2-prix-cave-saint-marc-caromb-andre-gager.html",
+        "R4C3-prix-paul-gadoud.html",
+        "R4C4-prix-de-la-societe-du-cheval-francais.html",
+        "R4C5-prix-de-vincennes.html",
+        "R4C6-prix-de-compiegne.html",
+        "R4C7-prix-fan-idole.html",
+        "R4C8-prix-de-l-u-n-a-t.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:56.490185Z"
+}

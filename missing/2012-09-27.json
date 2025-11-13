@@ -1,0 +1,72 @@
+{
+  "date": "2012-09-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-27",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-27/2012-09-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-27/R1-maisons-laffitte/R1C3-prix-bend-or.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R1-maisons-laffitte/R1C7-prix-de-bazemont.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R1-maisons-laffitte/R1C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C2-prix-ortie-blanche.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C4-prix-de-port-marly.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C5-prix-du-bourbonnais.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C6-prix-fast-fox.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C7-prix-de-bazemont.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R2-fontainebleau/R2C8-prix-de-saint-martin-du-chene.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R3-enghien-soisy/R3C1-prix-de-saint-pair-du-mont.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R3-enghien-soisy/R3C3-prix-bend-or.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R3-enghien-soisy/R3C4-prix-de-port-marly.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R3-enghien-soisy/R3C6-prix-fast-fox.html",
+      "resultats-et-rapports/2012/09/2012-09-27/R3-enghien-soisy/R3C8-prix-de-saint-martin-du-chene.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-fontainebleau",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-saint-pair-du-mont.html",
+        "R1C2-prix-ortie-blanche.html",
+        "R1C3-prix-bend-or.html",
+        "R1C4-prix-de-port-marly.html",
+        "R1C5-prix-du-bourbonnais.html",
+        "R1C6-prix-fast-fox.html",
+        "R1C7-prix-de-bazemont.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-saint-pair-du-mont.html",
+        "R2C2-prix-ortie-blanche.html",
+        "R2C3-prix-bend-or.html",
+        "R2C4-prix-de-port-marly.html",
+        "R2C5-prix-du-bourbonnais.html",
+        "R2C6-prix-fast-fox.html",
+        "R2C7-prix-de-bazemont.html",
+        "R2C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-saint-pair-du-mont.html",
+        "R3C2-prix-ortie-blanche.html",
+        "R3C3-prix-bend-or.html",
+        "R3C4-prix-de-port-marly.html",
+        "R3C5-prix-du-bourbonnais.html",
+        "R3C6-prix-fast-fox.html",
+        "R3C7-prix-de-bazemont.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:45.228385Z"
+}

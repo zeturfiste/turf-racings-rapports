@@ -1,0 +1,78 @@
+{
+  "date": "2007-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-15",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-15/2007-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-15/R1-auteuil/R1C1-prix-de-pouilly.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R1-auteuil/R1C7-prix-beaumanoir.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R3-vincennes/R3C6-prix-pretentaine.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C1-prix-de-pouilly.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C3-prix-jason.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C4-prix-fauche-le-pre.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C5-prix-de-penthievre.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C6-prix-pretentaine.html",
+      "resultats-et-rapports/2007/05/2007-05-15/R31-zerace/R31C7-prix-beaumanoir.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-salon-de-provence",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-de-pouilly.html",
+        "R1C2-prix-samour.html",
+        "R1C3-prix-jason.html",
+        "R1C4-prix-fauche-le-pre.html",
+        "R1C5-prix-de-penthievre.html",
+        "R1C6-prix-pretentaine.html",
+        "R1C7-prix-beaumanoir.html",
+        "R1C8-prix-pamphilos.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-de-pouilly.html",
+        "R2C2-prix-samour.html",
+        "R2C3-prix-jason.html",
+        "R2C4-prix-fauche-le-pre.html",
+        "R2C5-prix-de-penthievre.html",
+        "R2C6-prix-pretentaine.html",
+        "R2C7-prix-beaumanoir.html",
+        "R2C8-prix-pamphilos.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-pouilly.html",
+        "R3C2-prix-samour.html",
+        "R3C3-prix-jason.html",
+        "R3C4-prix-fauche-le-pre.html",
+        "R3C5-prix-de-penthievre.html",
+        "R3C6-prix-pretentaine.html",
+        "R3C7-prix-beaumanoir.html",
+        "R3C8-prix-pamphilos.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-pouilly.html",
+        "R31C2-prix-samour.html",
+        "R31C3-prix-jason.html",
+        "R31C4-prix-fauche-le-pre.html",
+        "R31C5-prix-de-penthievre.html",
+        "R31C6-prix-pretentaine.html",
+        "R31C7-prix-beaumanoir.html",
+        "R31C8-prix-pamphilos.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:48.868191Z"
+}

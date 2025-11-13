@@ -1,0 +1,82 @@
+{
+  "date": "2016-08-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/08/2016-08-04",
+    "date_html": "resultats-et-rapports/2016/08/2016-08-04/2016-08-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C3-prix-fromageries-graindorge.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C4-prix-confrerie-des-chevaliers-du-camembert.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C5-prix-confrerie-des-chevaliers-du-livarot.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C6-prix-confrerie-de-la-teurgoul-et-fallue-de-normandie.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R1-clairefontaine/R1C8-prix-ville-de-pont-l-eveque.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R2-la-rochelle/R2C1-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R3-la-capelle/R3C4-prix-confrerie-des-chevaliers-du-camembert.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R3-la-capelle/R3C5-prix-confrerie-des-chevaliers-du-livarot.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R3-la-capelle/R3C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R4-vichy/R4C2-prix-interprofession-des-appelations-cidricoles.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R4-vichy/R4C3-prix-fromageries-graindorge.html",
+      "resultats-et-rapports/2016/08/2016-08-04/R4-vichy/R4C4-prix-confrerie-des-chevaliers-du-camembert.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-la-rochelle",
+      "R3-la-capelle",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+        "R1C2-prix-interprofession-des-appelations-cidricoles.html",
+        "R1C3-prix-fromageries-graindorge.html",
+        "R1C4-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R1C5-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R1C6-prix-confrerie-de-la-teurgoul-et-fallue-de-normandie.html",
+        "R1C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R1C8-prix-ville-de-pont-l-eveque.html"
+      ],
+      "R2-la-rochelle": [
+        "R2C1-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+        "R2C2-prix-interprofession-des-appelations-cidricoles.html",
+        "R2C3-prix-fromageries-graindorge.html",
+        "R2C4-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R2C5-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R2C6-prix-confrerie-de-la-teurgoul-et-fallue-de-normandie.html",
+        "R2C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R2C8-prix-ville-de-pont-l-eveque.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+        "R3C2-prix-interprofession-des-appelations-cidricoles.html",
+        "R3C3-prix-fromageries-graindorge.html",
+        "R3C4-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R3C5-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R3C6-prix-confrerie-de-la-teurgoul-et-fallue-de-normandie.html",
+        "R3C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R3C8-prix-ville-de-pont-l-eveque.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-confrerie-des-chevaliers-du-pont-l-eveque.html",
+        "R4C2-prix-interprofession-des-appelations-cidricoles.html",
+        "R4C3-prix-fromageries-graindorge.html",
+        "R4C4-prix-confrerie-des-chevaliers-du-camembert.html",
+        "R4C5-prix-confrerie-des-chevaliers-du-livarot.html",
+        "R4C6-prix-confrerie-de-la-teurgoul-et-fallue-de-normandie.html",
+        "R4C7-prix-confrerie-des-talmeliers-du-bon-pain-du-calvados.html",
+        "R4C8-prix-ville-de-pont-l-eveque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:55.652812Z"
+}

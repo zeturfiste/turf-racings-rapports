@@ -1,0 +1,64 @@
+{
+  "date": "2014-12-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-18",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-18/2014-12-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-18/R1-cabourg/R1C1-prix-des-mufliers.html",
+      "resultats-et-rapports/2014/12/2014-12-18/R1-cabourg/R1C8-prix-des-ormes-groupe-b.html",
+      "resultats-et-rapports/2014/12/2014-12-18/R2-deauville/R2C2-prix-des-orties.html",
+      "resultats-et-rapports/2014/12/2014-12-18/R2-deauville/R2C3-prix-du-buis.html",
+      "resultats-et-rapports/2014/12/2014-12-18/R2-deauville/R2C4-prix-des-silenes.html",
+      "resultats-et-rapports/2014/12/2014-12-18/R3-cagnes-sur-mer/R3C5-prix-des-platanes.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-deauville",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-mufliers.html",
+        "R1C2-prix-des-orties.html",
+        "R1C3-prix-du-buis.html",
+        "R1C4-prix-des-silenes.html",
+        "R1C5-prix-des-platanes.html",
+        "R1C6-prix-des-pissenlits.html",
+        "R1C7-prix-des-ormes-groupe-a.html",
+        "R1C8-prix-des-ormes-groupe-b.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-des-mufliers.html",
+        "R2C2-prix-des-orties.html",
+        "R2C3-prix-du-buis.html",
+        "R2C4-prix-des-silenes.html",
+        "R2C5-prix-des-platanes.html",
+        "R2C6-prix-des-pissenlits.html",
+        "R2C7-prix-des-ormes-groupe-a.html",
+        "R2C8-prix-des-ormes-groupe-b.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-des-mufliers.html",
+        "R3C2-prix-des-orties.html",
+        "R3C3-prix-du-buis.html",
+        "R3C4-prix-des-silenes.html",
+        "R3C5-prix-des-platanes.html",
+        "R3C6-prix-des-pissenlits.html",
+        "R3C7-prix-des-ormes-groupe-a.html",
+        "R3C8-prix-des-ormes-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:54.080930Z"
+}

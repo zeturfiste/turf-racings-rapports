@@ -1,0 +1,106 @@
+{
+  "date": "2012-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-22",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-22/2012-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C1-prix-pawneese.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C2-prix-riverman.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C3-prix-le-sancy.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C4-prix-hampton.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C5-prix-la-moskowa.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C6-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C7-prix-de-la-croix-de-berny.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R1-maisons-laffitte/R1C8-prix-de-bastillac.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R2-la-teste-de-buch/R2C1-prix-pawneese.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R2-la-teste-de-buch/R2C3-prix-le-sancy.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R2-la-teste-de-buch/R2C5-prix-la-moskowa.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R2-la-teste-de-buch/R2C6-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R2-la-teste-de-buch/R2C8-prix-de-bastillac.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R3-vincennes/R3C1-prix-pawneese.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R3-vincennes/R3C5-prix-la-moskowa.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R3-vincennes/R3C6-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R6-laval/R6C4-prix-hampton.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R6-laval/R6C5-prix-la-moskowa.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R6-laval/R6C6-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R6-laval/R6C7-prix-de-la-croix-de-berny.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R6-laval/R6C8-prix-de-bastillac.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R7-toulouse/R7C4-prix-hampton.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R7-toulouse/R7C5-prix-la-moskowa.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R7-toulouse/R7C6-prix-de-saint-germain-de-la-grange.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R7-toulouse/R7C7-prix-de-la-croix-de-berny.html",
+      "resultats-et-rapports/2012/06/2012-06-22/R7-toulouse/R7C8-prix-de-bastillac.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-la-teste-de-buch",
+      "R3-vincennes",
+      "R6-laval",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-pawneese.html",
+        "R1C2-prix-riverman.html",
+        "R1C3-prix-le-sancy.html",
+        "R1C4-prix-hampton.html",
+        "R1C5-prix-la-moskowa.html",
+        "R1C6-prix-de-saint-germain-de-la-grange.html",
+        "R1C7-prix-de-la-croix-de-berny.html",
+        "R1C8-prix-de-bastillac.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-pawneese.html",
+        "R2C2-prix-riverman.html",
+        "R2C3-prix-le-sancy.html",
+        "R2C4-prix-hampton.html",
+        "R2C5-prix-la-moskowa.html",
+        "R2C6-prix-de-saint-germain-de-la-grange.html",
+        "R2C7-prix-de-la-croix-de-berny.html",
+        "R2C8-prix-de-bastillac.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pawneese.html",
+        "R3C2-prix-riverman.html",
+        "R3C3-prix-le-sancy.html",
+        "R3C4-prix-hampton.html",
+        "R3C5-prix-la-moskowa.html",
+        "R3C6-prix-de-saint-germain-de-la-grange.html",
+        "R3C7-prix-de-la-croix-de-berny.html",
+        "R3C8-prix-de-bastillac.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-pawneese.html",
+        "R6C2-prix-riverman.html",
+        "R6C3-prix-le-sancy.html",
+        "R6C4-prix-hampton.html",
+        "R6C5-prix-la-moskowa.html",
+        "R6C6-prix-de-saint-germain-de-la-grange.html",
+        "R6C7-prix-de-la-croix-de-berny.html",
+        "R6C8-prix-de-bastillac.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-pawneese.html",
+        "R7C2-prix-riverman.html",
+        "R7C3-prix-le-sancy.html",
+        "R7C4-prix-hampton.html",
+        "R7C5-prix-la-moskowa.html",
+        "R7C6-prix-de-saint-germain-de-la-grange.html",
+        "R7C7-prix-de-la-croix-de-berny.html",
+        "R7C8-prix-de-bastillac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:14.546533Z"
+}

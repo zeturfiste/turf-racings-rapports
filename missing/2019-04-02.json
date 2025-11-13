@@ -1,0 +1,78 @@
+{
+  "date": "2019-04-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-02",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-02/2019-04-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C2-prix-play-it-safe.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C3-prix-zino.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C4-prix-le-sancy.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C6-prix-de-lorraine.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C7-prix-du-grand-morin.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R1-maisons-laffitte/R1C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C2-prix-play-it-safe.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C4-prix-le-sancy.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C5-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C6-prix-de-lorraine.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C7-prix-du-grand-morin.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R2-compiegne/R2C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C1-prix-d-alsace.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C2-prix-play-it-safe.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C3-prix-zino.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C4-prix-le-sancy.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C5-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C6-prix-de-lorraine.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C7-prix-du-grand-morin.html",
+      "resultats-et-rapports/2019/04/2019-04-02/R4-vincennes/R4C8-prix-du-petit-morin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-compiegne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-d-alsace.html",
+        "R1C2-prix-play-it-safe.html",
+        "R1C3-prix-zino.html",
+        "R1C4-prix-le-sancy.html",
+        "R1C5-prix-de-conflans-sainte-honorine.html",
+        "R1C6-prix-de-lorraine.html",
+        "R1C7-prix-du-grand-morin.html",
+        "R1C8-prix-du-petit-morin.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-d-alsace.html",
+        "R2C2-prix-play-it-safe.html",
+        "R2C3-prix-zino.html",
+        "R2C4-prix-le-sancy.html",
+        "R2C5-prix-de-conflans-sainte-honorine.html",
+        "R2C6-prix-de-lorraine.html",
+        "R2C7-prix-du-grand-morin.html",
+        "R2C8-prix-du-petit-morin.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-d-alsace.html",
+        "R4C2-prix-play-it-safe.html",
+        "R4C3-prix-zino.html",
+        "R4C4-prix-le-sancy.html",
+        "R4C5-prix-de-conflans-sainte-honorine.html",
+        "R4C6-prix-de-lorraine.html",
+        "R4C7-prix-du-grand-morin.html",
+        "R4C8-prix-du-petit-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:09.676569Z"
+}

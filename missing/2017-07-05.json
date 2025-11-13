@@ -1,0 +1,75 @@
+{
+  "date": "2017-07-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-05",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-05/2017-07-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-05/R1-vichy/R1C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R1-vichy/R1C8-prix-de-savoie.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C2-prix-de-l-indre.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C3-prix-hotel-de-barcelone.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C4-prix-jerome-salamani.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C6-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C7-prix-des-vans-theault-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R3-deauville/R3C8-prix-de-savoie.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C1-prix-de-vincennes.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C2-prix-de-l-indre.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C3-prix-hotel-de-barcelone.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C4-prix-jerome-salamani.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C6-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C7-prix-des-vans-theault-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2017/07/2017-07-05/R4-lisieux/R4C8-prix-de-savoie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-deauville",
+      "R4-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-vincennes.html",
+        "R1C2-prix-de-l-indre.html",
+        "R1C3-prix-hotel-de-barcelone.html",
+        "R1C4-prix-jerome-salamani.html",
+        "R1C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R1C6-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+        "R1C7-prix-des-vans-theault-prix-de-l-ile-de-france.html",
+        "R1C8-prix-de-savoie.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-vincennes.html",
+        "R3C2-prix-de-l-indre.html",
+        "R3C3-prix-hotel-de-barcelone.html",
+        "R3C4-prix-jerome-salamani.html",
+        "R3C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R3C6-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+        "R3C7-prix-des-vans-theault-prix-de-l-ile-de-france.html",
+        "R3C8-prix-de-savoie.html"
+      ],
+      "R4-lisieux": [
+        "R4C1-prix-de-vincennes.html",
+        "R4C2-prix-de-l-indre.html",
+        "R4C3-prix-hotel-de-barcelone.html",
+        "R4C4-prix-jerome-salamani.html",
+        "R4C5-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R4C6-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+        "R4C7-prix-des-vans-theault-prix-de-l-ile-de-france.html",
+        "R4C8-prix-de-savoie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:46.344266Z"
+}

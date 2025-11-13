@@ -1,0 +1,103 @@
+{
+  "date": "2018-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-20",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-20/2018-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-20/R3-le-touquet/R3C7-prix-des-euphraises.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R4-vichy/R4C1-prix-merci-les-bleus-prix-des-fuschias.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R4-vichy/R4C2-grand-prix-de-la-ville-de-cabourg.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R4-vichy/R4C3-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R5-pornichet-la-baule/R5C3-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R5-pornichet-la-baule/R5C5-prix-des-spirees.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R7-cagnes-sur-mer/R7C2-grand-prix-de-la-ville-de-cabourg.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R7-cagnes-sur-mer/R7C3-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R7-cagnes-sur-mer/R7C4-prix-fandango.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R7-cagnes-sur-mer/R7C6-prix-des-callunes-prix-locatech-artifice.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R7-cagnes-sur-mer/R7C7-prix-des-euphraises.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C1-prix-merci-les-bleus-prix-des-fuschias.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C2-grand-prix-de-la-ville-de-cabourg.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C3-prix-normandie-cabourg-pays-d-auge.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C4-prix-fandango.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C5-prix-des-spirees.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C6-prix-des-callunes-prix-locatech-artifice.html",
+      "resultats-et-rapports/2018/07/2018-07-20/R8-biarritz/R8C7-prix-des-euphraises.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-le-touquet",
+      "R4-vichy",
+      "R5-pornichet-la-baule",
+      "R7-cagnes-sur-mer",
+      "R8-biarritz"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R1C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R1C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R1C4-prix-fandango.html",
+        "R1C5-prix-des-spirees.html",
+        "R1C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R1C7-prix-des-euphraises.html"
+      ],
+      "R3-le-touquet": [
+        "R3C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R3C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R3C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R3C4-prix-fandango.html",
+        "R3C5-prix-des-spirees.html",
+        "R3C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R3C7-prix-des-euphraises.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R4C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R4C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R4C4-prix-fandango.html",
+        "R4C5-prix-des-spirees.html",
+        "R4C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R4C7-prix-des-euphraises.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R5C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R5C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R5C4-prix-fandango.html",
+        "R5C5-prix-des-spirees.html",
+        "R5C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R5C7-prix-des-euphraises.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R7C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R7C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R7C4-prix-fandango.html",
+        "R7C5-prix-des-spirees.html",
+        "R7C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R7C7-prix-des-euphraises.html"
+      ],
+      "R8-biarritz": [
+        "R8C1-prix-merci-les-bleus-prix-des-fuschias.html",
+        "R8C2-grand-prix-de-la-ville-de-cabourg.html",
+        "R8C3-prix-normandie-cabourg-pays-d-auge.html",
+        "R8C4-prix-fandango.html",
+        "R8C5-prix-des-spirees.html",
+        "R8C6-prix-des-callunes-prix-locatech-artifice.html",
+        "R8C7-prix-des-euphraises.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:50.322841Z"
+}

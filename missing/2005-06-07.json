@@ -1,0 +1,57 @@
+{
+  "date": "2005-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-07",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-07/2005-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-victor.html",
+        "R1C2-prix-bois-rouaud.html",
+        "R1C3-prix-miror.html",
+        "R1C4-prix-jean-de-la-rochefoucauld.html",
+        "R1C5-prix-pharaon.html",
+        "R1C6-prix-ginetta-ii.html",
+        "R1C7-prix-de-la-porte-d-auteuil.html",
+        "R1C8-prix-du-vesinet.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-jean-victor.html",
+        "R2C2-prix-bois-rouaud.html",
+        "R2C3-prix-miror.html",
+        "R2C4-prix-jean-de-la-rochefoucauld.html",
+        "R2C5-prix-pharaon.html",
+        "R2C6-prix-ginetta-ii.html",
+        "R2C7-prix-de-la-porte-d-auteuil.html",
+        "R2C8-prix-du-vesinet.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-jean-victor.html",
+        "R3C2-prix-bois-rouaud.html",
+        "R3C3-prix-miror.html",
+        "R3C4-prix-jean-de-la-rochefoucauld.html",
+        "R3C5-prix-pharaon.html",
+        "R3C6-prix-ginetta-ii.html",
+        "R3C7-prix-de-la-porte-d-auteuil.html",
+        "R3C8-prix-du-vesinet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:07.523952Z"
+}

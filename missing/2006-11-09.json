@@ -1,0 +1,60 @@
+{
+  "date": "2006-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-09",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-09/2006-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-avesnes.html",
+        "R1C2-prix-de-cognac.html",
+        "R1C3-coupe-des-amateurs-gr-a.html",
+        "R1C4-coupe-des-amateurs-gr-b.html",
+        "R1C5-prix-de-boissy-saint-leger.html",
+        "R1C6-prix-de-l-ile-d-oleron.html",
+        "R1C7-prix-de-castres.html",
+        "R1C8-prix-de-bethune.html",
+        "R1C9-prix-de-belle-ile.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-d-avesnes.html",
+        "R2C2-prix-de-cognac.html",
+        "R2C3-coupe-des-amateurs-gr-a.html",
+        "R2C4-coupe-des-amateurs-gr-b.html",
+        "R2C5-prix-de-boissy-saint-leger.html",
+        "R2C6-prix-de-l-ile-d-oleron.html",
+        "R2C7-prix-de-castres.html",
+        "R2C8-prix-de-bethune.html",
+        "R2C9-prix-de-belle-ile.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-avesnes.html",
+        "R21C2-prix-de-cognac.html",
+        "R21C3-coupe-des-amateurs-gr-a.html",
+        "R21C4-coupe-des-amateurs-gr-b.html",
+        "R21C5-prix-de-boissy-saint-leger.html",
+        "R21C6-prix-de-l-ile-d-oleron.html",
+        "R21C7-prix-de-castres.html",
+        "R21C8-prix-de-bethune.html",
+        "R21C9-prix-de-belle-ile.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:51.723077Z"
+}

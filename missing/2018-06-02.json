@@ -1,0 +1,92 @@
+{
+  "date": "2018-06-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-02",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-02/2018-06-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-02/R1-paris-longchamp/R1C1-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R1-paris-longchamp/R1C3-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R1-paris-longchamp/R1C5-prix-de-l-allee-des-cygnes.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R1-paris-longchamp/R1C6-prix-du-marche-aux-fleurs.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R3-marseille-borely/R3C7-prix-de-champerret.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R4-argentan/R4C5-prix-de-l-allee-des-cygnes.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R4-argentan/R4C6-prix-du-marche-aux-fleurs.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R5-vichy/R5C6-prix-du-marche-aux-fleurs.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R7-amiens/R7C2-prix-volterra.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R7-amiens/R7C3-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R7-amiens/R7C5-prix-de-l-allee-des-cygnes.html",
+      "resultats-et-rapports/2018/06/2018-06-02/R7-amiens/R7C6-prix-du-marche-aux-fleurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-marseille-borely",
+      "R4-argentan",
+      "R5-vichy",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-saint-ouen.html",
+        "R1C2-prix-volterra.html",
+        "R1C3-prix-de-l-ile-de-la-cite.html",
+        "R1C4-prix-du-palais-royal.html",
+        "R1C5-prix-de-l-allee-des-cygnes.html",
+        "R1C6-prix-du-marche-aux-fleurs.html",
+        "R1C7-prix-de-champerret.html",
+        "R1C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-saint-ouen.html",
+        "R3C2-prix-volterra.html",
+        "R3C3-prix-de-l-ile-de-la-cite.html",
+        "R3C4-prix-du-palais-royal.html",
+        "R3C5-prix-de-l-allee-des-cygnes.html",
+        "R3C6-prix-du-marche-aux-fleurs.html",
+        "R3C7-prix-de-champerret.html",
+        "R3C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-de-saint-ouen.html",
+        "R4C2-prix-volterra.html",
+        "R4C3-prix-de-l-ile-de-la-cite.html",
+        "R4C4-prix-du-palais-royal.html",
+        "R4C5-prix-de-l-allee-des-cygnes.html",
+        "R4C6-prix-du-marche-aux-fleurs.html",
+        "R4C7-prix-de-champerret.html",
+        "R4C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-de-saint-ouen.html",
+        "R5C2-prix-volterra.html",
+        "R5C3-prix-de-l-ile-de-la-cite.html",
+        "R5C4-prix-du-palais-royal.html",
+        "R5C5-prix-de-l-allee-des-cygnes.html",
+        "R5C6-prix-du-marche-aux-fleurs.html",
+        "R5C7-prix-de-champerret.html",
+        "R5C8-prix-de-l-ile-saint-louis.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-de-saint-ouen.html",
+        "R7C2-prix-volterra.html",
+        "R7C3-prix-de-l-ile-de-la-cite.html",
+        "R7C4-prix-du-palais-royal.html",
+        "R7C5-prix-de-l-allee-des-cygnes.html",
+        "R7C6-prix-du-marche-aux-fleurs.html",
+        "R7C7-prix-de-champerret.html",
+        "R7C8-prix-de-l-ile-saint-louis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:34.150861Z"
+}

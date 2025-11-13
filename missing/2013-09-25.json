@@ -1,0 +1,91 @@
+{
+  "date": "2013-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/09/2013-09-25",
+    "date_html": "resultats-et-rapports/2013/09/2013-09-25/2013-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/09/2013-09-25/R1-cherbourg/R1C8-prix-auchan-la-glacerie.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C3-prix-des-maitres-laitiers-du-cotentin.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C4-prix-metro-la-glacerie-groupe-a.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C5-prix-metro-la-glacerie-groupe-b.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C6-prix-axa-assurances-couppey-valognes.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R2-enghien-soisy/R2C9-prix-mg-diffusion.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R3-lyon-la-soie/R3C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R3-lyon-la-soie/R3C3-prix-des-maitres-laitiers-du-cotentin.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R3-lyon-la-soie/R3C5-prix-metro-la-glacerie-groupe-b.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R3-lyon-la-soie/R3C9-prix-mg-diffusion.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C4-prix-metro-la-glacerie-groupe-a.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C5-prix-metro-la-glacerie-groupe-b.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C6-prix-axa-assurances-couppey-valognes.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C7-prix-albert-viel.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C8-prix-auchan-la-glacerie.html",
+      "resultats-et-rapports/2013/09/2013-09-25/R5-marseille-borely/R5C9-prix-mg-diffusion.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cherbourg",
+      "R2-enghien-soisy",
+      "R3-lyon-la-soie",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-cherbourg": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-du-champagne-besserat-de-bellefon.html",
+        "R1C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R1C4-prix-metro-la-glacerie-groupe-a.html",
+        "R1C5-prix-metro-la-glacerie-groupe-b.html",
+        "R1C6-prix-axa-assurances-couppey-valognes.html",
+        "R1C7-prix-albert-viel.html",
+        "R1C8-prix-auchan-la-glacerie.html",
+        "R1C9-prix-mg-diffusion.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-du-champagne-besserat-de-bellefon.html",
+        "R2C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R2C4-prix-metro-la-glacerie-groupe-a.html",
+        "R2C5-prix-metro-la-glacerie-groupe-b.html",
+        "R2C6-prix-axa-assurances-couppey-valognes.html",
+        "R2C7-prix-albert-viel.html",
+        "R2C8-prix-auchan-la-glacerie.html",
+        "R2C9-prix-mg-diffusion.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-du-champagne-besserat-de-bellefon.html",
+        "R3C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R3C4-prix-metro-la-glacerie-groupe-a.html",
+        "R3C5-prix-metro-la-glacerie-groupe-b.html",
+        "R3C6-prix-axa-assurances-couppey-valognes.html",
+        "R3C7-prix-albert-viel.html",
+        "R3C8-prix-auchan-la-glacerie.html",
+        "R3C9-prix-mg-diffusion.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-geny-com-paris-turf.html",
+        "R5C2-prix-du-champagne-besserat-de-bellefon.html",
+        "R5C3-prix-des-maitres-laitiers-du-cotentin.html",
+        "R5C4-prix-metro-la-glacerie-groupe-a.html",
+        "R5C5-prix-metro-la-glacerie-groupe-b.html",
+        "R5C6-prix-axa-assurances-couppey-valognes.html",
+        "R5C7-prix-albert-viel.html",
+        "R5C8-prix-auchan-la-glacerie.html",
+        "R5C9-prix-mg-diffusion.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:33.153827Z"
+}

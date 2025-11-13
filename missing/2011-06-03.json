@@ -1,0 +1,88 @@
+{
+  "date": "2011-06-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-03",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-03/2011-06-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C2-prix-pawneese.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C3-prix-le-sancy.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C4-prix-de-bessan.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C5-prix-amonita.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C7-prix-noir-et-or.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R1-maisons-laffitte/R1C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C1-prix-riverman.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C2-prix-pawneese.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C3-prix-le-sancy.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C4-prix-de-bessan.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C5-prix-amonita.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C7-prix-noir-et-or.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R2-marseille-borely/R2C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R3-vincennes/R3C1-prix-riverman.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R3-vincennes/R3C2-prix-pawneese.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R6-toulouse/R6C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2011/06/2011-06-03/R6-toulouse/R6C8-prix-du-petit-morin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-riverman.html",
+        "R1C2-prix-pawneese.html",
+        "R1C3-prix-le-sancy.html",
+        "R1C4-prix-de-bessan.html",
+        "R1C5-prix-amonita.html",
+        "R1C6-prix-du-grand-morin.html",
+        "R1C7-prix-noir-et-or.html",
+        "R1C8-prix-du-petit-morin.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-riverman.html",
+        "R2C2-prix-pawneese.html",
+        "R2C3-prix-le-sancy.html",
+        "R2C4-prix-de-bessan.html",
+        "R2C5-prix-amonita.html",
+        "R2C6-prix-du-grand-morin.html",
+        "R2C7-prix-noir-et-or.html",
+        "R2C8-prix-du-petit-morin.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-riverman.html",
+        "R3C2-prix-pawneese.html",
+        "R3C3-prix-le-sancy.html",
+        "R3C4-prix-de-bessan.html",
+        "R3C5-prix-amonita.html",
+        "R3C6-prix-du-grand-morin.html",
+        "R3C7-prix-noir-et-or.html",
+        "R3C8-prix-du-petit-morin.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-riverman.html",
+        "R6C2-prix-pawneese.html",
+        "R6C3-prix-le-sancy.html",
+        "R6C4-prix-de-bessan.html",
+        "R6C5-prix-amonita.html",
+        "R6C6-prix-du-grand-morin.html",
+        "R6C7-prix-noir-et-or.html",
+        "R6C8-prix-du-petit-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:24.397639Z"
+}

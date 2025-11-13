@@ -1,0 +1,82 @@
+{
+  "date": "2008-12-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-15",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-15/2008-12-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C1-prix-du-mont-falourde-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C2-prix-ubu-iii-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C3-prix-de-la-promenade-des-anglais-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C4-prix-guy-du-faur-de-pibrac-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C6-prix-du-mont-bego-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C7-prix-du-general-du-corail-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R1-cagnes-sur-mer/R1C8-prix-de-cimiez-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C1-prix-du-mont-falourde-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C2-prix-ubu-iii-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C3-prix-de-la-promenade-des-anglais-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C4-prix-guy-du-faur-de-pibrac-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C6-prix-du-mont-bego-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C7-prix-du-general-du-corail-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R2-vincennes/R2C8-prix-de-cimiez-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C1-prix-du-mont-falourde-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C2-prix-ubu-iii-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C3-prix-de-la-promenade-des-anglais-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C4-prix-guy-du-faur-de-pibrac-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C6-prix-du-mont-bego-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C7-prix-du-general-du-corail-annulee.html",
+      "resultats-et-rapports/2008/12/2008-12-15/R31-zerace/R31C8-prix-de-cimiez-annulee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-mont-falourde-annulee.html",
+        "R1C2-prix-ubu-iii-annulee.html",
+        "R1C3-prix-de-la-promenade-des-anglais-annulee.html",
+        "R1C4-prix-guy-du-faur-de-pibrac-annulee.html",
+        "R1C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+        "R1C6-prix-du-mont-bego-annulee.html",
+        "R1C7-prix-du-general-du-corail-annulee.html",
+        "R1C8-prix-de-cimiez-annulee.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-mont-falourde-annulee.html",
+        "R2C2-prix-ubu-iii-annulee.html",
+        "R2C3-prix-de-la-promenade-des-anglais-annulee.html",
+        "R2C4-prix-guy-du-faur-de-pibrac-annulee.html",
+        "R2C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+        "R2C6-prix-du-mont-bego-annulee.html",
+        "R2C7-prix-du-general-du-corail-annulee.html",
+        "R2C8-prix-de-cimiez-annulee.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-mont-falourde-annulee.html",
+        "R31C2-prix-ubu-iii-annulee.html",
+        "R31C3-prix-de-la-promenade-des-anglais-annulee.html",
+        "R31C4-prix-guy-du-faur-de-pibrac-annulee.html",
+        "R31C5-prix-jacques-pinel-de-grandchamp-annulee.html",
+        "R31C6-prix-du-mont-bego-annulee.html",
+        "R31C7-prix-du-general-du-corail-annulee.html",
+        "R31C8-prix-de-cimiez-annulee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:00.764756Z"
+}

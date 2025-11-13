@@ -1,0 +1,111 @@
+{
+  "date": "2017-07-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-19",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-19/2017-07-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C1-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C2-prix-des-maitres-laitiers-du-cotentin.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C3-grand-prix-auchan.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C4-prix-france-bleu-cotentin-100-7.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C5-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C6-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C7-prix-de-portbail.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R1-cherbourg/R1C8-prix-abo-volo.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R3-mont-de-marsan/R3C3-grand-prix-auchan.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R3-mont-de-marsan/R3C4-prix-france-bleu-cotentin-100-7.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R3-mont-de-marsan/R3C5-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R3-mont-de-marsan/R3C6-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R4-nancy/R4C1-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R4-nancy/R4C3-grand-prix-auchan.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R4-nancy/R4C6-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R4-nancy/R4C7-prix-de-portbail.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R4-nancy/R4C8-prix-abo-volo.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C1-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C3-grand-prix-auchan.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C4-prix-france-bleu-cotentin-100-7.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C5-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C6-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C7-prix-de-portbail.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R6-vichy/R6C8-prix-abo-volo.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C1-grand-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C2-prix-des-maitres-laitiers-du-cotentin.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C3-grand-prix-auchan.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C4-prix-france-bleu-cotentin-100-7.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C5-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C6-prix-coktail-jet.html",
+      "resultats-et-rapports/2017/07/2017-07-19/R7-cagnes-sur-mer/R7C8-prix-abo-volo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cherbourg",
+      "R3-mont-de-marsan",
+      "R4-nancy",
+      "R6-vichy",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cherbourg": [
+        "R1C1-grand-prix-de-la-region-normandie.html",
+        "R1C2-prix-des-maitres-laitiers-du-cotentin.html",
+        "R1C3-grand-prix-auchan.html",
+        "R1C4-prix-france-bleu-cotentin-100-7.html",
+        "R1C5-prix-de-sainte-marie-du-mont.html",
+        "R1C6-prix-coktail-jet.html",
+        "R1C7-prix-de-portbail.html",
+        "R1C8-prix-abo-volo.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-grand-prix-de-la-region-normandie.html",
+        "R3C2-prix-des-maitres-laitiers-du-cotentin.html",
+        "R3C3-grand-prix-auchan.html",
+        "R3C4-prix-france-bleu-cotentin-100-7.html",
+        "R3C5-prix-de-sainte-marie-du-mont.html",
+        "R3C6-prix-coktail-jet.html",
+        "R3C7-prix-de-portbail.html",
+        "R3C8-prix-abo-volo.html"
+      ],
+      "R4-nancy": [
+        "R4C1-grand-prix-de-la-region-normandie.html",
+        "R4C2-prix-des-maitres-laitiers-du-cotentin.html",
+        "R4C3-grand-prix-auchan.html",
+        "R4C4-prix-france-bleu-cotentin-100-7.html",
+        "R4C5-prix-de-sainte-marie-du-mont.html",
+        "R4C6-prix-coktail-jet.html",
+        "R4C7-prix-de-portbail.html",
+        "R4C8-prix-abo-volo.html"
+      ],
+      "R6-vichy": [
+        "R6C1-grand-prix-de-la-region-normandie.html",
+        "R6C2-prix-des-maitres-laitiers-du-cotentin.html",
+        "R6C3-grand-prix-auchan.html",
+        "R6C4-prix-france-bleu-cotentin-100-7.html",
+        "R6C5-prix-de-sainte-marie-du-mont.html",
+        "R6C6-prix-coktail-jet.html",
+        "R6C7-prix-de-portbail.html",
+        "R6C8-prix-abo-volo.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-grand-prix-de-la-region-normandie.html",
+        "R7C2-prix-des-maitres-laitiers-du-cotentin.html",
+        "R7C3-grand-prix-auchan.html",
+        "R7C4-prix-france-bleu-cotentin-100-7.html",
+        "R7C5-prix-de-sainte-marie-du-mont.html",
+        "R7C6-prix-coktail-jet.html",
+        "R7C7-prix-de-portbail.html",
+        "R7C8-prix-abo-volo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:51.710062Z"
+}

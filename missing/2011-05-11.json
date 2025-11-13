@@ -1,0 +1,64 @@
+{
+  "date": "2011-05-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-11",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-11/2011-05-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-11/R2-meslay-du-maine/R2C5-prix-des-nenuphars.html",
+      "resultats-et-rapports/2011/05/2011-05-11/R2-meslay-du-maine/R2C8-prix-d-enghien.html",
+      "resultats-et-rapports/2011/05/2011-05-11/R3-lyon-parilly/R3C1-prix-du-pont-de-flandre.html",
+      "resultats-et-rapports/2011/05/2011-05-11/R3-lyon-parilly/R3C3-prix-de-grenelle.html",
+      "resultats-et-rapports/2011/05/2011-05-11/R3-lyon-parilly/R3C4-prix-du-mont-valerien.html",
+      "resultats-et-rapports/2011/05/2011-05-11/R3-lyon-parilly/R3C8-prix-d-enghien.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-meslay-du-maine",
+      "R3-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pont-de-flandre.html",
+        "R1C2-prix-des-ternes.html",
+        "R1C3-prix-de-grenelle.html",
+        "R1C4-prix-du-mont-valerien.html",
+        "R1C5-prix-des-nenuphars.html",
+        "R1C6-prix-des-centaures.html",
+        "R1C7-prix-des-grands-augustins.html",
+        "R1C8-prix-d-enghien.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-du-pont-de-flandre.html",
+        "R2C2-prix-des-ternes.html",
+        "R2C3-prix-de-grenelle.html",
+        "R2C4-prix-du-mont-valerien.html",
+        "R2C5-prix-des-nenuphars.html",
+        "R2C6-prix-des-centaures.html",
+        "R2C7-prix-des-grands-augustins.html",
+        "R2C8-prix-d-enghien.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-pont-de-flandre.html",
+        "R3C2-prix-des-ternes.html",
+        "R3C3-prix-de-grenelle.html",
+        "R3C4-prix-du-mont-valerien.html",
+        "R3C5-prix-des-nenuphars.html",
+        "R3C6-prix-des-centaures.html",
+        "R3C7-prix-des-grands-augustins.html",
+        "R3C8-prix-d-enghien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:17.595509Z"
+}

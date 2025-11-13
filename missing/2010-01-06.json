@@ -1,0 +1,81 @@
+{
+  "date": "2010-01-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/01/2010-01-06",
+    "date_html": "resultats-et-rapports/2010/01/2010-01-06/2010-01-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/01/2010-01-06/R73-city-of-manchester-stadium/R73C1-prix-hersilie.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R73-city-of-manchester-stadium/R73C2-prix-d-erbray.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R73-city-of-manchester-stadium/R73C8-prix-de-charleville.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R1-vincennes/R1C8-prix-de-charleville.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C3-prix-de-barcelonnette.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C4-prix-de-lignieres.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C5-prix-de-valognes.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C6-prix-de-chatelguyon.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C7-prix-de-pontchateau.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R2-cagnes-sur-mer/R2C8-prix-de-charleville.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R31-zerace/R31C1-prix-hersilie.html",
+      "resultats-et-rapports/2010/01/2010-01-06/R31-zerace/R31C4-prix-de-lignieres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R73-city-of-manchester-stadium",
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R73-city-of-manchester-stadium": [
+        "R73C1-prix-hersilie.html",
+        "R73C2-prix-d-erbray.html",
+        "R73C3-prix-de-barcelonnette.html",
+        "R73C4-prix-de-lignieres.html",
+        "R73C5-prix-de-valognes.html",
+        "R73C6-prix-de-chatelguyon.html",
+        "R73C7-prix-de-pontchateau.html",
+        "R73C8-prix-de-charleville.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-hersilie.html",
+        "R1C2-prix-d-erbray.html",
+        "R1C3-prix-de-barcelonnette.html",
+        "R1C4-prix-de-lignieres.html",
+        "R1C5-prix-de-valognes.html",
+        "R1C6-prix-de-chatelguyon.html",
+        "R1C7-prix-de-pontchateau.html",
+        "R1C8-prix-de-charleville.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-hersilie.html",
+        "R2C2-prix-d-erbray.html",
+        "R2C3-prix-de-barcelonnette.html",
+        "R2C4-prix-de-lignieres.html",
+        "R2C5-prix-de-valognes.html",
+        "R2C6-prix-de-chatelguyon.html",
+        "R2C7-prix-de-pontchateau.html",
+        "R2C8-prix-de-charleville.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-hersilie.html",
+        "R31C2-prix-d-erbray.html",
+        "R31C3-prix-de-barcelonnette.html",
+        "R31C4-prix-de-lignieres.html",
+        "R31C5-prix-de-valognes.html",
+        "R31C6-prix-de-chatelguyon.html",
+        "R31C7-prix-de-pontchateau.html",
+        "R31C8-prix-de-charleville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:14.280953Z"
+}

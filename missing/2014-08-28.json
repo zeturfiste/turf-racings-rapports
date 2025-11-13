@@ -1,0 +1,57 @@
+{
+  "date": "2014-08-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-28",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-28/2014-08-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-28/R1-clairefontaine/R1C2-prix-etalon-kap-rock-haras-de-la-hetraie-prix-de-la-risle.html",
+      "resultats-et-rapports/2014/08/2014-08-28/R1-clairefontaine/R1C3-prix-etalon-apsis-haras-de-la-hetraie-prix-des-lavateres.html",
+      "resultats-et-rapports/2014/08/2014-08-28/R2-vincennes/R2C4-grand-steeple-chase-de-la-ville-de-deauville-haras-de-la-hetraie.html",
+      "resultats-et-rapports/2014/08/2014-08-28/R3-dax/R3C1-prix-de-la-ville-de-tourgeville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R3-dax",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-de-la-ville-de-tourgeville.html",
+        "R1C2-prix-etalon-kap-rock-haras-de-la-hetraie-prix-de-la-risle.html",
+        "R1C3-prix-etalon-apsis-haras-de-la-hetraie-prix-des-lavateres.html",
+        "R1C4-grand-steeple-chase-de-la-ville-de-deauville-haras-de-la-hetraie.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-ville-de-tourgeville.html",
+        "R2C2-prix-etalon-kap-rock-haras-de-la-hetraie-prix-de-la-risle.html",
+        "R2C3-prix-etalon-apsis-haras-de-la-hetraie-prix-des-lavateres.html",
+        "R2C4-grand-steeple-chase-de-la-ville-de-deauville-haras-de-la-hetraie.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-de-la-ville-de-tourgeville.html",
+        "R3C2-prix-etalon-kap-rock-haras-de-la-hetraie-prix-de-la-risle.html",
+        "R3C3-prix-etalon-apsis-haras-de-la-hetraie-prix-des-lavateres.html",
+        "R3C4-grand-steeple-chase-de-la-ville-de-deauville-haras-de-la-hetraie.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-ville-de-tourgeville.html",
+        "R4C2-prix-etalon-kap-rock-haras-de-la-hetraie-prix-de-la-risle.html",
+        "R4C3-prix-etalon-apsis-haras-de-la-hetraie-prix-des-lavateres.html",
+        "R4C4-grand-steeple-chase-de-la-ville-de-deauville-haras-de-la-hetraie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:15.994111Z"
+}

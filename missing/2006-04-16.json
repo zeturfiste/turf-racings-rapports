@@ -1,0 +1,89 @@
+{
+  "date": "2006-04-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-16",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-16/2006-04-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/04/2006-04-16/R1-auteuil/R1C2-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R1-auteuil/R1C4-prix-james-hennessy.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R1-auteuil/R1C5-prix-vanille.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R2-lyon-villeurbanne/R2C8-prix-de-pau.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R5-cordemais/R5C3-prix-de-pepinvast.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R5-cordemais/R5C8-prix-de-pau.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R6-vire/R6C3-prix-de-pepinvast.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R6-vire/R6C7-prix-arthur-veil-picard.html",
+      "resultats-et-rapports/2006/04/2006-04-16/R6-vire/R6C8-prix-de-pau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-villeurbanne",
+      "R4-chartres",
+      "R5-cordemais",
+      "R6-vire"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-grandak.html",
+        "R1C2-prix-du-president-de-la-republique.html",
+        "R1C3-prix-de-pepinvast.html",
+        "R1C4-prix-james-hennessy.html",
+        "R1C5-prix-vanille.html",
+        "R1C6-prix-murat.html",
+        "R1C7-prix-arthur-veil-picard.html",
+        "R1C8-prix-de-pau.html"
+      ],
+      "R2-lyon-villeurbanne": [
+        "R2C1-prix-grandak.html",
+        "R2C2-prix-du-president-de-la-republique.html",
+        "R2C3-prix-de-pepinvast.html",
+        "R2C4-prix-james-hennessy.html",
+        "R2C5-prix-vanille.html",
+        "R2C6-prix-murat.html",
+        "R2C7-prix-arthur-veil-picard.html",
+        "R2C8-prix-de-pau.html"
+      ],
+      "R4-chartres": [
+        "R4C1-prix-grandak.html",
+        "R4C2-prix-du-president-de-la-republique.html",
+        "R4C3-prix-de-pepinvast.html",
+        "R4C4-prix-james-hennessy.html",
+        "R4C5-prix-vanille.html",
+        "R4C6-prix-murat.html",
+        "R4C7-prix-arthur-veil-picard.html",
+        "R4C8-prix-de-pau.html"
+      ],
+      "R5-cordemais": [
+        "R5C1-prix-grandak.html",
+        "R5C2-prix-du-president-de-la-republique.html",
+        "R5C3-prix-de-pepinvast.html",
+        "R5C4-prix-james-hennessy.html",
+        "R5C5-prix-vanille.html",
+        "R5C6-prix-murat.html",
+        "R5C7-prix-arthur-veil-picard.html",
+        "R5C8-prix-de-pau.html"
+      ],
+      "R6-vire": [
+        "R6C1-prix-grandak.html",
+        "R6C2-prix-du-president-de-la-republique.html",
+        "R6C3-prix-de-pepinvast.html",
+        "R6C4-prix-james-hennessy.html",
+        "R6C5-prix-vanille.html",
+        "R6C6-prix-murat.html",
+        "R6C7-prix-arthur-veil-picard.html",
+        "R6C8-prix-de-pau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:57.266085Z"
+}

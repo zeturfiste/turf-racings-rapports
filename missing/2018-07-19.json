@@ -1,0 +1,80 @@
+{
+  "date": "2018-07-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-19",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-19/2018-07-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C1-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C3-prix-burgos.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C5-prix-de-saint-felix.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C6-prix-edmond-maupoil.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C7-prix-claude-deleuze-prix-du-vernet.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R1-vichy/R1C8-prix-makalu.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C1-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C2-prix-jean-boulard.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C3-prix-burgos.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C4-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C5-prix-de-saint-felix.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C6-prix-edmond-maupoil.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C7-prix-claude-deleuze-prix-du-vernet.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R2-mont-de-marsan/R2C8-prix-makalu.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C1-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C2-prix-jean-boulard.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C3-prix-burgos.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C4-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C5-prix-de-saint-felix.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C6-prix-edmond-maupoil.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C7-prix-claude-deleuze-prix-du-vernet.html",
+      "resultats-et-rapports/2018/07/2018-07-19/R3-les-sables-d-olonne/R3C8-prix-makalu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-mont-de-marsan",
+      "R3-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-tour-de-chenillat.html",
+        "R1C2-prix-jean-boulard.html",
+        "R1C3-prix-burgos.html",
+        "R1C4-prix-des-reves-d-or-jacques-bouchara.html",
+        "R1C5-prix-de-saint-felix.html",
+        "R1C6-prix-edmond-maupoil.html",
+        "R1C7-prix-claude-deleuze-prix-du-vernet.html",
+        "R1C8-prix-makalu.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-de-la-tour-de-chenillat.html",
+        "R2C2-prix-jean-boulard.html",
+        "R2C3-prix-burgos.html",
+        "R2C4-prix-des-reves-d-or-jacques-bouchara.html",
+        "R2C5-prix-de-saint-felix.html",
+        "R2C6-prix-edmond-maupoil.html",
+        "R2C7-prix-claude-deleuze-prix-du-vernet.html",
+        "R2C8-prix-makalu.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-de-la-tour-de-chenillat.html",
+        "R3C2-prix-jean-boulard.html",
+        "R3C3-prix-burgos.html",
+        "R3C4-prix-des-reves-d-or-jacques-bouchara.html",
+        "R3C5-prix-de-saint-felix.html",
+        "R3C6-prix-edmond-maupoil.html",
+        "R3C7-prix-claude-deleuze-prix-du-vernet.html",
+        "R3C8-prix-makalu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:50.075375Z"
+}

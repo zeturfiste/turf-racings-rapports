@@ -1,0 +1,44 @@
+{
+  "date": "2006-09-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-05",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-05/2006-09-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-des-platanes.html",
+        "R1C2-prix-henri-gleizes.html",
+        "R1C3-prix-leopold-bara.html",
+        "R1C4-prix-richard-et-robert-hennessy.html",
+        "R1C5-prix-saida.html",
+        "R1C6-prix-oteuil-sf.html",
+        "R1C7-prix-de-l-orleanais.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-des-platanes.html",
+        "R2C2-prix-henri-gleizes.html",
+        "R2C3-prix-leopold-bara.html",
+        "R2C4-prix-richard-et-robert-hennessy.html",
+        "R2C5-prix-saida.html",
+        "R2C6-prix-oteuil-sf.html",
+        "R2C7-prix-de-l-orleanais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:32.242158Z"
+}

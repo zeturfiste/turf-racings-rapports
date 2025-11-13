@@ -1,0 +1,97 @@
+{
+  "date": "2006-10-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-08",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-08/2006-10-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-08/R2-marseille-borely/R2C3-prix-rtl-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2006/10/2006-10-08/R21-zerace/R21C3-prix-rtl-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2006/10/2006-10-08/R40-suzuka-japon/R40C5-prix-orcada.html",
+      "resultats-et-rapports/2006/10/2006-10-08/R40-suzuka-japon/R40C6-prix-carmarthen.html",
+      "resultats-et-rapports/2006/10/2006-10-08/R40-suzuka-japon/R40C7-prix-heros-xii.html",
+      "resultats-et-rapports/2006/10/2006-10-08/R40-suzuka-japon/R40C8-prix-roger-soulange-bodin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R4-nantes",
+      "R5-graignes",
+      "R21-zerace",
+      "R40-suzuka-japon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-duc-d-alburquerque.html",
+        "R1C2-prix-piomares.html",
+        "R1C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R1C4-prix-georges-de-talhouet-roy.html",
+        "R1C5-prix-orcada.html",
+        "R1C6-prix-carmarthen.html",
+        "R1C7-prix-heros-xii.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-duc-d-alburquerque.html",
+        "R2C2-prix-piomares.html",
+        "R2C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R2C4-prix-georges-de-talhouet-roy.html",
+        "R2C5-prix-orcada.html",
+        "R2C6-prix-carmarthen.html",
+        "R2C7-prix-heros-xii.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-duc-d-alburquerque.html",
+        "R4C2-prix-piomares.html",
+        "R4C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R4C4-prix-georges-de-talhouet-roy.html",
+        "R4C5-prix-orcada.html",
+        "R4C6-prix-carmarthen.html",
+        "R4C7-prix-heros-xii.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-duc-d-alburquerque.html",
+        "R5C2-prix-piomares.html",
+        "R5C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R5C4-prix-georges-de-talhouet-roy.html",
+        "R5C5-prix-orcada.html",
+        "R5C6-prix-carmarthen.html",
+        "R5C7-prix-heros-xii.html",
+        "R5C8-prix-roger-soulange-bodin.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-duc-d-alburquerque.html",
+        "R21C2-prix-piomares.html",
+        "R21C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R21C4-prix-georges-de-talhouet-roy.html",
+        "R21C5-prix-orcada.html",
+        "R21C6-prix-carmarthen.html",
+        "R21C7-prix-heros-xii.html",
+        "R21C8-prix-roger-soulange-bodin.html"
+      ],
+      "R40-suzuka-japon": [
+        "R40C1-prix-duc-d-alburquerque.html",
+        "R40C2-prix-piomares.html",
+        "R40C3-prix-rtl-prix-prince-d-ecouen.html",
+        "R40C4-prix-georges-de-talhouet-roy.html",
+        "R40C5-prix-orcada.html",
+        "R40C6-prix-carmarthen.html",
+        "R40C7-prix-heros-xii.html",
+        "R40C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:42.094660Z"
+}

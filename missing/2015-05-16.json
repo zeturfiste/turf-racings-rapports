@@ -1,0 +1,95 @@
+{
+  "date": "2015-05-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-16",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-16/2015-05-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C1-prix-girofla.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C2-prix-aristote.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C3-prix-la-barka.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C5-prix-samour.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C6-prix-le-parisien-prix-questarabad.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R1-auteuil/R1C7-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C1-prix-girofla.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C2-prix-aristote.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C3-prix-la-barka.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C6-prix-le-parisien-prix-questarabad.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C7-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R2-beaumont-de-lomagne/R2C8-prix-rmc-prix-pot-d-or.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C1-prix-girofla.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C2-prix-aristote.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C3-prix-la-barka.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C4-prix-d-arles-presente-par-l-association-ela.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C5-prix-samour.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C6-prix-le-parisien-prix-questarabad.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C7-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R3-caen/R3C8-prix-rmc-prix-pot-d-or.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C1-prix-girofla.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C2-prix-aristote.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C3-prix-la-barka.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C6-prix-le-parisien-prix-questarabad.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C7-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2015/05/2015-05-16/R4-vichy/R4C8-prix-rmc-prix-pot-d-or.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-beaumont-de-lomagne",
+      "R3-caen",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-girofla.html",
+        "R1C2-prix-aristote.html",
+        "R1C3-prix-la-barka.html",
+        "R1C4-prix-d-arles-presente-par-l-association-ela.html",
+        "R1C5-prix-samour.html",
+        "R1C6-prix-le-parisien-prix-questarabad.html",
+        "R1C7-prix-le-guales-de-mezaubran.html",
+        "R1C8-prix-rmc-prix-pot-d-or.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-girofla.html",
+        "R2C2-prix-aristote.html",
+        "R2C3-prix-la-barka.html",
+        "R2C4-prix-d-arles-presente-par-l-association-ela.html",
+        "R2C5-prix-samour.html",
+        "R2C6-prix-le-parisien-prix-questarabad.html",
+        "R2C7-prix-le-guales-de-mezaubran.html",
+        "R2C8-prix-rmc-prix-pot-d-or.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-girofla.html",
+        "R3C2-prix-aristote.html",
+        "R3C3-prix-la-barka.html",
+        "R3C4-prix-d-arles-presente-par-l-association-ela.html",
+        "R3C5-prix-samour.html",
+        "R3C6-prix-le-parisien-prix-questarabad.html",
+        "R3C7-prix-le-guales-de-mezaubran.html",
+        "R3C8-prix-rmc-prix-pot-d-or.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-girofla.html",
+        "R4C2-prix-aristote.html",
+        "R4C3-prix-la-barka.html",
+        "R4C4-prix-d-arles-presente-par-l-association-ela.html",
+        "R4C5-prix-samour.html",
+        "R4C6-prix-le-parisien-prix-questarabad.html",
+        "R4C7-prix-le-guales-de-mezaubran.html",
+        "R4C8-prix-rmc-prix-pot-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:36.387296Z"
+}

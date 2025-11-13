@@ -1,0 +1,122 @@
+{
+  "date": "2012-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-28",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-28/2012-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-28/R1-longchamp/R1C2-prix-de-la-cite.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R1-longchamp/R1C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R1-longchamp/R1C4-prix-du-lac.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R2-argentan/R2C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R2-argentan/R2C6-prix-du-montparnasse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R2-argentan/R2C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C1-prix-des-feuillants.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C2-prix-de-la-cite.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C4-prix-du-lac.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C5-prix-royal-oak.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C6-prix-du-montparnasse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R7-saint-brieuc/R7C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R8-chartres/R8C4-prix-du-lac.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R8-chartres/R8C5-prix-royal-oak.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R8-chartres/R8C6-prix-du-montparnasse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R8-chartres/R8C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R8-chartres/R8C8-prix-de-ponthieu.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C1-prix-des-feuillants.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C2-prix-de-la-cite.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C3-criterium-de-vitesse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C4-prix-du-lac.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C5-prix-royal-oak.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C6-prix-du-montparnasse.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R9-nantes/R9C8-prix-de-ponthieu.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R3-salon-de-provence/R3C1-prix-des-feuillants.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R3-salon-de-provence/R3C2-prix-de-la-cite.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R3-salon-de-provence/R3C4-prix-du-lac.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R3-salon-de-provence/R3C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2012/10/2012-10-28/R3-salon-de-provence/R3C8-prix-de-ponthieu.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-argentan",
+      "R7-saint-brieuc",
+      "R8-chartres",
+      "R9-nantes",
+      "R3-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-feuillants.html",
+        "R1C2-prix-de-la-cite.html",
+        "R1C3-criterium-de-vitesse.html",
+        "R1C4-prix-du-lac.html",
+        "R1C5-prix-royal-oak.html",
+        "R1C6-prix-du-montparnasse.html",
+        "R1C7-prix-des-bouleaux.html",
+        "R1C8-prix-de-ponthieu.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-des-feuillants.html",
+        "R2C2-prix-de-la-cite.html",
+        "R2C3-criterium-de-vitesse.html",
+        "R2C4-prix-du-lac.html",
+        "R2C5-prix-royal-oak.html",
+        "R2C6-prix-du-montparnasse.html",
+        "R2C7-prix-des-bouleaux.html",
+        "R2C8-prix-de-ponthieu.html"
+      ],
+      "R7-saint-brieuc": [
+        "R7C1-prix-des-feuillants.html",
+        "R7C2-prix-de-la-cite.html",
+        "R7C3-criterium-de-vitesse.html",
+        "R7C4-prix-du-lac.html",
+        "R7C5-prix-royal-oak.html",
+        "R7C6-prix-du-montparnasse.html",
+        "R7C7-prix-des-bouleaux.html",
+        "R7C8-prix-de-ponthieu.html"
+      ],
+      "R8-chartres": [
+        "R8C1-prix-des-feuillants.html",
+        "R8C2-prix-de-la-cite.html",
+        "R8C3-criterium-de-vitesse.html",
+        "R8C4-prix-du-lac.html",
+        "R8C5-prix-royal-oak.html",
+        "R8C6-prix-du-montparnasse.html",
+        "R8C7-prix-des-bouleaux.html",
+        "R8C8-prix-de-ponthieu.html"
+      ],
+      "R9-nantes": [
+        "R9C1-prix-des-feuillants.html",
+        "R9C2-prix-de-la-cite.html",
+        "R9C3-criterium-de-vitesse.html",
+        "R9C4-prix-du-lac.html",
+        "R9C5-prix-royal-oak.html",
+        "R9C6-prix-du-montparnasse.html",
+        "R9C7-prix-des-bouleaux.html",
+        "R9C8-prix-de-ponthieu.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-des-feuillants.html",
+        "R3C2-prix-de-la-cite.html",
+        "R3C3-criterium-de-vitesse.html",
+        "R3C4-prix-du-lac.html",
+        "R3C5-prix-royal-oak.html",
+        "R3C6-prix-du-montparnasse.html",
+        "R3C7-prix-des-bouleaux.html",
+        "R3C8-prix-de-ponthieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:54.849748Z"
+}

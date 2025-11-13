@@ -1,0 +1,73 @@
+{
+  "date": "2015-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-31",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-31/2015-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-31/R1-longchamp/R1C1-prix-de-beausejour.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R1-longchamp/R1C2-prix-du-nabob.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R1-longchamp/R1C5-prix-des-buttes-chaumont.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R2-marseille-borely/R2C4-prix-de-chateau-rouge.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R2-marseille-borely/R2C7-prix-d-aligre.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R2-marseille-borely/R2C8-prix-perplexite.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C1-prix-de-beausejour.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C3-prix-de-la-pompe.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C4-prix-de-chateau-rouge.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C5-prix-des-buttes-chaumont.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C7-prix-d-aligre.html",
+      "resultats-et-rapports/2015/08/2015-08-31/R3-cabourg/R3C8-prix-perplexite.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-marseille-borely",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-beausejour.html",
+        "R1C2-prix-du-nabob.html",
+        "R1C3-prix-de-la-pompe.html",
+        "R1C4-prix-de-chateau-rouge.html",
+        "R1C5-prix-des-buttes-chaumont.html",
+        "R1C6-prix-de-fleurus.html",
+        "R1C7-prix-d-aligre.html",
+        "R1C8-prix-perplexite.html",
+        "R1C9-prix-des-acacias.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-beausejour.html",
+        "R2C2-prix-du-nabob.html",
+        "R2C3-prix-de-la-pompe.html",
+        "R2C4-prix-de-chateau-rouge.html",
+        "R2C5-prix-des-buttes-chaumont.html",
+        "R2C6-prix-de-fleurus.html",
+        "R2C7-prix-d-aligre.html",
+        "R2C8-prix-perplexite.html",
+        "R2C9-prix-des-acacias.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-beausejour.html",
+        "R3C2-prix-du-nabob.html",
+        "R3C3-prix-de-la-pompe.html",
+        "R3C4-prix-de-chateau-rouge.html",
+        "R3C5-prix-des-buttes-chaumont.html",
+        "R3C6-prix-de-fleurus.html",
+        "R3C7-prix-d-aligre.html",
+        "R3C8-prix-perplexite.html",
+        "R3C9-prix-des-acacias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:11.944411Z"
+}

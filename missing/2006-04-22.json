@@ -1,0 +1,54 @@
+{
+  "date": "2006-04-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-22",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-22/2006-04-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-marseille-vivaux",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-ville-de-soisy-prix-d-hermonville.html",
+        "R1C2-prix-de-la-ville-d-eaubonne-prix-de-la-porte-de-saint-cloud.html",
+        "R1C3-prix-de-l-atlantique.html",
+        "R1C4-prix-de-la-ville-d-enghien-prix-de-l-argonne.html",
+        "R1C5-prix-de-l-office-de-tourisme-d-enghien-prix-profane.html",
+        "R1C7-prix-de-la-ville-de-st-gratien-prix-de-la-porte-d-auteuil.html",
+        "R1C8-prix-de-lons-le-saunier.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-de-la-ville-de-soisy-prix-d-hermonville.html",
+        "R2C2-prix-de-la-ville-d-eaubonne-prix-de-la-porte-de-saint-cloud.html",
+        "R2C3-prix-de-l-atlantique.html",
+        "R2C4-prix-de-la-ville-d-enghien-prix-de-l-argonne.html",
+        "R2C5-prix-de-l-office-de-tourisme-d-enghien-prix-profane.html",
+        "R2C7-prix-de-la-ville-de-st-gratien-prix-de-la-porte-d-auteuil.html",
+        "R2C8-prix-de-lons-le-saunier.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-de-la-ville-de-soisy-prix-d-hermonville.html",
+        "R4C2-prix-de-la-ville-d-eaubonne-prix-de-la-porte-de-saint-cloud.html",
+        "R4C3-prix-de-l-atlantique.html",
+        "R4C4-prix-de-la-ville-d-enghien-prix-de-l-argonne.html",
+        "R4C5-prix-de-l-office-de-tourisme-d-enghien-prix-profane.html",
+        "R4C7-prix-de-la-ville-de-st-gratien-prix-de-la-porte-d-auteuil.html",
+        "R4C8-prix-de-lons-le-saunier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:58.437106Z"
+}

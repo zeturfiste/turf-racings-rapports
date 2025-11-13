@@ -1,0 +1,81 @@
+{
+  "date": "2018-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-12",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-12/2018-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-12/R1-paris-longchamp/R1C5-prix-des-melezes.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R3-cavaillon/R3C5-prix-des-melezes.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R3-cavaillon/R3C6-prix-de-la-place-rochambeau.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R3-cavaillon/R3C7-prix-du-square-yorktown.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C1-prix-des-invalides.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C2-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C3-prix-du-pont-de-grenelle.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C4-prix-de-la-masseliere.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C5-prix-des-melezes.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C6-prix-de-la-place-rochambeau.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R4-compiegne/R4C7-prix-du-square-yorktown.html",
+      "resultats-et-rapports/2018/09/2018-09-12/R5-toulouse/R5C7-prix-du-square-yorktown.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-cavaillon",
+      "R4-compiegne",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-des-invalides.html",
+        "R1C2-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R1C3-prix-du-pont-de-grenelle.html",
+        "R1C4-prix-de-la-masseliere.html",
+        "R1C5-prix-des-melezes.html",
+        "R1C6-prix-de-la-place-rochambeau.html",
+        "R1C7-prix-du-square-yorktown.html",
+        "R1C8-prix-de-l-esplanade.html"
+      ],
+      "R3-cavaillon": [
+        "R3C1-prix-des-invalides.html",
+        "R3C2-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R3C3-prix-du-pont-de-grenelle.html",
+        "R3C4-prix-de-la-masseliere.html",
+        "R3C5-prix-des-melezes.html",
+        "R3C6-prix-de-la-place-rochambeau.html",
+        "R3C7-prix-du-square-yorktown.html",
+        "R3C8-prix-de-l-esplanade.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-des-invalides.html",
+        "R4C2-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R4C3-prix-du-pont-de-grenelle.html",
+        "R4C4-prix-de-la-masseliere.html",
+        "R4C5-prix-des-melezes.html",
+        "R4C6-prix-de-la-place-rochambeau.html",
+        "R4C7-prix-du-square-yorktown.html",
+        "R4C8-prix-de-l-esplanade.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-des-invalides.html",
+        "R5C2-prix-des-tourelles-fonds-europeen-de-l-elevage.html",
+        "R5C3-prix-du-pont-de-grenelle.html",
+        "R5C4-prix-de-la-masseliere.html",
+        "R5C5-prix-des-melezes.html",
+        "R5C6-prix-de-la-place-rochambeau.html",
+        "R5C7-prix-du-square-yorktown.html",
+        "R5C8-prix-de-l-esplanade.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:08.863084Z"
+}

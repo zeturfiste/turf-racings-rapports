@@ -1,0 +1,76 @@
+{
+  "date": "2009-12-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/12/2009-12-14",
+    "date_html": "resultats-et-rapports/2009/12/2009-12-14/2009-12-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C3-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C4-prix-ubu-iii.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C5-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C6-prix-du-mont-sainte-marie.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R1-cagnes-sur-mer/R1C7-prix-du-mont-bego.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C3-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C4-prix-ubu-iii.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C5-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C6-prix-du-mont-sainte-marie.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R2-le-mans/R2C7-prix-du-mont-bego.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C3-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C4-prix-ubu-iii.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C5-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C6-prix-du-mont-sainte-marie.html",
+      "resultats-et-rapports/2009/12/2009-12-14/R31-zerace/R31C7-prix-du-mont-bego.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-le-mans",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-mont-vial.html",
+        "R1C2-prix-de-la-promenade-des-anglais.html",
+        "R1C3-prix-du-mont-falourde.html",
+        "R1C4-prix-ubu-iii.html",
+        "R1C5-prix-du-general-du-corail.html",
+        "R1C6-prix-du-mont-sainte-marie.html",
+        "R1C7-prix-du-mont-bego.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-du-mont-vial.html",
+        "R2C2-prix-de-la-promenade-des-anglais.html",
+        "R2C3-prix-du-mont-falourde.html",
+        "R2C4-prix-ubu-iii.html",
+        "R2C5-prix-du-general-du-corail.html",
+        "R2C6-prix-du-mont-sainte-marie.html",
+        "R2C7-prix-du-mont-bego.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-mont-vial.html",
+        "R31C2-prix-de-la-promenade-des-anglais.html",
+        "R31C3-prix-du-mont-falourde.html",
+        "R31C4-prix-ubu-iii.html",
+        "R31C5-prix-du-general-du-corail.html",
+        "R31C6-prix-du-mont-sainte-marie.html",
+        "R31C7-prix-du-mont-bego.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:05.158734Z"
+}

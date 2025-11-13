@@ -1,0 +1,72 @@
+{
+  "date": "2017-04-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-26",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-26/2017-04-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-26/R1-toulouse/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R1-toulouse/R1C2-prix-timoko.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R1-toulouse/R1C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R1-toulouse/R1C4-prix-michel-marcel-gougeon.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R3-angers/R3C7-prix-brissac-prix-le-tolosate-de-tlse.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R3-angers/R3C8-prix-bmw-pelras.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C2-prix-timoko.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C4-prix-michel-marcel-gougeon.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C5-prix-espace-vert-muretain.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C6-prix-visconti-prix-la-depeche-du-midi.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C7-prix-brissac-prix-le-tolosate-de-tlse.html",
+      "resultats-et-rapports/2017/04/2017-04-26/R4-caen/R4C8-prix-bmw-pelras.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R3-angers",
+      "R4-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-timoko.html",
+        "R1C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R1C4-prix-michel-marcel-gougeon.html",
+        "R1C5-prix-espace-vert-muretain.html",
+        "R1C6-prix-visconti-prix-la-depeche-du-midi.html",
+        "R1C7-prix-brissac-prix-le-tolosate-de-tlse.html",
+        "R1C8-prix-bmw-pelras.html"
+      ],
+      "R3-angers": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-timoko.html",
+        "R3C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R3C4-prix-michel-marcel-gougeon.html",
+        "R3C5-prix-espace-vert-muretain.html",
+        "R3C6-prix-visconti-prix-la-depeche-du-midi.html",
+        "R3C7-prix-brissac-prix-le-tolosate-de-tlse.html",
+        "R3C8-prix-bmw-pelras.html"
+      ],
+      "R4-caen": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-timoko.html",
+        "R4C3-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R4C4-prix-michel-marcel-gougeon.html",
+        "R4C5-prix-espace-vert-muretain.html",
+        "R4C6-prix-visconti-prix-la-depeche-du-midi.html",
+        "R4C7-prix-brissac-prix-le-tolosate-de-tlse.html",
+        "R4C8-prix-bmw-pelras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:20.612850Z"
+}

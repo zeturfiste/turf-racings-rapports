@@ -1,0 +1,93 @@
+{
+  "date": "2018-10-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-10",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-10/2018-10-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-10/R1-lyon-parilly/R1C6-prix-de-drouais-groupe-a.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R1-lyon-parilly/R1C7-prix-de-drouais-groupe-b.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R1-lyon-parilly/R1C9-prix-de-la-cote-d-or.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C2-prix-de-vendee.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C5-prix-du-maconnais.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C6-prix-de-drouais-groupe-a.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C7-prix-de-drouais-groupe-b.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C8-prix-de-beauvaisis.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R3-auteuil/R3C9-prix-de-la-cote-d-or.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C2-prix-de-vendee.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C3-prix-de-gascogne-prix-label-equures.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C4-prix-du-tarn.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C6-prix-de-drouais-groupe-a.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C7-prix-de-drouais-groupe-b.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C8-prix-de-beauvaisis.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R4-enghien-soisy/R4C9-prix-de-la-cote-d-or.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R7-marseille-borely/R7C1-prix-du-dracenois-prix-equita-longines.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R7-marseille-borely/R7C7-prix-de-drouais-groupe-b.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R7-marseille-borely/R7C8-prix-de-beauvaisis.html",
+      "resultats-et-rapports/2018/10/2018-10-10/R7-marseille-borely/R7C9-prix-de-la-cote-d-or.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R3-auteuil",
+      "R4-enghien-soisy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-du-dracenois-prix-equita-longines.html",
+        "R1C2-prix-de-vendee.html",
+        "R1C3-prix-de-gascogne-prix-label-equures.html",
+        "R1C4-prix-du-tarn.html",
+        "R1C5-prix-du-maconnais.html",
+        "R1C6-prix-de-drouais-groupe-a.html",
+        "R1C7-prix-de-drouais-groupe-b.html",
+        "R1C8-prix-de-beauvaisis.html",
+        "R1C9-prix-de-la-cote-d-or.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-du-dracenois-prix-equita-longines.html",
+        "R3C2-prix-de-vendee.html",
+        "R3C3-prix-de-gascogne-prix-label-equures.html",
+        "R3C4-prix-du-tarn.html",
+        "R3C5-prix-du-maconnais.html",
+        "R3C6-prix-de-drouais-groupe-a.html",
+        "R3C7-prix-de-drouais-groupe-b.html",
+        "R3C8-prix-de-beauvaisis.html",
+        "R3C9-prix-de-la-cote-d-or.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-du-dracenois-prix-equita-longines.html",
+        "R4C2-prix-de-vendee.html",
+        "R4C3-prix-de-gascogne-prix-label-equures.html",
+        "R4C4-prix-du-tarn.html",
+        "R4C5-prix-du-maconnais.html",
+        "R4C6-prix-de-drouais-groupe-a.html",
+        "R4C7-prix-de-drouais-groupe-b.html",
+        "R4C8-prix-de-beauvaisis.html",
+        "R4C9-prix-de-la-cote-d-or.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-du-dracenois-prix-equita-longines.html",
+        "R7C2-prix-de-vendee.html",
+        "R7C3-prix-de-gascogne-prix-label-equures.html",
+        "R7C4-prix-du-tarn.html",
+        "R7C5-prix-du-maconnais.html",
+        "R7C6-prix-de-drouais-groupe-a.html",
+        "R7C7-prix-de-drouais-groupe-b.html",
+        "R7C8-prix-de-beauvaisis.html",
+        "R7C9-prix-de-la-cote-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:18.480239Z"
+}

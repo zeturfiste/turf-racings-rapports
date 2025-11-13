@@ -1,0 +1,113 @@
+{
+  "date": "2012-04-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-22",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-22/2012-04-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-22/R1-auteuil/R1C1-prix-sicie.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R1-auteuil/R1C2-prix-philippe-menager.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R2-cordemais/R2C4-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R2-cordemais/R2C7-prix-virelan.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R2-cordemais/R2C8-prix-quo-vadis.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R3-reims/R3C1-prix-sicie.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R3-reims/R3C4-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R3-reims/R3C5-prix-jean-granel.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R3-reims/R3C6-prix-andre-boingneres.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R4-caen/R4C5-prix-jean-granel.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R5-lyon-la-soie/R5C5-prix-jean-granel.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R5-lyon-la-soie/R5C6-prix-andre-boingneres.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R5-lyon-la-soie/R5C7-prix-virelan.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R5-lyon-la-soie/R5C8-prix-quo-vadis.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C1-prix-sicie.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C2-prix-philippe-menager.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C3-prix-alcide.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C4-prix-du-president-de-la-republique.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C5-prix-jean-granel.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C6-prix-andre-boingneres.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C7-prix-virelan.html",
+      "resultats-et-rapports/2012/04/2012-04-22/R6-dax/R6C8-prix-quo-vadis.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-cordemais",
+      "R3-reims",
+      "R4-caen",
+      "R5-lyon-la-soie",
+      "R6-dax"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-sicie.html",
+        "R1C2-prix-philippe-menager.html",
+        "R1C3-prix-alcide.html",
+        "R1C4-prix-du-president-de-la-republique.html",
+        "R1C5-prix-jean-granel.html",
+        "R1C6-prix-andre-boingneres.html",
+        "R1C7-prix-virelan.html",
+        "R1C8-prix-quo-vadis.html"
+      ],
+      "R2-cordemais": [
+        "R2C1-prix-sicie.html",
+        "R2C2-prix-philippe-menager.html",
+        "R2C3-prix-alcide.html",
+        "R2C4-prix-du-president-de-la-republique.html",
+        "R2C5-prix-jean-granel.html",
+        "R2C6-prix-andre-boingneres.html",
+        "R2C7-prix-virelan.html",
+        "R2C8-prix-quo-vadis.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-sicie.html",
+        "R3C2-prix-philippe-menager.html",
+        "R3C3-prix-alcide.html",
+        "R3C4-prix-du-president-de-la-republique.html",
+        "R3C5-prix-jean-granel.html",
+        "R3C6-prix-andre-boingneres.html",
+        "R3C7-prix-virelan.html",
+        "R3C8-prix-quo-vadis.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-sicie.html",
+        "R4C2-prix-philippe-menager.html",
+        "R4C3-prix-alcide.html",
+        "R4C4-prix-du-president-de-la-republique.html",
+        "R4C5-prix-jean-granel.html",
+        "R4C6-prix-andre-boingneres.html",
+        "R4C7-prix-virelan.html",
+        "R4C8-prix-quo-vadis.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-sicie.html",
+        "R5C2-prix-philippe-menager.html",
+        "R5C3-prix-alcide.html",
+        "R5C4-prix-du-president-de-la-republique.html",
+        "R5C5-prix-jean-granel.html",
+        "R5C6-prix-andre-boingneres.html",
+        "R5C7-prix-virelan.html",
+        "R5C8-prix-quo-vadis.html"
+      ],
+      "R6-dax": [
+        "R6C1-prix-sicie.html",
+        "R6C2-prix-philippe-menager.html",
+        "R6C3-prix-alcide.html",
+        "R6C4-prix-du-president-de-la-republique.html",
+        "R6C5-prix-jean-granel.html",
+        "R6C6-prix-andre-boingneres.html",
+        "R6C7-prix-virelan.html",
+        "R6C8-prix-quo-vadis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:55.282856Z"
+}

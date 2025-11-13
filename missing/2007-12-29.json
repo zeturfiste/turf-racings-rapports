@@ -1,0 +1,73 @@
+{
+  "date": "2007-12-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-29",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-29/2007-12-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-29/R1-vincennes/R1C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R2-pau/R2C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R2-pau/R2C6-prix-de-marly.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R2-pau/R2C7-prix-de-luynes.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C1-prix-de-pavilly.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C2-prix-de-saint-leonard.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C3-prix-de-nozay.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C4-prix-de-meulan.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C5-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C7-prix-de-luynes.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C8-prix-de-cabrieres.html",
+      "resultats-et-rapports/2007/12/2007-12-29/R31-zerace/R31C9-prix-des-gardenias.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-pavilly.html",
+        "R1C2-prix-de-saint-leonard.html",
+        "R1C3-prix-de-nozay.html",
+        "R1C4-prix-de-meulan.html",
+        "R1C5-prix-yvonnick-bodin.html",
+        "R1C6-prix-de-marly.html",
+        "R1C7-prix-de-luynes.html",
+        "R1C8-prix-de-cabrieres.html",
+        "R1C9-prix-des-gardenias.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-pavilly.html",
+        "R2C2-prix-de-saint-leonard.html",
+        "R2C3-prix-de-nozay.html",
+        "R2C4-prix-de-meulan.html",
+        "R2C5-prix-yvonnick-bodin.html",
+        "R2C6-prix-de-marly.html",
+        "R2C7-prix-de-luynes.html",
+        "R2C8-prix-de-cabrieres.html",
+        "R2C9-prix-des-gardenias.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-pavilly.html",
+        "R31C2-prix-de-saint-leonard.html",
+        "R31C3-prix-de-nozay.html",
+        "R31C4-prix-de-meulan.html",
+        "R31C5-prix-yvonnick-bodin.html",
+        "R31C6-prix-de-marly.html",
+        "R31C7-prix-de-luynes.html",
+        "R31C8-prix-de-cabrieres.html",
+        "R31C9-prix-des-gardenias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:16.034454Z"
+}

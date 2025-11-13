@@ -1,0 +1,96 @@
+{
+  "date": "2016-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-13",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-13/2016-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-13/R1-enghien-soisy/R1C6-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R1-enghien-soisy/R1C7-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R1-enghien-soisy/R1C8-prix-de-rochechouart.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R3-chantilly/R3C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R3-chantilly/R3C2-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R3-chantilly/R3C3-prix-d-escurolles.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R3-chantilly/R3C4-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R3-chantilly/R3C8-prix-de-rochechouart.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R6-lisieux/R6C2-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R6-lisieux/R6C8-prix-de-rochechouart.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C3-prix-d-escurolles.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C4-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C5-prix-de-la-gare-de-lyon.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C6-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C7-prix-du-jardin-des-plantes.html",
+      "resultats-et-rapports/2016/07/2016-07-13/R7-les-sables-d-olonne/R7C8-prix-de-rochechouart.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-chantilly",
+      "R4-beaumont-de-lomagne",
+      "R6-lisieux",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-l-opera.html",
+        "R1C2-prix-de-la-place-du-mail.html",
+        "R1C3-prix-d-escurolles.html",
+        "R1C4-prix-de-la-tour-saint-jacques.html",
+        "R1C5-prix-de-la-gare-de-lyon.html",
+        "R1C6-prix-quiproquo-ii.html",
+        "R1C7-prix-du-jardin-des-plantes.html",
+        "R1C8-prix-de-rochechouart.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-l-opera.html",
+        "R3C2-prix-de-la-place-du-mail.html",
+        "R3C3-prix-d-escurolles.html",
+        "R3C4-prix-de-la-tour-saint-jacques.html",
+        "R3C5-prix-de-la-gare-de-lyon.html",
+        "R3C6-prix-quiproquo-ii.html",
+        "R3C7-prix-du-jardin-des-plantes.html",
+        "R3C8-prix-de-rochechouart.html"
+      ],
+      "R4-beaumont-de-lomagne": [
+        "R4C1-prix-de-l-opera.html",
+        "R4C2-prix-de-la-place-du-mail.html",
+        "R4C3-prix-d-escurolles.html",
+        "R4C4-prix-de-la-tour-saint-jacques.html",
+        "R4C5-prix-de-la-gare-de-lyon.html",
+        "R4C6-prix-quiproquo-ii.html",
+        "R4C7-prix-du-jardin-des-plantes.html",
+        "R4C8-prix-de-rochechouart.html"
+      ],
+      "R6-lisieux": [
+        "R6C1-prix-de-l-opera.html",
+        "R6C2-prix-de-la-place-du-mail.html",
+        "R6C3-prix-d-escurolles.html",
+        "R6C4-prix-de-la-tour-saint-jacques.html",
+        "R6C5-prix-de-la-gare-de-lyon.html",
+        "R6C6-prix-quiproquo-ii.html",
+        "R6C7-prix-du-jardin-des-plantes.html",
+        "R6C8-prix-de-rochechouart.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-de-l-opera.html",
+        "R7C2-prix-de-la-place-du-mail.html",
+        "R7C3-prix-d-escurolles.html",
+        "R7C4-prix-de-la-tour-saint-jacques.html",
+        "R7C5-prix-de-la-gare-de-lyon.html",
+        "R7C6-prix-quiproquo-ii.html",
+        "R7C7-prix-du-jardin-des-plantes.html",
+        "R7C8-prix-de-rochechouart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:48.159692Z"
+}

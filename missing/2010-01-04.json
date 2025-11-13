@@ -1,0 +1,79 @@
+{
+  "date": "2010-01-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/01/2010-01-04",
+    "date_html": "resultats-et-rapports/2010/01/2010-01-04/2010-01-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes",
+      "R3-deauville-midi",
+      "R6-toulouse",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-charentonne.html",
+        "R1C2-prix-de-la-baie-de-seine.html",
+        "R1C3-prix-d-herbourgere.html",
+        "R1C4-prix-des-coudraies.html",
+        "R1C5-prix-des-commeaux.html",
+        "R1C6-prix-de-ryes.html",
+        "R1C7-prix-de-la-seine-maritime.html",
+        "R1C8-prix-de-la-vallee-de-la-seine.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-charentonne.html",
+        "R2C2-prix-de-la-baie-de-seine.html",
+        "R2C3-prix-d-herbourgere.html",
+        "R2C4-prix-des-coudraies.html",
+        "R2C5-prix-des-commeaux.html",
+        "R2C6-prix-de-ryes.html",
+        "R2C7-prix-de-la-seine-maritime.html",
+        "R2C8-prix-de-la-vallee-de-la-seine.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-la-charentonne.html",
+        "R3C2-prix-de-la-baie-de-seine.html",
+        "R3C3-prix-d-herbourgere.html",
+        "R3C4-prix-des-coudraies.html",
+        "R3C5-prix-des-commeaux.html",
+        "R3C6-prix-de-ryes.html",
+        "R3C7-prix-de-la-seine-maritime.html",
+        "R3C8-prix-de-la-vallee-de-la-seine.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-de-la-charentonne.html",
+        "R6C2-prix-de-la-baie-de-seine.html",
+        "R6C3-prix-d-herbourgere.html",
+        "R6C4-prix-des-coudraies.html",
+        "R6C5-prix-des-commeaux.html",
+        "R6C6-prix-de-ryes.html",
+        "R6C7-prix-de-la-seine-maritime.html",
+        "R6C8-prix-de-la-vallee-de-la-seine.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-charentonne.html",
+        "R31C2-prix-de-la-baie-de-seine.html",
+        "R31C3-prix-d-herbourgere.html",
+        "R31C4-prix-des-coudraies.html",
+        "R31C5-prix-des-commeaux.html",
+        "R31C6-prix-de-ryes.html",
+        "R31C7-prix-de-la-seine-maritime.html",
+        "R31C8-prix-de-la-vallee-de-la-seine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:13.759802Z"
+}

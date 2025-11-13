@@ -1,0 +1,92 @@
+{
+  "date": "2013-05-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-28",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-28/2013-05-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C1-prix-du-journal-l-alsace.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C2-prix-rock-n-roll.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C3-prix-alsanett-prix-kleber.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C4-prix-de-la-valse.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C5-prix-hyeres-iii.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C6-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C7-prix-du-jazz.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R1-strasbourg/R1C8-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C2-prix-rock-n-roll.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C3-prix-alsanett-prix-kleber.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C4-prix-de-la-valse.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C6-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C7-prix-du-jazz.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R2-vichy/R2C8-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R3-salon-de-provence/R3C1-prix-du-journal-l-alsace.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R3-salon-de-provence/R3C6-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R3-salon-de-provence/R3C7-prix-du-jazz.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R3-salon-de-provence/R3C8-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R4-vincennes/R4C1-prix-du-journal-l-alsace.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R4-vincennes/R4C4-prix-de-la-valse.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R4-vincennes/R4C5-prix-hyeres-iii.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R4-vincennes/R4C6-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2013/05/2013-05-28/R4-vincennes/R4C7-prix-du-jazz.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-strasbourg",
+      "R2-vichy",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-strasbourg": [
+        "R1C1-prix-du-journal-l-alsace.html",
+        "R1C2-prix-rock-n-roll.html",
+        "R1C3-prix-alsanett-prix-kleber.html",
+        "R1C4-prix-de-la-valse.html",
+        "R1C5-prix-hyeres-iii.html",
+        "R1C6-prix-nathanaelle-artu.html",
+        "R1C7-prix-du-jazz.html",
+        "R1C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-du-journal-l-alsace.html",
+        "R2C2-prix-rock-n-roll.html",
+        "R2C3-prix-alsanett-prix-kleber.html",
+        "R2C4-prix-de-la-valse.html",
+        "R2C5-prix-hyeres-iii.html",
+        "R2C6-prix-nathanaelle-artu.html",
+        "R2C7-prix-du-jazz.html",
+        "R2C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-du-journal-l-alsace.html",
+        "R3C2-prix-rock-n-roll.html",
+        "R3C3-prix-alsanett-prix-kleber.html",
+        "R3C4-prix-de-la-valse.html",
+        "R3C5-prix-hyeres-iii.html",
+        "R3C6-prix-nathanaelle-artu.html",
+        "R3C7-prix-du-jazz.html",
+        "R3C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-journal-l-alsace.html",
+        "R4C2-prix-rock-n-roll.html",
+        "R4C3-prix-alsanett-prix-kleber.html",
+        "R4C4-prix-de-la-valse.html",
+        "R4C5-prix-hyeres-iii.html",
+        "R4C6-prix-nathanaelle-artu.html",
+        "R4C7-prix-du-jazz.html",
+        "R4C8-prix-de-la-ville-de-strasbourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:53.754237Z"
+}

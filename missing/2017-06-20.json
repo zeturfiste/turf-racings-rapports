@@ -1,0 +1,82 @@
+{
+  "date": "2017-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-20",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-20/2017-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C2-prix-region-normandie.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C4-prix-tec-rail-prix-bontemps.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C5-prix-jehan-ango.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C7-prix-verrazano.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R1-dieppe/R1C8-prix-samuel-de-champlain.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R2-les-sables-d-olonne/R2C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R2-les-sables-d-olonne/R2C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R4-dax/R4C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R4-dax/R4C4-prix-tec-rail-prix-bontemps.html",
+      "resultats-et-rapports/2017/06/2017-06-20/R6-vincennes/R6C5-prix-jehan-ango.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-les-sables-d-olonne",
+      "R4-dax",
+      "R6-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R1C2-prix-region-normandie.html",
+        "R1C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+        "R1C4-prix-tec-rail-prix-bontemps.html",
+        "R1C5-prix-jehan-ango.html",
+        "R1C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+        "R1C7-prix-verrazano.html",
+        "R1C8-prix-samuel-de-champlain.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R2C2-prix-region-normandie.html",
+        "R2C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+        "R2C4-prix-tec-rail-prix-bontemps.html",
+        "R2C5-prix-jehan-ango.html",
+        "R2C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+        "R2C7-prix-verrazano.html",
+        "R2C8-prix-samuel-de-champlain.html"
+      ],
+      "R4-dax": [
+        "R4C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R4C2-prix-region-normandie.html",
+        "R4C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+        "R4C4-prix-tec-rail-prix-bontemps.html",
+        "R4C5-prix-jehan-ango.html",
+        "R4C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+        "R4C7-prix-verrazano.html",
+        "R4C8-prix-samuel-de-champlain.html"
+      ],
+      "R6-vincennes": [
+        "R6C1-prix-du-club-des-gentlemen-riders-et-des-cavalieres.html",
+        "R6C2-prix-region-normandie.html",
+        "R6C3-prix-du-credit-agricole-dieppe-normandie-prix-antoine-parmentier.html",
+        "R6C4-prix-tec-rail-prix-bontemps.html",
+        "R6C5-prix-jehan-ango.html",
+        "R6C6-prix-du-centre-commercial-du-belvedere-de-dieppe.html",
+        "R6C7-prix-verrazano.html",
+        "R6C8-prix-samuel-de-champlain.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:40.901397Z"
+}

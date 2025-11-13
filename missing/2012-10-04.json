@@ -1,0 +1,72 @@
+{
+  "date": "2012-10-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-04",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-04/2012-10-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-04/R1-auteuil/R1C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R1-auteuil/R1C2-prix-piomares.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R1-auteuil/R1C5-prix-bayonnet.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R1-auteuil/R1C7-prix-vivienne.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C2-prix-piomares.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C4-prix-de-grenoble.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C5-prix-bayonnet.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C6-prix-de-salers.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R2-compiegne/R2C8-prix-de-bagatelle.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R3-enghien-soisy/R3C1-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R3-enghien-soisy/R3C2-prix-piomares.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R3-enghien-soisy/R3C3-prix-magicienne.html",
+      "resultats-et-rapports/2012/10/2012-10-04/R3-enghien-soisy/R3C8-prix-de-bagatelle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-compiegne",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-guillaume-de-pracomtal.html",
+        "R1C2-prix-piomares.html",
+        "R1C3-prix-magicienne.html",
+        "R1C4-prix-de-grenoble.html",
+        "R1C5-prix-bayonnet.html",
+        "R1C6-prix-de-salers.html",
+        "R1C7-prix-vivienne.html",
+        "R1C8-prix-de-bagatelle.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-guillaume-de-pracomtal.html",
+        "R2C2-prix-piomares.html",
+        "R2C3-prix-magicienne.html",
+        "R2C4-prix-de-grenoble.html",
+        "R2C5-prix-bayonnet.html",
+        "R2C6-prix-de-salers.html",
+        "R2C7-prix-vivienne.html",
+        "R2C8-prix-de-bagatelle.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-guillaume-de-pracomtal.html",
+        "R3C2-prix-piomares.html",
+        "R3C3-prix-magicienne.html",
+        "R3C4-prix-de-grenoble.html",
+        "R3C5-prix-bayonnet.html",
+        "R3C6-prix-de-salers.html",
+        "R3C7-prix-vivienne.html",
+        "R3C8-prix-de-bagatelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:47.469986Z"
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2018-12-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-18",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-18/2018-12-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-18/R1-deauville/R1C1-prix-de-putanges.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R1-deauville/R1C10-prix-du-manoir-des-eveques.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C1-prix-de-putanges.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C2-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C3-prix-du-manoir-de-pretot.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C8-prix-d-epreville.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C9-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R2-vincennes/R2C10-prix-du-manoir-des-eveques.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C2-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C3-prix-du-manoir-de-pretot.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C4-prix-de-de-fontenay-sur-mer.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C5-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C6-prix-de-martainville.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C7-prix-de-saint-vaast-la-hougue.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C8-prix-d-epreville.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C9-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2018/12/2018-12-18/R3-amiens/R3C10-prix-du-manoir-des-eveques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-putanges.html",
+        "R1C2-prix-de-la-pierre-aux-fees.html",
+        "R1C3-prix-du-manoir-de-pretot.html",
+        "R1C4-prix-de-de-fontenay-sur-mer.html",
+        "R1C5-prix-de-sainte-mere-eglise.html",
+        "R1C6-prix-de-martainville.html",
+        "R1C7-prix-de-saint-vaast-la-hougue.html",
+        "R1C8-prix-d-epreville.html",
+        "R1C9-prix-de-saint-sauveur-le-vicomte.html",
+        "R1C10-prix-du-manoir-des-eveques.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-putanges.html",
+        "R2C2-prix-de-la-pierre-aux-fees.html",
+        "R2C3-prix-du-manoir-de-pretot.html",
+        "R2C4-prix-de-de-fontenay-sur-mer.html",
+        "R2C5-prix-de-sainte-mere-eglise.html",
+        "R2C6-prix-de-martainville.html",
+        "R2C7-prix-de-saint-vaast-la-hougue.html",
+        "R2C8-prix-d-epreville.html",
+        "R2C9-prix-de-saint-sauveur-le-vicomte.html",
+        "R2C10-prix-du-manoir-des-eveques.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-de-putanges.html",
+        "R3C2-prix-de-la-pierre-aux-fees.html",
+        "R3C3-prix-du-manoir-de-pretot.html",
+        "R3C4-prix-de-de-fontenay-sur-mer.html",
+        "R3C5-prix-de-sainte-mere-eglise.html",
+        "R3C6-prix-de-martainville.html",
+        "R3C7-prix-de-saint-vaast-la-hougue.html",
+        "R3C8-prix-d-epreville.html",
+        "R3C9-prix-de-saint-sauveur-le-vicomte.html",
+        "R3C10-prix-du-manoir-des-eveques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:40.781402Z"
+}

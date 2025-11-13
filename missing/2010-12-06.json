@@ -1,0 +1,95 @@
+{
+  "date": "2010-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-06",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-06/2010-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C2-prix-de-mortemart.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C5-prix-de-limours-groupe-a.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C6-prix-de-limours-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C7-prix-de-louvigne-du-desert.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C8-prix-des-azalees.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R1-vincennes/R1C9-prix-de-gueret.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R2-cagnes-sur-mer/R2C2-prix-de-mortemart.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R2-cagnes-sur-mer/R2C5-prix-de-limours-groupe-a.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R2-cagnes-sur-mer/R2C6-prix-de-limours-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R2-cagnes-sur-mer/R2C7-prix-de-louvigne-du-desert.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R2-cagnes-sur-mer/R2C9-prix-de-gueret.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C1-prix-de-l-eure.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C2-prix-de-mortemart.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C4-prix-philippe-du-rozier.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C5-prix-de-limours-groupe-a.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C6-prix-de-limours-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C7-prix-de-louvigne-du-desert.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C8-prix-des-azalees.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R3-angers/R3C9-prix-de-gueret.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R4-toulouse/R4C1-prix-de-l-eure.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R4-toulouse/R4C7-prix-de-louvigne-du-desert.html",
+      "resultats-et-rapports/2010/12/2010-12-06/R4-toulouse/R4C9-prix-de-gueret.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-angers",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-eure.html",
+        "R1C2-prix-de-mortemart.html",
+        "R1C3-prix-de-mirambeau.html",
+        "R1C4-prix-philippe-du-rozier.html",
+        "R1C5-prix-de-limours-groupe-a.html",
+        "R1C6-prix-de-limours-groupe-b.html",
+        "R1C7-prix-de-louvigne-du-desert.html",
+        "R1C8-prix-des-azalees.html",
+        "R1C9-prix-de-gueret.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-l-eure.html",
+        "R2C2-prix-de-mortemart.html",
+        "R2C3-prix-de-mirambeau.html",
+        "R2C4-prix-philippe-du-rozier.html",
+        "R2C5-prix-de-limours-groupe-a.html",
+        "R2C6-prix-de-limours-groupe-b.html",
+        "R2C7-prix-de-louvigne-du-desert.html",
+        "R2C8-prix-des-azalees.html",
+        "R2C9-prix-de-gueret.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-de-l-eure.html",
+        "R3C2-prix-de-mortemart.html",
+        "R3C3-prix-de-mirambeau.html",
+        "R3C4-prix-philippe-du-rozier.html",
+        "R3C5-prix-de-limours-groupe-a.html",
+        "R3C6-prix-de-limours-groupe-b.html",
+        "R3C7-prix-de-louvigne-du-desert.html",
+        "R3C8-prix-des-azalees.html",
+        "R3C9-prix-de-gueret.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-l-eure.html",
+        "R4C2-prix-de-mortemart.html",
+        "R4C3-prix-de-mirambeau.html",
+        "R4C4-prix-philippe-du-rozier.html",
+        "R4C5-prix-de-limours-groupe-a.html",
+        "R4C6-prix-de-limours-groupe-b.html",
+        "R4C7-prix-de-louvigne-du-desert.html",
+        "R4C8-prix-des-azalees.html",
+        "R4C9-prix-de-gueret.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:49:37.354739Z"
+}

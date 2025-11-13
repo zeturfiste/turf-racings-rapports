@@ -1,0 +1,114 @@
+{
+  "date": "2013-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/11/2013-11-30",
+    "date_html": "resultats-et-rapports/2013/11/2013-11-30/2013-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/11/2013-11-30/R1-vincennes/R1C2-prix-de-jonchery.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R1-vincennes/R1C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R1-vincennes/R1C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C1-prix-de-marans.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C2-prix-de-jonchery.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C5-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C6-prix-de-bethune.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C8-prix-vourasie.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R2-bordeaux-le-bouscat/R2C9-prix-de-gensac.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C1-prix-de-marans.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C2-prix-de-jonchery.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C5-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C6-prix-de-bethune.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C8-prix-vourasie.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R3-marseille-vivaux/R3C9-prix-de-gensac.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C1-prix-de-marans.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C2-prix-de-jonchery.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C3-prix-paul-buquet.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C5-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R5-champ-de-mars/R5C9-prix-de-gensac.html",
+      "resultats-et-rapports/2013/11/2013-11-30/R9-maure-de-bretagne/R9C4-prix-de-saint-georges-de-didonne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R3-marseille-vivaux",
+      "R5-champ-de-mars",
+      "R9-maure-de-bretagne"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-marans.html",
+        "R1C2-prix-de-jonchery.html",
+        "R1C3-prix-paul-buquet.html",
+        "R1C4-prix-de-saint-georges-de-didonne.html",
+        "R1C5-prix-doynel-de-saint-quentin.html",
+        "R1C6-prix-de-bethune.html",
+        "R1C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R1C8-prix-vourasie.html",
+        "R1C9-prix-de-gensac.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-marans.html",
+        "R2C2-prix-de-jonchery.html",
+        "R2C3-prix-paul-buquet.html",
+        "R2C4-prix-de-saint-georges-de-didonne.html",
+        "R2C5-prix-doynel-de-saint-quentin.html",
+        "R2C6-prix-de-bethune.html",
+        "R2C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R2C8-prix-vourasie.html",
+        "R2C9-prix-de-gensac.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-marans.html",
+        "R3C2-prix-de-jonchery.html",
+        "R3C3-prix-paul-buquet.html",
+        "R3C4-prix-de-saint-georges-de-didonne.html",
+        "R3C5-prix-doynel-de-saint-quentin.html",
+        "R3C6-prix-de-bethune.html",
+        "R3C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R3C8-prix-vourasie.html",
+        "R3C9-prix-de-gensac.html"
+      ],
+      "R5-champ-de-mars": [
+        "R5C1-prix-de-marans.html",
+        "R5C2-prix-de-jonchery.html",
+        "R5C3-prix-paul-buquet.html",
+        "R5C4-prix-de-saint-georges-de-didonne.html",
+        "R5C5-prix-doynel-de-saint-quentin.html",
+        "R5C6-prix-de-bethune.html",
+        "R5C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R5C8-prix-vourasie.html",
+        "R5C9-prix-de-gensac.html"
+      ],
+      "R9-maure-de-bretagne": [
+        "R9C1-prix-de-marans.html",
+        "R9C2-prix-de-jonchery.html",
+        "R9C3-prix-paul-buquet.html",
+        "R9C4-prix-de-saint-georges-de-didonne.html",
+        "R9C5-prix-doynel-de-saint-quentin.html",
+        "R9C6-prix-de-bethune.html",
+        "R9C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R9C8-prix-vourasie.html",
+        "R9C9-prix-de-gensac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:54.089956Z"
+}

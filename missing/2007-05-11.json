@@ -1,0 +1,104 @@
+{
+  "date": "2007-05-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-11",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-11/2007-05-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-11/R1-auteuil/R1C2-prix-guy-hunault.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R1-auteuil/R1C7-prix-d-olivet.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C1-prix-pot-d-or.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C3-prix-regalia.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C4-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C5-prix-galafron.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C6-prix-djarvis.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C7-prix-d-olivet.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R2-lyon-parilly/R2C8-prix-ex-voto.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C1-prix-pot-d-or.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C2-prix-guy-hunault.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C3-prix-regalia.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C4-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C5-prix-galafron.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C6-prix-djarvis.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C7-prix-d-olivet.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R3-vincennes/R3C8-prix-ex-voto.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R5-laval/R5C1-prix-pot-d-or.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R5-laval/R5C4-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R5-laval/R5C5-prix-galafron.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R5-laval/R5C6-prix-djarvis.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R5-laval/R5C8-prix-ex-voto.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R31-zerace/R31C1-prix-pot-d-or.html",
+      "resultats-et-rapports/2007/05/2007-05-11/R31-zerace/R31C7-prix-d-olivet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R5-laval",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-pot-d-or.html",
+        "R1C2-prix-guy-hunault.html",
+        "R1C3-prix-regalia.html",
+        "R1C4-prix-wild-monarch-pouliches.html",
+        "R1C5-prix-galafron.html",
+        "R1C6-prix-djarvis.html",
+        "R1C7-prix-d-olivet.html",
+        "R1C8-prix-ex-voto.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-pot-d-or.html",
+        "R2C2-prix-guy-hunault.html",
+        "R2C3-prix-regalia.html",
+        "R2C4-prix-wild-monarch-pouliches.html",
+        "R2C5-prix-galafron.html",
+        "R2C6-prix-djarvis.html",
+        "R2C7-prix-d-olivet.html",
+        "R2C8-prix-ex-voto.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pot-d-or.html",
+        "R3C2-prix-guy-hunault.html",
+        "R3C3-prix-regalia.html",
+        "R3C4-prix-wild-monarch-pouliches.html",
+        "R3C5-prix-galafron.html",
+        "R3C6-prix-djarvis.html",
+        "R3C7-prix-d-olivet.html",
+        "R3C8-prix-ex-voto.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-pot-d-or.html",
+        "R5C2-prix-guy-hunault.html",
+        "R5C3-prix-regalia.html",
+        "R5C4-prix-wild-monarch-pouliches.html",
+        "R5C5-prix-galafron.html",
+        "R5C6-prix-djarvis.html",
+        "R5C7-prix-d-olivet.html",
+        "R5C8-prix-ex-voto.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-pot-d-or.html",
+        "R31C2-prix-guy-hunault.html",
+        "R31C3-prix-regalia.html",
+        "R31C4-prix-wild-monarch-pouliches.html",
+        "R31C5-prix-galafron.html",
+        "R31C6-prix-djarvis.html",
+        "R31C7-prix-d-olivet.html",
+        "R31C8-prix-ex-voto.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:47.738621Z"
+}

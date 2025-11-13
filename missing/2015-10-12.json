@@ -1,0 +1,78 @@
+{
+  "date": "2015-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-12",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-12/2015-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-12/R1-enghien-soisy/R1C2-prix-de-vauvert.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R1-enghien-soisy/R1C5-prix-de-la-place-du-canada.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R2-angers/R2C3-prix-de-la-porte-d-issy.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R2-angers/R2C6-prix-armand-de-bellaigue.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R3-cabourg/R3C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R5-salon-de-provence/R5C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R5-salon-de-provence/R5C2-prix-de-vauvert.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R5-salon-de-provence/R5C5-prix-de-la-place-du-canada.html",
+      "resultats-et-rapports/2015/10/2015-10-12/R5-salon-de-provence/R5C6-prix-armand-de-bellaigue.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-angers",
+      "R3-cabourg",
+      "R5-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-des-gobelins.html",
+        "R1C2-prix-de-vauvert.html",
+        "R1C3-prix-de-la-porte-d-issy.html",
+        "R1C4-prix-du-pont-mirabeau.html",
+        "R1C5-prix-de-la-place-du-canada.html",
+        "R1C6-prix-armand-de-bellaigue.html",
+        "R1C7-prix-de-la-porte-d-ivry.html",
+        "R1C8-prix-de-saint-mamet.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-gobelins.html",
+        "R2C2-prix-de-vauvert.html",
+        "R2C3-prix-de-la-porte-d-issy.html",
+        "R2C4-prix-du-pont-mirabeau.html",
+        "R2C5-prix-de-la-place-du-canada.html",
+        "R2C6-prix-armand-de-bellaigue.html",
+        "R2C7-prix-de-la-porte-d-ivry.html",
+        "R2C8-prix-de-saint-mamet.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-des-gobelins.html",
+        "R3C2-prix-de-vauvert.html",
+        "R3C3-prix-de-la-porte-d-issy.html",
+        "R3C4-prix-du-pont-mirabeau.html",
+        "R3C5-prix-de-la-place-du-canada.html",
+        "R3C6-prix-armand-de-bellaigue.html",
+        "R3C7-prix-de-la-porte-d-ivry.html",
+        "R3C8-prix-de-saint-mamet.html"
+      ],
+      "R5-salon-de-provence": [
+        "R5C1-prix-des-gobelins.html",
+        "R5C2-prix-de-vauvert.html",
+        "R5C3-prix-de-la-porte-d-issy.html",
+        "R5C4-prix-du-pont-mirabeau.html",
+        "R5C5-prix-de-la-place-du-canada.html",
+        "R5C6-prix-armand-de-bellaigue.html",
+        "R5C7-prix-de-la-porte-d-ivry.html",
+        "R5C8-prix-de-saint-mamet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:26.343058Z"
+}

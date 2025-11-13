@@ -1,0 +1,80 @@
+{
+  "date": "2016-11-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-30",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-30/2016-11-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-30/R1-vincennes/R1C3-prix-de-picardie.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R1-vincennes/R1C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R3-deauville/R3C1-prix-de-la-camargue.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R3-deauville/R3C5-prix-jean-maurice-beteau.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R4-amiens/R4C3-prix-de-picardie.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C1-prix-de-la-camargue.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C2-prix-d-harfleur.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C3-prix-de-picardie.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C4-prix-de-grenoble.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C6-prix-de-bouville.html",
+      "resultats-et-rapports/2016/11/2016-11-30/R6-marseille-borely/R6C7-prix-des-anemones.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-amiens",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-camargue.html",
+        "R1C2-prix-d-harfleur.html",
+        "R1C3-prix-de-picardie.html",
+        "R1C4-prix-de-grenoble.html",
+        "R1C5-prix-jean-maurice-beteau.html",
+        "R1C6-prix-de-bouville.html",
+        "R1C7-prix-des-anemones.html",
+        "R1C8-prix-de-nantes.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-la-camargue.html",
+        "R3C2-prix-d-harfleur.html",
+        "R3C3-prix-de-picardie.html",
+        "R3C4-prix-de-grenoble.html",
+        "R3C5-prix-jean-maurice-beteau.html",
+        "R3C6-prix-de-bouville.html",
+        "R3C7-prix-des-anemones.html",
+        "R3C8-prix-de-nantes.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-de-la-camargue.html",
+        "R4C2-prix-d-harfleur.html",
+        "R4C3-prix-de-picardie.html",
+        "R4C4-prix-de-grenoble.html",
+        "R4C5-prix-jean-maurice-beteau.html",
+        "R4C6-prix-de-bouville.html",
+        "R4C7-prix-des-anemones.html",
+        "R4C8-prix-de-nantes.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-de-la-camargue.html",
+        "R6C2-prix-d-harfleur.html",
+        "R6C3-prix-de-picardie.html",
+        "R6C4-prix-de-grenoble.html",
+        "R6C5-prix-jean-maurice-beteau.html",
+        "R6C6-prix-de-bouville.html",
+        "R6C7-prix-des-anemones.html",
+        "R6C8-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:38.458186Z"
+}

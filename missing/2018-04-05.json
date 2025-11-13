@@ -1,0 +1,71 @@
+{
+  "date": "2018-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-05",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-05/2018-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-05/R1-saint-cloud/R1C2-prix-tourbillon.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R1-saint-cloud/R1C6-prix-de-malidor.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R1-saint-cloud/R1C7-prix-de-pauilhac.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R1-saint-cloud/R1C8-prix-du-bearn.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R2-lyon-parilly/R2C1-prix-d-orgeval.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R2-lyon-parilly/R2C2-prix-tourbillon.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R2-lyon-parilly/R2C3-prix-de-pau.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R2-lyon-parilly/R2C5-prix-nikellora.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R2-lyon-parilly/R2C6-prix-de-malidor.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R3-toulouse/R3C1-prix-d-orgeval.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R3-toulouse/R3C6-prix-de-malidor.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R3-toulouse/R3C7-prix-de-pauilhac.html",
+      "resultats-et-rapports/2018/04/2018-04-05/R3-toulouse/R3C8-prix-du-bearn.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-d-orgeval.html",
+        "R1C2-prix-tourbillon.html",
+        "R1C3-prix-de-pau.html",
+        "R1C4-prix-sica-boy.html",
+        "R1C5-prix-nikellora.html",
+        "R1C6-prix-de-malidor.html",
+        "R1C7-prix-de-pauilhac.html",
+        "R1C8-prix-du-bearn.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-d-orgeval.html",
+        "R2C2-prix-tourbillon.html",
+        "R2C3-prix-de-pau.html",
+        "R2C4-prix-sica-boy.html",
+        "R2C5-prix-nikellora.html",
+        "R2C6-prix-de-malidor.html",
+        "R2C7-prix-de-pauilhac.html",
+        "R2C8-prix-du-bearn.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-d-orgeval.html",
+        "R3C2-prix-tourbillon.html",
+        "R3C3-prix-de-pau.html",
+        "R3C4-prix-sica-boy.html",
+        "R3C5-prix-nikellora.html",
+        "R3C6-prix-de-malidor.html",
+        "R3C7-prix-de-pauilhac.html",
+        "R3C8-prix-du-bearn.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:14.264756Z"
+}

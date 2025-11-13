@@ -1,0 +1,77 @@
+{
+  "date": "2013-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/09/2013-09-26",
+    "date_html": "resultats-et-rapports/2013/09/2013-09-26/2013-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/09/2013-09-26/R2-fontainebleau/R2C4-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R2-fontainebleau/R2C5-prix-ladas.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R2-fontainebleau/R2C7-prix-de-bonniere-sur-seine.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R3-enghien-soisy/R3C2-prix-idalie.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R3-enghien-soisy/R3C3-prix-du-bourbonnais.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R3-enghien-soisy/R3C8-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R4-lyon-parilly/R4C2-prix-idalie.html",
+      "resultats-et-rapports/2013/09/2013-09-26/R4-lyon-parilly/R4C3-prix-du-bourbonnais.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-fontainebleau",
+      "R3-enghien-soisy",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-commandeur.html",
+        "R1C2-prix-idalie.html",
+        "R1C3-prix-du-bourbonnais.html",
+        "R1C4-prix-du-chateau-de-maisons-laffitte.html",
+        "R1C5-prix-ladas.html",
+        "R1C6-prix-de-port-marly.html",
+        "R1C7-prix-de-bonniere-sur-seine.html",
+        "R1C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-commandeur.html",
+        "R2C2-prix-idalie.html",
+        "R2C3-prix-du-bourbonnais.html",
+        "R2C4-prix-du-chateau-de-maisons-laffitte.html",
+        "R2C5-prix-ladas.html",
+        "R2C6-prix-de-port-marly.html",
+        "R2C7-prix-de-bonniere-sur-seine.html",
+        "R2C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-commandeur.html",
+        "R3C2-prix-idalie.html",
+        "R3C3-prix-du-bourbonnais.html",
+        "R3C4-prix-du-chateau-de-maisons-laffitte.html",
+        "R3C5-prix-ladas.html",
+        "R3C6-prix-de-port-marly.html",
+        "R3C7-prix-de-bonniere-sur-seine.html",
+        "R3C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-commandeur.html",
+        "R4C2-prix-idalie.html",
+        "R4C3-prix-du-bourbonnais.html",
+        "R4C4-prix-du-chateau-de-maisons-laffitte.html",
+        "R4C5-prix-ladas.html",
+        "R4C6-prix-de-port-marly.html",
+        "R4C7-prix-de-bonniere-sur-seine.html",
+        "R4C8-prix-du-parc-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:33.456788Z"
+}

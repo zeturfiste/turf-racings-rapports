@@ -1,0 +1,68 @@
+{
+  "date": "2011-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-13",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-13/2011-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C2-prix-beachcomber-hotels-shandrani-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C3-prix-beachcomber-hotels-paradis-l-prix-arthur-johnston.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C4-prix-beachcomber-hotels-royal-palm-l-grand-criterium-de-bordeaux.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C6-prix-beachcomber-hotels-trou-aux-biches-l-grande-course-de-haies-des-4-ans.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C7-prix-de-l-office-de-tourisme-l-ile-maurice-mtpa-prix-jacques-meilhan-bordes.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R1-bordeaux-le-bouscat/R1C8-prix-beachcomber-hotels-dinarobin-l-prix-du-bouscat.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R2-marseille-borely/R2C2-prix-beachcomber-hotels-shandrani-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R2-marseille-borely/R2C3-prix-beachcomber-hotels-paradis-l-prix-arthur-johnston.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R2-marseille-borely/R2C4-prix-beachcomber-hotels-royal-palm-l-grand-criterium-de-bordeaux.html",
+      "resultats-et-rapports/2011/10/2011-10-13/R3-enghien-soisy/R3C5-prix-beachcomber-hotels-le-victoria-prix-colonel-reglade.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-marseille-borely",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-air-mauritius-grand-handicap-de-bordeaux.html",
+        "R1C2-prix-beachcomber-hotels-shandrani-prix-de-la-croix-blanche.html",
+        "R1C3-prix-beachcomber-hotels-paradis-l-prix-arthur-johnston.html",
+        "R1C4-prix-beachcomber-hotels-royal-palm-l-grand-criterium-de-bordeaux.html",
+        "R1C5-prix-beachcomber-hotels-le-victoria-prix-colonel-reglade.html",
+        "R1C6-prix-beachcomber-hotels-trou-aux-biches-l-grande-course-de-haies-des-4-ans.html",
+        "R1C7-prix-de-l-office-de-tourisme-l-ile-maurice-mtpa-prix-jacques-meilhan-bordes.html",
+        "R1C8-prix-beachcomber-hotels-dinarobin-l-prix-du-bouscat.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-air-mauritius-grand-handicap-de-bordeaux.html",
+        "R2C2-prix-beachcomber-hotels-shandrani-prix-de-la-croix-blanche.html",
+        "R2C3-prix-beachcomber-hotels-paradis-l-prix-arthur-johnston.html",
+        "R2C4-prix-beachcomber-hotels-royal-palm-l-grand-criterium-de-bordeaux.html",
+        "R2C5-prix-beachcomber-hotels-le-victoria-prix-colonel-reglade.html",
+        "R2C6-prix-beachcomber-hotels-trou-aux-biches-l-grande-course-de-haies-des-4-ans.html",
+        "R2C7-prix-de-l-office-de-tourisme-l-ile-maurice-mtpa-prix-jacques-meilhan-bordes.html",
+        "R2C8-prix-beachcomber-hotels-dinarobin-l-prix-du-bouscat.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-air-mauritius-grand-handicap-de-bordeaux.html",
+        "R3C2-prix-beachcomber-hotels-shandrani-prix-de-la-croix-blanche.html",
+        "R3C3-prix-beachcomber-hotels-paradis-l-prix-arthur-johnston.html",
+        "R3C4-prix-beachcomber-hotels-royal-palm-l-grand-criterium-de-bordeaux.html",
+        "R3C5-prix-beachcomber-hotels-le-victoria-prix-colonel-reglade.html",
+        "R3C6-prix-beachcomber-hotels-trou-aux-biches-l-grande-course-de-haies-des-4-ans.html",
+        "R3C7-prix-de-l-office-de-tourisme-l-ile-maurice-mtpa-prix-jacques-meilhan-bordes.html",
+        "R3C8-prix-beachcomber-hotels-dinarobin-l-prix-du-bouscat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:04.965652Z"
+}

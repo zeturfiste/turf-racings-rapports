@@ -1,0 +1,89 @@
+{
+  "date": "2018-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-02",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-02/2018-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-02/R3-vittel/R3C4-prix-de-pennedepie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R3-vittel/R3C5-prix-les-ouvres.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R3-vittel/R3C6-prix-femmes-challenges-by-cci-normandie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R3-vittel/R3C7-prix-des-oeillets.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R4-vichy/R4C2-prix-aeroport-deauville-normandie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R4-vichy/R4C6-prix-femmes-challenges-by-cci-normandie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R4-vichy/R4C8-prix-synergie-femmes-challenges.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R5-le-croise-laroche/R5C2-prix-aeroport-deauville-normandie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R5-le-croise-laroche/R5C3-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R5-le-croise-laroche/R5C4-prix-de-pennedepie.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R5-le-croise-laroche/R5C5-prix-les-ouvres.html",
+      "resultats-et-rapports/2018/07/2018-07-02/R5-le-croise-laroche/R5C6-prix-femmes-challenges-by-cci-normandie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-vittel",
+      "R4-vichy",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-douet.html",
+        "R1C2-prix-aeroport-deauville-normandie.html",
+        "R1C3-prix-leopold-d-orsetti.html",
+        "R1C4-prix-de-pennedepie.html",
+        "R1C5-prix-les-ouvres.html",
+        "R1C6-prix-femmes-challenges-by-cci-normandie.html",
+        "R1C7-prix-des-oeillets.html",
+        "R1C8-prix-synergie-femmes-challenges.html",
+        "R1C9-prix-du-casino.html",
+        "R1C10-prix-rideo.html"
+      ],
+      "R3-vittel": [
+        "R3C1-prix-du-douet.html",
+        "R3C2-prix-aeroport-deauville-normandie.html",
+        "R3C3-prix-leopold-d-orsetti.html",
+        "R3C4-prix-de-pennedepie.html",
+        "R3C5-prix-les-ouvres.html",
+        "R3C6-prix-femmes-challenges-by-cci-normandie.html",
+        "R3C7-prix-des-oeillets.html",
+        "R3C8-prix-synergie-femmes-challenges.html",
+        "R3C9-prix-du-casino.html",
+        "R3C10-prix-rideo.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-douet.html",
+        "R4C2-prix-aeroport-deauville-normandie.html",
+        "R4C3-prix-leopold-d-orsetti.html",
+        "R4C4-prix-de-pennedepie.html",
+        "R4C5-prix-les-ouvres.html",
+        "R4C6-prix-femmes-challenges-by-cci-normandie.html",
+        "R4C7-prix-des-oeillets.html",
+        "R4C8-prix-synergie-femmes-challenges.html",
+        "R4C9-prix-du-casino.html",
+        "R4C10-prix-rideo.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-du-douet.html",
+        "R5C2-prix-aeroport-deauville-normandie.html",
+        "R5C3-prix-leopold-d-orsetti.html",
+        "R5C4-prix-de-pennedepie.html",
+        "R5C5-prix-les-ouvres.html",
+        "R5C6-prix-femmes-challenges-by-cci-normandie.html",
+        "R5C7-prix-des-oeillets.html",
+        "R5C8-prix-synergie-femmes-challenges.html",
+        "R5C9-prix-du-casino.html",
+        "R5C10-prix-rideo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:44.678126Z"
+}

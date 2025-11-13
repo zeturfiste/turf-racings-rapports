@@ -1,0 +1,70 @@
+{
+  "date": "2013-04-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-04",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-04/2013-04-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-04/R1-maisons-laffitte/R1C1-prix-d-orgeval.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R1-maisons-laffitte/R1C2-prix-arreau.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R1-maisons-laffitte/R1C4-prix-djebel.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R1-maisons-laffitte/R1C5-prix-imprudence.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R1-maisons-laffitte/R1C6-prix-jacques-laffitte.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R2-la-capelle/R2C1-prix-d-orgeval.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R2-la-capelle/R2C2-prix-arreau.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R2-la-capelle/R2C5-prix-imprudence.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R2-la-capelle/R2C6-prix-jacques-laffitte.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R2-la-capelle/R2C7-prix-lavandin.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R3-saint-galmier/R3C1-prix-d-orgeval.html",
+      "resultats-et-rapports/2013/04/2013-04-04/R3-saint-galmier/R3C7-prix-lavandin.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-la-capelle",
+      "R3-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-d-orgeval.html",
+        "R1C2-prix-arreau.html",
+        "R1C3-prix-des-ecuries-du-chateau.html",
+        "R1C4-prix-djebel.html",
+        "R1C5-prix-imprudence.html",
+        "R1C6-prix-jacques-laffitte.html",
+        "R1C7-prix-lavandin.html",
+        "R1C8-prix-des-bords-de-seine.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-d-orgeval.html",
+        "R2C2-prix-arreau.html",
+        "R2C3-prix-des-ecuries-du-chateau.html",
+        "R2C4-prix-djebel.html",
+        "R2C5-prix-imprudence.html",
+        "R2C6-prix-jacques-laffitte.html",
+        "R2C7-prix-lavandin.html",
+        "R2C8-prix-des-bords-de-seine.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-d-orgeval.html",
+        "R3C2-prix-arreau.html",
+        "R3C3-prix-des-ecuries-du-chateau.html",
+        "R3C4-prix-djebel.html",
+        "R3C5-prix-imprudence.html",
+        "R3C6-prix-jacques-laffitte.html",
+        "R3C7-prix-lavandin.html",
+        "R3C8-prix-des-bords-de-seine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:36.112049Z"
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2011-04-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-21",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-21/2011-04-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-21/R1-saint-cloud/R1C1-prix-du-bearn.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R1-saint-cloud/R1C2-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R1-saint-cloud/R1C7-prix-d-orthez.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R2-nantes/R2C2-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R2-nantes/R2C4-prix-tarentelle.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R2-nantes/R2C6-prix-general-de-saint-didier.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R2-nantes/R2C7-prix-d-orthez.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R2-nantes/R2C8-prix-de-pau.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R3-enghien-soisy/R3C1-prix-du-bearn.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R3-enghien-soisy/R3C2-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R3-enghien-soisy/R3C4-prix-tarentelle.html",
+      "resultats-et-rapports/2011/04/2011-04-21/R3-enghien-soisy/R3C5-prix-de-peyrehorade.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-nantes",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-bearn.html",
+        "R1C2-prix-d-artiguelouve.html",
+        "R1C3-prix-penelope.html",
+        "R1C4-prix-tarentelle.html",
+        "R1C5-prix-de-peyrehorade.html",
+        "R1C6-prix-general-de-saint-didier.html",
+        "R1C7-prix-d-orthez.html",
+        "R1C8-prix-de-pau.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-bearn.html",
+        "R2C2-prix-d-artiguelouve.html",
+        "R2C3-prix-penelope.html",
+        "R2C4-prix-tarentelle.html",
+        "R2C5-prix-de-peyrehorade.html",
+        "R2C6-prix-general-de-saint-didier.html",
+        "R2C7-prix-d-orthez.html",
+        "R2C8-prix-de-pau.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-bearn.html",
+        "R3C2-prix-d-artiguelouve.html",
+        "R3C3-prix-penelope.html",
+        "R3C4-prix-tarentelle.html",
+        "R3C5-prix-de-peyrehorade.html",
+        "R3C6-prix-general-de-saint-didier.html",
+        "R3C7-prix-d-orthez.html",
+        "R3C8-prix-de-pau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:11.255713Z"
+}

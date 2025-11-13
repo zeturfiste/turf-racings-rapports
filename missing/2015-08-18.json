@@ -1,0 +1,114 @@
+{
+  "date": "2015-08-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-18",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-18/2015-08-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C2-prix-de-colleville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C3-prix-de-franceville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C4-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C5-prix-de-la-nonette.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C6-prix-du-port.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C7-prix-du-petit-cotil.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R1-deauville/R1C8-prix-du-breuil-en-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C1-prix-des-planches.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C2-prix-de-colleville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C3-prix-de-franceville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C4-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C5-prix-de-la-nonette.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C6-prix-du-port.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C7-prix-du-petit-cotil.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R2-divonne-les-bains/R2C8-prix-du-breuil-en-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C1-prix-des-planches.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C2-prix-de-colleville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C3-prix-de-franceville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C4-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C5-prix-de-la-nonette.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R3-vichy/R3C8-prix-du-breuil-en-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C1-prix-des-planches.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C2-prix-de-colleville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C3-prix-de-franceville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C4-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C5-prix-de-la-nonette.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C6-prix-du-port.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C7-prix-du-petit-cotil.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R4-cabourg/R4C8-prix-du-breuil-en-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R7-pornichet-la-baule/R7C1-prix-des-planches.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R7-pornichet-la-baule/R7C2-prix-de-colleville.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R7-pornichet-la-baule/R7C4-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R7-pornichet-la-baule/R7C7-prix-du-petit-cotil.html",
+      "resultats-et-rapports/2015/08/2015-08-18/R7-pornichet-la-baule/R7C8-prix-du-breuil-en-auge.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-divonne-les-bains",
+      "R3-vichy",
+      "R4-cabourg",
+      "R7-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-planches.html",
+        "R1C2-prix-de-colleville.html",
+        "R1C3-prix-de-franceville.html",
+        "R1C4-prix-de-la-cauviniere.html",
+        "R1C5-prix-de-la-nonette.html",
+        "R1C6-prix-du-port.html",
+        "R1C7-prix-du-petit-cotil.html",
+        "R1C8-prix-du-breuil-en-auge.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-des-planches.html",
+        "R2C2-prix-de-colleville.html",
+        "R2C3-prix-de-franceville.html",
+        "R2C4-prix-de-la-cauviniere.html",
+        "R2C5-prix-de-la-nonette.html",
+        "R2C6-prix-du-port.html",
+        "R2C7-prix-du-petit-cotil.html",
+        "R2C8-prix-du-breuil-en-auge.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-des-planches.html",
+        "R3C2-prix-de-colleville.html",
+        "R3C3-prix-de-franceville.html",
+        "R3C4-prix-de-la-cauviniere.html",
+        "R3C5-prix-de-la-nonette.html",
+        "R3C6-prix-du-port.html",
+        "R3C7-prix-du-petit-cotil.html",
+        "R3C8-prix-du-breuil-en-auge.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-des-planches.html",
+        "R4C2-prix-de-colleville.html",
+        "R4C3-prix-de-franceville.html",
+        "R4C4-prix-de-la-cauviniere.html",
+        "R4C5-prix-de-la-nonette.html",
+        "R4C6-prix-du-port.html",
+        "R4C7-prix-du-petit-cotil.html",
+        "R4C8-prix-du-breuil-en-auge.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-des-planches.html",
+        "R7C2-prix-de-colleville.html",
+        "R7C3-prix-de-franceville.html",
+        "R7C4-prix-de-la-cauviniere.html",
+        "R7C5-prix-de-la-nonette.html",
+        "R7C6-prix-du-port.html",
+        "R7C7-prix-du-petit-cotil.html",
+        "R7C8-prix-du-breuil-en-auge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:07.706701Z"
+}

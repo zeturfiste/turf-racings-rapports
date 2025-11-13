@@ -1,0 +1,54 @@
+{
+  "date": "2005-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-05",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-05/2005-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-vivaux",
+      "R5-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-bournosienne.html",
+        "R1C2-105eme-prix-de-france.html",
+        "R1C3-prix-salon-du-cheval-de-paris-2005-prix-marc-antony.html",
+        "R1C4-prix-congress.html",
+        "R1C5-prix-de-beaugency.html",
+        "R1C6-grand-prix-d-automne.html",
+        "R1C7-prix-fondeur.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-bournosienne.html",
+        "R2C2-105eme-prix-de-france.html",
+        "R2C3-prix-salon-du-cheval-de-paris-2005-prix-marc-antony.html",
+        "R2C4-prix-congress.html",
+        "R2C5-prix-de-beaugency.html",
+        "R2C6-grand-prix-d-automne.html",
+        "R2C7-prix-fondeur.html"
+      ],
+      "R5-caen": [
+        "R5C1-prix-bournosienne.html",
+        "R5C2-105eme-prix-de-france.html",
+        "R5C3-prix-salon-du-cheval-de-paris-2005-prix-marc-antony.html",
+        "R5C4-prix-congress.html",
+        "R5C5-prix-de-beaugency.html",
+        "R5C6-grand-prix-d-automne.html",
+        "R5C7-prix-fondeur.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:31.865364Z"
+}

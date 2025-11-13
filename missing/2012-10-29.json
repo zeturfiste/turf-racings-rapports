@@ -1,0 +1,84 @@
+{
+  "date": "2012-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-29",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-29/2012-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C1-prix-gyptis.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C2-grand-handicap-de-marseille.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C5-prix-de-la-gerbe-d-or.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C6-prix-de-l-association-des-jockeys.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R2-saint-cloud/R2C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R3-toulouse/R3C1-prix-gyptis.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R3-toulouse/R3C2-grand-handicap-de-marseille.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R3-toulouse/R3C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R4-le-croise-laroche/R4C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R4-le-croise-laroche/R4C4-prix-l-amadeus-aix-en-provence-prix-pierre-puget.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R4-le-croise-laroche/R4C5-prix-de-la-gerbe-d-or.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R4-le-croise-laroche/R4C6-prix-de-l-association-des-jockeys.html",
+      "resultats-et-rapports/2012/10/2012-10-29/R4-le-croise-laroche/R4C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-saint-cloud",
+      "R3-toulouse",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-gyptis.html",
+        "R1C2-grand-handicap-de-marseille.html",
+        "R1C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+        "R1C4-prix-l-amadeus-aix-en-provence-prix-pierre-puget.html",
+        "R1C5-prix-de-la-gerbe-d-or.html",
+        "R1C6-prix-de-l-association-des-jockeys.html",
+        "R1C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html",
+        "R1C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-gyptis.html",
+        "R2C2-grand-handicap-de-marseille.html",
+        "R2C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+        "R2C4-prix-l-amadeus-aix-en-provence-prix-pierre-puget.html",
+        "R2C5-prix-de-la-gerbe-d-or.html",
+        "R2C6-prix-de-l-association-des-jockeys.html",
+        "R2C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html",
+        "R2C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-gyptis.html",
+        "R3C2-grand-handicap-de-marseille.html",
+        "R3C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+        "R3C4-prix-l-amadeus-aix-en-provence-prix-pierre-puget.html",
+        "R3C5-prix-de-la-gerbe-d-or.html",
+        "R3C6-prix-de-l-association-des-jockeys.html",
+        "R3C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html",
+        "R3C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-gyptis.html",
+        "R4C2-grand-handicap-de-marseille.html",
+        "R4C3-prix-maison-de-la-presse-a-orange-prix-de-saint-just.html",
+        "R4C4-prix-l-amadeus-aix-en-provence-prix-pierre-puget.html",
+        "R4C5-prix-de-la-gerbe-d-or.html",
+        "R4C6-prix-de-l-association-des-jockeys.html",
+        "R4C7-prix-le-st-james-a-montelimar-prix-de-la-cite-phoceenne.html",
+        "R4C8-prix-le-grand-bar-a-la-seyne-sur-mer-prix-de-sanary.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:55.242219Z"
+}

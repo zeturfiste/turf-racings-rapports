@@ -1,0 +1,117 @@
+{
+  "date": "2015-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-16",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-16/2015-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-16/R1-maisons-laffitte/R1C8-prix-de-penthievre.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R2-vichy/R2C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R2-vichy/R2C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R2-vichy/R2C3-criterium-de-maisons-laffitte.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R2-vichy/R2C8-prix-de-penthievre.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C3-criterium-de-maisons-laffitte.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C4-prix-du-buisson-richard.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C5-prix-de-saint-cyr.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C6-prix-du-mesnil.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R3-marseille-vivaux/R3C8-prix-de-penthievre.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C1-prix-as-d-atout.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C2-prix-tenebreuse.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C3-criterium-de-maisons-laffitte.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C4-prix-du-buisson-richard.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C5-prix-de-saint-cyr.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C6-prix-du-mesnil.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R4-amiens/R4C8-prix-de-penthievre.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R5-vincennes/R5C4-prix-du-buisson-richard.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R5-vincennes/R5C8-prix-de-penthievre.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R7-toulouse/R7C5-prix-de-saint-cyr.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R7-toulouse/R7C7-prix-de-lamballe.html",
+      "resultats-et-rapports/2015/10/2015-10-16/R7-toulouse/R7C8-prix-de-penthievre.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vichy",
+      "R3-marseille-vivaux",
+      "R4-amiens",
+      "R5-vincennes",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-as-d-atout.html",
+        "R1C2-prix-tenebreuse.html",
+        "R1C3-criterium-de-maisons-laffitte.html",
+        "R1C4-prix-du-buisson-richard.html",
+        "R1C5-prix-de-saint-cyr.html",
+        "R1C6-prix-du-mesnil.html",
+        "R1C7-prix-de-lamballe.html",
+        "R1C8-prix-de-penthievre.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-as-d-atout.html",
+        "R2C2-prix-tenebreuse.html",
+        "R2C3-criterium-de-maisons-laffitte.html",
+        "R2C4-prix-du-buisson-richard.html",
+        "R2C5-prix-de-saint-cyr.html",
+        "R2C6-prix-du-mesnil.html",
+        "R2C7-prix-de-lamballe.html",
+        "R2C8-prix-de-penthievre.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-as-d-atout.html",
+        "R3C2-prix-tenebreuse.html",
+        "R3C3-criterium-de-maisons-laffitte.html",
+        "R3C4-prix-du-buisson-richard.html",
+        "R3C5-prix-de-saint-cyr.html",
+        "R3C6-prix-du-mesnil.html",
+        "R3C7-prix-de-lamballe.html",
+        "R3C8-prix-de-penthievre.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-as-d-atout.html",
+        "R4C2-prix-tenebreuse.html",
+        "R4C3-criterium-de-maisons-laffitte.html",
+        "R4C4-prix-du-buisson-richard.html",
+        "R4C5-prix-de-saint-cyr.html",
+        "R4C6-prix-du-mesnil.html",
+        "R4C7-prix-de-lamballe.html",
+        "R4C8-prix-de-penthievre.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-as-d-atout.html",
+        "R5C2-prix-tenebreuse.html",
+        "R5C3-criterium-de-maisons-laffitte.html",
+        "R5C4-prix-du-buisson-richard.html",
+        "R5C5-prix-de-saint-cyr.html",
+        "R5C6-prix-du-mesnil.html",
+        "R5C7-prix-de-lamballe.html",
+        "R5C8-prix-de-penthievre.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-as-d-atout.html",
+        "R7C2-prix-tenebreuse.html",
+        "R7C3-criterium-de-maisons-laffitte.html",
+        "R7C4-prix-du-buisson-richard.html",
+        "R7C5-prix-de-saint-cyr.html",
+        "R7C6-prix-du-mesnil.html",
+        "R7C7-prix-de-lamballe.html",
+        "R7C8-prix-de-penthievre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:27.300875Z"
+}

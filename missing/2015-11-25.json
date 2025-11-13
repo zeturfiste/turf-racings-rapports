@@ -1,0 +1,104 @@
+{
+  "date": "2015-11-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-25",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-25/2015-11-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C1-prix-albert-libeer.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C2-prix-de-la-camargue.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C3-prix-de-meyssac.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C4-prix-de-bouville.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C5-prix-de-menneval.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C6-prix-de-grenoble.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C7-prix-des-anemones-groupe-a.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R1-vincennes/R1C9-prix-de-blangy.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R2-auteuil/R2C5-prix-de-menneval.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R2-auteuil/R2C8-prix-des-anemones-groupe-b.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R3-amiens/R3C3-prix-de-meyssac.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R4-lyon-la-soie/R4C4-prix-de-bouville.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R4-lyon-la-soie/R4C6-prix-de-grenoble.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C2-prix-de-la-camargue.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C3-prix-de-meyssac.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C4-prix-de-bouville.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C5-prix-de-menneval.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C6-prix-de-grenoble.html",
+      "resultats-et-rapports/2015/11/2015-11-25/R7-marseille-borely/R7C7-prix-des-anemones-groupe-a.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-auteuil",
+      "R3-amiens",
+      "R4-lyon-la-soie",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-albert-libeer.html",
+        "R1C2-prix-de-la-camargue.html",
+        "R1C3-prix-de-meyssac.html",
+        "R1C4-prix-de-bouville.html",
+        "R1C5-prix-de-menneval.html",
+        "R1C6-prix-de-grenoble.html",
+        "R1C7-prix-des-anemones-groupe-a.html",
+        "R1C8-prix-des-anemones-groupe-b.html",
+        "R1C9-prix-de-blangy.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-albert-libeer.html",
+        "R2C2-prix-de-la-camargue.html",
+        "R2C3-prix-de-meyssac.html",
+        "R2C4-prix-de-bouville.html",
+        "R2C5-prix-de-menneval.html",
+        "R2C6-prix-de-grenoble.html",
+        "R2C7-prix-des-anemones-groupe-a.html",
+        "R2C8-prix-des-anemones-groupe-b.html",
+        "R2C9-prix-de-blangy.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-albert-libeer.html",
+        "R3C2-prix-de-la-camargue.html",
+        "R3C3-prix-de-meyssac.html",
+        "R3C4-prix-de-bouville.html",
+        "R3C5-prix-de-menneval.html",
+        "R3C6-prix-de-grenoble.html",
+        "R3C7-prix-des-anemones-groupe-a.html",
+        "R3C8-prix-des-anemones-groupe-b.html",
+        "R3C9-prix-de-blangy.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-albert-libeer.html",
+        "R4C2-prix-de-la-camargue.html",
+        "R4C3-prix-de-meyssac.html",
+        "R4C4-prix-de-bouville.html",
+        "R4C5-prix-de-menneval.html",
+        "R4C6-prix-de-grenoble.html",
+        "R4C7-prix-des-anemones-groupe-a.html",
+        "R4C8-prix-des-anemones-groupe-b.html",
+        "R4C9-prix-de-blangy.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-albert-libeer.html",
+        "R7C2-prix-de-la-camargue.html",
+        "R7C3-prix-de-meyssac.html",
+        "R7C4-prix-de-bouville.html",
+        "R7C5-prix-de-menneval.html",
+        "R7C6-prix-de-grenoble.html",
+        "R7C7-prix-des-anemones-groupe-a.html",
+        "R7C8-prix-des-anemones-groupe-b.html",
+        "R7C9-prix-de-blangy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:58:40.451683Z"
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2006-04-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-17",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-17/2006-04-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/04/2006-04-17/R5-la-capelle/R5C2-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2006/04/2006-04-17/R5-la-capelle/R5C4-prix-de-la-megisserie.html",
+      "resultats-et-rapports/2006/04/2006-04-17/R6-marseille-vivaux/R6C1-prix-du-palais-garnier.html",
+      "resultats-et-rapports/2006/04/2006-04-17/R7-machecoul/R7C4-prix-de-la-megisserie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-cherbourg",
+      "R3-cholet",
+      "R4-castillonnes",
+      "R5-la-capelle",
+      "R6-marseille-vivaux",
+      "R7-machecoul"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-garnier.html",
+        "R1C2-prix-du-champ-de-mars.html",
+        "R1C3-prix-de-montreuil.html",
+        "R1C4-prix-de-la-megisserie.html",
+        "R1C5-prix-noailles.html",
+        "R1C6-prix-des-centaures.html",
+        "R1C7-prix-du-val-de-grace.html",
+        "R1C8-prix-de-l-opera-bastille.html"
+      ],
+      "R2-cherbourg": [
+        "R2C1-prix-du-palais-garnier.html",
+        "R2C2-prix-du-champ-de-mars.html",
+        "R2C3-prix-de-montreuil.html",
+        "R2C4-prix-de-la-megisserie.html",
+        "R2C5-prix-noailles.html",
+        "R2C6-prix-des-centaures.html",
+        "R2C7-prix-du-val-de-grace.html",
+        "R2C8-prix-de-l-opera-bastille.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-du-palais-garnier.html",
+        "R3C2-prix-du-champ-de-mars.html",
+        "R3C3-prix-de-montreuil.html",
+        "R3C4-prix-de-la-megisserie.html",
+        "R3C5-prix-noailles.html",
+        "R3C6-prix-des-centaures.html",
+        "R3C7-prix-du-val-de-grace.html",
+        "R3C8-prix-de-l-opera-bastille.html"
+      ],
+      "R4-castillonnes": [
+        "R4C1-prix-du-palais-garnier.html",
+        "R4C2-prix-du-champ-de-mars.html",
+        "R4C3-prix-de-montreuil.html",
+        "R4C4-prix-de-la-megisserie.html",
+        "R4C5-prix-noailles.html",
+        "R4C6-prix-des-centaures.html",
+        "R4C7-prix-du-val-de-grace.html",
+        "R4C8-prix-de-l-opera-bastille.html"
+      ],
+      "R5-la-capelle": [
+        "R5C1-prix-du-palais-garnier.html",
+        "R5C2-prix-du-champ-de-mars.html",
+        "R5C3-prix-de-montreuil.html",
+        "R5C4-prix-de-la-megisserie.html",
+        "R5C5-prix-noailles.html",
+        "R5C6-prix-des-centaures.html",
+        "R5C7-prix-du-val-de-grace.html",
+        "R5C8-prix-de-l-opera-bastille.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-du-palais-garnier.html",
+        "R6C2-prix-du-champ-de-mars.html",
+        "R6C3-prix-de-montreuil.html",
+        "R6C4-prix-de-la-megisserie.html",
+        "R6C5-prix-noailles.html",
+        "R6C6-prix-des-centaures.html",
+        "R6C7-prix-du-val-de-grace.html",
+        "R6C8-prix-de-l-opera-bastille.html"
+      ],
+      "R7-machecoul": [
+        "R7C1-prix-du-palais-garnier.html",
+        "R7C2-prix-du-champ-de-mars.html",
+        "R7C3-prix-de-montreuil.html",
+        "R7C4-prix-de-la-megisserie.html",
+        "R7C5-prix-noailles.html",
+        "R7C6-prix-des-centaures.html",
+        "R7C7-prix-du-val-de-grace.html",
+        "R7C8-prix-de-l-opera-bastille.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:57.488804Z"
+}

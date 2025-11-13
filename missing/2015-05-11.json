@@ -1,0 +1,82 @@
+{
+  "date": "2015-05-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-11",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-11/2015-05-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-11/R1-maisons-laffitte/R1C1-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R1-maisons-laffitte/R1C2-prix-ariston.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R1-maisons-laffitte/R1C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R1-maisons-laffitte/R1C6-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R1-maisons-laffitte/R1C7-prix-prudent.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R2-bordeaux-le-bouscat/R2C1-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R2-bordeaux-le-bouscat/R2C2-prix-ariston.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R2-bordeaux-le-bouscat/R2C3-prix-diatome.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R2-bordeaux-le-bouscat/R2C6-prix-de-conflans-sainte-honorine.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R2-bordeaux-le-bouscat/R2C7-prix-prudent.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R5-cavaillon/R5C3-prix-diatome.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R5-cavaillon/R5C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2015/05/2015-05-11/R5-cavaillon/R5C6-prix-de-conflans-sainte-honorine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-bordeaux-le-bouscat",
+      "R3-saint-galmier",
+      "R5-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-beaumesnil.html",
+        "R1C2-prix-ariston.html",
+        "R1C3-prix-diatome.html",
+        "R1C4-prix-texanita.html",
+        "R1C5-prix-du-vesinet.html",
+        "R1C6-prix-de-conflans-sainte-honorine.html",
+        "R1C7-prix-prudent.html",
+        "R1C8-prix-de-beauval.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-beaumesnil.html",
+        "R2C2-prix-ariston.html",
+        "R2C3-prix-diatome.html",
+        "R2C4-prix-texanita.html",
+        "R2C5-prix-du-vesinet.html",
+        "R2C6-prix-de-conflans-sainte-honorine.html",
+        "R2C7-prix-prudent.html",
+        "R2C8-prix-de-beauval.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-de-beaumesnil.html",
+        "R3C2-prix-ariston.html",
+        "R3C3-prix-diatome.html",
+        "R3C4-prix-texanita.html",
+        "R3C5-prix-du-vesinet.html",
+        "R3C6-prix-de-conflans-sainte-honorine.html",
+        "R3C7-prix-prudent.html",
+        "R3C8-prix-de-beauval.html"
+      ],
+      "R5-cavaillon": [
+        "R5C1-prix-de-beaumesnil.html",
+        "R5C2-prix-ariston.html",
+        "R5C3-prix-diatome.html",
+        "R5C4-prix-texanita.html",
+        "R5C5-prix-du-vesinet.html",
+        "R5C6-prix-de-conflans-sainte-honorine.html",
+        "R5C7-prix-prudent.html",
+        "R5C8-prix-de-beauval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:34.775003Z"
+}

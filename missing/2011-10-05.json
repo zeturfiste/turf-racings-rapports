@@ -1,0 +1,75 @@
+{
+  "date": "2011-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-05",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-05/2011-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C3-prix-querido-ii.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C4-grand-prix-de-la-ville-d-ecouflant.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C5-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C6-prix-flambeau-des-pins-groupe-a.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C7-prix-flambeau-des-pins-groupe-b.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C8-prix-fiesta-d-anjou.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R2-fontainebleau/R2C9-prix-des-amateurs.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C2-prix-des-ponts-de-ce.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C3-prix-querido-ii.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C5-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C6-prix-flambeau-des-pins-groupe-a.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C7-prix-flambeau-des-pins-groupe-b.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C8-prix-fiesta-d-anjou.html",
+      "resultats-et-rapports/2011/10/2011-10-05/R3-pornichet-la-baule/R3C9-prix-des-amateurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-fontainebleau",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-masina.html",
+        "R1C2-prix-des-ponts-de-ce.html",
+        "R1C3-prix-querido-ii.html",
+        "R1C4-grand-prix-de-la-ville-d-ecouflant.html",
+        "R1C5-grand-prix-anjou-maine.html",
+        "R1C6-prix-flambeau-des-pins-groupe-a.html",
+        "R1C7-prix-flambeau-des-pins-groupe-b.html",
+        "R1C8-prix-fiesta-d-anjou.html",
+        "R1C9-prix-des-amateurs.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-masina.html",
+        "R2C2-prix-des-ponts-de-ce.html",
+        "R2C3-prix-querido-ii.html",
+        "R2C4-grand-prix-de-la-ville-d-ecouflant.html",
+        "R2C5-grand-prix-anjou-maine.html",
+        "R2C6-prix-flambeau-des-pins-groupe-a.html",
+        "R2C7-prix-flambeau-des-pins-groupe-b.html",
+        "R2C8-prix-fiesta-d-anjou.html",
+        "R2C9-prix-des-amateurs.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-masina.html",
+        "R3C2-prix-des-ponts-de-ce.html",
+        "R3C3-prix-querido-ii.html",
+        "R3C4-grand-prix-de-la-ville-d-ecouflant.html",
+        "R3C5-grand-prix-anjou-maine.html",
+        "R3C6-prix-flambeau-des-pins-groupe-a.html",
+        "R3C7-prix-flambeau-des-pins-groupe-b.html",
+        "R3C8-prix-fiesta-d-anjou.html",
+        "R3C9-prix-des-amateurs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:02.742370Z"
+}

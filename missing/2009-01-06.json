@@ -1,0 +1,73 @@
+{
+  "date": "2009-01-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-06",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-06/2009-01-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C2-prix-de-questembert.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C3-prix-de-forcalquier.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C4-prix-de-ribeauville.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C5-prix-de-bouguenais.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C7-prix-de-vezac.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R1-vincennes/R1C8-prix-ramses.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R4-cagnes-sur-mer/R4C1-prix-du-limousin.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R4-cagnes-sur-mer/R4C2-prix-de-questembert.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R4-cagnes-sur-mer/R4C3-prix-de-forcalquier.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R4-cagnes-sur-mer/R4C5-prix-de-bouguenais.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R31-zerace/R31C1-prix-du-limousin.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R31-zerace/R31C3-prix-de-forcalquier.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R31-zerace/R31C4-prix-de-ribeauville.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R31-zerace/R31C5-prix-de-bouguenais.html",
+      "resultats-et-rapports/2009/01/2009-01-06/R31-zerace/R31C6-prix-de-martigues.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-cagnes-sur-mer",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-limousin.html",
+        "R1C2-prix-de-questembert.html",
+        "R1C3-prix-de-forcalquier.html",
+        "R1C4-prix-de-ribeauville.html",
+        "R1C5-prix-de-bouguenais.html",
+        "R1C6-prix-de-martigues.html",
+        "R1C7-prix-de-vezac.html",
+        "R1C8-prix-ramses.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-limousin.html",
+        "R4C2-prix-de-questembert.html",
+        "R4C3-prix-de-forcalquier.html",
+        "R4C4-prix-de-ribeauville.html",
+        "R4C5-prix-de-bouguenais.html",
+        "R4C6-prix-de-martigues.html",
+        "R4C7-prix-de-vezac.html",
+        "R4C8-prix-ramses.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-limousin.html",
+        "R31C2-prix-de-questembert.html",
+        "R31C3-prix-de-forcalquier.html",
+        "R31C4-prix-de-ribeauville.html",
+        "R31C5-prix-de-bouguenais.html",
+        "R31C6-prix-de-martigues.html",
+        "R31C7-prix-de-vezac.html",
+        "R31C8-prix-ramses.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:09.042636Z"
+}

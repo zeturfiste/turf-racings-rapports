@@ -1,0 +1,113 @@
+{
+  "date": "2013-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-18",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-18/2013-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-18/R1-saint-cloud/R1C2-prix-cardmania.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R1-saint-cloud/R1C3-prix-alips.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R1-saint-cloud/R1C5-prix-majinskaya.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R2-moulins/R2C3-prix-alips.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R2-moulins/R2C4-prix-some-guy.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C3-prix-alips.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C4-prix-some-guy.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C5-prix-majinskaya.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C6-prix-polytain.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C7-prix-calahorra.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R3-marseille-vivaux/R3C8-prix-card-king.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R4-vincennes/R4C1-prix-boxing-day.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R5-amiens/R5C5-prix-majinskaya.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R5-amiens/R5C6-prix-polytain.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R5-amiens/R5C8-prix-card-king.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C1-prix-boxing-day.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C2-prix-cardmania.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C3-prix-alips.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C4-prix-some-guy.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C6-prix-polytain.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C7-prix-calahorra.html",
+      "resultats-et-rapports/2013/10/2013-10-18/R6-toulouse/R6C8-prix-card-king.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-moulins",
+      "R3-marseille-vivaux",
+      "R4-vincennes",
+      "R5-amiens",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-boxing-day.html",
+        "R1C2-prix-cardmania.html",
+        "R1C3-prix-alips.html",
+        "R1C4-prix-some-guy.html",
+        "R1C5-prix-majinskaya.html",
+        "R1C6-prix-polytain.html",
+        "R1C7-prix-calahorra.html",
+        "R1C8-prix-card-king.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-boxing-day.html",
+        "R2C2-prix-cardmania.html",
+        "R2C3-prix-alips.html",
+        "R2C4-prix-some-guy.html",
+        "R2C5-prix-majinskaya.html",
+        "R2C6-prix-polytain.html",
+        "R2C7-prix-calahorra.html",
+        "R2C8-prix-card-king.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-boxing-day.html",
+        "R3C2-prix-cardmania.html",
+        "R3C3-prix-alips.html",
+        "R3C4-prix-some-guy.html",
+        "R3C5-prix-majinskaya.html",
+        "R3C6-prix-polytain.html",
+        "R3C7-prix-calahorra.html",
+        "R3C8-prix-card-king.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-boxing-day.html",
+        "R4C2-prix-cardmania.html",
+        "R4C3-prix-alips.html",
+        "R4C4-prix-some-guy.html",
+        "R4C5-prix-majinskaya.html",
+        "R4C6-prix-polytain.html",
+        "R4C7-prix-calahorra.html",
+        "R4C8-prix-card-king.html"
+      ],
+      "R5-amiens": [
+        "R5C1-prix-boxing-day.html",
+        "R5C2-prix-cardmania.html",
+        "R5C3-prix-alips.html",
+        "R5C4-prix-some-guy.html",
+        "R5C5-prix-majinskaya.html",
+        "R5C6-prix-polytain.html",
+        "R5C7-prix-calahorra.html",
+        "R5C8-prix-card-king.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-boxing-day.html",
+        "R6C2-prix-cardmania.html",
+        "R6C3-prix-alips.html",
+        "R6C4-prix-some-guy.html",
+        "R6C5-prix-majinskaya.html",
+        "R6C6-prix-polytain.html",
+        "R6C7-prix-calahorra.html",
+        "R6C8-prix-card-king.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:40.917517Z"
+}

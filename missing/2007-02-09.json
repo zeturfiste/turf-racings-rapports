@@ -1,0 +1,88 @@
+{
+  "date": "2007-02-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/02/2007-02-09",
+    "date_html": "resultats-et-rapports/2007/02/2007-02-09/2007-02-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/02/2007-02-09/R1-cagnes-sur-mer/R1C2-prix-mon-tourbillon.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C1-prix-lurabo.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C3-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C4-prix-ideal-du-gazeau.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C5-prix-varenne.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C7-prix-biesolo.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R2-enghien-soisy/R2C8-prix-high-echelon.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C1-prix-lurabo.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C2-prix-mon-tourbillon.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C3-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C4-prix-ideal-du-gazeau.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C5-prix-varenne.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C7-prix-biesolo.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R21-zerace/R21C8-prix-high-echelon.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R42-enghien/R42C2-prix-mon-tourbillon.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R42-enghien/R42C3-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R42-enghien/R42C5-prix-varenne.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R42-enghien/R42C6-prix-hymour.html",
+      "resultats-et-rapports/2007/02/2007-02-09/R42-enghien/R42C7-prix-biesolo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-enghien-soisy",
+      "R21-zerace",
+      "R42-enghien"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-lurabo.html",
+        "R1C2-prix-mon-tourbillon.html",
+        "R1C3-prix-geny-courses-36-01.html",
+        "R1C4-prix-ideal-du-gazeau.html",
+        "R1C5-prix-varenne.html",
+        "R1C6-prix-hymour.html",
+        "R1C7-prix-biesolo.html",
+        "R1C8-prix-high-echelon.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-lurabo.html",
+        "R2C2-prix-mon-tourbillon.html",
+        "R2C3-prix-geny-courses-36-01.html",
+        "R2C4-prix-ideal-du-gazeau.html",
+        "R2C5-prix-varenne.html",
+        "R2C6-prix-hymour.html",
+        "R2C7-prix-biesolo.html",
+        "R2C8-prix-high-echelon.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-lurabo.html",
+        "R21C2-prix-mon-tourbillon.html",
+        "R21C3-prix-geny-courses-36-01.html",
+        "R21C4-prix-ideal-du-gazeau.html",
+        "R21C5-prix-varenne.html",
+        "R21C6-prix-hymour.html",
+        "R21C7-prix-biesolo.html",
+        "R21C8-prix-high-echelon.html"
+      ],
+      "R42-enghien": [
+        "R42C1-prix-lurabo.html",
+        "R42C2-prix-mon-tourbillon.html",
+        "R42C3-prix-geny-courses-36-01.html",
+        "R42C4-prix-ideal-du-gazeau.html",
+        "R42C5-prix-varenne.html",
+        "R42C6-prix-hymour.html",
+        "R42C7-prix-biesolo.html",
+        "R42C8-prix-high-echelon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:17.592123Z"
+}

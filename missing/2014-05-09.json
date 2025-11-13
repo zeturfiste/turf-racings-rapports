@@ -1,0 +1,101 @@
+{
+  "date": "2014-05-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/05/2014-05-09",
+    "date_html": "resultats-et-rapports/2014/05/2014-05-09/2014-05-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C1-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C2-prix-maubourguet.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C3-prix-de-pouilly.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C4-prix-pansa.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C5-prix-regalia.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R1-auteuil/R1C6-prix-fauche-le-pre.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R2-meslay-du-maine/R2C1-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R2-meslay-du-maine/R2C2-prix-maubourguet.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C1-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C2-prix-maubourguet.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C4-prix-pansa.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C5-prix-regalia.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C6-prix-fauche-le-pre.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R4-vincennes/R4C7-prix-andrea.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C1-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C2-prix-maubourguet.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C3-prix-de-pouilly.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C4-prix-pansa.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C5-prix-regalia.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C6-prix-fauche-le-pre.html",
+      "resultats-et-rapports/2014/05/2014-05-09/R5-toulouse/R5C8-prix-pretentaine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-meslay-du-maine",
+      "R3-lyon-parilly",
+      "R4-vincennes",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-wild-monarch-pouliches.html",
+        "R1C2-prix-maubourguet.html",
+        "R1C3-prix-de-pouilly.html",
+        "R1C4-prix-pansa.html",
+        "R1C5-prix-regalia.html",
+        "R1C6-prix-fauche-le-pre.html",
+        "R1C7-prix-andrea.html",
+        "R1C8-prix-pretentaine.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-wild-monarch-pouliches.html",
+        "R2C2-prix-maubourguet.html",
+        "R2C3-prix-de-pouilly.html",
+        "R2C4-prix-pansa.html",
+        "R2C5-prix-regalia.html",
+        "R2C6-prix-fauche-le-pre.html",
+        "R2C7-prix-andrea.html",
+        "R2C8-prix-pretentaine.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-wild-monarch-pouliches.html",
+        "R3C2-prix-maubourguet.html",
+        "R3C3-prix-de-pouilly.html",
+        "R3C4-prix-pansa.html",
+        "R3C5-prix-regalia.html",
+        "R3C6-prix-fauche-le-pre.html",
+        "R3C7-prix-andrea.html",
+        "R3C8-prix-pretentaine.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-wild-monarch-pouliches.html",
+        "R4C2-prix-maubourguet.html",
+        "R4C3-prix-de-pouilly.html",
+        "R4C4-prix-pansa.html",
+        "R4C5-prix-regalia.html",
+        "R4C6-prix-fauche-le-pre.html",
+        "R4C7-prix-andrea.html",
+        "R4C8-prix-pretentaine.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-wild-monarch-pouliches.html",
+        "R5C2-prix-maubourguet.html",
+        "R5C3-prix-de-pouilly.html",
+        "R5C4-prix-pansa.html",
+        "R5C5-prix-regalia.html",
+        "R5C6-prix-fauche-le-pre.html",
+        "R5C7-prix-andrea.html",
+        "R5C8-prix-pretentaine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:38.651869Z"
+}

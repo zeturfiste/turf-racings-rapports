@@ -1,0 +1,64 @@
+{
+  "date": "2015-03-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-20",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-20/2015-03-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-20/R3-vincennes/R3C6-prix-de-biscarrosse.html",
+      "resultats-et-rapports/2015/03/2015-03-20/R3-vincennes/R3C7-prix-du-docteur-jacques-mauze.html",
+      "resultats-et-rapports/2015/03/2015-03-20/R3-vincennes/R3C9-prix-du-palais-rohan.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-teste-de-buch",
+      "R2-lyon-parilly",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-la-teste-de-buch": [
+        "R1C1-prix-du-haras-d-ayguemorte.html",
+        "R1C2-prix-jean-louis-hiss.html",
+        "R1C3-prix-d-ares-premier-peloton.html",
+        "R1C4-prix-montesquieu.html",
+        "R1C5-prix-d-ares-deuxieme-peloton.html",
+        "R1C6-prix-de-biscarrosse.html",
+        "R1C7-prix-du-docteur-jacques-mauze.html",
+        "R1C8-prix-georges-regis.html",
+        "R1C9-prix-du-palais-rohan.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-du-haras-d-ayguemorte.html",
+        "R2C2-prix-jean-louis-hiss.html",
+        "R2C3-prix-d-ares-premier-peloton.html",
+        "R2C4-prix-montesquieu.html",
+        "R2C5-prix-d-ares-deuxieme-peloton.html",
+        "R2C6-prix-de-biscarrosse.html",
+        "R2C7-prix-du-docteur-jacques-mauze.html",
+        "R2C8-prix-georges-regis.html",
+        "R2C9-prix-du-palais-rohan.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-haras-d-ayguemorte.html",
+        "R3C2-prix-jean-louis-hiss.html",
+        "R3C3-prix-d-ares-premier-peloton.html",
+        "R3C4-prix-montesquieu.html",
+        "R3C5-prix-d-ares-deuxieme-peloton.html",
+        "R3C6-prix-de-biscarrosse.html",
+        "R3C7-prix-du-docteur-jacques-mauze.html",
+        "R3C8-prix-georges-regis.html",
+        "R3C9-prix-du-palais-rohan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:17.174199Z"
+}

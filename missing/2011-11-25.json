@@ -1,0 +1,79 @@
+{
+  "date": "2011-11-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-25",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-25/2011-11-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-25/R1-bordeaux-le-bouscat/R1C4-prix-de-floirac-deuxieme-peloton.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R1-bordeaux-le-bouscat/R1C7-prix-bertrand-du-vivier.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R1-bordeaux-le-bouscat/R1C8-prix-chateau-caillivet.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R1-bordeaux-le-bouscat/R1C9-prix-amedee-de-carayon-latour.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C1-prix-fernand-soubagne.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C2-prix-de-floirac-premier-peloton.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C3-prix-de-virelade.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C4-prix-de-floirac-deuxieme-peloton.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C6-prix-caid.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C7-prix-bertrand-du-vivier.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C8-prix-chateau-caillivet.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R2-lyon-la-soie/R2C9-prix-amedee-de-carayon-latour.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C1-prix-fernand-soubagne.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C2-prix-de-floirac-premier-peloton.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C3-prix-de-virelade.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C4-prix-de-floirac-deuxieme-peloton.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C5-prix-pierre-baggio.html",
+      "resultats-et-rapports/2011/11/2011-11-25/R3-vincennes/R3C8-prix-chateau-caillivet.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-lyon-la-soie",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-fernand-soubagne.html",
+        "R1C2-prix-de-floirac-premier-peloton.html",
+        "R1C3-prix-de-virelade.html",
+        "R1C4-prix-de-floirac-deuxieme-peloton.html",
+        "R1C5-prix-pierre-baggio.html",
+        "R1C6-prix-caid.html",
+        "R1C7-prix-bertrand-du-vivier.html",
+        "R1C8-prix-chateau-caillivet.html",
+        "R1C9-prix-amedee-de-carayon-latour.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-fernand-soubagne.html",
+        "R2C2-prix-de-floirac-premier-peloton.html",
+        "R2C3-prix-de-virelade.html",
+        "R2C4-prix-de-floirac-deuxieme-peloton.html",
+        "R2C5-prix-pierre-baggio.html",
+        "R2C6-prix-caid.html",
+        "R2C7-prix-bertrand-du-vivier.html",
+        "R2C8-prix-chateau-caillivet.html",
+        "R2C9-prix-amedee-de-carayon-latour.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-fernand-soubagne.html",
+        "R3C2-prix-de-floirac-premier-peloton.html",
+        "R3C3-prix-de-virelade.html",
+        "R3C4-prix-de-floirac-deuxieme-peloton.html",
+        "R3C5-prix-pierre-baggio.html",
+        "R3C6-prix-caid.html",
+        "R3C7-prix-bertrand-du-vivier.html",
+        "R3C8-prix-chateau-caillivet.html",
+        "R3C9-prix-amedee-de-carayon-latour.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:17.339239Z"
+}

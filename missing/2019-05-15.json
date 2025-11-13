@@ -1,0 +1,61 @@
+{
+  "date": "2019-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/05/2019-05-15",
+    "date_html": "resultats-et-rapports/2019/05/2019-05-15/2019-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/05/2019-05-15/R2-maisons-laffitte/R2C5-prix-hubert-hardy.html",
+      "resultats-et-rapports/2019/05/2019-05-15/R2-maisons-laffitte/R2C8-prix-de-la-touques.html",
+      "resultats-et-rapports/2019/05/2019-05-15/R4-marseille-borely/R4C8-prix-de-la-touques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-maisons-laffitte",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-georges-dreux.html",
+        "R1C2-saint-leger-des-trotteurs.html",
+        "R1C3-prix-de-la-ville-de-caen.html",
+        "R1C4-prix-du-calvados.html",
+        "R1C5-prix-hubert-hardy.html",
+        "R1C6-prix-des-ducs-de-normandie.html",
+        "R1C7-prix-henri-balliere.html",
+        "R1C8-prix-de-la-touques.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-georges-dreux.html",
+        "R2C2-saint-leger-des-trotteurs.html",
+        "R2C3-prix-de-la-ville-de-caen.html",
+        "R2C4-prix-du-calvados.html",
+        "R2C5-prix-hubert-hardy.html",
+        "R2C6-prix-des-ducs-de-normandie.html",
+        "R2C7-prix-henri-balliere.html",
+        "R2C8-prix-de-la-touques.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-georges-dreux.html",
+        "R4C2-saint-leger-des-trotteurs.html",
+        "R4C3-prix-de-la-ville-de-caen.html",
+        "R4C4-prix-du-calvados.html",
+        "R4C5-prix-hubert-hardy.html",
+        "R4C6-prix-des-ducs-de-normandie.html",
+        "R4C7-prix-henri-balliere.html",
+        "R4C8-prix-de-la-touques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:05:24.759518Z"
+}

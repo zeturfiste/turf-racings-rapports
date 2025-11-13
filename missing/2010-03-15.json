@@ -1,0 +1,111 @@
+{
+  "date": "2010-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/03/2010-03-15",
+    "date_html": "resultats-et-rapports/2010/03/2010-03-15/2010-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C1-prix-de-picardie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C2-prix-de-verberie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C4-prix-du-polygone.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C5-prix-du-vermandois.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C6-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C7-prix-rene-romanet.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R1-compiegne/R1C8-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C1-prix-de-picardie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C2-prix-de-verberie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C4-prix-du-polygone.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C5-prix-du-vermandois.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C6-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C7-prix-rene-romanet.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R2-marseille-borely/R2C8-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C1-prix-de-picardie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C2-prix-de-verberie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C4-prix-du-polygone.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C5-prix-du-vermandois.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C6-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R4-bordeaux-le-bouscat/R4C7-prix-rene-romanet.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C1-prix-de-picardie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C2-prix-de-verberie.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C4-prix-du-polygone.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C5-prix-du-vermandois.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C6-prix-du-puits-d-antin.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C7-prix-rene-romanet.html",
+      "resultats-et-rapports/2010/03/2010-03-15/R31-zerace/R31C8-prix-de-la-federation-du-nord.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-marseille-borely",
+      "R4-bordeaux-le-bouscat",
+      "R31-zerace",
+      "R70-saint-symphorien-metz"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-picardie.html",
+        "R1C2-prix-de-verberie.html",
+        "R1C3-prix-de-mercieres.html",
+        "R1C4-prix-du-polygone.html",
+        "R1C5-prix-du-vermandois.html",
+        "R1C6-prix-du-puits-d-antin.html",
+        "R1C7-prix-rene-romanet.html",
+        "R1C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-picardie.html",
+        "R2C2-prix-de-verberie.html",
+        "R2C3-prix-de-mercieres.html",
+        "R2C4-prix-du-polygone.html",
+        "R2C5-prix-du-vermandois.html",
+        "R2C6-prix-du-puits-d-antin.html",
+        "R2C7-prix-rene-romanet.html",
+        "R2C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-de-picardie.html",
+        "R4C2-prix-de-verberie.html",
+        "R4C3-prix-de-mercieres.html",
+        "R4C4-prix-du-polygone.html",
+        "R4C5-prix-du-vermandois.html",
+        "R4C6-prix-du-puits-d-antin.html",
+        "R4C7-prix-rene-romanet.html",
+        "R4C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-picardie.html",
+        "R31C2-prix-de-verberie.html",
+        "R31C3-prix-de-mercieres.html",
+        "R31C4-prix-du-polygone.html",
+        "R31C5-prix-du-vermandois.html",
+        "R31C6-prix-du-puits-d-antin.html",
+        "R31C7-prix-rene-romanet.html",
+        "R31C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R70-saint-symphorien-metz": [
+        "R70C1-prix-de-picardie.html",
+        "R70C2-prix-de-verberie.html",
+        "R70C3-prix-de-mercieres.html",
+        "R70C4-prix-du-polygone.html",
+        "R70C5-prix-du-vermandois.html",
+        "R70C6-prix-du-puits-d-antin.html",
+        "R70C7-prix-rene-romanet.html",
+        "R70C8-prix-de-la-federation-du-nord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:47:49.388601Z"
+}

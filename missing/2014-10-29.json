@@ -1,0 +1,112 @@
+{
+  "date": "2014-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-29",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-29/2014-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C1-prix-de-bellerive.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C2-prix-de-soulac.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C4-prix-de-maure-de-bretagne-groupe-a.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C5-prix-du-cher.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C6-prix-de-maure-de-bretagne-groupe-b.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C7-prix-reynolds.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R1-vincennes/R1C9-prix-de-fouilloy.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R2-maisons-laffitte/R2C1-prix-de-bellerive.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R2-maisons-laffitte/R2C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R2-maisons-laffitte/R2C6-prix-de-maure-de-bretagne-groupe-b.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R2-maisons-laffitte/R2C8-prix-des-clematites.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R3-toulouse/R3C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R3-toulouse/R3C4-prix-de-maure-de-bretagne-groupe-a.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R3-toulouse/R3C7-prix-reynolds.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C1-prix-de-bellerive.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C2-prix-de-soulac.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C4-prix-de-maure-de-bretagne-groupe-a.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C5-prix-du-cher.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C7-prix-reynolds.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R7-caen/R7C9-prix-de-fouilloy.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C2-prix-de-soulac.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C4-prix-de-maure-de-bretagne-groupe-a.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C5-prix-du-cher.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C7-prix-reynolds.html",
+      "resultats-et-rapports/2014/10/2014-10-29/R8-marseille-borely/R8C8-prix-des-clematites.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-maisons-laffitte",
+      "R3-toulouse",
+      "R7-caen",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bellerive.html",
+        "R1C2-prix-de-soulac.html",
+        "R1C3-prix-des-cevennes.html",
+        "R1C4-prix-de-maure-de-bretagne-groupe-a.html",
+        "R1C5-prix-du-cher.html",
+        "R1C6-prix-de-maure-de-bretagne-groupe-b.html",
+        "R1C7-prix-reynolds.html",
+        "R1C8-prix-des-clematites.html",
+        "R1C9-prix-de-fouilloy.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-de-bellerive.html",
+        "R2C2-prix-de-soulac.html",
+        "R2C3-prix-des-cevennes.html",
+        "R2C4-prix-de-maure-de-bretagne-groupe-a.html",
+        "R2C5-prix-du-cher.html",
+        "R2C6-prix-de-maure-de-bretagne-groupe-b.html",
+        "R2C7-prix-reynolds.html",
+        "R2C8-prix-des-clematites.html",
+        "R2C9-prix-de-fouilloy.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-bellerive.html",
+        "R3C2-prix-de-soulac.html",
+        "R3C3-prix-des-cevennes.html",
+        "R3C4-prix-de-maure-de-bretagne-groupe-a.html",
+        "R3C5-prix-du-cher.html",
+        "R3C6-prix-de-maure-de-bretagne-groupe-b.html",
+        "R3C7-prix-reynolds.html",
+        "R3C8-prix-des-clematites.html",
+        "R3C9-prix-de-fouilloy.html"
+      ],
+      "R7-caen": [
+        "R7C1-prix-de-bellerive.html",
+        "R7C2-prix-de-soulac.html",
+        "R7C3-prix-des-cevennes.html",
+        "R7C4-prix-de-maure-de-bretagne-groupe-a.html",
+        "R7C5-prix-du-cher.html",
+        "R7C6-prix-de-maure-de-bretagne-groupe-b.html",
+        "R7C7-prix-reynolds.html",
+        "R7C8-prix-des-clematites.html",
+        "R7C9-prix-de-fouilloy.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-prix-de-bellerive.html",
+        "R8C2-prix-de-soulac.html",
+        "R8C3-prix-des-cevennes.html",
+        "R8C4-prix-de-maure-de-bretagne-groupe-a.html",
+        "R8C5-prix-du-cher.html",
+        "R8C6-prix-de-maure-de-bretagne-groupe-b.html",
+        "R8C7-prix-reynolds.html",
+        "R8C8-prix-des-clematites.html",
+        "R8C9-prix-de-fouilloy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:56:38.092507Z"
+}

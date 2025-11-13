@@ -1,0 +1,64 @@
+{
+  "date": "2006-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-10",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-10/2006-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-rouen",
+      "R3-vincennes",
+      "R30-gerland-lyon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-kerlor.html",
+        "R1C2-prix-lycoming.html",
+        "R1C3-prix-fazalrego.html",
+        "R1C4-prix-triquerville.html",
+        "R1C5-prix-cerealiste.html",
+        "R1C6-prix-coq-gaulois.html",
+        "R1C7-prix-de-la-croix-dauphine.html"
+      ],
+      "R2-rouen": [
+        "R2C1-prix-kerlor.html",
+        "R2C2-prix-lycoming.html",
+        "R2C3-prix-fazalrego.html",
+        "R2C4-prix-triquerville.html",
+        "R2C5-prix-cerealiste.html",
+        "R2C6-prix-coq-gaulois.html",
+        "R2C7-prix-de-la-croix-dauphine.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-kerlor.html",
+        "R3C2-prix-lycoming.html",
+        "R3C3-prix-fazalrego.html",
+        "R3C4-prix-triquerville.html",
+        "R3C5-prix-cerealiste.html",
+        "R3C6-prix-coq-gaulois.html",
+        "R3C7-prix-de-la-croix-dauphine.html"
+      ],
+      "R30-gerland-lyon": [
+        "R30C1-prix-kerlor.html",
+        "R30C2-prix-lycoming.html",
+        "R30C3-prix-fazalrego.html",
+        "R30C4-prix-triquerville.html",
+        "R30C5-prix-cerealiste.html",
+        "R30C6-prix-coq-gaulois.html",
+        "R30C7-prix-de-la-croix-dauphine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:51.883153Z"
+}

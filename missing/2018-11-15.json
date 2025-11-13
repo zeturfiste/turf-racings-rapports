@@ -1,0 +1,75 @@
+{
+  "date": "2018-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/11/2018-11-15",
+    "date_html": "resultats-et-rapports/2018/11/2018-11-15/2018-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/11/2018-11-15/R1-fontainebleau/R1C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R1-fontainebleau/R1C6-prix-de-la-touche-aux-mulets-premier-peloton.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C1-prix-du-conseil-departemental-de-seine-et-marne.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C2-prix-contessina.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C7-prix-ceres.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C8-prix-d-evry.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R3-vincennes/R3C9-prix-de-vichy.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R4-reims/R4C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R4-reims/R4C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R4-reims/R4C6-prix-de-la-touche-aux-mulets-premier-peloton.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R4-reims/R4C7-prix-ceres.html",
+      "resultats-et-rapports/2018/11/2018-11-15/R4-reims/R4C8-prix-d-evry.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-vincennes",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-conseil-departemental-de-seine-et-marne.html",
+        "R1C2-prix-contessina.html",
+        "R1C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+        "R1C4-prix-hubert-de-catheu.html",
+        "R1C5-prix-du-mont-pierreux.html",
+        "R1C6-prix-de-la-touche-aux-mulets-premier-peloton.html",
+        "R1C7-prix-ceres.html",
+        "R1C8-prix-d-evry.html",
+        "R1C9-prix-de-vichy.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-conseil-departemental-de-seine-et-marne.html",
+        "R3C2-prix-contessina.html",
+        "R3C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+        "R3C4-prix-hubert-de-catheu.html",
+        "R3C5-prix-du-mont-pierreux.html",
+        "R3C6-prix-de-la-touche-aux-mulets-premier-peloton.html",
+        "R3C7-prix-ceres.html",
+        "R3C8-prix-d-evry.html",
+        "R3C9-prix-de-vichy.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-du-conseil-departemental-de-seine-et-marne.html",
+        "R4C2-prix-contessina.html",
+        "R4C3-prix-de-la-touche-aux-mulets-deuxieme-peloton.html",
+        "R4C4-prix-hubert-de-catheu.html",
+        "R4C5-prix-du-mont-pierreux.html",
+        "R4C6-prix-de-la-touche-aux-mulets-premier-peloton.html",
+        "R4C7-prix-ceres.html",
+        "R4C8-prix-d-evry.html",
+        "R4C9-prix-de-vichy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:30.517214Z"
+}

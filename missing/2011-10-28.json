@@ -1,0 +1,70 @@
+{
+  "date": "2011-10-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-28",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-28/2011-10-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-28/R1-longchamp/R1C6-prix-du-moulin-a-vent.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R1-longchamp/R1C7-prix-du-musee-des-arts-decoratifs.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R1-longchamp/R1C8-prix-du-pre-aux-clercs.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C1-prix-du-lendit.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C2-criterium-de-vitesse.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C3-prix-de-la-harpe.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C4-prix-de-la-roseraie.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C5-prix-casimir-delamarre.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C6-prix-du-moulin-a-vent.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C7-prix-du-musee-des-arts-decoratifs.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R2-fontainebleau/R2C8-prix-du-pre-aux-clercs.html",
+      "resultats-et-rapports/2011/10/2011-10-28/R3-vincennes/R3C8-prix-du-pre-aux-clercs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-fontainebleau",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-lendit.html",
+        "R1C2-criterium-de-vitesse.html",
+        "R1C3-prix-de-la-harpe.html",
+        "R1C4-prix-de-la-roseraie.html",
+        "R1C5-prix-casimir-delamarre.html",
+        "R1C6-prix-du-moulin-a-vent.html",
+        "R1C7-prix-du-musee-des-arts-decoratifs.html",
+        "R1C8-prix-du-pre-aux-clercs.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-du-lendit.html",
+        "R2C2-criterium-de-vitesse.html",
+        "R2C3-prix-de-la-harpe.html",
+        "R2C4-prix-de-la-roseraie.html",
+        "R2C5-prix-casimir-delamarre.html",
+        "R2C6-prix-du-moulin-a-vent.html",
+        "R2C7-prix-du-musee-des-arts-decoratifs.html",
+        "R2C8-prix-du-pre-aux-clercs.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-lendit.html",
+        "R3C2-criterium-de-vitesse.html",
+        "R3C3-prix-de-la-harpe.html",
+        "R3C4-prix-de-la-roseraie.html",
+        "R3C5-prix-casimir-delamarre.html",
+        "R3C6-prix-du-moulin-a-vent.html",
+        "R3C7-prix-du-musee-des-arts-decoratifs.html",
+        "R3C8-prix-du-pre-aux-clercs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:09.158355Z"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2005-06-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-17",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-17/2005-06-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-petrarch.html",
+        "R1C2-prix-sylvan.html",
+        "R1C3-prix-cerisoles.html",
+        "R1C4-prix-idalie.html",
+        "R1C5-prix-indus.html",
+        "R1C6-prix-de-pringy.html",
+        "R1C7-york-coronation-stakes.html",
+        "R1C8-prix-de-villepreux.html",
+        "R1C9-prix-du-mesnil.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-petrarch.html",
+        "R2C2-prix-sylvan.html",
+        "R2C3-prix-cerisoles.html",
+        "R2C4-prix-idalie.html",
+        "R2C5-prix-indus.html",
+        "R2C6-prix-de-pringy.html",
+        "R2C7-york-coronation-stakes.html",
+        "R2C8-prix-de-villepreux.html",
+        "R2C9-prix-du-mesnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:08.999735Z"
+}

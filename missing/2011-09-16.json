@@ -1,0 +1,101 @@
+{
+  "date": "2011-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-16",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-16/2011-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C1-prix-pearl-cap.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C2-prix-le-capucin.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C5-prix-de-saint-forget.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C6-prix-d-inval.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C7-prix-de-forges-les-eaux.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R2-lyon-parilly/R2C8-prix-de-neaufles-saint-martin.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R3-vincennes/R3C1-prix-pearl-cap.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R3-vincennes/R3C2-prix-le-capucin.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R3-vincennes/R3C3-prix-de-saint-lambert.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R3-vincennes/R3C4-prix-hula-dancer.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R3-vincennes/R3C7-prix-de-forges-les-eaux.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C2-prix-le-capucin.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C3-prix-de-saint-lambert.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C4-prix-hula-dancer.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C5-prix-de-saint-forget.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C6-prix-d-inval.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C7-prix-de-forges-les-eaux.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R5-laval/R5C8-prix-de-neaufles-saint-martin.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R6-toulouse/R6C3-prix-de-saint-lambert.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R6-toulouse/R6C4-prix-hula-dancer.html",
+      "resultats-et-rapports/2011/09/2011-09-16/R6-toulouse/R6C5-prix-de-saint-forget.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R5-laval",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-pearl-cap.html",
+        "R1C2-prix-le-capucin.html",
+        "R1C3-prix-de-saint-lambert.html",
+        "R1C4-prix-hula-dancer.html",
+        "R1C5-prix-de-saint-forget.html",
+        "R1C6-prix-d-inval.html",
+        "R1C7-prix-de-forges-les-eaux.html",
+        "R1C8-prix-de-neaufles-saint-martin.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-pearl-cap.html",
+        "R2C2-prix-le-capucin.html",
+        "R2C3-prix-de-saint-lambert.html",
+        "R2C4-prix-hula-dancer.html",
+        "R2C5-prix-de-saint-forget.html",
+        "R2C6-prix-d-inval.html",
+        "R2C7-prix-de-forges-les-eaux.html",
+        "R2C8-prix-de-neaufles-saint-martin.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pearl-cap.html",
+        "R3C2-prix-le-capucin.html",
+        "R3C3-prix-de-saint-lambert.html",
+        "R3C4-prix-hula-dancer.html",
+        "R3C5-prix-de-saint-forget.html",
+        "R3C6-prix-d-inval.html",
+        "R3C7-prix-de-forges-les-eaux.html",
+        "R3C8-prix-de-neaufles-saint-martin.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-pearl-cap.html",
+        "R5C2-prix-le-capucin.html",
+        "R5C3-prix-de-saint-lambert.html",
+        "R5C4-prix-hula-dancer.html",
+        "R5C5-prix-de-saint-forget.html",
+        "R5C6-prix-d-inval.html",
+        "R5C7-prix-de-forges-les-eaux.html",
+        "R5C8-prix-de-neaufles-saint-martin.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-pearl-cap.html",
+        "R6C2-prix-le-capucin.html",
+        "R6C3-prix-de-saint-lambert.html",
+        "R6C4-prix-hula-dancer.html",
+        "R6C5-prix-de-saint-forget.html",
+        "R6C6-prix-d-inval.html",
+        "R6C7-prix-de-forges-les-eaux.html",
+        "R6C8-prix-de-neaufles-saint-martin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:50:56.929544Z"
+}

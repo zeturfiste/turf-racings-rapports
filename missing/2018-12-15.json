@@ -1,0 +1,84 @@
+{
+  "date": "2018-12-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-15",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-15/2018-12-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-15/R3-deauville/R3C1-prix-d-apt.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R3-deauville/R3C5-prix-oscar-collard-prix-de-reims.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R4-cagnes-sur-mer/R4C7-prix-de-manciet.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R4-cagnes-sur-mer/R4C8-prix-de-parthenay.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C1-prix-d-apt.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C3-prix-de-langeac.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C4-prix-michel-thoury-prix-de-saint-james.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C5-prix-oscar-collard-prix-de-reims.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C6-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C7-prix-de-manciet.html",
+      "resultats-et-rapports/2018/12/2018-12-15/R5-lyon-la-soie/R5C8-prix-de-parthenay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-cagnes-sur-mer",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-apt.html",
+        "R1C2-prix-jules-lepennetier.html",
+        "R1C3-prix-de-langeac.html",
+        "R1C4-prix-michel-thoury-prix-de-saint-james.html",
+        "R1C5-prix-oscar-collard-prix-de-reims.html",
+        "R1C6-prix-general-du-pommeau.html",
+        "R1C7-prix-de-manciet.html",
+        "R1C8-prix-de-parthenay.html",
+        "R1C9-prix-de-thouars.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-d-apt.html",
+        "R3C2-prix-jules-lepennetier.html",
+        "R3C3-prix-de-langeac.html",
+        "R3C4-prix-michel-thoury-prix-de-saint-james.html",
+        "R3C5-prix-oscar-collard-prix-de-reims.html",
+        "R3C6-prix-general-du-pommeau.html",
+        "R3C7-prix-de-manciet.html",
+        "R3C8-prix-de-parthenay.html",
+        "R3C9-prix-de-thouars.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-d-apt.html",
+        "R4C2-prix-jules-lepennetier.html",
+        "R4C3-prix-de-langeac.html",
+        "R4C4-prix-michel-thoury-prix-de-saint-james.html",
+        "R4C5-prix-oscar-collard-prix-de-reims.html",
+        "R4C6-prix-general-du-pommeau.html",
+        "R4C7-prix-de-manciet.html",
+        "R4C8-prix-de-parthenay.html",
+        "R4C9-prix-de-thouars.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-d-apt.html",
+        "R5C2-prix-jules-lepennetier.html",
+        "R5C3-prix-de-langeac.html",
+        "R5C4-prix-michel-thoury-prix-de-saint-james.html",
+        "R5C5-prix-oscar-collard-prix-de-reims.html",
+        "R5C6-prix-general-du-pommeau.html",
+        "R5C7-prix-de-manciet.html",
+        "R5C8-prix-de-parthenay.html",
+        "R5C9-prix-de-thouars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:39.733017Z"
+}

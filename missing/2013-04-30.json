@@ -1,0 +1,88 @@
+{
+  "date": "2013-04-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-30",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-30/2013-04-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C1-prix-du-pays-nicois-prix-christian-pallandre.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C2-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C3-prix-de-belle-ile.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C4-prix-du-morvan.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C5-prix-de-la-champagne.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C6-prix-de-la-durance.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C7-prix-du-loiret.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R1-lyon-parilly/R1C8-prix-de-touraine.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C2-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C3-prix-de-belle-ile.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C4-prix-du-morvan.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C5-prix-de-la-champagne.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C6-prix-de-la-durance.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C7-prix-du-loiret.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R2-enghien-soisy/R2C8-prix-de-touraine.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R4-vincennes/R4C3-prix-de-belle-ile.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R4-vincennes/R4C6-prix-de-la-durance.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R4-vincennes/R4C7-prix-du-loiret.html",
+      "resultats-et-rapports/2013/04/2013-04-30/R4-vincennes/R4C8-prix-de-touraine.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-enghien-soisy",
+      "R3-lisieux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-du-pays-nicois-prix-christian-pallandre.html",
+        "R1C2-grand-prix-du-centre-est.html",
+        "R1C3-prix-de-belle-ile.html",
+        "R1C4-prix-du-morvan.html",
+        "R1C5-prix-de-la-champagne.html",
+        "R1C6-prix-de-la-durance.html",
+        "R1C7-prix-du-loiret.html",
+        "R1C8-prix-de-touraine.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-pays-nicois-prix-christian-pallandre.html",
+        "R2C2-grand-prix-du-centre-est.html",
+        "R2C3-prix-de-belle-ile.html",
+        "R2C4-prix-du-morvan.html",
+        "R2C5-prix-de-la-champagne.html",
+        "R2C6-prix-de-la-durance.html",
+        "R2C7-prix-du-loiret.html",
+        "R2C8-prix-de-touraine.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-du-pays-nicois-prix-christian-pallandre.html",
+        "R3C2-grand-prix-du-centre-est.html",
+        "R3C3-prix-de-belle-ile.html",
+        "R3C4-prix-du-morvan.html",
+        "R3C5-prix-de-la-champagne.html",
+        "R3C6-prix-de-la-durance.html",
+        "R3C7-prix-du-loiret.html",
+        "R3C8-prix-de-touraine.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-pays-nicois-prix-christian-pallandre.html",
+        "R4C2-grand-prix-du-centre-est.html",
+        "R4C3-prix-de-belle-ile.html",
+        "R4C4-prix-du-morvan.html",
+        "R4C5-prix-de-la-champagne.html",
+        "R4C6-prix-de-la-durance.html",
+        "R4C7-prix-du-loiret.html",
+        "R4C8-prix-de-touraine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:43.994224Z"
+}

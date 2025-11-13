@@ -1,0 +1,122 @@
+{
+  "date": "2016-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-04",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-04/2016-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C1-prix-du-musee-carnavalet.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C2-prix-du-musee-rodin.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C3-prix-du-pantheon.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C4-prix-du-palais-royal.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C5-prix-des-lilas.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R1-deauville/R1C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R3-marseille-borely/R3C1-prix-du-musee-carnavalet.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R3-marseille-borely/R3C5-prix-des-lilas.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R3-marseille-borely/R3C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R3-marseille-borely/R3C8-prix-du-colisee.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C1-prix-du-musee-carnavalet.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C3-prix-du-pantheon.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C4-prix-du-palais-royal.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C5-prix-des-lilas.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R4-argentan/R4C8-prix-du-colisee.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R5-vichy/R5C2-prix-du-musee-rodin.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R5-vichy/R5C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R5-vichy/R5C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R5-vichy/R5C8-prix-du-colisee.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R7-reims/R7C2-prix-du-musee-rodin.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R7-reims/R7C4-prix-du-palais-royal.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R7-reims/R7C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R7-reims/R7C8-prix-du-colisee.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R8-amiens/R8C4-prix-du-palais-royal.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R8-amiens/R8C5-prix-des-lilas.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R8-amiens/R8C6-prix-du-pre-saint-gervais.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R8-amiens/R8C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2016/06/2016-06-04/R8-amiens/R8C8-prix-du-colisee.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-marseille-borely",
+      "R4-argentan",
+      "R5-vichy",
+      "R7-reims",
+      "R8-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-musee-carnavalet.html",
+        "R1C2-prix-du-musee-rodin.html",
+        "R1C3-prix-du-pantheon.html",
+        "R1C4-prix-du-palais-royal.html",
+        "R1C5-prix-des-lilas.html",
+        "R1C6-prix-du-pre-saint-gervais.html",
+        "R1C7-prix-de-bellechasse.html",
+        "R1C8-prix-du-colisee.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-du-musee-carnavalet.html",
+        "R3C2-prix-du-musee-rodin.html",
+        "R3C3-prix-du-pantheon.html",
+        "R3C4-prix-du-palais-royal.html",
+        "R3C5-prix-des-lilas.html",
+        "R3C6-prix-du-pre-saint-gervais.html",
+        "R3C7-prix-de-bellechasse.html",
+        "R3C8-prix-du-colisee.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-du-musee-carnavalet.html",
+        "R4C2-prix-du-musee-rodin.html",
+        "R4C3-prix-du-pantheon.html",
+        "R4C4-prix-du-palais-royal.html",
+        "R4C5-prix-des-lilas.html",
+        "R4C6-prix-du-pre-saint-gervais.html",
+        "R4C7-prix-de-bellechasse.html",
+        "R4C8-prix-du-colisee.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-du-musee-carnavalet.html",
+        "R5C2-prix-du-musee-rodin.html",
+        "R5C3-prix-du-pantheon.html",
+        "R5C4-prix-du-palais-royal.html",
+        "R5C5-prix-des-lilas.html",
+        "R5C6-prix-du-pre-saint-gervais.html",
+        "R5C7-prix-de-bellechasse.html",
+        "R5C8-prix-du-colisee.html"
+      ],
+      "R7-reims": [
+        "R7C1-prix-du-musee-carnavalet.html",
+        "R7C2-prix-du-musee-rodin.html",
+        "R7C3-prix-du-pantheon.html",
+        "R7C4-prix-du-palais-royal.html",
+        "R7C5-prix-des-lilas.html",
+        "R7C6-prix-du-pre-saint-gervais.html",
+        "R7C7-prix-de-bellechasse.html",
+        "R7C8-prix-du-colisee.html"
+      ],
+      "R8-amiens": [
+        "R8C1-prix-du-musee-carnavalet.html",
+        "R8C2-prix-du-musee-rodin.html",
+        "R8C3-prix-du-pantheon.html",
+        "R8C4-prix-du-palais-royal.html",
+        "R8C5-prix-des-lilas.html",
+        "R8C6-prix-du-pre-saint-gervais.html",
+        "R8C7-prix-de-bellechasse.html",
+        "R8C8-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:35.530613Z"
+}

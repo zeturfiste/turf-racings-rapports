@@ -1,0 +1,78 @@
+{
+  "date": "2011-11-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-24",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-24/2011-11-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-24/R1-fontainebleau/R1C2-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R1-fontainebleau/R1C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R1-fontainebleau/R1C5-prix-contessina.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R1-fontainebleau/R1C9-prix-du-rocher-des-demoiselles.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C2-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C3-prix-zeddaan.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C5-prix-contessina.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C6-prix-du-pave-du-roy.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C7-prix-du-rocher-de-bouligny.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R2-vincennes/R2C9-prix-du-rocher-des-demoiselles.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C1-prix-de-la-touche-aux-mulets.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C2-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C3-prix-zeddaan.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C6-prix-du-pave-du-roy.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C7-prix-du-rocher-de-bouligny.html",
+      "resultats-et-rapports/2011/11/2011-11-24/R3-graignes/R3C8-prix-des-rochers-de-fontainebleau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-vincennes",
+      "R3-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-touche-aux-mulets.html",
+        "R1C2-prix-du-bois-notre-dame.html",
+        "R1C3-prix-zeddaan.html",
+        "R1C4-prix-hubert-de-catheu.html",
+        "R1C5-prix-contessina.html",
+        "R1C6-prix-du-pave-du-roy.html",
+        "R1C7-prix-du-rocher-de-bouligny.html",
+        "R1C8-prix-des-rochers-de-fontainebleau.html",
+        "R1C9-prix-du-rocher-des-demoiselles.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-touche-aux-mulets.html",
+        "R2C2-prix-du-bois-notre-dame.html",
+        "R2C3-prix-zeddaan.html",
+        "R2C4-prix-hubert-de-catheu.html",
+        "R2C5-prix-contessina.html",
+        "R2C6-prix-du-pave-du-roy.html",
+        "R2C7-prix-du-rocher-de-bouligny.html",
+        "R2C8-prix-des-rochers-de-fontainebleau.html",
+        "R2C9-prix-du-rocher-des-demoiselles.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-de-la-touche-aux-mulets.html",
+        "R3C2-prix-du-bois-notre-dame.html",
+        "R3C3-prix-zeddaan.html",
+        "R3C4-prix-hubert-de-catheu.html",
+        "R3C5-prix-contessina.html",
+        "R3C6-prix-du-pave-du-roy.html",
+        "R3C7-prix-du-rocher-de-bouligny.html",
+        "R3C8-prix-des-rochers-de-fontainebleau.html",
+        "R3C9-prix-du-rocher-des-demoiselles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:17.156365Z"
+}

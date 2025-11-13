@@ -1,0 +1,112 @@
+{
+  "date": "2016-06-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-05",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-05/2016-06-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C2-prix-du-gros-chene-equidia-live.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C3-prix-de-royaumont.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C4-prix-de-sandringham.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C5-prix-du-jockey-club.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R1-chantilly/R1C6-grand-prix-de-chantilly.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R2-saint-brieuc/R2C6-grand-prix-de-chantilly.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R4-dieppe/R4C6-grand-prix-de-chantilly.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R4-dieppe/R4C8-prix-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R5-durtal/R5C2-prix-du-gros-chene-equidia-live.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R5-durtal/R5C3-prix-de-royaumont.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R5-durtal/R5C5-prix-du-jockey-club.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R5-durtal/R5C7-prix-du-bois-brandin-presente-par-rmc.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R5-durtal/R5C8-prix-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C3-prix-de-royaumont.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C4-prix-de-sandringham.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C5-prix-du-jockey-club.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C6-grand-prix-de-chantilly.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C7-prix-du-bois-brandin-presente-par-rmc.html",
+      "resultats-et-rapports/2016/06/2016-06-05/R7-lyon-parilly/R7C8-prix-de-l-arbre-a-fougeres.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-saint-brieuc",
+      "R3-lignieres",
+      "R4-dieppe",
+      "R5-durtal",
+      "R7-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R1C2-prix-du-gros-chene-equidia-live.html",
+        "R1C3-prix-de-royaumont.html",
+        "R1C4-prix-de-sandringham.html",
+        "R1C5-prix-du-jockey-club.html",
+        "R1C6-grand-prix-de-chantilly.html",
+        "R1C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R1C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R2C2-prix-du-gros-chene-equidia-live.html",
+        "R2C3-prix-de-royaumont.html",
+        "R2C4-prix-de-sandringham.html",
+        "R2C5-prix-du-jockey-club.html",
+        "R2C6-grand-prix-de-chantilly.html",
+        "R2C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R2C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R3-lignieres": [
+        "R3C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R3C2-prix-du-gros-chene-equidia-live.html",
+        "R3C3-prix-de-royaumont.html",
+        "R3C4-prix-de-sandringham.html",
+        "R3C5-prix-du-jockey-club.html",
+        "R3C6-grand-prix-de-chantilly.html",
+        "R3C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R3C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R4C2-prix-du-gros-chene-equidia-live.html",
+        "R4C3-prix-de-royaumont.html",
+        "R4C4-prix-de-sandringham.html",
+        "R4C5-prix-du-jockey-club.html",
+        "R4C6-grand-prix-de-chantilly.html",
+        "R4C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R4C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R5-durtal": [
+        "R5C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R5C2-prix-du-gros-chene-equidia-live.html",
+        "R5C3-prix-de-royaumont.html",
+        "R5C4-prix-de-sandringham.html",
+        "R5C5-prix-du-jockey-club.html",
+        "R5C6-grand-prix-de-chantilly.html",
+        "R5C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R5C8-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R7-lyon-parilly": [
+        "R7C1-prix-de-la-goursaule-presente-par-equidia-live.html",
+        "R7C2-prix-du-gros-chene-equidia-live.html",
+        "R7C3-prix-de-royaumont.html",
+        "R7C4-prix-de-sandringham.html",
+        "R7C5-prix-du-jockey-club.html",
+        "R7C6-grand-prix-de-chantilly.html",
+        "R7C7-prix-du-bois-brandin-presente-par-rmc.html",
+        "R7C8-prix-de-l-arbre-a-fougeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:35.951521Z"
+}

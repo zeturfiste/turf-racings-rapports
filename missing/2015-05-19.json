@@ -1,0 +1,98 @@
+{
+  "date": "2015-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-19",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-19/2015-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-19/R1-longchamp/R1C2-prix-de-saint-james.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R1-longchamp/R1C3-prix-du-pantheon.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R1-longchamp/R1C7-prix-des-centaures.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R2-angers/R2C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R2-angers/R2C5-prix-de-sevres.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R2-angers/R2C6-prix-de-montretout.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R2-angers/R2C7-prix-des-centaures.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R3-hyeres/R3C4-prix-de-la-celle-saint-cloud.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R3-hyeres/R3C5-prix-de-sevres.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R4-pornichet-la-baule/R4C5-prix-de-sevres.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R4-pornichet-la-baule/R4C6-prix-de-montretout.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R4-pornichet-la-baule/R4C8-prix-du-colisee.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C1-prix-des-gobelins.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C2-prix-de-saint-james.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C4-prix-de-la-celle-saint-cloud.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C5-prix-de-sevres.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C6-prix-de-montretout.html",
+      "resultats-et-rapports/2015/05/2015-05-19/R5-vincennes/R5C7-prix-des-centaures.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-angers",
+      "R3-hyeres",
+      "R4-pornichet-la-baule",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-gobelins.html",
+        "R1C2-prix-de-saint-james.html",
+        "R1C3-prix-du-pantheon.html",
+        "R1C4-prix-de-la-celle-saint-cloud.html",
+        "R1C5-prix-de-sevres.html",
+        "R1C6-prix-de-montretout.html",
+        "R1C7-prix-des-centaures.html",
+        "R1C8-prix-du-colisee.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-gobelins.html",
+        "R2C2-prix-de-saint-james.html",
+        "R2C3-prix-du-pantheon.html",
+        "R2C4-prix-de-la-celle-saint-cloud.html",
+        "R2C5-prix-de-sevres.html",
+        "R2C6-prix-de-montretout.html",
+        "R2C7-prix-des-centaures.html",
+        "R2C8-prix-du-colisee.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-des-gobelins.html",
+        "R3C2-prix-de-saint-james.html",
+        "R3C3-prix-du-pantheon.html",
+        "R3C4-prix-de-la-celle-saint-cloud.html",
+        "R3C5-prix-de-sevres.html",
+        "R3C6-prix-de-montretout.html",
+        "R3C7-prix-des-centaures.html",
+        "R3C8-prix-du-colisee.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-des-gobelins.html",
+        "R4C2-prix-de-saint-james.html",
+        "R4C3-prix-du-pantheon.html",
+        "R4C4-prix-de-la-celle-saint-cloud.html",
+        "R4C5-prix-de-sevres.html",
+        "R4C6-prix-de-montretout.html",
+        "R4C7-prix-des-centaures.html",
+        "R4C8-prix-du-colisee.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-des-gobelins.html",
+        "R5C2-prix-de-saint-james.html",
+        "R5C3-prix-du-pantheon.html",
+        "R5C4-prix-de-la-celle-saint-cloud.html",
+        "R5C5-prix-de-sevres.html",
+        "R5C6-prix-de-montretout.html",
+        "R5C7-prix-des-centaures.html",
+        "R5C8-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:37.280499Z"
+}

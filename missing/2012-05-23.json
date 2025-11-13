@@ -1,0 +1,94 @@
+{
+  "date": "2012-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-23",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-23/2012-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C2-prix-transpole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C3-prix-henri-sion.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C4-prix-www-leprestigepalace-com.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C5-prix-meeting-athletisme-lille-metropole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C7-grand-prix-maxxing.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R1-le-croise-laroche/R1C8-prix-eqwos-fr-upect.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C1-grand-national-du-trot-5eme-etape.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C2-prix-transpole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C3-prix-henri-sion.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C5-prix-meeting-athletisme-lille-metropole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C6-5eme-etape-du-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R2-lyon-parilly/R2C8-prix-eqwos-fr-upect.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C1-grand-national-du-trot-5eme-etape.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C2-prix-transpole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C3-prix-henri-sion.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C4-prix-www-leprestigepalace-com.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C5-prix-meeting-athletisme-lille-metropole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C7-grand-prix-maxxing.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R3-chantilly/R3C8-prix-eqwos-fr-upect.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C1-grand-national-du-trot-5eme-etape.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C2-prix-transpole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C3-prix-henri-sion.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C5-prix-meeting-athletisme-lille-metropole.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C6-5eme-etape-du-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2012/05/2012-05-23/R4-marseille-borely/R4C8-prix-eqwos-fr-upect.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-croise-laroche",
+      "R2-lyon-parilly",
+      "R3-chantilly",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-le-croise-laroche": [
+        "R1C1-grand-national-du-trot-5eme-etape.html",
+        "R1C2-prix-transpole.html",
+        "R1C3-prix-henri-sion.html",
+        "R1C4-prix-www-leprestigepalace-com.html",
+        "R1C5-prix-meeting-athletisme-lille-metropole.html",
+        "R1C6-5eme-etape-du-grand-national-des-amateurs.html",
+        "R1C7-grand-prix-maxxing.html",
+        "R1C8-prix-eqwos-fr-upect.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-grand-national-du-trot-5eme-etape.html",
+        "R2C2-prix-transpole.html",
+        "R2C3-prix-henri-sion.html",
+        "R2C4-prix-www-leprestigepalace-com.html",
+        "R2C5-prix-meeting-athletisme-lille-metropole.html",
+        "R2C6-5eme-etape-du-grand-national-des-amateurs.html",
+        "R2C7-grand-prix-maxxing.html",
+        "R2C8-prix-eqwos-fr-upect.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot-5eme-etape.html",
+        "R3C2-prix-transpole.html",
+        "R3C3-prix-henri-sion.html",
+        "R3C4-prix-www-leprestigepalace-com.html",
+        "R3C5-prix-meeting-athletisme-lille-metropole.html",
+        "R3C6-5eme-etape-du-grand-national-des-amateurs.html",
+        "R3C7-grand-prix-maxxing.html",
+        "R3C8-prix-eqwos-fr-upect.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-grand-national-du-trot-5eme-etape.html",
+        "R4C2-prix-transpole.html",
+        "R4C3-prix-henri-sion.html",
+        "R4C4-prix-www-leprestigepalace-com.html",
+        "R4C5-prix-meeting-athletisme-lille-metropole.html",
+        "R4C6-5eme-etape-du-grand-national-des-amateurs.html",
+        "R4C7-grand-prix-maxxing.html",
+        "R4C8-prix-eqwos-fr-upect.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:05.520229Z"
+}

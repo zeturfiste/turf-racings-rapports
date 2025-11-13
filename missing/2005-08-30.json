@@ -1,0 +1,57 @@
+{
+  "date": "2005-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-30",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-30/2005-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vincennes",
+      "R3-waregem"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-bourillon.html",
+        "R1C2-prix-de-bertinval.html",
+        "R1C3-prix-du-bois-bourdon.html",
+        "R1C4-prix-du-terrier-des-houx.html",
+        "R1C5-prix-des-bruyeres.html",
+        "R1C6-prix-de-la-mare-aux-oiseaux.html",
+        "R1C8-prix-du-champ-d-alouettes.html",
+        "R1C9-prix-du-bois-larris.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-bois-bourillon.html",
+        "R2C2-prix-de-bertinval.html",
+        "R2C3-prix-du-bois-bourdon.html",
+        "R2C4-prix-du-terrier-des-houx.html",
+        "R2C5-prix-des-bruyeres.html",
+        "R2C6-prix-de-la-mare-aux-oiseaux.html",
+        "R2C8-prix-du-champ-d-alouettes.html",
+        "R2C9-prix-du-bois-larris.html"
+      ],
+      "R3-waregem": [
+        "R3C1-prix-du-bois-bourillon.html",
+        "R3C2-prix-de-bertinval.html",
+        "R3C3-prix-du-bois-bourdon.html",
+        "R3C4-prix-du-terrier-des-houx.html",
+        "R3C5-prix-des-bruyeres.html",
+        "R3C6-prix-de-la-mare-aux-oiseaux.html",
+        "R3C8-prix-du-champ-d-alouettes.html",
+        "R3C9-prix-du-bois-larris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:20.315499Z"
+}

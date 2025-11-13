@@ -1,0 +1,89 @@
+{
+  "date": "2008-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-24",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-24/2008-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-24/R1-deauville/R1C5-prix-de-la-gratte-panche.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R1-deauville/R1C7-prix-du-houlbec.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R1-deauville/R1C8-prix-de-la-haute-normandie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C1-prix-de-bonnerie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C2-prix-de-la-basse-normandie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C3-prix-des-louveaux.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C4-prix-de-l-iton.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C5-prix-de-la-gratte-panche.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C6-prix-de-l-anjou-maine.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C7-prix-du-houlbec.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R2-bordeaux-le-bouscat/R2C8-prix-de-la-haute-normandie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R3-deauville-midi/R3C2-prix-de-la-basse-normandie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R3-deauville-midi/R3C5-prix-de-la-gratte-panche.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C2-prix-de-la-basse-normandie.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C3-prix-des-louveaux.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C4-prix-de-l-iton.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C5-prix-de-la-gratte-panche.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C6-prix-de-l-anjou-maine.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C7-prix-du-houlbec.html",
+      "resultats-et-rapports/2008/12/2008-12-24/R31-zerace/R31C8-prix-de-la-haute-normandie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-bordeaux-le-bouscat",
+      "R3-deauville-midi",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-bonnerie.html",
+        "R1C2-prix-de-la-basse-normandie.html",
+        "R1C3-prix-des-louveaux.html",
+        "R1C4-prix-de-l-iton.html",
+        "R1C5-prix-de-la-gratte-panche.html",
+        "R1C6-prix-de-l-anjou-maine.html",
+        "R1C7-prix-du-houlbec.html",
+        "R1C8-prix-de-la-haute-normandie.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-bonnerie.html",
+        "R2C2-prix-de-la-basse-normandie.html",
+        "R2C3-prix-des-louveaux.html",
+        "R2C4-prix-de-l-iton.html",
+        "R2C5-prix-de-la-gratte-panche.html",
+        "R2C6-prix-de-l-anjou-maine.html",
+        "R2C7-prix-du-houlbec.html",
+        "R2C8-prix-de-la-haute-normandie.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-bonnerie.html",
+        "R3C2-prix-de-la-basse-normandie.html",
+        "R3C3-prix-des-louveaux.html",
+        "R3C4-prix-de-l-iton.html",
+        "R3C5-prix-de-la-gratte-panche.html",
+        "R3C6-prix-de-l-anjou-maine.html",
+        "R3C7-prix-du-houlbec.html",
+        "R3C8-prix-de-la-haute-normandie.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-bonnerie.html",
+        "R31C2-prix-de-la-basse-normandie.html",
+        "R31C3-prix-des-louveaux.html",
+        "R31C4-prix-de-l-iton.html",
+        "R31C5-prix-de-la-gratte-panche.html",
+        "R31C6-prix-de-l-anjou-maine.html",
+        "R31C7-prix-du-houlbec.html",
+        "R31C8-prix-de-la-haute-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:44:04.599889Z"
+}

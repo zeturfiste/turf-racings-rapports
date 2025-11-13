@@ -1,0 +1,46 @@
+{
+  "date": "2005-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-12",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-12/2005-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-journal-le-pays-d-auge-prix-leopold-d-orsetti.html",
+        "R1C2-prix-du-journal-l-orne-combattante-prix-des-oeillets.html",
+        "R1C3-prix-du-journal-les-nouvelles-de-falaises-prix-du-casino.html",
+        "R1C4-prix-du-journal-la-voix-le-bocage-prix-des-troenes.html",
+        "R1C5-prix-du-journal-la-depeche-prix-de-la-ville-de-villerville.html",
+        "R1C6-prix-du-journal-d-elbeuf-prix-d-auberville.html",
+        "R1C7-prix-du-journal-le-courrier-de-l-eure-prix-de-brucourt.html",
+        "R1C8-prix-du-journal-la-renaissance-le-bessin-prix-de-robehomme.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-journal-le-pays-d-auge-prix-leopold-d-orsetti.html",
+        "R2C2-prix-du-journal-l-orne-combattante-prix-des-oeillets.html",
+        "R2C3-prix-du-journal-les-nouvelles-de-falaises-prix-du-casino.html",
+        "R2C4-prix-du-journal-la-voix-le-bocage-prix-des-troenes.html",
+        "R2C5-prix-du-journal-la-depeche-prix-de-la-ville-de-villerville.html",
+        "R2C6-prix-du-journal-d-elbeuf-prix-d-auberville.html",
+        "R2C7-prix-du-journal-le-courrier-de-l-eure-prix-de-brucourt.html",
+        "R2C8-prix-du-journal-la-renaissance-le-bessin-prix-de-robehomme.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:12.541308Z"
+}

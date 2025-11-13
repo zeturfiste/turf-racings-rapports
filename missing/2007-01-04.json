@@ -1,0 +1,60 @@
+{
+  "date": "2007-01-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/01/2007-01-04",
+    "date_html": "resultats-et-rapports/2007/01/2007-01-04/2007-01-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-acigne.html",
+        "R1C2-prix-noville.html",
+        "R1C3-prix-d-evian.html",
+        "R1C4-prix-de-pontchateau.html",
+        "R1C5-prix-de-poitiers.html",
+        "R1C6-prix-de-lignieres-gr-a.html",
+        "R1C7-prix-de-lignieres-gr-b.html",
+        "R1C8-prix-d-albertville.html",
+        "R1C9-prix-de-conches.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-acigne.html",
+        "R2C2-prix-noville.html",
+        "R2C3-prix-d-evian.html",
+        "R2C4-prix-de-pontchateau.html",
+        "R2C5-prix-de-poitiers.html",
+        "R2C6-prix-de-lignieres-gr-a.html",
+        "R2C7-prix-de-lignieres-gr-b.html",
+        "R2C8-prix-d-albertville.html",
+        "R2C9-prix-de-conches.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-acigne.html",
+        "R21C2-prix-noville.html",
+        "R21C3-prix-d-evian.html",
+        "R21C4-prix-de-pontchateau.html",
+        "R21C5-prix-de-poitiers.html",
+        "R21C6-prix-de-lignieres-gr-a.html",
+        "R21C7-prix-de-lignieres-gr-b.html",
+        "R21C8-prix-d-albertville.html",
+        "R21C9-prix-de-conches.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:06.784225Z"
+}

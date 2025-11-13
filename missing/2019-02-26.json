@@ -1,0 +1,62 @@
+{
+  "date": "2019-02-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/02/2019-02-26",
+    "date_html": "resultats-et-rapports/2019/02/2019-02-26/2019-02-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/02/2019-02-26/R1-auteuil/R1C3-prix-rivoli.html",
+      "resultats-et-rapports/2019/02/2019-02-26/R4-cagnes-sur-mer/R4C3-prix-rivoli.html",
+      "resultats-et-rapports/2019/02/2019-02-26/R4-cagnes-sur-mer/R4C4-prix-marise.html",
+      "resultats-et-rapports/2019/02/2019-02-26/R4-cagnes-sur-mer/R4C6-prix-oiseleur.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-pontchateau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-beugnot.html",
+        "R1C2-prix-varaville.html",
+        "R1C3-prix-rivoli.html",
+        "R1C4-prix-marise.html",
+        "R1C5-prix-tofano.html",
+        "R1C6-prix-oiseleur.html",
+        "R1C7-prix-bougie.html",
+        "R1C8-prix-du-pont-des-invalides.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-beugnot.html",
+        "R2C2-prix-varaville.html",
+        "R2C3-prix-rivoli.html",
+        "R2C4-prix-marise.html",
+        "R2C5-prix-tofano.html",
+        "R2C6-prix-oiseleur.html",
+        "R2C7-prix-bougie.html",
+        "R2C8-prix-du-pont-des-invalides.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-beugnot.html",
+        "R4C2-prix-varaville.html",
+        "R4C3-prix-rivoli.html",
+        "R4C4-prix-marise.html",
+        "R4C5-prix-tofano.html",
+        "R4C6-prix-oiseleur.html",
+        "R4C7-prix-bougie.html",
+        "R4C8-prix-du-pont-des-invalides.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:04:58.580586Z"
+}

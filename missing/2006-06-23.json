@@ -1,0 +1,144 @@
+{
+  "date": "2006-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-23",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-23/2006-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-23/R1-auteuil/R1C1-prix-chinco.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R2-dieppe/R2C6-prix-fils-de-reine.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R3-vincennes/R3C3-prix-lindor.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R3-vincennes/R3C5-prix-la-perichole.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R3-vincennes/R3C6-prix-fils-de-reine.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R3-vincennes/R3C7-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R5-marseille-vivaux/R5C1-prix-chinco.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R5-marseille-vivaux/R5C3-prix-lindor.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R5-marseille-vivaux/R5C4-prix-sagan.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R5-marseille-vivaux/R5C5-prix-la-perichole.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R5-marseille-vivaux/R5C6-prix-fils-de-reine.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R11-olympia-stadion-berlin/R11C7-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R12-awd-arena-hanovre/R12C3-prix-lindor.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R12-awd-arena-hanovre/R12C4-prix-sagan.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R12-awd-arena-hanovre/R12C7-prix-daniel-lescalle.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R13-rhein-energie-stadion-cologne/R13C1-prix-chinco.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R13-rhein-energie-stadion-cologne/R13C3-prix-lindor.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R13-rhein-energie-stadion-cologne/R13C4-prix-sagan.html",
+      "resultats-et-rapports/2006/06/2006-06-23/R13-rhein-energie-stadion-cologne/R13C7-prix-daniel-lescalle.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-dieppe",
+      "R3-vincennes",
+      "R5-marseille-vivaux",
+      "R6-saint-galmier",
+      "R7-agen",
+      "R10-fritz-walter-stadion-kaiserslautern",
+      "R11-olympia-stadion-berlin",
+      "R12-awd-arena-hanovre",
+      "R13-rhein-energie-stadion-cologne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-chinco.html",
+        "R1C2-prix-frascati.html",
+        "R1C3-prix-lindor.html",
+        "R1C4-prix-sagan.html",
+        "R1C5-prix-la-perichole.html",
+        "R1C6-prix-fils-de-reine.html",
+        "R1C7-prix-daniel-lescalle.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-chinco.html",
+        "R2C2-prix-frascati.html",
+        "R2C3-prix-lindor.html",
+        "R2C4-prix-sagan.html",
+        "R2C5-prix-la-perichole.html",
+        "R2C6-prix-fils-de-reine.html",
+        "R2C7-prix-daniel-lescalle.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-chinco.html",
+        "R3C2-prix-frascati.html",
+        "R3C3-prix-lindor.html",
+        "R3C4-prix-sagan.html",
+        "R3C5-prix-la-perichole.html",
+        "R3C6-prix-fils-de-reine.html",
+        "R3C7-prix-daniel-lescalle.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-chinco.html",
+        "R5C2-prix-frascati.html",
+        "R5C3-prix-lindor.html",
+        "R5C4-prix-sagan.html",
+        "R5C5-prix-la-perichole.html",
+        "R5C6-prix-fils-de-reine.html",
+        "R5C7-prix-daniel-lescalle.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-chinco.html",
+        "R6C2-prix-frascati.html",
+        "R6C3-prix-lindor.html",
+        "R6C4-prix-sagan.html",
+        "R6C5-prix-la-perichole.html",
+        "R6C6-prix-fils-de-reine.html",
+        "R6C7-prix-daniel-lescalle.html"
+      ],
+      "R7-agen": [
+        "R7C1-prix-chinco.html",
+        "R7C2-prix-frascati.html",
+        "R7C3-prix-lindor.html",
+        "R7C4-prix-sagan.html",
+        "R7C5-prix-la-perichole.html",
+        "R7C6-prix-fils-de-reine.html",
+        "R7C7-prix-daniel-lescalle.html"
+      ],
+      "R10-fritz-walter-stadion-kaiserslautern": [
+        "R10C1-prix-chinco.html",
+        "R10C2-prix-frascati.html",
+        "R10C3-prix-lindor.html",
+        "R10C4-prix-sagan.html",
+        "R10C5-prix-la-perichole.html",
+        "R10C6-prix-fils-de-reine.html",
+        "R10C7-prix-daniel-lescalle.html"
+      ],
+      "R11-olympia-stadion-berlin": [
+        "R11C1-prix-chinco.html",
+        "R11C2-prix-frascati.html",
+        "R11C3-prix-lindor.html",
+        "R11C4-prix-sagan.html",
+        "R11C5-prix-la-perichole.html",
+        "R11C6-prix-fils-de-reine.html",
+        "R11C7-prix-daniel-lescalle.html"
+      ],
+      "R12-awd-arena-hanovre": [
+        "R12C1-prix-chinco.html",
+        "R12C2-prix-frascati.html",
+        "R12C3-prix-lindor.html",
+        "R12C4-prix-sagan.html",
+        "R12C5-prix-la-perichole.html",
+        "R12C6-prix-fils-de-reine.html",
+        "R12C7-prix-daniel-lescalle.html"
+      ],
+      "R13-rhein-energie-stadion-cologne": [
+        "R13C1-prix-chinco.html",
+        "R13C2-prix-frascati.html",
+        "R13C3-prix-lindor.html",
+        "R13C4-prix-sagan.html",
+        "R13C5-prix-la-perichole.html",
+        "R13C6-prix-fils-de-reine.html",
+        "R13C7-prix-daniel-lescalle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:38:12.030420Z"
+}

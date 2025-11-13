@@ -1,0 +1,55 @@
+{
+  "date": "2015-01-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-16",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-16/2015-01-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-16/R1-cagnes-sur-mer/R1C1-prix-cheret.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R1-cagnes-sur-mer/R1C2-prix-charles-gastaud.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R1-cagnes-sur-mer/R1C8-prix-du-col-de-vence.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R2-vincennes/R2C1-prix-cheret.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R2-vincennes/R2C2-prix-charles-gastaud.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R2-vincennes/R2C3-prix-de-l-hotel-negresco.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R2-vincennes/R2C5-prix-de-rimiez.html",
+      "resultats-et-rapports/2015/01/2015-01-16/R2-vincennes/R2C8-prix-du-col-de-vence.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-cheret.html",
+        "R1C2-prix-charles-gastaud.html",
+        "R1C3-prix-de-l-hotel-negresco.html",
+        "R1C4-prix-de-la-corniche-fleurie.html",
+        "R1C5-prix-de-rimiez.html",
+        "R1C6-prix-de-magnan.html",
+        "R1C7-prix-du-col-de-turini.html",
+        "R1C8-prix-du-col-de-vence.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-cheret.html",
+        "R2C2-prix-charles-gastaud.html",
+        "R2C3-prix-de-l-hotel-negresco.html",
+        "R2C4-prix-de-la-corniche-fleurie.html",
+        "R2C5-prix-de-rimiez.html",
+        "R2C6-prix-de-magnan.html",
+        "R2C7-prix-du-col-de-turini.html",
+        "R2C8-prix-du-col-de-vence.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:57:00.675645Z"
+}

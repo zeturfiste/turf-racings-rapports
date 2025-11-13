@@ -1,0 +1,95 @@
+{
+  "date": "2013-10-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-17",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-17/2013-10-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C1-prix-de-la-mare-aux-evees.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C2-prix-de-la-porte-nadon.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C4-prix-des-coniferes.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C7-prix-jean-gillois.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R1-fontainebleau/R1C8-prix-de-la-ligue-pour-la-protection-du-cheval.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C1-prix-de-la-mare-aux-evees.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C2-prix-de-la-porte-nadon.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C5-prix-baron-de-la-rochette.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C7-prix-jean-gillois.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R2-marseille-borely/R2C8-prix-de-la-ligue-pour-la-protection-du-cheval.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C1-prix-de-la-mare-aux-evees.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C2-prix-de-la-porte-nadon.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C3-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C4-prix-des-coniferes.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C5-prix-baron-de-la-rochette.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C6-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C7-prix-jean-gillois.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R3-enghien-soisy/R3C8-prix-de-la-ligue-pour-la-protection-du-cheval.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C1-prix-de-la-mare-aux-evees.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C2-prix-de-la-porte-nadon.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C3-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C4-prix-des-coniferes.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C7-prix-jean-gillois.html",
+      "resultats-et-rapports/2013/10/2013-10-17/R4-pornichet-la-baule/R4C8-prix-de-la-ligue-pour-la-protection-du-cheval.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-marseille-borely",
+      "R3-enghien-soisy",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-mare-aux-evees.html",
+        "R1C2-prix-de-la-porte-nadon.html",
+        "R1C3-prix-roland-fougedoire.html",
+        "R1C4-prix-des-coniferes.html",
+        "R1C5-prix-baron-de-la-rochette.html",
+        "R1C6-prix-duc-d-alburquerque.html",
+        "R1C7-prix-jean-gillois.html",
+        "R1C8-prix-de-la-ligue-pour-la-protection-du-cheval.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-la-mare-aux-evees.html",
+        "R2C2-prix-de-la-porte-nadon.html",
+        "R2C3-prix-roland-fougedoire.html",
+        "R2C4-prix-des-coniferes.html",
+        "R2C5-prix-baron-de-la-rochette.html",
+        "R2C6-prix-duc-d-alburquerque.html",
+        "R2C7-prix-jean-gillois.html",
+        "R2C8-prix-de-la-ligue-pour-la-protection-du-cheval.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-mare-aux-evees.html",
+        "R3C2-prix-de-la-porte-nadon.html",
+        "R3C3-prix-roland-fougedoire.html",
+        "R3C4-prix-des-coniferes.html",
+        "R3C5-prix-baron-de-la-rochette.html",
+        "R3C6-prix-duc-d-alburquerque.html",
+        "R3C7-prix-jean-gillois.html",
+        "R3C8-prix-de-la-ligue-pour-la-protection-du-cheval.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-la-mare-aux-evees.html",
+        "R4C2-prix-de-la-porte-nadon.html",
+        "R4C3-prix-roland-fougedoire.html",
+        "R4C4-prix-des-coniferes.html",
+        "R4C5-prix-baron-de-la-rochette.html",
+        "R4C6-prix-duc-d-alburquerque.html",
+        "R4C7-prix-jean-gillois.html",
+        "R4C8-prix-de-la-ligue-pour-la-protection-du-cheval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:40.619782Z"
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2016-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-02",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-02/2016-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-02/R3-chartres/R3C2-prix-hilda.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R3-chartres/R3C3-prix-pomona-groupe-b.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R3-chartres/R3C4-prix-philia.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R3-chartres/R3C5-prix-ourasi.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R3-chartres/R3C8-prix-norma.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R4-salon-de-provence/R4C2-prix-hilda.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R4-salon-de-provence/R4C4-prix-philia.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R4-salon-de-provence/R4C6-prix-walpurga.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C2-prix-hilda.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C3-prix-pomona-groupe-b.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C4-prix-philia.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C6-prix-walpurga.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C7-prix-vibilia.html",
+      "resultats-et-rapports/2016/12/2016-12-02/R7-saint-galmier/R7C8-prix-norma.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chartres",
+      "R4-salon-de-provence",
+      "R7-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-pomona-groupe-a.html",
+        "R1C2-prix-hilda.html",
+        "R1C3-prix-pomona-groupe-b.html",
+        "R1C4-prix-philia.html",
+        "R1C5-prix-ourasi.html",
+        "R1C6-prix-walpurga.html",
+        "R1C7-prix-vibilia.html",
+        "R1C8-prix-norma.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-pomona-groupe-a.html",
+        "R3C2-prix-hilda.html",
+        "R3C3-prix-pomona-groupe-b.html",
+        "R3C4-prix-philia.html",
+        "R3C5-prix-ourasi.html",
+        "R3C6-prix-walpurga.html",
+        "R3C7-prix-vibilia.html",
+        "R3C8-prix-norma.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-pomona-groupe-a.html",
+        "R4C2-prix-hilda.html",
+        "R4C3-prix-pomona-groupe-b.html",
+        "R4C4-prix-philia.html",
+        "R4C5-prix-ourasi.html",
+        "R4C6-prix-walpurga.html",
+        "R4C7-prix-vibilia.html",
+        "R4C8-prix-norma.html"
+      ],
+      "R7-saint-galmier": [
+        "R7C1-prix-pomona-groupe-a.html",
+        "R7C2-prix-hilda.html",
+        "R7C3-prix-pomona-groupe-b.html",
+        "R7C4-prix-philia.html",
+        "R7C5-prix-ourasi.html",
+        "R7C6-prix-walpurga.html",
+        "R7C7-prix-vibilia.html",
+        "R7C8-prix-norma.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:38.960149Z"
+}

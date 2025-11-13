@@ -1,0 +1,105 @@
+{
+  "date": "2017-10-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-03",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-03/2017-10-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-03/R1-auteuil/R1C1-prix-bayonnet.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R1-auteuil/R1C2-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R1-auteuil/R1C3-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R1-auteuil/R1C4-prix-piomares.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R1-auteuil/R1C6-prix-isopani.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C1-prix-bayonnet.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C2-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C3-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C4-prix-piomares.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C5-prix-de-salers.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C6-prix-isopani.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R2-marseille-borely/R2C7-prix-de-bagatelle.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C1-prix-bayonnet.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C3-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C4-prix-piomares.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C5-prix-de-salers.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C6-prix-isopani.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R3-compiegne/R3C7-prix-de-bagatelle.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C1-prix-bayonnet.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C2-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C3-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C4-prix-piomares.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C5-prix-de-salers.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C6-prix-isopani.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R4-cabourg/R4C7-prix-de-bagatelle.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R5-vincennes/R5C1-prix-bayonnet.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R5-vincennes/R5C2-prix-guillaume-de-pracomtal.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R5-vincennes/R5C3-prix-claude-le-lorrain-joseph-audon.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R5-vincennes/R5C4-prix-piomares.html",
+      "resultats-et-rapports/2017/10/2017-10-03/R5-vincennes/R5C5-prix-de-salers.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-compiegne",
+      "R4-cabourg",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-bayonnet.html",
+        "R1C2-prix-guillaume-de-pracomtal.html",
+        "R1C3-prix-claude-le-lorrain-joseph-audon.html",
+        "R1C4-prix-piomares.html",
+        "R1C5-prix-de-salers.html",
+        "R1C6-prix-isopani.html",
+        "R1C7-prix-de-bagatelle.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-bayonnet.html",
+        "R2C2-prix-guillaume-de-pracomtal.html",
+        "R2C3-prix-claude-le-lorrain-joseph-audon.html",
+        "R2C4-prix-piomares.html",
+        "R2C5-prix-de-salers.html",
+        "R2C6-prix-isopani.html",
+        "R2C7-prix-de-bagatelle.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-bayonnet.html",
+        "R3C2-prix-guillaume-de-pracomtal.html",
+        "R3C3-prix-claude-le-lorrain-joseph-audon.html",
+        "R3C4-prix-piomares.html",
+        "R3C5-prix-de-salers.html",
+        "R3C6-prix-isopani.html",
+        "R3C7-prix-de-bagatelle.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-bayonnet.html",
+        "R4C2-prix-guillaume-de-pracomtal.html",
+        "R4C3-prix-claude-le-lorrain-joseph-audon.html",
+        "R4C4-prix-piomares.html",
+        "R4C5-prix-de-salers.html",
+        "R4C6-prix-isopani.html",
+        "R4C7-prix-de-bagatelle.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-bayonnet.html",
+        "R5C2-prix-guillaume-de-pracomtal.html",
+        "R5C3-prix-claude-le-lorrain-joseph-audon.html",
+        "R5C4-prix-piomares.html",
+        "R5C5-prix-de-salers.html",
+        "R5C6-prix-isopani.html",
+        "R5C7-prix-de-bagatelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:20.225666Z"
+}

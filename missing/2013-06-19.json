@@ -1,0 +1,89 @@
+{
+  "date": "2013-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-19",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-19/2013-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-19/R1-reims/R1C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R1-reims/R1C5-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R1-reims/R1C7-prix-leopold-verroken.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R2-compiegne/R2C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R2-compiegne/R2C5-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R2-compiegne/R2C6-prix-de-l-unat.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R2-compiegne/R2C7-prix-leopold-verroken.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R2-compiegne/R2C8-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C5-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C6-prix-de-l-unat.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C7-prix-leopold-verroken.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R3-vichy/R3C8-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C2-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C3-prix-julien-cornet.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C5-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C6-prix-de-l-unat.html",
+      "resultats-et-rapports/2013/06/2013-06-19/R5-marseille-borely/R5C7-prix-leopold-verroken.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R2-compiegne",
+      "R3-vichy",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+        "R1C2-prix-du-journal-l-union.html",
+        "R1C3-prix-julien-cornet.html",
+        "R1C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R1C5-prix-du-champagne-de-castelnau.html",
+        "R1C6-prix-de-l-unat.html",
+        "R1C7-prix-leopold-verroken.html",
+        "R1C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+        "R2C2-prix-du-journal-l-union.html",
+        "R2C3-prix-julien-cornet.html",
+        "R2C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R2C5-prix-du-champagne-de-castelnau.html",
+        "R2C6-prix-de-l-unat.html",
+        "R2C7-prix-leopold-verroken.html",
+        "R2C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+        "R3C2-prix-du-journal-l-union.html",
+        "R3C3-prix-julien-cornet.html",
+        "R3C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R3C5-prix-du-champagne-de-castelnau.html",
+        "R3C6-prix-de-l-unat.html",
+        "R3C7-prix-leopold-verroken.html",
+        "R3C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-geny-com-paris-turf-7e-etape-du-gnt.html",
+        "R5C2-prix-du-journal-l-union.html",
+        "R5C3-prix-julien-cornet.html",
+        "R5C4-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R5C5-prix-du-champagne-de-castelnau.html",
+        "R5C6-prix-de-l-unat.html",
+        "R5C7-prix-leopold-verroken.html",
+        "R5C8-prix-fernand-floribert-dubois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:54:00.862279Z"
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2013-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/03/2013-03-29",
+    "date_html": "resultats-et-rapports/2013/03/2013-03-29/2013-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C1-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C2-prix-du-bois-de-valence.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C3-prix-des-melezes.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C4-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C5-prix-de-meaux.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C6-prix-des-cypres.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R1-fontainebleau/R1C8-prix-de-montereau.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C1-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C2-prix-du-bois-de-valence.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C3-prix-des-melezes.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C4-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C5-prix-de-meaux.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C6-prix-des-cypres.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C7-prix-des-frenes.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R2-salon-de-provence/R2C8-prix-de-montereau.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R3-lyon-la-soie/R3C1-prix-du-bois-de-la-commanderie.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R3-lyon-la-soie/R3C2-prix-du-bois-de-valence.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R3-lyon-la-soie/R3C3-prix-des-melezes.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R3-lyon-la-soie/R3C4-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2013/03/2013-03-29/R3-lyon-la-soie/R3C8-prix-de-montereau.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-salon-de-provence",
+      "R3-lyon-la-soie",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-bois-de-la-commanderie.html",
+        "R1C2-prix-du-bois-de-valence.html",
+        "R1C3-prix-des-melezes.html",
+        "R1C4-prix-cor-de-chasse.html",
+        "R1C5-prix-de-meaux.html",
+        "R1C6-prix-des-cypres.html",
+        "R1C7-prix-des-frenes.html",
+        "R1C8-prix-de-montereau.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-du-bois-de-la-commanderie.html",
+        "R2C2-prix-du-bois-de-valence.html",
+        "R2C3-prix-des-melezes.html",
+        "R2C4-prix-cor-de-chasse.html",
+        "R2C5-prix-de-meaux.html",
+        "R2C6-prix-des-cypres.html",
+        "R2C7-prix-des-frenes.html",
+        "R2C8-prix-de-montereau.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-du-bois-de-la-commanderie.html",
+        "R3C2-prix-du-bois-de-valence.html",
+        "R3C3-prix-des-melezes.html",
+        "R3C4-prix-cor-de-chasse.html",
+        "R3C5-prix-de-meaux.html",
+        "R3C6-prix-des-cypres.html",
+        "R3C7-prix-des-frenes.html",
+        "R3C8-prix-de-montereau.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-bois-de-la-commanderie.html",
+        "R4C2-prix-du-bois-de-valence.html",
+        "R4C3-prix-des-melezes.html",
+        "R4C4-prix-cor-de-chasse.html",
+        "R4C5-prix-de-meaux.html",
+        "R4C6-prix-des-cypres.html",
+        "R4C7-prix-des-frenes.html",
+        "R4C8-prix-de-montereau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:53:34.150776Z"
+}

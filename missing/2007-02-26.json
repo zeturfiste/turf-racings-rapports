@@ -1,0 +1,125 @@
+{
+  "date": "2007-02-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/02/2007-02-26",
+    "date_html": "resultats-et-rapports/2007/02/2007-02-26/2007-02-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/02/2007-02-26/R1-marseille-borely/R1C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R1-marseille-borely/R1C4-prix-d-aubagne.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R1-marseille-borely/R1C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R1-marseille-borely/R1C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R1-marseille-borely/R1C7-prix-daniel-rossio.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R2-enghien-soisy/R2C2-prix-de-carro.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R2-enghien-soisy/R2C3-prix-d-en-vau.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R2-enghien-soisy/R2C4-prix-d-aubagne.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R2-enghien-soisy/R2C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C2-prix-de-carro.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C3-prix-d-en-vau.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C4-prix-d-aubagne.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R3-nantes/R3C7-prix-daniel-rossio.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C2-prix-de-carro.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C3-prix-d-en-vau.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C4-prix-d-aubagne.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C5-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R4-vire/R4C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R5-le-croise-laroche/R5C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R5-le-croise-laroche/R5C7-prix-daniel-rossio.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R21-zerace/R21C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R42-enghien/R42C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R42-enghien/R42C2-prix-de-carro.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R42-enghien/R42C3-prix-d-en-vau.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R42-enghien/R42C6-prix-de-mejean.html",
+      "resultats-et-rapports/2007/02/2007-02-26/R42-enghien/R42C7-prix-daniel-rossio.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-enghien-soisy",
+      "R3-nantes",
+      "R4-vire",
+      "R5-le-croise-laroche",
+      "R21-zerace",
+      "R42-enghien"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R1C2-prix-de-carro.html",
+        "R1C3-prix-d-en-vau.html",
+        "R1C4-prix-d-aubagne.html",
+        "R1C5-prix-de-lyon-parilly.html",
+        "R1C6-prix-de-mejean.html",
+        "R1C7-prix-daniel-rossio.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R2C2-prix-de-carro.html",
+        "R2C3-prix-d-en-vau.html",
+        "R2C4-prix-d-aubagne.html",
+        "R2C5-prix-de-lyon-parilly.html",
+        "R2C6-prix-de-mejean.html",
+        "R2C7-prix-daniel-rossio.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R3C2-prix-de-carro.html",
+        "R3C3-prix-d-en-vau.html",
+        "R3C4-prix-d-aubagne.html",
+        "R3C5-prix-de-lyon-parilly.html",
+        "R3C6-prix-de-mejean.html",
+        "R3C7-prix-daniel-rossio.html"
+      ],
+      "R4-vire": [
+        "R4C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R4C2-prix-de-carro.html",
+        "R4C3-prix-d-en-vau.html",
+        "R4C4-prix-d-aubagne.html",
+        "R4C5-prix-de-lyon-parilly.html",
+        "R4C6-prix-de-mejean.html",
+        "R4C7-prix-daniel-rossio.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R5C2-prix-de-carro.html",
+        "R5C3-prix-d-en-vau.html",
+        "R5C4-prix-d-aubagne.html",
+        "R5C5-prix-de-lyon-parilly.html",
+        "R5C6-prix-de-mejean.html",
+        "R5C7-prix-daniel-rossio.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R21C2-prix-de-carro.html",
+        "R21C3-prix-d-en-vau.html",
+        "R21C4-prix-d-aubagne.html",
+        "R21C5-prix-de-lyon-parilly.html",
+        "R21C6-prix-de-mejean.html",
+        "R21C7-prix-daniel-rossio.html"
+      ],
+      "R42-enghien": [
+        "R42C1-prix-paris-turf-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R42C2-prix-de-carro.html",
+        "R42C3-prix-d-en-vau.html",
+        "R42C4-prix-d-aubagne.html",
+        "R42C5-prix-de-lyon-parilly.html",
+        "R42C6-prix-de-mejean.html",
+        "R42C7-prix-daniel-rossio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:23.932424Z"
+}

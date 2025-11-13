@@ -1,0 +1,97 @@
+{
+  "date": "2012-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-13",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-13/2012-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-13/R1-maisons-laffitte/R1C1-prix-coaraze.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R1-maisons-laffitte/R1C2-prix-cordova.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R1-maisons-laffitte/R1C3-prix-cappiello.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R1-maisons-laffitte/R1C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R1-maisons-laffitte/R1C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R2-cabourg/R2C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R2-cabourg/R2C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R2-cabourg/R2C7-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R2-cabourg/R2C8-prix-du-val-d-or.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R3-marseille-vivaux/R3C2-prix-cordova.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R3-marseille-vivaux/R3C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R3-marseille-vivaux/R3C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R3-marseille-vivaux/R3C7-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R4-saint-galmier/R4C1-prix-coaraze.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R6-toulouse/R6C1-prix-coaraze.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R6-toulouse/R6C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+      "resultats-et-rapports/2012/10/2012-10-13/R6-toulouse/R6C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cabourg",
+      "R3-marseille-vivaux",
+      "R4-saint-galmier",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-coaraze.html",
+        "R1C2-prix-cordova.html",
+        "R1C3-prix-cappiello.html",
+        "R1C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+        "R1C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+        "R1C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+        "R1C7-prix-de-carrieres-sous-poissy.html",
+        "R1C8-prix-du-val-d-or.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-coaraze.html",
+        "R2C2-prix-cordova.html",
+        "R2C3-prix-cappiello.html",
+        "R2C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+        "R2C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+        "R2C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+        "R2C7-prix-de-carrieres-sous-poissy.html",
+        "R2C8-prix-du-val-d-or.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-coaraze.html",
+        "R3C2-prix-cordova.html",
+        "R3C3-prix-cappiello.html",
+        "R3C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+        "R3C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+        "R3C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+        "R3C7-prix-de-carrieres-sous-poissy.html",
+        "R3C8-prix-du-val-d-or.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-coaraze.html",
+        "R4C2-prix-cordova.html",
+        "R4C3-prix-cappiello.html",
+        "R4C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+        "R4C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+        "R4C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+        "R4C7-prix-de-carrieres-sous-poissy.html",
+        "R4C8-prix-du-val-d-or.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-coaraze.html",
+        "R6C2-prix-cordova.html",
+        "R6C3-prix-cappiello.html",
+        "R6C4-prix-de-buzenval-prix-du-carrefour-et-du-centre-commercial-montesson.html",
+        "R6C5-prix-du-conseil-general-des-yvelines-prix-des-lionnes.html",
+        "R6C6-prix-du-val-d-oise-prix-de-la-ville-de-maisons-laffitte.html",
+        "R6C7-prix-de-carrieres-sous-poissy.html",
+        "R6C8-prix-du-val-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:52:50.232576Z"
+}

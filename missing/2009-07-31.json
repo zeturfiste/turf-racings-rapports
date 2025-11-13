@@ -1,0 +1,105 @@
+{
+  "date": "2009-07-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/07/2009-07-31",
+    "date_html": "resultats-et-rapports/2009/07/2009-07-31/2009-07-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C3-prix-msa-renault-deauville-prix-virunga.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C5-prix-don-du-sang-prix-des-bignones.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C6-prix-automobile-club-prevention-prix-des-capucines.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R1-clairefontaine/R1C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R2-beaumont-de-lomagne/R2C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R2-beaumont-de-lomagne/R2C8-prix-securite-sur-la-route-prix-jacques-peillon.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R3-cabourg/R3C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R3-cabourg/R3C5-prix-don-du-sang-prix-des-bignones.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R3-cabourg/R3C6-prix-automobile-club-prevention-prix-des-capucines.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R3-cabourg/R3C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R3-cabourg/R3C8-prix-securite-sur-la-route-prix-jacques-peillon.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C3-prix-msa-renault-deauville-prix-virunga.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C5-prix-don-du-sang-prix-des-bignones.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C6-prix-automobile-club-prevention-prix-des-capucines.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R8-cagnes-sur-mer/R8C8-prix-securite-sur-la-route-prix-jacques-peillon.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R31-zerace/R31C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R31-zerace/R31C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R31-zerace/R31C3-prix-msa-renault-deauville-prix-virunga.html",
+      "resultats-et-rapports/2009/07/2009-07-31/R31-zerace/R31C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-beaumont-de-lomagne",
+      "R3-cabourg",
+      "R8-cagnes-sur-mer",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+        "R1C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+        "R1C3-prix-msa-renault-deauville-prix-virunga.html",
+        "R1C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+        "R1C5-prix-don-du-sang-prix-des-bignones.html",
+        "R1C6-prix-automobile-club-prevention-prix-des-capucines.html",
+        "R1C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+        "R1C8-prix-securite-sur-la-route-prix-jacques-peillon.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+        "R2C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+        "R2C3-prix-msa-renault-deauville-prix-virunga.html",
+        "R2C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+        "R2C5-prix-don-du-sang-prix-des-bignones.html",
+        "R2C6-prix-automobile-club-prevention-prix-des-capucines.html",
+        "R2C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+        "R2C8-prix-securite-sur-la-route-prix-jacques-peillon.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+        "R3C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+        "R3C3-prix-msa-renault-deauville-prix-virunga.html",
+        "R3C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+        "R3C5-prix-don-du-sang-prix-des-bignones.html",
+        "R3C6-prix-automobile-club-prevention-prix-des-capucines.html",
+        "R3C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+        "R3C8-prix-securite-sur-la-route-prix-jacques-peillon.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+        "R8C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+        "R8C3-prix-msa-renault-deauville-prix-virunga.html",
+        "R8C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+        "R8C5-prix-don-du-sang-prix-des-bignones.html",
+        "R8C6-prix-automobile-club-prevention-prix-des-capucines.html",
+        "R8C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+        "R8C8-prix-securite-sur-la-route-prix-jacques-peillon.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-auto-ecole-campus-prix-des-primeveres.html",
+        "R31C2-prix-msa-renault-pont-l-eveque-prix-vitiges.html",
+        "R31C3-prix-msa-renault-deauville-prix-virunga.html",
+        "R31C4-prix-msa-renault-rent-prix-de-la-cote-fleurie.html",
+        "R31C5-prix-don-du-sang-prix-des-bignones.html",
+        "R31C6-prix-automobile-club-prevention-prix-des-capucines.html",
+        "R31C7-prix-association-conduire-pour-la-vie-prix-des-orchidees.html",
+        "R31C8-prix-securite-sur-la-route-prix-jacques-peillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:45:51.326317Z"
+}

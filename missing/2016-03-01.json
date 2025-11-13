@@ -1,0 +1,62 @@
+{
+  "date": "2016-03-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-01",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-01/2016-03-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-01/R1-enghien-soisy/R1C6-prix-varaville.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R2-laval/R2C1-prix-oiseleur.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R2-laval/R2C2-prix-marise.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R2-laval/R2C4-prix-du-pont-d-iena.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R5-cagnes-sur-mer/R5C2-prix-marise.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R5-cagnes-sur-mer/R5C3-prix-beugnot.html",
+      "resultats-et-rapports/2016/03/2016-03-01/R5-cagnes-sur-mer/R5C6-prix-varaville.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-laval",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-oiseleur.html",
+        "R1C2-prix-marise.html",
+        "R1C3-prix-beugnot.html",
+        "R1C4-prix-du-pont-d-iena.html",
+        "R1C5-prix-bougie.html",
+        "R1C6-prix-varaville.html",
+        "R1C7-prix-fernand-roy.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-oiseleur.html",
+        "R2C2-prix-marise.html",
+        "R2C3-prix-beugnot.html",
+        "R2C4-prix-du-pont-d-iena.html",
+        "R2C5-prix-bougie.html",
+        "R2C6-prix-varaville.html",
+        "R2C7-prix-fernand-roy.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-oiseleur.html",
+        "R5C2-prix-marise.html",
+        "R5C3-prix-beugnot.html",
+        "R5C4-prix-du-pont-d-iena.html",
+        "R5C5-prix-bougie.html",
+        "R5C6-prix-varaville.html",
+        "R5C7-prix-fernand-roy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:04.259346Z"
+}

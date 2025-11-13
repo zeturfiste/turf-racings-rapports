@@ -1,0 +1,98 @@
+{
+  "date": "2017-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-23",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-23/2017-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-23/R2-angers/R2C1-prix-de-malmaison.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R2-angers/R2C5-prix-corrida.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R2-angers/R2C7-prix-du-lys.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R3-hyeres/R3C1-prix-de-malmaison.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R3-hyeres/R3C3-prix-de-beaumesnil.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R3-hyeres/R3C4-prix-cleopatre.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C1-prix-de-malmaison.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C2-prix-de-pontarme.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C4-prix-cleopatre.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C5-prix-corrida.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C6-prix-querido.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C7-prix-du-lys.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R4-nantes/R4C8-prix-de-beauval.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R5-vincennes/R5C1-prix-de-malmaison.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R5-vincennes/R5C2-prix-de-pontarme.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R5-vincennes/R5C4-prix-cleopatre.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R5-vincennes/R5C7-prix-du-lys.html",
+      "resultats-et-rapports/2017/05/2017-05-23/R5-vincennes/R5C8-prix-de-beauval.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-angers",
+      "R3-hyeres",
+      "R4-nantes",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-malmaison.html",
+        "R1C2-prix-de-pontarme.html",
+        "R1C3-prix-de-beaumesnil.html",
+        "R1C4-prix-cleopatre.html",
+        "R1C5-prix-corrida.html",
+        "R1C6-prix-querido.html",
+        "R1C7-prix-du-lys.html",
+        "R1C8-prix-de-beauval.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-malmaison.html",
+        "R2C2-prix-de-pontarme.html",
+        "R2C3-prix-de-beaumesnil.html",
+        "R2C4-prix-cleopatre.html",
+        "R2C5-prix-corrida.html",
+        "R2C6-prix-querido.html",
+        "R2C7-prix-du-lys.html",
+        "R2C8-prix-de-beauval.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-de-malmaison.html",
+        "R3C2-prix-de-pontarme.html",
+        "R3C3-prix-de-beaumesnil.html",
+        "R3C4-prix-cleopatre.html",
+        "R3C5-prix-corrida.html",
+        "R3C6-prix-querido.html",
+        "R3C7-prix-du-lys.html",
+        "R3C8-prix-de-beauval.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-de-malmaison.html",
+        "R4C2-prix-de-pontarme.html",
+        "R4C3-prix-de-beaumesnil.html",
+        "R4C4-prix-cleopatre.html",
+        "R4C5-prix-corrida.html",
+        "R4C6-prix-querido.html",
+        "R4C7-prix-du-lys.html",
+        "R4C8-prix-de-beauval.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-malmaison.html",
+        "R5C2-prix-de-pontarme.html",
+        "R5C3-prix-de-beaumesnil.html",
+        "R5C4-prix-cleopatre.html",
+        "R5C5-prix-corrida.html",
+        "R5C6-prix-querido.html",
+        "R5C7-prix-du-lys.html",
+        "R5C8-prix-de-beauval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:30.250226Z"
+}

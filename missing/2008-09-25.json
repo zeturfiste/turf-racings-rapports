@@ -1,0 +1,102 @@
+{
+  "date": "2008-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/09/2008-09-25",
+    "date_html": "resultats-et-rapports/2008/09/2008-09-25/2008-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/09/2008-09-25/R1-maisons-laffitte/R1C7-l-express.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R2-les-sables-d-olonne/R2C8-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C1-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C2-prix-saraca.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C3-prix-joyeux-drille.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C4-prix-tahiti.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C5-la-coupe-de-maisons-laffitte.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C6-prix-de-dampierre-en-yvelines.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C7-l-express.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R3-enghien-soisy/R3C8-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C1-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C2-prix-saraca.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C3-prix-joyeux-drille.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C4-prix-tahiti.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C5-la-coupe-de-maisons-laffitte.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C6-prix-de-dampierre-en-yvelines.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C7-l-express.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R5-vichy/R5C8-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R31-zerace/R31C3-prix-joyeux-drille.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R31-zerace/R31C6-prix-de-dampierre-en-yvelines.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R31-zerace/R31C7-l-express.html",
+      "resultats-et-rapports/2008/09/2008-09-25/R31-zerace/R31C8-prix-des-falaises-de-craies.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-les-sables-d-olonne",
+      "R3-enghien-soisy",
+      "R5-vichy",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-des-boucles-de-la-seine.html",
+        "R1C2-prix-saraca.html",
+        "R1C3-prix-joyeux-drille.html",
+        "R1C4-prix-tahiti.html",
+        "R1C5-la-coupe-de-maisons-laffitte.html",
+        "R1C6-prix-de-dampierre-en-yvelines.html",
+        "R1C7-l-express.html",
+        "R1C8-prix-des-falaises-de-craies.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-des-boucles-de-la-seine.html",
+        "R2C2-prix-saraca.html",
+        "R2C3-prix-joyeux-drille.html",
+        "R2C4-prix-tahiti.html",
+        "R2C5-la-coupe-de-maisons-laffitte.html",
+        "R2C6-prix-de-dampierre-en-yvelines.html",
+        "R2C7-l-express.html",
+        "R2C8-prix-des-falaises-de-craies.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-des-boucles-de-la-seine.html",
+        "R3C2-prix-saraca.html",
+        "R3C3-prix-joyeux-drille.html",
+        "R3C4-prix-tahiti.html",
+        "R3C5-la-coupe-de-maisons-laffitte.html",
+        "R3C6-prix-de-dampierre-en-yvelines.html",
+        "R3C7-l-express.html",
+        "R3C8-prix-des-falaises-de-craies.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-des-boucles-de-la-seine.html",
+        "R5C2-prix-saraca.html",
+        "R5C3-prix-joyeux-drille.html",
+        "R5C4-prix-tahiti.html",
+        "R5C5-la-coupe-de-maisons-laffitte.html",
+        "R5C6-prix-de-dampierre-en-yvelines.html",
+        "R5C7-l-express.html",
+        "R5C8-prix-des-falaises-de-craies.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-boucles-de-la-seine.html",
+        "R31C2-prix-saraca.html",
+        "R31C3-prix-joyeux-drille.html",
+        "R31C4-prix-tahiti.html",
+        "R31C5-la-coupe-de-maisons-laffitte.html",
+        "R31C6-prix-de-dampierre-en-yvelines.html",
+        "R31C7-l-express.html",
+        "R31C8-prix-des-falaises-de-craies.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:43:20.851946Z"
+}

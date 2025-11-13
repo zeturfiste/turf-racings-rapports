@@ -1,0 +1,103 @@
+{
+  "date": "2008-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/03/2008-03-06",
+    "date_html": "resultats-et-rapports/2008/03/2008-03-06/2008-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/03/2008-03-06/R1-deauville/R1C1-prix-des-falaises.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R1-deauville/R1C2-prix-de-fecamp.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R1-deauville/R1C4-prix-de-la-lezarde.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R1-deauville/R1C5-prix-de-saint-valery.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R1-deauville/R1C7-prix-des-aiguilles.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R2-caen/R2C1-prix-des-falaises.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R2-caen/R2C5-prix-de-saint-valery.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R2-caen/R2C6-prix-de-la-veronne.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R2-caen/R2C7-prix-des-aiguilles.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C1-prix-des-falaises.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C2-prix-de-fecamp.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C3-prix-d-etretat.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C4-prix-de-la-lezarde.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C5-prix-de-saint-valery.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C6-prix-de-la-veronne.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R3-laval/R3C7-prix-des-aiguilles.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C1-prix-des-falaises.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C2-prix-de-fecamp.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C3-prix-d-etretat.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C4-prix-de-la-lezarde.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C5-prix-de-saint-valery.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C6-prix-de-la-veronne.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R31-zerace/R31C7-prix-des-aiguilles.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R70-velodrome-marseille/R70C1-prix-des-falaises.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R70-velodrome-marseille/R70C2-prix-de-fecamp.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R70-velodrome-marseille/R70C4-prix-de-la-lezarde.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R70-velodrome-marseille/R70C5-prix-de-saint-valery.html",
+      "resultats-et-rapports/2008/03/2008-03-06/R70-velodrome-marseille/R70C6-prix-de-la-veronne.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-laval",
+      "R31-zerace",
+      "R70-velodrome-marseille"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-falaises.html",
+        "R1C2-prix-de-fecamp.html",
+        "R1C3-prix-d-etretat.html",
+        "R1C4-prix-de-la-lezarde.html",
+        "R1C5-prix-de-saint-valery.html",
+        "R1C6-prix-de-la-veronne.html",
+        "R1C7-prix-des-aiguilles.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-des-falaises.html",
+        "R2C2-prix-de-fecamp.html",
+        "R2C3-prix-d-etretat.html",
+        "R2C4-prix-de-la-lezarde.html",
+        "R2C5-prix-de-saint-valery.html",
+        "R2C6-prix-de-la-veronne.html",
+        "R2C7-prix-des-aiguilles.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-des-falaises.html",
+        "R3C2-prix-de-fecamp.html",
+        "R3C3-prix-d-etretat.html",
+        "R3C4-prix-de-la-lezarde.html",
+        "R3C5-prix-de-saint-valery.html",
+        "R3C6-prix-de-la-veronne.html",
+        "R3C7-prix-des-aiguilles.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-falaises.html",
+        "R31C2-prix-de-fecamp.html",
+        "R31C3-prix-d-etretat.html",
+        "R31C4-prix-de-la-lezarde.html",
+        "R31C5-prix-de-saint-valery.html",
+        "R31C6-prix-de-la-veronne.html",
+        "R31C7-prix-des-aiguilles.html"
+      ],
+      "R70-velodrome-marseille": [
+        "R70C1-prix-des-falaises.html",
+        "R70C2-prix-de-fecamp.html",
+        "R70C3-prix-d-etretat.html",
+        "R70C4-prix-de-la-lezarde.html",
+        "R70C5-prix-de-saint-valery.html",
+        "R70C6-prix-de-la-veronne.html",
+        "R70C7-prix-des-aiguilles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:43.877920Z"
+}

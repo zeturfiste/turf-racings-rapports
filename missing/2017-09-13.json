@@ -1,0 +1,95 @@
+{
+  "date": "2017-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/09/2017-09-13",
+    "date_html": "resultats-et-rapports/2017/09/2017-09-13/2017-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/09/2017-09-13/R1-le-lion-d-angers/R1C2-prix-paul-saulou.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R1-le-lion-d-angers/R1C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R1-le-lion-d-angers/R1C6-prix-olivier-d-andigne.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R1-le-lion-d-angers/R1C7-prix-yann-poirier.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R1-le-lion-d-angers/R1C8-prix-de-chambellay.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C2-prix-paul-saulou.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C3-prix-du-mondial-du-lion.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C5-prix-de-chateauneuf-sur-sarthe.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C6-prix-olivier-d-andigne.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C7-prix-yann-poirier.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R3-cavaillon/R3C8-prix-de-chambellay.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C2-prix-paul-saulou.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C3-prix-du-mondial-du-lion.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C5-prix-de-chateauneuf-sur-sarthe.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C6-prix-olivier-d-andigne.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C7-prix-yann-poirier.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R4-saint-cloud/R4C8-prix-de-chambellay.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C2-prix-paul-saulou.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C6-prix-olivier-d-andigne.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C7-prix-yann-poirier.html",
+      "resultats-et-rapports/2017/09/2017-09-13/R5-toulouse/R5C8-prix-de-chambellay.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-lion-d-angers",
+      "R3-cavaillon",
+      "R4-saint-cloud",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-le-lion-d-angers": [
+        "R1C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+        "R1C2-prix-paul-saulou.html",
+        "R1C3-prix-du-mondial-du-lion.html",
+        "R1C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+        "R1C5-prix-de-chateauneuf-sur-sarthe.html",
+        "R1C6-prix-olivier-d-andigne.html",
+        "R1C7-prix-yann-poirier.html",
+        "R1C8-prix-de-chambellay.html"
+      ],
+      "R3-cavaillon": [
+        "R3C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+        "R3C2-prix-paul-saulou.html",
+        "R3C3-prix-du-mondial-du-lion.html",
+        "R3C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+        "R3C5-prix-de-chateauneuf-sur-sarthe.html",
+        "R3C6-prix-olivier-d-andigne.html",
+        "R3C7-prix-yann-poirier.html",
+        "R3C8-prix-de-chambellay.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+        "R4C2-prix-paul-saulou.html",
+        "R4C3-prix-du-mondial-du-lion.html",
+        "R4C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+        "R4C5-prix-de-chateauneuf-sur-sarthe.html",
+        "R4C6-prix-olivier-d-andigne.html",
+        "R4C7-prix-yann-poirier.html",
+        "R4C8-prix-de-chambellay.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-handicap-du-lion-d-angers-prix-de-l-asselco.html",
+        "R5C2-prix-paul-saulou.html",
+        "R5C3-prix-du-mondial-du-lion.html",
+        "R5C4-prix-coupe-de-france-de-football-ligue-des-pays-de-loire.html",
+        "R5C5-prix-de-chateauneuf-sur-sarthe.html",
+        "R5C6-prix-olivier-d-andigne.html",
+        "R5C7-prix-yann-poirier.html",
+        "R5C8-prix-de-chambellay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:12.722852Z"
+}

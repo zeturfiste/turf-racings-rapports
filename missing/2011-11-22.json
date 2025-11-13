@@ -1,0 +1,94 @@
+{
+  "date": "2011-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-22",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-22/2011-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C1-prix-hauban.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C2-prix-belle-sicambre.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C5-prix-ceres.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C6-prix-solitude.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R1-saint-cloud/R1C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R2-lyon-la-soie/R2C1-prix-hauban.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R2-lyon-la-soie/R2C2-prix-belle-sicambre.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R2-lyon-la-soie/R2C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R2-lyon-la-soie/R2C4-prix-isonomy.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R2-lyon-la-soie/R2C6-prix-solitude.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C1-prix-hauban.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C4-prix-isonomy.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C5-prix-ceres.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C6-prix-solitude.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C7-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R3-marseille-vivaux/R3C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C2-prix-belle-sicambre.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C4-prix-isonomy.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C5-prix-ceres.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C6-prix-solitude.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C7-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2011/11/2011-11-22/R4-vincennes/R4C8-prix-du-triangle-de-rocquencourt.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-la-soie",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-hauban.html",
+        "R1C2-prix-belle-sicambre.html",
+        "R1C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R1C4-prix-isonomy.html",
+        "R1C5-prix-ceres.html",
+        "R1C6-prix-solitude.html",
+        "R1C7-prix-de-la-croix-verte.html",
+        "R1C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-hauban.html",
+        "R2C2-prix-belle-sicambre.html",
+        "R2C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R2C4-prix-isonomy.html",
+        "R2C5-prix-ceres.html",
+        "R2C6-prix-solitude.html",
+        "R2C7-prix-de-la-croix-verte.html",
+        "R2C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-hauban.html",
+        "R3C2-prix-belle-sicambre.html",
+        "R3C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R3C4-prix-isonomy.html",
+        "R3C5-prix-ceres.html",
+        "R3C6-prix-solitude.html",
+        "R3C7-prix-de-la-croix-verte.html",
+        "R3C8-prix-du-triangle-de-rocquencourt.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-hauban.html",
+        "R4C2-prix-belle-sicambre.html",
+        "R4C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R4C4-prix-isonomy.html",
+        "R4C5-prix-ceres.html",
+        "R4C6-prix-solitude.html",
+        "R4C7-prix-de-la-croix-verte.html",
+        "R4C8-prix-du-triangle-de-rocquencourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:51:16.638861Z"
+}

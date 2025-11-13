@@ -1,0 +1,103 @@
+{
+  "date": "2007-12-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-18",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-18/2007-12-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C3-prix-de-chateau-thierry-groupe-b.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C4-prix-de-l-angoumois.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C5-prix-de-savenay.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C6-prix-des-clematites.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C7-prix-de-domfront.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C8-prix-de-gemozac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R1-vincennes/R1C9-prix-de-gramat.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C1-prix-de-fustignac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C2-prix-de-chateau-thierry-groupe-a.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C3-prix-de-chateau-thierry-groupe-b.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C4-prix-de-l-angoumois.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C5-prix-de-savenay.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C6-prix-des-clematites.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C7-prix-de-domfront.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C8-prix-de-gemozac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R2-deauville/R2C9-prix-de-gramat.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C1-prix-de-fustignac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C2-prix-de-chateau-thierry-groupe-a.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C3-prix-de-chateau-thierry-groupe-b.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C4-prix-de-l-angoumois.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C5-prix-de-savenay.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R3-deauville-midi/R3C6-prix-des-clematites.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C1-prix-de-fustignac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C2-prix-de-chateau-thierry-groupe-a.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C3-prix-de-chateau-thierry-groupe-b.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C4-prix-de-l-angoumois.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C6-prix-des-clematites.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C7-prix-de-domfront.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C8-prix-de-gemozac.html",
+      "resultats-et-rapports/2007/12/2007-12-18/R31-zerace/R31C9-prix-de-gramat.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-fustignac.html",
+        "R1C2-prix-de-chateau-thierry-groupe-a.html",
+        "R1C3-prix-de-chateau-thierry-groupe-b.html",
+        "R1C4-prix-de-l-angoumois.html",
+        "R1C5-prix-de-savenay.html",
+        "R1C6-prix-des-clematites.html",
+        "R1C7-prix-de-domfront.html",
+        "R1C8-prix-de-gemozac.html",
+        "R1C9-prix-de-gramat.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-fustignac.html",
+        "R2C2-prix-de-chateau-thierry-groupe-a.html",
+        "R2C3-prix-de-chateau-thierry-groupe-b.html",
+        "R2C4-prix-de-l-angoumois.html",
+        "R2C5-prix-de-savenay.html",
+        "R2C6-prix-des-clematites.html",
+        "R2C7-prix-de-domfront.html",
+        "R2C8-prix-de-gemozac.html",
+        "R2C9-prix-de-gramat.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-fustignac.html",
+        "R3C2-prix-de-chateau-thierry-groupe-a.html",
+        "R3C3-prix-de-chateau-thierry-groupe-b.html",
+        "R3C4-prix-de-l-angoumois.html",
+        "R3C5-prix-de-savenay.html",
+        "R3C6-prix-des-clematites.html",
+        "R3C7-prix-de-domfront.html",
+        "R3C8-prix-de-gemozac.html",
+        "R3C9-prix-de-gramat.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-fustignac.html",
+        "R31C2-prix-de-chateau-thierry-groupe-a.html",
+        "R31C3-prix-de-chateau-thierry-groupe-b.html",
+        "R31C4-prix-de-l-angoumois.html",
+        "R31C5-prix-de-savenay.html",
+        "R31C6-prix-des-clematites.html",
+        "R31C7-prix-de-domfront.html",
+        "R31C8-prix-de-gemozac.html",
+        "R31C9-prix-de-gramat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:41:12.495789Z"
+}

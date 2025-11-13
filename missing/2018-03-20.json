@@ -1,0 +1,94 @@
+{
+  "date": "2018-03-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-20",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-20/2018-03-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-20/R1-chantilly/R1C5-prix-du-grand-marais.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R2-hyeres/R2C8-prix-buckskin.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R3-amiens/R3C2-prix-de-la-pistole.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R3-amiens/R3C7-prix-du-poteau-nibert.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R5-vincennes/R5C1-prix-du-poteau-neuf.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R5-vincennes/R5C2-prix-de-la-pistole.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R5-vincennes/R5C3-prix-sagaro.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R5-vincennes/R5C7-prix-du-poteau-nibert.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C1-prix-du-poteau-neuf.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C2-prix-de-la-pistole.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C3-prix-sagaro.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C4-prix-du-belvedere.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C6-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2018/03/2018-03-20/R6-chantilly-midi/R6C7-prix-du-poteau-nibert.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-hyeres",
+      "R3-amiens",
+      "R5-vincennes",
+      "R6-chantilly-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-poteau-neuf.html",
+        "R1C2-prix-de-la-pistole.html",
+        "R1C3-prix-sagaro.html",
+        "R1C4-prix-du-belvedere.html",
+        "R1C5-prix-du-grand-marais.html",
+        "R1C6-prix-de-la-queue-du-renard.html",
+        "R1C7-prix-du-poteau-nibert.html",
+        "R1C8-prix-buckskin.html"
+      ],
+      "R2-hyeres": [
+        "R2C1-prix-du-poteau-neuf.html",
+        "R2C2-prix-de-la-pistole.html",
+        "R2C3-prix-sagaro.html",
+        "R2C4-prix-du-belvedere.html",
+        "R2C5-prix-du-grand-marais.html",
+        "R2C6-prix-de-la-queue-du-renard.html",
+        "R2C7-prix-du-poteau-nibert.html",
+        "R2C8-prix-buckskin.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-du-poteau-neuf.html",
+        "R3C2-prix-de-la-pistole.html",
+        "R3C3-prix-sagaro.html",
+        "R3C4-prix-du-belvedere.html",
+        "R3C5-prix-du-grand-marais.html",
+        "R3C6-prix-de-la-queue-du-renard.html",
+        "R3C7-prix-du-poteau-nibert.html",
+        "R3C8-prix-buckskin.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-du-poteau-neuf.html",
+        "R5C2-prix-de-la-pistole.html",
+        "R5C3-prix-sagaro.html",
+        "R5C4-prix-du-belvedere.html",
+        "R5C5-prix-du-grand-marais.html",
+        "R5C6-prix-de-la-queue-du-renard.html",
+        "R5C7-prix-du-poteau-nibert.html",
+        "R5C8-prix-buckskin.html"
+      ],
+      "R6-chantilly-midi": [
+        "R6C1-prix-du-poteau-neuf.html",
+        "R6C2-prix-de-la-pistole.html",
+        "R6C3-prix-sagaro.html",
+        "R6C4-prix-du-belvedere.html",
+        "R6C5-prix-du-grand-marais.html",
+        "R6C6-prix-de-la-queue-du-renard.html",
+        "R6C7-prix-du-poteau-nibert.html",
+        "R6C8-prix-buckskin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:03:09.016438Z"
+}

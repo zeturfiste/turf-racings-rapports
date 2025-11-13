@@ -1,0 +1,67 @@
+{
+  "date": "2016-04-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-20",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-20/2016-04-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-20/R1-pontchateau/R1C4-prix-du-conseil-departemental-de-loire-atlantique.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R1-pontchateau/R1C5-prix-dominique-david.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R1-pontchateau/R1C6-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R3-enghien-soisy/R3C3-prix-de-la-societe-des-courses-de-nantes.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R3-enghien-soisy/R3C6-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R3-enghien-soisy/R3C7-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R4-chantilly/R4C2-prix-geny-courses.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R4-chantilly/R4C6-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2016/04/2016-04-20/R4-chantilly/R4C8-prix-des-amateurs.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pontchateau",
+      "R3-enghien-soisy",
+      "R4-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-pontchateau": [
+        "R1C1-prix-de-la-ville-de-pontchateau.html",
+        "R1C2-prix-geny-courses.html",
+        "R1C3-prix-de-la-societe-des-courses-de-nantes.html",
+        "R1C4-prix-du-conseil-departemental-de-loire-atlantique.html",
+        "R1C5-prix-dominique-david.html",
+        "R1C6-prix-yvonnick-bodin.html",
+        "R1C7-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R1C8-prix-des-amateurs.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-ville-de-pontchateau.html",
+        "R3C2-prix-geny-courses.html",
+        "R3C3-prix-de-la-societe-des-courses-de-nantes.html",
+        "R3C4-prix-du-conseil-departemental-de-loire-atlantique.html",
+        "R3C5-prix-dominique-david.html",
+        "R3C6-prix-yvonnick-bodin.html",
+        "R3C7-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R3C8-prix-des-amateurs.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-de-la-ville-de-pontchateau.html",
+        "R4C2-prix-geny-courses.html",
+        "R4C3-prix-de-la-societe-des-courses-de-nantes.html",
+        "R4C4-prix-du-conseil-departemental-de-loire-atlantique.html",
+        "R4C5-prix-dominique-david.html",
+        "R4C6-prix-yvonnick-bodin.html",
+        "R4C7-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R4C8-prix-des-amateurs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:59:19.678220Z"
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2007-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-17",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-17/2007-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C1-prix-de-neris-les-bains.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C2-prix-de-montlucon.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C3-prix-des-courses-internationales-de-san-sebastian.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C4-prix-de-clermont-ferrand.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C5-prix-de-souvigny.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R1-vichy/R1C7-prix-de-gergovie.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R2-beaumont-de-lomagne/R2C1-prix-de-neris-les-bains.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R2-beaumont-de-lomagne/R2C2-prix-de-montlucon.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R2-beaumont-de-lomagne/R2C3-prix-des-courses-internationales-de-san-sebastian.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R2-beaumont-de-lomagne/R2C7-prix-de-gergovie.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R3-cabourg/R3C1-prix-de-neris-les-bains.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R3-cabourg/R3C3-prix-des-courses-internationales-de-san-sebastian.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R3-cabourg/R3C4-prix-de-clermont-ferrand.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C1-prix-de-neris-les-bains.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C2-prix-de-montlucon.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C3-prix-des-courses-internationales-de-san-sebastian.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C4-prix-de-clermont-ferrand.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C5-prix-de-souvigny.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R31-zerace/R31C6-prix-des-malavaux.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C1-prix-de-neris-les-bains.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C2-prix-de-montlucon.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C4-prix-de-clermont-ferrand.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C5-prix-de-souvigny.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C6-prix-des-malavaux.html",
+      "resultats-et-rapports/2007/07/2007-07-17/R70-val-d-isere-briancon/R70C7-prix-de-gergovie.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-beaumont-de-lomagne",
+      "R3-cabourg",
+      "R31-zerace",
+      "R70-val-d-isere-briancon"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-neris-les-bains.html",
+        "R1C2-prix-de-montlucon.html",
+        "R1C3-prix-des-courses-internationales-de-san-sebastian.html",
+        "R1C4-prix-de-clermont-ferrand.html",
+        "R1C5-prix-de-souvigny.html",
+        "R1C6-prix-des-malavaux.html",
+        "R1C7-prix-de-gergovie.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-de-neris-les-bains.html",
+        "R2C2-prix-de-montlucon.html",
+        "R2C3-prix-des-courses-internationales-de-san-sebastian.html",
+        "R2C4-prix-de-clermont-ferrand.html",
+        "R2C5-prix-de-souvigny.html",
+        "R2C6-prix-des-malavaux.html",
+        "R2C7-prix-de-gergovie.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-neris-les-bains.html",
+        "R3C2-prix-de-montlucon.html",
+        "R3C3-prix-des-courses-internationales-de-san-sebastian.html",
+        "R3C4-prix-de-clermont-ferrand.html",
+        "R3C5-prix-de-souvigny.html",
+        "R3C6-prix-des-malavaux.html",
+        "R3C7-prix-de-gergovie.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-neris-les-bains.html",
+        "R31C2-prix-de-montlucon.html",
+        "R31C3-prix-des-courses-internationales-de-san-sebastian.html",
+        "R31C4-prix-de-clermont-ferrand.html",
+        "R31C5-prix-de-souvigny.html",
+        "R31C6-prix-des-malavaux.html",
+        "R31C7-prix-de-gergovie.html"
+      ],
+      "R70-val-d-isere-briancon": [
+        "R70C1-prix-de-neris-les-bains.html",
+        "R70C2-prix-de-montlucon.html",
+        "R70C3-prix-des-courses-internationales-de-san-sebastian.html",
+        "R70C4-prix-de-clermont-ferrand.html",
+        "R70C5-prix-de-souvigny.html",
+        "R70C6-prix-des-malavaux.html",
+        "R70C7-prix-de-gergovie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:08.869701Z"
+}

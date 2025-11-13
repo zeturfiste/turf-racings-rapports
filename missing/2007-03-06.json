@@ -1,0 +1,111 @@
+{
+  "date": "2007-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-06",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-06/2007-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-06/R1-enghien-soisy/R1C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R1-enghien-soisy/R1C9-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R2-nantes/R2C1-prix-spumate.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R2-nantes/R2C4-prix-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R2-nantes/R2C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R2-nantes/R2C8-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C1-prix-spumate.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C2-prix-avranchin.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C4-prix-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C6-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R3-cagnes-sur-mer/R3C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R21-zerace/R21C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R21-zerace/R21C6-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R21-zerace/R21C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R21-zerace/R21C8-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R21-zerace/R21C9-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C1-prix-spumate.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C2-prix-avranchin.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C3-prix-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C4-prix-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C5-prix-baroud-iii.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C6-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C8-prix-d-essai-des-poulains.html",
+      "resultats-et-rapports/2007/03/2007-03-06/R70-gerland-lyon/R70C9-prix-de-la-chapelle-en-serval.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-nantes",
+      "R3-cagnes-sur-mer",
+      "R21-zerace",
+      "R70-gerland-lyon"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-spumate.html",
+        "R1C2-prix-avranchin.html",
+        "R1C3-prix-d-essai-des-pouliches.html",
+        "R1C4-prix-d-essai-des-pouliches.html",
+        "R1C5-prix-baroud-iii.html",
+        "R1C6-prix-d-essai-des-poulains.html",
+        "R1C7-prix-d-aurillac.html",
+        "R1C8-prix-d-essai-des-poulains.html",
+        "R1C9-prix-de-la-chapelle-en-serval.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-spumate.html",
+        "R2C2-prix-avranchin.html",
+        "R2C3-prix-d-essai-des-pouliches.html",
+        "R2C4-prix-d-essai-des-pouliches.html",
+        "R2C5-prix-baroud-iii.html",
+        "R2C6-prix-d-essai-des-poulains.html",
+        "R2C7-prix-d-aurillac.html",
+        "R2C8-prix-d-essai-des-poulains.html",
+        "R2C9-prix-de-la-chapelle-en-serval.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-spumate.html",
+        "R3C2-prix-avranchin.html",
+        "R3C3-prix-d-essai-des-pouliches.html",
+        "R3C4-prix-d-essai-des-pouliches.html",
+        "R3C5-prix-baroud-iii.html",
+        "R3C6-prix-d-essai-des-poulains.html",
+        "R3C7-prix-d-aurillac.html",
+        "R3C8-prix-d-essai-des-poulains.html",
+        "R3C9-prix-de-la-chapelle-en-serval.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-spumate.html",
+        "R21C2-prix-avranchin.html",
+        "R21C3-prix-d-essai-des-pouliches.html",
+        "R21C4-prix-d-essai-des-pouliches.html",
+        "R21C5-prix-baroud-iii.html",
+        "R21C6-prix-d-essai-des-poulains.html",
+        "R21C7-prix-d-aurillac.html",
+        "R21C8-prix-d-essai-des-poulains.html",
+        "R21C9-prix-de-la-chapelle-en-serval.html"
+      ],
+      "R70-gerland-lyon": [
+        "R70C1-prix-spumate.html",
+        "R70C2-prix-avranchin.html",
+        "R70C3-prix-d-essai-des-pouliches.html",
+        "R70C4-prix-d-essai-des-pouliches.html",
+        "R70C5-prix-baroud-iii.html",
+        "R70C6-prix-d-essai-des-poulains.html",
+        "R70C7-prix-d-aurillac.html",
+        "R70C8-prix-d-essai-des-poulains.html",
+        "R70C9-prix-de-la-chapelle-en-serval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:39:26.767787Z"
+}

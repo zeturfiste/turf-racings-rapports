@@ -1,0 +1,54 @@
+{
+  "date": "2014-01-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/01/2014-01-14",
+    "date_html": "resultats-et-rapports/2014/01/2014-01-14/2014-01-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/01/2014-01-14/R1-pau/R1C1-prix-charles-de-ginestet.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R1-pau/R1C6-prix-de-baretous.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R1-pau/R1C7-prix-du-pic-du-midi.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R2-cagnes-sur-mer/R2C5-prix-de-gourette.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R2-cagnes-sur-mer/R2C6-prix-de-baretous.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R2-cagnes-sur-mer/R2C7-prix-du-pic-du-midi.html",
+      "resultats-et-rapports/2014/01/2014-01-14/R2-cagnes-sur-mer/R2C8-prix-de-montaner.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-charles-de-ginestet.html",
+        "R1C2-prix-de-lasseube.html",
+        "R1C3-prix-auguste-de-castelbajac.html",
+        "R1C4-prix-pmu-buffet-de-la-gare-pau-prix-joseph-de-gontaut-biron.html",
+        "R1C5-prix-de-gourette.html",
+        "R1C6-prix-de-baretous.html",
+        "R1C7-prix-du-pic-du-midi.html",
+        "R1C8-prix-de-montaner.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-charles-de-ginestet.html",
+        "R2C2-prix-de-lasseube.html",
+        "R2C3-prix-auguste-de-castelbajac.html",
+        "R2C4-prix-pmu-buffet-de-la-gare-pau-prix-joseph-de-gontaut-biron.html",
+        "R2C5-prix-de-gourette.html",
+        "R2C6-prix-de-baretous.html",
+        "R2C7-prix-du-pic-du-midi.html",
+        "R2C8-prix-de-montaner.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:04.613468Z"
+}

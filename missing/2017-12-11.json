@@ -1,0 +1,89 @@
+{
+  "date": "2017-12-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-11",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-11/2017-12-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-11/R3-vincennes/R3C1-prix-ubu-iii.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R3-vincennes/R3C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R3-vincennes/R3C7-prix-du-vieux-nice.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R4-pornichet-la-baule/R4C1-prix-ubu-iii.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R4-pornichet-la-baule/R4C3-prix-du-mont-vial.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R5-marseille-vivaux/R5C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R5-marseille-vivaux/R5C3-prix-du-mont-vial.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R6-nantes/R6C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R6-nantes/R6C3-prix-du-mont-vial.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R6-nantes/R6C6-prix-d-auteuil.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R1-cagnes-sur-mer/R1C3-prix-du-mont-vial.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R1-cagnes-sur-mer/R1C4-prix-henri-veran.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R1-cagnes-sur-mer/R1C5-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2017/12/2017-12-11/R1-cagnes-sur-mer/R1C6-prix-d-auteuil.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R3-vincennes",
+      "R4-pornichet-la-baule",
+      "R5-marseille-vivaux",
+      "R6-nantes",
+      "R1-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R3-vincennes": [
+        "R3C1-prix-ubu-iii.html",
+        "R3C2-prix-de-la-promenade-des-anglais.html",
+        "R3C3-prix-du-mont-vial.html",
+        "R3C4-prix-henri-veran.html",
+        "R3C5-prix-du-mont-falourde.html",
+        "R3C6-prix-d-auteuil.html",
+        "R3C7-prix-du-vieux-nice.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-ubu-iii.html",
+        "R4C2-prix-de-la-promenade-des-anglais.html",
+        "R4C3-prix-du-mont-vial.html",
+        "R4C4-prix-henri-veran.html",
+        "R4C5-prix-du-mont-falourde.html",
+        "R4C6-prix-d-auteuil.html",
+        "R4C7-prix-du-vieux-nice.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-ubu-iii.html",
+        "R5C2-prix-de-la-promenade-des-anglais.html",
+        "R5C3-prix-du-mont-vial.html",
+        "R5C4-prix-henri-veran.html",
+        "R5C5-prix-du-mont-falourde.html",
+        "R5C6-prix-d-auteuil.html",
+        "R5C7-prix-du-vieux-nice.html"
+      ],
+      "R6-nantes": [
+        "R6C1-prix-ubu-iii.html",
+        "R6C2-prix-de-la-promenade-des-anglais.html",
+        "R6C3-prix-du-mont-vial.html",
+        "R6C4-prix-henri-veran.html",
+        "R6C5-prix-du-mont-falourde.html",
+        "R6C6-prix-d-auteuil.html",
+        "R6C7-prix-du-vieux-nice.html"
+      ],
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-ubu-iii.html",
+        "R1C2-prix-de-la-promenade-des-anglais.html",
+        "R1C3-prix-du-mont-vial.html",
+        "R1C4-prix-henri-veran.html",
+        "R1C5-prix-du-mont-falourde.html",
+        "R1C6-prix-d-auteuil.html",
+        "R1C7-prix-du-vieux-nice.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:43.918843Z"
+}

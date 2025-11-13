@@ -1,0 +1,88 @@
+{
+  "date": "2017-04-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-21",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-21/2017-04-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C2-prix-aletheia.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C3-prix-asterope.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C4-prix-gaston-de-wazieres.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C5-prix-euphrosyne.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C6-prix-gaston-brunet.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R5-auteuil/R5C7-prix-palma.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C1-prix-neptuna.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C2-prix-aletheia.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C3-prix-asterope.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C4-prix-gaston-de-wazieres.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C5-prix-euphrosyne.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C6-prix-gaston-brunet.html",
+      "resultats-et-rapports/2017/04/2017-04-21/R6-toulouse/R6C7-prix-palma.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-maure-de-bretagne",
+      "R4-fontainebleau",
+      "R5-auteuil",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-neptuna.html",
+        "R1C2-prix-aletheia.html",
+        "R1C3-prix-asterope.html",
+        "R1C4-prix-gaston-de-wazieres.html",
+        "R1C5-prix-euphrosyne.html",
+        "R1C6-prix-gaston-brunet.html",
+        "R1C7-prix-palma.html"
+      ],
+      "R3-maure-de-bretagne": [
+        "R3C1-prix-neptuna.html",
+        "R3C2-prix-aletheia.html",
+        "R3C3-prix-asterope.html",
+        "R3C4-prix-gaston-de-wazieres.html",
+        "R3C5-prix-euphrosyne.html",
+        "R3C6-prix-gaston-brunet.html",
+        "R3C7-prix-palma.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-neptuna.html",
+        "R4C2-prix-aletheia.html",
+        "R4C3-prix-asterope.html",
+        "R4C4-prix-gaston-de-wazieres.html",
+        "R4C5-prix-euphrosyne.html",
+        "R4C6-prix-gaston-brunet.html",
+        "R4C7-prix-palma.html"
+      ],
+      "R5-auteuil": [
+        "R5C1-prix-neptuna.html",
+        "R5C2-prix-aletheia.html",
+        "R5C3-prix-asterope.html",
+        "R5C4-prix-gaston-de-wazieres.html",
+        "R5C5-prix-euphrosyne.html",
+        "R5C6-prix-gaston-brunet.html",
+        "R5C7-prix-palma.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-neptuna.html",
+        "R6C2-prix-aletheia.html",
+        "R6C3-prix-asterope.html",
+        "R6C4-prix-gaston-de-wazieres.html",
+        "R6C5-prix-euphrosyne.html",
+        "R6C6-prix-gaston-brunet.html",
+        "R6C7-prix-palma.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:01:18.594107Z"
+}

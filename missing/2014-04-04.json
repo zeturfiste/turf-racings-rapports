@@ -1,0 +1,81 @@
+{
+  "date": "2014-04-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-04",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-04/2014-04-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-04/R1-auteuil/R1C2-prix-le-touquet.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R1-auteuil/R1C4-prix-guy-hunault.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R2-marseille-borely/R2C6-prix-de-pepinvast.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R3-vincennes/R3C2-prix-le-touquet.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R3-vincennes/R3C6-prix-de-pepinvast.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R3-vincennes/R3C7-prix-arthur-veil-picard.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C1-prix-grandak.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C3-prix-champaubert.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C4-prix-guy-hunault.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C6-prix-de-pepinvast.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C7-prix-arthur-veil-picard.html",
+      "resultats-et-rapports/2014/04/2014-04-04/R7-lyon-la-soie/R7C8-prix-the-coyote.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R7-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-grandak.html",
+        "R1C2-prix-le-touquet.html",
+        "R1C3-prix-champaubert.html",
+        "R1C4-prix-guy-hunault.html",
+        "R1C5-prix-murat.html",
+        "R1C6-prix-de-pepinvast.html",
+        "R1C7-prix-arthur-veil-picard.html",
+        "R1C8-prix-the-coyote.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-grandak.html",
+        "R2C2-prix-le-touquet.html",
+        "R2C3-prix-champaubert.html",
+        "R2C4-prix-guy-hunault.html",
+        "R2C5-prix-murat.html",
+        "R2C6-prix-de-pepinvast.html",
+        "R2C7-prix-arthur-veil-picard.html",
+        "R2C8-prix-the-coyote.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-grandak.html",
+        "R3C2-prix-le-touquet.html",
+        "R3C3-prix-champaubert.html",
+        "R3C4-prix-guy-hunault.html",
+        "R3C5-prix-murat.html",
+        "R3C6-prix-de-pepinvast.html",
+        "R3C7-prix-arthur-veil-picard.html",
+        "R3C8-prix-the-coyote.html"
+      ],
+      "R7-lyon-la-soie": [
+        "R7C1-prix-grandak.html",
+        "R7C2-prix-le-touquet.html",
+        "R7C3-prix-champaubert.html",
+        "R7C4-prix-guy-hunault.html",
+        "R7C5-prix-murat.html",
+        "R7C6-prix-de-pepinvast.html",
+        "R7C7-prix-arthur-veil-picard.html",
+        "R7C8-prix-the-coyote.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:55:26.446075Z"
+}

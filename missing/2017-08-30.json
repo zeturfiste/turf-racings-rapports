@@ -1,0 +1,70 @@
+{
+  "date": "2017-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-30",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-30/2017-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C1-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C3-prix-tendance-ouest-prix-du-hamel.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C4-prix-de-coudray-rabut.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C5-prix-des-cotes-de-normandie.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C7-prix-des-fresneaux.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R1-deauville/R1C8-prix-des-plaines-de-normandie.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R3-vincennes/R3C1-prix-de-la-cauviniere.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R3-vincennes/R3C2-prix-du-journal-le-pays-d-auge-prix-du-bocage-normand.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R3-vincennes/R3C4-prix-de-coudray-rabut.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R6-les-sables-d-olonne/R6C3-prix-tendance-ouest-prix-du-hamel.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R6-les-sables-d-olonne/R6C6-prix-de-la-banche.html",
+      "resultats-et-rapports/2017/08/2017-08-30/R6-les-sables-d-olonne/R6C7-prix-des-fresneaux.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-vincennes",
+      "R6-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-cauviniere.html",
+        "R1C2-prix-du-journal-le-pays-d-auge-prix-du-bocage-normand.html",
+        "R1C3-prix-tendance-ouest-prix-du-hamel.html",
+        "R1C4-prix-de-coudray-rabut.html",
+        "R1C5-prix-des-cotes-de-normandie.html",
+        "R1C6-prix-de-la-banche.html",
+        "R1C7-prix-des-fresneaux.html",
+        "R1C8-prix-des-plaines-de-normandie.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-cauviniere.html",
+        "R3C2-prix-du-journal-le-pays-d-auge-prix-du-bocage-normand.html",
+        "R3C3-prix-tendance-ouest-prix-du-hamel.html",
+        "R3C4-prix-de-coudray-rabut.html",
+        "R3C5-prix-des-cotes-de-normandie.html",
+        "R3C6-prix-de-la-banche.html",
+        "R3C7-prix-des-fresneaux.html",
+        "R3C8-prix-des-plaines-de-normandie.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-de-la-cauviniere.html",
+        "R6C2-prix-du-journal-le-pays-d-auge-prix-du-bocage-normand.html",
+        "R6C3-prix-tendance-ouest-prix-du-hamel.html",
+        "R6C4-prix-de-coudray-rabut.html",
+        "R6C5-prix-des-cotes-de-normandie.html",
+        "R6C6-prix-de-la-banche.html",
+        "R6C7-prix-des-fresneaux.html",
+        "R6C8-prix-des-plaines-de-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:02:07.059455Z"
+}

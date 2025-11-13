@@ -1,0 +1,103 @@
+{
+  "date": "2016-09-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-19",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-19/2016-09-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-19/R2-vichy/R2C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R2-vichy/R2C8-prix-a-tempo.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C4-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C5-prix-vamos-categorie-personnel-de-haras.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C6-prix-ad-altiora-categorie-leadership.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C7-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R3-toulouse/R3C8-prix-a-tempo.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C4-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C5-prix-vamos-categorie-personnel-de-haras.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C6-prix-ad-altiora-categorie-leadership.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C7-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R4-vincennes/R4C8-prix-a-tempo.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C4-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C5-prix-vamos-categorie-personnel-de-haras.html",
+      "resultats-et-rapports/2016/09/2016-09-19/R7-hyeres/R7C8-prix-a-tempo.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-vichy",
+      "R3-toulouse",
+      "R4-vincennes",
+      "R7-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+        "R1C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+        "R1C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+        "R1C4-prix-des-boucles-de-la-seine.html",
+        "R1C5-prix-vamos-categorie-personnel-de-haras.html",
+        "R1C6-prix-ad-altiora-categorie-leadership.html",
+        "R1C7-prix-du-bois-barbot.html",
+        "R1C8-prix-a-tempo.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+        "R2C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+        "R2C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+        "R2C4-prix-des-boucles-de-la-seine.html",
+        "R2C5-prix-vamos-categorie-personnel-de-haras.html",
+        "R2C6-prix-ad-altiora-categorie-leadership.html",
+        "R2C7-prix-du-bois-barbot.html",
+        "R2C8-prix-a-tempo.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+        "R3C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+        "R3C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+        "R3C4-prix-des-boucles-de-la-seine.html",
+        "R3C5-prix-vamos-categorie-personnel-de-haras.html",
+        "R3C6-prix-ad-altiora-categorie-leadership.html",
+        "R3C7-prix-du-bois-barbot.html",
+        "R3C8-prix-a-tempo.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+        "R4C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+        "R4C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+        "R4C4-prix-des-boucles-de-la-seine.html",
+        "R4C5-prix-vamos-categorie-personnel-de-haras.html",
+        "R4C6-prix-ad-altiora-categorie-leadership.html",
+        "R4C7-prix-du-bois-barbot.html",
+        "R4C8-prix-a-tempo.html"
+      ],
+      "R7-hyeres": [
+        "R7C1-prix-de-chambourcy-categorie-jeune-espoir.html",
+        "R7C2-prix-pharel-categorie-devouement-pour-les-courses.html",
+        "R7C3-prix-soya-categorie-cavalier-ere-d-entrainement.html",
+        "R7C4-prix-des-boucles-de-la-seine.html",
+        "R7C5-prix-vamos-categorie-personnel-de-haras.html",
+        "R7C6-prix-ad-altiora-categorie-leadership.html",
+        "R7C7-prix-du-bois-barbot.html",
+        "R7C8-prix-a-tempo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T02:00:13.513783Z"
+}

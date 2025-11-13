@@ -1,0 +1,106 @@
+{
+  "date": "2007-10-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/10/2007-10-23",
+    "date_html": "resultats-et-rapports/2007/10/2007-10-23/2007-10-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C1-prix-d-authou.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C2-prix-des-equidays.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C4-prix-de-l-odon.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C5-prix-de-la-risle.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C6-prix-de-la-maree.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R1-deauville/R1C7-prix-de-la-touques.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R2-saint-galmier/R2C1-prix-d-authou.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R2-saint-galmier/R2C4-prix-de-l-odon.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R2-saint-galmier/R2C5-prix-de-la-risle.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R2-saint-galmier/R2C6-prix-de-la-maree.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R2-saint-galmier/R2C7-prix-de-la-touques.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C1-prix-d-authou.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C2-prix-des-equidays.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C3-prix-des-reservoirs.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C4-prix-de-l-odon.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C5-prix-de-la-risle.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C6-prix-de-la-maree.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R3-vincennes/R3C7-prix-de-la-touques.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C1-prix-d-authou.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C2-prix-des-equidays.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C3-prix-des-reservoirs.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C4-prix-de-l-odon.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C5-prix-de-la-risle.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R31-zerace/R31C6-prix-de-la-maree.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C1-prix-d-authou.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C2-prix-des-equidays.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C3-prix-des-reservoirs.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C4-prix-de-l-odon.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C5-prix-de-la-risle.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C6-prix-de-la-maree.html",
+      "resultats-et-rapports/2007/10/2007-10-23/R70-gottlieb-daimler-stadion-stuttgart/R70C7-prix-de-la-touques.html"
+    ]
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-saint-galmier",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-gottlieb-daimler-stadion-stuttgart"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-authou.html",
+        "R1C2-prix-des-equidays.html",
+        "R1C3-prix-des-reservoirs.html",
+        "R1C4-prix-de-l-odon.html",
+        "R1C5-prix-de-la-risle.html",
+        "R1C6-prix-de-la-maree.html",
+        "R1C7-prix-de-la-touques.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-d-authou.html",
+        "R2C2-prix-des-equidays.html",
+        "R2C3-prix-des-reservoirs.html",
+        "R2C4-prix-de-l-odon.html",
+        "R2C5-prix-de-la-risle.html",
+        "R2C6-prix-de-la-maree.html",
+        "R2C7-prix-de-la-touques.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-d-authou.html",
+        "R3C2-prix-des-equidays.html",
+        "R3C3-prix-des-reservoirs.html",
+        "R3C4-prix-de-l-odon.html",
+        "R3C5-prix-de-la-risle.html",
+        "R3C6-prix-de-la-maree.html",
+        "R3C7-prix-de-la-touques.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-d-authou.html",
+        "R31C2-prix-des-equidays.html",
+        "R31C3-prix-des-reservoirs.html",
+        "R31C4-prix-de-l-odon.html",
+        "R31C5-prix-de-la-risle.html",
+        "R31C6-prix-de-la-maree.html",
+        "R31C7-prix-de-la-touques.html"
+      ],
+      "R70-gottlieb-daimler-stadion-stuttgart": [
+        "R70C1-prix-d-authou.html",
+        "R70C2-prix-des-equidays.html",
+        "R70C3-prix-des-reservoirs.html",
+        "R70C4-prix-de-l-odon.html",
+        "R70C5-prix-de-la-risle.html",
+        "R70C6-prix-de-la-maree.html",
+        "R70C7-prix-de-la-touques.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:40:49.046298Z"
+}

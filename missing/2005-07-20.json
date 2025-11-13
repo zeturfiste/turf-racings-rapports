@@ -1,0 +1,57 @@
+{
+  "date": "2005-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-20",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-20/2005-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "extras": {
+    "reunion_dirs": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-vichy",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-prix-synergie.html",
+        "R1C2-prix-de-la-metairie-neuve.html",
+        "R1C3-prix-des-pays-de-la-loire.html",
+        "R1C4-prix-de-la-galissonniere.html",
+        "R1C5-prix-casdar.html",
+        "R1C6-prix-de-bretagne.html",
+        "R1C7-prix-d-enghien.html",
+        "R1C8-prix-de-la-ville-marie.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-synergie.html",
+        "R2C2-prix-de-la-metairie-neuve.html",
+        "R2C3-prix-des-pays-de-la-loire.html",
+        "R2C4-prix-de-la-galissonniere.html",
+        "R2C5-prix-casdar.html",
+        "R2C6-prix-de-bretagne.html",
+        "R2C7-prix-d-enghien.html",
+        "R2C8-prix-de-la-ville-marie.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-synergie.html",
+        "R3C2-prix-de-la-metairie-neuve.html",
+        "R3C3-prix-des-pays-de-la-loire.html",
+        "R3C4-prix-de-la-galissonniere.html",
+        "R3C5-prix-casdar.html",
+        "R3C6-prix-de-bretagne.html",
+        "R3C7-prix-d-enghien.html",
+        "R3C8-prix-de-la-ville-marie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T01:37:13.653278Z"
+}
