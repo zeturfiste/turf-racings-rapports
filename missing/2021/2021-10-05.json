@@ -1,0 +1,77 @@
+{
+  "date": "2021-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-05",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-05/2021-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C2-prix-du-temple-de-venus.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C3-prix-du-jeu-de-l-oie.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C4-prix-des-usages.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C5-prix-de-mours.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C6-prix-de-l-embarcadere.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C7-prix-de-bonneval.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R1-chantilly/R1C8-prix-du-grand-cabinet-d-angle.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C1-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C2-prix-du-temple-de-venus.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C3-prix-du-jeu-de-l-oie.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C4-prix-des-usages.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C5-prix-de-mours.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C6-prix-de-l-embarcadere.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C7-prix-de-bonneval.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R3-nantes/R3C8-prix-du-grand-cabinet-d-angle.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C1-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C2-prix-du-temple-de-venus.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C3-prix-du-jeu-de-l-oie.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C4-prix-des-usages.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C5-prix-de-mours.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C6-prix-de-l-embarcadere.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C7-prix-de-bonneval.html",
+      "resultats-et-rapports/2021/10/2021-10-05/R4-vincennes/R4C8-prix-du-grand-cabinet-d-angle.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-nantes",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R1C2-prix-du-temple-de-venus.html",
+        "R1C3-prix-du-jeu-de-l-oie.html",
+        "R1C4-prix-des-usages.html",
+        "R1C5-prix-de-mours.html",
+        "R1C6-prix-de-l-embarcadere.html",
+        "R1C7-prix-de-bonneval.html",
+        "R1C8-prix-du-grand-cabinet-d-angle.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R3C2-prix-du-temple-de-venus.html",
+        "R3C3-prix-du-jeu-de-l-oie.html",
+        "R3C4-prix-des-usages.html",
+        "R3C5-prix-de-mours.html",
+        "R3C6-prix-de-l-embarcadere.html",
+        "R3C7-prix-de-bonneval.html",
+        "R3C8-prix-du-grand-cabinet-d-angle.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R4C2-prix-du-temple-de-venus.html",
+        "R4C3-prix-du-jeu-de-l-oie.html",
+        "R4C4-prix-des-usages.html",
+        "R4C5-prix-de-mours.html",
+        "R4C6-prix-de-l-embarcadere.html",
+        "R4C7-prix-de-bonneval.html",
+        "R4C8-prix-du-grand-cabinet-d-angle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:18.182290Z"
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2006-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-11",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-11/2006-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-11/R1-clairefontaine/R1C4-prix-jacomo-prix-de-ranville.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R2-cabourg/R2C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R2-cabourg/R2C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R3-cagnes-sur-mer/R3C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R3-cagnes-sur-mer/R3C4-prix-jacomo-prix-de-ranville.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R3-cagnes-sur-mer/R3C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R3-cagnes-sur-mer/R3C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R3-cagnes-sur-mer/R3C8-prix-de-la-ville-de-honfleur-prix-du-golf.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R4-villereal/R4C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R4-villereal/R4C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R4-villereal/R4C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R4-villereal/R4C6-prix-du-don-du-sang-prix-d-ellon.html",
+      "resultats-et-rapports/2006/08/2006-08-11/R10-goteborg-suede/R10C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-cabourg",
+      "R3-cagnes-sur-mer",
+      "R4-villereal",
+      "R5-saint-galmier",
+      "R10-goteborg-suede"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R1C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R1C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R1C4-prix-jacomo-prix-de-ranville.html",
+        "R1C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R1C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R1C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R1C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R2C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R2C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R2C4-prix-jacomo-prix-de-ranville.html",
+        "R2C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R2C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R2C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R2C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R3C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R3C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R3C4-prix-jacomo-prix-de-ranville.html",
+        "R3C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R3C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R3C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R3C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ],
+      "R4-villereal": [
+        "R4C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R4C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R4C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R4C4-prix-jacomo-prix-de-ranville.html",
+        "R4C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R4C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R4C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R4C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R5C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R5C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R5C4-prix-jacomo-prix-de-ranville.html",
+        "R5C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R5C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R5C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R5C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ],
+      "R10-goteborg-suede": [
+        "R10C1-prix-du-journal-paris-turf-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R10C2-prix-agrial-point-vert-prix-de-la-paquine.html",
+        "R10C3-prix-de-la-communaute-de-communes-coeur-cote-fleurie-prix-des-platanes.html",
+        "R10C4-prix-jacomo-prix-de-ranville.html",
+        "R10C5-prix-gil-pascal-a-trouville-sur-mer-prix-guy-du-faur-de-pibrac.html",
+        "R10C6-prix-du-don-du-sang-prix-d-ellon.html",
+        "R10C7-prix-du-lions-club-de-deauville-trouville-prix-des-roselys.html",
+        "R10C8-prix-de-la-ville-de-honfleur-prix-du-golf.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:54.645946Z"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2006-04-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-04",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-04/2006-04-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-lyon-villeurbanne",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-newmarket.html",
+        "R1C2-prix-prompt.html",
+        "R1C3-prix-imprudence.html",
+        "R1C4-prix-djebel.html",
+        "R1C5-prix-cor-de-chasse.html",
+        "R1C6-prix-de-buc.html",
+        "R1C7-prix-de-la-clementerie.html",
+        "R1C8-prix-de-lambourn.html"
+      ],
+      "R2-lyon-villeurbanne": [
+        "R2C1-prix-de-newmarket.html",
+        "R2C2-prix-prompt.html",
+        "R2C3-prix-imprudence.html",
+        "R2C4-prix-djebel.html",
+        "R2C5-prix-cor-de-chasse.html",
+        "R2C6-prix-de-buc.html",
+        "R2C7-prix-de-la-clementerie.html",
+        "R2C8-prix-de-lambourn.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-newmarket.html",
+        "R3C2-prix-prompt.html",
+        "R3C3-prix-imprudence.html",
+        "R3C4-prix-djebel.html",
+        "R3C5-prix-cor-de-chasse.html",
+        "R3C6-prix-de-buc.html",
+        "R3C7-prix-de-la-clementerie.html",
+        "R3C8-prix-de-lambourn.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:23.541997Z"
+}

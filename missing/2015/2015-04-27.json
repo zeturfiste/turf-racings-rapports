@@ -1,0 +1,88 @@
+{
+  "date": "2015-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-27",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-27/2015-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-27/R1-chantilly/R1C2-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R1-chantilly/R1C9-prix-de-brunehaut.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C1-prix-caravelle.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C2-prix-du-pays-de-france.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C3-prix-pensbury.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C4-prix-des-fontaines.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C5-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C6-prix-allez-france.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C7-prix-des-gres.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C8-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R2-cholet/R2C9-prix-de-brunehaut.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R3-enghien-soisy/R3C1-prix-caravelle.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R3-enghien-soisy/R3C3-prix-pensbury.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R3-enghien-soisy/R3C5-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R3-enghien-soisy/R3C8-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R5-cavaillon/R5C3-prix-pensbury.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R5-cavaillon/R5C5-prix-du-pays-valoisien.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R5-cavaillon/R5C6-prix-allez-france.html",
+      "resultats-et-rapports/2015/04/2015-04-27/R5-cavaillon/R5C7-prix-des-gres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-cholet",
+      "R3-enghien-soisy",
+      "R5-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-caravelle.html",
+        "R1C2-prix-du-pays-de-france.html",
+        "R1C3-prix-pensbury.html",
+        "R1C4-prix-des-fontaines.html",
+        "R1C5-prix-du-pays-valoisien.html",
+        "R1C6-prix-allez-france.html",
+        "R1C7-prix-des-gres.html",
+        "R1C8-prix-du-pont-du-roi.html",
+        "R1C9-prix-de-brunehaut.html"
+      ],
+      "R2-cholet": [
+        "R2C1-prix-caravelle.html",
+        "R2C2-prix-du-pays-de-france.html",
+        "R2C3-prix-pensbury.html",
+        "R2C4-prix-des-fontaines.html",
+        "R2C5-prix-du-pays-valoisien.html",
+        "R2C6-prix-allez-france.html",
+        "R2C7-prix-des-gres.html",
+        "R2C8-prix-du-pont-du-roi.html",
+        "R2C9-prix-de-brunehaut.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-caravelle.html",
+        "R3C2-prix-du-pays-de-france.html",
+        "R3C3-prix-pensbury.html",
+        "R3C4-prix-des-fontaines.html",
+        "R3C5-prix-du-pays-valoisien.html",
+        "R3C6-prix-allez-france.html",
+        "R3C7-prix-des-gres.html",
+        "R3C8-prix-du-pont-du-roi.html",
+        "R3C9-prix-de-brunehaut.html"
+      ],
+      "R5-cavaillon": [
+        "R5C1-prix-caravelle.html",
+        "R5C2-prix-du-pays-de-france.html",
+        "R5C3-prix-pensbury.html",
+        "R5C4-prix-des-fontaines.html",
+        "R5C5-prix-du-pays-valoisien.html",
+        "R5C6-prix-allez-france.html",
+        "R5C7-prix-des-gres.html",
+        "R5C8-prix-du-pont-du-roi.html",
+        "R5C9-prix-de-brunehaut.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:43.169980Z"
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2007-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-03",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-03/2007-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C1-prix-de-chambly.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C2-prix-de-gencay.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C3-prix-de-bouville.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C4-prix-de-craponne.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C5-prix-de-landivisiau.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C6-prix-du-mesle.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R2-lyon-parilly/R2C8-prix-de-laon.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C1-prix-de-chambly.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C2-prix-de-gencay.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C3-prix-de-bouville.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C4-prix-de-craponne.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C5-prix-de-landivisiau.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C6-prix-du-mesle.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C7-prix-du-dorat.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R4-toulouse/R4C8-prix-de-laon.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R5-le-croise-laroche/R5C1-prix-de-chambly.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R5-le-croise-laroche/R5C2-prix-de-gencay.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R5-le-croise-laroche/R5C3-prix-de-bouville.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R5-le-croise-laroche/R5C4-prix-de-craponne.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R5-le-croise-laroche/R5C5-prix-de-landivisiau.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R31-zerace/R31C1-prix-de-chambly.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R70-la-mosson-montpellier/R70C1-prix-de-chambly.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R70-la-mosson-montpellier/R70C5-prix-de-landivisiau.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R70-la-mosson-montpellier/R70C6-prix-du-mesle.html",
+      "resultats-et-rapports/2007/12/2007-12-03/R70-la-mosson-montpellier/R70C8-prix-de-laon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-lyon-parilly",
+      "R4-toulouse",
+      "R5-le-croise-laroche",
+      "R31-zerace",
+      "R70-la-mosson-montpellier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chambly.html",
+        "R1C2-prix-de-gencay.html",
+        "R1C3-prix-de-bouville.html",
+        "R1C4-prix-de-craponne.html",
+        "R1C5-prix-de-landivisiau.html",
+        "R1C6-prix-du-mesle.html",
+        "R1C7-prix-du-dorat.html",
+        "R1C8-prix-de-laon.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-chambly.html",
+        "R2C2-prix-de-gencay.html",
+        "R2C3-prix-de-bouville.html",
+        "R2C4-prix-de-craponne.html",
+        "R2C5-prix-de-landivisiau.html",
+        "R2C6-prix-du-mesle.html",
+        "R2C7-prix-du-dorat.html",
+        "R2C8-prix-de-laon.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-chambly.html",
+        "R4C2-prix-de-gencay.html",
+        "R4C3-prix-de-bouville.html",
+        "R4C4-prix-de-craponne.html",
+        "R4C5-prix-de-landivisiau.html",
+        "R4C6-prix-du-mesle.html",
+        "R4C7-prix-du-dorat.html",
+        "R4C8-prix-de-laon.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-chambly.html",
+        "R5C2-prix-de-gencay.html",
+        "R5C3-prix-de-bouville.html",
+        "R5C4-prix-de-craponne.html",
+        "R5C5-prix-de-landivisiau.html",
+        "R5C6-prix-du-mesle.html",
+        "R5C7-prix-du-dorat.html",
+        "R5C8-prix-de-laon.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-chambly.html",
+        "R31C2-prix-de-gencay.html",
+        "R31C3-prix-de-bouville.html",
+        "R31C4-prix-de-craponne.html",
+        "R31C5-prix-de-landivisiau.html",
+        "R31C6-prix-du-mesle.html",
+        "R31C7-prix-du-dorat.html",
+        "R31C8-prix-de-laon.html"
+      ],
+      "R70-la-mosson-montpellier": [
+        "R70C1-prix-de-chambly.html",
+        "R70C2-prix-de-gencay.html",
+        "R70C3-prix-de-bouville.html",
+        "R70C4-prix-de-craponne.html",
+        "R70C5-prix-de-landivisiau.html",
+        "R70C6-prix-du-mesle.html",
+        "R70C7-prix-du-dorat.html",
+        "R70C8-prix-de-laon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:34.019219Z"
+}

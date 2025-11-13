@@ -1,0 +1,88 @@
+{
+  "date": "2020-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-29",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-29/2020-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-29/R3-la-teste-de-buch/R3C1-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R3-la-teste-de-buch/R3C2-prix-du-douet.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R4-vichy/R4C5-prix-des-forsythias.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R4-vichy/R4C6-prix-de-pennedepie.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R4-vichy/R4C7-prix-du-casino.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R6-beaumont-de-lomagne/R6C4-prix-des-oeillets.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R6-beaumont-de-lomagne/R6C5-prix-des-forsythias.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R7-le-croise-laroche/R7C1-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R7-le-croise-laroche/R7C3-prix-les-ouvres.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R7-le-croise-laroche/R7C5-prix-des-forsythias.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R7-le-croise-laroche/R7C6-prix-de-pennedepie.html",
+      "resultats-et-rapports/2020/06/2020-06-29/R7-le-croise-laroche/R7C8-prix-rideo.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-la-teste-de-buch",
+      "R4-vichy",
+      "R6-beaumont-de-lomagne",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-leopold-d-orsetti.html",
+        "R1C2-prix-du-douet.html",
+        "R1C3-prix-les-ouvres.html",
+        "R1C4-prix-des-oeillets.html",
+        "R1C5-prix-des-forsythias.html",
+        "R1C6-prix-de-pennedepie.html",
+        "R1C7-prix-du-casino.html",
+        "R1C8-prix-rideo.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-leopold-d-orsetti.html",
+        "R3C2-prix-du-douet.html",
+        "R3C3-prix-les-ouvres.html",
+        "R3C4-prix-des-oeillets.html",
+        "R3C5-prix-des-forsythias.html",
+        "R3C6-prix-de-pennedepie.html",
+        "R3C7-prix-du-casino.html",
+        "R3C8-prix-rideo.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-leopold-d-orsetti.html",
+        "R4C2-prix-du-douet.html",
+        "R4C3-prix-les-ouvres.html",
+        "R4C4-prix-des-oeillets.html",
+        "R4C5-prix-des-forsythias.html",
+        "R4C6-prix-de-pennedepie.html",
+        "R4C7-prix-du-casino.html",
+        "R4C8-prix-rideo.html"
+      ],
+      "R6-beaumont-de-lomagne": [
+        "R6C1-prix-leopold-d-orsetti.html",
+        "R6C2-prix-du-douet.html",
+        "R6C3-prix-les-ouvres.html",
+        "R6C4-prix-des-oeillets.html",
+        "R6C5-prix-des-forsythias.html",
+        "R6C6-prix-de-pennedepie.html",
+        "R6C7-prix-du-casino.html",
+        "R6C8-prix-rideo.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-leopold-d-orsetti.html",
+        "R7C2-prix-du-douet.html",
+        "R7C3-prix-les-ouvres.html",
+        "R7C4-prix-des-oeillets.html",
+        "R7C5-prix-des-forsythias.html",
+        "R7C6-prix-de-pennedepie.html",
+        "R7C7-prix-du-casino.html",
+        "R7C8-prix-rideo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:24.064378Z"
+}

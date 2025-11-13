@@ -1,0 +1,78 @@
+{
+  "date": "2020-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-31",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-31/2020-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C2-prix-balto.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C3-prix-de-villarmains.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C4-prix-du-tellier.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C6-prix-de-montgeron.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C7-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R1-saint-cloud/R1C8-prix-clairvoyant.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C2-prix-balto.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C3-prix-de-villarmains.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C4-prix-du-tellier.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C6-prix-de-montgeron.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C7-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R3-salon-de-provence/R3C8-prix-clairvoyant.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C1-handicap-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C2-prix-balto.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C3-prix-de-villarmains.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C4-prix-du-tellier.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C5-prix-d-orgeval.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C6-prix-de-montgeron.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C7-handicap-de-haute-normandie.html",
+      "resultats-et-rapports/2020/08/2020-08-31/R4-vincennes/R4C8-prix-clairvoyant.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-handicap-de-l-ile-de-france.html",
+        "R1C2-prix-balto.html",
+        "R1C3-prix-de-villarmains.html",
+        "R1C4-prix-du-tellier.html",
+        "R1C5-prix-d-orgeval.html",
+        "R1C6-prix-de-montgeron.html",
+        "R1C7-handicap-de-haute-normandie.html",
+        "R1C8-prix-clairvoyant.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-handicap-de-l-ile-de-france.html",
+        "R3C2-prix-balto.html",
+        "R3C3-prix-de-villarmains.html",
+        "R3C4-prix-du-tellier.html",
+        "R3C5-prix-d-orgeval.html",
+        "R3C6-prix-de-montgeron.html",
+        "R3C7-handicap-de-haute-normandie.html",
+        "R3C8-prix-clairvoyant.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-handicap-de-l-ile-de-france.html",
+        "R4C2-prix-balto.html",
+        "R4C3-prix-de-villarmains.html",
+        "R4C4-prix-du-tellier.html",
+        "R4C5-prix-d-orgeval.html",
+        "R4C6-prix-de-montgeron.html",
+        "R4C7-handicap-de-haute-normandie.html",
+        "R4C8-prix-clairvoyant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:48.600292Z"
+}

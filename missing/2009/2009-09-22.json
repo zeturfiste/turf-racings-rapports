@@ -1,0 +1,119 @@
+{
+  "date": "2009-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/09/2009-09-22",
+    "date_html": "resultats-et-rapports/2009/09/2009-09-22/2009-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/09/2009-09-22/R1-chantilly/R1C4-prix-du-lude.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R1-chantilly/R1C5-prix-turenne.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R1-chantilly/R1C6-prix-de-la-galerie-des-cerfs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R1-chantilly/R1C7-prix-d-apremont.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R1-chantilly/R1C8-prix-de-la-table-des-lions.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R2-dieppe/R2C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R2-dieppe/R2C2-prix-de-la-croix-des-veneurs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R2-dieppe/R2C7-prix-d-apremont.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R2-dieppe/R2C8-prix-de-la-table-des-lions.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C2-prix-de-la-croix-des-veneurs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C3-prix-de-l-aunette.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C4-prix-du-lude.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C5-prix-turenne.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C6-prix-de-la-galerie-des-cerfs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R3-vincennes/R3C8-prix-de-la-table-des-lions.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R31-zerace/R31C3-prix-de-l-aunette.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R31-zerace/R31C5-prix-turenne.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R31-zerace/R31C7-prix-d-apremont.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C2-prix-de-la-croix-des-veneurs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C3-prix-de-l-aunette.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C4-prix-du-lude.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C5-prix-turenne.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R70-stade-gabriel-montpied-clermont-ferrand/R70C8-prix-de-la-table-des-lions.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C2-prix-de-la-croix-des-veneurs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C3-prix-de-l-aunette.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C4-prix-du-lude.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C5-prix-turenne.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C6-prix-de-la-galerie-des-cerfs.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C7-prix-d-apremont.html",
+      "resultats-et-rapports/2009/09/2009-09-22/R71-le-moustoir-lorient/R71C8-prix-de-la-table-des-lions.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-dieppe",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-stade-gabriel-montpied-clermont-ferrand",
+      "R71-le-moustoir-lorient"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R1C2-prix-de-la-croix-des-veneurs.html",
+        "R1C3-prix-de-l-aunette.html",
+        "R1C4-prix-du-lude.html",
+        "R1C5-prix-turenne.html",
+        "R1C6-prix-de-la-galerie-des-cerfs.html",
+        "R1C7-prix-d-apremont.html",
+        "R1C8-prix-de-la-table-des-lions.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R2C2-prix-de-la-croix-des-veneurs.html",
+        "R2C3-prix-de-l-aunette.html",
+        "R2C4-prix-du-lude.html",
+        "R2C5-prix-turenne.html",
+        "R2C6-prix-de-la-galerie-des-cerfs.html",
+        "R2C7-prix-d-apremont.html",
+        "R2C8-prix-de-la-table-des-lions.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R3C2-prix-de-la-croix-des-veneurs.html",
+        "R3C3-prix-de-l-aunette.html",
+        "R3C4-prix-du-lude.html",
+        "R3C5-prix-turenne.html",
+        "R3C6-prix-de-la-galerie-des-cerfs.html",
+        "R3C7-prix-d-apremont.html",
+        "R3C8-prix-de-la-table-des-lions.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R31C2-prix-de-la-croix-des-veneurs.html",
+        "R31C3-prix-de-l-aunette.html",
+        "R31C4-prix-du-lude.html",
+        "R31C5-prix-turenne.html",
+        "R31C6-prix-de-la-galerie-des-cerfs.html",
+        "R31C7-prix-d-apremont.html",
+        "R31C8-prix-de-la-table-des-lions.html"
+      ],
+      "R70-stade-gabriel-montpied-clermont-ferrand": [
+        "R70C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R70C2-prix-de-la-croix-des-veneurs.html",
+        "R70C3-prix-de-l-aunette.html",
+        "R70C4-prix-du-lude.html",
+        "R70C5-prix-turenne.html",
+        "R70C6-prix-de-la-galerie-des-cerfs.html",
+        "R70C7-prix-d-apremont.html",
+        "R70C8-prix-de-la-table-des-lions.html"
+      ],
+      "R71-le-moustoir-lorient": [
+        "R71C1-prix-www-asso-jockeys-com-prix-de-la-capitainerie.html",
+        "R71C2-prix-de-la-croix-des-veneurs.html",
+        "R71C3-prix-de-l-aunette.html",
+        "R71C4-prix-du-lude.html",
+        "R71C5-prix-turenne.html",
+        "R71C6-prix-de-la-galerie-des-cerfs.html",
+        "R71C7-prix-d-apremont.html",
+        "R71C8-prix-de-la-table-des-lions.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:32:41.220006Z"
+}

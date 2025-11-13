@@ -1,0 +1,71 @@
+{
+  "date": "2016-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-05",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-05/2016-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C1-prix-d-alencon.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C2-prix-de-monpazier.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C3-prix-louis-le-bourg.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C4-prix-de-selection.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C5-prix-henri-desmontils.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C6-prix-de-montsoreau.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C7-prix-de-l-union-europeenne.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C8-prix-de-maurepas.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R1-vincennes/R1C9-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R4-toulouse/R4C1-prix-d-alencon.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R5-cagnes-sur-mer/R5C5-prix-henri-desmontils.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R5-cagnes-sur-mer/R5C6-prix-de-montsoreau.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R5-cagnes-sur-mer/R5C7-prix-de-l-union-europeenne.html",
+      "resultats-et-rapports/2016/03/2016-03-05/R5-cagnes-sur-mer/R5C9-prix-de-guer-coetquidan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-toulouse",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-alencon.html",
+        "R1C2-prix-de-monpazier.html",
+        "R1C3-prix-louis-le-bourg.html",
+        "R1C4-prix-de-selection.html",
+        "R1C5-prix-henri-desmontils.html",
+        "R1C6-prix-de-montsoreau.html",
+        "R1C7-prix-de-l-union-europeenne.html",
+        "R1C8-prix-de-maurepas.html",
+        "R1C9-prix-de-guer-coetquidan.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-d-alencon.html",
+        "R4C2-prix-de-monpazier.html",
+        "R4C3-prix-louis-le-bourg.html",
+        "R4C4-prix-de-selection.html",
+        "R4C5-prix-henri-desmontils.html",
+        "R4C6-prix-de-montsoreau.html",
+        "R4C7-prix-de-l-union-europeenne.html",
+        "R4C8-prix-de-maurepas.html",
+        "R4C9-prix-de-guer-coetquidan.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-d-alencon.html",
+        "R5C2-prix-de-monpazier.html",
+        "R5C3-prix-louis-le-bourg.html",
+        "R5C4-prix-de-selection.html",
+        "R5C5-prix-henri-desmontils.html",
+        "R5C6-prix-de-montsoreau.html",
+        "R5C7-prix-de-l-union-europeenne.html",
+        "R5C8-prix-de-maurepas.html",
+        "R5C9-prix-de-guer-coetquidan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:19.049938Z"
+}

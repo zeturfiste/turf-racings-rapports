@@ -1,0 +1,73 @@
+{
+  "date": "2021-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-15",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-15/2021-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-15/R1-compiegne/R1C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R1-compiegne/R1C5-prix-adelaide.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R1-compiegne/R1C6-prix-du-vermandois.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R1-compiegne/R1C7-prix-du-fond-pernant.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R1-compiegne/R1C8-prix-du-francport.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R3-vire/R3C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R3-vire/R3C5-prix-adelaide.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R3-vire/R3C6-prix-du-vermandois.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C2-prix-des-vineux.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C3-prix-poggio-ricco.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C4-prix-ectot.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C5-prix-adelaide.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C7-prix-du-fond-pernant.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C8-prix-du-francport.html",
+      "resultats-et-rapports/2021/09/2021-09-15/R4-reims/R4C9-prix-de-villers-cotterets.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-vire",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+        "R1C2-prix-des-vineux.html",
+        "R1C3-prix-poggio-ricco.html",
+        "R1C4-prix-ectot.html",
+        "R1C5-prix-adelaide.html",
+        "R1C6-prix-du-vermandois.html",
+        "R1C7-prix-du-fond-pernant.html",
+        "R1C8-prix-du-francport.html",
+        "R1C9-prix-de-villers-cotterets.html"
+      ],
+      "R3-vire": [
+        "R3C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+        "R3C2-prix-des-vineux.html",
+        "R3C3-prix-poggio-ricco.html",
+        "R3C4-prix-ectot.html",
+        "R3C5-prix-adelaide.html",
+        "R3C6-prix-du-vermandois.html",
+        "R3C7-prix-du-fond-pernant.html",
+        "R3C8-prix-du-francport.html",
+        "R3C9-prix-de-villers-cotterets.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-raceandcare-prix-de-la-plaine-du-putois.html",
+        "R4C2-prix-des-vineux.html",
+        "R4C3-prix-poggio-ricco.html",
+        "R4C4-prix-ectot.html",
+        "R4C5-prix-adelaide.html",
+        "R4C6-prix-du-vermandois.html",
+        "R4C7-prix-du-fond-pernant.html",
+        "R4C8-prix-du-francport.html",
+        "R4C9-prix-de-villers-cotterets.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:10.482366Z"
+}

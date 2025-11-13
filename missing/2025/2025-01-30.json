@@ -1,0 +1,68 @@
+{
+  "date": "2025-01-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-30",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-30/2025-01-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-30/R1-vincennes/R1C1-prix-de-langeais.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R1-vincennes/R1C2-prix-de-lazenay.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R1-vincennes/R1C5-prix-d-issoire.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R3-cagnes-sur-mer/R3C1-prix-de-langeais.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R3-cagnes-sur-mer/R3C6-prix-de-feucherolles.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R3-cagnes-sur-mer/R3C7-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R3-cagnes-sur-mer/R3C8-prix-de-chambery.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C1-prix-de-langeais.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C2-prix-de-lazenay.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C4-prix-de-cholet.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C5-prix-d-issoire.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C6-prix-de-feucherolles.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C7-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2025/01/2025-01-30/R4-lyon-la-soie/R4C8-prix-de-chambery.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langeais.html",
+        "R1C2-prix-de-lazenay.html",
+        "R1C3-prix-de-fleurance.html",
+        "R1C4-prix-de-cholet.html",
+        "R1C5-prix-d-issoire.html",
+        "R1C6-prix-de-feucherolles.html",
+        "R1C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R1C8-prix-de-chambery.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-langeais.html",
+        "R3C2-prix-de-lazenay.html",
+        "R3C3-prix-de-fleurance.html",
+        "R3C4-prix-de-cholet.html",
+        "R3C5-prix-d-issoire.html",
+        "R3C6-prix-de-feucherolles.html",
+        "R3C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R3C8-prix-de-chambery.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-langeais.html",
+        "R4C2-prix-de-lazenay.html",
+        "R4C3-prix-de-fleurance.html",
+        "R4C4-prix-de-cholet.html",
+        "R4C5-prix-d-issoire.html",
+        "R4C6-prix-de-feucherolles.html",
+        "R4C7-prix-jean-et-andre-de-la-vaissiere.html",
+        "R4C8-prix-de-chambery.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:46.939538Z"
+}

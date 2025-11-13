@@ -1,0 +1,82 @@
+{
+  "date": "2022-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-13",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-13/2022-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-13/R3-marseille-borely/R3C7-prix-mondeville.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R4-vincennes/R4C7-prix-mondeville.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R11-nantes/R11C1-prix-fondeur.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R11-nantes/R11C2-prix-bernard-secly.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R11-nantes/R11C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R11-nantes/R11C5-prix-rmc-decouverte-prix-count-schomberg.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R12-le-mont-saint-michel/R12C2-prix-bernard-secly.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R12-le-mont-saint-michel/R12C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R12-le-mont-saint-michel/R12C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R12-le-mont-saint-michel/R12C6-prix-la-haye-jousselin.html",
+      "resultats-et-rapports/2022/11/2022-11-13/R12-le-mont-saint-michel/R12C7-prix-mondeville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-marseille-borely",
+      "R4-vincennes",
+      "R11-nantes",
+      "R12-le-mont-saint-michel"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-fondeur.html",
+        "R1C2-prix-bernard-secly.html",
+        "R1C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R1C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R1C5-prix-rmc-decouverte-prix-count-schomberg.html",
+        "R1C6-prix-la-haye-jousselin.html",
+        "R1C7-prix-mondeville.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-fondeur.html",
+        "R3C2-prix-bernard-secly.html",
+        "R3C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R3C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R3C5-prix-rmc-decouverte-prix-count-schomberg.html",
+        "R3C6-prix-la-haye-jousselin.html",
+        "R3C7-prix-mondeville.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-fondeur.html",
+        "R4C2-prix-bernard-secly.html",
+        "R4C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R4C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R4C5-prix-rmc-decouverte-prix-count-schomberg.html",
+        "R4C6-prix-la-haye-jousselin.html",
+        "R4C7-prix-mondeville.html"
+      ],
+      "R11-nantes": [
+        "R11C1-prix-fondeur.html",
+        "R11C2-prix-bernard-secly.html",
+        "R11C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R11C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R11C5-prix-rmc-decouverte-prix-count-schomberg.html",
+        "R11C6-prix-la-haye-jousselin.html",
+        "R11C7-prix-mondeville.html"
+      ],
+      "R12-le-mont-saint-michel": [
+        "R12C1-prix-fondeur.html",
+        "R12C2-prix-bernard-secly.html",
+        "R12C3-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R12C4-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R12C5-prix-rmc-decouverte-prix-count-schomberg.html",
+        "R12C6-prix-la-haye-jousselin.html",
+        "R12C7-prix-mondeville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:46.284056Z"
+}

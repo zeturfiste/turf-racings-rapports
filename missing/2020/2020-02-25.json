@@ -1,0 +1,66 @@
+{
+  "date": "2020-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-25",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-25/2020-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-25/R1-chantilly/R1C6-prix-du-rond-point-des-aigles.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R3-mont-de-marsan/R3C3-prix-du-coeur-des-princes.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R3-mont-de-marsan/R3C4-prix-de-la-route-de-charlepont.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R3-mont-de-marsan/R3C6-prix-du-rond-point-des-aigles.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R3-mont-de-marsan/R3C7-prix-de-l-allee-du-pont-du-roi.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R3-mont-de-marsan/R3C8-prix-de-l-allee-quinconce.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C2-prix-du-rond-point-de-la-plage.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C3-prix-du-coeur-des-princes.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C4-prix-de-la-route-de-charlepont.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C5-prix-de-la-route-des-moines.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C7-prix-de-l-allee-du-pont-du-roi.html",
+      "resultats-et-rapports/2020/02/2020-02-25/R4-cagnes-sur-mer/R4C8-prix-de-l-allee-quinconce.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-mont-de-marsan",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-l-allee-des-philosophes.html",
+        "R1C2-prix-du-rond-point-de-la-plage.html",
+        "R1C3-prix-du-coeur-des-princes.html",
+        "R1C4-prix-de-la-route-de-charlepont.html",
+        "R1C5-prix-de-la-route-des-moines.html",
+        "R1C6-prix-du-rond-point-des-aigles.html",
+        "R1C7-prix-de-l-allee-du-pont-du-roi.html",
+        "R1C8-prix-de-l-allee-quinconce.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-de-l-allee-des-philosophes.html",
+        "R3C2-prix-du-rond-point-de-la-plage.html",
+        "R3C3-prix-du-coeur-des-princes.html",
+        "R3C4-prix-de-la-route-de-charlepont.html",
+        "R3C5-prix-de-la-route-des-moines.html",
+        "R3C6-prix-du-rond-point-des-aigles.html",
+        "R3C7-prix-de-l-allee-du-pont-du-roi.html",
+        "R3C8-prix-de-l-allee-quinconce.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-l-allee-des-philosophes.html",
+        "R4C2-prix-du-rond-point-de-la-plage.html",
+        "R4C3-prix-du-coeur-des-princes.html",
+        "R4C4-prix-de-la-route-de-charlepont.html",
+        "R4C5-prix-de-la-route-des-moines.html",
+        "R4C6-prix-du-rond-point-des-aigles.html",
+        "R4C7-prix-de-l-allee-du-pont-du-roi.html",
+        "R4C8-prix-de-l-allee-quinconce.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:54.584863Z"
+}

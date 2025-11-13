@@ -1,0 +1,86 @@
+{
+  "date": "2025-06-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-25",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-25/2025-06-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-25/R1-vire/R1C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C5-prix-paristurf.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C6-prix-agrial-yearly-la-maison-fr.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C7-prix-optique-krys-yannick-pierre.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R2-vichy/R2C8-prix-intermarche-vire-normandie.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R3-chateaubriant/R3C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R3-chateaubriant/R3C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R3-chateaubriant/R3C5-prix-paristurf.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R3-chateaubriant/R3C7-prix-optique-krys-yannick-pierre.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R3-chateaubriant/R3C8-prix-intermarche-vire-normandie.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C4-prix-du-150eme-anniversaire-de-la-societe-des-courses-de-vire.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C5-prix-paristurf.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C6-prix-agrial-yearly-la-maison-fr.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C7-prix-optique-krys-yannick-pierre.html",
+      "resultats-et-rapports/2025/06/2025-06-25/R4-strasbourg/R4C8-prix-intermarche-vire-normandie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vire",
+      "R2-vichy",
+      "R3-chateaubriant",
+      "R4-strasbourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vire": [
+        "R1C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+        "R1C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+        "R1C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+        "R1C4-prix-du-150eme-anniversaire-de-la-societe-des-courses-de-vire.html",
+        "R1C5-prix-paristurf.html",
+        "R1C6-prix-agrial-yearly-la-maison-fr.html",
+        "R1C7-prix-optique-krys-yannick-pierre.html",
+        "R1C8-prix-intermarche-vire-normandie.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+        "R2C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+        "R2C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+        "R2C4-prix-du-150eme-anniversaire-de-la-societe-des-courses-de-vire.html",
+        "R2C5-prix-paristurf.html",
+        "R2C6-prix-agrial-yearly-la-maison-fr.html",
+        "R2C7-prix-optique-krys-yannick-pierre.html",
+        "R2C8-prix-intermarche-vire-normandie.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+        "R3C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+        "R3C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+        "R3C4-prix-du-150eme-anniversaire-de-la-societe-des-courses-de-vire.html",
+        "R3C5-prix-paristurf.html",
+        "R3C6-prix-agrial-yearly-la-maison-fr.html",
+        "R3C7-prix-optique-krys-yannick-pierre.html",
+        "R3C8-prix-intermarche-vire-normandie.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-bar-pmu-au-vieux-puits-villers-bocage.html",
+        "R4C2-prix-bar-pmu-bistrot-saint-jean-flers.html",
+        "R4C3-prix-daniel-moquet-souleuvre-en-bocage.html",
+        "R4C4-prix-du-150eme-anniversaire-de-la-societe-des-courses-de-vire.html",
+        "R4C5-prix-paristurf.html",
+        "R4C6-prix-agrial-yearly-la-maison-fr.html",
+        "R4C7-prix-optique-krys-yannick-pierre.html",
+        "R4C8-prix-intermarche-vire-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:40.730049Z"
+}

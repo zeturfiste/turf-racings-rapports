@@ -1,0 +1,70 @@
+{
+  "date": "2024-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-16",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-16/2024-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-16/R1-saint-galmier/R1C1-11eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R1-saint-galmier/R1C7-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R1-saint-galmier/R1C8-prix-bistrot-la-fontaine.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C1-11eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C2-prix-de-l-unat-centre-est.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C3-prix-de-la-region-auvergne-rhone-alpes.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C5-prix-saint-etienne-la-metropole.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C6-prix-asse.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C7-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R3-le-mans/R3C8-prix-bistrot-la-fontaine.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C2-prix-de-l-unat-centre-est.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C3-prix-de-la-region-auvergne-rhone-alpes.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C4-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C5-prix-saint-etienne-la-metropole.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C6-prix-asse.html",
+      "resultats-et-rapports/2024/10/2024-10-16/R4-cabourg/R4C8-prix-bistrot-la-fontaine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R3-le-mans",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-11eme-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-de-l-unat-centre-est.html",
+        "R1C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R1C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R1C5-prix-saint-etienne-la-metropole.html",
+        "R1C6-prix-asse.html",
+        "R1C7-prix-de-la-ville-de-saint-galmier.html",
+        "R1C8-prix-bistrot-la-fontaine.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-11eme-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-de-l-unat-centre-est.html",
+        "R3C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R3C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R3C5-prix-saint-etienne-la-metropole.html",
+        "R3C6-prix-asse.html",
+        "R3C7-prix-de-la-ville-de-saint-galmier.html",
+        "R3C8-prix-bistrot-la-fontaine.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-11eme-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-de-l-unat-centre-est.html",
+        "R4C3-prix-de-la-region-auvergne-rhone-alpes.html",
+        "R4C4-prix-du-conseil-departemental-de-la-loire.html",
+        "R4C5-prix-saint-etienne-la-metropole.html",
+        "R4C6-prix-asse.html",
+        "R4C7-prix-de-la-ville-de-saint-galmier.html",
+        "R4C8-prix-bistrot-la-fontaine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:07.932806Z"
+}

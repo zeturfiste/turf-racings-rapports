@@ -1,0 +1,60 @@
+{
+  "date": "2006-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-05",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-05/2006-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-agen",
+      "R3-lisieux",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rohan.html",
+        "R1C2-prix-oiseleur.html",
+        "R1C3-prix-du-cheval-de-l-annee-courses-elevage-prix-beugnot.html",
+        "R1C4-prix-juigne.html",
+        "R1C5-prix-robert-de-clermont-tonnerre.html",
+        "R1C6-prix-bougie.html",
+        "R1C7-prix-du-pont-d-iena.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-rohan.html",
+        "R2C2-prix-oiseleur.html",
+        "R2C3-prix-du-cheval-de-l-annee-courses-elevage-prix-beugnot.html",
+        "R2C4-prix-juigne.html",
+        "R2C5-prix-robert-de-clermont-tonnerre.html",
+        "R2C6-prix-bougie.html",
+        "R2C7-prix-du-pont-d-iena.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-rohan.html",
+        "R3C2-prix-oiseleur.html",
+        "R3C3-prix-du-cheval-de-l-annee-courses-elevage-prix-beugnot.html",
+        "R3C4-prix-juigne.html",
+        "R3C5-prix-robert-de-clermont-tonnerre.html",
+        "R3C6-prix-bougie.html",
+        "R3C7-prix-du-pont-d-iena.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-rohan.html",
+        "R4C2-prix-oiseleur.html",
+        "R4C3-prix-du-cheval-de-l-annee-courses-elevage-prix-beugnot.html",
+        "R4C4-prix-juigne.html",
+        "R4C5-prix-robert-de-clermont-tonnerre.html",
+        "R4C6-prix-bougie.html",
+        "R4C7-prix-du-pont-d-iena.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:18.492785Z"
+}

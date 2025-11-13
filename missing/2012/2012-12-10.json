@@ -1,0 +1,80 @@
+{
+  "date": "2012-12-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/12/2012-12-10",
+    "date_html": "resultats-et-rapports/2012/12/2012-12-10/2012-12-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/12/2012-12-10/R1-cagnes-sur-mer/R1C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R1-cagnes-sur-mer/R1C3-prix-ubu-iii.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R1-cagnes-sur-mer/R1C4-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R1-cagnes-sur-mer/R1C6-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R2-vincennes/R2C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R2-vincennes/R2C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R2-vincennes/R2C3-prix-ubu-iii.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R2-vincennes/R2C6-prix-du-general-du-corail.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R2-vincennes/R2C7-prix-parionssurhippodrome-com.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R3-marseille-vivaux/R3C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R3-marseille-vivaux/R3C4-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R3-marseille-vivaux/R3C5-prix-henri-veran.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R3-marseille-vivaux/R3C7-prix-parionssurhippodrome-com.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C1-prix-du-mont-vial.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C2-prix-de-la-promenade-des-anglais.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C3-prix-ubu-iii.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C4-prix-du-mont-falourde.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C5-prix-henri-veran.html",
+      "resultats-et-rapports/2012/12/2012-12-10/R4-bordeaux-le-bouscat/R4C7-prix-parionssurhippodrome-com.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R3-marseille-vivaux",
+      "R4-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-mont-vial.html",
+        "R1C2-prix-de-la-promenade-des-anglais.html",
+        "R1C3-prix-ubu-iii.html",
+        "R1C4-prix-du-mont-falourde.html",
+        "R1C5-prix-henri-veran.html",
+        "R1C6-prix-du-general-du-corail.html",
+        "R1C7-prix-parionssurhippodrome-com.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-mont-vial.html",
+        "R2C2-prix-de-la-promenade-des-anglais.html",
+        "R2C3-prix-ubu-iii.html",
+        "R2C4-prix-du-mont-falourde.html",
+        "R2C5-prix-henri-veran.html",
+        "R2C6-prix-du-general-du-corail.html",
+        "R2C7-prix-parionssurhippodrome-com.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-du-mont-vial.html",
+        "R3C2-prix-de-la-promenade-des-anglais.html",
+        "R3C3-prix-ubu-iii.html",
+        "R3C4-prix-du-mont-falourde.html",
+        "R3C5-prix-henri-veran.html",
+        "R3C6-prix-du-general-du-corail.html",
+        "R3C7-prix-parionssurhippodrome-com.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-du-mont-vial.html",
+        "R4C2-prix-de-la-promenade-des-anglais.html",
+        "R4C3-prix-ubu-iii.html",
+        "R4C4-prix-du-mont-falourde.html",
+        "R4C5-prix-henri-veran.html",
+        "R4C6-prix-du-general-du-corail.html",
+        "R4C7-prix-parionssurhippodrome-com.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:19.813064Z"
+}

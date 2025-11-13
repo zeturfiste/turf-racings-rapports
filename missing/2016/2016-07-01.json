@@ -1,0 +1,88 @@
+{
+  "date": "2016-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-01",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-01/2016-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-01/R1-vincennes/R1C7-prix-baptistina.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R3-argentan/R3C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R3-argentan/R3C5-prix-urania.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R3-argentan/R3C6-prix-isis.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R4-clairefontaine/R4C1-prix-nemausa.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R4-clairefontaine/R4C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R4-clairefontaine/R4C5-prix-urania.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R4-clairefontaine/R4C6-prix-isis.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R6-vichy/R6C6-prix-isis.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R6-vichy/R6C7-prix-baptistina.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C1-prix-nemausa.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C2-prix-eva.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C3-prix-paul-delanoe.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C4-prix-nunky.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C5-prix-urania.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C6-prix-isis.html",
+      "resultats-et-rapports/2016/07/2016-07-01/R7-marseille-vivaux/R7C7-prix-baptistina.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-argentan",
+      "R4-clairefontaine",
+      "R6-vichy",
+      "R7-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-nemausa.html",
+        "R1C2-prix-eva.html",
+        "R1C3-prix-paul-delanoe.html",
+        "R1C4-prix-nunky.html",
+        "R1C5-prix-urania.html",
+        "R1C6-prix-isis.html",
+        "R1C7-prix-baptistina.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-nemausa.html",
+        "R3C2-prix-eva.html",
+        "R3C3-prix-paul-delanoe.html",
+        "R3C4-prix-nunky.html",
+        "R3C5-prix-urania.html",
+        "R3C6-prix-isis.html",
+        "R3C7-prix-baptistina.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-nemausa.html",
+        "R4C2-prix-eva.html",
+        "R4C3-prix-paul-delanoe.html",
+        "R4C4-prix-nunky.html",
+        "R4C5-prix-urania.html",
+        "R4C6-prix-isis.html",
+        "R4C7-prix-baptistina.html"
+      ],
+      "R6-vichy": [
+        "R6C1-prix-nemausa.html",
+        "R6C2-prix-eva.html",
+        "R6C3-prix-paul-delanoe.html",
+        "R6C4-prix-nunky.html",
+        "R6C5-prix-urania.html",
+        "R6C6-prix-isis.html",
+        "R6C7-prix-baptistina.html"
+      ],
+      "R7-marseille-vivaux": [
+        "R7C1-prix-nemausa.html",
+        "R7C2-prix-eva.html",
+        "R7C3-prix-paul-delanoe.html",
+        "R7C4-prix-nunky.html",
+        "R7C5-prix-urania.html",
+        "R7C6-prix-isis.html",
+        "R7C7-prix-baptistina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:57.476561Z"
+}

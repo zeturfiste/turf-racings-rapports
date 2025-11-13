@@ -1,0 +1,76 @@
+{
+  "date": "2025-08-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-13",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-13/2025-08-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-13/R2-vichy/R2C2-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R2-vichy/R2C7-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R2-vichy/R2C8-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R4-hyeres/R4C2-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R4-hyeres/R4C6-prix-de-la-porte-de-versailles.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R4-hyeres/R4C7-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R4-hyeres/R4C8-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R7-les-sables-d-olonne/R7C2-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R7-les-sables-d-olonne/R7C4-prix-de-vauvillers.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R7-les-sables-d-olonne/R7C5-prix-des-grandes-carrieres.html",
+      "resultats-et-rapports/2025/08/2025-08-13/R7-les-sables-d-olonne/R7C6-prix-de-la-porte-de-versailles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-vichy",
+      "R4-hyeres",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-nouzonville.html",
+        "R1C2-prix-de-jouy-en-josas.html",
+        "R1C3-prix-de-la-porte-brunet.html",
+        "R1C4-prix-de-vauvillers.html",
+        "R1C5-prix-des-grandes-carrieres.html",
+        "R1C6-prix-de-la-porte-de-versailles.html",
+        "R1C7-prix-du-pont-de-l-alma.html",
+        "R1C8-prix-de-la-porte-de-passy.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-nouzonville.html",
+        "R2C2-prix-de-jouy-en-josas.html",
+        "R2C3-prix-de-la-porte-brunet.html",
+        "R2C4-prix-de-vauvillers.html",
+        "R2C5-prix-des-grandes-carrieres.html",
+        "R2C6-prix-de-la-porte-de-versailles.html",
+        "R2C7-prix-du-pont-de-l-alma.html",
+        "R2C8-prix-de-la-porte-de-passy.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-de-nouzonville.html",
+        "R4C2-prix-de-jouy-en-josas.html",
+        "R4C3-prix-de-la-porte-brunet.html",
+        "R4C4-prix-de-vauvillers.html",
+        "R4C5-prix-des-grandes-carrieres.html",
+        "R4C6-prix-de-la-porte-de-versailles.html",
+        "R4C7-prix-du-pont-de-l-alma.html",
+        "R4C8-prix-de-la-porte-de-passy.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-de-nouzonville.html",
+        "R7C2-prix-de-jouy-en-josas.html",
+        "R7C3-prix-de-la-porte-brunet.html",
+        "R7C4-prix-de-vauvillers.html",
+        "R7C5-prix-des-grandes-carrieres.html",
+        "R7C6-prix-de-la-porte-de-versailles.html",
+        "R7C7-prix-du-pont-de-l-alma.html",
+        "R7C8-prix-de-la-porte-de-passy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:59.300554Z"
+}

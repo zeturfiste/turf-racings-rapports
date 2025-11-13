@@ -1,0 +1,116 @@
+{
+  "date": "2013-08-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-25",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-25/2013-08-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-25/R1-deauville/R1C1-prix-casino-barriere-trouville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R1-deauville/R1C2-prix-hotel-normandy-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R1-deauville/R1C3-grand-handicap-casino-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R1-deauville/R1C4-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R1-deauville/R1C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R2-craon/R2C3-grand-handicap-casino-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R3-beaumont-de-lomagne/R3C2-prix-hotel-normandy-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R3-beaumont-de-lomagne/R3C3-grand-handicap-casino-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R3-beaumont-de-lomagne/R3C4-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R3-beaumont-de-lomagne/R3C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R3-beaumont-de-lomagne/R3C7-prix-hotel-du-golf-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R4-le-touquet/R4C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R4-le-touquet/R4C7-prix-hotel-du-golf-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R4-le-touquet/R4C8-prix-hotel-royal-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C1-prix-casino-barriere-trouville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C2-prix-hotel-normandy-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C3-grand-handicap-casino-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C4-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C6-prix-quincey-lucien-barriere.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C7-prix-hotel-du-golf-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R6-vittel/R6C8-prix-hotel-royal-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C1-prix-casino-barriere-trouville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C2-prix-hotel-normandy-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C3-grand-handicap-casino-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C4-prix-de-meautry-lucien-barriere.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C5-lucien-barriere-grand-prix-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C7-prix-hotel-du-golf-barriere-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-25/R7-cavaillon/R7C8-prix-hotel-royal-barriere-deauville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-craon",
+      "R3-beaumont-de-lomagne",
+      "R4-le-touquet",
+      "R6-vittel",
+      "R7-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-casino-barriere-trouville.html",
+        "R1C2-prix-hotel-normandy-barriere-deauville.html",
+        "R1C3-grand-handicap-casino-barriere-deauville.html",
+        "R1C4-prix-de-meautry-lucien-barriere.html",
+        "R1C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R1C6-prix-quincey-lucien-barriere.html",
+        "R1C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R1C8-prix-hotel-royal-barriere-deauville.html"
+      ],
+      "R2-craon": [
+        "R2C1-prix-casino-barriere-trouville.html",
+        "R2C2-prix-hotel-normandy-barriere-deauville.html",
+        "R2C3-grand-handicap-casino-barriere-deauville.html",
+        "R2C4-prix-de-meautry-lucien-barriere.html",
+        "R2C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R2C6-prix-quincey-lucien-barriere.html",
+        "R2C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R2C8-prix-hotel-royal-barriere-deauville.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-casino-barriere-trouville.html",
+        "R3C2-prix-hotel-normandy-barriere-deauville.html",
+        "R3C3-grand-handicap-casino-barriere-deauville.html",
+        "R3C4-prix-de-meautry-lucien-barriere.html",
+        "R3C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R3C6-prix-quincey-lucien-barriere.html",
+        "R3C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R3C8-prix-hotel-royal-barriere-deauville.html"
+      ],
+      "R4-le-touquet": [
+        "R4C1-prix-casino-barriere-trouville.html",
+        "R4C2-prix-hotel-normandy-barriere-deauville.html",
+        "R4C3-grand-handicap-casino-barriere-deauville.html",
+        "R4C4-prix-de-meautry-lucien-barriere.html",
+        "R4C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R4C6-prix-quincey-lucien-barriere.html",
+        "R4C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R4C8-prix-hotel-royal-barriere-deauville.html"
+      ],
+      "R6-vittel": [
+        "R6C1-prix-casino-barriere-trouville.html",
+        "R6C2-prix-hotel-normandy-barriere-deauville.html",
+        "R6C3-grand-handicap-casino-barriere-deauville.html",
+        "R6C4-prix-de-meautry-lucien-barriere.html",
+        "R6C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R6C6-prix-quincey-lucien-barriere.html",
+        "R6C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R6C8-prix-hotel-royal-barriere-deauville.html"
+      ],
+      "R7-cavaillon": [
+        "R7C1-prix-casino-barriere-trouville.html",
+        "R7C2-prix-hotel-normandy-barriere-deauville.html",
+        "R7C3-grand-handicap-casino-barriere-deauville.html",
+        "R7C4-prix-de-meautry-lucien-barriere.html",
+        "R7C5-lucien-barriere-grand-prix-de-deauville.html",
+        "R7C6-prix-quincey-lucien-barriere.html",
+        "R7C7-prix-hotel-du-golf-barriere-deauville.html",
+        "R7C8-prix-hotel-royal-barriere-deauville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:34.503020Z"
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2006-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-22",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-22/2006-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-22/R2-lyon-parilly/R2C2-prix-tahiti.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R2-lyon-parilly/R2C4-prix-de-port-marly.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R2-lyon-parilly/R2C7-prix-herbager.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R3-vincennes/R3C1-prix-joyeux-drille.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R3-vincennes/R3C2-prix-tahiti.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R3-vincennes/R3C3-prix-auriban.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C1-prix-joyeux-drille.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C2-prix-tahiti.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C3-prix-auriban.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C5-la-coupe-de-maisons-laffitte.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C6-prix-de-l-epte.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R12-maisons-laffitte/R12C8-prix-de-castel.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R21-zerace/R21C1-prix-joyeux-drille.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R21-zerace/R21C5-la-coupe-de-maisons-laffitte.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R21-zerace/R21C6-prix-de-l-epte.html",
+      "resultats-et-rapports/2006/09/2006-09-22/R21-zerace/R21C8-prix-de-castel.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R4-laval",
+      "R11-longchamp",
+      "R12-maisons-laffitte",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-joyeux-drille.html",
+        "R1C2-prix-tahiti.html",
+        "R1C3-prix-auriban.html",
+        "R1C4-prix-de-port-marly.html",
+        "R1C5-la-coupe-de-maisons-laffitte.html",
+        "R1C6-prix-de-l-epte.html",
+        "R1C7-prix-herbager.html",
+        "R1C8-prix-de-castel.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-joyeux-drille.html",
+        "R2C2-prix-tahiti.html",
+        "R2C3-prix-auriban.html",
+        "R2C4-prix-de-port-marly.html",
+        "R2C5-la-coupe-de-maisons-laffitte.html",
+        "R2C6-prix-de-l-epte.html",
+        "R2C7-prix-herbager.html",
+        "R2C8-prix-de-castel.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-joyeux-drille.html",
+        "R3C2-prix-tahiti.html",
+        "R3C3-prix-auriban.html",
+        "R3C4-prix-de-port-marly.html",
+        "R3C5-la-coupe-de-maisons-laffitte.html",
+        "R3C6-prix-de-l-epte.html",
+        "R3C7-prix-herbager.html",
+        "R3C8-prix-de-castel.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-joyeux-drille.html",
+        "R4C2-prix-tahiti.html",
+        "R4C3-prix-auriban.html",
+        "R4C4-prix-de-port-marly.html",
+        "R4C5-la-coupe-de-maisons-laffitte.html",
+        "R4C6-prix-de-l-epte.html",
+        "R4C7-prix-herbager.html",
+        "R4C8-prix-de-castel.html"
+      ],
+      "R11-longchamp": [
+        "R11C1-prix-joyeux-drille.html",
+        "R11C2-prix-tahiti.html",
+        "R11C3-prix-auriban.html",
+        "R11C4-prix-de-port-marly.html",
+        "R11C5-la-coupe-de-maisons-laffitte.html",
+        "R11C6-prix-de-l-epte.html",
+        "R11C7-prix-herbager.html",
+        "R11C8-prix-de-castel.html"
+      ],
+      "R12-maisons-laffitte": [
+        "R12C1-prix-joyeux-drille.html",
+        "R12C2-prix-tahiti.html",
+        "R12C3-prix-auriban.html",
+        "R12C4-prix-de-port-marly.html",
+        "R12C5-la-coupe-de-maisons-laffitte.html",
+        "R12C6-prix-de-l-epte.html",
+        "R12C7-prix-herbager.html",
+        "R12C8-prix-de-castel.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-joyeux-drille.html",
+        "R21C2-prix-tahiti.html",
+        "R21C3-prix-auriban.html",
+        "R21C4-prix-de-port-marly.html",
+        "R21C5-la-coupe-de-maisons-laffitte.html",
+        "R21C6-prix-de-l-epte.html",
+        "R21C7-prix-herbager.html",
+        "R21C8-prix-de-castel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:06.493985Z"
+}

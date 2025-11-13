@@ -1,0 +1,92 @@
+{
+  "date": "2020-05-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-22",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-22/2020-05-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-22/R2-vichy/R2C1-prix-sirrah.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R3-dieppe/R3C7-prix-nuwa.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R4-laval/R4C2-prix-constellation.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R4-laval/R4C3-prix-du-crepuscule.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R4-laval/R4C7-prix-nuwa.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R5-saint-galmier/R5C1-prix-sirrah.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R5-saint-galmier/R5C4-prix-ozo.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R5-saint-galmier/R5C5-prix-mutus.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R5-saint-galmier/R5C7-prix-nuwa.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R6-toulouse/R6C2-prix-constellation.html",
+      "resultats-et-rapports/2020/05/2020-05-22/R6-toulouse/R6C3-prix-du-crepuscule.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-vichy",
+      "R3-dieppe",
+      "R4-laval",
+      "R5-saint-galmier",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-sirrah.html",
+        "R1C2-prix-constellation.html",
+        "R1C3-prix-du-crepuscule.html",
+        "R1C4-prix-ozo.html",
+        "R1C5-prix-mutus.html",
+        "R1C6-prix-rheita.html",
+        "R1C7-prix-nuwa.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-sirrah.html",
+        "R2C2-prix-constellation.html",
+        "R2C3-prix-du-crepuscule.html",
+        "R2C4-prix-ozo.html",
+        "R2C5-prix-mutus.html",
+        "R2C6-prix-rheita.html",
+        "R2C7-prix-nuwa.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-sirrah.html",
+        "R3C2-prix-constellation.html",
+        "R3C3-prix-du-crepuscule.html",
+        "R3C4-prix-ozo.html",
+        "R3C5-prix-mutus.html",
+        "R3C6-prix-rheita.html",
+        "R3C7-prix-nuwa.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-sirrah.html",
+        "R4C2-prix-constellation.html",
+        "R4C3-prix-du-crepuscule.html",
+        "R4C4-prix-ozo.html",
+        "R4C5-prix-mutus.html",
+        "R4C6-prix-rheita.html",
+        "R4C7-prix-nuwa.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-sirrah.html",
+        "R5C2-prix-constellation.html",
+        "R5C3-prix-du-crepuscule.html",
+        "R5C4-prix-ozo.html",
+        "R5C5-prix-mutus.html",
+        "R5C6-prix-rheita.html",
+        "R5C7-prix-nuwa.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-sirrah.html",
+        "R6C2-prix-constellation.html",
+        "R6C3-prix-du-crepuscule.html",
+        "R6C4-prix-ozo.html",
+        "R6C5-prix-mutus.html",
+        "R6C6-prix-rheita.html",
+        "R6C7-prix-nuwa.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:09.127196Z"
+}

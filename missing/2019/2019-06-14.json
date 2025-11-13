@@ -1,0 +1,71 @@
+{
+  "date": "2019-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-14",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-14/2019-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-14/R2-toulouse/R2C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R4-auteuil/R4C2-prix-dido.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R4-auteuil/R4C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R4-auteuil/R4C4-prix-air-caraibes-prix-celuta.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R4-auteuil/R4C7-prix-tropiques-fm-prix-pariana.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R5-laval/R5C2-prix-dido.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R5-laval/R5C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R5-laval/R5C5-prix-france-o-prix-lomia.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R5-laval/R5C6-prix-des-hotels-des-iles-prix-coronis.html",
+      "resultats-et-rapports/2019/06/2019-06-14/R5-laval/R5C7-prix-tropiques-fm-prix-pariana.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R4-auteuil",
+      "R5-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-tolosa.html",
+        "R1C2-prix-dido.html",
+        "R1C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+        "R1C4-prix-air-caraibes-prix-celuta.html",
+        "R1C5-prix-france-o-prix-lomia.html",
+        "R1C6-prix-des-hotels-des-iles-prix-coronis.html",
+        "R1C7-prix-tropiques-fm-prix-pariana.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-tolosa.html",
+        "R2C2-prix-dido.html",
+        "R2C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+        "R2C4-prix-air-caraibes-prix-celuta.html",
+        "R2C5-prix-france-o-prix-lomia.html",
+        "R2C6-prix-des-hotels-des-iles-prix-coronis.html",
+        "R2C7-prix-tropiques-fm-prix-pariana.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-tolosa.html",
+        "R4C2-prix-dido.html",
+        "R4C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+        "R4C4-prix-air-caraibes-prix-celuta.html",
+        "R4C5-prix-france-o-prix-lomia.html",
+        "R4C6-prix-des-hotels-des-iles-prix-coronis.html",
+        "R4C7-prix-tropiques-fm-prix-pariana.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-tolosa.html",
+        "R5C2-prix-dido.html",
+        "R5C3-prix-de-la-soiree-tropicale-prix-eudora.html",
+        "R5C4-prix-air-caraibes-prix-celuta.html",
+        "R5C5-prix-france-o-prix-lomia.html",
+        "R5C6-prix-des-hotels-des-iles-prix-coronis.html",
+        "R5C7-prix-tropiques-fm-prix-pariana.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:31.066088Z"
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2021-09-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-10",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-10/2021-09-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-10/R1-vincennes/R1C3-prix-baptistina.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R3-compiegne/R3C7-prix-klymene.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R4-saint-cloud/R4C1-prix-lucretia.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R4-saint-cloud/R4C3-prix-baptistina.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R4-saint-cloud/R4C5-prix-andre-rouer.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R5-les-sables-d-olonne/R5C1-prix-lucretia.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R5-les-sables-d-olonne/R5C2-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R6-laval/R6C2-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R6-laval/R6C5-prix-andre-rouer.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R6-laval/R6C6-prix-aglaja.html",
+      "resultats-et-rapports/2021/09/2021-09-10/R6-laval/R6C7-prix-klymene.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-compiegne",
+      "R4-saint-cloud",
+      "R5-les-sables-d-olonne",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lucretia.html",
+        "R1C2-prix-ceneri-forcinal.html",
+        "R1C3-prix-baptistina.html",
+        "R1C4-prix-adelinda.html",
+        "R1C5-prix-andre-rouer.html",
+        "R1C6-prix-aglaja.html",
+        "R1C7-prix-klymene.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-lucretia.html",
+        "R3C2-prix-ceneri-forcinal.html",
+        "R3C3-prix-baptistina.html",
+        "R3C4-prix-adelinda.html",
+        "R3C5-prix-andre-rouer.html",
+        "R3C6-prix-aglaja.html",
+        "R3C7-prix-klymene.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-lucretia.html",
+        "R4C2-prix-ceneri-forcinal.html",
+        "R4C3-prix-baptistina.html",
+        "R4C4-prix-adelinda.html",
+        "R4C5-prix-andre-rouer.html",
+        "R4C6-prix-aglaja.html",
+        "R4C7-prix-klymene.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-lucretia.html",
+        "R5C2-prix-ceneri-forcinal.html",
+        "R5C3-prix-baptistina.html",
+        "R5C4-prix-adelinda.html",
+        "R5C5-prix-andre-rouer.html",
+        "R5C6-prix-aglaja.html",
+        "R5C7-prix-klymene.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-lucretia.html",
+        "R6C2-prix-ceneri-forcinal.html",
+        "R6C3-prix-baptistina.html",
+        "R6C4-prix-adelinda.html",
+        "R6C5-prix-andre-rouer.html",
+        "R6C6-prix-aglaja.html",
+        "R6C7-prix-klymene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:08.483665Z"
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2018-01-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/01/2018-01-04",
+    "date_html": "resultats-et-rapports/2018/01/2018-01-04/2018-01-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R5-cagnes-sur-mer",
+      "R7-deauville-midi",
+      "R8-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-lignieres.html",
+        "R1C2-prix-hersilie.html",
+        "R1C3-prix-de-mauleon.html",
+        "R1C4-prix-de-chatelguyon.html",
+        "R1C5-prix-du-pertre.html",
+        "R1C6-prix-de-jussac.html",
+        "R1C7-prix-de-coucy-le-chateau.html",
+        "R1C8-prix-de-guerlesquin.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-lignieres.html",
+        "R3C2-prix-hersilie.html",
+        "R3C3-prix-de-mauleon.html",
+        "R3C4-prix-de-chatelguyon.html",
+        "R3C5-prix-du-pertre.html",
+        "R3C6-prix-de-jussac.html",
+        "R3C7-prix-de-coucy-le-chateau.html",
+        "R3C8-prix-de-guerlesquin.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-lignieres.html",
+        "R5C2-prix-hersilie.html",
+        "R5C3-prix-de-mauleon.html",
+        "R5C4-prix-de-chatelguyon.html",
+        "R5C5-prix-du-pertre.html",
+        "R5C6-prix-de-jussac.html",
+        "R5C7-prix-de-coucy-le-chateau.html",
+        "R5C8-prix-de-guerlesquin.html"
+      ],
+      "R7-deauville-midi": [
+        "R7C1-prix-de-lignieres.html",
+        "R7C2-prix-hersilie.html",
+        "R7C3-prix-de-mauleon.html",
+        "R7C4-prix-de-chatelguyon.html",
+        "R7C5-prix-du-pertre.html",
+        "R7C6-prix-de-jussac.html",
+        "R7C7-prix-de-coucy-le-chateau.html",
+        "R7C8-prix-de-guerlesquin.html"
+      ],
+      "R8-nantes": [
+        "R8C1-prix-de-lignieres.html",
+        "R8C2-prix-hersilie.html",
+        "R8C3-prix-de-mauleon.html",
+        "R8C4-prix-de-chatelguyon.html",
+        "R8C5-prix-du-pertre.html",
+        "R8C6-prix-de-jussac.html",
+        "R8C7-prix-de-coucy-le-chateau.html",
+        "R8C8-prix-de-guerlesquin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:48.320734Z"
+}

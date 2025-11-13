@@ -1,0 +1,61 @@
+{
+  "date": "2013-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-16",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-16/2013-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-16/R1-lyon-la-soie/R1C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/10/2013-10-16/R3-amiens/R3C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2013/10/2013-10-16/R3-amiens/R3C3-prix-schneider-electric-de-bordeaux-gr-a.html",
+      "resultats-et-rapports/2013/10/2013-10-16/R3-amiens/R3C6-mingat-loueur-de-vehicules-de-cherbourg.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R2-longchamp",
+      "R3-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-de-marseille.html",
+        "R1C3-prix-schneider-electric-de-bordeaux-gr-a.html",
+        "R1C4-prix-de-bordeaux-gr-b.html",
+        "R1C5-dufaud-courtage-assur-beaumont-lomagne.html",
+        "R1C6-mingat-loueur-de-vehicules-de-cherbourg.html",
+        "R1C7-prix-de-l-unat.html",
+        "R1C8-prix-equita-lyon-prix-de-toulouse.html",
+        "R1C9-prix-pole-carre-de-soie-prix-de-nantes.html"
+      ],
+      "R2-longchamp": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-de-marseille.html",
+        "R2C3-prix-schneider-electric-de-bordeaux-gr-a.html",
+        "R2C4-prix-de-bordeaux-gr-b.html",
+        "R2C5-dufaud-courtage-assur-beaumont-lomagne.html",
+        "R2C6-mingat-loueur-de-vehicules-de-cherbourg.html",
+        "R2C7-prix-de-l-unat.html",
+        "R2C8-prix-equita-lyon-prix-de-toulouse.html",
+        "R2C9-prix-pole-carre-de-soie-prix-de-nantes.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-de-marseille.html",
+        "R3C3-prix-schneider-electric-de-bordeaux-gr-a.html",
+        "R3C4-prix-de-bordeaux-gr-b.html",
+        "R3C5-dufaud-courtage-assur-beaumont-lomagne.html",
+        "R3C6-mingat-loueur-de-vehicules-de-cherbourg.html",
+        "R3C7-prix-de-l-unat.html",
+        "R3C8-prix-equita-lyon-prix-de-toulouse.html",
+        "R3C9-prix-pole-carre-de-soie-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:51.812076Z"
+}

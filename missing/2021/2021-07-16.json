@@ -1,0 +1,103 @@
+{
+  "date": "2021-07-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/07/2021-07-16",
+    "date_html": "resultats-et-rapports/2021/07/2021-07-16/2021-07-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/07/2021-07-16/R5-la-teste-de-buch/R5C1-prix-du-pmu-le-colibri.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R5-la-teste-de-buch/R5C3-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R5-la-teste-de-buch/R5C4-prix-de-la-region-des-pays-de-loire.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R6-cabourg/R6C5-prix-leon-herbert.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R6-cabourg/R6C7-prix-vendee-grand-littoral.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R6-cabourg/R6C8-prix-du-departement-de-la-vendee.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R7-cagnes-sur-mer/R7C1-prix-du-pmu-le-colibri.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R7-cagnes-sur-mer/R7C2-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R7-cagnes-sur-mer/R7C3-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R7-cagnes-sur-mer/R7C5-prix-leon-herbert.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C1-prix-du-pmu-le-colibri.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C2-prix-des-sables-d-olonne-agglomeration.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C3-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C4-prix-de-la-region-des-pays-de-loire.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C5-prix-leon-herbert.html",
+      "resultats-et-rapports/2021/07/2021-07-16/R99-ante-post-gnt-2021/R99C6-prix-de-la-societe-du-cheval-francais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R4-la-capelle",
+      "R5-la-teste-de-buch",
+      "R6-cabourg",
+      "R7-cagnes-sur-mer",
+      "R99-ante-post-gnt-2021"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-du-pmu-le-colibri.html",
+        "R1C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R1C3-grand-national-du-trot-paris-turf.html",
+        "R1C4-prix-de-la-region-des-pays-de-loire.html",
+        "R1C5-prix-leon-herbert.html",
+        "R1C6-prix-de-la-societe-du-cheval-francais.html",
+        "R1C7-prix-vendee-grand-littoral.html",
+        "R1C8-prix-du-departement-de-la-vendee.html"
+      ],
+      "R4-la-capelle": [
+        "R4C1-prix-du-pmu-le-colibri.html",
+        "R4C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R4C3-grand-national-du-trot-paris-turf.html",
+        "R4C4-prix-de-la-region-des-pays-de-loire.html",
+        "R4C5-prix-leon-herbert.html",
+        "R4C6-prix-de-la-societe-du-cheval-francais.html",
+        "R4C7-prix-vendee-grand-littoral.html",
+        "R4C8-prix-du-departement-de-la-vendee.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-du-pmu-le-colibri.html",
+        "R5C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R5C3-grand-national-du-trot-paris-turf.html",
+        "R5C4-prix-de-la-region-des-pays-de-loire.html",
+        "R5C5-prix-leon-herbert.html",
+        "R5C6-prix-de-la-societe-du-cheval-francais.html",
+        "R5C7-prix-vendee-grand-littoral.html",
+        "R5C8-prix-du-departement-de-la-vendee.html"
+      ],
+      "R6-cabourg": [
+        "R6C1-prix-du-pmu-le-colibri.html",
+        "R6C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R6C3-grand-national-du-trot-paris-turf.html",
+        "R6C4-prix-de-la-region-des-pays-de-loire.html",
+        "R6C5-prix-leon-herbert.html",
+        "R6C6-prix-de-la-societe-du-cheval-francais.html",
+        "R6C7-prix-vendee-grand-littoral.html",
+        "R6C8-prix-du-departement-de-la-vendee.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-du-pmu-le-colibri.html",
+        "R7C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R7C3-grand-national-du-trot-paris-turf.html",
+        "R7C4-prix-de-la-region-des-pays-de-loire.html",
+        "R7C5-prix-leon-herbert.html",
+        "R7C6-prix-de-la-societe-du-cheval-francais.html",
+        "R7C7-prix-vendee-grand-littoral.html",
+        "R7C8-prix-du-departement-de-la-vendee.html"
+      ],
+      "R99-ante-post-gnt-2021": [
+        "R99C1-prix-du-pmu-le-colibri.html",
+        "R99C2-prix-des-sables-d-olonne-agglomeration.html",
+        "R99C3-grand-national-du-trot-paris-turf.html",
+        "R99C4-prix-de-la-region-des-pays-de-loire.html",
+        "R99C5-prix-leon-herbert.html",
+        "R99C6-prix-de-la-societe-du-cheval-francais.html",
+        "R99C7-prix-vendee-grand-littoral.html",
+        "R99C8-prix-du-departement-de-la-vendee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:45.556378Z"
+}

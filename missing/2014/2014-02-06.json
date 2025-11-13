@@ -1,0 +1,76 @@
+{
+  "date": "2014-02-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/02/2014-02-06",
+    "date_html": "resultats-et-rapports/2014/02/2014-02-06/2014-02-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/02/2014-02-06/R2-chantilly/R2C6-prix-dominique-savary-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R2-chantilly/R2C7-prix-andre-theron-prix-de-romorantin.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R2-chantilly/R2C8-prix-leon-zitrone.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R3-marseille-vivaux/R3C3-prix-gerard-brami-prix-de-louviers.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R3-marseille-vivaux/R3C5-prix-jacques-orliaguet-prix-de-bourges.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R3-marseille-vivaux/R3C7-prix-andre-theron-prix-de-romorantin.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R4-toulouse/R4C4-prix-guy-lux-prix-de-la-nievre.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R4-toulouse/R4C5-prix-jacques-orliaguet-prix-de-bourges.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R4-toulouse/R4C6-prix-dominique-savary-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R4-toulouse/R4C7-prix-andre-theron-prix-de-romorantin.html",
+      "resultats-et-rapports/2014/02/2014-02-06/R4-toulouse/R4C8-prix-leon-zitrone.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R3-marseille-vivaux",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-maurice-bernardet-prix-de-darnetal.html",
+        "R1C2-prix-jean-le-gonidec.html",
+        "R1C3-prix-gerard-brami-prix-de-louviers.html",
+        "R1C4-prix-guy-lux-prix-de-la-nievre.html",
+        "R1C5-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R1C6-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R1C7-prix-andre-theron-prix-de-romorantin.html",
+        "R1C8-prix-leon-zitrone.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-maurice-bernardet-prix-de-darnetal.html",
+        "R2C2-prix-jean-le-gonidec.html",
+        "R2C3-prix-gerard-brami-prix-de-louviers.html",
+        "R2C4-prix-guy-lux-prix-de-la-nievre.html",
+        "R2C5-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R2C6-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R2C7-prix-andre-theron-prix-de-romorantin.html",
+        "R2C8-prix-leon-zitrone.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-maurice-bernardet-prix-de-darnetal.html",
+        "R3C2-prix-jean-le-gonidec.html",
+        "R3C3-prix-gerard-brami-prix-de-louviers.html",
+        "R3C4-prix-guy-lux-prix-de-la-nievre.html",
+        "R3C5-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R3C6-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R3C7-prix-andre-theron-prix-de-romorantin.html",
+        "R3C8-prix-leon-zitrone.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-maurice-bernardet-prix-de-darnetal.html",
+        "R4C2-prix-jean-le-gonidec.html",
+        "R4C3-prix-gerard-brami-prix-de-louviers.html",
+        "R4C4-prix-guy-lux-prix-de-la-nievre.html",
+        "R4C5-prix-jacques-orliaguet-prix-de-bourges.html",
+        "R4C6-prix-dominique-savary-prix-de-ramatuelle.html",
+        "R4C7-prix-andre-theron-prix-de-romorantin.html",
+        "R4C8-prix-leon-zitrone.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:21.731572Z"
+}

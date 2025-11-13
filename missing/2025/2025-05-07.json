@@ -1,0 +1,70 @@
+{
+  "date": "2025-05-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-07",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-07/2025-05-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-07/R3-compiegne/R3C5-prix-du-jardin-des-tuileries.html",
+      "resultats-et-rapports/2025/05/2025-05-07/R3-compiegne/R3C6-prix-du-chateau-de-bagatelle.html",
+      "resultats-et-rapports/2025/05/2025-05-07/R4-marseille-borely/R4C3-prix-de-la-cour-des-fermes.html",
+      "resultats-et-rapports/2025/05/2025-05-07/R4-marseille-borely/R4C4-prix-des-champs-elysees.html",
+      "resultats-et-rapports/2025/05/2025-05-07/R4-marseille-borely/R4C5-prix-du-jardin-des-tuileries.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-chartres",
+      "R3-compiegne",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-croissy.html",
+        "R1C2-prix-de-bellechasse.html",
+        "R1C3-prix-de-la-cour-des-fermes.html",
+        "R1C4-prix-des-champs-elysees.html",
+        "R1C5-prix-du-jardin-des-tuileries.html",
+        "R1C6-prix-du-chateau-de-bagatelle.html",
+        "R1C7-prix-de-la-concorde.html",
+        "R1C8-prix-du-gros-caillou.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-de-croissy.html",
+        "R2C2-prix-de-bellechasse.html",
+        "R2C3-prix-de-la-cour-des-fermes.html",
+        "R2C4-prix-des-champs-elysees.html",
+        "R2C5-prix-du-jardin-des-tuileries.html",
+        "R2C6-prix-du-chateau-de-bagatelle.html",
+        "R2C7-prix-de-la-concorde.html",
+        "R2C8-prix-du-gros-caillou.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-croissy.html",
+        "R3C2-prix-de-bellechasse.html",
+        "R3C3-prix-de-la-cour-des-fermes.html",
+        "R3C4-prix-des-champs-elysees.html",
+        "R3C5-prix-du-jardin-des-tuileries.html",
+        "R3C6-prix-du-chateau-de-bagatelle.html",
+        "R3C7-prix-de-la-concorde.html",
+        "R3C8-prix-du-gros-caillou.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-de-croissy.html",
+        "R4C2-prix-de-bellechasse.html",
+        "R4C3-prix-de-la-cour-des-fermes.html",
+        "R4C4-prix-des-champs-elysees.html",
+        "R4C5-prix-du-jardin-des-tuileries.html",
+        "R4C6-prix-du-chateau-de-bagatelle.html",
+        "R4C7-prix-de-la-concorde.html",
+        "R4C8-prix-du-gros-caillou.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:21.934607Z"
+}

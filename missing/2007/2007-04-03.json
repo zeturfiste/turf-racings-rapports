@@ -1,0 +1,108 @@
+{
+  "date": "2007-04-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-03",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-03/2007-04-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-03/R1-maisons-laffitte/R1C4-prix-la-troienne.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R1-maisons-laffitte/R1C5-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R1-maisons-laffitte/R1C7-prix-de-la-clementerie.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R2-lyon-parilly/R2C3-prix-nasrullah.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R2-lyon-parilly/R2C8-prix-du-perigord.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R3-vincennes/R3C1-prix-de-gascogne.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R3-vincennes/R3C2-prix-prompt.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R31-zerace/R31C2-prix-prompt.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R31-zerace/R31C3-prix-nasrullah.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R31-zerace/R31C4-prix-la-troienne.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R31-zerace/R31C5-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R31-zerace/R31C6-prix-d-aigremont.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R70-san-siro-milan/R70C1-prix-de-gascogne.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R70-san-siro-milan/R70C2-prix-prompt.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R70-san-siro-milan/R70C6-prix-d-aigremont.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R70-san-siro-milan/R70C7-prix-de-la-clementerie.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R71-philips-stadion-eindhoven/R71C3-prix-nasrullah.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R71-philips-stadion-eindhoven/R71C4-prix-la-troienne.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R71-philips-stadion-eindhoven/R71C5-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R71-philips-stadion-eindhoven/R71C6-prix-d-aigremont.html",
+      "resultats-et-rapports/2007/04/2007-04-03/R71-philips-stadion-eindhoven/R71C8-prix-du-perigord.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-san-siro-milan",
+      "R71-philips-stadion-eindhoven"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-gascogne.html",
+        "R1C2-prix-prompt.html",
+        "R1C3-prix-nasrullah.html",
+        "R1C4-prix-la-troienne.html",
+        "R1C5-prix-cor-de-chasse.html",
+        "R1C6-prix-d-aigremont.html",
+        "R1C7-prix-de-la-clementerie.html",
+        "R1C8-prix-du-perigord.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-gascogne.html",
+        "R2C2-prix-prompt.html",
+        "R2C3-prix-nasrullah.html",
+        "R2C4-prix-la-troienne.html",
+        "R2C5-prix-cor-de-chasse.html",
+        "R2C6-prix-d-aigremont.html",
+        "R2C7-prix-de-la-clementerie.html",
+        "R2C8-prix-du-perigord.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-gascogne.html",
+        "R3C2-prix-prompt.html",
+        "R3C3-prix-nasrullah.html",
+        "R3C4-prix-la-troienne.html",
+        "R3C5-prix-cor-de-chasse.html",
+        "R3C6-prix-d-aigremont.html",
+        "R3C7-prix-de-la-clementerie.html",
+        "R3C8-prix-du-perigord.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-gascogne.html",
+        "R31C2-prix-prompt.html",
+        "R31C3-prix-nasrullah.html",
+        "R31C4-prix-la-troienne.html",
+        "R31C5-prix-cor-de-chasse.html",
+        "R31C6-prix-d-aigremont.html",
+        "R31C7-prix-de-la-clementerie.html",
+        "R31C8-prix-du-perigord.html"
+      ],
+      "R70-san-siro-milan": [
+        "R70C1-prix-de-gascogne.html",
+        "R70C2-prix-prompt.html",
+        "R70C3-prix-nasrullah.html",
+        "R70C4-prix-la-troienne.html",
+        "R70C5-prix-cor-de-chasse.html",
+        "R70C6-prix-d-aigremont.html",
+        "R70C7-prix-de-la-clementerie.html",
+        "R70C8-prix-du-perigord.html"
+      ],
+      "R71-philips-stadion-eindhoven": [
+        "R71C1-prix-de-gascogne.html",
+        "R71C2-prix-prompt.html",
+        "R71C3-prix-nasrullah.html",
+        "R71C4-prix-la-troienne.html",
+        "R71C5-prix-cor-de-chasse.html",
+        "R71C6-prix-d-aigremont.html",
+        "R71C7-prix-de-la-clementerie.html",
+        "R71C8-prix-du-perigord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:03.979137Z"
+}

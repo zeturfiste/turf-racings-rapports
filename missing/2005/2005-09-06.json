@@ -1,0 +1,47 @@
+{
+  "date": "2005-09-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-06",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-06/2005-09-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-villeurbanne",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-bart.html",
+        "R1C2-prix-weather-permitting.html",
+        "R1C3-prix-des-platanes.html",
+        "R1C4-prix-richard-et-robert-hennessy.html",
+        "R1C5-prix-melanos.html",
+        "R1C6-prix-oteuil-sf.html"
+      ],
+      "R2-lyon-villeurbanne": [
+        "R2C1-prix-jean-bart.html",
+        "R2C2-prix-weather-permitting.html",
+        "R2C3-prix-des-platanes.html",
+        "R2C4-prix-richard-et-robert-hennessy.html",
+        "R2C5-prix-melanos.html",
+        "R2C6-prix-oteuil-sf.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-jean-bart.html",
+        "R3C2-prix-weather-permitting.html",
+        "R3C3-prix-des-platanes.html",
+        "R3C4-prix-richard-et-robert-hennessy.html",
+        "R3C5-prix-melanos.html",
+        "R3C6-prix-oteuil-sf.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:49.285952Z"
+}

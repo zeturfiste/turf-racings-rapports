@@ -1,0 +1,107 @@
+{
+  "date": "2021-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-14",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-14/2021-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-14/R1-compiegne/R1C3-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R1-compiegne/R1C7-prix-du-carrefour-de-l-armistice.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R1-compiegne/R1C8-prix-de-rethondes.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R4-toulouse/R4C4-prix-d-autreches.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R4-toulouse/R4C5-prix-du-mont-saint-pierre.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R4-toulouse/R4C8-prix-de-rethondes.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R6-graignes/R6C2-prix-d-amelie.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R6-graignes/R6C3-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R6-graignes/R6C4-prix-d-autreches.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R6-graignes/R6C6-prix-des-etangs-de-pierrefonds.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R6-graignes/R6C8-prix-de-rethondes.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R7-meslay-du-maine/R7C2-prix-d-amelie.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R7-meslay-du-maine/R7C3-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C2-prix-d-amelie.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C3-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C4-prix-d-autreches.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C5-prix-du-mont-saint-pierre.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C6-prix-des-etangs-de-pierrefonds.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C7-prix-du-carrefour-de-l-armistice.html",
+      "resultats-et-rapports/2021/03/2021-03-14/R8-bordeaux-le-bouscat/R8C8-prix-de-rethondes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-cagnes-sur-mer",
+      "R4-toulouse",
+      "R6-graignes",
+      "R7-meslay-du-maine",
+      "R8-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-polygone.html",
+        "R1C2-prix-d-amelie.html",
+        "R1C3-prix-du-mont-saint-jean.html",
+        "R1C4-prix-d-autreches.html",
+        "R1C5-prix-du-mont-saint-pierre.html",
+        "R1C6-prix-des-etangs-de-pierrefonds.html",
+        "R1C7-prix-du-carrefour-de-l-armistice.html",
+        "R1C8-prix-de-rethondes.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-polygone.html",
+        "R3C2-prix-d-amelie.html",
+        "R3C3-prix-du-mont-saint-jean.html",
+        "R3C4-prix-d-autreches.html",
+        "R3C5-prix-du-mont-saint-pierre.html",
+        "R3C6-prix-des-etangs-de-pierrefonds.html",
+        "R3C7-prix-du-carrefour-de-l-armistice.html",
+        "R3C8-prix-de-rethondes.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-du-polygone.html",
+        "R4C2-prix-d-amelie.html",
+        "R4C3-prix-du-mont-saint-jean.html",
+        "R4C4-prix-d-autreches.html",
+        "R4C5-prix-du-mont-saint-pierre.html",
+        "R4C6-prix-des-etangs-de-pierrefonds.html",
+        "R4C7-prix-du-carrefour-de-l-armistice.html",
+        "R4C8-prix-de-rethondes.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-du-polygone.html",
+        "R6C2-prix-d-amelie.html",
+        "R6C3-prix-du-mont-saint-jean.html",
+        "R6C4-prix-d-autreches.html",
+        "R6C5-prix-du-mont-saint-pierre.html",
+        "R6C6-prix-des-etangs-de-pierrefonds.html",
+        "R6C7-prix-du-carrefour-de-l-armistice.html",
+        "R6C8-prix-de-rethondes.html"
+      ],
+      "R7-meslay-du-maine": [
+        "R7C1-prix-du-polygone.html",
+        "R7C2-prix-d-amelie.html",
+        "R7C3-prix-du-mont-saint-jean.html",
+        "R7C4-prix-d-autreches.html",
+        "R7C5-prix-du-mont-saint-pierre.html",
+        "R7C6-prix-des-etangs-de-pierrefonds.html",
+        "R7C7-prix-du-carrefour-de-l-armistice.html",
+        "R7C8-prix-de-rethondes.html"
+      ],
+      "R8-bordeaux-le-bouscat": [
+        "R8C1-prix-du-polygone.html",
+        "R8C2-prix-d-amelie.html",
+        "R8C3-prix-du-mont-saint-jean.html",
+        "R8C4-prix-d-autreches.html",
+        "R8C5-prix-du-mont-saint-pierre.html",
+        "R8C6-prix-des-etangs-de-pierrefonds.html",
+        "R8C7-prix-du-carrefour-de-l-armistice.html",
+        "R8C8-prix-de-rethondes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:56.014513Z"
+}

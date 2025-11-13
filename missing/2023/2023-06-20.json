@@ -1,0 +1,73 @@
+{
+  "date": "2023-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-20",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-20/2023-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-20/R2-clairefontaine/R2C1-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R2-clairefontaine/R2C7-prix-litrimarche-prix-de-couffe.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R2-clairefontaine/R2C8-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R3-cavaillon/R3C3-grand-prix-anjou-bretagne-haras-du-saz.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R3-cavaillon/R3C4-prix-reverdy.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R3-cavaillon/R3C6-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R4-vincennes/R4C1-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2023/06/2023-06-20/R4-vincennes/R4C3-grand-prix-anjou-bretagne-haras-du-saz.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-clairefontaine",
+      "R3-cavaillon",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-mg-store-nantes.html",
+        "R1C2-prix-anapack-prix-bellamy.html",
+        "R1C3-grand-prix-anjou-bretagne-haras-du-saz.html",
+        "R1C4-prix-reverdy.html",
+        "R1C5-prix-keyyo-prix-de-laperouse.html",
+        "R1C6-grand-prix-des-aqps.html",
+        "R1C7-prix-litrimarche-prix-de-couffe.html",
+        "R1C8-prix-gerald-de-rochefort.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-mg-store-nantes.html",
+        "R2C2-prix-anapack-prix-bellamy.html",
+        "R2C3-grand-prix-anjou-bretagne-haras-du-saz.html",
+        "R2C4-prix-reverdy.html",
+        "R2C5-prix-keyyo-prix-de-laperouse.html",
+        "R2C6-grand-prix-des-aqps.html",
+        "R2C7-prix-litrimarche-prix-de-couffe.html",
+        "R2C8-prix-gerald-de-rochefort.html"
+      ],
+      "R3-cavaillon": [
+        "R3C1-prix-mg-store-nantes.html",
+        "R3C2-prix-anapack-prix-bellamy.html",
+        "R3C3-grand-prix-anjou-bretagne-haras-du-saz.html",
+        "R3C4-prix-reverdy.html",
+        "R3C5-prix-keyyo-prix-de-laperouse.html",
+        "R3C6-grand-prix-des-aqps.html",
+        "R3C7-prix-litrimarche-prix-de-couffe.html",
+        "R3C8-prix-gerald-de-rochefort.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-mg-store-nantes.html",
+        "R4C2-prix-anapack-prix-bellamy.html",
+        "R4C3-grand-prix-anjou-bretagne-haras-du-saz.html",
+        "R4C4-prix-reverdy.html",
+        "R4C5-prix-keyyo-prix-de-laperouse.html",
+        "R4C6-grand-prix-des-aqps.html",
+        "R4C7-prix-litrimarche-prix-de-couffe.html",
+        "R4C8-prix-gerald-de-rochefort.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:04.036462Z"
+}

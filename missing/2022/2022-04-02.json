@@ -1,0 +1,119 @@
+{
+  "date": "2022-04-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-02",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-02/2022-04-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C3-prix-du-languedoc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C4-prix-bruleur.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C6-prix-basse-pointe.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C7-prix-tarentelle.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C8-prix-my-love.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R1-saint-cloud/R1C9-prix-du-roussillon.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C1-prix-du-debut.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C2-prix-penelope.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C3-prix-du-languedoc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C5-prix-edmond-blanc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C6-prix-basse-pointe.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C7-prix-tarentelle.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R2-fontainebleau/R2C9-prix-du-roussillon.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C1-prix-du-debut.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C3-prix-du-languedoc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C4-prix-bruleur.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C5-prix-edmond-blanc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C6-prix-basse-pointe.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C7-prix-tarentelle.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R3-reims/R3C8-prix-my-love.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C1-prix-du-debut.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C2-prix-penelope.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C3-prix-du-languedoc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C4-prix-bruleur.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C5-prix-edmond-blanc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C6-prix-basse-pointe.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C7-prix-tarentelle.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C8-prix-my-love.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R4-laval/R4C9-prix-du-roussillon.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C1-prix-du-debut.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C2-prix-penelope.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C3-prix-du-languedoc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C4-prix-bruleur.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C5-prix-edmond-blanc.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C6-prix-basse-pointe.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C7-prix-tarentelle.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C8-prix-my-love.html",
+      "resultats-et-rapports/2022/04/2022-04-02/R7-hyeres/R7C9-prix-du-roussillon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-fontainebleau",
+      "R3-reims",
+      "R4-laval",
+      "R7-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-debut.html",
+        "R1C2-prix-penelope.html",
+        "R1C3-prix-du-languedoc.html",
+        "R1C4-prix-bruleur.html",
+        "R1C5-prix-edmond-blanc.html",
+        "R1C6-prix-basse-pointe.html",
+        "R1C7-prix-tarentelle.html",
+        "R1C8-prix-my-love.html",
+        "R1C9-prix-du-roussillon.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-du-debut.html",
+        "R2C2-prix-penelope.html",
+        "R2C3-prix-du-languedoc.html",
+        "R2C4-prix-bruleur.html",
+        "R2C5-prix-edmond-blanc.html",
+        "R2C6-prix-basse-pointe.html",
+        "R2C7-prix-tarentelle.html",
+        "R2C8-prix-my-love.html",
+        "R2C9-prix-du-roussillon.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-du-debut.html",
+        "R3C2-prix-penelope.html",
+        "R3C3-prix-du-languedoc.html",
+        "R3C4-prix-bruleur.html",
+        "R3C5-prix-edmond-blanc.html",
+        "R3C6-prix-basse-pointe.html",
+        "R3C7-prix-tarentelle.html",
+        "R3C8-prix-my-love.html",
+        "R3C9-prix-du-roussillon.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-du-debut.html",
+        "R4C2-prix-penelope.html",
+        "R4C3-prix-du-languedoc.html",
+        "R4C4-prix-bruleur.html",
+        "R4C5-prix-edmond-blanc.html",
+        "R4C6-prix-basse-pointe.html",
+        "R4C7-prix-tarentelle.html",
+        "R4C8-prix-my-love.html",
+        "R4C9-prix-du-roussillon.html"
+      ],
+      "R7-hyeres": [
+        "R7C1-prix-du-debut.html",
+        "R7C2-prix-penelope.html",
+        "R7C3-prix-du-languedoc.html",
+        "R7C4-prix-bruleur.html",
+        "R7C5-prix-edmond-blanc.html",
+        "R7C6-prix-basse-pointe.html",
+        "R7C7-prix-tarentelle.html",
+        "R7C8-prix-my-love.html",
+        "R7C9-prix-du-roussillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:20.778273Z"
+}

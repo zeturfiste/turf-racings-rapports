@@ -1,0 +1,72 @@
+{
+  "date": "2022-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-06",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-06/2022-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-06/R1-saint-cloud/R1C7-prix-guemul.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R3-bordeaux-le-bouscat/R3C4-prix-kaldoun.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R3-bordeaux-le-bouscat/R3C5-prix-de-blanquefort.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R4-cabourg/R4C3-prix-tenebreuse.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R4-cabourg/R4C7-prix-guemul.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R7-marseille-borely/R7C7-prix-guemul.html",
+      "resultats-et-rapports/2022/10/2022-10-06/R7-marseille-borely/R7C8-prix-de-saint-martin-du-chene.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-bordeaux-le-bouscat",
+      "R4-cabourg",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-saint-pair-du-mont.html",
+        "R1C2-prix-as-d-atout.html",
+        "R1C3-prix-tenebreuse.html",
+        "R1C4-prix-kaldoun.html",
+        "R1C5-prix-de-blanquefort.html",
+        "R1C6-prix-jumilhac.html",
+        "R1C7-prix-guemul.html",
+        "R1C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-saint-pair-du-mont.html",
+        "R3C2-prix-as-d-atout.html",
+        "R3C3-prix-tenebreuse.html",
+        "R3C4-prix-kaldoun.html",
+        "R3C5-prix-de-blanquefort.html",
+        "R3C6-prix-jumilhac.html",
+        "R3C7-prix-guemul.html",
+        "R3C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-saint-pair-du-mont.html",
+        "R4C2-prix-as-d-atout.html",
+        "R4C3-prix-tenebreuse.html",
+        "R4C4-prix-kaldoun.html",
+        "R4C5-prix-de-blanquefort.html",
+        "R4C6-prix-jumilhac.html",
+        "R4C7-prix-guemul.html",
+        "R4C8-prix-de-saint-martin-du-chene.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-de-saint-pair-du-mont.html",
+        "R7C2-prix-as-d-atout.html",
+        "R7C3-prix-tenebreuse.html",
+        "R7C4-prix-kaldoun.html",
+        "R7C5-prix-de-blanquefort.html",
+        "R7C6-prix-jumilhac.html",
+        "R7C7-prix-guemul.html",
+        "R7C8-prix-de-saint-martin-du-chene.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:32.888997Z"
+}

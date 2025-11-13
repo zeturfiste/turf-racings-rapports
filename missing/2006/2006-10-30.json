@@ -1,0 +1,67 @@
+{
+  "date": "2006-10-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-30",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-30/2006-10-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-30/R1-compiegne/R1C4-prix-de-chevincourt.html",
+      "resultats-et-rapports/2006/10/2006-10-30/R1-compiegne/R1C6-prix-albanilla.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-reims",
+      "R3-le-croise-laroche",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-des-futaies.html",
+        "R1C2-prix-des-frondaisons.html",
+        "R1C3-prix-de-la-mariole.html",
+        "R1C4-prix-de-chevincourt.html",
+        "R1C5-prix-du-festival-du-film-du-cheval-de-compiegne-prix-vallee-d-automne.html",
+        "R1C6-prix-albanilla.html",
+        "R1C7-prix-de-l-aronde.html",
+        "R1C8-prix-de-vez.html"
+      ],
+      "R2-reims": [
+        "R2C1-prix-des-futaies.html",
+        "R2C2-prix-des-frondaisons.html",
+        "R2C3-prix-de-la-mariole.html",
+        "R2C4-prix-de-chevincourt.html",
+        "R2C5-prix-du-festival-du-film-du-cheval-de-compiegne-prix-vallee-d-automne.html",
+        "R2C6-prix-albanilla.html",
+        "R2C7-prix-de-l-aronde.html",
+        "R2C8-prix-de-vez.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-des-futaies.html",
+        "R3C2-prix-des-frondaisons.html",
+        "R3C3-prix-de-la-mariole.html",
+        "R3C4-prix-de-chevincourt.html",
+        "R3C5-prix-du-festival-du-film-du-cheval-de-compiegne-prix-vallee-d-automne.html",
+        "R3C6-prix-albanilla.html",
+        "R3C7-prix-de-l-aronde.html",
+        "R3C8-prix-de-vez.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-des-futaies.html",
+        "R21C2-prix-des-frondaisons.html",
+        "R21C3-prix-de-la-mariole.html",
+        "R21C4-prix-de-chevincourt.html",
+        "R21C5-prix-du-festival-du-film-du-cheval-de-compiegne-prix-vallee-d-automne.html",
+        "R21C6-prix-albanilla.html",
+        "R21C7-prix-de-l-aronde.html",
+        "R21C8-prix-de-vez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:18.303508Z"
+}

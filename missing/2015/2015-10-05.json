@@ -1,0 +1,113 @@
+{
+  "date": "2015-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-05",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-05/2015-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C1-prix-raymond-goleo.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C4-prix-ergalis.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C5-prix-micholet-metallerie.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C7-prix-forezienne-d-entreprises.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R1-feurs/R1C8-prix-bm-environnement.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C1-prix-raymond-goleo.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C3-prix-nigay.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C4-prix-ergalis.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C5-prix-micholet-metallerie.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C7-prix-forezienne-d-entreprises.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R2-chantilly/R2C8-prix-bm-environnement.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C1-prix-raymond-goleo.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C3-prix-nigay.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C4-prix-ergalis.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C5-prix-micholet-metallerie.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C7-prix-forezienne-d-entreprises.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R3-cabourg/R3C8-prix-bm-environnement.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C1-prix-raymond-goleo.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C3-prix-nigay.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C4-prix-ergalis.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C7-prix-forezienne-d-entreprises.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R5-hyeres/R5C8-prix-bm-environnement.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C1-prix-raymond-goleo.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C2-prix-carrefour-feurs.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C3-prix-nigay.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C4-prix-ergalis.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C5-prix-micholet-metallerie.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C7-prix-forezienne-d-entreprises.html",
+      "resultats-et-rapports/2015/10/2015-10-05/R6-le-croise-laroche/R6C8-prix-bm-environnement.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R2-chantilly",
+      "R3-cabourg",
+      "R5-hyeres",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-prix-raymond-goleo.html",
+        "R1C2-prix-carrefour-feurs.html",
+        "R1C3-prix-nigay.html",
+        "R1C4-prix-ergalis.html",
+        "R1C5-prix-micholet-metallerie.html",
+        "R1C6-prix-du-credit-mutuel.html",
+        "R1C7-prix-forezienne-d-entreprises.html",
+        "R1C8-prix-bm-environnement.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-raymond-goleo.html",
+        "R2C2-prix-carrefour-feurs.html",
+        "R2C3-prix-nigay.html",
+        "R2C4-prix-ergalis.html",
+        "R2C5-prix-micholet-metallerie.html",
+        "R2C6-prix-du-credit-mutuel.html",
+        "R2C7-prix-forezienne-d-entreprises.html",
+        "R2C8-prix-bm-environnement.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-raymond-goleo.html",
+        "R3C2-prix-carrefour-feurs.html",
+        "R3C3-prix-nigay.html",
+        "R3C4-prix-ergalis.html",
+        "R3C5-prix-micholet-metallerie.html",
+        "R3C6-prix-du-credit-mutuel.html",
+        "R3C7-prix-forezienne-d-entreprises.html",
+        "R3C8-prix-bm-environnement.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-raymond-goleo.html",
+        "R5C2-prix-carrefour-feurs.html",
+        "R5C3-prix-nigay.html",
+        "R5C4-prix-ergalis.html",
+        "R5C5-prix-micholet-metallerie.html",
+        "R5C6-prix-du-credit-mutuel.html",
+        "R5C7-prix-forezienne-d-entreprises.html",
+        "R5C8-prix-bm-environnement.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-raymond-goleo.html",
+        "R6C2-prix-carrefour-feurs.html",
+        "R6C3-prix-nigay.html",
+        "R6C4-prix-ergalis.html",
+        "R6C5-prix-micholet-metallerie.html",
+        "R6C6-prix-du-credit-mutuel.html",
+        "R6C7-prix-forezienne-d-entreprises.html",
+        "R6C8-prix-bm-environnement.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:37.646839Z"
+}

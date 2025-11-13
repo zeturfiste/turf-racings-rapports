@@ -1,0 +1,60 @@
+{
+  "date": "2022-03-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-22",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-22/2022-03-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-22/R1-chantilly/R1C2-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2022/03/2022-03-22/R3-saint-brieuc/R3C7-prix-de-morangles.html",
+      "resultats-et-rapports/2022/03/2022-03-22/R4-enghien-soisy/R4C1-prix-dunette.html",
+      "resultats-et-rapports/2022/03/2022-03-22/R4-enghien-soisy/R4C4-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2022/03/2022-03-22/R4-enghien-soisy/R4C5-prix-du-plessis-luzarches.html",
+      "resultats-et-rapports/2022/03/2022-03-22/R4-enghien-soisy/R4C6-prix-du-clos-du-prieure.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-saint-brieuc",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-dunette.html",
+        "R1C2-prix-du-canal-de-la-machine.html",
+        "R1C3-prix-du-belvedere.html",
+        "R1C4-prix-de-la-queue-du-renard.html",
+        "R1C5-prix-du-plessis-luzarches.html",
+        "R1C6-prix-du-clos-du-prieure.html",
+        "R1C7-prix-de-morangles.html",
+        "R1C8-prix-riverqueen.html"
+      ],
+      "R3-saint-brieuc": [
+        "R3C1-prix-dunette.html",
+        "R3C2-prix-du-canal-de-la-machine.html",
+        "R3C3-prix-du-belvedere.html",
+        "R3C4-prix-de-la-queue-du-renard.html",
+        "R3C5-prix-du-plessis-luzarches.html",
+        "R3C6-prix-du-clos-du-prieure.html",
+        "R3C7-prix-de-morangles.html",
+        "R3C8-prix-riverqueen.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-dunette.html",
+        "R4C2-prix-du-canal-de-la-machine.html",
+        "R4C3-prix-du-belvedere.html",
+        "R4C4-prix-de-la-queue-du-renard.html",
+        "R4C5-prix-du-plessis-luzarches.html",
+        "R4C6-prix-du-clos-du-prieure.html",
+        "R4C7-prix-de-morangles.html",
+        "R4C8-prix-riverqueen.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:16.935784Z"
+}

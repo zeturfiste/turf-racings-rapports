@@ -1,0 +1,114 @@
+{
+  "date": "2010-08-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-28",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-28/2010-08-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-28/R1-clairefontaine/R1C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R1-clairefontaine/R1C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R1-clairefontaine/R1C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R1-clairefontaine/R1C8-prix-rose-morny-deauville-prix-de-guernesey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R2-vincennes/R2C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R2-vincennes/R2C4-prix-solid-air-caraibes-prix-de-jersey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R2-vincennes/R2C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R2-vincennes/R2C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R2-vincennes/R2C8-prix-rose-morny-deauville-prix-de-guernesey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R3-cagnes-sur-mer/R3C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R3-cagnes-sur-mer/R3C4-prix-solid-air-caraibes-prix-de-jersey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R3-cagnes-sur-mer/R3C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R3-cagnes-sur-mer/R3C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R3-cagnes-sur-mer/R3C8-prix-rose-morny-deauville-prix-de-guernesey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R6-amiens/R6C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R6-amiens/R6C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R6-amiens/R6C4-prix-solid-air-caraibes-prix-de-jersey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R6-amiens/R6C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R6-amiens/R6C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R7-les-sables-d-olonne/R7C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R7-les-sables-d-olonne/R7C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R7-les-sables-d-olonne/R7C8-prix-rose-morny-deauville-prix-de-guernesey.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R8-graignes/R8C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R8-graignes/R8C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R8-graignes/R8C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R8-graignes/R8C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+      "resultats-et-rapports/2010/08/2010-08-28/R8-graignes/R8C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R3-cagnes-sur-mer",
+      "R6-amiens",
+      "R7-les-sables-d-olonne",
+      "R8-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R1C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R1C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R1C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R1C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R1C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R1C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R1C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R2C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R2C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R2C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R2C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R2C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R2C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R2C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R3C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R3C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R3C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R3C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R3C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R3C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R3C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ],
+      "R6-amiens": [
+        "R6C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R6C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R6C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R6C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R6C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R6C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R6C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R6C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R7C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R7C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R7C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R7C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R7C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R7C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R7C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ],
+      "R8-graignes": [
+        "R8C1-100eme-anniversaire-de-la-baie-de-seine-prix-des-capucines.html",
+        "R8C2-prix-guy-duval-lemonnier-prix-de-la-villa-strassburger.html",
+        "R8C3-prix-de-la-ville-de-pont-l-eveque-prix-de-la-petite-ferme.html",
+        "R8C4-prix-solid-air-caraibes-prix-de-jersey.html",
+        "R8C5-prix-yves-lalleman-grand-prix-de-clairefontaine.html",
+        "R8C6-prix-de-la-ville-de-saint-gatien-des-bois-prix-du-haut-bois.html",
+        "R8C7-prix-rotary-de-deauville-prix-du-cedre-bleu.html",
+        "R8C8-prix-rose-morny-deauville-prix-de-guernesey.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:23.068603Z"
+}

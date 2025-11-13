@@ -1,0 +1,69 @@
+{
+  "date": "2016-11-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-03",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-03/2016-11-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-03/R1-chantilly/R1C2-prix-d-egmont.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R1-chantilly/R1C3-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R1-chantilly/R1C4-prix-des-veneurs.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C1-prix-de-la-route-ronde.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C2-prix-d-egmont.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C3-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C4-prix-des-veneurs.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C6-prix-de-la-foret-de-carnelle.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C7-prix-du-bois-du-lieutenant.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R3-fontainebleau/R3C8-prix-de-blamont.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R5-reims/R5C1-prix-de-la-route-ronde.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R5-reims/R5C2-prix-d-egmont.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R5-reims/R5C5-prix-de-la-route-de-la-loge.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R5-reims/R5C7-prix-du-bois-du-lieutenant.html",
+      "resultats-et-rapports/2016/11/2016-11-03/R5-reims/R5C8-prix-de-blamont.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-fontainebleau",
+      "R5-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-route-ronde.html",
+        "R1C2-prix-d-egmont.html",
+        "R1C3-prix-du-vivier-madame.html",
+        "R1C4-prix-des-veneurs.html",
+        "R1C5-prix-de-la-route-de-la-loge.html",
+        "R1C6-prix-de-la-foret-de-carnelle.html",
+        "R1C7-prix-du-bois-du-lieutenant.html",
+        "R1C8-prix-de-blamont.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-la-route-ronde.html",
+        "R3C2-prix-d-egmont.html",
+        "R3C3-prix-du-vivier-madame.html",
+        "R3C4-prix-des-veneurs.html",
+        "R3C5-prix-de-la-route-de-la-loge.html",
+        "R3C6-prix-de-la-foret-de-carnelle.html",
+        "R3C7-prix-du-bois-du-lieutenant.html",
+        "R3C8-prix-de-blamont.html"
+      ],
+      "R5-reims": [
+        "R5C1-prix-de-la-route-ronde.html",
+        "R5C2-prix-d-egmont.html",
+        "R5C3-prix-du-vivier-madame.html",
+        "R5C4-prix-des-veneurs.html",
+        "R5C5-prix-de-la-route-de-la-loge.html",
+        "R5C6-prix-de-la-foret-de-carnelle.html",
+        "R5C7-prix-du-bois-du-lieutenant.html",
+        "R5C8-prix-de-blamont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:38.887189Z"
+}

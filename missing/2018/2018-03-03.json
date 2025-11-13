@@ -1,0 +1,107 @@
+{
+  "date": "2018-03-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-03",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-03/2018-03-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-03/R1-vincennes/R1C1-prix-d-alencon.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R1-vincennes/R1C3-prix-de-selection.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C1-prix-d-alencon.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C5-prix-de-montsoreau.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C7-prix-de-maurepas.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C8-prix-de-monpazier.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R3-fontainebleau/R3C9-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C2-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C3-prix-de-selection.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C4-prix-louis-le-bourg.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C5-prix-de-montsoreau.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R4-bordeaux-le-bouscat/R4C8-prix-de-monpazier.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R5-pornichet-la-baule/R5C1-prix-d-alencon.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R5-pornichet-la-baule/R5C8-prix-de-monpazier.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R5-pornichet-la-baule/R5C9-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C1-prix-d-alencon.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C2-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C3-prix-de-selection.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C4-prix-louis-le-bourg.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C5-prix-de-montsoreau.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C7-prix-de-maurepas.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C8-prix-de-monpazier.html",
+      "resultats-et-rapports/2018/03/2018-03-03/R6-cagnes-sur-mer/R6C9-prix-de-guer-coetquidan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-bordeaux-le-bouscat",
+      "R5-pornichet-la-baule",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-alencon.html",
+        "R1C2-prix-du-plateau-de-gravelle.html",
+        "R1C3-prix-de-selection.html",
+        "R1C4-prix-louis-le-bourg.html",
+        "R1C5-prix-de-montsoreau.html",
+        "R1C6-prix-henri-desmontils.html",
+        "R1C7-prix-de-maurepas.html",
+        "R1C8-prix-de-monpazier.html",
+        "R1C9-prix-de-guer-coetquidan.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-d-alencon.html",
+        "R3C2-prix-du-plateau-de-gravelle.html",
+        "R3C3-prix-de-selection.html",
+        "R3C4-prix-louis-le-bourg.html",
+        "R3C5-prix-de-montsoreau.html",
+        "R3C6-prix-henri-desmontils.html",
+        "R3C7-prix-de-maurepas.html",
+        "R3C8-prix-de-monpazier.html",
+        "R3C9-prix-de-guer-coetquidan.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-d-alencon.html",
+        "R4C2-prix-du-plateau-de-gravelle.html",
+        "R4C3-prix-de-selection.html",
+        "R4C4-prix-louis-le-bourg.html",
+        "R4C5-prix-de-montsoreau.html",
+        "R4C6-prix-henri-desmontils.html",
+        "R4C7-prix-de-maurepas.html",
+        "R4C8-prix-de-monpazier.html",
+        "R4C9-prix-de-guer-coetquidan.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-d-alencon.html",
+        "R5C2-prix-du-plateau-de-gravelle.html",
+        "R5C3-prix-de-selection.html",
+        "R5C4-prix-louis-le-bourg.html",
+        "R5C5-prix-de-montsoreau.html",
+        "R5C6-prix-henri-desmontils.html",
+        "R5C7-prix-de-maurepas.html",
+        "R5C8-prix-de-monpazier.html",
+        "R5C9-prix-de-guer-coetquidan.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-d-alencon.html",
+        "R6C2-prix-du-plateau-de-gravelle.html",
+        "R6C3-prix-de-selection.html",
+        "R6C4-prix-louis-le-bourg.html",
+        "R6C5-prix-de-montsoreau.html",
+        "R6C6-prix-henri-desmontils.html",
+        "R6C7-prix-de-maurepas.html",
+        "R6C8-prix-de-monpazier.html",
+        "R6C9-prix-de-guer-coetquidan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:02.801724Z"
+}

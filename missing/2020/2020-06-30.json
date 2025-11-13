@@ -1,0 +1,96 @@
+{
+  "date": "2020-06-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-30",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-30/2020-06-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C1-prix-sirius.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C2-prix-phaeton.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C3-prix-callisto.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C4-prix-paul-leguerney.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C5-prix-lupus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C6-prix-taurus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C7-prix-capella.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R1-vincennes/R1C8-prix-agena.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C1-prix-sirius.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C3-prix-callisto.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C4-prix-paul-leguerney.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C5-prix-lupus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C6-prix-taurus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C7-prix-capella.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R2-vichy/R2C8-prix-agena.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C1-prix-sirius.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C2-prix-phaeton.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C3-prix-callisto.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C4-prix-paul-leguerney.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C5-prix-lupus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C6-prix-taurus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C7-prix-capella.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R3-saint-cloud/R3C8-prix-agena.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C1-prix-sirius.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C2-prix-phaeton.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C3-prix-callisto.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C4-prix-paul-leguerney.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C5-prix-lupus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C6-prix-taurus.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C7-prix-capella.html",
+      "resultats-et-rapports/2020/06/2020-06-30/R4-aix-les-bains/R4C8-prix-agena.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-vichy",
+      "R3-saint-cloud",
+      "R4-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-sirius.html",
+        "R1C2-prix-phaeton.html",
+        "R1C3-prix-callisto.html",
+        "R1C4-prix-paul-leguerney.html",
+        "R1C5-prix-lupus.html",
+        "R1C6-prix-taurus.html",
+        "R1C7-prix-capella.html",
+        "R1C8-prix-agena.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-sirius.html",
+        "R2C2-prix-phaeton.html",
+        "R2C3-prix-callisto.html",
+        "R2C4-prix-paul-leguerney.html",
+        "R2C5-prix-lupus.html",
+        "R2C6-prix-taurus.html",
+        "R2C7-prix-capella.html",
+        "R2C8-prix-agena.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-sirius.html",
+        "R3C2-prix-phaeton.html",
+        "R3C3-prix-callisto.html",
+        "R3C4-prix-paul-leguerney.html",
+        "R3C5-prix-lupus.html",
+        "R3C6-prix-taurus.html",
+        "R3C7-prix-capella.html",
+        "R3C8-prix-agena.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-sirius.html",
+        "R4C2-prix-phaeton.html",
+        "R4C3-prix-callisto.html",
+        "R4C4-prix-paul-leguerney.html",
+        "R4C5-prix-lupus.html",
+        "R4C6-prix-taurus.html",
+        "R4C7-prix-capella.html",
+        "R4C8-prix-agena.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:24.397909Z"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2020-09-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-03",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-03/2020-09-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-03/R1-paris-longchamp/R1C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R1-paris-longchamp/R1C7-prix-du-lac.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R2-strasbourg/R2C1-prix-d-arenberg.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R2-strasbourg/R2C2-prix-de-fontenoy.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R2-strasbourg/R2C3-prix-de-la-cascade.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R2-strasbourg/R2C4-prix-de-lutece.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R2-strasbourg/R2C6-prix-de-liancourt.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R3-lyon-parilly/R3C1-prix-d-arenberg.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R3-lyon-parilly/R3C3-prix-de-la-cascade.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R3-lyon-parilly/R3C6-prix-de-liancourt.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R3-lyon-parilly/R3C7-prix-du-lac.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R3-lyon-parilly/R3C8-prix-de-ponthieu.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R4-le-croise-laroche/R4C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/09/2020-09-03/R4-le-croise-laroche/R4C7-prix-du-lac.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-strasbourg",
+      "R3-lyon-parilly",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-d-arenberg.html",
+        "R1C2-prix-de-fontenoy.html",
+        "R1C3-prix-de-la-cascade.html",
+        "R1C4-prix-de-lutece.html",
+        "R1C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-de-liancourt.html",
+        "R1C7-prix-du-lac.html",
+        "R1C8-prix-de-ponthieu.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-d-arenberg.html",
+        "R2C2-prix-de-fontenoy.html",
+        "R2C3-prix-de-la-cascade.html",
+        "R2C4-prix-de-lutece.html",
+        "R2C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R2C6-prix-de-liancourt.html",
+        "R2C7-prix-du-lac.html",
+        "R2C8-prix-de-ponthieu.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-d-arenberg.html",
+        "R3C2-prix-de-fontenoy.html",
+        "R3C3-prix-de-la-cascade.html",
+        "R3C4-prix-de-lutece.html",
+        "R3C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-de-liancourt.html",
+        "R3C7-prix-du-lac.html",
+        "R3C8-prix-de-ponthieu.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-d-arenberg.html",
+        "R4C2-prix-de-fontenoy.html",
+        "R4C3-prix-de-la-cascade.html",
+        "R4C4-prix-de-lutece.html",
+        "R4C5-prix-de-la-cochere-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-de-liancourt.html",
+        "R4C7-prix-du-lac.html",
+        "R4C8-prix-de-ponthieu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:49.476890Z"
+}

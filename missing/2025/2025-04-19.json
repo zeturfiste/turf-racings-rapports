@@ -1,0 +1,96 @@
+{
+  "date": "2025-04-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-19",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-19/2025-04-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-19/R2-tarbes/R2C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R2-tarbes/R2C6-prix-de-l-atlantique.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R3-lyon-parilly/R3C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R3-lyon-parilly/R3C3-prix-de-la-ville-d-enghien-les-bains.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R4-strasbourg/R4C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R4-strasbourg/R4C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R4-strasbourg/R4C7-prix-de-tonnac-villeneuve.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R4-strasbourg/R4C8-prix-de-l-association-passerelle-prix-profane.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R4-strasbourg/R4C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C3-prix-de-la-ville-d-enghien-les-bains.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+      "resultats-et-rapports/2025/04/2025-04-19/R6-martinique/R6C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-tarbes",
+      "R3-lyon-parilly",
+      "R4-strasbourg",
+      "R6-martinique"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+        "R1C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+        "R1C3-prix-de-la-ville-d-enghien-les-bains.html",
+        "R1C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+        "R1C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+        "R1C6-prix-de-l-atlantique.html",
+        "R1C7-prix-de-tonnac-villeneuve.html",
+        "R1C8-prix-de-l-association-passerelle-prix-profane.html",
+        "R1C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+      ],
+      "R2-tarbes": [
+        "R2C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+        "R2C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+        "R2C3-prix-de-la-ville-d-enghien-les-bains.html",
+        "R2C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+        "R2C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+        "R2C6-prix-de-l-atlantique.html",
+        "R2C7-prix-de-tonnac-villeneuve.html",
+        "R2C8-prix-de-l-association-passerelle-prix-profane.html",
+        "R2C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+        "R3C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+        "R3C3-prix-de-la-ville-d-enghien-les-bains.html",
+        "R3C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+        "R3C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+        "R3C6-prix-de-l-atlantique.html",
+        "R3C7-prix-de-tonnac-villeneuve.html",
+        "R3C8-prix-de-l-association-passerelle-prix-profane.html",
+        "R3C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+        "R4C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+        "R4C3-prix-de-la-ville-d-enghien-les-bains.html",
+        "R4C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+        "R4C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+        "R4C6-prix-de-l-atlantique.html",
+        "R4C7-prix-de-tonnac-villeneuve.html",
+        "R4C8-prix-de-l-association-passerelle-prix-profane.html",
+        "R4C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+      ],
+      "R6-martinique": [
+        "R6C1-prix-de-la-ville-d-eaubonne-prix-de-la-place-de-la-sorbonne.html",
+        "R6C2-prix-de-l-office-du-tourisme-d-enghien-les-bains-prix-de-fontanges.html",
+        "R6C3-prix-de-la-ville-d-enghien-les-bains.html",
+        "R6C4-prix-de-la-ville-de-soisy-sous-montmorency-prix-de-la-porte-d-auteuil.html",
+        "R6C5-prix-de-la-ville-de-saint-gratien-prix-de-lons-le-saunier.html",
+        "R6C6-prix-de-l-atlantique.html",
+        "R6C7-prix-de-tonnac-villeneuve.html",
+        "R6C8-prix-de-l-association-passerelle-prix-profane.html",
+        "R6C9-prix-de-la-federation-francaise-de-la-reconversion-prix-d-hernouville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:14.869813Z"
+}

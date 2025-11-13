@@ -1,0 +1,62 @@
+{
+  "date": "2022-01-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/01/2022-01-20",
+    "date_html": "resultats-et-rapports/2022/01/2022-01-20/2022-01-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/01/2022-01-20/R1-vincennes/R1C3-prix-de-juvisy.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R1-vincennes/R1C7-prix-jean-pierre-reynaldo.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R3-pau/R3C4-prix-louis-cussinet.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R3-pau/R3C6-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R4-cagnes-sur-mer/R4C1-prix-d-erbray.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R4-cagnes-sur-mer/R4C3-prix-de-juvisy.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R4-cagnes-sur-mer/R4C4-prix-louis-cussinet.html",
+      "resultats-et-rapports/2022/01/2022-01-20/R4-cagnes-sur-mer/R4C7-prix-jean-pierre-reynaldo.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-erbray.html",
+        "R1C2-prix-de-la-capelle.html",
+        "R1C3-prix-de-juvisy.html",
+        "R1C4-prix-louis-cussinet.html",
+        "R1C5-prix-de-bernay.html",
+        "R1C6-prix-de-pont-a-mousson.html",
+        "R1C7-prix-jean-pierre-reynaldo.html",
+        "R1C8-prix-de-cantin.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-d-erbray.html",
+        "R3C2-prix-de-la-capelle.html",
+        "R3C3-prix-de-juvisy.html",
+        "R3C4-prix-louis-cussinet.html",
+        "R3C5-prix-de-bernay.html",
+        "R3C6-prix-de-pont-a-mousson.html",
+        "R3C7-prix-jean-pierre-reynaldo.html",
+        "R3C8-prix-de-cantin.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-d-erbray.html",
+        "R4C2-prix-de-la-capelle.html",
+        "R4C3-prix-de-juvisy.html",
+        "R4C4-prix-louis-cussinet.html",
+        "R4C5-prix-de-bernay.html",
+        "R4C6-prix-de-pont-a-mousson.html",
+        "R4C7-prix-jean-pierre-reynaldo.html",
+        "R4C8-prix-de-cantin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:56.314975Z"
+}

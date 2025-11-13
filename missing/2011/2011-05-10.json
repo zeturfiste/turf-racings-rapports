@@ -1,0 +1,65 @@
+{
+  "date": "2011-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-10",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-10/2011-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C2-prix-citroen-groupe-dallard.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C3-prix-lagon-vert.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C4-prix-toulouse-web.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C5-prix-cherie-fm.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C6-prix-de-la-mairie-de-toulouse.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C7-prix-de-la-societe-des-courses-de-toulouse.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R2-maisons-laffitte/R2C8-prix-du-conseil-regional.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R3-vincennes/R3C1-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R3-vincennes/R3C3-prix-lagon-vert.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R3-vincennes/R3C4-prix-toulouse-web.html",
+      "resultats-et-rapports/2011/05/2011-05-10/R3-vincennes/R3C6-prix-de-la-mairie-de-toulouse.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-maisons-laffitte",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-de-la-ville-de-toulouse.html",
+        "R1C2-prix-citroen-groupe-dallard.html",
+        "R1C3-prix-lagon-vert.html",
+        "R1C4-prix-toulouse-web.html",
+        "R1C5-prix-cherie-fm.html",
+        "R1C6-prix-de-la-mairie-de-toulouse.html",
+        "R1C7-prix-de-la-societe-des-courses-de-toulouse.html",
+        "R1C8-prix-du-conseil-regional.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-de-la-ville-de-toulouse.html",
+        "R2C2-prix-citroen-groupe-dallard.html",
+        "R2C3-prix-lagon-vert.html",
+        "R2C4-prix-toulouse-web.html",
+        "R2C5-prix-cherie-fm.html",
+        "R2C6-prix-de-la-mairie-de-toulouse.html",
+        "R2C7-prix-de-la-societe-des-courses-de-toulouse.html",
+        "R2C8-prix-du-conseil-regional.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-ville-de-toulouse.html",
+        "R3C2-prix-citroen-groupe-dallard.html",
+        "R3C3-prix-lagon-vert.html",
+        "R3C4-prix-toulouse-web.html",
+        "R3C5-prix-cherie-fm.html",
+        "R3C6-prix-de-la-mairie-de-toulouse.html",
+        "R3C7-prix-de-la-societe-des-courses-de-toulouse.html",
+        "R3C8-prix-du-conseil-regional.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:31.574582Z"
+}

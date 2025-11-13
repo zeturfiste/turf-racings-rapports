@@ -1,0 +1,57 @@
+{
+  "date": "2021-03-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-24",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-24/2021-03-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-24/R1-lisieux/R1C4-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2021/03/2021-03-24/R1-lisieux/R1C8-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2021/03/2021-03-24/R4-le-croise-laroche/R4C7-prix-larcher-publicite.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R3-la-teste-de-buch",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-prix-roger-ledoyen.html",
+        "R1C2-prix-societe-des-courses-lisieux.html",
+        "R1C3-prix-le-bistrot-gourmand.html",
+        "R1C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R1C5-prix-mfr-vimoutiers.html",
+        "R1C6-prix-abc-ambulances.html",
+        "R1C7-prix-larcher-publicite.html",
+        "R1C8-prix-du-credit-agricole-normandie.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-roger-ledoyen.html",
+        "R3C2-prix-societe-des-courses-lisieux.html",
+        "R3C3-prix-le-bistrot-gourmand.html",
+        "R3C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R3C5-prix-mfr-vimoutiers.html",
+        "R3C6-prix-abc-ambulances.html",
+        "R3C7-prix-larcher-publicite.html",
+        "R3C8-prix-du-credit-agricole-normandie.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-roger-ledoyen.html",
+        "R4C2-prix-societe-des-courses-lisieux.html",
+        "R4C3-prix-le-bistrot-gourmand.html",
+        "R4C4-prix-communaute-d-agglomeration-lisieux.html",
+        "R4C5-prix-mfr-vimoutiers.html",
+        "R4C6-prix-abc-ambulances.html",
+        "R4C7-prix-larcher-publicite.html",
+        "R4C8-prix-du-credit-agricole-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:59.549410Z"
+}

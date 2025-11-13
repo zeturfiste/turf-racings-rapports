@@ -1,0 +1,81 @@
+{
+  "date": "2014-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-25",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-25/2014-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-25/R1-toulouse/R1C8-prix-de-borely.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R2-enghien-soisy/R2C2-prix-caravelle-haras-des-granges.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R2-enghien-soisy/R2C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R2-enghien-soisy/R2C4-prix-de-l-association-des-proprietaires-du-sud-ouest.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R2-enghien-soisy/R2C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R2-enghien-soisy/R2C6-qatar-prix-de-l-elevage.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R3-fontainebleau/R3C2-prix-caravelle-haras-des-granges.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R3-fontainebleau/R3C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R3-fontainebleau/R3C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R3-fontainebleau/R3C6-qatar-prix-de-l-elevage.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R3-fontainebleau/R3C8-prix-de-borely.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R4-vincennes/R4C2-prix-caravelle-haras-des-granges.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R4-vincennes/R4C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R4-vincennes/R4C6-qatar-prix-de-l-elevage.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R4-vincennes/R4C7-prix-du-pont-long.html",
+      "resultats-et-rapports/2014/04/2014-04-25/R4-vincennes/R4C8-prix-de-borely.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-enghien-soisy",
+      "R3-fontainebleau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-f-b-a-aymeri-de-mauleon.html",
+        "R1C2-prix-caravelle-haras-des-granges.html",
+        "R1C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+        "R1C4-prix-de-l-association-des-proprietaires-du-sud-ouest.html",
+        "R1C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+        "R1C6-qatar-prix-de-l-elevage.html",
+        "R1C7-prix-du-pont-long.html",
+        "R1C8-prix-de-borely.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-f-b-a-aymeri-de-mauleon.html",
+        "R2C2-prix-caravelle-haras-des-granges.html",
+        "R2C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+        "R2C4-prix-de-l-association-des-proprietaires-du-sud-ouest.html",
+        "R2C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+        "R2C6-qatar-prix-de-l-elevage.html",
+        "R2C7-prix-du-pont-long.html",
+        "R2C8-prix-de-borely.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-f-b-a-aymeri-de-mauleon.html",
+        "R3C2-prix-caravelle-haras-des-granges.html",
+        "R3C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+        "R3C4-prix-de-l-association-des-proprietaires-du-sud-ouest.html",
+        "R3C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+        "R3C6-qatar-prix-de-l-elevage.html",
+        "R3C7-prix-du-pont-long.html",
+        "R3C8-prix-de-borely.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-f-b-a-aymeri-de-mauleon.html",
+        "R4C2-prix-caravelle-haras-des-granges.html",
+        "R4C3-le-vase-d-argent-2eme-etape-du-defi-du-galop.html",
+        "R4C4-prix-de-l-association-des-proprietaires-du-sud-ouest.html",
+        "R4C5-prix-de-l-association-un-enfant-par-la-main-prix-de-parilly.html",
+        "R4C6-qatar-prix-de-l-elevage.html",
+        "R4C7-prix-du-pont-long.html",
+        "R4C8-prix-de-borely.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:45.547514Z"
+}

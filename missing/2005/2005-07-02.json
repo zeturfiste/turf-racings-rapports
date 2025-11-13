@@ -1,0 +1,56 @@
+{
+  "date": "2005-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/07/2005-07-02",
+    "date_html": "resultats-et-rapports/2005/07/2005-07-02/2005-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-enghien-soisy",
+      "R3-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-des-vins-du-jardin-de-la-france-prix-de-thouare.html",
+        "R1C2-grand-prix-des-vins-de-nantes-grand-prix-synergie.html",
+        "R1C3-prix-des-vignerons-du-muscadet-sevre-et-maine-prix-gerald-de-rochefort.html",
+        "R1C4-derby-de-l-ouest-grand-prix-de-l-asselco-grand-prix-des-pays-de-la-loire.html",
+        "R1C5-coral-eclipse-stakes-sandown.html",
+        "R1C6-prix-des-vignerons-du-gros-plant-nantais-grand-prix-anjou-bretagne.html",
+        "R1C7-prix-des-vignerons-du-muscadet-des-cotes-de-grandlieu-prix-de-la-ville-de-nozay.html",
+        "R1C8-prix-des-vignerons-de-la-region-d-ancenis-grand-prix-des-a-q-p-s.html",
+        "R1C9-prix-des-vignerons-des-fiefs-vendeens-prix-de-la-loire-atlantique.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-des-vins-du-jardin-de-la-france-prix-de-thouare.html",
+        "R2C2-grand-prix-des-vins-de-nantes-grand-prix-synergie.html",
+        "R2C3-prix-des-vignerons-du-muscadet-sevre-et-maine-prix-gerald-de-rochefort.html",
+        "R2C4-derby-de-l-ouest-grand-prix-de-l-asselco-grand-prix-des-pays-de-la-loire.html",
+        "R2C5-coral-eclipse-stakes-sandown.html",
+        "R2C6-prix-des-vignerons-du-gros-plant-nantais-grand-prix-anjou-bretagne.html",
+        "R2C7-prix-des-vignerons-du-muscadet-des-cotes-de-grandlieu-prix-de-la-ville-de-nozay.html",
+        "R2C8-prix-des-vignerons-de-la-region-d-ancenis-grand-prix-des-a-q-p-s.html",
+        "R2C9-prix-des-vignerons-des-fiefs-vendeens-prix-de-la-loire-atlantique.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-des-vins-du-jardin-de-la-france-prix-de-thouare.html",
+        "R3C2-grand-prix-des-vins-de-nantes-grand-prix-synergie.html",
+        "R3C3-prix-des-vignerons-du-muscadet-sevre-et-maine-prix-gerald-de-rochefort.html",
+        "R3C4-derby-de-l-ouest-grand-prix-de-l-asselco-grand-prix-des-pays-de-la-loire.html",
+        "R3C5-coral-eclipse-stakes-sandown.html",
+        "R3C6-prix-des-vignerons-du-gros-plant-nantais-grand-prix-anjou-bretagne.html",
+        "R3C7-prix-des-vignerons-du-muscadet-des-cotes-de-grandlieu-prix-de-la-ville-de-nozay.html",
+        "R3C8-prix-des-vignerons-de-la-region-d-ancenis-grand-prix-des-a-q-p-s.html",
+        "R3C9-prix-des-vignerons-des-fiefs-vendeens-prix-de-la-loire-atlantique.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:38.388060Z"
+}

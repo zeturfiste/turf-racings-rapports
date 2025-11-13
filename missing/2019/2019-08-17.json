@@ -1,0 +1,116 @@
+{
+  "date": "2019-08-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/08/2019-08-17",
+    "date_html": "resultats-et-rapports/2019/08/2019-08-17/2019-08-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/08/2019-08-17/R1-deauville/R1C3-prix-etalon-muhaarar.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R3-vincennes/R3C3-prix-etalon-muhaarar.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R3-vincennes/R3C4-shadwell-prix-daphnis.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R3-vincennes/R3C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R4-vichy/R4C4-shadwell-prix-daphnis.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R4-vichy/R4C5-shadwell-prix-de-la-nonette.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R4-vichy/R4C6-criterium-du-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R4-vichy/R4C7-prix-etalon-tasleet.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R5-cagnes-sur-mer/R5C2-shadwell-prix-du-calvados.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R5-cagnes-sur-mer/R5C5-shadwell-prix-de-la-nonette.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R5-cagnes-sur-mer/R5C7-prix-etalon-tasleet.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R5-cagnes-sur-mer/R5C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R6-le-lion-d-angers/R6C6-criterium-du-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R6-le-lion-d-angers/R6C7-prix-etalon-tasleet.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R6-le-lion-d-angers/R6C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C1-prix-des-etalons-shadwell.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C3-prix-etalon-muhaarar.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C4-shadwell-prix-daphnis.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C5-shadwell-prix-de-la-nonette.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C6-criterium-du-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C7-prix-etalon-tasleet.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+      "resultats-et-rapports/2019/08/2019-08-17/R7-les-sables-d-olonne/R7C9-prix-etalon-mukhadram.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-vincennes",
+      "R4-vichy",
+      "R5-cagnes-sur-mer",
+      "R6-le-lion-d-angers",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-etalons-shadwell.html",
+        "R1C2-shadwell-prix-du-calvados.html",
+        "R1C3-prix-etalon-muhaarar.html",
+        "R1C4-shadwell-prix-daphnis.html",
+        "R1C5-shadwell-prix-de-la-nonette.html",
+        "R1C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R1C7-prix-etalon-tasleet.html",
+        "R1C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R1C9-prix-etalon-mukhadram.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-etalons-shadwell.html",
+        "R3C2-shadwell-prix-du-calvados.html",
+        "R3C3-prix-etalon-muhaarar.html",
+        "R3C4-shadwell-prix-daphnis.html",
+        "R3C5-shadwell-prix-de-la-nonette.html",
+        "R3C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R3C7-prix-etalon-tasleet.html",
+        "R3C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R3C9-prix-etalon-mukhadram.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-des-etalons-shadwell.html",
+        "R4C2-shadwell-prix-du-calvados.html",
+        "R4C3-prix-etalon-muhaarar.html",
+        "R4C4-shadwell-prix-daphnis.html",
+        "R4C5-shadwell-prix-de-la-nonette.html",
+        "R4C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R4C7-prix-etalon-tasleet.html",
+        "R4C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R4C9-prix-etalon-mukhadram.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-des-etalons-shadwell.html",
+        "R5C2-shadwell-prix-du-calvados.html",
+        "R5C3-prix-etalon-muhaarar.html",
+        "R5C4-shadwell-prix-daphnis.html",
+        "R5C5-shadwell-prix-de-la-nonette.html",
+        "R5C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R5C7-prix-etalon-tasleet.html",
+        "R5C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R5C9-prix-etalon-mukhadram.html"
+      ],
+      "R6-le-lion-d-angers": [
+        "R6C1-prix-des-etalons-shadwell.html",
+        "R6C2-shadwell-prix-du-calvados.html",
+        "R6C3-prix-etalon-muhaarar.html",
+        "R6C4-shadwell-prix-daphnis.html",
+        "R6C5-shadwell-prix-de-la-nonette.html",
+        "R6C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R6C7-prix-etalon-tasleet.html",
+        "R6C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R6C9-prix-etalon-mukhadram.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-des-etalons-shadwell.html",
+        "R7C2-shadwell-prix-du-calvados.html",
+        "R7C3-prix-etalon-muhaarar.html",
+        "R7C4-shadwell-prix-daphnis.html",
+        "R7C5-shadwell-prix-de-la-nonette.html",
+        "R7C6-criterium-du-fonds-europeen-de-l-elevage.html",
+        "R7C7-prix-etalon-tasleet.html",
+        "R7C8-prix-etalon-muhtathir-au-haras-du-mezeray.html",
+        "R7C9-prix-etalon-mukhadram.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:53.568932Z"
+}

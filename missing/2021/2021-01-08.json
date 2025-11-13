@@ -1,0 +1,56 @@
+{
+  "date": "2021-01-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-08",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-08/2021-01-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-pau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-home.html",
+        "R1C2-prix-caro.html",
+        "R1C3-prix-de-crennes.html",
+        "R1C4-prix-du-pays-d-ouche.html",
+        "R1C5-prix-de-pinamar.html",
+        "R1C6-prix-de-conches.html",
+        "R1C7-prix-de-beaufosse.html",
+        "R1C8-prix-de-rugles.html",
+        "R1C9-prix-de-l-aigle.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-home.html",
+        "R2C2-prix-caro.html",
+        "R2C3-prix-de-crennes.html",
+        "R2C4-prix-du-pays-d-ouche.html",
+        "R2C5-prix-de-pinamar.html",
+        "R2C6-prix-de-conches.html",
+        "R2C7-prix-de-beaufosse.html",
+        "R2C8-prix-de-rugles.html",
+        "R2C9-prix-de-l-aigle.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-home.html",
+        "R3C2-prix-caro.html",
+        "R3C3-prix-de-crennes.html",
+        "R3C4-prix-du-pays-d-ouche.html",
+        "R3C5-prix-de-pinamar.html",
+        "R3C6-prix-de-conches.html",
+        "R3C7-prix-de-beaufosse.html",
+        "R3C8-prix-de-rugles.html",
+        "R3C9-prix-de-l-aigle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:34.682819Z"
+}

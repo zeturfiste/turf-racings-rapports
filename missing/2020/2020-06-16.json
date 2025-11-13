@@ -1,0 +1,93 @@
+{
+  "date": "2020-06-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-16",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-16/2020-06-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C1-prix-des-arbres-aux-mouchoirs.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C3-prix-du-pont-colbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C4-prix-etienne-rimbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C5-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C6-prix-du-ministere-du-bon-esprit.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C7-prix-du-chene-de-turner.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R1-dieppe/R1C8-prix-du-pollet.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C1-prix-des-arbres-aux-mouchoirs.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C2-prix-amphitrite.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C3-prix-du-pont-colbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C4-prix-etienne-rimbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C5-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C6-prix-du-ministere-du-bon-esprit.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C7-prix-du-chene-de-turner.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R2-toulouse/R2C8-prix-du-pollet.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R4-le-mans/R4C1-prix-des-arbres-aux-mouchoirs.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R4-le-mans/R4C3-prix-du-pont-colbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R4-le-mans/R4C5-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R4-le-mans/R4C6-prix-du-ministere-du-bon-esprit.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R4-le-mans/R4C8-prix-du-pollet.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C1-prix-des-arbres-aux-mouchoirs.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C2-prix-amphitrite.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C3-prix-du-pont-colbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C4-prix-etienne-rimbert.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C5-prix-de-la-region-normandie.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C6-prix-du-ministere-du-bon-esprit.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C7-prix-du-chene-de-turner.html",
+      "resultats-et-rapports/2020/06/2020-06-16/R5-dax/R5C8-prix-du-pollet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-toulouse",
+      "R4-le-mans",
+      "R5-dax"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-des-arbres-aux-mouchoirs.html",
+        "R1C2-prix-amphitrite.html",
+        "R1C3-prix-du-pont-colbert.html",
+        "R1C4-prix-etienne-rimbert.html",
+        "R1C5-prix-de-la-region-normandie.html",
+        "R1C6-prix-du-ministere-du-bon-esprit.html",
+        "R1C7-prix-du-chene-de-turner.html",
+        "R1C8-prix-du-pollet.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-des-arbres-aux-mouchoirs.html",
+        "R2C2-prix-amphitrite.html",
+        "R2C3-prix-du-pont-colbert.html",
+        "R2C4-prix-etienne-rimbert.html",
+        "R2C5-prix-de-la-region-normandie.html",
+        "R2C6-prix-du-ministere-du-bon-esprit.html",
+        "R2C7-prix-du-chene-de-turner.html",
+        "R2C8-prix-du-pollet.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-des-arbres-aux-mouchoirs.html",
+        "R4C2-prix-amphitrite.html",
+        "R4C3-prix-du-pont-colbert.html",
+        "R4C4-prix-etienne-rimbert.html",
+        "R4C5-prix-de-la-region-normandie.html",
+        "R4C6-prix-du-ministere-du-bon-esprit.html",
+        "R4C7-prix-du-chene-de-turner.html",
+        "R4C8-prix-du-pollet.html"
+      ],
+      "R5-dax": [
+        "R5C1-prix-des-arbres-aux-mouchoirs.html",
+        "R5C2-prix-amphitrite.html",
+        "R5C3-prix-du-pont-colbert.html",
+        "R5C4-prix-etienne-rimbert.html",
+        "R5C5-prix-de-la-region-normandie.html",
+        "R5C6-prix-du-ministere-du-bon-esprit.html",
+        "R5C7-prix-du-chene-de-turner.html",
+        "R5C8-prix-du-pollet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:19.067732Z"
+}

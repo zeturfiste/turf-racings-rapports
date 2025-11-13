@@ -1,0 +1,53 @@
+{
+  "date": "2006-09-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-04",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-04/2006-09-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-feurs",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-du-maine.html",
+        "R1C2-prix-fineau.html",
+        "R1C3-criterium-de-l-ouest-prix-geny-course-3601.html",
+        "R1C4-prix-pierre-de-la-sayette.html",
+        "R1C5-prix-chaussee-aux-moines-prix-du-chene.html",
+        "R1C6-grand-prix-de-la-ville-de-craon-5eme-etape-du-defi-du-galop.html",
+        "R1C7-prix-onde-amere.html",
+        "R1C8-prix-volney.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-du-maine.html",
+        "R2C2-prix-fineau.html",
+        "R2C3-criterium-de-l-ouest-prix-geny-course-3601.html",
+        "R2C4-prix-pierre-de-la-sayette.html",
+        "R2C5-prix-chaussee-aux-moines-prix-du-chene.html",
+        "R2C6-grand-prix-de-la-ville-de-craon-5eme-etape-du-defi-du-galop.html",
+        "R2C7-prix-onde-amere.html",
+        "R2C8-prix-volney.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-du-maine.html",
+        "R3C2-prix-fineau.html",
+        "R3C3-criterium-de-l-ouest-prix-geny-course-3601.html",
+        "R3C4-prix-pierre-de-la-sayette.html",
+        "R3C5-prix-chaussee-aux-moines-prix-du-chene.html",
+        "R3C6-grand-prix-de-la-ville-de-craon-5eme-etape-du-defi-du-galop.html",
+        "R3C7-prix-onde-amere.html",
+        "R3C8-prix-volney.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:01.476756Z"
+}

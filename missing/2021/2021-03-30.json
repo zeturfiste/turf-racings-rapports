@@ -1,0 +1,61 @@
+{
+  "date": "2021-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-30",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-30/2021-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-30/R1-fontainebleau/R1C7-prix-de-chateau-landon.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R1-fontainebleau/R1C8-prix-de-fontaine-le-port.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R3-caen/R3C2-prix-des-ifs.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R3-caen/R3C3-prix-georges-dercourt.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R3-caen/R3C4-prix-de-larchant.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R3-caen/R3C5-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2021/03/2021-03-30/R4-enghien-soisy/R4C3-prix-georges-dercourt.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-caen",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-hubert-de-catheu.html",
+        "R1C2-prix-des-ifs.html",
+        "R1C3-prix-georges-dercourt.html",
+        "R1C4-prix-de-larchant.html",
+        "R1C5-prix-cor-de-chasse.html",
+        "R1C6-prix-guy-thibault.html",
+        "R1C7-prix-de-chateau-landon.html",
+        "R1C8-prix-de-fontaine-le-port.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-hubert-de-catheu.html",
+        "R3C2-prix-des-ifs.html",
+        "R3C3-prix-georges-dercourt.html",
+        "R3C4-prix-de-larchant.html",
+        "R3C5-prix-cor-de-chasse.html",
+        "R3C6-prix-guy-thibault.html",
+        "R3C7-prix-de-chateau-landon.html",
+        "R3C8-prix-de-fontaine-le-port.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-hubert-de-catheu.html",
+        "R4C2-prix-des-ifs.html",
+        "R4C3-prix-georges-dercourt.html",
+        "R4C4-prix-de-larchant.html",
+        "R4C5-prix-cor-de-chasse.html",
+        "R4C6-prix-guy-thibault.html",
+        "R4C7-prix-de-chateau-landon.html",
+        "R4C8-prix-de-fontaine-le-port.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:01.693137Z"
+}

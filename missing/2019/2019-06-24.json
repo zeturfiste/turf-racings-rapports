@@ -1,0 +1,87 @@
+{
+  "date": "2019-06-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-24",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-24/2019-06-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-24/R2-la-capelle/R2C2-prix-pharamond.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R4-saint-brieuc/R4C4-prix-de-l-etoile-du-bout-du-monde.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R4-saint-brieuc/R4C6-prix-tornado.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R4-saint-brieuc/R4C8-prix-de-l-etoile-du-bon-secours.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R6-beaumont-de-lomagne/R6C4-prix-de-l-etoile-du-bout-du-monde.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R6-beaumont-de-lomagne/R6C6-prix-tornado.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R6-beaumont-de-lomagne/R6C8-prix-de-l-etoile-du-bon-secours.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R7-salon-de-provence/R7C1-prix-albine.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R7-salon-de-provence/R7C4-prix-de-l-etoile-du-bout-du-monde.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R7-salon-de-provence/R7C7-prix-egle.html",
+      "resultats-et-rapports/2019/06/2019-06-24/R7-salon-de-provence/R7C8-prix-de-l-etoile-du-bon-secours.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-la-capelle",
+      "R4-saint-brieuc",
+      "R6-beaumont-de-lomagne",
+      "R7-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-albine.html",
+        "R1C2-prix-pharamond.html",
+        "R1C3-prix-taboun.html",
+        "R1C4-prix-de-l-etoile-du-bout-du-monde.html",
+        "R1C5-prix-hampton.html",
+        "R1C6-prix-tornado.html",
+        "R1C7-prix-egle.html",
+        "R1C8-prix-de-l-etoile-du-bon-secours.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-albine.html",
+        "R2C2-prix-pharamond.html",
+        "R2C3-prix-taboun.html",
+        "R2C4-prix-de-l-etoile-du-bout-du-monde.html",
+        "R2C5-prix-hampton.html",
+        "R2C6-prix-tornado.html",
+        "R2C7-prix-egle.html",
+        "R2C8-prix-de-l-etoile-du-bon-secours.html"
+      ],
+      "R4-saint-brieuc": [
+        "R4C1-prix-albine.html",
+        "R4C2-prix-pharamond.html",
+        "R4C3-prix-taboun.html",
+        "R4C4-prix-de-l-etoile-du-bout-du-monde.html",
+        "R4C5-prix-hampton.html",
+        "R4C6-prix-tornado.html",
+        "R4C7-prix-egle.html",
+        "R4C8-prix-de-l-etoile-du-bon-secours.html"
+      ],
+      "R6-beaumont-de-lomagne": [
+        "R6C1-prix-albine.html",
+        "R6C2-prix-pharamond.html",
+        "R6C3-prix-taboun.html",
+        "R6C4-prix-de-l-etoile-du-bout-du-monde.html",
+        "R6C5-prix-hampton.html",
+        "R6C6-prix-tornado.html",
+        "R6C7-prix-egle.html",
+        "R6C8-prix-de-l-etoile-du-bon-secours.html"
+      ],
+      "R7-salon-de-provence": [
+        "R7C1-prix-albine.html",
+        "R7C2-prix-pharamond.html",
+        "R7C3-prix-taboun.html",
+        "R7C4-prix-de-l-etoile-du-bout-du-monde.html",
+        "R7C5-prix-hampton.html",
+        "R7C6-prix-tornado.html",
+        "R7C7-prix-egle.html",
+        "R7C8-prix-de-l-etoile-du-bon-secours.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:34.856497Z"
+}

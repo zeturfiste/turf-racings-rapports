@@ -1,0 +1,86 @@
+{
+  "date": "2017-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-05",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-05/2017-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-05/R1-fontainebleau/R1C3-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R1-fontainebleau/R1C4-prix-du-tremblay.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R1-fontainebleau/R1C6-prix-artus-de-maille.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R1-fontainebleau/R1C7-prix-guy-thibault.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R1-fontainebleau/R1C8-prix-anne-fevre.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C1-prix-jean-gillois.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C2-prix-baron-de-la-rochette.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C4-prix-du-tremblay.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C5-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C6-prix-artus-de-maille.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C7-prix-guy-thibault.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R2-compiegne/R2C8-prix-anne-fevre.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R3-nantes/R3C1-prix-jean-gillois.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R3-nantes/R3C3-prix-roland-fougedoire.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R3-nantes/R3C4-prix-du-tremblay.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R3-nantes/R3C5-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R4-cabourg/R4C4-prix-du-tremblay.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R4-cabourg/R4C5-prix-du-bois-notre-dame.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R4-cabourg/R4C6-prix-artus-de-maille.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R4-cabourg/R4C7-prix-guy-thibault.html",
+      "resultats-et-rapports/2017/10/2017-10-05/R4-cabourg/R4C8-prix-anne-fevre.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-compiegne",
+      "R3-nantes",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-jean-gillois.html",
+        "R1C2-prix-baron-de-la-rochette.html",
+        "R1C3-prix-roland-fougedoire.html",
+        "R1C4-prix-du-tremblay.html",
+        "R1C5-prix-du-bois-notre-dame.html",
+        "R1C6-prix-artus-de-maille.html",
+        "R1C7-prix-guy-thibault.html",
+        "R1C8-prix-anne-fevre.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-jean-gillois.html",
+        "R2C2-prix-baron-de-la-rochette.html",
+        "R2C3-prix-roland-fougedoire.html",
+        "R2C4-prix-du-tremblay.html",
+        "R2C5-prix-du-bois-notre-dame.html",
+        "R2C6-prix-artus-de-maille.html",
+        "R2C7-prix-guy-thibault.html",
+        "R2C8-prix-anne-fevre.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-jean-gillois.html",
+        "R3C2-prix-baron-de-la-rochette.html",
+        "R3C3-prix-roland-fougedoire.html",
+        "R3C4-prix-du-tremblay.html",
+        "R3C5-prix-du-bois-notre-dame.html",
+        "R3C6-prix-artus-de-maille.html",
+        "R3C7-prix-guy-thibault.html",
+        "R3C8-prix-anne-fevre.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-jean-gillois.html",
+        "R4C2-prix-baron-de-la-rochette.html",
+        "R4C3-prix-roland-fougedoire.html",
+        "R4C4-prix-du-tremblay.html",
+        "R4C5-prix-du-bois-notre-dame.html",
+        "R4C6-prix-artus-de-maille.html",
+        "R4C7-prix-guy-thibault.html",
+        "R4C8-prix-anne-fevre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:20.433838Z"
+}

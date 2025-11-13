@@ -1,0 +1,47 @@
+{
+  "date": "2013-12-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/12/2013-12-25",
+    "date_html": "resultats-et-rapports/2013/12/2013-12-25/2013-12-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/12/2013-12-25/R2-pau/R2C7-prix-de-montbrison.html",
+      "resultats-et-rapports/2013/12/2013-12-25/R2-pau/R2C9-prix-de-jonvelle.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-charroux.html",
+        "R1C2-prix-constant-hervieu.html",
+        "R1C3-prix-de-salers.html",
+        "R1C4-prix-de-craon.html",
+        "R1C5-prix-de-brassac-les-mines.html",
+        "R1C6-prix-de-chateau-chinon.html",
+        "R1C7-prix-de-montbrison.html",
+        "R1C8-prix-de-conches.html",
+        "R1C9-prix-de-jonvelle.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-charroux.html",
+        "R2C2-prix-constant-hervieu.html",
+        "R2C3-prix-de-salers.html",
+        "R2C4-prix-de-craon.html",
+        "R2C5-prix-de-brassac-les-mines.html",
+        "R2C6-prix-de-chateau-chinon.html",
+        "R2C7-prix-de-montbrison.html",
+        "R2C8-prix-de-conches.html",
+        "R2C9-prix-de-jonvelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:12.049198Z"
+}

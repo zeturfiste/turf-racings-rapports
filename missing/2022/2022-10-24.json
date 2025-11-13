@@ -1,0 +1,73 @@
+{
+  "date": "2022-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-24",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-24/2022-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-24/R3-toulouse/R3C3-prix-delahante.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R3-toulouse/R3C4-handicap-de-marseille.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R3-toulouse/R3C7-prix-de-manosque.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R4-les-sables-d-olonne/R4C2-prix-de-belsunce.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R4-les-sables-d-olonne/R4C4-handicap-de-marseille.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R4-les-sables-d-olonne/R4C5-prix-de-ratonneau.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R4-les-sables-d-olonne/R4C6-prix-gyptis-et-protis.html",
+      "resultats-et-rapports/2022/10/2022-10-24/R4-les-sables-d-olonne/R4C8-prix-des-societaires.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-strasbourg",
+      "R3-toulouse",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-alfred-rabaud.html",
+        "R1C2-prix-de-belsunce.html",
+        "R1C3-prix-delahante.html",
+        "R1C4-handicap-de-marseille.html",
+        "R1C5-prix-de-ratonneau.html",
+        "R1C6-prix-gyptis-et-protis.html",
+        "R1C7-prix-de-manosque.html",
+        "R1C8-prix-des-societaires.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-alfred-rabaud.html",
+        "R2C2-prix-de-belsunce.html",
+        "R2C3-prix-delahante.html",
+        "R2C4-handicap-de-marseille.html",
+        "R2C5-prix-de-ratonneau.html",
+        "R2C6-prix-gyptis-et-protis.html",
+        "R2C7-prix-de-manosque.html",
+        "R2C8-prix-des-societaires.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-alfred-rabaud.html",
+        "R3C2-prix-de-belsunce.html",
+        "R3C3-prix-delahante.html",
+        "R3C4-handicap-de-marseille.html",
+        "R3C5-prix-de-ratonneau.html",
+        "R3C6-prix-gyptis-et-protis.html",
+        "R3C7-prix-de-manosque.html",
+        "R3C8-prix-des-societaires.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-alfred-rabaud.html",
+        "R4C2-prix-de-belsunce.html",
+        "R4C3-prix-delahante.html",
+        "R4C4-handicap-de-marseille.html",
+        "R4C5-prix-de-ratonneau.html",
+        "R4C6-prix-gyptis-et-protis.html",
+        "R4C7-prix-de-manosque.html",
+        "R4C8-prix-des-societaires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:39.338164Z"
+}

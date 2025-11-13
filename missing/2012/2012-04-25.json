@@ -1,0 +1,82 @@
+{
+  "date": "2012-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-25",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-25/2012-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C2-prix-jonny-ruffato.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C3-prix-chateau-chantegrive.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C4-prix-de-reims.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C5-prix-d-agen-le-passage.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R1-bordeaux-le-bouscat/R1C6-prix-de-toulouse.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R2-auteuil/R2C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R3-laval/R3C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R3-laval/R3C2-prix-jonny-ruffato.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R3-laval/R3C6-prix-de-toulouse.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R3-laval/R3C8-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C2-prix-jonny-ruffato.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C3-prix-chateau-chantegrive.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C4-prix-de-reims.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C5-prix-d-agen-le-passage.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C6-prix-de-toulouse.html",
+      "resultats-et-rapports/2012/04/2012-04-25/R4-marseille-borely/R4C7-prix-cregut-atlantique.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-auteuil",
+      "R3-laval",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-jonny-ruffato.html",
+        "R1C3-prix-chateau-chantegrive.html",
+        "R1C4-prix-de-reims.html",
+        "R1C5-prix-d-agen-le-passage.html",
+        "R1C6-prix-de-toulouse.html",
+        "R1C7-prix-cregut-atlantique.html",
+        "R1C8-prix-de-beaumont-de-lomagne.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-jonny-ruffato.html",
+        "R2C3-prix-chateau-chantegrive.html",
+        "R2C4-prix-de-reims.html",
+        "R2C5-prix-d-agen-le-passage.html",
+        "R2C6-prix-de-toulouse.html",
+        "R2C7-prix-cregut-atlantique.html",
+        "R2C8-prix-de-beaumont-de-lomagne.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-jonny-ruffato.html",
+        "R3C3-prix-chateau-chantegrive.html",
+        "R3C4-prix-de-reims.html",
+        "R3C5-prix-d-agen-le-passage.html",
+        "R3C6-prix-de-toulouse.html",
+        "R3C7-prix-cregut-atlantique.html",
+        "R3C8-prix-de-beaumont-de-lomagne.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-geny-com-paris-turf.html",
+        "R4C2-prix-jonny-ruffato.html",
+        "R4C3-prix-chateau-chantegrive.html",
+        "R4C4-prix-de-reims.html",
+        "R4C5-prix-d-agen-le-passage.html",
+        "R4C6-prix-de-toulouse.html",
+        "R4C7-prix-cregut-atlantique.html",
+        "R4C8-prix-de-beaumont-de-lomagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:09.039021Z"
+}

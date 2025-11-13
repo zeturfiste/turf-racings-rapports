@@ -1,0 +1,102 @@
+{
+  "date": "2010-04-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/04/2010-04-23",
+    "date_html": "resultats-et-rapports/2010/04/2010-04-23/2010-04-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/04/2010-04-23/R3-vincennes/R3C2-prix-hopper.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R3-vincennes/R3C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R3-vincennes/R3C4-prix-radio-paris.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R3-vincennes/R3C6-prix-styrax.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R31-zerace/R31C2-prix-hopper.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R31-zerace/R31C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R31-zerace/R31C4-prix-radio-paris.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R31-zerace/R31C6-prix-styrax.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R31-zerace/R31C7-prix-du-jurancon.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C2-prix-hopper.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C4-prix-radio-paris.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C5-prix-du-cher.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C6-prix-styrax.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R70-saint-symphorien-metz/R70C7-prix-du-jurancon.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C1-prix-de-menton.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C2-prix-hopper.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C3-prix-des-cevennes.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C4-prix-radio-paris.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C5-prix-du-cher.html",
+      "resultats-et-rapports/2010/04/2010-04-23/R71-stade-des-costieres-nimes/R71C7-prix-du-jurancon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-chateaubriant",
+      "R1-enghien-soisy",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-saint-symphorien-metz",
+      "R71-stade-des-costieres-nimes"
+    ],
+    "courses_by_reunion": {
+      "R2-chateaubriant": [
+        "R2C1-prix-de-menton.html",
+        "R2C2-prix-hopper.html",
+        "R2C3-prix-des-cevennes.html",
+        "R2C4-prix-radio-paris.html",
+        "R2C5-prix-du-cher.html",
+        "R2C6-prix-styrax.html",
+        "R2C7-prix-du-jurancon.html"
+      ],
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-menton.html",
+        "R1C2-prix-hopper.html",
+        "R1C3-prix-des-cevennes.html",
+        "R1C4-prix-radio-paris.html",
+        "R1C5-prix-du-cher.html",
+        "R1C6-prix-styrax.html",
+        "R1C7-prix-du-jurancon.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-menton.html",
+        "R3C2-prix-hopper.html",
+        "R3C3-prix-des-cevennes.html",
+        "R3C4-prix-radio-paris.html",
+        "R3C5-prix-du-cher.html",
+        "R3C6-prix-styrax.html",
+        "R3C7-prix-du-jurancon.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-menton.html",
+        "R31C2-prix-hopper.html",
+        "R31C3-prix-des-cevennes.html",
+        "R31C4-prix-radio-paris.html",
+        "R31C5-prix-du-cher.html",
+        "R31C6-prix-styrax.html",
+        "R31C7-prix-du-jurancon.html"
+      ],
+      "R70-saint-symphorien-metz": [
+        "R70C1-prix-de-menton.html",
+        "R70C2-prix-hopper.html",
+        "R70C3-prix-des-cevennes.html",
+        "R70C4-prix-radio-paris.html",
+        "R70C5-prix-du-cher.html",
+        "R70C6-prix-styrax.html",
+        "R70C7-prix-du-jurancon.html"
+      ],
+      "R71-stade-des-costieres-nimes": [
+        "R71C1-prix-de-menton.html",
+        "R71C2-prix-hopper.html",
+        "R71C3-prix-des-cevennes.html",
+        "R71C4-prix-radio-paris.html",
+        "R71C5-prix-du-cher.html",
+        "R71C6-prix-styrax.html",
+        "R71C7-prix-du-jurancon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:34:28.737337Z"
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2012-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-21",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-21/2012-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-21/R1-auteuil/R1C2-prix-sagan.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R1-auteuil/R1C5-prix-christian-de-tredern.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R2-caen/R2C5-prix-christian-de-tredern.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R2-caen/R2C6-prix-la-perichole.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R2-caen/R2C7-prix-pharaon.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R2-caen/R2C8-prix-de-chantilly.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R3-la-teste-de-buch/R3C1-prix-du-journal-geny-courses-prix-chinco.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R3-la-teste-de-buch/R3C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2012/06/2012-06-21/R3-la-teste-de-buch/R3C6-prix-la-perichole.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-du-journal-geny-courses-prix-chinco.html",
+        "R1C2-prix-sagan.html",
+        "R1C3-prix-frascati.html",
+        "R1C4-prix-al-capone-ii.html",
+        "R1C5-prix-christian-de-tredern.html",
+        "R1C6-prix-la-perichole.html",
+        "R1C7-prix-pharaon.html",
+        "R1C8-prix-de-chantilly.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-du-journal-geny-courses-prix-chinco.html",
+        "R2C2-prix-sagan.html",
+        "R2C3-prix-frascati.html",
+        "R2C4-prix-al-capone-ii.html",
+        "R2C5-prix-christian-de-tredern.html",
+        "R2C6-prix-la-perichole.html",
+        "R2C7-prix-pharaon.html",
+        "R2C8-prix-de-chantilly.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-du-journal-geny-courses-prix-chinco.html",
+        "R3C2-prix-sagan.html",
+        "R3C3-prix-frascati.html",
+        "R3C4-prix-al-capone-ii.html",
+        "R3C5-prix-christian-de-tredern.html",
+        "R3C6-prix-la-perichole.html",
+        "R3C7-prix-pharaon.html",
+        "R3C8-prix-de-chantilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:26.850861Z"
+}

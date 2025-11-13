@@ -1,0 +1,72 @@
+{
+  "date": "2023-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-07",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-07/2023-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-07/R1-laval/R1C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R1-laval/R1C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R1-laval/R1C8-prix-barons-guy-et-jacques-de-meynard.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C1-prix-du-pmu-le-bretagne-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C2-prix-pierre-seche.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C5-prix-harmonie-ambulance.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C7-grand-national-du-trot-grand-prix-jacques-moreau.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R3-marseille-borely/R3C8-prix-barons-guy-et-jacques-de-meynard.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C1-prix-du-pmu-le-bretagne-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C2-prix-pierre-seche.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C3-prix-v-and-b-laval-prix-jean-de-la-vaissiere-de-lavergne.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C5-prix-harmonie-ambulance.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C6-prix-henri-desmontils.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C7-grand-national-du-trot-grand-prix-jacques-moreau.html",
+      "resultats-et-rapports/2023/06/2023-06-07/R4-argentan/R4C8-prix-barons-guy-et-jacques-de-meynard.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-marseille-borely",
+      "R4-argentan"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-du-pmu-le-bretagne-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R1C2-prix-pierre-seche.html",
+        "R1C3-prix-v-and-b-laval-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R1C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R1C5-prix-harmonie-ambulance.html",
+        "R1C6-prix-henri-desmontils.html",
+        "R1C7-grand-national-du-trot-grand-prix-jacques-moreau.html",
+        "R1C8-prix-barons-guy-et-jacques-de-meynard.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-du-pmu-le-bretagne-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R3C2-prix-pierre-seche.html",
+        "R3C3-prix-v-and-b-laval-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R3C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R3C5-prix-harmonie-ambulance.html",
+        "R3C6-prix-henri-desmontils.html",
+        "R3C7-grand-national-du-trot-grand-prix-jacques-moreau.html",
+        "R3C8-prix-barons-guy-et-jacques-de-meynard.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-du-pmu-le-bretagne-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R4C2-prix-pierre-seche.html",
+        "R4C3-prix-v-and-b-laval-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R4C4-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R4C5-prix-harmonie-ambulance.html",
+        "R4C6-prix-henri-desmontils.html",
+        "R4C7-grand-national-du-trot-grand-prix-jacques-moreau.html",
+        "R4C8-prix-barons-guy-et-jacques-de-meynard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:59.409650Z"
+}

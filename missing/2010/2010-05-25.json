@@ -1,0 +1,108 @@
+{
+  "date": "2010-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/05/2010-05-25",
+    "date_html": "resultats-et-rapports/2010/05/2010-05-25/2010-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/05/2010-05-25/R2-angers/R2C5-prix-flyway.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R2-angers/R2C6-prix-maximum.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R2-angers/R2C7-prix-satilla.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R2-angers/R2C8-prix-palomelle.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R2-angers/R2C9-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C2-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C3-prix-oxava.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C4-prix-always-earnest.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C5-prix-flyway.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C6-prix-maximum.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C7-prix-satilla.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C8-prix-palomelle.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R3-vincennes/R3C9-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C2-prix-gunboat-diplomacy.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C3-prix-oxava.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C4-prix-always-earnest.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C5-prix-flyway.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C6-prix-maximum.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C7-prix-satilla.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C8-prix-palomelle.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R31-zerace/R31C9-prix-des-bords-de-l-oise.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R70-roland-garros-paris/R70C1-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R70-roland-garros-paris/R70C6-prix-maximum.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R70-roland-garros-paris/R70C8-prix-palomelle.html",
+      "resultats-et-rapports/2010/05/2010-05-25/R70-roland-garros-paris/R70C9-prix-des-bords-de-l-oise.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-angers",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-roland-garros-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-du-chateau-de-compiegne.html",
+        "R1C2-prix-gunboat-diplomacy.html",
+        "R1C3-prix-oxava.html",
+        "R1C4-prix-always-earnest.html",
+        "R1C5-prix-flyway.html",
+        "R1C6-prix-maximum.html",
+        "R1C7-prix-satilla.html",
+        "R1C8-prix-palomelle.html",
+        "R1C9-prix-des-bords-de-l-oise.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-du-chateau-de-compiegne.html",
+        "R2C2-prix-gunboat-diplomacy.html",
+        "R2C3-prix-oxava.html",
+        "R2C4-prix-always-earnest.html",
+        "R2C5-prix-flyway.html",
+        "R2C6-prix-maximum.html",
+        "R2C7-prix-satilla.html",
+        "R2C8-prix-palomelle.html",
+        "R2C9-prix-des-bords-de-l-oise.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-chateau-de-compiegne.html",
+        "R3C2-prix-gunboat-diplomacy.html",
+        "R3C3-prix-oxava.html",
+        "R3C4-prix-always-earnest.html",
+        "R3C5-prix-flyway.html",
+        "R3C6-prix-maximum.html",
+        "R3C7-prix-satilla.html",
+        "R3C8-prix-palomelle.html",
+        "R3C9-prix-des-bords-de-l-oise.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-chateau-de-compiegne.html",
+        "R31C2-prix-gunboat-diplomacy.html",
+        "R31C3-prix-oxava.html",
+        "R31C4-prix-always-earnest.html",
+        "R31C5-prix-flyway.html",
+        "R31C6-prix-maximum.html",
+        "R31C7-prix-satilla.html",
+        "R31C8-prix-palomelle.html",
+        "R31C9-prix-des-bords-de-l-oise.html"
+      ],
+      "R70-roland-garros-paris": [
+        "R70C1-prix-du-chateau-de-compiegne.html",
+        "R70C2-prix-gunboat-diplomacy.html",
+        "R70C3-prix-oxava.html",
+        "R70C4-prix-always-earnest.html",
+        "R70C5-prix-flyway.html",
+        "R70C6-prix-maximum.html",
+        "R70C7-prix-satilla.html",
+        "R70C8-prix-palomelle.html",
+        "R70C9-prix-des-bords-de-l-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:34:47.526349Z"
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2022-05-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-02",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-02/2022-05-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C1-prix-de-banassat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C2-prix-d-effiat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C3-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C4-prix-de-la-chaise-dieu.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C5-prix-du-parc-des-lapins.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C6-prix-de-cluny.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C7-prix-du-sichon.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R1-vichy/R1C8-prix-henri-berry.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C1-prix-de-banassat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C2-prix-d-effiat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C3-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C4-prix-de-la-chaise-dieu.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C5-prix-du-parc-des-lapins.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C6-prix-de-cluny.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C7-prix-du-sichon.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R2-nantes/R2C8-prix-henri-berry.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C1-prix-de-banassat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C2-prix-d-effiat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C3-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C4-prix-de-la-chaise-dieu.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C5-prix-du-parc-des-lapins.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C6-prix-de-cluny.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C7-prix-du-sichon.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R3-evreux/R3C8-prix-henri-berry.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C1-prix-de-banassat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C2-prix-d-effiat.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C3-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C4-prix-de-la-chaise-dieu.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C5-prix-du-parc-des-lapins.html",
+      "resultats-et-rapports/2022/05/2022-05-02/R4-chartres/R4C6-prix-de-cluny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-nantes",
+      "R3-evreux",
+      "R4-chartres"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-banassat.html",
+        "R1C2-prix-d-effiat.html",
+        "R1C3-prix-de-pontgibaud.html",
+        "R1C4-prix-de-la-chaise-dieu.html",
+        "R1C5-prix-du-parc-des-lapins.html",
+        "R1C6-prix-de-cluny.html",
+        "R1C7-prix-du-sichon.html",
+        "R1C8-prix-henri-berry.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-banassat.html",
+        "R2C2-prix-d-effiat.html",
+        "R2C3-prix-de-pontgibaud.html",
+        "R2C4-prix-de-la-chaise-dieu.html",
+        "R2C5-prix-du-parc-des-lapins.html",
+        "R2C6-prix-de-cluny.html",
+        "R2C7-prix-du-sichon.html",
+        "R2C8-prix-henri-berry.html"
+      ],
+      "R3-evreux": [
+        "R3C1-prix-de-banassat.html",
+        "R3C2-prix-d-effiat.html",
+        "R3C3-prix-de-pontgibaud.html",
+        "R3C4-prix-de-la-chaise-dieu.html",
+        "R3C5-prix-du-parc-des-lapins.html",
+        "R3C6-prix-de-cluny.html",
+        "R3C7-prix-du-sichon.html",
+        "R3C8-prix-henri-berry.html"
+      ],
+      "R4-chartres": [
+        "R4C1-prix-de-banassat.html",
+        "R4C2-prix-d-effiat.html",
+        "R4C3-prix-de-pontgibaud.html",
+        "R4C4-prix-de-la-chaise-dieu.html",
+        "R4C5-prix-du-parc-des-lapins.html",
+        "R4C6-prix-de-cluny.html",
+        "R4C7-prix-du-sichon.html",
+        "R4C8-prix-henri-berry.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:32.538655Z"
+}

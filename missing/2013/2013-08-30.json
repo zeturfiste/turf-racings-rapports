@@ -1,0 +1,106 @@
+{
+  "date": "2013-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-30",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-30/2013-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-30/R1-dieppe/R1C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R1-dieppe/R1C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R1-dieppe/R1C5-prix-havre-libre-prix-a-blanckaert.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R1-dieppe/R1C7-prix-le-havre-presse-prix-nell-breaute.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R1-dieppe/R1C8-prix-liberte-dimanche-prix-l-delaporte.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C5-prix-havre-libre-prix-a-blanckaert.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C7-prix-le-havre-presse-prix-nell-breaute.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R2-fontainebleau/R2C8-prix-liberte-dimanche-prix-l-delaporte.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C5-prix-havre-libre-prix-a-blanckaert.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C6-prix-paris-normandie-prix-a-lamartiniere.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C7-prix-le-havre-presse-prix-nell-breaute.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R3-cabourg/R3C8-prix-liberte-dimanche-prix-l-delaporte.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R4-marseille-vivaux/R4C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R4-marseille-vivaux/R4C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R4-marseille-vivaux/R4C6-prix-paris-normandie-prix-a-lamartiniere.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R4-marseille-vivaux/R4C7-prix-le-havre-presse-prix-nell-breaute.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C5-prix-havre-libre-prix-a-blanckaert.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C6-prix-paris-normandie-prix-a-lamartiniere.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C7-prix-le-havre-presse-prix-nell-breaute.html",
+      "resultats-et-rapports/2013/08/2013-08-30/R6-amiens/R6C8-prix-liberte-dimanche-prix-l-delaporte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-fontainebleau",
+      "R3-cabourg",
+      "R4-marseille-vivaux",
+      "R6-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+        "R1C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+        "R1C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+        "R1C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+        "R1C5-prix-havre-libre-prix-a-blanckaert.html",
+        "R1C6-prix-paris-normandie-prix-a-lamartiniere.html",
+        "R1C7-prix-le-havre-presse-prix-nell-breaute.html",
+        "R1C8-prix-liberte-dimanche-prix-l-delaporte.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+        "R2C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+        "R2C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+        "R2C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+        "R2C5-prix-havre-libre-prix-a-blanckaert.html",
+        "R2C6-prix-paris-normandie-prix-a-lamartiniere.html",
+        "R2C7-prix-le-havre-presse-prix-nell-breaute.html",
+        "R2C8-prix-liberte-dimanche-prix-l-delaporte.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+        "R3C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+        "R3C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+        "R3C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+        "R3C5-prix-havre-libre-prix-a-blanckaert.html",
+        "R3C6-prix-paris-normandie-prix-a-lamartiniere.html",
+        "R3C7-prix-le-havre-presse-prix-nell-breaute.html",
+        "R3C8-prix-liberte-dimanche-prix-l-delaporte.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+        "R4C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+        "R4C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+        "R4C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+        "R4C5-prix-havre-libre-prix-a-blanckaert.html",
+        "R4C6-prix-paris-normandie-prix-a-lamartiniere.html",
+        "R4C7-prix-le-havre-presse-prix-nell-breaute.html",
+        "R4C8-prix-liberte-dimanche-prix-l-delaporte.html"
+      ],
+      "R6-amiens": [
+        "R6C1-prix-de-la-ville-de-saint-martin-en-campagne-prix-paul-bignon.html",
+        "R6C2-prix-le-progres-de-fecamp-prix-laborde-nogez.html",
+        "R6C3-prix-de-la-ville-de-martin-eglise-prix-duchesse-du-berry.html",
+        "R6C4-grand-steeple-chase-normandie-dimanche-grand-steeple-chase-de-dieppe.html",
+        "R6C5-prix-havre-libre-prix-a-blanckaert.html",
+        "R6C6-prix-paris-normandie-prix-a-lamartiniere.html",
+        "R6C7-prix-le-havre-presse-prix-nell-breaute.html",
+        "R6C8-prix-liberte-dimanche-prix-l-delaporte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:35.918346Z"
+}

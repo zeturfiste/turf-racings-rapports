@@ -1,0 +1,89 @@
+{
+  "date": "2021-11-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-24",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-24/2021-11-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C1-prix-des-etablissements-volvo-thibault.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C2-prix-la-taverne-table-de-caractere.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C6-prix-de-la-region-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R1-le-mans/R1C8-prix-salesky-transports.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R3-deauville/R3C1-prix-des-etablissements-volvo-thibault.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R3-deauville/R3C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R3-deauville/R3C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R3-deauville/R3C7-prix-des-etablissements-romet-prix-rfm.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R3-deauville/R3C8-prix-salesky-transports.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R4-graignes/R4C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R4-graignes/R4C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R4-graignes/R4C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R4-graignes/R4C6-prix-de-la-region-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R4-graignes/R4C7-prix-des-etablissements-romet-prix-rfm.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C1-prix-des-etablissements-volvo-thibault.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C2-prix-la-taverne-table-de-caractere.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C4-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C6-prix-de-la-region-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C7-prix-des-etablissements-romet-prix-rfm.html",
+      "resultats-et-rapports/2021/11/2021-11-24/R7-marseille-borely/R7C8-prix-salesky-transports.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-mans",
+      "R3-deauville",
+      "R4-graignes",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-le-mans": [
+        "R1C1-prix-des-etablissements-volvo-thibault.html",
+        "R1C2-prix-la-taverne-table-de-caractere.html",
+        "R1C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+        "R1C4-grand-national-du-trot-paris-turf.html",
+        "R1C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+        "R1C6-prix-de-la-region-des-pays-de-la-loire.html",
+        "R1C7-prix-des-etablissements-romet-prix-rfm.html",
+        "R1C8-prix-salesky-transports.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-des-etablissements-volvo-thibault.html",
+        "R3C2-prix-la-taverne-table-de-caractere.html",
+        "R3C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+        "R3C4-grand-national-du-trot-paris-turf.html",
+        "R3C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+        "R3C6-prix-de-la-region-des-pays-de-la-loire.html",
+        "R3C7-prix-des-etablissements-romet-prix-rfm.html",
+        "R3C8-prix-salesky-transports.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-des-etablissements-volvo-thibault.html",
+        "R4C2-prix-la-taverne-table-de-caractere.html",
+        "R4C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+        "R4C4-grand-national-du-trot-paris-turf.html",
+        "R4C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+        "R4C6-prix-de-la-region-des-pays-de-la-loire.html",
+        "R4C7-prix-des-etablissements-romet-prix-rfm.html",
+        "R4C8-prix-salesky-transports.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-des-etablissements-volvo-thibault.html",
+        "R7C2-prix-la-taverne-table-de-caractere.html",
+        "R7C3-prix-du-pmu-le-vincennes-prix-v-b.html",
+        "R7C4-grand-national-du-trot-paris-turf.html",
+        "R7C5-grand-prix-des-amateurs-prix-france-bleu-maine.html",
+        "R7C6-prix-de-la-region-des-pays-de-la-loire.html",
+        "R7C7-prix-des-etablissements-romet-prix-rfm.html",
+        "R7C8-prix-salesky-transports.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:36.934495Z"
+}

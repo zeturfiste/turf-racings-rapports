@@ -1,0 +1,82 @@
+{
+  "date": "2011-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-15",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-15/2011-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C4-prix-claude-munet-grand-prix-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C5-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C6-prix-wladimir-hall.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C7-handicap-de-la-maine.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R1-angers/R1C8-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C1-prix-kerautem.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C4-prix-claude-munet-grand-prix-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C5-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C7-handicap-de-la-maine.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R2-maure-de-bretagne/R2C8-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R3-marseille-vivaux/R3C5-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R3-marseille-vivaux/R3C6-prix-wladimir-hall.html",
+      "resultats-et-rapports/2011/11/2011-11-15/R3-marseille-vivaux/R3C7-handicap-de-la-maine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-maure-de-bretagne",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-kerautem.html",
+        "R1C2-grand-handicap-d-ecouflant.html",
+        "R1C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+        "R1C4-prix-claude-munet-grand-prix-d-angers.html",
+        "R1C5-prix-des-jardins-du-mail.html",
+        "R1C6-prix-wladimir-hall.html",
+        "R1C7-handicap-de-la-maine.html",
+        "R1C8-grande-course-de-haies-d-angers.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-kerautem.html",
+        "R2C2-grand-handicap-d-ecouflant.html",
+        "R2C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+        "R2C4-prix-claude-munet-grand-prix-d-angers.html",
+        "R2C5-prix-des-jardins-du-mail.html",
+        "R2C6-prix-wladimir-hall.html",
+        "R2C7-handicap-de-la-maine.html",
+        "R2C8-grande-course-de-haies-d-angers.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-kerautem.html",
+        "R3C2-grand-handicap-d-ecouflant.html",
+        "R3C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+        "R3C4-prix-claude-munet-grand-prix-d-angers.html",
+        "R3C5-prix-des-jardins-du-mail.html",
+        "R3C6-prix-wladimir-hall.html",
+        "R3C7-handicap-de-la-maine.html",
+        "R3C8-grande-course-de-haies-d-angers.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-kerautem.html",
+        "R4C2-grand-handicap-d-ecouflant.html",
+        "R4C3-prix-domaine-de-la-douesnerie-prix-david-d-angers.html",
+        "R4C4-prix-claude-munet-grand-prix-d-angers.html",
+        "R4C5-prix-des-jardins-du-mail.html",
+        "R4C6-prix-wladimir-hall.html",
+        "R4C7-handicap-de-la-maine.html",
+        "R4C8-grande-course-de-haies-d-angers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:27.922840Z"
+}

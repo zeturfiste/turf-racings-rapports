@@ -1,0 +1,88 @@
+{
+  "date": "2021-08-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-13",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-13/2021-08-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-13/R1-cabourg/R1C4-prix-des-niveoles.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R4-amiens/R4C1-prix-des-coreopsis.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R5-clairefontaine/R5C1-prix-des-coreopsis.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R5-clairefontaine/R5C2-prix-des-liserons.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R5-clairefontaine/R5C3-prix-bruno-coquatrix.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R6-pornichet-la-baule/R6C3-prix-bruno-coquatrix.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R6-pornichet-la-baule/R6C5-prix-des-dauphinelles.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R6-pornichet-la-baule/R6C6-prix-des-soucis.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R6-pornichet-la-baule/R6C7-prix-des-verveines.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R7-cagnes-sur-mer/R7C4-prix-des-niveoles.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R7-cagnes-sur-mer/R7C6-prix-des-soucis.html",
+      "resultats-et-rapports/2021/08/2021-08-13/R7-cagnes-sur-mer/R7C8-prix-des-ifs.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R4-amiens",
+      "R5-clairefontaine",
+      "R6-pornichet-la-baule",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-coreopsis.html",
+        "R1C2-prix-des-liserons.html",
+        "R1C3-prix-bruno-coquatrix.html",
+        "R1C4-prix-des-niveoles.html",
+        "R1C5-prix-des-dauphinelles.html",
+        "R1C6-prix-des-soucis.html",
+        "R1C7-prix-des-verveines.html",
+        "R1C8-prix-des-ifs.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-des-coreopsis.html",
+        "R4C2-prix-des-liserons.html",
+        "R4C3-prix-bruno-coquatrix.html",
+        "R4C4-prix-des-niveoles.html",
+        "R4C5-prix-des-dauphinelles.html",
+        "R4C6-prix-des-soucis.html",
+        "R4C7-prix-des-verveines.html",
+        "R4C8-prix-des-ifs.html"
+      ],
+      "R5-clairefontaine": [
+        "R5C1-prix-des-coreopsis.html",
+        "R5C2-prix-des-liserons.html",
+        "R5C3-prix-bruno-coquatrix.html",
+        "R5C4-prix-des-niveoles.html",
+        "R5C5-prix-des-dauphinelles.html",
+        "R5C6-prix-des-soucis.html",
+        "R5C7-prix-des-verveines.html",
+        "R5C8-prix-des-ifs.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-des-coreopsis.html",
+        "R6C2-prix-des-liserons.html",
+        "R6C3-prix-bruno-coquatrix.html",
+        "R6C4-prix-des-niveoles.html",
+        "R6C5-prix-des-dauphinelles.html",
+        "R6C6-prix-des-soucis.html",
+        "R6C7-prix-des-verveines.html",
+        "R6C8-prix-des-ifs.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-des-coreopsis.html",
+        "R7C2-prix-des-liserons.html",
+        "R7C3-prix-bruno-coquatrix.html",
+        "R7C4-prix-des-niveoles.html",
+        "R7C5-prix-des-dauphinelles.html",
+        "R7C6-prix-des-soucis.html",
+        "R7C7-prix-des-verveines.html",
+        "R7C8-prix-des-ifs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:57.512048Z"
+}

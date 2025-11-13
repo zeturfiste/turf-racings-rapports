@@ -1,0 +1,82 @@
+{
+  "date": "2014-07-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-10",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-10/2014-07-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-10/R1-maisons-laffitte/R1C6-prix-dagor.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R1-maisons-laffitte/R1C7-prix-du-conseil-general-des-yvelines.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R1-maisons-laffitte/R1C8-prix-de-la-chataigneraie.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C1-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C2-prix-pharamond.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C3-prix-de-longueil.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C4-prix-de-saint-germain-en-laye.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C5-prix-easy-regent.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R2-marseille-borely/R2C8-prix-de-la-chataigneraie.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R3-feurs/R3C4-prix-de-saint-germain-en-laye.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R3-feurs/R3C5-prix-easy-regent.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R3-feurs/R3C7-prix-du-conseil-general-des-yvelines.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R4-pornichet-la-baule/R4C1-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R4-pornichet-la-baule/R4C2-prix-pharamond.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R4-pornichet-la-baule/R4C5-prix-easy-regent.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R4-pornichet-la-baule/R4C6-prix-dagor.html",
+      "resultats-et-rapports/2014/07/2014-07-10/R4-pornichet-la-baule/R4C8-prix-de-la-chataigneraie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-marseille-borely",
+      "R3-feurs",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-marly-le-roi.html",
+        "R1C2-prix-pharamond.html",
+        "R1C3-prix-de-longueil.html",
+        "R1C4-prix-de-saint-germain-en-laye.html",
+        "R1C5-prix-easy-regent.html",
+        "R1C6-prix-dagor.html",
+        "R1C7-prix-du-conseil-general-des-yvelines.html",
+        "R1C8-prix-de-la-chataigneraie.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-marly-le-roi.html",
+        "R2C2-prix-pharamond.html",
+        "R2C3-prix-de-longueil.html",
+        "R2C4-prix-de-saint-germain-en-laye.html",
+        "R2C5-prix-easy-regent.html",
+        "R2C6-prix-dagor.html",
+        "R2C7-prix-du-conseil-general-des-yvelines.html",
+        "R2C8-prix-de-la-chataigneraie.html"
+      ],
+      "R3-feurs": [
+        "R3C1-prix-de-marly-le-roi.html",
+        "R3C2-prix-pharamond.html",
+        "R3C3-prix-de-longueil.html",
+        "R3C4-prix-de-saint-germain-en-laye.html",
+        "R3C5-prix-easy-regent.html",
+        "R3C6-prix-dagor.html",
+        "R3C7-prix-du-conseil-general-des-yvelines.html",
+        "R3C8-prix-de-la-chataigneraie.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-marly-le-roi.html",
+        "R4C2-prix-pharamond.html",
+        "R4C3-prix-de-longueil.html",
+        "R4C4-prix-de-saint-germain-en-laye.html",
+        "R4C5-prix-easy-regent.html",
+        "R4C6-prix-dagor.html",
+        "R4C7-prix-du-conseil-general-des-yvelines.html",
+        "R4C8-prix-de-la-chataigneraie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:11.751663Z"
+}

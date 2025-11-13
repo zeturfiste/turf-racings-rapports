@@ -1,0 +1,66 @@
+{
+  "date": "2021-04-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-13",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-13/2021-04-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-13/R1-chantilly/R1C4-prix-de-champlatreux.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R3-tarbes/R3C2-prix-du-premier-pas.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R3-tarbes/R3C5-prix-du-hameau-de-la-biche.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R3-tarbes/R3C9-prix-du-pave-de-thiers.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R4-vincennes/R4C1-prix-de-precy.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R4-vincennes/R4C4-prix-de-champlatreux.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R4-vincennes/R4C5-prix-du-hameau-de-la-biche.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R4-vincennes/R4C6-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2021/04/2021-04-13/R4-vincennes/R4C8-prix-de-l-institut-de-france.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-tarbes",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-precy.html",
+        "R1C2-prix-du-premier-pas.html",
+        "R1C3-prix-de-la-futaie-des-epinettes.html",
+        "R1C4-prix-de-champlatreux.html",
+        "R1C5-prix-du-hameau-de-la-biche.html",
+        "R1C6-prix-du-bois-des-bouleaux.html",
+        "R1C7-prix-du-pave-de-la-biche.html",
+        "R1C8-prix-de-l-institut-de-france.html",
+        "R1C9-prix-du-pave-de-thiers.html"
+      ],
+      "R3-tarbes": [
+        "R3C1-prix-de-precy.html",
+        "R3C2-prix-du-premier-pas.html",
+        "R3C3-prix-de-la-futaie-des-epinettes.html",
+        "R3C4-prix-de-champlatreux.html",
+        "R3C5-prix-du-hameau-de-la-biche.html",
+        "R3C6-prix-du-bois-des-bouleaux.html",
+        "R3C7-prix-du-pave-de-la-biche.html",
+        "R3C8-prix-de-l-institut-de-france.html",
+        "R3C9-prix-du-pave-de-thiers.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-precy.html",
+        "R4C2-prix-du-premier-pas.html",
+        "R4C3-prix-de-la-futaie-des-epinettes.html",
+        "R4C4-prix-de-champlatreux.html",
+        "R4C5-prix-du-hameau-de-la-biche.html",
+        "R4C6-prix-du-bois-des-bouleaux.html",
+        "R4C7-prix-du-pave-de-la-biche.html",
+        "R4C8-prix-de-l-institut-de-france.html",
+        "R4C9-prix-du-pave-de-thiers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:07.496300Z"
+}

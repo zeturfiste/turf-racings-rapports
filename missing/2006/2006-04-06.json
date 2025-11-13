@@ -1,0 +1,42 @@
+{
+  "date": "2006-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-06",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-06/2006-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-rouen"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pavillon-royal.html",
+        "R1C2-prix-machado.html",
+        "R1C3-prix-du-louvre.html",
+        "R1C4-prix-finlande.html",
+        "R1C5-prix-d-argenteuil.html",
+        "R1C6-prix-des-vieilles-garennes.html",
+        "R1C7-prix-des-nenuphars.html",
+        "R1C8-prix-du-pavillon-dauphine.html"
+      ],
+      "R2-rouen": [
+        "R2C1-prix-du-pavillon-royal.html",
+        "R2C2-prix-machado.html",
+        "R2C3-prix-du-louvre.html",
+        "R2C4-prix-finlande.html",
+        "R2C5-prix-d-argenteuil.html",
+        "R2C6-prix-des-vieilles-garennes.html",
+        "R2C7-prix-des-nenuphars.html",
+        "R2C8-prix-du-pavillon-dauphine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:23.905774Z"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2020-02-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-10",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-10/2020-02-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-10/R1-vincennes/R1C4-prix-de-falaise.html",
+      "resultats-et-rapports/2020/02/2020-02-10/R4-lyon-la-soie/R4C1-prix-de-senlis.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-senlis.html",
+        "R1C2-prix-d-ecouche.html",
+        "R1C3-prix-d-oloron.html",
+        "R1C4-prix-de-falaise.html",
+        "R1C5-prix-de-juan-les-pins.html",
+        "R1C6-prix-du-mesle.html",
+        "R1C7-prix-de-darnetal.html",
+        "R1C8-prix-de-colmar.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-de-senlis.html",
+        "R3C2-prix-d-ecouche.html",
+        "R3C3-prix-d-oloron.html",
+        "R3C4-prix-de-falaise.html",
+        "R3C5-prix-de-juan-les-pins.html",
+        "R3C6-prix-du-mesle.html",
+        "R3C7-prix-de-darnetal.html",
+        "R3C8-prix-de-colmar.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-senlis.html",
+        "R4C2-prix-d-ecouche.html",
+        "R4C3-prix-d-oloron.html",
+        "R4C4-prix-de-falaise.html",
+        "R4C5-prix-de-juan-les-pins.html",
+        "R4C6-prix-du-mesle.html",
+        "R4C7-prix-de-darnetal.html",
+        "R4C8-prix-de-colmar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:50.355209Z"
+}

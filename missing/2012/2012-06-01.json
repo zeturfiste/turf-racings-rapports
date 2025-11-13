@@ -1,0 +1,95 @@
+{
+  "date": "2012-06-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-01",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-01/2012-06-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-01/R1-maisons-laffitte/R1C1-prix-hunyade.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R2-marseille-borely/R2C1-prix-hunyade.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R2-marseille-borely/R2C6-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R2-marseille-borely/R2C8-prix-du-grand-morin.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R3-vincennes/R3C4-prix-de-mericourt.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R3-vincennes/R3C5-prix-amonita.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R3-vincennes/R3C7-prix-du-petit-morin.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R6-graignes/R6C1-prix-hunyade.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R6-graignes/R6C3-prix-noir-et-or.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R6-graignes/R6C4-prix-de-mericourt.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R6-graignes/R6C5-prix-amonita.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C1-prix-hunyade.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C2-prix-dagor.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C3-prix-noir-et-or.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C4-prix-de-mericourt.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C5-prix-amonita.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C6-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C7-prix-du-petit-morin.html",
+      "resultats-et-rapports/2012/06/2012-06-01/R7-toulouse/R7C8-prix-du-grand-morin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-marseille-borely",
+      "R3-vincennes",
+      "R6-graignes",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-hunyade.html",
+        "R1C2-prix-dagor.html",
+        "R1C3-prix-noir-et-or.html",
+        "R1C4-prix-de-mericourt.html",
+        "R1C5-prix-amonita.html",
+        "R1C6-prix-de-la-genevraye.html",
+        "R1C7-prix-du-petit-morin.html",
+        "R1C8-prix-du-grand-morin.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-hunyade.html",
+        "R2C2-prix-dagor.html",
+        "R2C3-prix-noir-et-or.html",
+        "R2C4-prix-de-mericourt.html",
+        "R2C5-prix-amonita.html",
+        "R2C6-prix-de-la-genevraye.html",
+        "R2C7-prix-du-petit-morin.html",
+        "R2C8-prix-du-grand-morin.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-hunyade.html",
+        "R3C2-prix-dagor.html",
+        "R3C3-prix-noir-et-or.html",
+        "R3C4-prix-de-mericourt.html",
+        "R3C5-prix-amonita.html",
+        "R3C6-prix-de-la-genevraye.html",
+        "R3C7-prix-du-petit-morin.html",
+        "R3C8-prix-du-grand-morin.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-hunyade.html",
+        "R6C2-prix-dagor.html",
+        "R6C3-prix-noir-et-or.html",
+        "R6C4-prix-de-mericourt.html",
+        "R6C5-prix-amonita.html",
+        "R6C6-prix-de-la-genevraye.html",
+        "R6C7-prix-du-petit-morin.html",
+        "R6C8-prix-du-grand-morin.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-hunyade.html",
+        "R7C2-prix-dagor.html",
+        "R7C3-prix-noir-et-or.html",
+        "R7C4-prix-de-mericourt.html",
+        "R7C5-prix-amonita.html",
+        "R7C6-prix-de-la-genevraye.html",
+        "R7C7-prix-du-petit-morin.html",
+        "R7C8-prix-du-grand-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:20.619486Z"
+}

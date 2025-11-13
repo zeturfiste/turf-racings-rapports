@@ -1,0 +1,66 @@
+{
+  "date": "2014-04-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-16",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-16/2014-04-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-16/R1-pontchateau/R1C2-prix-geny-info.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R1-pontchateau/R1C3-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R1-pontchateau/R1C5-prix-dominique-david.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R2-auteuil/R2C1-grand-prix-du-conseil-general-des-pays-de-loire.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R2-auteuil/R2C2-prix-geny-info.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R2-auteuil/R2C5-prix-dominique-david.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R2-auteuil/R2C6-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R3-chantilly/R3C2-prix-geny-info.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R3-chantilly/R3C4-prix-de-la-ville-de-pontchateau.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R3-chantilly/R3C5-prix-dominique-david.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R3-chantilly/R3C6-prix-yvonnick-bodin.html",
+      "resultats-et-rapports/2014/04/2014-04-16/R3-chantilly/R3C7-prix-du-departement-de-loire-atlantique.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pontchateau",
+      "R2-auteuil",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-pontchateau": [
+        "R1C1-grand-prix-du-conseil-general-des-pays-de-loire.html",
+        "R1C2-prix-geny-info.html",
+        "R1C3-prix-de-la-societe-du-cheval-francais.html",
+        "R1C4-prix-de-la-ville-de-pontchateau.html",
+        "R1C5-prix-dominique-david.html",
+        "R1C6-prix-yvonnick-bodin.html",
+        "R1C7-prix-du-departement-de-loire-atlantique.html",
+        "R1C8-prix-des-amateurs.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-grand-prix-du-conseil-general-des-pays-de-loire.html",
+        "R2C2-prix-geny-info.html",
+        "R2C3-prix-de-la-societe-du-cheval-francais.html",
+        "R2C4-prix-de-la-ville-de-pontchateau.html",
+        "R2C5-prix-dominique-david.html",
+        "R2C6-prix-yvonnick-bodin.html",
+        "R2C7-prix-du-departement-de-loire-atlantique.html",
+        "R2C8-prix-des-amateurs.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-prix-du-conseil-general-des-pays-de-loire.html",
+        "R3C2-prix-geny-info.html",
+        "R3C3-prix-de-la-societe-du-cheval-francais.html",
+        "R3C4-prix-de-la-ville-de-pontchateau.html",
+        "R3C5-prix-dominique-david.html",
+        "R3C6-prix-yvonnick-bodin.html",
+        "R3C7-prix-du-departement-de-loire-atlantique.html",
+        "R3C8-prix-des-amateurs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:42.513282Z"
+}

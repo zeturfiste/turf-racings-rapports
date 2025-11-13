@@ -1,0 +1,123 @@
+{
+  "date": "2025-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/11/2025-11-09",
+    "date_html": "resultats-et-rapports/2025/11/2025-11-09/2025-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/11/2025-11-09/R1-saint-cloud/R1C2-prix-douve.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R3-la-rochelle/R3C7-prix-solitude.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R3-la-rochelle/R3C8-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R4-mauquenchy/R4C2-prix-douve.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R4-mauquenchy/R4C3-prix-herod.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R4-mauquenchy/R4C5-prix-de-windsor.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R4-mauquenchy/R4C7-prix-solitude.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R4-mauquenchy/R4C8-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R8-lyon-parilly/R8C2-prix-douve.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R8-lyon-parilly/R8C6-prix-isola-bella.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R8-lyon-parilly/R8C8-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R9-vire/R9C1-prix-antivari.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R9-vire/R9C6-prix-isola-bella.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R10-argentan/R10C3-prix-herod.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R10-argentan/R10C4-prix-tantieme.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R10-argentan/R10C5-prix-de-windsor.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R10-argentan/R10C6-prix-isola-bella.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R10-argentan/R10C8-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C2-prix-douve.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C3-prix-herod.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C4-prix-tantieme.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C5-prix-de-windsor.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C6-prix-isola-bella.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C7-prix-solitude.html",
+      "resultats-et-rapports/2025/11/2025-11-09/R11-moulins/R11C8-prix-de-bad-godesberg.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-la-rochelle",
+      "R4-mauquenchy",
+      "R8-lyon-parilly",
+      "R9-vire",
+      "R10-argentan",
+      "R11-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-antivari.html",
+        "R1C2-prix-douve.html",
+        "R1C3-prix-herod.html",
+        "R1C4-prix-tantieme.html",
+        "R1C5-prix-de-windsor.html",
+        "R1C6-prix-isola-bella.html",
+        "R1C7-prix-solitude.html",
+        "R1C8-prix-de-bad-godesberg.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-antivari.html",
+        "R3C2-prix-douve.html",
+        "R3C3-prix-herod.html",
+        "R3C4-prix-tantieme.html",
+        "R3C5-prix-de-windsor.html",
+        "R3C6-prix-isola-bella.html",
+        "R3C7-prix-solitude.html",
+        "R3C8-prix-de-bad-godesberg.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-antivari.html",
+        "R4C2-prix-douve.html",
+        "R4C3-prix-herod.html",
+        "R4C4-prix-tantieme.html",
+        "R4C5-prix-de-windsor.html",
+        "R4C6-prix-isola-bella.html",
+        "R4C7-prix-solitude.html",
+        "R4C8-prix-de-bad-godesberg.html"
+      ],
+      "R8-lyon-parilly": [
+        "R8C1-prix-antivari.html",
+        "R8C2-prix-douve.html",
+        "R8C3-prix-herod.html",
+        "R8C4-prix-tantieme.html",
+        "R8C5-prix-de-windsor.html",
+        "R8C6-prix-isola-bella.html",
+        "R8C7-prix-solitude.html",
+        "R8C8-prix-de-bad-godesberg.html"
+      ],
+      "R9-vire": [
+        "R9C1-prix-antivari.html",
+        "R9C2-prix-douve.html",
+        "R9C3-prix-herod.html",
+        "R9C4-prix-tantieme.html",
+        "R9C5-prix-de-windsor.html",
+        "R9C6-prix-isola-bella.html",
+        "R9C7-prix-solitude.html",
+        "R9C8-prix-de-bad-godesberg.html"
+      ],
+      "R10-argentan": [
+        "R10C1-prix-antivari.html",
+        "R10C2-prix-douve.html",
+        "R10C3-prix-herod.html",
+        "R10C4-prix-tantieme.html",
+        "R10C5-prix-de-windsor.html",
+        "R10C6-prix-isola-bella.html",
+        "R10C7-prix-solitude.html",
+        "R10C8-prix-de-bad-godesberg.html"
+      ],
+      "R11-moulins": [
+        "R11C1-prix-antivari.html",
+        "R11C2-prix-douve.html",
+        "R11C3-prix-herod.html",
+        "R11C4-prix-tantieme.html",
+        "R11C5-prix-de-windsor.html",
+        "R11C6-prix-isola-bella.html",
+        "R11C7-prix-solitude.html",
+        "R11C8-prix-de-bad-godesberg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:31.170551Z"
+}

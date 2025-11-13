@@ -1,0 +1,64 @@
+{
+  "date": "2016-07-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-22",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-22/2016-07-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-22/R1-cabourg/R1C2-prix-de-la-ville-de-gonneville-sur-mer.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R1-cabourg/R1C4-prix-de-la-ville-d-auberville-groupe-b.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R1-cabourg/R1C6-prix-de-la-ville-d-houlgate.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R4-chantilly/R4C1-grand-prix-de-la-ville-de-cabourg.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R4-chantilly/R4C2-prix-de-la-ville-de-gonneville-sur-mer.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R4-chantilly/R4C4-prix-de-la-ville-d-auberville-groupe-b.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R4-chantilly/R4C5-prix-fandango.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R6-pornichet-la-baule/R6C4-prix-de-la-ville-d-auberville-groupe-b.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R6-pornichet-la-baule/R6C7-prix-de-la-ville-de-varaville.html",
+      "resultats-et-rapports/2016/07/2016-07-22/R6-pornichet-la-baule/R6C8-prix-de-la-ville-de-dives-sur-mer.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R4-chantilly",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-grand-prix-de-la-ville-de-cabourg.html",
+        "R1C2-prix-de-la-ville-de-gonneville-sur-mer.html",
+        "R1C3-prix-de-la-ville-d-auberville-groupe-a.html",
+        "R1C4-prix-de-la-ville-d-auberville-groupe-b.html",
+        "R1C5-prix-fandango.html",
+        "R1C6-prix-de-la-ville-d-houlgate.html",
+        "R1C7-prix-de-la-ville-de-varaville.html",
+        "R1C8-prix-de-la-ville-de-dives-sur-mer.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-grand-prix-de-la-ville-de-cabourg.html",
+        "R4C2-prix-de-la-ville-de-gonneville-sur-mer.html",
+        "R4C3-prix-de-la-ville-d-auberville-groupe-a.html",
+        "R4C4-prix-de-la-ville-d-auberville-groupe-b.html",
+        "R4C5-prix-fandango.html",
+        "R4C6-prix-de-la-ville-d-houlgate.html",
+        "R4C7-prix-de-la-ville-de-varaville.html",
+        "R4C8-prix-de-la-ville-de-dives-sur-mer.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-grand-prix-de-la-ville-de-cabourg.html",
+        "R6C2-prix-de-la-ville-de-gonneville-sur-mer.html",
+        "R6C3-prix-de-la-ville-d-auberville-groupe-a.html",
+        "R6C4-prix-de-la-ville-d-auberville-groupe-b.html",
+        "R6C5-prix-fandango.html",
+        "R6C6-prix-de-la-ville-d-houlgate.html",
+        "R6C7-prix-de-la-ville-de-varaville.html",
+        "R6C8-prix-de-la-ville-de-dives-sur-mer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:03.904526Z"
+}

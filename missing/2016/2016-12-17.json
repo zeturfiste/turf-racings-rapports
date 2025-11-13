@@ -1,0 +1,88 @@
+{
+  "date": "2016-12-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-17",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-17/2016-12-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C1-prix-d-apt.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C2-prix-de-mansle.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C3-prix-de-langeac.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C4-prix-oscar-collard.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C5-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C6-prix-michel-thoury.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R1-vincennes/R1C9-prix-de-thouars.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R3-deauville/R3C7-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C1-prix-d-apt.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C2-prix-de-mansle.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C3-prix-de-langeac.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C6-prix-michel-thoury.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C7-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C8-prix-de-pondurat.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R4-cagnes-sur-mer/R4C9-prix-de-thouars.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R6-montauban/R6C1-prix-d-apt.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R6-montauban/R6C2-prix-de-mansle.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R6-montauban/R6C3-prix-de-langeac.html",
+      "resultats-et-rapports/2016/12/2016-12-17/R6-montauban/R6C8-prix-de-pondurat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-cagnes-sur-mer",
+      "R6-montauban"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-apt.html",
+        "R1C2-prix-de-mansle.html",
+        "R1C3-prix-de-langeac.html",
+        "R1C4-prix-oscar-collard.html",
+        "R1C5-prix-jules-lepennetier.html",
+        "R1C6-prix-michel-thoury.html",
+        "R1C7-prix-general-du-pommeau.html",
+        "R1C8-prix-de-pondurat.html",
+        "R1C9-prix-de-thouars.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-d-apt.html",
+        "R3C2-prix-de-mansle.html",
+        "R3C3-prix-de-langeac.html",
+        "R3C4-prix-oscar-collard.html",
+        "R3C5-prix-jules-lepennetier.html",
+        "R3C6-prix-michel-thoury.html",
+        "R3C7-prix-general-du-pommeau.html",
+        "R3C8-prix-de-pondurat.html",
+        "R3C9-prix-de-thouars.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-d-apt.html",
+        "R4C2-prix-de-mansle.html",
+        "R4C3-prix-de-langeac.html",
+        "R4C4-prix-oscar-collard.html",
+        "R4C5-prix-jules-lepennetier.html",
+        "R4C6-prix-michel-thoury.html",
+        "R4C7-prix-general-du-pommeau.html",
+        "R4C8-prix-de-pondurat.html",
+        "R4C9-prix-de-thouars.html"
+      ],
+      "R6-montauban": [
+        "R6C1-prix-d-apt.html",
+        "R6C2-prix-de-mansle.html",
+        "R6C3-prix-de-langeac.html",
+        "R6C4-prix-oscar-collard.html",
+        "R6C5-prix-jules-lepennetier.html",
+        "R6C6-prix-michel-thoury.html",
+        "R6C7-prix-general-du-pommeau.html",
+        "R6C8-prix-de-pondurat.html",
+        "R6C9-prix-de-thouars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:52.045059Z"
+}

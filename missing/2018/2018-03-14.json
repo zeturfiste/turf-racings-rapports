@@ -1,0 +1,64 @@
+{
+  "date": "2018-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-14",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-14/2018-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-14/R1-laval/R1C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R1-laval/R1C2-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R1-laval/R1C3-prix-du-comite-departemental-du-tourisme.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R1-laval/R1C4-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R5-amiens/R5C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R5-amiens/R5C6-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2018/03/2018-03-14/R5-amiens/R5C8-prix-france-bleu-mayenne-groupe-a.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R4-compiegne",
+      "R5-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R1C2-prix-www-hippodrome-laval-fr.html",
+        "R1C3-prix-du-comite-departemental-du-tourisme.html",
+        "R1C4-prix-des-trois-provinces.html",
+        "R1C5-prix-de-la-federation-anjou-maine-centre.html",
+        "R1C6-prix-de-la-societe-du-cheval-francais.html",
+        "R1C7-prix-www-lamayenne-fr.html",
+        "R1C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R1C9-prix-france-bleu-mayenne-groupe-b.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R4C2-prix-www-hippodrome-laval-fr.html",
+        "R4C3-prix-du-comite-departemental-du-tourisme.html",
+        "R4C4-prix-des-trois-provinces.html",
+        "R4C5-prix-de-la-federation-anjou-maine-centre.html",
+        "R4C6-prix-de-la-societe-du-cheval-francais.html",
+        "R4C7-prix-www-lamayenne-fr.html",
+        "R4C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R4C9-prix-france-bleu-mayenne-groupe-b.html"
+      ],
+      "R5-amiens": [
+        "R5C1-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R5C2-prix-www-hippodrome-laval-fr.html",
+        "R5C3-prix-du-comite-departemental-du-tourisme.html",
+        "R5C4-prix-des-trois-provinces.html",
+        "R5C5-prix-de-la-federation-anjou-maine-centre.html",
+        "R5C6-prix-de-la-societe-du-cheval-francais.html",
+        "R5C7-prix-www-lamayenne-fr.html",
+        "R5C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R5C9-prix-france-bleu-mayenne-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:06.050950Z"
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2017-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-18",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-18/2017-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-18/R1-vichy/R1C1-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R1-vichy/R1C9-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R2-marseille-borely/R2C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C1-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C6-prix-de-pouilly-les-nonains.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C7-prix-jean-boulard.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C8-prix-vulcania.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R3-meslay-du-maine/R3C9-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C1-prix-de-la-minardiere.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C2-prix-de-bellerive.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C3-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C4-prix-de-l-allier.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C7-prix-jean-boulard.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C8-prix-vulcania.html",
+      "resultats-et-rapports/2017/07/2017-07-18/R5-cabourg/R5C9-prix-de-clairefontaine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-marseille-borely",
+      "R3-meslay-du-maine",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-minardiere.html",
+        "R1C2-prix-de-bellerive.html",
+        "R1C3-prix-hubert-de-catheu.html",
+        "R1C4-prix-de-l-allier.html",
+        "R1C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R1C6-prix-de-pouilly-les-nonains.html",
+        "R1C7-prix-jean-boulard.html",
+        "R1C8-prix-vulcania.html",
+        "R1C9-prix-de-clairefontaine.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-de-la-minardiere.html",
+        "R2C2-prix-de-bellerive.html",
+        "R2C3-prix-hubert-de-catheu.html",
+        "R2C4-prix-de-l-allier.html",
+        "R2C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R2C6-prix-de-pouilly-les-nonains.html",
+        "R2C7-prix-jean-boulard.html",
+        "R2C8-prix-vulcania.html",
+        "R2C9-prix-de-clairefontaine.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-de-la-minardiere.html",
+        "R3C2-prix-de-bellerive.html",
+        "R3C3-prix-hubert-de-catheu.html",
+        "R3C4-prix-de-l-allier.html",
+        "R3C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R3C6-prix-de-pouilly-les-nonains.html",
+        "R3C7-prix-jean-boulard.html",
+        "R3C8-prix-vulcania.html",
+        "R3C9-prix-de-clairefontaine.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-la-minardiere.html",
+        "R5C2-prix-de-bellerive.html",
+        "R5C3-prix-hubert-de-catheu.html",
+        "R5C4-prix-de-l-allier.html",
+        "R5C5-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R5C6-prix-de-pouilly-les-nonains.html",
+        "R5C7-prix-jean-boulard.html",
+        "R5C8-prix-vulcania.html",
+        "R5C9-prix-de-clairefontaine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:53.790564Z"
+}

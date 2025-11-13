@@ -1,0 +1,58 @@
+{
+  "date": "2022-01-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/01/2022-01-11",
+    "date_html": "resultats-et-rapports/2022/01/2022-01-11/2022-01-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/01/2022-01-11/R4-pornichet-la-baule/R4C1-prix-de-joinville.html",
+      "resultats-et-rapports/2022/01/2022-01-11/R4-pornichet-la-baule/R4C2-prix-de-salbris.html",
+      "resultats-et-rapports/2022/01/2022-01-11/R4-pornichet-la-baule/R4C5-prix-de-pouilly-sur-loire.html",
+      "resultats-et-rapports/2022/01/2022-01-11/R4-pornichet-la-baule/R4C6-prix-de-cheverny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mauquenchy",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-joinville.html",
+        "R1C2-prix-de-salbris.html",
+        "R1C3-prix-de-vic-bigorre.html",
+        "R1C4-prix-de-poligny.html",
+        "R1C5-prix-de-pouilly-sur-loire.html",
+        "R1C6-prix-de-cheverny.html",
+        "R1C7-prix-du-limousin.html",
+        "R1C8-prix-de-cavaillon.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-de-joinville.html",
+        "R3C2-prix-de-salbris.html",
+        "R3C3-prix-de-vic-bigorre.html",
+        "R3C4-prix-de-poligny.html",
+        "R3C5-prix-de-pouilly-sur-loire.html",
+        "R3C6-prix-de-cheverny.html",
+        "R3C7-prix-du-limousin.html",
+        "R3C8-prix-de-cavaillon.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-joinville.html",
+        "R4C2-prix-de-salbris.html",
+        "R4C3-prix-de-vic-bigorre.html",
+        "R4C4-prix-de-poligny.html",
+        "R4C5-prix-de-pouilly-sur-loire.html",
+        "R4C6-prix-de-cheverny.html",
+        "R4C7-prix-du-limousin.html",
+        "R4C8-prix-de-cavaillon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:53.433520Z"
+}

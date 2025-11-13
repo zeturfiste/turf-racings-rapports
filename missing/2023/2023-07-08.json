@@ -1,0 +1,76 @@
+{
+  "date": "2023-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/07/2023-07-08",
+    "date_html": "resultats-et-rapports/2023/07/2023-07-08/2023-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/07/2023-07-08/R4-saint-cloud/R4C6-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R4-saint-cloud/R4C7-prix-du-louvre.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R5-vichy/R5C1-prix-d-estry.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R5-vichy/R5C2-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R5-vichy/R5C3-prix-d-armentieres.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R5-vichy/R5C6-prix-du-moulin-rouge.html",
+      "resultats-et-rapports/2023/07/2023-07-08/R5-vichy/R5C8-prix-de-rome.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-aix-les-bains",
+      "R4-saint-cloud",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-estry.html",
+        "R1C2-prix-du-parc-montsouris.html",
+        "R1C3-prix-d-armentieres.html",
+        "R1C4-prix-de-la-manche.html",
+        "R1C5-prix-d-orgeval.html",
+        "R1C6-prix-du-moulin-rouge.html",
+        "R1C7-prix-du-louvre.html",
+        "R1C8-prix-de-rome.html",
+        "R1C9-prix-de-l-ecole-militaire.html"
+      ],
+      "R2-aix-les-bains": [
+        "R2C1-prix-d-estry.html",
+        "R2C2-prix-du-parc-montsouris.html",
+        "R2C3-prix-d-armentieres.html",
+        "R2C4-prix-de-la-manche.html",
+        "R2C5-prix-d-orgeval.html",
+        "R2C6-prix-du-moulin-rouge.html",
+        "R2C7-prix-du-louvre.html",
+        "R2C8-prix-de-rome.html",
+        "R2C9-prix-de-l-ecole-militaire.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-d-estry.html",
+        "R4C2-prix-du-parc-montsouris.html",
+        "R4C3-prix-d-armentieres.html",
+        "R4C4-prix-de-la-manche.html",
+        "R4C5-prix-d-orgeval.html",
+        "R4C6-prix-du-moulin-rouge.html",
+        "R4C7-prix-du-louvre.html",
+        "R4C8-prix-de-rome.html",
+        "R4C9-prix-de-l-ecole-militaire.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-d-estry.html",
+        "R5C2-prix-du-parc-montsouris.html",
+        "R5C3-prix-d-armentieres.html",
+        "R5C4-prix-de-la-manche.html",
+        "R5C5-prix-d-orgeval.html",
+        "R5C6-prix-du-moulin-rouge.html",
+        "R5C7-prix-du-louvre.html",
+        "R5C8-prix-de-rome.html",
+        "R5C9-prix-de-l-ecole-militaire.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:10.739799Z"
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2013-10-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-02",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-02/2013-10-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-02/R1-meslay-du-maine/R1C5-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R1-meslay-du-maine/R1C6-prix-twister.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R1-meslay-du-maine/R1C7-prix-dolce-vita.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C2-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C4-prix-verte-nature.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C5-prix-champagne-moet-chandon.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C6-prix-twister.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C7-prix-dolce-vita.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C8-prix-de-la-campagne-groupe-a.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R2-angers/R2C9-prix-de-la-campagne-gr-b.html",
+      "resultats-et-rapports/2013/10/2013-10-02/R3-chantilly/R3C7-prix-dolce-vita.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-meslay-du-maine",
+      "R2-angers",
+      "R3-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-meslay-du-maine": [
+        "R1C1-prix-de-la-foret.html",
+        "R1C2-grand-prix-anjou-maine.html",
+        "R1C3-prix-douce-france.html",
+        "R1C4-prix-verte-nature.html",
+        "R1C5-prix-champagne-moet-chandon.html",
+        "R1C6-prix-twister.html",
+        "R1C7-prix-dolce-vita.html",
+        "R1C8-prix-de-la-campagne-groupe-a.html",
+        "R1C9-prix-de-la-campagne-gr-b.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-la-foret.html",
+        "R2C2-grand-prix-anjou-maine.html",
+        "R2C3-prix-douce-france.html",
+        "R2C4-prix-verte-nature.html",
+        "R2C5-prix-champagne-moet-chandon.html",
+        "R2C6-prix-twister.html",
+        "R2C7-prix-dolce-vita.html",
+        "R2C8-prix-de-la-campagne-groupe-a.html",
+        "R2C9-prix-de-la-campagne-gr-b.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-la-foret.html",
+        "R3C2-grand-prix-anjou-maine.html",
+        "R3C3-prix-douce-france.html",
+        "R3C4-prix-verte-nature.html",
+        "R3C5-prix-champagne-moet-chandon.html",
+        "R3C6-prix-twister.html",
+        "R3C7-prix-dolce-vita.html",
+        "R3C8-prix-de-la-campagne-groupe-a.html",
+        "R3C9-prix-de-la-campagne-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:47.014962Z"
+}

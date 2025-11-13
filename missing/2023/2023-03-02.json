@@ -1,0 +1,70 @@
+{
+  "date": "2023-03-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/03/2023-03-02",
+    "date_html": "resultats-et-rapports/2023/03/2023-03-02/2023-03-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/03/2023-03-02/R3-pontchateau/R3C8-prix-franck-anne-prix-vindex.html",
+      "resultats-et-rapports/2023/03/2023-03-02/R4-lyon-la-soie/R4C8-prix-franck-anne-prix-vindex.html",
+      "resultats-et-rapports/2023/03/2023-03-02/R7-toulouse/R7C1-prix-emile-allix-courboy.html",
+      "resultats-et-rapports/2023/03/2023-03-02/R7-toulouse/R7C4-prix-de-vire-normandie.html",
+      "resultats-et-rapports/2023/03/2023-03-02/R7-toulouse/R7C5-prix-de-maurepas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pontchateau",
+      "R4-lyon-la-soie",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-emile-allix-courboy.html",
+        "R1C2-prix-du-finistere.html",
+        "R1C3-prix-de-blavignac.html",
+        "R1C4-prix-de-vire-normandie.html",
+        "R1C5-prix-de-maurepas.html",
+        "R1C6-prix-d-alencon.html",
+        "R1C7-prix-de-luneville.html",
+        "R1C8-prix-franck-anne-prix-vindex.html"
+      ],
+      "R3-pontchateau": [
+        "R3C1-prix-emile-allix-courboy.html",
+        "R3C2-prix-du-finistere.html",
+        "R3C3-prix-de-blavignac.html",
+        "R3C4-prix-de-vire-normandie.html",
+        "R3C5-prix-de-maurepas.html",
+        "R3C6-prix-d-alencon.html",
+        "R3C7-prix-de-luneville.html",
+        "R3C8-prix-franck-anne-prix-vindex.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-emile-allix-courboy.html",
+        "R4C2-prix-du-finistere.html",
+        "R4C3-prix-de-blavignac.html",
+        "R4C4-prix-de-vire-normandie.html",
+        "R4C5-prix-de-maurepas.html",
+        "R4C6-prix-d-alencon.html",
+        "R4C7-prix-de-luneville.html",
+        "R4C8-prix-franck-anne-prix-vindex.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-emile-allix-courboy.html",
+        "R7C2-prix-du-finistere.html",
+        "R7C3-prix-de-blavignac.html",
+        "R7C4-prix-de-vire-normandie.html",
+        "R7C5-prix-de-maurepas.html",
+        "R7C6-prix-d-alencon.html",
+        "R7C7-prix-de-luneville.html",
+        "R7C8-prix-franck-anne-prix-vindex.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:23.768429Z"
+}

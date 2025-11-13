@@ -1,0 +1,83 @@
+{
+  "date": "2013-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-30",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-30/2013-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-30/R1-chantilly/R1C1-prix-des-veneurs.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R1-chantilly/R1C2-prix-de-la-croix-marquet.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R1-chantilly/R1C4-prix-de-roissy.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R1-chantilly/R1C6-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R1-chantilly/R1C7-prix-de-la-valroy.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R2-mauquenchy/R2C1-prix-des-veneurs.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R2-mauquenchy/R2C5-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R3-compiegne/R3C2-prix-de-la-croix-marquet.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R3-compiegne/R3C4-prix-de-roissy.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R3-compiegne/R3C6-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C1-prix-des-veneurs.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C2-prix-de-la-croix-marquet.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C3-prix-de-la-croix-saint-rieul.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C4-prix-de-roissy.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C5-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C6-prix-du-beau-flageux.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C7-prix-de-la-valroy.html",
+      "resultats-et-rapports/2013/05/2013-05-30/R4-toulouse/R4C8-prix-de-versigny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-mauquenchy",
+      "R3-compiegne",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-veneurs.html",
+        "R1C2-prix-de-la-croix-marquet.html",
+        "R1C3-prix-de-la-croix-saint-rieul.html",
+        "R1C4-prix-de-roissy.html",
+        "R1C5-prix-de-la-route-millard.html",
+        "R1C6-prix-du-beau-flageux.html",
+        "R1C7-prix-de-la-valroy.html",
+        "R1C8-prix-de-versigny.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-des-veneurs.html",
+        "R2C2-prix-de-la-croix-marquet.html",
+        "R2C3-prix-de-la-croix-saint-rieul.html",
+        "R2C4-prix-de-roissy.html",
+        "R2C5-prix-de-la-route-millard.html",
+        "R2C6-prix-du-beau-flageux.html",
+        "R2C7-prix-de-la-valroy.html",
+        "R2C8-prix-de-versigny.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-des-veneurs.html",
+        "R3C2-prix-de-la-croix-marquet.html",
+        "R3C3-prix-de-la-croix-saint-rieul.html",
+        "R3C4-prix-de-roissy.html",
+        "R3C5-prix-de-la-route-millard.html",
+        "R3C6-prix-du-beau-flageux.html",
+        "R3C7-prix-de-la-valroy.html",
+        "R3C8-prix-de-versigny.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-des-veneurs.html",
+        "R4C2-prix-de-la-croix-marquet.html",
+        "R4C3-prix-de-la-croix-saint-rieul.html",
+        "R4C4-prix-de-roissy.html",
+        "R4C5-prix-de-la-route-millard.html",
+        "R4C6-prix-du-beau-flageux.html",
+        "R4C7-prix-de-la-valroy.html",
+        "R4C8-prix-de-versigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:06.040741Z"
+}

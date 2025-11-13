@@ -1,0 +1,59 @@
+{
+  "date": "2008-12-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-23",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-23/2008-12-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-23/R1-vincennes/R1C6-prix-de-bricquebec.html",
+      "resultats-et-rapports/2008/12/2008-12-23/R31-zerace/R31C4-prix-du-touquet.html",
+      "resultats-et-rapports/2008/12/2008-12-23/R31-zerace/R31C5-prix-de-collioure.html",
+      "resultats-et-rapports/2008/12/2008-12-23/R31-zerace/R31C6-prix-de-bricquebec.html",
+      "resultats-et-rapports/2008/12/2008-12-23/R31-zerace/R31C8-prix-des-genets.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-salvanhac.html",
+        "R1C2-prix-de-brive-la-gaillarde.html",
+        "R1C3-prix-de-tulle.html",
+        "R1C4-prix-du-touquet.html",
+        "R1C5-prix-de-collioure.html",
+        "R1C6-prix-de-bricquebec.html",
+        "R1C7-prix-d-acigne.html",
+        "R1C8-prix-des-genets.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-salvanhac.html",
+        "R2C2-prix-de-brive-la-gaillarde.html",
+        "R2C3-prix-de-tulle.html",
+        "R2C4-prix-du-touquet.html",
+        "R2C5-prix-de-collioure.html",
+        "R2C6-prix-de-bricquebec.html",
+        "R2C7-prix-d-acigne.html",
+        "R2C8-prix-des-genets.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-salvanhac.html",
+        "R31C2-prix-de-brive-la-gaillarde.html",
+        "R31C3-prix-de-tulle.html",
+        "R31C4-prix-du-touquet.html",
+        "R31C5-prix-de-collioure.html",
+        "R31C6-prix-de-bricquebec.html",
+        "R31C7-prix-d-acigne.html",
+        "R31C8-prix-des-genets.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:30:30.981496Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2006-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-30",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-30/2006-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-la-capelle"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pantheon.html",
+        "R1C2-prix-du-pre-catelan.html",
+        "R1C3-prix-de-la-flandrie.html",
+        "R1C4-prix-du-viaduc.html",
+        "R1C5-prix-de-rocquencourt.html",
+        "R1C6-handicap.html",
+        "R1C7-prix-de-la-savonnerie.html",
+        "R1C8-prix-du-colisee.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-pantheon.html",
+        "R2C2-prix-du-pre-catelan.html",
+        "R2C3-prix-de-la-flandrie.html",
+        "R2C4-prix-du-viaduc.html",
+        "R2C5-prix-de-rocquencourt.html",
+        "R2C6-handicap.html",
+        "R2C7-prix-de-la-savonnerie.html",
+        "R2C8-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:22.599068Z"
+}

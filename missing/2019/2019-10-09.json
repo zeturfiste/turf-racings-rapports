@@ -1,0 +1,90 @@
+{
+  "date": "2019-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-09",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-09/2019-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C1-prix-de-vendee.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C2-prix-longines-equita-lyon-c-h-i.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C3-prix-du-tarn.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C4-prix-de-beauvaisis.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C6-prix-de-gascogne.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R1-lyon-parilly/R1C8-prix-de-drouais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C2-prix-longines-equita-lyon-c-h-i.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C3-prix-du-tarn.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C5-prix-de-la-cote-d-or.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C6-prix-de-gascogne.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C7-prix-du-maconnais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R2-auteuil/R2C8-prix-de-drouais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R4-enghien-soisy/R4C1-prix-de-vendee.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R4-enghien-soisy/R4C2-prix-longines-equita-lyon-c-h-i.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R4-enghien-soisy/R4C3-prix-du-tarn.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R4-enghien-soisy/R4C7-prix-du-maconnais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R4-enghien-soisy/R4C8-prix-de-drouais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C1-prix-de-vendee.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C2-prix-longines-equita-lyon-c-h-i.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C3-prix-du-tarn.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C4-prix-de-beauvaisis.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C5-prix-de-la-cote-d-or.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C6-prix-de-gascogne.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C7-prix-du-maconnais.html",
+      "resultats-et-rapports/2019/10/2019-10-09/R7-les-sables-d-olonne/R7C8-prix-de-drouais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-auteuil",
+      "R4-enghien-soisy",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-de-vendee.html",
+        "R1C2-prix-longines-equita-lyon-c-h-i.html",
+        "R1C3-prix-du-tarn.html",
+        "R1C4-prix-de-beauvaisis.html",
+        "R1C5-prix-de-la-cote-d-or.html",
+        "R1C6-prix-de-gascogne.html",
+        "R1C7-prix-du-maconnais.html",
+        "R1C8-prix-de-drouais.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-vendee.html",
+        "R2C2-prix-longines-equita-lyon-c-h-i.html",
+        "R2C3-prix-du-tarn.html",
+        "R2C4-prix-de-beauvaisis.html",
+        "R2C5-prix-de-la-cote-d-or.html",
+        "R2C6-prix-de-gascogne.html",
+        "R2C7-prix-du-maconnais.html",
+        "R2C8-prix-de-drouais.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-vendee.html",
+        "R4C2-prix-longines-equita-lyon-c-h-i.html",
+        "R4C3-prix-du-tarn.html",
+        "R4C4-prix-de-beauvaisis.html",
+        "R4C5-prix-de-la-cote-d-or.html",
+        "R4C6-prix-de-gascogne.html",
+        "R4C7-prix-du-maconnais.html",
+        "R4C8-prix-de-drouais.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-de-vendee.html",
+        "R7C2-prix-longines-equita-lyon-c-h-i.html",
+        "R7C3-prix-du-tarn.html",
+        "R7C4-prix-de-beauvaisis.html",
+        "R7C5-prix-de-la-cote-d-or.html",
+        "R7C6-prix-de-gascogne.html",
+        "R7C7-prix-du-maconnais.html",
+        "R7C8-prix-de-drouais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:11.733362Z"
+}

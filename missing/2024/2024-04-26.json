@@ -1,0 +1,71 @@
+{
+  "date": "2024-04-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-26",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-26/2024-04-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-26/R3-marseille-borely/R3C2-prix-claudia.html",
+      "resultats-et-rapports/2024/04/2024-04-26/R3-marseille-borely/R3C3-prix-rene-palyart-etrier-4-ans-q1.html",
+      "resultats-et-rapports/2024/04/2024-04-26/R3-marseille-borely/R3C4-prix-de-villecresnes.html",
+      "resultats-et-rapports/2024/04/2024-04-26/R4-chantilly/R4C3-prix-rene-palyart-etrier-4-ans-q1.html",
+      "resultats-et-rapports/2024/04/2024-04-26/R4-chantilly/R4C4-prix-de-villecresnes.html",
+      "resultats-et-rapports/2024/04/2024-04-26/R4-chantilly/R4C6-prix-louis-forcinal-etrier-5-ans-q1.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-chantilly",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-maginus.html",
+        "R1C2-prix-claudia.html",
+        "R1C3-prix-rene-palyart-etrier-4-ans-q1.html",
+        "R1C4-prix-de-villecresnes.html",
+        "R1C5-prix-sirone.html",
+        "R1C6-prix-louis-forcinal-etrier-5-ans-q1.html",
+        "R1C7-prix-enif.html",
+        "R1C8-prix-huberta.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-maginus.html",
+        "R3C2-prix-claudia.html",
+        "R3C3-prix-rene-palyart-etrier-4-ans-q1.html",
+        "R3C4-prix-de-villecresnes.html",
+        "R3C5-prix-sirone.html",
+        "R3C6-prix-louis-forcinal-etrier-5-ans-q1.html",
+        "R3C7-prix-enif.html",
+        "R3C8-prix-huberta.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-maginus.html",
+        "R4C2-prix-claudia.html",
+        "R4C3-prix-rene-palyart-etrier-4-ans-q1.html",
+        "R4C4-prix-de-villecresnes.html",
+        "R4C5-prix-sirone.html",
+        "R4C6-prix-louis-forcinal-etrier-5-ans-q1.html",
+        "R4C7-prix-enif.html",
+        "R4C8-prix-huberta.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-maginus.html",
+        "R6C2-prix-claudia.html",
+        "R6C3-prix-rene-palyart-etrier-4-ans-q1.html",
+        "R6C4-prix-de-villecresnes.html",
+        "R6C5-prix-sirone.html",
+        "R6C6-prix-louis-forcinal-etrier-5-ans-q1.html",
+        "R6C7-prix-enif.html",
+        "R6C8-prix-huberta.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:58.473516Z"
+}

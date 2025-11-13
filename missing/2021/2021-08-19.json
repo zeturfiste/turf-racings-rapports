@@ -1,0 +1,74 @@
+{
+  "date": "2021-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-19",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-19/2021-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-19/R1-deauville/R1C7-prix-apolline-matin-prix-de-barneville.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R3-saint-malo/R3C3-prix-les-grandes-gueules-prix-d-argentan.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R3-saint-malo/R3C4-prix-integrale-sport-prix-d-equemauville.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R3-saint-malo/R3C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R3-saint-malo/R3C7-prix-apolline-matin-prix-de-barneville.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R4-meslay-du-maine/R4C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R5-cagnes-sur-mer/R5C5-prix-les-courses-rmc-prix-de-la-vie.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R5-cagnes-sur-mer/R5C7-prix-apolline-matin-prix-de-barneville.html",
+      "resultats-et-rapports/2021/08/2021-08-19/R5-cagnes-sur-mer/R5C8-prix-les-grandes-gueules-du-sport-prix-du-louvet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-saint-malo",
+      "R4-meslay-du-maine",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-les-paris-rmc-prix-de-la-galopiniere.html",
+        "R1C2-prix-after-foot-prix-du-hamel.html",
+        "R1C3-prix-les-grandes-gueules-prix-d-argentan.html",
+        "R1C4-prix-integrale-sport-prix-d-equemauville.html",
+        "R1C5-prix-les-courses-rmc-prix-de-la-vie.html",
+        "R1C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+        "R1C7-prix-apolline-matin-prix-de-barneville.html",
+        "R1C8-prix-les-grandes-gueules-du-sport-prix-du-louvet.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-les-paris-rmc-prix-de-la-galopiniere.html",
+        "R3C2-prix-after-foot-prix-du-hamel.html",
+        "R3C3-prix-les-grandes-gueules-prix-d-argentan.html",
+        "R3C4-prix-integrale-sport-prix-d-equemauville.html",
+        "R3C5-prix-les-courses-rmc-prix-de-la-vie.html",
+        "R3C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+        "R3C7-prix-apolline-matin-prix-de-barneville.html",
+        "R3C8-prix-les-grandes-gueules-du-sport-prix-du-louvet.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-les-paris-rmc-prix-de-la-galopiniere.html",
+        "R4C2-prix-after-foot-prix-du-hamel.html",
+        "R4C3-prix-les-grandes-gueules-prix-d-argentan.html",
+        "R4C4-prix-integrale-sport-prix-d-equemauville.html",
+        "R4C5-prix-les-courses-rmc-prix-de-la-vie.html",
+        "R4C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+        "R4C7-prix-apolline-matin-prix-de-barneville.html",
+        "R4C8-prix-les-grandes-gueules-du-sport-prix-du-louvet.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-les-paris-rmc-prix-de-la-galopiniere.html",
+        "R5C2-prix-after-foot-prix-du-hamel.html",
+        "R5C3-prix-les-grandes-gueules-prix-d-argentan.html",
+        "R5C4-prix-integrale-sport-prix-d-equemauville.html",
+        "R5C5-prix-les-courses-rmc-prix-de-la-vie.html",
+        "R5C6-prix-rmc-football-show-prix-du-mont-canisy.html",
+        "R5C7-prix-apolline-matin-prix-de-barneville.html",
+        "R5C8-prix-les-grandes-gueules-du-sport-prix-du-louvet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:00.000334Z"
+}

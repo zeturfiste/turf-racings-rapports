@@ -1,0 +1,87 @@
+{
+  "date": "2021-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-26",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-26/2021-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-26/R1-vincennes/R1C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R1-vincennes/R1C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R1-vincennes/R1C9-prix-de-chalais.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R3-chantilly/R3C1-prix-de-morgat.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R3-chantilly/R3C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R3-chantilly/R3C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R3-chantilly/R3C9-prix-de-chalais.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R4-cagnes-sur-mer/R4C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R4-cagnes-sur-mer/R4C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R4-cagnes-sur-mer/R4C9-prix-de-chalais.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C1-prix-de-morgat.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C2-prix-le-parisien-prix-de-pierrefonds.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C7-prix-d-amerique-races-zeturf-q4-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2021/12/2021-12-26/R99-ante-post-prix-d-amerique-races-zeturf/R99C9-prix-de-chalais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-cagnes-sur-mer",
+      "R99-ante-post-prix-d-amerique-races-zeturf"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-morgat.html",
+        "R1C2-prix-le-parisien-prix-de-pierrefonds.html",
+        "R1C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+        "R1C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+        "R1C7-prix-d-amerique-races-zeturf-q4-prix-tenor-de-baune.html",
+        "R1C8-prix-rmc-prix-du-gard.html",
+        "R1C9-prix-de-chalais.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-morgat.html",
+        "R3C2-prix-le-parisien-prix-de-pierrefonds.html",
+        "R3C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+        "R3C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+        "R3C5-prix-de-vincennes.html",
+        "R3C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+        "R3C7-prix-d-amerique-races-zeturf-q4-prix-tenor-de-baune.html",
+        "R3C8-prix-rmc-prix-du-gard.html",
+        "R3C9-prix-de-chalais.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-morgat.html",
+        "R4C2-prix-le-parisien-prix-de-pierrefonds.html",
+        "R4C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+        "R4C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+        "R4C5-prix-de-vincennes.html",
+        "R4C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+        "R4C7-prix-d-amerique-races-zeturf-q4-prix-tenor-de-baune.html",
+        "R4C8-prix-rmc-prix-du-gard.html",
+        "R4C9-prix-de-chalais.html"
+      ],
+      "R99-ante-post-prix-d-amerique-races-zeturf": [
+        "R99C1-prix-de-morgat.html",
+        "R99C2-prix-le-parisien-prix-de-pierrefonds.html",
+        "R99C3-prix-agrifournitures-fr-prix-leon-tacquet.html",
+        "R99C4-prix-d-amerique-races-zeturf-q3-criterium-continental.html",
+        "R99C5-prix-de-vincennes.html",
+        "R99C6-prix-gras-savoye-willis-towers-watson-prix-du-merlerault.html",
+        "R99C7-prix-d-amerique-races-zeturf-q4-prix-tenor-de-baune.html",
+        "R99C8-prix-rmc-prix-du-gard.html",
+        "R99C9-prix-de-chalais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:48.587585Z"
+}

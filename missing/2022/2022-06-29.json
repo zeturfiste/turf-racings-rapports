@@ -1,0 +1,73 @@
+{
+  "date": "2022-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-29",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-29/2022-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-29/R1-vichy/R1C3-prix-de-carpentras.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R1-vichy/R1C4-prix-de-laval.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R1-vichy/R1C8-prix-pierre-coulon.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C1-prix-du-bois-du-bouc.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C2-prix-de-cosne-sur-loire.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C3-prix-de-carpentras.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C4-prix-de-laval.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C5-prix-du-perche.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C6-prix-de-la-source-de-l-hopital.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C7-prix-de-rochefort-montagne.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R3-dieppe/R3C8-prix-pierre-coulon.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C1-prix-du-bois-du-bouc.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C2-prix-de-cosne-sur-loire.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C3-prix-de-carpentras.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C4-prix-de-laval.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C5-prix-du-perche.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C6-prix-de-la-source-de-l-hopital.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C7-prix-de-rochefort-montagne.html",
+      "resultats-et-rapports/2022/06/2022-06-29/R4-marseille-borely/R4C8-prix-pierre-coulon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-dieppe",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-du-bois-du-bouc.html",
+        "R1C2-prix-de-cosne-sur-loire.html",
+        "R1C3-prix-de-carpentras.html",
+        "R1C4-prix-de-laval.html",
+        "R1C5-prix-du-perche.html",
+        "R1C6-prix-de-la-source-de-l-hopital.html",
+        "R1C7-prix-de-rochefort-montagne.html",
+        "R1C8-prix-pierre-coulon.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-du-bois-du-bouc.html",
+        "R3C2-prix-de-cosne-sur-loire.html",
+        "R3C3-prix-de-carpentras.html",
+        "R3C4-prix-de-laval.html",
+        "R3C5-prix-du-perche.html",
+        "R3C6-prix-de-la-source-de-l-hopital.html",
+        "R3C7-prix-de-rochefort-montagne.html",
+        "R3C8-prix-pierre-coulon.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-du-bois-du-bouc.html",
+        "R4C2-prix-de-cosne-sur-loire.html",
+        "R4C3-prix-de-carpentras.html",
+        "R4C4-prix-de-laval.html",
+        "R4C5-prix-du-perche.html",
+        "R4C6-prix-de-la-source-de-l-hopital.html",
+        "R4C7-prix-de-rochefort-montagne.html",
+        "R4C8-prix-pierre-coulon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:55.051531Z"
+}

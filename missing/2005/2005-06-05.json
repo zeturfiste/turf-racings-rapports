@@ -1,0 +1,42 @@
+{
+  "date": "2005-06-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-05",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-05/2005-06-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-montlucon-neris"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-butte-du-maulois.html",
+        "R1C2-prix-royal-empire.html",
+        "R1C3-prix-du-gros-chene.html",
+        "R1C4-prix-de-sandringham.html",
+        "R1C5-prix-de-precy.html",
+        "R1C6-grand-prix-de-chantilly.html",
+        "R1C7-prix-du-jockey-club.html",
+        "R1C8-prix-de-l-institut-de-france.html"
+      ],
+      "R2-montlucon-neris": [
+        "R2C1-prix-de-la-butte-du-maulois.html",
+        "R2C2-prix-royal-empire.html",
+        "R2C3-prix-du-gros-chene.html",
+        "R2C4-prix-de-sandringham.html",
+        "R2C5-prix-de-precy.html",
+        "R2C6-grand-prix-de-chantilly.html",
+        "R2C7-prix-du-jockey-club.html",
+        "R2C8-prix-de-l-institut-de-france.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:34.575684Z"
+}

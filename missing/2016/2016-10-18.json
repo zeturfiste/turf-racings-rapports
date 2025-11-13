@@ -1,0 +1,99 @@
+{
+  "date": "2016-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-18",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-18/2016-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C1-prix-de-la-gousserie.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C3-prix-des-marguerites.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C4-prix-du-pole-international-de-deauville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C5-prix-de-la-cornilliere.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C6-prix-vulcain.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C7-prix-ox-and-bucks.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R1-deauville/R1C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C1-prix-de-la-gousserie.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C3-prix-des-marguerites.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C4-prix-du-pole-international-de-deauville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C5-prix-de-la-cornilliere.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C6-prix-vulcain.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C7-prix-ox-and-bucks.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C8-prix-du-grand-manege.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R2-fontainebleau/R2C9-prix-galop-expo.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R3-toulouse/R3C1-prix-de-la-gousserie.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R3-toulouse/R3C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R3-toulouse/R3C3-prix-des-marguerites.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R3-toulouse/R3C4-prix-du-pole-international-de-deauville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R3-toulouse/R3C9-prix-galop-expo.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C1-prix-de-la-gousserie.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C3-prix-des-marguerites.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C4-prix-du-pole-international-de-deauville.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C5-prix-de-la-cornilliere.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C6-prix-vulcain.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C7-prix-ox-and-bucks.html",
+      "resultats-et-rapports/2016/10/2016-10-18/R5-vincennes/R5C8-prix-du-grand-manege.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-fontainebleau",
+      "R3-toulouse",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-gousserie.html",
+        "R1C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+        "R1C3-prix-des-marguerites.html",
+        "R1C4-prix-du-pole-international-de-deauville.html",
+        "R1C5-prix-de-la-cornilliere.html",
+        "R1C6-prix-vulcain.html",
+        "R1C7-prix-ox-and-bucks.html",
+        "R1C8-prix-du-grand-manege.html",
+        "R1C9-prix-galop-expo.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-la-gousserie.html",
+        "R2C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+        "R2C3-prix-des-marguerites.html",
+        "R2C4-prix-du-pole-international-de-deauville.html",
+        "R2C5-prix-de-la-cornilliere.html",
+        "R2C6-prix-vulcain.html",
+        "R2C7-prix-ox-and-bucks.html",
+        "R2C8-prix-du-grand-manege.html",
+        "R2C9-prix-galop-expo.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-la-gousserie.html",
+        "R3C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+        "R3C3-prix-des-marguerites.html",
+        "R3C4-prix-du-pole-international-de-deauville.html",
+        "R3C5-prix-de-la-cornilliere.html",
+        "R3C6-prix-vulcain.html",
+        "R3C7-prix-ox-and-bucks.html",
+        "R3C8-prix-du-grand-manege.html",
+        "R3C9-prix-galop-expo.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-la-gousserie.html",
+        "R5C2-prix-du-journal-le-pays-d-auge-prix-de-cleville.html",
+        "R5C3-prix-des-marguerites.html",
+        "R5C4-prix-du-pole-international-de-deauville.html",
+        "R5C5-prix-de-la-cornilliere.html",
+        "R5C6-prix-vulcain.html",
+        "R5C7-prix-ox-and-bucks.html",
+        "R5C8-prix-du-grand-manege.html",
+        "R5C9-prix-galop-expo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:33.800676Z"
+}

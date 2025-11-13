@@ -1,0 +1,50 @@
+{
+  "date": "2006-08-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-03",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-03/2006-08-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-deauville",
+      "R4-carentan"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-parc-des-princes.html",
+        "R1C2-prix-de-pigalle.html",
+        "R1C3-prix-d-aix-en-provence.html",
+        "R1C4-prix-de-nouzonville.html",
+        "R1C5-prix-d-uzes.html",
+        "R1C6-prix-de-la-place-denfert-rochereau.html",
+        "R1C7-prix-de-la-haute-saone.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-du-parc-des-princes.html",
+        "R2C2-prix-de-pigalle.html",
+        "R2C3-prix-d-aix-en-provence.html",
+        "R2C4-prix-de-nouzonville.html",
+        "R2C5-prix-d-uzes.html",
+        "R2C6-prix-de-la-place-denfert-rochereau.html",
+        "R2C7-prix-de-la-haute-saone.html"
+      ],
+      "R4-carentan": [
+        "R4C1-prix-du-parc-des-princes.html",
+        "R4C2-prix-de-pigalle.html",
+        "R4C3-prix-d-aix-en-provence.html",
+        "R4C4-prix-de-nouzonville.html",
+        "R4C5-prix-d-uzes.html",
+        "R4C6-prix-de-la-place-denfert-rochereau.html",
+        "R4C7-prix-de-la-haute-saone.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:52.153483Z"
+}

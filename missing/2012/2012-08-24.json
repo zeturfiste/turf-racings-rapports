@@ -1,0 +1,73 @@
+{
+  "date": "2012-08-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-24",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-24/2012-08-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-24/R2-divonne-les-bains/R2C5-prix-de-perseigne.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R2-divonne-les-bains/R2C7-prix-du-vaudreuil.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R3-cagnes-sur-mer/R3C6-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R4-cabourg/R4C4-prix-de-la-melletiere-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R4-cabourg/R4C5-prix-de-perseigne.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R4-cabourg/R4C6-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R4-cabourg/R4C7-prix-du-vaudreuil.html",
+      "resultats-et-rapports/2012/08/2012-08-24/R4-cabourg/R4C8-prix-du-mesnil-eudes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-divonne-les-bains",
+      "R3-cagnes-sur-mer",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-montaigu.html",
+        "R1C2-prix-de-la-reboursiere.html",
+        "R1C3-prix-de-domfront.html",
+        "R1C4-prix-de-la-melletiere-prix-du-journal-le-pays-d-auge.html",
+        "R1C5-prix-de-perseigne.html",
+        "R1C6-prix-du-mesnil-oger.html",
+        "R1C7-prix-du-vaudreuil.html",
+        "R1C8-prix-du-mesnil-eudes.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-de-montaigu.html",
+        "R2C2-prix-de-la-reboursiere.html",
+        "R2C3-prix-de-domfront.html",
+        "R2C4-prix-de-la-melletiere-prix-du-journal-le-pays-d-auge.html",
+        "R2C5-prix-de-perseigne.html",
+        "R2C6-prix-du-mesnil-oger.html",
+        "R2C7-prix-du-vaudreuil.html",
+        "R2C8-prix-du-mesnil-eudes.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-montaigu.html",
+        "R3C2-prix-de-la-reboursiere.html",
+        "R3C3-prix-de-domfront.html",
+        "R3C4-prix-de-la-melletiere-prix-du-journal-le-pays-d-auge.html",
+        "R3C5-prix-de-perseigne.html",
+        "R3C6-prix-du-mesnil-oger.html",
+        "R3C7-prix-du-vaudreuil.html",
+        "R3C8-prix-du-mesnil-eudes.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-montaigu.html",
+        "R4C2-prix-de-la-reboursiere.html",
+        "R4C3-prix-de-domfront.html",
+        "R4C4-prix-de-la-melletiere-prix-du-journal-le-pays-d-auge.html",
+        "R4C5-prix-de-perseigne.html",
+        "R4C6-prix-du-mesnil-oger.html",
+        "R4C7-prix-du-vaudreuil.html",
+        "R4C8-prix-du-mesnil-eudes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:47.183387Z"
+}

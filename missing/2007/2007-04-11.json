@@ -1,0 +1,107 @@
+{
+  "date": "2007-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-11",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-11/2007-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-11/R1-saint-galmier/R1C6-prix-pyramid-prix-des-ormes.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R1-saint-galmier/R1C8-prix-des-chataigniers.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R2-maisons-laffitte/R2C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R2-maisons-laffitte/R2C5-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R2-maisons-laffitte/R2C6-prix-pyramid-prix-des-ormes.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R4-marseille-borely/R4C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R4-marseille-borely/R4C4-prix-du-conseil-general-de-la-loire.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R31-zerace/R31C5-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R70-allianz-arena-munich/R70C5-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R70-allianz-arena-munich/R70C6-prix-pyramid-prix-des-ormes.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R70-allianz-arena-munich/R70C7-prix-des-sapins.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R70-allianz-arena-munich/R70C8-prix-des-chataigniers.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C2-prix-de-la-ville-de-saint-etienne.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C3-prix-hubert-de-poncins.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C4-prix-du-conseil-general-de-la-loire.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C5-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C6-prix-pyramid-prix-des-ormes.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C7-prix-des-sapins.html",
+      "resultats-et-rapports/2007/04/2007-04-11/R71-anfield-liverpool/R71C8-prix-des-chataigniers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R2-maisons-laffitte",
+      "R4-marseille-borely",
+      "R31-zerace",
+      "R70-allianz-arena-munich",
+      "R71-anfield-liverpool"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-prix-geny-courses-paris-turf-com.html",
+        "R1C2-prix-de-la-ville-de-saint-etienne.html",
+        "R1C3-prix-hubert-de-poncins.html",
+        "R1C4-prix-du-conseil-general-de-la-loire.html",
+        "R1C5-prix-de-la-ville-de-saint-galmier.html",
+        "R1C6-prix-pyramid-prix-des-ormes.html",
+        "R1C7-prix-des-sapins.html",
+        "R1C8-prix-des-chataigniers.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-geny-courses-paris-turf-com.html",
+        "R2C2-prix-de-la-ville-de-saint-etienne.html",
+        "R2C3-prix-hubert-de-poncins.html",
+        "R2C4-prix-du-conseil-general-de-la-loire.html",
+        "R2C5-prix-de-la-ville-de-saint-galmier.html",
+        "R2C6-prix-pyramid-prix-des-ormes.html",
+        "R2C7-prix-des-sapins.html",
+        "R2C8-prix-des-chataigniers.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-geny-courses-paris-turf-com.html",
+        "R4C2-prix-de-la-ville-de-saint-etienne.html",
+        "R4C3-prix-hubert-de-poncins.html",
+        "R4C4-prix-du-conseil-general-de-la-loire.html",
+        "R4C5-prix-de-la-ville-de-saint-galmier.html",
+        "R4C6-prix-pyramid-prix-des-ormes.html",
+        "R4C7-prix-des-sapins.html",
+        "R4C8-prix-des-chataigniers.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-courses-paris-turf-com.html",
+        "R31C2-prix-de-la-ville-de-saint-etienne.html",
+        "R31C3-prix-hubert-de-poncins.html",
+        "R31C4-prix-du-conseil-general-de-la-loire.html",
+        "R31C5-prix-de-la-ville-de-saint-galmier.html",
+        "R31C6-prix-pyramid-prix-des-ormes.html",
+        "R31C7-prix-des-sapins.html",
+        "R31C8-prix-des-chataigniers.html"
+      ],
+      "R70-allianz-arena-munich": [
+        "R70C1-prix-geny-courses-paris-turf-com.html",
+        "R70C2-prix-de-la-ville-de-saint-etienne.html",
+        "R70C3-prix-hubert-de-poncins.html",
+        "R70C4-prix-du-conseil-general-de-la-loire.html",
+        "R70C5-prix-de-la-ville-de-saint-galmier.html",
+        "R70C6-prix-pyramid-prix-des-ormes.html",
+        "R70C7-prix-des-sapins.html",
+        "R70C8-prix-des-chataigniers.html"
+      ],
+      "R71-anfield-liverpool": [
+        "R71C1-prix-geny-courses-paris-turf-com.html",
+        "R71C2-prix-de-la-ville-de-saint-etienne.html",
+        "R71C3-prix-hubert-de-poncins.html",
+        "R71C4-prix-du-conseil-general-de-la-loire.html",
+        "R71C5-prix-de-la-ville-de-saint-galmier.html",
+        "R71C6-prix-pyramid-prix-des-ormes.html",
+        "R71C7-prix-des-sapins.html",
+        "R71C8-prix-des-chataigniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:06.666318Z"
+}

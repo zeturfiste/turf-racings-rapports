@@ -1,0 +1,64 @@
+{
+  "date": "2005-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-14",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-14/2005-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-lion-d-angers",
+      "R3-vincennes",
+      "R4-hippodrome-etranger"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-de-royan.html",
+        "R1C2-prix-xavier-de-chevigny.html",
+        "R1C3-prix-burgrave-ii.html",
+        "R1C4-prix-du-boulonnais.html",
+        "R1C5-prix-belle-isle.html",
+        "R1C6-prix-brissac.html",
+        "R1C7-prix-de-royan.html",
+        "R1C8-prix-choute.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-de-royan.html",
+        "R2C2-prix-xavier-de-chevigny.html",
+        "R2C3-prix-burgrave-ii.html",
+        "R2C4-prix-du-boulonnais.html",
+        "R2C5-prix-belle-isle.html",
+        "R2C6-prix-brissac.html",
+        "R2C7-prix-de-royan.html",
+        "R2C8-prix-choute.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-royan.html",
+        "R3C2-prix-xavier-de-chevigny.html",
+        "R3C3-prix-burgrave-ii.html",
+        "R3C4-prix-du-boulonnais.html",
+        "R3C5-prix-belle-isle.html",
+        "R3C6-prix-brissac.html",
+        "R3C7-prix-de-royan.html",
+        "R3C8-prix-choute.html"
+      ],
+      "R4-hippodrome-etranger": [
+        "R4C1-prix-de-royan.html",
+        "R4C2-prix-xavier-de-chevigny.html",
+        "R4C3-prix-burgrave-ii.html",
+        "R4C4-prix-du-boulonnais.html",
+        "R4C5-prix-belle-isle.html",
+        "R4C6-prix-brissac.html",
+        "R4C7-prix-de-royan.html",
+        "R4C8-prix-choute.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:35.899335Z"
+}

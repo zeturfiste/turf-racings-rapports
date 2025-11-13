@@ -1,0 +1,79 @@
+{
+  "date": "2017-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-25",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-25/2017-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-25/R1-maisons-laffitte/R1C3-prix-d-auxerre.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R1-maisons-laffitte/R1C4-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R1-maisons-laffitte/R1C5-prix-de-suresnes.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R1-maisons-laffitte/R1C7-prix-d-aigremont.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R1-maisons-laffitte/R1C8-prix-de-troyes.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R2-nancy/R2C2-prix-sylvan.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R2-nancy/R2C4-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R2-nancy/R2C5-prix-de-suresnes.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R3-lyon-parilly/R3C1-prix-de-rueil.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R3-lyon-parilly/R3C2-prix-sylvan.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R3-lyon-parilly/R3C3-prix-d-auxerre.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R5-vincennes/R5C4-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R5-vincennes/R5C7-prix-d-aigremont.html",
+      "resultats-et-rapports/2017/04/2017-04-25/R5-vincennes/R5C8-prix-de-troyes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-nancy",
+      "R3-lyon-parilly",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-rueil.html",
+        "R1C2-prix-sylvan.html",
+        "R1C3-prix-d-auxerre.html",
+        "R1C4-prix-de-la-genevraye.html",
+        "R1C5-prix-de-suresnes.html",
+        "R1C6-prix-servanne.html",
+        "R1C7-prix-d-aigremont.html",
+        "R1C8-prix-de-troyes.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-de-rueil.html",
+        "R2C2-prix-sylvan.html",
+        "R2C3-prix-d-auxerre.html",
+        "R2C4-prix-de-la-genevraye.html",
+        "R2C5-prix-de-suresnes.html",
+        "R2C6-prix-servanne.html",
+        "R2C7-prix-d-aigremont.html",
+        "R2C8-prix-de-troyes.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-rueil.html",
+        "R3C2-prix-sylvan.html",
+        "R3C3-prix-d-auxerre.html",
+        "R3C4-prix-de-la-genevraye.html",
+        "R3C5-prix-de-suresnes.html",
+        "R3C6-prix-servanne.html",
+        "R3C7-prix-d-aigremont.html",
+        "R3C8-prix-de-troyes.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-rueil.html",
+        "R5C2-prix-sylvan.html",
+        "R5C3-prix-d-auxerre.html",
+        "R5C4-prix-de-la-genevraye.html",
+        "R5C5-prix-de-suresnes.html",
+        "R5C6-prix-servanne.html",
+        "R5C7-prix-d-aigremont.html",
+        "R5C8-prix-de-troyes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:26.013470Z"
+}

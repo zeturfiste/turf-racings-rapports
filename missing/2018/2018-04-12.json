@@ -1,0 +1,82 @@
+{
+  "date": "2018-04-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-12",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-12/2018-04-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C1-prix-champoreau.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C2-prix-geographie.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C3-prix-du-barry.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C4-prix-rose-or-no.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C5-prix-oteuil-sf.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R1-auteuil/R1C7-prix-the-coyote.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R2-le-mans/R2C1-prix-champoreau.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R2-le-mans/R2C2-prix-geographie.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R2-le-mans/R2C8-prix-necor.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R3-marseille-vivaux/R3C1-prix-champoreau.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R3-marseille-vivaux/R3C2-prix-geographie.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R3-marseille-vivaux/R3C5-prix-oteuil-sf.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R3-marseille-vivaux/R3C7-prix-the-coyote.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R4-lyon-la-soie/R4C4-prix-rose-or-no.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R4-lyon-la-soie/R4C5-prix-oteuil-sf.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R4-lyon-la-soie/R4C6-prix-de-saumur.html",
+      "resultats-et-rapports/2018/04/2018-04-12/R4-lyon-la-soie/R4C8-prix-necor.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-mans",
+      "R3-marseille-vivaux",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-champoreau.html",
+        "R1C2-prix-geographie.html",
+        "R1C3-prix-du-barry.html",
+        "R1C4-prix-rose-or-no.html",
+        "R1C5-prix-oteuil-sf.html",
+        "R1C6-prix-de-saumur.html",
+        "R1C7-prix-the-coyote.html",
+        "R1C8-prix-necor.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-champoreau.html",
+        "R2C2-prix-geographie.html",
+        "R2C3-prix-du-barry.html",
+        "R2C4-prix-rose-or-no.html",
+        "R2C5-prix-oteuil-sf.html",
+        "R2C6-prix-de-saumur.html",
+        "R2C7-prix-the-coyote.html",
+        "R2C8-prix-necor.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-champoreau.html",
+        "R3C2-prix-geographie.html",
+        "R3C3-prix-du-barry.html",
+        "R3C4-prix-rose-or-no.html",
+        "R3C5-prix-oteuil-sf.html",
+        "R3C6-prix-de-saumur.html",
+        "R3C7-prix-the-coyote.html",
+        "R3C8-prix-necor.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-champoreau.html",
+        "R4C2-prix-geographie.html",
+        "R4C3-prix-du-barry.html",
+        "R4C4-prix-rose-or-no.html",
+        "R4C5-prix-oteuil-sf.html",
+        "R4C6-prix-de-saumur.html",
+        "R4C7-prix-the-coyote.html",
+        "R4C8-prix-necor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:15.043001Z"
+}

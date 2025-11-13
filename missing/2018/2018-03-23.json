@@ -1,0 +1,74 @@
+{
+  "date": "2018-03-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-23",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-23/2018-03-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C1-prix-enceladus.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C2-prix-maia.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C4-prix-clorinde-gr-a.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C5-prix-clorinde-gr-b.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C6-prix-alcyone.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C7-prix-dresda.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R1-vincennes/R1C8-prix-leto.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C1-prix-enceladus.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C2-prix-maia.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C3-prix-adeona.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C4-prix-clorinde-gr-a.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C6-prix-alcyone.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C7-prix-dresda.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R3-strasbourg/R3C8-prix-leto.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C1-prix-enceladus.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C3-prix-adeona.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C5-prix-clorinde-gr-b.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C6-prix-alcyone.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C7-prix-dresda.html",
+      "resultats-et-rapports/2018/03/2018-03-23/R4-la-teste-de-buch/R4C8-prix-leto.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-strasbourg",
+      "R4-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-enceladus.html",
+        "R1C2-prix-maia.html",
+        "R1C3-prix-adeona.html",
+        "R1C4-prix-clorinde-gr-a.html",
+        "R1C5-prix-clorinde-gr-b.html",
+        "R1C6-prix-alcyone.html",
+        "R1C7-prix-dresda.html",
+        "R1C8-prix-leto.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-enceladus.html",
+        "R3C2-prix-maia.html",
+        "R3C3-prix-adeona.html",
+        "R3C4-prix-clorinde-gr-a.html",
+        "R3C5-prix-clorinde-gr-b.html",
+        "R3C6-prix-alcyone.html",
+        "R3C7-prix-dresda.html",
+        "R3C8-prix-leto.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-enceladus.html",
+        "R4C2-prix-maia.html",
+        "R4C3-prix-adeona.html",
+        "R4C4-prix-clorinde-gr-a.html",
+        "R4C5-prix-clorinde-gr-b.html",
+        "R4C6-prix-alcyone.html",
+        "R4C7-prix-dresda.html",
+        "R4C8-prix-leto.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:08.643499Z"
+}

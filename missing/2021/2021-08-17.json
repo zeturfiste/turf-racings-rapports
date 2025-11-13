@@ -1,0 +1,90 @@
+{
+  "date": "2021-08-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-17",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-17/2021-08-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-17/R1-deauville/R1C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R3-enghien-soisy/R3C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R3-enghien-soisy/R3C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R4-le-lion-d-angers/R4C2-prix-les-ammonites-prix-de-vernon.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R4-le-lion-d-angers/R4C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R4-le-lion-d-angers/R4C8-prix-les-4-chats-prix-dauger.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R5-cabourg/R5C1-prix-la-cabane-perchee-prix-francois-andre.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R5-cabourg/R5C8-prix-les-4-chats-prix-dauger.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C2-prix-les-ammonites-prix-de-vernon.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C3-prix-le-cyrano-prix-de-la-potiniere.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+      "resultats-et-rapports/2021/08/2021-08-17/R6-pornichet-la-baule/R6C8-prix-les-4-chats-prix-dauger.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-enghien-soisy",
+      "R4-le-lion-d-angers",
+      "R5-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-la-cabane-perchee-prix-francois-andre.html",
+        "R1C2-prix-les-ammonites-prix-de-vernon.html",
+        "R1C3-prix-le-cyrano-prix-de-la-potiniere.html",
+        "R1C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+        "R1C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+        "R1C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+        "R1C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+        "R1C8-prix-les-4-chats-prix-dauger.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-la-cabane-perchee-prix-francois-andre.html",
+        "R3C2-prix-les-ammonites-prix-de-vernon.html",
+        "R3C3-prix-le-cyrano-prix-de-la-potiniere.html",
+        "R3C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+        "R3C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+        "R3C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+        "R3C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+        "R3C8-prix-les-4-chats-prix-dauger.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-la-cabane-perchee-prix-francois-andre.html",
+        "R4C2-prix-les-ammonites-prix-de-vernon.html",
+        "R4C3-prix-le-cyrano-prix-de-la-potiniere.html",
+        "R4C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+        "R4C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+        "R4C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+        "R4C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+        "R4C8-prix-les-4-chats-prix-dauger.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-la-cabane-perchee-prix-francois-andre.html",
+        "R5C2-prix-les-ammonites-prix-de-vernon.html",
+        "R5C3-prix-le-cyrano-prix-de-la-potiniere.html",
+        "R5C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+        "R5C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+        "R5C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+        "R5C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+        "R5C8-prix-les-4-chats-prix-dauger.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-la-cabane-perchee-prix-francois-andre.html",
+        "R6C2-prix-les-ammonites-prix-de-vernon.html",
+        "R6C3-prix-le-cyrano-prix-de-la-potiniere.html",
+        "R6C4-prix-mamma-mia-prix-de-louviers-en-auge.html",
+        "R6C5-prix-little-manjo-prix-de-saint-laurent-sur-mer.html",
+        "R6C6-prix-barriere-le-bar-du-soleil-prix-de-clarbec.html",
+        "R6C7-prix-barriere-la-villa-de-la-plage-prix-d-heuland.html",
+        "R6C8-prix-les-4-chats-prix-dauger.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:59.138221Z"
+}

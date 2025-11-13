@@ -1,0 +1,73 @@
+{
+  "date": "2024-05-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-18",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-18/2024-05-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-18/R1-auteuil/R1C8-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C1-prix-jasmin-ii.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C2-prix-sagan.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C3-prix-le-parisien-prix-regalia.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C4-racing-tv-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C5-prix-d-arles.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R3-caen/R3C8-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2024/05/2024-05-18/R5-vichy/R5C4-racing-tv-grande-course-de-haies-d-auteuil.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R4-lyon-parilly",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jasmin-ii.html",
+        "R1C2-prix-sagan.html",
+        "R1C3-prix-le-parisien-prix-regalia.html",
+        "R1C4-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R1C5-prix-d-arles.html",
+        "R1C6-prix-pretentaine.html",
+        "R1C7-prix-saint-sauveur.html",
+        "R1C8-prix-le-guales-de-mezaubran.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-jasmin-ii.html",
+        "R3C2-prix-sagan.html",
+        "R3C3-prix-le-parisien-prix-regalia.html",
+        "R3C4-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R3C5-prix-d-arles.html",
+        "R3C6-prix-pretentaine.html",
+        "R3C7-prix-saint-sauveur.html",
+        "R3C8-prix-le-guales-de-mezaubran.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-jasmin-ii.html",
+        "R4C2-prix-sagan.html",
+        "R4C3-prix-le-parisien-prix-regalia.html",
+        "R4C4-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R4C5-prix-d-arles.html",
+        "R4C6-prix-pretentaine.html",
+        "R4C7-prix-saint-sauveur.html",
+        "R4C8-prix-le-guales-de-mezaubran.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-jasmin-ii.html",
+        "R5C2-prix-sagan.html",
+        "R5C3-prix-le-parisien-prix-regalia.html",
+        "R5C4-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R5C5-prix-d-arles.html",
+        "R5C6-prix-pretentaine.html",
+        "R5C7-prix-saint-sauveur.html",
+        "R5C8-prix-le-guales-de-mezaubran.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:07.622216Z"
+}

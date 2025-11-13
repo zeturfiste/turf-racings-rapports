@@ -1,0 +1,73 @@
+{
+  "date": "2023-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-21",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-21/2023-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-21/R1-langon/R1C2-prix-chateau-malbat-earl-rochet.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R1-langon/R1C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R1-langon/R1C6-prix-de-l-association-des-vignerons-de-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R1-langon/R1C7-prix-v-and-b-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R1-langon/R1C8-prix-sweet-valentine-traiteur.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C1-prix-sud-ouest-aliments.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C3-prix-generali-assurances.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C6-prix-de-l-association-des-vignerons-de-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C7-prix-v-and-b-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R2-salon-de-provence/R2C8-prix-sweet-valentine-traiteur.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C1-prix-sud-ouest-aliments.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C2-prix-chateau-malbat-earl-rochet.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C3-prix-generali-assurances.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C5-prix-bordelaise-de-lunetterie.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C6-prix-de-l-association-des-vignerons-de-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C7-prix-v-and-b-langon.html",
+      "resultats-et-rapports/2023/06/2023-06-21/R3-caen/R3C8-prix-sweet-valentine-traiteur.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-langon",
+      "R2-salon-de-provence",
+      "R3-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-langon": [
+        "R1C1-prix-sud-ouest-aliments.html",
+        "R1C2-prix-chateau-malbat-earl-rochet.html",
+        "R1C3-prix-generali-assurances.html",
+        "R1C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+        "R1C5-prix-bordelaise-de-lunetterie.html",
+        "R1C6-prix-de-l-association-des-vignerons-de-langon.html",
+        "R1C7-prix-v-and-b-langon.html",
+        "R1C8-prix-sweet-valentine-traiteur.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-sud-ouest-aliments.html",
+        "R2C2-prix-chateau-malbat-earl-rochet.html",
+        "R2C3-prix-generali-assurances.html",
+        "R2C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+        "R2C5-prix-bordelaise-de-lunetterie.html",
+        "R2C6-prix-de-l-association-des-vignerons-de-langon.html",
+        "R2C7-prix-v-and-b-langon.html",
+        "R2C8-prix-sweet-valentine-traiteur.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-sud-ouest-aliments.html",
+        "R3C2-prix-chateau-malbat-earl-rochet.html",
+        "R3C3-prix-generali-assurances.html",
+        "R3C4-grand-national-du-trot-7eme-etape-du-gnt.html",
+        "R3C5-prix-bordelaise-de-lunetterie.html",
+        "R3C6-prix-de-l-association-des-vignerons-de-langon.html",
+        "R3C7-prix-v-and-b-langon.html",
+        "R3C8-prix-sweet-valentine-traiteur.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:04.361464Z"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2016-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-22",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-22/2016-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-22/R1-reims/R1C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R1-reims/R1C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R1-reims/R1C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R1-reims/R1C8-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R3-chantilly/R3C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R3-chantilly/R3C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C1-grand-national-du-trot-paris-turf-grand-prix-de-la-ville-de-reims.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C3-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2016/06/2016-06-22/R4-vichy/R4C8-prix-fernand-floribert-dubois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R3-chantilly",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-grand-national-du-trot-paris-turf-grand-prix-de-la-ville-de-reims.html",
+        "R1C2-prix-de-l-u-n-a-t.html",
+        "R1C3-prix-du-champagne-de-castelnau.html",
+        "R1C4-prix-du-journal-l-union.html",
+        "R1C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+        "R1C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R1C7-prix-julien-cornet.html",
+        "R1C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot-paris-turf-grand-prix-de-la-ville-de-reims.html",
+        "R3C2-prix-de-l-u-n-a-t.html",
+        "R3C3-prix-du-champagne-de-castelnau.html",
+        "R3C4-prix-du-journal-l-union.html",
+        "R3C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+        "R3C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R3C7-prix-julien-cornet.html",
+        "R3C8-prix-fernand-floribert-dubois.html"
+      ],
+      "R4-vichy": [
+        "R4C1-grand-national-du-trot-paris-turf-grand-prix-de-la-ville-de-reims.html",
+        "R4C2-prix-de-l-u-n-a-t.html",
+        "R4C3-prix-du-champagne-de-castelnau.html",
+        "R4C4-prix-du-journal-l-union.html",
+        "R4C5-prix-leopold-verroken-prix-le-cafe-des-sportifs-reims.html",
+        "R4C6-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R4C7-prix-julien-cornet.html",
+        "R4C8-prix-fernand-floribert-dubois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:54.656749Z"
+}

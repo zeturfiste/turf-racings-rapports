@@ -1,0 +1,73 @@
+{
+  "date": "2023-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/03/2023-03-10",
+    "date_html": "resultats-et-rapports/2023/03/2023-03-10/2023-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/03/2023-03-10/R1-enghien-soisy/R1C5-prix-de-noirmoutier.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R4-deauville/R4C2-prix-quick-williams.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R4-deauville/R4C5-prix-de-noirmoutier.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R4-deauville/R4C8-prix-de-sanary-sur-mer.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R5-cagnes-sur-mer/R5C1-prix-de-mimizan.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R5-cagnes-sur-mer/R5C4-prix-de-saint-pierre-le-moutier.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R5-cagnes-sur-mer/R5C5-prix-de-noirmoutier.html",
+      "resultats-et-rapports/2023/03/2023-03-10/R5-cagnes-sur-mer/R5C8-prix-de-sanary-sur-mer.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-cordemais",
+      "R4-deauville",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-mimizan.html",
+        "R1C2-prix-quick-williams.html",
+        "R1C3-prix-d-herblay.html",
+        "R1C4-prix-de-saint-pierre-le-moutier.html",
+        "R1C5-prix-de-noirmoutier.html",
+        "R1C6-prix-des-ardennes.html",
+        "R1C7-prix-cyrano-ii.html",
+        "R1C8-prix-de-sanary-sur-mer.html"
+      ],
+      "R3-cordemais": [
+        "R3C1-prix-de-mimizan.html",
+        "R3C2-prix-quick-williams.html",
+        "R3C3-prix-d-herblay.html",
+        "R3C4-prix-de-saint-pierre-le-moutier.html",
+        "R3C5-prix-de-noirmoutier.html",
+        "R3C6-prix-des-ardennes.html",
+        "R3C7-prix-cyrano-ii.html",
+        "R3C8-prix-de-sanary-sur-mer.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-de-mimizan.html",
+        "R4C2-prix-quick-williams.html",
+        "R4C3-prix-d-herblay.html",
+        "R4C4-prix-de-saint-pierre-le-moutier.html",
+        "R4C5-prix-de-noirmoutier.html",
+        "R4C6-prix-des-ardennes.html",
+        "R4C7-prix-cyrano-ii.html",
+        "R4C8-prix-de-sanary-sur-mer.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-mimizan.html",
+        "R5C2-prix-quick-williams.html",
+        "R5C3-prix-d-herblay.html",
+        "R5C4-prix-de-saint-pierre-le-moutier.html",
+        "R5C5-prix-de-noirmoutier.html",
+        "R5C6-prix-des-ardennes.html",
+        "R5C7-prix-cyrano-ii.html",
+        "R5C8-prix-de-sanary-sur-mer.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:26.449532Z"
+}

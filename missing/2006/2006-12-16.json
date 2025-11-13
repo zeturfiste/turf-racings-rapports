@@ -1,0 +1,177 @@
+{
+  "date": "2006-12-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-16",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-16/2006-12-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-16/R1-vincennes/R1C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R2-pau/R2C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R2-pau/R2C7-prix-de-moulins.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R2-pau/R2C9-prix-de-sille-le-guillaume.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R21-zerace/R21C1-prix-de-villefranche.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R21-zerace/R21C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R21-zerace/R21C3-prix-philippe-du-rozier.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R21-zerace/R21C4-prix-de-vaumas.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C1-prix-de-villefranche.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C3-prix-philippe-du-rozier.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C5-prix-de-reims.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C6-prix-de-saint-james.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C7-prix-de-moulins.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C8-prix-de-seiches-sur-le-loir.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R30-leon-bollee-le-mans/R30C9-prix-de-sille-le-guillaume.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R31-louis-ii-monaco/R31C1-prix-de-villefranche.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R31-louis-ii-monaco/R31C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R31-louis-ii-monaco/R31C6-prix-de-saint-james.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R31-louis-ii-monaco/R31C7-prix-de-moulins.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R32-marcel-picot-nancy/R32C2-prix-de-chinon.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R33-la-beaujoire-nantes/R33C9-prix-de-sille-le-guillaume.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R35-stade-de-la-route-de-lorient-rennes/R35C5-prix-de-reims.html",
+      "resultats-et-rapports/2006/12/2006-12-16/R35-stade-de-la-route-de-lorient-rennes/R35C7-prix-de-moulins.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R21-zerace",
+      "R30-leon-bollee-le-mans",
+      "R31-louis-ii-monaco",
+      "R32-marcel-picot-nancy",
+      "R33-la-beaujoire-nantes",
+      "R35-stade-de-la-route-de-lorient-rennes",
+      "R36-geoffroy-guichard-saint-etienne",
+      "R37-louis-dugauguez-sedan",
+      "R40-stade-ernest-wallon-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-villefranche.html",
+        "R1C2-prix-de-chinon.html",
+        "R1C3-prix-philippe-du-rozier.html",
+        "R1C4-prix-de-vaumas.html",
+        "R1C5-prix-de-reims.html",
+        "R1C6-prix-de-saint-james.html",
+        "R1C7-prix-de-moulins.html",
+        "R1C8-prix-de-seiches-sur-le-loir.html",
+        "R1C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-villefranche.html",
+        "R2C2-prix-de-chinon.html",
+        "R2C3-prix-philippe-du-rozier.html",
+        "R2C4-prix-de-vaumas.html",
+        "R2C5-prix-de-reims.html",
+        "R2C6-prix-de-saint-james.html",
+        "R2C7-prix-de-moulins.html",
+        "R2C8-prix-de-seiches-sur-le-loir.html",
+        "R2C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-villefranche.html",
+        "R21C2-prix-de-chinon.html",
+        "R21C3-prix-philippe-du-rozier.html",
+        "R21C4-prix-de-vaumas.html",
+        "R21C5-prix-de-reims.html",
+        "R21C6-prix-de-saint-james.html",
+        "R21C7-prix-de-moulins.html",
+        "R21C8-prix-de-seiches-sur-le-loir.html",
+        "R21C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R30-leon-bollee-le-mans": [
+        "R30C1-prix-de-villefranche.html",
+        "R30C2-prix-de-chinon.html",
+        "R30C3-prix-philippe-du-rozier.html",
+        "R30C4-prix-de-vaumas.html",
+        "R30C5-prix-de-reims.html",
+        "R30C6-prix-de-saint-james.html",
+        "R30C7-prix-de-moulins.html",
+        "R30C8-prix-de-seiches-sur-le-loir.html",
+        "R30C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R31-louis-ii-monaco": [
+        "R31C1-prix-de-villefranche.html",
+        "R31C2-prix-de-chinon.html",
+        "R31C3-prix-philippe-du-rozier.html",
+        "R31C4-prix-de-vaumas.html",
+        "R31C5-prix-de-reims.html",
+        "R31C6-prix-de-saint-james.html",
+        "R31C7-prix-de-moulins.html",
+        "R31C8-prix-de-seiches-sur-le-loir.html",
+        "R31C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R32-marcel-picot-nancy": [
+        "R32C1-prix-de-villefranche.html",
+        "R32C2-prix-de-chinon.html",
+        "R32C3-prix-philippe-du-rozier.html",
+        "R32C4-prix-de-vaumas.html",
+        "R32C5-prix-de-reims.html",
+        "R32C6-prix-de-saint-james.html",
+        "R32C7-prix-de-moulins.html",
+        "R32C8-prix-de-seiches-sur-le-loir.html",
+        "R32C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R33-la-beaujoire-nantes": [
+        "R33C1-prix-de-villefranche.html",
+        "R33C2-prix-de-chinon.html",
+        "R33C3-prix-philippe-du-rozier.html",
+        "R33C4-prix-de-vaumas.html",
+        "R33C5-prix-de-reims.html",
+        "R33C6-prix-de-saint-james.html",
+        "R33C7-prix-de-moulins.html",
+        "R33C8-prix-de-seiches-sur-le-loir.html",
+        "R33C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R35-stade-de-la-route-de-lorient-rennes": [
+        "R35C1-prix-de-villefranche.html",
+        "R35C2-prix-de-chinon.html",
+        "R35C3-prix-philippe-du-rozier.html",
+        "R35C4-prix-de-vaumas.html",
+        "R35C5-prix-de-reims.html",
+        "R35C6-prix-de-saint-james.html",
+        "R35C7-prix-de-moulins.html",
+        "R35C8-prix-de-seiches-sur-le-loir.html",
+        "R35C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R36-geoffroy-guichard-saint-etienne": [
+        "R36C1-prix-de-villefranche.html",
+        "R36C2-prix-de-chinon.html",
+        "R36C3-prix-philippe-du-rozier.html",
+        "R36C4-prix-de-vaumas.html",
+        "R36C5-prix-de-reims.html",
+        "R36C6-prix-de-saint-james.html",
+        "R36C7-prix-de-moulins.html",
+        "R36C8-prix-de-seiches-sur-le-loir.html",
+        "R36C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R37-louis-dugauguez-sedan": [
+        "R37C1-prix-de-villefranche.html",
+        "R37C2-prix-de-chinon.html",
+        "R37C3-prix-philippe-du-rozier.html",
+        "R37C4-prix-de-vaumas.html",
+        "R37C5-prix-de-reims.html",
+        "R37C6-prix-de-saint-james.html",
+        "R37C7-prix-de-moulins.html",
+        "R37C8-prix-de-seiches-sur-le-loir.html",
+        "R37C9-prix-de-sille-le-guillaume.html"
+      ],
+      "R40-stade-ernest-wallon-toulouse": [
+        "R40C1-prix-de-villefranche.html",
+        "R40C2-prix-de-chinon.html",
+        "R40C3-prix-philippe-du-rozier.html",
+        "R40C4-prix-de-vaumas.html",
+        "R40C5-prix-de-reims.html",
+        "R40C6-prix-de-saint-james.html",
+        "R40C7-prix-de-moulins.html",
+        "R40C8-prix-de-seiches-sur-le-loir.html",
+        "R40C9-prix-de-sille-le-guillaume.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:31.306425Z"
+}

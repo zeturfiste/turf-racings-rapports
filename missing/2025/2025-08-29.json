@@ -1,0 +1,89 @@
+{
+  "date": "2025-08-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-29",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-29/2025-08-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-29/R2-laval/R2C6-prix-hippodrome-de-solvalla.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R2-laval/R2C7-prix-des-veroniques.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R2-laval/R2C8-prix-des-estivales-de-cabourg-2025.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R4-la-teste-de-buch/R4C1-prix-des-renoncules.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R4-la-teste-de-buch/R4C6-prix-hippodrome-de-solvalla.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R4-la-teste-de-buch/R4C8-prix-des-estivales-de-cabourg-2025.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R5-saint-malo/R5C2-prix-des-aubrietes.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R5-saint-malo/R5C3-prix-locatech-artifice.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R5-saint-malo/R5C8-prix-des-estivales-de-cabourg-2025.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R6-les-sables-d-olonne/R6C1-prix-des-renoncules.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R6-les-sables-d-olonne/R6C4-prix-des-escallonias.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R6-les-sables-d-olonne/R6C6-prix-hippodrome-de-solvalla.html",
+      "resultats-et-rapports/2025/08/2025-08-29/R6-les-sables-d-olonne/R6C7-prix-des-veroniques.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-laval",
+      "R4-la-teste-de-buch",
+      "R5-saint-malo",
+      "R6-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-renoncules.html",
+        "R1C2-prix-des-aubrietes.html",
+        "R1C3-prix-locatech-artifice.html",
+        "R1C4-prix-des-escallonias.html",
+        "R1C5-prix-du-journal-week-end.html",
+        "R1C6-prix-hippodrome-de-solvalla.html",
+        "R1C7-prix-des-veroniques.html",
+        "R1C8-prix-des-estivales-de-cabourg-2025.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-des-renoncules.html",
+        "R2C2-prix-des-aubrietes.html",
+        "R2C3-prix-locatech-artifice.html",
+        "R2C4-prix-des-escallonias.html",
+        "R2C5-prix-du-journal-week-end.html",
+        "R2C6-prix-hippodrome-de-solvalla.html",
+        "R2C7-prix-des-veroniques.html",
+        "R2C8-prix-des-estivales-de-cabourg-2025.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-des-renoncules.html",
+        "R4C2-prix-des-aubrietes.html",
+        "R4C3-prix-locatech-artifice.html",
+        "R4C4-prix-des-escallonias.html",
+        "R4C5-prix-du-journal-week-end.html",
+        "R4C6-prix-hippodrome-de-solvalla.html",
+        "R4C7-prix-des-veroniques.html",
+        "R4C8-prix-des-estivales-de-cabourg-2025.html"
+      ],
+      "R5-saint-malo": [
+        "R5C1-prix-des-renoncules.html",
+        "R5C2-prix-des-aubrietes.html",
+        "R5C3-prix-locatech-artifice.html",
+        "R5C4-prix-des-escallonias.html",
+        "R5C5-prix-du-journal-week-end.html",
+        "R5C6-prix-hippodrome-de-solvalla.html",
+        "R5C7-prix-des-veroniques.html",
+        "R5C8-prix-des-estivales-de-cabourg-2025.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-des-renoncules.html",
+        "R6C2-prix-des-aubrietes.html",
+        "R6C3-prix-locatech-artifice.html",
+        "R6C4-prix-des-escallonias.html",
+        "R6C5-prix-du-journal-week-end.html",
+        "R6C6-prix-hippodrome-de-solvalla.html",
+        "R6C7-prix-des-veroniques.html",
+        "R6C8-prix-des-estivales-de-cabourg-2025.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:05.208560Z"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2020-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-02",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-02/2020-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-02/R1-la-rochelle/R1C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R1-la-rochelle/R1C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R1-la-rochelle/R1C5-prix-nicolas.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R1-la-rochelle/R1C8-prix-bouygues-immobilier.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C3-grand-prix-thalasso-spa-marin-la-grande-terasse.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C5-prix-nicolas.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C6-prix-du-point-pmu-le-nemrod-dompierre-rfm.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C7-grand-prix-casino-de-chatelaillon-plage.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R3-evreux/R3C8-prix-bouygues-immobilier.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C3-grand-prix-thalasso-spa-marin-la-grande-terasse.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C6-prix-du-point-pmu-le-nemrod-dompierre-rfm.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C7-grand-prix-casino-de-chatelaillon-plage.html",
+      "resultats-et-rapports/2020/09/2020-09-02/R4-amiens/R4C8-prix-bouygues-immobilier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-rochelle",
+      "R3-evreux",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-la-rochelle": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+        "R1C3-grand-prix-thalasso-spa-marin-la-grande-terasse.html",
+        "R1C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+        "R1C5-prix-nicolas.html",
+        "R1C6-prix-du-point-pmu-le-nemrod-dompierre-rfm.html",
+        "R1C7-grand-prix-casino-de-chatelaillon-plage.html",
+        "R1C8-prix-bouygues-immobilier.html"
+      ],
+      "R3-evreux": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+        "R3C3-grand-prix-thalasso-spa-marin-la-grande-terasse.html",
+        "R3C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+        "R3C5-prix-nicolas.html",
+        "R3C6-prix-du-point-pmu-le-nemrod-dompierre-rfm.html",
+        "R3C7-grand-prix-casino-de-chatelaillon-plage.html",
+        "R3C8-prix-bouygues-immobilier.html"
+      ],
+      "R4-amiens": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-du-point-pmu-cafe-de-la-poste-chatelaillon.html",
+        "R4C3-grand-prix-thalasso-spa-marin-la-grande-terasse.html",
+        "R4C4-prix-de-la-ville-de-chatelaillon-plage-prix-de-la-charente-maritime.html",
+        "R4C5-prix-nicolas.html",
+        "R4C6-prix-du-point-pmu-le-nemrod-dompierre-rfm.html",
+        "R4C7-grand-prix-casino-de-chatelaillon-plage.html",
+        "R4C8-prix-bouygues-immobilier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:49.235562Z"
+}

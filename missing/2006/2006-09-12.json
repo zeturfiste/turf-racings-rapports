@@ -1,0 +1,119 @@
+{
+  "date": "2006-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-12",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-12/2006-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-12/R10-stamford-bridge-londres/R10C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R10-stamford-bridge-londres/R10C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R10-stamford-bridge-londres/R10C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R10-stamford-bridge-londres/R10C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R10-stamford-bridge-londres/R10C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R12-philips-stadion/R12C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R12-philips-stadion/R12C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R13-ali-sami-yen-istanbul/R13C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R21-zerace/R21C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+      "resultats-et-rapports/2006/09/2006-09-12/R21-zerace/R21C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nancy",
+      "R2-enghien-soisy",
+      "R3-vincennes",
+      "R10-stamford-bridge-londres",
+      "R11-nou-camp-barcelone",
+      "R12-philips-stadion",
+      "R13-ali-sami-yen-istanbul",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-nancy": [
+        "R1C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R1C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R1C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R1C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R1C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R1C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R1C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R1C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R2C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R2C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R2C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R2C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R2C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R2C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R2C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R3C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R3C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R3C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R3C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R3C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R3C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R3C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R10-stamford-bridge-londres": [
+        "R10C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R10C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R10C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R10C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R10C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R10C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R10C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R10C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R11-nou-camp-barcelone": [
+        "R11C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R11C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R11C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R11C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R11C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R11C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R11C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R11C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R12-philips-stadion": [
+        "R12C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R12C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R12C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R12C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R12C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R12C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R12C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R12C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R13-ali-sami-yen-istanbul": [
+        "R13C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R13C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R13C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R13C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R13C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R13C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R13C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R13C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-bar-pmu-des-sports-chatenois-prix-m-et-j-jacquet.html",
+        "R21C2-prix-cafe-pmu-de-la-moselle-thionville-prix-de-saint-nicolas.html",
+        "R21C3-prix-pmu-au-rond-point-moulins-les-metz-prix-de-vandoeuvre.html",
+        "R21C4-prix-pmu-la-terasse-vaudreching-prix-de-la-moselle.html",
+        "R21C5-prix-pmu-de-la-poste-faulquemont-prix-de-neuves-maisons.html",
+        "R21C6-prix-bar-pmu-le-delty-nancy-prix-de-la-place-stanislas.html",
+        "R21C7-prix-bar-pmu-le-carnot-dompaire-prix-de-la-meurthe.html",
+        "R21C8-prix-cafe-pmu-de-la-place-nancy-prix-de-la-place-st-epure.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:03.513516Z"
+}

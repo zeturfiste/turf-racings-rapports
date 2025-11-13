@@ -1,0 +1,63 @@
+{
+  "date": "2021-12-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-23",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-23/2021-12-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-23/R3-meslay-du-maine/R3C3-prix-de-bavent.html",
+      "resultats-et-rapports/2021/12/2021-12-23/R3-meslay-du-maine/R3C6-prix-du-chemin-des-douaniers.html",
+      "resultats-et-rapports/2021/12/2021-12-23/R3-meslay-du-maine/R3C9-prix-de-l-atelier-des-nympheas.html",
+      "resultats-et-rapports/2021/12/2021-12-23/R4-cagnes-sur-mer/R4C3-prix-de-bavent.html",
+      "resultats-et-rapports/2021/12/2021-12-23/R4-cagnes-sur-mer/R4C5-prix-du-pont-japonais.html",
+      "resultats-et-rapports/2021/12/2021-12-23/R4-cagnes-sur-mer/R4C7-prix-du-jardin-d-eau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-meslay-du-maine",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-estampes-japonaises.html",
+        "R1C2-prix-de-giverny.html",
+        "R1C3-prix-de-bavent.html",
+        "R1C4-prix-de-danestal.html",
+        "R1C5-prix-du-pont-japonais.html",
+        "R1C6-prix-du-chemin-des-douaniers.html",
+        "R1C7-prix-du-jardin-d-eau.html",
+        "R1C8-prix-du-bec-hellouin.html",
+        "R1C9-prix-de-l-atelier-des-nympheas.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-des-estampes-japonaises.html",
+        "R3C2-prix-de-giverny.html",
+        "R3C3-prix-de-bavent.html",
+        "R3C4-prix-de-danestal.html",
+        "R3C5-prix-du-pont-japonais.html",
+        "R3C6-prix-du-chemin-des-douaniers.html",
+        "R3C7-prix-du-jardin-d-eau.html",
+        "R3C8-prix-du-bec-hellouin.html",
+        "R3C9-prix-de-l-atelier-des-nympheas.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-des-estampes-japonaises.html",
+        "R4C2-prix-de-giverny.html",
+        "R4C3-prix-de-bavent.html",
+        "R4C4-prix-de-danestal.html",
+        "R4C5-prix-du-pont-japonais.html",
+        "R4C6-prix-du-chemin-des-douaniers.html",
+        "R4C7-prix-du-jardin-d-eau.html",
+        "R4C8-prix-du-bec-hellouin.html",
+        "R4C9-prix-de-l-atelier-des-nympheas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:47.838004Z"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2005-08-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-22",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-22/2005-08-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chateaubriant",
+      "R3-castera-verduzan"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-jussey.html",
+        "R1C2-prix-de-beaune.html",
+        "R1C3-prix-d-argeles.html",
+        "R1C4-prix-pierre-plazen.html",
+        "R1C5-prix-du-perigord.html",
+        "R1C6-prix-kozyr.html",
+        "R1C7-prix-guy-deloison.html",
+        "R1C8-prix-d-epernay.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-de-jussey.html",
+        "R2C2-prix-de-beaune.html",
+        "R2C3-prix-d-argeles.html",
+        "R2C4-prix-pierre-plazen.html",
+        "R2C5-prix-du-perigord.html",
+        "R2C6-prix-kozyr.html",
+        "R2C7-prix-guy-deloison.html",
+        "R2C8-prix-d-epernay.html"
+      ],
+      "R3-castera-verduzan": [
+        "R3C1-prix-de-jussey.html",
+        "R3C2-prix-de-beaune.html",
+        "R3C3-prix-d-argeles.html",
+        "R3C4-prix-pierre-plazen.html",
+        "R3C5-prix-du-perigord.html",
+        "R3C6-prix-kozyr.html",
+        "R3C7-prix-guy-deloison.html",
+        "R3C8-prix-d-epernay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:46.629049Z"
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2010-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-13",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-13/2010-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C1-prix-des-sables-d-olonne.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C2-prix-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C4-prix-nil-sa.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C6-prix-de-talmont-saint-hilaire.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C7-prix-toys-motors.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R1-les-sables-d-olonne/R1C8-prix-meunier-constant.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C2-prix-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C3-prix-du-chateau-d-olonne.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C4-prix-nil-sa.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C5-prix-de-la-malbrande.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C6-prix-de-talmont-saint-hilaire.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C7-prix-toys-motors.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R2-le-lion-d-angers/R2C8-prix-meunier-constant.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R3-cabourg/R3C4-prix-nil-sa.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R3-cabourg/R3C5-prix-de-la-malbrande.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R3-cabourg/R3C6-prix-de-talmont-saint-hilaire.html",
+      "resultats-et-rapports/2010/07/2010-07-13/R3-cabourg/R3C7-prix-toys-motors.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R2-le-lion-d-angers",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-des-sables-d-olonne.html",
+        "R1C2-prix-d-olonne-sur-mer.html",
+        "R1C3-prix-du-chateau-d-olonne.html",
+        "R1C4-prix-nil-sa.html",
+        "R1C5-prix-de-la-malbrande.html",
+        "R1C6-prix-de-talmont-saint-hilaire.html",
+        "R1C7-prix-toys-motors.html",
+        "R1C8-prix-meunier-constant.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-des-sables-d-olonne.html",
+        "R2C2-prix-d-olonne-sur-mer.html",
+        "R2C3-prix-du-chateau-d-olonne.html",
+        "R2C4-prix-nil-sa.html",
+        "R2C5-prix-de-la-malbrande.html",
+        "R2C6-prix-de-talmont-saint-hilaire.html",
+        "R2C7-prix-toys-motors.html",
+        "R2C8-prix-meunier-constant.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-des-sables-d-olonne.html",
+        "R3C2-prix-d-olonne-sur-mer.html",
+        "R3C3-prix-du-chateau-d-olonne.html",
+        "R3C4-prix-nil-sa.html",
+        "R3C5-prix-de-la-malbrande.html",
+        "R3C6-prix-de-talmont-saint-hilaire.html",
+        "R3C7-prix-toys-motors.html",
+        "R3C8-prix-meunier-constant.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:09.009281Z"
+}

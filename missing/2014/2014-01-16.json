@@ -1,0 +1,63 @@
+{
+  "date": "2014-01-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/01/2014-01-16",
+    "date_html": "resultats-et-rapports/2014/01/2014-01-16/2014-01-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C1-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C2-prix-de-montreuil.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C4-prix-de-luchon.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C6-prix-d-orleans.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C7-prix-noville.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R1-vincennes/R1C8-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R2-pau/R2C1-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R2-pau/R2C3-prix-de-privas.html",
+      "resultats-et-rapports/2014/01/2014-01-16/R2-pau/R2C5-prix-de-bayonne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-pontault-combault.html",
+        "R1C2-prix-de-montreuil.html",
+        "R1C3-prix-de-privas.html",
+        "R1C4-prix-de-luchon.html",
+        "R1C5-prix-de-bayonne.html",
+        "R1C6-prix-d-orleans.html",
+        "R1C7-prix-noville.html",
+        "R1C8-prix-de-pont-a-mousson.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-pontault-combault.html",
+        "R2C2-prix-de-montreuil.html",
+        "R2C3-prix-de-privas.html",
+        "R2C4-prix-de-luchon.html",
+        "R2C5-prix-de-bayonne.html",
+        "R2C6-prix-d-orleans.html",
+        "R2C7-prix-noville.html",
+        "R2C8-prix-de-pont-a-mousson.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-pontault-combault.html",
+        "R6C2-prix-de-montreuil.html",
+        "R6C3-prix-de-privas.html",
+        "R6C4-prix-de-luchon.html",
+        "R6C5-prix-de-bayonne.html",
+        "R6C6-prix-d-orleans.html",
+        "R6C7-prix-noville.html",
+        "R6C8-prix-de-pont-a-mousson.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:16.830710Z"
+}

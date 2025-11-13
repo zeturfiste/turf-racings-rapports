@@ -1,0 +1,113 @@
+{
+  "date": "2009-04-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/04/2009-04-15",
+    "date_html": "resultats-et-rapports/2009/04/2009-04-15/2009-04-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C4-prix-du-coueron.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C5-prix-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R1-cordemais/R1C8-prix-de-vigneux-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C1-grand-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C2-prix-jacques-fairand.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C4-prix-du-coueron.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C5-prix-de-saint-etienne-de-montluc.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R2-auteuil/R2C8-prix-de-vigneux-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R5-marseille-borely/R5C1-grand-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R5-marseille-borely/R5C2-prix-jacques-fairand.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R5-marseille-borely/R5C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R5-marseille-borely/R5C4-prix-du-coueron.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R31-zerace/R31C2-prix-jacques-fairand.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R70-emirates-stadium-londres/R70C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R70-emirates-stadium-londres/R70C7-prix-du-conseil-general.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R70-emirates-stadium-londres/R70C8-prix-de-vigneux-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R71-do-dragao-porto/R71C1-grand-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R71-do-dragao-porto/R71C3-prix-du-temple-de-bretagne.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R71-do-dragao-porto/R71C6-prix-bernard-babin.html",
+      "resultats-et-rapports/2009/04/2009-04-15/R71-do-dragao-porto/R71C8-prix-de-vigneux-de-bretagne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R2-auteuil",
+      "R5-marseille-borely",
+      "R31-zerace",
+      "R70-emirates-stadium-londres",
+      "R71-do-dragao-porto"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R1C2-prix-jacques-fairand.html",
+        "R1C3-prix-du-temple-de-bretagne.html",
+        "R1C4-prix-du-coueron.html",
+        "R1C5-prix-de-saint-etienne-de-montluc.html",
+        "R1C6-prix-bernard-babin.html",
+        "R1C7-prix-du-conseil-general.html",
+        "R1C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R2C2-prix-jacques-fairand.html",
+        "R2C3-prix-du-temple-de-bretagne.html",
+        "R2C4-prix-du-coueron.html",
+        "R2C5-prix-de-saint-etienne-de-montluc.html",
+        "R2C6-prix-bernard-babin.html",
+        "R2C7-prix-du-conseil-general.html",
+        "R2C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R5C2-prix-jacques-fairand.html",
+        "R5C3-prix-du-temple-de-bretagne.html",
+        "R5C4-prix-du-coueron.html",
+        "R5C5-prix-de-saint-etienne-de-montluc.html",
+        "R5C6-prix-bernard-babin.html",
+        "R5C7-prix-du-conseil-general.html",
+        "R5C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R31-zerace": [
+        "R31C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R31C2-prix-jacques-fairand.html",
+        "R31C3-prix-du-temple-de-bretagne.html",
+        "R31C4-prix-du-coueron.html",
+        "R31C5-prix-de-saint-etienne-de-montluc.html",
+        "R31C6-prix-bernard-babin.html",
+        "R31C7-prix-du-conseil-general.html",
+        "R31C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R70-emirates-stadium-londres": [
+        "R70C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R70C2-prix-jacques-fairand.html",
+        "R70C3-prix-du-temple-de-bretagne.html",
+        "R70C4-prix-du-coueron.html",
+        "R70C5-prix-de-saint-etienne-de-montluc.html",
+        "R70C6-prix-bernard-babin.html",
+        "R70C7-prix-du-conseil-general.html",
+        "R70C8-prix-de-vigneux-de-bretagne.html"
+      ],
+      "R71-do-dragao-porto": [
+        "R71C1-grand-prix-de-la-ville-de-cordemais.html",
+        "R71C2-prix-jacques-fairand.html",
+        "R71C3-prix-du-temple-de-bretagne.html",
+        "R71C4-prix-du-coueron.html",
+        "R71C5-prix-de-saint-etienne-de-montluc.html",
+        "R71C6-prix-bernard-babin.html",
+        "R71C7-prix-du-conseil-general.html",
+        "R71C8-prix-de-vigneux-de-bretagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:31:20.508865Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2018-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-07",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-07/2018-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-07/R1-la-capelle/R1C3-prix-dupont-restauration.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R1-la-capelle/R1C4-prix-francois-caille.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R1-la-capelle/R1C8-prix-ville-de-la-capelle.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R4-compiegne/R4C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R4-compiegne/R4C5-prix-le-longchamp-la-capelle.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R4-compiegne/R4C7-prix-f-f-dubois.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R4-compiegne/R4C8-prix-ville-de-la-capelle.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R5-toulouse/R5C1-grand-national-du-trot-2018.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R5-toulouse/R5C3-prix-dupont-restauration.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R5-toulouse/R5C5-prix-le-longchamp-la-capelle.html",
+      "resultats-et-rapports/2018/03/2018-03-07/R5-toulouse/R5C6-prix-pmu-le-nouvion.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R4-compiegne",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-grand-national-du-trot-2018.html",
+        "R1C2-prix-de-l-unat.html",
+        "R1C3-prix-dupont-restauration.html",
+        "R1C4-prix-francois-caille.html",
+        "R1C5-prix-le-longchamp-la-capelle.html",
+        "R1C6-prix-pmu-le-nouvion.html",
+        "R1C7-prix-f-f-dubois.html",
+        "R1C8-prix-ville-de-la-capelle.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-grand-national-du-trot-2018.html",
+        "R4C2-prix-de-l-unat.html",
+        "R4C3-prix-dupont-restauration.html",
+        "R4C4-prix-francois-caille.html",
+        "R4C5-prix-le-longchamp-la-capelle.html",
+        "R4C6-prix-pmu-le-nouvion.html",
+        "R4C7-prix-f-f-dubois.html",
+        "R4C8-prix-ville-de-la-capelle.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-grand-national-du-trot-2018.html",
+        "R5C2-prix-de-l-unat.html",
+        "R5C3-prix-dupont-restauration.html",
+        "R5C4-prix-francois-caille.html",
+        "R5C5-prix-le-longchamp-la-capelle.html",
+        "R5C6-prix-pmu-le-nouvion.html",
+        "R5C7-prix-f-f-dubois.html",
+        "R5C8-prix-ville-de-la-capelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:04.090445Z"
+}

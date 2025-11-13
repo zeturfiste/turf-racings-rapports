@@ -1,0 +1,85 @@
+{
+  "date": "2006-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-05",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-05/2006-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-05/R1-auteuil/R1C9-prix-elisa.html",
+      "resultats-et-rapports/2006/11/2006-11-05/R2-saint-brieuc/R2C6-prix-cacao.html",
+      "resultats-et-rapports/2006/11/2006-11-05/R2-saint-brieuc/R2C8-prix-claude-le-lorrain.html",
+      "resultats-et-rapports/2006/11/2006-11-05/R31-parc-des-princes-paris/R31C5-prix-cambaceres-grande-course-de-haies-des-3ans.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-saint-brieuc",
+      "R21-zerace",
+      "R30-marcel-picot-nancy",
+      "R31-parc-des-princes-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-aladdin.html",
+        "R1C2-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R1C3-prix-metro-prix-ketch.html",
+        "R1C4-prix-la-haye-jousselin.html",
+        "R1C5-prix-cambaceres-grande-course-de-haies-des-3ans.html",
+        "R1C6-prix-cacao.html",
+        "R1C7-rome-premio-roma.html",
+        "R1C8-prix-claude-le-lorrain.html",
+        "R1C9-prix-elisa.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-aladdin.html",
+        "R2C2-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R2C3-prix-metro-prix-ketch.html",
+        "R2C4-prix-la-haye-jousselin.html",
+        "R2C5-prix-cambaceres-grande-course-de-haies-des-3ans.html",
+        "R2C6-prix-cacao.html",
+        "R2C7-rome-premio-roma.html",
+        "R2C8-prix-claude-le-lorrain.html",
+        "R2C9-prix-elisa.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-aladdin.html",
+        "R21C2-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R21C3-prix-metro-prix-ketch.html",
+        "R21C4-prix-la-haye-jousselin.html",
+        "R21C5-prix-cambaceres-grande-course-de-haies-des-3ans.html",
+        "R21C6-prix-cacao.html",
+        "R21C7-rome-premio-roma.html",
+        "R21C8-prix-claude-le-lorrain.html",
+        "R21C9-prix-elisa.html"
+      ],
+      "R30-marcel-picot-nancy": [
+        "R30C1-prix-aladdin.html",
+        "R30C2-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R30C3-prix-metro-prix-ketch.html",
+        "R30C4-prix-la-haye-jousselin.html",
+        "R30C5-prix-cambaceres-grande-course-de-haies-des-3ans.html",
+        "R30C6-prix-cacao.html",
+        "R30C7-rome-premio-roma.html",
+        "R30C8-prix-claude-le-lorrain.html",
+        "R30C9-prix-elisa.html"
+      ],
+      "R31-parc-des-princes-paris": [
+        "R31C1-prix-aladdin.html",
+        "R31C2-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R31C3-prix-metro-prix-ketch.html",
+        "R31C4-prix-la-haye-jousselin.html",
+        "R31C5-prix-cambaceres-grande-course-de-haies-des-3ans.html",
+        "R31C6-prix-cacao.html",
+        "R31C7-rome-premio-roma.html",
+        "R31C8-prix-claude-le-lorrain.html",
+        "R31C9-prix-elisa.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:20.111522Z"
+}

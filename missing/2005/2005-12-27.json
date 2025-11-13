@@ -1,0 +1,42 @@
+{
+  "date": "2005-12-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-27",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-27/2005-12-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-marly.html",
+        "R1C2-prix-d-ispagnac.html",
+        "R1C3-prix-du-merlerault.html",
+        "R1C4-prix-de-valenciennes.html",
+        "R1C5-prix-de-salvanhac.html",
+        "R1C6-prix-de-grandvilliers.html",
+        "R1C7-prix-de-gambais.html",
+        "R1C8-prix-des-glaieuls.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-marly.html",
+        "R2C2-prix-d-ispagnac.html",
+        "R2C3-prix-du-merlerault.html",
+        "R2C4-prix-de-valenciennes.html",
+        "R2C5-prix-de-salvanhac.html",
+        "R2C6-prix-de-grandvilliers.html",
+        "R2C7-prix-de-gambais.html",
+        "R2C8-prix-des-glaieuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:08.136098Z"
+}

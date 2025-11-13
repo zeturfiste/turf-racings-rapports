@@ -1,0 +1,60 @@
+{
+  "date": "2018-07-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-30",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-30/2018-07-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-30/R1-clairefontaine/R1C3-prix-luth-enchantee-fonds-europeen-de-l-elevage-prix-ecole-blondeau.html",
+      "resultats-et-rapports/2018/07/2018-07-30/R1-clairefontaine/R1C4-prix-de-la-cote-d-albatre-prix-des-vans-barbot.html",
+      "resultats-et-rapports/2018/07/2018-07-30/R1-clairefontaine/R1C6-prix-des-heliotropes-prix-lady-bug.html",
+      "resultats-et-rapports/2018/07/2018-07-30/R3-mauquenchy/R3C6-prix-des-heliotropes-prix-lady-bug.html",
+      "resultats-et-rapports/2018/07/2018-07-30/R6-cagnes-sur-mer/R6C4-prix-de-la-cote-d-albatre-prix-des-vans-barbot.html",
+      "resultats-et-rapports/2018/07/2018-07-30/R6-cagnes-sur-mer/R6C8-prix-michel-d-arexy-prix-les-trouvillaises.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-mauquenchy",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-de-la-cote-de-nacre-prix-la-grande-recre-touques.html",
+        "R1C2-prix-d-aguesseau-prix-courez-aux-courses.html",
+        "R1C3-prix-luth-enchantee-fonds-europeen-de-l-elevage-prix-ecole-blondeau.html",
+        "R1C4-prix-de-la-cote-d-albatre-prix-des-vans-barbot.html",
+        "R1C5-prix-guy-du-faur-de-pibrac-prix-hippokids.html",
+        "R1C6-prix-des-heliotropes-prix-lady-bug.html",
+        "R1C7-prix-des-glycines-prix-ville-de-bonnebosq.html",
+        "R1C8-prix-michel-d-arexy-prix-les-trouvillaises.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-de-la-cote-de-nacre-prix-la-grande-recre-touques.html",
+        "R3C2-prix-d-aguesseau-prix-courez-aux-courses.html",
+        "R3C3-prix-luth-enchantee-fonds-europeen-de-l-elevage-prix-ecole-blondeau.html",
+        "R3C4-prix-de-la-cote-d-albatre-prix-des-vans-barbot.html",
+        "R3C5-prix-guy-du-faur-de-pibrac-prix-hippokids.html",
+        "R3C6-prix-des-heliotropes-prix-lady-bug.html",
+        "R3C7-prix-des-glycines-prix-ville-de-bonnebosq.html",
+        "R3C8-prix-michel-d-arexy-prix-les-trouvillaises.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-la-cote-de-nacre-prix-la-grande-recre-touques.html",
+        "R6C2-prix-d-aguesseau-prix-courez-aux-courses.html",
+        "R6C3-prix-luth-enchantee-fonds-europeen-de-l-elevage-prix-ecole-blondeau.html",
+        "R6C4-prix-de-la-cote-d-albatre-prix-des-vans-barbot.html",
+        "R6C5-prix-guy-du-faur-de-pibrac-prix-hippokids.html",
+        "R6C6-prix-des-heliotropes-prix-lady-bug.html",
+        "R6C7-prix-des-glycines-prix-ville-de-bonnebosq.html",
+        "R6C8-prix-michel-d-arexy-prix-les-trouvillaises.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:52.617608Z"
+}

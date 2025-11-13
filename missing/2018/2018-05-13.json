@@ -1,0 +1,140 @@
+{
+  "date": "2018-05-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/05/2018-05-13",
+    "date_html": "resultats-et-rapports/2018/05/2018-05-13/2018-05-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C1-prix-de-l-horloge.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C3-prix-de-saint-georges.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C4-the-emirates-poule-d-essai-des-poulains.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C5-the-emirates-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R1-paris-longchamp/R1C6-grand-handicap-de-paris-longchamp.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R4-fougeres/R4C5-the-emirates-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R4-fougeres/R4C8-prix-de-bercy-prix-rmc.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R5-cherbourg/R5C1-prix-de-l-horloge.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R5-cherbourg/R5C5-the-emirates-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C1-prix-de-l-horloge.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C3-prix-de-saint-georges.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C4-the-emirates-poule-d-essai-des-poulains.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C5-the-emirates-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R8-lyon-parilly/R8C8-prix-de-bercy-prix-rmc.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C1-prix-de-l-horloge.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C3-prix-de-saint-georges.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C6-grand-handicap-de-paris-longchamp.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R9-nancy/R9C8-prix-de-bercy-prix-rmc.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C1-prix-de-l-horloge.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C3-prix-de-saint-georges.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C4-the-emirates-poule-d-essai-des-poulains.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C5-the-emirates-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C6-grand-handicap-de-paris-longchamp.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+      "resultats-et-rapports/2018/05/2018-05-13/R10-maure-de-bretagne/R10C8-prix-de-bercy-prix-rmc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-angers",
+      "R3-montlucon-neris",
+      "R4-fougeres",
+      "R5-cherbourg",
+      "R8-lyon-parilly",
+      "R9-nancy",
+      "R10-maure-de-bretagne"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-horloge.html",
+        "R1C2-prix-du-cherche-midi.html",
+        "R1C3-prix-de-saint-georges.html",
+        "R1C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R1C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R1C6-grand-handicap-de-paris-longchamp.html",
+        "R1C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R1C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-l-horloge.html",
+        "R2C2-prix-du-cherche-midi.html",
+        "R2C3-prix-de-saint-georges.html",
+        "R2C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R2C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R2C6-grand-handicap-de-paris-longchamp.html",
+        "R2C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R2C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R3-montlucon-neris": [
+        "R3C1-prix-de-l-horloge.html",
+        "R3C2-prix-du-cherche-midi.html",
+        "R3C3-prix-de-saint-georges.html",
+        "R3C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R3C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R3C6-grand-handicap-de-paris-longchamp.html",
+        "R3C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R3C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R4-fougeres": [
+        "R4C1-prix-de-l-horloge.html",
+        "R4C2-prix-du-cherche-midi.html",
+        "R4C3-prix-de-saint-georges.html",
+        "R4C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R4C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R4C6-grand-handicap-de-paris-longchamp.html",
+        "R4C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R4C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R5-cherbourg": [
+        "R5C1-prix-de-l-horloge.html",
+        "R5C2-prix-du-cherche-midi.html",
+        "R5C3-prix-de-saint-georges.html",
+        "R5C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R5C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R5C6-grand-handicap-de-paris-longchamp.html",
+        "R5C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R5C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R8-lyon-parilly": [
+        "R8C1-prix-de-l-horloge.html",
+        "R8C2-prix-du-cherche-midi.html",
+        "R8C3-prix-de-saint-georges.html",
+        "R8C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R8C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R8C6-grand-handicap-de-paris-longchamp.html",
+        "R8C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R8C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R9-nancy": [
+        "R9C1-prix-de-l-horloge.html",
+        "R9C2-prix-du-cherche-midi.html",
+        "R9C3-prix-de-saint-georges.html",
+        "R9C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R9C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R9C6-grand-handicap-de-paris-longchamp.html",
+        "R9C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R9C8-prix-de-bercy-prix-rmc.html"
+      ],
+      "R10-maure-de-bretagne": [
+        "R10C1-prix-de-l-horloge.html",
+        "R10C2-prix-du-cherche-midi.html",
+        "R10C3-prix-de-saint-georges.html",
+        "R10C4-the-emirates-poule-d-essai-des-poulains.html",
+        "R10C5-the-emirates-poule-d-essai-des-pouliches.html",
+        "R10C6-grand-handicap-de-paris-longchamp.html",
+        "R10C7-the-president-of-the-uae-cup-coupe-d-europe-des-chevaux-arabes.html",
+        "R10C8-prix-de-bercy-prix-rmc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:26.388039Z"
+}

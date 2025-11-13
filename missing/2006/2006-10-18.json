@@ -1,0 +1,91 @@
+{
+  "date": "2006-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-18",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-18/2006-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-18/R31-stamford-bridge-londres/R31C5-prix-tierce-magazine-geny-courses-rtl.html",
+      "resultats-et-rapports/2006/10/2006-10-18/R31-stamford-bridge-londres/R31C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+      "resultats-et-rapports/2006/10/2006-10-18/R32-lyon-parilly/R32C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+      "resultats-et-rapports/2006/10/2006-10-18/R32-lyon-parilly/R32C2-prix-dufaud-courtage-prix-belle-ile.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-deauville",
+      "R21-zerace",
+      "R30-jacques-chaban-delmas-bordeaux",
+      "R31-stamford-bridge-londres",
+      "R32-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R1C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R1C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R1C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R1C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R1C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R1C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R1C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R2C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R2C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R2C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R2C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R2C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R2C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R2C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R21C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R21C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R21C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R21C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R21C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R21C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R21C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R30-jacques-chaban-delmas-bordeaux": [
+        "R30C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R30C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R30C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R30C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R30C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R30C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R30C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R30C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R31-stamford-bridge-londres": [
+        "R31C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R31C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R31C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R31C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R31C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R31C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R31C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R31C8-prix-de-l-u-n-a-t.html"
+      ],
+      "R32-lyon-parilly": [
+        "R32C1-prix-mingat-loueur-de-vehicules-prix-du-morvan.html",
+        "R32C2-prix-dufaud-courtage-prix-belle-ile.html",
+        "R32C3-prix-la-boule-integrale-prix-de-champagne.html",
+        "R32C4-prix-charcuterie-bobosse-prix-du-dunkerquois.html",
+        "R32C5-prix-tierce-magazine-geny-courses-rtl.html",
+        "R32C6-prix-des-coteaux-du-lyonnais-prix-de-l-estuaire.html",
+        "R32C7-prix-pervenche-fleurs-bron-prix-pays-nicois.html",
+        "R32C8-prix-de-l-u-n-a-t.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:14.346763Z"
+}

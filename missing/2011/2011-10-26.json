@@ -1,0 +1,61 @@
+{
+  "date": "2011-10-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-26",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-26/2011-10-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-26/R1-enghien-soisy/R1C4-prix-de-la-bastille.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R2-fontainebleau/R2C1-prix-de-saint-amand-les-eaux.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R2-fontainebleau/R2C2-prix-de-l-aigle.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R2-fontainebleau/R2C4-prix-de-la-bastille.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R2-fontainebleau/R2C8-prix-des-halles.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R3-marseille-vivaux/R3C7-prix-de-l-hotel-des-monnaies.html",
+      "resultats-et-rapports/2011/10/2011-10-26/R3-marseille-vivaux/R3C8-prix-des-halles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-fontainebleau",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-saint-amand-les-eaux.html",
+        "R1C2-prix-de-l-aigle.html",
+        "R1C3-prix-du-bas-rhin.html",
+        "R1C4-prix-de-la-bastille.html",
+        "R1C5-prix-de-champillon.html",
+        "R1C6-prix-de-sevran.html",
+        "R1C7-prix-de-l-hotel-des-monnaies.html",
+        "R1C8-prix-des-halles.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-de-saint-amand-les-eaux.html",
+        "R2C2-prix-de-l-aigle.html",
+        "R2C3-prix-du-bas-rhin.html",
+        "R2C4-prix-de-la-bastille.html",
+        "R2C5-prix-de-champillon.html",
+        "R2C6-prix-de-sevran.html",
+        "R2C7-prix-de-l-hotel-des-monnaies.html",
+        "R2C8-prix-des-halles.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-saint-amand-les-eaux.html",
+        "R3C2-prix-de-l-aigle.html",
+        "R3C3-prix-du-bas-rhin.html",
+        "R3C4-prix-de-la-bastille.html",
+        "R3C5-prix-de-champillon.html",
+        "R3C6-prix-de-sevran.html",
+        "R3C7-prix-de-l-hotel-des-monnaies.html",
+        "R3C8-prix-des-halles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:22.226214Z"
+}

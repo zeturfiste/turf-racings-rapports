@@ -1,0 +1,80 @@
+{
+  "date": "2021-06-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-10",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-10/2021-06-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-10/R1-paris-longchamp/R1C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R2-dieppe/R2C5-prix-de-la-colonne-astrologique.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R2-dieppe/R2C6-prix-de-picpus.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R3-caen/R3C3-prix-du-musee-de-la-femme.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R3-caen/R3C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R3-caen/R3C5-prix-de-la-colonne-astrologique.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R3-caen/R3C9-prix-de-l-atelier.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R4-marseille-borely/R4C4-prix-des-mathurins.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R4-marseille-borely/R4C5-prix-de-la-colonne-astrologique.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R4-marseille-borely/R4C6-prix-de-picpus.html",
+      "resultats-et-rapports/2021/06/2021-06-10/R4-marseille-borely/R4C9-prix-de-l-atelier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-dieppe",
+      "R3-caen",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-nanterre.html",
+        "R1C2-prix-du-vieux-colombier.html",
+        "R1C3-prix-du-musee-de-la-femme.html",
+        "R1C4-prix-des-mathurins.html",
+        "R1C5-prix-de-la-colonne-astrologique.html",
+        "R1C6-prix-de-picpus.html",
+        "R1C7-prix-du-bel-air.html",
+        "R1C8-prix-de-l-avenir.html",
+        "R1C9-prix-de-l-atelier.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-de-nanterre.html",
+        "R2C2-prix-du-vieux-colombier.html",
+        "R2C3-prix-du-musee-de-la-femme.html",
+        "R2C4-prix-des-mathurins.html",
+        "R2C5-prix-de-la-colonne-astrologique.html",
+        "R2C6-prix-de-picpus.html",
+        "R2C7-prix-du-bel-air.html",
+        "R2C8-prix-de-l-avenir.html",
+        "R2C9-prix-de-l-atelier.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-nanterre.html",
+        "R3C2-prix-du-vieux-colombier.html",
+        "R3C3-prix-du-musee-de-la-femme.html",
+        "R3C4-prix-des-mathurins.html",
+        "R3C5-prix-de-la-colonne-astrologique.html",
+        "R3C6-prix-de-picpus.html",
+        "R3C7-prix-du-bel-air.html",
+        "R3C8-prix-de-l-avenir.html",
+        "R3C9-prix-de-l-atelier.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-de-nanterre.html",
+        "R4C2-prix-du-vieux-colombier.html",
+        "R4C3-prix-du-musee-de-la-femme.html",
+        "R4C4-prix-des-mathurins.html",
+        "R4C5-prix-de-la-colonne-astrologique.html",
+        "R4C6-prix-de-picpus.html",
+        "R4C7-prix-du-bel-air.html",
+        "R4C8-prix-de-l-avenir.html",
+        "R4C9-prix-de-l-atelier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:30.807128Z"
+}

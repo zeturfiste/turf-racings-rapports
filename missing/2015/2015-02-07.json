@@ -1,0 +1,70 @@
+{
+  "date": "2015-02-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-07",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-07/2015-02-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-07/R1-vincennes/R1C2-prix-de-selestat.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R1-vincennes/R1C4-prix-de-munich.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R1-vincennes/R1C7-prix-de-lisieux.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R1-vincennes/R1C9-prix-de-rambouillet.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R2-cagnes-sur-mer/R2C5-prix-de-gournay-en-bray.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R2-cagnes-sur-mer/R2C6-prix-du-bouscat.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R2-cagnes-sur-mer/R2C7-prix-de-lisieux.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R2-cagnes-sur-mer/R2C8-prix-de-verneuil.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R2-cagnes-sur-mer/R2C9-prix-de-rambouillet.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R6-saint-galmier/R6C3-prix-ephrem-houel.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R6-saint-galmier/R6C5-prix-de-gournay-en-bray.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R6-saint-galmier/R6C6-prix-du-bouscat.html",
+      "resultats-et-rapports/2015/02/2015-02-07/R6-saint-galmier/R6C7-prix-de-lisieux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R6-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-morgat.html",
+        "R1C2-prix-de-selestat.html",
+        "R1C3-prix-ephrem-houel.html",
+        "R1C4-prix-de-munich.html",
+        "R1C5-prix-de-gournay-en-bray.html",
+        "R1C6-prix-du-bouscat.html",
+        "R1C7-prix-de-lisieux.html",
+        "R1C8-prix-de-verneuil.html",
+        "R1C9-prix-de-rambouillet.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-morgat.html",
+        "R2C2-prix-de-selestat.html",
+        "R2C3-prix-ephrem-houel.html",
+        "R2C4-prix-de-munich.html",
+        "R2C5-prix-de-gournay-en-bray.html",
+        "R2C6-prix-du-bouscat.html",
+        "R2C7-prix-de-lisieux.html",
+        "R2C8-prix-de-verneuil.html",
+        "R2C9-prix-de-rambouillet.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-de-morgat.html",
+        "R6C2-prix-de-selestat.html",
+        "R6C3-prix-ephrem-houel.html",
+        "R6C4-prix-de-munich.html",
+        "R6C5-prix-de-gournay-en-bray.html",
+        "R6C6-prix-du-bouscat.html",
+        "R6C7-prix-de-lisieux.html",
+        "R6C8-prix-de-verneuil.html",
+        "R6C9-prix-de-rambouillet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:18.762997Z"
+}

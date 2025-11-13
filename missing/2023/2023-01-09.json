@@ -1,0 +1,72 @@
+{
+  "date": "2023-01-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/01/2023-01-09",
+    "date_html": "resultats-et-rapports/2023/01/2023-01-09/2023-01-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/01/2023-01-09/R1-vincennes/R1C8-prix-de-ribeauville.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R3-pau/R3C4-prix-de-saint-brieuc.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R3-pau/R3C5-prix-de-l-aveyron.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R4-toulouse/R4C6-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R7-chateaubriant/R7C4-prix-de-saint-brieuc.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R7-chateaubriant/R7C6-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2023/01/2023-01-09/R7-chateaubriant/R7C8-prix-de-ribeauville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-toulouse",
+      "R7-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-aubervilliers.html",
+        "R1C2-prix-de-cheverny.html",
+        "R1C3-prix-de-montfort.html",
+        "R1C4-prix-de-saint-brieuc.html",
+        "R1C5-prix-de-l-aveyron.html",
+        "R1C6-prix-christelle-zimmer.html",
+        "R1C7-prix-de-douai.html",
+        "R1C8-prix-de-ribeauville.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-d-aubervilliers.html",
+        "R3C2-prix-de-cheverny.html",
+        "R3C3-prix-de-montfort.html",
+        "R3C4-prix-de-saint-brieuc.html",
+        "R3C5-prix-de-l-aveyron.html",
+        "R3C6-prix-christelle-zimmer.html",
+        "R3C7-prix-de-douai.html",
+        "R3C8-prix-de-ribeauville.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-d-aubervilliers.html",
+        "R4C2-prix-de-cheverny.html",
+        "R4C3-prix-de-montfort.html",
+        "R4C4-prix-de-saint-brieuc.html",
+        "R4C5-prix-de-l-aveyron.html",
+        "R4C6-prix-christelle-zimmer.html",
+        "R4C7-prix-de-douai.html",
+        "R4C8-prix-de-ribeauville.html"
+      ],
+      "R7-chateaubriant": [
+        "R7C1-prix-d-aubervilliers.html",
+        "R7C2-prix-de-cheverny.html",
+        "R7C3-prix-de-montfort.html",
+        "R7C4-prix-de-saint-brieuc.html",
+        "R7C5-prix-de-l-aveyron.html",
+        "R7C6-prix-christelle-zimmer.html",
+        "R7C7-prix-de-douai.html",
+        "R7C8-prix-de-ribeauville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:06.161822Z"
+}

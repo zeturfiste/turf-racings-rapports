@@ -1,0 +1,97 @@
+{
+  "date": "2021-09-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-03",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-03/2021-09-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-03/R1-vincennes/R1C1-prix-lampetia.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R1-vincennes/R1C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R1-vincennes/R1C3-prix-diotima.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R3-strasbourg/R3C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R3-strasbourg/R3C3-prix-diotima.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R3-strasbourg/R3C4-prix-eros.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R3-strasbourg/R3C6-prix-dorado.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R3-strasbourg/R3C7-prix-helena.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R4-la-teste-de-buch/R4C3-prix-diotima.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R4-la-teste-de-buch/R4C4-prix-eros.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R4-la-teste-de-buch/R4C6-prix-dorado.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R4-la-teste-de-buch/R4C7-prix-helena.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C1-prix-lampetia.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C3-prix-diotima.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C4-prix-eros.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C5-prix-gisella.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C6-prix-dorado.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R5-laval/R5C7-prix-helena.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C1-prix-lampetia.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C3-prix-diotima.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C4-prix-eros.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C5-prix-gisella.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C6-prix-dorado.html",
+      "resultats-et-rapports/2021/09/2021-09-03/R6-la-capelle/R6C7-prix-helena.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-strasbourg",
+      "R4-la-teste-de-buch",
+      "R5-laval",
+      "R6-la-capelle"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lampetia.html",
+        "R1C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+        "R1C3-prix-diotima.html",
+        "R1C4-prix-eros.html",
+        "R1C5-prix-gisella.html",
+        "R1C6-prix-dorado.html",
+        "R1C7-prix-helena.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-lampetia.html",
+        "R3C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+        "R3C3-prix-diotima.html",
+        "R3C4-prix-eros.html",
+        "R3C5-prix-gisella.html",
+        "R3C6-prix-dorado.html",
+        "R3C7-prix-helena.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-lampetia.html",
+        "R4C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+        "R4C3-prix-diotima.html",
+        "R4C4-prix-eros.html",
+        "R4C5-prix-gisella.html",
+        "R4C6-prix-dorado.html",
+        "R4C7-prix-helena.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-lampetia.html",
+        "R5C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+        "R5C3-prix-diotima.html",
+        "R5C4-prix-eros.html",
+        "R5C5-prix-gisella.html",
+        "R5C6-prix-dorado.html",
+        "R5C7-prix-helena.html"
+      ],
+      "R6-la-capelle": [
+        "R6C1-prix-lampetia.html",
+        "R6C2-etrier-5-ans-q4-prix-herve-ceran-maillard.html",
+        "R6C3-prix-diotima.html",
+        "R6C4-prix-eros.html",
+        "R6C5-prix-gisella.html",
+        "R6C6-prix-dorado.html",
+        "R6C7-prix-helena.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:05.790085Z"
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2021-05-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-01",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-01/2021-05-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-01/R1-saint-cloud/R1C1-prix-empery.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R2-evreux/R2C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R3-hyeres/R3C4-prix-greffulhe.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R3-hyeres/R3C6-prix-cleopatre.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R3-hyeres/R3C9-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R4-graignes/R4C6-prix-cleopatre.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R4-graignes/R4C7-prix-nobiliary.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R4-graignes/R4C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R4-graignes/R4C9-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C1-prix-empery.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C5-prix-du-muguet.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C6-prix-cleopatre.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C7-prix-nobiliary.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R9-cholet/R9C9-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C1-prix-empery.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C2-prix-herbager.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C4-prix-greffulhe.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C5-prix-du-muguet.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C6-prix-cleopatre.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C7-prix-nobiliary.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R10-la-rochelle/R10C9-prix-de-la-croix-verte.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C1-prix-empery.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C2-prix-herbager.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C3-prix-de-l-autoroute-de-l-ouest.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C4-prix-greffulhe.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C5-prix-du-muguet.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C6-prix-cleopatre.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C7-prix-nobiliary.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C8-prix-du-triangle-de-rocquencourt.html",
+      "resultats-et-rapports/2021/05/2021-05-01/R11-pontchateau/R11C9-prix-de-la-croix-verte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-evreux",
+      "R3-hyeres",
+      "R4-graignes",
+      "R9-cholet",
+      "R10-la-rochelle",
+      "R11-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-empery.html",
+        "R1C2-prix-herbager.html",
+        "R1C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R1C4-prix-greffulhe.html",
+        "R1C5-prix-du-muguet.html",
+        "R1C6-prix-cleopatre.html",
+        "R1C7-prix-nobiliary.html",
+        "R1C8-prix-du-triangle-de-rocquencourt.html",
+        "R1C9-prix-de-la-croix-verte.html"
+      ],
+      "R2-evreux": [
+        "R2C1-prix-empery.html",
+        "R2C2-prix-herbager.html",
+        "R2C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R2C4-prix-greffulhe.html",
+        "R2C5-prix-du-muguet.html",
+        "R2C6-prix-cleopatre.html",
+        "R2C7-prix-nobiliary.html",
+        "R2C8-prix-du-triangle-de-rocquencourt.html",
+        "R2C9-prix-de-la-croix-verte.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-empery.html",
+        "R3C2-prix-herbager.html",
+        "R3C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R3C4-prix-greffulhe.html",
+        "R3C5-prix-du-muguet.html",
+        "R3C6-prix-cleopatre.html",
+        "R3C7-prix-nobiliary.html",
+        "R3C8-prix-du-triangle-de-rocquencourt.html",
+        "R3C9-prix-de-la-croix-verte.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-empery.html",
+        "R4C2-prix-herbager.html",
+        "R4C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R4C4-prix-greffulhe.html",
+        "R4C5-prix-du-muguet.html",
+        "R4C6-prix-cleopatre.html",
+        "R4C7-prix-nobiliary.html",
+        "R4C8-prix-du-triangle-de-rocquencourt.html",
+        "R4C9-prix-de-la-croix-verte.html"
+      ],
+      "R9-cholet": [
+        "R9C1-prix-empery.html",
+        "R9C2-prix-herbager.html",
+        "R9C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R9C4-prix-greffulhe.html",
+        "R9C5-prix-du-muguet.html",
+        "R9C6-prix-cleopatre.html",
+        "R9C7-prix-nobiliary.html",
+        "R9C8-prix-du-triangle-de-rocquencourt.html",
+        "R9C9-prix-de-la-croix-verte.html"
+      ],
+      "R10-la-rochelle": [
+        "R10C1-prix-empery.html",
+        "R10C2-prix-herbager.html",
+        "R10C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R10C4-prix-greffulhe.html",
+        "R10C5-prix-du-muguet.html",
+        "R10C6-prix-cleopatre.html",
+        "R10C7-prix-nobiliary.html",
+        "R10C8-prix-du-triangle-de-rocquencourt.html",
+        "R10C9-prix-de-la-croix-verte.html"
+      ],
+      "R11-pontchateau": [
+        "R11C1-prix-empery.html",
+        "R11C2-prix-herbager.html",
+        "R11C3-prix-de-l-autoroute-de-l-ouest.html",
+        "R11C4-prix-greffulhe.html",
+        "R11C5-prix-du-muguet.html",
+        "R11C6-prix-cleopatre.html",
+        "R11C7-prix-nobiliary.html",
+        "R11C8-prix-du-triangle-de-rocquencourt.html",
+        "R11C9-prix-de-la-croix-verte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:14.505177Z"
+}

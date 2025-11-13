@@ -1,0 +1,95 @@
+{
+  "date": "2025-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-25",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-25/2025-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-25/R1-chantilly/R1C1-prix-de-la-chambre-du-duc.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R1-chantilly/R1C4-prix-de-la-chambre-de-marbre.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R1-chantilly/R1C9-prix-du-salon-violet.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C1-prix-de-la-chambre-du-duc.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C5-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C6-prix-du-salon-des-conde.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C7-prix-du-salon-de-guise.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C8-prix-de-la-montignette.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R3-la-teste-de-buch/R3C9-prix-du-salon-violet.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C1-prix-de-la-chambre-du-duc.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C2-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C3-prix-du-cabinet-des-gemmes.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C4-prix-de-la-chambre-de-marbre.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C6-prix-du-salon-des-conde.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C7-prix-du-salon-de-guise.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C8-prix-de-la-montignette.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R4-laval/R4C9-prix-du-salon-violet.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C1-prix-de-la-chambre-du-duc.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C2-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C3-prix-du-cabinet-des-gemmes.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C4-prix-de-la-chambre-de-marbre.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C5-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C6-prix-du-salon-des-conde.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C7-prix-du-salon-de-guise.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C8-prix-de-la-montignette.html",
+      "resultats-et-rapports/2025/09/2025-09-25/R7-graignes/R7C9-prix-du-salon-violet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-la-teste-de-buch",
+      "R4-laval",
+      "R7-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-chambre-du-duc.html",
+        "R1C2-prix-des-terriers-du-houx.html",
+        "R1C3-prix-du-cabinet-des-gemmes.html",
+        "R1C4-prix-de-la-chambre-de-marbre.html",
+        "R1C5-prix-de-la-mare-aux-oiseaux.html",
+        "R1C6-prix-du-salon-des-conde.html",
+        "R1C7-prix-du-salon-de-guise.html",
+        "R1C8-prix-de-la-montignette.html",
+        "R1C9-prix-du-salon-violet.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-la-chambre-du-duc.html",
+        "R3C2-prix-des-terriers-du-houx.html",
+        "R3C3-prix-du-cabinet-des-gemmes.html",
+        "R3C4-prix-de-la-chambre-de-marbre.html",
+        "R3C5-prix-de-la-mare-aux-oiseaux.html",
+        "R3C6-prix-du-salon-des-conde.html",
+        "R3C7-prix-du-salon-de-guise.html",
+        "R3C8-prix-de-la-montignette.html",
+        "R3C9-prix-du-salon-violet.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-chambre-du-duc.html",
+        "R4C2-prix-des-terriers-du-houx.html",
+        "R4C3-prix-du-cabinet-des-gemmes.html",
+        "R4C4-prix-de-la-chambre-de-marbre.html",
+        "R4C5-prix-de-la-mare-aux-oiseaux.html",
+        "R4C6-prix-du-salon-des-conde.html",
+        "R4C7-prix-du-salon-de-guise.html",
+        "R4C8-prix-de-la-montignette.html",
+        "R4C9-prix-du-salon-violet.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-de-la-chambre-du-duc.html",
+        "R7C2-prix-des-terriers-du-houx.html",
+        "R7C3-prix-du-cabinet-des-gemmes.html",
+        "R7C4-prix-de-la-chambre-de-marbre.html",
+        "R7C5-prix-de-la-mare-aux-oiseaux.html",
+        "R7C6-prix-du-salon-des-conde.html",
+        "R7C7-prix-du-salon-de-guise.html",
+        "R7C8-prix-de-la-montignette.html",
+        "R7C9-prix-du-salon-violet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:15.274459Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2006-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-07",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-07/2006-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-fontainebleau"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R1C2-prix-general-hubert-bonneau.html",
+        "R1C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R1C4-prix-pierre-hunault.html",
+        "R1C5-prix-albert-viel.html",
+        "R1C6-prix-pierre-seche.html",
+        "R1C7-prix-henri-desmontils.html",
+        "R1C8-prix-baron-guy-de-meynard.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R2C2-prix-general-hubert-bonneau.html",
+        "R2C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R2C4-prix-pierre-hunault.html",
+        "R2C5-prix-albert-viel.html",
+        "R2C6-prix-pierre-seche.html",
+        "R2C7-prix-henri-desmontils.html",
+        "R2C8-prix-baron-guy-de-meynard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:36.568121Z"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2014-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-24",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-24/2014-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-24/R2-enghien-soisy/R2C1-prix-de-l-ecole-des-courses-hippiques.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R2-enghien-soisy/R2C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R2-enghien-soisy/R2C6-prix-renault-scauto-saint-lo.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R2-enghien-soisy/R2C8-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R3-lyon-la-soie/R3C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R3-lyon-la-soie/R3C3-prix-du-conseil-general-de-la-manche.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R3-lyon-la-soie/R3C4-prix-equidia-groupe-a.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R3-lyon-la-soie/R3C5-prix-equidia-groupe-b.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R3-lyon-la-soie/R3C7-prix-filiere-qualite-race-normande.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R6-marseille-borely/R6C5-prix-equidia-groupe-b.html",
+      "resultats-et-rapports/2014/09/2014-09-24/R6-marseille-borely/R6C7-prix-filiere-qualite-race-normande.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-graignes",
+      "R2-enghien-soisy",
+      "R3-lyon-la-soie",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-graignes": [
+        "R1C1-prix-de-l-ecole-des-courses-hippiques.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-du-conseil-general-de-la-manche.html",
+        "R1C4-prix-equidia-groupe-a.html",
+        "R1C5-prix-equidia-groupe-b.html",
+        "R1C6-prix-renault-scauto-saint-lo.html",
+        "R1C7-prix-filiere-qualite-race-normande.html",
+        "R1C8-prix-du-champagne-de-castelnau.html",
+        "R1C9-prix-carrus-paris-mutuel.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-de-l-ecole-des-courses-hippiques.html",
+        "R2C2-grand-national-du-trot-paris-turf.html",
+        "R2C3-prix-du-conseil-general-de-la-manche.html",
+        "R2C4-prix-equidia-groupe-a.html",
+        "R2C5-prix-equidia-groupe-b.html",
+        "R2C6-prix-renault-scauto-saint-lo.html",
+        "R2C7-prix-filiere-qualite-race-normande.html",
+        "R2C8-prix-du-champagne-de-castelnau.html",
+        "R2C9-prix-carrus-paris-mutuel.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-de-l-ecole-des-courses-hippiques.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-du-conseil-general-de-la-manche.html",
+        "R3C4-prix-equidia-groupe-a.html",
+        "R3C5-prix-equidia-groupe-b.html",
+        "R3C6-prix-renault-scauto-saint-lo.html",
+        "R3C7-prix-filiere-qualite-race-normande.html",
+        "R3C8-prix-du-champagne-de-castelnau.html",
+        "R3C9-prix-carrus-paris-mutuel.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-de-l-ecole-des-courses-hippiques.html",
+        "R6C2-grand-national-du-trot-paris-turf.html",
+        "R6C3-prix-du-conseil-general-de-la-manche.html",
+        "R6C4-prix-equidia-groupe-a.html",
+        "R6C5-prix-equidia-groupe-b.html",
+        "R6C6-prix-renault-scauto-saint-lo.html",
+        "R6C7-prix-filiere-qualite-race-normande.html",
+        "R6C8-prix-du-champagne-de-castelnau.html",
+        "R6C9-prix-carrus-paris-mutuel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:37.744450Z"
+}

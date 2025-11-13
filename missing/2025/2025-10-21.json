@@ -1,0 +1,70 @@
+{
+  "date": "2025-10-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-21",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-21/2025-10-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-21/R1-clairefontaine/R1C4-prix-atelier-coloriages-prix-de-fleurigny.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R1-clairefontaine/R1C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R1-clairefontaine/R1C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C2-prix-boutique-de-clairefontaine-prix-de-la-couture-bardin.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C3-prix-concours-de-sculpture-citrouilles-halloween-24-10-prix-des-astrances.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C4-prix-atelier-coloriages-prix-de-fleurigny.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C5-prix-bapteme-a-poneys-prix-madina.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R3-bordeaux-le-bouscat/R3C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C1-prix-genybet-prix-des-equidays.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C2-prix-boutique-de-clairefontaine-prix-de-la-couture-bardin.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C3-prix-concours-de-sculpture-citrouilles-halloween-24-10-prix-des-astrances.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C5-prix-bapteme-a-poneys-prix-madina.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C6-prix-hippo-candy-prix-filiberto.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+      "resultats-et-rapports/2025/10/2025-10-21/R4-vincennes/R4C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-bordeaux-le-bouscat",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-genybet-prix-des-equidays.html",
+        "R1C2-prix-boutique-de-clairefontaine-prix-de-la-couture-bardin.html",
+        "R1C3-prix-concours-de-sculpture-citrouilles-halloween-24-10-prix-des-astrances.html",
+        "R1C4-prix-atelier-coloriages-prix-de-fleurigny.html",
+        "R1C5-prix-bapteme-a-poneys-prix-madina.html",
+        "R1C6-prix-hippo-candy-prix-filiberto.html",
+        "R1C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+        "R1C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-genybet-prix-des-equidays.html",
+        "R3C2-prix-boutique-de-clairefontaine-prix-de-la-couture-bardin.html",
+        "R3C3-prix-concours-de-sculpture-citrouilles-halloween-24-10-prix-des-astrances.html",
+        "R3C4-prix-atelier-coloriages-prix-de-fleurigny.html",
+        "R3C5-prix-bapteme-a-poneys-prix-madina.html",
+        "R3C6-prix-hippo-candy-prix-filiberto.html",
+        "R3C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+        "R3C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-genybet-prix-des-equidays.html",
+        "R4C2-prix-boutique-de-clairefontaine-prix-de-la-couture-bardin.html",
+        "R4C3-prix-concours-de-sculpture-citrouilles-halloween-24-10-prix-des-astrances.html",
+        "R4C4-prix-atelier-coloriages-prix-de-fleurigny.html",
+        "R4C5-prix-bapteme-a-poneys-prix-madina.html",
+        "R4C6-prix-hippo-candy-prix-filiberto.html",
+        "R4C7-prix-concours-deguisement-halloween-24-10-prix-du-bottey-handicap-challenge.html",
+        "R4C8-prix-vives-les-vacances-avec-l-artiste-rene-sedilliere-prix-de-l-etablissement-des-ventes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:24.368339Z"
+}

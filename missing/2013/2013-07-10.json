@@ -1,0 +1,79 @@
+{
+  "date": "2013-07-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/07/2013-07-10",
+    "date_html": "resultats-et-rapports/2013/07/2013-07-10/2013-07-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/07/2013-07-10/R1-enghien-soisy/R1C7-prix-du-palais-de-chaillot.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C2-prix-de-rochechouart.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C3-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C4-prix-de-la-place-du-mail.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C5-prix-de-la-tour-saint-jacques.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C6-prix-du-parc-montsouris.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C7-prix-du-palais-de-chaillot.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R2-maisons-laffitte/R2C8-prix-d-escurolles.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R3-beaumont-de-lomagne/R3C1-prix-de-l-opera.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R3-beaumont-de-lomagne/R3C2-prix-de-rochechouart.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R3-beaumont-de-lomagne/R3C3-prix-quiproquo-ii.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R3-beaumont-de-lomagne/R3C8-prix-d-escurolles.html",
+      "resultats-et-rapports/2013/07/2013-07-10/R5-les-sables-d-olonne/R5C4-prix-de-la-place-du-mail.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-maisons-laffitte",
+      "R3-beaumont-de-lomagne",
+      "R5-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-l-opera.html",
+        "R1C2-prix-de-rochechouart.html",
+        "R1C3-prix-quiproquo-ii.html",
+        "R1C4-prix-de-la-place-du-mail.html",
+        "R1C5-prix-de-la-tour-saint-jacques.html",
+        "R1C6-prix-du-parc-montsouris.html",
+        "R1C7-prix-du-palais-de-chaillot.html",
+        "R1C8-prix-d-escurolles.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-de-l-opera.html",
+        "R2C2-prix-de-rochechouart.html",
+        "R2C3-prix-quiproquo-ii.html",
+        "R2C4-prix-de-la-place-du-mail.html",
+        "R2C5-prix-de-la-tour-saint-jacques.html",
+        "R2C6-prix-du-parc-montsouris.html",
+        "R2C7-prix-du-palais-de-chaillot.html",
+        "R2C8-prix-d-escurolles.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-de-l-opera.html",
+        "R3C2-prix-de-rochechouart.html",
+        "R3C3-prix-quiproquo-ii.html",
+        "R3C4-prix-de-la-place-du-mail.html",
+        "R3C5-prix-de-la-tour-saint-jacques.html",
+        "R3C6-prix-du-parc-montsouris.html",
+        "R3C7-prix-du-palais-de-chaillot.html",
+        "R3C8-prix-d-escurolles.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-de-l-opera.html",
+        "R5C2-prix-de-rochechouart.html",
+        "R5C3-prix-quiproquo-ii.html",
+        "R5C4-prix-de-la-place-du-mail.html",
+        "R5C5-prix-de-la-tour-saint-jacques.html",
+        "R5C6-prix-du-parc-montsouris.html",
+        "R5C7-prix-du-palais-de-chaillot.html",
+        "R5C8-prix-d-escurolles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:19.390920Z"
+}

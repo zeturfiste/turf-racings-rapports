@@ -1,0 +1,82 @@
+{
+  "date": "2017-04-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-27",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-27/2017-04-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-27/R1-compiegne/R1C2-prix-la-bate.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R1-compiegne/R1C3-prix-gaston-branere.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R2-toulouse/R2C4-prix-quomodo.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R2-toulouse/R2C5-prix-de-castets.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R2-toulouse/R2C7-prix-hopper.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R2-toulouse/R2C8-prix-styrax.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C1-prix-de-sospel.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C2-prix-la-bate.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C3-prix-gaston-branere.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C4-prix-quomodo.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C5-prix-de-castets.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C6-prix-romati.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C7-prix-hopper.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R3-salon-de-provence/R3C8-prix-styrax.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R4-laval/R4C2-prix-la-bate.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R4-laval/R4C7-prix-hopper.html",
+      "resultats-et-rapports/2017/04/2017-04-27/R4-laval/R4C8-prix-styrax.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-toulouse",
+      "R3-salon-de-provence",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-sospel.html",
+        "R1C2-prix-la-bate.html",
+        "R1C3-prix-gaston-branere.html",
+        "R1C4-prix-quomodo.html",
+        "R1C5-prix-de-castets.html",
+        "R1C6-prix-romati.html",
+        "R1C7-prix-hopper.html",
+        "R1C8-prix-styrax.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-de-sospel.html",
+        "R2C2-prix-la-bate.html",
+        "R2C3-prix-gaston-branere.html",
+        "R2C4-prix-quomodo.html",
+        "R2C5-prix-de-castets.html",
+        "R2C6-prix-romati.html",
+        "R2C7-prix-hopper.html",
+        "R2C8-prix-styrax.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-sospel.html",
+        "R3C2-prix-la-bate.html",
+        "R3C3-prix-gaston-branere.html",
+        "R3C4-prix-quomodo.html",
+        "R3C5-prix-de-castets.html",
+        "R3C6-prix-romati.html",
+        "R3C7-prix-hopper.html",
+        "R3C8-prix-styrax.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-sospel.html",
+        "R4C2-prix-la-bate.html",
+        "R4C3-prix-gaston-branere.html",
+        "R4C4-prix-quomodo.html",
+        "R4C5-prix-de-castets.html",
+        "R4C6-prix-romati.html",
+        "R4C7-prix-hopper.html",
+        "R4C8-prix-styrax.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:26.499403Z"
+}

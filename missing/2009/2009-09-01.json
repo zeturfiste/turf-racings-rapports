@@ -1,0 +1,90 @@
+{
+  "date": "2009-09-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/09/2009-09-01",
+    "date_html": "resultats-et-rapports/2009/09/2009-09-01/2009-09-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C1-prix-du-conservatoire.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C2-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C3-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C4-prix-de-liancourt.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R1-longchamp/R1C8-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R2-saint-malo/R2C1-prix-du-conservatoire.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R2-saint-malo/R2C2-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R2-saint-malo/R2C3-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R2-saint-malo/R2C5-prix-de-la-tour-des-dames.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R2-saint-malo/R2C8-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C1-prix-du-conservatoire.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C2-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C3-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C4-prix-de-liancourt.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C5-prix-de-la-tour-des-dames.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C6-prix-du-musee-des-arts-decoratifs.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R3-vincennes/R3C8-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C1-prix-du-conservatoire.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C2-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C3-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C4-prix-de-liancourt.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C7-prix-de-la-vieille-route.html",
+      "resultats-et-rapports/2009/09/2009-09-01/R31-zerace/R31C8-prix-du-jeu-de-paume.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-saint-malo",
+      "R3-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-conservatoire.html",
+        "R1C2-prix-de-l-orangerie.html",
+        "R1C3-prix-des-pavillons-de-bercy.html",
+        "R1C4-prix-de-liancourt.html",
+        "R1C5-prix-de-la-tour-des-dames.html",
+        "R1C6-prix-du-musee-des-arts-decoratifs.html",
+        "R1C7-prix-de-la-vieille-route.html",
+        "R1C8-prix-du-jeu-de-paume.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-du-conservatoire.html",
+        "R2C2-prix-de-l-orangerie.html",
+        "R2C3-prix-des-pavillons-de-bercy.html",
+        "R2C4-prix-de-liancourt.html",
+        "R2C5-prix-de-la-tour-des-dames.html",
+        "R2C6-prix-du-musee-des-arts-decoratifs.html",
+        "R2C7-prix-de-la-vieille-route.html",
+        "R2C8-prix-du-jeu-de-paume.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-conservatoire.html",
+        "R3C2-prix-de-l-orangerie.html",
+        "R3C3-prix-des-pavillons-de-bercy.html",
+        "R3C4-prix-de-liancourt.html",
+        "R3C5-prix-de-la-tour-des-dames.html",
+        "R3C6-prix-du-musee-des-arts-decoratifs.html",
+        "R3C7-prix-de-la-vieille-route.html",
+        "R3C8-prix-du-jeu-de-paume.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-conservatoire.html",
+        "R31C2-prix-de-l-orangerie.html",
+        "R31C3-prix-des-pavillons-de-bercy.html",
+        "R31C4-prix-de-liancourt.html",
+        "R31C5-prix-de-la-tour-des-dames.html",
+        "R31C6-prix-du-musee-des-arts-decoratifs.html",
+        "R31C7-prix-de-la-vieille-route.html",
+        "R31C8-prix-du-jeu-de-paume.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:32:30.023188Z"
+}

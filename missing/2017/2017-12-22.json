@@ -1,0 +1,52 @@
+{
+  "date": "2017-12-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-22",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-22/2017-12-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-22/R1-vincennes/R1C1-prix-sans-dire-oui.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R1-vincennes/R1C2-prix-d-amboise.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R3-pontchateau/R3C4-prix-de-pierrefonds.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R3-pontchateau/R3C5-prix-d-evrecy.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R3-pontchateau/R3C6-prix-de-pons.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R3-pontchateau/R3C8-prix-de-conches-groupe-a.html",
+      "resultats-et-rapports/2017/12/2017-12-22/R3-pontchateau/R3C9-prix-de-conches-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-sans-dire-oui.html",
+        "R1C2-prix-d-amboise.html",
+        "R1C3-prix-emmanuel-margouty.html",
+        "R1C4-prix-de-pierrefonds.html",
+        "R1C5-prix-d-evrecy.html",
+        "R1C6-prix-de-pons.html",
+        "R1C7-prix-de-mortemart.html",
+        "R1C8-prix-de-conches-groupe-a.html",
+        "R1C9-prix-de-conches-groupe-b.html"
+      ],
+      "R3-pontchateau": [
+        "R3C1-prix-sans-dire-oui.html",
+        "R3C2-prix-d-amboise.html",
+        "R3C3-prix-emmanuel-margouty.html",
+        "R3C4-prix-de-pierrefonds.html",
+        "R3C5-prix-d-evrecy.html",
+        "R3C6-prix-de-pons.html",
+        "R3C7-prix-de-mortemart.html",
+        "R3C8-prix-de-conches-groupe-a.html",
+        "R3C9-prix-de-conches-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:45.666315Z"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2012-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-25",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-25/2012-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C1-prix-calabrais.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C2-prix-isopani.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C3-prix-kargal.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C4-prix-robert-lejeune.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C5-prix-marittimo.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C6-prix-fezensac.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R1-auteuil/R1C7-prix-le-gourzy.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R2-lyon-la-soie/R2C3-prix-kargal.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R2-lyon-la-soie/R2C7-prix-le-gourzy.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R3-les-sables-d-olonne/R3C6-prix-fezensac.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R3-les-sables-d-olonne/R3C7-prix-le-gourzy.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R4-vincennes/R4C5-prix-marittimo.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R4-vincennes/R4C6-prix-fezensac.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R4-vincennes/R4C7-prix-le-gourzy.html",
+      "resultats-et-rapports/2012/09/2012-09-25/R4-vincennes/R4C8-prix-hunorisk.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-la-soie",
+      "R3-les-sables-d-olonne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-calabrais.html",
+        "R1C2-prix-isopani.html",
+        "R1C3-prix-kargal.html",
+        "R1C4-prix-robert-lejeune.html",
+        "R1C5-prix-marittimo.html",
+        "R1C6-prix-fezensac.html",
+        "R1C7-prix-le-gourzy.html",
+        "R1C8-prix-hunorisk.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-calabrais.html",
+        "R2C2-prix-isopani.html",
+        "R2C3-prix-kargal.html",
+        "R2C4-prix-robert-lejeune.html",
+        "R2C5-prix-marittimo.html",
+        "R2C6-prix-fezensac.html",
+        "R2C7-prix-le-gourzy.html",
+        "R2C8-prix-hunorisk.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-calabrais.html",
+        "R3C2-prix-isopani.html",
+        "R3C3-prix-kargal.html",
+        "R3C4-prix-robert-lejeune.html",
+        "R3C5-prix-marittimo.html",
+        "R3C6-prix-fezensac.html",
+        "R3C7-prix-le-gourzy.html",
+        "R3C8-prix-hunorisk.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-calabrais.html",
+        "R4C2-prix-isopani.html",
+        "R4C3-prix-kargal.html",
+        "R4C4-prix-robert-lejeune.html",
+        "R4C5-prix-marittimo.html",
+        "R4C6-prix-fezensac.html",
+        "R4C7-prix-le-gourzy.html",
+        "R4C8-prix-hunorisk.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:57.435949Z"
+}

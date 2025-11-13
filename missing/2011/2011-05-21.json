@@ -1,0 +1,99 @@
+{
+  "date": "2011-05-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-21",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-21/2011-05-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-21/R1-maisons-laffitte/R1C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R1-maisons-laffitte/R1C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R1-maisons-laffitte/R1C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C1-prix-kefalin-prix-so-british.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C4-grand-handicap-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R2-caen/R2C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R3-vichy/R3C1-prix-kefalin-prix-so-british.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R3-vichy/R3C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R3-vichy/R3C4-grand-handicap-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R5-cavaillon/R5C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R5-cavaillon/R5C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C1-prix-kefalin-prix-so-british.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C4-grand-handicap-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+      "resultats-et-rapports/2011/05/2011-05-21/R8-amiens/R8C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-caen",
+      "R3-vichy",
+      "R5-cavaillon",
+      "R8-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-kefalin-prix-so-british.html",
+        "R1C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+        "R1C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+        "R1C4-grand-handicap-de-maisons-laffitte.html",
+        "R1C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+        "R1C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+        "R1C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+        "R1C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-kefalin-prix-so-british.html",
+        "R2C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+        "R2C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+        "R2C4-grand-handicap-de-maisons-laffitte.html",
+        "R2C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+        "R2C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+        "R2C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+        "R2C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-kefalin-prix-so-british.html",
+        "R3C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+        "R3C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+        "R3C4-grand-handicap-de-maisons-laffitte.html",
+        "R3C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+        "R3C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+        "R3C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+        "R3C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R5-cavaillon": [
+        "R5C1-prix-kefalin-prix-so-british.html",
+        "R5C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+        "R5C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+        "R5C4-grand-handicap-de-maisons-laffitte.html",
+        "R5C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+        "R5C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+        "R5C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+        "R5C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R8-amiens": [
+        "R8C1-prix-kefalin-prix-so-british.html",
+        "R8C2-prix-du-buisson-richard-prix-du-centre-commercial-montesson.html",
+        "R8C3-prix-du-conseil-general-des-yvelines-coupe-des-5-nations-world-cup.html",
+        "R8C4-grand-handicap-de-maisons-laffitte.html",
+        "R8C5-prix-double-rose-prix-du-golf-de-maisons-laffitte.html",
+        "R8C6-prix-avenger-prix-des-boucles-du-coeur-carrefour-montesson-sartrouville.html",
+        "R8C7-prix-de-carrieres-sous-bois-prix-de-mesnil-le-roi.html",
+        "R8C8-prix-de-la-plaine-d-acheres-prix-du-parc-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:34.838196Z"
+}

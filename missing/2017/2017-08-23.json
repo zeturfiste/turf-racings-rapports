@@ -1,0 +1,81 @@
+{
+  "date": "2017-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-23",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-23/2017-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-23/R3-saint-malo/R3C1-prix-de-beaune.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R3-saint-malo/R3C7-prix-d-epernay.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R3-saint-malo/R3C8-prix-du-perigord.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R4-vichy/R4C1-prix-de-beaune.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R4-vichy/R4C2-prix-de-segre.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R4-vichy/R4C4-prix-d-antibes.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R4-vichy/R4C5-prix-de-tours.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R4-vichy/R4C7-prix-d-epernay.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C1-prix-de-beaune.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C2-prix-de-segre.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C3-prix-de-noailles.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C4-prix-d-antibes.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C5-prix-de-tours.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C6-prix-de-jussey.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C7-prix-d-epernay.html",
+      "resultats-et-rapports/2017/08/2017-08-23/R5-cagnes-sur-mer/R5C8-prix-du-perigord.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-saint-malo",
+      "R4-vichy",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-beaune.html",
+        "R1C2-prix-de-segre.html",
+        "R1C3-prix-de-noailles.html",
+        "R1C4-prix-d-antibes.html",
+        "R1C5-prix-de-tours.html",
+        "R1C6-prix-de-jussey.html",
+        "R1C7-prix-d-epernay.html",
+        "R1C8-prix-du-perigord.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-de-beaune.html",
+        "R3C2-prix-de-segre.html",
+        "R3C3-prix-de-noailles.html",
+        "R3C4-prix-d-antibes.html",
+        "R3C5-prix-de-tours.html",
+        "R3C6-prix-de-jussey.html",
+        "R3C7-prix-d-epernay.html",
+        "R3C8-prix-du-perigord.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-de-beaune.html",
+        "R4C2-prix-de-segre.html",
+        "R4C3-prix-de-noailles.html",
+        "R4C4-prix-d-antibes.html",
+        "R4C5-prix-de-tours.html",
+        "R4C6-prix-de-jussey.html",
+        "R4C7-prix-d-epernay.html",
+        "R4C8-prix-du-perigord.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-beaune.html",
+        "R5C2-prix-de-segre.html",
+        "R5C3-prix-de-noailles.html",
+        "R5C4-prix-d-antibes.html",
+        "R5C5-prix-de-tours.html",
+        "R5C6-prix-de-jussey.html",
+        "R5C7-prix-d-epernay.html",
+        "R5C8-prix-du-perigord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:05.607092Z"
+}

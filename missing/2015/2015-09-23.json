@@ -1,0 +1,99 @@
+{
+  "date": "2015-09-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/09/2015-09-23",
+    "date_html": "resultats-et-rapports/2015/09/2015-09-23/2015-09-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C3-prix-du-clos-saint-marc.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C4-prix-du-chemin-des-abreuvoirs.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C5-prix-de-la-ville-d-argentan-groupe-a.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C6-prix-de-la-ville-d-argentan-groupe-b.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C7-prix-des-provinces.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C8-prix-du-paty.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R1-argentan/R1C9-prix-du-point-pmu-le-forum.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C1-prix-du-journal-de-l-orne.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C3-prix-du-clos-saint-marc.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C4-prix-du-chemin-des-abreuvoirs.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C5-prix-de-la-ville-d-argentan-groupe-a.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C6-prix-de-la-ville-d-argentan-groupe-b.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C7-prix-des-provinces.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C8-prix-du-paty.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R2-enghien-soisy/R2C9-prix-du-point-pmu-le-forum.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C1-prix-du-journal-de-l-orne.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C3-prix-du-clos-saint-marc.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C5-prix-de-la-ville-d-argentan-groupe-a.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C6-prix-de-la-ville-d-argentan-groupe-b.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C7-prix-des-provinces.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R3-lyon-la-soie/R3C8-prix-du-paty.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C3-prix-du-clos-saint-marc.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C4-prix-du-chemin-des-abreuvoirs.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C5-prix-de-la-ville-d-argentan-groupe-a.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C6-prix-de-la-ville-d-argentan-groupe-b.html",
+      "resultats-et-rapports/2015/09/2015-09-23/R6-marseille-borely/R6C8-prix-du-paty.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-argentan",
+      "R2-enghien-soisy",
+      "R3-lyon-la-soie",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-argentan": [
+        "R1C1-prix-du-journal-de-l-orne.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-du-clos-saint-marc.html",
+        "R1C4-prix-du-chemin-des-abreuvoirs.html",
+        "R1C5-prix-de-la-ville-d-argentan-groupe-a.html",
+        "R1C6-prix-de-la-ville-d-argentan-groupe-b.html",
+        "R1C7-prix-des-provinces.html",
+        "R1C8-prix-du-paty.html",
+        "R1C9-prix-du-point-pmu-le-forum.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-journal-de-l-orne.html",
+        "R2C2-grand-national-du-trot-paris-turf.html",
+        "R2C3-prix-du-clos-saint-marc.html",
+        "R2C4-prix-du-chemin-des-abreuvoirs.html",
+        "R2C5-prix-de-la-ville-d-argentan-groupe-a.html",
+        "R2C6-prix-de-la-ville-d-argentan-groupe-b.html",
+        "R2C7-prix-des-provinces.html",
+        "R2C8-prix-du-paty.html",
+        "R2C9-prix-du-point-pmu-le-forum.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-du-journal-de-l-orne.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-du-clos-saint-marc.html",
+        "R3C4-prix-du-chemin-des-abreuvoirs.html",
+        "R3C5-prix-de-la-ville-d-argentan-groupe-a.html",
+        "R3C6-prix-de-la-ville-d-argentan-groupe-b.html",
+        "R3C7-prix-des-provinces.html",
+        "R3C8-prix-du-paty.html",
+        "R3C9-prix-du-point-pmu-le-forum.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-du-journal-de-l-orne.html",
+        "R6C2-grand-national-du-trot-paris-turf.html",
+        "R6C3-prix-du-clos-saint-marc.html",
+        "R6C4-prix-du-chemin-des-abreuvoirs.html",
+        "R6C5-prix-de-la-ville-d-argentan-groupe-a.html",
+        "R6C6-prix-de-la-ville-d-argentan-groupe-b.html",
+        "R6C7-prix-des-provinces.html",
+        "R6C8-prix-du-paty.html",
+        "R6C9-prix-du-point-pmu-le-forum.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:33.496590Z"
+}

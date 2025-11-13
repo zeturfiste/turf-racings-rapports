@@ -1,0 +1,56 @@
+{
+  "date": "2006-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/07/2006-07-25",
+    "date_html": "resultats-et-rapports/2006/07/2006-07-25/2006-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/07/2006-07-25/R4-pornichet-la-baule/R4C1-prix-du-grand-casino-de-dieppe-groupe-partouche.html",
+      "resultats-et-rapports/2006/07/2006-07-25/R4-pornichet-la-baule/R4C4-prix-roger-duchene.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-cabourg",
+      "R4-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-du-grand-casino-de-dieppe-groupe-partouche.html",
+        "R1C2-prix-katko.html",
+        "R1C3-prix-du-credit-agricole-normandie-seine.html",
+        "R1C4-prix-roger-duchene.html",
+        "R1C5-grand-steeple-chase-cross-country-de-la-ville-de-dieppe.html",
+        "R1C6-grand-steeple-chase-de-dieppe.html",
+        "R1C7-prix-de-la-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R1C8-prix-francois-de-chevigny.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-du-grand-casino-de-dieppe-groupe-partouche.html",
+        "R2C2-prix-katko.html",
+        "R2C3-prix-du-credit-agricole-normandie-seine.html",
+        "R2C4-prix-roger-duchene.html",
+        "R2C5-grand-steeple-chase-cross-country-de-la-ville-de-dieppe.html",
+        "R2C6-grand-steeple-chase-de-dieppe.html",
+        "R2C7-prix-de-la-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R2C8-prix-francois-de-chevigny.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-du-grand-casino-de-dieppe-groupe-partouche.html",
+        "R4C2-prix-katko.html",
+        "R4C3-prix-du-credit-agricole-normandie-seine.html",
+        "R4C4-prix-roger-duchene.html",
+        "R4C5-grand-steeple-chase-cross-country-de-la-ville-de-dieppe.html",
+        "R4C6-grand-steeple-chase-de-dieppe.html",
+        "R4C7-prix-de-la-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R4C8-prix-francois-de-chevigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:50.305791Z"
+}

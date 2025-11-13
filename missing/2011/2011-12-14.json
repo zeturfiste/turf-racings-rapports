@@ -1,0 +1,69 @@
+{
+  "date": "2011-12-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-14",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-14/2011-12-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-14/R1-vincennes/R1C5-prix-auguste-francois.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R1-vincennes/R1C7-prix-de-villefranche.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C3-prix-de-ploubalay.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C4-prix-de-fos-sur-mer.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C5-prix-auguste-francois.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C6-prix-des-camelias.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C7-prix-de-villefranche.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R2-cagnes-sur-mer/R2C8-prix-de-la-drome.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C1-prix-poitou-charentes.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C2-prix-de-luxe.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C3-prix-de-ploubalay.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C5-prix-auguste-francois.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C6-prix-des-camelias.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C7-prix-de-villefranche.html",
+      "resultats-et-rapports/2011/12/2011-12-14/R3-angers/R3C8-prix-de-la-drome.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-poitou-charentes.html",
+        "R1C2-prix-de-luxe.html",
+        "R1C3-prix-de-ploubalay.html",
+        "R1C4-prix-de-fos-sur-mer.html",
+        "R1C5-prix-auguste-francois.html",
+        "R1C6-prix-des-camelias.html",
+        "R1C7-prix-de-villefranche.html",
+        "R1C8-prix-de-la-drome.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-poitou-charentes.html",
+        "R2C2-prix-de-luxe.html",
+        "R2C3-prix-de-ploubalay.html",
+        "R2C4-prix-de-fos-sur-mer.html",
+        "R2C5-prix-auguste-francois.html",
+        "R2C6-prix-des-camelias.html",
+        "R2C7-prix-de-villefranche.html",
+        "R2C8-prix-de-la-drome.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-poitou-charentes.html",
+        "R3C2-prix-de-luxe.html",
+        "R3C3-prix-de-ploubalay.html",
+        "R3C4-prix-de-fos-sur-mer.html",
+        "R3C5-prix-auguste-francois.html",
+        "R3C6-prix-des-camelias.html",
+        "R3C7-prix-de-villefranche.html",
+        "R3C8-prix-de-la-drome.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:35.914240Z"
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2021-01-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-11",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-11/2021-01-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-11/R3-pau/R3C8-prix-d-aubervilliers.html",
+      "resultats-et-rapports/2021/01/2021-01-11/R4-mauquenchy/R4C8-prix-d-aubervilliers.html",
+      "resultats-et-rapports/2021/01/2021-01-11/R6-chateaubriant/R6C2-prix-de-saint-brieuc.html",
+      "resultats-et-rapports/2021/01/2021-01-11/R6-chateaubriant/R6C4-prix-christelle-zimmer.html",
+      "resultats-et-rapports/2021/01/2021-01-11/R6-chateaubriant/R6C6-prix-de-talence.html",
+      "resultats-et-rapports/2021/01/2021-01-11/R6-chateaubriant/R6C7-prix-de-cheverny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-mauquenchy",
+      "R6-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-aveyron.html",
+        "R1C2-prix-de-saint-brieuc.html",
+        "R1C3-prix-de-la-moselle.html",
+        "R1C4-prix-christelle-zimmer.html",
+        "R1C5-prix-de-croissanville.html",
+        "R1C6-prix-de-talence.html",
+        "R1C7-prix-de-cheverny.html",
+        "R1C8-prix-d-aubervilliers.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-l-aveyron.html",
+        "R3C2-prix-de-saint-brieuc.html",
+        "R3C3-prix-de-la-moselle.html",
+        "R3C4-prix-christelle-zimmer.html",
+        "R3C5-prix-de-croissanville.html",
+        "R3C6-prix-de-talence.html",
+        "R3C7-prix-de-cheverny.html",
+        "R3C8-prix-d-aubervilliers.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-l-aveyron.html",
+        "R4C2-prix-de-saint-brieuc.html",
+        "R4C3-prix-de-la-moselle.html",
+        "R4C4-prix-christelle-zimmer.html",
+        "R4C5-prix-de-croissanville.html",
+        "R4C6-prix-de-talence.html",
+        "R4C7-prix-de-cheverny.html",
+        "R4C8-prix-d-aubervilliers.html"
+      ],
+      "R6-chateaubriant": [
+        "R6C1-prix-de-l-aveyron.html",
+        "R6C2-prix-de-saint-brieuc.html",
+        "R6C3-prix-de-la-moselle.html",
+        "R6C4-prix-christelle-zimmer.html",
+        "R6C5-prix-de-croissanville.html",
+        "R6C6-prix-de-talence.html",
+        "R6C7-prix-de-cheverny.html",
+        "R6C8-prix-d-aubervilliers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:35.777615Z"
+}

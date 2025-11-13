@@ -1,0 +1,57 @@
+{
+  "date": "2022-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-18",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-18/2022-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-18/R3-deauville/R3C6-prix-arethusa.html",
+      "resultats-et-rapports/2022/10/2022-10-18/R4-marseille-vivaux/R4C6-prix-arethusa.html",
+      "resultats-et-rapports/2022/10/2022-10-18/R4-marseille-vivaux/R4C8-prix-columba.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-algorah.html",
+        "R1C2-prix-euterpe.html",
+        "R1C3-prix-prymno.html",
+        "R1C4-prix-orion.html",
+        "R1C5-prix-cyrene.html",
+        "R1C6-prix-arethusa.html",
+        "R1C7-prix-freia.html",
+        "R1C8-prix-columba.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-algorah.html",
+        "R3C2-prix-euterpe.html",
+        "R3C3-prix-prymno.html",
+        "R3C4-prix-orion.html",
+        "R3C5-prix-cyrene.html",
+        "R3C6-prix-arethusa.html",
+        "R3C7-prix-freia.html",
+        "R3C8-prix-columba.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-algorah.html",
+        "R4C2-prix-euterpe.html",
+        "R4C3-prix-prymno.html",
+        "R4C4-prix-orion.html",
+        "R4C5-prix-cyrene.html",
+        "R4C6-prix-arethusa.html",
+        "R4C7-prix-freia.html",
+        "R4C8-prix-columba.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:37.278917Z"
+}

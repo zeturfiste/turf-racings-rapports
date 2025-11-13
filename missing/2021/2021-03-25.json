@@ -1,0 +1,68 @@
+{
+  "date": "2021-03-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-25",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-25/2021-03-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-25/R1-saint-cloud/R1C1-prix-de-la-gloriette.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R1-saint-cloud/R1C4-prix-de-la-marche.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R1-saint-cloud/R1C5-prix-monade.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R1-saint-cloud/R1C8-prix-de-la-gaillarderie.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R3-agen/R3C4-prix-de-la-marche.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R3-agen/R3C5-prix-monade.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R3-agen/R3C6-prix-de-la-porte-de-madrid.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R3-agen/R3C7-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C1-prix-de-la-gloriette.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C2-prix-suave-dancer.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C3-prix-bridaine.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C4-prix-de-la-marche.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C6-prix-de-la-porte-de-madrid.html",
+      "resultats-et-rapports/2021/03/2021-03-25/R4-lyon-la-soie/R4C7-prix-du-jardin-de-l-avre.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-agen",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-la-gloriette.html",
+        "R1C2-prix-suave-dancer.html",
+        "R1C3-prix-bridaine.html",
+        "R1C4-prix-de-la-marche.html",
+        "R1C5-prix-monade.html",
+        "R1C6-prix-de-la-porte-de-madrid.html",
+        "R1C7-prix-du-jardin-de-l-avre.html",
+        "R1C8-prix-de-la-gaillarderie.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-de-la-gloriette.html",
+        "R3C2-prix-suave-dancer.html",
+        "R3C3-prix-bridaine.html",
+        "R3C4-prix-de-la-marche.html",
+        "R3C5-prix-monade.html",
+        "R3C6-prix-de-la-porte-de-madrid.html",
+        "R3C7-prix-du-jardin-de-l-avre.html",
+        "R3C8-prix-de-la-gaillarderie.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-la-gloriette.html",
+        "R4C2-prix-suave-dancer.html",
+        "R4C3-prix-bridaine.html",
+        "R4C4-prix-de-la-marche.html",
+        "R4C5-prix-monade.html",
+        "R4C6-prix-de-la-porte-de-madrid.html",
+        "R4C7-prix-du-jardin-de-l-avre.html",
+        "R4C8-prix-de-la-gaillarderie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:59.842866Z"
+}

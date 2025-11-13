@@ -1,0 +1,91 @@
+{
+  "date": "2007-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-08",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-08/2007-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C1-prix-teddy.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C2-prix-bacchus.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C3-prix-nubienne.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C4-prix-canot.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C5-prix-a-tempo.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C6-prix-de-houdan.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C7-prix-magicien-ii.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R1-deauville/R1C8-prix-miss-fleche.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R2-cordemais/R2C1-prix-teddy.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R2-cordemais/R2C2-prix-bacchus.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R2-cordemais/R2C3-prix-nubienne.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R71-parc-des-princes-paris/R71C5-prix-a-tempo.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R71-parc-des-princes-paris/R71C6-prix-de-houdan.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R71-parc-des-princes-paris/R71C7-prix-magicien-ii.html",
+      "resultats-et-rapports/2007/03/2007-03-08/R71-parc-des-princes-paris/R71C8-prix-miss-fleche.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-cordemais",
+      "R21-zerace",
+      "R70-felix-bollaert-lens",
+      "R71-parc-des-princes-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-teddy.html",
+        "R1C2-prix-bacchus.html",
+        "R1C3-prix-nubienne.html",
+        "R1C4-prix-canot.html",
+        "R1C5-prix-a-tempo.html",
+        "R1C6-prix-de-houdan.html",
+        "R1C7-prix-magicien-ii.html",
+        "R1C8-prix-miss-fleche.html"
+      ],
+      "R2-cordemais": [
+        "R2C1-prix-teddy.html",
+        "R2C2-prix-bacchus.html",
+        "R2C3-prix-nubienne.html",
+        "R2C4-prix-canot.html",
+        "R2C5-prix-a-tempo.html",
+        "R2C6-prix-de-houdan.html",
+        "R2C7-prix-magicien-ii.html",
+        "R2C8-prix-miss-fleche.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-teddy.html",
+        "R21C2-prix-bacchus.html",
+        "R21C3-prix-nubienne.html",
+        "R21C4-prix-canot.html",
+        "R21C5-prix-a-tempo.html",
+        "R21C6-prix-de-houdan.html",
+        "R21C7-prix-magicien-ii.html",
+        "R21C8-prix-miss-fleche.html"
+      ],
+      "R70-felix-bollaert-lens": [
+        "R70C1-prix-teddy.html",
+        "R70C2-prix-bacchus.html",
+        "R70C3-prix-nubienne.html",
+        "R70C4-prix-canot.html",
+        "R70C5-prix-a-tempo.html",
+        "R70C6-prix-de-houdan.html",
+        "R70C7-prix-magicien-ii.html",
+        "R70C8-prix-miss-fleche.html"
+      ],
+      "R71-parc-des-princes-paris": [
+        "R71C1-prix-teddy.html",
+        "R71C2-prix-bacchus.html",
+        "R71C3-prix-nubienne.html",
+        "R71C4-prix-canot.html",
+        "R71C5-prix-a-tempo.html",
+        "R71C6-prix-de-houdan.html",
+        "R71C7-prix-magicien-ii.html",
+        "R71C8-prix-miss-fleche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:56.515225Z"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2019-10-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-22",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-22/2019-10-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-22/R1-deauville/R1C6-prix-de-putanges.html",
+      "resultats-et-rapports/2019/10/2019-10-22/R2-compiegne/R2C4-prix-de-varanville.html",
+      "resultats-et-rapports/2019/10/2019-10-22/R4-vincennes/R4C1-grand-handicap-de-la-piste-fibree.html",
+      "resultats-et-rapports/2019/10/2019-10-22/R4-vincennes/R4C4-prix-de-varanville.html",
+      "resultats-et-rapports/2019/10/2019-10-22/R4-vincennes/R4C7-prix-d-amfreville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-compiegne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-grand-handicap-de-la-piste-fibree.html",
+        "R1C2-prix-vulcain.html",
+        "R1C3-prix-zeddaan.html",
+        "R1C4-prix-de-varanville.html",
+        "R1C5-prix-des-ventes-d-octobre.html",
+        "R1C6-prix-de-putanges.html",
+        "R1C7-prix-d-amfreville.html",
+        "R1C8-prix-du-pin-au-haras.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-grand-handicap-de-la-piste-fibree.html",
+        "R2C2-prix-vulcain.html",
+        "R2C3-prix-zeddaan.html",
+        "R2C4-prix-de-varanville.html",
+        "R2C5-prix-des-ventes-d-octobre.html",
+        "R2C6-prix-de-putanges.html",
+        "R2C7-prix-d-amfreville.html",
+        "R2C8-prix-du-pin-au-haras.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-grand-handicap-de-la-piste-fibree.html",
+        "R4C2-prix-vulcain.html",
+        "R4C3-prix-zeddaan.html",
+        "R4C4-prix-de-varanville.html",
+        "R4C5-prix-des-ventes-d-octobre.html",
+        "R4C6-prix-de-putanges.html",
+        "R4C7-prix-d-amfreville.html",
+        "R4C8-prix-du-pin-au-haras.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:16.082219Z"
+}

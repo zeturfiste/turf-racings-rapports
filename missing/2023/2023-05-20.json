@@ -1,0 +1,87 @@
+{
+  "date": "2023-05-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-20",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-20/2023-05-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C1-prix-djarvis.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C2-prix-sagan.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C4-prix-le-parisien-prix-d-arles.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C5-prix-saint-sauveur.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R1-auteuil/R1C7-prix-pretentaine.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C1-prix-djarvis.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C2-prix-sagan.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C4-prix-le-parisien-prix-d-arles.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C6-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R3-caen/R3C7-prix-pretentaine.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C1-prix-djarvis.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C2-prix-sagan.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C4-prix-le-parisien-prix-d-arles.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C5-prix-saint-sauveur.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C6-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R4-lyon-parilly/R4C7-prix-pretentaine.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C1-prix-djarvis.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C2-prix-sagan.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C4-prix-le-parisien-prix-d-arles.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C5-prix-saint-sauveur.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C6-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2023/05/2023-05-20/R5-vichy/R5C7-prix-pretentaine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R4-lyon-parilly",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-djarvis.html",
+        "R1C2-prix-sagan.html",
+        "R1C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R1C4-prix-le-parisien-prix-d-arles.html",
+        "R1C5-prix-saint-sauveur.html",
+        "R1C6-prix-le-guales-de-mezaubran.html",
+        "R1C7-prix-pretentaine.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-djarvis.html",
+        "R3C2-prix-sagan.html",
+        "R3C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R3C4-prix-le-parisien-prix-d-arles.html",
+        "R3C5-prix-saint-sauveur.html",
+        "R3C6-prix-le-guales-de-mezaubran.html",
+        "R3C7-prix-pretentaine.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-djarvis.html",
+        "R4C2-prix-sagan.html",
+        "R4C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R4C4-prix-le-parisien-prix-d-arles.html",
+        "R4C5-prix-saint-sauveur.html",
+        "R4C6-prix-le-guales-de-mezaubran.html",
+        "R4C7-prix-pretentaine.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-djarvis.html",
+        "R5C2-prix-sagan.html",
+        "R5C3-racing-tv-grande-course-de-haies-d-auteuil.html",
+        "R5C4-prix-le-parisien-prix-d-arles.html",
+        "R5C5-prix-saint-sauveur.html",
+        "R5C6-prix-le-guales-de-mezaubran.html",
+        "R5C7-prix-pretentaine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:52.547511Z"
+}

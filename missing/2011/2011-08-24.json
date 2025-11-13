@@ -1,0 +1,86 @@
+{
+  "date": "2011-08-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/08/2011-08-24",
+    "date_html": "resultats-et-rapports/2011/08/2011-08-24/2011-08-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C2-prix-d-ecommoy.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C3-prix-de-chateau-du-loir.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C4-prix-de-bazet.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C5-prix-de-noailles.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C6-prix-pierre-gamare.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C7-prix-du-perigord.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R1-vincennes/R1C8-prix-d-antibes.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R2-le-lion-d-angers/R2C2-prix-d-ecommoy.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R2-le-lion-d-angers/R2C5-prix-de-noailles.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R2-le-lion-d-angers/R2C8-prix-d-antibes.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R3-cagnes-sur-mer/R3C1-prix-jockey.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R3-cagnes-sur-mer/R3C3-prix-de-chateau-du-loir.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R3-cagnes-sur-mer/R3C4-prix-de-bazet.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R3-cagnes-sur-mer/R3C5-prix-de-noailles.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C1-prix-jockey.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C3-prix-de-chateau-du-loir.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C4-prix-de-bazet.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C5-prix-de-noailles.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C6-prix-pierre-gamare.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C7-prix-du-perigord.html",
+      "resultats-et-rapports/2011/08/2011-08-24/R4-les-sables-d-olonne/R4C8-prix-d-antibes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-le-lion-d-angers",
+      "R3-cagnes-sur-mer",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-jockey.html",
+        "R1C2-prix-d-ecommoy.html",
+        "R1C3-prix-de-chateau-du-loir.html",
+        "R1C4-prix-de-bazet.html",
+        "R1C5-prix-de-noailles.html",
+        "R1C6-prix-pierre-gamare.html",
+        "R1C7-prix-du-perigord.html",
+        "R1C8-prix-d-antibes.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-jockey.html",
+        "R2C2-prix-d-ecommoy.html",
+        "R2C3-prix-de-chateau-du-loir.html",
+        "R2C4-prix-de-bazet.html",
+        "R2C5-prix-de-noailles.html",
+        "R2C6-prix-pierre-gamare.html",
+        "R2C7-prix-du-perigord.html",
+        "R2C8-prix-d-antibes.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-jockey.html",
+        "R3C2-prix-d-ecommoy.html",
+        "R3C3-prix-de-chateau-du-loir.html",
+        "R3C4-prix-de-bazet.html",
+        "R3C5-prix-de-noailles.html",
+        "R3C6-prix-pierre-gamare.html",
+        "R3C7-prix-du-perigord.html",
+        "R3C8-prix-d-antibes.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-jockey.html",
+        "R4C2-prix-d-ecommoy.html",
+        "R4C3-prix-de-chateau-du-loir.html",
+        "R4C4-prix-de-bazet.html",
+        "R4C5-prix-de-noailles.html",
+        "R4C6-prix-pierre-gamare.html",
+        "R4C7-prix-du-perigord.html",
+        "R4C8-prix-d-antibes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:03.749688Z"
+}

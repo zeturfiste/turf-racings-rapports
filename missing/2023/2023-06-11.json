@@ -1,0 +1,89 @@
+{
+  "date": "2023-06-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-11",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-11/2023-06-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C1-prix-ridgway.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C2-prix-melisande.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C3-prix-volterra.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C5-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C6-la-coupe-fondation-claude-pompidou.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C8-prix-de-l-etang-de-boulogne.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C9-prix-d-evreux.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R1-paris-longchamp/R1C10-prix-d-orcy.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C1-prix-ridgway.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C2-prix-melisande.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C3-prix-volterra.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C4-prix-rfm-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C5-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C6-la-coupe-fondation-claude-pompidou.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C8-prix-de-l-etang-de-boulogne.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C9-prix-d-evreux.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R3-chartres/R3C10-prix-d-orcy.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C1-prix-ridgway.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C2-prix-melisande.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C3-prix-volterra.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C4-prix-rfm-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C5-prix-paul-de-moussac.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C6-la-coupe-fondation-claude-pompidou.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C8-prix-de-l-etang-de-boulogne.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C9-prix-d-evreux.html",
+      "resultats-et-rapports/2023/06/2023-06-11/R4-tarbes/R4C10-prix-d-orcy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-chartres",
+      "R4-tarbes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-ridgway.html",
+        "R1C2-prix-melisande.html",
+        "R1C3-prix-volterra.html",
+        "R1C4-prix-rfm-prix-de-la-place-vendome.html",
+        "R1C5-prix-paul-de-moussac.html",
+        "R1C6-la-coupe-fondation-claude-pompidou.html",
+        "R1C7-prix-des-petits-champs.html",
+        "R1C8-prix-de-l-etang-de-boulogne.html",
+        "R1C9-prix-d-evreux.html",
+        "R1C10-prix-d-orcy.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-ridgway.html",
+        "R3C2-prix-melisande.html",
+        "R3C3-prix-volterra.html",
+        "R3C4-prix-rfm-prix-de-la-place-vendome.html",
+        "R3C5-prix-paul-de-moussac.html",
+        "R3C6-la-coupe-fondation-claude-pompidou.html",
+        "R3C7-prix-des-petits-champs.html",
+        "R3C8-prix-de-l-etang-de-boulogne.html",
+        "R3C9-prix-d-evreux.html",
+        "R3C10-prix-d-orcy.html"
+      ],
+      "R4-tarbes": [
+        "R4C1-prix-ridgway.html",
+        "R4C2-prix-melisande.html",
+        "R4C3-prix-volterra.html",
+        "R4C4-prix-rfm-prix-de-la-place-vendome.html",
+        "R4C5-prix-paul-de-moussac.html",
+        "R4C6-la-coupe-fondation-claude-pompidou.html",
+        "R4C7-prix-des-petits-champs.html",
+        "R4C8-prix-de-l-etang-de-boulogne.html",
+        "R4C9-prix-d-evreux.html",
+        "R4C10-prix-d-orcy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:00.776224Z"
+}

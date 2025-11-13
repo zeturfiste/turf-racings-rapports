@@ -1,0 +1,46 @@
+{
+  "date": "2015-12-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-29",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-29/2015-12-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-29/R2-cagnes-sur-mer/R2C6-prix-de-brassac-les-mines-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-domfront.html",
+        "R1C2-prix-d-eragny.html",
+        "R1C3-prix-de-vernon.html",
+        "R1C4-prix-de-craon.html",
+        "R1C5-prix-de-brassac-les-mines-groupe-a.html",
+        "R1C6-prix-de-brassac-les-mines-groupe-b.html",
+        "R1C7-prix-de-gambais.html",
+        "R1C8-prix-des-freesias.html",
+        "R1C9-prix-de-limay.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-domfront.html",
+        "R2C2-prix-d-eragny.html",
+        "R2C3-prix-de-vernon.html",
+        "R2C4-prix-de-craon.html",
+        "R2C5-prix-de-brassac-les-mines-groupe-a.html",
+        "R2C6-prix-de-brassac-les-mines-groupe-b.html",
+        "R2C7-prix-de-gambais.html",
+        "R2C8-prix-des-freesias.html",
+        "R2C9-prix-de-limay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:03.103174Z"
+}

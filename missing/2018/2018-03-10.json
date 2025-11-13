@@ -1,0 +1,61 @@
+{
+  "date": "2018-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-10",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-10/2018-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-10/R3-caen/R3C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R3-caen/R3C7-prix-de-l-yonne.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R5-le-croise-laroche/R5C1-prix-cousin-pons.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R5-le-croise-laroche/R5C3-prix-univers-ii.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R5-le-croise-laroche/R5C4-prix-de-la-source.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R5-le-croise-laroche/R5C5-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2018/03/2018-03-10/R5-le-croise-laroche/R5C7-prix-de-l-yonne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-caen",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-cousin-pons.html",
+        "R1C2-prix-jean-claude-evain.html",
+        "R1C3-prix-univers-ii.html",
+        "R1C4-prix-de-la-source.html",
+        "R1C5-prix-duc-d-anjou.html",
+        "R1C6-prix-hubert-d-aillieres.html",
+        "R1C7-prix-de-l-yonne.html",
+        "R1C8-prix-ventriloque.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-cousin-pons.html",
+        "R3C2-prix-jean-claude-evain.html",
+        "R3C3-prix-univers-ii.html",
+        "R3C4-prix-de-la-source.html",
+        "R3C5-prix-duc-d-anjou.html",
+        "R3C6-prix-hubert-d-aillieres.html",
+        "R3C7-prix-de-l-yonne.html",
+        "R3C8-prix-ventriloque.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-cousin-pons.html",
+        "R5C2-prix-jean-claude-evain.html",
+        "R5C3-prix-univers-ii.html",
+        "R5C4-prix-de-la-source.html",
+        "R5C5-prix-duc-d-anjou.html",
+        "R5C6-prix-hubert-d-aillieres.html",
+        "R5C7-prix-de-l-yonne.html",
+        "R5C8-prix-ventriloque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:04.921402Z"
+}

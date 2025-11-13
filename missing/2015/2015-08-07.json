@@ -1,0 +1,91 @@
+{
+  "date": "2015-08-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-07",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-07/2015-08-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-07/R1-deauville/R1C1-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R1-deauville/R1C4-prix-des-marettes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R1-deauville/R1C8-prix-de-glanville.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R3-pornichet-la-baule/R3C3-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R3-pornichet-la-baule/R3C6-prix-du-thenney.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R3-pornichet-la-baule/R3C8-prix-de-glanville.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R4-cagnes-sur-mer/R4C1-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R4-cagnes-sur-mer/R4C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R4-cagnes-sur-mer/R4C3-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R4-cagnes-sur-mer/R4C4-prix-des-marettes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R4-cagnes-sur-mer/R4C5-prix-des-chaumieres.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R5-cabourg/R5C1-prix-du-mesnil-eudes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R5-cabourg/R5C3-prix-du-mesnil-oger.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R5-cabourg/R5C4-prix-des-marettes.html",
+      "resultats-et-rapports/2015/08/2015-08-07/R5-cabourg/R5C5-prix-des-chaumieres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-la-capelle",
+      "R3-pornichet-la-baule",
+      "R4-cagnes-sur-mer",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-mesnil-eudes.html",
+        "R1C2-prix-de-crevecoeur.html",
+        "R1C3-prix-du-mesnil-oger.html",
+        "R1C4-prix-des-marettes.html",
+        "R1C5-prix-des-chaumieres.html",
+        "R1C6-prix-du-thenney.html",
+        "R1C7-prix-d-herouville.html",
+        "R1C8-prix-de-glanville.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-mesnil-eudes.html",
+        "R2C2-prix-de-crevecoeur.html",
+        "R2C3-prix-du-mesnil-oger.html",
+        "R2C4-prix-des-marettes.html",
+        "R2C5-prix-des-chaumieres.html",
+        "R2C6-prix-du-thenney.html",
+        "R2C7-prix-d-herouville.html",
+        "R2C8-prix-de-glanville.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-mesnil-eudes.html",
+        "R3C2-prix-de-crevecoeur.html",
+        "R3C3-prix-du-mesnil-oger.html",
+        "R3C4-prix-des-marettes.html",
+        "R3C5-prix-des-chaumieres.html",
+        "R3C6-prix-du-thenney.html",
+        "R3C7-prix-d-herouville.html",
+        "R3C8-prix-de-glanville.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-du-mesnil-eudes.html",
+        "R4C2-prix-de-crevecoeur.html",
+        "R4C3-prix-du-mesnil-oger.html",
+        "R4C4-prix-des-marettes.html",
+        "R4C5-prix-des-chaumieres.html",
+        "R4C6-prix-du-thenney.html",
+        "R4C7-prix-d-herouville.html",
+        "R4C8-prix-de-glanville.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-mesnil-eudes.html",
+        "R5C2-prix-de-crevecoeur.html",
+        "R5C3-prix-du-mesnil-oger.html",
+        "R5C4-prix-des-marettes.html",
+        "R5C5-prix-des-chaumieres.html",
+        "R5C6-prix-du-thenney.html",
+        "R5C7-prix-d-herouville.html",
+        "R5C8-prix-de-glanville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:17.125730Z"
+}

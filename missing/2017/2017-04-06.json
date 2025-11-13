@@ -1,0 +1,69 @@
+{
+  "date": "2017-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-06",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-06/2017-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C1-prix-de-la-marche.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C2-prix-du-jardin-des-tourneroches.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C4-prix-magister.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C5-prix-phil-drake.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C6-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C7-prix-my-love.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R1-saint-cloud/R1C8-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C1-prix-de-la-marche.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C2-prix-du-jardin-des-tourneroches.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C3-grand-handicap-de-la-seine.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C4-prix-magister.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C6-prix-du-jardin-de-l-avre.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R2-la-capelle/R2C8-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R3-saint-galmier/R3C2-prix-du-jardin-des-tourneroches.html",
+      "resultats-et-rapports/2017/04/2017-04-06/R3-saint-galmier/R3C5-prix-phil-drake.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-la-capelle",
+      "R3-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-la-marche.html",
+        "R1C2-prix-du-jardin-des-tourneroches.html",
+        "R1C3-grand-handicap-de-la-seine.html",
+        "R1C4-prix-magister.html",
+        "R1C5-prix-phil-drake.html",
+        "R1C6-prix-du-jardin-de-l-avre.html",
+        "R1C7-prix-my-love.html",
+        "R1C8-prix-des-rouges-terres.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-de-la-marche.html",
+        "R2C2-prix-du-jardin-des-tourneroches.html",
+        "R2C3-grand-handicap-de-la-seine.html",
+        "R2C4-prix-magister.html",
+        "R2C5-prix-phil-drake.html",
+        "R2C6-prix-du-jardin-de-l-avre.html",
+        "R2C7-prix-my-love.html",
+        "R2C8-prix-des-rouges-terres.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-de-la-marche.html",
+        "R3C2-prix-du-jardin-des-tourneroches.html",
+        "R3C3-grand-handicap-de-la-seine.html",
+        "R3C4-prix-magister.html",
+        "R3C5-prix-phil-drake.html",
+        "R3C6-prix-du-jardin-de-l-avre.html",
+        "R3C7-prix-my-love.html",
+        "R3C8-prix-des-rouges-terres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:19.551769Z"
+}

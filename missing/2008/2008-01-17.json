@@ -1,0 +1,87 @@
+{
+  "date": "2008-01-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/01/2008-01-17",
+    "date_html": "resultats-et-rapports/2008/01/2008-01-17/2008-01-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C1-prix-d-agen.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C2-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C3-prix-de-pont-a-mousson.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C4-prix-de-luchon.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R1-vincennes/R1C6-prix-de-marcenat.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R70-lillehammer-norvege/R70C2-prix-de-pontault-combault.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R71-melbourne-park-australie/R71C5-prix-de-bayonne.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R71-melbourne-park-australie/R71C6-prix-de-marcenat.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R71-melbourne-park-australie/R71C7-prix-d-orleans.html",
+      "resultats-et-rapports/2008/01/2008-01-17/R71-melbourne-park-australie/R71C8-prix-de-marolles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R31-zerace",
+      "R70-lillehammer-norvege",
+      "R71-melbourne-park-australie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-agen.html",
+        "R1C2-prix-de-pontault-combault.html",
+        "R1C3-prix-de-pont-a-mousson.html",
+        "R1C4-prix-de-luchon.html",
+        "R1C5-prix-de-bayonne.html",
+        "R1C6-prix-de-marcenat.html",
+        "R1C7-prix-d-orleans.html",
+        "R1C8-prix-de-marolles.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-d-agen.html",
+        "R2C2-prix-de-pontault-combault.html",
+        "R2C3-prix-de-pont-a-mousson.html",
+        "R2C4-prix-de-luchon.html",
+        "R2C5-prix-de-bayonne.html",
+        "R2C6-prix-de-marcenat.html",
+        "R2C7-prix-d-orleans.html",
+        "R2C8-prix-de-marolles.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-d-agen.html",
+        "R31C2-prix-de-pontault-combault.html",
+        "R31C3-prix-de-pont-a-mousson.html",
+        "R31C4-prix-de-luchon.html",
+        "R31C5-prix-de-bayonne.html",
+        "R31C6-prix-de-marcenat.html",
+        "R31C7-prix-d-orleans.html",
+        "R31C8-prix-de-marolles.html"
+      ],
+      "R70-lillehammer-norvege": [
+        "R70C1-prix-d-agen.html",
+        "R70C2-prix-de-pontault-combault.html",
+        "R70C3-prix-de-pont-a-mousson.html",
+        "R70C4-prix-de-luchon.html",
+        "R70C5-prix-de-bayonne.html",
+        "R70C6-prix-de-marcenat.html",
+        "R70C7-prix-d-orleans.html",
+        "R70C8-prix-de-marolles.html"
+      ],
+      "R71-melbourne-park-australie": [
+        "R71C1-prix-d-agen.html",
+        "R71C2-prix-de-pontault-combault.html",
+        "R71C3-prix-de-pont-a-mousson.html",
+        "R71C4-prix-de-luchon.html",
+        "R71C5-prix-de-bayonne.html",
+        "R71C6-prix-de-marcenat.html",
+        "R71C7-prix-d-orleans.html",
+        "R71C8-prix-de-marolles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:49.587111Z"
+}

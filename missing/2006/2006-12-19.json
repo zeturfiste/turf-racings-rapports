@@ -1,0 +1,82 @@
+{
+  "date": "2006-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-19",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-19/2006-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-19/R1-vincennes/R1C8-prix-de-gemozac.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R21-zerace/R21C5-prix-de-savenay.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R21-zerace/R21C6-prix-de-damville.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R21-zerace/R21C7-prix-de-l-angoumois.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R21-zerace/R21C8-prix-de-gemozac.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R21-zerace/R21C9-prix-de-gramat.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C1-prix-des-clematites.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C2-prix-de-domfront.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C3-prix-de-chateau-thierry-groupe-a.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C4-prix-de-chateau-thierry-groupe-b.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C5-prix-de-savenay.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C6-prix-de-damville.html",
+      "resultats-et-rapports/2006/12/2006-12-19/R33-jacques-chaban-delmas-bordeaux/R33C7-prix-de-l-angoumois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R21-zerace",
+      "R33-jacques-chaban-delmas-bordeaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-des-clematites.html",
+        "R1C2-prix-de-domfront.html",
+        "R1C3-prix-de-chateau-thierry-groupe-a.html",
+        "R1C4-prix-de-chateau-thierry-groupe-b.html",
+        "R1C5-prix-de-savenay.html",
+        "R1C6-prix-de-damville.html",
+        "R1C7-prix-de-l-angoumois.html",
+        "R1C8-prix-de-gemozac.html",
+        "R1C9-prix-de-gramat.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-des-clematites.html",
+        "R2C2-prix-de-domfront.html",
+        "R2C3-prix-de-chateau-thierry-groupe-a.html",
+        "R2C4-prix-de-chateau-thierry-groupe-b.html",
+        "R2C5-prix-de-savenay.html",
+        "R2C6-prix-de-damville.html",
+        "R2C7-prix-de-l-angoumois.html",
+        "R2C8-prix-de-gemozac.html",
+        "R2C9-prix-de-gramat.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-des-clematites.html",
+        "R21C2-prix-de-domfront.html",
+        "R21C3-prix-de-chateau-thierry-groupe-a.html",
+        "R21C4-prix-de-chateau-thierry-groupe-b.html",
+        "R21C5-prix-de-savenay.html",
+        "R21C6-prix-de-damville.html",
+        "R21C7-prix-de-l-angoumois.html",
+        "R21C8-prix-de-gemozac.html",
+        "R21C9-prix-de-gramat.html"
+      ],
+      "R33-jacques-chaban-delmas-bordeaux": [
+        "R33C1-prix-des-clematites.html",
+        "R33C2-prix-de-domfront.html",
+        "R33C3-prix-de-chateau-thierry-groupe-a.html",
+        "R33C4-prix-de-chateau-thierry-groupe-b.html",
+        "R33C5-prix-de-savenay.html",
+        "R33C6-prix-de-damville.html",
+        "R33C7-prix-de-l-angoumois.html",
+        "R33C8-prix-de-gemozac.html",
+        "R33C9-prix-de-gramat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:32.410149Z"
+}

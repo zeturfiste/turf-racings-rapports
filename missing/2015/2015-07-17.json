@@ -1,0 +1,77 @@
+{
+  "date": "2015-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-17",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-17/2015-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-17/R1-maisons-laffitte/R1C1-prix-du-rond-adam.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R1-maisons-laffitte/R1C2-prix-ramsin.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R1-maisons-laffitte/R1C3-prix-astaria.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R1-maisons-laffitte/R1C5-prix-de-saint-germain-en-laye.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R1-maisons-laffitte/R1C6-prix-de-vaux-sur-seine.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C2-prix-ramsin.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C3-prix-astaria.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C4-prix-dagor.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C5-prix-de-saint-germain-en-laye.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C6-prix-de-vaux-sur-seine.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C7-prix-arreau.html",
+      "resultats-et-rapports/2015/07/2015-07-17/R7-marseille-vivaux/R7C8-prix-du-rond-de-sevigne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-pornichet-la-baule",
+      "R3-cabourg",
+      "R7-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-du-rond-adam.html",
+        "R1C2-prix-ramsin.html",
+        "R1C3-prix-astaria.html",
+        "R1C4-prix-dagor.html",
+        "R1C5-prix-de-saint-germain-en-laye.html",
+        "R1C6-prix-de-vaux-sur-seine.html",
+        "R1C7-prix-arreau.html",
+        "R1C8-prix-du-rond-de-sevigne.html"
+      ],
+      "R2-pornichet-la-baule": [
+        "R2C1-prix-du-rond-adam.html",
+        "R2C2-prix-ramsin.html",
+        "R2C3-prix-astaria.html",
+        "R2C4-prix-dagor.html",
+        "R2C5-prix-de-saint-germain-en-laye.html",
+        "R2C6-prix-de-vaux-sur-seine.html",
+        "R2C7-prix-arreau.html",
+        "R2C8-prix-du-rond-de-sevigne.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-rond-adam.html",
+        "R3C2-prix-ramsin.html",
+        "R3C3-prix-astaria.html",
+        "R3C4-prix-dagor.html",
+        "R3C5-prix-de-saint-germain-en-laye.html",
+        "R3C6-prix-de-vaux-sur-seine.html",
+        "R3C7-prix-arreau.html",
+        "R3C8-prix-du-rond-de-sevigne.html"
+      ],
+      "R7-marseille-vivaux": [
+        "R7C1-prix-du-rond-adam.html",
+        "R7C2-prix-ramsin.html",
+        "R7C3-prix-astaria.html",
+        "R7C4-prix-dagor.html",
+        "R7C5-prix-de-saint-germain-en-laye.html",
+        "R7C6-prix-de-vaux-sur-seine.html",
+        "R7C7-prix-arreau.html",
+        "R7C8-prix-du-rond-de-sevigne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:10.062942Z"
+}

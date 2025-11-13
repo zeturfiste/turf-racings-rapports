@@ -1,0 +1,74 @@
+{
+  "date": "2018-03-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-16",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-16/2018-03-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-16/R1-caen/R1C1-prix-de-cauvicourt.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R1-caen/R1C2-prix-de-sourdeval.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R1-caen/R1C3-prix-de-canapville.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R1-caen/R1C7-prix-de-saint-wandrille.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R4-fontainebleau/R4C1-prix-de-cauvicourt.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R5-cagnes-sur-mer/R5C1-prix-de-cauvicourt.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R5-cagnes-sur-mer/R5C3-prix-de-canapville.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R5-cagnes-sur-mer/R5C8-prix-de-puchay.html",
+      "resultats-et-rapports/2018/03/2018-03-16/R6-mauquenchy/R6C6-prix-de-frenouville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R4-fontainebleau",
+      "R5-cagnes-sur-mer",
+      "R6-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-cauvicourt.html",
+        "R1C2-prix-de-sourdeval.html",
+        "R1C3-prix-de-canapville.html",
+        "R1C4-prix-de-luc-sur-mer.html",
+        "R1C5-prix-de-berville.html",
+        "R1C6-prix-de-frenouville.html",
+        "R1C7-prix-de-saint-wandrille.html",
+        "R1C8-prix-de-puchay.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-de-cauvicourt.html",
+        "R4C2-prix-de-sourdeval.html",
+        "R4C3-prix-de-canapville.html",
+        "R4C4-prix-de-luc-sur-mer.html",
+        "R4C5-prix-de-berville.html",
+        "R4C6-prix-de-frenouville.html",
+        "R4C7-prix-de-saint-wandrille.html",
+        "R4C8-prix-de-puchay.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-cauvicourt.html",
+        "R5C2-prix-de-sourdeval.html",
+        "R5C3-prix-de-canapville.html",
+        "R5C4-prix-de-luc-sur-mer.html",
+        "R5C5-prix-de-berville.html",
+        "R5C6-prix-de-frenouville.html",
+        "R5C7-prix-de-saint-wandrille.html",
+        "R5C8-prix-de-puchay.html"
+      ],
+      "R6-mauquenchy": [
+        "R6C1-prix-de-cauvicourt.html",
+        "R6C2-prix-de-sourdeval.html",
+        "R6C3-prix-de-canapville.html",
+        "R6C4-prix-de-luc-sur-mer.html",
+        "R6C5-prix-de-berville.html",
+        "R6C6-prix-de-frenouville.html",
+        "R6C7-prix-de-saint-wandrille.html",
+        "R6C8-prix-de-puchay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:06.502967Z"
+}

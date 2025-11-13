@@ -1,0 +1,61 @@
+{
+  "date": "2019-08-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/08/2019-08-19",
+    "date_html": "resultats-et-rapports/2019/08/2019-08-19/2019-08-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/08/2019-08-19/R1-chateaubriant/R1C5-prix-des-etoiles.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R1-chateaubriant/R1C8-prix-djarvis.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R2-la-capelle/R2C3-prix-useful.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R2-la-capelle/R2C4-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R4-graignes/R4C3-prix-useful.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R4-graignes/R4C4-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2019/08/2019-08-19/R4-graignes/R4C8-prix-djarvis.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-la-capelle",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R1C2-prix-guy-raynard-prix-de-la-region-bretagne.html",
+        "R1C3-prix-useful.html",
+        "R1C4-prix-de-saint-cloud.html",
+        "R1C5-prix-des-etoiles.html",
+        "R1C6-prix-de-parislongchamp.html",
+        "R1C7-prix-gacko.html",
+        "R1C8-prix-djarvis.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R2C2-prix-guy-raynard-prix-de-la-region-bretagne.html",
+        "R2C3-prix-useful.html",
+        "R2C4-prix-de-saint-cloud.html",
+        "R2C5-prix-des-etoiles.html",
+        "R2C6-prix-de-parislongchamp.html",
+        "R2C7-prix-gacko.html",
+        "R2C8-prix-djarvis.html"
+      ],
+      "R4-graignes": [
+        "R4C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R4C2-prix-guy-raynard-prix-de-la-region-bretagne.html",
+        "R4C3-prix-useful.html",
+        "R4C4-prix-de-saint-cloud.html",
+        "R4C5-prix-des-etoiles.html",
+        "R4C6-prix-de-parislongchamp.html",
+        "R4C7-prix-gacko.html",
+        "R4C8-prix-djarvis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:54.247586Z"
+}

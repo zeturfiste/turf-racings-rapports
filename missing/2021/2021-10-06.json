@@ -1,0 +1,77 @@
+{
+  "date": "2021-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-06",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-06/2021-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-06/R2-auteuil/R2C1-prix-bird-parker.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R2-auteuil/R2C5-prix-speedy-blue.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R2-auteuil/R2C6-prix-bold-eagle.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R2-auteuil/R2C8-prix-royal-dream.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R3-pornichet-la-baule/R3C3-prix-talicia-bella.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R3-pornichet-la-baule/R3C4-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R3-pornichet-la-baule/R3C7-prix-de-la-societe-you.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R3-pornichet-la-baule/R3C8-prix-royal-dream.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R4-lyon-la-soie/R4C3-prix-talicia-bella.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R4-lyon-la-soie/R4C4-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R4-lyon-la-soie/R4C6-prix-bold-eagle.html",
+      "resultats-et-rapports/2021/10/2021-10-06/R4-lyon-la-soie/R4C8-prix-royal-dream.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-auteuil",
+      "R3-pornichet-la-baule",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-bird-parker.html",
+        "R1C2-prix-scipion-du-goutier.html",
+        "R1C3-prix-talicia-bella.html",
+        "R1C4-grand-prix-anjou-maine.html",
+        "R1C5-prix-speedy-blue.html",
+        "R1C6-prix-bold-eagle.html",
+        "R1C7-prix-de-la-societe-you.html",
+        "R1C8-prix-royal-dream.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-bird-parker.html",
+        "R2C2-prix-scipion-du-goutier.html",
+        "R2C3-prix-talicia-bella.html",
+        "R2C4-grand-prix-anjou-maine.html",
+        "R2C5-prix-speedy-blue.html",
+        "R2C6-prix-bold-eagle.html",
+        "R2C7-prix-de-la-societe-you.html",
+        "R2C8-prix-royal-dream.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-bird-parker.html",
+        "R3C2-prix-scipion-du-goutier.html",
+        "R3C3-prix-talicia-bella.html",
+        "R3C4-grand-prix-anjou-maine.html",
+        "R3C5-prix-speedy-blue.html",
+        "R3C6-prix-bold-eagle.html",
+        "R3C7-prix-de-la-societe-you.html",
+        "R3C8-prix-royal-dream.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-bird-parker.html",
+        "R4C2-prix-scipion-du-goutier.html",
+        "R4C3-prix-talicia-bella.html",
+        "R4C4-grand-prix-anjou-maine.html",
+        "R4C5-prix-speedy-blue.html",
+        "R4C6-prix-bold-eagle.html",
+        "R4C7-prix-de-la-societe-you.html",
+        "R4C8-prix-royal-dream.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:18.491167Z"
+}

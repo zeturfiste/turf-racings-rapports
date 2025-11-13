@@ -1,0 +1,107 @@
+{
+  "date": "2023-04-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-21",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-21/2023-04-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-21/R1-vincennes/R1C1-prix-atlas.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R1-vincennes/R1C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R4-saint-cloud/R4C2-prix-asterope.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R4-saint-cloud/R4C4-prix-martha.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R4-saint-cloud/R4C8-prix-aletheia.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C1-prix-atlas.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C2-prix-asterope.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C4-prix-martha.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C6-prix-aschera.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R5-marseille-vivaux/R5C7-prix-lumen.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R6-saint-galmier/R6C1-prix-atlas.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R6-saint-galmier/R6C3-prix-neptuna.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R6-saint-galmier/R6C4-prix-martha.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R6-saint-galmier/R6C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R6-saint-galmier/R6C6-prix-aschera.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R7-laval/R7C3-prix-neptuna.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R7-laval/R7C4-prix-martha.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R7-laval/R7C6-prix-aschera.html",
+      "resultats-et-rapports/2023/04/2023-04-21/R7-laval/R7C8-prix-aletheia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-strasbourg",
+      "R4-saint-cloud",
+      "R5-marseille-vivaux",
+      "R6-saint-galmier",
+      "R7-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-atlas.html",
+        "R1C2-prix-asterope.html",
+        "R1C3-prix-neptuna.html",
+        "R1C4-prix-martha.html",
+        "R1C5-prix-theophile-lallouet.html",
+        "R1C6-prix-aschera.html",
+        "R1C7-prix-lumen.html",
+        "R1C8-prix-aletheia.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-atlas.html",
+        "R3C2-prix-asterope.html",
+        "R3C3-prix-neptuna.html",
+        "R3C4-prix-martha.html",
+        "R3C5-prix-theophile-lallouet.html",
+        "R3C6-prix-aschera.html",
+        "R3C7-prix-lumen.html",
+        "R3C8-prix-aletheia.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-atlas.html",
+        "R4C2-prix-asterope.html",
+        "R4C3-prix-neptuna.html",
+        "R4C4-prix-martha.html",
+        "R4C5-prix-theophile-lallouet.html",
+        "R4C6-prix-aschera.html",
+        "R4C7-prix-lumen.html",
+        "R4C8-prix-aletheia.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-atlas.html",
+        "R5C2-prix-asterope.html",
+        "R5C3-prix-neptuna.html",
+        "R5C4-prix-martha.html",
+        "R5C5-prix-theophile-lallouet.html",
+        "R5C6-prix-aschera.html",
+        "R5C7-prix-lumen.html",
+        "R5C8-prix-aletheia.html"
+      ],
+      "R6-saint-galmier": [
+        "R6C1-prix-atlas.html",
+        "R6C2-prix-asterope.html",
+        "R6C3-prix-neptuna.html",
+        "R6C4-prix-martha.html",
+        "R6C5-prix-theophile-lallouet.html",
+        "R6C6-prix-aschera.html",
+        "R6C7-prix-lumen.html",
+        "R6C8-prix-aletheia.html"
+      ],
+      "R7-laval": [
+        "R7C1-prix-atlas.html",
+        "R7C2-prix-asterope.html",
+        "R7C3-prix-neptuna.html",
+        "R7C4-prix-martha.html",
+        "R7C5-prix-theophile-lallouet.html",
+        "R7C6-prix-aschera.html",
+        "R7C7-prix-lumen.html",
+        "R7C8-prix-aletheia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:41.397705Z"
+}

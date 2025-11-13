@@ -1,0 +1,45 @@
+{
+  "date": "2024-12-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-25",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-25/2024-12-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-25/R2-pau/R2C1-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2024/12/2024-12-25/R2-pau/R2C7-prix-de-deuil-la-barre.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-castelsarrasin.html",
+        "R1C2-prix-de-chatellerault.html",
+        "R1C3-prix-de-grimault.html",
+        "R1C4-prix-de-la-touraine.html",
+        "R1C5-prix-de-chateau-chinon.html",
+        "R1C6-prix-de-saint-aubin-les-elbeuf.html",
+        "R1C7-prix-de-deuil-la-barre.html",
+        "R1C8-prix-de-sautron.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-castelsarrasin.html",
+        "R2C2-prix-de-chatellerault.html",
+        "R2C3-prix-de-grimault.html",
+        "R2C4-prix-de-la-touraine.html",
+        "R2C5-prix-de-chateau-chinon.html",
+        "R2C6-prix-de-saint-aubin-les-elbeuf.html",
+        "R2C7-prix-de-deuil-la-barre.html",
+        "R2C8-prix-de-sautron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:35.719890Z"
+}

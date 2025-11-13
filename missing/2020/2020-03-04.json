@@ -1,0 +1,67 @@
+{
+  "date": "2020-03-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-04",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-04/2020-03-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-04/R1-amiens/R1C3-prix-fictac.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R1-amiens/R1C4-prix-contact-fm.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R1-amiens/R1C6-prix-lacivette-dominique-nourry.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R3-compiegne/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R3-compiegne/R3C2-prix-amiens-for-youth.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R3-compiegne/R3C4-prix-contact-fm.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R3-compiegne/R3C7-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R3-compiegne/R3C8-prix-du-point-de-vente-pmu-le-blason.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R4-saint-galmier/R4C2-prix-amiens-for-youth.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R4-saint-galmier/R4C4-prix-contact-fm.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R4-saint-galmier/R4C5-prix-nicolas.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R4-saint-galmier/R4C6-prix-lacivette-dominique-nourry.html",
+      "resultats-et-rapports/2020/03/2020-03-04/R4-saint-galmier/R4C8-prix-du-point-de-vente-pmu-le-blason.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-compiegne",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-amiens-for-youth.html",
+        "R1C3-prix-fictac.html",
+        "R1C4-prix-contact-fm.html",
+        "R1C5-prix-nicolas.html",
+        "R1C6-prix-lacivette-dominique-nourry.html",
+        "R1C7-prix-moet-et-chandon.html",
+        "R1C8-prix-du-point-de-vente-pmu-le-blason.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-amiens-for-youth.html",
+        "R3C3-prix-fictac.html",
+        "R3C4-prix-contact-fm.html",
+        "R3C5-prix-nicolas.html",
+        "R3C6-prix-lacivette-dominique-nourry.html",
+        "R3C7-prix-moet-et-chandon.html",
+        "R3C8-prix-du-point-de-vente-pmu-le-blason.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-amiens-for-youth.html",
+        "R4C3-prix-fictac.html",
+        "R4C4-prix-contact-fm.html",
+        "R4C5-prix-nicolas.html",
+        "R4C6-prix-lacivette-dominique-nourry.html",
+        "R4C7-prix-moet-et-chandon.html",
+        "R4C8-prix-du-point-de-vente-pmu-le-blason.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:56.893715Z"
+}

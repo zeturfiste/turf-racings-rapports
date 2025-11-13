@@ -1,0 +1,64 @@
+{
+  "date": "2019-01-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/01/2019-01-03",
+    "date_html": "resultats-et-rapports/2019/01/2019-01-03/2019-01-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R4-cagnes-sur-mer",
+      "R7-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-hersilie.html",
+        "R1C2-prix-de-mauleon.html",
+        "R1C3-prix-de-coucy-le-chateau.html",
+        "R1C4-prix-de-chatelguyon.html",
+        "R1C5-prix-de-lignieres.html",
+        "R1C6-prix-de-jussac.html",
+        "R1C7-prix-d-erbray.html",
+        "R1C8-prix-de-guerlesquin.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-hersilie.html",
+        "R2C2-prix-de-mauleon.html",
+        "R2C3-prix-de-coucy-le-chateau.html",
+        "R2C4-prix-de-chatelguyon.html",
+        "R2C5-prix-de-lignieres.html",
+        "R2C6-prix-de-jussac.html",
+        "R2C7-prix-d-erbray.html",
+        "R2C8-prix-de-guerlesquin.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-hersilie.html",
+        "R4C2-prix-de-mauleon.html",
+        "R4C3-prix-de-coucy-le-chateau.html",
+        "R4C4-prix-de-chatelguyon.html",
+        "R4C5-prix-de-lignieres.html",
+        "R4C6-prix-de-jussac.html",
+        "R4C7-prix-d-erbray.html",
+        "R4C8-prix-de-guerlesquin.html"
+      ],
+      "R7-nantes": [
+        "R7C1-prix-hersilie.html",
+        "R7C2-prix-de-mauleon.html",
+        "R7C3-prix-de-coucy-le-chateau.html",
+        "R7C4-prix-de-chatelguyon.html",
+        "R7C5-prix-de-lignieres.html",
+        "R7C6-prix-de-jussac.html",
+        "R7C7-prix-d-erbray.html",
+        "R7C8-prix-de-guerlesquin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:42.967579Z"
+}

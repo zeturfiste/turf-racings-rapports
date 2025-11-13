@@ -1,0 +1,62 @@
+{
+  "date": "2015-02-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-12",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-12/2015-02-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-12/R1-vincennes/R1C1-prix-de-falaise.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R1-vincennes/R1C5-prix-de-nevers.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R1-vincennes/R1C6-prix-edouard-marcillac.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R1-vincennes/R1C8-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R2-angers/R2C1-prix-de-falaise.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R2-angers/R2C4-prix-holly-du-locton.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R3-marseille-vivaux/R3C4-prix-holly-du-locton.html",
+      "resultats-et-rapports/2015/02/2015-02-12/R3-marseille-vivaux/R3C5-prix-de-nevers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-falaise.html",
+        "R1C2-prix-du-chateaurenard.html",
+        "R1C3-prix-de-marcenat.html",
+        "R1C4-prix-holly-du-locton.html",
+        "R1C5-prix-de-nevers.html",
+        "R1C6-prix-edouard-marcillac.html",
+        "R1C7-prix-de-frejus.html",
+        "R1C8-prix-de-bois-le-roi.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-falaise.html",
+        "R2C2-prix-du-chateaurenard.html",
+        "R2C3-prix-de-marcenat.html",
+        "R2C4-prix-holly-du-locton.html",
+        "R2C5-prix-de-nevers.html",
+        "R2C6-prix-edouard-marcillac.html",
+        "R2C7-prix-de-frejus.html",
+        "R2C8-prix-de-bois-le-roi.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-falaise.html",
+        "R3C2-prix-du-chateaurenard.html",
+        "R3C3-prix-de-marcenat.html",
+        "R3C4-prix-holly-du-locton.html",
+        "R3C5-prix-de-nevers.html",
+        "R3C6-prix-edouard-marcillac.html",
+        "R3C7-prix-de-frejus.html",
+        "R3C8-prix-de-bois-le-roi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:20.323531Z"
+}

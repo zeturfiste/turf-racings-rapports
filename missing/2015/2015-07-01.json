@@ -1,0 +1,65 @@
+{
+  "date": "2015-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-01",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-01/2015-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-01/R1-vichy/R1C4-prix-des-ventes-du-marault.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R1-vichy/R1C5-prix-de-vaumas.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R1-vichy/R1C6-prix-vans-theault-prix-de-savoie.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R1-vichy/R1C7-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R2-deauville/R2C1-prix-centre-france-la-montagne.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R2-deauville/R2C3-prix-ordre-experts-comptables-d-auvergne.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R2-deauville/R2C4-prix-des-ventes-du-marault.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R2-deauville/R2C5-prix-de-vaumas.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C1-prix-centre-france-la-montagne.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C2-prix-de-l-indre.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C3-prix-ordre-experts-comptables-d-auvergne.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C5-prix-de-vaumas.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C6-prix-vans-theault-prix-de-savoie.html",
+      "resultats-et-rapports/2015/07/2015-07-01/R3-lisieux/R3C7-prix-de-la-societe-du-cheval-francais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-deauville",
+      "R3-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-centre-france-la-montagne.html",
+        "R1C2-prix-de-l-indre.html",
+        "R1C3-prix-ordre-experts-comptables-d-auvergne.html",
+        "R1C4-prix-des-ventes-du-marault.html",
+        "R1C5-prix-de-vaumas.html",
+        "R1C6-prix-vans-theault-prix-de-savoie.html",
+        "R1C7-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-centre-france-la-montagne.html",
+        "R2C2-prix-de-l-indre.html",
+        "R2C3-prix-ordre-experts-comptables-d-auvergne.html",
+        "R2C4-prix-des-ventes-du-marault.html",
+        "R2C5-prix-de-vaumas.html",
+        "R2C6-prix-vans-theault-prix-de-savoie.html",
+        "R2C7-prix-de-la-societe-du-cheval-francais.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-centre-france-la-montagne.html",
+        "R3C2-prix-de-l-indre.html",
+        "R3C3-prix-ordre-experts-comptables-d-auvergne.html",
+        "R3C4-prix-des-ventes-du-marault.html",
+        "R3C5-prix-de-vaumas.html",
+        "R3C6-prix-vans-theault-prix-de-savoie.html",
+        "R3C7-prix-de-la-societe-du-cheval-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:05.192652Z"
+}

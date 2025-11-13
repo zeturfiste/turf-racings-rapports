@@ -1,0 +1,56 @@
+{
+  "date": "2017-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/02/2017-02-01",
+    "date_html": "resultats-et-rapports/2017/02/2017-02-01/2017-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/02/2017-02-01/R4-marseille-vivaux/R4C2-prix-des-calanques.html",
+      "resultats-et-rapports/2017/02/2017-02-01/R4-marseille-vivaux/R4C8-prix-de-sormiou.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-bordeaux-le-bouscat",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-rauba-capeu.html",
+        "R1C2-prix-des-calanques.html",
+        "R1C3-prix-de-morgiou.html",
+        "R1C4-prix-adolphe-rossio.html",
+        "R1C5-prix-de-theoule-sur-mer.html",
+        "R1C6-prix-de-cimiez.html",
+        "R1C7-prix-des-hortensias.html",
+        "R1C8-prix-de-sormiou.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-rauba-capeu.html",
+        "R3C2-prix-des-calanques.html",
+        "R3C3-prix-de-morgiou.html",
+        "R3C4-prix-adolphe-rossio.html",
+        "R3C5-prix-de-theoule-sur-mer.html",
+        "R3C6-prix-de-cimiez.html",
+        "R3C7-prix-des-hortensias.html",
+        "R3C8-prix-de-sormiou.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-rauba-capeu.html",
+        "R4C2-prix-des-calanques.html",
+        "R4C3-prix-de-morgiou.html",
+        "R4C4-prix-adolphe-rossio.html",
+        "R4C5-prix-de-theoule-sur-mer.html",
+        "R4C6-prix-de-cimiez.html",
+        "R4C7-prix-des-hortensias.html",
+        "R4C8-prix-de-sormiou.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:02.595906Z"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2006-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-06",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-06/2006-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-compiegne",
+      "R4-chatillon"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-du-journal-week-end-prix-de-saint-etienne.html",
+        "R1C2-prix-de-tinchebray.html",
+        "R1C3-prix-de-cussy.html",
+        "R1C4-prix-de-nonant-le-pin.html",
+        "R1C5-prix-de-gace.html",
+        "R1C6-prix-de-boulleville.html",
+        "R1C7-prix-d-anguerny.html",
+        "R1C8-prix-de-trun.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-du-journal-week-end-prix-de-saint-etienne.html",
+        "R2C2-prix-de-tinchebray.html",
+        "R2C3-prix-de-cussy.html",
+        "R2C4-prix-de-nonant-le-pin.html",
+        "R2C5-prix-de-gace.html",
+        "R2C6-prix-de-boulleville.html",
+        "R2C7-prix-d-anguerny.html",
+        "R2C8-prix-de-trun.html"
+      ],
+      "R4-chatillon": [
+        "R4C1-prix-du-journal-week-end-prix-de-saint-etienne.html",
+        "R4C2-prix-de-tinchebray.html",
+        "R4C3-prix-de-cussy.html",
+        "R4C4-prix-de-nonant-le-pin.html",
+        "R4C5-prix-de-gace.html",
+        "R4C6-prix-de-boulleville.html",
+        "R4C7-prix-d-anguerny.html",
+        "R4C8-prix-de-trun.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:18.717226Z"
+}

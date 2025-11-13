@@ -1,0 +1,56 @@
+{
+  "date": "2020-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-13",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-13/2020-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-13/R3-fontainebleau/R3C5-prix-de-verderonne.html",
+      "resultats-et-rapports/2020/10/2020-10-13/R4-vincennes/R4C5-prix-de-verderonne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-fontainebleau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-cabinet-des-livres.html",
+        "R1C2-prix-des-terroirs-de-france.html",
+        "R1C3-prix-de-la-salle-du-sycomore.html",
+        "R1C4-prix-de-la-courtille.html",
+        "R1C5-prix-de-verderonne.html",
+        "R1C6-prix-de-labruyere.html",
+        "R1C7-prix-du-roi-des-manuscrits.html",
+        "R1C8-prix-du-livre-du-roi-modus.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-du-cabinet-des-livres.html",
+        "R3C2-prix-des-terroirs-de-france.html",
+        "R3C3-prix-de-la-salle-du-sycomore.html",
+        "R3C4-prix-de-la-courtille.html",
+        "R3C5-prix-de-verderonne.html",
+        "R3C6-prix-de-labruyere.html",
+        "R3C7-prix-du-roi-des-manuscrits.html",
+        "R3C8-prix-du-livre-du-roi-modus.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-cabinet-des-livres.html",
+        "R4C2-prix-des-terroirs-de-france.html",
+        "R4C3-prix-de-la-salle-du-sycomore.html",
+        "R4C4-prix-de-la-courtille.html",
+        "R4C5-prix-de-verderonne.html",
+        "R4C6-prix-de-labruyere.html",
+        "R4C7-prix-du-roi-des-manuscrits.html",
+        "R4C8-prix-du-livre-du-roi-modus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:05.062917Z"
+}

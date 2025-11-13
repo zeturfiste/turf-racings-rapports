@@ -1,0 +1,74 @@
+{
+  "date": "2010-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/07/2010-07-01",
+    "date_html": "resultats-et-rapports/2010/07/2010-07-01/2010-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/07/2010-07-01/R1-enghien-soisy/R1C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R1-enghien-soisy/R1C6-prix-du-parc-monceau.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R1-enghien-soisy/R1C7-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R1-enghien-soisy/R1C8-prix-de-la-gare-des-invalides.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C1-prix-de-plaisance.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C2-prix-de-rouvroy.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C3-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C4-prix-de-la-nation.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C6-prix-du-parc-monceau.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C7-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R2-deauville/R2C8-prix-de-la-gare-des-invalides.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C1-prix-de-plaisance.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C2-prix-de-rouvroy.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C3-prix-de-la-place-vendome.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C4-prix-de-la-nation.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C5-prix-de-la-place-du-commerce.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C6-prix-du-parc-monceau.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C7-prix-de-la-haute-vienne.html",
+      "resultats-et-rapports/2010/07/2010-07-01/R3-vichy/R3C8-prix-de-la-gare-des-invalides.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-deauville",
+      "R3-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-plaisance.html",
+        "R1C2-prix-de-rouvroy.html",
+        "R1C3-prix-de-la-place-vendome.html",
+        "R1C4-prix-de-la-nation.html",
+        "R1C5-prix-de-la-place-du-commerce.html",
+        "R1C6-prix-du-parc-monceau.html",
+        "R1C7-prix-de-la-haute-vienne.html",
+        "R1C8-prix-de-la-gare-des-invalides.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-plaisance.html",
+        "R2C2-prix-de-rouvroy.html",
+        "R2C3-prix-de-la-place-vendome.html",
+        "R2C4-prix-de-la-nation.html",
+        "R2C5-prix-de-la-place-du-commerce.html",
+        "R2C6-prix-du-parc-monceau.html",
+        "R2C7-prix-de-la-haute-vienne.html",
+        "R2C8-prix-de-la-gare-des-invalides.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-plaisance.html",
+        "R3C2-prix-de-rouvroy.html",
+        "R3C3-prix-de-la-place-vendome.html",
+        "R3C4-prix-de-la-nation.html",
+        "R3C5-prix-de-la-place-du-commerce.html",
+        "R3C6-prix-du-parc-monceau.html",
+        "R3C7-prix-de-la-haute-vienne.html",
+        "R3C8-prix-de-la-gare-des-invalides.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:04.384439Z"
+}

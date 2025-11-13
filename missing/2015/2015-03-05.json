@@ -1,0 +1,81 @@
+{
+  "date": "2015-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-05",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-05/2015-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-05/R1-deauville/R1C2-prix-d-alderney.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R1-deauville/R1C7-prix-de-branville.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R2-caen/R2C3-prix-du-mont-saint-leger.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R2-caen/R2C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R2-caen/R2C5-prix-de-douville.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R2-caen/R2C6-prix-de-cormeilles.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R2-caen/R2C7-prix-de-branville.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R3-laval/R3C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R3-laval/R3C6-prix-de-cormeilles.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R3-laval/R3C8-prix-de-carentan.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C3-prix-du-mont-saint-leger.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C4-prix-d-aurigny.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C5-prix-de-douville.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C6-prix-de-cormeilles.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C7-prix-de-branville.html",
+      "resultats-et-rapports/2015/03/2015-03-05/R6-lyon-la-soie/R6C8-prix-de-carentan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-laval",
+      "R6-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-mont-saint-jean.html",
+        "R1C2-prix-d-alderney.html",
+        "R1C3-prix-du-mont-saint-leger.html",
+        "R1C4-prix-d-aurigny.html",
+        "R1C5-prix-de-douville.html",
+        "R1C6-prix-de-cormeilles.html",
+        "R1C7-prix-de-branville.html",
+        "R1C8-prix-de-carentan.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-du-mont-saint-jean.html",
+        "R2C2-prix-d-alderney.html",
+        "R2C3-prix-du-mont-saint-leger.html",
+        "R2C4-prix-d-aurigny.html",
+        "R2C5-prix-de-douville.html",
+        "R2C6-prix-de-cormeilles.html",
+        "R2C7-prix-de-branville.html",
+        "R2C8-prix-de-carentan.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-du-mont-saint-jean.html",
+        "R3C2-prix-d-alderney.html",
+        "R3C3-prix-du-mont-saint-leger.html",
+        "R3C4-prix-d-aurigny.html",
+        "R3C5-prix-de-douville.html",
+        "R3C6-prix-de-cormeilles.html",
+        "R3C7-prix-de-branville.html",
+        "R3C8-prix-de-carentan.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-prix-du-mont-saint-jean.html",
+        "R6C2-prix-d-alderney.html",
+        "R6C3-prix-du-mont-saint-leger.html",
+        "R6C4-prix-d-aurigny.html",
+        "R6C5-prix-de-douville.html",
+        "R6C6-prix-de-cormeilles.html",
+        "R6C7-prix-de-branville.html",
+        "R6C8-prix-de-carentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:26.049112Z"
+}

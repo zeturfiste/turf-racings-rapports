@@ -1,0 +1,58 @@
+{
+  "date": "2014-03-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-04",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-04/2014-03-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-04/R1-chantilly/R1C1-prix-du-val-saint-georges.html",
+      "resultats-et-rapports/2014/03/2014-03-04/R1-chantilly/R1C2-prix-bab-al-shams-desert-resort-spa.html",
+      "resultats-et-rapports/2014/03/2014-03-04/R3-cagnes-sur-mer/R3C1-prix-du-val-saint-georges.html",
+      "resultats-et-rapports/2014/03/2014-03-04/R3-cagnes-sur-mer/R3C3-prix-meydan-race-course.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-angers",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-val-saint-georges.html",
+        "R1C2-prix-bab-al-shams-desert-resort-spa.html",
+        "R1C3-prix-meydan-race-course.html",
+        "R1C4-prix-meydan-golf-club.html",
+        "R1C5-prix-meydan-hotel.html",
+        "R1C6-prix-d-amezaga.html",
+        "R1C7-prix-du-festival-de-dubai.html",
+        "R1C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-du-val-saint-georges.html",
+        "R2C2-prix-bab-al-shams-desert-resort-spa.html",
+        "R2C3-prix-meydan-race-course.html",
+        "R2C4-prix-meydan-golf-club.html",
+        "R2C5-prix-meydan-hotel.html",
+        "R2C6-prix-d-amezaga.html",
+        "R2C7-prix-du-festival-de-dubai.html",
+        "R2C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-du-val-saint-georges.html",
+        "R3C2-prix-bab-al-shams-desert-resort-spa.html",
+        "R3C3-prix-meydan-race-course.html",
+        "R3C4-prix-meydan-golf-club.html",
+        "R3C5-prix-meydan-hotel.html",
+        "R3C6-prix-d-amezaga.html",
+        "R3C7-prix-du-festival-de-dubai.html",
+        "R3C8-prix-de-la-nouvelle-piste-de-chantilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:29.276834Z"
+}

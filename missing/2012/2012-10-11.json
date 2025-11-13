@@ -1,0 +1,65 @@
+{
+  "date": "2012-10-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-11",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-11/2012-10-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C1-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C2-prix-prince-bio.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C3-prix-thomas-bryon.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C4-prix-rose-royale.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C5-prix-flamant.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C6-prix-nativa.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C7-prix-du-jardin-des-tourneroches.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R1-saint-cloud/R1C8-prix-des-falaises-de-craies.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R2-chateaubriant/R2C5-prix-flamant.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R3-enghien-soisy/R3C5-prix-flamant.html",
+      "resultats-et-rapports/2012/10/2012-10-11/R3-enghien-soisy/R3C8-prix-des-falaises-de-craies.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-chateaubriant",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-des-boucles-de-la-seine.html",
+        "R1C2-prix-prince-bio.html",
+        "R1C3-prix-thomas-bryon.html",
+        "R1C4-prix-rose-royale.html",
+        "R1C5-prix-flamant.html",
+        "R1C6-prix-nativa.html",
+        "R1C7-prix-du-jardin-des-tourneroches.html",
+        "R1C8-prix-des-falaises-de-craies.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-des-boucles-de-la-seine.html",
+        "R2C2-prix-prince-bio.html",
+        "R2C3-prix-thomas-bryon.html",
+        "R2C4-prix-rose-royale.html",
+        "R2C5-prix-flamant.html",
+        "R2C6-prix-nativa.html",
+        "R2C7-prix-du-jardin-des-tourneroches.html",
+        "R2C8-prix-des-falaises-de-craies.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-des-boucles-de-la-seine.html",
+        "R3C2-prix-prince-bio.html",
+        "R3C3-prix-thomas-bryon.html",
+        "R3C4-prix-rose-royale.html",
+        "R3C5-prix-flamant.html",
+        "R3C6-prix-nativa.html",
+        "R3C7-prix-du-jardin-des-tourneroches.html",
+        "R3C8-prix-des-falaises-de-craies.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:02.436057Z"
+}

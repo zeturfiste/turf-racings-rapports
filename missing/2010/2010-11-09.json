@@ -1,0 +1,66 @@
+{
+  "date": "2010-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-09",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-09/2010-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C1-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C2-prix-du-rhin.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C3-prix-thebais.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C4-prix-ortie-blanche.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C5-prix-borax.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C6-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C7-prix-de-clairefontaine-en-yvelines.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R1-saint-cloud/R1C8-prix-de-la-moselle.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R2-bordeaux-le-bouscat/R2C7-prix-de-clairefontaine-en-yvelines.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R3-vincennes/R3C1-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R3-vincennes/R3C6-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2010/11/2010-11-09/R3-vincennes/R3C7-prix-de-clairefontaine-en-yvelines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-d-ecquevilly.html",
+        "R1C2-prix-du-rhin.html",
+        "R1C3-prix-thebais.html",
+        "R1C4-prix-ortie-blanche.html",
+        "R1C5-prix-borax.html",
+        "R1C6-prix-de-rennemoulin.html",
+        "R1C7-prix-de-clairefontaine-en-yvelines.html",
+        "R1C8-prix-de-la-moselle.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-d-ecquevilly.html",
+        "R2C2-prix-du-rhin.html",
+        "R2C3-prix-thebais.html",
+        "R2C4-prix-ortie-blanche.html",
+        "R2C5-prix-borax.html",
+        "R2C6-prix-de-rennemoulin.html",
+        "R2C7-prix-de-clairefontaine-en-yvelines.html",
+        "R2C8-prix-de-la-moselle.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-d-ecquevilly.html",
+        "R3C2-prix-du-rhin.html",
+        "R3C3-prix-thebais.html",
+        "R3C4-prix-ortie-blanche.html",
+        "R3C5-prix-borax.html",
+        "R3C6-prix-de-rennemoulin.html",
+        "R3C7-prix-de-clairefontaine-en-yvelines.html",
+        "R3C8-prix-de-la-moselle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:44.929776Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2022-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/12/2022-12-03",
+    "date_html": "resultats-et-rapports/2022/12/2022-12-03/2022-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/12/2022-12-03/R1-vincennes/R1C7-prix-d-oraison.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R1-vincennes/R1C9-prix-raoul-balliere.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C3-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C4-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C5-prix-herve-ceran-maillard.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C6-prix-des-dhalias.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C7-prix-d-oraison.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C8-prix-de-mirambeau.html",
+      "resultats-et-rapports/2022/12/2022-12-03/R7-angers/R7C9-prix-raoul-balliere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-auteuil",
+      "R4-marseille-vivaux",
+      "R7-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-bresse.html",
+        "R1C2-prix-doynel-de-saint-quentin.html",
+        "R1C3-prix-de-saint-georges-de-didonne.html",
+        "R1C4-prix-de-marennes-oleron.html",
+        "R1C5-prix-herve-ceran-maillard.html",
+        "R1C6-prix-des-dhalias.html",
+        "R1C7-prix-d-oraison.html",
+        "R1C8-prix-de-mirambeau.html",
+        "R1C9-prix-raoul-balliere.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-de-la-bresse.html",
+        "R3C2-prix-doynel-de-saint-quentin.html",
+        "R3C3-prix-de-saint-georges-de-didonne.html",
+        "R3C4-prix-de-marennes-oleron.html",
+        "R3C5-prix-herve-ceran-maillard.html",
+        "R3C6-prix-des-dhalias.html",
+        "R3C7-prix-d-oraison.html",
+        "R3C8-prix-de-mirambeau.html",
+        "R3C9-prix-raoul-balliere.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-bresse.html",
+        "R4C2-prix-doynel-de-saint-quentin.html",
+        "R4C3-prix-de-saint-georges-de-didonne.html",
+        "R4C4-prix-de-marennes-oleron.html",
+        "R4C5-prix-herve-ceran-maillard.html",
+        "R4C6-prix-des-dhalias.html",
+        "R4C7-prix-d-oraison.html",
+        "R4C8-prix-de-mirambeau.html",
+        "R4C9-prix-raoul-balliere.html"
+      ],
+      "R7-angers": [
+        "R7C1-prix-de-la-bresse.html",
+        "R7C2-prix-doynel-de-saint-quentin.html",
+        "R7C3-prix-de-saint-georges-de-didonne.html",
+        "R7C4-prix-de-marennes-oleron.html",
+        "R7C5-prix-herve-ceran-maillard.html",
+        "R7C6-prix-des-dhalias.html",
+        "R7C7-prix-d-oraison.html",
+        "R7C8-prix-de-mirambeau.html",
+        "R7C9-prix-raoul-balliere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:53.602059Z"
+}

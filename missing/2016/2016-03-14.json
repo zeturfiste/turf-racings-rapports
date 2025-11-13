@@ -1,0 +1,95 @@
+{
+  "date": "2016-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-14",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-14/2016-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C1-prix-de-picardie.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C2-prix-du-vermandois.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C3-prix-du-grand-parc.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C4-prix-d-acteon.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C5-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C6-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C7-prix-d-autreches.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R1-compiegne/R1C8-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C2-prix-du-vermandois.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C4-prix-d-acteon.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C5-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C6-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C7-prix-d-autreches.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R2-bordeaux-le-bouscat/R2C8-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C1-prix-de-picardie.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C2-prix-du-vermandois.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C3-prix-du-grand-parc.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C4-prix-d-acteon.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C5-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C6-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C7-prix-d-autreches.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R3-toulouse/R3C8-prix-de-la-federation-du-nord.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C1-prix-de-picardie.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C2-prix-du-vermandois.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C3-prix-du-grand-parc.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C4-prix-d-acteon.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C5-prix-de-taillefontaine.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C6-prix-de-bethisy-saint-pierre.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C7-prix-d-autreches.html",
+      "resultats-et-rapports/2016/03/2016-03-14/R5-pornichet-la-baule/R5C8-prix-de-la-federation-du-nord.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-bordeaux-le-bouscat",
+      "R3-toulouse",
+      "R5-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-picardie.html",
+        "R1C2-prix-du-vermandois.html",
+        "R1C3-prix-du-grand-parc.html",
+        "R1C4-prix-d-acteon.html",
+        "R1C5-prix-de-taillefontaine.html",
+        "R1C6-prix-de-bethisy-saint-pierre.html",
+        "R1C7-prix-d-autreches.html",
+        "R1C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-picardie.html",
+        "R2C2-prix-du-vermandois.html",
+        "R2C3-prix-du-grand-parc.html",
+        "R2C4-prix-d-acteon.html",
+        "R2C5-prix-de-taillefontaine.html",
+        "R2C6-prix-de-bethisy-saint-pierre.html",
+        "R2C7-prix-d-autreches.html",
+        "R2C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-picardie.html",
+        "R3C2-prix-du-vermandois.html",
+        "R3C3-prix-du-grand-parc.html",
+        "R3C4-prix-d-acteon.html",
+        "R3C5-prix-de-taillefontaine.html",
+        "R3C6-prix-de-bethisy-saint-pierre.html",
+        "R3C7-prix-d-autreches.html",
+        "R3C8-prix-de-la-federation-du-nord.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-de-picardie.html",
+        "R5C2-prix-du-vermandois.html",
+        "R5C3-prix-du-grand-parc.html",
+        "R5C4-prix-d-acteon.html",
+        "R5C5-prix-de-taillefontaine.html",
+        "R5C6-prix-de-bethisy-saint-pierre.html",
+        "R5C7-prix-d-autreches.html",
+        "R5C8-prix-de-la-federation-du-nord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:21.821749Z"
+}

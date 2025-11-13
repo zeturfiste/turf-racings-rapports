@@ -1,0 +1,49 @@
+{
+  "date": "2024-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-24",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-24/2024-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-24/R1-vincennes/R1C6-prix-de-craon.html",
+      "resultats-et-rapports/2024/12/2024-12-24/R2-cagnes-sur-mer/R2C9-prix-de-gencay.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-barcelonnette.html",
+        "R1C2-prix-de-fos-sur-mer.html",
+        "R1C3-prix-des-eglantiers.html",
+        "R1C4-prix-de-saint-leonard.html",
+        "R1C5-prix-de-belle-ile.html",
+        "R1C6-prix-de-craon.html",
+        "R1C7-prix-de-bouville.html",
+        "R1C8-prix-de-saint-jean-de-monts.html",
+        "R1C9-prix-de-gencay.html",
+        "R1C10-prix-de-chatel-censoir.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-de-barcelonnette.html",
+        "R2C2-prix-de-fos-sur-mer.html",
+        "R2C3-prix-des-eglantiers.html",
+        "R2C4-prix-de-saint-leonard.html",
+        "R2C5-prix-de-belle-ile.html",
+        "R2C6-prix-de-craon.html",
+        "R2C7-prix-de-bouville.html",
+        "R2C8-prix-de-saint-jean-de-monts.html",
+        "R2C9-prix-de-gencay.html",
+        "R2C10-prix-de-chatel-censoir.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:35.557943Z"
+}

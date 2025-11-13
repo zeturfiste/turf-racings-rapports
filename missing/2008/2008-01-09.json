@@ -1,0 +1,76 @@
+{
+  "date": "2008-01-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/01/2008-01-09",
+    "date_html": "resultats-et-rapports/2008/01/2008-01-09/2008-01-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/01/2008-01-09/R1-pau/R1C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R1-pau/R1C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R2-cagnes-sur-mer/R2C3-prix-geny-courses-3601-prix-de-theze.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R2-cagnes-sur-mer/R2C4-prix-pmu-la-vieille-auberge-arzacq-prix-de-sames.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R2-cagnes-sur-mer/R2C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R2-cagnes-sur-mer/R2C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R70-ta-qali-stadium-malte/R70C3-prix-geny-courses-3601-prix-de-theze.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R70-ta-qali-stadium-malte/R70C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R70-ta-qali-stadium-malte/R70C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R70-ta-qali-stadium-malte/R70C7-prix-pmu-tabac-presse-loto-mini-auch-prix-de-maucor.html",
+      "resultats-et-rapports/2008/01/2008-01-09/R70-ta-qali-stadium-malte/R70C8-prix-pmu-le-bellino-pau-prix-du-pic-du-midi.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-ta-qali-stadium-malte"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-etienne-pollet.html",
+        "R1C2-prix-casino-de-pau-groupe-tranchant-prix-auguste-de-castelbajac.html",
+        "R1C3-prix-geny-courses-3601-prix-de-theze.html",
+        "R1C4-prix-pmu-la-vieille-auberge-arzacq-prix-de-sames.html",
+        "R1C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R1C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+        "R1C7-prix-pmu-tabac-presse-loto-mini-auch-prix-de-maucor.html",
+        "R1C8-prix-pmu-le-bellino-pau-prix-du-pic-du-midi.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-etienne-pollet.html",
+        "R2C2-prix-casino-de-pau-groupe-tranchant-prix-auguste-de-castelbajac.html",
+        "R2C3-prix-geny-courses-3601-prix-de-theze.html",
+        "R2C4-prix-pmu-la-vieille-auberge-arzacq-prix-de-sames.html",
+        "R2C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R2C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+        "R2C7-prix-pmu-tabac-presse-loto-mini-auch-prix-de-maucor.html",
+        "R2C8-prix-pmu-le-bellino-pau-prix-du-pic-du-midi.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-etienne-pollet.html",
+        "R31C2-prix-casino-de-pau-groupe-tranchant-prix-auguste-de-castelbajac.html",
+        "R31C3-prix-geny-courses-3601-prix-de-theze.html",
+        "R31C4-prix-pmu-la-vieille-auberge-arzacq-prix-de-sames.html",
+        "R31C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R31C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+        "R31C7-prix-pmu-tabac-presse-loto-mini-auch-prix-de-maucor.html",
+        "R31C8-prix-pmu-le-bellino-pau-prix-du-pic-du-midi.html"
+      ],
+      "R70-ta-qali-stadium-malte": [
+        "R70C1-prix-etienne-pollet.html",
+        "R70C2-prix-casino-de-pau-groupe-tranchant-prix-auguste-de-castelbajac.html",
+        "R70C3-prix-geny-courses-3601-prix-de-theze.html",
+        "R70C4-prix-pmu-la-vieille-auberge-arzacq-prix-de-sames.html",
+        "R70C5-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R70C6-prix-pmu-tabac-presse-de-l-europe-lescar-prix-joseph-baron.html",
+        "R70C7-prix-pmu-tabac-presse-loto-mini-auch-prix-de-maucor.html",
+        "R70C8-prix-pmu-le-bellino-pau-prix-du-pic-du-midi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:46.561338Z"
+}

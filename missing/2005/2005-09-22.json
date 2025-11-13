@@ -1,0 +1,42 @@
+{
+  "date": "2005-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-22",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-22/2005-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R2-les-sables-d-olonne",
+      "R1-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-bernard-le-quellec.html",
+        "R2C2-prix-de-montelimar.html",
+        "R2C3-prix-de-bayeux.html",
+        "R2C4-prix-emile-beziere.html",
+        "R2C5-prix-gaston-roussel.html",
+        "R2C6-prix-d-auvergne.html",
+        "R2C7-prix-andre-choisselet.html",
+        "R2C8-prix-de-saint-girons.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-bernard-le-quellec.html",
+        "R1C2-prix-de-montelimar.html",
+        "R1C3-prix-de-bayeux.html",
+        "R1C4-prix-emile-beziere.html",
+        "R1C5-prix-gaston-roussel.html",
+        "R1C6-prix-d-auvergne.html",
+        "R1C7-prix-andre-choisselet.html",
+        "R1C8-prix-de-saint-girons.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:51.916217Z"
+}

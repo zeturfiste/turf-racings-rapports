@@ -1,0 +1,70 @@
+{
+  "date": "2024-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-12",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-12/2024-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-12/R1-paris-longchamp/R1C1-prix-de-longchamp.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R1-paris-longchamp/R1C3-prix-d-aumale.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R1-paris-longchamp/R1C6-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R1-paris-longchamp/R1C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R1-paris-longchamp/R1C8-prix-de-neuilly.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R3-la-teste-de-buch/R3C1-prix-de-longchamp.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R3-la-teste-de-buch/R3C3-prix-d-aumale.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R3-la-teste-de-buch/R3C5-prix-ernest-leroy.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R3-la-teste-de-buch/R3C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R3-la-teste-de-buch/R3C8-prix-de-neuilly.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C1-prix-de-longchamp.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C2-prix-des-chenes.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C3-prix-d-aumale.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C5-prix-ernest-leroy.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C6-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2024/09/2024-09-12/R4-mauquenchy/R4C7-grand-prix-des-anglo-arabes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-la-teste-de-buch",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-longchamp.html",
+        "R1C2-prix-des-chenes.html",
+        "R1C3-prix-d-aumale.html",
+        "R1C4-prix-de-villeneuve-l-etang.html",
+        "R1C5-prix-ernest-leroy.html",
+        "R1C6-prix-du-parc-aux-daims.html",
+        "R1C7-grand-prix-des-anglo-arabes.html",
+        "R1C8-prix-de-neuilly.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-longchamp.html",
+        "R3C2-prix-des-chenes.html",
+        "R3C3-prix-d-aumale.html",
+        "R3C4-prix-de-villeneuve-l-etang.html",
+        "R3C5-prix-ernest-leroy.html",
+        "R3C6-prix-du-parc-aux-daims.html",
+        "R3C7-grand-prix-des-anglo-arabes.html",
+        "R3C8-prix-de-neuilly.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-longchamp.html",
+        "R4C2-prix-des-chenes.html",
+        "R4C3-prix-d-aumale.html",
+        "R4C4-prix-de-villeneuve-l-etang.html",
+        "R4C5-prix-ernest-leroy.html",
+        "R4C6-prix-du-parc-aux-daims.html",
+        "R4C7-grand-prix-des-anglo-arabes.html",
+        "R4C8-prix-de-neuilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:54.594212Z"
+}

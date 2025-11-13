@@ -1,0 +1,67 @@
+{
+  "date": "2022-02-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/02/2022-02-09",
+    "date_html": "resultats-et-rapports/2022/02/2022-02-09/2022-02-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/02/2022-02-09/R1-vincennes/R1C4-prix-de-marolles.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R1-vincennes/R1C7-prix-des-charentes.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R1-vincennes/R1C8-prix-de-villereal.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R3-pau/R3C2-prix-du-poitou.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R3-pau/R3C8-prix-de-villereal.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C1-prix-de-l-ille-et-vilaine.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C2-prix-du-poitou.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C3-prix-de-bourg-en-bresse.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C4-prix-de-marolles.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C5-prix-de-montlucon.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C6-prix-de-paimboeuf.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C7-prix-des-charentes.html",
+      "resultats-et-rapports/2022/02/2022-02-09/R4-marseille-vivaux/R4C8-prix-de-villereal.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-ille-et-vilaine.html",
+        "R1C2-prix-du-poitou.html",
+        "R1C3-prix-de-bourg-en-bresse.html",
+        "R1C4-prix-de-marolles.html",
+        "R1C5-prix-de-montlucon.html",
+        "R1C6-prix-de-paimboeuf.html",
+        "R1C7-prix-des-charentes.html",
+        "R1C8-prix-de-villereal.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-l-ille-et-vilaine.html",
+        "R3C2-prix-du-poitou.html",
+        "R3C3-prix-de-bourg-en-bresse.html",
+        "R3C4-prix-de-marolles.html",
+        "R3C5-prix-de-montlucon.html",
+        "R3C6-prix-de-paimboeuf.html",
+        "R3C7-prix-des-charentes.html",
+        "R3C8-prix-de-villereal.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-l-ille-et-vilaine.html",
+        "R4C2-prix-du-poitou.html",
+        "R4C3-prix-de-bourg-en-bresse.html",
+        "R4C4-prix-de-marolles.html",
+        "R4C5-prix-de-montlucon.html",
+        "R4C6-prix-de-paimboeuf.html",
+        "R4C7-prix-des-charentes.html",
+        "R4C8-prix-de-villereal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:02.997374Z"
+}

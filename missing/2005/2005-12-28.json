@@ -1,0 +1,42 @@
+{
+  "date": "2005-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-28",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-28/2005-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-l-epee-course-annulee.html",
+        "R1C2-prix-de-la-corbeillere-course-annulee.html",
+        "R1C3-prix-topolivres-prix-du-maine-course-annulee.html",
+        "R1C4-prix-de-l-yvie-course-annulee.html",
+        "R1C5-prix-d-urou-course-annulee.html",
+        "R1C6-prix-du-taillis-course-annulee.html",
+        "R1C7-prix-de-l-esque-course-annulee.html",
+        "R1C8-prix-du-saosnois-course-annulee.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-l-epee-course-annulee.html",
+        "R2C2-prix-de-la-corbeillere-course-annulee.html",
+        "R2C3-prix-topolivres-prix-du-maine-course-annulee.html",
+        "R2C4-prix-de-l-yvie-course-annulee.html",
+        "R2C5-prix-d-urou-course-annulee.html",
+        "R2C6-prix-du-taillis-course-annulee.html",
+        "R2C7-prix-de-l-esque-course-annulee.html",
+        "R2C8-prix-du-saosnois-course-annulee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:08.284615Z"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2007-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/11/2007-11-15",
+    "date_html": "resultats-et-rapports/2007/11/2007-11-15/2007-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/11/2007-11-15/R1-angers/R1C5-grand-prix-d-angers.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R1-angers/R1C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R1-angers/R1C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R2-saint-galmier/R2C2-prix-d-ecouflant.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R2-saint-galmier/R2C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R2-saint-galmier/R2C9-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R31-zerace/R31C1-prix-kerautem.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R31-zerace/R31C5-grand-prix-d-angers.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R31-zerace/R31C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R31-zerace/R31C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R31-zerace/R31C9-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R71-shanghai-chine/R71C3-prix-d-anjou.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R71-shanghai-chine/R71C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R71-shanghai-chine/R71C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R71-shanghai-chine/R71C8-prix-wladimir-hall.html",
+      "resultats-et-rapports/2007/11/2007-11-15/R71-shanghai-chine/R71C9-grande-course-de-haies-d-angers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-saint-galmier",
+      "R31-zerace",
+      "R71-shanghai-chine"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-kerautem.html",
+        "R1C2-prix-d-ecouflant.html",
+        "R1C3-prix-d-anjou.html",
+        "R1C4-prix-chateau-d-avrille-prix-david-d-angers.html",
+        "R1C5-grand-prix-d-angers.html",
+        "R1C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+        "R1C7-prix-des-jardins-du-mail.html",
+        "R1C8-prix-wladimir-hall.html",
+        "R1C9-grande-course-de-haies-d-angers.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-kerautem.html",
+        "R2C2-prix-d-ecouflant.html",
+        "R2C3-prix-d-anjou.html",
+        "R2C4-prix-chateau-d-avrille-prix-david-d-angers.html",
+        "R2C5-grand-prix-d-angers.html",
+        "R2C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+        "R2C7-prix-des-jardins-du-mail.html",
+        "R2C8-prix-wladimir-hall.html",
+        "R2C9-grande-course-de-haies-d-angers.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-kerautem.html",
+        "R31C2-prix-d-ecouflant.html",
+        "R31C3-prix-d-anjou.html",
+        "R31C4-prix-chateau-d-avrille-prix-david-d-angers.html",
+        "R31C5-grand-prix-d-angers.html",
+        "R31C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+        "R31C7-prix-des-jardins-du-mail.html",
+        "R31C8-prix-wladimir-hall.html",
+        "R31C9-grande-course-de-haies-d-angers.html"
+      ],
+      "R71-shanghai-chine": [
+        "R71C1-prix-kerautem.html",
+        "R71C2-prix-d-ecouflant.html",
+        "R71C3-prix-d-anjou.html",
+        "R71C4-prix-chateau-d-avrille-prix-david-d-angers.html",
+        "R71C5-grand-prix-d-angers.html",
+        "R71C6-prix-a-p-g-o-4eme-etape-du-challenge-a-p-g-o-plat-prix-commandant-de-la-bruniere.html",
+        "R71C7-prix-des-jardins-du-mail.html",
+        "R71C8-prix-wladimir-hall.html",
+        "R71C9-grande-course-de-haies-d-angers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:26.706296Z"
+}

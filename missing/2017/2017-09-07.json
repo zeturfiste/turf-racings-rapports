@@ -1,0 +1,83 @@
+{
+  "date": "2017-09-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/09/2017-09-07",
+    "date_html": "resultats-et-rapports/2017/09/2017-09-07/2017-09-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/09/2017-09-07/R1-auteuil/R1C1-prix-pelat.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R1-auteuil/R1C4-prix-finot-pouliches.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R1-auteuil/R1C7-prix-de-gien.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C3-prix-jean-bart.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C4-prix-finot-pouliches.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C5-prix-cadoudal.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C6-prix-richard-et-robert-hennessy.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C7-prix-de-gien.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R2-strasbourg/R2C8-prix-mortemart.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R3-lyon-parilly/R3C2-prix-jean-noiret.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R3-lyon-parilly/R3C3-prix-jean-bart.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R3-lyon-parilly/R3C5-prix-cadoudal.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R3-lyon-parilly/R3C7-prix-de-gien.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R3-lyon-parilly/R3C8-prix-mortemart.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R4-amiens/R4C1-prix-pelat.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R4-amiens/R4C4-prix-finot-pouliches.html",
+      "resultats-et-rapports/2017/09/2017-09-07/R4-amiens/R4C6-prix-richard-et-robert-hennessy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-strasbourg",
+      "R3-lyon-parilly",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-pelat.html",
+        "R1C2-prix-jean-noiret.html",
+        "R1C3-prix-jean-bart.html",
+        "R1C4-prix-finot-pouliches.html",
+        "R1C5-prix-cadoudal.html",
+        "R1C6-prix-richard-et-robert-hennessy.html",
+        "R1C7-prix-de-gien.html",
+        "R1C8-prix-mortemart.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-pelat.html",
+        "R2C2-prix-jean-noiret.html",
+        "R2C3-prix-jean-bart.html",
+        "R2C4-prix-finot-pouliches.html",
+        "R2C5-prix-cadoudal.html",
+        "R2C6-prix-richard-et-robert-hennessy.html",
+        "R2C7-prix-de-gien.html",
+        "R2C8-prix-mortemart.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-pelat.html",
+        "R3C2-prix-jean-noiret.html",
+        "R3C3-prix-jean-bart.html",
+        "R3C4-prix-finot-pouliches.html",
+        "R3C5-prix-cadoudal.html",
+        "R3C6-prix-richard-et-robert-hennessy.html",
+        "R3C7-prix-de-gien.html",
+        "R3C8-prix-mortemart.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-pelat.html",
+        "R4C2-prix-jean-noiret.html",
+        "R4C3-prix-jean-bart.html",
+        "R4C4-prix-finot-pouliches.html",
+        "R4C5-prix-cadoudal.html",
+        "R4C6-prix-richard-et-robert-hennessy.html",
+        "R4C7-prix-de-gien.html",
+        "R4C8-prix-mortemart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:10.632661Z"
+}

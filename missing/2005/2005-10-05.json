@@ -1,0 +1,53 @@
+{
+  "date": "2005-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-05",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-05/2005-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-auteuil",
+      "R3-solvalla"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-domaine-des-rochelles-prix-axius.html",
+        "R1C2-prix-hermes-d.html",
+        "R1C3-prix-le-loir.html",
+        "R1C4-prix-d-ecouflant.html",
+        "R1C5-prix-de-la-chabolais.html",
+        "R1C6-grand-prix-anjou-maine.html",
+        "R1C7-prix-querido-ii.html",
+        "R1C8-prix-fiesta-d-anjou.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-domaine-des-rochelles-prix-axius.html",
+        "R2C2-prix-hermes-d.html",
+        "R2C3-prix-le-loir.html",
+        "R2C4-prix-d-ecouflant.html",
+        "R2C5-prix-de-la-chabolais.html",
+        "R2C6-grand-prix-anjou-maine.html",
+        "R2C7-prix-querido-ii.html",
+        "R2C8-prix-fiesta-d-anjou.html"
+      ],
+      "R3-solvalla": [
+        "R3C1-prix-domaine-des-rochelles-prix-axius.html",
+        "R3C2-prix-hermes-d.html",
+        "R3C3-prix-le-loir.html",
+        "R3C4-prix-d-ecouflant.html",
+        "R3C5-prix-de-la-chabolais.html",
+        "R3C6-grand-prix-anjou-maine.html",
+        "R3C7-prix-querido-ii.html",
+        "R3C8-prix-fiesta-d-anjou.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:54.777524Z"
+}

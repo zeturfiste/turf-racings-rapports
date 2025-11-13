@@ -1,0 +1,53 @@
+{
+  "date": "2005-09-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-07",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-07/2005-09-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-vivaux",
+      "R2-chantilly",
+      "R3-doncaster"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-vivaux": [
+        "R1C1-prix-paris-turf-geny-courses-rtl.html",
+        "R1C2-prix-kerjacques.html",
+        "R1C3-prix-des-orangers.html",
+        "R1C4-prix-albert-viel.html",
+        "R1C5-prix-de-pont-de-vivaux.html",
+        "R1C6-prix-de-grosbois.html",
+        "R1C7-prix-des-oliviers.html",
+        "R1C8-prix-de-la-joliette.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-paris-turf-geny-courses-rtl.html",
+        "R2C2-prix-kerjacques.html",
+        "R2C3-prix-des-orangers.html",
+        "R2C4-prix-albert-viel.html",
+        "R2C5-prix-de-pont-de-vivaux.html",
+        "R2C6-prix-de-grosbois.html",
+        "R2C7-prix-des-oliviers.html",
+        "R2C8-prix-de-la-joliette.html"
+      ],
+      "R3-doncaster": [
+        "R3C1-prix-paris-turf-geny-courses-rtl.html",
+        "R3C2-prix-kerjacques.html",
+        "R3C3-prix-des-orangers.html",
+        "R3C4-prix-albert-viel.html",
+        "R3C5-prix-de-pont-de-vivaux.html",
+        "R3C6-prix-de-grosbois.html",
+        "R3C7-prix-des-oliviers.html",
+        "R3C8-prix-de-la-joliette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:49.437398Z"
+}

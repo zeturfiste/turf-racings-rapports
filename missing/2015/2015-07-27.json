@@ -1,0 +1,78 @@
+{
+  "date": "2015-07-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-27",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-27/2015-07-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C1-prix-jour-de-cheval-prix-des-colchiques.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C2-prix-relais-du-silence-prix-miss-dan.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C3-prix-le-petit-fute-prix-misti.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C7-prix-casa-rina-deauville.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C8-prix-les-parasols-de-deauville-prix-d-escoville.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R1-clairefontaine/R1C9-prix-les-accords-parfaits-prix-de-petiville.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C1-prix-jour-de-cheval-prix-des-colchiques.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C2-prix-relais-du-silence-prix-miss-dan.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C3-prix-le-petit-fute-prix-misti.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C8-prix-les-parasols-de-deauville-prix-d-escoville.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R2-mauquenchy/R2C9-prix-les-accords-parfaits-prix-de-petiville.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R3-la-teste-de-buch/R3C3-prix-le-petit-fute-prix-misti.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R3-la-teste-de-buch/R3C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R3-la-teste-de-buch/R3C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+      "resultats-et-rapports/2015/07/2015-07-27/R3-la-teste-de-buch/R3C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-mauquenchy",
+      "R3-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-jour-de-cheval-prix-des-colchiques.html",
+        "R1C2-prix-relais-du-silence-prix-miss-dan.html",
+        "R1C3-prix-le-petit-fute-prix-misti.html",
+        "R1C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+        "R1C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+        "R1C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html",
+        "R1C7-prix-casa-rina-deauville.html",
+        "R1C8-prix-les-parasols-de-deauville-prix-d-escoville.html",
+        "R1C9-prix-les-accords-parfaits-prix-de-petiville.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-jour-de-cheval-prix-des-colchiques.html",
+        "R2C2-prix-relais-du-silence-prix-miss-dan.html",
+        "R2C3-prix-le-petit-fute-prix-misti.html",
+        "R2C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+        "R2C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+        "R2C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html",
+        "R2C7-prix-casa-rina-deauville.html",
+        "R2C8-prix-les-parasols-de-deauville-prix-d-escoville.html",
+        "R2C9-prix-les-accords-parfaits-prix-de-petiville.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-jour-de-cheval-prix-des-colchiques.html",
+        "R3C2-prix-relais-du-silence-prix-miss-dan.html",
+        "R3C3-prix-le-petit-fute-prix-misti.html",
+        "R3C4-prix-hugo-jeunesse-prix-des-eglantines.html",
+        "R3C5-prix-haras-de-la-belletiere-prix-roseliere.html",
+        "R3C6-prix-la-petite-boite-graine-de-viking-prix-the-wonder.html",
+        "R3C7-prix-casa-rina-deauville.html",
+        "R3C8-prix-les-parasols-de-deauville-prix-d-escoville.html",
+        "R3C9-prix-les-accords-parfaits-prix-de-petiville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:13.656663Z"
+}

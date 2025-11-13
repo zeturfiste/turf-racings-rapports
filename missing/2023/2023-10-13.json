@@ -1,0 +1,80 @@
+{
+  "date": "2023-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-13",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-13/2023-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-13/R1-vincennes/R1C2-prix-theresia.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R1-vincennes/R1C6-prix-paulina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R3-lyon-parilly/R3C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R3-lyon-parilly/R3C6-prix-paulina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R3-lyon-parilly/R3C7-prix-gordonia.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C2-prix-theresia.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C3-prix-hera.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C4-prix-lucina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C5-prix-edmond-henry.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C6-prix-paulina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R4-compiegne/R4C7-prix-gordonia.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C2-prix-theresia.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C3-prix-hera.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C4-prix-lucina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C5-prix-edmond-henry.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C6-prix-paulina.html",
+      "resultats-et-rapports/2023/10/2023-10-13/R5-toulouse/R5C7-prix-gordonia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lyon-parilly",
+      "R4-compiegne",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+        "R1C2-prix-theresia.html",
+        "R1C3-prix-hera.html",
+        "R1C4-prix-lucina.html",
+        "R1C5-prix-edmond-henry.html",
+        "R1C6-prix-paulina.html",
+        "R1C7-prix-gordonia.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+        "R3C2-prix-theresia.html",
+        "R3C3-prix-hera.html",
+        "R3C4-prix-lucina.html",
+        "R3C5-prix-edmond-henry.html",
+        "R3C6-prix-paulina.html",
+        "R3C7-prix-gordonia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+        "R4C2-prix-theresia.html",
+        "R4C3-prix-hera.html",
+        "R4C4-prix-lucina.html",
+        "R4C5-prix-edmond-henry.html",
+        "R4C6-prix-paulina.html",
+        "R4C7-prix-gordonia.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-hip-poker-tour-vincennes-prix-ingeborg.html",
+        "R5C2-prix-theresia.html",
+        "R5C3-prix-hera.html",
+        "R5C4-prix-lucina.html",
+        "R5C5-prix-edmond-henry.html",
+        "R5C6-prix-paulina.html",
+        "R5C7-prix-gordonia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:47.359667Z"
+}

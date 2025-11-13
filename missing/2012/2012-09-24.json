@@ -1,0 +1,93 @@
+{
+  "date": "2012-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-24",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-24/2012-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-24/R1-craon/R1C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R1-craon/R1C2-prix-asselco-prix-val-d-athee.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R1-craon/R1C5-prix-groupama-groupe-b.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R1-craon/R1C7-prix-actualis-expertise-comptable.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R1-craon/R1C9-prix-equidia.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C2-prix-asselco-prix-val-d-athee.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C3-prix-groupama-groupe-a.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C6-prix-du-docteur-guy-jallot.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C7-prix-actualis-expertise-comptable.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C8-prix-la-star-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R2-fontainebleau/R2C9-prix-equidia.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C2-prix-asselco-prix-val-d-athee.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C4-prix-volney.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C6-prix-du-docteur-guy-jallot.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C7-prix-actualis-expertise-comptable.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C8-prix-la-star-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R3-amiens/R3C9-prix-equidia.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R4-hyeres/R4C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R4-hyeres/R4C4-prix-volney.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R4-hyeres/R4C5-prix-groupama-groupe-b.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R4-hyeres/R4C8-prix-la-star-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2012/09/2012-09-24/R4-hyeres/R4C9-prix-equidia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-fontainebleau",
+      "R3-amiens",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+        "R1C2-prix-asselco-prix-val-d-athee.html",
+        "R1C3-prix-groupama-groupe-a.html",
+        "R1C4-prix-volney.html",
+        "R1C5-prix-groupama-groupe-b.html",
+        "R1C6-prix-du-docteur-guy-jallot.html",
+        "R1C7-prix-actualis-expertise-comptable.html",
+        "R1C8-prix-la-star-prix-des-halles-de-craon.html",
+        "R1C9-prix-equidia.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+        "R2C2-prix-asselco-prix-val-d-athee.html",
+        "R2C3-prix-groupama-groupe-a.html",
+        "R2C4-prix-volney.html",
+        "R2C5-prix-groupama-groupe-b.html",
+        "R2C6-prix-du-docteur-guy-jallot.html",
+        "R2C7-prix-actualis-expertise-comptable.html",
+        "R2C8-prix-la-star-prix-des-halles-de-craon.html",
+        "R2C9-prix-equidia.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+        "R3C2-prix-asselco-prix-val-d-athee.html",
+        "R3C3-prix-groupama-groupe-a.html",
+        "R3C4-prix-volney.html",
+        "R3C5-prix-groupama-groupe-b.html",
+        "R3C6-prix-du-docteur-guy-jallot.html",
+        "R3C7-prix-actualis-expertise-comptable.html",
+        "R3C8-prix-la-star-prix-des-halles-de-craon.html",
+        "R3C9-prix-equidia.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-journal-geny-courses-prix-du-chene-de-craon.html",
+        "R4C2-prix-asselco-prix-val-d-athee.html",
+        "R4C3-prix-groupama-groupe-a.html",
+        "R4C4-prix-volney.html",
+        "R4C5-prix-groupama-groupe-b.html",
+        "R4C6-prix-du-docteur-guy-jallot.html",
+        "R4C7-prix-actualis-expertise-comptable.html",
+        "R4C8-prix-la-star-prix-des-halles-de-craon.html",
+        "R4C9-prix-equidia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:57.139287Z"
+}

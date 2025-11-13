@@ -1,0 +1,53 @@
+{
+  "date": "2005-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-30",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-30/2005-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes",
+      "R3-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-mousko.html",
+        "R1C2-prix-praline.html",
+        "R1C3-prix-eclipse.html",
+        "R1C4-prix-sauge-pourpree.html",
+        "R1C5-prix-coronation.html",
+        "R1C6-prix-de-blingel.html",
+        "R1C7-prix-de-conflans.html",
+        "R1C8-prix-de-corbon.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-mousko.html",
+        "R2C2-prix-praline.html",
+        "R2C3-prix-eclipse.html",
+        "R2C4-prix-sauge-pourpree.html",
+        "R2C5-prix-coronation.html",
+        "R2C6-prix-de-blingel.html",
+        "R2C7-prix-de-conflans.html",
+        "R2C8-prix-de-corbon.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-mousko.html",
+        "R3C2-prix-praline.html",
+        "R3C3-prix-eclipse.html",
+        "R3C4-prix-sauge-pourpree.html",
+        "R3C5-prix-coronation.html",
+        "R3C6-prix-de-blingel.html",
+        "R3C7-prix-de-conflans.html",
+        "R3C8-prix-de-corbon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:53.415991Z"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2010-12-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/12/2010-12-10",
+    "date_html": "resultats-et-rapports/2010/12/2010-12-10/2010-12-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C2-prix-des-citronniers-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C3-prix-du-col-d-aspin.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C4-prix-du-col-du-somport.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C6-prix-du-col-du-puymorens.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C7-prix-du-col-de-fenestre.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R1-cagnes-sur-mer/R1C8-prix-du-col-de-la-faucille.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R2-mauquenchy/R2C4-prix-du-col-du-somport.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R2-mauquenchy/R2C5-prix-jean-gailly-de-taurines.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R2-mauquenchy/R2C6-prix-du-col-du-puymorens.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R2-mauquenchy/R2C7-prix-du-col-de-fenestre.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R2-mauquenchy/R2C8-prix-du-col-de-la-faucille.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R3-vincennes/R3C2-prix-des-citronniers-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R3-vincennes/R3C4-prix-du-col-du-somport.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R3-vincennes/R3C5-prix-jean-gailly-de-taurines.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R3-vincennes/R3C6-prix-du-col-du-puymorens.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R3-vincennes/R3C7-prix-du-col-de-fenestre.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C1-prix-des-citronniers-groupe-a.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C3-prix-du-col-d-aspin.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C4-prix-du-col-du-somport.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C5-prix-jean-gailly-de-taurines.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C6-prix-du-col-du-puymorens.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C7-prix-du-col-de-fenestre.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R5-lyon-parilly/R5C8-prix-du-col-de-la-faucille.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R7-vincennes-matinee/R7C1-prix-des-citronniers-groupe-a.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R7-vincennes-matinee/R7C2-prix-des-citronniers-groupe-b.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R7-vincennes-matinee/R7C4-prix-du-col-du-somport.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R7-vincennes-matinee/R7C5-prix-jean-gailly-de-taurines.html",
+      "resultats-et-rapports/2010/12/2010-12-10/R7-vincennes-matinee/R7C6-prix-du-col-du-puymorens.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-mauquenchy",
+      "R3-vincennes",
+      "R5-lyon-parilly",
+      "R7-vincennes-matinee"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-citronniers-groupe-a.html",
+        "R1C2-prix-des-citronniers-groupe-b.html",
+        "R1C3-prix-du-col-d-aspin.html",
+        "R1C4-prix-du-col-du-somport.html",
+        "R1C5-prix-jean-gailly-de-taurines.html",
+        "R1C6-prix-du-col-du-puymorens.html",
+        "R1C7-prix-du-col-de-fenestre.html",
+        "R1C8-prix-du-col-de-la-faucille.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-des-citronniers-groupe-a.html",
+        "R2C2-prix-des-citronniers-groupe-b.html",
+        "R2C3-prix-du-col-d-aspin.html",
+        "R2C4-prix-du-col-du-somport.html",
+        "R2C5-prix-jean-gailly-de-taurines.html",
+        "R2C6-prix-du-col-du-puymorens.html",
+        "R2C7-prix-du-col-de-fenestre.html",
+        "R2C8-prix-du-col-de-la-faucille.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-citronniers-groupe-a.html",
+        "R3C2-prix-des-citronniers-groupe-b.html",
+        "R3C3-prix-du-col-d-aspin.html",
+        "R3C4-prix-du-col-du-somport.html",
+        "R3C5-prix-jean-gailly-de-taurines.html",
+        "R3C6-prix-du-col-du-puymorens.html",
+        "R3C7-prix-du-col-de-fenestre.html",
+        "R3C8-prix-du-col-de-la-faucille.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-des-citronniers-groupe-a.html",
+        "R5C2-prix-des-citronniers-groupe-b.html",
+        "R5C3-prix-du-col-d-aspin.html",
+        "R5C4-prix-du-col-du-somport.html",
+        "R5C5-prix-jean-gailly-de-taurines.html",
+        "R5C6-prix-du-col-du-puymorens.html",
+        "R5C7-prix-du-col-de-fenestre.html",
+        "R5C8-prix-du-col-de-la-faucille.html"
+      ],
+      "R7-vincennes-matinee": [
+        "R7C1-prix-des-citronniers-groupe-a.html",
+        "R7C2-prix-des-citronniers-groupe-b.html",
+        "R7C3-prix-du-col-d-aspin.html",
+        "R7C4-prix-du-col-du-somport.html",
+        "R7C5-prix-jean-gailly-de-taurines.html",
+        "R7C6-prix-du-col-du-puymorens.html",
+        "R7C7-prix-du-col-de-fenestre.html",
+        "R7C8-prix-du-col-de-la-faucille.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:52.868603Z"
+}

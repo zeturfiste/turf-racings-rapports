@@ -1,0 +1,115 @@
+{
+  "date": "2012-07-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-27",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-27/2012-07-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-27/R1-chantilly/R1C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R1-chantilly/R1C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R1-chantilly/R1C5-prix-de-la-valroy.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R1-chantilly/R1C8-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C2-prix-de-thimecourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C5-prix-de-la-valroy.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C7-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R2-la-teste-de-buch/R2C8-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R3-cabourg/R3C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R3-cabourg/R3C5-prix-de-la-valroy.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R3-cabourg/R3C6-prix-d-apremont.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R3-cabourg/R3C7-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R5-cagnes-sur-mer/R5C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R5-cagnes-sur-mer/R5C8-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C5-prix-de-la-valroy.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C6-prix-d-apremont.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C7-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R6-pornichet-la-baule/R6C8-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R7-biarritz/R7C1-prix-de-valgenceuse.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R7-biarritz/R7C3-prix-de-gascourt.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R7-biarritz/R7C6-prix-d-apremont.html",
+      "resultats-et-rapports/2012/07/2012-07-27/R7-biarritz/R7C8-prix-de-l-etang-de-la-loge.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-la-teste-de-buch",
+      "R3-cabourg",
+      "R5-cagnes-sur-mer",
+      "R6-pornichet-la-baule",
+      "R7-biarritz"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-valgenceuse.html",
+        "R1C2-prix-de-thimecourt.html",
+        "R1C3-prix-de-gascourt.html",
+        "R1C4-prix-de-bagatelle.html",
+        "R1C5-prix-de-la-valroy.html",
+        "R1C6-prix-d-apremont.html",
+        "R1C7-prix-de-l-etang-neuf.html",
+        "R1C8-prix-de-l-etang-de-la-loge.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-de-valgenceuse.html",
+        "R2C2-prix-de-thimecourt.html",
+        "R2C3-prix-de-gascourt.html",
+        "R2C4-prix-de-bagatelle.html",
+        "R2C5-prix-de-la-valroy.html",
+        "R2C6-prix-d-apremont.html",
+        "R2C7-prix-de-l-etang-neuf.html",
+        "R2C8-prix-de-l-etang-de-la-loge.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-valgenceuse.html",
+        "R3C2-prix-de-thimecourt.html",
+        "R3C3-prix-de-gascourt.html",
+        "R3C4-prix-de-bagatelle.html",
+        "R3C5-prix-de-la-valroy.html",
+        "R3C6-prix-d-apremont.html",
+        "R3C7-prix-de-l-etang-neuf.html",
+        "R3C8-prix-de-l-etang-de-la-loge.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-valgenceuse.html",
+        "R5C2-prix-de-thimecourt.html",
+        "R5C3-prix-de-gascourt.html",
+        "R5C4-prix-de-bagatelle.html",
+        "R5C5-prix-de-la-valroy.html",
+        "R5C6-prix-d-apremont.html",
+        "R5C7-prix-de-l-etang-neuf.html",
+        "R5C8-prix-de-l-etang-de-la-loge.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-de-valgenceuse.html",
+        "R6C2-prix-de-thimecourt.html",
+        "R6C3-prix-de-gascourt.html",
+        "R6C4-prix-de-bagatelle.html",
+        "R6C5-prix-de-la-valroy.html",
+        "R6C6-prix-d-apremont.html",
+        "R6C7-prix-de-l-etang-neuf.html",
+        "R6C8-prix-de-l-etang-de-la-loge.html"
+      ],
+      "R7-biarritz": [
+        "R7C1-prix-de-valgenceuse.html",
+        "R7C2-prix-de-thimecourt.html",
+        "R7C3-prix-de-gascourt.html",
+        "R7C4-prix-de-bagatelle.html",
+        "R7C5-prix-de-la-valroy.html",
+        "R7C6-prix-d-apremont.html",
+        "R7C7-prix-de-l-etang-neuf.html",
+        "R7C8-prix-de-l-etang-de-la-loge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:38.343585Z"
+}

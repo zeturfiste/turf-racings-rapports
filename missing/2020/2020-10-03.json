@@ -1,0 +1,138 @@
+{
+  "date": "2020-10-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-03",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-03/2020-10-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-03/R1-paris-longchamp/R1C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R1-paris-longchamp/R1C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R2-angers/R2C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R2-angers/R2C4-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R3-caen/R3C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R3-caen/R3C6-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R3-caen/R3C8-qatar-grand-handicap-des-juments.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R3-caen/R3C9-prix-qatar-racing-and-equestrian-club.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R4-marseille-vivaux/R4C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R4-marseille-vivaux/R4C3-qatar-prix-dollar.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R4-marseille-vivaux/R4C9-prix-qatar-racing-and-equestrian-club.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R8-pau/R8C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R8-pau/R8C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R8-pau/R8C6-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R8-pau/R8C7-qatar-prix-du-cadran.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R8-pau/R8C9-prix-qatar-racing-and-equestrian-club.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C3-qatar-prix-dollar.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C4-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C6-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C7-qatar-prix-du-cadran.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C8-qatar-grand-handicap-des-juments.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R9-moulins/R9C9-prix-qatar-racing-and-equestrian-club.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C1-qatar-prix-chaudenay.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C3-qatar-prix-dollar.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C4-qatar-prix-de-royallieu.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C6-qatar-prix-daniel-wildenstein.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C7-qatar-prix-du-cadran.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C8-qatar-grand-handicap-des-juments.html",
+      "resultats-et-rapports/2020/10/2020-10-03/R10-amiens/R10C9-prix-qatar-racing-and-equestrian-club.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-angers",
+      "R3-caen",
+      "R4-marseille-vivaux",
+      "R8-pau",
+      "R9-moulins",
+      "R10-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-qatar-prix-chaudenay.html",
+        "R1C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R1C3-qatar-prix-dollar.html",
+        "R1C4-qatar-prix-de-royallieu.html",
+        "R1C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R1C6-qatar-prix-daniel-wildenstein.html",
+        "R1C7-qatar-prix-du-cadran.html",
+        "R1C8-qatar-grand-handicap-des-juments.html",
+        "R1C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R2-angers": [
+        "R2C1-qatar-prix-chaudenay.html",
+        "R2C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R2C3-qatar-prix-dollar.html",
+        "R2C4-qatar-prix-de-royallieu.html",
+        "R2C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R2C6-qatar-prix-daniel-wildenstein.html",
+        "R2C7-qatar-prix-du-cadran.html",
+        "R2C8-qatar-grand-handicap-des-juments.html",
+        "R2C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R3-caen": [
+        "R3C1-qatar-prix-chaudenay.html",
+        "R3C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R3C3-qatar-prix-dollar.html",
+        "R3C4-qatar-prix-de-royallieu.html",
+        "R3C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R3C6-qatar-prix-daniel-wildenstein.html",
+        "R3C7-qatar-prix-du-cadran.html",
+        "R3C8-qatar-grand-handicap-des-juments.html",
+        "R3C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-qatar-prix-chaudenay.html",
+        "R4C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R4C3-qatar-prix-dollar.html",
+        "R4C4-qatar-prix-de-royallieu.html",
+        "R4C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R4C6-qatar-prix-daniel-wildenstein.html",
+        "R4C7-qatar-prix-du-cadran.html",
+        "R4C8-qatar-grand-handicap-des-juments.html",
+        "R4C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R8-pau": [
+        "R8C1-qatar-prix-chaudenay.html",
+        "R8C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R8C3-qatar-prix-dollar.html",
+        "R8C4-qatar-prix-de-royallieu.html",
+        "R8C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R8C6-qatar-prix-daniel-wildenstein.html",
+        "R8C7-qatar-prix-du-cadran.html",
+        "R8C8-qatar-grand-handicap-des-juments.html",
+        "R8C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R9-moulins": [
+        "R9C1-qatar-prix-chaudenay.html",
+        "R9C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R9C3-qatar-prix-dollar.html",
+        "R9C4-qatar-prix-de-royallieu.html",
+        "R9C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R9C6-qatar-prix-daniel-wildenstein.html",
+        "R9C7-qatar-prix-du-cadran.html",
+        "R9C8-qatar-grand-handicap-des-juments.html",
+        "R9C9-prix-qatar-racing-and-equestrian-club.html"
+      ],
+      "R10-amiens": [
+        "R10C1-qatar-prix-chaudenay.html",
+        "R10C2-qatar-arabian-trophy-des-juments-pouliches-4-ans.html",
+        "R10C3-qatar-prix-dollar.html",
+        "R10C4-qatar-prix-de-royallieu.html",
+        "R10C5-haras-de-bouquetot-criterium-de-la-vente-d-octobre-arqana.html",
+        "R10C6-qatar-prix-daniel-wildenstein.html",
+        "R10C7-qatar-prix-du-cadran.html",
+        "R10C8-qatar-grand-handicap-des-juments.html",
+        "R10C9-prix-qatar-racing-and-equestrian-club.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:00.958740Z"
+}

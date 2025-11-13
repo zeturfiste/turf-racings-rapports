@@ -1,0 +1,53 @@
+{
+  "date": "2005-05-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-08",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-08/2005-05-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-la-capelle",
+      "R3-evreux"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-wild-monarch-poulains.html",
+        "R1C2-grande-course-de-haies-de-printemps.html",
+        "R1C3-prix-le-touquet.html",
+        "R1C4-prix-amadou.html",
+        "R1C5-prix-ingre.html",
+        "R1C6-prix-girofla.html",
+        "R1C7-prix-saint-sauveur.html",
+        "R1C8-prix-chakhansoor.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-wild-monarch-poulains.html",
+        "R2C2-grande-course-de-haies-de-printemps.html",
+        "R2C3-prix-le-touquet.html",
+        "R2C4-prix-amadou.html",
+        "R2C5-prix-ingre.html",
+        "R2C6-prix-girofla.html",
+        "R2C7-prix-saint-sauveur.html",
+        "R2C8-prix-chakhansoor.html"
+      ],
+      "R3-evreux": [
+        "R3C1-prix-wild-monarch-poulains.html",
+        "R3C2-grande-course-de-haies-de-printemps.html",
+        "R3C3-prix-le-touquet.html",
+        "R3C4-prix-amadou.html",
+        "R3C5-prix-ingre.html",
+        "R3C6-prix-girofla.html",
+        "R3C7-prix-saint-sauveur.html",
+        "R3C8-prix-chakhansoor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:30.714919Z"
+}

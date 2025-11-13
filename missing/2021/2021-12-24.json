@@ -1,0 +1,56 @@
+{
+  "date": "2021-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-24",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-24/2021-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C2-prix-de-parthenay.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C4-prix-d-amboise.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C5-prix-jules-lemonnier.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C7-prix-une-de-mai.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C9-prix-de-plesse.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R1-vincennes/R1C10-prix-d-andernos-les-bains.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R3-pau/R3C2-prix-de-parthenay.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R3-pau/R3C9-prix-de-plesse.html",
+      "resultats-et-rapports/2021/12/2021-12-24/R3-pau/R3C10-prix-d-andernos-les-bains.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-mireval.html",
+        "R1C2-prix-de-parthenay.html",
+        "R1C3-prix-de-gambais.html",
+        "R1C4-prix-d-amboise.html",
+        "R1C5-prix-jules-lemonnier.html",
+        "R1C6-prix-de-juvignac.html",
+        "R1C7-prix-une-de-mai.html",
+        "R1C8-prix-de-luynes.html",
+        "R1C9-prix-de-plesse.html",
+        "R1C10-prix-d-andernos-les-bains.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-mireval.html",
+        "R3C2-prix-de-parthenay.html",
+        "R3C3-prix-de-gambais.html",
+        "R3C4-prix-d-amboise.html",
+        "R3C5-prix-jules-lemonnier.html",
+        "R3C6-prix-de-juvignac.html",
+        "R3C7-prix-une-de-mai.html",
+        "R3C8-prix-de-luynes.html",
+        "R3C9-prix-de-plesse.html",
+        "R3C10-prix-d-andernos-les-bains.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:48.183070Z"
+}

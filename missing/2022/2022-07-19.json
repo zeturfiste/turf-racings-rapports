@@ -1,0 +1,91 @@
+{
+  "date": "2022-07-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-19",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-19/2022-07-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-19/R1-vichy/R1C2-prix-de-bellerive-sur-allier-race-and-care.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R1-vichy/R1C6-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R1-vichy/R1C7-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R1-vichy/R1C8-prix-christiane-head.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C2-prix-de-bellerive-sur-allier-race-and-care.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C4-prix-krafft.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C5-prix-vans-theault.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C6-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C7-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R2-saint-malo/R2C8-prix-christiane-head.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C2-prix-de-bellerive-sur-allier-race-and-care.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C4-prix-krafft.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C5-prix-vans-theault.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C6-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C7-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R4-le-mans/R4C8-prix-christiane-head.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C2-prix-de-bellerive-sur-allier-race-and-care.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C5-prix-vans-theault.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C6-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C7-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2022/07/2022-07-19/R5-cabourg/R5C8-prix-christiane-head.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-saint-malo",
+      "R4-le-mans",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-vichy-communaute.html",
+        "R1C2-prix-de-bellerive-sur-allier-race-and-care.html",
+        "R1C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R1C4-prix-krafft.html",
+        "R1C5-prix-vans-theault.html",
+        "R1C6-prix-de-la-foret-de-troncais.html",
+        "R1C7-prix-de-l-hippodrome-de-casablanca.html",
+        "R1C8-prix-christiane-head.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-vichy-communaute.html",
+        "R2C2-prix-de-bellerive-sur-allier-race-and-care.html",
+        "R2C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R2C4-prix-krafft.html",
+        "R2C5-prix-vans-theault.html",
+        "R2C6-prix-de-la-foret-de-troncais.html",
+        "R2C7-prix-de-l-hippodrome-de-casablanca.html",
+        "R2C8-prix-christiane-head.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-vichy-communaute.html",
+        "R4C2-prix-de-bellerive-sur-allier-race-and-care.html",
+        "R4C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R4C4-prix-krafft.html",
+        "R4C5-prix-vans-theault.html",
+        "R4C6-prix-de-la-foret-de-troncais.html",
+        "R4C7-prix-de-l-hippodrome-de-casablanca.html",
+        "R4C8-prix-christiane-head.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-vichy-communaute.html",
+        "R5C2-prix-de-bellerive-sur-allier-race-and-care.html",
+        "R5C3-prix-hubert-baguenault-de-puchesse-7eme-etape-du-defi-du-galop.html",
+        "R5C4-prix-krafft.html",
+        "R5C5-prix-vans-theault.html",
+        "R5C6-prix-de-la-foret-de-troncais.html",
+        "R5C7-prix-de-l-hippodrome-de-casablanca.html",
+        "R5C8-prix-christiane-head.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:02.180725Z"
+}

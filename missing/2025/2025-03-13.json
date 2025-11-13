@@ -1,0 +1,74 @@
+{
+  "date": "2025-03-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-13",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-13/2025-03-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-13/R1-chantilly/R1C2-prix-du-soissonnais.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R1-chantilly/R1C3-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R1-chantilly/R1C7-prix-du-valmondois.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C2-prix-du-soissonnais.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C3-prix-de-la-goursaule.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C4-prix-du-beauvaisis.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C5-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C6-prix-de-la-fabrique-d-extravagance.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C7-prix-du-valmondois.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C8-prix-des-porcelaines-princieres.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R3-caen/R3C9-prix-porce-kafiem.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C1-prix-de-la-journee-des-plantes.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C4-prix-du-beauvaisis.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C5-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C7-prix-du-valmondois.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C8-prix-des-porcelaines-princieres.html",
+      "resultats-et-rapports/2025/03/2025-03-13/R4-marseille-vivaux/R4C9-prix-porce-kafiem.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-caen",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-journee-des-plantes.html",
+        "R1C2-prix-du-soissonnais.html",
+        "R1C3-prix-de-la-goursaule.html",
+        "R1C4-prix-du-beauvaisis.html",
+        "R1C5-prix-de-la-queue-du-renard.html",
+        "R1C6-prix-de-la-fabrique-d-extravagance.html",
+        "R1C7-prix-du-valmondois.html",
+        "R1C8-prix-des-porcelaines-princieres.html",
+        "R1C9-prix-porce-kafiem.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-journee-des-plantes.html",
+        "R3C2-prix-du-soissonnais.html",
+        "R3C3-prix-de-la-goursaule.html",
+        "R3C4-prix-du-beauvaisis.html",
+        "R3C5-prix-de-la-queue-du-renard.html",
+        "R3C6-prix-de-la-fabrique-d-extravagance.html",
+        "R3C7-prix-du-valmondois.html",
+        "R3C8-prix-des-porcelaines-princieres.html",
+        "R3C9-prix-porce-kafiem.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-journee-des-plantes.html",
+        "R4C2-prix-du-soissonnais.html",
+        "R4C3-prix-de-la-goursaule.html",
+        "R4C4-prix-du-beauvaisis.html",
+        "R4C5-prix-de-la-queue-du-renard.html",
+        "R4C6-prix-de-la-fabrique-d-extravagance.html",
+        "R4C7-prix-du-valmondois.html",
+        "R4C8-prix-des-porcelaines-princieres.html",
+        "R4C9-prix-porce-kafiem.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:01.175471Z"
+}

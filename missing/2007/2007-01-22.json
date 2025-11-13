@@ -1,0 +1,101 @@
+{
+  "date": "2007-01-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/01/2007-01-22",
+    "date_html": "resultats-et-rapports/2007/01/2007-01-22/2007-01-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/01/2007-01-22/R1-cagnes-sur-mer/R1C2-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R1-cagnes-sur-mer/R1C4-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R1-cagnes-sur-mer/R1C5-prix-renault-nice-prix-de-marseille.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R1-cagnes-sur-mer/R1C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R2-vincennes/R2C1-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R2-vincennes/R2C2-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R2-vincennes/R2C4-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R2-vincennes/R2C5-prix-renault-nice-prix-de-marseille.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R2-vincennes/R2C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C1-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C2-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C3-prix-du-suquet.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C4-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C5-prix-renault-nice-prix-de-marseille.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C6-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R21-zerace/R21C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C1-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C2-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C3-prix-du-suquet.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C4-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C5-prix-renault-nice-prix-de-marseille.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C6-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R31-vincennes-prix-d-amerique/R31C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C1-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C2-prix-robert-villeneuve-bargemon.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C3-prix-du-suquet.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C4-prix-du-col-de-braus.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C5-prix-renault-nice-prix-de-marseille.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C6-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2007/01/2007-01-22/R41-cagnes-sur-mer/R41C7-prix-du-vieux-port.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R21-zerace",
+      "R31-vincennes-prix-d-amerique",
+      "R41-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-ramatuelle.html",
+        "R1C2-prix-robert-villeneuve-bargemon.html",
+        "R1C3-prix-du-suquet.html",
+        "R1C4-prix-du-col-de-braus.html",
+        "R1C5-prix-renault-nice-prix-de-marseille.html",
+        "R1C6-prix-de-la-maurienne.html",
+        "R1C7-prix-du-vieux-port.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-ramatuelle.html",
+        "R2C2-prix-robert-villeneuve-bargemon.html",
+        "R2C3-prix-du-suquet.html",
+        "R2C4-prix-du-col-de-braus.html",
+        "R2C5-prix-renault-nice-prix-de-marseille.html",
+        "R2C6-prix-de-la-maurienne.html",
+        "R2C7-prix-du-vieux-port.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-ramatuelle.html",
+        "R21C2-prix-robert-villeneuve-bargemon.html",
+        "R21C3-prix-du-suquet.html",
+        "R21C4-prix-du-col-de-braus.html",
+        "R21C5-prix-renault-nice-prix-de-marseille.html",
+        "R21C6-prix-de-la-maurienne.html",
+        "R21C7-prix-du-vieux-port.html"
+      ],
+      "R31-vincennes-prix-d-amerique": [
+        "R31C1-prix-de-ramatuelle.html",
+        "R31C2-prix-robert-villeneuve-bargemon.html",
+        "R31C3-prix-du-suquet.html",
+        "R31C4-prix-du-col-de-braus.html",
+        "R31C5-prix-renault-nice-prix-de-marseille.html",
+        "R31C6-prix-de-la-maurienne.html",
+        "R31C7-prix-du-vieux-port.html"
+      ],
+      "R41-cagnes-sur-mer": [
+        "R41C1-prix-de-ramatuelle.html",
+        "R41C2-prix-robert-villeneuve-bargemon.html",
+        "R41C3-prix-du-suquet.html",
+        "R41C4-prix-du-col-de-braus.html",
+        "R41C5-prix-renault-nice-prix-de-marseille.html",
+        "R41C6-prix-de-la-maurienne.html",
+        "R41C7-prix-du-vieux-port.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:40.500543Z"
+}

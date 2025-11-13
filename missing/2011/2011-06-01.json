@@ -1,0 +1,64 @@
+{
+  "date": "2011-06-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-01",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-01/2011-06-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-01/R1-lyon-parilly/R1C5-prix-des-nuits-de-fourviere-prix-de-l-ile-barbe.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R1-lyon-parilly/R1C6-prix-du-parc-de-parilly.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R2-caen/R2C3-prix-des-sapeurs-pompiers-du-rhone-prix-des-pervenches.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C2-prix-de-l-olympique-lyonnais-prix-des-pouliches.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C3-prix-des-sapeurs-pompiers-du-rhone-prix-des-pervenches.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C4-prix-du-conseil-general-des-jeunes-prix-andre-baboin.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C5-prix-des-nuits-de-fourviere-prix-de-l-ile-barbe.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C6-prix-du-parc-de-parilly.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C7-prix-des-archives-departementales-prix-de-salverte.html",
+      "resultats-et-rapports/2011/06/2011-06-01/R3-nancy/R3C8-prix-docteur-dugoujon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-caen",
+      "R3-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-du-departement-du-rhone.html",
+        "R1C2-prix-de-l-olympique-lyonnais-prix-des-pouliches.html",
+        "R1C3-prix-des-sapeurs-pompiers-du-rhone-prix-des-pervenches.html",
+        "R1C4-prix-du-conseil-general-des-jeunes-prix-andre-baboin.html",
+        "R1C5-prix-des-nuits-de-fourviere-prix-de-l-ile-barbe.html",
+        "R1C6-prix-du-parc-de-parilly.html",
+        "R1C7-prix-des-archives-departementales-prix-de-salverte.html",
+        "R1C8-prix-docteur-dugoujon.html"
+      ],
+      "R2-caen": [
+        "R2C1-grand-prix-du-departement-du-rhone.html",
+        "R2C2-prix-de-l-olympique-lyonnais-prix-des-pouliches.html",
+        "R2C3-prix-des-sapeurs-pompiers-du-rhone-prix-des-pervenches.html",
+        "R2C4-prix-du-conseil-general-des-jeunes-prix-andre-baboin.html",
+        "R2C5-prix-des-nuits-de-fourviere-prix-de-l-ile-barbe.html",
+        "R2C6-prix-du-parc-de-parilly.html",
+        "R2C7-prix-des-archives-departementales-prix-de-salverte.html",
+        "R2C8-prix-docteur-dugoujon.html"
+      ],
+      "R3-nancy": [
+        "R3C1-grand-prix-du-departement-du-rhone.html",
+        "R3C2-prix-de-l-olympique-lyonnais-prix-des-pouliches.html",
+        "R3C3-prix-des-sapeurs-pompiers-du-rhone-prix-des-pervenches.html",
+        "R3C4-prix-du-conseil-general-des-jeunes-prix-andre-baboin.html",
+        "R3C5-prix-des-nuits-de-fourviere-prix-de-l-ile-barbe.html",
+        "R3C6-prix-du-parc-de-parilly.html",
+        "R3C7-prix-des-archives-departementales-prix-de-salverte.html",
+        "R3C8-prix-docteur-dugoujon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:38.126080Z"
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2020-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/09/2020-09-25",
+    "date_html": "resultats-et-rapports/2020/09/2020-09-25/2020-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/09/2020-09-25/R4-chantilly/R4C3-prix-speedy-blue.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R4-chantilly/R4C6-prix-sabin-batiment.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R5-mauquenchy/R5C3-prix-speedy-blue.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R5-mauquenchy/R5C4-prix-bold-eagle.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R5-mauquenchy/R5C6-prix-sabin-batiment.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R5-mauquenchy/R5C7-prix-bird-parker.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R5-mauquenchy/R5C8-prix-les-carrieres-de-chaffenay.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R7-marseille-borely/R7C1-prix-triode-de-felliere.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R7-marseille-borely/R7C2-prix-talicia-bella.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R7-marseille-borely/R7C5-prix-royal-dream.html",
+      "resultats-et-rapports/2020/09/2020-09-25/R7-marseille-borely/R7C6-prix-sabin-batiment.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-le-mans",
+      "R4-chantilly",
+      "R5-mauquenchy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-triode-de-felliere.html",
+        "R1C2-prix-talicia-bella.html",
+        "R1C3-prix-speedy-blue.html",
+        "R1C4-prix-bold-eagle.html",
+        "R1C5-prix-royal-dream.html",
+        "R1C6-prix-sabin-batiment.html",
+        "R1C7-prix-bird-parker.html",
+        "R1C8-prix-les-carrieres-de-chaffenay.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-triode-de-felliere.html",
+        "R3C2-prix-talicia-bella.html",
+        "R3C3-prix-speedy-blue.html",
+        "R3C4-prix-bold-eagle.html",
+        "R3C5-prix-royal-dream.html",
+        "R3C6-prix-sabin-batiment.html",
+        "R3C7-prix-bird-parker.html",
+        "R3C8-prix-les-carrieres-de-chaffenay.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-triode-de-felliere.html",
+        "R4C2-prix-talicia-bella.html",
+        "R4C3-prix-speedy-blue.html",
+        "R4C4-prix-bold-eagle.html",
+        "R4C5-prix-royal-dream.html",
+        "R4C6-prix-sabin-batiment.html",
+        "R4C7-prix-bird-parker.html",
+        "R4C8-prix-les-carrieres-de-chaffenay.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-triode-de-felliere.html",
+        "R5C2-prix-talicia-bella.html",
+        "R5C3-prix-speedy-blue.html",
+        "R5C4-prix-bold-eagle.html",
+        "R5C5-prix-royal-dream.html",
+        "R5C6-prix-sabin-batiment.html",
+        "R5C7-prix-bird-parker.html",
+        "R5C8-prix-les-carrieres-de-chaffenay.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-triode-de-felliere.html",
+        "R7C2-prix-talicia-bella.html",
+        "R7C3-prix-speedy-blue.html",
+        "R7C4-prix-bold-eagle.html",
+        "R7C5-prix-royal-dream.html",
+        "R7C6-prix-sabin-batiment.html",
+        "R7C7-prix-bird-parker.html",
+        "R7C8-prix-les-carrieres-de-chaffenay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:58.063141Z"
+}

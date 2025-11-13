@@ -1,0 +1,64 @@
+{
+  "date": "2018-01-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/01/2018-01-03",
+    "date_html": "resultats-et-rapports/2018/01/2018-01-03/2018-01-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R3-vincennes",
+      "R4-marseille-vivaux",
+      "R6-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-pierre-estrem-rey.html",
+        "R1C2-prix-de-morlaas.html",
+        "R1C3-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R1C4-prix-el-triunfo.html",
+        "R1C5-prix-joseph-biraben.html",
+        "R1C6-prix-d-accous.html",
+        "R1C7-prix-joseph-barron.html",
+        "R1C8-prix-de-maucor.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pierre-estrem-rey.html",
+        "R3C2-prix-de-morlaas.html",
+        "R3C3-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R3C4-prix-el-triunfo.html",
+        "R3C5-prix-joseph-biraben.html",
+        "R3C6-prix-d-accous.html",
+        "R3C7-prix-joseph-barron.html",
+        "R3C8-prix-de-maucor.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-pierre-estrem-rey.html",
+        "R4C2-prix-de-morlaas.html",
+        "R4C3-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R4C4-prix-el-triunfo.html",
+        "R4C5-prix-joseph-biraben.html",
+        "R4C6-prix-d-accous.html",
+        "R4C7-prix-joseph-barron.html",
+        "R4C8-prix-de-maucor.html"
+      ],
+      "R6-deauville": [
+        "R6C1-prix-pierre-estrem-rey.html",
+        "R6C2-prix-de-morlaas.html",
+        "R6C3-prix-du-conseil-general-des-pyrenees-atlantiques.html",
+        "R6C4-prix-el-triunfo.html",
+        "R6C5-prix-joseph-biraben.html",
+        "R6C6-prix-d-accous.html",
+        "R6C7-prix-joseph-barron.html",
+        "R6C8-prix-de-maucor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:48.023511Z"
+}

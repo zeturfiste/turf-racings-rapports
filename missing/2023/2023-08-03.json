@@ -1,0 +1,108 @@
+{
+  "date": "2023-08-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/08/2023-08-03",
+    "date_html": "resultats-et-rapports/2023/08/2023-08-03/2023-08-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/08/2023-08-03/R2-langon/R2C4-prix-de-perseigne.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R2-langon/R2C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R2-langon/R2C7-prix-du-logis.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R3-la-teste-de-buch/R3C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R3-la-teste-de-buch/R3C6-prix-de-mamers.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R3-la-teste-de-buch/R3C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R4-hyeres/R4C6-prix-de-mamers.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R4-hyeres/R4C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C1-prix-d-ecquemauville.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C2-prix-de-l-eure.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C3-prix-de-barneville.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C6-prix-de-mamers.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C7-prix-du-logis.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R6-graignes/R6C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C1-prix-d-ecquemauville.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C2-prix-de-l-eure.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C4-prix-de-perseigne.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C6-prix-de-mamers.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C7-prix-du-logis.html",
+      "resultats-et-rapports/2023/08/2023-08-03/R7-les-sables-d-olonne/R7C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-langon",
+      "R3-la-teste-de-buch",
+      "R4-hyeres",
+      "R6-graignes",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-ecquemauville.html",
+        "R1C2-prix-de-l-eure.html",
+        "R1C3-prix-de-barneville.html",
+        "R1C4-prix-de-perseigne.html",
+        "R1C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R1C6-prix-de-mamers.html",
+        "R1C7-prix-du-logis.html",
+        "R1C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ],
+      "R2-langon": [
+        "R2C1-prix-d-ecquemauville.html",
+        "R2C2-prix-de-l-eure.html",
+        "R2C3-prix-de-barneville.html",
+        "R2C4-prix-de-perseigne.html",
+        "R2C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R2C6-prix-de-mamers.html",
+        "R2C7-prix-du-logis.html",
+        "R2C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-d-ecquemauville.html",
+        "R3C2-prix-de-l-eure.html",
+        "R3C3-prix-de-barneville.html",
+        "R3C4-prix-de-perseigne.html",
+        "R3C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R3C6-prix-de-mamers.html",
+        "R3C7-prix-du-logis.html",
+        "R3C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-d-ecquemauville.html",
+        "R4C2-prix-de-l-eure.html",
+        "R4C3-prix-de-barneville.html",
+        "R4C4-prix-de-perseigne.html",
+        "R4C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R4C6-prix-de-mamers.html",
+        "R4C7-prix-du-logis.html",
+        "R4C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-d-ecquemauville.html",
+        "R6C2-prix-de-l-eure.html",
+        "R6C3-prix-de-barneville.html",
+        "R6C4-prix-de-perseigne.html",
+        "R6C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R6C6-prix-de-mamers.html",
+        "R6C7-prix-du-logis.html",
+        "R6C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-d-ecquemauville.html",
+        "R7C2-prix-de-l-eure.html",
+        "R7C3-prix-de-barneville.html",
+        "R7C4-prix-de-perseigne.html",
+        "R7C5-prix-hotel-barriere-le-royal-deauville-trophee-studio-harcourt.html",
+        "R7C6-prix-de-mamers.html",
+        "R7C7-prix-du-logis.html",
+        "R7C8-prix-guy-du-faur-de-pibrac-ijockey-gpa-handicap-challenge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:20.603681Z"
+}

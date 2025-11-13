@@ -1,0 +1,82 @@
+{
+  "date": "2016-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-07",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-07/2016-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-07/R1-saint-cloud/R1C5-prix-de-ville-d-avray.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R1-saint-cloud/R1C7-prix-de-freneuse.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R1-saint-cloud/R1C8-prix-canot.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R2-compiegne/R2C1-prix-kefalin.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R2-compiegne/R2C2-prix-de-la-roche-guyon.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R2-compiegne/R2C3-prix-des-landes.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R2-compiegne/R2C5-prix-de-ville-d-avray.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R2-compiegne/R2C8-prix-canot.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R5-vincennes/R5C3-prix-des-landes.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R5-vincennes/R5C7-prix-de-freneuse.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R5-vincennes/R5C8-prix-canot.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C1-prix-kefalin.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C2-prix-de-la-roche-guyon.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C3-prix-des-landes.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C4-prix-samourai.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C6-prix-de-la-chalosse.html",
+      "resultats-et-rapports/2016/06/2016-06-07/R7-lyon-parilly/R7C7-prix-de-freneuse.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-compiegne",
+      "R5-vincennes",
+      "R7-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-kefalin.html",
+        "R1C2-prix-de-la-roche-guyon.html",
+        "R1C3-prix-des-landes.html",
+        "R1C4-prix-samourai.html",
+        "R1C5-prix-de-ville-d-avray.html",
+        "R1C6-prix-de-la-chalosse.html",
+        "R1C7-prix-de-freneuse.html",
+        "R1C8-prix-canot.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-kefalin.html",
+        "R2C2-prix-de-la-roche-guyon.html",
+        "R2C3-prix-des-landes.html",
+        "R2C4-prix-samourai.html",
+        "R2C5-prix-de-ville-d-avray.html",
+        "R2C6-prix-de-la-chalosse.html",
+        "R2C7-prix-de-freneuse.html",
+        "R2C8-prix-canot.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-kefalin.html",
+        "R5C2-prix-de-la-roche-guyon.html",
+        "R5C3-prix-des-landes.html",
+        "R5C4-prix-samourai.html",
+        "R5C5-prix-de-ville-d-avray.html",
+        "R5C6-prix-de-la-chalosse.html",
+        "R5C7-prix-de-freneuse.html",
+        "R5C8-prix-canot.html"
+      ],
+      "R7-lyon-parilly": [
+        "R7C1-prix-kefalin.html",
+        "R7C2-prix-de-la-roche-guyon.html",
+        "R7C3-prix-des-landes.html",
+        "R7C4-prix-samourai.html",
+        "R7C5-prix-de-ville-d-avray.html",
+        "R7C6-prix-de-la-chalosse.html",
+        "R7C7-prix-de-freneuse.html",
+        "R7C8-prix-canot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:49.737464Z"
+}

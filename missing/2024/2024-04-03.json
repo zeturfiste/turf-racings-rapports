@@ -1,0 +1,68 @@
+{
+  "date": "2024-04-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-03",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-03/2024-04-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-03/R1-angers/R1C1-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R1-angers/R1C2-prix-des-cuisines-you-prix-gelinotte.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R1-angers/R1C5-prix-timoko.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R1-angers/R1C7-prix-neric-barbes.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R1-angers/R1C8-prix-roxane-griff.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R3-salon-de-provence/R3C1-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R3-salon-de-provence/R3C2-prix-des-cuisines-you-prix-gelinotte.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R3-salon-de-provence/R3C5-prix-timoko.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C1-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C3-prix-intermede.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C4-prix-florence-lecellier.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C5-prix-timoko.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C6-prix-24h-au-trot-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2024/04/2024-04-03/R4-compiegne/R4C8-prix-roxane-griff.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-salon-de-provence",
+      "R4-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-grand-prix-angers-loire-metropole.html",
+        "R1C2-prix-des-cuisines-you-prix-gelinotte.html",
+        "R1C3-prix-intermede.html",
+        "R1C4-prix-florence-lecellier.html",
+        "R1C5-prix-timoko.html",
+        "R1C6-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R1C7-prix-neric-barbes.html",
+        "R1C8-prix-roxane-griff.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-grand-prix-angers-loire-metropole.html",
+        "R3C2-prix-des-cuisines-you-prix-gelinotte.html",
+        "R3C3-prix-intermede.html",
+        "R3C4-prix-florence-lecellier.html",
+        "R3C5-prix-timoko.html",
+        "R3C6-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R3C7-prix-neric-barbes.html",
+        "R3C8-prix-roxane-griff.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-grand-prix-angers-loire-metropole.html",
+        "R4C2-prix-des-cuisines-you-prix-gelinotte.html",
+        "R4C3-prix-intermede.html",
+        "R4C4-prix-florence-lecellier.html",
+        "R4C5-prix-timoko.html",
+        "R4C6-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R4C7-prix-neric-barbes.html",
+        "R4C8-prix-roxane-griff.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:49.808386Z"
+}

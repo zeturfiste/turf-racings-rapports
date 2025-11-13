@@ -1,0 +1,71 @@
+{
+  "date": "2015-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-19",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-19/2015-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-19/R1-vincennes/R1C3-prix-de-langeac.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R1-vincennes/R1C8-prix-de-pondurat.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R1-vincennes/R1C9-prix-d-evreux.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C1-prix-de-flers.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C2-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C3-prix-de-langeac.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C4-prix-michel-thoury.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C5-prix-jules-lepennetier.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C6-prix-oscar-collard.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C7-prix-d-issoudun.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C8-prix-de-pondurat.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R2-pau/R2C9-prix-d-evreux.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R3-pornichet-la-baule/R3C1-prix-de-flers.html",
+      "resultats-et-rapports/2015/12/2015-12-19/R3-pornichet-la-baule/R3C9-prix-d-evreux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-flers.html",
+        "R1C2-prix-general-du-pommeau.html",
+        "R1C3-prix-de-langeac.html",
+        "R1C4-prix-michel-thoury.html",
+        "R1C5-prix-jules-lepennetier.html",
+        "R1C6-prix-oscar-collard.html",
+        "R1C7-prix-d-issoudun.html",
+        "R1C8-prix-de-pondurat.html",
+        "R1C9-prix-d-evreux.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-flers.html",
+        "R2C2-prix-general-du-pommeau.html",
+        "R2C3-prix-de-langeac.html",
+        "R2C4-prix-michel-thoury.html",
+        "R2C5-prix-jules-lepennetier.html",
+        "R2C6-prix-oscar-collard.html",
+        "R2C7-prix-d-issoudun.html",
+        "R2C8-prix-de-pondurat.html",
+        "R2C9-prix-d-evreux.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-flers.html",
+        "R3C2-prix-general-du-pommeau.html",
+        "R3C3-prix-de-langeac.html",
+        "R3C4-prix-michel-thoury.html",
+        "R3C5-prix-jules-lepennetier.html",
+        "R3C6-prix-oscar-collard.html",
+        "R3C7-prix-d-issoudun.html",
+        "R3C8-prix-de-pondurat.html",
+        "R3C9-prix-d-evreux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:00.802726Z"
+}

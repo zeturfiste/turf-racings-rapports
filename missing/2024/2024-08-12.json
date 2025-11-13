@@ -1,0 +1,92 @@
+{
+  "date": "2024-08-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-12",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-12/2024-08-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-12/R2-vittel/R2C3-prix-kwadron-prix-des-buveurs-d-air.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R2-vittel/R2C4-prix-singapore-ink-show-prix-du-torquesne.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R2-vittel/R2C6-prix-devilish-tattoo-prix-des-villas.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R4-hyeres/R4C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R4-hyeres/R4C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R4-hyeres/R4C6-prix-devilish-tattoo-prix-des-villas.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R4-hyeres/R4C8-prix-dynamic-colors-prix-de-ricarville.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R6-divonne-les-bains/R6C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R6-divonne-les-bains/R6C4-prix-singapore-ink-show-prix-du-torquesne.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R6-divonne-les-bains/R6C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R6-divonne-les-bains/R6C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R7-les-sables-d-olonne/R7C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R7-les-sables-d-olonne/R7C3-prix-kwadron-prix-des-buveurs-d-air.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R7-les-sables-d-olonne/R7C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R7-les-sables-d-olonne/R7C6-prix-devilish-tattoo-prix-des-villas.html",
+      "resultats-et-rapports/2024/08/2024-08-12/R7-les-sables-d-olonne/R7C8-prix-dynamic-colors-prix-de-ricarville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vittel",
+      "R4-hyeres",
+      "R6-divonne-les-bains",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+        "R1C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+        "R1C3-prix-kwadron-prix-des-buveurs-d-air.html",
+        "R1C4-prix-singapore-ink-show-prix-du-torquesne.html",
+        "R1C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+        "R1C6-prix-devilish-tattoo-prix-des-villas.html",
+        "R1C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+        "R1C8-prix-dynamic-colors-prix-de-ricarville.html"
+      ],
+      "R2-vittel": [
+        "R2C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+        "R2C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+        "R2C3-prix-kwadron-prix-des-buveurs-d-air.html",
+        "R2C4-prix-singapore-ink-show-prix-du-torquesne.html",
+        "R2C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+        "R2C6-prix-devilish-tattoo-prix-des-villas.html",
+        "R2C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+        "R2C8-prix-dynamic-colors-prix-de-ricarville.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+        "R4C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+        "R4C3-prix-kwadron-prix-des-buveurs-d-air.html",
+        "R4C4-prix-singapore-ink-show-prix-du-torquesne.html",
+        "R4C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+        "R4C6-prix-devilish-tattoo-prix-des-villas.html",
+        "R4C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+        "R4C8-prix-dynamic-colors-prix-de-ricarville.html"
+      ],
+      "R6-divonne-les-bains": [
+        "R6C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+        "R6C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+        "R6C3-prix-kwadron-prix-des-buveurs-d-air.html",
+        "R6C4-prix-singapore-ink-show-prix-du-torquesne.html",
+        "R6C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+        "R6C6-prix-devilish-tattoo-prix-des-villas.html",
+        "R6C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+        "R6C8-prix-dynamic-colors-prix-de-ricarville.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-isabelle-tasimovicz-prix-des-paquerettes.html",
+        "R7C2-prix-rouen-tattoo-festival-prix-kenmare.html",
+        "R7C3-prix-kwadron-prix-des-buveurs-d-air.html",
+        "R7C4-prix-singapore-ink-show-prix-du-torquesne.html",
+        "R7C5-prix-formybiotattoo-prix-de-l-hippodrome-fleuri.html",
+        "R7C6-prix-devilish-tattoo-prix-des-villas.html",
+        "R7C7-prix-deauville-tattoo-festival-prix-de-la-cote-fleurie.html",
+        "R7C8-prix-dynamic-colors-prix-de-ricarville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:41.743773Z"
+}

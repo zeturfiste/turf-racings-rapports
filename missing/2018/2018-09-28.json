@@ -1,0 +1,83 @@
+{
+  "date": "2018-09-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-28",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-28/2018-09-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-28/R1-vincennes/R1C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R1-vincennes/R1C3-prix-du-fontenaython-prix-hekate.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R1-vincennes/R1C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R3-marseille-borely/R3C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R4-saint-cloud/R4C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R4-saint-cloud/R4C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R5-argentan/R5C1-prix-du-don-du-sang-prix-ella.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R5-argentan/R5C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R5-argentan/R5C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R5-argentan/R5C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R5-argentan/R5C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html",
+      "resultats-et-rapports/2018/09/2018-09-28/R6-laval/R6C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-saint-cloud",
+      "R5-argentan",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-don-du-sang-prix-ella.html",
+        "R1C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+        "R1C3-prix-du-fontenaython-prix-hekate.html",
+        "R1C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+        "R1C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+        "R1C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+        "R1C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-du-don-du-sang-prix-ella.html",
+        "R3C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+        "R3C3-prix-du-fontenaython-prix-hekate.html",
+        "R3C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+        "R3C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+        "R3C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+        "R3C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-du-don-du-sang-prix-ella.html",
+        "R4C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+        "R4C3-prix-du-fontenaython-prix-hekate.html",
+        "R4C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+        "R4C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+        "R4C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+        "R4C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html"
+      ],
+      "R5-argentan": [
+        "R5C1-prix-du-don-du-sang-prix-ella.html",
+        "R5C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+        "R5C3-prix-du-fontenaython-prix-hekate.html",
+        "R5C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+        "R5C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+        "R5C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+        "R5C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-du-don-du-sang-prix-ella.html",
+        "R6C2-prix-de-la-ville-de-fontenay-sous-bois-prix-austria.html",
+        "R6C3-prix-du-fontenaython-prix-hekate.html",
+        "R6C4-prix-de-la-confederation-nat-du-val-de-marne-prix-felicitas.html",
+        "R6C5-prix-de-l-union-sportive-fontenaysienne-prix-irma.html",
+        "R6C6-prix-de-l-association-sportive-l-esperance-prix-etamin.html",
+        "R6C7-prix-des-ami-e-s-de-fontenay-prix-byblis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:13.077916Z"
+}

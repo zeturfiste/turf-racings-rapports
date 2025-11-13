@@ -1,0 +1,92 @@
+{
+  "date": "2014-08-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/08/2014-08-05",
+    "date_html": "resultats-et-rapports/2014/08/2014-08-05/2014-08-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/08/2014-08-05/R1-deauville/R1C8-prix-de-la-plaine-du-roumois.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R2-la-rochelle/R2C4-prix-de-l-houay.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R2-la-rochelle/R2C6-prix-de-courbepine.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R3-vichy/R3C1-prix-de-la-bienne.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R3-vichy/R3C5-prix-d-heurtevent.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R4-cabourg/R4C6-prix-de-courbepine.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R4-cabourg/R4C7-prix-du-gue.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R4-cabourg/R4C8-prix-de-la-plaine-du-roumois.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C1-prix-de-la-bienne.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C2-prix-de-troarn.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C4-prix-de-l-houay.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C5-prix-d-heurtevent.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C6-prix-de-courbepine.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C7-prix-du-gue.html",
+      "resultats-et-rapports/2014/08/2014-08-05/R6-pornichet-la-baule/R6C8-prix-de-la-plaine-du-roumois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-la-rochelle",
+      "R3-vichy",
+      "R4-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-bienne.html",
+        "R1C2-prix-de-troarn.html",
+        "R1C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+        "R1C4-prix-de-l-houay.html",
+        "R1C5-prix-d-heurtevent.html",
+        "R1C6-prix-de-courbepine.html",
+        "R1C7-prix-du-gue.html",
+        "R1C8-prix-de-la-plaine-du-roumois.html"
+      ],
+      "R2-la-rochelle": [
+        "R2C1-prix-de-la-bienne.html",
+        "R2C2-prix-de-troarn.html",
+        "R2C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+        "R2C4-prix-de-l-houay.html",
+        "R2C5-prix-d-heurtevent.html",
+        "R2C6-prix-de-courbepine.html",
+        "R2C7-prix-du-gue.html",
+        "R2C8-prix-de-la-plaine-du-roumois.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-la-bienne.html",
+        "R3C2-prix-de-troarn.html",
+        "R3C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+        "R3C4-prix-de-l-houay.html",
+        "R3C5-prix-d-heurtevent.html",
+        "R3C6-prix-de-courbepine.html",
+        "R3C7-prix-du-gue.html",
+        "R3C8-prix-de-la-plaine-du-roumois.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-la-bienne.html",
+        "R4C2-prix-de-troarn.html",
+        "R4C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+        "R4C4-prix-de-l-houay.html",
+        "R4C5-prix-d-heurtevent.html",
+        "R4C6-prix-de-courbepine.html",
+        "R4C7-prix-du-gue.html",
+        "R4C8-prix-de-la-plaine-du-roumois.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-de-la-bienne.html",
+        "R6C2-prix-de-troarn.html",
+        "R6C3-prix-des-commercants-de-deauville-prix-de-la-plaine-de-caen.html",
+        "R6C4-prix-de-l-houay.html",
+        "R6C5-prix-d-heurtevent.html",
+        "R6C6-prix-de-courbepine.html",
+        "R6C7-prix-du-gue.html",
+        "R6C8-prix-de-la-plaine-du-roumois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:20.332227Z"
+}

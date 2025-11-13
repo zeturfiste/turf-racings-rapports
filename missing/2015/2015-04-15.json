@@ -1,0 +1,59 @@
+{
+  "date": "2015-04-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-15",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-15/2015-04-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-15/R1-cordemais/R1C1-prix-de-la-ville-de-cordemais.html",
+      "resultats-et-rapports/2015/04/2015-04-15/R1-cordemais/R1C5-prix-de-la-ville-de-coueron.html",
+      "resultats-et-rapports/2015/04/2015-04-15/R1-cordemais/R1C6-prix-de-la-ville-de-vigneux.html",
+      "resultats-et-rapports/2015/04/2015-04-15/R1-cordemais/R1C7-prix-de-la-ville-de-malville.html",
+      "resultats-et-rapports/2015/04/2015-04-15/R2-chantilly/R2C8-prix-jacques-fairand.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R2-chantilly",
+      "R3-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-prix-de-la-ville-de-cordemais.html",
+        "R1C2-prix-de-saint-etienne-montluc.html",
+        "R1C3-prix-de-la-ville-de-savenay.html",
+        "R1C4-prix-de-la-ville-temple-de-bretagne.html",
+        "R1C5-prix-de-la-ville-de-coueron.html",
+        "R1C6-prix-de-la-ville-de-vigneux.html",
+        "R1C7-prix-de-la-ville-de-malville.html",
+        "R1C8-prix-jacques-fairand.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-la-ville-de-cordemais.html",
+        "R2C2-prix-de-saint-etienne-montluc.html",
+        "R2C3-prix-de-la-ville-de-savenay.html",
+        "R2C4-prix-de-la-ville-temple-de-bretagne.html",
+        "R2C5-prix-de-la-ville-de-coueron.html",
+        "R2C6-prix-de-la-ville-de-vigneux.html",
+        "R2C7-prix-de-la-ville-de-malville.html",
+        "R2C8-prix-jacques-fairand.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-ville-de-cordemais.html",
+        "R3C2-prix-de-saint-etienne-montluc.html",
+        "R3C3-prix-de-la-ville-de-savenay.html",
+        "R3C4-prix-de-la-ville-temple-de-bretagne.html",
+        "R3C5-prix-de-la-ville-de-coueron.html",
+        "R3C6-prix-de-la-ville-de-vigneux.html",
+        "R3C7-prix-de-la-ville-de-malville.html",
+        "R3C8-prix-jacques-fairand.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:39.013235Z"
+}

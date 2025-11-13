@@ -1,0 +1,80 @@
+{
+  "date": "2011-02-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/02/2011-02-15",
+    "date_html": "resultats-et-rapports/2011/02/2011-02-15/2011-02-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C1-prix-de-montivilliers.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C3-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C4-prix-d-ecouche.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C5-prix-de-bercy-groupe-a.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C6-prix-de-bercy-groupe-b.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C7-prix-de-marcenat.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C8-prix-de-caussade.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R1-vincennes/R1C9-prix-de-frejus.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C1-prix-de-montivilliers.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C2-prix-de-chateau-gontier.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C3-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C4-prix-d-ecouche.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C5-prix-de-bercy-groupe-a.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C6-prix-de-bercy-groupe-b.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C7-prix-de-marcenat.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C8-prix-de-caussade.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R2-angers/R2C9-prix-de-frejus.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C1-prix-de-montivilliers.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C3-prix-de-blain-bouvron-le-gavre.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C5-prix-de-bercy-groupe-a.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C6-prix-de-bercy-groupe-b.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C8-prix-de-caussade.html",
+      "resultats-et-rapports/2011/02/2011-02-15/R3-cagnes-sur-mer/R3C9-prix-de-frejus.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montivilliers.html",
+        "R1C2-prix-de-chateau-gontier.html",
+        "R1C3-prix-de-blain-bouvron-le-gavre.html",
+        "R1C4-prix-d-ecouche.html",
+        "R1C5-prix-de-bercy-groupe-a.html",
+        "R1C6-prix-de-bercy-groupe-b.html",
+        "R1C7-prix-de-marcenat.html",
+        "R1C8-prix-de-caussade.html",
+        "R1C9-prix-de-frejus.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-de-montivilliers.html",
+        "R2C2-prix-de-chateau-gontier.html",
+        "R2C3-prix-de-blain-bouvron-le-gavre.html",
+        "R2C4-prix-d-ecouche.html",
+        "R2C5-prix-de-bercy-groupe-a.html",
+        "R2C6-prix-de-bercy-groupe-b.html",
+        "R2C7-prix-de-marcenat.html",
+        "R2C8-prix-de-caussade.html",
+        "R2C9-prix-de-frejus.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-montivilliers.html",
+        "R3C2-prix-de-chateau-gontier.html",
+        "R3C3-prix-de-blain-bouvron-le-gavre.html",
+        "R3C4-prix-d-ecouche.html",
+        "R3C5-prix-de-bercy-groupe-a.html",
+        "R3C6-prix-de-bercy-groupe-b.html",
+        "R3C7-prix-de-marcenat.html",
+        "R3C8-prix-de-caussade.html",
+        "R3C9-prix-de-frejus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:07.960918Z"
+}

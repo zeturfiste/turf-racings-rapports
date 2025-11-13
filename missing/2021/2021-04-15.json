@@ -1,0 +1,65 @@
+{
+  "date": "2021-04-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-15",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-15/2021-04-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-15/R1-auteuil/R1C1-prix-rose-or-no.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R1-auteuil/R1C9-prix-rose-laurel.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R3-le-mans/R3C4-prix-alec-carter.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R4-lyon-parilly/R4C3-prix-oteuil-sf.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R4-lyon-parilly/R4C4-prix-alec-carter.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R4-lyon-parilly/R4C6-prix-du-barry.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R4-lyon-parilly/R4C7-prix-necor.html",
+      "resultats-et-rapports/2021/04/2021-04-15/R4-lyon-parilly/R4C9-prix-rose-laurel.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-le-mans",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-the-coyote.html",
+        "R1C3-prix-oteuil-sf.html",
+        "R1C4-prix-alec-carter.html",
+        "R1C5-prix-de-borely.html",
+        "R1C6-prix-du-barry.html",
+        "R1C7-prix-necor.html",
+        "R1C8-prix-de-saumur.html",
+        "R1C9-prix-rose-laurel.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-the-coyote.html",
+        "R3C3-prix-oteuil-sf.html",
+        "R3C4-prix-alec-carter.html",
+        "R3C5-prix-de-borely.html",
+        "R3C6-prix-du-barry.html",
+        "R3C7-prix-necor.html",
+        "R3C8-prix-de-saumur.html",
+        "R3C9-prix-rose-laurel.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-the-coyote.html",
+        "R4C3-prix-oteuil-sf.html",
+        "R4C4-prix-alec-carter.html",
+        "R4C5-prix-de-borely.html",
+        "R4C6-prix-du-barry.html",
+        "R4C7-prix-necor.html",
+        "R4C8-prix-de-saumur.html",
+        "R4C9-prix-rose-laurel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:08.189400Z"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2020-01-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/01/2020-01-01",
+    "date_html": "resultats-et-rapports/2020/01/2020-01-01/2020-01-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-meulan.html",
+        "R1C2-prix-de-libourne.html",
+        "R1C3-prix-d-angouleme.html",
+        "R1C4-prix-de-chatelguyon.html",
+        "R1C5-prix-du-croise-laroche.html",
+        "R1C6-prix-de-saint-denis.html",
+        "R1C7-prix-de-luchon.html",
+        "R1C8-prix-de-mezieres.html",
+        "R1C9-prix-de-montbeliard.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-meulan.html",
+        "R3C2-prix-de-libourne.html",
+        "R3C3-prix-d-angouleme.html",
+        "R3C4-prix-de-chatelguyon.html",
+        "R3C5-prix-du-croise-laroche.html",
+        "R3C6-prix-de-saint-denis.html",
+        "R3C7-prix-de-luchon.html",
+        "R3C8-prix-de-mezieres.html",
+        "R3C9-prix-de-montbeliard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:38.565793Z"
+}

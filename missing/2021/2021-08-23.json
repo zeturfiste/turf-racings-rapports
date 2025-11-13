@@ -1,0 +1,76 @@
+{
+  "date": "2021-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-23",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-23/2021-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-23/R3-cherbourg/R3C4-prix-d-ornano-valenti-prix-des-lavateres.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R3-cherbourg/R3C6-prix-jury-du-festival-du-cinema-americain-de-deauville-prix-north-jet.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R4-pornichet-la-baule/R4C1-prix-wizito-prix-arenice.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R6-cagnes-sur-mer/R6C3-prix-de-la-competition-prix-de-la-risle.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R6-cagnes-sur-mer/R6C5-prix-ville-de-tourgeville.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R6-cagnes-sur-mer/R6C7-prix-du-jury-de-la-revelation-prix-lady-berry.html",
+      "resultats-et-rapports/2021/08/2021-08-23/R6-cagnes-sur-mer/R6C9-prix-fondation-louis-roederer-de-la-revelation-prix-turgeon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-cherbourg",
+      "R4-pornichet-la-baule",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-wizito-prix-arenice.html",
+        "R1C2-47eme-festival-du-cinema-americain-de-deauville-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R1C3-prix-de-la-competition-prix-de-la-risle.html",
+        "R1C4-prix-d-ornano-valenti-prix-des-lavateres.html",
+        "R1C5-prix-ville-de-tourgeville.html",
+        "R1C6-prix-jury-du-festival-du-cinema-americain-de-deauville-prix-north-jet.html",
+        "R1C7-prix-du-jury-de-la-revelation-prix-lady-berry.html",
+        "R1C8-prix-du-public-de-la-ville-de-deauville-prix-des-colchiques.html",
+        "R1C9-prix-fondation-louis-roederer-de-la-revelation-prix-turgeon.html"
+      ],
+      "R3-cherbourg": [
+        "R3C1-prix-wizito-prix-arenice.html",
+        "R3C2-47eme-festival-du-cinema-americain-de-deauville-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R3C3-prix-de-la-competition-prix-de-la-risle.html",
+        "R3C4-prix-d-ornano-valenti-prix-des-lavateres.html",
+        "R3C5-prix-ville-de-tourgeville.html",
+        "R3C6-prix-jury-du-festival-du-cinema-americain-de-deauville-prix-north-jet.html",
+        "R3C7-prix-du-jury-de-la-revelation-prix-lady-berry.html",
+        "R3C8-prix-du-public-de-la-ville-de-deauville-prix-des-colchiques.html",
+        "R3C9-prix-fondation-louis-roederer-de-la-revelation-prix-turgeon.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-wizito-prix-arenice.html",
+        "R4C2-47eme-festival-du-cinema-americain-de-deauville-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R4C3-prix-de-la-competition-prix-de-la-risle.html",
+        "R4C4-prix-d-ornano-valenti-prix-des-lavateres.html",
+        "R4C5-prix-ville-de-tourgeville.html",
+        "R4C6-prix-jury-du-festival-du-cinema-americain-de-deauville-prix-north-jet.html",
+        "R4C7-prix-du-jury-de-la-revelation-prix-lady-berry.html",
+        "R4C8-prix-du-public-de-la-ville-de-deauville-prix-des-colchiques.html",
+        "R4C9-prix-fondation-louis-roederer-de-la-revelation-prix-turgeon.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-wizito-prix-arenice.html",
+        "R6C2-47eme-festival-du-cinema-americain-de-deauville-grand-steeple-chase-de-la-ville-de-deauville.html",
+        "R6C3-prix-de-la-competition-prix-de-la-risle.html",
+        "R6C4-prix-d-ornano-valenti-prix-des-lavateres.html",
+        "R6C5-prix-ville-de-tourgeville.html",
+        "R6C6-prix-jury-du-festival-du-cinema-americain-de-deauville-prix-north-jet.html",
+        "R6C7-prix-du-jury-de-la-revelation-prix-lady-berry.html",
+        "R6C8-prix-du-public-de-la-ville-de-deauville-prix-des-colchiques.html",
+        "R6C9-prix-fondation-louis-roederer-de-la-revelation-prix-turgeon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:01.734549Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2011-10-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-15",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-15/2011-10-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C1-prix-beaurepaire.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C2-prix-magne.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C3-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C4-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C6-prix-montgomery-handicap.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R1-auteuil/R1C7-prix-bayonnet.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R2-caen/R2C1-prix-beaurepaire.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R2-caen/R2C2-prix-magne.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R2-caen/R2C3-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R2-caen/R2C6-prix-montgomery-handicap.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R2-caen/R2C7-prix-bayonnet.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C1-prix-beaurepaire.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C2-prix-magne.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C3-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C4-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C6-prix-montgomery-handicap.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C7-prix-bayonnet.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R3-saint-galmier/R3C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C1-prix-beaurepaire.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C2-prix-magne.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C4-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C5-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C6-prix-montgomery-handicap.html",
+      "resultats-et-rapports/2011/10/2011-10-15/R4-cavaillon/R4C8-prix-roger-soulange-bodin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-saint-galmier",
+      "R4-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-beaurepaire.html",
+        "R1C2-prix-magne.html",
+        "R1C3-prix-duc-d-alburquerque.html",
+        "R1C4-prix-prince-d-ecouen.html",
+        "R1C5-prix-pierre-de-lassus.html",
+        "R1C6-prix-montgomery-handicap.html",
+        "R1C7-prix-bayonnet.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-beaurepaire.html",
+        "R2C2-prix-magne.html",
+        "R2C3-prix-duc-d-alburquerque.html",
+        "R2C4-prix-prince-d-ecouen.html",
+        "R2C5-prix-pierre-de-lassus.html",
+        "R2C6-prix-montgomery-handicap.html",
+        "R2C7-prix-bayonnet.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-beaurepaire.html",
+        "R3C2-prix-magne.html",
+        "R3C3-prix-duc-d-alburquerque.html",
+        "R3C4-prix-prince-d-ecouen.html",
+        "R3C5-prix-pierre-de-lassus.html",
+        "R3C6-prix-montgomery-handicap.html",
+        "R3C7-prix-bayonnet.html",
+        "R3C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-cavaillon": [
+        "R4C1-prix-beaurepaire.html",
+        "R4C2-prix-magne.html",
+        "R4C3-prix-duc-d-alburquerque.html",
+        "R4C4-prix-prince-d-ecouen.html",
+        "R4C5-prix-pierre-de-lassus.html",
+        "R4C6-prix-montgomery-handicap.html",
+        "R4C7-prix-bayonnet.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:18.908138Z"
+}

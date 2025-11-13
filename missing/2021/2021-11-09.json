@@ -1,0 +1,74 @@
+{
+  "date": "2021-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-09",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-09/2021-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-09/R1-angers/R1C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R2-chartres/R2C6-prix-angers-info-prix-de-bouchemaine.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R3-vincennes/R3C1-prix-lord-magique.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R3-vincennes/R3C5-prix-chocolats-mathez.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R3-vincennes/R3C6-prix-angers-info-prix-de-bouchemaine.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R3-vincennes/R3C7-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R3-vincennes/R3C8-prix-henri-chevalier-du-fau.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R4-amiens/R4C1-prix-lord-magique.html",
+      "resultats-et-rapports/2021/11/2021-11-09/R4-amiens/R4C8-prix-henri-chevalier-du-fau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-chartres",
+      "R3-vincennes",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-lord-magique.html",
+        "R1C2-prix-plantagenet.html",
+        "R1C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R1C4-handicap-d-angers-loire-metropole.html",
+        "R1C5-prix-chocolats-mathez.html",
+        "R1C6-prix-angers-info-prix-de-bouchemaine.html",
+        "R1C7-prix-des-jardins-du-mail.html",
+        "R1C8-prix-henri-chevalier-du-fau.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-lord-magique.html",
+        "R2C2-prix-plantagenet.html",
+        "R2C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R2C4-handicap-d-angers-loire-metropole.html",
+        "R2C5-prix-chocolats-mathez.html",
+        "R2C6-prix-angers-info-prix-de-bouchemaine.html",
+        "R2C7-prix-des-jardins-du-mail.html",
+        "R2C8-prix-henri-chevalier-du-fau.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-lord-magique.html",
+        "R3C2-prix-plantagenet.html",
+        "R3C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R3C4-handicap-d-angers-loire-metropole.html",
+        "R3C5-prix-chocolats-mathez.html",
+        "R3C6-prix-angers-info-prix-de-bouchemaine.html",
+        "R3C7-prix-des-jardins-du-mail.html",
+        "R3C8-prix-henri-chevalier-du-fau.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-lord-magique.html",
+        "R4C2-prix-plantagenet.html",
+        "R4C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R4C4-handicap-d-angers-loire-metropole.html",
+        "R4C5-prix-chocolats-mathez.html",
+        "R4C6-prix-angers-info-prix-de-bouchemaine.html",
+        "R4C7-prix-des-jardins-du-mail.html",
+        "R4C8-prix-henri-chevalier-du-fau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:31.071141Z"
+}

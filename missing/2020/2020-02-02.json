@@ -1,0 +1,118 @@
+{
+  "date": "2020-02-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-02",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-02/2020-02-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-02/R1-vincennes/R1C9-prix-de-lannemezan.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C2-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C6-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C8-prix-indienne.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R6-lyon-la-soie/R6C9-prix-de-lannemezan.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R7-saint-brieuc/R7C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R7-saint-brieuc/R7C2-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R7-saint-brieuc/R7C3-prix-de-la-paix-prix-de-rouen.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R7-saint-brieuc/R7C6-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R7-saint-brieuc/R7C8-prix-indienne.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C2-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C4-grand-prix-d-afrique.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C8-prix-indienne.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R8-cherbourg/R8C9-prix-de-lannemezan.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C2-prix-ovide-moulinet.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C4-grand-prix-d-afrique.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C5-prix-de-l-amitie-franco-africaine.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C6-prix-de-l-ile-de-france.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2020/02/2020-02-02/R9-agen/R9C9-prix-de-lannemezan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R6-lyon-la-soie",
+      "R7-saint-brieuc",
+      "R8-cherbourg",
+      "R9-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R1C2-prix-ovide-moulinet.html",
+        "R1C3-prix-de-la-paix-prix-de-rouen.html",
+        "R1C4-grand-prix-d-afrique.html",
+        "R1C5-prix-de-l-amitie-franco-africaine.html",
+        "R1C6-prix-de-l-ile-de-france.html",
+        "R1C7-prix-des-rouges-terres.html",
+        "R1C8-prix-indienne.html",
+        "R1C9-prix-de-lannemezan.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R3C2-prix-ovide-moulinet.html",
+        "R3C3-prix-de-la-paix-prix-de-rouen.html",
+        "R3C4-grand-prix-d-afrique.html",
+        "R3C5-prix-de-l-amitie-franco-africaine.html",
+        "R3C6-prix-de-l-ile-de-france.html",
+        "R3C7-prix-des-rouges-terres.html",
+        "R3C8-prix-indienne.html",
+        "R3C9-prix-de-lannemezan.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R6C2-prix-ovide-moulinet.html",
+        "R6C3-prix-de-la-paix-prix-de-rouen.html",
+        "R6C4-grand-prix-d-afrique.html",
+        "R6C5-prix-de-l-amitie-franco-africaine.html",
+        "R6C6-prix-de-l-ile-de-france.html",
+        "R6C7-prix-des-rouges-terres.html",
+        "R6C8-prix-indienne.html",
+        "R6C9-prix-de-lannemezan.html"
+      ],
+      "R7-saint-brieuc": [
+        "R7C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R7C2-prix-ovide-moulinet.html",
+        "R7C3-prix-de-la-paix-prix-de-rouen.html",
+        "R7C4-grand-prix-d-afrique.html",
+        "R7C5-prix-de-l-amitie-franco-africaine.html",
+        "R7C6-prix-de-l-ile-de-france.html",
+        "R7C7-prix-des-rouges-terres.html",
+        "R7C8-prix-indienne.html",
+        "R7C9-prix-de-lannemezan.html"
+      ],
+      "R8-cherbourg": [
+        "R8C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R8C2-prix-ovide-moulinet.html",
+        "R8C3-prix-de-la-paix-prix-de-rouen.html",
+        "R8C4-grand-prix-d-afrique.html",
+        "R8C5-prix-de-l-amitie-franco-africaine.html",
+        "R8C6-prix-de-l-ile-de-france.html",
+        "R8C7-prix-des-rouges-terres.html",
+        "R8C8-prix-indienne.html",
+        "R8C9-prix-de-lannemezan.html"
+      ],
+      "R9-agen": [
+        "R9C1-prix-de-l-a-l-a-prix-raymond-goleo.html",
+        "R9C2-prix-ovide-moulinet.html",
+        "R9C3-prix-de-la-paix-prix-de-rouen.html",
+        "R9C4-grand-prix-d-afrique.html",
+        "R9C5-prix-de-l-amitie-franco-africaine.html",
+        "R9C6-prix-de-l-ile-de-france.html",
+        "R9C7-prix-des-rouges-terres.html",
+        "R9C8-prix-indienne.html",
+        "R9C9-prix-de-lannemezan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:47.743144Z"
+}

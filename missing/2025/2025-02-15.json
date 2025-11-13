@@ -1,0 +1,64 @@
+{
+  "date": "2025-02-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/02/2025-02-15",
+    "date_html": "resultats-et-rapports/2025/02/2025-02-15/2025-02-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/02/2025-02-15/R1-auteuil/R1C6-prix-doublon.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R1-auteuil/R1C8-prix-bougie.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R3-agen/R3C1-prix-agitato.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R3-agen/R3C4-prix-beugnot.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R3-agen/R3C5-prix-marise.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R3-agen/R3C8-prix-bougie.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R4-laval/R4C1-prix-agitato.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R4-laval/R4C2-prix-varaville.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R4-laval/R4C4-prix-beugnot.html",
+      "resultats-et-rapports/2025/02/2025-02-15/R4-laval/R4C7-gsc-masters-prix-robert-de-clermont-tonnerre.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-agen",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-agitato.html",
+        "R1C2-prix-varaville.html",
+        "R1C3-prix-jean-claude-evain.html",
+        "R1C4-prix-beugnot.html",
+        "R1C5-prix-marise.html",
+        "R1C6-prix-doublon.html",
+        "R1C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R1C8-prix-bougie.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-agitato.html",
+        "R3C2-prix-varaville.html",
+        "R3C3-prix-jean-claude-evain.html",
+        "R3C4-prix-beugnot.html",
+        "R3C5-prix-marise.html",
+        "R3C6-prix-doublon.html",
+        "R3C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R3C8-prix-bougie.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-agitato.html",
+        "R4C2-prix-varaville.html",
+        "R4C3-prix-jean-claude-evain.html",
+        "R4C4-prix-beugnot.html",
+        "R4C5-prix-marise.html",
+        "R4C6-prix-doublon.html",
+        "R4C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R4C8-prix-bougie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:52.059310Z"
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2012-07-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-09",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-09/2012-07-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C1-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C3-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C5-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C6-prix-de-coye-la-foret.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C7-prix-du-grand-marisy.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R1-chantilly/R1C8-prix-des-soixante-arpents.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R2-vichy/R2C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R2-vichy/R2C3-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R2-vichy/R2C4-prix-du-bois-de-la-vidamee.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R2-vichy/R2C5-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R2-vichy/R2C6-prix-de-coye-la-foret.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R3-clairefontaine/R3C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R3-clairefontaine/R3C3-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R3-clairefontaine/R3C8-prix-des-soixante-arpents.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R4-eauze/R4C2-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R4-eauze/R4C4-prix-du-bois-de-la-vidamee.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R4-eauze/R4C7-prix-du-grand-marisy.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R4-eauze/R4C8-prix-des-soixante-arpents.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R5-cagnes-sur-mer/R5C1-prix-de-la-capitainerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R5-cagnes-sur-mer/R5C3-prix-de-la-verrerie.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R5-cagnes-sur-mer/R5C5-prix-du-vivier-madame.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R5-cagnes-sur-mer/R5C6-prix-de-coye-la-foret.html",
+      "resultats-et-rapports/2012/07/2012-07-09/R5-cagnes-sur-mer/R5C8-prix-des-soixante-arpents.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vichy",
+      "R3-clairefontaine",
+      "R4-eauze",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-capitainerie.html",
+        "R1C2-prix-du-soleil-de-bretagne.html",
+        "R1C3-prix-de-la-verrerie.html",
+        "R1C4-prix-du-bois-de-la-vidamee.html",
+        "R1C5-prix-du-vivier-madame.html",
+        "R1C6-prix-de-coye-la-foret.html",
+        "R1C7-prix-du-grand-marisy.html",
+        "R1C8-prix-des-soixante-arpents.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-la-capitainerie.html",
+        "R2C2-prix-du-soleil-de-bretagne.html",
+        "R2C3-prix-de-la-verrerie.html",
+        "R2C4-prix-du-bois-de-la-vidamee.html",
+        "R2C5-prix-du-vivier-madame.html",
+        "R2C6-prix-de-coye-la-foret.html",
+        "R2C7-prix-du-grand-marisy.html",
+        "R2C8-prix-des-soixante-arpents.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-la-capitainerie.html",
+        "R3C2-prix-du-soleil-de-bretagne.html",
+        "R3C3-prix-de-la-verrerie.html",
+        "R3C4-prix-du-bois-de-la-vidamee.html",
+        "R3C5-prix-du-vivier-madame.html",
+        "R3C6-prix-de-coye-la-foret.html",
+        "R3C7-prix-du-grand-marisy.html",
+        "R3C8-prix-des-soixante-arpents.html"
+      ],
+      "R4-eauze": [
+        "R4C1-prix-de-la-capitainerie.html",
+        "R4C2-prix-du-soleil-de-bretagne.html",
+        "R4C3-prix-de-la-verrerie.html",
+        "R4C4-prix-du-bois-de-la-vidamee.html",
+        "R4C5-prix-du-vivier-madame.html",
+        "R4C6-prix-de-coye-la-foret.html",
+        "R4C7-prix-du-grand-marisy.html",
+        "R4C8-prix-des-soixante-arpents.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-la-capitainerie.html",
+        "R5C2-prix-du-soleil-de-bretagne.html",
+        "R5C3-prix-de-la-verrerie.html",
+        "R5C4-prix-du-bois-de-la-vidamee.html",
+        "R5C5-prix-du-vivier-madame.html",
+        "R5C6-prix-de-coye-la-foret.html",
+        "R5C7-prix-du-grand-marisy.html",
+        "R5C8-prix-des-soixante-arpents.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:32.575454Z"
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2025-09-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-09",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-09/2025-09-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C1-prix-jean-bart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C2-prix-weather-permitting.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C3-prix-des-platanes.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C4-prix-recruit-ii.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C5-prix-le-gourzy.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C6-prix-gelas.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C7-prix-d-angers.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C8-prix-mortemart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R1-auteuil/R1C9-prix-des-fortifications.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C1-prix-jean-bart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C2-prix-weather-permitting.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C3-prix-des-platanes.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C4-prix-recruit-ii.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C5-prix-le-gourzy.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C6-prix-gelas.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C7-prix-d-angers.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C8-prix-mortemart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R3-lyon-parilly/R3C9-prix-des-fortifications.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C1-prix-jean-bart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C2-prix-weather-permitting.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C3-prix-des-platanes.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C4-prix-recruit-ii.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C5-prix-le-gourzy.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C6-prix-gelas.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C7-prix-d-angers.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C8-prix-mortemart.html",
+      "resultats-et-rapports/2025/09/2025-09-09/R4-vincennes/R4C9-prix-des-fortifications.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-jean-bart.html",
+        "R1C2-prix-weather-permitting.html",
+        "R1C3-prix-des-platanes.html",
+        "R1C4-prix-recruit-ii.html",
+        "R1C5-prix-le-gourzy.html",
+        "R1C6-prix-gelas.html",
+        "R1C7-prix-d-angers.html",
+        "R1C8-prix-mortemart.html",
+        "R1C9-prix-des-fortifications.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-jean-bart.html",
+        "R3C2-prix-weather-permitting.html",
+        "R3C3-prix-des-platanes.html",
+        "R3C4-prix-recruit-ii.html",
+        "R3C5-prix-le-gourzy.html",
+        "R3C6-prix-gelas.html",
+        "R3C7-prix-d-angers.html",
+        "R3C8-prix-mortemart.html",
+        "R3C9-prix-des-fortifications.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-jean-bart.html",
+        "R4C2-prix-weather-permitting.html",
+        "R4C3-prix-des-platanes.html",
+        "R4C4-prix-recruit-ii.html",
+        "R4C5-prix-le-gourzy.html",
+        "R4C6-prix-gelas.html",
+        "R4C7-prix-d-angers.html",
+        "R4C8-prix-mortemart.html",
+        "R4C9-prix-des-fortifications.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:09.718212Z"
+}

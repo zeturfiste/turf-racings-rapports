@@ -1,0 +1,112 @@
+{
+  "date": "2019-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/05/2019-05-30",
+    "date_html": "resultats-et-rapports/2019/05/2019-05-30/2019-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/05/2019-05-30/R1-paris-longchamp/R1C4-prix-du-debarcadere.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R1-paris-longchamp/R1C6-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R2-nantes/R2C2-prix-du-palais-royal.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R2-nantes/R2C3-prix-de-la-galerie-d-apollon.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R2-nantes/R2C6-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R2-nantes/R2C7-prix-du-bois-du-russe.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R3-lyon-parilly/R3C2-prix-du-palais-royal.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R3-lyon-parilly/R3C4-prix-du-debarcadere.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R3-lyon-parilly/R3C5-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R3-lyon-parilly/R3C7-prix-du-bois-du-russe.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C1-prix-du-petit-bois.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C2-prix-du-palais-royal.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C3-prix-de-la-galerie-d-apollon.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C4-prix-du-debarcadere.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C5-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C6-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R4-le-lion-d-angers/R4C7-prix-du-bois-du-russe.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C1-prix-du-petit-bois.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C2-prix-du-palais-royal.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C3-prix-de-la-galerie-d-apollon.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C4-prix-du-debarcadere.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C5-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C6-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R5-saint-brieuc/R5C7-prix-du-bois-du-russe.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C1-prix-du-petit-bois.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C2-prix-du-palais-royal.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C3-prix-de-la-galerie-d-apollon.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C4-prix-du-debarcadere.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C5-prix-de-saint-ouen.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C6-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2019/05/2019-05-30/R6-la-rochelle/R6C7-prix-du-bois-du-russe.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-nantes",
+      "R3-lyon-parilly",
+      "R4-le-lion-d-angers",
+      "R5-saint-brieuc",
+      "R6-la-rochelle"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-petit-bois.html",
+        "R1C2-prix-du-palais-royal.html",
+        "R1C3-prix-de-la-galerie-d-apollon.html",
+        "R1C4-prix-du-debarcadere.html",
+        "R1C5-prix-de-saint-ouen.html",
+        "R1C6-prix-du-palais-du-louvre.html",
+        "R1C7-prix-du-bois-du-russe.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-petit-bois.html",
+        "R2C2-prix-du-palais-royal.html",
+        "R2C3-prix-de-la-galerie-d-apollon.html",
+        "R2C4-prix-du-debarcadere.html",
+        "R2C5-prix-de-saint-ouen.html",
+        "R2C6-prix-du-palais-du-louvre.html",
+        "R2C7-prix-du-bois-du-russe.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-petit-bois.html",
+        "R3C2-prix-du-palais-royal.html",
+        "R3C3-prix-de-la-galerie-d-apollon.html",
+        "R3C4-prix-du-debarcadere.html",
+        "R3C5-prix-de-saint-ouen.html",
+        "R3C6-prix-du-palais-du-louvre.html",
+        "R3C7-prix-du-bois-du-russe.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-du-petit-bois.html",
+        "R4C2-prix-du-palais-royal.html",
+        "R4C3-prix-de-la-galerie-d-apollon.html",
+        "R4C4-prix-du-debarcadere.html",
+        "R4C5-prix-de-saint-ouen.html",
+        "R4C6-prix-du-palais-du-louvre.html",
+        "R4C7-prix-du-bois-du-russe.html"
+      ],
+      "R5-saint-brieuc": [
+        "R5C1-prix-du-petit-bois.html",
+        "R5C2-prix-du-palais-royal.html",
+        "R5C3-prix-de-la-galerie-d-apollon.html",
+        "R5C4-prix-du-debarcadere.html",
+        "R5C5-prix-de-saint-ouen.html",
+        "R5C6-prix-du-palais-du-louvre.html",
+        "R5C7-prix-du-bois-du-russe.html"
+      ],
+      "R6-la-rochelle": [
+        "R6C1-prix-du-petit-bois.html",
+        "R6C2-prix-du-palais-royal.html",
+        "R6C3-prix-de-la-galerie-d-apollon.html",
+        "R6C4-prix-du-debarcadere.html",
+        "R6C5-prix-de-saint-ouen.html",
+        "R6C6-prix-du-palais-du-louvre.html",
+        "R6C7-prix-du-bois-du-russe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:26.191430Z"
+}

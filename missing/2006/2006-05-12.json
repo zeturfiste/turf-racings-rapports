@@ -1,0 +1,60 @@
+{
+  "date": "2006-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-12",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-12/2006-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-pot-d-or.html",
+        "R1C2-prix-wild-monarch-pouliches.html",
+        "R1C3-prix-regalia.html",
+        "R1C4-prix-galafron.html",
+        "R1C5-prix-djarvis.html",
+        "R1C6-prix-guy-hunault.html",
+        "R1C7-prix-d-olivet.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-pot-d-or.html",
+        "R2C2-prix-wild-monarch-pouliches.html",
+        "R2C3-prix-regalia.html",
+        "R2C4-prix-galafron.html",
+        "R2C5-prix-djarvis.html",
+        "R2C6-prix-guy-hunault.html",
+        "R2C7-prix-d-olivet.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-pot-d-or.html",
+        "R3C2-prix-wild-monarch-pouliches.html",
+        "R3C3-prix-regalia.html",
+        "R3C4-prix-galafron.html",
+        "R3C5-prix-djarvis.html",
+        "R3C6-prix-guy-hunault.html",
+        "R3C7-prix-d-olivet.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-pot-d-or.html",
+        "R4C2-prix-wild-monarch-pouliches.html",
+        "R4C3-prix-regalia.html",
+        "R4C4-prix-galafron.html",
+        "R4C5-prix-djarvis.html",
+        "R4C6-prix-guy-hunault.html",
+        "R4C7-prix-d-olivet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:31.216800Z"
+}

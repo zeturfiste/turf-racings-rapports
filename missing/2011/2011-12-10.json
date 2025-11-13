@@ -1,0 +1,47 @@
+{
+  "date": "2011-12-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-10",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-10/2011-12-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-10/R2-pau/R2C3-prix-d-hautefort.html",
+      "resultats-et-rapports/2011/12/2011-12-10/R2-pau/R2C6-prix-raoul-balliere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-seiches-sur-le-loir.html",
+        "R1C2-prix-ariste-hemard.html",
+        "R1C3-prix-d-hautefort.html",
+        "R1C4-prix-du-bourbonnais.html",
+        "R1C5-prix-narquois.html",
+        "R1C6-prix-raoul-balliere.html",
+        "R1C7-prix-du-pertre.html",
+        "R1C8-prix-d-apt.html",
+        "R1C9-prix-de-cogolin.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-seiches-sur-le-loir.html",
+        "R2C2-prix-ariste-hemard.html",
+        "R2C3-prix-d-hautefort.html",
+        "R2C4-prix-du-bourbonnais.html",
+        "R2C5-prix-narquois.html",
+        "R2C6-prix-raoul-balliere.html",
+        "R2C7-prix-du-pertre.html",
+        "R2C8-prix-d-apt.html",
+        "R2C9-prix-de-cogolin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:34.827801Z"
+}

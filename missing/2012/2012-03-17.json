@@ -1,0 +1,98 @@
+{
+  "date": "2012-03-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-17",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-17/2012-03-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-17/R1-saint-cloud/R1C1-prix-de-la-marche.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R1-saint-cloud/R1C2-prix-maurice-caillault.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R1-saint-cloud/R1C3-prix-rose-de-mai.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C2-prix-maurice-caillault.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C3-prix-rose-de-mai.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C4-prix-empery.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C5-prix-exbury.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C7-prix-nobiliary.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R2-lisieux/R2C8-prix-des-coteaux-de-saint-cloud.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R3-marseille-vivaux/R3C1-prix-de-la-marche.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R3-marseille-vivaux/R3C2-prix-maurice-caillault.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R3-marseille-vivaux/R3C3-prix-rose-de-mai.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R3-marseille-vivaux/R3C7-prix-nobiliary.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R4-toulouse/R4C2-prix-maurice-caillault.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R4-toulouse/R4C6-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R4-toulouse/R4C7-prix-nobiliary.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R4-toulouse/R4C8-prix-des-coteaux-de-saint-cloud.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R5-saint-galmier/R5C3-prix-rose-de-mai.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R5-saint-galmier/R5C4-prix-empery.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R5-saint-galmier/R5C5-prix-exbury.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R5-saint-galmier/R5C6-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2012/03/2012-03-17/R5-saint-galmier/R5C8-prix-des-coteaux-de-saint-cloud.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lisieux",
+      "R3-marseille-vivaux",
+      "R4-toulouse",
+      "R5-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-la-marche.html",
+        "R1C2-prix-maurice-caillault.html",
+        "R1C3-prix-rose-de-mai.html",
+        "R1C4-prix-empery.html",
+        "R1C5-prix-exbury.html",
+        "R1C6-prix-des-hauts-de-seine.html",
+        "R1C7-prix-nobiliary.html",
+        "R1C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R2-lisieux": [
+        "R2C1-prix-de-la-marche.html",
+        "R2C2-prix-maurice-caillault.html",
+        "R2C3-prix-rose-de-mai.html",
+        "R2C4-prix-empery.html",
+        "R2C5-prix-exbury.html",
+        "R2C6-prix-des-hauts-de-seine.html",
+        "R2C7-prix-nobiliary.html",
+        "R2C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-la-marche.html",
+        "R3C2-prix-maurice-caillault.html",
+        "R3C3-prix-rose-de-mai.html",
+        "R3C4-prix-empery.html",
+        "R3C5-prix-exbury.html",
+        "R3C6-prix-des-hauts-de-seine.html",
+        "R3C7-prix-nobiliary.html",
+        "R3C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-la-marche.html",
+        "R4C2-prix-maurice-caillault.html",
+        "R4C3-prix-rose-de-mai.html",
+        "R4C4-prix-empery.html",
+        "R4C5-prix-exbury.html",
+        "R4C6-prix-des-hauts-de-seine.html",
+        "R4C7-prix-nobiliary.html",
+        "R4C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R5-saint-galmier": [
+        "R5C1-prix-de-la-marche.html",
+        "R5C2-prix-maurice-caillault.html",
+        "R5C3-prix-rose-de-mai.html",
+        "R5C4-prix-empery.html",
+        "R5C5-prix-exbury.html",
+        "R5C6-prix-des-hauts-de-seine.html",
+        "R5C7-prix-nobiliary.html",
+        "R5C8-prix-des-coteaux-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:57.615447Z"
+}

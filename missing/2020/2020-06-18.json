@@ -1,0 +1,100 @@
+{
+  "date": "2020-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-18",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-18/2020-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C2-prix-andre-boingneres.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C3-prix-du-bassin-d-arcachon-sabt.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C4-prix-foie-gras-biraben.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C5-prix-century-21-duprat-donnesse.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R1-la-teste-de-buch/R1C9-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C2-prix-andre-boingneres.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C3-prix-du-bassin-d-arcachon-sabt.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C4-prix-foie-gras-biraben.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C5-prix-century-21-duprat-donnesse.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C6-prix-cafpi-bassin-d-arcachon.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R2-compiegne/R2C9-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C1-prix-la-sorellina-tattersalls.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C2-prix-andre-boingneres.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C3-prix-du-bassin-d-arcachon-sabt.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C4-prix-foie-gras-biraben.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C5-prix-century-21-duprat-donnesse.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C6-prix-cafpi-bassin-d-arcachon.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R3-mauquenchy/R3C9-qatar-coupe-de-france-des-chevaux-arabes.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C1-prix-la-sorellina-tattersalls.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C2-prix-andre-boingneres.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C3-prix-du-bassin-d-arcachon-sabt.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C5-prix-century-21-duprat-donnesse.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C6-prix-cafpi-bassin-d-arcachon.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C7-prix-champagne-duval-leroy.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+      "resultats-et-rapports/2020/06/2020-06-18/R5-vichy/R5C9-qatar-coupe-de-france-des-chevaux-arabes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-teste-de-buch",
+      "R2-compiegne",
+      "R3-mauquenchy",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-la-teste-de-buch": [
+        "R1C1-prix-la-sorellina-tattersalls.html",
+        "R1C2-prix-andre-boingneres.html",
+        "R1C3-prix-du-bassin-d-arcachon-sabt.html",
+        "R1C4-prix-foie-gras-biraben.html",
+        "R1C5-prix-century-21-duprat-donnesse.html",
+        "R1C6-prix-cafpi-bassin-d-arcachon.html",
+        "R1C7-prix-champagne-duval-leroy.html",
+        "R1C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R1C9-qatar-coupe-de-france-des-chevaux-arabes.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-la-sorellina-tattersalls.html",
+        "R2C2-prix-andre-boingneres.html",
+        "R2C3-prix-du-bassin-d-arcachon-sabt.html",
+        "R2C4-prix-foie-gras-biraben.html",
+        "R2C5-prix-century-21-duprat-donnesse.html",
+        "R2C6-prix-cafpi-bassin-d-arcachon.html",
+        "R2C7-prix-champagne-duval-leroy.html",
+        "R2C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R2C9-qatar-coupe-de-france-des-chevaux-arabes.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-la-sorellina-tattersalls.html",
+        "R3C2-prix-andre-boingneres.html",
+        "R3C3-prix-du-bassin-d-arcachon-sabt.html",
+        "R3C4-prix-foie-gras-biraben.html",
+        "R3C5-prix-century-21-duprat-donnesse.html",
+        "R3C6-prix-cafpi-bassin-d-arcachon.html",
+        "R3C7-prix-champagne-duval-leroy.html",
+        "R3C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R3C9-qatar-coupe-de-france-des-chevaux-arabes.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-la-sorellina-tattersalls.html",
+        "R5C2-prix-andre-boingneres.html",
+        "R5C3-prix-du-bassin-d-arcachon-sabt.html",
+        "R5C4-prix-foie-gras-biraben.html",
+        "R5C5-prix-century-21-duprat-donnesse.html",
+        "R5C6-prix-cafpi-bassin-d-arcachon.html",
+        "R5C7-prix-champagne-duval-leroy.html",
+        "R5C8-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R5C9-qatar-coupe-de-france-des-chevaux-arabes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:19.715653Z"
+}

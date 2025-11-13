@@ -1,0 +1,57 @@
+{
+  "date": "2024-03-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-21",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-21/2024-03-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-21/R1-saint-cloud/R1C1-prix-dunette.html",
+      "resultats-et-rapports/2024/03/2024-03-21/R4-reims/R4C2-prix-du-debut.html",
+      "resultats-et-rapports/2024/03/2024-03-21/R4-reims/R4C4-prix-monade.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dunette.html",
+        "R1C2-prix-du-debut.html",
+        "R1C3-prix-suave-dancer.html",
+        "R1C4-prix-monade.html",
+        "R1C5-prix-de-la-porte-de-madrid.html",
+        "R1C6-prix-riverqueen.html",
+        "R1C7-prix-du-petit-morin.html",
+        "R1C8-prix-du-grand-morin.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-dunette.html",
+        "R3C2-prix-du-debut.html",
+        "R3C3-prix-suave-dancer.html",
+        "R3C4-prix-monade.html",
+        "R3C5-prix-de-la-porte-de-madrid.html",
+        "R3C6-prix-riverqueen.html",
+        "R3C7-prix-du-petit-morin.html",
+        "R3C8-prix-du-grand-morin.html"
+      ],
+      "R4-reims": [
+        "R4C1-prix-dunette.html",
+        "R4C2-prix-du-debut.html",
+        "R4C3-prix-suave-dancer.html",
+        "R4C4-prix-monade.html",
+        "R4C5-prix-de-la-porte-de-madrid.html",
+        "R4C6-prix-riverqueen.html",
+        "R4C7-prix-du-petit-morin.html",
+        "R4C8-prix-du-grand-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:44.816678Z"
+}

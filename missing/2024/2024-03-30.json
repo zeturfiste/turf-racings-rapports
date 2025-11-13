@@ -1,0 +1,84 @@
+{
+  "date": "2024-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-30",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-30/2024-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C1-prix-de-la-croix-de-pontarme.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C2-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C4-prix-du-grand-cerf.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C6-prix-du-bosquet-de-thesee.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C7-prix-du-chene-pouilleux.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C8-prix-du-bosquet-d-ariane.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R1-chantilly/R1C10-prix-des-porcelaines-princieres.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C1-prix-de-la-croix-de-pontarme.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C2-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C3-prix-des-manufactures-de-meissen-et-de-chantilly.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C4-prix-du-grand-cerf.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C5-prix-de-la-journee-des-plantes.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C6-prix-du-bosquet-de-thesee.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C8-prix-du-bosquet-d-ariane.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C9-prix-de-la-fabrique-d-extravagance.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R3-nancy/R3C10-prix-des-porcelaines-princieres.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C1-prix-de-la-croix-de-pontarme.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C2-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C3-prix-des-manufactures-de-meissen-et-de-chantilly.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C4-prix-du-grand-cerf.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C6-prix-du-bosquet-de-thesee.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C7-prix-du-chene-pouilleux.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C8-prix-du-bosquet-d-ariane.html",
+      "resultats-et-rapports/2024/03/2024-03-30/R5-laval/R5C9-prix-de-la-fabrique-d-extravagance.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-nancy",
+      "R5-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-croix-de-pontarme.html",
+        "R1C2-prix-de-la-route-millard.html",
+        "R1C3-prix-des-manufactures-de-meissen-et-de-chantilly.html",
+        "R1C4-prix-du-grand-cerf.html",
+        "R1C5-prix-de-la-journee-des-plantes.html",
+        "R1C6-prix-du-bosquet-de-thesee.html",
+        "R1C7-prix-du-chene-pouilleux.html",
+        "R1C8-prix-du-bosquet-d-ariane.html",
+        "R1C9-prix-de-la-fabrique-d-extravagance.html",
+        "R1C10-prix-des-porcelaines-princieres.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-de-la-croix-de-pontarme.html",
+        "R3C2-prix-de-la-route-millard.html",
+        "R3C3-prix-des-manufactures-de-meissen-et-de-chantilly.html",
+        "R3C4-prix-du-grand-cerf.html",
+        "R3C5-prix-de-la-journee-des-plantes.html",
+        "R3C6-prix-du-bosquet-de-thesee.html",
+        "R3C7-prix-du-chene-pouilleux.html",
+        "R3C8-prix-du-bosquet-d-ariane.html",
+        "R3C9-prix-de-la-fabrique-d-extravagance.html",
+        "R3C10-prix-des-porcelaines-princieres.html"
+      ],
+      "R5-laval": [
+        "R5C1-prix-de-la-croix-de-pontarme.html",
+        "R5C2-prix-de-la-route-millard.html",
+        "R5C3-prix-des-manufactures-de-meissen-et-de-chantilly.html",
+        "R5C4-prix-du-grand-cerf.html",
+        "R5C5-prix-de-la-journee-des-plantes.html",
+        "R5C6-prix-du-bosquet-de-thesee.html",
+        "R5C7-prix-du-chene-pouilleux.html",
+        "R5C8-prix-du-bosquet-d-ariane.html",
+        "R5C9-prix-de-la-fabrique-d-extravagance.html",
+        "R5C10-prix-des-porcelaines-princieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:47.973112Z"
+}

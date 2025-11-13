@@ -1,0 +1,81 @@
+{
+  "date": "2007-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-24",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-24/2007-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-24/R1-longchamp/R1C7-prix-de-l-arsenal.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C1-prix-andre-carrus.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C2-prix-du-capricorne.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C5-prix-de-trevise.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C6-prix-des-amazones.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C7-prix-de-l-arsenal.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R2-graignes/R2C8-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R4-amiens/R4C1-prix-andre-carrus.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R4-amiens/R4C2-prix-du-capricorne.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R4-amiens/R4C4-prix-de-provence.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C2-prix-du-capricorne.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C4-prix-de-provence.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C5-prix-de-trevise.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C6-prix-des-amazones.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C7-prix-de-l-arsenal.html",
+      "resultats-et-rapports/2007/05/2007-05-24/R31-zerace/R31C8-prix-de-saint-nicolas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-graignes",
+      "R4-amiens",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-andre-carrus.html",
+        "R1C2-prix-du-capricorne.html",
+        "R1C3-prix-cambis.html",
+        "R1C4-prix-de-provence.html",
+        "R1C5-prix-de-trevise.html",
+        "R1C6-prix-des-amazones.html",
+        "R1C7-prix-de-l-arsenal.html",
+        "R1C8-prix-de-saint-nicolas.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-andre-carrus.html",
+        "R2C2-prix-du-capricorne.html",
+        "R2C3-prix-cambis.html",
+        "R2C4-prix-de-provence.html",
+        "R2C5-prix-de-trevise.html",
+        "R2C6-prix-des-amazones.html",
+        "R2C7-prix-de-l-arsenal.html",
+        "R2C8-prix-de-saint-nicolas.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-andre-carrus.html",
+        "R4C2-prix-du-capricorne.html",
+        "R4C3-prix-cambis.html",
+        "R4C4-prix-de-provence.html",
+        "R4C5-prix-de-trevise.html",
+        "R4C6-prix-des-amazones.html",
+        "R4C7-prix-de-l-arsenal.html",
+        "R4C8-prix-de-saint-nicolas.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-andre-carrus.html",
+        "R31C2-prix-du-capricorne.html",
+        "R31C3-prix-cambis.html",
+        "R31C4-prix-de-provence.html",
+        "R31C5-prix-de-trevise.html",
+        "R31C6-prix-des-amazones.html",
+        "R31C7-prix-de-l-arsenal.html",
+        "R31C8-prix-de-saint-nicolas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:20.967007Z"
+}

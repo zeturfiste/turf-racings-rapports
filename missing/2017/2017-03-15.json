@@ -1,0 +1,88 @@
+{
+  "date": "2017-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-15",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-15/2017-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-15/R1-laval/R1C1-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R1-laval/R1C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R1-laval/R1C8-prix-france-bleu-mayenne-groupe-a.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R4-compiegne/R4C3-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R4-compiegne/R4C6-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R5-amiens/R5C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R5-amiens/R5C3-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R5-amiens/R5C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R5-amiens/R5C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R5-amiens/R5C6-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C1-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C3-prix-des-trois-provinces.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C6-prix-de-la-societe-du-cheval-francais.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C7-prix-www-lamayenne-fr.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C8-prix-france-bleu-mayenne-groupe-a.html",
+      "resultats-et-rapports/2017/03/2017-03-15/R8-marseille-borely/R8C9-prix-france-bleu-mayenne-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R4-compiegne",
+      "R5-amiens",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-www-hippodrome-laval-fr.html",
+        "R1C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R1C3-prix-des-trois-provinces.html",
+        "R1C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+        "R1C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R1C6-prix-de-la-societe-du-cheval-francais.html",
+        "R1C7-prix-www-lamayenne-fr.html",
+        "R1C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R1C9-prix-france-bleu-mayenne-groupe-b.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-www-hippodrome-laval-fr.html",
+        "R4C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R4C3-prix-des-trois-provinces.html",
+        "R4C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+        "R4C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R4C6-prix-de-la-societe-du-cheval-francais.html",
+        "R4C7-prix-www-lamayenne-fr.html",
+        "R4C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R4C9-prix-france-bleu-mayenne-groupe-b.html"
+      ],
+      "R5-amiens": [
+        "R5C1-prix-www-hippodrome-laval-fr.html",
+        "R5C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R5C3-prix-des-trois-provinces.html",
+        "R5C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+        "R5C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R5C6-prix-de-la-societe-du-cheval-francais.html",
+        "R5C7-prix-www-lamayenne-fr.html",
+        "R5C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R5C9-prix-france-bleu-mayenne-groupe-b.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-prix-www-hippodrome-laval-fr.html",
+        "R8C2-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R8C3-prix-des-trois-provinces.html",
+        "R8C4-prix-du-comite-departemental-du-tourisme-de-la-mayenne.html",
+        "R8C5-prix-de-la-federation-anjou-maine-centre-ouest.html",
+        "R8C6-prix-de-la-societe-du-cheval-francais.html",
+        "R8C7-prix-www-lamayenne-fr.html",
+        "R8C8-prix-france-bleu-mayenne-groupe-a.html",
+        "R8C9-prix-france-bleu-mayenne-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:13.123076Z"
+}

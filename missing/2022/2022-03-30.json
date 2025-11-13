@@ -1,0 +1,57 @@
+{
+  "date": "2022-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-30",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-30/2022-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-30/R3-strasbourg/R3C8-prix-bar-pmu-bdlp-salon-de-provence.html",
+      "resultats-et-rapports/2022/03/2022-03-30/R4-reims/R4C4-prix-journal-paris-turf-prix-conseil-regional-paca-le-veinard.html",
+      "resultats-et-rapports/2022/03/2022-03-30/R4-reims/R4C8-prix-bar-pmu-bdlp-salon-de-provence.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-salon-de-provence",
+      "R3-strasbourg",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-salon-de-provence": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-journal-paris-turf-prix-patrouille-de-france-decoopman.html",
+        "R1C3-prix-trophee-paris-turf.html",
+        "R1C4-prix-journal-paris-turf-prix-conseil-regional-paca-le-veinard.html",
+        "R1C5-prix-conseil-municipal-salon-de-provence.html",
+        "R1C6-prix-le-veinard-bmw-salon-de-provence.html",
+        "R1C7-prix-conseil-departemental-bouches-du-rhone.html",
+        "R1C8-prix-bar-pmu-bdlp-salon-de-provence.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-journal-paris-turf-prix-patrouille-de-france-decoopman.html",
+        "R3C3-prix-trophee-paris-turf.html",
+        "R3C4-prix-journal-paris-turf-prix-conseil-regional-paca-le-veinard.html",
+        "R3C5-prix-conseil-municipal-salon-de-provence.html",
+        "R3C6-prix-le-veinard-bmw-salon-de-provence.html",
+        "R3C7-prix-conseil-departemental-bouches-du-rhone.html",
+        "R3C8-prix-bar-pmu-bdlp-salon-de-provence.html"
+      ],
+      "R4-reims": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-journal-paris-turf-prix-patrouille-de-france-decoopman.html",
+        "R4C3-prix-trophee-paris-turf.html",
+        "R4C4-prix-journal-paris-turf-prix-conseil-regional-paca-le-veinard.html",
+        "R4C5-prix-conseil-municipal-salon-de-provence.html",
+        "R4C6-prix-le-veinard-bmw-salon-de-provence.html",
+        "R4C7-prix-conseil-departemental-bouches-du-rhone.html",
+        "R4C8-prix-bar-pmu-bdlp-salon-de-provence.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:19.829598Z"
+}

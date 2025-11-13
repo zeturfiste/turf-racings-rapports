@@ -1,0 +1,59 @@
+{
+  "date": "2021-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-08",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-08/2021-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-08/R1-saint-cloud/R1C1-prix-du-haras-de-jardy.html",
+      "resultats-et-rapports/2021/06/2021-06-08/R1-saint-cloud/R1C2-prix-riverman.html",
+      "resultats-et-rapports/2021/06/2021-06-08/R1-saint-cloud/R1C3-prix-pawneese.html",
+      "resultats-et-rapports/2021/06/2021-06-08/R4-vincennes/R4C1-prix-du-haras-de-jardy.html",
+      "resultats-et-rapports/2021/06/2021-06-08/R4-vincennes/R4C5-prix-aveu.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-toulouse",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-haras-de-jardy.html",
+        "R1C2-prix-riverman.html",
+        "R1C3-prix-pawneese.html",
+        "R1C4-prix-arbele.html",
+        "R1C5-prix-aveu.html",
+        "R1C6-prix-de-carrieres-sous-bois.html",
+        "R1C7-prix-de-la-celle-saint-cloud.html",
+        "R1C8-prix-de-la-coquenne.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-du-haras-de-jardy.html",
+        "R3C2-prix-riverman.html",
+        "R3C3-prix-pawneese.html",
+        "R3C4-prix-arbele.html",
+        "R3C5-prix-aveu.html",
+        "R3C6-prix-de-carrieres-sous-bois.html",
+        "R3C7-prix-de-la-celle-saint-cloud.html",
+        "R3C8-prix-de-la-coquenne.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-haras-de-jardy.html",
+        "R4C2-prix-riverman.html",
+        "R4C3-prix-pawneese.html",
+        "R4C4-prix-arbele.html",
+        "R4C5-prix-aveu.html",
+        "R4C6-prix-de-carrieres-sous-bois.html",
+        "R4C7-prix-de-la-celle-saint-cloud.html",
+        "R4C8-prix-de-la-coquenne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:30.214450Z"
+}

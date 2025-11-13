@@ -1,0 +1,59 @@
+{
+  "date": "2022-11-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-09",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-09/2022-11-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-09/R3-saint-cloud/R3C3-prix-pmu-le-news.html",
+      "resultats-et-rapports/2022/11/2022-11-09/R3-saint-cloud/R3C8-prix-rca-la-radio.html",
+      "resultats-et-rapports/2022/11/2022-11-09/R4-saint-galmier/R4C2-grand-national-du-trot-paristurf.html",
+      "resultats-et-rapports/2022/11/2022-11-09/R4-saint-galmier/R4C3-prix-pmu-le-news.html",
+      "resultats-et-rapports/2022/11/2022-11-09/R4-saint-galmier/R4C4-prix-mg-store-nantes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R3-saint-cloud",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-ouest-habitat-couverture.html",
+        "R1C2-grand-national-du-trot-paristurf.html",
+        "R1C3-prix-pmu-le-news.html",
+        "R1C4-prix-mg-store-nantes.html",
+        "R1C5-prix-moet-et-chandon.html",
+        "R1C6-prix-go-interim.html",
+        "R1C7-prix-reverdy.html",
+        "R1C8-prix-rca-la-radio.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-ouest-habitat-couverture.html",
+        "R3C2-grand-national-du-trot-paristurf.html",
+        "R3C3-prix-pmu-le-news.html",
+        "R3C4-prix-mg-store-nantes.html",
+        "R3C5-prix-moet-et-chandon.html",
+        "R3C6-prix-go-interim.html",
+        "R3C7-prix-reverdy.html",
+        "R3C8-prix-rca-la-radio.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-ouest-habitat-couverture.html",
+        "R4C2-grand-national-du-trot-paristurf.html",
+        "R4C3-prix-pmu-le-news.html",
+        "R4C4-prix-mg-store-nantes.html",
+        "R4C5-prix-moet-et-chandon.html",
+        "R4C6-prix-go-interim.html",
+        "R4C7-prix-reverdy.html",
+        "R4C8-prix-rca-la-radio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:44.878494Z"
+}

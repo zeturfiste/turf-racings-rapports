@@ -1,0 +1,53 @@
+{
+  "date": "2006-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-05",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-05/2006-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-enghien-soisy",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-val-profond.html",
+        "R1C2-prix-de-sandricourt.html",
+        "R1C3-prix-de-la-canardiere.html",
+        "R1C4-prix-de-bonneval.html",
+        "R1C5-prix-du-musee-vivant-du-cheval.html",
+        "R1C6-prix-de-fosses.html",
+        "R1C7-prix-de-pont-sainte-maxence.html",
+        "R1C8-prix-de-la-montee-des-princes.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-val-profond.html",
+        "R2C2-prix-de-sandricourt.html",
+        "R2C3-prix-de-la-canardiere.html",
+        "R2C4-prix-de-bonneval.html",
+        "R2C5-prix-du-musee-vivant-du-cheval.html",
+        "R2C6-prix-de-fosses.html",
+        "R2C7-prix-de-pont-sainte-maxence.html",
+        "R2C8-prix-de-la-montee-des-princes.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-val-profond.html",
+        "R21C2-prix-de-sandricourt.html",
+        "R21C3-prix-de-la-canardiere.html",
+        "R21C4-prix-de-bonneval.html",
+        "R21C5-prix-du-musee-vivant-du-cheval.html",
+        "R21C6-prix-de-fosses.html",
+        "R21C7-prix-de-pont-sainte-maxence.html",
+        "R21C8-prix-de-la-montee-des-princes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:10.699642Z"
+}

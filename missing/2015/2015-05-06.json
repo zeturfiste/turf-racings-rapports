@@ -1,0 +1,65 @@
+{
+  "date": "2015-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-06",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-06/2015-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-06/R1-longchamp/R1C2-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R1-longchamp/R1C4-prix-d-hedouville.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R1-longchamp/R1C6-prix-des-petits-champs.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R2-mauquenchy/R2C1-grand-handicap-de-la-seine.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R2-mauquenchy/R2C2-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R2-mauquenchy/R2C4-prix-d-hedouville.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R2-mauquenchy/R2C8-prix-des-victoires.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R3-reims/R3C2-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R3-reims/R3C3-prix-du-pont-neuf.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R3-reims/R3C4-prix-d-hedouville.html",
+      "resultats-et-rapports/2015/05/2015-05-06/R3-reims/R3C5-prix-du-palais-d-art-moderne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-mauquenchy",
+      "R3-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-grand-handicap-de-la-seine.html",
+        "R1C2-prix-de-la-promenade-plantee.html",
+        "R1C3-prix-du-pont-neuf.html",
+        "R1C4-prix-d-hedouville.html",
+        "R1C5-prix-du-palais-d-art-moderne.html",
+        "R1C6-prix-des-petits-champs.html",
+        "R1C7-prix-des-fortifications.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-grand-handicap-de-la-seine.html",
+        "R2C2-prix-de-la-promenade-plantee.html",
+        "R2C3-prix-du-pont-neuf.html",
+        "R2C4-prix-d-hedouville.html",
+        "R2C5-prix-du-palais-d-art-moderne.html",
+        "R2C6-prix-des-petits-champs.html",
+        "R2C7-prix-des-fortifications.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R3-reims": [
+        "R3C1-grand-handicap-de-la-seine.html",
+        "R3C2-prix-de-la-promenade-plantee.html",
+        "R3C3-prix-du-pont-neuf.html",
+        "R3C4-prix-d-hedouville.html",
+        "R3C5-prix-du-palais-d-art-moderne.html",
+        "R3C6-prix-des-petits-champs.html",
+        "R3C7-prix-des-fortifications.html",
+        "R3C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:46.216572Z"
+}

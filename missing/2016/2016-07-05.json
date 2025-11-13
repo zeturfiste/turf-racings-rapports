@@ -1,0 +1,92 @@
+{
+  "date": "2016-07-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-05",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-05/2016-07-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R1-clairefontaine/R1C10-prix-petit-fute-prix-rideo.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R2-marseille-borely/R2C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R2-marseille-borely/R2C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R2-marseille-borely/R2C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R3-la-teste-de-buch/R3C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R3-la-teste-de-buch/R3C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R3-la-teste-de-buch/R3C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C5-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+      "resultats-et-rapports/2016/07/2016-07-05/R5-cabourg/R5C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-marseille-borely",
+      "R3-la-teste-de-buch",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+        "R1C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+        "R1C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+        "R1C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+        "R1C5-prix-leopold-d-orsetti.html",
+        "R1C6-prix-ville-de-benerville-sur-mer-prix-des-oeillets.html",
+        "R1C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+        "R1C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html",
+        "R1C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+        "R1C10-prix-petit-fute-prix-rideo.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+        "R2C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+        "R2C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+        "R2C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+        "R2C5-prix-leopold-d-orsetti.html",
+        "R2C6-prix-ville-de-benerville-sur-mer-prix-des-oeillets.html",
+        "R2C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+        "R2C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html",
+        "R2C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+        "R2C10-prix-petit-fute-prix-rideo.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+        "R3C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+        "R3C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+        "R3C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+        "R3C5-prix-leopold-d-orsetti.html",
+        "R3C6-prix-ville-de-benerville-sur-mer-prix-des-oeillets.html",
+        "R3C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+        "R3C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html",
+        "R3C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+        "R3C10-prix-petit-fute-prix-rideo.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-les-trouvillaises-prix-du-douet-1er-peloton.html",
+        "R5C2-prix-augusto-chez-laurent-deauville-prix-du-douet-2eme-peloton.html",
+        "R5C3-prix-lady-bug-prix-les-ouvres-1er-peloton.html",
+        "R5C4-prix-une-grenouille-a-la-plage-villerville-prix-les-ouvres-2eme-peloton.html",
+        "R5C5-prix-leopold-d-orsetti.html",
+        "R5C6-prix-ville-de-benerville-sur-mer-prix-des-oeillets.html",
+        "R5C7-prix-les-parasols-de-deauville-prix-du-casino.html",
+        "R5C8-prix-ville-de-blonville-sur-mer-prix-des-forsythias.html",
+        "R5C9-prix-ville-de-saint-gatien-des-bois-prix-de-pennedepie.html",
+        "R5C10-prix-petit-fute-prix-rideo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:58.657543Z"
+}

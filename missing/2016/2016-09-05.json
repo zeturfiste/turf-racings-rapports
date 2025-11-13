@@ -1,0 +1,86 @@
+{
+  "date": "2016-09-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/09/2016-09-05",
+    "date_html": "resultats-et-rapports/2016/09/2016-09-05/2016-09-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/09/2016-09-05/R1-craon/R1C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R1-craon/R1C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R1-craon/R1C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R2-feurs/R2C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C5-prix-groupama-prix-fineau.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R3-caen/R3C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R5-hyeres/R5C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R5-hyeres/R5C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R5-hyeres/R5C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R5-hyeres/R5C5-prix-groupama-prix-fineau.html",
+      "resultats-et-rapports/2016/09/2016-09-05/R5-hyeres/R5C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-feurs",
+      "R3-caen",
+      "R5-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+        "R1C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+        "R1C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+        "R1C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+        "R1C5-prix-groupama-prix-fineau.html",
+        "R1C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+        "R1C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+        "R1C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+        "R2C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+        "R2C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+        "R2C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+        "R2C5-prix-groupama-prix-fineau.html",
+        "R2C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+        "R2C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+        "R2C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+        "R3C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+        "R3C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+        "R3C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+        "R3C5-prix-groupama-prix-fineau.html",
+        "R3C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+        "R3C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+        "R3C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-de-la-ville-de-craon-handicap-de-craon.html",
+        "R5C2-prix-un-enfant-par-la-main-prix-richard-de-gennes.html",
+        "R5C3-prix-bourny-automobiles-prix-de-la-sayette.html",
+        "R5C4-grand-prix-de-la-ville-de-craon-mayenne.html",
+        "R5C5-prix-groupama-prix-fineau.html",
+        "R5C6-prix-groupe-suez-craon-prix-marquise-d-andigne-prix-equidia-live.html",
+        "R5C7-prix-de-beauchene-prix-j-m-boulay-son-video.html",
+        "R5C8-prix-sirev-prix-de-champagne-prix-france-bleu-mayenne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:19.164679Z"
+}

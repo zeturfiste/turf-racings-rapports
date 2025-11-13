@@ -1,0 +1,42 @@
+{
+  "date": "2006-05-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-09",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-09/2006-05-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-caius.html",
+        "R1C2-prix-polly-girl.html",
+        "R1C3-prix-de-louviers.html",
+        "R1C4-prix-de-tigery.html",
+        "R1C5-prix-de-corneville.html",
+        "R1C6-prix-balbo.html",
+        "R1C7-prix-de-breval.html",
+        "R1C8-prix-de-choisy.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-caius.html",
+        "R2C2-prix-polly-girl.html",
+        "R2C3-prix-de-louviers.html",
+        "R2C4-prix-de-tigery.html",
+        "R2C5-prix-de-corneville.html",
+        "R2C6-prix-balbo.html",
+        "R2C7-prix-de-breval.html",
+        "R2C8-prix-de-choisy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:30.733250Z"
+}

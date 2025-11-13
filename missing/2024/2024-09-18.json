@@ -1,0 +1,87 @@
+{
+  "date": "2024-09-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-18",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-18/2024-09-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-18/R1-lyon-parilly/R1C2-gsf-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R1-lyon-parilly/R1C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R1-lyon-parilly/R1C6-prix-d-enghien.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R1-lyon-parilly/R1C8-prix-de-vincennes.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R3-caen/R3C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R3-caen/R3C2-gsf-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R3-caen/R3C3-mfr-du-forez-prix-de-toulouse.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R3-caen/R3C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R3-caen/R3C6-prix-d-enghien.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R4-toulouse/R4C2-gsf-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R4-toulouse/R4C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R4-toulouse/R4C6-prix-d-enghien.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R4-toulouse/R4C7-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R4-toulouse/R4C8-prix-de-vincennes.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C2-gsf-prix-du-croise-laroche.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C3-mfr-du-forez-prix-de-toulouse.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C4-prix-de-beaumont-de-lomagne.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C6-prix-d-enghien.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C7-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2024/09/2024-09-18/R8-dieppe/R8C8-prix-de-vincennes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R3-caen",
+      "R4-toulouse",
+      "R8-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+        "R1C2-gsf-prix-du-croise-laroche.html",
+        "R1C3-mfr-du-forez-prix-de-toulouse.html",
+        "R1C4-prix-de-beaumont-de-lomagne.html",
+        "R1C5-prix-de-grosbois.html",
+        "R1C6-prix-d-enghien.html",
+        "R1C7-prix-de-mauquenchy.html",
+        "R1C8-prix-de-vincennes.html"
+      ],
+      "R3-caen": [
+        "R3C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+        "R3C2-gsf-prix-du-croise-laroche.html",
+        "R3C3-mfr-du-forez-prix-de-toulouse.html",
+        "R3C4-prix-de-beaumont-de-lomagne.html",
+        "R3C5-prix-de-grosbois.html",
+        "R3C6-prix-d-enghien.html",
+        "R3C7-prix-de-mauquenchy.html",
+        "R3C8-prix-de-vincennes.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+        "R4C2-gsf-prix-du-croise-laroche.html",
+        "R4C3-mfr-du-forez-prix-de-toulouse.html",
+        "R4C4-prix-de-beaumont-de-lomagne.html",
+        "R4C5-prix-de-grosbois.html",
+        "R4C6-prix-d-enghien.html",
+        "R4C7-prix-de-mauquenchy.html",
+        "R4C8-prix-de-vincennes.html"
+      ],
+      "R8-dieppe": [
+        "R8C1-grand-prix-du-centre-est-gontran-de-noblet.html",
+        "R8C2-gsf-prix-du-croise-laroche.html",
+        "R8C3-mfr-du-forez-prix-de-toulouse.html",
+        "R8C4-prix-de-beaumont-de-lomagne.html",
+        "R8C5-prix-de-grosbois.html",
+        "R8C6-prix-d-enghien.html",
+        "R8C7-prix-de-mauquenchy.html",
+        "R8C8-prix-de-vincennes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:57.215591Z"
+}

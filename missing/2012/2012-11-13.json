@@ -1,0 +1,94 @@
+{
+  "date": "2012-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-13",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-13/2012-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C1-prix-kerautem.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C3-prix-claude-munet-grand-prix-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C4-prix-wladimir-hall.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C5-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C7-prix-georges-cadiou.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R1-angers/R1C8-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C1-prix-kerautem.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C3-prix-claude-munet-grand-prix-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C4-prix-wladimir-hall.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C5-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C7-prix-georges-cadiou.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R2-lyon-parilly/R2C8-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C1-prix-kerautem.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C3-prix-claude-munet-grand-prix-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C4-prix-wladimir-hall.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C5-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R3-marseille-vivaux/R3C8-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C2-grand-handicap-d-ecouflant.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C4-prix-wladimir-hall.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C5-grande-course-de-haies-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C7-prix-georges-cadiou.html",
+      "resultats-et-rapports/2012/11/2012-11-13/R4-vincennes/R4C8-prix-des-jardins-du-mail.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-lyon-parilly",
+      "R3-marseille-vivaux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-kerautem.html",
+        "R1C2-grand-handicap-d-ecouflant.html",
+        "R1C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R1C4-prix-wladimir-hall.html",
+        "R1C5-grande-course-de-haies-d-angers.html",
+        "R1C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+        "R1C7-prix-georges-cadiou.html",
+        "R1C8-prix-des-jardins-du-mail.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-kerautem.html",
+        "R2C2-grand-handicap-d-ecouflant.html",
+        "R2C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R2C4-prix-wladimir-hall.html",
+        "R2C5-grande-course-de-haies-d-angers.html",
+        "R2C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+        "R2C7-prix-georges-cadiou.html",
+        "R2C8-prix-des-jardins-du-mail.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-kerautem.html",
+        "R3C2-grand-handicap-d-ecouflant.html",
+        "R3C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R3C4-prix-wladimir-hall.html",
+        "R3C5-grande-course-de-haies-d-angers.html",
+        "R3C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+        "R3C7-prix-georges-cadiou.html",
+        "R3C8-prix-des-jardins-du-mail.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-kerautem.html",
+        "R4C2-grand-handicap-d-ecouflant.html",
+        "R4C3-prix-claude-munet-grand-prix-d-angers.html",
+        "R4C4-prix-wladimir-hall.html",
+        "R4C5-grande-course-de-haies-d-angers.html",
+        "R4C6-prix-domaine-des-rochelles-prix-david-d-angers.html",
+        "R4C7-prix-georges-cadiou.html",
+        "R4C8-prix-des-jardins-du-mail.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:12.440760Z"
+}

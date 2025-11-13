@@ -1,0 +1,75 @@
+{
+  "date": "2005-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-12",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-12/2005-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R3-vichy",
+      "R4-auch",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-aurillac.html",
+        "R1C2-prix-de-bastia.html",
+        "R1C3-prix-de-cyclamens.html",
+        "R1C4-prix-de-dormans.html",
+        "R1C5-prix-de-beauvais.html",
+        "R1C6-prix-de-vimoutiers.html",
+        "R1C7-prix-camille-lepecq.html",
+        "R1C8-prix-de-chaumont.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-d-aurillac.html",
+        "R2C2-prix-de-bastia.html",
+        "R2C3-prix-de-cyclamens.html",
+        "R2C4-prix-de-dormans.html",
+        "R2C5-prix-de-beauvais.html",
+        "R2C6-prix-de-vimoutiers.html",
+        "R2C7-prix-camille-lepecq.html",
+        "R2C8-prix-de-chaumont.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-d-aurillac.html",
+        "R3C2-prix-de-bastia.html",
+        "R3C3-prix-de-cyclamens.html",
+        "R3C4-prix-de-dormans.html",
+        "R3C5-prix-de-beauvais.html",
+        "R3C6-prix-de-vimoutiers.html",
+        "R3C7-prix-camille-lepecq.html",
+        "R3C8-prix-de-chaumont.html"
+      ],
+      "R4-auch": [
+        "R4C1-prix-d-aurillac.html",
+        "R4C2-prix-de-bastia.html",
+        "R4C3-prix-de-cyclamens.html",
+        "R4C4-prix-de-dormans.html",
+        "R4C5-prix-de-beauvais.html",
+        "R4C6-prix-de-vimoutiers.html",
+        "R4C7-prix-camille-lepecq.html",
+        "R4C8-prix-de-chaumont.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-d-aurillac.html",
+        "R5C2-prix-de-bastia.html",
+        "R5C3-prix-de-cyclamens.html",
+        "R5C4-prix-de-dormans.html",
+        "R5C5-prix-de-beauvais.html",
+        "R5C6-prix-de-vimoutiers.html",
+        "R5C7-prix-camille-lepecq.html",
+        "R5C8-prix-de-chaumont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:50.222687Z"
+}

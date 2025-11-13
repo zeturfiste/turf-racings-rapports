@@ -1,0 +1,93 @@
+{
+  "date": "2023-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-30",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-30/2023-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C1-prix-d-eventard.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C2-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C3-prix-francis-chene-asselco.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C4-prix-henri-chevalier-du-fau.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C5-handicap-d-angers-loire-metropole.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C6-prix-david-d-angers.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C7-prix-de-puycharic.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R1-angers/R1C8-prix-des-angevins.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R2-compiegne/R2C2-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R2-compiegne/R2C3-prix-francis-chene-asselco.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R2-compiegne/R2C4-prix-henri-chevalier-du-fau.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R2-compiegne/R2C5-handicap-d-angers-loire-metropole.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R2-compiegne/R2C8-prix-des-angevins.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C1-prix-d-eventard.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C2-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C3-prix-francis-chene-asselco.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C4-prix-henri-chevalier-du-fau.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C6-prix-david-d-angers.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C7-prix-de-puycharic.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R3-vichy/R3C8-prix-des-angevins.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C1-prix-d-eventard.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C2-prix-des-jardins-du-mail.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C3-prix-francis-chene-asselco.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C4-prix-henri-chevalier-du-fau.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C5-handicap-d-angers-loire-metropole.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C6-prix-david-d-angers.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C7-prix-de-puycharic.html",
+      "resultats-et-rapports/2023/05/2023-05-30/R4-vincennes/R4C8-prix-des-angevins.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R2-compiegne",
+      "R3-vichy",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-d-eventard.html",
+        "R1C2-prix-des-jardins-du-mail.html",
+        "R1C3-prix-francis-chene-asselco.html",
+        "R1C4-prix-henri-chevalier-du-fau.html",
+        "R1C5-handicap-d-angers-loire-metropole.html",
+        "R1C6-prix-david-d-angers.html",
+        "R1C7-prix-de-puycharic.html",
+        "R1C8-prix-des-angevins.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-d-eventard.html",
+        "R2C2-prix-des-jardins-du-mail.html",
+        "R2C3-prix-francis-chene-asselco.html",
+        "R2C4-prix-henri-chevalier-du-fau.html",
+        "R2C5-handicap-d-angers-loire-metropole.html",
+        "R2C6-prix-david-d-angers.html",
+        "R2C7-prix-de-puycharic.html",
+        "R2C8-prix-des-angevins.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-d-eventard.html",
+        "R3C2-prix-des-jardins-du-mail.html",
+        "R3C3-prix-francis-chene-asselco.html",
+        "R3C4-prix-henri-chevalier-du-fau.html",
+        "R3C5-handicap-d-angers-loire-metropole.html",
+        "R3C6-prix-david-d-angers.html",
+        "R3C7-prix-de-puycharic.html",
+        "R3C8-prix-des-angevins.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-d-eventard.html",
+        "R4C2-prix-des-jardins-du-mail.html",
+        "R4C3-prix-francis-chene-asselco.html",
+        "R4C4-prix-henri-chevalier-du-fau.html",
+        "R4C5-handicap-d-angers-loire-metropole.html",
+        "R4C6-prix-david-d-angers.html",
+        "R4C7-prix-de-puycharic.html",
+        "R4C8-prix-des-angevins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:56.490330Z"
+}

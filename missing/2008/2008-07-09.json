@@ -1,0 +1,92 @@
+{
+  "date": "2008-07-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/07/2008-07-09",
+    "date_html": "resultats-et-rapports/2008/07/2008-07-09/2008-07-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/07/2008-07-09/R3-cagnes-sur-mer/R3C3-prix-jean-colins.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R3-cagnes-sur-mer/R3C7-prix-christian-allilaire.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R3-cagnes-sur-mer/R3C8-prix-leon-herbert.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C1-prix-des-sables-d-olonne.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C4-prix-de-la-chaume.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C5-prix-lexus-toys-motors.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C6-prix-henri-careil.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C7-prix-christian-allilaire.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R31-zerace/R31C8-prix-leon-herbert.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C1-prix-des-sables-d-olonne.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C2-prix-arlette-iii.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C3-prix-jean-colins.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C5-prix-lexus-toys-motors.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C6-prix-henri-careil.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C7-prix-christian-allilaire.html",
+      "resultats-et-rapports/2008/07/2008-07-09/R70-cholet-chateauroux/R70C8-prix-leon-herbert.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R2-deauville",
+      "R3-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-cholet-chateauroux"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-des-sables-d-olonne.html",
+        "R1C2-prix-arlette-iii.html",
+        "R1C3-prix-jean-colins.html",
+        "R1C4-prix-de-la-chaume.html",
+        "R1C5-prix-lexus-toys-motors.html",
+        "R1C6-prix-henri-careil.html",
+        "R1C7-prix-christian-allilaire.html",
+        "R1C8-prix-leon-herbert.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-des-sables-d-olonne.html",
+        "R2C2-prix-arlette-iii.html",
+        "R2C3-prix-jean-colins.html",
+        "R2C4-prix-de-la-chaume.html",
+        "R2C5-prix-lexus-toys-motors.html",
+        "R2C6-prix-henri-careil.html",
+        "R2C7-prix-christian-allilaire.html",
+        "R2C8-prix-leon-herbert.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-des-sables-d-olonne.html",
+        "R3C2-prix-arlette-iii.html",
+        "R3C3-prix-jean-colins.html",
+        "R3C4-prix-de-la-chaume.html",
+        "R3C5-prix-lexus-toys-motors.html",
+        "R3C6-prix-henri-careil.html",
+        "R3C7-prix-christian-allilaire.html",
+        "R3C8-prix-leon-herbert.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-sables-d-olonne.html",
+        "R31C2-prix-arlette-iii.html",
+        "R31C3-prix-jean-colins.html",
+        "R31C4-prix-de-la-chaume.html",
+        "R31C5-prix-lexus-toys-motors.html",
+        "R31C6-prix-henri-careil.html",
+        "R31C7-prix-christian-allilaire.html",
+        "R31C8-prix-leon-herbert.html"
+      ],
+      "R70-cholet-chateauroux": [
+        "R70C1-prix-des-sables-d-olonne.html",
+        "R70C2-prix-arlette-iii.html",
+        "R70C3-prix-jean-colins.html",
+        "R70C4-prix-de-la-chaume.html",
+        "R70C5-prix-lexus-toys-motors.html",
+        "R70C6-prix-henri-careil.html",
+        "R70C7-prix-christian-allilaire.html",
+        "R70C8-prix-leon-herbert.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:29:12.872895Z"
+}

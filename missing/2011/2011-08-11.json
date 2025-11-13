@@ -1,0 +1,97 @@
+{
+  "date": "2011-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/08/2011-08-11",
+    "date_html": "resultats-et-rapports/2011/08/2011-08-11/2011-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/08/2011-08-11/R1-enghien-soisy/R1C1-prix-de-la-concorde.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R1-enghien-soisy/R1C2-prix-de-la-porte-des-lilas.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R1-enghien-soisy/R1C3-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R1-enghien-soisy/R1C6-prix-du-faubourg-saint-honore.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R1-enghien-soisy/R1C7-prix-de-ruffec.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R3-clairefontaine/R3C1-prix-de-la-concorde.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R3-clairefontaine/R3C2-prix-de-la-porte-des-lilas.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R3-clairefontaine/R3C3-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R3-clairefontaine/R3C5-prix-de-ribemont.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R3-clairefontaine/R3C7-prix-de-ruffec.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R4-la-teste-de-buch/R4C4-prix-de-londres.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R4-la-teste-de-buch/R4C6-prix-du-faubourg-saint-honore.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R4-la-teste-de-buch/R4C7-prix-de-ruffec.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C1-prix-de-la-concorde.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C2-prix-de-la-porte-des-lilas.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C3-prix-de-la-porte-d-italie.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C4-prix-de-londres.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C5-prix-de-ribemont.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C6-prix-du-faubourg-saint-honore.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C7-prix-de-ruffec.html",
+      "resultats-et-rapports/2011/08/2011-08-11/R5-carentan/R5C8-prix-du-ballon-d-alsace.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-feurs",
+      "R3-clairefontaine",
+      "R4-la-teste-de-buch",
+      "R5-carentan"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-concorde.html",
+        "R1C2-prix-de-la-porte-des-lilas.html",
+        "R1C3-prix-de-la-porte-d-italie.html",
+        "R1C4-prix-de-londres.html",
+        "R1C5-prix-de-ribemont.html",
+        "R1C6-prix-du-faubourg-saint-honore.html",
+        "R1C7-prix-de-ruffec.html",
+        "R1C8-prix-du-ballon-d-alsace.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-de-la-concorde.html",
+        "R2C2-prix-de-la-porte-des-lilas.html",
+        "R2C3-prix-de-la-porte-d-italie.html",
+        "R2C4-prix-de-londres.html",
+        "R2C5-prix-de-ribemont.html",
+        "R2C6-prix-du-faubourg-saint-honore.html",
+        "R2C7-prix-de-ruffec.html",
+        "R2C8-prix-du-ballon-d-alsace.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-la-concorde.html",
+        "R3C2-prix-de-la-porte-des-lilas.html",
+        "R3C3-prix-de-la-porte-d-italie.html",
+        "R3C4-prix-de-londres.html",
+        "R3C5-prix-de-ribemont.html",
+        "R3C6-prix-du-faubourg-saint-honore.html",
+        "R3C7-prix-de-ruffec.html",
+        "R3C8-prix-du-ballon-d-alsace.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-de-la-concorde.html",
+        "R4C2-prix-de-la-porte-des-lilas.html",
+        "R4C3-prix-de-la-porte-d-italie.html",
+        "R4C4-prix-de-londres.html",
+        "R4C5-prix-de-ribemont.html",
+        "R4C6-prix-du-faubourg-saint-honore.html",
+        "R4C7-prix-de-ruffec.html",
+        "R4C8-prix-du-ballon-d-alsace.html"
+      ],
+      "R5-carentan": [
+        "R5C1-prix-de-la-concorde.html",
+        "R5C2-prix-de-la-porte-des-lilas.html",
+        "R5C3-prix-de-la-porte-d-italie.html",
+        "R5C4-prix-de-londres.html",
+        "R5C5-prix-de-ribemont.html",
+        "R5C6-prix-du-faubourg-saint-honore.html",
+        "R5C7-prix-de-ruffec.html",
+        "R5C8-prix-du-ballon-d-alsace.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:59.701513Z"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2022-04-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-07",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-07/2022-04-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-07/R1-deauville/R1C1-prix-de-l-operation-overlord.html",
+      "resultats-et-rapports/2022/04/2022-04-07/R3-lyon-parilly/R3C2-prix-djebel.html",
+      "resultats-et-rapports/2022/04/2022-04-07/R4-mauquenchy/R4C2-prix-djebel.html",
+      "resultats-et-rapports/2022/04/2022-04-07/R4-mauquenchy/R4C3-prix-imprudence.html",
+      "resultats-et-rapports/2022/04/2022-04-07/R4-mauquenchy/R4C5-prix-de-gruchy.html",
+      "resultats-et-rapports/2022/04/2022-04-07/R4-mauquenchy/R4C6-prix-de-saint-gatien.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-lyon-parilly",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-l-operation-overlord.html",
+        "R1C2-prix-djebel.html",
+        "R1C3-prix-imprudence.html",
+        "R1C4-prix-de-saint-lo.html",
+        "R1C5-prix-de-gruchy.html",
+        "R1C6-prix-de-saint-gatien.html",
+        "R1C7-prix-de-l-operation-fortitude.html",
+        "R1C8-prix-de-l-operation-neptune.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-l-operation-overlord.html",
+        "R3C2-prix-djebel.html",
+        "R3C3-prix-imprudence.html",
+        "R3C4-prix-de-saint-lo.html",
+        "R3C5-prix-de-gruchy.html",
+        "R3C6-prix-de-saint-gatien.html",
+        "R3C7-prix-de-l-operation-fortitude.html",
+        "R3C8-prix-de-l-operation-neptune.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-de-l-operation-overlord.html",
+        "R4C2-prix-djebel.html",
+        "R4C3-prix-imprudence.html",
+        "R4C4-prix-de-saint-lo.html",
+        "R4C5-prix-de-gruchy.html",
+        "R4C6-prix-de-saint-gatien.html",
+        "R4C7-prix-de-l-operation-fortitude.html",
+        "R4C8-prix-de-l-operation-neptune.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:22.717486Z"
+}

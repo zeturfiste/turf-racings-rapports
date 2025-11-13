@@ -1,0 +1,86 @@
+{
+  "date": "2014-07-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-01",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-01/2014-07-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-01/R1-clairefontaine/R1C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R1-clairefontaine/R1C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R1-clairefontaine/R1C4-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R1-clairefontaine/R1C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C4-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C6-prix-journal-d-elbeuf-prix-lianga.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R2-marseille-borely/R2C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R3-la-teste-de-buch/R3C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R3-la-teste-de-buch/R3C4-prix-leopold-d-orsetti.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R3-la-teste-de-buch/R3C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R3-la-teste-de-buch/R3C6-prix-journal-d-elbeuf-prix-lianga.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R3-la-teste-de-buch/R3C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C6-prix-journal-d-elbeuf-prix-lianga.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C7-prix-les-nouvelles-de-falaise-prix-du-chemin-du-marais.html",
+      "resultats-et-rapports/2014/07/2014-07-01/R4-cabourg/R4C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-marseille-borely",
+      "R3-la-teste-de-buch",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+        "R1C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+        "R1C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+        "R1C4-prix-leopold-d-orsetti.html",
+        "R1C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+        "R1C6-prix-journal-d-elbeuf-prix-lianga.html",
+        "R1C7-prix-les-nouvelles-de-falaise-prix-du-chemin-du-marais.html",
+        "R1C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+        "R2C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+        "R2C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+        "R2C4-prix-leopold-d-orsetti.html",
+        "R2C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+        "R2C6-prix-journal-d-elbeuf-prix-lianga.html",
+        "R2C7-prix-les-nouvelles-de-falaise-prix-du-chemin-du-marais.html",
+        "R2C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+        "R3C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+        "R3C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+        "R3C4-prix-leopold-d-orsetti.html",
+        "R3C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+        "R3C6-prix-journal-d-elbeuf-prix-lianga.html",
+        "R3C7-prix-les-nouvelles-de-falaise-prix-du-chemin-du-marais.html",
+        "R3C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-la-renaissance-du-bessin-prix-des-oeillets.html",
+        "R4C2-prix-journal-le-pays-d-auge-prix-du-casino.html",
+        "R4C3-prix-liberte-de-normandie-prix-de-pennedepie.html",
+        "R4C4-prix-leopold-d-orsetti.html",
+        "R4C5-prix-l-eveil-de-pont-audemer-prix-perrault.html",
+        "R4C6-prix-journal-d-elbeuf-prix-lianga.html",
+        "R4C7-prix-les-nouvelles-de-falaise-prix-du-chemin-du-marais.html",
+        "R4C8-prix-l-eveil-de-lisieux-prix-du-chemin-de-l-hippodrome.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:08.994304Z"
+}

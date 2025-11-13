@@ -1,0 +1,121 @@
+{
+  "date": "2017-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-19",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-19/2017-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C2-prix-bellino-ii.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C4-prix-d-hauterive.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C6-prix-roquepine-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R1-vichy/R1C8-prix-de-gannat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R3-clairefontaine/R3C6-prix-roquepine-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R3-clairefontaine/R3C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R3-clairefontaine/R3C8-prix-de-gannat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C3-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C4-prix-d-hauterive.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C6-prix-roquepine-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R4-salon-de-provence/R4C8-prix-de-gannat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R5-caen/R5C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R5-caen/R5C2-prix-bellino-ii.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R5-caen/R5C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R5-caen/R5C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R5-caen/R5C8-prix-de-gannat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C2-prix-bellino-ii.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C3-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C4-prix-d-hauterive.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C6-prix-roquepine-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R6-craon/R6C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C2-prix-bellino-ii.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C3-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C4-prix-d-hauterive.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C6-prix-roquepine-groupe-a.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2017/06/2017-06-19/R7-le-croise-laroche/R7C8-prix-de-gannat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-clairefontaine",
+      "R4-salon-de-provence",
+      "R5-caen",
+      "R6-craon",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-cognat-lyonne.html",
+        "R1C2-prix-bellino-ii.html",
+        "R1C3-prix-des-parcs-d-allier.html",
+        "R1C4-prix-d-hauterive.html",
+        "R1C5-prix-de-gerzat.html",
+        "R1C6-prix-roquepine-groupe-a.html",
+        "R1C7-prix-roquepine-groupe-b.html",
+        "R1C8-prix-de-gannat.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-cognat-lyonne.html",
+        "R3C2-prix-bellino-ii.html",
+        "R3C3-prix-des-parcs-d-allier.html",
+        "R3C4-prix-d-hauterive.html",
+        "R3C5-prix-de-gerzat.html",
+        "R3C6-prix-roquepine-groupe-a.html",
+        "R3C7-prix-roquepine-groupe-b.html",
+        "R3C8-prix-de-gannat.html"
+      ],
+      "R4-salon-de-provence": [
+        "R4C1-prix-de-cognat-lyonne.html",
+        "R4C2-prix-bellino-ii.html",
+        "R4C3-prix-des-parcs-d-allier.html",
+        "R4C4-prix-d-hauterive.html",
+        "R4C5-prix-de-gerzat.html",
+        "R4C6-prix-roquepine-groupe-a.html",
+        "R4C7-prix-roquepine-groupe-b.html",
+        "R4C8-prix-de-gannat.html"
+      ],
+      "R5-caen": [
+        "R5C1-prix-de-cognat-lyonne.html",
+        "R5C2-prix-bellino-ii.html",
+        "R5C3-prix-des-parcs-d-allier.html",
+        "R5C4-prix-d-hauterive.html",
+        "R5C5-prix-de-gerzat.html",
+        "R5C6-prix-roquepine-groupe-a.html",
+        "R5C7-prix-roquepine-groupe-b.html",
+        "R5C8-prix-de-gannat.html"
+      ],
+      "R6-craon": [
+        "R6C1-prix-de-cognat-lyonne.html",
+        "R6C2-prix-bellino-ii.html",
+        "R6C3-prix-des-parcs-d-allier.html",
+        "R6C4-prix-d-hauterive.html",
+        "R6C5-prix-de-gerzat.html",
+        "R6C6-prix-roquepine-groupe-a.html",
+        "R6C7-prix-roquepine-groupe-b.html",
+        "R6C8-prix-de-gannat.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-de-cognat-lyonne.html",
+        "R7C2-prix-bellino-ii.html",
+        "R7C3-prix-des-parcs-d-allier.html",
+        "R7C4-prix-d-hauterive.html",
+        "R7C5-prix-de-gerzat.html",
+        "R7C6-prix-roquepine-groupe-a.html",
+        "R7C7-prix-roquepine-groupe-b.html",
+        "R7C8-prix-de-gannat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:44.164748Z"
+}

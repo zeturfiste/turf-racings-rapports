@@ -1,0 +1,48 @@
+{
+  "date": "2013-02-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/02/2013-02-16",
+    "date_html": "resultats-et-rapports/2013/02/2013-02-16/2013-02-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/02/2013-02-16/R1-cagnes-sur-mer/R1C2-prix-des-remparts.html",
+      "resultats-et-rapports/2013/02/2013-02-16/R1-cagnes-sur-mer/R1C7-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2013/02/2013-02-16/R2-agen/R2C2-prix-des-remparts.html",
+      "resultats-et-rapports/2013/02/2013-02-16/R2-agen/R2C3-prix-du-fort-carre.html",
+      "resultats-et-rapports/2013/02/2013-02-16/R2-agen/R2C6-prix-marriott-cote-d-azur.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-semboules.html",
+        "R1C2-prix-des-remparts.html",
+        "R1C3-prix-du-fort-carre.html",
+        "R1C4-prix-hotel-jw-marriott-cannes.html",
+        "R1C5-prix-d-antibes.html",
+        "R1C6-prix-marriott-cote-d-azur.html",
+        "R1C7-prix-du-fort-vauban.html",
+        "R1C8-prix-de-la-fontonne.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-des-semboules.html",
+        "R2C2-prix-des-remparts.html",
+        "R2C3-prix-du-fort-carre.html",
+        "R2C4-prix-hotel-jw-marriott-cannes.html",
+        "R2C5-prix-d-antibes.html",
+        "R2C6-prix-marriott-cote-d-azur.html",
+        "R2C7-prix-du-fort-vauban.html",
+        "R2C8-prix-de-la-fontonne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:35.183717Z"
+}

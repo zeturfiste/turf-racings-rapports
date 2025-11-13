@@ -1,0 +1,71 @@
+{
+  "date": "2021-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-19",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-19/2021-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-19/R1-vincennes/R1C1-prix-algorah.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R1-vincennes/R1C4-prix-phact.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R1-vincennes/R1C5-prix-timocharis.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R1-vincennes/R1C6-prix-bellona.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R1-vincennes/R1C7-prix-antiope.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C1-prix-algorah.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C2-prix-euterpe.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C3-prix-prymno.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C4-prix-phact.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C5-prix-timocharis.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C6-prix-bellona.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C7-prix-antiope.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R3-deauville/R3C8-prix-aspasia.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R4-cabourg/R4C3-prix-prymno.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R4-cabourg/R4C4-prix-phact.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R4-cabourg/R4C5-prix-timocharis.html",
+      "resultats-et-rapports/2021/10/2021-10-19/R4-cabourg/R4C6-prix-bellona.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-algorah.html",
+        "R1C2-prix-euterpe.html",
+        "R1C3-prix-prymno.html",
+        "R1C4-prix-phact.html",
+        "R1C5-prix-timocharis.html",
+        "R1C6-prix-bellona.html",
+        "R1C7-prix-antiope.html",
+        "R1C8-prix-aspasia.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-algorah.html",
+        "R3C2-prix-euterpe.html",
+        "R3C3-prix-prymno.html",
+        "R3C4-prix-phact.html",
+        "R3C5-prix-timocharis.html",
+        "R3C6-prix-bellona.html",
+        "R3C7-prix-antiope.html",
+        "R3C8-prix-aspasia.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-algorah.html",
+        "R4C2-prix-euterpe.html",
+        "R4C3-prix-prymno.html",
+        "R4C4-prix-phact.html",
+        "R4C5-prix-timocharis.html",
+        "R4C6-prix-bellona.html",
+        "R4C7-prix-antiope.html",
+        "R4C8-prix-aspasia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:23.444078Z"
+}

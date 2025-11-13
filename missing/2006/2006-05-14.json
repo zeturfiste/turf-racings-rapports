@@ -1,0 +1,97 @@
+{
+  "date": "2006-05-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-14",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-14/2006-05-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/05/2006-05-14/R1-longchamp/R1C3-prix-de-saint-georges.html",
+      "resultats-et-rapports/2006/05/2006-05-14/R5-angers/R5C1-prix-du-pavillon.html",
+      "resultats-et-rapports/2006/05/2006-05-14/R6-lyon-parilly/R6C6-gainsborough-poule-d-essai-des-pouliches.html",
+      "resultats-et-rapports/2006/05/2006-05-14/R6-lyon-parilly/R6C7-prix-de-la-seine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-chateaubriant",
+      "R3-bordeaux-le-bouscat",
+      "R4-le-mont-saint-michel",
+      "R5-angers",
+      "R6-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pavillon.html",
+        "R1C2-prix-de-la-comedie-francaise.html",
+        "R1C3-prix-de-saint-georges.html",
+        "R1C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R1C5-premio-presidente-della-repubblica-rome.html",
+        "R1C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R1C7-prix-de-la-seine.html",
+        "R1C8-prix-de-pontoise.html",
+        "R1C9-prix-des-bouffes-parisiens.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-du-pavillon.html",
+        "R2C2-prix-de-la-comedie-francaise.html",
+        "R2C3-prix-de-saint-georges.html",
+        "R2C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R2C5-premio-presidente-della-repubblica-rome.html",
+        "R2C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R2C7-prix-de-la-seine.html",
+        "R2C8-prix-de-pontoise.html",
+        "R2C9-prix-des-bouffes-parisiens.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-du-pavillon.html",
+        "R3C2-prix-de-la-comedie-francaise.html",
+        "R3C3-prix-de-saint-georges.html",
+        "R3C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R3C5-premio-presidente-della-repubblica-rome.html",
+        "R3C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R3C7-prix-de-la-seine.html",
+        "R3C8-prix-de-pontoise.html",
+        "R3C9-prix-des-bouffes-parisiens.html"
+      ],
+      "R4-le-mont-saint-michel": [
+        "R4C1-prix-du-pavillon.html",
+        "R4C2-prix-de-la-comedie-francaise.html",
+        "R4C3-prix-de-saint-georges.html",
+        "R4C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R4C5-premio-presidente-della-repubblica-rome.html",
+        "R4C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R4C7-prix-de-la-seine.html",
+        "R4C8-prix-de-pontoise.html",
+        "R4C9-prix-des-bouffes-parisiens.html"
+      ],
+      "R5-angers": [
+        "R5C1-prix-du-pavillon.html",
+        "R5C2-prix-de-la-comedie-francaise.html",
+        "R5C3-prix-de-saint-georges.html",
+        "R5C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R5C5-premio-presidente-della-repubblica-rome.html",
+        "R5C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R5C7-prix-de-la-seine.html",
+        "R5C8-prix-de-pontoise.html",
+        "R5C9-prix-des-bouffes-parisiens.html"
+      ],
+      "R6-lyon-parilly": [
+        "R6C1-prix-du-pavillon.html",
+        "R6C2-prix-de-la-comedie-francaise.html",
+        "R6C3-prix-de-saint-georges.html",
+        "R6C4-gainsborough-poule-d-essai-des-poulains.html",
+        "R6C5-premio-presidente-della-repubblica-rome.html",
+        "R6C6-gainsborough-poule-d-essai-des-pouliches.html",
+        "R6C7-prix-de-la-seine.html",
+        "R6C8-prix-de-pontoise.html",
+        "R6C9-prix-des-bouffes-parisiens.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:31.585099Z"
+}

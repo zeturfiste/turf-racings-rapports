@@ -1,0 +1,62 @@
+{
+  "date": "2025-09-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-30",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-30/2025-09-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-30/R1-chantilly/R1C8-prix-du-bois-laris.html",
+      "resultats-et-rapports/2025/09/2025-09-30/R4-vincennes/R4C1-prix-de-la-galerie-des-batailles.html",
+      "resultats-et-rapports/2025/09/2025-09-30/R4-vincennes/R4C2-prix-du-jardin-anglais.html",
+      "resultats-et-rapports/2025/09/2025-09-30/R4-vincennes/R4C5-prix-de-la-galerie-des-actions-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2025/09/2025-09-30/R4-vincennes/R4C6-prix-de-fleurines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-galerie-des-batailles.html",
+        "R1C2-prix-du-jardin-anglais.html",
+        "R1C3-prix-de-formentin.html",
+        "R1C4-prix-de-saint-imier.html",
+        "R1C5-prix-de-la-galerie-des-actions-de-monsieur-le-prince.html",
+        "R1C6-prix-de-fleurines.html",
+        "R1C7-prix-du-bois-bourillon.html",
+        "R1C8-prix-du-bois-laris.html",
+        "R1C9-prix-de-la-grande-singerie.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-la-galerie-des-batailles.html",
+        "R3C2-prix-du-jardin-anglais.html",
+        "R3C3-prix-de-formentin.html",
+        "R3C4-prix-de-saint-imier.html",
+        "R3C5-prix-de-la-galerie-des-actions-de-monsieur-le-prince.html",
+        "R3C6-prix-de-fleurines.html",
+        "R3C7-prix-du-bois-bourillon.html",
+        "R3C8-prix-du-bois-laris.html",
+        "R3C9-prix-de-la-grande-singerie.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-la-galerie-des-batailles.html",
+        "R4C2-prix-du-jardin-anglais.html",
+        "R4C3-prix-de-formentin.html",
+        "R4C4-prix-de-saint-imier.html",
+        "R4C5-prix-de-la-galerie-des-actions-de-monsieur-le-prince.html",
+        "R4C6-prix-de-fleurines.html",
+        "R4C7-prix-du-bois-bourillon.html",
+        "R4C8-prix-du-bois-laris.html",
+        "R4C9-prix-de-la-grande-singerie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:17.189134Z"
+}

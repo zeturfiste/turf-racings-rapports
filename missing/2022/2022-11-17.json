@@ -1,0 +1,59 @@
+{
+  "date": "2022-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-17",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-17/2022-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-17/R3-dieppe/R3C3-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2022/11/2022-11-17/R3-dieppe/R3C7-prix-du-plateau-de-saclay.html",
+      "resultats-et-rapports/2022/11/2022-11-17/R4-vincennes/R4C3-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2022/11/2022-11-17/R4-vincennes/R4C4-prix-finasseur.html",
+      "resultats-et-rapports/2022/11/2022-11-17/R4-vincennes/R4C8-prix-du-pays-d-yvelines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-dieppe",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-ajax.html",
+        "R1C2-prix-herod.html",
+        "R1C3-prix-de-la-vallee-de-chevreuse.html",
+        "R1C4-prix-finasseur.html",
+        "R1C5-prix-tantieme.html",
+        "R1C6-prix-de-carriere-sous-bois.html",
+        "R1C7-prix-du-plateau-de-saclay.html",
+        "R1C8-prix-du-pays-d-yvelines.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-ajax.html",
+        "R3C2-prix-herod.html",
+        "R3C3-prix-de-la-vallee-de-chevreuse.html",
+        "R3C4-prix-finasseur.html",
+        "R3C5-prix-tantieme.html",
+        "R3C6-prix-de-carriere-sous-bois.html",
+        "R3C7-prix-du-plateau-de-saclay.html",
+        "R3C8-prix-du-pays-d-yvelines.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-ajax.html",
+        "R4C2-prix-herod.html",
+        "R4C3-prix-de-la-vallee-de-chevreuse.html",
+        "R4C4-prix-finasseur.html",
+        "R4C5-prix-tantieme.html",
+        "R4C6-prix-de-carriere-sous-bois.html",
+        "R4C7-prix-du-plateau-de-saclay.html",
+        "R4C8-prix-du-pays-d-yvelines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:47.740883Z"
+}

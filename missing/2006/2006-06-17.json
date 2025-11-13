@@ -1,0 +1,113 @@
+{
+  "date": "2006-06-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-17",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-17/2006-06-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/06/2006-06-17/R2-saint-brieuc/R2C3-prix-hardatit.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R2-saint-brieuc/R2C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R2-saint-brieuc/R2C5-prix-des-drags.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R2-saint-brieuc/R2C6-grande-course-de-haies-d-auteuil.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R2-saint-brieuc/R2C7-prix-katko.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R3-vichy/R3C2-prix-carmont.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R3-vichy/R3C3-prix-hardatit.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R3-vichy/R3C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R3-vichy/R3C5-prix-des-drags.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R3-vichy/R3C7-prix-katko.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R4-avignon/R4C1-prix-aguado.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R4-avignon/R4C2-prix-carmont.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R4-avignon/R4C3-prix-hardatit.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R4-avignon/R4C5-prix-des-drags.html",
+      "resultats-et-rapports/2006/06/2006-06-17/R4-avignon/R4C7-prix-katko.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-saint-brieuc",
+      "R3-vichy",
+      "R4-avignon",
+      "R10-waldstadion-francfort",
+      "R11-fritz-walter-stadion-kaiserslautern",
+      "R12-rhein-energie-stadion-cologne"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-aguado.html",
+        "R1C2-prix-carmont.html",
+        "R1C3-prix-hardatit.html",
+        "R1C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R1C5-prix-des-drags.html",
+        "R1C6-grande-course-de-haies-d-auteuil.html",
+        "R1C7-prix-katko.html",
+        "R1C8-prix-gacko.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-aguado.html",
+        "R2C2-prix-carmont.html",
+        "R2C3-prix-hardatit.html",
+        "R2C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R2C5-prix-des-drags.html",
+        "R2C6-grande-course-de-haies-d-auteuil.html",
+        "R2C7-prix-katko.html",
+        "R2C8-prix-gacko.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-aguado.html",
+        "R3C2-prix-carmont.html",
+        "R3C3-prix-hardatit.html",
+        "R3C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R3C5-prix-des-drags.html",
+        "R3C6-grande-course-de-haies-d-auteuil.html",
+        "R3C7-prix-katko.html",
+        "R3C8-prix-gacko.html"
+      ],
+      "R4-avignon": [
+        "R4C1-prix-aguado.html",
+        "R4C2-prix-carmont.html",
+        "R4C3-prix-hardatit.html",
+        "R4C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R4C5-prix-des-drags.html",
+        "R4C6-grande-course-de-haies-d-auteuil.html",
+        "R4C7-prix-katko.html",
+        "R4C8-prix-gacko.html"
+      ],
+      "R10-waldstadion-francfort": [
+        "R10C1-prix-aguado.html",
+        "R10C2-prix-carmont.html",
+        "R10C3-prix-hardatit.html",
+        "R10C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R10C5-prix-des-drags.html",
+        "R10C6-grande-course-de-haies-d-auteuil.html",
+        "R10C7-prix-katko.html",
+        "R10C8-prix-gacko.html"
+      ],
+      "R11-fritz-walter-stadion-kaiserslautern": [
+        "R11C1-prix-aguado.html",
+        "R11C2-prix-carmont.html",
+        "R11C3-prix-hardatit.html",
+        "R11C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R11C5-prix-des-drags.html",
+        "R11C6-grande-course-de-haies-d-auteuil.html",
+        "R11C7-prix-katko.html",
+        "R11C8-prix-gacko.html"
+      ],
+      "R12-rhein-energie-stadion-cologne": [
+        "R12C1-prix-aguado.html",
+        "R12C2-prix-carmont.html",
+        "R12C3-prix-hardatit.html",
+        "R12C4-prix-alain-du-breil-course-de-haies-d-ete-des-quatre-ans.html",
+        "R12C5-prix-des-drags.html",
+        "R12C6-grande-course-de-haies-d-auteuil.html",
+        "R12C7-prix-katko.html",
+        "R12C8-prix-gacko.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:39.307812Z"
+}

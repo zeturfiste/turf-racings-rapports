@@ -1,0 +1,111 @@
+{
+  "date": "2013-10-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-11",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-11/2013-10-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C2-prix-du-val-profond.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C3-prix-eclipse.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C6-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C7-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R1-chantilly/R1C8-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R2-strasbourg/R2C2-prix-du-val-profond.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R2-strasbourg/R2C3-prix-eclipse.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R2-strasbourg/R2C4-prix-du-grand-vivier.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R2-strasbourg/R2C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R2-strasbourg/R2C6-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C2-prix-du-val-profond.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C3-prix-eclipse.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C4-prix-du-grand-vivier.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C6-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C7-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R3-vincennes/R3C8-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C2-prix-du-val-profond.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C3-prix-eclipse.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C4-prix-du-grand-vivier.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C6-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C7-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R4-toulouse/R4C8-prix-de-l-etang-neuf.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C1-prix-de-sandricourt.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C2-prix-du-val-profond.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C3-prix-eclipse.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C4-prix-du-grand-vivier.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C6-prix-de-la-motte-louvet.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C7-prix-de-l-etang-de-la-loge.html",
+      "resultats-et-rapports/2013/10/2013-10-11/R6-moulins/R6C8-prix-de-l-etang-neuf.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-strasbourg",
+      "R3-vincennes",
+      "R4-toulouse",
+      "R6-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-sandricourt.html",
+        "R1C2-prix-du-val-profond.html",
+        "R1C3-prix-eclipse.html",
+        "R1C4-prix-du-grand-vivier.html",
+        "R1C5-prix-du-ranelagh.html",
+        "R1C6-prix-de-la-motte-louvet.html",
+        "R1C7-prix-de-l-etang-de-la-loge.html",
+        "R1C8-prix-de-l-etang-neuf.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-sandricourt.html",
+        "R2C2-prix-du-val-profond.html",
+        "R2C3-prix-eclipse.html",
+        "R2C4-prix-du-grand-vivier.html",
+        "R2C5-prix-du-ranelagh.html",
+        "R2C6-prix-de-la-motte-louvet.html",
+        "R2C7-prix-de-l-etang-de-la-loge.html",
+        "R2C8-prix-de-l-etang-neuf.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-sandricourt.html",
+        "R3C2-prix-du-val-profond.html",
+        "R3C3-prix-eclipse.html",
+        "R3C4-prix-du-grand-vivier.html",
+        "R3C5-prix-du-ranelagh.html",
+        "R3C6-prix-de-la-motte-louvet.html",
+        "R3C7-prix-de-l-etang-de-la-loge.html",
+        "R3C8-prix-de-l-etang-neuf.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-sandricourt.html",
+        "R4C2-prix-du-val-profond.html",
+        "R4C3-prix-eclipse.html",
+        "R4C4-prix-du-grand-vivier.html",
+        "R4C5-prix-du-ranelagh.html",
+        "R4C6-prix-de-la-motte-louvet.html",
+        "R4C7-prix-de-l-etang-de-la-loge.html",
+        "R4C8-prix-de-l-etang-neuf.html"
+      ],
+      "R6-moulins": [
+        "R6C1-prix-de-sandricourt.html",
+        "R6C2-prix-du-val-profond.html",
+        "R6C3-prix-eclipse.html",
+        "R6C4-prix-du-grand-vivier.html",
+        "R6C5-prix-du-ranelagh.html",
+        "R6C6-prix-de-la-motte-louvet.html",
+        "R6C7-prix-de-l-etang-de-la-loge.html",
+        "R6C8-prix-de-l-etang-neuf.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:49.975136Z"
+}

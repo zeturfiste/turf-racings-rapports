@@ -1,0 +1,71 @@
+{
+  "date": "2011-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/08/2011-08-31",
+    "date_html": "resultats-et-rapports/2011/08/2011-08-31/2011-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/08/2011-08-31/R1-clairefontaine/R1C4-prix-bella-sara-prix-du-puits.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R1-clairefontaine/R1C8-prix-asmodee-prix-du-bois-du-guey.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C1-prix-www-les-courses-hippiques-com-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C4-prix-bella-sara-prix-du-puits.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C5-prix-offboard-prix-de-bourfontaine.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C6-prix-toffolutti-prix-du-saussay.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C7-prix-pokemon-prix-du-carre-barriere.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R2-vincennes/R2C10-prix-jungle-speed-prix-du-four-a-chaux.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R3-compiegne/R3C1-prix-www-les-courses-hippiques-com-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R3-compiegne/R3C7-prix-pokemon-prix-du-carre-barriere.html",
+      "resultats-et-rapports/2011/08/2011-08-31/R3-compiegne/R3C9-prix-dobble-prix-de-montataire.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vincennes",
+      "R3-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-www-les-courses-hippiques-com-prix-de-la-chartreuse.html",
+        "R1C2-prix-time-s-up-family-prix-de-la-colleraie.html",
+        "R1C3-prix-iwako-prix-robert-surcouf.html",
+        "R1C4-prix-bella-sara-prix-du-puits.html",
+        "R1C5-prix-offboard-prix-de-bourfontaine.html",
+        "R1C6-prix-toffolutti-prix-du-saussay.html",
+        "R1C7-prix-pokemon-prix-du-carre-barriere.html",
+        "R1C8-prix-asmodee-prix-du-bois-du-guey.html",
+        "R1C9-prix-dobble-prix-de-montataire.html",
+        "R1C10-prix-jungle-speed-prix-du-four-a-chaux.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-www-les-courses-hippiques-com-prix-de-la-chartreuse.html",
+        "R2C2-prix-time-s-up-family-prix-de-la-colleraie.html",
+        "R2C3-prix-iwako-prix-robert-surcouf.html",
+        "R2C4-prix-bella-sara-prix-du-puits.html",
+        "R2C5-prix-offboard-prix-de-bourfontaine.html",
+        "R2C6-prix-toffolutti-prix-du-saussay.html",
+        "R2C7-prix-pokemon-prix-du-carre-barriere.html",
+        "R2C8-prix-asmodee-prix-du-bois-du-guey.html",
+        "R2C9-prix-dobble-prix-de-montataire.html",
+        "R2C10-prix-jungle-speed-prix-du-four-a-chaux.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-www-les-courses-hippiques-com-prix-de-la-chartreuse.html",
+        "R3C2-prix-time-s-up-family-prix-de-la-colleraie.html",
+        "R3C3-prix-iwako-prix-robert-surcouf.html",
+        "R3C4-prix-bella-sara-prix-du-puits.html",
+        "R3C5-prix-offboard-prix-de-bourfontaine.html",
+        "R3C6-prix-toffolutti-prix-du-saussay.html",
+        "R3C7-prix-pokemon-prix-du-carre-barriere.html",
+        "R3C8-prix-asmodee-prix-du-bois-du-guey.html",
+        "R3C9-prix-dobble-prix-de-montataire.html",
+        "R3C10-prix-jungle-speed-prix-du-four-a-chaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:05.772447Z"
+}

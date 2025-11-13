@@ -1,0 +1,71 @@
+{
+  "date": "2017-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-24",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-24/2017-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-24/R1-le-croise-laroche/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R1-le-croise-laroche/R1C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R1-le-croise-laroche/R1C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R1-le-croise-laroche/R1C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C4-grand-prix-lille-tv.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C7-prix-o-sullivan.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R3-maisons-laffitte/R3C8-prix-euro-ringeat.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C2-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C4-grand-prix-lille-tv.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C5-prix-rent-a-car-la-madeleine.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2017/05/2017-05-24/R5-vichy/R5C7-prix-o-sullivan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-croise-laroche",
+      "R3-maisons-laffitte",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-le-croise-laroche": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-grand-national-des-amateurs.html",
+        "R1C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+        "R1C4-grand-prix-lille-tv.html",
+        "R1C5-prix-rent-a-car-la-madeleine.html",
+        "R1C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+        "R1C7-prix-o-sullivan.html",
+        "R1C8-prix-euro-ringeat.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-grand-national-des-amateurs.html",
+        "R3C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+        "R3C4-grand-prix-lille-tv.html",
+        "R3C5-prix-rent-a-car-la-madeleine.html",
+        "R3C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+        "R3C7-prix-o-sullivan.html",
+        "R3C8-prix-euro-ringeat.html"
+      ],
+      "R5-vichy": [
+        "R5C1-grand-national-du-trot-paris-turf.html",
+        "R5C2-grand-national-des-amateurs.html",
+        "R5C3-prix-pmu-le-carre-d-as-lille-prix-vinci-de-l-abbaye.html",
+        "R5C4-grand-prix-lille-tv.html",
+        "R5C5-prix-rent-a-car-la-madeleine.html",
+        "R5C6-prix-prince-du-verger-grand-national-des-jockeys.html",
+        "R5C7-prix-o-sullivan.html",
+        "R5C8-prix-euro-ringeat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:35.648145Z"
+}

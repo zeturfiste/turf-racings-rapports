@@ -1,0 +1,61 @@
+{
+  "date": "2021-04-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-01",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-01/2021-04-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-01/R1-chantilly/R1C6-prix-des-carrieres-du-val.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R3-compiegne/R3C5-prix-du-pastillon.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R3-compiegne/R3C7-prix-henri-de-vesian.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R4-lyon-la-soie/R4C1-prix-de-la-journee-des-plantes.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R4-lyon-la-soie/R4C3-prix-le-sancy.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R4-lyon-la-soie/R4C6-prix-des-carrieres-du-val.html",
+      "resultats-et-rapports/2021/04/2021-04-01/R4-lyon-la-soie/R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-journee-des-plantes.html",
+        "R1C2-prix-du-debut.html",
+        "R1C3-prix-le-sancy.html",
+        "R1C4-prix-des-frayoirs.html",
+        "R1C5-prix-du-pastillon.html",
+        "R1C6-prix-des-carrieres-du-val.html",
+        "R1C7-prix-henri-de-vesian.html",
+        "R1C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-la-journee-des-plantes.html",
+        "R3C2-prix-du-debut.html",
+        "R3C3-prix-le-sancy.html",
+        "R3C4-prix-des-frayoirs.html",
+        "R3C5-prix-du-pastillon.html",
+        "R3C6-prix-des-carrieres-du-val.html",
+        "R3C7-prix-henri-de-vesian.html",
+        "R3C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-la-journee-des-plantes.html",
+        "R4C2-prix-du-debut.html",
+        "R4C3-prix-le-sancy.html",
+        "R4C4-prix-des-frayoirs.html",
+        "R4C5-prix-du-pastillon.html",
+        "R4C6-prix-des-carrieres-du-val.html",
+        "R4C7-prix-henri-de-vesian.html",
+        "R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:02.400744Z"
+}

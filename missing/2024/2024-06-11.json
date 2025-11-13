@@ -1,0 +1,59 @@
+{
+  "date": "2024-06-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-11",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-11/2024-06-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-11/R1-saint-cloud/R1C3-prix-de-la-rablais.html",
+      "resultats-et-rapports/2024/06/2024-06-11/R1-saint-cloud/R1C5-prix-youth.html",
+      "resultats-et-rapports/2024/06/2024-06-11/R4-vincennes/R4C1-prix-trillion.html",
+      "resultats-et-rapports/2024/06/2024-06-11/R4-vincennes/R4C3-prix-de-la-rablais.html",
+      "resultats-et-rapports/2024/06/2024-06-11/R4-vincennes/R4C7-prix-de-montesson.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-angers",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-trillion.html",
+        "R1C2-prix-chateau-bouscaut.html",
+        "R1C3-prix-de-la-rablais.html",
+        "R1C4-prix-gazala.html",
+        "R1C5-prix-youth.html",
+        "R1C6-prix-de-trie-chateau.html",
+        "R1C7-prix-de-montesson.html",
+        "R1C8-prix-triptych.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-trillion.html",
+        "R3C2-prix-chateau-bouscaut.html",
+        "R3C3-prix-de-la-rablais.html",
+        "R3C4-prix-gazala.html",
+        "R3C5-prix-youth.html",
+        "R3C6-prix-de-trie-chateau.html",
+        "R3C7-prix-de-montesson.html",
+        "R3C8-prix-triptych.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-trillion.html",
+        "R4C2-prix-chateau-bouscaut.html",
+        "R4C3-prix-de-la-rablais.html",
+        "R4C4-prix-gazala.html",
+        "R4C5-prix-youth.html",
+        "R4C6-prix-de-trie-chateau.html",
+        "R4C7-prix-de-montesson.html",
+        "R4C8-prix-triptych.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:17.061775Z"
+}

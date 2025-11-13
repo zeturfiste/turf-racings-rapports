@@ -1,0 +1,77 @@
+{
+  "date": "2022-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-02",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-02/2022-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-02/R1-enghien-soisy/R1C8-prix-du-pont-aval.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C2-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C5-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C6-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C7-prix-de-neuilly-levallois.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C8-prix-du-pont-aval.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R4-chantilly/R4C9-prix-du-pont-d-arcole.html",
+      "resultats-et-rapports/2022/07/2022-07-02/R7-amiens/R7C9-prix-du-pont-d-arcole.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-vire",
+      "R4-chantilly",
+      "R7-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-pont-de-l-archeveche.html",
+        "R1C2-prix-de-l-observatoire.html",
+        "R1C3-prix-du-roussillon.html",
+        "R1C4-prix-de-crepy-en-valois.html",
+        "R1C5-prix-de-la-porte-saint-martin.html",
+        "R1C6-prix-de-la-place-des-alpes.html",
+        "R1C7-prix-de-neuilly-levallois.html",
+        "R1C8-prix-du-pont-aval.html",
+        "R1C9-prix-du-pont-d-arcole.html"
+      ],
+      "R3-vire": [
+        "R3C1-prix-du-pont-de-l-archeveche.html",
+        "R3C2-prix-de-l-observatoire.html",
+        "R3C3-prix-du-roussillon.html",
+        "R3C4-prix-de-crepy-en-valois.html",
+        "R3C5-prix-de-la-porte-saint-martin.html",
+        "R3C6-prix-de-la-place-des-alpes.html",
+        "R3C7-prix-de-neuilly-levallois.html",
+        "R3C8-prix-du-pont-aval.html",
+        "R3C9-prix-du-pont-d-arcole.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-du-pont-de-l-archeveche.html",
+        "R4C2-prix-de-l-observatoire.html",
+        "R4C3-prix-du-roussillon.html",
+        "R4C4-prix-de-crepy-en-valois.html",
+        "R4C5-prix-de-la-porte-saint-martin.html",
+        "R4C6-prix-de-la-place-des-alpes.html",
+        "R4C7-prix-de-neuilly-levallois.html",
+        "R4C8-prix-du-pont-aval.html",
+        "R4C9-prix-du-pont-d-arcole.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-du-pont-de-l-archeveche.html",
+        "R7C2-prix-de-l-observatoire.html",
+        "R7C3-prix-du-roussillon.html",
+        "R7C4-prix-de-crepy-en-valois.html",
+        "R7C5-prix-de-la-porte-saint-martin.html",
+        "R7C6-prix-de-la-place-des-alpes.html",
+        "R7C7-prix-de-neuilly-levallois.html",
+        "R7C8-prix-du-pont-aval.html",
+        "R7C9-prix-du-pont-d-arcole.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:56.030616Z"
+}

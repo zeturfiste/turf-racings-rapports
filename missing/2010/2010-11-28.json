@@ -1,0 +1,105 @@
+{
+  "date": "2010-11-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/11/2010-11-28",
+    "date_html": "resultats-et-rapports/2010/11/2010-11-28/2010-11-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/11/2010-11-28/R1-auteuil/R1C1-prix-fifrelet.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R1-auteuil/R1C7-prix-santo-pietro.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R2-beaumont-de-lomagne/R2C2-prix-morgex.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R2-beaumont-de-lomagne/R2C5-prix-jean-laumain.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R2-beaumont-de-lomagne/R2C7-prix-santo-pietro.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C1-prix-fifrelet.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C2-prix-morgex.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C3-prix-andre-michel.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C4-prix-georges-courtois.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C5-prix-jean-laumain.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C6-prix-nupsala.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R3-reims/R3C7-prix-santo-pietro.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R5-maure-de-bretagne/R5C1-prix-fifrelet.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R5-maure-de-bretagne/R5C2-prix-morgex.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R5-maure-de-bretagne/R5C3-prix-andre-michel.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R5-maure-de-bretagne/R5C4-prix-georges-courtois.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R5-maure-de-bretagne/R5C5-prix-jean-laumain.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R6-lyon-la-soie/R6C1-prix-fifrelet.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R6-lyon-la-soie/R6C4-prix-georges-courtois.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R7-graignes/R7C3-prix-andre-michel.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R7-graignes/R7C4-prix-georges-courtois.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R7-graignes/R7C5-prix-jean-laumain.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R7-graignes/R7C6-prix-nupsala.html",
+      "resultats-et-rapports/2010/11/2010-11-28/R7-graignes/R7C7-prix-santo-pietro.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-beaumont-de-lomagne",
+      "R3-reims",
+      "R5-maure-de-bretagne",
+      "R6-lyon-la-soie",
+      "R7-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-fifrelet.html",
+        "R1C2-prix-morgex.html",
+        "R1C3-prix-andre-michel.html",
+        "R1C4-prix-georges-courtois.html",
+        "R1C5-prix-jean-laumain.html",
+        "R1C6-prix-nupsala.html",
+        "R1C7-prix-santo-pietro.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-fifrelet.html",
+        "R2C2-prix-morgex.html",
+        "R2C3-prix-andre-michel.html",
+        "R2C4-prix-georges-courtois.html",
+        "R2C5-prix-jean-laumain.html",
+        "R2C6-prix-nupsala.html",
+        "R2C7-prix-santo-pietro.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-fifrelet.html",
+        "R3C2-prix-morgex.html",
+        "R3C3-prix-andre-michel.html",
+        "R3C4-prix-georges-courtois.html",
+        "R3C5-prix-jean-laumain.html",
+        "R3C6-prix-nupsala.html",
+        "R3C7-prix-santo-pietro.html"
+      ],
+      "R5-maure-de-bretagne": [
+        "R5C1-prix-fifrelet.html",
+        "R5C2-prix-morgex.html",
+        "R5C3-prix-andre-michel.html",
+        "R5C4-prix-georges-courtois.html",
+        "R5C5-prix-jean-laumain.html",
+        "R5C6-prix-nupsala.html",
+        "R5C7-prix-santo-pietro.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-prix-fifrelet.html",
+        "R6C2-prix-morgex.html",
+        "R6C3-prix-andre-michel.html",
+        "R6C4-prix-georges-courtois.html",
+        "R6C5-prix-jean-laumain.html",
+        "R6C6-prix-nupsala.html",
+        "R6C7-prix-santo-pietro.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-fifrelet.html",
+        "R7C2-prix-morgex.html",
+        "R7C3-prix-andre-michel.html",
+        "R7C4-prix-georges-courtois.html",
+        "R7C5-prix-jean-laumain.html",
+        "R7C6-prix-nupsala.html",
+        "R7C7-prix-santo-pietro.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:49.920891Z"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2021-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-22",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-22/2021-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-22/R3-saint-cloud/R3C2-prix-de-l-association-passerelle.html",
+      "resultats-et-rapports/2021/09/2021-09-22/R3-saint-cloud/R3C6-grand-prix-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2021/09/2021-09-22/R3-saint-cloud/R3C8-prix-de-la-savonnerie-fer-a-cheval.html",
+      "resultats-et-rapports/2021/09/2021-09-22/R4-toulouse/R4C1-prix-marie-popin-s-event.html",
+      "resultats-et-rapports/2021/09/2021-09-22/R4-toulouse/R4C8-prix-de-la-savonnerie-fer-a-cheval.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-saint-cloud",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-marie-popin-s-event.html",
+        "R1C2-prix-de-l-association-passerelle.html",
+        "R1C3-prix-de-la-ville-d-amiens.html",
+        "R1C4-prix-france-bleu-picardie.html",
+        "R1C5-prix-de-l-amiens-sc.html",
+        "R1C6-grand-prix-federation-regionale-du-nord.html",
+        "R1C7-prix-du-courrier-picard.html",
+        "R1C8-prix-de-la-savonnerie-fer-a-cheval.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-marie-popin-s-event.html",
+        "R3C2-prix-de-l-association-passerelle.html",
+        "R3C3-prix-de-la-ville-d-amiens.html",
+        "R3C4-prix-france-bleu-picardie.html",
+        "R3C5-prix-de-l-amiens-sc.html",
+        "R3C6-grand-prix-federation-regionale-du-nord.html",
+        "R3C7-prix-du-courrier-picard.html",
+        "R3C8-prix-de-la-savonnerie-fer-a-cheval.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-marie-popin-s-event.html",
+        "R4C2-prix-de-l-association-passerelle.html",
+        "R4C3-prix-de-la-ville-d-amiens.html",
+        "R4C4-prix-france-bleu-picardie.html",
+        "R4C5-prix-de-l-amiens-sc.html",
+        "R4C6-grand-prix-federation-regionale-du-nord.html",
+        "R4C7-prix-du-courrier-picard.html",
+        "R4C8-prix-de-la-savonnerie-fer-a-cheval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:13.179420Z"
+}

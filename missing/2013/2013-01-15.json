@@ -1,0 +1,50 @@
+{
+  "date": "2013-01-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/01/2013-01-15",
+    "date_html": "resultats-et-rapports/2013/01/2013-01-15/2013-01-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/01/2013-01-15/R1-pau/R1C1-prix-joseph-de-gontaut-biron.html",
+      "resultats-et-rapports/2013/01/2013-01-15/R1-pau/R1C2-prix-auguste-de-castelbajac.html",
+      "resultats-et-rapports/2013/01/2013-01-15/R1-pau/R1C3-prix-geny-courses-prix-d-albret.html",
+      "resultats-et-rapports/2013/01/2013-01-15/R1-pau/R1C4-prix-pmu-le-commercial-auch-prix-de-lescun.html",
+      "resultats-et-rapports/2013/01/2013-01-15/R1-pau/R1C5-prix-race-systems-ltd-prix-de-laloubere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-joseph-de-gontaut-biron.html",
+        "R1C2-prix-auguste-de-castelbajac.html",
+        "R1C3-prix-geny-courses-prix-d-albret.html",
+        "R1C4-prix-pmu-le-commercial-auch-prix-de-lescun.html",
+        "R1C5-prix-race-systems-ltd-prix-de-laloubere.html",
+        "R1C6-prix-de-lasseube.html",
+        "R1C7-prix-du-chateau-de-pau.html",
+        "R1C8-prix-pmu-buffet-de-la-gare-lourdes-prix-de-livron.html",
+        "R1C9-prix-du-pic-du-midi.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-joseph-de-gontaut-biron.html",
+        "R2C2-prix-auguste-de-castelbajac.html",
+        "R2C3-prix-geny-courses-prix-d-albret.html",
+        "R2C4-prix-pmu-le-commercial-auch-prix-de-lescun.html",
+        "R2C5-prix-race-systems-ltd-prix-de-laloubere.html",
+        "R2C6-prix-de-lasseube.html",
+        "R2C7-prix-du-chateau-de-pau.html",
+        "R2C8-prix-pmu-buffet-de-la-gare-lourdes-prix-de-livron.html",
+        "R2C9-prix-du-pic-du-midi.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:28.057261Z"
+}

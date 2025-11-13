@@ -1,0 +1,79 @@
+{
+  "date": "2008-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/02/2008-02-08",
+    "date_html": "resultats-et-rapports/2008/02/2008-02-08/2008-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/02/2008-02-08/R1-cagnes-sur-mer/R1C2-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R1-cagnes-sur-mer/R1C7-prix-hymour.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R31-zerace/R31C2-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R31-zerace/R31C3-prix-high-echelon.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R31-zerace/R31C5-prix-biesolo.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R31-zerace/R31C6-prix-lurabo.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R31-zerace/R31C8-prix-de-la-romanche.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C1-prix-ideal-du-gazeau.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C2-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C3-prix-high-echelon.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C4-prix-jules-roucayrol.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C5-prix-biesolo.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C6-prix-lurabo.html",
+      "resultats-et-rapports/2008/02/2008-02-08/R70-stade-jules-deschaseaux-le-havre/R70C7-prix-hymour.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-enghien-soisy",
+      "R31-zerace",
+      "R70-stade-jules-deschaseaux-le-havre"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-ideal-du-gazeau.html",
+        "R1C2-prix-geny-courses-36-01.html",
+        "R1C3-prix-high-echelon.html",
+        "R1C4-prix-jules-roucayrol.html",
+        "R1C5-prix-biesolo.html",
+        "R1C6-prix-lurabo.html",
+        "R1C7-prix-hymour.html",
+        "R1C8-prix-de-la-romanche.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-ideal-du-gazeau.html",
+        "R2C2-prix-geny-courses-36-01.html",
+        "R2C3-prix-high-echelon.html",
+        "R2C4-prix-jules-roucayrol.html",
+        "R2C5-prix-biesolo.html",
+        "R2C6-prix-lurabo.html",
+        "R2C7-prix-hymour.html",
+        "R2C8-prix-de-la-romanche.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-ideal-du-gazeau.html",
+        "R31C2-prix-geny-courses-36-01.html",
+        "R31C3-prix-high-echelon.html",
+        "R31C4-prix-jules-roucayrol.html",
+        "R31C5-prix-biesolo.html",
+        "R31C6-prix-lurabo.html",
+        "R31C7-prix-hymour.html",
+        "R31C8-prix-de-la-romanche.html"
+      ],
+      "R70-stade-jules-deschaseaux-le-havre": [
+        "R70C1-prix-ideal-du-gazeau.html",
+        "R70C2-prix-geny-courses-36-01.html",
+        "R70C3-prix-high-echelon.html",
+        "R70C4-prix-jules-roucayrol.html",
+        "R70C5-prix-biesolo.html",
+        "R70C6-prix-lurabo.html",
+        "R70C7-prix-hymour.html",
+        "R70C8-prix-de-la-romanche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:58.745549Z"
+}

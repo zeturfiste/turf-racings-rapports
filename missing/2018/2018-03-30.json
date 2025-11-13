@@ -1,0 +1,89 @@
+{
+  "date": "2018-03-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-30",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-30/2018-03-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-30/R1-vincennes/R1C6-prix-alcor.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R3-bordeaux-le-bouscat/R3C5-prix-adrastea.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R3-bordeaux-le-bouscat/R3C6-prix-alcor.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R4-fontainebleau/R4C2-prix-amalthea.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R4-fontainebleau/R4C3-prix-monoceros.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R4-fontainebleau/R4C7-prix-idunna.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R5-marseille-vivaux/R5C2-prix-amalthea.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R5-marseille-vivaux/R5C3-prix-monoceros.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R5-marseille-vivaux/R5C4-prix-aemilia.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R5-marseille-vivaux/R5C6-prix-alcor.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R5-marseille-vivaux/R5C7-prix-idunna.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C1-prix-lucia.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C2-prix-amalthea.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C3-prix-monoceros.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C4-prix-aemilia.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C5-prix-adrastea.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C6-prix-alcor.html",
+      "resultats-et-rapports/2018/03/2018-03-30/R6-toulouse/R6C7-prix-idunna.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-bordeaux-le-bouscat",
+      "R4-fontainebleau",
+      "R5-marseille-vivaux",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lucia.html",
+        "R1C2-prix-amalthea.html",
+        "R1C3-prix-monoceros.html",
+        "R1C4-prix-aemilia.html",
+        "R1C5-prix-adrastea.html",
+        "R1C6-prix-alcor.html",
+        "R1C7-prix-idunna.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-lucia.html",
+        "R3C2-prix-amalthea.html",
+        "R3C3-prix-monoceros.html",
+        "R3C4-prix-aemilia.html",
+        "R3C5-prix-adrastea.html",
+        "R3C6-prix-alcor.html",
+        "R3C7-prix-idunna.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-lucia.html",
+        "R4C2-prix-amalthea.html",
+        "R4C3-prix-monoceros.html",
+        "R4C4-prix-aemilia.html",
+        "R4C5-prix-adrastea.html",
+        "R4C6-prix-alcor.html",
+        "R4C7-prix-idunna.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-lucia.html",
+        "R5C2-prix-amalthea.html",
+        "R5C3-prix-monoceros.html",
+        "R5C4-prix-aemilia.html",
+        "R5C5-prix-adrastea.html",
+        "R5C6-prix-alcor.html",
+        "R5C7-prix-idunna.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-lucia.html",
+        "R6C2-prix-amalthea.html",
+        "R6C3-prix-monoceros.html",
+        "R6C4-prix-aemilia.html",
+        "R6C5-prix-adrastea.html",
+        "R6C6-prix-alcor.html",
+        "R6C7-prix-idunna.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:10.669924Z"
+}

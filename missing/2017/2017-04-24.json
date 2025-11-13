@@ -1,0 +1,96 @@
+{
+  "date": "2017-04-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-24",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-24/2017-04-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C1-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C2-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C3-prix-de-solferino.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C4-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C5-prix-de-fleurus.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C6-prix-des-nenuphars.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C7-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R1-compiegne/R1C8-prix-du-theatre-francais.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C1-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C2-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C3-prix-de-solferino.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C4-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C5-prix-de-fleurus.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C6-prix-des-nenuphars.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C7-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R3-marseille-borely/R3C8-prix-du-theatre-francais.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C1-prix-de-la-comedie-francaise.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C2-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C3-prix-de-solferino.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C4-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C5-prix-de-fleurus.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C6-prix-des-nenuphars.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C7-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R4-meslay-du-maine/R4C8-prix-du-theatre-francais.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C2-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C3-prix-de-solferino.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C4-prix-du-gros-caillou.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C5-prix-de-fleurus.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C6-prix-des-nenuphars.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C7-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2017/04/2017-04-24/R7-le-croise-laroche/R7C8-prix-du-theatre-francais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-marseille-borely",
+      "R4-meslay-du-maine",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-la-comedie-francaise.html",
+        "R1C2-prix-de-villeneuve-l-etang.html",
+        "R1C3-prix-de-solferino.html",
+        "R1C4-prix-du-gros-caillou.html",
+        "R1C5-prix-de-fleurus.html",
+        "R1C6-prix-des-nenuphars.html",
+        "R1C7-prix-du-palais-d-art-moderne.html",
+        "R1C8-prix-du-theatre-francais.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-la-comedie-francaise.html",
+        "R3C2-prix-de-villeneuve-l-etang.html",
+        "R3C3-prix-de-solferino.html",
+        "R3C4-prix-du-gros-caillou.html",
+        "R3C5-prix-de-fleurus.html",
+        "R3C6-prix-des-nenuphars.html",
+        "R3C7-prix-du-palais-d-art-moderne.html",
+        "R3C8-prix-du-theatre-francais.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-de-la-comedie-francaise.html",
+        "R4C2-prix-de-villeneuve-l-etang.html",
+        "R4C3-prix-de-solferino.html",
+        "R4C4-prix-du-gros-caillou.html",
+        "R4C5-prix-de-fleurus.html",
+        "R4C6-prix-des-nenuphars.html",
+        "R4C7-prix-du-palais-d-art-moderne.html",
+        "R4C8-prix-du-theatre-francais.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-de-la-comedie-francaise.html",
+        "R7C2-prix-de-villeneuve-l-etang.html",
+        "R7C3-prix-de-solferino.html",
+        "R7C4-prix-du-gros-caillou.html",
+        "R7C5-prix-de-fleurus.html",
+        "R7C6-prix-des-nenuphars.html",
+        "R7C7-prix-du-palais-d-art-moderne.html",
+        "R7C8-prix-du-theatre-francais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:25.727942Z"
+}

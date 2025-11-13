@@ -1,0 +1,69 @@
+{
+  "date": "2006-11-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-24",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-24/2006-11-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-24/R1-enghien-soisy/R1C2-prix-styrax.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R1-enghien-soisy/R1C4-prix-dragon-du-roi.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R1-enghien-soisy/R1C5-prix-de-nogent.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R1-enghien-soisy/R1C6-prix-des-coudraies.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R3-vincennes/R3C1-prix-d-arras.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R3-vincennes/R3C3-prix-general-de-saint-didier.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R3-vincennes/R3C4-prix-dragon-du-roi.html",
+      "resultats-et-rapports/2006/11/2006-11-24/R3-vincennes/R3C5-prix-de-nogent.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-le-croise-laroche",
+      "R3-vincennes",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-arras.html",
+        "R1C2-prix-styrax.html",
+        "R1C3-prix-general-de-saint-didier.html",
+        "R1C4-prix-dragon-du-roi.html",
+        "R1C5-prix-de-nogent.html",
+        "R1C6-prix-des-coudraies.html",
+        "R1C7-prix-le-pontet.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-d-arras.html",
+        "R2C2-prix-styrax.html",
+        "R2C3-prix-general-de-saint-didier.html",
+        "R2C4-prix-dragon-du-roi.html",
+        "R2C5-prix-de-nogent.html",
+        "R2C6-prix-des-coudraies.html",
+        "R2C7-prix-le-pontet.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-d-arras.html",
+        "R3C2-prix-styrax.html",
+        "R3C3-prix-general-de-saint-didier.html",
+        "R3C4-prix-dragon-du-roi.html",
+        "R3C5-prix-de-nogent.html",
+        "R3C6-prix-des-coudraies.html",
+        "R3C7-prix-le-pontet.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-d-arras.html",
+        "R21C2-prix-styrax.html",
+        "R21C3-prix-general-de-saint-didier.html",
+        "R21C4-prix-dragon-du-roi.html",
+        "R21C5-prix-de-nogent.html",
+        "R21C6-prix-des-coudraies.html",
+        "R21C7-prix-le-pontet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:25.157817Z"
+}

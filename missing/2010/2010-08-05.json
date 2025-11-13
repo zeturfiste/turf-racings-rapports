@@ -1,0 +1,77 @@
+{
+  "date": "2010-08-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/08/2010-08-05",
+    "date_html": "resultats-et-rapports/2010/08/2010-08-05/2010-08-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/08/2010-08-05/R1-deauville/R1C4-prix-de-la-bienne.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R1-deauville/R1C5-prix-du-cercle.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R1-deauville/R1C6-prix-de-troarn.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R1-deauville/R1C7-prix-de-coupesarte.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R1-deauville/R1C8-prix-d-argentan.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R2-beaumont-de-lomagne/R2C1-prix-france-soir-prix-d-alencon.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R2-beaumont-de-lomagne/R2C2-prix-de-l-houay.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R2-beaumont-de-lomagne/R2C4-prix-de-la-bienne.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R2-beaumont-de-lomagne/R2C7-prix-de-coupesarte.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R2-beaumont-de-lomagne/R2C8-prix-d-argentan.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R4-le-mont-saint-michel/R4C3-prix-du-logis-saint-germain.html",
+      "resultats-et-rapports/2010/08/2010-08-05/R4-le-mont-saint-michel/R4C8-prix-d-argentan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-beaumont-de-lomagne",
+      "R3-marseille-vivaux",
+      "R4-le-mont-saint-michel"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-france-soir-prix-d-alencon.html",
+        "R1C2-prix-de-l-houay.html",
+        "R1C3-prix-du-logis-saint-germain.html",
+        "R1C4-prix-de-la-bienne.html",
+        "R1C5-prix-du-cercle.html",
+        "R1C6-prix-de-troarn.html",
+        "R1C7-prix-de-coupesarte.html",
+        "R1C8-prix-d-argentan.html"
+      ],
+      "R2-beaumont-de-lomagne": [
+        "R2C1-prix-france-soir-prix-d-alencon.html",
+        "R2C2-prix-de-l-houay.html",
+        "R2C3-prix-du-logis-saint-germain.html",
+        "R2C4-prix-de-la-bienne.html",
+        "R2C5-prix-du-cercle.html",
+        "R2C6-prix-de-troarn.html",
+        "R2C7-prix-de-coupesarte.html",
+        "R2C8-prix-d-argentan.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-france-soir-prix-d-alencon.html",
+        "R3C2-prix-de-l-houay.html",
+        "R3C3-prix-du-logis-saint-germain.html",
+        "R3C4-prix-de-la-bienne.html",
+        "R3C5-prix-du-cercle.html",
+        "R3C6-prix-de-troarn.html",
+        "R3C7-prix-de-coupesarte.html",
+        "R3C8-prix-d-argentan.html"
+      ],
+      "R4-le-mont-saint-michel": [
+        "R4C1-prix-france-soir-prix-d-alencon.html",
+        "R4C2-prix-de-l-houay.html",
+        "R4C3-prix-du-logis-saint-germain.html",
+        "R4C4-prix-de-la-bienne.html",
+        "R4C5-prix-du-cercle.html",
+        "R4C6-prix-de-troarn.html",
+        "R4C7-prix-de-coupesarte.html",
+        "R4C8-prix-d-argentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:35:16.408141Z"
+}

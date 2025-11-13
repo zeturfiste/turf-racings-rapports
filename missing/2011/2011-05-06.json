@@ -1,0 +1,97 @@
+{
+  "date": "2011-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-06",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-06/2011-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C1-prix-bango.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C2-prix-des-arbustes.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C3-prix-de-l-essonne.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C6-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C7-prix-des-erables.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R1-fontainebleau/R1C8-prix-des-hauteurs-de-la-solle.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C1-prix-bango.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C2-prix-des-arbustes.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C3-prix-de-l-essonne.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C5-prix-du-long-rocher.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C6-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R2-chartres/R2C7-prix-des-erables.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R3-vincennes/R3C1-prix-bango.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R5-lyon-parilly/R5C4-prix-de-dame-jouanne.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R5-lyon-parilly/R5C7-prix-des-erables.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C2-prix-des-arbustes.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C3-prix-de-l-essonne.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C5-prix-du-long-rocher.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C6-prix-de-bois-le-roi.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C7-prix-des-erables.html",
+      "resultats-et-rapports/2011/05/2011-05-06/R8-laval/R8C8-prix-des-hauteurs-de-la-solle.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-chartres",
+      "R3-vincennes",
+      "R5-lyon-parilly",
+      "R8-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-bango.html",
+        "R1C2-prix-des-arbustes.html",
+        "R1C3-prix-de-l-essonne.html",
+        "R1C4-prix-de-dame-jouanne.html",
+        "R1C5-prix-du-long-rocher.html",
+        "R1C6-prix-de-bois-le-roi.html",
+        "R1C7-prix-des-erables.html",
+        "R1C8-prix-des-hauteurs-de-la-solle.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-bango.html",
+        "R2C2-prix-des-arbustes.html",
+        "R2C3-prix-de-l-essonne.html",
+        "R2C4-prix-de-dame-jouanne.html",
+        "R2C5-prix-du-long-rocher.html",
+        "R2C6-prix-de-bois-le-roi.html",
+        "R2C7-prix-des-erables.html",
+        "R2C8-prix-des-hauteurs-de-la-solle.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-bango.html",
+        "R3C2-prix-des-arbustes.html",
+        "R3C3-prix-de-l-essonne.html",
+        "R3C4-prix-de-dame-jouanne.html",
+        "R3C5-prix-du-long-rocher.html",
+        "R3C6-prix-de-bois-le-roi.html",
+        "R3C7-prix-des-erables.html",
+        "R3C8-prix-des-hauteurs-de-la-solle.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-bango.html",
+        "R5C2-prix-des-arbustes.html",
+        "R5C3-prix-de-l-essonne.html",
+        "R5C4-prix-de-dame-jouanne.html",
+        "R5C5-prix-du-long-rocher.html",
+        "R5C6-prix-de-bois-le-roi.html",
+        "R5C7-prix-des-erables.html",
+        "R5C8-prix-des-hauteurs-de-la-solle.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-bango.html",
+        "R8C2-prix-des-arbustes.html",
+        "R8C3-prix-de-l-essonne.html",
+        "R8C4-prix-de-dame-jouanne.html",
+        "R8C5-prix-du-long-rocher.html",
+        "R8C6-prix-de-bois-le-roi.html",
+        "R8C7-prix-des-erables.html",
+        "R8C8-prix-des-hauteurs-de-la-solle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:30.039682Z"
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2007-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/11/2007-11-05",
+    "date_html": "resultats-et-rapports/2007/11/2007-11-05/2007-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/11/2007-11-05/R31-zerace/R31C4-prix-de-morlaix.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R31-zerace/R31C5-prix-de-savigny-sur-braye.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R31-zerace/R31C6-prix-d-amiens.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R31-zerace/R31C7-prix-de-clamart.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R1-vincennes/R1C2-prix-de-picardie.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C2-prix-de-picardie.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C3-prix-d-harfleur.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C4-prix-de-morlaix.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C5-prix-de-savigny-sur-braye.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C6-prix-d-amiens.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C7-prix-de-clamart.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R2-le-croise-laroche/R2C8-prix-de-barenton.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R3-auch/R3C8-prix-de-barenton.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C1-prix-d-arcachon.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C2-prix-de-picardie.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C4-prix-de-morlaix.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C5-prix-de-savigny-sur-braye.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C7-prix-de-clamart.html",
+      "resultats-et-rapports/2007/11/2007-11-05/R70-stade-de-la-liberation-boulogne-sur-mer/R70C8-prix-de-barenton.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R31-zerace",
+      "R1-vincennes",
+      "R2-le-croise-laroche",
+      "R3-auch",
+      "R70-stade-de-la-liberation-boulogne-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R31-zerace": [
+        "R31C1-prix-d-arcachon.html",
+        "R31C2-prix-de-picardie.html",
+        "R31C3-prix-d-harfleur.html",
+        "R31C4-prix-de-morlaix.html",
+        "R31C5-prix-de-savigny-sur-braye.html",
+        "R31C6-prix-d-amiens.html",
+        "R31C7-prix-de-clamart.html",
+        "R31C8-prix-de-barenton.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-d-arcachon.html",
+        "R1C2-prix-de-picardie.html",
+        "R1C3-prix-d-harfleur.html",
+        "R1C4-prix-de-morlaix.html",
+        "R1C5-prix-de-savigny-sur-braye.html",
+        "R1C6-prix-d-amiens.html",
+        "R1C7-prix-de-clamart.html",
+        "R1C8-prix-de-barenton.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-d-arcachon.html",
+        "R2C2-prix-de-picardie.html",
+        "R2C3-prix-d-harfleur.html",
+        "R2C4-prix-de-morlaix.html",
+        "R2C5-prix-de-savigny-sur-braye.html",
+        "R2C6-prix-d-amiens.html",
+        "R2C7-prix-de-clamart.html",
+        "R2C8-prix-de-barenton.html"
+      ],
+      "R3-auch": [
+        "R3C1-prix-d-arcachon.html",
+        "R3C2-prix-de-picardie.html",
+        "R3C3-prix-d-harfleur.html",
+        "R3C4-prix-de-morlaix.html",
+        "R3C5-prix-de-savigny-sur-braye.html",
+        "R3C6-prix-d-amiens.html",
+        "R3C7-prix-de-clamart.html",
+        "R3C8-prix-de-barenton.html"
+      ],
+      "R70-stade-de-la-liberation-boulogne-sur-mer": [
+        "R70C1-prix-d-arcachon.html",
+        "R70C2-prix-de-picardie.html",
+        "R70C3-prix-d-harfleur.html",
+        "R70C4-prix-de-morlaix.html",
+        "R70C5-prix-de-savigny-sur-braye.html",
+        "R70C6-prix-d-amiens.html",
+        "R70C7-prix-de-clamart.html",
+        "R70C8-prix-de-barenton.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:22.930989Z"
+}

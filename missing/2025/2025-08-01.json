@@ -1,0 +1,76 @@
+{
+  "date": "2025-08-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-01",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-01/2025-08-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-01/R1-cabourg/R1C3-prix-des-helianthes.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R1-cabourg/R1C6-prix-des-phlox.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R2-saint-malo/R2C4-prix-des-lycopodes.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R2-saint-malo/R2C7-prix-des-lilas.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R2-saint-malo/R2C8-prix-des-pimprenelles.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R4-mont-de-marsan/R4C5-prix-lis.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R4-mont-de-marsan/R4C6-prix-des-phlox.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R5-hyeres/R5C1-prix-jean-balliere-prix-des-hetres.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R5-hyeres/R5C2-prix-des-arnoseris.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R5-hyeres/R5C3-prix-des-helianthes.html",
+      "resultats-et-rapports/2025/08/2025-08-01/R5-hyeres/R5C6-prix-des-phlox.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-saint-malo",
+      "R4-mont-de-marsan",
+      "R5-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-jean-balliere-prix-des-hetres.html",
+        "R1C2-prix-des-arnoseris.html",
+        "R1C3-prix-des-helianthes.html",
+        "R1C4-prix-des-lycopodes.html",
+        "R1C5-prix-lis.html",
+        "R1C6-prix-des-phlox.html",
+        "R1C7-prix-des-lilas.html",
+        "R1C8-prix-des-pimprenelles.html"
+      ],
+      "R2-saint-malo": [
+        "R2C1-prix-jean-balliere-prix-des-hetres.html",
+        "R2C2-prix-des-arnoseris.html",
+        "R2C3-prix-des-helianthes.html",
+        "R2C4-prix-des-lycopodes.html",
+        "R2C5-prix-lis.html",
+        "R2C6-prix-des-phlox.html",
+        "R2C7-prix-des-lilas.html",
+        "R2C8-prix-des-pimprenelles.html"
+      ],
+      "R4-mont-de-marsan": [
+        "R4C1-prix-jean-balliere-prix-des-hetres.html",
+        "R4C2-prix-des-arnoseris.html",
+        "R4C3-prix-des-helianthes.html",
+        "R4C4-prix-des-lycopodes.html",
+        "R4C5-prix-lis.html",
+        "R4C6-prix-des-phlox.html",
+        "R4C7-prix-des-lilas.html",
+        "R4C8-prix-des-pimprenelles.html"
+      ],
+      "R5-hyeres": [
+        "R5C1-prix-jean-balliere-prix-des-hetres.html",
+        "R5C2-prix-des-arnoseris.html",
+        "R5C3-prix-des-helianthes.html",
+        "R5C4-prix-des-lycopodes.html",
+        "R5C5-prix-lis.html",
+        "R5C6-prix-des-phlox.html",
+        "R5C7-prix-des-lilas.html",
+        "R5C8-prix-des-pimprenelles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:54.579879Z"
+}

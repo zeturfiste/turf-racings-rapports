@@ -1,0 +1,89 @@
+{
+  "date": "2017-10-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-04",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-04/2017-10-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-04/R1-angers/R1C5-prix-speedy-blue.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R1-angers/R1C6-prix-triode-de-felliere.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R1-angers/R1C7-prix-royal-dream.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R1-angers/R1C9-prix-bold-eagle-groupe-b.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C1-prix-scipion-du-goutier.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C3-prix-bird-parker.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C4-prix-talicia-bella.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C5-prix-speedy-blue.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C6-prix-triode-de-felliere.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C8-prix-bold-eagle-groupe-a.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R3-saint-cloud/R3C9-prix-bold-eagle-groupe-b.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R4-toulouse/R4C1-prix-scipion-du-goutier.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R4-toulouse/R4C3-prix-bird-parker.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R4-toulouse/R4C4-prix-talicia-bella.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R4-toulouse/R4C6-prix-triode-de-felliere.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R4-toulouse/R4C9-prix-bold-eagle-groupe-b.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R5-lyon-la-soie/R5C3-prix-bird-parker.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R5-lyon-la-soie/R5C4-prix-talicia-bella.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R5-lyon-la-soie/R5C5-prix-speedy-blue.html",
+      "resultats-et-rapports/2017/10/2017-10-04/R5-lyon-la-soie/R5C8-prix-bold-eagle-groupe-a.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-saint-cloud",
+      "R4-toulouse",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-prix-scipion-du-goutier.html",
+        "R1C2-grand-prix-anjou-maine.html",
+        "R1C3-prix-bird-parker.html",
+        "R1C4-prix-talicia-bella.html",
+        "R1C5-prix-speedy-blue.html",
+        "R1C6-prix-triode-de-felliere.html",
+        "R1C7-prix-royal-dream.html",
+        "R1C8-prix-bold-eagle-groupe-a.html",
+        "R1C9-prix-bold-eagle-groupe-b.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-scipion-du-goutier.html",
+        "R3C2-grand-prix-anjou-maine.html",
+        "R3C3-prix-bird-parker.html",
+        "R3C4-prix-talicia-bella.html",
+        "R3C5-prix-speedy-blue.html",
+        "R3C6-prix-triode-de-felliere.html",
+        "R3C7-prix-royal-dream.html",
+        "R3C8-prix-bold-eagle-groupe-a.html",
+        "R3C9-prix-bold-eagle-groupe-b.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-scipion-du-goutier.html",
+        "R4C2-grand-prix-anjou-maine.html",
+        "R4C3-prix-bird-parker.html",
+        "R4C4-prix-talicia-bella.html",
+        "R4C5-prix-speedy-blue.html",
+        "R4C6-prix-triode-de-felliere.html",
+        "R4C7-prix-royal-dream.html",
+        "R4C8-prix-bold-eagle-groupe-a.html",
+        "R4C9-prix-bold-eagle-groupe-b.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-scipion-du-goutier.html",
+        "R5C2-grand-prix-anjou-maine.html",
+        "R5C3-prix-bird-parker.html",
+        "R5C4-prix-talicia-bella.html",
+        "R5C5-prix-speedy-blue.html",
+        "R5C6-prix-triode-de-felliere.html",
+        "R5C7-prix-royal-dream.html",
+        "R5C8-prix-bold-eagle-groupe-a.html",
+        "R5C9-prix-bold-eagle-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:20.186876Z"
+}

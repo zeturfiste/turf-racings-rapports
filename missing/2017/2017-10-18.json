@@ -1,0 +1,67 @@
+{
+  "date": "2017-10-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-18",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-18/2017-10-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C3-prix-restaurant-carre-sud-bar-pmu-le-sympa.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C4-prix-de-la-ville-de-saint-galmier.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C5-prix-a-s-s-e.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C6-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C7-prix-de-la-ville-de-saint-etienne.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R1-saint-galmier/R1C8-prix-saint-etienne-metropole-sem.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R3-deauville/R3C6-prix-du-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R3-deauville/R3C7-prix-de-la-ville-de-saint-etienne.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R4-reims/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R4-reims/R4C2-prix-cabinet-axens.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R4-reims/R4C3-prix-restaurant-carre-sud-bar-pmu-le-sympa.html",
+      "resultats-et-rapports/2017/10/2017-10-18/R4-reims/R4C7-prix-de-la-ville-de-saint-etienne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R3-deauville",
+      "R4-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-cabinet-axens.html",
+        "R1C3-prix-restaurant-carre-sud-bar-pmu-le-sympa.html",
+        "R1C4-prix-de-la-ville-de-saint-galmier.html",
+        "R1C5-prix-a-s-s-e.html",
+        "R1C6-prix-du-conseil-departemental-de-la-loire.html",
+        "R1C7-prix-de-la-ville-de-saint-etienne.html",
+        "R1C8-prix-saint-etienne-metropole-sem.html"
+      ],
+      "R3-deauville": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-cabinet-axens.html",
+        "R3C3-prix-restaurant-carre-sud-bar-pmu-le-sympa.html",
+        "R3C4-prix-de-la-ville-de-saint-galmier.html",
+        "R3C5-prix-a-s-s-e.html",
+        "R3C6-prix-du-conseil-departemental-de-la-loire.html",
+        "R3C7-prix-de-la-ville-de-saint-etienne.html",
+        "R3C8-prix-saint-etienne-metropole-sem.html"
+      ],
+      "R4-reims": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-cabinet-axens.html",
+        "R4C3-prix-restaurant-carre-sud-bar-pmu-le-sympa.html",
+        "R4C4-prix-de-la-ville-de-saint-galmier.html",
+        "R4C5-prix-a-s-s-e.html",
+        "R4C6-prix-du-conseil-departemental-de-la-loire.html",
+        "R4C7-prix-de-la-ville-de-saint-etienne.html",
+        "R4C8-prix-saint-etienne-metropole-sem.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:25.439609Z"
+}

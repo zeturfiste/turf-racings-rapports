@@ -1,0 +1,90 @@
+{
+  "date": "2021-12-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-18",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-18/2021-12-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-18/R1-vincennes/R1C5-prix-de-bouville.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R1-vincennes/R1C8-prix-de-gramat.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R1-vincennes/R1C9-prix-de-lussac.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R2-agen/R2C1-prix-de-cogolin.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R2-agen/R2C2-prix-de-villeroy.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R2-agen/R2C8-prix-de-gramat.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C1-prix-de-cogolin.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C2-prix-de-villeroy.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C3-prix-michel-thoury.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C4-prix-d-evrecy.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C5-prix-de-bouville.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C6-prix-d-apt.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C8-prix-de-gramat.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R3-chantilly/R3C9-prix-de-lussac.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C1-prix-de-cogolin.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C2-prix-de-villeroy.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C4-prix-d-evrecy.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C5-prix-de-bouville.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C7-prix-oscar-collard.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C8-prix-de-gramat.html",
+      "resultats-et-rapports/2021/12/2021-12-18/R4-cagnes-sur-mer/R4C9-prix-de-lussac.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-agen",
+      "R3-chantilly",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-cogolin.html",
+        "R1C2-prix-de-villeroy.html",
+        "R1C3-prix-michel-thoury.html",
+        "R1C4-prix-d-evrecy.html",
+        "R1C5-prix-de-bouville.html",
+        "R1C6-prix-d-apt.html",
+        "R1C7-prix-oscar-collard.html",
+        "R1C8-prix-de-gramat.html",
+        "R1C9-prix-de-lussac.html"
+      ],
+      "R2-agen": [
+        "R2C1-prix-de-cogolin.html",
+        "R2C2-prix-de-villeroy.html",
+        "R2C3-prix-michel-thoury.html",
+        "R2C4-prix-d-evrecy.html",
+        "R2C5-prix-de-bouville.html",
+        "R2C6-prix-d-apt.html",
+        "R2C7-prix-oscar-collard.html",
+        "R2C8-prix-de-gramat.html",
+        "R2C9-prix-de-lussac.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-cogolin.html",
+        "R3C2-prix-de-villeroy.html",
+        "R3C3-prix-michel-thoury.html",
+        "R3C4-prix-d-evrecy.html",
+        "R3C5-prix-de-bouville.html",
+        "R3C6-prix-d-apt.html",
+        "R3C7-prix-oscar-collard.html",
+        "R3C8-prix-de-gramat.html",
+        "R3C9-prix-de-lussac.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-cogolin.html",
+        "R4C2-prix-de-villeroy.html",
+        "R4C3-prix-michel-thoury.html",
+        "R4C4-prix-d-evrecy.html",
+        "R4C5-prix-de-bouville.html",
+        "R4C6-prix-d-apt.html",
+        "R4C7-prix-oscar-collard.html",
+        "R4C8-prix-de-gramat.html",
+        "R4C9-prix-de-lussac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:46.071213Z"
+}

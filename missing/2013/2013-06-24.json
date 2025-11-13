@@ -1,0 +1,127 @@
+{
+  "date": "2013-06-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-24",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-24/2013-06-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C1-prix-du-jardin-anglais.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C2-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C3-prix-du-chemin-du-viaduc.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C4-prix-ridgway.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C5-prix-de-plessis-luzarches.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C6-prix-la-moskowa.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C7-prix-de-gouvieux.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C8-prix-la-canardiere.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R2-chartres/R2C9-prix-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R3-caen/R3C1-prix-du-jardin-anglais.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R3-caen/R3C2-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R3-caen/R3C4-prix-ridgway.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R3-caen/R3C5-prix-de-plessis-luzarches.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C2-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C4-prix-ridgway.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C6-prix-la-moskowa.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C7-prix-de-gouvieux.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C8-prix-la-canardiere.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R5-salon-de-provence/R5C9-prix-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C1-prix-du-jardin-anglais.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C2-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C3-prix-du-chemin-du-viaduc.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C4-prix-ridgway.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C5-prix-de-plessis-luzarches.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C7-prix-de-gouvieux.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C8-prix-la-canardiere.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R6-le-lion-d-angers/R6C9-prix-de-l-arbre-a-fougeres.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C2-prix-du-bois-brandin.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C3-prix-du-chemin-du-viaduc.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C5-prix-de-plessis-luzarches.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C6-prix-la-moskowa.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C7-prix-de-gouvieux.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C8-prix-la-canardiere.html",
+      "resultats-et-rapports/2013/06/2013-06-24/R7-le-croise-laroche/R7C9-prix-de-l-arbre-a-fougeres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-chartres",
+      "R3-caen",
+      "R5-salon-de-provence",
+      "R6-le-lion-d-angers",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-jardin-anglais.html",
+        "R1C2-prix-du-bois-brandin.html",
+        "R1C3-prix-du-chemin-du-viaduc.html",
+        "R1C4-prix-ridgway.html",
+        "R1C5-prix-de-plessis-luzarches.html",
+        "R1C6-prix-la-moskowa.html",
+        "R1C7-prix-de-gouvieux.html",
+        "R1C8-prix-la-canardiere.html",
+        "R1C9-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-du-jardin-anglais.html",
+        "R2C2-prix-du-bois-brandin.html",
+        "R2C3-prix-du-chemin-du-viaduc.html",
+        "R2C4-prix-ridgway.html",
+        "R2C5-prix-de-plessis-luzarches.html",
+        "R2C6-prix-la-moskowa.html",
+        "R2C7-prix-de-gouvieux.html",
+        "R2C8-prix-la-canardiere.html",
+        "R2C9-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-du-jardin-anglais.html",
+        "R3C2-prix-du-bois-brandin.html",
+        "R3C3-prix-du-chemin-du-viaduc.html",
+        "R3C4-prix-ridgway.html",
+        "R3C5-prix-de-plessis-luzarches.html",
+        "R3C6-prix-la-moskowa.html",
+        "R3C7-prix-de-gouvieux.html",
+        "R3C8-prix-la-canardiere.html",
+        "R3C9-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R5-salon-de-provence": [
+        "R5C1-prix-du-jardin-anglais.html",
+        "R5C2-prix-du-bois-brandin.html",
+        "R5C3-prix-du-chemin-du-viaduc.html",
+        "R5C4-prix-ridgway.html",
+        "R5C5-prix-de-plessis-luzarches.html",
+        "R5C6-prix-la-moskowa.html",
+        "R5C7-prix-de-gouvieux.html",
+        "R5C8-prix-la-canardiere.html",
+        "R5C9-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R6-le-lion-d-angers": [
+        "R6C1-prix-du-jardin-anglais.html",
+        "R6C2-prix-du-bois-brandin.html",
+        "R6C3-prix-du-chemin-du-viaduc.html",
+        "R6C4-prix-ridgway.html",
+        "R6C5-prix-de-plessis-luzarches.html",
+        "R6C6-prix-la-moskowa.html",
+        "R6C7-prix-de-gouvieux.html",
+        "R6C8-prix-la-canardiere.html",
+        "R6C9-prix-de-l-arbre-a-fougeres.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-du-jardin-anglais.html",
+        "R7C2-prix-du-bois-brandin.html",
+        "R7C3-prix-du-chemin-du-viaduc.html",
+        "R7C4-prix-ridgway.html",
+        "R7C5-prix-de-plessis-luzarches.html",
+        "R7C6-prix-la-moskowa.html",
+        "R7C7-prix-de-gouvieux.html",
+        "R7C8-prix-la-canardiere.html",
+        "R7C9-prix-de-l-arbre-a-fougeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:14.150318Z"
+}

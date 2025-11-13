@@ -1,0 +1,88 @@
+{
+  "date": "2021-04-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/04/2021-04-25",
+    "date_html": "resultats-et-rapports/2021/04/2021-04-25/2021-04-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/04/2021-04-25/R1-auteuil/R1C6-prix-leon-rambaud.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R1-auteuil/R1C7-prix-romantisme.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R3-toulouse/R3C8-prix-maurice-de-nexon.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R4-cordemais/R4C1-prix-andre-boingneres.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R4-cordemais/R4C4-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R8-agen/R8C4-prix-wild-monarch-pouliches.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R8-agen/R8C5-prix-jean-stern.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R8-agen/R8C8-prix-maurice-de-nexon.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R9-saint-malo/R9C3-prix-du-president-de-la-republique-groupe-iii.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R9-saint-malo/R9C5-prix-jean-stern.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R9-saint-malo/R9C6-prix-leon-rambaud.html",
+      "resultats-et-rapports/2021/04/2021-04-25/R9-saint-malo/R9C8-prix-maurice-de-nexon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-toulouse",
+      "R4-cordemais",
+      "R8-agen",
+      "R9-saint-malo"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-andre-boingneres.html",
+        "R1C2-prix-de-marsan.html",
+        "R1C3-prix-du-president-de-la-republique-groupe-iii.html",
+        "R1C4-prix-wild-monarch-pouliches.html",
+        "R1C5-prix-jean-stern.html",
+        "R1C6-prix-leon-rambaud.html",
+        "R1C7-prix-romantisme.html",
+        "R1C8-prix-maurice-de-nexon.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-andre-boingneres.html",
+        "R3C2-prix-de-marsan.html",
+        "R3C3-prix-du-president-de-la-republique-groupe-iii.html",
+        "R3C4-prix-wild-monarch-pouliches.html",
+        "R3C5-prix-jean-stern.html",
+        "R3C6-prix-leon-rambaud.html",
+        "R3C7-prix-romantisme.html",
+        "R3C8-prix-maurice-de-nexon.html"
+      ],
+      "R4-cordemais": [
+        "R4C1-prix-andre-boingneres.html",
+        "R4C2-prix-de-marsan.html",
+        "R4C3-prix-du-president-de-la-republique-groupe-iii.html",
+        "R4C4-prix-wild-monarch-pouliches.html",
+        "R4C5-prix-jean-stern.html",
+        "R4C6-prix-leon-rambaud.html",
+        "R4C7-prix-romantisme.html",
+        "R4C8-prix-maurice-de-nexon.html"
+      ],
+      "R8-agen": [
+        "R8C1-prix-andre-boingneres.html",
+        "R8C2-prix-de-marsan.html",
+        "R8C3-prix-du-president-de-la-republique-groupe-iii.html",
+        "R8C4-prix-wild-monarch-pouliches.html",
+        "R8C5-prix-jean-stern.html",
+        "R8C6-prix-leon-rambaud.html",
+        "R8C7-prix-romantisme.html",
+        "R8C8-prix-maurice-de-nexon.html"
+      ],
+      "R9-saint-malo": [
+        "R9C1-prix-andre-boingneres.html",
+        "R9C2-prix-de-marsan.html",
+        "R9C3-prix-du-president-de-la-republique-groupe-iii.html",
+        "R9C4-prix-wild-monarch-pouliches.html",
+        "R9C5-prix-jean-stern.html",
+        "R9C6-prix-leon-rambaud.html",
+        "R9C7-prix-romantisme.html",
+        "R9C8-prix-maurice-de-nexon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:12.162635Z"
+}

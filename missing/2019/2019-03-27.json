@@ -1,0 +1,67 @@
+{
+  "date": "2019-03-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-27",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-27/2019-03-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-27/R1-marseille-borely/R1C7-prix-docteur-yves-bachelier.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C1-2e-etape-du-grand-national-du-trot-2019.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C2-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C3-prix-de-cavaillon.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C4-prix-des-caves-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C5-prix-du-chateau-d-if-st-michel-de-marse.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C6-prix-de-salon-de-provence.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R2-compiegne/R2C7-prix-docteur-yves-bachelier.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R4-argentan/R4C3-prix-de-cavaillon.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R4-argentan/R4C4-prix-des-caves-saint-marc-de-caromb.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R4-argentan/R4C5-prix-du-chateau-d-if-st-michel-de-marse.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R4-argentan/R4C7-prix-docteur-yves-bachelier.html",
+      "resultats-et-rapports/2019/03/2019-03-27/R4-argentan/R4C8-prix-de-cassis.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-compiegne",
+      "R4-argentan"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-2e-etape-du-grand-national-du-trot-2019.html",
+        "R1C2-prix-de-cagnes-sur-mer.html",
+        "R1C3-prix-de-cavaillon.html",
+        "R1C4-prix-des-caves-saint-marc-de-caromb.html",
+        "R1C5-prix-du-chateau-d-if-st-michel-de-marse.html",
+        "R1C6-prix-de-salon-de-provence.html",
+        "R1C7-prix-docteur-yves-bachelier.html",
+        "R1C8-prix-de-cassis.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-2e-etape-du-grand-national-du-trot-2019.html",
+        "R2C2-prix-de-cagnes-sur-mer.html",
+        "R2C3-prix-de-cavaillon.html",
+        "R2C4-prix-des-caves-saint-marc-de-caromb.html",
+        "R2C5-prix-du-chateau-d-if-st-michel-de-marse.html",
+        "R2C6-prix-de-salon-de-provence.html",
+        "R2C7-prix-docteur-yves-bachelier.html",
+        "R2C8-prix-de-cassis.html"
+      ],
+      "R4-argentan": [
+        "R4C1-2e-etape-du-grand-national-du-trot-2019.html",
+        "R4C2-prix-de-cagnes-sur-mer.html",
+        "R4C3-prix-de-cavaillon.html",
+        "R4C4-prix-des-caves-saint-marc-de-caromb.html",
+        "R4C5-prix-du-chateau-d-if-st-michel-de-marse.html",
+        "R4C6-prix-de-salon-de-provence.html",
+        "R4C7-prix-docteur-yves-bachelier.html",
+        "R4C8-prix-de-cassis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:04.442689Z"
+}

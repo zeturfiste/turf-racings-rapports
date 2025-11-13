@@ -1,0 +1,53 @@
+{
+  "date": "2006-12-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-07",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-07/2006-12-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-gisors.html",
+        "R1C2-prix-de-mirambeau.html",
+        "R1C3-prix-de-loches.html",
+        "R1C4-prix-narquois.html",
+        "R1C5-prix-32-09-en-direct-avec-prix-de-blois.html",
+        "R1C6-prix-de-digne.html",
+        "R1C7-prix-de-montaigu.html",
+        "R1C8-prix-des-camelias.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-gisors.html",
+        "R2C2-prix-de-mirambeau.html",
+        "R2C3-prix-de-loches.html",
+        "R2C4-prix-narquois.html",
+        "R2C5-prix-32-09-en-direct-avec-prix-de-blois.html",
+        "R2C6-prix-de-digne.html",
+        "R2C7-prix-de-montaigu.html",
+        "R2C8-prix-des-camelias.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-de-gisors.html",
+        "R21C2-prix-de-mirambeau.html",
+        "R21C3-prix-de-loches.html",
+        "R21C4-prix-narquois.html",
+        "R21C5-prix-32-09-en-direct-avec-prix-de-blois.html",
+        "R21C6-prix-de-digne.html",
+        "R21C7-prix-de-montaigu.html",
+        "R21C8-prix-des-camelias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:29.012144Z"
+}

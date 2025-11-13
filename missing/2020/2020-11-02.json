@@ -1,0 +1,70 @@
+{
+  "date": "2020-11-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-02",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-02/2020-11-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-02/R4-saint-galmier/R4C2-prix-de-morlaix.html",
+      "resultats-et-rapports/2020/11/2020-11-02/R6-marseille-borely/R6C2-prix-de-morlaix.html",
+      "resultats-et-rapports/2020/11/2020-11-02/R6-marseille-borely/R6C3-prix-de-bacqueville.html",
+      "resultats-et-rapports/2020/11/2020-11-02/R6-marseille-borely/R6C7-prix-d-angers.html",
+      "resultats-et-rapports/2020/11/2020-11-02/R6-marseille-borely/R6C8-prix-de-savigny-sur-braye.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-toulouse",
+      "R4-saint-galmier",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-arcachon.html",
+        "R1C2-prix-de-morlaix.html",
+        "R1C3-prix-de-bacqueville.html",
+        "R1C4-prix-de-castelsarrasin.html",
+        "R1C5-prix-d-amiens.html",
+        "R1C6-prix-de-lesparre.html",
+        "R1C7-prix-d-angers.html",
+        "R1C8-prix-de-savigny-sur-braye.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-d-arcachon.html",
+        "R3C2-prix-de-morlaix.html",
+        "R3C3-prix-de-bacqueville.html",
+        "R3C4-prix-de-castelsarrasin.html",
+        "R3C5-prix-d-amiens.html",
+        "R3C6-prix-de-lesparre.html",
+        "R3C7-prix-d-angers.html",
+        "R3C8-prix-de-savigny-sur-braye.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-d-arcachon.html",
+        "R4C2-prix-de-morlaix.html",
+        "R4C3-prix-de-bacqueville.html",
+        "R4C4-prix-de-castelsarrasin.html",
+        "R4C5-prix-d-amiens.html",
+        "R4C6-prix-de-lesparre.html",
+        "R4C7-prix-d-angers.html",
+        "R4C8-prix-de-savigny-sur-braye.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-d-arcachon.html",
+        "R6C2-prix-de-morlaix.html",
+        "R6C3-prix-de-bacqueville.html",
+        "R6C4-prix-de-castelsarrasin.html",
+        "R6C5-prix-d-amiens.html",
+        "R6C6-prix-de-lesparre.html",
+        "R6C7-prix-d-angers.html",
+        "R6C8-prix-de-savigny-sur-braye.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:11.832015Z"
+}

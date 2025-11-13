@@ -1,0 +1,62 @@
+{
+  "date": "2012-03-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-23",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-23/2012-03-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-23/R1-chantilly/R1C4-prix-du-bois-d-orival.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R1-chantilly/R1C6-prix-d-alix.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R1-chantilly/R1C7-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R1-chantilly/R1C8-prix-d-amezaga.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R2-lyon-parilly/R2C5-prix-du-bois-de-la-vigne.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R3-vincennes/R3C2-prix-de-la-victoire.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R3-vincennes/R3C3-prix-du-val-saint-georges.html",
+      "resultats-et-rapports/2012/03/2012-03-23/R3-vincennes/R3C6-prix-d-alix.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-lyon-parilly",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-rose.html",
+        "R1C2-prix-de-la-victoire.html",
+        "R1C3-prix-du-val-saint-georges.html",
+        "R1C4-prix-du-bois-d-orival.html",
+        "R1C5-prix-du-bois-de-la-vigne.html",
+        "R1C6-prix-d-alix.html",
+        "R1C7-prix-du-haras-au-bois.html",
+        "R1C8-prix-d-amezaga.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-rose.html",
+        "R2C2-prix-de-la-victoire.html",
+        "R2C3-prix-du-val-saint-georges.html",
+        "R2C4-prix-du-bois-d-orival.html",
+        "R2C5-prix-du-bois-de-la-vigne.html",
+        "R2C6-prix-d-alix.html",
+        "R2C7-prix-du-haras-au-bois.html",
+        "R2C8-prix-d-amezaga.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-rose.html",
+        "R3C2-prix-de-la-victoire.html",
+        "R3C3-prix-du-val-saint-georges.html",
+        "R3C4-prix-du-bois-d-orival.html",
+        "R3C5-prix-du-bois-de-la-vigne.html",
+        "R3C6-prix-d-alix.html",
+        "R3C7-prix-du-haras-au-bois.html",
+        "R3C8-prix-d-amezaga.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:59.282204Z"
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2021-12-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-10",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-10/2021-12-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-10/R1-vincennes/R1C1-prix-edna.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R1-vincennes/R1C4-prix-hermantaria.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C1-prix-edna.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C2-prix-menkalinan.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C3-prix-electra.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C4-prix-hermantaria.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C5-prix-eurynome.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R4-deauville/R4C6-prix-hilda.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C1-prix-edna.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C3-prix-electra.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C4-prix-hermantaria.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C5-prix-eurynome.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C6-prix-hilda.html",
+      "resultats-et-rapports/2021/12/2021-12-10/R5-marseille-vivaux/R5C7-prix-hyperion.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mauquenchy",
+      "R4-deauville",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-edna.html",
+        "R1C2-prix-menkalinan.html",
+        "R1C3-prix-electra.html",
+        "R1C4-prix-hermantaria.html",
+        "R1C5-prix-eurynome.html",
+        "R1C6-prix-hilda.html",
+        "R1C7-prix-hyperion.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-edna.html",
+        "R3C2-prix-menkalinan.html",
+        "R3C3-prix-electra.html",
+        "R3C4-prix-hermantaria.html",
+        "R3C5-prix-eurynome.html",
+        "R3C6-prix-hilda.html",
+        "R3C7-prix-hyperion.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-edna.html",
+        "R4C2-prix-menkalinan.html",
+        "R4C3-prix-electra.html",
+        "R4C4-prix-hermantaria.html",
+        "R4C5-prix-eurynome.html",
+        "R4C6-prix-hilda.html",
+        "R4C7-prix-hyperion.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-edna.html",
+        "R5C2-prix-menkalinan.html",
+        "R5C3-prix-electra.html",
+        "R5C4-prix-hermantaria.html",
+        "R5C5-prix-eurynome.html",
+        "R5C6-prix-hilda.html",
+        "R5C7-prix-hyperion.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:42.935305Z"
+}

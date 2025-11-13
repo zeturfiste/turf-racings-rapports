@@ -1,0 +1,81 @@
+{
+  "date": "2017-03-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-20",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-20/2017-03-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-20/R1-compiegne/R1C4-prix-de-l-amienois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R1-compiegne/R1C5-prix-d-humieres.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R1-compiegne/R1C6-prix-de-soissons.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R1-compiegne/R1C7-prix-d-aiguisy.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R1-compiegne/R1C8-prix-du-laonnois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C2-prix-du-grand-parc.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C3-prix-du-vermandois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C4-prix-de-l-amienois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C5-prix-d-humieres.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C6-prix-de-soissons.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C7-prix-d-aiguisy.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R3-caen/R3C8-prix-du-laonnois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R4-marseille-vivaux/R4C1-prix-benjamin-boutin.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R4-marseille-vivaux/R4C2-prix-du-grand-parc.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R4-marseille-vivaux/R4C3-prix-du-vermandois.html",
+      "resultats-et-rapports/2017/03/2017-03-20/R6-angers/R6C2-prix-du-grand-parc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-caen",
+      "R4-marseille-vivaux",
+      "R6-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-benjamin-boutin.html",
+        "R1C2-prix-du-grand-parc.html",
+        "R1C3-prix-du-vermandois.html",
+        "R1C4-prix-de-l-amienois.html",
+        "R1C5-prix-d-humieres.html",
+        "R1C6-prix-de-soissons.html",
+        "R1C7-prix-d-aiguisy.html",
+        "R1C8-prix-du-laonnois.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-benjamin-boutin.html",
+        "R3C2-prix-du-grand-parc.html",
+        "R3C3-prix-du-vermandois.html",
+        "R3C4-prix-de-l-amienois.html",
+        "R3C5-prix-d-humieres.html",
+        "R3C6-prix-de-soissons.html",
+        "R3C7-prix-d-aiguisy.html",
+        "R3C8-prix-du-laonnois.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-benjamin-boutin.html",
+        "R4C2-prix-du-grand-parc.html",
+        "R4C3-prix-du-vermandois.html",
+        "R4C4-prix-de-l-amienois.html",
+        "R4C5-prix-d-humieres.html",
+        "R4C6-prix-de-soissons.html",
+        "R4C7-prix-d-aiguisy.html",
+        "R4C8-prix-du-laonnois.html"
+      ],
+      "R6-angers": [
+        "R6C1-prix-benjamin-boutin.html",
+        "R6C2-prix-du-grand-parc.html",
+        "R6C3-prix-du-vermandois.html",
+        "R6C4-prix-de-l-amienois.html",
+        "R6C5-prix-d-humieres.html",
+        "R6C6-prix-de-soissons.html",
+        "R6C7-prix-d-aiguisy.html",
+        "R6C8-prix-du-laonnois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:14.542269Z"
+}

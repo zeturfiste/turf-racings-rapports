@@ -1,0 +1,68 @@
+{
+  "date": "2023-10-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-17",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-17/2023-10-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-17/R1-vincennes/R1C5-prix-columba.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R1-vincennes/R1C8-prix-algorah.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R3-argentan/R3C4-prix-orion.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R3-argentan/R3C5-prix-columba.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R3-argentan/R3C6-prix-cyrene.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R3-argentan/R3C7-prix-arethusa.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R3-argentan/R3C8-prix-algorah.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C1-prix-freia.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C2-prix-euterpe.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C3-prix-prymno.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C4-prix-orion.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C6-prix-cyrene.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C7-prix-arethusa.html",
+      "resultats-et-rapports/2023/10/2023-10-17/R4-lyon-la-soie/R4C8-prix-algorah.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-argentan",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-freia.html",
+        "R1C2-prix-euterpe.html",
+        "R1C3-prix-prymno.html",
+        "R1C4-prix-orion.html",
+        "R1C5-prix-columba.html",
+        "R1C6-prix-cyrene.html",
+        "R1C7-prix-arethusa.html",
+        "R1C8-prix-algorah.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-freia.html",
+        "R3C2-prix-euterpe.html",
+        "R3C3-prix-prymno.html",
+        "R3C4-prix-orion.html",
+        "R3C5-prix-columba.html",
+        "R3C6-prix-cyrene.html",
+        "R3C7-prix-arethusa.html",
+        "R3C8-prix-algorah.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-freia.html",
+        "R4C2-prix-euterpe.html",
+        "R4C3-prix-prymno.html",
+        "R4C4-prix-orion.html",
+        "R4C5-prix-columba.html",
+        "R4C6-prix-cyrene.html",
+        "R4C7-prix-arethusa.html",
+        "R4C8-prix-algorah.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:49.021029Z"
+}

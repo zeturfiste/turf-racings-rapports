@@ -1,0 +1,109 @@
+{
+  "date": "2018-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-24",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-24/2018-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-24/R1-deauville/R1C9-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R3-strasbourg/R3C1-prix-des-reservoirs.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R3-strasbourg/R3C5-prix-de-lexington.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R3-strasbourg/R3C7-prix-de-la-falaise.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C1-prix-des-reservoirs.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C2-prix-des-equidays.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C5-prix-de-lexington.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C6-prix-galop-expo.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C7-prix-de-la-falaise.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C8-prix-des-ventes-d-octobre.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R4-toulouse/R4C9-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C1-prix-des-reservoirs.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C2-prix-des-equidays.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C3-prix-isonomy.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C4-prix-de-kildare.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C5-prix-de-lexington.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C6-prix-galop-expo.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C7-prix-de-la-falaise.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C8-prix-des-ventes-d-octobre.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R5-enghien-soisy/R5C9-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C1-prix-des-reservoirs.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C2-prix-des-equidays.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C3-prix-isonomy.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C5-prix-de-lexington.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C6-prix-galop-expo.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C7-prix-de-la-falaise.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C8-prix-des-ventes-d-octobre.html",
+      "resultats-et-rapports/2018/10/2018-10-24/R7-caen/R7C9-prix-de-l-etablissement-des-ventes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-strasbourg",
+      "R4-toulouse",
+      "R5-enghien-soisy",
+      "R7-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-reservoirs.html",
+        "R1C2-prix-des-equidays.html",
+        "R1C3-prix-isonomy.html",
+        "R1C4-prix-de-kildare.html",
+        "R1C5-prix-de-lexington.html",
+        "R1C6-prix-galop-expo.html",
+        "R1C7-prix-de-la-falaise.html",
+        "R1C8-prix-des-ventes-d-octobre.html",
+        "R1C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R3-strasbourg": [
+        "R3C1-prix-des-reservoirs.html",
+        "R3C2-prix-des-equidays.html",
+        "R3C3-prix-isonomy.html",
+        "R3C4-prix-de-kildare.html",
+        "R3C5-prix-de-lexington.html",
+        "R3C6-prix-galop-expo.html",
+        "R3C7-prix-de-la-falaise.html",
+        "R3C8-prix-des-ventes-d-octobre.html",
+        "R3C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-des-reservoirs.html",
+        "R4C2-prix-des-equidays.html",
+        "R4C3-prix-isonomy.html",
+        "R4C4-prix-de-kildare.html",
+        "R4C5-prix-de-lexington.html",
+        "R4C6-prix-galop-expo.html",
+        "R4C7-prix-de-la-falaise.html",
+        "R4C8-prix-des-ventes-d-octobre.html",
+        "R4C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R5-enghien-soisy": [
+        "R5C1-prix-des-reservoirs.html",
+        "R5C2-prix-des-equidays.html",
+        "R5C3-prix-isonomy.html",
+        "R5C4-prix-de-kildare.html",
+        "R5C5-prix-de-lexington.html",
+        "R5C6-prix-galop-expo.html",
+        "R5C7-prix-de-la-falaise.html",
+        "R5C8-prix-des-ventes-d-octobre.html",
+        "R5C9-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R7-caen": [
+        "R7C1-prix-des-reservoirs.html",
+        "R7C2-prix-des-equidays.html",
+        "R7C3-prix-isonomy.html",
+        "R7C4-prix-de-kildare.html",
+        "R7C5-prix-de-lexington.html",
+        "R7C6-prix-galop-expo.html",
+        "R7C7-prix-de-la-falaise.html",
+        "R7C8-prix-des-ventes-d-octobre.html",
+        "R7C9-prix-de-l-etablissement-des-ventes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:22.281842Z"
+}

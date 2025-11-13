@@ -1,0 +1,45 @@
+{
+  "date": "2016-02-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-12",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-12/2016-02-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-12/R4-toulouse/R4C7-prix-d-olargues.html",
+      "resultats-et-rapports/2016/02/2016-02-12/R4-toulouse/R4C8-prix-de-cazouls-les-beziers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-jules-roucayrol.html",
+        "R1C2-prix-de-pezenas.html",
+        "R1C3-prix-de-seville.html",
+        "R1C4-prix-de-bedarieux.html",
+        "R1C5-prix-des-gorges-du-verdon.html",
+        "R1C6-prix-de-beziers-grand-prix-des-apprentis-lads-jockeys.html",
+        "R1C7-prix-d-olargues.html",
+        "R1C8-prix-de-cazouls-les-beziers.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-jules-roucayrol.html",
+        "R4C2-prix-de-pezenas.html",
+        "R4C3-prix-de-seville.html",
+        "R4C4-prix-de-bedarieux.html",
+        "R4C5-prix-des-gorges-du-verdon.html",
+        "R4C6-prix-de-beziers-grand-prix-des-apprentis-lads-jockeys.html",
+        "R4C7-prix-d-olargues.html",
+        "R4C8-prix-de-cazouls-les-beziers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:13.165148Z"
+}

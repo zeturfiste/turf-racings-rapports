@@ -1,0 +1,65 @@
+{
+  "date": "2023-03-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/03/2023-03-21",
+    "date_html": "resultats-et-rapports/2023/03/2023-03-21/2023-03-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/03/2023-03-21/R1-chantilly/R1C6-prix-riverqueen.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R3-saint-brieuc/R3C2-prix-du-bassin-du-prince.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R3-saint-brieuc/R3C3-prix-du-belvedere.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R3-saint-brieuc/R3C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R3-saint-brieuc/R3C7-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R3-saint-brieuc/R3C8-prix-des-frayoirs.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R4-enghien-soisy/R4C1-prix-dunette.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R4-enghien-soisy/R4C3-prix-du-belvedere.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R4-enghien-soisy/R4C5-prix-ronde-de-nuit.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R4-enghien-soisy/R4C6-prix-riverqueen.html",
+      "resultats-et-rapports/2023/03/2023-03-21/R4-enghien-soisy/R4C7-prix-du-canal-de-la-machine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-saint-brieuc",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-dunette.html",
+        "R1C2-prix-du-bassin-du-prince.html",
+        "R1C3-prix-du-belvedere.html",
+        "R1C4-prix-du-bassin-des-serruriers.html",
+        "R1C5-prix-ronde-de-nuit.html",
+        "R1C6-prix-riverqueen.html",
+        "R1C7-prix-du-canal-de-la-machine.html",
+        "R1C8-prix-des-frayoirs.html"
+      ],
+      "R3-saint-brieuc": [
+        "R3C1-prix-dunette.html",
+        "R3C2-prix-du-bassin-du-prince.html",
+        "R3C3-prix-du-belvedere.html",
+        "R3C4-prix-du-bassin-des-serruriers.html",
+        "R3C5-prix-ronde-de-nuit.html",
+        "R3C6-prix-riverqueen.html",
+        "R3C7-prix-du-canal-de-la-machine.html",
+        "R3C8-prix-des-frayoirs.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-dunette.html",
+        "R4C2-prix-du-bassin-du-prince.html",
+        "R4C3-prix-du-belvedere.html",
+        "R4C4-prix-du-bassin-des-serruriers.html",
+        "R4C5-prix-ronde-de-nuit.html",
+        "R4C6-prix-riverqueen.html",
+        "R4C7-prix-du-canal-de-la-machine.html",
+        "R4C8-prix-des-frayoirs.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:30.403131Z"
+}

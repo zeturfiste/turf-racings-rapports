@@ -1,0 +1,56 @@
+{
+  "date": "2005-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-27",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-27/2005-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-clairefontaine",
+      "R3-bergsaker"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-toulon.html",
+        "R1C2-prix-du-loiret.html",
+        "R1C3-prix-ovidius-naso.html",
+        "R1C4-prix-de-nueil-sur-layon.html",
+        "R1C5-prix-de-mortain.html",
+        "R1C6-prix-de-provence.html",
+        "R1C7-prix-de-tours.html",
+        "R1C8-prix-d-asnieres.html",
+        "R1C9-prix-de-bosc-renoult.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-toulon.html",
+        "R2C2-prix-du-loiret.html",
+        "R2C3-prix-ovidius-naso.html",
+        "R2C4-prix-de-nueil-sur-layon.html",
+        "R2C5-prix-de-mortain.html",
+        "R2C6-prix-de-provence.html",
+        "R2C7-prix-de-tours.html",
+        "R2C8-prix-d-asnieres.html",
+        "R2C9-prix-de-bosc-renoult.html"
+      ],
+      "R3-bergsaker": [
+        "R3C1-prix-de-toulon.html",
+        "R3C2-prix-du-loiret.html",
+        "R3C3-prix-ovidius-naso.html",
+        "R3C4-prix-de-nueil-sur-layon.html",
+        "R3C5-prix-de-mortain.html",
+        "R3C6-prix-de-provence.html",
+        "R3C7-prix-de-tours.html",
+        "R3C8-prix-d-asnieres.html",
+        "R3C9-prix-de-bosc-renoult.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:47.455131Z"
+}

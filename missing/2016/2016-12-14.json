@@ -1,0 +1,45 @@
+{
+  "date": "2016-12-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-14",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-14/2016-12-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-14/R3-deauville/R3C4-prix-auguste-francois.html",
+      "resultats-et-rapports/2016/12/2016-12-14/R3-deauville/R3C7-prix-du-sap.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-guy-lux-pas-d-enfants-sans-noel.html",
+        "R1C2-prix-des-camelias.html",
+        "R1C3-prix-les-mathes-la-palmyre.html",
+        "R1C4-prix-auguste-francois.html",
+        "R1C5-prix-de-blanquefort.html",
+        "R1C6-prix-de-villers-cotterets.html",
+        "R1C7-prix-du-sap.html",
+        "R1C8-prix-de-chambly.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-guy-lux-pas-d-enfants-sans-noel.html",
+        "R3C2-prix-des-camelias.html",
+        "R3C3-prix-les-mathes-la-palmyre.html",
+        "R3C4-prix-auguste-francois.html",
+        "R3C5-prix-de-blanquefort.html",
+        "R3C6-prix-de-villers-cotterets.html",
+        "R3C7-prix-du-sap.html",
+        "R3C8-prix-de-chambly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:51.450685Z"
+}

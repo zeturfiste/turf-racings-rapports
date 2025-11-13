@@ -1,0 +1,48 @@
+{
+  "date": "2016-02-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-10",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-10/2016-02-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-10/R1-vincennes/R1C7-prix-de-montlucon-groupe-a.html",
+      "resultats-et-rapports/2016/02/2016-02-10/R3-cagnes-sur-mer/R3C1-prix-de-douvres.html",
+      "resultats-et-rapports/2016/02/2016-02-10/R3-cagnes-sur-mer/R3C2-prix-de-l-ille-et-vilaine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-douvres.html",
+        "R1C2-prix-de-l-ille-et-vilaine.html",
+        "R1C3-prix-de-rozay-en-brie.html",
+        "R1C4-prix-de-bourg-en-bresse.html",
+        "R1C5-prix-de-vibraye.html",
+        "R1C6-prix-de-la-genevraye.html",
+        "R1C7-prix-de-montlucon-groupe-a.html",
+        "R1C8-prix-de-montlucon-groupe-b.html",
+        "R1C9-prix-de-perigueux.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-douvres.html",
+        "R3C2-prix-de-l-ille-et-vilaine.html",
+        "R3C3-prix-de-rozay-en-brie.html",
+        "R3C4-prix-de-bourg-en-bresse.html",
+        "R3C5-prix-de-vibraye.html",
+        "R3C6-prix-de-la-genevraye.html",
+        "R3C7-prix-de-montlucon-groupe-a.html",
+        "R3C8-prix-de-montlucon-groupe-b.html",
+        "R3C9-prix-de-perigueux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:12.831780Z"
+}

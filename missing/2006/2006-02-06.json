@@ -1,0 +1,42 @@
+{
+  "date": "2006-02-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-06",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-06/2006-02-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-gallus-ii.html",
+        "R1C2-prix-de-montsalvy.html",
+        "R1C3-prix-de-l-authie.html",
+        "R1C4-prix-cyrano-ii.html",
+        "R1C5-prix-de-joncy.html",
+        "R1C6-prix-de-giraumont.html",
+        "R1C7-prix-de-fenain-groupe-a.html",
+        "R1C8-prix-de-fenain-groupe-b.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-gallus-ii.html",
+        "R2C2-prix-de-montsalvy.html",
+        "R2C3-prix-de-l-authie.html",
+        "R2C4-prix-cyrano-ii.html",
+        "R2C5-prix-de-joncy.html",
+        "R2C6-prix-de-giraumont.html",
+        "R2C7-prix-de-fenain-groupe-a.html",
+        "R2C8-prix-de-fenain-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:14.168453Z"
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2023-12-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/12/2023-12-21",
+    "date_html": "resultats-et-rapports/2023/12/2023-12-21/2023-12-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/12/2023-12-21/R1-deauville/R1C8-prix-de-l-atelier-des-nympheas.html",
+      "resultats-et-rapports/2023/12/2023-12-21/R3-meslay-du-maine/R3C6-prix-du-pont-japonais.html",
+      "resultats-et-rapports/2023/12/2023-12-21/R4-cabourg/R4C5-prix-petite-etoile-fonds-europeen-de-l-elevage.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-meslay-du-maine",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-giverny.html",
+        "R1C2-prix-helen-street.html",
+        "R1C3-prix-de-mortagne-au-perche.html",
+        "R1C4-prix-des-estampes-japonaises.html",
+        "R1C5-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-du-pont-japonais.html",
+        "R1C7-prix-du-jardin-d-eau.html",
+        "R1C8-prix-de-l-atelier-des-nympheas.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-de-giverny.html",
+        "R3C2-prix-helen-street.html",
+        "R3C3-prix-de-mortagne-au-perche.html",
+        "R3C4-prix-des-estampes-japonaises.html",
+        "R3C5-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-du-pont-japonais.html",
+        "R3C7-prix-du-jardin-d-eau.html",
+        "R3C8-prix-de-l-atelier-des-nympheas.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-giverny.html",
+        "R4C2-prix-helen-street.html",
+        "R4C3-prix-de-mortagne-au-perche.html",
+        "R4C4-prix-des-estampes-japonaises.html",
+        "R4C5-prix-petite-etoile-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-du-pont-japonais.html",
+        "R4C7-prix-du-jardin-d-eau.html",
+        "R4C8-prix-de-l-atelier-des-nympheas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:14.012690Z"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2021-03-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-18",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-18/2021-03-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-18/R1-caen/R1C1-prix-de-canapville.html",
+      "resultats-et-rapports/2021/03/2021-03-18/R1-caen/R1C2-prix-de-luc-sur-mer.html",
+      "resultats-et-rapports/2021/03/2021-03-18/R1-caen/R1C4-prix-de-puchay.html",
+      "resultats-et-rapports/2021/03/2021-03-18/R1-caen/R1C5-prix-de-rubercy.html",
+      "resultats-et-rapports/2021/03/2021-03-18/R4-lyon-la-soie/R4C5-prix-de-rubercy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R3-chantilly",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-canapville.html",
+        "R1C2-prix-de-luc-sur-mer.html",
+        "R1C3-prix-de-saint-wandrille.html",
+        "R1C4-prix-de-puchay.html",
+        "R1C5-prix-de-rubercy.html",
+        "R1C6-prix-de-frenouville.html",
+        "R1C7-prix-de-cauvicourt.html",
+        "R1C8-prix-de-berville.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-canapville.html",
+        "R3C2-prix-de-luc-sur-mer.html",
+        "R3C3-prix-de-saint-wandrille.html",
+        "R3C4-prix-de-puchay.html",
+        "R3C5-prix-de-rubercy.html",
+        "R3C6-prix-de-frenouville.html",
+        "R3C7-prix-de-cauvicourt.html",
+        "R3C8-prix-de-berville.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-canapville.html",
+        "R4C2-prix-de-luc-sur-mer.html",
+        "R4C3-prix-de-saint-wandrille.html",
+        "R4C4-prix-de-puchay.html",
+        "R4C5-prix-de-rubercy.html",
+        "R4C6-prix-de-frenouville.html",
+        "R4C7-prix-de-cauvicourt.html",
+        "R4C8-prix-de-berville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:57.296120Z"
+}

@@ -1,0 +1,99 @@
+{
+  "date": "2018-05-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/05/2018-05-04",
+    "date_html": "resultats-et-rapports/2018/05/2018-05-04/2018-05-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/05/2018-05-04/R1-vincennes/R1C5-prix-fabricius.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R1-vincennes/R1C6-prix-ida.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C1-prix-belinda.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C2-prix-bettina.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C3-prix-zosma.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C4-prix-glauke.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C5-prix-fabricius.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C6-prix-ida.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R3-lyon-parilly/R3C7-prix-asia.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C1-prix-belinda.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C2-prix-bettina.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C3-prix-zosma.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C4-prix-glauke.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C5-prix-fabricius.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C6-prix-ida.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R4-compiegne/R4C7-prix-asia.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C1-prix-belinda.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C2-prix-bettina.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C3-prix-zosma.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C4-prix-glauke.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C5-prix-fabricius.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C6-prix-ida.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R6-laval/R6C7-prix-asia.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R7-toulouse/R7C1-prix-belinda.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R7-toulouse/R7C2-prix-bettina.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R7-toulouse/R7C3-prix-zosma.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R7-toulouse/R7C5-prix-fabricius.html",
+      "resultats-et-rapports/2018/05/2018-05-04/R7-toulouse/R7C7-prix-asia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lyon-parilly",
+      "R4-compiegne",
+      "R6-laval",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-belinda.html",
+        "R1C2-prix-bettina.html",
+        "R1C3-prix-zosma.html",
+        "R1C4-prix-glauke.html",
+        "R1C5-prix-fabricius.html",
+        "R1C6-prix-ida.html",
+        "R1C7-prix-asia.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-belinda.html",
+        "R3C2-prix-bettina.html",
+        "R3C3-prix-zosma.html",
+        "R3C4-prix-glauke.html",
+        "R3C5-prix-fabricius.html",
+        "R3C6-prix-ida.html",
+        "R3C7-prix-asia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-belinda.html",
+        "R4C2-prix-bettina.html",
+        "R4C3-prix-zosma.html",
+        "R4C4-prix-glauke.html",
+        "R4C5-prix-fabricius.html",
+        "R4C6-prix-ida.html",
+        "R4C7-prix-asia.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-belinda.html",
+        "R6C2-prix-bettina.html",
+        "R6C3-prix-zosma.html",
+        "R6C4-prix-glauke.html",
+        "R6C5-prix-fabricius.html",
+        "R6C6-prix-ida.html",
+        "R6C7-prix-asia.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-belinda.html",
+        "R7C2-prix-bettina.html",
+        "R7C3-prix-zosma.html",
+        "R7C4-prix-glauke.html",
+        "R7C5-prix-fabricius.html",
+        "R7C6-prix-ida.html",
+        "R7C7-prix-asia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:22.759041Z"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2021-02-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-27",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-27/2021-02-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C1-prix-partenaire-arqana.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C2-prix-policeman.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C4-prix-partenaire-pisoni.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C5-prix-partenaire-champagne-duval-leroy.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R1-cagnes-sur-mer/R1C8-prix-partenaire-azur-trucks.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R2-amiens/R2C7-prix-partenaire-antibes-sharks.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R2-amiens/R2C8-prix-partenaire-azur-trucks.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R3-nantes/R3C1-prix-partenaire-arqana.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R3-nantes/R3C2-prix-policeman.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R3-nantes/R3C4-prix-partenaire-pisoni.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R3-nantes/R3C5-prix-partenaire-champagne-duval-leroy.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R3-nantes/R3C8-prix-partenaire-azur-trucks.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C1-prix-partenaire-arqana.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C2-prix-policeman.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C4-prix-partenaire-pisoni.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C5-prix-partenaire-champagne-duval-leroy.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C7-prix-partenaire-antibes-sharks.html",
+      "resultats-et-rapports/2021/02/2021-02-27/R4-saint-galmier/R4C8-prix-partenaire-azur-trucks.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-amiens",
+      "R3-nantes",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-partenaire-arqana.html",
+        "R1C2-prix-policeman.html",
+        "R1C3-prix-partenaire-groupe-cavallari.html",
+        "R1C4-prix-partenaire-pisoni.html",
+        "R1C5-prix-partenaire-champagne-duval-leroy.html",
+        "R1C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+        "R1C7-prix-partenaire-antibes-sharks.html",
+        "R1C8-prix-partenaire-azur-trucks.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-partenaire-arqana.html",
+        "R2C2-prix-policeman.html",
+        "R2C3-prix-partenaire-groupe-cavallari.html",
+        "R2C4-prix-partenaire-pisoni.html",
+        "R2C5-prix-partenaire-champagne-duval-leroy.html",
+        "R2C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+        "R2C7-prix-partenaire-antibes-sharks.html",
+        "R2C8-prix-partenaire-azur-trucks.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-partenaire-arqana.html",
+        "R3C2-prix-policeman.html",
+        "R3C3-prix-partenaire-groupe-cavallari.html",
+        "R3C4-prix-partenaire-pisoni.html",
+        "R3C5-prix-partenaire-champagne-duval-leroy.html",
+        "R3C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+        "R3C7-prix-partenaire-antibes-sharks.html",
+        "R3C8-prix-partenaire-azur-trucks.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-partenaire-arqana.html",
+        "R4C2-prix-policeman.html",
+        "R4C3-prix-partenaire-groupe-cavallari.html",
+        "R4C4-prix-partenaire-pisoni.html",
+        "R4C5-prix-partenaire-champagne-duval-leroy.html",
+        "R4C6-grand-prix-du-departement-06-1ere-defi-du-galop-2021.html",
+        "R4C7-prix-partenaire-antibes-sharks.html",
+        "R4C8-prix-partenaire-azur-trucks.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:50.733603Z"
+}

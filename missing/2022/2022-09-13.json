@@ -1,0 +1,78 @@
+{
+  "date": "2022-09-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-13",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-13/2022-09-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-13/R1-auteuil/R1C5-prix-finot-poulains-peloton-b.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R1-auteuil/R1C7-prix-pierre-et-bernard-cypres.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R1-auteuil/R1C9-prix-henri-gleizes.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C1-prix-ucello-ii.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C2-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C3-prix-finot-poulains-peloton-a.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C4-prix-meli-melo.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C5-prix-finot-poulains-peloton-b.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C6-prix-de-l-orleanais.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C7-prix-pierre-et-bernard-cypres.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C8-prix-saint-etienne-de-corcoue.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R3-lyon-parilly/R3C9-prix-henri-gleizes.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C1-prix-ucello-ii.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C2-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C3-prix-finot-poulains-peloton-a.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C4-prix-meli-melo.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C5-prix-finot-poulains-peloton-b.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C6-prix-de-l-orleanais.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C7-prix-pierre-et-bernard-cypres.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C8-prix-saint-etienne-de-corcoue.html",
+      "resultats-et-rapports/2022/09/2022-09-13/R4-vincennes/R4C9-prix-henri-gleizes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-ucello-ii.html",
+        "R1C2-prix-alain-et-gilles-de-goulaine.html",
+        "R1C3-prix-finot-poulains-peloton-a.html",
+        "R1C4-prix-meli-melo.html",
+        "R1C5-prix-finot-poulains-peloton-b.html",
+        "R1C6-prix-de-l-orleanais.html",
+        "R1C7-prix-pierre-et-bernard-cypres.html",
+        "R1C8-prix-saint-etienne-de-corcoue.html",
+        "R1C9-prix-henri-gleizes.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-ucello-ii.html",
+        "R3C2-prix-alain-et-gilles-de-goulaine.html",
+        "R3C3-prix-finot-poulains-peloton-a.html",
+        "R3C4-prix-meli-melo.html",
+        "R3C5-prix-finot-poulains-peloton-b.html",
+        "R3C6-prix-de-l-orleanais.html",
+        "R3C7-prix-pierre-et-bernard-cypres.html",
+        "R3C8-prix-saint-etienne-de-corcoue.html",
+        "R3C9-prix-henri-gleizes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-ucello-ii.html",
+        "R4C2-prix-alain-et-gilles-de-goulaine.html",
+        "R4C3-prix-finot-poulains-peloton-a.html",
+        "R4C4-prix-meli-melo.html",
+        "R4C5-prix-finot-poulains-peloton-b.html",
+        "R4C6-prix-de-l-orleanais.html",
+        "R4C7-prix-pierre-et-bernard-cypres.html",
+        "R4C8-prix-saint-etienne-de-corcoue.html",
+        "R4C9-prix-henri-gleizes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:24.495857Z"
+}

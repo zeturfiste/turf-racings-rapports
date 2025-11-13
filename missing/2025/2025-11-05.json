@@ -1,0 +1,61 @@
+{
+  "date": "2025-11-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/11/2025-11-05",
+    "date_html": "resultats-et-rapports/2025/11/2025-11-05/2025-11-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/11/2025-11-05/R3-auteuil/R3C3-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R3-auteuil/R3C5-prix-de-la-region-pays-de-la-loire.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R3-auteuil/R3C7-prix-bioret-cheval.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R4-marseille-vivaux/R4C2-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R4-marseille-vivaux/R4C3-prix-mg-store-nantes.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R4-marseille-vivaux/R4C5-prix-de-la-region-pays-de-la-loire.html",
+      "resultats-et-rapports/2025/11/2025-11-05/R4-marseille-vivaux/R4C6-prix-du-salon-du-cheval-d-angers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R3-auteuil",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-oniris.html",
+        "R1C2-grand-national-du-trot.html",
+        "R1C3-prix-mg-store-nantes.html",
+        "R1C4-prix-pmu-le-news.html",
+        "R1C5-prix-de-la-region-pays-de-la-loire.html",
+        "R1C6-prix-du-salon-du-cheval-d-angers.html",
+        "R1C7-prix-bioret-cheval.html",
+        "R1C8-prix-rca-la-radio.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-oniris.html",
+        "R3C2-grand-national-du-trot.html",
+        "R3C3-prix-mg-store-nantes.html",
+        "R3C4-prix-pmu-le-news.html",
+        "R3C5-prix-de-la-region-pays-de-la-loire.html",
+        "R3C6-prix-du-salon-du-cheval-d-angers.html",
+        "R3C7-prix-bioret-cheval.html",
+        "R3C8-prix-rca-la-radio.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-oniris.html",
+        "R4C2-grand-national-du-trot.html",
+        "R4C3-prix-mg-store-nantes.html",
+        "R4C4-prix-pmu-le-news.html",
+        "R4C5-prix-de-la-region-pays-de-la-loire.html",
+        "R4C6-prix-du-salon-du-cheval-d-angers.html",
+        "R4C7-prix-bioret-cheval.html",
+        "R4C8-prix-rca-la-radio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:29.848375Z"
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2018-11-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/11/2018-11-03",
+    "date_html": "resultats-et-rapports/2018/11/2018-11-03/2018-11-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/11/2018-11-03/R1-auteuil/R1C2-prix-bournosienne.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R3-la-rochelle/R3C6-prix-robert-weill.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R4-amiens/R4C1-118eme-prix-de-france.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R4-amiens/R4C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R4-amiens/R4C6-prix-robert-weill.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R5-toulouse/R5C1-118eme-prix-de-france.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R5-toulouse/R5C3-prix-congress.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R5-toulouse/R5C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R5-toulouse/R5C6-prix-robert-weill.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R5-toulouse/R5C7-prix-oeneas.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R7-durtal/R7C2-prix-bournosienne.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R7-durtal/R7C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R7-durtal/R7C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R7-durtal/R7C6-prix-robert-weill.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R7-durtal/R7C7-prix-oeneas.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C1-118eme-prix-de-france.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C2-prix-bournosienne.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C3-prix-congress.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C6-prix-robert-weill.html",
+      "resultats-et-rapports/2018/11/2018-11-03/R8-marseille-borely/R8C7-prix-oeneas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-saint-brieuc",
+      "R3-la-rochelle",
+      "R4-amiens",
+      "R5-toulouse",
+      "R7-durtal",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-118eme-prix-de-france.html",
+        "R1C2-prix-bournosienne.html",
+        "R1C3-prix-congress.html",
+        "R1C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R1C5-grand-prix-d-automne.html",
+        "R1C6-prix-robert-weill.html",
+        "R1C7-prix-oeneas.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-118eme-prix-de-france.html",
+        "R2C2-prix-bournosienne.html",
+        "R2C3-prix-congress.html",
+        "R2C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R2C5-grand-prix-d-automne.html",
+        "R2C6-prix-robert-weill.html",
+        "R2C7-prix-oeneas.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-118eme-prix-de-france.html",
+        "R3C2-prix-bournosienne.html",
+        "R3C3-prix-congress.html",
+        "R3C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R3C5-grand-prix-d-automne.html",
+        "R3C6-prix-robert-weill.html",
+        "R3C7-prix-oeneas.html"
+      ],
+      "R4-amiens": [
+        "R4C1-118eme-prix-de-france.html",
+        "R4C2-prix-bournosienne.html",
+        "R4C3-prix-congress.html",
+        "R4C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R4C5-grand-prix-d-automne.html",
+        "R4C6-prix-robert-weill.html",
+        "R4C7-prix-oeneas.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-118eme-prix-de-france.html",
+        "R5C2-prix-bournosienne.html",
+        "R5C3-prix-congress.html",
+        "R5C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R5C5-grand-prix-d-automne.html",
+        "R5C6-prix-robert-weill.html",
+        "R5C7-prix-oeneas.html"
+      ],
+      "R7-durtal": [
+        "R7C1-118eme-prix-de-france.html",
+        "R7C2-prix-bournosienne.html",
+        "R7C3-prix-congress.html",
+        "R7C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R7C5-grand-prix-d-automne.html",
+        "R7C6-prix-robert-weill.html",
+        "R7C7-prix-oeneas.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-118eme-prix-de-france.html",
+        "R8C2-prix-bournosienne.html",
+        "R8C3-prix-congress.html",
+        "R8C4-prix-du-salon-du-cheval-de-paris-prix-cacao.html",
+        "R8C5-grand-prix-d-automne.html",
+        "R8C6-prix-robert-weill.html",
+        "R8C7-prix-oeneas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:25.677800Z"
+}

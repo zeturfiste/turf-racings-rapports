@@ -1,0 +1,50 @@
+{
+  "date": "2006-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-10",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-10/2006-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-caen",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-hubert-de-catheu-prix-de-la-plaine-des-sablons.html",
+        "R1C2-prix-de-malesherbes.html",
+        "R1C3-prix-de-la-chapelle-la-reine.html",
+        "R1C4-prix-de-barbizon.html",
+        "R1C5-prix-des-epiceas.html",
+        "R1C6-prix-des-cypres.html",
+        "R1C7-prix-des-rochers-de-fontainebleau.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-hubert-de-catheu-prix-de-la-plaine-des-sablons.html",
+        "R2C2-prix-de-malesherbes.html",
+        "R2C3-prix-de-la-chapelle-la-reine.html",
+        "R2C4-prix-de-barbizon.html",
+        "R2C5-prix-des-epiceas.html",
+        "R2C6-prix-des-cypres.html",
+        "R2C7-prix-des-rochers-de-fontainebleau.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-hubert-de-catheu-prix-de-la-plaine-des-sablons.html",
+        "R3C2-prix-de-malesherbes.html",
+        "R3C3-prix-de-la-chapelle-la-reine.html",
+        "R3C4-prix-de-barbizon.html",
+        "R3C5-prix-des-epiceas.html",
+        "R3C6-prix-des-cypres.html",
+        "R3C7-prix-des-rochers-de-fontainebleau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:19.323537Z"
+}

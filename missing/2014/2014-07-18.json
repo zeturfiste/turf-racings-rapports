@@ -1,0 +1,110 @@
+{
+  "date": "2014-07-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-18",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-18/2014-07-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-18/R2-chantilly/R2C6-prix-jacques-boutier.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R3-marseille-borely/R3C2-prix-michel-charbon.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R3-marseille-borely/R3C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C2-prix-michel-charbon.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C3-prix-dunixi.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C4-prix-de-la-navarre.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C6-prix-jacques-boutier.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C7-prix-jean-larre.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R4-cabourg/R4C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C1-prix-langalerie.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C2-prix-michel-charbon.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C3-prix-dunixi.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C4-prix-de-la-navarre.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C6-prix-jacques-boutier.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R5-pornichet-la-baule/R5C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C1-prix-langalerie.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C3-prix-dunixi.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C4-prix-de-la-navarre.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C6-prix-jacques-boutier.html",
+      "resultats-et-rapports/2014/07/2014-07-18/R6-biarritz/R6C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mont-de-marsan",
+      "R2-chantilly",
+      "R3-marseille-borely",
+      "R4-cabourg",
+      "R5-pornichet-la-baule",
+      "R6-biarritz"
+    ],
+    "courses_by_reunion": {
+      "R1-mont-de-marsan": [
+        "R1C1-prix-langalerie.html",
+        "R1C2-prix-michel-charbon.html",
+        "R1C3-prix-dunixi.html",
+        "R1C4-prix-de-la-navarre.html",
+        "R1C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R1C6-prix-jacques-boutier.html",
+        "R1C7-prix-jean-larre.html",
+        "R1C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-langalerie.html",
+        "R2C2-prix-michel-charbon.html",
+        "R2C3-prix-dunixi.html",
+        "R2C4-prix-de-la-navarre.html",
+        "R2C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R2C6-prix-jacques-boutier.html",
+        "R2C7-prix-jean-larre.html",
+        "R2C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-langalerie.html",
+        "R3C2-prix-michel-charbon.html",
+        "R3C3-prix-dunixi.html",
+        "R3C4-prix-de-la-navarre.html",
+        "R3C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R3C6-prix-jacques-boutier.html",
+        "R3C7-prix-jean-larre.html",
+        "R3C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-langalerie.html",
+        "R4C2-prix-michel-charbon.html",
+        "R4C3-prix-dunixi.html",
+        "R4C4-prix-de-la-navarre.html",
+        "R4C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R4C6-prix-jacques-boutier.html",
+        "R4C7-prix-jean-larre.html",
+        "R4C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-langalerie.html",
+        "R5C2-prix-michel-charbon.html",
+        "R5C3-prix-dunixi.html",
+        "R5C4-prix-de-la-navarre.html",
+        "R5C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R5C6-prix-jacques-boutier.html",
+        "R5C7-prix-jean-larre.html",
+        "R5C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ],
+      "R6-biarritz": [
+        "R6C1-prix-langalerie.html",
+        "R6C2-prix-michel-charbon.html",
+        "R6C3-prix-dunixi.html",
+        "R6C4-prix-de-la-navarre.html",
+        "R6C5-prix-de-la-base-aerienne-118-mont-de-marsan.html",
+        "R6C6-prix-jacques-boutier.html",
+        "R6C7-prix-jean-larre.html",
+        "R6C8-prix-du-centre-d-entrainement-de-la-teste-de-buch.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:14.218790Z"
+}

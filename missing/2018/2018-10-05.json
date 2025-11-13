@@ -1,0 +1,111 @@
+{
+  "date": "2018-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-05",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-05/2018-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-05/R1-vincennes/R1C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R1-vincennes/R1C6-prix-dione.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R3-angers/R3C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R3-angers/R3C3-prix-lilaca.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R3-angers/R3C5-prix-lilius.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R3-angers/R3C6-prix-dione.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R3-angers/R3C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R4-saint-cloud/R4C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R4-saint-cloud/R4C3-prix-lilaca.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R4-saint-cloud/R4C4-prix-elsa.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R4-saint-cloud/R4C6-prix-dione.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C2-prix-charley-mills.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C3-prix-lilaca.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C4-prix-elsa.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C5-prix-lilius.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C6-prix-dione.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R5-marseille-vivaux/R5C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C2-prix-charley-mills.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C3-prix-lilaca.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C4-prix-elsa.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C5-prix-lilius.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C6-prix-dione.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R6-mauquenchy/R6C7-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R7-toulouse/R7C1-prix-atropos.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R7-toulouse/R7C2-prix-charley-mills.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R7-toulouse/R7C3-prix-lilaca.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R7-toulouse/R7C4-prix-elsa.html",
+      "resultats-et-rapports/2018/10/2018-10-05/R7-toulouse/R7C6-prix-dione.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-saint-cloud",
+      "R5-marseille-vivaux",
+      "R6-mauquenchy",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-atropos.html",
+        "R1C2-prix-charley-mills.html",
+        "R1C3-prix-lilaca.html",
+        "R1C4-prix-elsa.html",
+        "R1C5-prix-lilius.html",
+        "R1C6-prix-dione.html",
+        "R1C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-atropos.html",
+        "R3C2-prix-charley-mills.html",
+        "R3C3-prix-lilaca.html",
+        "R3C4-prix-elsa.html",
+        "R3C5-prix-lilius.html",
+        "R3C6-prix-dione.html",
+        "R3C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-atropos.html",
+        "R4C2-prix-charley-mills.html",
+        "R4C3-prix-lilaca.html",
+        "R4C4-prix-elsa.html",
+        "R4C5-prix-lilius.html",
+        "R4C6-prix-dione.html",
+        "R4C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-atropos.html",
+        "R5C2-prix-charley-mills.html",
+        "R5C3-prix-lilaca.html",
+        "R5C4-prix-elsa.html",
+        "R5C5-prix-lilius.html",
+        "R5C6-prix-dione.html",
+        "R5C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R6-mauquenchy": [
+        "R6C1-prix-atropos.html",
+        "R6C2-prix-charley-mills.html",
+        "R6C3-prix-lilaca.html",
+        "R6C4-prix-elsa.html",
+        "R6C5-prix-lilius.html",
+        "R6C6-prix-dione.html",
+        "R6C7-prix-eliane-de-bellaigue.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-atropos.html",
+        "R7C2-prix-charley-mills.html",
+        "R7C3-prix-lilaca.html",
+        "R7C4-prix-elsa.html",
+        "R7C5-prix-lilius.html",
+        "R7C6-prix-dione.html",
+        "R7C7-prix-eliane-de-bellaigue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:15.779835Z"
+}

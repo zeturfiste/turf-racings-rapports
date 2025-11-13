@@ -1,0 +1,92 @@
+{
+  "date": "2016-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-15",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-15/2016-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C1-prix-gaston-combes.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C3-prix-comte-de-pouy.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C7-prix-edouard-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R1-beaumont-de-lomagne/R1C8-prix-max-daguzan-garros-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C3-prix-comte-de-pouy.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C4-prix-albert-suis.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C7-prix-edouard-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C8-prix-max-daguzan-garros-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R2-chantilly/R2C9-prix-max-daguzan-garros-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R3-reims/R3C3-prix-comte-de-pouy.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R3-reims/R3C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R3-reims/R3C9-prix-max-daguzan-garros-groupe-b.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C3-prix-comte-de-pouy.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C4-prix-albert-suis.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C7-prix-edouard-dumouch.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C8-prix-max-daguzan-garros-groupe-a.html",
+      "resultats-et-rapports/2016/11/2016-11-15/R5-vincennes/R5C9-prix-max-daguzan-garros-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-beaumont-de-lomagne",
+      "R2-chantilly",
+      "R3-reims",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-beaumont-de-lomagne": [
+        "R1C1-prix-gaston-combes.html",
+        "R1C2-prix-de-la-riverette.html",
+        "R1C3-prix-comte-de-pouy.html",
+        "R1C4-prix-albert-suis.html",
+        "R1C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+        "R1C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R1C7-prix-edouard-dumouch.html",
+        "R1C8-prix-max-daguzan-garros-groupe-a.html",
+        "R1C9-prix-max-daguzan-garros-groupe-b.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-gaston-combes.html",
+        "R2C2-prix-de-la-riverette.html",
+        "R2C3-prix-comte-de-pouy.html",
+        "R2C4-prix-albert-suis.html",
+        "R2C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+        "R2C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R2C7-prix-edouard-dumouch.html",
+        "R2C8-prix-max-daguzan-garros-groupe-a.html",
+        "R2C9-prix-max-daguzan-garros-groupe-b.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-gaston-combes.html",
+        "R3C2-prix-de-la-riverette.html",
+        "R3C3-prix-comte-de-pouy.html",
+        "R3C4-prix-albert-suis.html",
+        "R3C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+        "R3C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R3C7-prix-edouard-dumouch.html",
+        "R3C8-prix-max-daguzan-garros-groupe-a.html",
+        "R3C9-prix-max-daguzan-garros-groupe-b.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-gaston-combes.html",
+        "R5C2-prix-de-la-riverette.html",
+        "R5C3-prix-comte-de-pouy.html",
+        "R5C4-prix-albert-suis.html",
+        "R5C5-grand-prix-dynavena-maisagri-duran-prix-jean-dumouch.html",
+        "R5C6-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R5C7-prix-edouard-dumouch.html",
+        "R5C8-prix-max-daguzan-garros-groupe-a.html",
+        "R5C9-prix-max-daguzan-garros-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:42.935477Z"
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2006-04-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-18",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-18/2006-04-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/04/2006-04-18/R1-saint-cloud/R1C5-prix-de-la-porte-de-madrid.html",
+      "resultats-et-rapports/2006/04/2006-04-18/R1-saint-cloud/R1C6-prix-avenger.html",
+      "resultats-et-rapports/2006/04/2006-04-18/R2-vincennes/R2C1-prix-du-mandinet.html",
+      "resultats-et-rapports/2006/04/2006-04-18/R2-vincennes/R2C2-prix-fast-fox.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-mandinet.html",
+        "R1C2-prix-fast-fox.html",
+        "R1C3-prix-bay-middleton.html",
+        "R1C4-prix-kizil-kourgan.html",
+        "R1C5-prix-de-la-porte-de-madrid.html",
+        "R1C6-prix-avenger.html",
+        "R1C7-prix-canot.html",
+        "R1C8-prix-de-courteilles.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-du-mandinet.html",
+        "R2C2-prix-fast-fox.html",
+        "R2C3-prix-bay-middleton.html",
+        "R2C4-prix-kizil-kourgan.html",
+        "R2C5-prix-de-la-porte-de-madrid.html",
+        "R2C6-prix-avenger.html",
+        "R2C7-prix-canot.html",
+        "R2C8-prix-de-courteilles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:26.344468Z"
+}

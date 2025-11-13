@@ -1,0 +1,77 @@
+{
+  "date": "2020-07-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/07/2020-07-06",
+    "date_html": "resultats-et-rapports/2020/07/2020-07-06/2020-07-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C2-prix-de-l-ile-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C3-prix-du-chateau-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C4-prix-de-vaire.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C5-prix-les-sables-agglomeration.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C6-prix-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C7-prix-de-saint-mathurin.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R1-les-sables-d-olonne/R1C8-prix-de-sainte-foy.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C1-prix-50eme-anniversaire-de-l-hippodrome.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C2-prix-de-l-ile-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C3-prix-du-chateau-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C4-prix-de-vaire.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C5-prix-les-sables-agglomeration.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C6-prix-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C7-prix-de-saint-mathurin.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R3-compiegne/R3C8-prix-de-sainte-foy.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C1-prix-50eme-anniversaire-de-l-hippodrome.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C2-prix-de-l-ile-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C3-prix-du-chateau-d-olonne.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C4-prix-de-vaire.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C5-prix-les-sables-agglomeration.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C6-prix-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C7-prix-de-saint-mathurin.html",
+      "resultats-et-rapports/2020/07/2020-07-06/R4-hyeres/R4C8-prix-de-sainte-foy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R3-compiegne",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-50eme-anniversaire-de-l-hippodrome.html",
+        "R1C2-prix-de-l-ile-d-olonne.html",
+        "R1C3-prix-du-chateau-d-olonne.html",
+        "R1C4-prix-de-vaire.html",
+        "R1C5-prix-les-sables-agglomeration.html",
+        "R1C6-prix-d-olonne-sur-mer.html",
+        "R1C7-prix-de-saint-mathurin.html",
+        "R1C8-prix-de-sainte-foy.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-50eme-anniversaire-de-l-hippodrome.html",
+        "R3C2-prix-de-l-ile-d-olonne.html",
+        "R3C3-prix-du-chateau-d-olonne.html",
+        "R3C4-prix-de-vaire.html",
+        "R3C5-prix-les-sables-agglomeration.html",
+        "R3C6-prix-d-olonne-sur-mer.html",
+        "R3C7-prix-de-saint-mathurin.html",
+        "R3C8-prix-de-sainte-foy.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-50eme-anniversaire-de-l-hippodrome.html",
+        "R4C2-prix-de-l-ile-d-olonne.html",
+        "R4C3-prix-du-chateau-d-olonne.html",
+        "R4C4-prix-de-vaire.html",
+        "R4C5-prix-les-sables-agglomeration.html",
+        "R4C6-prix-d-olonne-sur-mer.html",
+        "R4C7-prix-de-saint-mathurin.html",
+        "R4C8-prix-de-sainte-foy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:26.810887Z"
+}

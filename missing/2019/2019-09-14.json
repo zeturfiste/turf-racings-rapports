@@ -1,0 +1,117 @@
+{
+  "date": "2019-09-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/09/2019-09-14",
+    "date_html": "resultats-et-rapports/2019/09/2019-09-14/2019-09-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/09/2019-09-14/R1-vincennes/R1C8-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R2-nancy/R2C3-prix-d-avallon.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R2-nancy/R2C6-prix-de-normandie.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R2-nancy/R2C7-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R2-nancy/R2C9-prix-de-bazet.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R3-cholet/R3C4-prix-de-denain.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R3-cholet/R3C9-prix-de-bazet.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R4-chantilly/R4C1-prix-de-montelimar.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R4-chantilly/R4C4-prix-de-denain.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R4-chantilly/R4C5-prix-de-l-etoile.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R4-chantilly/R4C7-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R4-chantilly/R4C9-prix-de-bazet.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R5-vichy/R5C1-prix-de-montelimar.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R5-vichy/R5C7-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R5-vichy/R5C8-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R5-vichy/R5C9-prix-de-bazet.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C1-prix-de-montelimar.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C2-prix-ceneri-forcinal.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C4-prix-de-denain.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C5-prix-de-l-etoile.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C6-prix-de-normandie.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C7-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C8-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2019/09/2019-09-14/R8-hyeres/R8C9-prix-de-bazet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nancy",
+      "R3-cholet",
+      "R4-chantilly",
+      "R5-vichy",
+      "R8-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montelimar.html",
+        "R1C2-prix-ceneri-forcinal.html",
+        "R1C3-prix-d-avallon.html",
+        "R1C4-prix-de-denain.html",
+        "R1C5-prix-de-l-etoile.html",
+        "R1C6-prix-de-normandie.html",
+        "R1C7-prix-de-moulins-la-marche.html",
+        "R1C8-prix-de-vimoutiers.html",
+        "R1C9-prix-de-bazet.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-de-montelimar.html",
+        "R2C2-prix-ceneri-forcinal.html",
+        "R2C3-prix-d-avallon.html",
+        "R2C4-prix-de-denain.html",
+        "R2C5-prix-de-l-etoile.html",
+        "R2C6-prix-de-normandie.html",
+        "R2C7-prix-de-moulins-la-marche.html",
+        "R2C8-prix-de-vimoutiers.html",
+        "R2C9-prix-de-bazet.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-de-montelimar.html",
+        "R3C2-prix-ceneri-forcinal.html",
+        "R3C3-prix-d-avallon.html",
+        "R3C4-prix-de-denain.html",
+        "R3C5-prix-de-l-etoile.html",
+        "R3C6-prix-de-normandie.html",
+        "R3C7-prix-de-moulins-la-marche.html",
+        "R3C8-prix-de-vimoutiers.html",
+        "R3C9-prix-de-bazet.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-de-montelimar.html",
+        "R4C2-prix-ceneri-forcinal.html",
+        "R4C3-prix-d-avallon.html",
+        "R4C4-prix-de-denain.html",
+        "R4C5-prix-de-l-etoile.html",
+        "R4C6-prix-de-normandie.html",
+        "R4C7-prix-de-moulins-la-marche.html",
+        "R4C8-prix-de-vimoutiers.html",
+        "R4C9-prix-de-bazet.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-de-montelimar.html",
+        "R5C2-prix-ceneri-forcinal.html",
+        "R5C3-prix-d-avallon.html",
+        "R5C4-prix-de-denain.html",
+        "R5C5-prix-de-l-etoile.html",
+        "R5C6-prix-de-normandie.html",
+        "R5C7-prix-de-moulins-la-marche.html",
+        "R5C8-prix-de-vimoutiers.html",
+        "R5C9-prix-de-bazet.html"
+      ],
+      "R8-hyeres": [
+        "R8C1-prix-de-montelimar.html",
+        "R8C2-prix-ceneri-forcinal.html",
+        "R8C3-prix-d-avallon.html",
+        "R8C4-prix-de-denain.html",
+        "R8C5-prix-de-l-etoile.html",
+        "R8C6-prix-de-normandie.html",
+        "R8C7-prix-de-moulins-la-marche.html",
+        "R8C8-prix-de-vimoutiers.html",
+        "R8C9-prix-de-bazet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:02.875591Z"
+}

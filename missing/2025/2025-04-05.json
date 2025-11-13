@@ -1,0 +1,117 @@
+{
+  "date": "2025-04-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-05",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-05/2025-04-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-05/R2-moulins/R2C3-prix-de-bapaume.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R2-moulins/R2C6-prix-cornelia.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R2-moulins/R2C9-prix-de-saintes.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R3-nancy/R3C3-prix-de-bapaume.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R3-nancy/R3C4-prix-de-loudeac.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R3-nancy/R3C5-prix-kerjacques.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R3-nancy/R3C6-prix-cornelia.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R3-nancy/R3C7-prix-du-gers.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R5-le-croise-laroche/R5C3-prix-de-bapaume.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R5-le-croise-laroche/R5C9-prix-de-saintes.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C1-prix-de-dorceau.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C3-prix-de-bapaume.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C5-prix-kerjacques.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C6-prix-cornelia.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C7-prix-du-gers.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R10-bordeaux-le-bouscat/R10C8-prix-d-aubusson.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C1-prix-de-dorceau.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C2-prix-de-la-dordogne.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C3-prix-de-bapaume.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C4-prix-de-loudeac.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C5-prix-kerjacques.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C6-prix-cornelia.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C7-prix-du-gers.html",
+      "resultats-et-rapports/2025/04/2025-04-05/R11-le-mans/R11C8-prix-d-aubusson.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-moulins",
+      "R3-nancy",
+      "R5-le-croise-laroche",
+      "R10-bordeaux-le-bouscat",
+      "R11-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-dorceau.html",
+        "R1C2-prix-de-la-dordogne.html",
+        "R1C3-prix-de-bapaume.html",
+        "R1C4-prix-de-loudeac.html",
+        "R1C5-prix-kerjacques.html",
+        "R1C6-prix-cornelia.html",
+        "R1C7-prix-du-gers.html",
+        "R1C8-prix-d-aubusson.html",
+        "R1C9-prix-de-saintes.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-de-dorceau.html",
+        "R2C2-prix-de-la-dordogne.html",
+        "R2C3-prix-de-bapaume.html",
+        "R2C4-prix-de-loudeac.html",
+        "R2C5-prix-kerjacques.html",
+        "R2C6-prix-cornelia.html",
+        "R2C7-prix-du-gers.html",
+        "R2C8-prix-d-aubusson.html",
+        "R2C9-prix-de-saintes.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-de-dorceau.html",
+        "R3C2-prix-de-la-dordogne.html",
+        "R3C3-prix-de-bapaume.html",
+        "R3C4-prix-de-loudeac.html",
+        "R3C5-prix-kerjacques.html",
+        "R3C6-prix-cornelia.html",
+        "R3C7-prix-du-gers.html",
+        "R3C8-prix-d-aubusson.html",
+        "R3C9-prix-de-saintes.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-dorceau.html",
+        "R5C2-prix-de-la-dordogne.html",
+        "R5C3-prix-de-bapaume.html",
+        "R5C4-prix-de-loudeac.html",
+        "R5C5-prix-kerjacques.html",
+        "R5C6-prix-cornelia.html",
+        "R5C7-prix-du-gers.html",
+        "R5C8-prix-d-aubusson.html",
+        "R5C9-prix-de-saintes.html"
+      ],
+      "R10-bordeaux-le-bouscat": [
+        "R10C1-prix-de-dorceau.html",
+        "R10C2-prix-de-la-dordogne.html",
+        "R10C3-prix-de-bapaume.html",
+        "R10C4-prix-de-loudeac.html",
+        "R10C5-prix-kerjacques.html",
+        "R10C6-prix-cornelia.html",
+        "R10C7-prix-du-gers.html",
+        "R10C8-prix-d-aubusson.html",
+        "R10C9-prix-de-saintes.html"
+      ],
+      "R11-le-mans": [
+        "R11C1-prix-de-dorceau.html",
+        "R11C2-prix-de-la-dordogne.html",
+        "R11C3-prix-de-bapaume.html",
+        "R11C4-prix-de-loudeac.html",
+        "R11C5-prix-kerjacques.html",
+        "R11C6-prix-cornelia.html",
+        "R11C7-prix-du-gers.html",
+        "R11C8-prix-d-aubusson.html",
+        "R11C9-prix-de-saintes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:09.580179Z"
+}

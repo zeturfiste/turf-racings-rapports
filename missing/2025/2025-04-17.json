@@ -1,0 +1,58 @@
+{
+  "date": "2025-04-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-17",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-17/2025-04-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-17/R1-paris-longchamp/R1C3-prix-de-la-promenade-des-planches.html",
+      "resultats-et-rapports/2025/04/2025-04-17/R1-paris-longchamp/R1C5-prix-du-totalisateur-automatique.html",
+      "resultats-et-rapports/2025/04/2025-04-17/R4-enghien-soisy/R4C3-prix-de-la-promenade-des-planches.html",
+      "resultats-et-rapports/2025/04/2025-04-17/R4-enghien-soisy/R4C6-prix-de-la-boetie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-salon-de-provence",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-fontaine-carpeaux.html",
+        "R1C2-prix-du-louvre-fonds-europeen-de-l-elevage.html",
+        "R1C3-prix-de-la-promenade-des-planches.html",
+        "R1C4-prix-de-la-tribune-du-pavillon.html",
+        "R1C5-prix-du-totalisateur-automatique.html",
+        "R1C6-prix-de-la-boetie.html",
+        "R1C7-prix-du-pavillon-des-anglais.html",
+        "R1C8-prix-du-lion-de-belfort.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-la-fontaine-carpeaux.html",
+        "R3C2-prix-du-louvre-fonds-europeen-de-l-elevage.html",
+        "R3C3-prix-de-la-promenade-des-planches.html",
+        "R3C4-prix-de-la-tribune-du-pavillon.html",
+        "R3C5-prix-du-totalisateur-automatique.html",
+        "R3C6-prix-de-la-boetie.html",
+        "R3C7-prix-du-pavillon-des-anglais.html",
+        "R3C8-prix-du-lion-de-belfort.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-fontaine-carpeaux.html",
+        "R4C2-prix-du-louvre-fonds-europeen-de-l-elevage.html",
+        "R4C3-prix-de-la-promenade-des-planches.html",
+        "R4C4-prix-de-la-tribune-du-pavillon.html",
+        "R4C5-prix-du-totalisateur-automatique.html",
+        "R4C6-prix-de-la-boetie.html",
+        "R4C7-prix-du-pavillon-des-anglais.html",
+        "R4C8-prix-du-lion-de-belfort.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:14.277101Z"
+}

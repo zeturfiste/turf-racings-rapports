@@ -1,0 +1,104 @@
+{
+  "date": "2006-11-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-02",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-02/2006-11-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-02/R30-felix-bollaert-lens/R30C3-prix-de-soulac.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R30-felix-bollaert-lens/R30C4-prix-jacques-olry.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R30-felix-bollaert-lens/R30C5-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R30-felix-bollaert-lens/R30C6-prix-des-cevennes.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R30-felix-bollaert-lens/R30C8-prix-de-fouilloy-groupe-a.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C2-prix-du-lot.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C3-prix-de-soulac.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C6-prix-des-cevennes.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C7-prix-de-clamart.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C8-prix-de-fouilloy-groupe-a.html",
+      "resultats-et-rapports/2006/11/2006-11-02/R31-marcel-picot-nancy/R31C9-prix-de-fouilloy-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nantes",
+      "R21-zerace",
+      "R30-felix-bollaert-lens",
+      "R31-marcel-picot-nancy",
+      "R32-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-berry.html",
+        "R1C2-prix-du-lot.html",
+        "R1C3-prix-de-soulac.html",
+        "R1C4-prix-jacques-olry.html",
+        "R1C5-prix-doynel-de-saint-quentin.html",
+        "R1C6-prix-des-cevennes.html",
+        "R1C7-prix-de-clamart.html",
+        "R1C8-prix-de-fouilloy-groupe-a.html",
+        "R1C9-prix-de-fouilloy-groupe-b.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-berry.html",
+        "R2C2-prix-du-lot.html",
+        "R2C3-prix-de-soulac.html",
+        "R2C4-prix-jacques-olry.html",
+        "R2C5-prix-doynel-de-saint-quentin.html",
+        "R2C6-prix-des-cevennes.html",
+        "R2C7-prix-de-clamart.html",
+        "R2C8-prix-de-fouilloy-groupe-a.html",
+        "R2C9-prix-de-fouilloy-groupe-b.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-berry.html",
+        "R21C2-prix-du-lot.html",
+        "R21C3-prix-de-soulac.html",
+        "R21C4-prix-jacques-olry.html",
+        "R21C5-prix-doynel-de-saint-quentin.html",
+        "R21C6-prix-des-cevennes.html",
+        "R21C7-prix-de-clamart.html",
+        "R21C8-prix-de-fouilloy-groupe-a.html",
+        "R21C9-prix-de-fouilloy-groupe-b.html"
+      ],
+      "R30-felix-bollaert-lens": [
+        "R30C1-prix-du-berry.html",
+        "R30C2-prix-du-lot.html",
+        "R30C3-prix-de-soulac.html",
+        "R30C4-prix-jacques-olry.html",
+        "R30C5-prix-doynel-de-saint-quentin.html",
+        "R30C6-prix-des-cevennes.html",
+        "R30C7-prix-de-clamart.html",
+        "R30C8-prix-de-fouilloy-groupe-a.html",
+        "R30C9-prix-de-fouilloy-groupe-b.html"
+      ],
+      "R31-marcel-picot-nancy": [
+        "R31C1-prix-du-berry.html",
+        "R31C2-prix-du-lot.html",
+        "R31C3-prix-de-soulac.html",
+        "R31C4-prix-jacques-olry.html",
+        "R31C5-prix-doynel-de-saint-quentin.html",
+        "R31C6-prix-des-cevennes.html",
+        "R31C7-prix-de-clamart.html",
+        "R31C8-prix-de-fouilloy-groupe-a.html",
+        "R31C9-prix-de-fouilloy-groupe-b.html"
+      ],
+      "R32-vincennes": [
+        "R32C1-prix-du-berry.html",
+        "R32C2-prix-du-lot.html",
+        "R32C3-prix-de-soulac.html",
+        "R32C4-prix-jacques-olry.html",
+        "R32C5-prix-doynel-de-saint-quentin.html",
+        "R32C6-prix-des-cevennes.html",
+        "R32C7-prix-de-clamart.html",
+        "R32C8-prix-de-fouilloy-groupe-a.html",
+        "R32C9-prix-de-fouilloy-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:19.066121Z"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2022-01-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/01/2022-01-12",
+    "date_html": "resultats-et-rapports/2022/01/2022-01-12/2022-01-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C1-prix-de-benerville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C3-prix-de-hieville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C4-prix-de-sainte-adresse.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C6-prix-du-nice-havrais.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C8-prix-de-conches.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C9-prix-de-l-aigle.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R1-deauville/R1C10-prix-de-maissy.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C1-prix-de-benerville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C4-prix-de-sainte-adresse.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C5-prix-de-rabodanges.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C6-prix-du-nice-havrais.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C7-prix-de-rugles.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R3-bordeaux-le-bouscat/R3C8-prix-de-conches.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C1-prix-de-benerville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C2-prix-du-pays-d-ouche.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C4-prix-de-sainte-adresse.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C6-prix-du-nice-havrais.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C8-prix-de-conches.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C9-prix-de-l-aigle.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R4-cagnes-sur-mer/R4C10-prix-de-maissy.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C1-prix-de-benerville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C2-prix-du-pays-d-ouche.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C3-prix-de-hieville.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C4-prix-de-sainte-adresse.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C5-prix-de-rabodanges.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C6-prix-du-nice-havrais.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C7-prix-de-rugles.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C8-prix-de-conches.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C9-prix-de-l-aigle.html",
+      "resultats-et-rapports/2022/01/2022-01-12/R7-angers/R7C10-prix-de-maissy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-bordeaux-le-bouscat",
+      "R4-cagnes-sur-mer",
+      "R7-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-benerville.html",
+        "R1C2-prix-du-pays-d-ouche.html",
+        "R1C3-prix-de-hieville.html",
+        "R1C4-prix-de-sainte-adresse.html",
+        "R1C5-prix-de-rabodanges.html",
+        "R1C6-prix-du-nice-havrais.html",
+        "R1C7-prix-de-rugles.html",
+        "R1C8-prix-de-conches.html",
+        "R1C9-prix-de-l-aigle.html",
+        "R1C10-prix-de-maissy.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-benerville.html",
+        "R3C2-prix-du-pays-d-ouche.html",
+        "R3C3-prix-de-hieville.html",
+        "R3C4-prix-de-sainte-adresse.html",
+        "R3C5-prix-de-rabodanges.html",
+        "R3C6-prix-du-nice-havrais.html",
+        "R3C7-prix-de-rugles.html",
+        "R3C8-prix-de-conches.html",
+        "R3C9-prix-de-l-aigle.html",
+        "R3C10-prix-de-maissy.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-benerville.html",
+        "R4C2-prix-du-pays-d-ouche.html",
+        "R4C3-prix-de-hieville.html",
+        "R4C4-prix-de-sainte-adresse.html",
+        "R4C5-prix-de-rabodanges.html",
+        "R4C6-prix-du-nice-havrais.html",
+        "R4C7-prix-de-rugles.html",
+        "R4C8-prix-de-conches.html",
+        "R4C9-prix-de-l-aigle.html",
+        "R4C10-prix-de-maissy.html"
+      ],
+      "R7-angers": [
+        "R7C1-prix-de-benerville.html",
+        "R7C2-prix-du-pays-d-ouche.html",
+        "R7C3-prix-de-hieville.html",
+        "R7C4-prix-de-sainte-adresse.html",
+        "R7C5-prix-de-rabodanges.html",
+        "R7C6-prix-du-nice-havrais.html",
+        "R7C7-prix-de-rugles.html",
+        "R7C8-prix-de-conches.html",
+        "R7C9-prix-de-l-aigle.html",
+        "R7C10-prix-de-maissy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:53.641908Z"
+}

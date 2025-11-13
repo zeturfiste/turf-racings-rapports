@@ -1,0 +1,68 @@
+{
+  "date": "2008-12-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/12/2008-12-29",
+    "date_html": "resultats-et-rapports/2008/12/2008-12-29/2008-12-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/12/2008-12-29/R1-cagnes-sur-mer/R1C1-prix-de-l-aquitaine.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R1-cagnes-sur-mer/R1C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R1-cagnes-sur-mer/R1C8-prix-de-la-bourgogne.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R2-vincennes/R2C1-prix-de-l-aquitaine.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R2-vincennes/R2C2-prix-de-la-franche-comte.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R2-vincennes/R2C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R2-vincennes/R2C5-prix-du-pays-de-loire.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R2-vincennes/R2C7-prix-de-la-bretagne.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C1-prix-de-l-aquitaine.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C2-prix-de-la-franche-comte.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C3-prix-de-la-picardie.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C4-prix-al-capone-ii.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C5-prix-du-pays-de-loire.html",
+      "resultats-et-rapports/2008/12/2008-12-29/R31-zerace/R31C8-prix-de-la-bourgogne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-l-aquitaine.html",
+        "R1C2-prix-de-la-franche-comte.html",
+        "R1C3-prix-de-la-picardie.html",
+        "R1C4-prix-al-capone-ii.html",
+        "R1C5-prix-du-pays-de-loire.html",
+        "R1C6-prix-de-la-vendee.html",
+        "R1C7-prix-de-la-bretagne.html",
+        "R1C8-prix-de-la-bourgogne.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-l-aquitaine.html",
+        "R2C2-prix-de-la-franche-comte.html",
+        "R2C3-prix-de-la-picardie.html",
+        "R2C4-prix-al-capone-ii.html",
+        "R2C5-prix-du-pays-de-loire.html",
+        "R2C6-prix-de-la-vendee.html",
+        "R2C7-prix-de-la-bretagne.html",
+        "R2C8-prix-de-la-bourgogne.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-l-aquitaine.html",
+        "R31C2-prix-de-la-franche-comte.html",
+        "R31C3-prix-de-la-picardie.html",
+        "R31C4-prix-al-capone-ii.html",
+        "R31C5-prix-du-pays-de-loire.html",
+        "R31C6-prix-de-la-vendee.html",
+        "R31C7-prix-de-la-bretagne.html",
+        "R31C8-prix-de-la-bourgogne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:30:32.519838Z"
+}

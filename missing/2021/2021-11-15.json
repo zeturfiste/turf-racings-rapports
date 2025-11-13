@@ -1,0 +1,87 @@
+{
+  "date": "2021-11-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-15",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-15/2021-11-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-15/R3-le-croise-laroche/R3C6-prix-fandango.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R4-marseille-vivaux/R4C4-prix-sauternes-s-cup.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R4-marseille-vivaux/R4C5-prix-yves-bournazel.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R4-marseille-vivaux/R4C6-prix-fandango.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R4-marseille-vivaux/R4C7-prix-marquise-de-moratalla.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R4-marseille-vivaux/R4C8-grand-prix-dynavena-maisagri.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R6-caen/R6C1-prix-jean-francois-maury.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R6-caen/R6C2-prix-jardy.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R6-caen/R6C4-prix-sauternes-s-cup.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R6-caen/R6C5-prix-yves-bournazel.html",
+      "resultats-et-rapports/2021/11/2021-11-15/R6-caen/R6C7-prix-marquise-de-moratalla.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-le-mans",
+      "R3-le-croise-laroche",
+      "R4-marseille-vivaux",
+      "R6-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-jean-francois-maury.html",
+        "R1C2-prix-jardy.html",
+        "R1C3-prix-rfm-prix-chateau-de-chantegrive.html",
+        "R1C4-prix-sauternes-s-cup.html",
+        "R1C5-prix-yves-bournazel.html",
+        "R1C6-prix-fandango.html",
+        "R1C7-prix-marquise-de-moratalla.html",
+        "R1C8-grand-prix-dynavena-maisagri.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-jean-francois-maury.html",
+        "R2C2-prix-jardy.html",
+        "R2C3-prix-rfm-prix-chateau-de-chantegrive.html",
+        "R2C4-prix-sauternes-s-cup.html",
+        "R2C5-prix-yves-bournazel.html",
+        "R2C6-prix-fandango.html",
+        "R2C7-prix-marquise-de-moratalla.html",
+        "R2C8-grand-prix-dynavena-maisagri.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-jean-francois-maury.html",
+        "R3C2-prix-jardy.html",
+        "R3C3-prix-rfm-prix-chateau-de-chantegrive.html",
+        "R3C4-prix-sauternes-s-cup.html",
+        "R3C5-prix-yves-bournazel.html",
+        "R3C6-prix-fandango.html",
+        "R3C7-prix-marquise-de-moratalla.html",
+        "R3C8-grand-prix-dynavena-maisagri.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-jean-francois-maury.html",
+        "R4C2-prix-jardy.html",
+        "R4C3-prix-rfm-prix-chateau-de-chantegrive.html",
+        "R4C4-prix-sauternes-s-cup.html",
+        "R4C5-prix-yves-bournazel.html",
+        "R4C6-prix-fandango.html",
+        "R4C7-prix-marquise-de-moratalla.html",
+        "R4C8-grand-prix-dynavena-maisagri.html"
+      ],
+      "R6-caen": [
+        "R6C1-prix-jean-francois-maury.html",
+        "R6C2-prix-jardy.html",
+        "R6C3-prix-rfm-prix-chateau-de-chantegrive.html",
+        "R6C4-prix-sauternes-s-cup.html",
+        "R6C5-prix-yves-bournazel.html",
+        "R6C6-prix-fandango.html",
+        "R6C7-prix-marquise-de-moratalla.html",
+        "R6C8-grand-prix-dynavena-maisagri.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:33.720955Z"
+}

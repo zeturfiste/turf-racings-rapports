@@ -1,0 +1,58 @@
+{
+  "date": "2020-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-16",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-16/2020-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-16/R1-vincennes/R1C6-prix-de-jussy.html",
+      "resultats-et-rapports/2020/11/2020-11-16/R1-vincennes/R1C8-prix-de-carentan.html",
+      "resultats-et-rapports/2020/11/2020-11-16/R4-lyon-la-soie/R4C5-prix-de-dunkerque.html",
+      "resultats-et-rapports/2020/11/2020-11-16/R4-lyon-la-soie/R4C6-prix-de-jussy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-aigues-mortes.html",
+        "R1C2-prix-de-barenton.html",
+        "R1C3-prix-de-senonnes.html",
+        "R1C4-prix-d-azay-le-rideau.html",
+        "R1C5-prix-de-dunkerque.html",
+        "R1C6-prix-de-jussy.html",
+        "R1C7-prix-de-miramont-de-guyenne.html",
+        "R1C8-prix-de-carentan.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-d-aigues-mortes.html",
+        "R3C2-prix-de-barenton.html",
+        "R3C3-prix-de-senonnes.html",
+        "R3C4-prix-d-azay-le-rideau.html",
+        "R3C5-prix-de-dunkerque.html",
+        "R3C6-prix-de-jussy.html",
+        "R3C7-prix-de-miramont-de-guyenne.html",
+        "R3C8-prix-de-carentan.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-d-aigues-mortes.html",
+        "R4C2-prix-de-barenton.html",
+        "R4C3-prix-de-senonnes.html",
+        "R4C4-prix-d-azay-le-rideau.html",
+        "R4C5-prix-de-dunkerque.html",
+        "R4C6-prix-de-jussy.html",
+        "R4C7-prix-de-miramont-de-guyenne.html",
+        "R4C8-prix-de-carentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:17.172916Z"
+}

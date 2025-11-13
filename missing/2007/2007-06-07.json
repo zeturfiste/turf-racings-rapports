@@ -1,0 +1,110 @@
+{
+  "date": "2007-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/06/2007-06-07",
+    "date_html": "resultats-et-rapports/2007/06/2007-06-07/2007-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C1-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C2-prix-de-bercy.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C3-prix-du-canal-de-l-ourcq.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C4-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C5-prix-du-debarcadere.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C6-prix-mogador.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R1-longchamp/R1C8-prix-de-madrid.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C1-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C2-prix-de-bercy.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C3-prix-du-canal-de-l-ourcq.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C4-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C5-prix-du-debarcadere.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R2-caen/R2C8-prix-de-madrid.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C1-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C3-prix-du-canal-de-l-ourcq.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C4-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C5-prix-du-debarcadere.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C6-prix-mogador.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R3-vichy/R3C8-prix-de-madrid.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R31-zerace/R31C3-prix-du-canal-de-l-ourcq.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R31-zerace/R31C4-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R31-zerace/R31C5-prix-du-debarcadere.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R31-zerace/R31C6-prix-mogador.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R31-zerace/R31C8-prix-de-madrid.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C1-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C2-prix-de-bercy.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C3-prix-du-canal-de-l-ourcq.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C4-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C6-prix-mogador.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C7-prix-de-pontoise.html",
+      "resultats-et-rapports/2007/06/2007-06-07/R70-roland-garros-paris/R70C8-prix-de-madrid.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-caen",
+      "R3-vichy",
+      "R31-zerace",
+      "R70-roland-garros-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-la-reine-marguerite.html",
+        "R1C2-prix-de-bercy.html",
+        "R1C3-prix-du-canal-de-l-ourcq.html",
+        "R1C4-prix-du-canal-saint-martin.html",
+        "R1C5-prix-du-debarcadere.html",
+        "R1C6-prix-mogador.html",
+        "R1C7-prix-de-pontoise.html",
+        "R1C8-prix-de-madrid.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-la-reine-marguerite.html",
+        "R2C2-prix-de-bercy.html",
+        "R2C3-prix-du-canal-de-l-ourcq.html",
+        "R2C4-prix-du-canal-saint-martin.html",
+        "R2C5-prix-du-debarcadere.html",
+        "R2C6-prix-mogador.html",
+        "R2C7-prix-de-pontoise.html",
+        "R2C8-prix-de-madrid.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-la-reine-marguerite.html",
+        "R3C2-prix-de-bercy.html",
+        "R3C3-prix-du-canal-de-l-ourcq.html",
+        "R3C4-prix-du-canal-saint-martin.html",
+        "R3C5-prix-du-debarcadere.html",
+        "R3C6-prix-mogador.html",
+        "R3C7-prix-de-pontoise.html",
+        "R3C8-prix-de-madrid.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-reine-marguerite.html",
+        "R31C2-prix-de-bercy.html",
+        "R31C3-prix-du-canal-de-l-ourcq.html",
+        "R31C4-prix-du-canal-saint-martin.html",
+        "R31C5-prix-du-debarcadere.html",
+        "R31C6-prix-mogador.html",
+        "R31C7-prix-de-pontoise.html",
+        "R31C8-prix-de-madrid.html"
+      ],
+      "R70-roland-garros-paris": [
+        "R70C1-prix-de-la-reine-marguerite.html",
+        "R70C2-prix-de-bercy.html",
+        "R70C3-prix-du-canal-de-l-ourcq.html",
+        "R70C4-prix-du-canal-saint-martin.html",
+        "R70C5-prix-du-debarcadere.html",
+        "R70C6-prix-mogador.html",
+        "R70C7-prix-de-pontoise.html",
+        "R70C8-prix-de-madrid.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:25.703696Z"
+}

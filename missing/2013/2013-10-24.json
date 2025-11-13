@@ -1,0 +1,56 @@
+{
+  "date": "2013-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/10/2013-10-24",
+    "date_html": "resultats-et-rapports/2013/10/2013-10-24/2013-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/10/2013-10-24/R3-cabourg/R3C2-prix-emilius-prix-de-l-institut-du-droit-equin.html",
+      "resultats-et-rapports/2013/10/2013-10-24/R3-cabourg/R3C3-prix-cerealiste.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-deauville",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-moncourt.html",
+        "R1C2-prix-emilius-prix-de-l-institut-du-droit-equin.html",
+        "R1C3-prix-cerealiste.html",
+        "R1C4-prix-pre-catelan.html",
+        "R1C5-prix-triquerville.html",
+        "R1C6-prix-falzarego.html",
+        "R1C7-prix-lyonnais.html",
+        "R1C8-prix-jean-sens.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-moncourt.html",
+        "R2C2-prix-emilius-prix-de-l-institut-du-droit-equin.html",
+        "R2C3-prix-cerealiste.html",
+        "R2C4-prix-pre-catelan.html",
+        "R2C5-prix-triquerville.html",
+        "R2C6-prix-falzarego.html",
+        "R2C7-prix-lyonnais.html",
+        "R2C8-prix-jean-sens.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-moncourt.html",
+        "R3C2-prix-emilius-prix-de-l-institut-du-droit-equin.html",
+        "R3C3-prix-cerealiste.html",
+        "R3C4-prix-pre-catelan.html",
+        "R3C5-prix-triquerville.html",
+        "R3C6-prix-falzarego.html",
+        "R3C7-prix-lyonnais.html",
+        "R3C8-prix-jean-sens.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:54.458615Z"
+}

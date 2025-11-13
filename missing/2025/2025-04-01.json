@@ -1,0 +1,57 @@
+{
+  "date": "2025-04-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-01",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-01/2025-04-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-01/R3-lyon-parilly/R3C5-prix-georges-sandor.html",
+      "resultats-et-rapports/2025/04/2025-04-01/R3-lyon-parilly/R3C6-prix-de-samois-sur-seine.html",
+      "resultats-et-rapports/2025/04/2025-04-01/R4-vincennes/R4C1-prix-des-grandes-fontaines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-grandes-fontaines.html",
+        "R1C2-prix-de-la-croix-de-vitry.html",
+        "R1C3-prix-du-bois-de-la-commanderie.html",
+        "R1C4-prix-mercedes-benz-prix-des-marais.html",
+        "R1C5-prix-georges-sandor.html",
+        "R1C6-prix-de-samois-sur-seine.html",
+        "R1C7-prix-des-roses.html",
+        "R1C8-prix-des-petites-fontaines.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-des-grandes-fontaines.html",
+        "R3C2-prix-de-la-croix-de-vitry.html",
+        "R3C3-prix-du-bois-de-la-commanderie.html",
+        "R3C4-prix-mercedes-benz-prix-des-marais.html",
+        "R3C5-prix-georges-sandor.html",
+        "R3C6-prix-de-samois-sur-seine.html",
+        "R3C7-prix-des-roses.html",
+        "R3C8-prix-des-petites-fontaines.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-grandes-fontaines.html",
+        "R4C2-prix-de-la-croix-de-vitry.html",
+        "R4C3-prix-du-bois-de-la-commanderie.html",
+        "R4C4-prix-mercedes-benz-prix-des-marais.html",
+        "R4C5-prix-georges-sandor.html",
+        "R4C6-prix-de-samois-sur-seine.html",
+        "R4C7-prix-des-roses.html",
+        "R4C8-prix-des-petites-fontaines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:08.337744Z"
+}

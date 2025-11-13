@@ -1,0 +1,78 @@
+{
+  "date": "2011-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-08",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-08/2011-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-08/R1-deauville/R1C6-prix-de-l-andelle.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R1-deauville/R1C8-prix-de-periers.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R2-feurs/R2C1-prix-du-feuillard.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R2-feurs/R2C3-prix-de-la-cour-du-chasseur.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R2-feurs/R2C4-prix-de-dives.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R2-feurs/R2C5-prix-de-graignes.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R3-cabourg/R3C2-prix-de-la-gatine.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R3-cabourg/R3C8-prix-de-periers.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R6-cagnes-sur-mer/R6C3-prix-de-la-cour-du-chasseur.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R6-cagnes-sur-mer/R6C5-prix-de-graignes.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R6-cagnes-sur-mer/R6C6-prix-de-l-andelle.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R6-cagnes-sur-mer/R6C7-prix-de-valognes.html",
+      "resultats-et-rapports/2011/07/2011-07-08/R6-cagnes-sur-mer/R6C8-prix-de-periers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-feurs",
+      "R3-cabourg",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-feuillard.html",
+        "R1C2-prix-de-la-gatine.html",
+        "R1C3-prix-de-la-cour-du-chasseur.html",
+        "R1C4-prix-de-dives.html",
+        "R1C5-prix-de-graignes.html",
+        "R1C6-prix-de-l-andelle.html",
+        "R1C7-prix-de-valognes.html",
+        "R1C8-prix-de-periers.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-du-feuillard.html",
+        "R2C2-prix-de-la-gatine.html",
+        "R2C3-prix-de-la-cour-du-chasseur.html",
+        "R2C4-prix-de-dives.html",
+        "R2C5-prix-de-graignes.html",
+        "R2C6-prix-de-l-andelle.html",
+        "R2C7-prix-de-valognes.html",
+        "R2C8-prix-de-periers.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-feuillard.html",
+        "R3C2-prix-de-la-gatine.html",
+        "R3C3-prix-de-la-cour-du-chasseur.html",
+        "R3C4-prix-de-dives.html",
+        "R3C5-prix-de-graignes.html",
+        "R3C6-prix-de-l-andelle.html",
+        "R3C7-prix-de-valognes.html",
+        "R3C8-prix-de-periers.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-du-feuillard.html",
+        "R6C2-prix-de-la-gatine.html",
+        "R6C3-prix-de-la-cour-du-chasseur.html",
+        "R6C4-prix-de-dives.html",
+        "R6C5-prix-de-graignes.html",
+        "R6C6-prix-de-l-andelle.html",
+        "R6C7-prix-de-valognes.html",
+        "R6C8-prix-de-periers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:48.836502Z"
+}

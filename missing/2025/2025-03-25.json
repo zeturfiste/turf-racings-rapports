@@ -1,0 +1,68 @@
+{
+  "date": "2025-03-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-25",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-25/2025-03-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-25/R1-saint-cloud/R1C5-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R1-saint-cloud/R1C7-prix-d-estimauville.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R1-saint-cloud/R1C8-prix-de-la-villa-des-brillants.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R3-maure-de-bretagne/R3C4-prix-goodly.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R3-maure-de-bretagne/R3C6-prix-de-castel.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R3-maure-de-bretagne/R3C7-prix-d-estimauville.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R3-maure-de-bretagne/R3C8-prix-de-la-villa-des-brillants.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C2-prix-comrade.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C3-prix-mirska.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C4-prix-goodly.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C5-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C6-prix-de-castel.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C7-prix-d-estimauville.html",
+      "resultats-et-rapports/2025/03/2025-03-25/R4-enghien-soisy/R4C8-prix-de-la-villa-des-brillants.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-maure-de-bretagne",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-la-maison-des-jardies.html",
+        "R1C2-prix-comrade.html",
+        "R1C3-prix-mirska.html",
+        "R1C4-prix-goodly.html",
+        "R1C5-prix-kizil-kourgan.html",
+        "R1C6-prix-de-castel.html",
+        "R1C7-prix-d-estimauville.html",
+        "R1C8-prix-de-la-villa-des-brillants.html"
+      ],
+      "R3-maure-de-bretagne": [
+        "R3C1-prix-de-la-maison-des-jardies.html",
+        "R3C2-prix-comrade.html",
+        "R3C3-prix-mirska.html",
+        "R3C4-prix-goodly.html",
+        "R3C5-prix-kizil-kourgan.html",
+        "R3C6-prix-de-castel.html",
+        "R3C7-prix-d-estimauville.html",
+        "R3C8-prix-de-la-villa-des-brillants.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-maison-des-jardies.html",
+        "R4C2-prix-comrade.html",
+        "R4C3-prix-mirska.html",
+        "R4C4-prix-goodly.html",
+        "R4C5-prix-kizil-kourgan.html",
+        "R4C6-prix-de-castel.html",
+        "R4C7-prix-d-estimauville.html",
+        "R4C8-prix-de-la-villa-des-brillants.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:05.921701Z"
+}

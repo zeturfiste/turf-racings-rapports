@@ -1,0 +1,61 @@
+{
+  "date": "2020-08-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-26",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-26/2020-08-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-26/R1-clairefontaine/R1C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R3-vincennes/R3C1-grand-steeple-chase-ville-de-deauville.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R3-vincennes/R3C4-prix-la-croix-rouge-normandie-delegation-terr-du-calvados.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R3-vincennes/R3C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R4-laval/R4C4-prix-la-croix-rouge-normandie-delegation-terr-du-calvados.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R4-laval/R4C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+      "resultats-et-rapports/2020/08/2020-08-26/R4-laval/R4C8-prix-iprotec-extincteurs-prix-du-lieu-mallet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-vincennes",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-grand-steeple-chase-ville-de-deauville.html",
+        "R1C2-prix-paris-turf-prix-de-la-risle.html",
+        "R1C3-prix-de-la-ville-de-tourgeville.html",
+        "R1C4-prix-la-croix-rouge-normandie-delegation-terr-du-calvados.html",
+        "R1C5-prix-sapeurs-pompiers-de-touques-prix-des-chardons-bleus.html",
+        "R1C6-prix-defense-des-animaux-de-la-cote-fleurie-prix-du-grand-jardin.html",
+        "R1C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+        "R1C8-prix-iprotec-extincteurs-prix-du-lieu-mallet.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-grand-steeple-chase-ville-de-deauville.html",
+        "R3C2-prix-paris-turf-prix-de-la-risle.html",
+        "R3C3-prix-de-la-ville-de-tourgeville.html",
+        "R3C4-prix-la-croix-rouge-normandie-delegation-terr-du-calvados.html",
+        "R3C5-prix-sapeurs-pompiers-de-touques-prix-des-chardons-bleus.html",
+        "R3C6-prix-defense-des-animaux-de-la-cote-fleurie-prix-du-grand-jardin.html",
+        "R3C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+        "R3C8-prix-iprotec-extincteurs-prix-du-lieu-mallet.html"
+      ],
+      "R4-laval": [
+        "R4C1-grand-steeple-chase-ville-de-deauville.html",
+        "R4C2-prix-paris-turf-prix-de-la-risle.html",
+        "R4C3-prix-de-la-ville-de-tourgeville.html",
+        "R4C4-prix-la-croix-rouge-normandie-delegation-terr-du-calvados.html",
+        "R4C5-prix-sapeurs-pompiers-de-touques-prix-des-chardons-bleus.html",
+        "R4C6-prix-defense-des-animaux-de-la-cote-fleurie-prix-du-grand-jardin.html",
+        "R4C7-prix-ste-havraise-de-protection-des-animaux-prix-du-pre-le-houx.html",
+        "R4C8-prix-iprotec-extincteurs-prix-du-lieu-mallet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:46.598303Z"
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2015-04-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/04/2015-04-20",
+    "date_html": "resultats-et-rapports/2015/04/2015-04-20/2015-04-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C1-prix-du-palais-garnier.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C2-prix-machado.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C3-prix-de-l-opera-bastille.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C4-prix-du-louvre.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C5-prix-noailles.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C6-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C7-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R1-longchamp/R1C8-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C1-prix-du-palais-garnier.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C2-prix-machado.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C3-prix-de-l-opera-bastille.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C4-prix-du-louvre.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C5-prix-noailles.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R2-maure-de-bretagne/R2C7-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C1-prix-du-palais-garnier.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C2-prix-machado.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C3-prix-de-l-opera-bastille.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C4-prix-du-louvre.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C5-prix-noailles.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C6-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C7-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2015/04/2015-04-20/R3-le-lion-d-angers/R3C8-prix-du-petit-montrouge.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-maure-de-bretagne",
+      "R3-le-lion-d-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-palais-garnier.html",
+        "R1C2-prix-machado.html",
+        "R1C3-prix-de-l-opera-bastille.html",
+        "R1C4-prix-du-louvre.html",
+        "R1C5-prix-noailles.html",
+        "R1C6-prix-des-grands-augustins.html",
+        "R1C7-prix-du-bord-de-l-eau.html",
+        "R1C8-prix-du-petit-montrouge.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-du-palais-garnier.html",
+        "R2C2-prix-machado.html",
+        "R2C3-prix-de-l-opera-bastille.html",
+        "R2C4-prix-du-louvre.html",
+        "R2C5-prix-noailles.html",
+        "R2C6-prix-des-grands-augustins.html",
+        "R2C7-prix-du-bord-de-l-eau.html",
+        "R2C8-prix-du-petit-montrouge.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-du-palais-garnier.html",
+        "R3C2-prix-machado.html",
+        "R3C3-prix-de-l-opera-bastille.html",
+        "R3C4-prix-du-louvre.html",
+        "R3C5-prix-noailles.html",
+        "R3C6-prix-des-grands-augustins.html",
+        "R3C7-prix-du-bord-de-l-eau.html",
+        "R3C8-prix-du-petit-montrouge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:40.832838Z"
+}

@@ -1,0 +1,116 @@
+{
+  "date": "2013-05-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-17",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-17/2013-05-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C2-prix-de-brunehaut.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C4-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C5-prix-de-ricquebourg.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C6-prix-aly-khan.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C7-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R1-chantilly/R1C8-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C2-prix-de-brunehaut.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C3-prix-de-plailly.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C4-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C5-prix-de-ricquebourg.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C6-prix-aly-khan.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C7-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R2-nantes/R2C8-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R3-vincennes/R3C8-prix-du-ru-de-suze.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R4-graignes/R4C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R4-graignes/R4C2-prix-de-brunehaut.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R4-graignes/R4C5-prix-de-ricquebourg.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R7-toulouse/R7C5-prix-de-ricquebourg.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R7-toulouse/R7C7-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C1-prix-du-mont-de-po.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C2-prix-de-brunehaut.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C3-prix-de-plailly.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C4-prix-du-pont-du-roi.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C5-prix-de-ricquebourg.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C6-prix-aly-khan.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C7-prix-de-la-plaine-de-jouvence.html",
+      "resultats-et-rapports/2013/05/2013-05-17/R8-laval/R8C8-prix-du-ru-de-suze.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-nantes",
+      "R3-vincennes",
+      "R4-graignes",
+      "R7-toulouse",
+      "R8-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-mont-de-po.html",
+        "R1C2-prix-de-brunehaut.html",
+        "R1C3-prix-de-plailly.html",
+        "R1C4-prix-du-pont-du-roi.html",
+        "R1C5-prix-de-ricquebourg.html",
+        "R1C6-prix-aly-khan.html",
+        "R1C7-prix-de-la-plaine-de-jouvence.html",
+        "R1C8-prix-du-ru-de-suze.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-du-mont-de-po.html",
+        "R2C2-prix-de-brunehaut.html",
+        "R2C3-prix-de-plailly.html",
+        "R2C4-prix-du-pont-du-roi.html",
+        "R2C5-prix-de-ricquebourg.html",
+        "R2C6-prix-aly-khan.html",
+        "R2C7-prix-de-la-plaine-de-jouvence.html",
+        "R2C8-prix-du-ru-de-suze.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-mont-de-po.html",
+        "R3C2-prix-de-brunehaut.html",
+        "R3C3-prix-de-plailly.html",
+        "R3C4-prix-du-pont-du-roi.html",
+        "R3C5-prix-de-ricquebourg.html",
+        "R3C6-prix-aly-khan.html",
+        "R3C7-prix-de-la-plaine-de-jouvence.html",
+        "R3C8-prix-du-ru-de-suze.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-du-mont-de-po.html",
+        "R4C2-prix-de-brunehaut.html",
+        "R4C3-prix-de-plailly.html",
+        "R4C4-prix-du-pont-du-roi.html",
+        "R4C5-prix-de-ricquebourg.html",
+        "R4C6-prix-aly-khan.html",
+        "R4C7-prix-de-la-plaine-de-jouvence.html",
+        "R4C8-prix-du-ru-de-suze.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-du-mont-de-po.html",
+        "R7C2-prix-de-brunehaut.html",
+        "R7C3-prix-de-plailly.html",
+        "R7C4-prix-du-pont-du-roi.html",
+        "R7C5-prix-de-ricquebourg.html",
+        "R7C6-prix-aly-khan.html",
+        "R7C7-prix-de-la-plaine-de-jouvence.html",
+        "R7C8-prix-du-ru-de-suze.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-du-mont-de-po.html",
+        "R8C2-prix-de-brunehaut.html",
+        "R8C3-prix-de-plailly.html",
+        "R8C4-prix-du-pont-du-roi.html",
+        "R8C5-prix-de-ricquebourg.html",
+        "R8C6-prix-aly-khan.html",
+        "R8C7-prix-de-la-plaine-de-jouvence.html",
+        "R8C8-prix-du-ru-de-suze.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:01.831249Z"
+}

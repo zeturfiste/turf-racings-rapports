@@ -1,0 +1,42 @@
+{
+  "date": "2006-01-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/01/2006-01-04",
+    "date_html": "resultats-et-rapports/2006/01/2006-01-04/2006-01-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-grande-maison.html",
+        "R1C2-prix-aide-et-sourire-prix-du-pays-d-ouche.html",
+        "R1C3-prix-de-l-hamonerie.html",
+        "R1C4-prix-de-la-friche-saint-vincent.html",
+        "R1C5-prix-miss-satamixa.html",
+        "R1C6-prix-du-bois-amiot.html",
+        "R1C7-prix-du-hameau-perre.html",
+        "R1C8-prix-de-l-aigle.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-de-la-grande-maison.html",
+        "R2C2-prix-aide-et-sourire-prix-du-pays-d-ouche.html",
+        "R2C3-prix-de-l-hamonerie.html",
+        "R2C4-prix-de-la-friche-saint-vincent.html",
+        "R2C5-prix-miss-satamixa.html",
+        "R2C6-prix-du-bois-amiot.html",
+        "R2C7-prix-du-hameau-perre.html",
+        "R2C8-prix-de-l-aigle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:09.252895Z"
+}

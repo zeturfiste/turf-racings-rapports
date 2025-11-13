@@ -1,0 +1,103 @@
+{
+  "date": "2013-06-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/06/2013-06-17",
+    "date_html": "resultats-et-rapports/2013/06/2013-06-17/2013-06-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C2-prix-d-hauterive.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C6-prix-de-gannat.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R1-vichy/R1C8-prix-roquepine-gr-b.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C2-prix-d-hauterive.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C7-prix-roquepine-gr-a.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R2-auteuil/R2C8-prix-roquepine-gr-b.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C2-prix-d-hauterive.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C5-prix-de-gerzat.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C6-prix-de-gannat.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C7-prix-roquepine-gr-a.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R3-agen/R3C8-prix-roquepine-gr-b.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R5-le-croise-laroche/R5C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R5-le-croise-laroche/R5C2-prix-d-hauterive.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R5-le-croise-laroche/R5C3-prix-bellino-ii.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R5-le-croise-laroche/R5C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R5-le-croise-laroche/R5C8-prix-roquepine-gr-b.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R6-graignes/R6C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2013/06/2013-06-17/R6-graignes/R6C2-prix-d-hauterive.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-auteuil",
+      "R3-agen",
+      "R5-le-croise-laroche",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-cognat-lyonne.html",
+        "R1C2-prix-d-hauterive.html",
+        "R1C3-prix-bellino-ii.html",
+        "R1C4-prix-des-parcs-d-allier.html",
+        "R1C5-prix-de-gerzat.html",
+        "R1C6-prix-de-gannat.html",
+        "R1C7-prix-roquepine-gr-a.html",
+        "R1C8-prix-roquepine-gr-b.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-cognat-lyonne.html",
+        "R2C2-prix-d-hauterive.html",
+        "R2C3-prix-bellino-ii.html",
+        "R2C4-prix-des-parcs-d-allier.html",
+        "R2C5-prix-de-gerzat.html",
+        "R2C6-prix-de-gannat.html",
+        "R2C7-prix-roquepine-gr-a.html",
+        "R2C8-prix-roquepine-gr-b.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-de-cognat-lyonne.html",
+        "R3C2-prix-d-hauterive.html",
+        "R3C3-prix-bellino-ii.html",
+        "R3C4-prix-des-parcs-d-allier.html",
+        "R3C5-prix-de-gerzat.html",
+        "R3C6-prix-de-gannat.html",
+        "R3C7-prix-roquepine-gr-a.html",
+        "R3C8-prix-roquepine-gr-b.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-cognat-lyonne.html",
+        "R5C2-prix-d-hauterive.html",
+        "R5C3-prix-bellino-ii.html",
+        "R5C4-prix-des-parcs-d-allier.html",
+        "R5C5-prix-de-gerzat.html",
+        "R5C6-prix-de-gannat.html",
+        "R5C7-prix-roquepine-gr-a.html",
+        "R5C8-prix-roquepine-gr-b.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-de-cognat-lyonne.html",
+        "R6C2-prix-d-hauterive.html",
+        "R6C3-prix-bellino-ii.html",
+        "R6C4-prix-des-parcs-d-allier.html",
+        "R6C5-prix-de-gerzat.html",
+        "R6C6-prix-de-gannat.html",
+        "R6C7-prix-roquepine-gr-a.html",
+        "R6C8-prix-roquepine-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:11.903396Z"
+}

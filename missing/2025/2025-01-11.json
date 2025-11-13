@@ -1,0 +1,80 @@
+{
+  "date": "2025-01-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-11",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-11/2025-01-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-11/R1-vincennes/R1C8-prix-bellino-ii.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R1-vincennes/R1C9-prix-de-ranes.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R3-chantilly/R3C2-prix-de-tignes.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R3-chantilly/R3C3-prix-les-seniors-des-courses-prix-d-evian.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R3-chantilly/R3C9-prix-de-ranes.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R4-lyon-la-soie/R4C7-prix-du-forez.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R4-lyon-la-soie/R4C9-prix-de-ranes.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R8-argentan/R8C1-prix-de-saint-flour.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R8-argentan/R8C5-prix-de-sartilly.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R8-argentan/R8C6-prix-de-questembert.html",
+      "resultats-et-rapports/2025/01/2025-01-11/R8-argentan/R8C7-prix-du-forez.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-lyon-la-soie",
+      "R8-argentan"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-saint-flour.html",
+        "R1C2-prix-de-tignes.html",
+        "R1C3-prix-les-seniors-des-courses-prix-d-evian.html",
+        "R1C4-prix-de-croix.html",
+        "R1C5-prix-de-sartilly.html",
+        "R1C6-prix-de-questembert.html",
+        "R1C7-prix-du-forez.html",
+        "R1C8-prix-bellino-ii.html",
+        "R1C9-prix-de-ranes.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-saint-flour.html",
+        "R3C2-prix-de-tignes.html",
+        "R3C3-prix-les-seniors-des-courses-prix-d-evian.html",
+        "R3C4-prix-de-croix.html",
+        "R3C5-prix-de-sartilly.html",
+        "R3C6-prix-de-questembert.html",
+        "R3C7-prix-du-forez.html",
+        "R3C8-prix-bellino-ii.html",
+        "R3C9-prix-de-ranes.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-saint-flour.html",
+        "R4C2-prix-de-tignes.html",
+        "R4C3-prix-les-seniors-des-courses-prix-d-evian.html",
+        "R4C4-prix-de-croix.html",
+        "R4C5-prix-de-sartilly.html",
+        "R4C6-prix-de-questembert.html",
+        "R4C7-prix-du-forez.html",
+        "R4C8-prix-bellino-ii.html",
+        "R4C9-prix-de-ranes.html"
+      ],
+      "R8-argentan": [
+        "R8C1-prix-de-saint-flour.html",
+        "R8C2-prix-de-tignes.html",
+        "R8C3-prix-les-seniors-des-courses-prix-d-evian.html",
+        "R8C4-prix-de-croix.html",
+        "R8C5-prix-de-sartilly.html",
+        "R8C6-prix-de-questembert.html",
+        "R8C7-prix-du-forez.html",
+        "R8C8-prix-bellino-ii.html",
+        "R8C9-prix-de-ranes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:40.590477Z"
+}

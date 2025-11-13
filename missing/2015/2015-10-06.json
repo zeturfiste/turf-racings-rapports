@@ -1,0 +1,60 @@
+{
+  "date": "2015-10-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-06",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-06/2015-10-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-06/R1-maisons-laffitte/R1C8-prix-du-moulin-de-maisons-laffitte.html",
+      "resultats-et-rapports/2015/10/2015-10-06/R2-bordeaux-le-bouscat/R2C1-prix-dicta-drake.html",
+      "resultats-et-rapports/2015/10/2015-10-06/R2-bordeaux-le-bouscat/R2C2-prix-bend-or.html",
+      "resultats-et-rapports/2015/10/2015-10-06/R3-vincennes/R3C5-prix-le-fabuleux.html",
+      "resultats-et-rapports/2015/10/2015-10-06/R3-vincennes/R3C6-prix-de-forges-les-eaux.html",
+      "resultats-et-rapports/2015/10/2015-10-06/R3-vincennes/R3C7-prix-d-ecquevilly.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-dicta-drake.html",
+        "R1C2-prix-bend-or.html",
+        "R1C3-prix-des-aunettes.html",
+        "R1C4-prix-de-bonnieres-sur-seine.html",
+        "R1C5-prix-le-fabuleux.html",
+        "R1C6-prix-de-forges-les-eaux.html",
+        "R1C7-prix-d-ecquevilly.html",
+        "R1C8-prix-du-moulin-de-maisons-laffitte.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-dicta-drake.html",
+        "R2C2-prix-bend-or.html",
+        "R2C3-prix-des-aunettes.html",
+        "R2C4-prix-de-bonnieres-sur-seine.html",
+        "R2C5-prix-le-fabuleux.html",
+        "R2C6-prix-de-forges-les-eaux.html",
+        "R2C7-prix-d-ecquevilly.html",
+        "R2C8-prix-du-moulin-de-maisons-laffitte.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-dicta-drake.html",
+        "R3C2-prix-bend-or.html",
+        "R3C3-prix-des-aunettes.html",
+        "R3C4-prix-de-bonnieres-sur-seine.html",
+        "R3C5-prix-le-fabuleux.html",
+        "R3C6-prix-de-forges-les-eaux.html",
+        "R3C7-prix-d-ecquevilly.html",
+        "R3C8-prix-du-moulin-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:37.989782Z"
+}

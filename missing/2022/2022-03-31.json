@@ -1,0 +1,67 @@
+{
+  "date": "2022-03-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-31",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-31/2022-03-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-31/R1-chantilly/R1C2-prix-de-la-fosse-aux-cerfs.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R1-chantilly/R1C5-prix-du-pays-de-thelle.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R1-chantilly/R1C6-prix-de-l-allee-janvier.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R1-chantilly/R1C8-prix-de-la-fabrique-de-l-extravagance.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R3-compiegne/R3C4-prix-du-val-saint-georges.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R3-compiegne/R3C6-prix-de-l-allee-janvier.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R3-compiegne/R3C7-prix-des-frayoirs.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C1-prix-de-la-journee-des-plantes.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C3-prix-de-l-allee-elf.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C4-prix-du-val-saint-georges.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C6-prix-de-l-allee-janvier.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C7-prix-des-frayoirs.html",
+      "resultats-et-rapports/2022/03/2022-03-31/R4-marseille-vivaux/R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-journee-des-plantes.html",
+        "R1C2-prix-de-la-fosse-aux-cerfs.html",
+        "R1C3-prix-de-l-allee-elf.html",
+        "R1C4-prix-du-val-saint-georges.html",
+        "R1C5-prix-du-pays-de-thelle.html",
+        "R1C6-prix-de-l-allee-janvier.html",
+        "R1C7-prix-des-frayoirs.html",
+        "R1C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-la-journee-des-plantes.html",
+        "R3C2-prix-de-la-fosse-aux-cerfs.html",
+        "R3C3-prix-de-l-allee-elf.html",
+        "R3C4-prix-du-val-saint-georges.html",
+        "R3C5-prix-du-pays-de-thelle.html",
+        "R3C6-prix-de-l-allee-janvier.html",
+        "R3C7-prix-des-frayoirs.html",
+        "R3C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-journee-des-plantes.html",
+        "R4C2-prix-de-la-fosse-aux-cerfs.html",
+        "R4C3-prix-de-l-allee-elf.html",
+        "R4C4-prix-du-val-saint-georges.html",
+        "R4C5-prix-du-pays-de-thelle.html",
+        "R4C6-prix-de-l-allee-janvier.html",
+        "R4C7-prix-des-frayoirs.html",
+        "R4C8-prix-de-la-fabrique-de-l-extravagance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:20.080648Z"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2017-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-14",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-14/2017-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-14/R1-auteuil/R1C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R3-bordeaux-le-bouscat/R3C1-prix-xavier-de-chevigny.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R3-bordeaux-le-bouscat/R3C3-prix-sagan.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R3-bordeaux-le-bouscat/R3C5-prix-frascati.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R3-bordeaux-le-bouscat/R3C7-prix-colombelles.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R5-vichy/R5C2-prix-d-lescalle.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R5-vichy/R5C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R7-marseille-borely/R7C2-prix-d-lescalle.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R7-marseille-borely/R7C3-prix-sagan.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R7-marseille-borely/R7C6-prix-du-vesinet.html",
+      "resultats-et-rapports/2017/06/2017-06-14/R7-marseille-borely/R7C7-prix-colombelles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-bordeaux-le-bouscat",
+      "R5-vichy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-xavier-de-chevigny.html",
+        "R1C2-prix-d-lescalle.html",
+        "R1C3-prix-sagan.html",
+        "R1C4-prix-carmont.html",
+        "R1C5-prix-frascati.html",
+        "R1C6-prix-du-vesinet.html",
+        "R1C7-prix-colombelles.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-xavier-de-chevigny.html",
+        "R3C2-prix-d-lescalle.html",
+        "R3C3-prix-sagan.html",
+        "R3C4-prix-carmont.html",
+        "R3C5-prix-frascati.html",
+        "R3C6-prix-du-vesinet.html",
+        "R3C7-prix-colombelles.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-xavier-de-chevigny.html",
+        "R5C2-prix-d-lescalle.html",
+        "R5C3-prix-sagan.html",
+        "R5C4-prix-carmont.html",
+        "R5C5-prix-frascati.html",
+        "R5C6-prix-du-vesinet.html",
+        "R5C7-prix-colombelles.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-xavier-de-chevigny.html",
+        "R7C2-prix-d-lescalle.html",
+        "R7C3-prix-sagan.html",
+        "R7C4-prix-carmont.html",
+        "R7C5-prix-frascati.html",
+        "R7C6-prix-du-vesinet.html",
+        "R7C7-prix-colombelles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:42.540492Z"
+}

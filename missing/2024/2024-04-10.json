@@ -1,0 +1,59 @@
+{
+  "date": "2024-04-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-10",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-10/2024-04-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-10/R3-la-teste-de-buch/R3C8-prix-de-nantes.html",
+      "resultats-et-rapports/2024/04/2024-04-10/R4-deauville/R4C2-brasserie-des-etats-unis-prix-strasbourg.html",
+      "resultats-et-rapports/2024/04/2024-04-10/R4-deauville/R4C4-prix-de-marseille.html",
+      "resultats-et-rapports/2024/04/2024-04-10/R4-deauville/R4C6-prix-de-cabourg.html",
+      "resultats-et-rapports/2024/04/2024-04-10/R4-deauville/R4C8-prix-de-nantes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R3-la-teste-de-buch",
+      "R4-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-brasserie-des-etats-unis-prix-strasbourg.html",
+        "R1C3-prix-de-l-unat-centre-est.html",
+        "R1C4-prix-de-marseille.html",
+        "R1C5-px-des-15-ans-de-l-hippodrome-prix-de-bordeaux.html",
+        "R1C6-prix-de-cabourg.html",
+        "R1C7-prix-henri-callier.html",
+        "R1C8-prix-de-nantes.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-brasserie-des-etats-unis-prix-strasbourg.html",
+        "R3C3-prix-de-l-unat-centre-est.html",
+        "R3C4-prix-de-marseille.html",
+        "R3C5-px-des-15-ans-de-l-hippodrome-prix-de-bordeaux.html",
+        "R3C6-prix-de-cabourg.html",
+        "R3C7-prix-henri-callier.html",
+        "R3C8-prix-de-nantes.html"
+      ],
+      "R4-deauville": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-brasserie-des-etats-unis-prix-strasbourg.html",
+        "R4C3-prix-de-l-unat-centre-est.html",
+        "R4C4-prix-de-marseille.html",
+        "R4C5-px-des-15-ans-de-l-hippodrome-prix-de-bordeaux.html",
+        "R4C6-prix-de-cabourg.html",
+        "R4C7-prix-henri-callier.html",
+        "R4C8-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:52.455122Z"
+}

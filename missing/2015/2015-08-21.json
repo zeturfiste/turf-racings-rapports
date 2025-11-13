@@ -1,0 +1,106 @@
+{
+  "date": "2015-08-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/08/2015-08-21",
+    "date_html": "resultats-et-rapports/2015/08/2015-08-21/2015-08-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/08/2015-08-21/R1-clairefontaine/R1C3-prix-dogga-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R2-divonne-les-bains/R2C6-prix-ville-de-bonnebosq-prix-argument.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R2-divonne-les-bains/R2C8-prix-el-jem-prix-du-vieux-bourg.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R3-la-teste-de-buch/R3C2-prix-cepex-prix-des-coquelicots.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R3-la-teste-de-buch/R3C8-prix-el-jem-prix-du-vieux-bourg.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R4-cagnes-sur-mer/R4C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R4-cagnes-sur-mer/R4C8-prix-el-jem-prix-du-vieux-bourg.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C1-prix-tunisair-prix-north-jet.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C3-prix-dogga-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C6-prix-ville-de-bonnebosq-prix-argument.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C7-prix-bulla-regia-prix-des-anemones.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R5-cabourg/R5C8-prix-el-jem-prix-du-vieux-bourg.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C1-prix-tunisair-prix-north-jet.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C3-prix-dogga-prix-du-pays-d-auge.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C4-prix-carthage-prix-de-neptune.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C6-prix-ville-de-bonnebosq-prix-argument.html",
+      "resultats-et-rapports/2015/08/2015-08-21/R8-pornichet-la-baule/R8C7-prix-bulla-regia-prix-des-anemones.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-divonne-les-bains",
+      "R3-la-teste-de-buch",
+      "R4-cagnes-sur-mer",
+      "R5-cabourg",
+      "R8-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-tunisair-prix-north-jet.html",
+        "R1C2-prix-cepex-prix-des-coquelicots.html",
+        "R1C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R1C4-prix-carthage-prix-de-neptune.html",
+        "R1C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R1C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R1C7-prix-bulla-regia-prix-des-anemones.html",
+        "R1C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-tunisair-prix-north-jet.html",
+        "R2C2-prix-cepex-prix-des-coquelicots.html",
+        "R2C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R2C4-prix-carthage-prix-de-neptune.html",
+        "R2C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R2C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R2C7-prix-bulla-regia-prix-des-anemones.html",
+        "R2C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-tunisair-prix-north-jet.html",
+        "R3C2-prix-cepex-prix-des-coquelicots.html",
+        "R3C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R3C4-prix-carthage-prix-de-neptune.html",
+        "R3C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R3C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R3C7-prix-bulla-regia-prix-des-anemones.html",
+        "R3C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-tunisair-prix-north-jet.html",
+        "R4C2-prix-cepex-prix-des-coquelicots.html",
+        "R4C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R4C4-prix-carthage-prix-de-neptune.html",
+        "R4C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R4C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R4C7-prix-bulla-regia-prix-des-anemones.html",
+        "R4C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-tunisair-prix-north-jet.html",
+        "R5C2-prix-cepex-prix-des-coquelicots.html",
+        "R5C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R5C4-prix-carthage-prix-de-neptune.html",
+        "R5C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R5C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R5C7-prix-bulla-regia-prix-des-anemones.html",
+        "R5C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ],
+      "R8-pornichet-la-baule": [
+        "R8C1-prix-tunisair-prix-north-jet.html",
+        "R8C2-prix-cepex-prix-des-coquelicots.html",
+        "R8C3-prix-dogga-prix-du-pays-d-auge.html",
+        "R8C4-prix-carthage-prix-de-neptune.html",
+        "R8C5-prix-union-syndicale-interprofessionnelle-du-cheval-prix-des-bleuets.html",
+        "R8C6-prix-ville-de-bonnebosq-prix-argument.html",
+        "R8C7-prix-bulla-regia-prix-des-anemones.html",
+        "R8C8-prix-el-jem-prix-du-vieux-bourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:22.033428Z"
+}

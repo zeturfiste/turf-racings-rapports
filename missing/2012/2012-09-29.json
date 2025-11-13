@@ -1,0 +1,94 @@
+{
+  "date": "2012-09-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-29",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-29/2012-09-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-29/R2-caen/R2C4-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R3-le-croise-laroche/R3C3-prix-de-nantes.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R3-le-croise-laroche/R3C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R3-le-croise-laroche/R3C8-prix-violon-ii.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C1-prix-petit-fontaine.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C3-prix-de-nantes.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C4-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C6-prix-mandarin.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C7-prix-grandlieu.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R4-moulins/R4C8-prix-violon-ii.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C1-prix-petit-fontaine.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C2-prix-pride-of-kildare.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C3-prix-de-nantes.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C6-prix-mandarin.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C7-prix-grandlieu.html",
+      "resultats-et-rapports/2012/09/2012-09-29/R7-cavaillon/R7C8-prix-violon-ii.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-le-croise-laroche",
+      "R4-moulins",
+      "R7-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-petit-fontaine.html",
+        "R1C2-prix-pride-of-kildare.html",
+        "R1C3-prix-de-nantes.html",
+        "R1C4-prix-ferdinand-riant.html",
+        "R1C5-prix-de-maisons-laffitte.html",
+        "R1C6-prix-mandarin.html",
+        "R1C7-prix-grandlieu.html",
+        "R1C8-prix-violon-ii.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-petit-fontaine.html",
+        "R2C2-prix-pride-of-kildare.html",
+        "R2C3-prix-de-nantes.html",
+        "R2C4-prix-ferdinand-riant.html",
+        "R2C5-prix-de-maisons-laffitte.html",
+        "R2C6-prix-mandarin.html",
+        "R2C7-prix-grandlieu.html",
+        "R2C8-prix-violon-ii.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-petit-fontaine.html",
+        "R3C2-prix-pride-of-kildare.html",
+        "R3C3-prix-de-nantes.html",
+        "R3C4-prix-ferdinand-riant.html",
+        "R3C5-prix-de-maisons-laffitte.html",
+        "R3C6-prix-mandarin.html",
+        "R3C7-prix-grandlieu.html",
+        "R3C8-prix-violon-ii.html"
+      ],
+      "R4-moulins": [
+        "R4C1-prix-petit-fontaine.html",
+        "R4C2-prix-pride-of-kildare.html",
+        "R4C3-prix-de-nantes.html",
+        "R4C4-prix-ferdinand-riant.html",
+        "R4C5-prix-de-maisons-laffitte.html",
+        "R4C6-prix-mandarin.html",
+        "R4C7-prix-grandlieu.html",
+        "R4C8-prix-violon-ii.html"
+      ],
+      "R7-cavaillon": [
+        "R7C1-prix-petit-fontaine.html",
+        "R7C2-prix-pride-of-kildare.html",
+        "R7C3-prix-de-nantes.html",
+        "R7C4-prix-ferdinand-riant.html",
+        "R7C5-prix-de-maisons-laffitte.html",
+        "R7C6-prix-mandarin.html",
+        "R7C7-prix-grandlieu.html",
+        "R7C8-prix-violon-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:58.570946Z"
+}

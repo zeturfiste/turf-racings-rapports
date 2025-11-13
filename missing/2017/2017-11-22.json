@@ -1,0 +1,94 @@
+{
+  "date": "2017-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-22",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-22/2017-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C1-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C3-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C5-prix-du-conseil-departemental-de-seine-maritime.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C6-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R1-mauquenchy/R1C7-prix-du-comite.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R4-auteuil/R4C6-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R4-auteuil/R4C7-prix-du-comite.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C1-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C5-prix-du-conseil-departemental-de-seine-maritime.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C6-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C7-prix-du-comite.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R5-toulouse/R5C9-prix-www-courseschevaux-fr-groupe-b.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C1-prix-maurice-de-folleville.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C3-grand-prix-des-amateurs.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C5-prix-du-conseil-departemental-de-seine-maritime.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C6-prix-du-conseil-regional-de-normandie.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C7-prix-du-comite.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C8-prix-andre-perdrix-groupe-a.html",
+      "resultats-et-rapports/2017/11/2017-11-22/R7-marseille-borely/R7C9-prix-www-courseschevaux-fr-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R4-auteuil",
+      "R5-toulouse",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-maurice-de-folleville.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-grand-prix-des-amateurs.html",
+        "R1C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+        "R1C5-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R1C6-prix-du-conseil-regional-de-normandie.html",
+        "R1C7-prix-du-comite.html",
+        "R1C8-prix-andre-perdrix-groupe-a.html",
+        "R1C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-maurice-de-folleville.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-grand-prix-des-amateurs.html",
+        "R4C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+        "R4C5-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R4C6-prix-du-conseil-regional-de-normandie.html",
+        "R4C7-prix-du-comite.html",
+        "R4C8-prix-andre-perdrix-groupe-a.html",
+        "R4C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-maurice-de-folleville.html",
+        "R5C2-grand-national-du-trot-paris-turf.html",
+        "R5C3-grand-prix-des-amateurs.html",
+        "R5C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+        "R5C5-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R5C6-prix-du-conseil-regional-de-normandie.html",
+        "R5C7-prix-du-comite.html",
+        "R5C8-prix-andre-perdrix-groupe-a.html",
+        "R5C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-maurice-de-folleville.html",
+        "R7C2-grand-national-du-trot-paris-turf.html",
+        "R7C3-grand-prix-des-amateurs.html",
+        "R7C4-prix-cafe-du-commerce-de-forges-les-eaux.html",
+        "R7C5-prix-du-conseil-departemental-de-seine-maritime.html",
+        "R7C6-prix-du-conseil-regional-de-normandie.html",
+        "R7C7-prix-du-comite.html",
+        "R7C8-prix-andre-perdrix-groupe-a.html",
+        "R7C9-prix-www-courseschevaux-fr-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:37.205735Z"
+}

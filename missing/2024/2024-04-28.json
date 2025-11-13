@@ -1,0 +1,119 @@
+{
+  "date": "2024-04-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-28",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-28/2024-04-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-28/R1-paris-longchamp/R1C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R1-paris-longchamp/R1C9-prix-de-la-vieille-tour.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R5-fougeres/R5C1-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R5-fougeres/R5C6-prix-allez-france-longines.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R5-fougeres/R5C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R6-chartres/R6C2-prix-de-barbeville.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R6-chartres/R6C3-prix-de-l-avre.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R6-chartres/R6C6-prix-allez-france-longines.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R10-la-capelle/R10C3-prix-de-l-avre.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R10-la-capelle/R10C9-prix-de-la-vieille-tour.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C1-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C4-prix-de-chevilly.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C5-prix-ganay.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C6-prix-allez-france-longines.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R11-cherbourg/R11C9-prix-de-la-vieille-tour.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C1-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C2-prix-de-barbeville.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C3-prix-de-l-avre.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C4-prix-de-chevilly.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C5-prix-ganay.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C6-prix-allez-france-longines.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C8-prix-de-glatigny.html",
+      "resultats-et-rapports/2024/04/2024-04-28/R4-lyon-parilly/R4C9-prix-de-la-vieille-tour.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R5-fougeres",
+      "R6-chartres",
+      "R10-la-capelle",
+      "R11-cherbourg",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-pavillon-des-gardes.html",
+        "R1C2-prix-de-barbeville.html",
+        "R1C3-prix-de-l-avre.html",
+        "R1C4-prix-de-chevilly.html",
+        "R1C5-prix-ganay.html",
+        "R1C6-prix-allez-france-longines.html",
+        "R1C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-de-glatigny.html",
+        "R1C9-prix-de-la-vieille-tour.html"
+      ],
+      "R5-fougeres": [
+        "R5C1-prix-du-pavillon-des-gardes.html",
+        "R5C2-prix-de-barbeville.html",
+        "R5C3-prix-de-l-avre.html",
+        "R5C4-prix-de-chevilly.html",
+        "R5C5-prix-ganay.html",
+        "R5C6-prix-allez-france-longines.html",
+        "R5C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R5C8-prix-de-glatigny.html",
+        "R5C9-prix-de-la-vieille-tour.html"
+      ],
+      "R6-chartres": [
+        "R6C1-prix-du-pavillon-des-gardes.html",
+        "R6C2-prix-de-barbeville.html",
+        "R6C3-prix-de-l-avre.html",
+        "R6C4-prix-de-chevilly.html",
+        "R6C5-prix-ganay.html",
+        "R6C6-prix-allez-france-longines.html",
+        "R6C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R6C8-prix-de-glatigny.html",
+        "R6C9-prix-de-la-vieille-tour.html"
+      ],
+      "R10-la-capelle": [
+        "R10C1-prix-du-pavillon-des-gardes.html",
+        "R10C2-prix-de-barbeville.html",
+        "R10C3-prix-de-l-avre.html",
+        "R10C4-prix-de-chevilly.html",
+        "R10C5-prix-ganay.html",
+        "R10C6-prix-allez-france-longines.html",
+        "R10C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R10C8-prix-de-glatigny.html",
+        "R10C9-prix-de-la-vieille-tour.html"
+      ],
+      "R11-cherbourg": [
+        "R11C1-prix-du-pavillon-des-gardes.html",
+        "R11C2-prix-de-barbeville.html",
+        "R11C3-prix-de-l-avre.html",
+        "R11C4-prix-de-chevilly.html",
+        "R11C5-prix-ganay.html",
+        "R11C6-prix-allez-france-longines.html",
+        "R11C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R11C8-prix-de-glatigny.html",
+        "R11C9-prix-de-la-vieille-tour.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-du-pavillon-des-gardes.html",
+        "R4C2-prix-de-barbeville.html",
+        "R4C3-prix-de-l-avre.html",
+        "R4C4-prix-de-chevilly.html",
+        "R4C5-prix-ganay.html",
+        "R4C6-prix-allez-france-longines.html",
+        "R4C7-prix-maurice-zilber-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-de-glatigny.html",
+        "R4C9-prix-de-la-vieille-tour.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:59.140327Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2023-12-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/12/2023-12-26",
+    "date_html": "resultats-et-rapports/2023/12/2023-12-26/2023-12-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/12/2023-12-26/R1-deauville/R1C1-prix-de-la-suisse-normande.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R3-argentan/R3C5-prix-de-bourgeauville.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C3-prix-de-l-hermeraie.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C4-prix-de-cheffreteau.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C6-prix-du-val-d-orne.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C7-prix-du-domfrontais.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C8-prix-du-massif-armoricain.html",
+      "resultats-et-rapports/2023/12/2023-12-26/R4-vincennes/R4C9-prix-du-mortainais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-argentan",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-suisse-normande.html",
+        "R1C2-prix-des-perrets.html",
+        "R1C3-prix-de-l-hermeraie.html",
+        "R1C4-prix-de-cheffreteau.html",
+        "R1C5-prix-de-bourgeauville.html",
+        "R1C6-prix-du-val-d-orne.html",
+        "R1C7-prix-du-domfrontais.html",
+        "R1C8-prix-du-massif-armoricain.html",
+        "R1C9-prix-du-mortainais.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-de-la-suisse-normande.html",
+        "R3C2-prix-des-perrets.html",
+        "R3C3-prix-de-l-hermeraie.html",
+        "R3C4-prix-de-cheffreteau.html",
+        "R3C5-prix-de-bourgeauville.html",
+        "R3C6-prix-du-val-d-orne.html",
+        "R3C7-prix-du-domfrontais.html",
+        "R3C8-prix-du-massif-armoricain.html",
+        "R3C9-prix-du-mortainais.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-la-suisse-normande.html",
+        "R4C2-prix-des-perrets.html",
+        "R4C3-prix-de-l-hermeraie.html",
+        "R4C4-prix-de-cheffreteau.html",
+        "R4C5-prix-de-bourgeauville.html",
+        "R4C6-prix-du-val-d-orne.html",
+        "R4C7-prix-du-domfrontais.html",
+        "R4C8-prix-du-massif-armoricain.html",
+        "R4C9-prix-du-mortainais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:15.342367Z"
+}

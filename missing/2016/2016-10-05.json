@@ -1,0 +1,78 @@
+{
+  "date": "2016-10-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/10/2016-10-05",
+    "date_html": "resultats-et-rapports/2016/10/2016-10-05/2016-10-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C1-prix-du-conseil-regional-des-pays-de-la-loire.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C2-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C3-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C4-prix-agem.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C5-prix-de-la-communaute-de-communes-meslay-grez.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C6-prix-general-du-pommeau.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R1-meslay-du-maine/R1C9-prix-de-la-societe-du-cheval-francais-groupe-b.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R5-lyon-la-soie/R5C2-grand-prix-anjou-maine.html",
+      "resultats-et-rapports/2016/10/2016-10-05/R5-lyon-la-soie/R5C6-prix-general-du-pommeau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-meslay-du-maine",
+      "R3-saint-cloud",
+      "R4-toulouse",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-meslay-du-maine": [
+        "R1C1-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R1C2-grand-prix-anjou-maine.html",
+        "R1C3-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R1C4-prix-agem.html",
+        "R1C5-prix-de-la-communaute-de-communes-meslay-grez.html",
+        "R1C6-prix-general-du-pommeau.html",
+        "R1C7-prix-de-la-ville-de-meslay-du-maine.html",
+        "R1C8-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R1C9-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R3C2-grand-prix-anjou-maine.html",
+        "R3C3-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R3C4-prix-agem.html",
+        "R3C5-prix-de-la-communaute-de-communes-meslay-grez.html",
+        "R3C6-prix-general-du-pommeau.html",
+        "R3C7-prix-de-la-ville-de-meslay-du-maine.html",
+        "R3C8-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R3C9-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R4C2-grand-prix-anjou-maine.html",
+        "R4C3-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R4C4-prix-agem.html",
+        "R4C5-prix-de-la-communaute-de-communes-meslay-grez.html",
+        "R4C6-prix-general-du-pommeau.html",
+        "R4C7-prix-de-la-ville-de-meslay-du-maine.html",
+        "R4C8-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R4C9-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-du-conseil-regional-des-pays-de-la-loire.html",
+        "R5C2-grand-prix-anjou-maine.html",
+        "R5C3-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R5C4-prix-agem.html",
+        "R5C5-prix-de-la-communaute-de-communes-meslay-grez.html",
+        "R5C6-prix-general-du-pommeau.html",
+        "R5C7-prix-de-la-ville-de-meslay-du-maine.html",
+        "R5C8-prix-de-la-societe-du-cheval-francais-groupe-a.html",
+        "R5C9-prix-de-la-societe-du-cheval-francais-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:29.277426Z"
+}

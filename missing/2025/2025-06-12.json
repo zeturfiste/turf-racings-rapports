@@ -1,0 +1,75 @@
+{
+  "date": "2025-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-12",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-12/2025-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-12/R3-amiens/R3C1-prix-de-l-ile-aux-cygnes.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R3-amiens/R3C2-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R3-amiens/R3C3-prix-de-la-glaciere.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R3-amiens/R3C7-prix-de-la-colonne-vendome.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R3-amiens/R3C8-prix-rfm-prix-de-champerret.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R4-laval/R4C1-prix-de-l-ile-aux-cygnes.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R4-laval/R4C5-prix-de-la-grange-aux-belles.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R4-laval/R4C6-prix-de-la-ville-du-touquet-paris-plage-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R4-laval/R4C7-prix-de-la-colonne-vendome.html",
+      "resultats-et-rapports/2025/06/2025-06-12/R4-laval/R4C8-prix-rfm-prix-de-champerret.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-dieppe",
+      "R3-amiens",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-ile-aux-cygnes.html",
+        "R1C2-prix-de-l-ile-saint-louis.html",
+        "R1C3-prix-de-la-glaciere.html",
+        "R1C4-prix-du-chateau-de-vanves.html",
+        "R1C5-prix-de-la-grange-aux-belles.html",
+        "R1C6-prix-de-la-ville-du-touquet-paris-plage-prix-de-l-ile-de-la-cite.html",
+        "R1C7-prix-de-la-colonne-vendome.html",
+        "R1C8-prix-rfm-prix-de-champerret.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-de-l-ile-aux-cygnes.html",
+        "R2C2-prix-de-l-ile-saint-louis.html",
+        "R2C3-prix-de-la-glaciere.html",
+        "R2C4-prix-du-chateau-de-vanves.html",
+        "R2C5-prix-de-la-grange-aux-belles.html",
+        "R2C6-prix-de-la-ville-du-touquet-paris-plage-prix-de-l-ile-de-la-cite.html",
+        "R2C7-prix-de-la-colonne-vendome.html",
+        "R2C8-prix-rfm-prix-de-champerret.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-de-l-ile-aux-cygnes.html",
+        "R3C2-prix-de-l-ile-saint-louis.html",
+        "R3C3-prix-de-la-glaciere.html",
+        "R3C4-prix-du-chateau-de-vanves.html",
+        "R3C5-prix-de-la-grange-aux-belles.html",
+        "R3C6-prix-de-la-ville-du-touquet-paris-plage-prix-de-l-ile-de-la-cite.html",
+        "R3C7-prix-de-la-colonne-vendome.html",
+        "R3C8-prix-rfm-prix-de-champerret.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-l-ile-aux-cygnes.html",
+        "R4C2-prix-de-l-ile-saint-louis.html",
+        "R4C3-prix-de-la-glaciere.html",
+        "R4C4-prix-du-chateau-de-vanves.html",
+        "R4C5-prix-de-la-grange-aux-belles.html",
+        "R4C6-prix-de-la-ville-du-touquet-paris-plage-prix-de-l-ile-de-la-cite.html",
+        "R4C7-prix-de-la-colonne-vendome.html",
+        "R4C8-prix-rfm-prix-de-champerret.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:35.853173Z"
+}

@@ -1,0 +1,94 @@
+{
+  "date": "2014-09-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-03",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-03/2014-09-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C2-prix-julien-cornet.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C3-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C7-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R1-nancy/R1C8-prix-leopold-verroken.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C2-prix-julien-cornet.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C3-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C4-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C7-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R2-mont-de-marsan/R2C8-prix-leopold-verroken.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C2-prix-julien-cornet.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C3-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C4-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C6-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C7-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R3-chantilly/R3C8-prix-leopold-verroken.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C2-prix-julien-cornet.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C3-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C4-prix-fernand-floribert-dubois.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C6-prix-du-champagne-de-castelnau.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C7-prix-de-l-u-n-a-t.html",
+      "resultats-et-rapports/2014/09/2014-09-03/R5-marseille-borely/R5C8-prix-leopold-verroken.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nancy",
+      "R2-mont-de-marsan",
+      "R3-chantilly",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-nancy": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-julien-cornet.html",
+        "R1C3-prix-du-journal-l-union.html",
+        "R1C4-prix-fernand-floribert-dubois.html",
+        "R1C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R1C6-prix-du-champagne-de-castelnau.html",
+        "R1C7-prix-de-l-u-n-a-t.html",
+        "R1C8-prix-leopold-verroken.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-grand-national-du-trot.html",
+        "R2C2-prix-julien-cornet.html",
+        "R2C3-prix-du-journal-l-union.html",
+        "R2C4-prix-fernand-floribert-dubois.html",
+        "R2C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R2C6-prix-du-champagne-de-castelnau.html",
+        "R2C7-prix-de-l-u-n-a-t.html",
+        "R2C8-prix-leopold-verroken.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-julien-cornet.html",
+        "R3C3-prix-du-journal-l-union.html",
+        "R3C4-prix-fernand-floribert-dubois.html",
+        "R3C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R3C6-prix-du-champagne-de-castelnau.html",
+        "R3C7-prix-de-l-u-n-a-t.html",
+        "R3C8-prix-leopold-verroken.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-grand-national-du-trot.html",
+        "R5C2-prix-julien-cornet.html",
+        "R5C3-prix-du-journal-l-union.html",
+        "R5C4-prix-fernand-floribert-dubois.html",
+        "R5C5-prix-de-la-ligue-contre-la-cardiomyopathie.html",
+        "R5C6-prix-du-champagne-de-castelnau.html",
+        "R5C7-prix-de-l-u-n-a-t.html",
+        "R5C8-prix-leopold-verroken.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:30.209764Z"
+}

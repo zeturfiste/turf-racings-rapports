@@ -1,0 +1,73 @@
+{
+  "date": "2014-04-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/04/2014-04-24",
+    "date_html": "resultats-et-rapports/2014/04/2014-04-24/2014-04-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/04/2014-04-24/R1-longchamp/R1C2-prix-des-tertres.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R1-longchamp/R1C3-grand-handicap-de-longchamp.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R1-longchamp/R1C4-prix-de-verneuil.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R1-longchamp/R1C6-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C1-prix-de-champerret.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C2-prix-des-tertres.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C3-grand-handicap-de-longchamp.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C4-prix-de-verneuil.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C5-prix-de-viroflay.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C6-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R2-caen/R2C8-prix-des-victoires.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C1-prix-de-champerret.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C2-prix-des-tertres.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C4-prix-de-verneuil.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C5-prix-de-viroflay.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C6-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C7-prix-des-petits-champs.html",
+      "resultats-et-rapports/2014/04/2014-04-24/R3-lyon-parilly/R3C8-prix-des-victoires.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-caen",
+      "R3-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-champerret.html",
+        "R1C2-prix-des-tertres.html",
+        "R1C3-grand-handicap-de-longchamp.html",
+        "R1C4-prix-de-verneuil.html",
+        "R1C5-prix-de-viroflay.html",
+        "R1C6-prix-de-l-aqueduc.html",
+        "R1C7-prix-des-petits-champs.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-champerret.html",
+        "R2C2-prix-des-tertres.html",
+        "R2C3-grand-handicap-de-longchamp.html",
+        "R2C4-prix-de-verneuil.html",
+        "R2C5-prix-de-viroflay.html",
+        "R2C6-prix-de-l-aqueduc.html",
+        "R2C7-prix-des-petits-champs.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-champerret.html",
+        "R3C2-prix-des-tertres.html",
+        "R3C3-grand-handicap-de-longchamp.html",
+        "R3C4-prix-de-verneuil.html",
+        "R3C5-prix-de-viroflay.html",
+        "R3C6-prix-de-l-aqueduc.html",
+        "R3C7-prix-des-petits-champs.html",
+        "R3C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:45.360815Z"
+}

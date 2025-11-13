@@ -1,0 +1,56 @@
+{
+  "date": "2005-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-03",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-03/2005-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-bordeaux-le-bouscat",
+      "R4-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-gisors.html",
+        "R1C2-prix-de-blain-bouvron-le-gavre.html",
+        "R1C3-prix-de-bagnoles-de-l-orne.html",
+        "R1C4-prix-d-elbeuf.html",
+        "R1C5-prix-joseph-lafosse.html",
+        "R1C6-prix-de-quimper.html",
+        "R1C7-prix-de-la-ferte-vidame.html",
+        "R1C8-prix-de-montdidier.html",
+        "R1C9-prix-de-mirecourt.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-gisors.html",
+        "R2C2-prix-de-blain-bouvron-le-gavre.html",
+        "R2C3-prix-de-bagnoles-de-l-orne.html",
+        "R2C4-prix-d-elbeuf.html",
+        "R2C5-prix-joseph-lafosse.html",
+        "R2C6-prix-de-quimper.html",
+        "R2C7-prix-de-la-ferte-vidame.html",
+        "R2C8-prix-de-montdidier.html",
+        "R2C9-prix-de-mirecourt.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-de-gisors.html",
+        "R4C2-prix-de-blain-bouvron-le-gavre.html",
+        "R4C3-prix-de-bagnoles-de-l-orne.html",
+        "R4C4-prix-d-elbeuf.html",
+        "R4C5-prix-joseph-lafosse.html",
+        "R4C6-prix-de-quimper.html",
+        "R4C7-prix-de-la-ferte-vidame.html",
+        "R4C8-prix-de-montdidier.html",
+        "R4C9-prix-de-mirecourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:04.639527Z"
+}

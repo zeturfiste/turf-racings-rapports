@@ -1,0 +1,44 @@
+{
+  "date": "2005-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-15",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-15/2005-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-levallois.html",
+        "R1C2-prix-de-l-esplanade.html",
+        "R1C3-prix-de-saint-georges.html",
+        "R1C4-gainsborough-poule-d-essai-des-pouliches.html",
+        "R1C5-rome-premio-presidente-della-repubblica.html",
+        "R1C6-gainsborough-poule-d-essai-des-poulains.html",
+        "R1C7-prix-de-la-seine.html",
+        "R1C8-prix-du-port-de-bercy.html",
+        "R1C9-prix-des-invalides.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-de-levallois.html",
+        "R2C2-prix-de-l-esplanade.html",
+        "R2C3-prix-de-saint-georges.html",
+        "R2C4-gainsborough-poule-d-essai-des-pouliches.html",
+        "R2C5-rome-premio-presidente-della-repubblica.html",
+        "R2C6-gainsborough-poule-d-essai-des-poulains.html",
+        "R2C7-prix-de-la-seine.html",
+        "R2C8-prix-du-port-de-bercy.html",
+        "R2C9-prix-des-invalides.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:31.598215Z"
+}

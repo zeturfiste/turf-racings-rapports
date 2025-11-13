@@ -1,0 +1,58 @@
+{
+  "date": "2020-06-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-03",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-03/2020-06-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-03/R3-la-teste-de-buch/R3C4-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2020/06/2020-06-03/R4-chantilly/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2020/06/2020-06-03/R4-chantilly/R4C7-prix-laval-ambulances-bellanger-beaufils.html",
+      "resultats-et-rapports/2020/06/2020-06-03/R4-chantilly/R4C8-prix-jean-de-la-vaissiere-de-lavergne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-la-teste-de-buch",
+      "R4-chantilly"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-des-bars-pmu-de-la-mayenne.html",
+        "R1C3-prix-pierre-seche.html",
+        "R1C4-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R1C5-prix-baron-guy-de-meynard.html",
+        "R1C6-prix-henri-desmontils.html",
+        "R1C7-prix-laval-ambulances-bellanger-beaufils.html",
+        "R1C8-prix-jean-de-la-vaissiere-de-lavergne.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-des-bars-pmu-de-la-mayenne.html",
+        "R3C3-prix-pierre-seche.html",
+        "R3C4-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R3C5-prix-baron-guy-de-meynard.html",
+        "R3C6-prix-henri-desmontils.html",
+        "R3C7-prix-laval-ambulances-bellanger-beaufils.html",
+        "R3C8-prix-jean-de-la-vaissiere-de-lavergne.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-des-bars-pmu-de-la-mayenne.html",
+        "R4C3-prix-pierre-seche.html",
+        "R4C4-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R4C5-prix-baron-guy-de-meynard.html",
+        "R4C6-prix-henri-desmontils.html",
+        "R4C7-prix-laval-ambulances-bellanger-beaufils.html",
+        "R4C8-prix-jean-de-la-vaissiere-de-lavergne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:13.969347Z"
+}

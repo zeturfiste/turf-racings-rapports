@@ -1,0 +1,95 @@
+{
+  "date": "2022-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-06",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-06/2022-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-06/R1-vincennes/R1C4-prix-arachne.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R1-vincennes/R1C6-prix-altair.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R1-vincennes/R1C7-prix-asia.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R3-laval/R3C1-prix-polana.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R3-laval/R3C2-prix-belinda.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R3-laval/R3C4-prix-arachne.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R3-laval/R3C5-prix-alioth.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R4-chantilly/R4C1-prix-polana.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R4-chantilly/R4C2-prix-belinda.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R4-chantilly/R4C5-prix-alioth.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R4-chantilly/R4C6-prix-altair.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R4-chantilly/R4C7-prix-asia.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C1-prix-polana.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C2-prix-belinda.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C4-prix-arachne.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C5-prix-alioth.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C6-prix-altair.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R5-marseille-borely/R5C7-prix-asia.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C2-prix-belinda.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C3-prix-bettina.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C4-prix-arachne.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C5-prix-alioth.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C6-prix-altair.html",
+      "resultats-et-rapports/2022/05/2022-05-06/R6-vichy/R6C7-prix-asia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-laval",
+      "R4-chantilly",
+      "R5-marseille-borely",
+      "R6-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-polana.html",
+        "R1C2-prix-belinda.html",
+        "R1C3-prix-bettina.html",
+        "R1C4-prix-arachne.html",
+        "R1C5-prix-alioth.html",
+        "R1C6-prix-altair.html",
+        "R1C7-prix-asia.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-polana.html",
+        "R3C2-prix-belinda.html",
+        "R3C3-prix-bettina.html",
+        "R3C4-prix-arachne.html",
+        "R3C5-prix-alioth.html",
+        "R3C6-prix-altair.html",
+        "R3C7-prix-asia.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-polana.html",
+        "R4C2-prix-belinda.html",
+        "R4C3-prix-bettina.html",
+        "R4C4-prix-arachne.html",
+        "R4C5-prix-alioth.html",
+        "R4C6-prix-altair.html",
+        "R4C7-prix-asia.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-polana.html",
+        "R5C2-prix-belinda.html",
+        "R5C3-prix-bettina.html",
+        "R5C4-prix-arachne.html",
+        "R5C5-prix-alioth.html",
+        "R5C6-prix-altair.html",
+        "R5C7-prix-asia.html"
+      ],
+      "R6-vichy": [
+        "R6C1-prix-polana.html",
+        "R6C2-prix-belinda.html",
+        "R6C3-prix-bettina.html",
+        "R6C4-prix-arachne.html",
+        "R6C5-prix-alioth.html",
+        "R6C6-prix-altair.html",
+        "R6C7-prix-asia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:33.807015Z"
+}

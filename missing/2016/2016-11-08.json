@@ -1,0 +1,77 @@
+{
+  "date": "2016-11-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-08",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-08/2016-11-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-08/R1-saint-cloud/R1C6-prix-de-bessan.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R1-saint-cloud/R1C8-prix-des-coteaux-de-saint-cloud.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R2-bordeaux-le-bouscat/R2C3-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R2-bordeaux-le-bouscat/R2C5-prix-solitude.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R2-bordeaux-le-bouscat/R2C7-prix-de-lamarque.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R3-marseille-vivaux/R3C1-prix-dagor.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R3-marseille-vivaux/R3C3-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R3-marseille-vivaux/R3C4-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R3-marseille-vivaux/R3C5-prix-solitude.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R5-vincennes/R5C1-prix-dagor.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R5-vincennes/R5C3-prix-des-hauts-de-seine.html",
+      "resultats-et-rapports/2016/11/2016-11-08/R5-vincennes/R5C5-prix-solitude.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-bordeaux-le-bouscat",
+      "R3-marseille-vivaux",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dagor.html",
+        "R1C2-prix-fairy-legend.html",
+        "R1C3-prix-des-hauts-de-seine.html",
+        "R1C4-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R1C5-prix-solitude.html",
+        "R1C6-prix-de-bessan.html",
+        "R1C7-prix-de-lamarque.html",
+        "R1C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-dagor.html",
+        "R2C2-prix-fairy-legend.html",
+        "R2C3-prix-des-hauts-de-seine.html",
+        "R2C4-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R2C5-prix-solitude.html",
+        "R2C6-prix-de-bessan.html",
+        "R2C7-prix-de-lamarque.html",
+        "R2C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-dagor.html",
+        "R3C2-prix-fairy-legend.html",
+        "R3C3-prix-des-hauts-de-seine.html",
+        "R3C4-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R3C5-prix-solitude.html",
+        "R3C6-prix-de-bessan.html",
+        "R3C7-prix-de-lamarque.html",
+        "R3C8-prix-des-coteaux-de-saint-cloud.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-dagor.html",
+        "R5C2-prix-fairy-legend.html",
+        "R5C3-prix-des-hauts-de-seine.html",
+        "R5C4-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R5C5-prix-solitude.html",
+        "R5C6-prix-de-bessan.html",
+        "R5C7-prix-de-lamarque.html",
+        "R5C8-prix-des-coteaux-de-saint-cloud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:40.548748Z"
+}

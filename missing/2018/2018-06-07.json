@@ -1,0 +1,88 @@
+{
+  "date": "2018-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-07",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-07/2018-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-07/R1-paris-longchamp/R1C4-prix-de-la-monnaie-de-paris.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R1-paris-longchamp/R1C6-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R3-caen/R3C1-prix-du-vert-galant.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R3-caen/R3C2-prix-des-nenuphars.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R3-caen/R3C4-prix-de-la-monnaie-de-paris.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R3-caen/R3C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R3-caen/R3C7-prix-de-la-galerie-d-apollon.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R4-dieppe/R4C1-prix-du-vert-galant.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R4-dieppe/R4C4-prix-de-la-monnaie-de-paris.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C1-prix-du-vert-galant.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C2-prix-des-nenuphars.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C3-prix-des-lotus.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C4-prix-de-la-monnaie-de-paris.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R5-marseille-borely/R5C6-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R6-lyon-parilly/R6C3-prix-des-lotus.html",
+      "resultats-et-rapports/2018/06/2018-06-07/R6-lyon-parilly/R6C6-prix-de-l-aqueduc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-caen",
+      "R4-dieppe",
+      "R5-marseille-borely",
+      "R6-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-vert-galant.html",
+        "R1C2-prix-des-nenuphars.html",
+        "R1C3-prix-des-lotus.html",
+        "R1C4-prix-de-la-monnaie-de-paris.html",
+        "R1C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+        "R1C6-prix-de-l-aqueduc.html",
+        "R1C7-prix-de-la-galerie-d-apollon.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-du-vert-galant.html",
+        "R3C2-prix-des-nenuphars.html",
+        "R3C3-prix-des-lotus.html",
+        "R3C4-prix-de-la-monnaie-de-paris.html",
+        "R3C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+        "R3C6-prix-de-l-aqueduc.html",
+        "R3C7-prix-de-la-galerie-d-apollon.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-du-vert-galant.html",
+        "R4C2-prix-des-nenuphars.html",
+        "R4C3-prix-des-lotus.html",
+        "R4C4-prix-de-la-monnaie-de-paris.html",
+        "R4C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+        "R4C6-prix-de-l-aqueduc.html",
+        "R4C7-prix-de-la-galerie-d-apollon.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-du-vert-galant.html",
+        "R5C2-prix-des-nenuphars.html",
+        "R5C3-prix-des-lotus.html",
+        "R5C4-prix-de-la-monnaie-de-paris.html",
+        "R5C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+        "R5C6-prix-de-l-aqueduc.html",
+        "R5C7-prix-de-la-galerie-d-apollon.html"
+      ],
+      "R6-lyon-parilly": [
+        "R6C1-prix-du-vert-galant.html",
+        "R6C2-prix-des-nenuphars.html",
+        "R6C3-prix-des-lotus.html",
+        "R6C4-prix-de-la-monnaie-de-paris.html",
+        "R6C5-prix-le-parisien-prix-du-palais-du-louvre.html",
+        "R6C6-prix-de-l-aqueduc.html",
+        "R6C7-prix-de-la-galerie-d-apollon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:34.709288Z"
+}

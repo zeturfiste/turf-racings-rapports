@@ -1,0 +1,73 @@
+{
+  "date": "2024-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-24",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-24/2024-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-24/R1-auteuil/R1C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R3-chantilly/R3C6-prix-doublon.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R3-chantilly/R3C8-prix-bougie.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R4-amiens/R4C2-prix-varaville.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R10-hyeres/R10C1-prix-marise.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R10-hyeres/R10C2-prix-varaville.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R10-hyeres/R10C3-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2024/02/2024-02-24/R10-hyeres/R10C6-prix-doublon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-chantilly",
+      "R4-amiens",
+      "R10-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-marise.html",
+        "R1C2-prix-varaville.html",
+        "R1C3-prix-jean-claude-evain.html",
+        "R1C4-prix-beugnot.html",
+        "R1C5-prix-agitato.html",
+        "R1C6-prix-doublon.html",
+        "R1C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R1C8-prix-bougie.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-marise.html",
+        "R3C2-prix-varaville.html",
+        "R3C3-prix-jean-claude-evain.html",
+        "R3C4-prix-beugnot.html",
+        "R3C5-prix-agitato.html",
+        "R3C6-prix-doublon.html",
+        "R3C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R3C8-prix-bougie.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-marise.html",
+        "R4C2-prix-varaville.html",
+        "R4C3-prix-jean-claude-evain.html",
+        "R4C4-prix-beugnot.html",
+        "R4C5-prix-agitato.html",
+        "R4C6-prix-doublon.html",
+        "R4C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R4C8-prix-bougie.html"
+      ],
+      "R10-hyeres": [
+        "R10C1-prix-marise.html",
+        "R10C2-prix-varaville.html",
+        "R10C3-prix-jean-claude-evain.html",
+        "R10C4-prix-beugnot.html",
+        "R10C5-prix-agitato.html",
+        "R10C6-prix-doublon.html",
+        "R10C7-gsc-masters-prix-robert-de-clermont-tonnerre.html",
+        "R10C8-prix-bougie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:35.775323Z"
+}

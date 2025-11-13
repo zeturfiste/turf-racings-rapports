@@ -1,0 +1,100 @@
+{
+  "date": "2009-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/06/2009-06-04",
+    "date_html": "resultats-et-rapports/2009/06/2009-06-04/2009-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/06/2009-06-04/R1-maisons-laffitte/R1C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R1-maisons-laffitte/R1C2-prix-ad-altiora.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R1-maisons-laffitte/R1C3-prix-hunyade.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R1-maisons-laffitte/R1C4-prix-la-belle-ii.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R3-vichy/R3C7-prix-d-acheres.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C3-prix-hunyade.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C4-prix-la-belle-ii.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C5-prix-de-rueil.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C6-prix-bend-or.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C7-prix-d-acheres.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R31-zerace/R31C8-prix-du-lambourn.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C1-prix-de-newmarket.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C3-prix-hunyade.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C4-prix-la-belle-ii.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C5-prix-de-rueil.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C6-prix-bend-or.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C7-prix-d-acheres.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C8-prix-du-lambourn.html",
+      "resultats-et-rapports/2009/06/2009-06-04/R70-roland-garros-paris/R70C9-prix-de-marlborough.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-caen",
+      "R3-vichy",
+      "R31-zerace",
+      "R70-roland-garros-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-newmarket.html",
+        "R1C2-prix-ad-altiora.html",
+        "R1C3-prix-hunyade.html",
+        "R1C4-prix-la-belle-ii.html",
+        "R1C5-prix-de-rueil.html",
+        "R1C6-prix-bend-or.html",
+        "R1C7-prix-d-acheres.html",
+        "R1C8-prix-du-lambourn.html",
+        "R1C9-prix-de-marlborough.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-newmarket.html",
+        "R2C2-prix-ad-altiora.html",
+        "R2C3-prix-hunyade.html",
+        "R2C4-prix-la-belle-ii.html",
+        "R2C5-prix-de-rueil.html",
+        "R2C6-prix-bend-or.html",
+        "R2C7-prix-d-acheres.html",
+        "R2C8-prix-du-lambourn.html",
+        "R2C9-prix-de-marlborough.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-de-newmarket.html",
+        "R3C2-prix-ad-altiora.html",
+        "R3C3-prix-hunyade.html",
+        "R3C4-prix-la-belle-ii.html",
+        "R3C5-prix-de-rueil.html",
+        "R3C6-prix-bend-or.html",
+        "R3C7-prix-d-acheres.html",
+        "R3C8-prix-du-lambourn.html",
+        "R3C9-prix-de-marlborough.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-newmarket.html",
+        "R31C2-prix-ad-altiora.html",
+        "R31C3-prix-hunyade.html",
+        "R31C4-prix-la-belle-ii.html",
+        "R31C5-prix-de-rueil.html",
+        "R31C6-prix-bend-or.html",
+        "R31C7-prix-d-acheres.html",
+        "R31C8-prix-du-lambourn.html",
+        "R31C9-prix-de-marlborough.html"
+      ],
+      "R70-roland-garros-paris": [
+        "R70C1-prix-de-newmarket.html",
+        "R70C2-prix-ad-altiora.html",
+        "R70C3-prix-hunyade.html",
+        "R70C4-prix-la-belle-ii.html",
+        "R70C5-prix-de-rueil.html",
+        "R70C6-prix-bend-or.html",
+        "R70C7-prix-d-acheres.html",
+        "R70C8-prix-du-lambourn.html",
+        "R70C9-prix-de-marlborough.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:31:47.916858Z"
+}

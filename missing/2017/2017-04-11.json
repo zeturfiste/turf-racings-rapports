@@ -1,0 +1,73 @@
+{
+  "date": "2017-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/04/2017-04-11",
+    "date_html": "resultats-et-rapports/2017/04/2017-04-11/2017-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C1-prix-mogador.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C2-prix-de-puteaux.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C3-prix-du-pont-de-flandre.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C4-prix-de-chaillot.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C5-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C6-prix-de-juigne.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C7-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2017/04/2017-04-11/R5-vincennes/R5C8-prix-d-enghien.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-nantes",
+      "R3-tarbes",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-mogador.html",
+        "R1C2-prix-de-puteaux.html",
+        "R1C3-prix-du-pont-de-flandre.html",
+        "R1C4-prix-de-chaillot.html",
+        "R1C5-prix-de-la-chaussee-d-antin.html",
+        "R1C6-prix-de-juigne.html",
+        "R1C7-prix-de-l-aqueduc.html",
+        "R1C8-prix-d-enghien.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-mogador.html",
+        "R2C2-prix-de-puteaux.html",
+        "R2C3-prix-du-pont-de-flandre.html",
+        "R2C4-prix-de-chaillot.html",
+        "R2C5-prix-de-la-chaussee-d-antin.html",
+        "R2C6-prix-de-juigne.html",
+        "R2C7-prix-de-l-aqueduc.html",
+        "R2C8-prix-d-enghien.html"
+      ],
+      "R3-tarbes": [
+        "R3C1-prix-mogador.html",
+        "R3C2-prix-de-puteaux.html",
+        "R3C3-prix-du-pont-de-flandre.html",
+        "R3C4-prix-de-chaillot.html",
+        "R3C5-prix-de-la-chaussee-d-antin.html",
+        "R3C6-prix-de-juigne.html",
+        "R3C7-prix-de-l-aqueduc.html",
+        "R3C8-prix-d-enghien.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-mogador.html",
+        "R5C2-prix-de-puteaux.html",
+        "R5C3-prix-du-pont-de-flandre.html",
+        "R5C4-prix-de-chaillot.html",
+        "R5C5-prix-de-la-chaussee-d-antin.html",
+        "R5C6-prix-de-juigne.html",
+        "R5C7-prix-de-l-aqueduc.html",
+        "R5C8-prix-d-enghien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:21.321851Z"
+}

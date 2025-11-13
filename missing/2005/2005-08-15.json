@@ -1,0 +1,53 @@
+{
+  "date": "2005-08-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-15",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-15/2005-08-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-enghien-soisy",
+      "R3-pompadour"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-grand-prix-air-mauritius-prix-de-cagny.html",
+        "R1C2-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-la-vallee-d-auge.html",
+        "R1C3-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-coupesarte.html",
+        "R1C4-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-gontaut-biron.html",
+        "R1C5-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-des-planches.html",
+        "R1C6-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-saint-etienne-la-thillaye.html",
+        "R1C7-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-grainville.html",
+        "R1C8-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-blonville.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-prix-air-mauritius-prix-de-cagny.html",
+        "R2C2-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-la-vallee-d-auge.html",
+        "R2C3-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-coupesarte.html",
+        "R2C4-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-gontaut-biron.html",
+        "R2C5-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-des-planches.html",
+        "R2C6-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-saint-etienne-la-thillaye.html",
+        "R2C7-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-grainville.html",
+        "R2C8-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-blonville.html"
+      ],
+      "R3-pompadour": [
+        "R3C1-grand-prix-air-mauritius-prix-de-cagny.html",
+        "R3C2-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-la-vallee-d-auge.html",
+        "R3C3-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-coupesarte.html",
+        "R3C4-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-gontaut-biron.html",
+        "R3C5-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-des-planches.html",
+        "R3C6-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-saint-etienne-la-thillaye.html",
+        "R3C7-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-grainville.html",
+        "R3C8-prix-beachcomber-hotel-dinarobin-hotel-golf-spa-5-prix-de-blonville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:45.451375Z"
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2005-09-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/09/2005-09-15",
+    "date_html": "resultats-et-rapports/2005/09/2005-09-15/2005-09-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-cavaillon"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-violon-ii.html",
+        "R1C2-prix-finot-poulains-1er-peloton.html",
+        "R1C3-prix-finot-poulains-2eme-peloton.html",
+        "R1C4-prix-finot-pouliches.html",
+        "R1C5-prix-jean-noiret.html",
+        "R1C6-prix-de-compiegne.html",
+        "R1C7-prix-saida.html",
+        "R1C8-prix-mandarin.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-violon-ii.html",
+        "R2C2-prix-finot-poulains-1er-peloton.html",
+        "R2C3-prix-finot-poulains-2eme-peloton.html",
+        "R2C4-prix-finot-pouliches.html",
+        "R2C5-prix-jean-noiret.html",
+        "R2C6-prix-de-compiegne.html",
+        "R2C7-prix-saida.html",
+        "R2C8-prix-mandarin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:50.788055Z"
+}

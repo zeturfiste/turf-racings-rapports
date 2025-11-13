@@ -1,0 +1,76 @@
+{
+  "date": "2022-09-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-29",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-29/2022-09-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C1-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C5-prix-du-petit-rosne.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C6-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C7-prix-de-l-ysieux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C8-prix-de-la-grande-singerie.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R1-chantilly/R1C9-prix-de-la-theve.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R3-auteuil/R3C1-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R3-auteuil/R3C2-prix-de-la-galerie-des-batailles.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R3-auteuil/R3C6-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R3-auteuil/R3C7-prix-de-l-ysieux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R3-auteuil/R3C9-prix-de-la-theve.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C1-prix-de-la-mare-aux-oiseaux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C3-prix-de-villemetrie.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C4-prix-des-courtils.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C5-prix-du-petit-rosne.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C6-prix-des-terriers-du-houx.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C7-prix-de-l-ysieux.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C8-prix-de-la-grande-singerie.html",
+      "resultats-et-rapports/2022/09/2022-09-29/R4-enghien-soisy/R4C9-prix-de-la-theve.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-auteuil",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-mare-aux-oiseaux.html",
+        "R1C2-prix-de-la-galerie-des-batailles.html",
+        "R1C3-prix-de-villemetrie.html",
+        "R1C4-prix-des-courtils.html",
+        "R1C5-prix-du-petit-rosne.html",
+        "R1C6-prix-des-terriers-du-houx.html",
+        "R1C7-prix-de-l-ysieux.html",
+        "R1C8-prix-de-la-grande-singerie.html",
+        "R1C9-prix-de-la-theve.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-de-la-mare-aux-oiseaux.html",
+        "R3C2-prix-de-la-galerie-des-batailles.html",
+        "R3C3-prix-de-villemetrie.html",
+        "R3C4-prix-des-courtils.html",
+        "R3C5-prix-du-petit-rosne.html",
+        "R3C6-prix-des-terriers-du-houx.html",
+        "R3C7-prix-de-l-ysieux.html",
+        "R3C8-prix-de-la-grande-singerie.html",
+        "R3C9-prix-de-la-theve.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-mare-aux-oiseaux.html",
+        "R4C2-prix-de-la-galerie-des-batailles.html",
+        "R4C3-prix-de-villemetrie.html",
+        "R4C4-prix-des-courtils.html",
+        "R4C5-prix-du-petit-rosne.html",
+        "R4C6-prix-des-terriers-du-houx.html",
+        "R4C7-prix-de-l-ysieux.html",
+        "R4C8-prix-de-la-grande-singerie.html",
+        "R4C9-prix-de-la-theve.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:30.316153Z"
+}

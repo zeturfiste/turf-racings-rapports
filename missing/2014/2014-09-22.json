@@ -1,0 +1,95 @@
+{
+  "date": "2014-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-22",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-22/2014-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-22/R1-craon/R1C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R1-craon/R1C7-prix-equidia-live.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R1-craon/R1C8-prix-la-star-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R2-chantilly/R2C2-prix-du-lude.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R2-chantilly/R2C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R2-chantilly/R2C5-prix-altoneo-expertise-comptable.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R3-amiens/R3C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R3-amiens/R3C2-prix-du-lude.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R3-amiens/R3C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R3-amiens/R3C7-prix-equidia-live.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R5-cabourg/R5C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R5-cabourg/R5C7-prix-equidia-live.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R5-cabourg/R5C8-prix-la-star-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C2-prix-du-lude.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C5-prix-altoneo-expertise-comptable.html",
+      "resultats-et-rapports/2014/09/2014-09-22/R6-hyeres/R6C7-prix-equidia-live.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-chantilly",
+      "R3-amiens",
+      "R5-cabourg",
+      "R6-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+        "R1C2-prix-du-lude.html",
+        "R1C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+        "R1C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+        "R1C5-prix-altoneo-expertise-comptable.html",
+        "R1C6-prix-claude-de-langle.html",
+        "R1C7-prix-equidia-live.html",
+        "R1C8-prix-la-star-prix-des-halles-de-craon.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+        "R2C2-prix-du-lude.html",
+        "R2C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+        "R2C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+        "R2C5-prix-altoneo-expertise-comptable.html",
+        "R2C6-prix-claude-de-langle.html",
+        "R2C7-prix-equidia-live.html",
+        "R2C8-prix-la-star-prix-des-halles-de-craon.html"
+      ],
+      "R3-amiens": [
+        "R3C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+        "R3C2-prix-du-lude.html",
+        "R3C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+        "R3C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+        "R3C5-prix-altoneo-expertise-comptable.html",
+        "R3C6-prix-claude-de-langle.html",
+        "R3C7-prix-equidia-live.html",
+        "R3C8-prix-la-star-prix-des-halles-de-craon.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+        "R5C2-prix-du-lude.html",
+        "R5C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+        "R5C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+        "R5C5-prix-altoneo-expertise-comptable.html",
+        "R5C6-prix-claude-de-langle.html",
+        "R5C7-prix-equidia-live.html",
+        "R5C8-prix-la-star-prix-des-halles-de-craon.html"
+      ],
+      "R6-hyeres": [
+        "R6C1-prix-gendry-location-forage-prix-du-chene-de-craon.html",
+        "R6C2-prix-du-lude.html",
+        "R6C3-prix-promocas-laval-prix-du-docteur-guy-jallot.html",
+        "R6C4-prix-fourrages-thierry-dutertre-prix-du-point-du-jour.html",
+        "R6C5-prix-altoneo-expertise-comptable.html",
+        "R6C6-prix-claude-de-langle.html",
+        "R6C7-prix-equidia-live.html",
+        "R6C8-prix-la-star-prix-des-halles-de-craon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:37.175414Z"
+}

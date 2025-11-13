@@ -1,0 +1,86 @@
+{
+  "date": "2013-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/04/2013-04-06",
+    "date_html": "resultats-et-rapports/2013/04/2013-04-06/2013-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C1-prix-de-bapaume.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C3-prix-phaeton.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C6-prix-d-aubusson.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C7-prix-du-treport.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R1-vincennes/R1C8-prix-de-dorceau.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R2-nancy/R2C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R2-nancy/R2C9-prix-de-saintes.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C1-prix-de-bapaume.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C2-prix-de-loudeac.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C4-prix-paul-leguerney.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C5-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C6-prix-d-aubusson.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C7-prix-du-treport.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C8-prix-de-dorceau.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R3-compiegne/R3C9-prix-de-saintes.html",
+      "resultats-et-rapports/2013/04/2013-04-06/R4-tarbes/R4C9-prix-de-saintes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nancy",
+      "R3-compiegne",
+      "R4-tarbes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bapaume.html",
+        "R1C2-prix-de-loudeac.html",
+        "R1C3-prix-phaeton.html",
+        "R1C4-prix-paul-leguerney.html",
+        "R1C5-prix-theophile-lallouet.html",
+        "R1C6-prix-d-aubusson.html",
+        "R1C7-prix-du-treport.html",
+        "R1C8-prix-de-dorceau.html",
+        "R1C9-prix-de-saintes.html"
+      ],
+      "R2-nancy": [
+        "R2C1-prix-de-bapaume.html",
+        "R2C2-prix-de-loudeac.html",
+        "R2C3-prix-phaeton.html",
+        "R2C4-prix-paul-leguerney.html",
+        "R2C5-prix-theophile-lallouet.html",
+        "R2C6-prix-d-aubusson.html",
+        "R2C7-prix-du-treport.html",
+        "R2C8-prix-de-dorceau.html",
+        "R2C9-prix-de-saintes.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-bapaume.html",
+        "R3C2-prix-de-loudeac.html",
+        "R3C3-prix-phaeton.html",
+        "R3C4-prix-paul-leguerney.html",
+        "R3C5-prix-theophile-lallouet.html",
+        "R3C6-prix-d-aubusson.html",
+        "R3C7-prix-du-treport.html",
+        "R3C8-prix-de-dorceau.html",
+        "R3C9-prix-de-saintes.html"
+      ],
+      "R4-tarbes": [
+        "R4C1-prix-de-bapaume.html",
+        "R4C2-prix-de-loudeac.html",
+        "R4C3-prix-phaeton.html",
+        "R4C4-prix-paul-leguerney.html",
+        "R4C5-prix-theophile-lallouet.html",
+        "R4C6-prix-d-aubusson.html",
+        "R4C7-prix-du-treport.html",
+        "R4C8-prix-de-dorceau.html",
+        "R4C9-prix-de-saintes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:48.764969Z"
+}

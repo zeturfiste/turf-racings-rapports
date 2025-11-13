@@ -1,0 +1,118 @@
+{
+  "date": "2021-11-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-01",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-01/2021-11-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-01/R1-laval/R1C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R4-le-croise-laroche/R4C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R4-le-croise-laroche/R4C5-prix-albert-et-raymond-poitevin.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R4-le-croise-laroche/R4C8-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R4-le-croise-laroche/R4C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C4-prix-alexandre-dalibard-credit-agricole.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C5-prix-albert-et-raymond-poitevin.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C8-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R7-lyon-la-soie/R7C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R8-cherbourg/R8C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R8-cherbourg/R8C4-prix-alexandre-dalibard-credit-agricole.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R8-cherbourg/R8C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R8-cherbourg/R8C9-prix-georges-porcher.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C1-prix-paris-turf.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C2-prix-moet-chandon.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C3-grand-prix-de-la-ville-de-laval.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C4-prix-alexandre-dalibard-credit-agricole.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C5-prix-albert-et-raymond-poitevin.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C6-prix-annick-et-georges-dreux.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C7-grand-prix-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C8-prix-andre-louis-dreux.html",
+      "resultats-et-rapports/2021/11/2021-11-01/R9-lisieux/R9C9-prix-georges-porcher.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-le-mans",
+      "R4-le-croise-laroche",
+      "R7-lyon-la-soie",
+      "R8-cherbourg",
+      "R9-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-prix-paris-turf.html",
+        "R1C2-prix-moet-chandon.html",
+        "R1C3-grand-prix-de-la-ville-de-laval.html",
+        "R1C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R1C5-prix-albert-et-raymond-poitevin.html",
+        "R1C6-prix-annick-et-georges-dreux.html",
+        "R1C7-grand-prix-andre-de-la-vaissiere.html",
+        "R1C8-prix-andre-louis-dreux.html",
+        "R1C9-prix-georges-porcher.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-paris-turf.html",
+        "R3C2-prix-moet-chandon.html",
+        "R3C3-grand-prix-de-la-ville-de-laval.html",
+        "R3C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R3C5-prix-albert-et-raymond-poitevin.html",
+        "R3C6-prix-annick-et-georges-dreux.html",
+        "R3C7-grand-prix-andre-de-la-vaissiere.html",
+        "R3C8-prix-andre-louis-dreux.html",
+        "R3C9-prix-georges-porcher.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-paris-turf.html",
+        "R4C2-prix-moet-chandon.html",
+        "R4C3-grand-prix-de-la-ville-de-laval.html",
+        "R4C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R4C5-prix-albert-et-raymond-poitevin.html",
+        "R4C6-prix-annick-et-georges-dreux.html",
+        "R4C7-grand-prix-andre-de-la-vaissiere.html",
+        "R4C8-prix-andre-louis-dreux.html",
+        "R4C9-prix-georges-porcher.html"
+      ],
+      "R7-lyon-la-soie": [
+        "R7C1-prix-paris-turf.html",
+        "R7C2-prix-moet-chandon.html",
+        "R7C3-grand-prix-de-la-ville-de-laval.html",
+        "R7C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R7C5-prix-albert-et-raymond-poitevin.html",
+        "R7C6-prix-annick-et-georges-dreux.html",
+        "R7C7-grand-prix-andre-de-la-vaissiere.html",
+        "R7C8-prix-andre-louis-dreux.html",
+        "R7C9-prix-georges-porcher.html"
+      ],
+      "R8-cherbourg": [
+        "R8C1-prix-paris-turf.html",
+        "R8C2-prix-moet-chandon.html",
+        "R8C3-grand-prix-de-la-ville-de-laval.html",
+        "R8C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R8C5-prix-albert-et-raymond-poitevin.html",
+        "R8C6-prix-annick-et-georges-dreux.html",
+        "R8C7-grand-prix-andre-de-la-vaissiere.html",
+        "R8C8-prix-andre-louis-dreux.html",
+        "R8C9-prix-georges-porcher.html"
+      ],
+      "R9-lisieux": [
+        "R9C1-prix-paris-turf.html",
+        "R9C2-prix-moet-chandon.html",
+        "R9C3-grand-prix-de-la-ville-de-laval.html",
+        "R9C4-prix-alexandre-dalibard-credit-agricole.html",
+        "R9C5-prix-albert-et-raymond-poitevin.html",
+        "R9C6-prix-annick-et-georges-dreux.html",
+        "R9C7-grand-prix-andre-de-la-vaissiere.html",
+        "R9C8-prix-andre-louis-dreux.html",
+        "R9C9-prix-georges-porcher.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:28.141824Z"
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2021-03-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-26",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-26/2021-03-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-26/R4-caen/R4C6-prix-alcyone.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R5-marseille-vivaux/R5C3-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R5-marseille-vivaux/R5C4-prix-maia.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R8-saint-galmier/R8C1-prix-ali-hawas.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R8-saint-galmier/R8C3-prix-felicien-gauvreau.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R8-saint-galmier/R8C4-prix-maia.html",
+      "resultats-et-rapports/2021/03/2021-03-26/R8-saint-galmier/R8C6-prix-alcyone.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-caen",
+      "R5-marseille-vivaux",
+      "R8-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ali-hawas.html",
+        "R1C2-prix-enceladus.html",
+        "R1C3-prix-felicien-gauvreau.html",
+        "R1C4-prix-maia.html",
+        "R1C5-prix-canopus.html",
+        "R1C6-prix-alcyone.html",
+        "R1C7-prix-dresda.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-ali-hawas.html",
+        "R3C2-prix-enceladus.html",
+        "R3C3-prix-felicien-gauvreau.html",
+        "R3C4-prix-maia.html",
+        "R3C5-prix-canopus.html",
+        "R3C6-prix-alcyone.html",
+        "R3C7-prix-dresda.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-ali-hawas.html",
+        "R4C2-prix-enceladus.html",
+        "R4C3-prix-felicien-gauvreau.html",
+        "R4C4-prix-maia.html",
+        "R4C5-prix-canopus.html",
+        "R4C6-prix-alcyone.html",
+        "R4C7-prix-dresda.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-ali-hawas.html",
+        "R5C2-prix-enceladus.html",
+        "R5C3-prix-felicien-gauvreau.html",
+        "R5C4-prix-maia.html",
+        "R5C5-prix-canopus.html",
+        "R5C6-prix-alcyone.html",
+        "R5C7-prix-dresda.html"
+      ],
+      "R8-saint-galmier": [
+        "R8C1-prix-ali-hawas.html",
+        "R8C2-prix-enceladus.html",
+        "R8C3-prix-felicien-gauvreau.html",
+        "R8C4-prix-maia.html",
+        "R8C5-prix-canopus.html",
+        "R8C6-prix-alcyone.html",
+        "R8C7-prix-dresda.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:00.079818Z"
+}

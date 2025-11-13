@@ -1,0 +1,74 @@
+{
+  "date": "2025-07-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/07/2025-07-14",
+    "date_html": "resultats-et-rapports/2025/07/2025-07-14/2025-07-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/07/2025-07-14/R1-vichy/R1C4-grand-prix-du-chabouif-montpensier-prix-edmond-maupoil.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R4-beaumont-de-lomagne/R4C1-prix-de-villeneuve-sur-allier.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R4-beaumont-de-lomagne/R4C3-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R5-cagnes-sur-mer/R5C5-prix-frederic-de-lagrange.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R5-cagnes-sur-mer/R5C6-prix-vichy-destinations.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R7-clairefontaine/R7C1-prix-de-villeneuve-sur-allier.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R7-clairefontaine/R7C2-prix-rene-bardet.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R7-clairefontaine/R7C3-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2025/07/2025-07-14/R7-clairefontaine/R7C5-prix-frederic-de-lagrange.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R4-beaumont-de-lomagne",
+      "R5-cagnes-sur-mer",
+      "R7-clairefontaine"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-villeneuve-sur-allier.html",
+        "R1C2-prix-rene-bardet.html",
+        "R1C3-prix-imperatrice-eugenie.html",
+        "R1C4-grand-prix-du-chabouif-montpensier-prix-edmond-maupoil.html",
+        "R1C5-prix-frederic-de-lagrange.html",
+        "R1C6-prix-vichy-destinations.html",
+        "R1C7-prix-tripolette.html",
+        "R1C8-prix-de-chamberat.html"
+      ],
+      "R4-beaumont-de-lomagne": [
+        "R4C1-prix-de-villeneuve-sur-allier.html",
+        "R4C2-prix-rene-bardet.html",
+        "R4C3-prix-imperatrice-eugenie.html",
+        "R4C4-grand-prix-du-chabouif-montpensier-prix-edmond-maupoil.html",
+        "R4C5-prix-frederic-de-lagrange.html",
+        "R4C6-prix-vichy-destinations.html",
+        "R4C7-prix-tripolette.html",
+        "R4C8-prix-de-chamberat.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-villeneuve-sur-allier.html",
+        "R5C2-prix-rene-bardet.html",
+        "R5C3-prix-imperatrice-eugenie.html",
+        "R5C4-grand-prix-du-chabouif-montpensier-prix-edmond-maupoil.html",
+        "R5C5-prix-frederic-de-lagrange.html",
+        "R5C6-prix-vichy-destinations.html",
+        "R5C7-prix-tripolette.html",
+        "R5C8-prix-de-chamberat.html"
+      ],
+      "R7-clairefontaine": [
+        "R7C1-prix-de-villeneuve-sur-allier.html",
+        "R7C2-prix-rene-bardet.html",
+        "R7C3-prix-imperatrice-eugenie.html",
+        "R7C4-grand-prix-du-chabouif-montpensier-prix-edmond-maupoil.html",
+        "R7C5-prix-frederic-de-lagrange.html",
+        "R7C6-prix-vichy-destinations.html",
+        "R7C7-prix-tripolette.html",
+        "R7C8-prix-de-chamberat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:47.715200Z"
+}

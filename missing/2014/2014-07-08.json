@@ -1,0 +1,73 @@
+{
+  "date": "2014-07-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-08",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-08/2014-07-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-08/R1-les-sables-d-olonne/R1C6-prix-de-la-societe-des-courses-de-challans.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R1-les-sables-d-olonne/R1C7-prix-de-la-societe-des-courses-de-la-roche-sur-yon.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R2-dieppe/R2C1-prix-de-la-ville-d-olonne-sur-mer.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R2-dieppe/R2C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R2-dieppe/R2C8-prix-de-la-societe-des-courses-de-lucon.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R4-cabourg/R4C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R4-cabourg/R4C6-prix-de-la-societe-des-courses-de-challans.html",
+      "resultats-et-rapports/2014/07/2014-07-08/R4-cabourg/R4C8-prix-de-la-societe-des-courses-de-lucon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-les-sables-d-olonne",
+      "R2-dieppe",
+      "R3-la-teste-de-buch",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-les-sables-d-olonne": [
+        "R1C1-prix-de-la-ville-d-olonne-sur-mer.html",
+        "R1C2-prix-de-la-ville-de-chateau-d-olonne.html",
+        "R1C3-prix-jean-houssaint.html",
+        "R1C4-prix-de-la-ville-de-talmont-saint-hilaire.html",
+        "R1C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+        "R1C6-prix-de-la-societe-des-courses-de-challans.html",
+        "R1C7-prix-de-la-societe-des-courses-de-la-roche-sur-yon.html",
+        "R1C8-prix-de-la-societe-des-courses-de-lucon.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-de-la-ville-d-olonne-sur-mer.html",
+        "R2C2-prix-de-la-ville-de-chateau-d-olonne.html",
+        "R2C3-prix-jean-houssaint.html",
+        "R2C4-prix-de-la-ville-de-talmont-saint-hilaire.html",
+        "R2C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+        "R2C6-prix-de-la-societe-des-courses-de-challans.html",
+        "R2C7-prix-de-la-societe-des-courses-de-la-roche-sur-yon.html",
+        "R2C8-prix-de-la-societe-des-courses-de-lucon.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-de-la-ville-d-olonne-sur-mer.html",
+        "R3C2-prix-de-la-ville-de-chateau-d-olonne.html",
+        "R3C3-prix-jean-houssaint.html",
+        "R3C4-prix-de-la-ville-de-talmont-saint-hilaire.html",
+        "R3C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+        "R3C6-prix-de-la-societe-des-courses-de-challans.html",
+        "R3C7-prix-de-la-societe-des-courses-de-la-roche-sur-yon.html",
+        "R3C8-prix-de-la-societe-des-courses-de-lucon.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-la-ville-d-olonne-sur-mer.html",
+        "R4C2-prix-de-la-ville-de-chateau-d-olonne.html",
+        "R4C3-prix-jean-houssaint.html",
+        "R4C4-prix-de-la-ville-de-talmont-saint-hilaire.html",
+        "R4C5-prix-de-la-societe-des-courses-de-saint-jean-de-monts.html",
+        "R4C6-prix-de-la-societe-des-courses-de-challans.html",
+        "R4C7-prix-de-la-societe-des-courses-de-la-roche-sur-yon.html",
+        "R4C8-prix-de-la-societe-des-courses-de-lucon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:11.280724Z"
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2014-12-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-10",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-10/2014-12-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-10/R1-vincennes/R1C2-prix-de-fos-sur-mer.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R1-vincennes/R1C3-prix-de-ploubalay.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R1-vincennes/R1C6-prix-auguste-francois.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R1-vincennes/R1C7-prix-de-la-drome.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R1-vincennes/R1C8-prix-de-villefranche.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R2-cagnes-sur-mer/R2C2-prix-de-fos-sur-mer.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R2-cagnes-sur-mer/R2C3-prix-de-ploubalay.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R2-cagnes-sur-mer/R2C5-prix-des-camelias.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R2-cagnes-sur-mer/R2C7-prix-de-la-drome.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R2-cagnes-sur-mer/R2C8-prix-de-villefranche.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C1-prix-poitou-charentes.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C3-prix-de-ploubalay.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C4-prix-de-luxe.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C6-prix-auguste-francois.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C7-prix-de-la-drome.html",
+      "resultats-et-rapports/2014/12/2014-12-10/R3-lyon-la-soie/R3C8-prix-de-villefranche.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-poitou-charentes.html",
+        "R1C2-prix-de-fos-sur-mer.html",
+        "R1C3-prix-de-ploubalay.html",
+        "R1C4-prix-de-luxe.html",
+        "R1C5-prix-des-camelias.html",
+        "R1C6-prix-auguste-francois.html",
+        "R1C7-prix-de-la-drome.html",
+        "R1C8-prix-de-villefranche.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-poitou-charentes.html",
+        "R2C2-prix-de-fos-sur-mer.html",
+        "R2C3-prix-de-ploubalay.html",
+        "R2C4-prix-de-luxe.html",
+        "R2C5-prix-des-camelias.html",
+        "R2C6-prix-auguste-francois.html",
+        "R2C7-prix-de-la-drome.html",
+        "R2C8-prix-de-villefranche.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-poitou-charentes.html",
+        "R3C2-prix-de-fos-sur-mer.html",
+        "R3C3-prix-de-ploubalay.html",
+        "R3C4-prix-de-luxe.html",
+        "R3C5-prix-des-camelias.html",
+        "R3C6-prix-auguste-francois.html",
+        "R3C7-prix-de-la-drome.html",
+        "R3C8-prix-de-villefranche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:04.837594Z"
+}

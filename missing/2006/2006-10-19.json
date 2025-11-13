@@ -1,0 +1,87 @@
+{
+  "date": "2006-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-19",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-19/2006-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/10/2006-10-19/R2-cabourg/R2C8-prix-des-falaises-de-craie.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R21-zerace/R21C1-prix-listman.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R21-zerace/R21C2-prix-de-creil.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R21-zerace/R21C4-prix-de-longpre.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R21-zerace/R21C6-prix-de-saint-nom-la-breteche.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R21-zerace/R21C8-prix-des-falaises-de-craie.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R30-rapid-bucarest/R30C2-prix-de-creil.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R30-rapid-bucarest/R30C3-prix-ukrania.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R30-rapid-bucarest/R30C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R30-rapid-bucarest/R30C7-prix-de-conflans.html",
+      "resultats-et-rapports/2006/10/2006-10-19/R30-rapid-bucarest/R30C8-prix-des-falaises-de-craie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cabourg",
+      "R21-zerace",
+      "R30-rapid-bucarest",
+      "R31-kiriat-eliezer-haifa"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-listman.html",
+        "R1C2-prix-de-creil.html",
+        "R1C3-prix-ukrania.html",
+        "R1C4-prix-de-longpre.html",
+        "R1C5-prix-des-boucles-de-la-seine.html",
+        "R1C6-prix-de-saint-nom-la-breteche.html",
+        "R1C7-prix-de-conflans.html",
+        "R1C8-prix-des-falaises-de-craie.html"
+      ],
+      "R2-cabourg": [
+        "R2C1-prix-listman.html",
+        "R2C2-prix-de-creil.html",
+        "R2C3-prix-ukrania.html",
+        "R2C4-prix-de-longpre.html",
+        "R2C5-prix-des-boucles-de-la-seine.html",
+        "R2C6-prix-de-saint-nom-la-breteche.html",
+        "R2C7-prix-de-conflans.html",
+        "R2C8-prix-des-falaises-de-craie.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-listman.html",
+        "R21C2-prix-de-creil.html",
+        "R21C3-prix-ukrania.html",
+        "R21C4-prix-de-longpre.html",
+        "R21C5-prix-des-boucles-de-la-seine.html",
+        "R21C6-prix-de-saint-nom-la-breteche.html",
+        "R21C7-prix-de-conflans.html",
+        "R21C8-prix-des-falaises-de-craie.html"
+      ],
+      "R30-rapid-bucarest": [
+        "R30C1-prix-listman.html",
+        "R30C2-prix-de-creil.html",
+        "R30C3-prix-ukrania.html",
+        "R30C4-prix-de-longpre.html",
+        "R30C5-prix-des-boucles-de-la-seine.html",
+        "R30C6-prix-de-saint-nom-la-breteche.html",
+        "R30C7-prix-de-conflans.html",
+        "R30C8-prix-des-falaises-de-craie.html"
+      ],
+      "R31-kiriat-eliezer-haifa": [
+        "R31C1-prix-listman.html",
+        "R31C2-prix-de-creil.html",
+        "R31C3-prix-ukrania.html",
+        "R31C4-prix-de-longpre.html",
+        "R31C5-prix-des-boucles-de-la-seine.html",
+        "R31C6-prix-de-saint-nom-la-breteche.html",
+        "R31C7-prix-de-conflans.html",
+        "R31C8-prix-des-falaises-de-craie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:14.634827Z"
+}

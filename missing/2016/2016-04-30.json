@@ -1,0 +1,117 @@
+{
+  "date": "2016-04-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-30",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-30/2016-04-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-30/R1-auteuil/R1C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R1-auteuil/R1C2-prix-jean-stern.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R4-argentan/R4C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R4-argentan/R4C5-prix-ingre.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R5-toulouse/R5C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R5-toulouse/R5C6-prix-leon-rambaud.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R5-toulouse/R5C7-prix-de-pau.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C2-prix-jean-stern.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C3-prix-amadou.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C4-prix-gaston-branere.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C5-prix-ingre.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R9-cavaillon/R9C7-prix-de-pau.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C3-prix-amadou.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C4-prix-gaston-branere.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C5-prix-ingre.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C6-prix-leon-rambaud.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R10-reims/R10C7-prix-de-pau.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C1-prix-wild-monarch-poulains.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C2-prix-jean-stern.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C3-prix-amadou.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C4-prix-gaston-branere.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C5-prix-ingre.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C6-prix-leon-rambaud.html",
+      "resultats-et-rapports/2016/04/2016-04-30/R11-amiens/R11C7-prix-de-pau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-argentan",
+      "R5-toulouse",
+      "R9-cavaillon",
+      "R10-reims",
+      "R11-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-wild-monarch-poulains.html",
+        "R1C2-prix-jean-stern.html",
+        "R1C3-prix-amadou.html",
+        "R1C4-prix-gaston-branere.html",
+        "R1C5-prix-ingre.html",
+        "R1C6-prix-leon-rambaud.html",
+        "R1C7-prix-de-pau.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-wild-monarch-poulains.html",
+        "R3C2-prix-jean-stern.html",
+        "R3C3-prix-amadou.html",
+        "R3C4-prix-gaston-branere.html",
+        "R3C5-prix-ingre.html",
+        "R3C6-prix-leon-rambaud.html",
+        "R3C7-prix-de-pau.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-wild-monarch-poulains.html",
+        "R4C2-prix-jean-stern.html",
+        "R4C3-prix-amadou.html",
+        "R4C4-prix-gaston-branere.html",
+        "R4C5-prix-ingre.html",
+        "R4C6-prix-leon-rambaud.html",
+        "R4C7-prix-de-pau.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-wild-monarch-poulains.html",
+        "R5C2-prix-jean-stern.html",
+        "R5C3-prix-amadou.html",
+        "R5C4-prix-gaston-branere.html",
+        "R5C5-prix-ingre.html",
+        "R5C6-prix-leon-rambaud.html",
+        "R5C7-prix-de-pau.html"
+      ],
+      "R9-cavaillon": [
+        "R9C1-prix-wild-monarch-poulains.html",
+        "R9C2-prix-jean-stern.html",
+        "R9C3-prix-amadou.html",
+        "R9C4-prix-gaston-branere.html",
+        "R9C5-prix-ingre.html",
+        "R9C6-prix-leon-rambaud.html",
+        "R9C7-prix-de-pau.html"
+      ],
+      "R10-reims": [
+        "R10C1-prix-wild-monarch-poulains.html",
+        "R10C2-prix-jean-stern.html",
+        "R10C3-prix-amadou.html",
+        "R10C4-prix-gaston-branere.html",
+        "R10C5-prix-ingre.html",
+        "R10C6-prix-leon-rambaud.html",
+        "R10C7-prix-de-pau.html"
+      ],
+      "R11-amiens": [
+        "R11C1-prix-wild-monarch-poulains.html",
+        "R11C2-prix-jean-stern.html",
+        "R11C3-prix-amadou.html",
+        "R11C4-prix-gaston-branere.html",
+        "R11C5-prix-ingre.html",
+        "R11C6-prix-leon-rambaud.html",
+        "R11C7-prix-de-pau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:36.669477Z"
+}

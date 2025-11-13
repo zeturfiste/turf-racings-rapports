@@ -1,0 +1,74 @@
+{
+  "date": "2025-06-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-30",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-30/2025-06-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-30/R2-cholet/R2C5-prix-de-la-ville-de-tourgeville.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R2-cholet/R2C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R2-cholet/R2C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R3-le-mont-saint-michel/R3C8-prix-arqana-prix-des-tilleuls.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R4-vichy/R4C1-prix-calvados-domfrontais-prix-port-said.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R4-vichy/R4C2-prix-calvados-race-prix-des-illets.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R4-vichy/R4C4-prix-calvados-pays-d-auge-prix-du-vieux-poirier.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R4-vichy/R4C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+      "resultats-et-rapports/2025/06/2025-06-30/R4-vichy/R4C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-cholet",
+      "R3-le-mont-saint-michel",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-calvados-domfrontais-prix-port-said.html",
+        "R1C2-prix-calvados-race-prix-des-illets.html",
+        "R1C3-prix-genybet-super-top-5-prix-des-peupliers.html",
+        "R1C4-prix-calvados-pays-d-auge-prix-du-vieux-poirier.html",
+        "R1C5-prix-de-la-ville-de-tourgeville.html",
+        "R1C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+        "R1C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html",
+        "R1C8-prix-arqana-prix-des-tilleuls.html"
+      ],
+      "R2-cholet": [
+        "R2C1-prix-calvados-domfrontais-prix-port-said.html",
+        "R2C2-prix-calvados-race-prix-des-illets.html",
+        "R2C3-prix-genybet-super-top-5-prix-des-peupliers.html",
+        "R2C4-prix-calvados-pays-d-auge-prix-du-vieux-poirier.html",
+        "R2C5-prix-de-la-ville-de-tourgeville.html",
+        "R2C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+        "R2C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html",
+        "R2C8-prix-arqana-prix-des-tilleuls.html"
+      ],
+      "R3-le-mont-saint-michel": [
+        "R3C1-prix-calvados-domfrontais-prix-port-said.html",
+        "R3C2-prix-calvados-race-prix-des-illets.html",
+        "R3C3-prix-genybet-super-top-5-prix-des-peupliers.html",
+        "R3C4-prix-calvados-pays-d-auge-prix-du-vieux-poirier.html",
+        "R3C5-prix-de-la-ville-de-tourgeville.html",
+        "R3C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+        "R3C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html",
+        "R3C8-prix-arqana-prix-des-tilleuls.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-calvados-domfrontais-prix-port-said.html",
+        "R4C2-prix-calvados-race-prix-des-illets.html",
+        "R4C3-prix-genybet-super-top-5-prix-des-peupliers.html",
+        "R4C4-prix-calvados-pays-d-auge-prix-du-vieux-poirier.html",
+        "R4C5-prix-de-la-ville-de-tourgeville.html",
+        "R4C6-prix-genybet-prix-de-la-belle-ferronniere.html",
+        "R4C7-prix-le-petit-fute-prix-belle-isle-chmpt-des-apprentis-jeunes-jockeys.html",
+        "R4C8-prix-arqana-prix-des-tilleuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:42.625991Z"
+}

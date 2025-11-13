@@ -1,0 +1,63 @@
+{
+  "date": "2023-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-29",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-29/2023-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-29/R1-deauville/R1C9-prix-de-la-villa-orphee.html",
+      "resultats-et-rapports/2023/11/2023-11-29/R3-marseille-borely/R3C6-prix-miss-satamixa-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2023/11/2023-11-29/R4-vincennes/R4C1-prix-du-manoir-de-la-salamandre.html",
+      "resultats-et-rapports/2023/11/2023-11-29/R4-vincennes/R4C5-prix-de-la-halle-au-ble.html",
+      "resultats-et-rapports/2023/11/2023-11-29/R4-vincennes/R4C8-prix-de-la-maison-du-cirier-plantefor.html",
+      "resultats-et-rapports/2023/11/2023-11-29/R4-vincennes/R4C9-prix-de-la-villa-orphee.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-marseille-borely",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-manoir-de-la-salamandre.html",
+        "R1C2-prix-de-preaux.html",
+        "R1C3-prix-du-chateau-des-aygues.html",
+        "R1C4-prix-de-montfort.html",
+        "R1C5-prix-de-la-halle-au-ble.html",
+        "R1C6-prix-miss-satamixa-fonds-europeen-de-l-elevage.html",
+        "R1C7-prix-de-la-halle-au-beurre.html",
+        "R1C8-prix-de-la-maison-du-cirier-plantefor.html",
+        "R1C9-prix-de-la-villa-orphee.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-du-manoir-de-la-salamandre.html",
+        "R3C2-prix-de-preaux.html",
+        "R3C3-prix-du-chateau-des-aygues.html",
+        "R3C4-prix-de-montfort.html",
+        "R3C5-prix-de-la-halle-au-ble.html",
+        "R3C6-prix-miss-satamixa-fonds-europeen-de-l-elevage.html",
+        "R3C7-prix-de-la-halle-au-beurre.html",
+        "R3C8-prix-de-la-maison-du-cirier-plantefor.html",
+        "R3C9-prix-de-la-villa-orphee.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-manoir-de-la-salamandre.html",
+        "R4C2-prix-de-preaux.html",
+        "R4C3-prix-du-chateau-des-aygues.html",
+        "R4C4-prix-de-montfort.html",
+        "R4C5-prix-de-la-halle-au-ble.html",
+        "R4C6-prix-miss-satamixa-fonds-europeen-de-l-elevage.html",
+        "R4C7-prix-de-la-halle-au-beurre.html",
+        "R4C8-prix-de-la-maison-du-cirier-plantefor.html",
+        "R4C9-prix-de-la-villa-orphee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:05.510347Z"
+}

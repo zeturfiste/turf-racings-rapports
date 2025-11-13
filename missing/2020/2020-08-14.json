@@ -1,0 +1,104 @@
+{
+  "date": "2020-08-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-14",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-14/2020-08-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-14/R1-cabourg/R1C7-prix-des-lantanas.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R4-la-teste-de-buch/R4C1-prix-de-graignes.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R5-clairefontaine/R5C8-prix-de-jullouville-les-pins.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R6-cagnes-sur-mer/R6C5-prix-du-pin-au-haras.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R6-cagnes-sur-mer/R6C6-prix-de-cherbourg-en-cotentin.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R6-cagnes-sur-mer/R6C7-prix-des-lantanas.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R7-saint-malo/R7C3-prix-de-villedieu-les-poeles.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R7-saint-malo/R7C5-prix-du-pin-au-haras.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R7-saint-malo/R7C6-prix-de-cherbourg-en-cotentin.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R7-saint-malo/R7C7-prix-des-lantanas.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R7-saint-malo/R7C8-prix-de-jullouville-les-pins.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C2-prix-des-asphodeles.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C3-prix-de-villedieu-les-poeles.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C4-prix-des-astragales.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C5-prix-du-pin-au-haras.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C6-prix-de-cherbourg-en-cotentin.html",
+      "resultats-et-rapports/2020/08/2020-08-14/R8-pornichet-la-baule/R8C7-prix-des-lantanas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R4-la-teste-de-buch",
+      "R5-clairefontaine",
+      "R6-cagnes-sur-mer",
+      "R7-saint-malo",
+      "R8-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-de-graignes.html",
+        "R1C2-prix-des-asphodeles.html",
+        "R1C3-prix-de-villedieu-les-poeles.html",
+        "R1C4-prix-des-astragales.html",
+        "R1C5-prix-du-pin-au-haras.html",
+        "R1C6-prix-de-cherbourg-en-cotentin.html",
+        "R1C7-prix-des-lantanas.html",
+        "R1C8-prix-de-jullouville-les-pins.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-de-graignes.html",
+        "R4C2-prix-des-asphodeles.html",
+        "R4C3-prix-de-villedieu-les-poeles.html",
+        "R4C4-prix-des-astragales.html",
+        "R4C5-prix-du-pin-au-haras.html",
+        "R4C6-prix-de-cherbourg-en-cotentin.html",
+        "R4C7-prix-des-lantanas.html",
+        "R4C8-prix-de-jullouville-les-pins.html"
+      ],
+      "R5-clairefontaine": [
+        "R5C1-prix-de-graignes.html",
+        "R5C2-prix-des-asphodeles.html",
+        "R5C3-prix-de-villedieu-les-poeles.html",
+        "R5C4-prix-des-astragales.html",
+        "R5C5-prix-du-pin-au-haras.html",
+        "R5C6-prix-de-cherbourg-en-cotentin.html",
+        "R5C7-prix-des-lantanas.html",
+        "R5C8-prix-de-jullouville-les-pins.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-graignes.html",
+        "R6C2-prix-des-asphodeles.html",
+        "R6C3-prix-de-villedieu-les-poeles.html",
+        "R6C4-prix-des-astragales.html",
+        "R6C5-prix-du-pin-au-haras.html",
+        "R6C6-prix-de-cherbourg-en-cotentin.html",
+        "R6C7-prix-des-lantanas.html",
+        "R6C8-prix-de-jullouville-les-pins.html"
+      ],
+      "R7-saint-malo": [
+        "R7C1-prix-de-graignes.html",
+        "R7C2-prix-des-asphodeles.html",
+        "R7C3-prix-de-villedieu-les-poeles.html",
+        "R7C4-prix-des-astragales.html",
+        "R7C5-prix-du-pin-au-haras.html",
+        "R7C6-prix-de-cherbourg-en-cotentin.html",
+        "R7C7-prix-des-lantanas.html",
+        "R7C8-prix-de-jullouville-les-pins.html"
+      ],
+      "R8-pornichet-la-baule": [
+        "R8C1-prix-de-graignes.html",
+        "R8C2-prix-des-asphodeles.html",
+        "R8C3-prix-de-villedieu-les-poeles.html",
+        "R8C4-prix-des-astragales.html",
+        "R8C5-prix-du-pin-au-haras.html",
+        "R8C6-prix-de-cherbourg-en-cotentin.html",
+        "R8C7-prix-des-lantanas.html",
+        "R8C8-prix-de-jullouville-les-pins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:42.008546Z"
+}

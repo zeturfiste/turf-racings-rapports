@@ -1,0 +1,101 @@
+{
+  "date": "2021-09-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-17",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-17/2021-09-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-17/R1-vincennes/R1C1-prix-alkmene.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R1-vincennes/R1C4-prix-aegle.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R1-vincennes/R1C5-prix-cursa.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R1-vincennes/R1C6-prix-algina.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R1-vincennes/R1C7-prix-galathea.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C1-prix-alkmene.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C2-prix-alfred-lefevre.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C3-prix-ophelia.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C4-prix-aegle.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C6-prix-algina.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R3-auteuil/R3C7-prix-galathea.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C1-prix-alkmene.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C2-prix-alfred-lefevre.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C3-prix-ophelia.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C4-prix-aegle.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C5-prix-cursa.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C6-prix-algina.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R4-chantilly/R4C7-prix-galathea.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R5-pornichet-la-baule/R5C1-prix-alkmene.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R5-pornichet-la-baule/R5C3-prix-ophelia.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R5-pornichet-la-baule/R5C5-prix-cursa.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R5-pornichet-la-baule/R5C6-prix-algina.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R5-pornichet-la-baule/R5C7-prix-galathea.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C1-prix-alkmene.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C2-prix-alfred-lefevre.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C3-prix-ophelia.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C4-prix-aegle.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C5-prix-cursa.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C6-prix-algina.html",
+      "resultats-et-rapports/2021/09/2021-09-17/R6-moulins/R6C7-prix-galathea.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-auteuil",
+      "R4-chantilly",
+      "R5-pornichet-la-baule",
+      "R6-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-alkmene.html",
+        "R1C2-prix-alfred-lefevre.html",
+        "R1C3-prix-ophelia.html",
+        "R1C4-prix-aegle.html",
+        "R1C5-prix-cursa.html",
+        "R1C6-prix-algina.html",
+        "R1C7-prix-galathea.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-alkmene.html",
+        "R3C2-prix-alfred-lefevre.html",
+        "R3C3-prix-ophelia.html",
+        "R3C4-prix-aegle.html",
+        "R3C5-prix-cursa.html",
+        "R3C6-prix-algina.html",
+        "R3C7-prix-galathea.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-alkmene.html",
+        "R4C2-prix-alfred-lefevre.html",
+        "R4C3-prix-ophelia.html",
+        "R4C4-prix-aegle.html",
+        "R4C5-prix-cursa.html",
+        "R4C6-prix-algina.html",
+        "R4C7-prix-galathea.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-alkmene.html",
+        "R5C2-prix-alfred-lefevre.html",
+        "R5C3-prix-ophelia.html",
+        "R5C4-prix-aegle.html",
+        "R5C5-prix-cursa.html",
+        "R5C6-prix-algina.html",
+        "R5C7-prix-galathea.html"
+      ],
+      "R6-moulins": [
+        "R6C1-prix-alkmene.html",
+        "R6C2-prix-alfred-lefevre.html",
+        "R6C3-prix-ophelia.html",
+        "R6C4-prix-aegle.html",
+        "R6C5-prix-cursa.html",
+        "R6C6-prix-algina.html",
+        "R6C7-prix-galathea.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:11.156687Z"
+}

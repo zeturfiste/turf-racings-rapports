@@ -1,0 +1,89 @@
+{
+  "date": "2017-05-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/05/2017-05-25",
+    "date_html": "resultats-et-rapports/2017/05/2017-05-25/2017-05-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/05/2017-05-25/R1-lyon-parilly/R1C5-coupe-des-trois-ans.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R2-tarbes/R2C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R2-tarbes/R2C5-coupe-des-trois-ans.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R2-tarbes/R2C8-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R3-le-lion-d-angers/R3C6-prix-de-parilly.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R3-le-lion-d-angers/R3C8-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C1-prix-des-juniors.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C2-prix-jazz-radio-prix-de-rouvres.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C3-prix-theodore-ravier.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C5-coupe-des-trois-ans.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R4-nantes/R4C7-prix-alfred-audry.html",
+      "resultats-et-rapports/2017/05/2017-05-25/R6-saint-brieuc/R6C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-tarbes",
+      "R3-le-lion-d-angers",
+      "R4-nantes",
+      "R6-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-des-juniors.html",
+        "R1C2-prix-jazz-radio-prix-de-rouvres.html",
+        "R1C3-prix-theodore-ravier.html",
+        "R1C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+        "R1C5-coupe-des-trois-ans.html",
+        "R1C6-prix-de-parilly.html",
+        "R1C7-prix-alfred-audry.html",
+        "R1C8-prix-de-lacroix-laval.html"
+      ],
+      "R2-tarbes": [
+        "R2C1-prix-des-juniors.html",
+        "R2C2-prix-jazz-radio-prix-de-rouvres.html",
+        "R2C3-prix-theodore-ravier.html",
+        "R2C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+        "R2C5-coupe-des-trois-ans.html",
+        "R2C6-prix-de-parilly.html",
+        "R2C7-prix-alfred-audry.html",
+        "R2C8-prix-de-lacroix-laval.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-des-juniors.html",
+        "R3C2-prix-jazz-radio-prix-de-rouvres.html",
+        "R3C3-prix-theodore-ravier.html",
+        "R3C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+        "R3C5-coupe-des-trois-ans.html",
+        "R3C6-prix-de-parilly.html",
+        "R3C7-prix-alfred-audry.html",
+        "R3C8-prix-de-lacroix-laval.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-des-juniors.html",
+        "R4C2-prix-jazz-radio-prix-de-rouvres.html",
+        "R4C3-prix-theodore-ravier.html",
+        "R4C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+        "R4C5-coupe-des-trois-ans.html",
+        "R4C6-prix-de-parilly.html",
+        "R4C7-prix-alfred-audry.html",
+        "R4C8-prix-de-lacroix-laval.html"
+      ],
+      "R6-saint-brieuc": [
+        "R6C1-prix-des-juniors.html",
+        "R6C2-prix-jazz-radio-prix-de-rouvres.html",
+        "R6C3-prix-theodore-ravier.html",
+        "R6C4-prix-ibis-bron-eurexpo-prix-de-montplaisir.html",
+        "R6C5-coupe-des-trois-ans.html",
+        "R6C6-prix-de-parilly.html",
+        "R6C7-prix-alfred-audry.html",
+        "R6C8-prix-de-lacroix-laval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:35.933959Z"
+}

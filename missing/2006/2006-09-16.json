@@ -1,0 +1,141 @@
+{
+  "date": "2006-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-16",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-16/2006-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-16/R1-longchamp/R1C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R2-argentan/R2C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R2-argentan/R2C4-prix-des-chenes.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R2-argentan/R2C6-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R3-vichy/R3C2-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R21-zerace/R21C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R21-zerace/R21C7-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R21-zerace/R21C8-prix-chateau-lafite.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R30-stade-louis-dugauguez/R30C2-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R30-stade-louis-dugauguez/R30C5-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C2-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C4-prix-des-chenes.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C6-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C7-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R32-stade-du-moustoir/R32C8-prix-chateau-lafite.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R34-stade-nungesser-valenciennes/R34C2-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R34-stade-nungesser-valenciennes/R34C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R34-stade-nungesser-valenciennes/R34C6-prix-de-la-bienfaisance.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R34-stade-nungesser-valenciennes/R34C7-prix-du-parc-aux-daims.html",
+      "resultats-et-rapports/2006/09/2006-09-16/R34-stade-nungesser-valenciennes/R34C8-prix-chateau-lafite.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-argentan",
+      "R3-vichy",
+      "R21-zerace",
+      "R30-stade-louis-dugauguez",
+      "R31-stade-grimonprez-jooris",
+      "R32-stade-du-moustoir",
+      "R33-stade-de-l-aube-troyes",
+      "R34-stade-nungesser-valenciennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-aigles.html",
+        "R1C2-prix-de-la-sorbonne.html",
+        "R1C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R1C4-prix-des-chenes.html",
+        "R1C5-prix-du-prince-d-orange.html",
+        "R1C6-prix-de-la-bienfaisance.html",
+        "R1C7-prix-du-parc-aux-daims.html",
+        "R1C8-prix-chateau-lafite.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-des-aigles.html",
+        "R2C2-prix-de-la-sorbonne.html",
+        "R2C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R2C4-prix-des-chenes.html",
+        "R2C5-prix-du-prince-d-orange.html",
+        "R2C6-prix-de-la-bienfaisance.html",
+        "R2C7-prix-du-parc-aux-daims.html",
+        "R2C8-prix-chateau-lafite.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-des-aigles.html",
+        "R3C2-prix-de-la-sorbonne.html",
+        "R3C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R3C4-prix-des-chenes.html",
+        "R3C5-prix-du-prince-d-orange.html",
+        "R3C6-prix-de-la-bienfaisance.html",
+        "R3C7-prix-du-parc-aux-daims.html",
+        "R3C8-prix-chateau-lafite.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-des-aigles.html",
+        "R21C2-prix-de-la-sorbonne.html",
+        "R21C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R21C4-prix-des-chenes.html",
+        "R21C5-prix-du-prince-d-orange.html",
+        "R21C6-prix-de-la-bienfaisance.html",
+        "R21C7-prix-du-parc-aux-daims.html",
+        "R21C8-prix-chateau-lafite.html"
+      ],
+      "R30-stade-louis-dugauguez": [
+        "R30C1-prix-des-aigles.html",
+        "R30C2-prix-de-la-sorbonne.html",
+        "R30C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R30C4-prix-des-chenes.html",
+        "R30C5-prix-du-prince-d-orange.html",
+        "R30C6-prix-de-la-bienfaisance.html",
+        "R30C7-prix-du-parc-aux-daims.html",
+        "R30C8-prix-chateau-lafite.html"
+      ],
+      "R31-stade-grimonprez-jooris": [
+        "R31C1-prix-des-aigles.html",
+        "R31C2-prix-de-la-sorbonne.html",
+        "R31C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R31C4-prix-des-chenes.html",
+        "R31C5-prix-du-prince-d-orange.html",
+        "R31C6-prix-de-la-bienfaisance.html",
+        "R31C7-prix-du-parc-aux-daims.html",
+        "R31C8-prix-chateau-lafite.html"
+      ],
+      "R32-stade-du-moustoir": [
+        "R32C1-prix-des-aigles.html",
+        "R32C2-prix-de-la-sorbonne.html",
+        "R32C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R32C4-prix-des-chenes.html",
+        "R32C5-prix-du-prince-d-orange.html",
+        "R32C6-prix-de-la-bienfaisance.html",
+        "R32C7-prix-du-parc-aux-daims.html",
+        "R32C8-prix-chateau-lafite.html"
+      ],
+      "R33-stade-de-l-aube-troyes": [
+        "R33C1-prix-des-aigles.html",
+        "R33C2-prix-de-la-sorbonne.html",
+        "R33C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R33C4-prix-des-chenes.html",
+        "R33C5-prix-du-prince-d-orange.html",
+        "R33C6-prix-de-la-bienfaisance.html",
+        "R33C7-prix-du-parc-aux-daims.html",
+        "R33C8-prix-chateau-lafite.html"
+      ],
+      "R34-stade-nungesser-valenciennes": [
+        "R34C1-prix-des-aigles.html",
+        "R34C2-prix-de-la-sorbonne.html",
+        "R34C3-prix-de-sainte-croix-prix-du-groupe-lucien-barriere.html",
+        "R34C4-prix-des-chenes.html",
+        "R34C5-prix-du-prince-d-orange.html",
+        "R34C6-prix-de-la-bienfaisance.html",
+        "R34C7-prix-du-parc-aux-daims.html",
+        "R34C8-prix-chateau-lafite.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:04.543332Z"
+}

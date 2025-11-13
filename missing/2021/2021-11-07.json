@@ -1,0 +1,108 @@
+{
+  "date": "2021-11-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-07",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-07/2021-11-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-07/R2-argentan/R2C5-prix-rfm-prix-count-schomberg.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R3-le-croise-laroche/R3C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R3-le-croise-laroche/R3C6-prix-la-haye-jousselin.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R3-le-croise-laroche/R3C8-prix-mondeville.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C1-121eme-prix-de-france.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C2-prix-bernard-secly.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C5-prix-rfm-prix-count-schomberg.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C7-prix-oeneas.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R8-meslay-du-maine/R8C8-prix-mondeville.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R9-graignes/R9C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R9-graignes/R9C7-prix-oeneas.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R9-graignes/R9C8-prix-mondeville.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C2-prix-bernard-secly.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C5-prix-rfm-prix-count-schomberg.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C6-prix-la-haye-jousselin.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C7-prix-oeneas.html",
+      "resultats-et-rapports/2021/11/2021-11-07/R10-saint-brieuc/R10C8-prix-mondeville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-argentan",
+      "R3-le-croise-laroche",
+      "R8-meslay-du-maine",
+      "R9-graignes",
+      "R10-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-121eme-prix-de-france.html",
+        "R1C2-prix-bernard-secly.html",
+        "R1C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R1C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R1C5-prix-rfm-prix-count-schomberg.html",
+        "R1C6-prix-la-haye-jousselin.html",
+        "R1C7-prix-oeneas.html",
+        "R1C8-prix-mondeville.html"
+      ],
+      "R2-argentan": [
+        "R2C1-121eme-prix-de-france.html",
+        "R2C2-prix-bernard-secly.html",
+        "R2C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R2C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R2C5-prix-rfm-prix-count-schomberg.html",
+        "R2C6-prix-la-haye-jousselin.html",
+        "R2C7-prix-oeneas.html",
+        "R2C8-prix-mondeville.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-121eme-prix-de-france.html",
+        "R3C2-prix-bernard-secly.html",
+        "R3C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R3C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R3C5-prix-rfm-prix-count-schomberg.html",
+        "R3C6-prix-la-haye-jousselin.html",
+        "R3C7-prix-oeneas.html",
+        "R3C8-prix-mondeville.html"
+      ],
+      "R8-meslay-du-maine": [
+        "R8C1-121eme-prix-de-france.html",
+        "R8C2-prix-bernard-secly.html",
+        "R8C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R8C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R8C5-prix-rfm-prix-count-schomberg.html",
+        "R8C6-prix-la-haye-jousselin.html",
+        "R8C7-prix-oeneas.html",
+        "R8C8-prix-mondeville.html"
+      ],
+      "R9-graignes": [
+        "R9C1-121eme-prix-de-france.html",
+        "R9C2-prix-bernard-secly.html",
+        "R9C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R9C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R9C5-prix-rfm-prix-count-schomberg.html",
+        "R9C6-prix-la-haye-jousselin.html",
+        "R9C7-prix-oeneas.html",
+        "R9C8-prix-mondeville.html"
+      ],
+      "R10-saint-brieuc": [
+        "R10C1-121eme-prix-de-france.html",
+        "R10C2-prix-bernard-secly.html",
+        "R10C3-prix-maurice-gillois-grand-steeple-chase-des-4-ans.html",
+        "R10C4-prix-cambaceres-grande-course-de-haies-des-3-ans.html",
+        "R10C5-prix-rfm-prix-count-schomberg.html",
+        "R10C6-prix-la-haye-jousselin.html",
+        "R10C7-prix-oeneas.html",
+        "R10C8-prix-mondeville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:30.285713Z"
+}

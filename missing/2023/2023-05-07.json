@@ -1,0 +1,80 @@
+{
+  "date": "2023-05-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-07",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-07/2023-05-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-07/R1-paris-longchamp/R1C5-prix-de-l-athenee.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R4-la-capelle/R4C3-prix-des-epinettes.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R4-la-capelle/R4C8-prix-du-petit-montrouge.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R4-la-capelle/R4C9-prix-du-parc-de-montsouris.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R5-bordeaux-le-bouscat/R5C2-prix-d-hedouville.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C1-prix-de-la-seine.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C2-prix-d-hedouville.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C3-prix-des-epinettes.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C5-prix-de-l-athenee.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C6-prix-de-la-grange-bateliere.html",
+      "resultats-et-rapports/2023/05/2023-05-07/R11-lisieux/R11C7-prix-des-batignolles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R4-la-capelle",
+      "R5-bordeaux-le-bouscat",
+      "R11-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-seine.html",
+        "R1C2-prix-d-hedouville.html",
+        "R1C3-prix-des-epinettes.html",
+        "R1C4-prix-gold-river-fonds-europeen-de-l-elevage.html",
+        "R1C5-prix-de-l-athenee.html",
+        "R1C6-prix-de-la-grange-bateliere.html",
+        "R1C7-prix-des-batignolles.html",
+        "R1C8-prix-du-petit-montrouge.html",
+        "R1C9-prix-du-parc-de-montsouris.html"
+      ],
+      "R4-la-capelle": [
+        "R4C1-prix-de-la-seine.html",
+        "R4C2-prix-d-hedouville.html",
+        "R4C3-prix-des-epinettes.html",
+        "R4C4-prix-gold-river-fonds-europeen-de-l-elevage.html",
+        "R4C5-prix-de-l-athenee.html",
+        "R4C6-prix-de-la-grange-bateliere.html",
+        "R4C7-prix-des-batignolles.html",
+        "R4C8-prix-du-petit-montrouge.html",
+        "R4C9-prix-du-parc-de-montsouris.html"
+      ],
+      "R5-bordeaux-le-bouscat": [
+        "R5C1-prix-de-la-seine.html",
+        "R5C2-prix-d-hedouville.html",
+        "R5C3-prix-des-epinettes.html",
+        "R5C4-prix-gold-river-fonds-europeen-de-l-elevage.html",
+        "R5C5-prix-de-l-athenee.html",
+        "R5C6-prix-de-la-grange-bateliere.html",
+        "R5C7-prix-des-batignolles.html",
+        "R5C8-prix-du-petit-montrouge.html",
+        "R5C9-prix-du-parc-de-montsouris.html"
+      ],
+      "R11-lisieux": [
+        "R11C1-prix-de-la-seine.html",
+        "R11C2-prix-d-hedouville.html",
+        "R11C3-prix-des-epinettes.html",
+        "R11C4-prix-gold-river-fonds-europeen-de-l-elevage.html",
+        "R11C5-prix-de-l-athenee.html",
+        "R11C6-prix-de-la-grange-bateliere.html",
+        "R11C7-prix-des-batignolles.html",
+        "R11C8-prix-du-petit-montrouge.html",
+        "R11C9-prix-du-parc-de-montsouris.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:47.578327Z"
+}

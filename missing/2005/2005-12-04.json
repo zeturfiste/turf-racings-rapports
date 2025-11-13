@@ -1,0 +1,70 @@
+{
+  "date": "2005-12-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-04",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-04/2005-12-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R4-nantes",
+      "R5-lyon-villeurbanne",
+      "R6-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-chalet.html",
+        "R1C2-prix-augure.html",
+        "R1C3-prix-nupsala.html",
+        "R1C4-prix-le-parisien-prix-francois-de-ganay.html",
+        "R1C5-prix-georges-courtois.html",
+        "R1C6-prix-francois-de-poncins.html",
+        "R1C7-prix-metatero.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-chalet.html",
+        "R2C2-prix-augure.html",
+        "R2C3-prix-nupsala.html",
+        "R2C4-prix-le-parisien-prix-francois-de-ganay.html",
+        "R2C5-prix-georges-courtois.html",
+        "R2C6-prix-francois-de-poncins.html",
+        "R2C7-prix-metatero.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-chalet.html",
+        "R4C2-prix-augure.html",
+        "R4C3-prix-nupsala.html",
+        "R4C4-prix-le-parisien-prix-francois-de-ganay.html",
+        "R4C5-prix-georges-courtois.html",
+        "R4C6-prix-francois-de-poncins.html",
+        "R4C7-prix-metatero.html"
+      ],
+      "R5-lyon-villeurbanne": [
+        "R5C1-prix-chalet.html",
+        "R5C2-prix-augure.html",
+        "R5C3-prix-nupsala.html",
+        "R5C4-prix-le-parisien-prix-francois-de-ganay.html",
+        "R5C5-prix-georges-courtois.html",
+        "R5C6-prix-francois-de-poncins.html",
+        "R5C7-prix-metatero.html"
+      ],
+      "R6-amiens": [
+        "R6C1-prix-chalet.html",
+        "R6C2-prix-augure.html",
+        "R6C3-prix-nupsala.html",
+        "R6C4-prix-le-parisien-prix-francois-de-ganay.html",
+        "R6C5-prix-georges-courtois.html",
+        "R6C6-prix-francois-de-poncins.html",
+        "R6C7-prix-metatero.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:04.804500Z"
+}

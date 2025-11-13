@@ -1,0 +1,73 @@
+{
+  "date": "2022-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-29",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-29/2022-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-29/R1-saint-cloud/R1C1-prix-de-la-gloriette.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R1-saint-cloud/R1C7-prix-du-petit-morin.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R1-saint-cloud/R1C8-prix-du-grand-morin.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C1-prix-de-la-gloriette.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C2-prix-comrade.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C3-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C4-prix-caracalla.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C5-prix-bango.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C6-prix-de-la-gaillarderie.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C7-prix-du-petit-morin.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R3-caen/R3C8-prix-du-grand-morin.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C1-prix-de-la-gloriette.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C2-prix-comrade.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C3-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C4-prix-caracalla.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C5-prix-bango.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C6-prix-de-la-gaillarderie.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C7-prix-du-petit-morin.html",
+      "resultats-et-rapports/2022/03/2022-03-29/R4-enghien-soisy/R4C8-prix-du-grand-morin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-la-gloriette.html",
+        "R1C2-prix-comrade.html",
+        "R1C3-prix-kizil-kourgan.html",
+        "R1C4-prix-caracalla.html",
+        "R1C5-prix-bango.html",
+        "R1C6-prix-de-la-gaillarderie.html",
+        "R1C7-prix-du-petit-morin.html",
+        "R1C8-prix-du-grand-morin.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-gloriette.html",
+        "R3C2-prix-comrade.html",
+        "R3C3-prix-kizil-kourgan.html",
+        "R3C4-prix-caracalla.html",
+        "R3C5-prix-bango.html",
+        "R3C6-prix-de-la-gaillarderie.html",
+        "R3C7-prix-du-petit-morin.html",
+        "R3C8-prix-du-grand-morin.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-la-gloriette.html",
+        "R4C2-prix-comrade.html",
+        "R4C3-prix-kizil-kourgan.html",
+        "R4C4-prix-caracalla.html",
+        "R4C5-prix-bango.html",
+        "R4C6-prix-de-la-gaillarderie.html",
+        "R4C7-prix-du-petit-morin.html",
+        "R4C8-prix-du-grand-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:19.536049Z"
+}

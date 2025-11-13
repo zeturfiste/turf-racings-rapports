@@ -1,0 +1,97 @@
+{
+  "date": "2021-09-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-06",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-06/2021-09-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-06/R3-graignes/R3C1-prix-groupama-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R3-graignes/R3C2-prix-sauternes-s-cup-prix-du-lude.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C1-prix-groupama-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C2-prix-sauternes-s-cup-prix-du-lude.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C5-prix-v-and-b-finale-du-trophee-vert.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C8-prix-du-bar-pmu-des-halles-de-craon.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R4-marseille-vivaux/R4C9-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C1-prix-groupama-prix-des-halles-de-craon.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C2-prix-sauternes-s-cup-prix-du-lude.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C3-trophee-vert-des-apprentis-krafft.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C8-prix-du-bar-pmu-des-halles-de-craon.html",
+      "resultats-et-rapports/2021/09/2021-09-06/R6-dieppe/R6C9-prix-france-bleu-mayenne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-feurs",
+      "R3-graignes",
+      "R4-marseille-vivaux",
+      "R6-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-groupama-prix-des-halles-de-craon.html",
+        "R1C2-prix-sauternes-s-cup-prix-du-lude.html",
+        "R1C3-trophee-vert-des-apprentis-krafft.html",
+        "R1C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+        "R1C5-prix-v-and-b-finale-du-trophee-vert.html",
+        "R1C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+        "R1C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+        "R1C8-prix-du-bar-pmu-des-halles-de-craon.html",
+        "R1C9-prix-france-bleu-mayenne.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-groupama-prix-des-halles-de-craon.html",
+        "R2C2-prix-sauternes-s-cup-prix-du-lude.html",
+        "R2C3-trophee-vert-des-apprentis-krafft.html",
+        "R2C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+        "R2C5-prix-v-and-b-finale-du-trophee-vert.html",
+        "R2C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+        "R2C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+        "R2C8-prix-du-bar-pmu-des-halles-de-craon.html",
+        "R2C9-prix-france-bleu-mayenne.html"
+      ],
+      "R3-graignes": [
+        "R3C1-prix-groupama-prix-des-halles-de-craon.html",
+        "R3C2-prix-sauternes-s-cup-prix-du-lude.html",
+        "R3C3-trophee-vert-des-apprentis-krafft.html",
+        "R3C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+        "R3C5-prix-v-and-b-finale-du-trophee-vert.html",
+        "R3C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+        "R3C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+        "R3C8-prix-du-bar-pmu-des-halles-de-craon.html",
+        "R3C9-prix-france-bleu-mayenne.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-groupama-prix-des-halles-de-craon.html",
+        "R4C2-prix-sauternes-s-cup-prix-du-lude.html",
+        "R4C3-trophee-vert-des-apprentis-krafft.html",
+        "R4C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+        "R4C5-prix-v-and-b-finale-du-trophee-vert.html",
+        "R4C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+        "R4C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+        "R4C8-prix-du-bar-pmu-des-halles-de-craon.html",
+        "R4C9-prix-france-bleu-mayenne.html"
+      ],
+      "R6-dieppe": [
+        "R6C1-prix-groupama-prix-des-halles-de-craon.html",
+        "R6C2-prix-sauternes-s-cup-prix-du-lude.html",
+        "R6C3-trophee-vert-des-apprentis-krafft.html",
+        "R6C4-prix-haras-de-bouquetot-criterium-de-l-ouest.html",
+        "R6C5-prix-v-and-b-finale-du-trophee-vert.html",
+        "R6C6-prix-dirickx-11eme-etape-du-defi-du-galop.html",
+        "R6C7-prix-chaussee-aux-moines-trophee-vert-des-amateurs.html",
+        "R6C8-prix-du-bar-pmu-des-halles-de-craon.html",
+        "R6C9-prix-france-bleu-mayenne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:07.026939Z"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2009-01-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-01",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-01/2009-01-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R31-zerace",
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R31-zerace": [
+        "R31C1-prix-du-croise-laroche.html",
+        "R31C2-prix-de-coucy-le-chateau.html",
+        "R31C3-prix-de-nimes.html",
+        "R31C4-prix-de-bauge.html",
+        "R31C5-prix-de-valdampierre.html",
+        "R31C6-prix-d-angouleme.html",
+        "R31C7-prix-de-barcelonnette.html",
+        "R31C8-prix-de-cerisy.html",
+        "R31C9-prix-de-conches.html"
+      ],
+      "R1-vincennes": [
+        "R1C1-prix-du-croise-laroche.html",
+        "R1C2-prix-de-coucy-le-chateau.html",
+        "R1C3-prix-de-nimes.html",
+        "R1C4-prix-de-bauge.html",
+        "R1C5-prix-de-valdampierre.html",
+        "R1C6-prix-d-angouleme.html",
+        "R1C7-prix-de-barcelonnette.html",
+        "R1C8-prix-de-cerisy.html",
+        "R1C9-prix-de-conches.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-du-croise-laroche.html",
+        "R2C2-prix-de-coucy-le-chateau.html",
+        "R2C3-prix-de-nimes.html",
+        "R2C4-prix-de-bauge.html",
+        "R2C5-prix-de-valdampierre.html",
+        "R2C6-prix-d-angouleme.html",
+        "R2C7-prix-de-barcelonnette.html",
+        "R2C8-prix-de-cerisy.html",
+        "R2C9-prix-de-conches.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:30:33.190516Z"
+}

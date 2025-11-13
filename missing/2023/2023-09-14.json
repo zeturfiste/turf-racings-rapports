@@ -1,0 +1,72 @@
+{
+  "date": "2023-09-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-14",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-14/2023-09-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-14/R1-fontainebleau/R1C7-prix-des-pins-laricio.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R2-mauquenchy/R2C4-prix-des-melezes.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R2-mauquenchy/R2C7-prix-des-pins-laricio.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R3-marseille-borely/R3C3-prix-des-charmilles.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R3-marseille-borely/R3C8-prix-guy-thibault.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R4-la-teste-de-buch/R4C2-prix-de-la-table-du-grand-maitre.html",
+      "resultats-et-rapports/2023/09/2023-09-14/R4-la-teste-de-buch/R4C6-prix-des-bosquets.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-mauquenchy",
+      "R3-marseille-borely",
+      "R4-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-cerfs.html",
+        "R1C2-prix-de-la-table-du-grand-maitre.html",
+        "R1C3-prix-des-charmilles.html",
+        "R1C4-prix-des-melezes.html",
+        "R1C5-prix-roland-fougedoire.html",
+        "R1C6-prix-des-bosquets.html",
+        "R1C7-prix-des-pins-laricio.html",
+        "R1C8-prix-guy-thibault.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-des-cerfs.html",
+        "R2C2-prix-de-la-table-du-grand-maitre.html",
+        "R2C3-prix-des-charmilles.html",
+        "R2C4-prix-des-melezes.html",
+        "R2C5-prix-roland-fougedoire.html",
+        "R2C6-prix-des-bosquets.html",
+        "R2C7-prix-des-pins-laricio.html",
+        "R2C8-prix-guy-thibault.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-des-cerfs.html",
+        "R3C2-prix-de-la-table-du-grand-maitre.html",
+        "R3C3-prix-des-charmilles.html",
+        "R3C4-prix-des-melezes.html",
+        "R3C5-prix-roland-fougedoire.html",
+        "R3C6-prix-des-bosquets.html",
+        "R3C7-prix-des-pins-laricio.html",
+        "R3C8-prix-guy-thibault.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-des-cerfs.html",
+        "R4C2-prix-de-la-table-du-grand-maitre.html",
+        "R4C3-prix-des-charmilles.html",
+        "R4C4-prix-des-melezes.html",
+        "R4C5-prix-roland-fougedoire.html",
+        "R4C6-prix-des-bosquets.html",
+        "R4C7-prix-des-pins-laricio.html",
+        "R4C8-prix-guy-thibault.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:37.020097Z"
+}

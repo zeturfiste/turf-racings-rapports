@@ -1,0 +1,102 @@
+{
+  "date": "2016-05-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-20",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-20/2016-05-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-20/R3-angers/R3C3-prix-du-nogent-basket-club.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R4-chantilly/R4C3-prix-du-nogent-basket-club.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R4-chantilly/R4C4-prix-les-bandits-de-nogent.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R4-chantilly/R4C5-prix-le-tennis-club-de-nogent.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R4-chantilly/R4C6-prix-le-reveil-de-nogent-handball.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R4-chantilly/R4C7-prix-de-nogent-natation-94.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R6-graignes/R6C1-prix-de-la-ville-de-nogent-sur-marne.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R6-graignes/R6C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R6-graignes/R6C5-prix-le-tennis-club-de-nogent.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R6-graignes/R6C6-prix-le-reveil-de-nogent-handball.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R6-graignes/R6C7-prix-de-nogent-natation-94.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C1-prix-de-la-ville-de-nogent-sur-marne.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C3-prix-du-nogent-basket-club.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C4-prix-les-bandits-de-nogent.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C5-prix-le-tennis-club-de-nogent.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C6-prix-le-reveil-de-nogent-handball.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R7-toulouse/R7C7-prix-de-nogent-natation-94.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R8-laval/R8C1-prix-de-la-ville-de-nogent-sur-marne.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R8-laval/R8C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+      "resultats-et-rapports/2016/05/2016-05-20/R8-laval/R8C3-prix-du-nogent-basket-club.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-angers",
+      "R4-chantilly",
+      "R6-graignes",
+      "R7-toulouse",
+      "R8-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R1C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R1C3-prix-du-nogent-basket-club.html",
+        "R1C4-prix-les-bandits-de-nogent.html",
+        "R1C5-prix-le-tennis-club-de-nogent.html",
+        "R1C6-prix-le-reveil-de-nogent-handball.html",
+        "R1C7-prix-de-nogent-natation-94.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R3C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R3C3-prix-du-nogent-basket-club.html",
+        "R3C4-prix-les-bandits-de-nogent.html",
+        "R3C5-prix-le-tennis-club-de-nogent.html",
+        "R3C6-prix-le-reveil-de-nogent-handball.html",
+        "R3C7-prix-de-nogent-natation-94.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R4C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R4C3-prix-du-nogent-basket-club.html",
+        "R4C4-prix-les-bandits-de-nogent.html",
+        "R4C5-prix-le-tennis-club-de-nogent.html",
+        "R4C6-prix-le-reveil-de-nogent-handball.html",
+        "R4C7-prix-de-nogent-natation-94.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R6C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R6C3-prix-du-nogent-basket-club.html",
+        "R6C4-prix-les-bandits-de-nogent.html",
+        "R6C5-prix-le-tennis-club-de-nogent.html",
+        "R6C6-prix-le-reveil-de-nogent-handball.html",
+        "R6C7-prix-de-nogent-natation-94.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R7C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R7C3-prix-du-nogent-basket-club.html",
+        "R7C4-prix-les-bandits-de-nogent.html",
+        "R7C5-prix-le-tennis-club-de-nogent.html",
+        "R7C6-prix-le-reveil-de-nogent-handball.html",
+        "R7C7-prix-de-nogent-natation-94.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-de-la-ville-de-nogent-sur-marne.html",
+        "R8C2-prix-du-cercle-hippique-du-bois-de-vincennes.html",
+        "R8C3-prix-du-nogent-basket-club.html",
+        "R8C4-prix-les-bandits-de-nogent.html",
+        "R8C5-prix-le-tennis-club-de-nogent.html",
+        "R8C6-prix-le-reveil-de-nogent-handball.html",
+        "R8C7-prix-de-nogent-natation-94.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:43.715092Z"
+}

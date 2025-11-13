@@ -1,0 +1,67 @@
+{
+  "date": "2011-07-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/07/2011-07-19",
+    "date_html": "resultats-et-rapports/2011/07/2011-07-19/2011-07-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/07/2011-07-19/R1-vichy/R1C2-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R2-pornichet-la-baule/R2C1-prix-de-la-ville-de-vichy.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R2-pornichet-la-baule/R2C2-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R2-pornichet-la-baule/R2C3-prix-d-abrest.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R2-pornichet-la-baule/R2C7-prix-capstone-horse-feeds-prix-de-l-afig.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C1-prix-de-la-ville-de-vichy.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C2-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C3-prix-d-abrest.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C4-prix-louis-cambreleng.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C5-prix-de-chateldon.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C6-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C7-prix-capstone-horse-feeds-prix-de-l-afig.html",
+      "resultats-et-rapports/2011/07/2011-07-19/R3-cabourg/R3C8-prix-nathanaelle-artu.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-pornichet-la-baule",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-ville-de-vichy.html",
+        "R1C2-prix-des-reves-d-or-jacques-bouchara.html",
+        "R1C3-prix-d-abrest.html",
+        "R1C4-prix-louis-cambreleng.html",
+        "R1C5-prix-de-chateldon.html",
+        "R1C6-prix-hubert-de-catheu.html",
+        "R1C7-prix-capstone-horse-feeds-prix-de-l-afig.html",
+        "R1C8-prix-nathanaelle-artu.html"
+      ],
+      "R2-pornichet-la-baule": [
+        "R2C1-prix-de-la-ville-de-vichy.html",
+        "R2C2-prix-des-reves-d-or-jacques-bouchara.html",
+        "R2C3-prix-d-abrest.html",
+        "R2C4-prix-louis-cambreleng.html",
+        "R2C5-prix-de-chateldon.html",
+        "R2C6-prix-hubert-de-catheu.html",
+        "R2C7-prix-capstone-horse-feeds-prix-de-l-afig.html",
+        "R2C8-prix-nathanaelle-artu.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-la-ville-de-vichy.html",
+        "R3C2-prix-des-reves-d-or-jacques-bouchara.html",
+        "R3C3-prix-d-abrest.html",
+        "R3C4-prix-louis-cambreleng.html",
+        "R3C5-prix-de-chateldon.html",
+        "R3C6-prix-hubert-de-catheu.html",
+        "R3C7-prix-capstone-horse-feeds-prix-de-l-afig.html",
+        "R3C8-prix-nathanaelle-artu.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:52.371977Z"
+}

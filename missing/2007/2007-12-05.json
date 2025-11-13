@@ -1,0 +1,67 @@
+{
+  "date": "2007-12-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/12/2007-12-05",
+    "date_html": "resultats-et-rapports/2007/12/2007-12-05/2007-12-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/12/2007-12-05/R1-marseille-borely/R1C1-prix-des-glaieuls.html",
+      "resultats-et-rapports/2007/12/2007-12-05/R1-marseille-borely/R1C6-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2007/12/2007-12-05/R2-vincennes/R2C1-prix-des-glaieuls.html",
+      "resultats-et-rapports/2007/12/2007-12-05/R2-vincennes/R2C3-prix-pierre-massot.html",
+      "resultats-et-rapports/2007/12/2007-12-05/R2-vincennes/R2C6-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2007/12/2007-12-05/R70-stadium-municipal-toulouse/R70C2-prix-paris-turf-prix-louis-brunet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-vincennes",
+      "R31-zerace",
+      "R70-stadium-municipal-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-des-glaieuls.html",
+        "R1C2-prix-paris-turf-prix-louis-brunet.html",
+        "R1C3-prix-pierre-massot.html",
+        "R1C4-prix-de-montmajour.html",
+        "R1C5-prix-du-pontet.html",
+        "R1C6-prix-du-comite-regional-du-sud-est.html",
+        "R1C7-prix-d-endurance.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-des-glaieuls.html",
+        "R2C2-prix-paris-turf-prix-louis-brunet.html",
+        "R2C3-prix-pierre-massot.html",
+        "R2C4-prix-de-montmajour.html",
+        "R2C5-prix-du-pontet.html",
+        "R2C6-prix-du-comite-regional-du-sud-est.html",
+        "R2C7-prix-d-endurance.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-glaieuls.html",
+        "R31C2-prix-paris-turf-prix-louis-brunet.html",
+        "R31C3-prix-pierre-massot.html",
+        "R31C4-prix-de-montmajour.html",
+        "R31C5-prix-du-pontet.html",
+        "R31C6-prix-du-comite-regional-du-sud-est.html",
+        "R31C7-prix-d-endurance.html"
+      ],
+      "R70-stadium-municipal-toulouse": [
+        "R70C1-prix-des-glaieuls.html",
+        "R70C2-prix-paris-turf-prix-louis-brunet.html",
+        "R70C3-prix-pierre-massot.html",
+        "R70C4-prix-de-montmajour.html",
+        "R70C5-prix-du-pontet.html",
+        "R70C6-prix-du-comite-regional-du-sud-est.html",
+        "R70C7-prix-d-endurance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:34.743320Z"
+}

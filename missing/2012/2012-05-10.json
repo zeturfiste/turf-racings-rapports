@@ -1,0 +1,58 @@
+{
+  "date": "2012-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-10",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-10/2012-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-10/R1-vichy/R1C3-prix-de-parilly.html",
+      "resultats-et-rapports/2012/05/2012-05-10/R3-maisons-laffitte/R3C5-prix-de-l-esterel.html",
+      "resultats-et-rapports/2012/05/2012-05-10/R3-maisons-laffitte/R3C7-prix-pmu-asm-clermont-auvergne-prix-des-alpes-groupe-b.html",
+      "resultats-et-rapports/2012/05/2012-05-10/R3-maisons-laffitte/R3C8-prix-de-biarritz.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-auteuil",
+      "R3-maisons-laffitte"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-des-bois-noirs.html",
+        "R1C2-prix-de-la-source-chomel.html",
+        "R1C3-prix-de-parilly.html",
+        "R1C4-prix-de-marcigny.html",
+        "R1C5-prix-de-l-esterel.html",
+        "R1C6-prix-des-alpes-groupe-a.html",
+        "R1C7-prix-pmu-asm-clermont-auvergne-prix-des-alpes-groupe-b.html",
+        "R1C8-prix-de-biarritz.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-des-bois-noirs.html",
+        "R2C2-prix-de-la-source-chomel.html",
+        "R2C3-prix-de-parilly.html",
+        "R2C4-prix-de-marcigny.html",
+        "R2C5-prix-de-l-esterel.html",
+        "R2C6-prix-des-alpes-groupe-a.html",
+        "R2C7-prix-pmu-asm-clermont-auvergne-prix-des-alpes-groupe-b.html",
+        "R2C8-prix-de-biarritz.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-prix-des-bois-noirs.html",
+        "R3C2-prix-de-la-source-chomel.html",
+        "R3C3-prix-de-parilly.html",
+        "R3C4-prix-de-marcigny.html",
+        "R3C5-prix-de-l-esterel.html",
+        "R3C6-prix-des-alpes-groupe-a.html",
+        "R3C7-prix-pmu-asm-clermont-auvergne-prix-des-alpes-groupe-b.html",
+        "R3C8-prix-de-biarritz.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:13.860523Z"
+}

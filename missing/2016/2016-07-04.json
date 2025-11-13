@@ -1,0 +1,90 @@
+{
+  "date": "2016-07-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-04",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-04/2016-07-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C1-prix-zino.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C3-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C4-prix-amandine.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C5-prix-pointille.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C6-prix-mincio.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C7-prix-de-louveciennes.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R1-maisons-laffitte/R1C8-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C1-prix-zino.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C3-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C4-prix-amandine.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C5-prix-pointille.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C7-prix-de-louveciennes.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R2-nantes/R2C8-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R3-vichy/R3C3-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R3-vichy/R3C5-prix-pointille.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R3-vichy/R3C7-prix-de-louveciennes.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C1-prix-zino.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C2-prix-de-marly-le-roi.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C3-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C4-prix-amandine.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C5-prix-pointille.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C6-prix-mincio.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C7-prix-de-louveciennes.html",
+      "resultats-et-rapports/2016/07/2016-07-04/R5-le-croise-laroche/R5C8-prix-sans-souci-ii.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-nantes",
+      "R3-vichy",
+      "R5-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-zino.html",
+        "R1C2-prix-de-marly-le-roi.html",
+        "R1C3-prix-le-roi-soleil.html",
+        "R1C4-prix-amandine.html",
+        "R1C5-prix-pointille.html",
+        "R1C6-prix-mincio.html",
+        "R1C7-prix-de-louveciennes.html",
+        "R1C8-prix-sans-souci-ii.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-zino.html",
+        "R2C2-prix-de-marly-le-roi.html",
+        "R2C3-prix-le-roi-soleil.html",
+        "R2C4-prix-amandine.html",
+        "R2C5-prix-pointille.html",
+        "R2C6-prix-mincio.html",
+        "R2C7-prix-de-louveciennes.html",
+        "R2C8-prix-sans-souci-ii.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-zino.html",
+        "R3C2-prix-de-marly-le-roi.html",
+        "R3C3-prix-le-roi-soleil.html",
+        "R3C4-prix-amandine.html",
+        "R3C5-prix-pointille.html",
+        "R3C6-prix-mincio.html",
+        "R3C7-prix-de-louveciennes.html",
+        "R3C8-prix-sans-souci-ii.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-zino.html",
+        "R5C2-prix-de-marly-le-roi.html",
+        "R5C3-prix-le-roi-soleil.html",
+        "R5C4-prix-amandine.html",
+        "R5C5-prix-pointille.html",
+        "R5C6-prix-mincio.html",
+        "R5C7-prix-de-louveciennes.html",
+        "R5C8-prix-sans-souci-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:58.430117Z"
+}

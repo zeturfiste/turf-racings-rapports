@@ -1,0 +1,106 @@
+{
+  "date": "2019-09-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/09/2019-09-28",
+    "date_html": "resultats-et-rapports/2019/09/2019-09-28/2019-09-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/09/2019-09-28/R2-argentan/R2C2-prix-le-gourzy.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R2-argentan/R2C3-prix-violon-ii.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R3-le-croise-laroche/R3C2-prix-le-gourzy.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R3-le-croise-laroche/R3C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R3-le-croise-laroche/R3C7-prix-grandlieu.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R3-le-croise-laroche/R3C8-prix-paris-paradis-festival-prix-mandarin.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R4-lyon-la-soie/R4C3-prix-violon-ii.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R4-lyon-la-soie/R4C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R4-lyon-la-soie/R4C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R4-lyon-la-soie/R4C8-prix-paris-paradis-festival-prix-mandarin.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R7-vichy/R7C1-prix-magicienne.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R7-vichy/R7C2-prix-le-gourzy.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R7-vichy/R7C3-prix-violon-ii.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R7-vichy/R7C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R8-hyeres/R8C2-prix-le-gourzy.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R8-hyeres/R8C3-prix-violon-ii.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R8-hyeres/R8C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R8-hyeres/R8C5-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/09/2019-09-28/R8-hyeres/R8C7-prix-grandlieu.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-argentan",
+      "R3-le-croise-laroche",
+      "R4-lyon-la-soie",
+      "R7-vichy",
+      "R8-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-magicienne.html",
+        "R1C2-prix-le-gourzy.html",
+        "R1C3-prix-violon-ii.html",
+        "R1C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R1C5-prix-de-maisons-laffitte.html",
+        "R1C6-prix-julien-decrion.html",
+        "R1C7-prix-grandlieu.html",
+        "R1C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-magicienne.html",
+        "R2C2-prix-le-gourzy.html",
+        "R2C3-prix-violon-ii.html",
+        "R2C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R2C5-prix-de-maisons-laffitte.html",
+        "R2C6-prix-julien-decrion.html",
+        "R2C7-prix-grandlieu.html",
+        "R2C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-magicienne.html",
+        "R3C2-prix-le-gourzy.html",
+        "R3C3-prix-violon-ii.html",
+        "R3C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R3C5-prix-de-maisons-laffitte.html",
+        "R3C6-prix-julien-decrion.html",
+        "R3C7-prix-grandlieu.html",
+        "R3C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-magicienne.html",
+        "R4C2-prix-le-gourzy.html",
+        "R4C3-prix-violon-ii.html",
+        "R4C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R4C5-prix-de-maisons-laffitte.html",
+        "R4C6-prix-julien-decrion.html",
+        "R4C7-prix-grandlieu.html",
+        "R4C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ],
+      "R7-vichy": [
+        "R7C1-prix-magicienne.html",
+        "R7C2-prix-le-gourzy.html",
+        "R7C3-prix-violon-ii.html",
+        "R7C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R7C5-prix-de-maisons-laffitte.html",
+        "R7C6-prix-julien-decrion.html",
+        "R7C7-prix-grandlieu.html",
+        "R7C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ],
+      "R8-hyeres": [
+        "R8C1-prix-magicienne.html",
+        "R8C2-prix-le-gourzy.html",
+        "R8C3-prix-violon-ii.html",
+        "R8C4-prix-du-nouveau-cercle-de-l-union-prix-pride-of-kildare.html",
+        "R8C5-prix-de-maisons-laffitte.html",
+        "R8C6-prix-julien-decrion.html",
+        "R8C7-prix-grandlieu.html",
+        "R8C8-prix-paris-paradis-festival-prix-mandarin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:07.812323Z"
+}

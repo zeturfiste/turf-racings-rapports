@@ -1,0 +1,120 @@
+{
+  "date": "2014-07-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-04",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-04/2014-07-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-04/R1-deauville/R1C5-prix-de-pre-en-pail.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R2-feurs/R2C6-prix-de-callenville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R2-feurs/R2C7-prix-de-graignes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R2-feurs/R2C9-prix-du-mesnil-angot.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C3-prix-de-colombiers.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C4-prix-de-villerville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C5-prix-de-pre-en-pail.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C6-prix-de-callenville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C7-prix-de-graignes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C8-prix-de-valognes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R3-cabourg/R3C9-prix-du-mesnil-angot.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C1-prix-de-caen.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C2-prix-de-la-perriere.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C3-prix-de-colombiers.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C4-prix-de-villerville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C5-prix-de-pre-en-pail.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C6-prix-de-callenville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R4-pornichet-la-baule/R4C7-prix-de-graignes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R7-amiens/R7C6-prix-de-callenville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R7-amiens/R7C9-prix-du-mesnil-angot.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C2-prix-de-la-perriere.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C3-prix-de-colombiers.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C4-prix-de-villerville.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C5-prix-de-pre-en-pail.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C7-prix-de-graignes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C8-prix-de-valognes.html",
+      "resultats-et-rapports/2014/07/2014-07-04/R8-cagnes-sur-mer/R8C9-prix-du-mesnil-angot.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-feurs",
+      "R3-cabourg",
+      "R4-pornichet-la-baule",
+      "R7-amiens",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-caen.html",
+        "R1C2-prix-de-la-perriere.html",
+        "R1C3-prix-de-colombiers.html",
+        "R1C4-prix-de-villerville.html",
+        "R1C5-prix-de-pre-en-pail.html",
+        "R1C6-prix-de-callenville.html",
+        "R1C7-prix-de-graignes.html",
+        "R1C8-prix-de-valognes.html",
+        "R1C9-prix-du-mesnil-angot.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-de-caen.html",
+        "R2C2-prix-de-la-perriere.html",
+        "R2C3-prix-de-colombiers.html",
+        "R2C4-prix-de-villerville.html",
+        "R2C5-prix-de-pre-en-pail.html",
+        "R2C6-prix-de-callenville.html",
+        "R2C7-prix-de-graignes.html",
+        "R2C8-prix-de-valognes.html",
+        "R2C9-prix-du-mesnil-angot.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-caen.html",
+        "R3C2-prix-de-la-perriere.html",
+        "R3C3-prix-de-colombiers.html",
+        "R3C4-prix-de-villerville.html",
+        "R3C5-prix-de-pre-en-pail.html",
+        "R3C6-prix-de-callenville.html",
+        "R3C7-prix-de-graignes.html",
+        "R3C8-prix-de-valognes.html",
+        "R3C9-prix-du-mesnil-angot.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-de-caen.html",
+        "R4C2-prix-de-la-perriere.html",
+        "R4C3-prix-de-colombiers.html",
+        "R4C4-prix-de-villerville.html",
+        "R4C5-prix-de-pre-en-pail.html",
+        "R4C6-prix-de-callenville.html",
+        "R4C7-prix-de-graignes.html",
+        "R4C8-prix-de-valognes.html",
+        "R4C9-prix-du-mesnil-angot.html"
+      ],
+      "R7-amiens": [
+        "R7C1-prix-de-caen.html",
+        "R7C2-prix-de-la-perriere.html",
+        "R7C3-prix-de-colombiers.html",
+        "R7C4-prix-de-villerville.html",
+        "R7C5-prix-de-pre-en-pail.html",
+        "R7C6-prix-de-callenville.html",
+        "R7C7-prix-de-graignes.html",
+        "R7C8-prix-de-valognes.html",
+        "R7C9-prix-du-mesnil-angot.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-de-caen.html",
+        "R8C2-prix-de-la-perriere.html",
+        "R8C3-prix-de-colombiers.html",
+        "R8C4-prix-de-villerville.html",
+        "R8C5-prix-de-pre-en-pail.html",
+        "R8C6-prix-de-callenville.html",
+        "R8C7-prix-de-graignes.html",
+        "R8C8-prix-de-valognes.html",
+        "R8C9-prix-du-mesnil-angot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:09.768812Z"
+}

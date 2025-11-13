@@ -1,0 +1,64 @@
+{
+  "date": "2005-10-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-22",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-22/2005-10-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-caen",
+      "R3-paray-le-monial",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-lyonnais.html",
+        "R1C2-prix-emilius.html",
+        "R1C3-prix-rtl-prix-andre-adele.html",
+        "R1C4-prix-hipparque.html",
+        "R1C5-prix-pierre-de-lassus.html",
+        "R1C6-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R1C7-prix-adrien-besnouin.html",
+        "R1C8-prix-le-gourzy.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-lyonnais.html",
+        "R2C2-prix-emilius.html",
+        "R2C3-prix-rtl-prix-andre-adele.html",
+        "R2C4-prix-hipparque.html",
+        "R2C5-prix-pierre-de-lassus.html",
+        "R2C6-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R2C7-prix-adrien-besnouin.html",
+        "R2C8-prix-le-gourzy.html"
+      ],
+      "R3-paray-le-monial": [
+        "R3C1-prix-lyonnais.html",
+        "R3C2-prix-emilius.html",
+        "R3C3-prix-rtl-prix-andre-adele.html",
+        "R3C4-prix-hipparque.html",
+        "R3C5-prix-pierre-de-lassus.html",
+        "R3C6-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R3C7-prix-adrien-besnouin.html",
+        "R3C8-prix-le-gourzy.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-lyonnais.html",
+        "R7C2-prix-emilius.html",
+        "R7C3-prix-rtl-prix-andre-adele.html",
+        "R7C4-prix-hipparque.html",
+        "R7C5-prix-pierre-de-lassus.html",
+        "R7C6-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R7C7-prix-adrien-besnouin.html",
+        "R7C8-prix-le-gourzy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:57.493183Z"
+}

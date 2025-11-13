@@ -1,0 +1,86 @@
+{
+  "date": "2016-07-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-15",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-15/2016-07-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-15/R3-feurs/R3C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R3-feurs/R3C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R4-chateaubriant/R4C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R4-chateaubriant/R4C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R4-chateaubriant/R4C7-prix-locatech-artifice-prix-des-nenuphars.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R6-marseille-vivaux/R6C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R6-marseille-vivaux/R6C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R6-marseille-vivaux/R6C7-prix-locatech-artifice-prix-des-nenuphars.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C1-prix-paul-viel.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+      "resultats-et-rapports/2016/07/2016-07-15/R7-le-mont-saint-michel/R7C7-prix-locatech-artifice-prix-des-nenuphars.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-feurs",
+      "R4-chateaubriant",
+      "R6-marseille-vivaux",
+      "R7-le-mont-saint-michel"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-paul-viel.html",
+        "R1C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+        "R1C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+        "R1C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+        "R1C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+        "R1C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+        "R1C7-prix-locatech-artifice-prix-des-nenuphars.html"
+      ],
+      "R3-feurs": [
+        "R3C1-prix-paul-viel.html",
+        "R3C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+        "R3C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+        "R3C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+        "R3C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+        "R3C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+        "R3C7-prix-locatech-artifice-prix-des-nenuphars.html"
+      ],
+      "R4-chateaubriant": [
+        "R4C1-prix-paul-viel.html",
+        "R4C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+        "R4C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+        "R4C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+        "R4C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+        "R4C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+        "R4C7-prix-locatech-artifice-prix-des-nenuphars.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-paul-viel.html",
+        "R6C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+        "R6C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+        "R6C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+        "R6C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+        "R6C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+        "R6C7-prix-locatech-artifice-prix-des-nenuphars.html"
+      ],
+      "R7-le-mont-saint-michel": [
+        "R7C1-prix-paul-viel.html",
+        "R7C2-prix-le-bar-de-la-poste-de-valognes-prix-des-hemerocalles.html",
+        "R7C3-prix-le-bar-de-l-avenue-de-mezidon-canon-prix-des-pivoines.html",
+        "R7C4-prix-le-normandy-de-bretteville-sur-odon-prix-des-muscaris.html",
+        "R7C5-prix-le-saint-claude-de-caen-prix-des-amaryllis.html",
+        "R7C6-prix-le-central-cafe-de-courseulles-sur-mer-prix-des-arums.html",
+        "R7C7-prix-locatech-artifice-prix-des-nenuphars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:01.786892Z"
+}

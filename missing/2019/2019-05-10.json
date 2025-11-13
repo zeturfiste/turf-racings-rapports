@@ -1,0 +1,96 @@
+{
+  "date": "2019-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/05/2019-05-10",
+    "date_html": "resultats-et-rapports/2019/05/2019-05-10/2019-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C1-prix-diphda.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C2-prix-regulus.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C3-prix-leo.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C5-prix-niobe.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C6-prix-anahita.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R1-vincennes/R1C7-prix-flora.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R2-la-capelle/R2C1-prix-diphda.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R2-la-capelle/R2C4-prix-egeria.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R2-la-capelle/R2C5-prix-niobe.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R2-la-capelle/R2C7-prix-flora.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R4-auteuil/R4C3-prix-leo.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R4-auteuil/R4C4-prix-egeria.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R4-auteuil/R4C5-prix-niobe.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R4-auteuil/R4C6-prix-anahita.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R4-auteuil/R4C7-prix-flora.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R5-tarbes/R5C3-prix-leo.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R5-tarbes/R5C4-prix-egeria.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R5-tarbes/R5C5-prix-niobe.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R5-tarbes/R5C6-prix-anahita.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R5-tarbes/R5C7-prix-flora.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R6-laval/R6C1-prix-diphda.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R6-laval/R6C2-prix-regulus.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R6-laval/R6C3-prix-leo.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R6-laval/R6C5-prix-niobe.html",
+      "resultats-et-rapports/2019/05/2019-05-10/R6-laval/R6C7-prix-flora.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-la-capelle",
+      "R4-auteuil",
+      "R5-tarbes",
+      "R6-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-diphda.html",
+        "R1C2-prix-regulus.html",
+        "R1C3-prix-leo.html",
+        "R1C4-prix-egeria.html",
+        "R1C5-prix-niobe.html",
+        "R1C6-prix-anahita.html",
+        "R1C7-prix-flora.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-diphda.html",
+        "R2C2-prix-regulus.html",
+        "R2C3-prix-leo.html",
+        "R2C4-prix-egeria.html",
+        "R2C5-prix-niobe.html",
+        "R2C6-prix-anahita.html",
+        "R2C7-prix-flora.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-diphda.html",
+        "R4C2-prix-regulus.html",
+        "R4C3-prix-leo.html",
+        "R4C4-prix-egeria.html",
+        "R4C5-prix-niobe.html",
+        "R4C6-prix-anahita.html",
+        "R4C7-prix-flora.html"
+      ],
+      "R5-tarbes": [
+        "R5C1-prix-diphda.html",
+        "R5C2-prix-regulus.html",
+        "R5C3-prix-leo.html",
+        "R5C4-prix-egeria.html",
+        "R5C5-prix-niobe.html",
+        "R5C6-prix-anahita.html",
+        "R5C7-prix-flora.html"
+      ],
+      "R6-laval": [
+        "R6C1-prix-diphda.html",
+        "R6C2-prix-regulus.html",
+        "R6C3-prix-leo.html",
+        "R6C4-prix-egeria.html",
+        "R6C5-prix-niobe.html",
+        "R6C6-prix-anahita.html",
+        "R6C7-prix-flora.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:19.170653Z"
+}

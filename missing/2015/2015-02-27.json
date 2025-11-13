@@ -1,0 +1,63 @@
+{
+  "date": "2015-02-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/02/2015-02-27",
+    "date_html": "resultats-et-rapports/2015/02/2015-02-27/2015-02-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/02/2015-02-27/R1-fontainebleau/R1C1-prix-des-heronnieres.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R1-fontainebleau/R1C3-prix-de-bouligny.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R1-fontainebleau/R1C4-prix-de-la-croix-de-saint-herem.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R1-fontainebleau/R1C6-prix-jacques-geliot.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R1-fontainebleau/R1C7-prix-capitaine-labonde.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R2-pontchateau/R2C3-prix-de-bouligny.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R2-pontchateau/R2C5-prix-de-la-societe-des-courses-du-pin.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R2-pontchateau/R2C8-prix-de-la-societe-des-courses-de-pau.html",
+      "resultats-et-rapports/2015/02/2015-02-27/R3-cagnes-sur-mer/R3C8-prix-de-la-societe-des-courses-de-pau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-pontchateau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-heronnieres.html",
+        "R1C2-prix-des-daguets.html",
+        "R1C3-prix-de-bouligny.html",
+        "R1C4-prix-de-la-croix-de-saint-herem.html",
+        "R1C5-prix-de-la-societe-des-courses-du-pin.html",
+        "R1C6-prix-jacques-geliot.html",
+        "R1C7-prix-capitaine-labonde.html",
+        "R1C8-prix-de-la-societe-des-courses-de-pau.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-des-heronnieres.html",
+        "R2C2-prix-des-daguets.html",
+        "R2C3-prix-de-bouligny.html",
+        "R2C4-prix-de-la-croix-de-saint-herem.html",
+        "R2C5-prix-de-la-societe-des-courses-du-pin.html",
+        "R2C6-prix-jacques-geliot.html",
+        "R2C7-prix-capitaine-labonde.html",
+        "R2C8-prix-de-la-societe-des-courses-de-pau.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-des-heronnieres.html",
+        "R3C2-prix-des-daguets.html",
+        "R3C3-prix-de-bouligny.html",
+        "R3C4-prix-de-la-croix-de-saint-herem.html",
+        "R3C5-prix-de-la-societe-des-courses-du-pin.html",
+        "R3C6-prix-jacques-geliot.html",
+        "R3C7-prix-capitaine-labonde.html",
+        "R3C8-prix-de-la-societe-des-courses-de-pau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:24.487429Z"
+}

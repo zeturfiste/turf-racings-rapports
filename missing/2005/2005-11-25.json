@@ -1,0 +1,50 @@
+{
+  "date": "2005-11-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-25",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-25/2005-11-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-le-croise-laroche",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-arras.html",
+        "R1C2-prix-dragon-du-roi.html",
+        "R1C3-prix-general-de-saint-didier.html",
+        "R1C4-prix-de-pompadour.html",
+        "R1C5-prix-baoule.html",
+        "R1C6-prix-des-coudraies.html",
+        "R1C7-prix-de-montpellier.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-d-arras.html",
+        "R2C2-prix-dragon-du-roi.html",
+        "R2C3-prix-general-de-saint-didier.html",
+        "R2C4-prix-de-pompadour.html",
+        "R2C5-prix-baoule.html",
+        "R2C6-prix-des-coudraies.html",
+        "R2C7-prix-de-montpellier.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-d-arras.html",
+        "R3C2-prix-dragon-du-roi.html",
+        "R3C3-prix-general-de-saint-didier.html",
+        "R3C4-prix-de-pompadour.html",
+        "R3C5-prix-baoule.html",
+        "R3C6-prix-des-coudraies.html",
+        "R3C7-prix-de-montpellier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:03.285928Z"
+}

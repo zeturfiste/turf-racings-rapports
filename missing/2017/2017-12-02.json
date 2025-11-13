@@ -1,0 +1,89 @@
+{
+  "date": "2017-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/12/2017-12-02",
+    "date_html": "resultats-et-rapports/2017/12/2017-12-02/2017-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C1-prix-de-bricquebec.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C3-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C5-prix-de-mirambeau.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C6-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C7-prix-des-rencontres-internationales.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R1-vincennes/R1C8-prix-vourasie.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R3-pau/R3C2-prix-de-bethune.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R3-pau/R3C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R3-pau/R3C6-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R3-pau/R3C7-prix-des-rencontres-internationales.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R3-pau/R3C8-prix-vourasie.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R4-marseille-vivaux/R4C2-prix-de-bethune.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R4-marseille-vivaux/R4C6-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R4-marseille-vivaux/R4C8-prix-vourasie.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R4-marseille-vivaux/R4C9-prix-de-castellane.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R8-cagnes-sur-mer/R8C1-prix-de-bricquebec.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R8-cagnes-sur-mer/R8C2-prix-de-bethune.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R8-cagnes-sur-mer/R8C3-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R8-cagnes-sur-mer/R8C4-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2017/12/2017-12-02/R8-cagnes-sur-mer/R8C8-prix-vourasie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bricquebec.html",
+        "R1C2-prix-de-bethune.html",
+        "R1C3-prix-joseph-lafosse.html",
+        "R1C4-prix-de-saint-georges-de-didonne.html",
+        "R1C5-prix-de-mirambeau.html",
+        "R1C6-prix-doynel-de-saint-quentin.html",
+        "R1C7-prix-des-rencontres-internationales.html",
+        "R1C8-prix-vourasie.html",
+        "R1C9-prix-de-castellane.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-bricquebec.html",
+        "R3C2-prix-de-bethune.html",
+        "R3C3-prix-joseph-lafosse.html",
+        "R3C4-prix-de-saint-georges-de-didonne.html",
+        "R3C5-prix-de-mirambeau.html",
+        "R3C6-prix-doynel-de-saint-quentin.html",
+        "R3C7-prix-des-rencontres-internationales.html",
+        "R3C8-prix-vourasie.html",
+        "R3C9-prix-de-castellane.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-bricquebec.html",
+        "R4C2-prix-de-bethune.html",
+        "R4C3-prix-joseph-lafosse.html",
+        "R4C4-prix-de-saint-georges-de-didonne.html",
+        "R4C5-prix-de-mirambeau.html",
+        "R4C6-prix-doynel-de-saint-quentin.html",
+        "R4C7-prix-des-rencontres-internationales.html",
+        "R4C8-prix-vourasie.html",
+        "R4C9-prix-de-castellane.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-de-bricquebec.html",
+        "R8C2-prix-de-bethune.html",
+        "R8C3-prix-joseph-lafosse.html",
+        "R8C4-prix-de-saint-georges-de-didonne.html",
+        "R8C5-prix-de-mirambeau.html",
+        "R8C6-prix-doynel-de-saint-quentin.html",
+        "R8C7-prix-des-rencontres-internationales.html",
+        "R8C8-prix-vourasie.html",
+        "R8C9-prix-de-castellane.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:40.104004Z"
+}

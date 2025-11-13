@@ -1,0 +1,42 @@
+{
+  "date": "2021-12-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/12/2021-12-25",
+    "date_html": "resultats-et-rapports/2021/12/2021-12-25/2021-12-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/12/2021-12-25/R3-cagnes-sur-mer/R3C7-prix-joseph-lafosse.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-conches.html",
+        "R1C2-prix-de-tarbes.html",
+        "R1C3-prix-de-lectoure.html",
+        "R1C4-prix-de-chatel-censoir.html",
+        "R1C5-prix-emmanuel-margouty.html",
+        "R1C6-prix-de-strasbourg.html",
+        "R1C7-prix-joseph-lafosse.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-conches.html",
+        "R3C2-prix-de-tarbes.html",
+        "R3C3-prix-de-lectoure.html",
+        "R3C4-prix-de-chatel-censoir.html",
+        "R3C5-prix-emmanuel-margouty.html",
+        "R3C6-prix-de-strasbourg.html",
+        "R3C7-prix-joseph-lafosse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:48.352786Z"
+}

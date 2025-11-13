@@ -1,0 +1,71 @@
+{
+  "date": "2018-10-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/10/2018-10-17",
+    "date_html": "resultats-et-rapports/2018/10/2018-10-17/2018-10-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/10/2018-10-17/R1-strasbourg/R1C4-prix-france-3-alsace.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R1-strasbourg/R1C5-prix-pmu-l-actif-bar-a-strasbourg-prix-une-de-mai.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R1-strasbourg/R1C6-prix-centrakor-alsace.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R1-strasbourg/R1C7-prix-podosis.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C3-prix-gallaud-joaillier-com.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C4-prix-france-3-alsace.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C5-prix-pmu-l-actif-bar-a-strasbourg-prix-une-de-mai.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C6-prix-centrakor-alsace.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C7-prix-podosis.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R3-saint-cloud/R3C8-prix-de-grosbois.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C2-prix-de-la-meinau.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C3-prix-gallaud-joaillier-com.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C6-prix-centrakor-alsace.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C7-prix-podosis.html",
+      "resultats-et-rapports/2018/10/2018-10-17/R4-les-sables-d-olonne/R4C8-prix-de-grosbois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-strasbourg",
+      "R3-saint-cloud",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-strasbourg": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-la-meinau.html",
+        "R1C3-prix-gallaud-joaillier-com.html",
+        "R1C4-prix-france-3-alsace.html",
+        "R1C5-prix-pmu-l-actif-bar-a-strasbourg-prix-une-de-mai.html",
+        "R1C6-prix-centrakor-alsace.html",
+        "R1C7-prix-podosis.html",
+        "R1C8-prix-de-grosbois.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-la-meinau.html",
+        "R3C3-prix-gallaud-joaillier-com.html",
+        "R3C4-prix-france-3-alsace.html",
+        "R3C5-prix-pmu-l-actif-bar-a-strasbourg-prix-une-de-mai.html",
+        "R3C6-prix-centrakor-alsace.html",
+        "R3C7-prix-podosis.html",
+        "R3C8-prix-de-grosbois.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-de-la-meinau.html",
+        "R4C3-prix-gallaud-joaillier-com.html",
+        "R4C4-prix-france-3-alsace.html",
+        "R4C5-prix-pmu-l-actif-bar-a-strasbourg-prix-une-de-mai.html",
+        "R4C6-prix-centrakor-alsace.html",
+        "R4C7-prix-podosis.html",
+        "R4C8-prix-de-grosbois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:20.124056Z"
+}

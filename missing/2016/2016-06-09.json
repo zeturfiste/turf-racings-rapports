@@ -1,0 +1,71 @@
+{
+  "date": "2016-06-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-09",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-09/2016-06-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-09/R1-vichy/R1C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R2-caen/R2C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R2-caen/R2C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R2-caen/R2C6-prix-du-vivarais.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R3-deauville/R3C6-prix-du-vivarais.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R3-deauville/R3C7-prix-de-la-sologne.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R4-cagnes-sur-mer/R4C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R4-cagnes-sur-mer/R4C3-prix-de-saint-remy-en-rollat.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R4-cagnes-sur-mer/R4C5-prix-de-grosbois.html",
+      "resultats-et-rapports/2016/06/2016-06-09/R4-cagnes-sur-mer/R4C7-prix-de-la-sologne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-caen",
+      "R3-deauville",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-treteau.html",
+        "R1C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+        "R1C3-prix-de-saint-remy-en-rollat.html",
+        "R1C4-prix-de-chambord.html",
+        "R1C5-prix-de-grosbois.html",
+        "R1C6-prix-du-vivarais.html",
+        "R1C7-prix-de-la-sologne.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-treteau.html",
+        "R2C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+        "R2C3-prix-de-saint-remy-en-rollat.html",
+        "R2C4-prix-de-chambord.html",
+        "R2C5-prix-de-grosbois.html",
+        "R2C6-prix-du-vivarais.html",
+        "R2C7-prix-de-la-sologne.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-treteau.html",
+        "R3C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+        "R3C3-prix-de-saint-remy-en-rollat.html",
+        "R3C4-prix-de-chambord.html",
+        "R3C5-prix-de-grosbois.html",
+        "R3C6-prix-du-vivarais.html",
+        "R3C7-prix-de-la-sologne.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-treteau.html",
+        "R4C2-prix-vichy-celestins-prix-france-centre-la-montagne.html",
+        "R4C3-prix-de-saint-remy-en-rollat.html",
+        "R4C4-prix-de-chambord.html",
+        "R4C5-prix-de-grosbois.html",
+        "R4C6-prix-du-vivarais.html",
+        "R4C7-prix-de-la-sologne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:50.229590Z"
+}

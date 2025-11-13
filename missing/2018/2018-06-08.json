@@ -1,0 +1,82 @@
+{
+  "date": "2018-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-08",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-08/2018-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-08/R3-mauquenchy/R3C1-prix-adalberta.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R3-mauquenchy/R3C4-prix-tropiques-fm-prix-cygnus.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R4-compiegne/R4C4-prix-tropiques-fm-prix-cygnus.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R4-compiegne/R4C6-prix-france-o-prix-ara.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R5-toulouse/R5C1-prix-adalberta.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R5-toulouse/R5C2-prix-de-la-soiree-tropicale-prix-titania.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R5-toulouse/R5C3-prix-air-caraibes-prix-mimas.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R5-toulouse/R5C7-prix-kaitain.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R7-angers/R7C3-prix-air-caraibes-prix-mimas.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R7-angers/R7C4-prix-tropiques-fm-prix-cygnus.html",
+      "resultats-et-rapports/2018/06/2018-06-08/R7-angers/R7C6-prix-france-o-prix-ara.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mauquenchy",
+      "R4-compiegne",
+      "R5-toulouse",
+      "R7-angers"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-adalberta.html",
+        "R1C2-prix-de-la-soiree-tropicale-prix-titania.html",
+        "R1C3-prix-air-caraibes-prix-mimas.html",
+        "R1C4-prix-tropiques-fm-prix-cygnus.html",
+        "R1C5-prix-des-hotels-des-iles-prix-istria.html",
+        "R1C6-prix-france-o-prix-ara.html",
+        "R1C7-prix-kaitain.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-adalberta.html",
+        "R3C2-prix-de-la-soiree-tropicale-prix-titania.html",
+        "R3C3-prix-air-caraibes-prix-mimas.html",
+        "R3C4-prix-tropiques-fm-prix-cygnus.html",
+        "R3C5-prix-des-hotels-des-iles-prix-istria.html",
+        "R3C6-prix-france-o-prix-ara.html",
+        "R3C7-prix-kaitain.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-adalberta.html",
+        "R4C2-prix-de-la-soiree-tropicale-prix-titania.html",
+        "R4C3-prix-air-caraibes-prix-mimas.html",
+        "R4C4-prix-tropiques-fm-prix-cygnus.html",
+        "R4C5-prix-des-hotels-des-iles-prix-istria.html",
+        "R4C6-prix-france-o-prix-ara.html",
+        "R4C7-prix-kaitain.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-adalberta.html",
+        "R5C2-prix-de-la-soiree-tropicale-prix-titania.html",
+        "R5C3-prix-air-caraibes-prix-mimas.html",
+        "R5C4-prix-tropiques-fm-prix-cygnus.html",
+        "R5C5-prix-des-hotels-des-iles-prix-istria.html",
+        "R5C6-prix-france-o-prix-ara.html",
+        "R5C7-prix-kaitain.html"
+      ],
+      "R7-angers": [
+        "R7C1-prix-adalberta.html",
+        "R7C2-prix-de-la-soiree-tropicale-prix-titania.html",
+        "R7C3-prix-air-caraibes-prix-mimas.html",
+        "R7C4-prix-tropiques-fm-prix-cygnus.html",
+        "R7C5-prix-des-hotels-des-iles-prix-istria.html",
+        "R7C6-prix-france-o-prix-ara.html",
+        "R7C7-prix-kaitain.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:34.993319Z"
+}

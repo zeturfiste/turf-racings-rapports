@@ -1,0 +1,70 @@
+{
+  "date": "2016-11-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/11/2016-11-29",
+    "date_html": "resultats-et-rapports/2016/11/2016-11-29/2016-11-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/11/2016-11-29/R1-deauville/R1C1-prix-de-bursard.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R1-deauville/R1C3-prix-des-abricotiers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C2-prix-des-belles-vues.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C5-prix-des-pruniers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C6-prix-petite-etoile.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C7-prix-des-cerisiers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C8-prix-des-pechers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R2-mauquenchy/R2C9-prix-des-poiriers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R5-vincennes/R5C1-prix-de-bursard.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R5-vincennes/R5C2-prix-des-belles-vues.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R5-vincennes/R5C3-prix-des-abricotiers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R5-vincennes/R5C8-prix-des-pechers.html",
+      "resultats-et-rapports/2016/11/2016-11-29/R5-vincennes/R5C9-prix-des-poiriers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-mauquenchy",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-bursard.html",
+        "R1C2-prix-des-belles-vues.html",
+        "R1C3-prix-des-abricotiers.html",
+        "R1C4-prix-des-pommiers.html",
+        "R1C5-prix-des-pruniers.html",
+        "R1C6-prix-petite-etoile.html",
+        "R1C7-prix-des-cerisiers.html",
+        "R1C8-prix-des-pechers.html",
+        "R1C9-prix-des-poiriers.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-de-bursard.html",
+        "R2C2-prix-des-belles-vues.html",
+        "R2C3-prix-des-abricotiers.html",
+        "R2C4-prix-des-pommiers.html",
+        "R2C5-prix-des-pruniers.html",
+        "R2C6-prix-petite-etoile.html",
+        "R2C7-prix-des-cerisiers.html",
+        "R2C8-prix-des-pechers.html",
+        "R2C9-prix-des-poiriers.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-de-bursard.html",
+        "R5C2-prix-des-belles-vues.html",
+        "R5C3-prix-des-abricotiers.html",
+        "R5C4-prix-des-pommiers.html",
+        "R5C5-prix-des-pruniers.html",
+        "R5C6-prix-petite-etoile.html",
+        "R5C7-prix-des-cerisiers.html",
+        "R5C8-prix-des-pechers.html",
+        "R5C9-prix-des-poiriers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:47.263197Z"
+}

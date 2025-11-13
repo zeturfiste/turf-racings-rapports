@@ -1,0 +1,108 @@
+{
+  "date": "2020-11-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-07",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-07/2020-11-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-07/R1-saint-cloud/R1C2-prix-sassafras.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R1-saint-cloud/R1C5-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R1-saint-cloud/R1C7-prix-du-pays-d-yvelines.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R1-saint-cloud/R1C8-prix-du-plateau-de-saclay.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C1-prix-gay-mecene.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C2-prix-sassafras.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C3-prix-d-arcueil.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C4-prix-de-la-frette.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C5-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C6-prix-bubbles.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C7-prix-du-pays-d-yvelines.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R2-bordeaux-le-bouscat/R2C8-prix-du-plateau-de-saclay.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C1-prix-gay-mecene.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C2-prix-sassafras.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C3-prix-d-arcueil.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C6-prix-bubbles.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C7-prix-du-pays-d-yvelines.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R3-chartres/R3C8-prix-du-plateau-de-saclay.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C1-prix-gay-mecene.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C2-prix-sassafras.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C4-prix-de-la-frette.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C5-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C6-prix-bubbles.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C7-prix-du-pays-d-yvelines.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R4-marseille-vivaux/R4C8-prix-du-plateau-de-saclay.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C2-prix-sassafras.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C3-prix-d-arcueil.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C4-prix-de-la-frette.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C5-prix-de-la-vallee-de-chevreuse.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C6-prix-bubbles.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C7-prix-du-pays-d-yvelines.html",
+      "resultats-et-rapports/2020/11/2020-11-07/R6-caen/R6C8-prix-du-plateau-de-saclay.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-bordeaux-le-bouscat",
+      "R3-chartres",
+      "R4-marseille-vivaux",
+      "R6-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-gay-mecene.html",
+        "R1C2-prix-sassafras.html",
+        "R1C3-prix-d-arcueil.html",
+        "R1C4-prix-de-la-frette.html",
+        "R1C5-prix-de-la-vallee-de-chevreuse.html",
+        "R1C6-prix-bubbles.html",
+        "R1C7-prix-du-pays-d-yvelines.html",
+        "R1C8-prix-du-plateau-de-saclay.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-gay-mecene.html",
+        "R2C2-prix-sassafras.html",
+        "R2C3-prix-d-arcueil.html",
+        "R2C4-prix-de-la-frette.html",
+        "R2C5-prix-de-la-vallee-de-chevreuse.html",
+        "R2C6-prix-bubbles.html",
+        "R2C7-prix-du-pays-d-yvelines.html",
+        "R2C8-prix-du-plateau-de-saclay.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-gay-mecene.html",
+        "R3C2-prix-sassafras.html",
+        "R3C3-prix-d-arcueil.html",
+        "R3C4-prix-de-la-frette.html",
+        "R3C5-prix-de-la-vallee-de-chevreuse.html",
+        "R3C6-prix-bubbles.html",
+        "R3C7-prix-du-pays-d-yvelines.html",
+        "R3C8-prix-du-plateau-de-saclay.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-gay-mecene.html",
+        "R4C2-prix-sassafras.html",
+        "R4C3-prix-d-arcueil.html",
+        "R4C4-prix-de-la-frette.html",
+        "R4C5-prix-de-la-vallee-de-chevreuse.html",
+        "R4C6-prix-bubbles.html",
+        "R4C7-prix-du-pays-d-yvelines.html",
+        "R4C8-prix-du-plateau-de-saclay.html"
+      ],
+      "R6-caen": [
+        "R6C1-prix-gay-mecene.html",
+        "R6C2-prix-sassafras.html",
+        "R6C3-prix-d-arcueil.html",
+        "R6C4-prix-de-la-frette.html",
+        "R6C5-prix-de-la-vallee-de-chevreuse.html",
+        "R6C6-prix-bubbles.html",
+        "R6C7-prix-du-pays-d-yvelines.html",
+        "R6C8-prix-du-plateau-de-saclay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:13.493977Z"
+}

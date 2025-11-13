@@ -1,0 +1,73 @@
+{
+  "date": "2022-06-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-28",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-28/2022-06-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-28/R1-auteuil/R1C1-prix-du-defile.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R3-toulouse/R3C3-prix-rigoletto.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R3-toulouse/R3C5-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R3-toulouse/R3C8-prix-d-acheres.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R4-vincennes/R4C2-prix-frascati.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R4-vincennes/R4C5-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R4-vincennes/R4C6-prix-caldarium.html",
+      "resultats-et-rapports/2022/06/2022-06-28/R4-vincennes/R4C7-prix-dawn-run.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-chartres",
+      "R3-toulouse",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-du-defile.html",
+        "R1C2-prix-frascati.html",
+        "R1C3-prix-rigoletto.html",
+        "R1C4-prix-de-chantilly.html",
+        "R1C5-prix-gerald-de-rochefort.html",
+        "R1C6-prix-caldarium.html",
+        "R1C7-prix-dawn-run.html",
+        "R1C8-prix-d-acheres.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-du-defile.html",
+        "R2C2-prix-frascati.html",
+        "R2C3-prix-rigoletto.html",
+        "R2C4-prix-de-chantilly.html",
+        "R2C5-prix-gerald-de-rochefort.html",
+        "R2C6-prix-caldarium.html",
+        "R2C7-prix-dawn-run.html",
+        "R2C8-prix-d-acheres.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-du-defile.html",
+        "R3C2-prix-frascati.html",
+        "R3C3-prix-rigoletto.html",
+        "R3C4-prix-de-chantilly.html",
+        "R3C5-prix-gerald-de-rochefort.html",
+        "R3C6-prix-caldarium.html",
+        "R3C7-prix-dawn-run.html",
+        "R3C8-prix-d-acheres.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-defile.html",
+        "R4C2-prix-frascati.html",
+        "R4C3-prix-rigoletto.html",
+        "R4C4-prix-de-chantilly.html",
+        "R4C5-prix-gerald-de-rochefort.html",
+        "R4C6-prix-caldarium.html",
+        "R4C7-prix-dawn-run.html",
+        "R4C8-prix-d-acheres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:54.698062Z"
+}

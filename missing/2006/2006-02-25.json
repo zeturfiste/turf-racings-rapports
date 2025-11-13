@@ -1,0 +1,53 @@
+{
+  "date": "2006-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-25",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-25/2006-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-enghien-soisy",
+      "R4-cordemais"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-coquelicots.html",
+        "R1C2-prix-sky-lawyer.html",
+        "R1C3-prix-jacques-bouchara.html",
+        "R1C4-prix-policeman.html",
+        "R1C5-grand-prix-du-conseil-general-des-alpes-maritimes.html",
+        "R1C6-prix-de-longchamp.html",
+        "R1C7-prix-jacques-geliot.html",
+        "R1C8-prix-de-dieppe.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-des-coquelicots.html",
+        "R2C2-prix-sky-lawyer.html",
+        "R2C3-prix-jacques-bouchara.html",
+        "R2C4-prix-policeman.html",
+        "R2C5-grand-prix-du-conseil-general-des-alpes-maritimes.html",
+        "R2C6-prix-de-longchamp.html",
+        "R2C7-prix-jacques-geliot.html",
+        "R2C8-prix-de-dieppe.html"
+      ],
+      "R4-cordemais": [
+        "R4C1-prix-des-coquelicots.html",
+        "R4C2-prix-sky-lawyer.html",
+        "R4C3-prix-jacques-bouchara.html",
+        "R4C4-prix-policeman.html",
+        "R4C5-grand-prix-du-conseil-general-des-alpes-maritimes.html",
+        "R4C6-prix-de-longchamp.html",
+        "R4C7-prix-jacques-geliot.html",
+        "R4C8-prix-de-dieppe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:17.153519Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2016-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/05/2016-05-24",
+    "date_html": "resultats-et-rapports/2016/05/2016-05-24/2016-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C1-prix-des-nouveautes.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C5-prix-d-ispahan.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C6-prix-des-pyramides.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C7-prix-du-luxembourg.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R3-hyeres/R3C8-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R4-nantes/R4C1-prix-des-nouveautes.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R4-nantes/R4C2-prix-du-canal-saint-martin.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R4-nantes/R4C5-prix-d-ispahan.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R4-nantes/R4C6-prix-des-pyramides.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R5-vincennes/R5C1-prix-des-nouveautes.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R5-vincennes/R5C5-prix-d-ispahan.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R5-vincennes/R5C7-prix-du-luxembourg.html",
+      "resultats-et-rapports/2016/05/2016-05-24/R5-vincennes/R5C8-prix-de-saint-nicolas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-angers",
+      "R3-hyeres",
+      "R4-nantes",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-des-nouveautes.html",
+        "R1C2-prix-du-canal-saint-martin.html",
+        "R1C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+        "R1C4-prix-aly-khan.html",
+        "R1C5-prix-d-ispahan.html",
+        "R1C6-prix-des-pyramides.html",
+        "R1C7-prix-du-luxembourg.html",
+        "R1C8-prix-de-saint-nicolas.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-nouveautes.html",
+        "R2C2-prix-du-canal-saint-martin.html",
+        "R2C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+        "R2C4-prix-aly-khan.html",
+        "R2C5-prix-d-ispahan.html",
+        "R2C6-prix-des-pyramides.html",
+        "R2C7-prix-du-luxembourg.html",
+        "R2C8-prix-de-saint-nicolas.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-des-nouveautes.html",
+        "R3C2-prix-du-canal-saint-martin.html",
+        "R3C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+        "R3C4-prix-aly-khan.html",
+        "R3C5-prix-d-ispahan.html",
+        "R3C6-prix-des-pyramides.html",
+        "R3C7-prix-du-luxembourg.html",
+        "R3C8-prix-de-saint-nicolas.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-des-nouveautes.html",
+        "R4C2-prix-du-canal-saint-martin.html",
+        "R4C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+        "R4C4-prix-aly-khan.html",
+        "R4C5-prix-d-ispahan.html",
+        "R4C6-prix-des-pyramides.html",
+        "R4C7-prix-du-luxembourg.html",
+        "R4C8-prix-de-saint-nicolas.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-des-nouveautes.html",
+        "R5C2-prix-du-canal-saint-martin.html",
+        "R5C3-prix-de-la-ville-de-lamorlaye-prix-andre-carrus.html",
+        "R5C4-prix-aly-khan.html",
+        "R5C5-prix-d-ispahan.html",
+        "R5C6-prix-des-pyramides.html",
+        "R5C7-prix-du-luxembourg.html",
+        "R5C8-prix-de-saint-nicolas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:45.413754Z"
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2024-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-25",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-25/2024-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-25/R1-clairefontaine/R1C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R3-vittel/R3C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R3-vittel/R3C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R4-mauquenchy/R4C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R4-mauquenchy/R4C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C3-prix-de-la-mere-toutain-prix-du-casino.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R5-pornichet-la-baule/R5C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R6-graignes/R6C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R6-graignes/R6C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+      "resultats-et-rapports/2024/07/2024-07-25/R6-graignes/R6C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-vittel",
+      "R4-mauquenchy",
+      "R5-pornichet-la-baule",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+        "R1C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+        "R1C3-prix-de-la-mere-toutain-prix-du-casino.html",
+        "R1C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+        "R1C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+        "R1C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+        "R1C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R1C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html"
+      ],
+      "R3-vittel": [
+        "R3C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+        "R3C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+        "R3C3-prix-de-la-mere-toutain-prix-du-casino.html",
+        "R3C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+        "R3C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+        "R3C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+        "R3C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R3C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+        "R4C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+        "R4C3-prix-de-la-mere-toutain-prix-du-casino.html",
+        "R4C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+        "R4C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+        "R4C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+        "R4C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R4C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+        "R5C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+        "R5C3-prix-de-la-mere-toutain-prix-du-casino.html",
+        "R5C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+        "R5C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+        "R5C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+        "R5C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R5C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-du-bistro-de-la-boucane-prix-des-glycines.html",
+        "R6C2-prix-henri-de-saint-delis-prix-des-hortensias.html",
+        "R6C3-prix-de-la-mere-toutain-prix-du-casino.html",
+        "R6C4-prix-du-restaurant-le-vieux-honfleur-prix-des-orchidees.html",
+        "R6C5-prix-de-l-auberge-de-la-source-prix-de-ranville.html",
+        "R6C6-prix-du-restaurant-de-l-auberge-de-la-source-prix-des-heliotropes.html",
+        "R6C7-prix-de-la-ferme-saint-simeon-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R6C8-prix-des-impressionnistes-de-la-ferme-de-saint-simeon-prix-des-tilleuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:34.192464Z"
+}

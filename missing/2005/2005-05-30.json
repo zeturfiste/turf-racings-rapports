@@ -1,0 +1,53 @@
+{
+  "date": "2005-05-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-30",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-30/2005-05-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-meslay-du-maine",
+      "R3-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-verso-ii.html",
+        "R1C2-prix-perruche-bleue.html",
+        "R1C3-prix-de-chanteloup.html",
+        "R1C4-prix-corrida.html",
+        "R1C5-prix-de-gentilly.html",
+        "R1C6-prix-de-l-oisans.html",
+        "R1C7-prix-d-andresy.html",
+        "R1C8-prix-de-la-vanoise.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-verso-ii.html",
+        "R2C2-prix-perruche-bleue.html",
+        "R2C3-prix-de-chanteloup.html",
+        "R2C4-prix-corrida.html",
+        "R2C5-prix-de-gentilly.html",
+        "R2C6-prix-de-l-oisans.html",
+        "R2C7-prix-d-andresy.html",
+        "R2C8-prix-de-la-vanoise.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-verso-ii.html",
+        "R3C2-prix-perruche-bleue.html",
+        "R3C3-prix-de-chanteloup.html",
+        "R3C4-prix-corrida.html",
+        "R3C5-prix-de-gentilly.html",
+        "R3C6-prix-de-l-oisans.html",
+        "R3C7-prix-d-andresy.html",
+        "R3C8-prix-de-la-vanoise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:33.751332Z"
+}

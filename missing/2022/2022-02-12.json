@@ -1,0 +1,81 @@
+{
+  "date": "2022-02-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/02/2022-02-12",
+    "date_html": "resultats-et-rapports/2022/02/2022-02-12/2022-02-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/02/2022-02-12/R1-vincennes/R1C8-prix-decidee.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R1-vincennes/R1C9-prix-michel-potiez.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R2-argentan/R2C9-prix-michel-potiez.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R3-chantilly/R3C1-prix-de-grignan.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R3-chantilly/R3C5-prix-de-verneuil.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R3-chantilly/R3C7-prix-ephrem-houel.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R3-chantilly/R3C8-prix-decidee.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R4-cagnes-sur-mer/R4C1-prix-de-grignan.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R4-cagnes-sur-mer/R4C4-prix-de-rambouillet.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R4-cagnes-sur-mer/R4C5-prix-de-verneuil.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R4-cagnes-sur-mer/R4C8-prix-decidee.html",
+      "resultats-et-rapports/2022/02/2022-02-12/R4-cagnes-sur-mer/R4C9-prix-michel-potiez.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-argentan",
+      "R3-chantilly",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-grignan.html",
+        "R1C2-prix-de-bercy.html",
+        "R1C3-prix-de-munich.html",
+        "R1C4-prix-de-rambouillet.html",
+        "R1C5-prix-de-verneuil.html",
+        "R1C6-prix-de-lisieux.html",
+        "R1C7-prix-ephrem-houel.html",
+        "R1C8-prix-decidee.html",
+        "R1C9-prix-michel-potiez.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-de-grignan.html",
+        "R2C2-prix-de-bercy.html",
+        "R2C3-prix-de-munich.html",
+        "R2C4-prix-de-rambouillet.html",
+        "R2C5-prix-de-verneuil.html",
+        "R2C6-prix-de-lisieux.html",
+        "R2C7-prix-ephrem-houel.html",
+        "R2C8-prix-decidee.html",
+        "R2C9-prix-michel-potiez.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-grignan.html",
+        "R3C2-prix-de-bercy.html",
+        "R3C3-prix-de-munich.html",
+        "R3C4-prix-de-rambouillet.html",
+        "R3C5-prix-de-verneuil.html",
+        "R3C6-prix-de-lisieux.html",
+        "R3C7-prix-ephrem-houel.html",
+        "R3C8-prix-decidee.html",
+        "R3C9-prix-michel-potiez.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-grignan.html",
+        "R4C2-prix-de-bercy.html",
+        "R4C3-prix-de-munich.html",
+        "R4C4-prix-de-rambouillet.html",
+        "R4C5-prix-de-verneuil.html",
+        "R4C6-prix-de-lisieux.html",
+        "R4C7-prix-ephrem-houel.html",
+        "R4C8-prix-decidee.html",
+        "R4C9-prix-michel-potiez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:03.937720Z"
+}

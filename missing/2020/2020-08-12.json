@@ -1,0 +1,73 @@
+{
+  "date": "2020-08-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-12",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-12/2020-08-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-12/R3-le-touquet/R3C5-prix-jean-luc-lagardere-prix-d-europe.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R4-le-lion-d-angers/R4C3-prix-canalturf-com-prix-de-vauvillers.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R4-le-lion-d-angers/R4C4-prix-de-nouzonville.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R6-les-sables-d-olonne/R6C1-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R6-les-sables-d-olonne/R6C2-prix-de-la-porte-d-orleans.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R6-les-sables-d-olonne/R6C3-prix-canalturf-com-prix-de-vauvillers.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R6-les-sables-d-olonne/R6C6-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2020/08/2020-08-12/R6-les-sables-d-olonne/R6C8-prix-de-la-porte-de-versailles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-le-touquet",
+      "R4-le-lion-d-angers",
+      "R6-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-pont-de-l-alma.html",
+        "R1C2-prix-de-la-porte-d-orleans.html",
+        "R1C3-prix-canalturf-com-prix-de-vauvillers.html",
+        "R1C4-prix-de-nouzonville.html",
+        "R1C5-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R1C6-prix-de-la-porte-de-passy.html",
+        "R1C7-prix-des-grandes-carrieres.html",
+        "R1C8-prix-de-la-porte-de-versailles.html"
+      ],
+      "R3-le-touquet": [
+        "R3C1-prix-du-pont-de-l-alma.html",
+        "R3C2-prix-de-la-porte-d-orleans.html",
+        "R3C3-prix-canalturf-com-prix-de-vauvillers.html",
+        "R3C4-prix-de-nouzonville.html",
+        "R3C5-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R3C6-prix-de-la-porte-de-passy.html",
+        "R3C7-prix-des-grandes-carrieres.html",
+        "R3C8-prix-de-la-porte-de-versailles.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-du-pont-de-l-alma.html",
+        "R4C2-prix-de-la-porte-d-orleans.html",
+        "R4C3-prix-canalturf-com-prix-de-vauvillers.html",
+        "R4C4-prix-de-nouzonville.html",
+        "R4C5-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R4C6-prix-de-la-porte-de-passy.html",
+        "R4C7-prix-des-grandes-carrieres.html",
+        "R4C8-prix-de-la-porte-de-versailles.html"
+      ],
+      "R6-les-sables-d-olonne": [
+        "R6C1-prix-du-pont-de-l-alma.html",
+        "R6C2-prix-de-la-porte-d-orleans.html",
+        "R6C3-prix-canalturf-com-prix-de-vauvillers.html",
+        "R6C4-prix-de-nouzonville.html",
+        "R6C5-prix-jean-luc-lagardere-prix-d-europe.html",
+        "R6C6-prix-de-la-porte-de-passy.html",
+        "R6C7-prix-des-grandes-carrieres.html",
+        "R6C8-prix-de-la-porte-de-versailles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:41.251971Z"
+}

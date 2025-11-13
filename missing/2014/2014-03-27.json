@@ -1,0 +1,65 @@
+{
+  "date": "2014-03-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-27",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-27/2014-03-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-27/R1-compiegne/R1C4-prix-atalante.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R1-compiegne/R1C5-prix-de-clermont-sur-oise.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R1-compiegne/R1C8-prix-de-l-aisne.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R2-caen/R2C1-prix-hippomene.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R2-caen/R2C4-prix-atalante.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R2-caen/R2C5-prix-de-clermont-sur-oise.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R2-caen/R2C7-prix-de-l-epervier.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R2-caen/R2C8-prix-de-l-aisne.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R3-le-croise-laroche/R3C2-prix-d-arras.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R3-le-croise-laroche/R3C5-prix-de-clermont-sur-oise.html",
+      "resultats-et-rapports/2014/03/2014-03-27/R3-le-croise-laroche/R3C8-prix-de-l-aisne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-caen",
+      "R3-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-hippomene.html",
+        "R1C2-prix-d-arras.html",
+        "R1C3-prix-www-hippodrome-compiegne-fr-prix-de-l-oise.html",
+        "R1C4-prix-atalante.html",
+        "R1C5-prix-de-clermont-sur-oise.html",
+        "R1C6-prix-de-longueil-annel.html",
+        "R1C7-prix-de-l-epervier.html",
+        "R1C8-prix-de-l-aisne.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-hippomene.html",
+        "R2C2-prix-d-arras.html",
+        "R2C3-prix-www-hippodrome-compiegne-fr-prix-de-l-oise.html",
+        "R2C4-prix-atalante.html",
+        "R2C5-prix-de-clermont-sur-oise.html",
+        "R2C6-prix-de-longueil-annel.html",
+        "R2C7-prix-de-l-epervier.html",
+        "R2C8-prix-de-l-aisne.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-hippomene.html",
+        "R3C2-prix-d-arras.html",
+        "R3C3-prix-www-hippodrome-compiegne-fr-prix-de-l-oise.html",
+        "R3C4-prix-atalante.html",
+        "R3C5-prix-de-clermont-sur-oise.html",
+        "R3C6-prix-de-longueil-annel.html",
+        "R3C7-prix-de-l-epervier.html",
+        "R3C8-prix-de-l-aisne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:36.173657Z"
+}

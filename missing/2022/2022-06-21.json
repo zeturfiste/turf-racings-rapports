@@ -1,0 +1,101 @@
+{
+  "date": "2022-06-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-21",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-21/2022-06-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C2-prix-de-la-rablais.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C3-prix-de-huez.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C4-prix-du-trasquet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C6-prix-dorina.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R1-saint-cloud/R1C8-prix-de-la-garde.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C1-prix-du-chateau-bouscaut.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C2-prix-de-la-rablais.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C3-prix-de-huez.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C4-prix-du-trasquet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C6-prix-dorina.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C7-prix-aveu.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C8-prix-de-la-garde.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R3-lyon-parilly/R3C9-handicap-d-ete.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C1-prix-du-chateau-bouscaut.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C2-prix-de-la-rablais.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C3-prix-de-huez.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C4-prix-du-trasquet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C6-prix-dorina.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C7-prix-aveu.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C8-prix-de-la-garde.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R4-agen/R4C9-handicap-d-ete.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C1-prix-du-chateau-bouscaut.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C2-prix-de-la-rablais.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C3-prix-de-huez.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C4-prix-du-trasquet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C5-prix-du-vesinet.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C6-prix-dorina.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C7-prix-aveu.html",
+      "resultats-et-rapports/2022/06/2022-06-21/R5-vincennes/R5C8-prix-de-la-garde.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-lyon-parilly",
+      "R4-agen",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-chateau-bouscaut.html",
+        "R1C2-prix-de-la-rablais.html",
+        "R1C3-prix-de-huez.html",
+        "R1C4-prix-du-trasquet.html",
+        "R1C5-prix-du-vesinet.html",
+        "R1C6-prix-dorina.html",
+        "R1C7-prix-aveu.html",
+        "R1C8-prix-de-la-garde.html",
+        "R1C9-handicap-d-ete.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-chateau-bouscaut.html",
+        "R3C2-prix-de-la-rablais.html",
+        "R3C3-prix-de-huez.html",
+        "R3C4-prix-du-trasquet.html",
+        "R3C5-prix-du-vesinet.html",
+        "R3C6-prix-dorina.html",
+        "R3C7-prix-aveu.html",
+        "R3C8-prix-de-la-garde.html",
+        "R3C9-handicap-d-ete.html"
+      ],
+      "R4-agen": [
+        "R4C1-prix-du-chateau-bouscaut.html",
+        "R4C2-prix-de-la-rablais.html",
+        "R4C3-prix-de-huez.html",
+        "R4C4-prix-du-trasquet.html",
+        "R4C5-prix-du-vesinet.html",
+        "R4C6-prix-dorina.html",
+        "R4C7-prix-aveu.html",
+        "R4C8-prix-de-la-garde.html",
+        "R4C9-handicap-d-ete.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-du-chateau-bouscaut.html",
+        "R5C2-prix-de-la-rablais.html",
+        "R5C3-prix-de-huez.html",
+        "R5C4-prix-du-trasquet.html",
+        "R5C5-prix-du-vesinet.html",
+        "R5C6-prix-dorina.html",
+        "R5C7-prix-aveu.html",
+        "R5C8-prix-de-la-garde.html",
+        "R5C9-handicap-d-ete.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:51.876434Z"
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2015-01-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-29",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-29/2015-01-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-29/R2-cagnes-sur-mer/R2C5-prix-de-dozule.html",
+      "resultats-et-rapports/2015/01/2015-01-29/R2-cagnes-sur-mer/R2C7-prix-de-calais.html",
+      "resultats-et-rapports/2015/01/2015-01-29/R2-cagnes-sur-mer/R2C8-prix-de-pouillac-groupe-a.html",
+      "resultats-et-rapports/2015/01/2015-01-29/R2-cagnes-sur-mer/R2C9-prix-de-pouillac-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-auch.html",
+        "R1C2-prix-de-langeais.html",
+        "R1C3-prix-de-feucherolles.html",
+        "R1C4-prix-de-verdun.html",
+        "R1C5-prix-de-dozule.html",
+        "R1C6-prix-de-chambery.html",
+        "R1C7-prix-de-calais.html",
+        "R1C8-prix-de-pouillac-groupe-a.html",
+        "R1C9-prix-de-pouillac-groupe-b.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-auch.html",
+        "R2C2-prix-de-langeais.html",
+        "R2C3-prix-de-feucherolles.html",
+        "R2C4-prix-de-verdun.html",
+        "R2C5-prix-de-dozule.html",
+        "R2C6-prix-de-chambery.html",
+        "R2C7-prix-de-calais.html",
+        "R2C8-prix-de-pouillac-groupe-a.html",
+        "R2C9-prix-de-pouillac-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:16.823784Z"
+}

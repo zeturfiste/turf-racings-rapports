@@ -1,0 +1,76 @@
+{
+  "date": "2025-01-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-21",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-21/2025-01-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-21/R1-pau/R1C1-prix-jean-bernadotte.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R1-pau/R1C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R1-pau/R1C4-prix-jean-granel.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R4-vincennes/R4C1-prix-jean-bernadotte.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R4-vincennes/R4C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R4-vincennes/R4C6-prix-de-gramont.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R7-nantes/R7C1-prix-jean-bernadotte.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R7-nantes/R7C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R7-nantes/R7C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R7-nantes/R7C4-prix-jean-granel.html",
+      "resultats-et-rapports/2025/01/2025-01-21/R7-nantes/R7C6-prix-de-gramont.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R3-cagnes-sur-mer",
+      "R4-vincennes",
+      "R7-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-jean-bernadotte.html",
+        "R1C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+        "R1C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+        "R1C4-prix-jean-granel.html",
+        "R1C5-prix-so-horse-alliances-prix-de-saint-palais.html",
+        "R1C6-prix-de-gramont.html",
+        "R1C7-prix-d-arcangues.html",
+        "R1C8-prix-william-knapp-thorn.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-jean-bernadotte.html",
+        "R3C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+        "R3C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+        "R3C4-prix-jean-granel.html",
+        "R3C5-prix-so-horse-alliances-prix-de-saint-palais.html",
+        "R3C6-prix-de-gramont.html",
+        "R3C7-prix-d-arcangues.html",
+        "R3C8-prix-william-knapp-thorn.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-jean-bernadotte.html",
+        "R4C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+        "R4C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+        "R4C4-prix-jean-granel.html",
+        "R4C5-prix-so-horse-alliances-prix-de-saint-palais.html",
+        "R4C6-prix-de-gramont.html",
+        "R4C7-prix-d-arcangues.html",
+        "R4C8-prix-william-knapp-thorn.html"
+      ],
+      "R7-nantes": [
+        "R7C1-prix-jean-bernadotte.html",
+        "R7C2-prix-en-route-vers-l-amerique-prix-rene-cramail.html",
+        "R7C3-prix-hotel-mercure-pau-palais-des-sports-prix-des-eaux-bonnes.html",
+        "R7C4-prix-jean-granel.html",
+        "R7C5-prix-so-horse-alliances-prix-de-saint-palais.html",
+        "R7C6-prix-de-gramont.html",
+        "R7C7-prix-d-arcangues.html",
+        "R7C8-prix-william-knapp-thorn.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:43.976795Z"
+}

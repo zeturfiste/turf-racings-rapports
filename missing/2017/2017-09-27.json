@@ -1,0 +1,91 @@
+{
+  "date": "2017-09-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/09/2017-09-27",
+    "date_html": "resultats-et-rapports/2017/09/2017-09-27/2017-09-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C4-prix-e-leclerc-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C5-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C6-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C7-prix-equip-horse-gr-a.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C8-prix-pmu-le-podosis-gr-b.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R1-lisieux/R1C9-prix-de-la-societe-des-courses-de-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C1-prix-multi-pierre-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C3-prix-vans-barbot.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C4-prix-e-leclerc-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C5-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C6-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R3-auteuil/R3C9-prix-de-la-societe-des-courses-de-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R4-le-mans/R4C3-prix-vans-barbot.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R4-le-mans/R4C5-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R4-le-mans/R4C6-prix-communaute-d-agglomeration-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R4-le-mans/R4C7-prix-equip-horse-gr-a.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R4-le-mans/R4C8-prix-pmu-le-podosis-gr-b.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R6-marseille-borely/R6C1-prix-multi-pierre-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R6-marseille-borely/R6C3-prix-vans-barbot.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R6-marseille-borely/R6C4-prix-e-leclerc-lisieux.html",
+      "resultats-et-rapports/2017/09/2017-09-27/R6-marseille-borely/R6C6-prix-communaute-d-agglomeration-lisieux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R3-auteuil",
+      "R4-le-mans",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-prix-multi-pierre-lisieux.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-vans-barbot.html",
+        "R1C4-prix-e-leclerc-lisieux.html",
+        "R1C5-prix-de-la-ville-de-lisieux.html",
+        "R1C6-prix-communaute-d-agglomeration-lisieux.html",
+        "R1C7-prix-equip-horse-gr-a.html",
+        "R1C8-prix-pmu-le-podosis-gr-b.html",
+        "R1C9-prix-de-la-societe-des-courses-de-lisieux.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-multi-pierre-lisieux.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-vans-barbot.html",
+        "R3C4-prix-e-leclerc-lisieux.html",
+        "R3C5-prix-de-la-ville-de-lisieux.html",
+        "R3C6-prix-communaute-d-agglomeration-lisieux.html",
+        "R3C7-prix-equip-horse-gr-a.html",
+        "R3C8-prix-pmu-le-podosis-gr-b.html",
+        "R3C9-prix-de-la-societe-des-courses-de-lisieux.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-multi-pierre-lisieux.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-prix-vans-barbot.html",
+        "R4C4-prix-e-leclerc-lisieux.html",
+        "R4C5-prix-de-la-ville-de-lisieux.html",
+        "R4C6-prix-communaute-d-agglomeration-lisieux.html",
+        "R4C7-prix-equip-horse-gr-a.html",
+        "R4C8-prix-pmu-le-podosis-gr-b.html",
+        "R4C9-prix-de-la-societe-des-courses-de-lisieux.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-multi-pierre-lisieux.html",
+        "R6C2-grand-national-du-trot-paris-turf.html",
+        "R6C3-prix-vans-barbot.html",
+        "R6C4-prix-e-leclerc-lisieux.html",
+        "R6C5-prix-de-la-ville-de-lisieux.html",
+        "R6C6-prix-communaute-d-agglomeration-lisieux.html",
+        "R6C7-prix-equip-horse-gr-a.html",
+        "R6C8-prix-pmu-le-podosis-gr-b.html",
+        "R6C9-prix-de-la-societe-des-courses-de-lisieux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:17.719422Z"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2009-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/08/2009-08-11",
+    "date_html": "resultats-et-rapports/2009/08/2009-08-11/2009-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/08/2009-08-11/R2-vichy/R2C4-prix-tanit.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R3-cabourg/R3C6-prix-de-villerville.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R3-cabourg/R3C8-prix-de-brevedent.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R31-zerace/R31C1-prix-des-roches-noires.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R31-zerace/R31C2-prix-du-journal-le-pays-d-auge-grand-handicap-de-la-manche.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R31-zerace/R31C3-prix-de-cerisy.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R31-zerace/R31C4-prix-tanit.html",
+      "resultats-et-rapports/2009/08/2009-08-11/R31-zerace/R31C8-prix-de-brevedent.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vichy",
+      "R3-cabourg",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-roches-noires.html",
+        "R1C2-prix-du-journal-le-pays-d-auge-grand-handicap-de-la-manche.html",
+        "R1C3-prix-de-cerisy.html",
+        "R1C4-prix-tanit.html",
+        "R1C5-prix-de-mervilly.html",
+        "R1C6-prix-de-villerville.html",
+        "R1C7-prix-des-prairies.html",
+        "R1C8-prix-de-brevedent.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-des-roches-noires.html",
+        "R2C2-prix-du-journal-le-pays-d-auge-grand-handicap-de-la-manche.html",
+        "R2C3-prix-de-cerisy.html",
+        "R2C4-prix-tanit.html",
+        "R2C5-prix-de-mervilly.html",
+        "R2C6-prix-de-villerville.html",
+        "R2C7-prix-des-prairies.html",
+        "R2C8-prix-de-brevedent.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-des-roches-noires.html",
+        "R3C2-prix-du-journal-le-pays-d-auge-grand-handicap-de-la-manche.html",
+        "R3C3-prix-de-cerisy.html",
+        "R3C4-prix-tanit.html",
+        "R3C5-prix-de-mervilly.html",
+        "R3C6-prix-de-villerville.html",
+        "R3C7-prix-des-prairies.html",
+        "R3C8-prix-de-brevedent.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-roches-noires.html",
+        "R31C2-prix-du-journal-le-pays-d-auge-grand-handicap-de-la-manche.html",
+        "R31C3-prix-de-cerisy.html",
+        "R31C4-prix-tanit.html",
+        "R31C5-prix-de-mervilly.html",
+        "R31C6-prix-de-villerville.html",
+        "R31C7-prix-des-prairies.html",
+        "R31C8-prix-de-brevedent.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:32:17.736115Z"
+}

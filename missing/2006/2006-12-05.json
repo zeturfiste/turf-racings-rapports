@@ -1,0 +1,80 @@
+{
+  "date": "2006-12-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-05",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-05/2006-12-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-marseille-vivaux",
+      "R3-vincennes",
+      "R21-zerace",
+      "R30-nou-camp-barcelone",
+      "R31-allianz-arena-munich"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-hotweed.html",
+        "R1C2-prix-mieuxce.html",
+        "R1C3-prix-belle-sicambre.html",
+        "R1C4-prix-petite-etoile.html",
+        "R1C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R1C6-prix-duc-d-alburquerque.html",
+        "R1C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-hotweed.html",
+        "R2C2-prix-mieuxce.html",
+        "R2C3-prix-belle-sicambre.html",
+        "R2C4-prix-petite-etoile.html",
+        "R2C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R2C6-prix-duc-d-alburquerque.html",
+        "R2C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-hotweed.html",
+        "R3C2-prix-mieuxce.html",
+        "R3C3-prix-belle-sicambre.html",
+        "R3C4-prix-petite-etoile.html",
+        "R3C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R3C6-prix-duc-d-alburquerque.html",
+        "R3C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-hotweed.html",
+        "R21C2-prix-mieuxce.html",
+        "R21C3-prix-belle-sicambre.html",
+        "R21C4-prix-petite-etoile.html",
+        "R21C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R21C6-prix-duc-d-alburquerque.html",
+        "R21C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ],
+      "R30-nou-camp-barcelone": [
+        "R30C1-prix-hotweed.html",
+        "R30C2-prix-mieuxce.html",
+        "R30C3-prix-belle-sicambre.html",
+        "R30C4-prix-petite-etoile.html",
+        "R30C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R30C6-prix-duc-d-alburquerque.html",
+        "R30C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ],
+      "R31-allianz-arena-munich": [
+        "R31C1-prix-hotweed.html",
+        "R31C2-prix-mieuxce.html",
+        "R31C3-prix-belle-sicambre.html",
+        "R31C4-prix-petite-etoile.html",
+        "R31C5-prix-de-l-hippodrome-de-saint-malo.html",
+        "R31C6-prix-duc-d-alburquerque.html",
+        "R31C7-prix-de-l-hippodrome-des-sables-d-olonne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:28.491320Z"
+}

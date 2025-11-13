@@ -1,0 +1,59 @@
+{
+  "date": "2022-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-08",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-08/2022-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-08/R1-chantilly/R1C1-prix-jocker.html",
+      "resultats-et-rapports/2022/03/2022-03-08/R3-compiegne/R3C2-prix-de-la-serpentine.html",
+      "resultats-et-rapports/2022/03/2022-03-08/R3-compiegne/R3C4-prix-de-la-traversiere.html",
+      "resultats-et-rapports/2022/03/2022-03-08/R3-compiegne/R3C5-prix-maurice-caillault.html",
+      "resultats-et-rapports/2022/03/2022-03-08/R3-compiegne/R3C8-prix-janus.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-jocker.html",
+        "R1C2-prix-de-la-serpentine.html",
+        "R1C3-prix-du-valmondois.html",
+        "R1C4-prix-de-la-traversiere.html",
+        "R1C5-prix-maurice-caillault.html",
+        "R1C6-prix-jongleur.html",
+        "R1C7-prix-du-chene-pouilleux.html",
+        "R1C8-prix-janus.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-jocker.html",
+        "R3C2-prix-de-la-serpentine.html",
+        "R3C3-prix-du-valmondois.html",
+        "R3C4-prix-de-la-traversiere.html",
+        "R3C5-prix-maurice-caillault.html",
+        "R3C6-prix-jongleur.html",
+        "R3C7-prix-du-chene-pouilleux.html",
+        "R3C8-prix-janus.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-jocker.html",
+        "R4C2-prix-de-la-serpentine.html",
+        "R4C3-prix-du-valmondois.html",
+        "R4C4-prix-de-la-traversiere.html",
+        "R4C5-prix-maurice-caillault.html",
+        "R4C6-prix-jongleur.html",
+        "R4C7-prix-du-chene-pouilleux.html",
+        "R4C8-prix-janus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:12.096403Z"
+}

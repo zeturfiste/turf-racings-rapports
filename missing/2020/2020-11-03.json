@@ -1,0 +1,94 @@
+{
+  "date": "2020-11-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-03",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-03/2020-11-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-03/R1-saint-cloud/R1C3-prix-d-eaubonne.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R1-saint-cloud/R1C4-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R1-saint-cloud/R1C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R1-saint-cloud/R1C6-prix-solitude.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R1-saint-cloud/R1C7-prix-poliglote.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C1-prix-antivari.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C2-prix-douve.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C3-prix-d-eaubonne.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C4-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C6-prix-solitude.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C7-prix-poliglote.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R2-fontainebleau/R2C8-prix-du-val-d-or.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C1-prix-antivari.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C2-prix-douve.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C3-prix-d-eaubonne.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C4-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C6-prix-solitude.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C7-prix-poliglote.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R3-vincennes/R3C8-prix-du-val-d-or.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C1-prix-antivari.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C2-prix-douve.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C3-prix-d-eaubonne.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C4-prix-du-val-d-oise.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C6-prix-solitude.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C7-prix-poliglote.html",
+      "resultats-et-rapports/2020/11/2020-11-03/R4-graignes/R4C8-prix-du-val-d-or.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-fontainebleau",
+      "R3-vincennes",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-antivari.html",
+        "R1C2-prix-douve.html",
+        "R1C3-prix-d-eaubonne.html",
+        "R1C4-prix-du-val-d-oise.html",
+        "R1C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-solitude.html",
+        "R1C7-prix-poliglote.html",
+        "R1C8-prix-du-val-d-or.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-antivari.html",
+        "R2C2-prix-douve.html",
+        "R2C3-prix-d-eaubonne.html",
+        "R2C4-prix-du-val-d-oise.html",
+        "R2C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R2C6-prix-solitude.html",
+        "R2C7-prix-poliglote.html",
+        "R2C8-prix-du-val-d-or.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-antivari.html",
+        "R3C2-prix-douve.html",
+        "R3C3-prix-d-eaubonne.html",
+        "R3C4-prix-du-val-d-oise.html",
+        "R3C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-solitude.html",
+        "R3C7-prix-poliglote.html",
+        "R3C8-prix-du-val-d-or.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-antivari.html",
+        "R4C2-prix-douve.html",
+        "R4C3-prix-d-eaubonne.html",
+        "R4C4-prix-du-val-d-oise.html",
+        "R4C5-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-solitude.html",
+        "R4C7-prix-poliglote.html",
+        "R4C8-prix-du-val-d-or.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:12.203493Z"
+}

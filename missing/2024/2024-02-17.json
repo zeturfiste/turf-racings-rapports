@@ -1,0 +1,90 @@
+{
+  "date": "2024-02-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/02/2024-02-17",
+    "date_html": "resultats-et-rapports/2024/02/2024-02-17/2024-02-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C3-prix-policeman-prix-du-cros-de-cagnes.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C5-prix-des-commercants-prix-du-col-du-clapier.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R1-cagnes-sur-mer/R1C8-prix-des-collettes-breguieres-prix-du-sud.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C3-prix-policeman-prix-du-cros-de-cagnes.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C5-prix-des-commercants-prix-du-col-du-clapier.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R2-angers/R2C8-prix-des-collettes-breguieres-prix-du-sud.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R3-agen/R3C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R3-agen/R3C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R3-agen/R3C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R3-agen/R3C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R3-agen/R3C8-prix-des-collettes-breguieres-prix-du-sud.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C3-prix-policeman-prix-du-cros-de-cagnes.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C5-prix-des-commercants-prix-du-col-du-clapier.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+      "resultats-et-rapports/2024/02/2024-02-17/R4-laval/R4C8-prix-des-collettes-breguieres-prix-du-sud.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-angers",
+      "R3-agen",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+        "R1C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+        "R1C3-prix-policeman-prix-du-cros-de-cagnes.html",
+        "R1C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+        "R1C5-prix-des-commercants-prix-du-col-du-clapier.html",
+        "R1C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+        "R1C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+        "R1C8-prix-des-collettes-breguieres-prix-du-sud.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+        "R2C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+        "R2C3-prix-policeman-prix-du-cros-de-cagnes.html",
+        "R2C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+        "R2C5-prix-des-commercants-prix-du-col-du-clapier.html",
+        "R2C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+        "R2C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+        "R2C8-prix-des-collettes-breguieres-prix-du-sud.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+        "R3C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+        "R3C3-prix-policeman-prix-du-cros-de-cagnes.html",
+        "R3C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+        "R3C5-prix-des-commercants-prix-du-col-du-clapier.html",
+        "R3C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+        "R3C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+        "R3C8-prix-des-collettes-breguieres-prix-du-sud.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-du-vieux-bourg-prix-du-fort-carre.html",
+        "R4C2-prix-du-polygone-saint-jean-prix-du-fort-vauban.html",
+        "R4C3-prix-policeman-prix-du-cros-de-cagnes.html",
+        "R4C4-grand-prix-de-la-ville-de-cagnes-sur-mer-prix-du-var.html",
+        "R4C5-prix-des-commercants-prix-du-col-du-clapier.html",
+        "R4C6-prix-de-la-promenade-de-la-plage-prix-des-gorges-du-loup.html",
+        "R4C7-prix-du-val-fleuri-et-des-vespins-prix-du-vaucluse.html",
+        "R4C8-prix-des-collettes-breguieres-prix-du-sud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:33.495700Z"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2020-03-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-05",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-05/2020-03-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-05/R4-laval/R4C1-prix-de-bieville.html",
+      "resultats-et-rapports/2020/03/2020-03-05/R4-laval/R4C3-prix-de-blain.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R3-fontainebleau",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-bieville.html",
+        "R1C2-prix-de-parigny.html",
+        "R1C3-prix-de-blain.html",
+        "R1C4-prix-de-doudeville.html",
+        "R1C5-prix-de-mondrainville.html",
+        "R1C6-prix-de-venoix.html",
+        "R1C7-prix-d-aubigny.html",
+        "R1C8-prix-de-fontenay.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-bieville.html",
+        "R3C2-prix-de-parigny.html",
+        "R3C3-prix-de-blain.html",
+        "R3C4-prix-de-doudeville.html",
+        "R3C5-prix-de-mondrainville.html",
+        "R3C6-prix-de-venoix.html",
+        "R3C7-prix-d-aubigny.html",
+        "R3C8-prix-de-fontenay.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-bieville.html",
+        "R4C2-prix-de-parigny.html",
+        "R4C3-prix-de-blain.html",
+        "R4C4-prix-de-doudeville.html",
+        "R4C5-prix-de-mondrainville.html",
+        "R4C6-prix-de-venoix.html",
+        "R4C7-prix-d-aubigny.html",
+        "R4C8-prix-de-fontenay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:57.101899Z"
+}

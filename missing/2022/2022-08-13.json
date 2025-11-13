@@ -1,0 +1,81 @@
+{
+  "date": "2022-08-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-13",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-13/2022-08-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-13/R1-clairefontaine/R1C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R1-clairefontaine/R1C7-prix-tia-ink-tattoo-prix-schonbrunn.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R1-clairefontaine/R1C8-prix-rock-tasimovicz-prix-de-saint-hymer.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R1-clairefontaine/R1C9-prix-histoire-de-decos-prix-du-torquesne.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R3-enghien-soisy/R3C9-prix-histoire-de-decos-prix-du-torquesne.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R4-hyeres/R4C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R4-hyeres/R4C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R7-les-sables-d-olonne/R7C1-prix-deauville-tattoo-festival-prix-du-clos-fleuri-memorial-eszter-jeles.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R7-les-sables-d-olonne/R7C3-prix-for-my-bio-tattoo-prix-robertet.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R7-les-sables-d-olonne/R7C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R7-les-sables-d-olonne/R7C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+      "resultats-et-rapports/2022/08/2022-08-13/R7-les-sables-d-olonne/R7C8-prix-rock-tasimovicz-prix-de-saint-hymer.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-enghien-soisy",
+      "R4-hyeres",
+      "R7-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-deauville-tattoo-festival-prix-du-clos-fleuri-memorial-eszter-jeles.html",
+        "R1C2-prix-cezanne-tattoo-ink-prix-henri-de-montesquieu.html",
+        "R1C3-prix-for-my-bio-tattoo-prix-robertet.html",
+        "R1C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+        "R1C5-prix-cheyenne-tattoo-equipment-prix-des-tulipes.html",
+        "R1C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+        "R1C7-prix-tia-ink-tattoo-prix-schonbrunn.html",
+        "R1C8-prix-rock-tasimovicz-prix-de-saint-hymer.html",
+        "R1C9-prix-histoire-de-decos-prix-du-torquesne.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-deauville-tattoo-festival-prix-du-clos-fleuri-memorial-eszter-jeles.html",
+        "R3C2-prix-cezanne-tattoo-ink-prix-henri-de-montesquieu.html",
+        "R3C3-prix-for-my-bio-tattoo-prix-robertet.html",
+        "R3C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+        "R3C5-prix-cheyenne-tattoo-equipment-prix-des-tulipes.html",
+        "R3C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+        "R3C7-prix-tia-ink-tattoo-prix-schonbrunn.html",
+        "R3C8-prix-rock-tasimovicz-prix-de-saint-hymer.html",
+        "R3C9-prix-histoire-de-decos-prix-du-torquesne.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-deauville-tattoo-festival-prix-du-clos-fleuri-memorial-eszter-jeles.html",
+        "R4C2-prix-cezanne-tattoo-ink-prix-henri-de-montesquieu.html",
+        "R4C3-prix-for-my-bio-tattoo-prix-robertet.html",
+        "R4C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+        "R4C5-prix-cheyenne-tattoo-equipment-prix-des-tulipes.html",
+        "R4C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+        "R4C7-prix-tia-ink-tattoo-prix-schonbrunn.html",
+        "R4C8-prix-rock-tasimovicz-prix-de-saint-hymer.html",
+        "R4C9-prix-histoire-de-decos-prix-du-torquesne.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-deauville-tattoo-festival-prix-du-clos-fleuri-memorial-eszter-jeles.html",
+        "R7C2-prix-cezanne-tattoo-ink-prix-henri-de-montesquieu.html",
+        "R7C3-prix-for-my-bio-tattoo-prix-robertet.html",
+        "R7C4-prix-rouen-tattoo-festival-prix-voix-du-nord.html",
+        "R7C5-prix-cheyenne-tattoo-equipment-prix-des-tulipes.html",
+        "R7C6-prix-miss-primitive-tattoo-prix-bellypha.html",
+        "R7C7-prix-tia-ink-tattoo-prix-schonbrunn.html",
+        "R7C8-prix-rock-tasimovicz-prix-de-saint-hymer.html",
+        "R7C9-prix-histoire-de-decos-prix-du-torquesne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:12.499255Z"
+}

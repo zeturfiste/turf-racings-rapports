@@ -1,0 +1,61 @@
+{
+  "date": "2022-08-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-31",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-31/2022-08-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-31/R1-compiegne/R1C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R1-compiegne/R1C8-prix-de-l-agglomeration-de-compiegne.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R3-vincennes/R3C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R3-vincennes/R3C4-prix-de-la-foret-de-retz.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R3-vincennes/R3C6-prix-de-bonneuil-en-valois.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R4-les-sables-d-olonne/R4C1-prix-des-hauts-de-france.html",
+      "resultats-et-rapports/2022/08/2022-08-31/R4-les-sables-d-olonne/R4C5-prix-de-villers-cotterets.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-vincennes",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-des-hauts-de-france.html",
+        "R1C2-prix-de-dreslincourt.html",
+        "R1C3-prix-de-l-avesnois.html",
+        "R1C4-prix-de-la-foret-de-retz.html",
+        "R1C5-prix-de-villers-cotterets.html",
+        "R1C6-prix-de-bonneuil-en-valois.html",
+        "R1C7-prix-d-emeville.html",
+        "R1C8-prix-de-l-agglomeration-de-compiegne.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-des-hauts-de-france.html",
+        "R3C2-prix-de-dreslincourt.html",
+        "R3C3-prix-de-l-avesnois.html",
+        "R3C4-prix-de-la-foret-de-retz.html",
+        "R3C5-prix-de-villers-cotterets.html",
+        "R3C6-prix-de-bonneuil-en-valois.html",
+        "R3C7-prix-d-emeville.html",
+        "R3C8-prix-de-l-agglomeration-de-compiegne.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-des-hauts-de-france.html",
+        "R4C2-prix-de-dreslincourt.html",
+        "R4C3-prix-de-l-avesnois.html",
+        "R4C4-prix-de-la-foret-de-retz.html",
+        "R4C5-prix-de-villers-cotterets.html",
+        "R4C6-prix-de-bonneuil-en-valois.html",
+        "R4C7-prix-d-emeville.html",
+        "R4C8-prix-de-l-agglomeration-de-compiegne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:19.446238Z"
+}

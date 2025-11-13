@@ -1,0 +1,128 @@
+{
+  "date": "2010-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/06/2010-06-04",
+    "date_html": "resultats-et-rapports/2010/06/2010-06-04/2010-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/06/2010-06-04/R3-vincennes/R3C7-prix-de-gravelle.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R3-vincennes/R3C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C1-prix-dictaway.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C2-prix-diatome.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C3-prix-matchem.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C4-prix-kasteel.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C7-prix-de-gravelle.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R7-toulouse/R7C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C2-prix-diatome.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C3-prix-matchem.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C4-prix-kasteel.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C7-prix-de-gravelle.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R31-zerace/R31C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C1-prix-dictaway.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C2-prix-diatome.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C7-prix-de-gravelle.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R70-stade-michel-volnay/R70C8-prix-du-petit-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C1-prix-dictaway.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C2-prix-diatome.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C4-prix-kasteel.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C5-prix-de-vincennes.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C6-prix-du-grand-morin.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C7-prix-de-gravelle.html",
+      "resultats-et-rapports/2010/06/2010-06-04/R71-paris-roland-garros/R71C8-prix-du-petit-morin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-lyon-parilly",
+      "R3-vincennes",
+      "R7-toulouse",
+      "R31-zerace",
+      "R70-stade-michel-volnay",
+      "R71-paris-roland-garros"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-dictaway.html",
+        "R1C2-prix-diatome.html",
+        "R1C3-prix-matchem.html",
+        "R1C4-prix-kasteel.html",
+        "R1C5-prix-de-vincennes.html",
+        "R1C6-prix-du-grand-morin.html",
+        "R1C7-prix-de-gravelle.html",
+        "R1C8-prix-du-petit-morin.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-dictaway.html",
+        "R2C2-prix-diatome.html",
+        "R2C3-prix-matchem.html",
+        "R2C4-prix-kasteel.html",
+        "R2C5-prix-de-vincennes.html",
+        "R2C6-prix-du-grand-morin.html",
+        "R2C7-prix-de-gravelle.html",
+        "R2C8-prix-du-petit-morin.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-dictaway.html",
+        "R3C2-prix-diatome.html",
+        "R3C3-prix-matchem.html",
+        "R3C4-prix-kasteel.html",
+        "R3C5-prix-de-vincennes.html",
+        "R3C6-prix-du-grand-morin.html",
+        "R3C7-prix-de-gravelle.html",
+        "R3C8-prix-du-petit-morin.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-dictaway.html",
+        "R7C2-prix-diatome.html",
+        "R7C3-prix-matchem.html",
+        "R7C4-prix-kasteel.html",
+        "R7C5-prix-de-vincennes.html",
+        "R7C6-prix-du-grand-morin.html",
+        "R7C7-prix-de-gravelle.html",
+        "R7C8-prix-du-petit-morin.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-dictaway.html",
+        "R31C2-prix-diatome.html",
+        "R31C3-prix-matchem.html",
+        "R31C4-prix-kasteel.html",
+        "R31C5-prix-de-vincennes.html",
+        "R31C6-prix-du-grand-morin.html",
+        "R31C7-prix-de-gravelle.html",
+        "R31C8-prix-du-petit-morin.html"
+      ],
+      "R70-stade-michel-volnay": [
+        "R70C1-prix-dictaway.html",
+        "R70C2-prix-diatome.html",
+        "R70C3-prix-matchem.html",
+        "R70C4-prix-kasteel.html",
+        "R70C5-prix-de-vincennes.html",
+        "R70C6-prix-du-grand-morin.html",
+        "R70C7-prix-de-gravelle.html",
+        "R70C8-prix-du-petit-morin.html"
+      ],
+      "R71-paris-roland-garros": [
+        "R71C1-prix-dictaway.html",
+        "R71C2-prix-diatome.html",
+        "R71C3-prix-matchem.html",
+        "R71C4-prix-kasteel.html",
+        "R71C5-prix-de-vincennes.html",
+        "R71C6-prix-du-grand-morin.html",
+        "R71C7-prix-de-gravelle.html",
+        "R71C8-prix-du-petit-morin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:34:51.823020Z"
+}

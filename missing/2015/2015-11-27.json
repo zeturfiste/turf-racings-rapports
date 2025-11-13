@@ -1,0 +1,96 @@
+{
+  "date": "2015-11-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-27",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-27/2015-11-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-27/R1-fontainebleau/R1C2-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R1-fontainebleau/R1C4-prix-de-la-fontaine-aux-biches.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R1-fontainebleau/R1C5-grande-course-de-haies-de-fontainebleau.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R1-fontainebleau/R1C6-grand-steeple-chase-de-la-solle.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R1-fontainebleau/R1C7-prix-de-la-grotte-des-ermites.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R2-chartres/R2C5-grande-course-de-haies-de-fontainebleau.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R2-chartres/R2C7-prix-de-la-grotte-des-ermites.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R2-chartres/R2C8-prix-dix-cors-royal.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C1-prix-de-macherin.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C2-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C3-prix-tremaille.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C4-prix-de-la-fontaine-aux-biches.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C5-grande-course-de-haies-de-fontainebleau.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C6-grand-steeple-chase-de-la-solle.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R3-marseille-vivaux/R3C7-prix-de-la-grotte-des-ermites.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R4-vincennes/R4C2-prix-des-gorges-d-apremont.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R4-vincennes/R4C3-prix-tremaille.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R7-saint-galmier/R7C5-grande-course-de-haies-de-fontainebleau.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R7-saint-galmier/R7C6-grand-steeple-chase-de-la-solle.html",
+      "resultats-et-rapports/2015/11/2015-11-27/R7-saint-galmier/R7C7-prix-de-la-grotte-des-ermites.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-chartres",
+      "R3-marseille-vivaux",
+      "R4-vincennes",
+      "R7-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-macherin.html",
+        "R1C2-prix-des-gorges-d-apremont.html",
+        "R1C3-prix-tremaille.html",
+        "R1C4-prix-de-la-fontaine-aux-biches.html",
+        "R1C5-grande-course-de-haies-de-fontainebleau.html",
+        "R1C6-grand-steeple-chase-de-la-solle.html",
+        "R1C7-prix-de-la-grotte-des-ermites.html",
+        "R1C8-prix-dix-cors-royal.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-de-macherin.html",
+        "R2C2-prix-des-gorges-d-apremont.html",
+        "R2C3-prix-tremaille.html",
+        "R2C4-prix-de-la-fontaine-aux-biches.html",
+        "R2C5-grande-course-de-haies-de-fontainebleau.html",
+        "R2C6-grand-steeple-chase-de-la-solle.html",
+        "R2C7-prix-de-la-grotte-des-ermites.html",
+        "R2C8-prix-dix-cors-royal.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-macherin.html",
+        "R3C2-prix-des-gorges-d-apremont.html",
+        "R3C3-prix-tremaille.html",
+        "R3C4-prix-de-la-fontaine-aux-biches.html",
+        "R3C5-grande-course-de-haies-de-fontainebleau.html",
+        "R3C6-grand-steeple-chase-de-la-solle.html",
+        "R3C7-prix-de-la-grotte-des-ermites.html",
+        "R3C8-prix-dix-cors-royal.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-macherin.html",
+        "R4C2-prix-des-gorges-d-apremont.html",
+        "R4C3-prix-tremaille.html",
+        "R4C4-prix-de-la-fontaine-aux-biches.html",
+        "R4C5-grande-course-de-haies-de-fontainebleau.html",
+        "R4C6-grand-steeple-chase-de-la-solle.html",
+        "R4C7-prix-de-la-grotte-des-ermites.html",
+        "R4C8-prix-dix-cors-royal.html"
+      ],
+      "R7-saint-galmier": [
+        "R7C1-prix-de-macherin.html",
+        "R7C2-prix-des-gorges-d-apremont.html",
+        "R7C3-prix-tremaille.html",
+        "R7C4-prix-de-la-fontaine-aux-biches.html",
+        "R7C5-grande-course-de-haies-de-fontainebleau.html",
+        "R7C6-grand-steeple-chase-de-la-solle.html",
+        "R7C7-prix-de-la-grotte-des-ermites.html",
+        "R7C8-prix-dix-cors-royal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:54.788737Z"
+}

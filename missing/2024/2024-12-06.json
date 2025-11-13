@@ -1,0 +1,87 @@
+{
+  "date": "2024-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-06",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-06/2024-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-06/R3-saint-brieuc/R3C4-prix-brasilia.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R5-lyon-la-soie/R5C2-prix-phobos.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R5-lyon-la-soie/R5C4-prix-brasilia.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R5-lyon-la-soie/R5C7-prix-semele.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R5-lyon-la-soie/R5C8-prix-edna.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C1-prix-electra.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C2-prix-phobos.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C4-prix-brasilia.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C6-prix-menkalinan.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C7-prix-semele.html",
+      "resultats-et-rapports/2024/12/2024-12-06/R8-toulouse/R8C8-prix-edna.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-saint-brieuc",
+      "R5-lyon-la-soie",
+      "R8-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-electra.html",
+        "R1C2-prix-phobos.html",
+        "R1C3-prix-calliope.html",
+        "R1C4-prix-brasilia.html",
+        "R1C5-prix-circinus.html",
+        "R1C6-prix-menkalinan.html",
+        "R1C7-prix-semele.html",
+        "R1C8-prix-edna.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-electra.html",
+        "R2C2-prix-phobos.html",
+        "R2C3-prix-calliope.html",
+        "R2C4-prix-brasilia.html",
+        "R2C5-prix-circinus.html",
+        "R2C6-prix-menkalinan.html",
+        "R2C7-prix-semele.html",
+        "R2C8-prix-edna.html"
+      ],
+      "R3-saint-brieuc": [
+        "R3C1-prix-electra.html",
+        "R3C2-prix-phobos.html",
+        "R3C3-prix-calliope.html",
+        "R3C4-prix-brasilia.html",
+        "R3C5-prix-circinus.html",
+        "R3C6-prix-menkalinan.html",
+        "R3C7-prix-semele.html",
+        "R3C8-prix-edna.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-electra.html",
+        "R5C2-prix-phobos.html",
+        "R5C3-prix-calliope.html",
+        "R5C4-prix-brasilia.html",
+        "R5C5-prix-circinus.html",
+        "R5C6-prix-menkalinan.html",
+        "R5C7-prix-semele.html",
+        "R5C8-prix-edna.html"
+      ],
+      "R8-toulouse": [
+        "R8C1-prix-electra.html",
+        "R8C2-prix-phobos.html",
+        "R8C3-prix-calliope.html",
+        "R8C4-prix-brasilia.html",
+        "R8C5-prix-circinus.html",
+        "R8C6-prix-menkalinan.html",
+        "R8C7-prix-semele.html",
+        "R8C8-prix-edna.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:28.726213Z"
+}

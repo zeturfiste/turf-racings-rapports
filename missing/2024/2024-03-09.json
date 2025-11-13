@@ -1,0 +1,70 @@
+{
+  "date": "2024-03-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-09",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-09/2024-03-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-09/R1-auteuil/R1C7-prix-de-la-source.html",
+      "resultats-et-rapports/2024/03/2024-03-09/R2-bordeaux-le-bouscat/R2C2-prix-de-l-yonne.html",
+      "resultats-et-rapports/2024/03/2024-03-09/R2-bordeaux-le-bouscat/R2C4-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2024/03/2024-03-09/R3-le-croise-laroche/R3C3-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2024/03/2024-03-09/R3-le-croise-laroche/R3C4-prix-duc-d-anjou.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-bordeaux-le-bouscat",
+      "R3-le-croise-laroche",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-ventriloque.html",
+        "R1C2-prix-de-l-yonne.html",
+        "R1C3-prix-hubert-d-aillieres.html",
+        "R1C4-prix-duc-d-anjou.html",
+        "R1C5-prix-samaritain.html",
+        "R1C6-prix-pont-d-iena.html",
+        "R1C7-prix-de-la-source.html",
+        "R1C8-prix-karcimont.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-ventriloque.html",
+        "R2C2-prix-de-l-yonne.html",
+        "R2C3-prix-hubert-d-aillieres.html",
+        "R2C4-prix-duc-d-anjou.html",
+        "R2C5-prix-samaritain.html",
+        "R2C6-prix-pont-d-iena.html",
+        "R2C7-prix-de-la-source.html",
+        "R2C8-prix-karcimont.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-ventriloque.html",
+        "R3C2-prix-de-l-yonne.html",
+        "R3C3-prix-hubert-d-aillieres.html",
+        "R3C4-prix-duc-d-anjou.html",
+        "R3C5-prix-samaritain.html",
+        "R3C6-prix-pont-d-iena.html",
+        "R3C7-prix-de-la-source.html",
+        "R3C8-prix-karcimont.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-ventriloque.html",
+        "R4C2-prix-de-l-yonne.html",
+        "R4C3-prix-hubert-d-aillieres.html",
+        "R4C4-prix-duc-d-anjou.html",
+        "R4C5-prix-samaritain.html",
+        "R4C6-prix-pont-d-iena.html",
+        "R4C7-prix-de-la-source.html",
+        "R4C8-prix-karcimont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:40.635722Z"
+}

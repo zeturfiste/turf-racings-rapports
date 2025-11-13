@@ -1,0 +1,103 @@
+{
+  "date": "2023-10-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-31",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-31/2023-10-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-31/R1-chantilly/R1C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R1-chantilly/R1C5-prix-de-la-voie-du-garde.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R1-chantilly/R1C7-prix-du-vergaly.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R2-marseille-borely/R2C3-prix-de-la-vallee-de-l-automne.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R2-marseille-borely/R2C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R2-marseille-borely/R2C6-prix-de-raray.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R2-marseille-borely/R2C7-prix-du-vergaly.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R2-marseille-borely/R2C8-prix-du-cabinet-d-angle.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C2-prix-de-montleveque.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C5-prix-de-la-voie-du-garde.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C6-prix-de-raray.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C7-prix-du-vergaly.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R3-cabourg/R3C8-prix-du-cabinet-d-angle.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C1-prix-du-mont-cesar.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C2-prix-de-montleveque.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C3-prix-de-la-vallee-de-l-automne.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C6-prix-de-raray.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R4-lyon-la-soie/R4C8-prix-du-cabinet-d-angle.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C1-prix-du-mont-cesar.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C2-prix-de-montleveque.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C3-prix-de-la-vallee-de-l-automne.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C5-prix-de-la-voie-du-garde.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C7-prix-du-vergaly.html",
+      "resultats-et-rapports/2023/10/2023-10-31/R6-pornichet-la-baule/R6C8-prix-du-cabinet-d-angle.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-marseille-borely",
+      "R3-cabourg",
+      "R4-lyon-la-soie",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-mont-cesar.html",
+        "R1C2-prix-de-montleveque.html",
+        "R1C3-prix-de-la-vallee-de-l-automne.html",
+        "R1C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R1C5-prix-de-la-voie-du-garde.html",
+        "R1C6-prix-de-raray.html",
+        "R1C7-prix-du-vergaly.html",
+        "R1C8-prix-du-cabinet-d-angle.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-mont-cesar.html",
+        "R2C2-prix-de-montleveque.html",
+        "R2C3-prix-de-la-vallee-de-l-automne.html",
+        "R2C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R2C5-prix-de-la-voie-du-garde.html",
+        "R2C6-prix-de-raray.html",
+        "R2C7-prix-du-vergaly.html",
+        "R2C8-prix-du-cabinet-d-angle.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-du-mont-cesar.html",
+        "R3C2-prix-de-montleveque.html",
+        "R3C3-prix-de-la-vallee-de-l-automne.html",
+        "R3C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R3C5-prix-de-la-voie-du-garde.html",
+        "R3C6-prix-de-raray.html",
+        "R3C7-prix-du-vergaly.html",
+        "R3C8-prix-du-cabinet-d-angle.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-du-mont-cesar.html",
+        "R4C2-prix-de-montleveque.html",
+        "R4C3-prix-de-la-vallee-de-l-automne.html",
+        "R4C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R4C5-prix-de-la-voie-du-garde.html",
+        "R4C6-prix-de-raray.html",
+        "R4C7-prix-du-vergaly.html",
+        "R4C8-prix-du-cabinet-d-angle.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-du-mont-cesar.html",
+        "R6C2-prix-de-montleveque.html",
+        "R6C3-prix-de-la-vallee-de-l-automne.html",
+        "R6C4-prix-de-la-chambre-de-monsieur-le-prince.html",
+        "R6C5-prix-de-la-voie-du-garde.html",
+        "R6C6-prix-de-raray.html",
+        "R6C7-prix-du-vergaly.html",
+        "R6C8-prix-du-cabinet-d-angle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:53.995316Z"
+}

@@ -1,0 +1,130 @@
+{
+  "date": "2011-08-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/08/2011-08-15",
+    "date_html": "resultats-et-rapports/2011/08/2011-08-15/2011-08-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C1-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C2-prix-du-val-sery.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C3-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C6-prix-francois-boutin.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C7-prix-michel-houyvet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R1-deauville/R1C8-prix-du-hoguenet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R2-la-capelle/R2C8-prix-du-hoguenet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R3-vichy/R3C2-prix-du-val-sery.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R3-vichy/R3C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R3-vichy/R3C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R3-vichy/R3C7-prix-michel-houyvet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R3-vichy/R3C8-prix-du-hoguenet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R4-dieppe/R4C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R4-dieppe/R4C6-prix-francois-boutin.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C1-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C2-prix-du-val-sery.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C3-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C6-prix-francois-boutin.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C7-prix-michel-houyvet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R5-saint-malo/R5C8-prix-du-hoguenet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C1-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C2-prix-du-val-sery.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C3-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C4-prix-guillaume-d-ornano.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C6-prix-francois-boutin.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R6-vittel/R6C7-prix-michel-houyvet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R7-pornichet-la-baule/R7C3-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R7-pornichet-la-baule/R7C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R7-pornichet-la-baule/R7C7-prix-michel-houyvet.html",
+      "resultats-et-rapports/2011/08/2011-08-15/R7-pornichet-la-baule/R7C8-prix-du-hoguenet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-la-capelle",
+      "R3-vichy",
+      "R4-dieppe",
+      "R5-saint-malo",
+      "R6-vittel",
+      "R7-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-grand-handicap-de-deauville.html",
+        "R1C2-prix-du-val-sery.html",
+        "R1C3-prix-de-la-motte-sassy.html",
+        "R1C4-prix-guillaume-d-ornano.html",
+        "R1C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R1C6-prix-francois-boutin.html",
+        "R1C7-prix-michel-houyvet.html",
+        "R1C8-prix-du-hoguenet.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-grand-handicap-de-deauville.html",
+        "R2C2-prix-du-val-sery.html",
+        "R2C3-prix-de-la-motte-sassy.html",
+        "R2C4-prix-guillaume-d-ornano.html",
+        "R2C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R2C6-prix-francois-boutin.html",
+        "R2C7-prix-michel-houyvet.html",
+        "R2C8-prix-du-hoguenet.html"
+      ],
+      "R3-vichy": [
+        "R3C1-grand-handicap-de-deauville.html",
+        "R3C2-prix-du-val-sery.html",
+        "R3C3-prix-de-la-motte-sassy.html",
+        "R3C4-prix-guillaume-d-ornano.html",
+        "R3C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R3C6-prix-francois-boutin.html",
+        "R3C7-prix-michel-houyvet.html",
+        "R3C8-prix-du-hoguenet.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-grand-handicap-de-deauville.html",
+        "R4C2-prix-du-val-sery.html",
+        "R4C3-prix-de-la-motte-sassy.html",
+        "R4C4-prix-guillaume-d-ornano.html",
+        "R4C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R4C6-prix-francois-boutin.html",
+        "R4C7-prix-michel-houyvet.html",
+        "R4C8-prix-du-hoguenet.html"
+      ],
+      "R5-saint-malo": [
+        "R5C1-grand-handicap-de-deauville.html",
+        "R5C2-prix-du-val-sery.html",
+        "R5C3-prix-de-la-motte-sassy.html",
+        "R5C4-prix-guillaume-d-ornano.html",
+        "R5C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R5C6-prix-francois-boutin.html",
+        "R5C7-prix-michel-houyvet.html",
+        "R5C8-prix-du-hoguenet.html"
+      ],
+      "R6-vittel": [
+        "R6C1-grand-handicap-de-deauville.html",
+        "R6C2-prix-du-val-sery.html",
+        "R6C3-prix-de-la-motte-sassy.html",
+        "R6C4-prix-guillaume-d-ornano.html",
+        "R6C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R6C6-prix-francois-boutin.html",
+        "R6C7-prix-michel-houyvet.html",
+        "R6C8-prix-du-hoguenet.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-grand-handicap-de-deauville.html",
+        "R7C2-prix-du-val-sery.html",
+        "R7C3-prix-de-la-motte-sassy.html",
+        "R7C4-prix-guillaume-d-ornano.html",
+        "R7C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R7C6-prix-francois-boutin.html",
+        "R7C7-prix-michel-houyvet.html",
+        "R7C8-prix-du-hoguenet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:00.930477Z"
+}

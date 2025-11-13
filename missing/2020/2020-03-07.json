@@ -1,0 +1,91 @@
+{
+  "date": "2020-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-07",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-07/2020-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-07/R2-mont-de-marsan/R2C4-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R2-mont-de-marsan/R2C7-prix-cousin-pons.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R3-caen/R3C3-prix-univers-ii.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R3-caen/R3C5-prix-de-l-yonne.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R4-le-croise-laroche/R4C1-prix-tofano.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R4-le-croise-laroche/R4C2-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R4-le-croise-laroche/R4C5-prix-de-l-yonne.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R4-le-croise-laroche/R4C6-prix-ventriloque.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R4-le-croise-laroche/R4C8-prix-de-la-source.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C2-prix-duc-d-anjou.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C3-prix-univers-ii.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C5-prix-de-l-yonne.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C6-prix-ventriloque.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C7-prix-cousin-pons.html",
+      "resultats-et-rapports/2020/03/2020-03-07/R8-cagnes-sur-mer/R8C8-prix-de-la-source.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-mont-de-marsan",
+      "R3-caen",
+      "R4-le-croise-laroche",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-tofano.html",
+        "R1C2-prix-duc-d-anjou.html",
+        "R1C3-prix-univers-ii.html",
+        "R1C4-prix-hubert-d-aillieres.html",
+        "R1C5-prix-de-l-yonne.html",
+        "R1C6-prix-ventriloque.html",
+        "R1C7-prix-cousin-pons.html",
+        "R1C8-prix-de-la-source.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-tofano.html",
+        "R2C2-prix-duc-d-anjou.html",
+        "R2C3-prix-univers-ii.html",
+        "R2C4-prix-hubert-d-aillieres.html",
+        "R2C5-prix-de-l-yonne.html",
+        "R2C6-prix-ventriloque.html",
+        "R2C7-prix-cousin-pons.html",
+        "R2C8-prix-de-la-source.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-tofano.html",
+        "R3C2-prix-duc-d-anjou.html",
+        "R3C3-prix-univers-ii.html",
+        "R3C4-prix-hubert-d-aillieres.html",
+        "R3C5-prix-de-l-yonne.html",
+        "R3C6-prix-ventriloque.html",
+        "R3C7-prix-cousin-pons.html",
+        "R3C8-prix-de-la-source.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-tofano.html",
+        "R4C2-prix-duc-d-anjou.html",
+        "R4C3-prix-univers-ii.html",
+        "R4C4-prix-hubert-d-aillieres.html",
+        "R4C5-prix-de-l-yonne.html",
+        "R4C6-prix-ventriloque.html",
+        "R4C7-prix-cousin-pons.html",
+        "R4C8-prix-de-la-source.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-tofano.html",
+        "R8C2-prix-duc-d-anjou.html",
+        "R8C3-prix-univers-ii.html",
+        "R8C4-prix-hubert-d-aillieres.html",
+        "R8C5-prix-de-l-yonne.html",
+        "R8C6-prix-ventriloque.html",
+        "R8C7-prix-cousin-pons.html",
+        "R8C8-prix-de-la-source.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:57.591935Z"
+}

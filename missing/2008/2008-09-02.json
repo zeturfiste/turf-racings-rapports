@@ -1,0 +1,108 @@
+{
+  "date": "2008-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/09/2008-09-02",
+    "date_html": "resultats-et-rapports/2008/09/2008-09-02/2008-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C3-prix-de-liancourt.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C4-prix-de-gesvres.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C6-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C7-prix-du-village.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R1-longchamp/R1C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R2-saint-brieuc/R2C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R2-saint-brieuc/R2C3-prix-de-liancourt.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R2-saint-brieuc/R2C5-prix-dragon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R2-saint-brieuc/R2C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C2-prix-du-luxembourg.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C4-prix-de-gesvres.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C5-prix-dragon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C6-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C7-prix-du-village.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R3-vincennes/R3C8-prix-du-petit-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C2-prix-du-luxembourg.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C3-prix-de-liancourt.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C4-prix-de-gesvres.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C5-prix-dragon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C6-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R31-zerace/R31C7-prix-du-village.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C1-prix-du-grand-trianon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C2-prix-du-luxembourg.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C3-prix-de-liancourt.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C4-prix-de-gesvres.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C5-prix-dragon.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C6-prix-des-pavillons-de-bercy.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C7-prix-du-village.html",
+      "resultats-et-rapports/2008/09/2008-09-02/R70-flushing-meadows-new-york/R70C8-prix-du-petit-trianon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-saint-brieuc",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-flushing-meadows-new-york"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-grand-trianon.html",
+        "R1C2-prix-du-luxembourg.html",
+        "R1C3-prix-de-liancourt.html",
+        "R1C4-prix-de-gesvres.html",
+        "R1C5-prix-dragon.html",
+        "R1C6-prix-des-pavillons-de-bercy.html",
+        "R1C7-prix-du-village.html",
+        "R1C8-prix-du-petit-trianon.html"
+      ],
+      "R2-saint-brieuc": [
+        "R2C1-prix-du-grand-trianon.html",
+        "R2C2-prix-du-luxembourg.html",
+        "R2C3-prix-de-liancourt.html",
+        "R2C4-prix-de-gesvres.html",
+        "R2C5-prix-dragon.html",
+        "R2C6-prix-des-pavillons-de-bercy.html",
+        "R2C7-prix-du-village.html",
+        "R2C8-prix-du-petit-trianon.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-grand-trianon.html",
+        "R3C2-prix-du-luxembourg.html",
+        "R3C3-prix-de-liancourt.html",
+        "R3C4-prix-de-gesvres.html",
+        "R3C5-prix-dragon.html",
+        "R3C6-prix-des-pavillons-de-bercy.html",
+        "R3C7-prix-du-village.html",
+        "R3C8-prix-du-petit-trianon.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-grand-trianon.html",
+        "R31C2-prix-du-luxembourg.html",
+        "R31C3-prix-de-liancourt.html",
+        "R31C4-prix-de-gesvres.html",
+        "R31C5-prix-dragon.html",
+        "R31C6-prix-des-pavillons-de-bercy.html",
+        "R31C7-prix-du-village.html",
+        "R31C8-prix-du-petit-trianon.html"
+      ],
+      "R70-flushing-meadows-new-york": [
+        "R70C1-prix-du-grand-trianon.html",
+        "R70C2-prix-du-luxembourg.html",
+        "R70C3-prix-de-liancourt.html",
+        "R70C4-prix-de-gesvres.html",
+        "R70C5-prix-dragon.html",
+        "R70C6-prix-des-pavillons-de-bercy.html",
+        "R70C7-prix-du-village.html",
+        "R70C8-prix-du-petit-trianon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:29:38.113965Z"
+}

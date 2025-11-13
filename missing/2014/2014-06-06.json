@@ -1,0 +1,112 @@
+{
+  "date": "2014-06-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/06/2014-06-06",
+    "date_html": "resultats-et-rapports/2014/06/2014-06-06/2014-06-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/06/2014-06-06/R1-compiegne/R1C7-prix-d-acteon.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R1-compiegne/R1C8-prix-de-champignol.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C1-prix-de-verberie.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C4-prix-melisande.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C5-prix-du-laonnois.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R2-mauquenchy/R2C7-prix-d-acteon.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R3-tarbes/R3C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R3-tarbes/R3C8-prix-de-champignol.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R4-vincennes/R4C1-prix-de-verberie.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R4-vincennes/R4C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R4-vincennes/R4C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R4-vincennes/R4C4-prix-melisande.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R4-vincennes/R4C7-prix-d-acteon.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C1-prix-de-verberie.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C3-prix-de-mercieres.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C4-prix-melisande.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C7-prix-d-acteon.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R5-marseille-vivaux/R5C8-prix-de-champignol.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R9-toulouse/R9C2-prix-de-dreslincourt.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R9-toulouse/R9C4-prix-melisande.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R9-toulouse/R9C5-prix-du-laonnois.html",
+      "resultats-et-rapports/2014/06/2014-06-06/R9-toulouse/R9C6-prix-d-autreches.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-mauquenchy",
+      "R3-tarbes",
+      "R4-vincennes",
+      "R5-marseille-vivaux",
+      "R9-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-verberie.html",
+        "R1C2-prix-de-dreslincourt.html",
+        "R1C3-prix-de-mercieres.html",
+        "R1C4-prix-melisande.html",
+        "R1C5-prix-du-laonnois.html",
+        "R1C6-prix-d-autreches.html",
+        "R1C7-prix-d-acteon.html",
+        "R1C8-prix-de-champignol.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-de-verberie.html",
+        "R2C2-prix-de-dreslincourt.html",
+        "R2C3-prix-de-mercieres.html",
+        "R2C4-prix-melisande.html",
+        "R2C5-prix-du-laonnois.html",
+        "R2C6-prix-d-autreches.html",
+        "R2C7-prix-d-acteon.html",
+        "R2C8-prix-de-champignol.html"
+      ],
+      "R3-tarbes": [
+        "R3C1-prix-de-verberie.html",
+        "R3C2-prix-de-dreslincourt.html",
+        "R3C3-prix-de-mercieres.html",
+        "R3C4-prix-melisande.html",
+        "R3C5-prix-du-laonnois.html",
+        "R3C6-prix-d-autreches.html",
+        "R3C7-prix-d-acteon.html",
+        "R3C8-prix-de-champignol.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-verberie.html",
+        "R4C2-prix-de-dreslincourt.html",
+        "R4C3-prix-de-mercieres.html",
+        "R4C4-prix-melisande.html",
+        "R4C5-prix-du-laonnois.html",
+        "R4C6-prix-d-autreches.html",
+        "R4C7-prix-d-acteon.html",
+        "R4C8-prix-de-champignol.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-de-verberie.html",
+        "R5C2-prix-de-dreslincourt.html",
+        "R5C3-prix-de-mercieres.html",
+        "R5C4-prix-melisande.html",
+        "R5C5-prix-du-laonnois.html",
+        "R5C6-prix-d-autreches.html",
+        "R5C7-prix-d-acteon.html",
+        "R5C8-prix-de-champignol.html"
+      ],
+      "R9-toulouse": [
+        "R9C1-prix-de-verberie.html",
+        "R9C2-prix-de-dreslincourt.html",
+        "R9C3-prix-de-mercieres.html",
+        "R9C4-prix-melisande.html",
+        "R9C5-prix-du-laonnois.html",
+        "R9C6-prix-d-autreches.html",
+        "R9C7-prix-d-acteon.html",
+        "R9C8-prix-de-champignol.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:00.313873Z"
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2011-10-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/10/2011-10-20",
+    "date_html": "resultats-et-rapports/2011/10/2011-10-20/2011-10-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C3-prix-du-bessin.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C4-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C5-prix-vulcain.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C6-prix-de-la-falaise.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C7-prix-d-anguerny.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C8-prix-des-crouas.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R2-marseille-borely/R2C9-prix-du-taillis.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C2-prix-de-la-pommeraye.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C3-prix-du-bessin.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C4-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C6-prix-de-la-falaise.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C8-prix-des-crouas.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R3-enghien-soisy/R3C9-prix-du-taillis.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C2-prix-de-la-pommeraye.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C3-prix-du-bessin.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C4-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C5-prix-vulcain.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C6-prix-de-la-falaise.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C8-prix-des-crouas.html",
+      "resultats-et-rapports/2011/10/2011-10-20/R4-bordeaux-le-bouscat/R4C9-prix-du-taillis.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-marseille-borely",
+      "R3-enghien-soisy",
+      "R4-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+        "R1C2-prix-de-la-pommeraye.html",
+        "R1C3-prix-du-bessin.html",
+        "R1C4-prix-de-la-cerisaie.html",
+        "R1C5-prix-vulcain.html",
+        "R1C6-prix-de-la-falaise.html",
+        "R1C7-prix-d-anguerny.html",
+        "R1C8-prix-des-crouas.html",
+        "R1C9-prix-du-taillis.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+        "R2C2-prix-de-la-pommeraye.html",
+        "R2C3-prix-du-bessin.html",
+        "R2C4-prix-de-la-cerisaie.html",
+        "R2C5-prix-vulcain.html",
+        "R2C6-prix-de-la-falaise.html",
+        "R2C7-prix-d-anguerny.html",
+        "R2C8-prix-des-crouas.html",
+        "R2C9-prix-du-taillis.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+        "R3C2-prix-de-la-pommeraye.html",
+        "R3C3-prix-du-bessin.html",
+        "R3C4-prix-de-la-cerisaie.html",
+        "R3C5-prix-vulcain.html",
+        "R3C6-prix-de-la-falaise.html",
+        "R3C7-prix-d-anguerny.html",
+        "R3C8-prix-des-crouas.html",
+        "R3C9-prix-du-taillis.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-du-patis-prix-du-journal-le-pays-d-auge.html",
+        "R4C2-prix-de-la-pommeraye.html",
+        "R4C3-prix-du-bessin.html",
+        "R4C4-prix-de-la-cerisaie.html",
+        "R4C5-prix-vulcain.html",
+        "R4C6-prix-de-la-falaise.html",
+        "R4C7-prix-d-anguerny.html",
+        "R4C8-prix-des-crouas.html",
+        "R4C9-prix-du-taillis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:20.436714Z"
+}

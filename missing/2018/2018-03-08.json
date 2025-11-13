@@ -1,0 +1,76 @@
+{
+  "date": "2018-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-08",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-08/2018-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C1-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C3-prix-de-fontainebleau-tourisme.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C4-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C5-prix-de-malesherbes.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C6-prix-de-larchant.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C7-prix-de-l-essonne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R1-fontainebleau/R1C8-prix-georges-dercourt.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R3-caen/R3C4-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R4-laval/R4C1-prix-de-la-seine-et-marne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R5-marseille-vivaux/R5C4-prix-de-la-dame-jouanne.html",
+      "resultats-et-rapports/2018/03/2018-03-08/R5-marseille-vivaux/R5C5-prix-de-malesherbes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-caen",
+      "R4-laval",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-de-la-seine-et-marne.html",
+        "R1C2-prix-des-trois-massifs.html",
+        "R1C3-prix-de-fontainebleau-tourisme.html",
+        "R1C4-prix-de-la-dame-jouanne.html",
+        "R1C5-prix-de-malesherbes.html",
+        "R1C6-prix-de-larchant.html",
+        "R1C7-prix-de-l-essonne.html",
+        "R1C8-prix-georges-dercourt.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-seine-et-marne.html",
+        "R3C2-prix-des-trois-massifs.html",
+        "R3C3-prix-de-fontainebleau-tourisme.html",
+        "R3C4-prix-de-la-dame-jouanne.html",
+        "R3C5-prix-de-malesherbes.html",
+        "R3C6-prix-de-larchant.html",
+        "R3C7-prix-de-l-essonne.html",
+        "R3C8-prix-georges-dercourt.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-seine-et-marne.html",
+        "R4C2-prix-des-trois-massifs.html",
+        "R4C3-prix-de-fontainebleau-tourisme.html",
+        "R4C4-prix-de-la-dame-jouanne.html",
+        "R4C5-prix-de-malesherbes.html",
+        "R4C6-prix-de-larchant.html",
+        "R4C7-prix-de-l-essonne.html",
+        "R4C8-prix-georges-dercourt.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-de-la-seine-et-marne.html",
+        "R5C2-prix-des-trois-massifs.html",
+        "R5C3-prix-de-fontainebleau-tourisme.html",
+        "R5C4-prix-de-la-dame-jouanne.html",
+        "R5C5-prix-de-malesherbes.html",
+        "R5C6-prix-de-larchant.html",
+        "R5C7-prix-de-l-essonne.html",
+        "R5C8-prix-georges-dercourt.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:04.414910Z"
+}

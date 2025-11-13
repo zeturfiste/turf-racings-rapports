@@ -1,0 +1,88 @@
+{
+  "date": "2020-05-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-27",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-27/2020-05-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C1-prix-de-la-fosse-aux-cerfs.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C2-prix-de-montlognon.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C3-prix-d-orry.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C4-prix-de-brichebay.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C5-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C6-prix-de-mortefontaine.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C7-prix-de-la-borne-blanche.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C8-prix-du-bois-renard.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C9-prix-de-la-prairie.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R1-vichy/R1C10-prix-de-luzarches.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C1-prix-de-la-fosse-aux-cerfs.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C2-prix-de-montlognon.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C3-prix-d-orry.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C5-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C6-prix-de-mortefontaine.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C8-prix-du-bois-renard.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C9-prix-de-la-prairie.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R2-lyon-parilly/R2C10-prix-de-luzarches.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C1-prix-de-la-fosse-aux-cerfs.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C2-prix-de-montlognon.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C3-prix-d-orry.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C4-prix-de-brichebay.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C5-prix-des-cotes-d-orleans.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C6-prix-de-mortefontaine.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C7-prix-de-la-borne-blanche.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C8-prix-du-bois-renard.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C9-prix-de-la-prairie.html",
+      "resultats-et-rapports/2020/05/2020-05-27/R3-caen/R3C10-prix-de-luzarches.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-lyon-parilly",
+      "R3-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-fosse-aux-cerfs.html",
+        "R1C2-prix-de-montlognon.html",
+        "R1C3-prix-d-orry.html",
+        "R1C4-prix-de-brichebay.html",
+        "R1C5-prix-des-cotes-d-orleans.html",
+        "R1C6-prix-de-mortefontaine.html",
+        "R1C7-prix-de-la-borne-blanche.html",
+        "R1C8-prix-du-bois-renard.html",
+        "R1C9-prix-de-la-prairie.html",
+        "R1C10-prix-de-luzarches.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-de-la-fosse-aux-cerfs.html",
+        "R2C2-prix-de-montlognon.html",
+        "R2C3-prix-d-orry.html",
+        "R2C4-prix-de-brichebay.html",
+        "R2C5-prix-des-cotes-d-orleans.html",
+        "R2C6-prix-de-mortefontaine.html",
+        "R2C7-prix-de-la-borne-blanche.html",
+        "R2C8-prix-du-bois-renard.html",
+        "R2C9-prix-de-la-prairie.html",
+        "R2C10-prix-de-luzarches.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-la-fosse-aux-cerfs.html",
+        "R3C2-prix-de-montlognon.html",
+        "R3C3-prix-d-orry.html",
+        "R3C4-prix-de-brichebay.html",
+        "R3C5-prix-des-cotes-d-orleans.html",
+        "R3C6-prix-de-mortefontaine.html",
+        "R3C7-prix-de-la-borne-blanche.html",
+        "R3C8-prix-du-bois-renard.html",
+        "R3C9-prix-de-la-prairie.html",
+        "R3C10-prix-de-luzarches.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:11.246308Z"
+}

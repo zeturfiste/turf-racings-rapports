@@ -1,0 +1,124 @@
+{
+  "date": "2024-11-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-10",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-10/2024-11-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-10/R1-saint-cloud/R1C4-prix-tantieme.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R3-marseille-borely/R3C4-prix-tantieme.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R3-marseille-borely/R3C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R4-mauquenchy/R4C1-prix-antivari.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R4-mauquenchy/R4C2-prix-douve.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R4-mauquenchy/R4C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R5-martinique/R5C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R8-maure-de-bretagne/R8C2-prix-douve.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R8-maure-de-bretagne/R8C3-prix-herod.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R8-maure-de-bretagne/R8C4-prix-tantieme.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R8-maure-de-bretagne/R8C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R8-maure-de-bretagne/R8C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C1-prix-antivari.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C2-prix-douve.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C3-prix-herod.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C4-prix-tantieme.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C6-prix-solitude.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R10-vire/R10C8-prix-des-falaises-de-craie.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C1-prix-antivari.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C3-prix-herod.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C4-prix-tantieme.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C5-prix-des-boucles-de-la-seine.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2024/11/2024-11-10/R9-nancy/R9C8-prix-des-falaises-de-craie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-marseille-borely",
+      "R4-mauquenchy",
+      "R5-martinique",
+      "R8-maure-de-bretagne",
+      "R10-vire",
+      "R9-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-antivari.html",
+        "R1C2-prix-douve.html",
+        "R1C3-prix-herod.html",
+        "R1C4-prix-tantieme.html",
+        "R1C5-prix-des-boucles-de-la-seine.html",
+        "R1C6-prix-solitude.html",
+        "R1C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R1C8-prix-des-falaises-de-craie.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-antivari.html",
+        "R3C2-prix-douve.html",
+        "R3C3-prix-herod.html",
+        "R3C4-prix-tantieme.html",
+        "R3C5-prix-des-boucles-de-la-seine.html",
+        "R3C6-prix-solitude.html",
+        "R3C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R3C8-prix-des-falaises-de-craie.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-antivari.html",
+        "R4C2-prix-douve.html",
+        "R4C3-prix-herod.html",
+        "R4C4-prix-tantieme.html",
+        "R4C5-prix-des-boucles-de-la-seine.html",
+        "R4C6-prix-solitude.html",
+        "R4C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R4C8-prix-des-falaises-de-craie.html"
+      ],
+      "R5-martinique": [
+        "R5C1-prix-antivari.html",
+        "R5C2-prix-douve.html",
+        "R5C3-prix-herod.html",
+        "R5C4-prix-tantieme.html",
+        "R5C5-prix-des-boucles-de-la-seine.html",
+        "R5C6-prix-solitude.html",
+        "R5C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R5C8-prix-des-falaises-de-craie.html"
+      ],
+      "R8-maure-de-bretagne": [
+        "R8C1-prix-antivari.html",
+        "R8C2-prix-douve.html",
+        "R8C3-prix-herod.html",
+        "R8C4-prix-tantieme.html",
+        "R8C5-prix-des-boucles-de-la-seine.html",
+        "R8C6-prix-solitude.html",
+        "R8C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R8C8-prix-des-falaises-de-craie.html"
+      ],
+      "R10-vire": [
+        "R10C1-prix-antivari.html",
+        "R10C2-prix-douve.html",
+        "R10C3-prix-herod.html",
+        "R10C4-prix-tantieme.html",
+        "R10C5-prix-des-boucles-de-la-seine.html",
+        "R10C6-prix-solitude.html",
+        "R10C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R10C8-prix-des-falaises-de-craie.html"
+      ],
+      "R9-nancy": [
+        "R9C1-prix-antivari.html",
+        "R9C2-prix-douve.html",
+        "R9C3-prix-herod.html",
+        "R9C4-prix-tantieme.html",
+        "R9C5-prix-des-boucles-de-la-seine.html",
+        "R9C6-prix-solitude.html",
+        "R9C7-prix-isola-bella-fonds-europeen-de-l-elevage.html",
+        "R9C8-prix-des-falaises-de-craie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:17.770021Z"
+}

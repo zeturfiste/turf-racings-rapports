@@ -1,0 +1,60 @@
+{
+  "date": "2006-02-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/02/2006-02-27",
+    "date_html": "resultats-et-rapports/2006/02/2006-02-27/2006-02-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-cagnes-sur-mer",
+      "R3-nantes",
+      "R4-vire"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R1C2-prix-de-mejean.html",
+        "R1C3-prix-de-beauvallon.html",
+        "R1C4-prix-de-digne.html",
+        "R1C5-prix-de-lyon-parilly.html",
+        "R1C6-prix-de-sainte-tulle.html",
+        "R1C7-prix-daniel-rossio.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R2C2-prix-de-mejean.html",
+        "R2C3-prix-de-beauvallon.html",
+        "R2C4-prix-de-digne.html",
+        "R2C5-prix-de-lyon-parilly.html",
+        "R2C6-prix-de-sainte-tulle.html",
+        "R2C7-prix-daniel-rossio.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R3C2-prix-de-mejean.html",
+        "R3C3-prix-de-beauvallon.html",
+        "R3C4-prix-de-digne.html",
+        "R3C5-prix-de-lyon-parilly.html",
+        "R3C6-prix-de-sainte-tulle.html",
+        "R3C7-prix-daniel-rossio.html"
+      ],
+      "R4-vire": [
+        "R4C1-prix-du-conseil-general-des-bouches-du-rhone.html",
+        "R4C2-prix-de-mejean.html",
+        "R4C3-prix-de-beauvallon.html",
+        "R4C4-prix-de-digne.html",
+        "R4C5-prix-de-lyon-parilly.html",
+        "R4C6-prix-de-sainte-tulle.html",
+        "R4C7-prix-daniel-rossio.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:17.610491Z"
+}

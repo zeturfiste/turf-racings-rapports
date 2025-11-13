@@ -1,0 +1,117 @@
+{
+  "date": "2022-01-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/01/2022-01-23",
+    "date_html": "resultats-et-rapports/2022/01/2022-01-23/2022-01-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/01/2022-01-23/R4-pau/R4C7-prix-d-espalion.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R4-pau/R4C8-prix-michel-marcel-gougeon.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C1-prix-roxane-griff.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C2-prix-du-lion-d-angers.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C3-prix-de-chambord.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C5-prix-de-mirande.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C6-prix-bellino-ii.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R8-lyon-la-soie/R8C7-prix-d-espalion.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R9-cagnes-sur-mer/R9C5-prix-de-mirande.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C2-prix-du-lion-d-angers.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C5-prix-de-mirande.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C6-prix-bellino-ii.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C7-prix-d-espalion.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R10-toulouse/R10C9-prix-de-la-ferte-mace.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C1-prix-roxane-griff.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C3-prix-de-chambord.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C4-prix-de-cornulier.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C5-prix-de-mirande.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C6-prix-bellino-ii.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C7-prix-d-espalion.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C8-prix-michel-marcel-gougeon.html",
+      "resultats-et-rapports/2022/01/2022-01-23/R99-ante-post-vincennes/R99C9-prix-de-la-ferte-mace.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-pau",
+      "R8-lyon-la-soie",
+      "R9-cagnes-sur-mer",
+      "R10-toulouse",
+      "R99-ante-post-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-roxane-griff.html",
+        "R1C2-prix-du-lion-d-angers.html",
+        "R1C3-prix-de-chambord.html",
+        "R1C4-prix-de-cornulier.html",
+        "R1C5-prix-de-mirande.html",
+        "R1C6-prix-bellino-ii.html",
+        "R1C7-prix-d-espalion.html",
+        "R1C8-prix-michel-marcel-gougeon.html",
+        "R1C9-prix-de-la-ferte-mace.html"
+      ],
+      "R4-pau": [
+        "R4C1-prix-roxane-griff.html",
+        "R4C2-prix-du-lion-d-angers.html",
+        "R4C3-prix-de-chambord.html",
+        "R4C4-prix-de-cornulier.html",
+        "R4C5-prix-de-mirande.html",
+        "R4C6-prix-bellino-ii.html",
+        "R4C7-prix-d-espalion.html",
+        "R4C8-prix-michel-marcel-gougeon.html",
+        "R4C9-prix-de-la-ferte-mace.html"
+      ],
+      "R8-lyon-la-soie": [
+        "R8C1-prix-roxane-griff.html",
+        "R8C2-prix-du-lion-d-angers.html",
+        "R8C3-prix-de-chambord.html",
+        "R8C4-prix-de-cornulier.html",
+        "R8C5-prix-de-mirande.html",
+        "R8C6-prix-bellino-ii.html",
+        "R8C7-prix-d-espalion.html",
+        "R8C8-prix-michel-marcel-gougeon.html",
+        "R8C9-prix-de-la-ferte-mace.html"
+      ],
+      "R9-cagnes-sur-mer": [
+        "R9C1-prix-roxane-griff.html",
+        "R9C2-prix-du-lion-d-angers.html",
+        "R9C3-prix-de-chambord.html",
+        "R9C4-prix-de-cornulier.html",
+        "R9C5-prix-de-mirande.html",
+        "R9C6-prix-bellino-ii.html",
+        "R9C7-prix-d-espalion.html",
+        "R9C8-prix-michel-marcel-gougeon.html",
+        "R9C9-prix-de-la-ferte-mace.html"
+      ],
+      "R10-toulouse": [
+        "R10C1-prix-roxane-griff.html",
+        "R10C2-prix-du-lion-d-angers.html",
+        "R10C3-prix-de-chambord.html",
+        "R10C4-prix-de-cornulier.html",
+        "R10C5-prix-de-mirande.html",
+        "R10C6-prix-bellino-ii.html",
+        "R10C7-prix-d-espalion.html",
+        "R10C8-prix-michel-marcel-gougeon.html",
+        "R10C9-prix-de-la-ferte-mace.html"
+      ],
+      "R99-ante-post-vincennes": [
+        "R99C1-prix-roxane-griff.html",
+        "R99C2-prix-du-lion-d-angers.html",
+        "R99C3-prix-de-chambord.html",
+        "R99C4-prix-de-cornulier.html",
+        "R99C5-prix-de-mirande.html",
+        "R99C6-prix-bellino-ii.html",
+        "R99C7-prix-d-espalion.html",
+        "R99C8-prix-michel-marcel-gougeon.html",
+        "R99C9-prix-de-la-ferte-mace.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:57.215412Z"
+}

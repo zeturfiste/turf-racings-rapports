@@ -1,0 +1,92 @@
+{
+  "date": "2011-12-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-08",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-08/2011-12-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-08/R1-vincennes/R1C1-prix-de-lecelles.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R1-vincennes/R1C7-prix-de-limermont-groupe-b.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R1-vincennes/R1C8-prix-de-portbail.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R1-vincennes/R1C9-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C2-prix-de-jussy.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C3-prix-d-hennebont.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C6-prix-de-limermont-groupe-a.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C7-prix-de-limermont-groupe-b.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C8-prix-de-portbail.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R2-deauville/R2C9-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R3-deauville-midi/R3C1-prix-de-lecelles.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R3-deauville-midi/R3C2-prix-de-jussy.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R3-deauville-midi/R3C6-prix-de-limermont-groupe-a.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R3-deauville-midi/R3C9-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C1-prix-de-lecelles.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C2-prix-de-jussy.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C3-prix-d-hennebont.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C4-prix-de-blois.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C5-prix-de-bouville.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C6-prix-de-limermont-groupe-a.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C7-prix-de-limermont-groupe-b.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C8-prix-de-portbail.html",
+      "resultats-et-rapports/2011/12/2011-12-08/R4-cagnes-sur-mer/R4C9-prix-de-quincy-sous-senart.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-lecelles.html",
+        "R1C2-prix-de-jussy.html",
+        "R1C3-prix-d-hennebont.html",
+        "R1C4-prix-de-blois.html",
+        "R1C5-prix-de-bouville.html",
+        "R1C6-prix-de-limermont-groupe-a.html",
+        "R1C7-prix-de-limermont-groupe-b.html",
+        "R1C8-prix-de-portbail.html",
+        "R1C9-prix-de-quincy-sous-senart.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-lecelles.html",
+        "R2C2-prix-de-jussy.html",
+        "R2C3-prix-d-hennebont.html",
+        "R2C4-prix-de-blois.html",
+        "R2C5-prix-de-bouville.html",
+        "R2C6-prix-de-limermont-groupe-a.html",
+        "R2C7-prix-de-limermont-groupe-b.html",
+        "R2C8-prix-de-portbail.html",
+        "R2C9-prix-de-quincy-sous-senart.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-lecelles.html",
+        "R3C2-prix-de-jussy.html",
+        "R3C3-prix-d-hennebont.html",
+        "R3C4-prix-de-blois.html",
+        "R3C5-prix-de-bouville.html",
+        "R3C6-prix-de-limermont-groupe-a.html",
+        "R3C7-prix-de-limermont-groupe-b.html",
+        "R3C8-prix-de-portbail.html",
+        "R3C9-prix-de-quincy-sous-senart.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-lecelles.html",
+        "R4C2-prix-de-jussy.html",
+        "R4C3-prix-d-hennebont.html",
+        "R4C4-prix-de-blois.html",
+        "R4C5-prix-de-bouville.html",
+        "R4C6-prix-de-limermont-groupe-a.html",
+        "R4C7-prix-de-limermont-groupe-b.html",
+        "R4C8-prix-de-portbail.html",
+        "R4C9-prix-de-quincy-sous-senart.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:34.363236Z"
+}

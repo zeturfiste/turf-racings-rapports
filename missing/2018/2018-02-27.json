@@ -1,0 +1,53 @@
+{
+  "date": "2018-02-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/02/2018-02-27",
+    "date_html": "resultats-et-rapports/2018/02/2018-02-27/2018-02-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/02/2018-02-27/R1-pontchateau/R1C1-prix-tom-kazak.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R1-pontchateau/R1C3-prix-de-vannes.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R1-pontchateau/R1C4-prix-des-sables-d-olonne.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R1-pontchateau/R1C7-prix-de-savenay-groupe-a.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R1-pontchateau/R1C8-prix-www-federation-ouest-fr-groupe-b.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R3-cagnes-sur-mer/R3C4-prix-des-sables-d-olonne.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R3-cagnes-sur-mer/R3C6-prix-maurice-sambron.html",
+      "resultats-et-rapports/2018/02/2018-02-27/R3-cagnes-sur-mer/R3C7-prix-de-savenay-groupe-a.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pontchateau",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pontchateau": [
+        "R1C1-prix-tom-kazak.html",
+        "R1C2-prix-intermarche.html",
+        "R1C3-prix-de-vannes.html",
+        "R1C4-prix-des-sables-d-olonne.html",
+        "R1C5-prix-hidalgo-du-gue.html",
+        "R1C6-prix-maurice-sambron.html",
+        "R1C7-prix-de-savenay-groupe-a.html",
+        "R1C8-prix-www-federation-ouest-fr-groupe-b.html",
+        "R1C9-prix-de-sainte-reine-de-bretagne.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-tom-kazak.html",
+        "R3C2-prix-intermarche.html",
+        "R3C3-prix-de-vannes.html",
+        "R3C4-prix-des-sables-d-olonne.html",
+        "R3C5-prix-hidalgo-du-gue.html",
+        "R3C6-prix-maurice-sambron.html",
+        "R3C7-prix-de-savenay-groupe-a.html",
+        "R3C8-prix-www-federation-ouest-fr-groupe-b.html",
+        "R3C9-prix-de-sainte-reine-de-bretagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:02.041734Z"
+}

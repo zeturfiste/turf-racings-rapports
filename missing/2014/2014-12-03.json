@@ -1,0 +1,61 @@
+{
+  "date": "2014-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-03",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-03/2014-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-03/R1-vincennes/R1C4-prix-de-quincy-sous-senart.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R1-vincennes/R1C5-prix-de-digne.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R1-vincennes/R1C6-prix-de-maintenon.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R2-deauville/R2C2-prix-les-mathes-la-palmyre.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R2-deauville/R2C5-prix-de-digne.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R2-deauville/R2C7-prix-d-hossegor.html",
+      "resultats-et-rapports/2014/12/2014-12-03/R7-marseille-borely/R7C8-prix-d-hennebont.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-ville-de-royan.html",
+        "R1C2-prix-les-mathes-la-palmyre.html",
+        "R1C3-prix-de-commercy.html",
+        "R1C4-prix-de-quincy-sous-senart.html",
+        "R1C5-prix-de-digne.html",
+        "R1C6-prix-de-maintenon.html",
+        "R1C7-prix-d-hossegor.html",
+        "R1C8-prix-d-hennebont.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-la-ville-de-royan.html",
+        "R2C2-prix-les-mathes-la-palmyre.html",
+        "R2C3-prix-de-commercy.html",
+        "R2C4-prix-de-quincy-sous-senart.html",
+        "R2C5-prix-de-digne.html",
+        "R2C6-prix-de-maintenon.html",
+        "R2C7-prix-d-hossegor.html",
+        "R2C8-prix-d-hennebont.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-de-la-ville-de-royan.html",
+        "R7C2-prix-les-mathes-la-palmyre.html",
+        "R7C3-prix-de-commercy.html",
+        "R7C4-prix-de-quincy-sous-senart.html",
+        "R7C5-prix-de-digne.html",
+        "R7C6-prix-de-maintenon.html",
+        "R7C7-prix-d-hossegor.html",
+        "R7C8-prix-d-hennebont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:02.736751Z"
+}

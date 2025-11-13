@@ -1,0 +1,73 @@
+{
+  "date": "2018-12-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-11",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-11/2018-12-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-11/R1-cabourg/R1C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R2-pau/R2C2-prix-des-marjolaines-gr-a.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R2-pau/R2C4-prix-des-marjolaines-gr-b.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R2-pau/R2C5-prix-des-peupliers.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R2-pau/R2C7-prix-d-ambrieres.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R3-marseille-vivaux/R3C4-prix-des-marjolaines-gr-b.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R3-marseille-vivaux/R3C7-prix-d-ambrieres.html",
+      "resultats-et-rapports/2018/12/2018-12-11/R5-vincennes/R5C8-prix-des-tilleuls.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R2-pau",
+      "R3-marseille-vivaux",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-saules.html",
+        "R1C2-prix-des-marjolaines-gr-a.html",
+        "R1C3-prix-des-calceolaires.html",
+        "R1C4-prix-des-marjolaines-gr-b.html",
+        "R1C5-prix-des-peupliers.html",
+        "R1C6-prix-des-mirabilis.html",
+        "R1C7-prix-d-ambrieres.html",
+        "R1C8-prix-des-tilleuls.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-des-saules.html",
+        "R2C2-prix-des-marjolaines-gr-a.html",
+        "R2C3-prix-des-calceolaires.html",
+        "R2C4-prix-des-marjolaines-gr-b.html",
+        "R2C5-prix-des-peupliers.html",
+        "R2C6-prix-des-mirabilis.html",
+        "R2C7-prix-d-ambrieres.html",
+        "R2C8-prix-des-tilleuls.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-des-saules.html",
+        "R3C2-prix-des-marjolaines-gr-a.html",
+        "R3C3-prix-des-calceolaires.html",
+        "R3C4-prix-des-marjolaines-gr-b.html",
+        "R3C5-prix-des-peupliers.html",
+        "R3C6-prix-des-mirabilis.html",
+        "R3C7-prix-d-ambrieres.html",
+        "R3C8-prix-des-tilleuls.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-des-saules.html",
+        "R5C2-prix-des-marjolaines-gr-a.html",
+        "R5C3-prix-des-calceolaires.html",
+        "R5C4-prix-des-marjolaines-gr-b.html",
+        "R5C5-prix-des-peupliers.html",
+        "R5C6-prix-des-mirabilis.html",
+        "R5C7-prix-d-ambrieres.html",
+        "R5C8-prix-des-tilleuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:37.726992Z"
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2016-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/08/2016-08-30",
+    "date_html": "resultats-et-rapports/2016/08/2016-08-30/2016-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C1-prix-ecoflax-prix-kenmare.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C7-prix-jour-de-cheval-prix-des-paturages.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R1-clairefontaine/R1C8-prix-alain-carpentier-prix-des-herbages.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R2-la-capelle/R2C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R2-la-capelle/R2C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R2-la-capelle/R2C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R2-la-capelle/R2C7-prix-jour-de-cheval-prix-des-paturages.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R2-la-capelle/R2C8-prix-alain-carpentier-prix-des-herbages.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R3-dax/R3C1-prix-ecoflax-prix-kenmare.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R3-dax/R3C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R3-dax/R3C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C1-prix-ecoflax-prix-kenmare.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C7-prix-jour-de-cheval-prix-des-paturages.html",
+      "resultats-et-rapports/2016/08/2016-08-30/R5-cabourg/R5C8-prix-alain-carpentier-prix-des-herbages.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-la-capelle",
+      "R3-dax",
+      "R4-laval",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-ecoflax-prix-kenmare.html",
+        "R1C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+        "R1C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+        "R1C4-prix-de-l-ecole-blondeau-prix-des-colchiques.html",
+        "R1C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+        "R1C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+        "R1C7-prix-jour-de-cheval-prix-des-paturages.html",
+        "R1C8-prix-alain-carpentier-prix-des-herbages.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-ecoflax-prix-kenmare.html",
+        "R2C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+        "R2C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+        "R2C4-prix-de-l-ecole-blondeau-prix-des-colchiques.html",
+        "R2C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+        "R2C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+        "R2C7-prix-jour-de-cheval-prix-des-paturages.html",
+        "R2C8-prix-alain-carpentier-prix-des-herbages.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-ecoflax-prix-kenmare.html",
+        "R3C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+        "R3C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+        "R3C4-prix-de-l-ecole-blondeau-prix-des-colchiques.html",
+        "R3C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+        "R3C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+        "R3C7-prix-jour-de-cheval-prix-des-paturages.html",
+        "R3C8-prix-alain-carpentier-prix-des-herbages.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-ecoflax-prix-kenmare.html",
+        "R4C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+        "R4C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+        "R4C4-prix-de-l-ecole-blondeau-prix-des-colchiques.html",
+        "R4C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+        "R4C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+        "R4C7-prix-jour-de-cheval-prix-des-paturages.html",
+        "R4C8-prix-alain-carpentier-prix-des-herbages.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-ecoflax-prix-kenmare.html",
+        "R5C2-prix-des-statuettes-serge-athlani-prix-de-la-petite-ferme.html",
+        "R5C3-prix-hommage-a-jean-paul-bertrand-prix-du-bocage.html",
+        "R5C4-prix-de-l-ecole-blondeau-prix-des-colchiques.html",
+        "R5C5-prix-agrobio-basse-normandie-marche-bio-de-trouville-sur-mer-prix-de-la-villa-strassburger.html",
+        "R5C6-prix-hip-poker-tour-prix-du-grand-jardin.html",
+        "R5C7-prix-jour-de-cheval-prix-des-paturages.html",
+        "R5C8-prix-alain-carpentier-prix-des-herbages.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:17.156764Z"
+}

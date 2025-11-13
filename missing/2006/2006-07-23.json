@@ -1,0 +1,103 @@
+{
+  "date": "2006-07-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/07/2006-07-23",
+    "date_html": "resultats-et-rapports/2006/07/2006-07-23/2006-07-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/07/2006-07-23/R2-le-mont-saint-michel/R2C2-grand-handicap-de-maisons-laffitte.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R2-le-mont-saint-michel/R2C9-prix-des-yvelines.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R5-la-capelle/R5C3-prix-ladas.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R5-la-capelle/R5C4-prix-robert-papin.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R5-la-capelle/R5C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R5-la-capelle/R5C9-prix-des-yvelines.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R6-clairefontaine/R6C1-prix-belebat.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R6-clairefontaine/R6C2-grand-handicap-de-maisons-laffitte.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R6-clairefontaine/R6C4-prix-robert-papin.html",
+      "resultats-et-rapports/2006/07/2006-07-23/R6-clairefontaine/R6C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-le-mont-saint-michel",
+      "R3-royan-la-palmyre",
+      "R5-la-capelle",
+      "R6-clairefontaine",
+      "R30-tour-de-france-sceaux-paris-champs-elysees"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-belebat.html",
+        "R1C2-grand-handicap-de-maisons-laffitte.html",
+        "R1C3-prix-ladas.html",
+        "R1C4-prix-robert-papin.html",
+        "R1C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R1C6-prix-messidor.html",
+        "R1C7-deutsches-derby-hambourg.html",
+        "R1C8-prix-de-carrieres-sous-poissy.html",
+        "R1C9-prix-des-yvelines.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-belebat.html",
+        "R2C2-grand-handicap-de-maisons-laffitte.html",
+        "R2C3-prix-ladas.html",
+        "R2C4-prix-robert-papin.html",
+        "R2C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R2C6-prix-messidor.html",
+        "R2C7-deutsches-derby-hambourg.html",
+        "R2C8-prix-de-carrieres-sous-poissy.html",
+        "R2C9-prix-des-yvelines.html"
+      ],
+      "R3-royan-la-palmyre": [
+        "R3C1-prix-belebat.html",
+        "R3C2-grand-handicap-de-maisons-laffitte.html",
+        "R3C3-prix-ladas.html",
+        "R3C4-prix-robert-papin.html",
+        "R3C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R3C6-prix-messidor.html",
+        "R3C7-deutsches-derby-hambourg.html",
+        "R3C8-prix-de-carrieres-sous-poissy.html",
+        "R3C9-prix-des-yvelines.html"
+      ],
+      "R5-la-capelle": [
+        "R5C1-prix-belebat.html",
+        "R5C2-grand-handicap-de-maisons-laffitte.html",
+        "R5C3-prix-ladas.html",
+        "R5C4-prix-robert-papin.html",
+        "R5C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R5C6-prix-messidor.html",
+        "R5C7-deutsches-derby-hambourg.html",
+        "R5C8-prix-de-carrieres-sous-poissy.html",
+        "R5C9-prix-des-yvelines.html"
+      ],
+      "R6-clairefontaine": [
+        "R6C1-prix-belebat.html",
+        "R6C2-grand-handicap-de-maisons-laffitte.html",
+        "R6C3-prix-ladas.html",
+        "R6C4-prix-robert-papin.html",
+        "R6C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R6C6-prix-messidor.html",
+        "R6C7-deutsches-derby-hambourg.html",
+        "R6C8-prix-de-carrieres-sous-poissy.html",
+        "R6C9-prix-des-yvelines.html"
+      ],
+      "R30-tour-de-france-sceaux-paris-champs-elysees": [
+        "R30C1-prix-belebat.html",
+        "R30C2-grand-handicap-de-maisons-laffitte.html",
+        "R30C3-prix-ladas.html",
+        "R30C4-prix-robert-papin.html",
+        "R30C5-prix-eugene-adam-grand-prix-de-maisons-laffitte.html",
+        "R30C6-prix-messidor.html",
+        "R30C7-deutsches-derby-hambourg.html",
+        "R30C8-prix-de-carrieres-sous-poissy.html",
+        "R30C9-prix-des-yvelines.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:49.756915Z"
+}

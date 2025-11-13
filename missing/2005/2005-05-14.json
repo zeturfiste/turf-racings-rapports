@@ -1,0 +1,32 @@
+{
+  "date": "2005-05-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-14",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-14/2005-05-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-rennes.html",
+        "R1C2-prix-kalmia.html",
+        "R1C3-prix-du-gatinais.html",
+        "R1C4-prix-de-viry-chatillon.html",
+        "R1C5-prix-ozo.html",
+        "R1C6-prix-du-perreux.html",
+        "R1C7-prix-guillaume-de-bellaigue.html",
+        "R1C8-prix-du-mans.html",
+        "R1C9-prix-de-mamers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:31.518228Z"
+}

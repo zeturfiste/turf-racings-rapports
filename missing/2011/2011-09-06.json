@@ -1,0 +1,77 @@
+{
+  "date": "2011-09-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/09/2011-09-06",
+    "date_html": "resultats-et-rapports/2011/09/2011-09-06/2011-09-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/09/2011-09-06/R1-nancy/R1C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R1-nancy/R1C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R2-lyon-la-soie/R2C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R2-lyon-la-soie/R2C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R2-lyon-la-soie/R2C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R2-lyon-la-soie/R2C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R3-auteuil/R3C1-prix-de-l-est-republicain.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R3-auteuil/R3C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R3-auteuil/R3C3-prix-france-bleu-sud-lorraine.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R3-auteuil/R3C5-prix-du-republicain-lorrain.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R4-vincennes/R4C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+      "resultats-et-rapports/2011/09/2011-09-06/R4-vincennes/R4C7-prix-de-la-communaute-urbaine-du-grand-nancy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nancy",
+      "R2-lyon-la-soie",
+      "R3-auteuil",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-nancy": [
+        "R1C1-prix-de-l-est-republicain.html",
+        "R1C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+        "R1C3-prix-france-bleu-sud-lorraine.html",
+        "R1C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+        "R1C5-prix-du-republicain-lorrain.html",
+        "R1C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+        "R1C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R1C8-prix-www-geny-com.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-de-l-est-republicain.html",
+        "R2C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+        "R2C3-prix-france-bleu-sud-lorraine.html",
+        "R2C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+        "R2C5-prix-du-republicain-lorrain.html",
+        "R2C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+        "R2C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R2C8-prix-www-geny-com.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-de-l-est-republicain.html",
+        "R3C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+        "R3C3-prix-france-bleu-sud-lorraine.html",
+        "R3C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+        "R3C5-prix-du-republicain-lorrain.html",
+        "R3C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+        "R3C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R3C8-prix-www-geny-com.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-de-l-est-republicain.html",
+        "R4C2-prix-du-conseil-general-prix-m-et-j-jacquet.html",
+        "R4C3-prix-france-bleu-sud-lorraine.html",
+        "R4C4-prix-de-la-ville-de-vandoeuvre-prix-de-la-moselle.html",
+        "R4C5-prix-du-republicain-lorrain.html",
+        "R4C6-prix-du-conseil-regional-prix-de-la-meurthe.html",
+        "R4C7-prix-de-la-communaute-urbaine-du-grand-nancy.html",
+        "R4C8-prix-www-geny-com.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:07.615082Z"
+}

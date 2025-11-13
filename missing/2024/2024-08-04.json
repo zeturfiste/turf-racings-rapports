@@ -1,0 +1,114 @@
+{
+  "date": "2024-08-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-04",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-04/2024-08-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-04/R4-granville/R4C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R4-granville/R4C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R5-le-lion-d-angers/R5C4-arc-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R5-le-lion-d-angers/R5C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R5-le-lion-d-angers/R5C8-prix-hipodromo-san-isidro.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R5-le-lion-d-angers/R5C9-prix-hipodromo-de-maronas.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C3-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C7-prix-hipodromo-cidade-jardim.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C8-prix-hipodromo-san-isidro.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R10-royan-la-palmyre/R10C9-prix-hipodromo-de-maronas.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C3-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C4-arc-prix-maurice-de-gheest.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C7-prix-hipodromo-cidade-jardim.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C8-prix-hipodromo-san-isidro.html",
+      "resultats-et-rapports/2024/08/2024-08-04/R11-aix-les-bains/R11C9-prix-hipodromo-de-maronas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-enghien-soisy",
+      "R4-granville",
+      "R5-le-lion-d-angers",
+      "R10-royan-la-palmyre",
+      "R11-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R1C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R1C3-grand-handicap-de-deauville.html",
+        "R1C4-arc-prix-maurice-de-gheest.html",
+        "R1C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R1C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R1C7-prix-hipodromo-cidade-jardim.html",
+        "R1C8-prix-hipodromo-san-isidro.html",
+        "R1C9-prix-hipodromo-de-maronas.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R3C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R3C3-grand-handicap-de-deauville.html",
+        "R3C4-arc-prix-maurice-de-gheest.html",
+        "R3C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R3C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R3C7-prix-hipodromo-cidade-jardim.html",
+        "R3C8-prix-hipodromo-san-isidro.html",
+        "R3C9-prix-hipodromo-de-maronas.html"
+      ],
+      "R4-granville": [
+        "R4C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R4C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R4C3-grand-handicap-de-deauville.html",
+        "R4C4-arc-prix-maurice-de-gheest.html",
+        "R4C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R4C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R4C7-prix-hipodromo-cidade-jardim.html",
+        "R4C8-prix-hipodromo-san-isidro.html",
+        "R4C9-prix-hipodromo-de-maronas.html"
+      ],
+      "R5-le-lion-d-angers": [
+        "R5C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R5C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R5C3-grand-handicap-de-deauville.html",
+        "R5C4-arc-prix-maurice-de-gheest.html",
+        "R5C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R5C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R5C7-prix-hipodromo-cidade-jardim.html",
+        "R5C8-prix-hipodromo-san-isidro.html",
+        "R5C9-prix-hipodromo-de-maronas.html"
+      ],
+      "R10-royan-la-palmyre": [
+        "R10C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R10C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R10C3-grand-handicap-de-deauville.html",
+        "R10C4-arc-prix-maurice-de-gheest.html",
+        "R10C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R10C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R10C7-prix-hipodromo-cidade-jardim.html",
+        "R10C8-prix-hipodromo-san-isidro.html",
+        "R10C9-prix-hipodromo-de-maronas.html"
+      ],
+      "R11-aix-les-bains": [
+        "R11C1-prix-itbf-international-thoroughbred-breeders-federation.html",
+        "R11C2-prix-daphnis-fonds-europeen-de-l-elevage-prix-famille-steinb.html",
+        "R11C3-grand-handicap-de-deauville.html",
+        "R11C4-arc-prix-maurice-de-gheest.html",
+        "R11C5-prix-moonlight-cloud-prix-maria-luisa-solari-icha.html",
+        "R11C6-prix-du-cercle-prix-hipodromo-de-la-gavea.html",
+        "R11C7-prix-hipodromo-cidade-jardim.html",
+        "R11C8-prix-hipodromo-san-isidro.html",
+        "R11C9-prix-hipodromo-de-maronas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:38.380410Z"
+}

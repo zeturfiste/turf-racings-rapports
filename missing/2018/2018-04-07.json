@@ -1,0 +1,84 @@
+{
+  "date": "2018-04-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/04/2018-04-07",
+    "date_html": "resultats-et-rapports/2018/04/2018-04-07/2018-04-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/04/2018-04-07/R3-nancy/R3C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R3-nancy/R3C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R3-nancy/R3C9-prix-de-saintes.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C5-prix-de-plouescat-19-et-20-aout-prix-theophile-lallouet.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C8-prix-phaeton.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R4-auteuil/R4C9-prix-de-saintes.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C2-prix-de-plestin-les-greves-3-juin-prix-de-loudeac.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C3-prix-de-ploubalay-lancieux-1er-juillet-prix-de-dorceau.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C4-prix-des-hippodromes-marins-prix-du-treport.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+      "resultats-et-rapports/2018/04/2018-04-07/R5-marseille-vivaux/R5C9-prix-de-saintes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nancy",
+      "R4-auteuil",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+        "R1C2-prix-de-plestin-les-greves-3-juin-prix-de-loudeac.html",
+        "R1C3-prix-de-ploubalay-lancieux-1er-juillet-prix-de-dorceau.html",
+        "R1C4-prix-des-hippodromes-marins-prix-du-treport.html",
+        "R1C5-prix-de-plouescat-19-et-20-aout-prix-theophile-lallouet.html",
+        "R1C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+        "R1C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+        "R1C8-prix-phaeton.html",
+        "R1C9-prix-de-saintes.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+        "R3C2-prix-de-plestin-les-greves-3-juin-prix-de-loudeac.html",
+        "R3C3-prix-de-ploubalay-lancieux-1er-juillet-prix-de-dorceau.html",
+        "R3C4-prix-des-hippodromes-marins-prix-du-treport.html",
+        "R3C5-prix-de-plouescat-19-et-20-aout-prix-theophile-lallouet.html",
+        "R3C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+        "R3C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+        "R3C8-prix-phaeton.html",
+        "R3C9-prix-de-saintes.html"
+      ],
+      "R4-auteuil": [
+        "R4C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+        "R4C2-prix-de-plestin-les-greves-3-juin-prix-de-loudeac.html",
+        "R4C3-prix-de-ploubalay-lancieux-1er-juillet-prix-de-dorceau.html",
+        "R4C4-prix-des-hippodromes-marins-prix-du-treport.html",
+        "R4C5-prix-de-plouescat-19-et-20-aout-prix-theophile-lallouet.html",
+        "R4C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+        "R4C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+        "R4C8-prix-phaeton.html",
+        "R4C9-prix-de-saintes.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-de-jullouville-les-pins-30-avril-prix-de-bapaume.html",
+        "R5C2-prix-de-plestin-les-greves-3-juin-prix-de-loudeac.html",
+        "R5C3-prix-de-ploubalay-lancieux-1er-juillet-prix-de-dorceau.html",
+        "R5C4-prix-des-hippodromes-marins-prix-du-treport.html",
+        "R5C5-prix-de-plouescat-19-et-20-aout-prix-theophile-lallouet.html",
+        "R5C6-prix-des-federations-ouest-et-basse-normandie-prix-d-aubusson.html",
+        "R5C7-prix-de-saint-brieuc-prix-paul-leguerney.html",
+        "R5C8-prix-phaeton.html",
+        "R5C9-prix-de-saintes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:13.471466Z"
+}

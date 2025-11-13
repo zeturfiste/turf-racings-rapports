@@ -1,0 +1,53 @@
+{
+  "date": "2005-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-29",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-29/2005-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-bordeaux-le-bouscat",
+      "R3-hippodrome-etranger"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-vatelys.html",
+        "R1C2-prix-loggia.html",
+        "R1C3-prix-de-beaune.html",
+        "R1C4-prix-roger-saint.html",
+        "R1C5-prix-de-bourges.html",
+        "R1C6-grand-steeple-chase-d-enghien.html",
+        "R1C7-prix-des-pyrenees.html",
+        "R1C8-prix-de-chablis.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-vatelys.html",
+        "R2C2-prix-loggia.html",
+        "R2C3-prix-de-beaune.html",
+        "R2C4-prix-roger-saint.html",
+        "R2C5-prix-de-bourges.html",
+        "R2C6-grand-steeple-chase-d-enghien.html",
+        "R2C7-prix-des-pyrenees.html",
+        "R2C8-prix-de-chablis.html"
+      ],
+      "R3-hippodrome-etranger": [
+        "R3C1-prix-vatelys.html",
+        "R3C2-prix-loggia.html",
+        "R3C3-prix-de-beaune.html",
+        "R3C4-prix-roger-saint.html",
+        "R3C5-prix-de-bourges.html",
+        "R3C6-grand-steeple-chase-d-enghien.html",
+        "R3C7-prix-des-pyrenees.html",
+        "R3C8-prix-de-chablis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:58.769922Z"
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2017-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-17",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-17/2017-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-17/R1-vichy/R1C2-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R1-vichy/R1C5-prix-du-thermalisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R1-vichy/R1C7-prix-de-l-office-du-tourisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C2-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C5-prix-du-thermalisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C6-prix-de-chouvigny.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C7-prix-de-l-office-du-tourisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R3-clairefontaine/R3C8-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C2-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C3-prix-des-courses-internationales-de-baden-baden.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C5-prix-du-thermalisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C6-prix-de-chouvigny.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R4-pornichet-la-baule/R4C8-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C2-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C3-prix-des-courses-internationales-de-baden-baden.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C5-prix-du-thermalisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C6-prix-de-chouvigny.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C7-prix-de-l-office-du-tourisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R6-castera-verduzan/R6C8-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C2-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C3-prix-des-courses-internationales-de-baden-baden.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C5-prix-du-thermalisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C6-prix-de-chouvigny.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C7-prix-de-l-office-du-tourisme.html",
+      "resultats-et-rapports/2017/07/2017-07-17/R7-cagnes-sur-mer/R7C8-prix-de-la-foret-de-troncais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-clairefontaine",
+      "R4-pornichet-la-baule",
+      "R6-castera-verduzan",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-vichy-communaute.html",
+        "R1C2-prix-madame-jean-couturie.html",
+        "R1C3-prix-des-courses-internationales-de-baden-baden.html",
+        "R1C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+        "R1C5-prix-du-thermalisme.html",
+        "R1C6-prix-de-chouvigny.html",
+        "R1C7-prix-de-l-office-du-tourisme.html",
+        "R1C8-prix-de-la-foret-de-troncais.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-vichy-communaute.html",
+        "R3C2-prix-madame-jean-couturie.html",
+        "R3C3-prix-des-courses-internationales-de-baden-baden.html",
+        "R3C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+        "R3C5-prix-du-thermalisme.html",
+        "R3C6-prix-de-chouvigny.html",
+        "R3C7-prix-de-l-office-du-tourisme.html",
+        "R3C8-prix-de-la-foret-de-troncais.html"
+      ],
+      "R4-pornichet-la-baule": [
+        "R4C1-prix-vichy-communaute.html",
+        "R4C2-prix-madame-jean-couturie.html",
+        "R4C3-prix-des-courses-internationales-de-baden-baden.html",
+        "R4C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+        "R4C5-prix-du-thermalisme.html",
+        "R4C6-prix-de-chouvigny.html",
+        "R4C7-prix-de-l-office-du-tourisme.html",
+        "R4C8-prix-de-la-foret-de-troncais.html"
+      ],
+      "R6-castera-verduzan": [
+        "R6C1-prix-vichy-communaute.html",
+        "R6C2-prix-madame-jean-couturie.html",
+        "R6C3-prix-des-courses-internationales-de-baden-baden.html",
+        "R6C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+        "R6C5-prix-du-thermalisme.html",
+        "R6C6-prix-de-chouvigny.html",
+        "R6C7-prix-de-l-office-du-tourisme.html",
+        "R6C8-prix-de-la-foret-de-troncais.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-vichy-communaute.html",
+        "R7C2-prix-madame-jean-couturie.html",
+        "R7C3-prix-des-courses-internationales-de-baden-baden.html",
+        "R7C4-prix-techni-spectacle-mgpf-prix-d-agonges.html",
+        "R7C5-prix-du-thermalisme.html",
+        "R7C6-prix-de-chouvigny.html",
+        "R7C7-prix-de-l-office-du-tourisme.html",
+        "R7C8-prix-de-la-foret-de-troncais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:53.445795Z"
+}

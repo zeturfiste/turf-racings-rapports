@@ -1,0 +1,77 @@
+{
+  "date": "2019-07-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/07/2019-07-15",
+    "date_html": "resultats-et-rapports/2019/07/2019-07-15/2019-07-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C2-prix-henri-rossi-prix-d-agonges.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C3-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C4-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C5-prix-equidia.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C7-prix-de-la-societe-des-courses-d-avenches.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R1-vichy/R1C8-prix-de-bellerive-sur-allier.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C2-prix-henri-rossi-prix-d-agonges.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C3-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C4-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C5-prix-equidia.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C7-prix-de-la-societe-des-courses-d-avenches.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R2-le-mont-saint-michel/R2C8-prix-de-bellerive-sur-allier.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C1-prix-vichy-communaute.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C2-prix-henri-rossi-prix-d-agonges.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C3-prix-madame-jean-couturie.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C4-prix-de-la-foret-de-troncais.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C5-prix-equidia.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+      "resultats-et-rapports/2019/07/2019-07-15/R4-hyeres/R4C8-prix-de-bellerive-sur-allier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-le-mont-saint-michel",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-vichy-communaute.html",
+        "R1C2-prix-henri-rossi-prix-d-agonges.html",
+        "R1C3-prix-madame-jean-couturie.html",
+        "R1C4-prix-de-la-foret-de-troncais.html",
+        "R1C5-prix-equidia.html",
+        "R1C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+        "R1C7-prix-de-la-societe-des-courses-d-avenches.html",
+        "R1C8-prix-de-bellerive-sur-allier.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-vichy-communaute.html",
+        "R2C2-prix-henri-rossi-prix-d-agonges.html",
+        "R2C3-prix-madame-jean-couturie.html",
+        "R2C4-prix-de-la-foret-de-troncais.html",
+        "R2C5-prix-equidia.html",
+        "R2C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+        "R2C7-prix-de-la-societe-des-courses-d-avenches.html",
+        "R2C8-prix-de-bellerive-sur-allier.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-vichy-communaute.html",
+        "R4C2-prix-henri-rossi-prix-d-agonges.html",
+        "R4C3-prix-madame-jean-couturie.html",
+        "R4C4-prix-de-la-foret-de-troncais.html",
+        "R4C5-prix-equidia.html",
+        "R4C6-prix-jean-mourot-prix-de-la-tour-de-chenillat.html",
+        "R4C7-prix-de-la-societe-des-courses-d-avenches.html",
+        "R4C8-prix-de-bellerive-sur-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:41.936813Z"
+}

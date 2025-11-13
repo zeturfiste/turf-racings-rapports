@@ -1,0 +1,89 @@
+{
+  "date": "2019-10-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-23",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-23/2019-10-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-23/R1-deauville/R1C1-prix-de-kildare.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R1-deauville/R1C5-prix-de-lexington.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R1-deauville/R1C6-prix-du-pont-d-ouilly.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R1-deauville/R1C8-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R2-strasbourg/R2C1-prix-de-kildare.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R2-strasbourg/R2C3-prix-equidays-le-calvados-fete-le-cheval.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R2-strasbourg/R2C5-prix-de-lexington.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R2-strasbourg/R2C6-prix-du-pont-d-ouilly.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R2-strasbourg/R2C7-prix-des-arcades.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C1-prix-de-kildare.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C2-prix-des-reservoirs.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C3-prix-equidays-le-calvados-fete-le-cheval.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C4-prix-isonomy.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C5-prix-de-lexington.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C6-prix-du-pont-d-ouilly.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C7-prix-des-arcades.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R4-enghien-soisy/R4C8-prix-de-l-etablissement-des-ventes.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C1-prix-de-kildare.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C3-prix-equidays-le-calvados-fete-le-cheval.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C4-prix-isonomy.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C5-prix-de-lexington.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C6-prix-du-pont-d-ouilly.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C7-prix-des-arcades.html",
+      "resultats-et-rapports/2019/10/2019-10-23/R7-toulouse/R7C8-prix-de-l-etablissement-des-ventes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-strasbourg",
+      "R4-enghien-soisy",
+      "R7-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-kildare.html",
+        "R1C2-prix-des-reservoirs.html",
+        "R1C3-prix-equidays-le-calvados-fete-le-cheval.html",
+        "R1C4-prix-isonomy.html",
+        "R1C5-prix-de-lexington.html",
+        "R1C6-prix-du-pont-d-ouilly.html",
+        "R1C7-prix-des-arcades.html",
+        "R1C8-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-kildare.html",
+        "R2C2-prix-des-reservoirs.html",
+        "R2C3-prix-equidays-le-calvados-fete-le-cheval.html",
+        "R2C4-prix-isonomy.html",
+        "R2C5-prix-de-lexington.html",
+        "R2C6-prix-du-pont-d-ouilly.html",
+        "R2C7-prix-des-arcades.html",
+        "R2C8-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-kildare.html",
+        "R4C2-prix-des-reservoirs.html",
+        "R4C3-prix-equidays-le-calvados-fete-le-cheval.html",
+        "R4C4-prix-isonomy.html",
+        "R4C5-prix-de-lexington.html",
+        "R4C6-prix-du-pont-d-ouilly.html",
+        "R4C7-prix-des-arcades.html",
+        "R4C8-prix-de-l-etablissement-des-ventes.html"
+      ],
+      "R7-toulouse": [
+        "R7C1-prix-de-kildare.html",
+        "R7C2-prix-des-reservoirs.html",
+        "R7C3-prix-equidays-le-calvados-fete-le-cheval.html",
+        "R7C4-prix-isonomy.html",
+        "R7C5-prix-de-lexington.html",
+        "R7C6-prix-du-pont-d-ouilly.html",
+        "R7C7-prix-des-arcades.html",
+        "R7C8-prix-de-l-etablissement-des-ventes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:16.298439Z"
+}

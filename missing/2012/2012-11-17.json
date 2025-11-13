@@ -1,0 +1,72 @@
+{
+  "date": "2012-11-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-17",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-17/2012-11-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-17/R1-vincennes/R1C1-prix-de-bretigny.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R1-vincennes/R1C2-prix-edmond-henry.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R1-vincennes/R1C6-coupe-des-amateurs-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R1-vincennes/R1C9-prix-de-senonnes.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R2-lyon-la-soie/R2C2-prix-edmond-henry.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R2-lyon-la-soie/R2C6-coupe-des-amateurs-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R2-lyon-la-soie/R2C7-coupe-des-amateurs-groupe-b.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R2-lyon-la-soie/R2C8-prix-d-avranches.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R2-lyon-la-soie/R2C9-prix-de-senonnes.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C2-prix-edmond-henry.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C4-prix-de-bretagne.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C5-prix-de-cosse-le-vivien.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C6-coupe-des-amateurs-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C8-prix-d-avranches.html",
+      "resultats-et-rapports/2012/11/2012-11-17/R3-toulouse/R3C9-prix-de-senonnes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-lyon-la-soie",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bretigny.html",
+        "R1C2-prix-edmond-henry.html",
+        "R1C3-prix-de-belfort.html",
+        "R1C4-prix-de-bretagne.html",
+        "R1C5-prix-de-cosse-le-vivien.html",
+        "R1C6-coupe-des-amateurs-groupe-a.html",
+        "R1C7-coupe-des-amateurs-groupe-b.html",
+        "R1C8-prix-d-avranches.html",
+        "R1C9-prix-de-senonnes.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-de-bretigny.html",
+        "R2C2-prix-edmond-henry.html",
+        "R2C3-prix-de-belfort.html",
+        "R2C4-prix-de-bretagne.html",
+        "R2C5-prix-de-cosse-le-vivien.html",
+        "R2C6-coupe-des-amateurs-groupe-a.html",
+        "R2C7-coupe-des-amateurs-groupe-b.html",
+        "R2C8-prix-d-avranches.html",
+        "R2C9-prix-de-senonnes.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-de-bretigny.html",
+        "R3C2-prix-edmond-henry.html",
+        "R3C3-prix-de-belfort.html",
+        "R3C4-prix-de-bretagne.html",
+        "R3C5-prix-de-cosse-le-vivien.html",
+        "R3C6-coupe-des-amateurs-groupe-a.html",
+        "R3C7-coupe-des-amateurs-groupe-b.html",
+        "R3C8-prix-d-avranches.html",
+        "R3C9-prix-de-senonnes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:13.418830Z"
+}

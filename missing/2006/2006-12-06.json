@@ -1,0 +1,74 @@
+{
+  "date": "2006-12-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/12/2006-12-06",
+    "date_html": "resultats-et-rapports/2006/12/2006-12-06/2006-12-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/12/2006-12-06/R1-marseille-borely/R1C7-prix-d-endurance.html",
+      "resultats-et-rapports/2006/12/2006-12-06/R2-vincennes/R2C3-prix-du-comite-regional-du-sud-est.html",
+      "resultats-et-rapports/2006/12/2006-12-06/R30-san-siro-milan/R30C3-prix-du-comite-regional-du-sud-est.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-borely",
+      "R2-vincennes",
+      "R21-zerace",
+      "R30-san-siro-milan",
+      "R31-do-dragao-porto"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-borely": [
+        "R1C1-prix-pierre-massot.html",
+        "R1C2-prix-des-glaieuls.html",
+        "R1C3-prix-du-comite-regional-du-sud-est.html",
+        "R1C4-prix-de-montmajour.html",
+        "R1C5-prix-du-pontet.html",
+        "R1C6-prix-louis-brunet.html",
+        "R1C7-prix-d-endurance.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-pierre-massot.html",
+        "R2C2-prix-des-glaieuls.html",
+        "R2C3-prix-du-comite-regional-du-sud-est.html",
+        "R2C4-prix-de-montmajour.html",
+        "R2C5-prix-du-pontet.html",
+        "R2C6-prix-louis-brunet.html",
+        "R2C7-prix-d-endurance.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-pierre-massot.html",
+        "R21C2-prix-des-glaieuls.html",
+        "R21C3-prix-du-comite-regional-du-sud-est.html",
+        "R21C4-prix-de-montmajour.html",
+        "R21C5-prix-du-pontet.html",
+        "R21C6-prix-louis-brunet.html",
+        "R21C7-prix-d-endurance.html"
+      ],
+      "R30-san-siro-milan": [
+        "R30C1-prix-pierre-massot.html",
+        "R30C2-prix-des-glaieuls.html",
+        "R30C3-prix-du-comite-regional-du-sud-est.html",
+        "R30C4-prix-de-montmajour.html",
+        "R30C5-prix-du-pontet.html",
+        "R30C6-prix-louis-brunet.html",
+        "R30C7-prix-d-endurance.html"
+      ],
+      "R31-do-dragao-porto": [
+        "R31C1-prix-pierre-massot.html",
+        "R31C2-prix-des-glaieuls.html",
+        "R31C3-prix-du-comite-regional-du-sud-est.html",
+        "R31C4-prix-de-montmajour.html",
+        "R31C5-prix-du-pontet.html",
+        "R31C6-prix-louis-brunet.html",
+        "R31C7-prix-d-endurance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:28.750163Z"
+}

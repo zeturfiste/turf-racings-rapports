@@ -1,0 +1,79 @@
+{
+  "date": "2023-07-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/07/2023-07-10",
+    "date_html": "resultats-et-rapports/2023/07/2023-07-10/2023-07-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/07/2023-07-10/R3-pornichet-la-baule/R3C9-prix-du-chateau-neuf.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R4-la-teste-de-buch/R4C1-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R4-la-teste-de-buch/R4C2-prix-de-versigny.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R4-la-teste-de-buch/R4C6-prix-du-carrefour-des-quatres-freres.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R4-la-teste-de-buch/R4C9-prix-du-chateau-neuf.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R5-cagnes-sur-mer/R5C1-prix-du-soleil-de-bretagne.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R5-cagnes-sur-mer/R5C4-prix-du-chemin-blanc.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R5-cagnes-sur-mer/R5C5-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R5-cagnes-sur-mer/R5C7-prix-du-petit-chateau.html",
+      "resultats-et-rapports/2023/07/2023-07-10/R5-cagnes-sur-mer/R5C9-prix-du-chateau-neuf.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-pornichet-la-baule",
+      "R4-la-teste-de-buch",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-soleil-de-bretagne.html",
+        "R1C2-prix-de-versigny.html",
+        "R1C3-prix-de-la-verrerie.html",
+        "R1C4-prix-du-chemin-blanc.html",
+        "R1C5-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R1C6-prix-du-carrefour-des-quatres-freres.html",
+        "R1C7-prix-du-petit-chateau.html",
+        "R1C8-prix-du-carrefour-des-lyonnais.html",
+        "R1C9-prix-du-chateau-neuf.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-soleil-de-bretagne.html",
+        "R3C2-prix-de-versigny.html",
+        "R3C3-prix-de-la-verrerie.html",
+        "R3C4-prix-du-chemin-blanc.html",
+        "R3C5-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R3C6-prix-du-carrefour-des-quatres-freres.html",
+        "R3C7-prix-du-petit-chateau.html",
+        "R3C8-prix-du-carrefour-des-lyonnais.html",
+        "R3C9-prix-du-chateau-neuf.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-du-soleil-de-bretagne.html",
+        "R4C2-prix-de-versigny.html",
+        "R4C3-prix-de-la-verrerie.html",
+        "R4C4-prix-du-chemin-blanc.html",
+        "R4C5-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R4C6-prix-du-carrefour-des-quatres-freres.html",
+        "R4C7-prix-du-petit-chateau.html",
+        "R4C8-prix-du-carrefour-des-lyonnais.html",
+        "R4C9-prix-du-chateau-neuf.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-du-soleil-de-bretagne.html",
+        "R5C2-prix-de-versigny.html",
+        "R5C3-prix-de-la-verrerie.html",
+        "R5C4-prix-du-chemin-blanc.html",
+        "R5C5-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R5C6-prix-du-carrefour-des-quatres-freres.html",
+        "R5C7-prix-du-petit-chateau.html",
+        "R5C8-prix-du-carrefour-des-lyonnais.html",
+        "R5C9-prix-du-chateau-neuf.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:11.388812Z"
+}

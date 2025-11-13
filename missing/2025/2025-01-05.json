@@ -1,0 +1,80 @@
+{
+  "date": "2025-01-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-05",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-05/2025-01-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-cagnes-sur-mer",
+      "R5-pornichet-la-baule",
+      "R8-bordeaux-le-bouscat",
+      "R9-cordemais"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gelinotte.html",
+        "R1C2-prix-d-etrepagny.html",
+        "R1C3-prix-d-enghien.html",
+        "R1C4-prix-de-lille.html",
+        "R1C5-prix-charles-tiercelin.html",
+        "R1C6-prix-de-salon-de-provence.html",
+        "R1C7-prix-du-calvados-cornulier-races-q3.html",
+        "R1C8-prix-de-lignieres.html",
+        "R1C9-prix-de-gontaud.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-gelinotte.html",
+        "R4C2-prix-d-etrepagny.html",
+        "R4C3-prix-d-enghien.html",
+        "R4C4-prix-de-lille.html",
+        "R4C5-prix-charles-tiercelin.html",
+        "R4C6-prix-de-salon-de-provence.html",
+        "R4C7-prix-du-calvados-cornulier-races-q3.html",
+        "R4C8-prix-de-lignieres.html",
+        "R4C9-prix-de-gontaud.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-gelinotte.html",
+        "R5C2-prix-d-etrepagny.html",
+        "R5C3-prix-d-enghien.html",
+        "R5C4-prix-de-lille.html",
+        "R5C5-prix-charles-tiercelin.html",
+        "R5C6-prix-de-salon-de-provence.html",
+        "R5C7-prix-du-calvados-cornulier-races-q3.html",
+        "R5C8-prix-de-lignieres.html",
+        "R5C9-prix-de-gontaud.html"
+      ],
+      "R8-bordeaux-le-bouscat": [
+        "R8C1-prix-gelinotte.html",
+        "R8C2-prix-d-etrepagny.html",
+        "R8C3-prix-d-enghien.html",
+        "R8C4-prix-de-lille.html",
+        "R8C5-prix-charles-tiercelin.html",
+        "R8C6-prix-de-salon-de-provence.html",
+        "R8C7-prix-du-calvados-cornulier-races-q3.html",
+        "R8C8-prix-de-lignieres.html",
+        "R8C9-prix-de-gontaud.html"
+      ],
+      "R9-cordemais": [
+        "R9C1-prix-gelinotte.html",
+        "R9C2-prix-d-etrepagny.html",
+        "R9C3-prix-d-enghien.html",
+        "R9C4-prix-de-lille.html",
+        "R9C5-prix-charles-tiercelin.html",
+        "R9C6-prix-de-salon-de-provence.html",
+        "R9C7-prix-du-calvados-cornulier-races-q3.html",
+        "R9C8-prix-de-lignieres.html",
+        "R9C9-prix-de-gontaud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:38.669935Z"
+}

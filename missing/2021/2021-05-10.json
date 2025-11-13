@@ -1,0 +1,97 @@
+{
+  "date": "2021-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-10",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-10/2021-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C1-prix-de-dormans.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C2-prix-mississipian.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C3-prix-producer.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C4-prix-alcantara-ii.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C5-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C6-prix-de-villaroche.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C7-prix-d-etrepagny.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R1-saint-cloud/R1C8-prix-de-gonneville.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C1-prix-de-dormans.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C2-prix-mississipian.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C3-prix-producer.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C4-prix-alcantara-ii.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C5-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C6-prix-de-villaroche.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C7-prix-d-etrepagny.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R3-caen/R3C8-prix-de-gonneville.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C1-prix-de-dormans.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C2-prix-mississipian.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C3-prix-producer.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C4-prix-alcantara-ii.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C5-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C6-prix-de-villaroche.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C7-prix-d-etrepagny.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R4-le-mans/R4C8-prix-de-gonneville.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C1-prix-de-dormans.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C2-prix-mississipian.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C3-prix-producer.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C4-prix-alcantara-ii.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C5-prix-d-artiguelouve.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C6-prix-de-villaroche.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C7-prix-d-etrepagny.html",
+      "resultats-et-rapports/2021/05/2021-05-10/R7-le-croise-laroche/R7C8-prix-de-gonneville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-caen",
+      "R4-le-mans",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-dormans.html",
+        "R1C2-prix-mississipian.html",
+        "R1C3-prix-producer.html",
+        "R1C4-prix-alcantara-ii.html",
+        "R1C5-prix-d-artiguelouve.html",
+        "R1C6-prix-de-villaroche.html",
+        "R1C7-prix-d-etrepagny.html",
+        "R1C8-prix-de-gonneville.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-dormans.html",
+        "R3C2-prix-mississipian.html",
+        "R3C3-prix-producer.html",
+        "R3C4-prix-alcantara-ii.html",
+        "R3C5-prix-d-artiguelouve.html",
+        "R3C6-prix-de-villaroche.html",
+        "R3C7-prix-d-etrepagny.html",
+        "R3C8-prix-de-gonneville.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-de-dormans.html",
+        "R4C2-prix-mississipian.html",
+        "R4C3-prix-producer.html",
+        "R4C4-prix-alcantara-ii.html",
+        "R4C5-prix-d-artiguelouve.html",
+        "R4C6-prix-de-villaroche.html",
+        "R4C7-prix-d-etrepagny.html",
+        "R4C8-prix-de-gonneville.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-de-dormans.html",
+        "R7C2-prix-mississipian.html",
+        "R7C3-prix-producer.html",
+        "R7C4-prix-alcantara-ii.html",
+        "R7C5-prix-d-artiguelouve.html",
+        "R7C6-prix-de-villaroche.html",
+        "R7C7-prix-d-etrepagny.html",
+        "R7C8-prix-de-gonneville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:18.414205Z"
+}

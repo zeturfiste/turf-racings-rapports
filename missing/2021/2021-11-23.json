@@ -1,0 +1,68 @@
+{
+  "date": "2021-11-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-23",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-23/2021-11-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-23/R1-deauville/R1C6-prix-de-precolette.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R1-deauville/R1C7-prix-lyphard.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R3-salon-de-provence/R3C3-prix-de-l-epinay.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R3-salon-de-provence/R3C9-prix-de-la-mise-en-scene.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R3-salon-de-provence/R3C10-prix-du-public.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R4-vincennes/R4C4-prix-du-hameau-pere.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R4-vincennes/R4C8-prix-du-bessin.html",
+      "resultats-et-rapports/2021/11/2021-11-23/R4-vincennes/R4C10-prix-du-public.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-hernando.html",
+        "R1C2-prix-du-jury.html",
+        "R1C3-prix-de-l-epinay.html",
+        "R1C4-prix-du-hameau-pere.html",
+        "R1C5-prix-de-la-rocque.html",
+        "R1C6-prix-de-precolette.html",
+        "R1C7-prix-lyphard.html",
+        "R1C8-prix-du-bessin.html",
+        "R1C9-prix-de-la-mise-en-scene.html",
+        "R1C10-prix-du-public.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-hernando.html",
+        "R3C2-prix-du-jury.html",
+        "R3C3-prix-de-l-epinay.html",
+        "R3C4-prix-du-hameau-pere.html",
+        "R3C5-prix-de-la-rocque.html",
+        "R3C6-prix-de-precolette.html",
+        "R3C7-prix-lyphard.html",
+        "R3C8-prix-du-bessin.html",
+        "R3C9-prix-de-la-mise-en-scene.html",
+        "R3C10-prix-du-public.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-hernando.html",
+        "R4C2-prix-du-jury.html",
+        "R4C3-prix-de-l-epinay.html",
+        "R4C4-prix-du-hameau-pere.html",
+        "R4C5-prix-de-la-rocque.html",
+        "R4C6-prix-de-precolette.html",
+        "R4C7-prix-lyphard.html",
+        "R4C8-prix-du-bessin.html",
+        "R4C9-prix-de-la-mise-en-scene.html",
+        "R4C10-prix-du-public.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:36.633483Z"
+}

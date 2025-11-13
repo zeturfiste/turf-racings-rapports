@@ -1,0 +1,79 @@
+{
+  "date": "2022-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-22",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-22/2022-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-22/R1-deauville/R1C2-prix-de-la-pigeonniere.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R1-deauville/R1C5-prix-du-chalet-mozin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R1-deauville/R1C6-prix-du-lieu-calice.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R1-deauville/R1C7-prix-d-omaha-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R1-deauville/R1C8-prix-du-bessin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C1-prix-d-utah-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C2-prix-de-la-pigeonniere.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C3-prix-de-juno-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C4-prix-hernando.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C5-prix-du-chalet-mozin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C6-prix-du-lieu-calice.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C8-prix-du-bessin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R3-salon-de-provence/R3C9-prix-de-gold-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C1-prix-d-utah-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C2-prix-de-la-pigeonniere.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C3-prix-de-juno-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C4-prix-hernando.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C5-prix-du-chalet-mozin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C6-prix-du-lieu-calice.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C7-prix-d-omaha-beach.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C8-prix-du-bessin.html",
+      "resultats-et-rapports/2022/11/2022-11-22/R4-vincennes/R4C9-prix-de-gold-beach.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-d-utah-beach.html",
+        "R1C2-prix-de-la-pigeonniere.html",
+        "R1C3-prix-de-juno-beach.html",
+        "R1C4-prix-hernando.html",
+        "R1C5-prix-du-chalet-mozin.html",
+        "R1C6-prix-du-lieu-calice.html",
+        "R1C7-prix-d-omaha-beach.html",
+        "R1C8-prix-du-bessin.html",
+        "R1C9-prix-de-gold-beach.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-d-utah-beach.html",
+        "R3C2-prix-de-la-pigeonniere.html",
+        "R3C3-prix-de-juno-beach.html",
+        "R3C4-prix-hernando.html",
+        "R3C5-prix-du-chalet-mozin.html",
+        "R3C6-prix-du-lieu-calice.html",
+        "R3C7-prix-d-omaha-beach.html",
+        "R3C8-prix-du-bessin.html",
+        "R3C9-prix-de-gold-beach.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-d-utah-beach.html",
+        "R4C2-prix-de-la-pigeonniere.html",
+        "R4C3-prix-de-juno-beach.html",
+        "R4C4-prix-hernando.html",
+        "R4C5-prix-du-chalet-mozin.html",
+        "R4C6-prix-du-lieu-calice.html",
+        "R4C7-prix-d-omaha-beach.html",
+        "R4C8-prix-du-bessin.html",
+        "R4C9-prix-de-gold-beach.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:49.816183Z"
+}

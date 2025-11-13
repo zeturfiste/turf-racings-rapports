@@ -1,0 +1,67 @@
+{
+  "date": "2006-11-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-28",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-28/2006-11-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-28/R1-maisons-laffitte/R1C2-prix-hayati.html",
+      "resultats-et-rapports/2006/11/2006-11-28/R1-maisons-laffitte/R1C8-prix-des-petites-ecoles-de-port-royal.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-toulouse",
+      "R3-vincennes",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-guemul.html",
+        "R1C2-prix-hayati.html",
+        "R1C3-prix-commandeur.html",
+        "R1C4-prix-jacques-de-vienne.html",
+        "R1C5-prix-de-l-abbaye-de-port-royal.html",
+        "R1C6-prix-de-poissy.html",
+        "R1C7-prix-de-l-abbaye-des-vaulx-de-cernay.html",
+        "R1C8-prix-des-petites-ecoles-de-port-royal.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-guemul.html",
+        "R2C2-prix-hayati.html",
+        "R2C3-prix-commandeur.html",
+        "R2C4-prix-jacques-de-vienne.html",
+        "R2C5-prix-de-l-abbaye-de-port-royal.html",
+        "R2C6-prix-de-poissy.html",
+        "R2C7-prix-de-l-abbaye-des-vaulx-de-cernay.html",
+        "R2C8-prix-des-petites-ecoles-de-port-royal.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-guemul.html",
+        "R3C2-prix-hayati.html",
+        "R3C3-prix-commandeur.html",
+        "R3C4-prix-jacques-de-vienne.html",
+        "R3C5-prix-de-l-abbaye-de-port-royal.html",
+        "R3C6-prix-de-poissy.html",
+        "R3C7-prix-de-l-abbaye-des-vaulx-de-cernay.html",
+        "R3C8-prix-des-petites-ecoles-de-port-royal.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-guemul.html",
+        "R21C2-prix-hayati.html",
+        "R21C3-prix-commandeur.html",
+        "R21C4-prix-jacques-de-vienne.html",
+        "R21C5-prix-de-l-abbaye-de-port-royal.html",
+        "R21C6-prix-de-poissy.html",
+        "R21C7-prix-de-l-abbaye-des-vaulx-de-cernay.html",
+        "R21C8-prix-des-petites-ecoles-de-port-royal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:26.509050Z"
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2017-03-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/03/2017-03-14",
+    "date_html": "resultats-et-rapports/2017/03/2017-03-14/2017-03-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C1-prix-tandem.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C2-prix-talweg.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C3-prix-jocker.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C4-prix-du-bois-bonnet.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C5-prix-molton.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C6-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C7-prix-du-bat-l-eau.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R1-chantilly/R1C8-prix-janus.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R4-cagnes-sur-mer/R4C4-prix-du-bois-bonnet.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R4-cagnes-sur-mer/R4C6-prix-du-haras-au-bois.html",
+      "resultats-et-rapports/2017/03/2017-03-14/R4-cagnes-sur-mer/R4C7-prix-du-bat-l-eau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-fontainebleau",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-tandem.html",
+        "R1C2-prix-talweg.html",
+        "R1C3-prix-jocker.html",
+        "R1C4-prix-du-bois-bonnet.html",
+        "R1C5-prix-molton.html",
+        "R1C6-prix-du-haras-au-bois.html",
+        "R1C7-prix-du-bat-l-eau.html",
+        "R1C8-prix-janus.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-tandem.html",
+        "R2C2-prix-talweg.html",
+        "R2C3-prix-jocker.html",
+        "R2C4-prix-du-bois-bonnet.html",
+        "R2C5-prix-molton.html",
+        "R2C6-prix-du-haras-au-bois.html",
+        "R2C7-prix-du-bat-l-eau.html",
+        "R2C8-prix-janus.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-tandem.html",
+        "R4C2-prix-talweg.html",
+        "R4C3-prix-jocker.html",
+        "R4C4-prix-du-bois-bonnet.html",
+        "R4C5-prix-molton.html",
+        "R4C6-prix-du-haras-au-bois.html",
+        "R4C7-prix-du-bat-l-eau.html",
+        "R4C8-prix-janus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:12.938723Z"
+}

@@ -1,0 +1,90 @@
+{
+  "date": "2015-11-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/11/2015-11-07",
+    "date_html": "resultats-et-rapports/2015/11/2015-11-07/2015-11-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/11/2015-11-07/R1-auteuil/R1C2-prix-bournosienne.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R1-auteuil/R1C3-prix-congress.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R1-auteuil/R1C4-prix-cacao.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R1-auteuil/R1C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R1-auteuil/R1C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R2-lyon-parilly/R2C3-prix-congress.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R2-lyon-parilly/R2C4-prix-cacao.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R3-toulouse/R3C3-prix-congress.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R3-toulouse/R3C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R3-toulouse/R3C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R4-cabourg/R4C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R4-cabourg/R4C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C1-115eme-prix-de-france.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C2-prix-bournosienne.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C3-prix-congress.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C4-prix-cacao.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C6-prix-robert-weill-prix-ketch.html",
+      "resultats-et-rapports/2015/11/2015-11-07/R6-pornichet-la-baule/R6C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-parilly",
+      "R3-toulouse",
+      "R4-cabourg",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-115eme-prix-de-france.html",
+        "R1C2-prix-bournosienne.html",
+        "R1C3-prix-congress.html",
+        "R1C4-prix-cacao.html",
+        "R1C5-grand-prix-d-automne.html",
+        "R1C6-prix-robert-weill-prix-ketch.html",
+        "R1C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-115eme-prix-de-france.html",
+        "R2C2-prix-bournosienne.html",
+        "R2C3-prix-congress.html",
+        "R2C4-prix-cacao.html",
+        "R2C5-grand-prix-d-automne.html",
+        "R2C6-prix-robert-weill-prix-ketch.html",
+        "R2C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-115eme-prix-de-france.html",
+        "R3C2-prix-bournosienne.html",
+        "R3C3-prix-congress.html",
+        "R3C4-prix-cacao.html",
+        "R3C5-grand-prix-d-automne.html",
+        "R3C6-prix-robert-weill-prix-ketch.html",
+        "R3C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-115eme-prix-de-france.html",
+        "R4C2-prix-bournosienne.html",
+        "R4C3-prix-congress.html",
+        "R4C4-prix-cacao.html",
+        "R4C5-grand-prix-d-automne.html",
+        "R4C6-prix-robert-weill-prix-ketch.html",
+        "R4C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-115eme-prix-de-france.html",
+        "R6C2-prix-bournosienne.html",
+        "R6C3-prix-congress.html",
+        "R6C4-prix-cacao.html",
+        "R6C5-grand-prix-d-automne.html",
+        "R6C6-prix-robert-weill-prix-ketch.html",
+        "R6C7-prix-du-salon-du-cheval-de-paris-2015-prix-oeneas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:48.349920Z"
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2024-07-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-16",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-16/2024-07-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-16/R1-vichy/R1C2-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R1-vichy/R1C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R1-vichy/R1C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R1-vichy/R1C7-prix-tripolette.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C1-prix-du-charolais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C2-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C5-prix-de-lusigny.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C6-prix-du-brionnais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C7-prix-tripolette.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R3-chateaubriant/R3C8-prix-de-lignieres.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C1-prix-du-charolais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C2-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C5-prix-de-lusigny.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C6-prix-du-brionnais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C7-prix-tripolette.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R4-le-mans/R4C8-prix-de-lignieres.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C1-prix-du-charolais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C2-prix-de-l-hippodrome-de-casablanca.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C4-prix-hubert-de-catheu.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C5-prix-de-lusigny.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C6-prix-du-brionnais.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C7-prix-tripolette.html",
+      "resultats-et-rapports/2024/07/2024-07-16/R5-cabourg/R5C8-prix-de-lignieres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-chateaubriant",
+      "R4-le-mans",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-du-charolais.html",
+        "R1C2-prix-de-l-hippodrome-de-casablanca.html",
+        "R1C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+        "R1C4-prix-hubert-de-catheu.html",
+        "R1C5-prix-de-lusigny.html",
+        "R1C6-prix-du-brionnais.html",
+        "R1C7-prix-tripolette.html",
+        "R1C8-prix-de-lignieres.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-du-charolais.html",
+        "R3C2-prix-de-l-hippodrome-de-casablanca.html",
+        "R3C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+        "R3C4-prix-hubert-de-catheu.html",
+        "R3C5-prix-de-lusigny.html",
+        "R3C6-prix-du-brionnais.html",
+        "R3C7-prix-tripolette.html",
+        "R3C8-prix-de-lignieres.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-du-charolais.html",
+        "R4C2-prix-de-l-hippodrome-de-casablanca.html",
+        "R4C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+        "R4C4-prix-hubert-de-catheu.html",
+        "R4C5-prix-de-lusigny.html",
+        "R4C6-prix-du-brionnais.html",
+        "R4C7-prix-tripolette.html",
+        "R4C8-prix-de-lignieres.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-charolais.html",
+        "R5C2-prix-de-l-hippodrome-de-casablanca.html",
+        "R5C3-prix-hubert-baguenault-de-puchesse-7e-etape-du-defi-du-galop.html",
+        "R5C4-prix-hubert-de-catheu.html",
+        "R5C5-prix-de-lusigny.html",
+        "R5C6-prix-du-brionnais.html",
+        "R5C7-prix-tripolette.html",
+        "R5C8-prix-de-lignieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:30.574891Z"
+}

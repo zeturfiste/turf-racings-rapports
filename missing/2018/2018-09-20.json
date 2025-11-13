@@ -1,0 +1,76 @@
+{
+  "date": "2018-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-20",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-20/2018-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-20/R1-vincennes/R1C2-prix-de-beaucaire.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R1-vincennes/R1C3-prix-bernard-le-quellec.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C1-prix-de-montmorillon.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C2-prix-de-beaucaire.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C3-prix-bernard-le-quellec.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C5-prix-gaston-roussel.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C6-prix-de-taverny.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R2-strasbourg/R2C8-prix-de-givors.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R3-fontainebleau/R3C1-prix-de-montmorillon.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R3-fontainebleau/R3C2-prix-de-beaucaire.html",
+      "resultats-et-rapports/2018/09/2018-09-20/R3-fontainebleau/R3C8-prix-de-givors.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-strasbourg",
+      "R3-fontainebleau",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montmorillon.html",
+        "R1C2-prix-de-beaucaire.html",
+        "R1C3-prix-bernard-le-quellec.html",
+        "R1C4-prix-de-mehun-sur-yevre.html",
+        "R1C5-prix-gaston-roussel.html",
+        "R1C6-prix-de-taverny.html",
+        "R1C7-prix-de-narbonne.html",
+        "R1C8-prix-de-givors.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-montmorillon.html",
+        "R2C2-prix-de-beaucaire.html",
+        "R2C3-prix-bernard-le-quellec.html",
+        "R2C4-prix-de-mehun-sur-yevre.html",
+        "R2C5-prix-gaston-roussel.html",
+        "R2C6-prix-de-taverny.html",
+        "R2C7-prix-de-narbonne.html",
+        "R2C8-prix-de-givors.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-montmorillon.html",
+        "R3C2-prix-de-beaucaire.html",
+        "R3C3-prix-bernard-le-quellec.html",
+        "R3C4-prix-de-mehun-sur-yevre.html",
+        "R3C5-prix-gaston-roussel.html",
+        "R3C6-prix-de-taverny.html",
+        "R3C7-prix-de-narbonne.html",
+        "R3C8-prix-de-givors.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-montmorillon.html",
+        "R4C2-prix-de-beaucaire.html",
+        "R4C3-prix-bernard-le-quellec.html",
+        "R4C4-prix-de-mehun-sur-yevre.html",
+        "R4C5-prix-gaston-roussel.html",
+        "R4C6-prix-de-taverny.html",
+        "R4C7-prix-de-narbonne.html",
+        "R4C8-prix-de-givors.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:10.422205Z"
+}

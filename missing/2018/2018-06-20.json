@@ -1,0 +1,81 @@
+{
+  "date": "2018-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-20",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-20/2018-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C2-prix-de-l-unat.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C3-prix-jacques-moreau-prix-patrick-simon.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C6-prix-oscar-collard.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C7-prix-julien-cornet.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R1-reims/R1C8-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R3-maisons-laffitte/R3C8-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R5-dax/R5C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R5-dax/R5C3-prix-jacques-moreau-prix-patrick-simon.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R5-dax/R5C8-prix-du-bon-accueil-tinqueux.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R7-marseille-borely/R7C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R7-marseille-borely/R7C3-prix-jacques-moreau-prix-patrick-simon.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R7-marseille-borely/R7C4-prix-du-journal-l-union.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R7-marseille-borely/R7C5-prix-du-champagne-palmer-prix-leopold-verroken.html",
+      "resultats-et-rapports/2018/06/2018-06-20/R7-marseille-borely/R7C8-prix-du-bon-accueil-tinqueux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-reims",
+      "R3-maisons-laffitte",
+      "R5-dax",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-reims": [
+        "R1C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+        "R1C2-prix-de-l-unat.html",
+        "R1C3-prix-jacques-moreau-prix-patrick-simon.html",
+        "R1C4-prix-du-journal-l-union.html",
+        "R1C5-prix-du-champagne-palmer-prix-leopold-verroken.html",
+        "R1C6-prix-oscar-collard.html",
+        "R1C7-prix-julien-cornet.html",
+        "R1C8-prix-du-bon-accueil-tinqueux.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+        "R3C2-prix-de-l-unat.html",
+        "R3C3-prix-jacques-moreau-prix-patrick-simon.html",
+        "R3C4-prix-du-journal-l-union.html",
+        "R3C5-prix-du-champagne-palmer-prix-leopold-verroken.html",
+        "R3C6-prix-oscar-collard.html",
+        "R3C7-prix-julien-cornet.html",
+        "R3C8-prix-du-bon-accueil-tinqueux.html"
+      ],
+      "R5-dax": [
+        "R5C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+        "R5C2-prix-de-l-unat.html",
+        "R5C3-prix-jacques-moreau-prix-patrick-simon.html",
+        "R5C4-prix-du-journal-l-union.html",
+        "R5C5-prix-du-champagne-palmer-prix-leopold-verroken.html",
+        "R5C6-prix-oscar-collard.html",
+        "R5C7-prix-julien-cornet.html",
+        "R5C8-prix-du-bon-accueil-tinqueux.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-national-du-trot-paris-turf-grand-prix-ville-de-reims.html",
+        "R7C2-prix-de-l-unat.html",
+        "R7C3-prix-jacques-moreau-prix-patrick-simon.html",
+        "R7C4-prix-du-journal-l-union.html",
+        "R7C5-prix-du-champagne-palmer-prix-leopold-verroken.html",
+        "R7C6-prix-oscar-collard.html",
+        "R7C7-prix-julien-cornet.html",
+        "R7C8-prix-du-bon-accueil-tinqueux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:39.401637Z"
+}

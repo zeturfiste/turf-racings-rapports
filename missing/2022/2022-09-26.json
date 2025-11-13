@@ -1,0 +1,71 @@
+{
+  "date": "2022-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-26",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-26/2022-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-26/R2-craon/R2C1-cluster-equin-sante-bien-etre-toulouse.html",
+      "resultats-et-rapports/2022/09/2022-09-26/R2-craon/R2C7-prix-horse-cup-france-prix-henri-callier.html",
+      "resultats-et-rapports/2022/09/2022-09-26/R3-vichy/R3C3-prix-longines-equita-lyon-c-h-i-bordeaux.html",
+      "resultats-et-rapports/2022/09/2022-09-26/R3-vichy/R3C5-prix-markel-assurance-equine-cabourg.html",
+      "resultats-et-rapports/2022/09/2022-09-26/R4-marseille-vivaux/R4C6-prix-novo-stable-prix-de-strasbourg.html",
+      "resultats-et-rapports/2022/09/2022-09-26/R4-marseille-vivaux/R4C7-prix-horse-cup-france-prix-henri-callier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-craon",
+      "R3-vichy",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-cluster-equin-sante-bien-etre-toulouse.html",
+        "R1C2-prix-province-courses-prix-de-marseille.html",
+        "R1C3-prix-longines-equita-lyon-c-h-i-bordeaux.html",
+        "R1C4-grand-prix-de-trot-de-lyon.html",
+        "R1C5-prix-markel-assurance-equine-cabourg.html",
+        "R1C6-prix-novo-stable-prix-de-strasbourg.html",
+        "R1C7-prix-horse-cup-france-prix-henri-callier.html",
+        "R1C8-prix-mfr-de-mornand-en-forez-prix-de-nantes.html"
+      ],
+      "R2-craon": [
+        "R2C1-cluster-equin-sante-bien-etre-toulouse.html",
+        "R2C2-prix-province-courses-prix-de-marseille.html",
+        "R2C3-prix-longines-equita-lyon-c-h-i-bordeaux.html",
+        "R2C4-grand-prix-de-trot-de-lyon.html",
+        "R2C5-prix-markel-assurance-equine-cabourg.html",
+        "R2C6-prix-novo-stable-prix-de-strasbourg.html",
+        "R2C7-prix-horse-cup-france-prix-henri-callier.html",
+        "R2C8-prix-mfr-de-mornand-en-forez-prix-de-nantes.html"
+      ],
+      "R3-vichy": [
+        "R3C1-cluster-equin-sante-bien-etre-toulouse.html",
+        "R3C2-prix-province-courses-prix-de-marseille.html",
+        "R3C3-prix-longines-equita-lyon-c-h-i-bordeaux.html",
+        "R3C4-grand-prix-de-trot-de-lyon.html",
+        "R3C5-prix-markel-assurance-equine-cabourg.html",
+        "R3C6-prix-novo-stable-prix-de-strasbourg.html",
+        "R3C7-prix-horse-cup-france-prix-henri-callier.html",
+        "R3C8-prix-mfr-de-mornand-en-forez-prix-de-nantes.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-cluster-equin-sante-bien-etre-toulouse.html",
+        "R4C2-prix-province-courses-prix-de-marseille.html",
+        "R4C3-prix-longines-equita-lyon-c-h-i-bordeaux.html",
+        "R4C4-grand-prix-de-trot-de-lyon.html",
+        "R4C5-prix-markel-assurance-equine-cabourg.html",
+        "R4C6-prix-novo-stable-prix-de-strasbourg.html",
+        "R4C7-prix-horse-cup-france-prix-henri-callier.html",
+        "R4C8-prix-mfr-de-mornand-en-forez-prix-de-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:29.367649Z"
+}

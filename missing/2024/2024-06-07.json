@@ -1,0 +1,74 @@
+{
+  "date": "2024-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-07",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-07/2024-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-07/R4-compiegne/R4C4-prix-titania.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R4-compiegne/R4C6-prix-d-istres.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R4-compiegne/R4C7-prix-trace-tv-prix-kaitain.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C1-prix-mimas.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C4-prix-titania.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C5-prix-de-gien.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C6-prix-d-istres.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C7-prix-trace-tv-prix-kaitain.html",
+      "resultats-et-rapports/2024/06/2024-06-07/R5-marseille-borely/R5C8-prix-billets-discount-prix-lydia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-lisieux",
+      "R4-compiegne",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-mimas.html",
+        "R1C2-prix-radio-latina-prix-adalberta.html",
+        "R1C3-prix-tropiques-fm-prix-marsik.html",
+        "R1C4-prix-titania.html",
+        "R1C5-prix-de-gien.html",
+        "R1C6-prix-d-istres.html",
+        "R1C7-prix-trace-tv-prix-kaitain.html",
+        "R1C8-prix-billets-discount-prix-lydia.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-mimas.html",
+        "R3C2-prix-radio-latina-prix-adalberta.html",
+        "R3C3-prix-tropiques-fm-prix-marsik.html",
+        "R3C4-prix-titania.html",
+        "R3C5-prix-de-gien.html",
+        "R3C6-prix-d-istres.html",
+        "R3C7-prix-trace-tv-prix-kaitain.html",
+        "R3C8-prix-billets-discount-prix-lydia.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-mimas.html",
+        "R4C2-prix-radio-latina-prix-adalberta.html",
+        "R4C3-prix-tropiques-fm-prix-marsik.html",
+        "R4C4-prix-titania.html",
+        "R4C5-prix-de-gien.html",
+        "R4C6-prix-d-istres.html",
+        "R4C7-prix-trace-tv-prix-kaitain.html",
+        "R4C8-prix-billets-discount-prix-lydia.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-mimas.html",
+        "R5C2-prix-radio-latina-prix-adalberta.html",
+        "R5C3-prix-tropiques-fm-prix-marsik.html",
+        "R5C4-prix-titania.html",
+        "R5C5-prix-de-gien.html",
+        "R5C6-prix-d-istres.html",
+        "R5C7-prix-trace-tv-prix-kaitain.html",
+        "R5C8-prix-billets-discount-prix-lydia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:15.439672Z"
+}

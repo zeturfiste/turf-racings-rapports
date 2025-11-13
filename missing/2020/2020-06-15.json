@@ -1,0 +1,79 @@
+{
+  "date": "2020-06-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-15",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-15/2020-06-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-15/R1-vichy/R1C5-prix-de-divonne-les-bains.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R3-clairefontaine/R3C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R3-clairefontaine/R3C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R4-le-lion-d-angers/R4C1-prix-de-cognat-lyonne.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R4-le-lion-d-angers/R4C3-prix-d-hauterive.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R4-le-lion-d-angers/R4C7-prix-roquepine-groupe-b.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R4-le-lion-d-angers/R4C8-prix-de-gerzat.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R4-le-lion-d-angers/R4C9-prix-de-gannat.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R6-le-croise-laroche/R6C4-prix-des-parcs-d-allier.html",
+      "resultats-et-rapports/2020/06/2020-06-15/R6-le-croise-laroche/R6C7-prix-roquepine-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-clairefontaine",
+      "R4-le-lion-d-angers",
+      "R6-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-cognat-lyonne.html",
+        "R1C2-prix-bellino-ii.html",
+        "R1C3-prix-d-hauterive.html",
+        "R1C4-prix-des-parcs-d-allier.html",
+        "R1C5-prix-de-divonne-les-bains.html",
+        "R1C6-prix-roquepine-groupe-a.html",
+        "R1C7-prix-roquepine-groupe-b.html",
+        "R1C8-prix-de-gerzat.html",
+        "R1C9-prix-de-gannat.html"
+      ],
+      "R3-clairefontaine": [
+        "R3C1-prix-de-cognat-lyonne.html",
+        "R3C2-prix-bellino-ii.html",
+        "R3C3-prix-d-hauterive.html",
+        "R3C4-prix-des-parcs-d-allier.html",
+        "R3C5-prix-de-divonne-les-bains.html",
+        "R3C6-prix-roquepine-groupe-a.html",
+        "R3C7-prix-roquepine-groupe-b.html",
+        "R3C8-prix-de-gerzat.html",
+        "R3C9-prix-de-gannat.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-de-cognat-lyonne.html",
+        "R4C2-prix-bellino-ii.html",
+        "R4C3-prix-d-hauterive.html",
+        "R4C4-prix-des-parcs-d-allier.html",
+        "R4C5-prix-de-divonne-les-bains.html",
+        "R4C6-prix-roquepine-groupe-a.html",
+        "R4C7-prix-roquepine-groupe-b.html",
+        "R4C8-prix-de-gerzat.html",
+        "R4C9-prix-de-gannat.html"
+      ],
+      "R6-le-croise-laroche": [
+        "R6C1-prix-de-cognat-lyonne.html",
+        "R6C2-prix-bellino-ii.html",
+        "R6C3-prix-d-hauterive.html",
+        "R6C4-prix-des-parcs-d-allier.html",
+        "R6C5-prix-de-divonne-les-bains.html",
+        "R6C6-prix-roquepine-groupe-a.html",
+        "R6C7-prix-roquepine-groupe-b.html",
+        "R6C8-prix-de-gerzat.html",
+        "R6C9-prix-de-gannat.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:18.709047Z"
+}

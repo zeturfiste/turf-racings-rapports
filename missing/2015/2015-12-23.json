@@ -1,0 +1,57 @@
+{
+  "date": "2015-12-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-23",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-23/2015-12-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-23/R2-bordeaux-le-bouscat/R2C2-prix-alain-du-breil.html",
+      "resultats-et-rapports/2015/12/2015-12-23/R2-bordeaux-le-bouscat/R2C3-prix-de-londres.html",
+      "resultats-et-rapports/2015/12/2015-12-23/R3-cabourg/R3C8-prix-de-cheltenham.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-bordeaux-le-bouscat",
+      "R3-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-cambridge.html",
+        "R1C2-prix-alain-du-breil.html",
+        "R1C3-prix-de-londres.html",
+        "R1C4-prix-de-glasgow.html",
+        "R1C5-prix-de-cardiff.html",
+        "R1C6-prix-de-birmingham.html",
+        "R1C7-prix-katko.html",
+        "R1C8-prix-de-cheltenham.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-cambridge.html",
+        "R2C2-prix-alain-du-breil.html",
+        "R2C3-prix-de-londres.html",
+        "R2C4-prix-de-glasgow.html",
+        "R2C5-prix-de-cardiff.html",
+        "R2C6-prix-de-birmingham.html",
+        "R2C7-prix-katko.html",
+        "R2C8-prix-de-cheltenham.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-de-cambridge.html",
+        "R3C2-prix-alain-du-breil.html",
+        "R3C3-prix-de-londres.html",
+        "R3C4-prix-de-glasgow.html",
+        "R3C5-prix-de-cardiff.html",
+        "R3C6-prix-de-birmingham.html",
+        "R3C7-prix-katko.html",
+        "R3C8-prix-de-cheltenham.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:01.845451Z"
+}

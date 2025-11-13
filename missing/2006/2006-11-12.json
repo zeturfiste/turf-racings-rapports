@@ -1,0 +1,128 @@
+{
+  "date": "2006-11-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/11/2006-11-12",
+    "date_html": "resultats-et-rapports/2006/11/2006-11-12/2006-11-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/11/2006-11-12/R2-argentan/R2C5-prix-de-l-hippodrome-de-moulins.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R2-argentan/R2C8-prix-de-l-hippodrome-d-aix-les-bains.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R21-zerace/R21C3-prix-de-l-elevage.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R30-stade-de-l-aube-troyes/R30C2-prix-mongolie.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R30-stade-de-l-aube-troyes/R30C3-prix-de-l-elevage.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R30-stade-de-l-aube-troyes/R30C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R31-stadium-lille-metropole-villeneuve-d-ascq/R31C2-prix-mongolie.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R31-stadium-lille-metropole-villeneuve-d-ascq/R31C5-prix-de-l-hippodrome-de-moulins.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R32-saint-cloud/R32C3-prix-de-l-elevage.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R32-saint-cloud/R32C4-criterium-de-saint-cloud.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R33-shanghai-chine/R33C2-prix-mongolie.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R33-shanghai-chine/R33C3-prix-de-l-elevage.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R33-shanghai-chine/R33C6-l-express.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R33-shanghai-chine/R33C8-prix-de-l-hippodrome-d-aix-les-bains.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R50-madrid-espagne/R50C3-prix-de-l-elevage.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R50-madrid-espagne/R50C5-prix-de-l-hippodrome-de-moulins.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R50-madrid-espagne/R50C6-l-express.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R50-madrid-espagne/R50C7-prix-de-grigny.html",
+      "resultats-et-rapports/2006/11/2006-11-12/R50-madrid-espagne/R50C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-argentan",
+      "R21-zerace",
+      "R30-stade-de-l-aube-troyes",
+      "R31-stadium-lille-metropole-villeneuve-d-ascq",
+      "R32-saint-cloud",
+      "R33-shanghai-chine",
+      "R50-madrid-espagne"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-matchless.html",
+        "R1C2-prix-mongolie.html",
+        "R1C3-prix-de-l-elevage.html",
+        "R1C4-criterium-de-saint-cloud.html",
+        "R1C5-prix-de-l-hippodrome-de-moulins.html",
+        "R1C6-l-express.html",
+        "R1C7-prix-de-grigny.html",
+        "R1C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-matchless.html",
+        "R2C2-prix-mongolie.html",
+        "R2C3-prix-de-l-elevage.html",
+        "R2C4-criterium-de-saint-cloud.html",
+        "R2C5-prix-de-l-hippodrome-de-moulins.html",
+        "R2C6-l-express.html",
+        "R2C7-prix-de-grigny.html",
+        "R2C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-matchless.html",
+        "R21C2-prix-mongolie.html",
+        "R21C3-prix-de-l-elevage.html",
+        "R21C4-criterium-de-saint-cloud.html",
+        "R21C5-prix-de-l-hippodrome-de-moulins.html",
+        "R21C6-l-express.html",
+        "R21C7-prix-de-grigny.html",
+        "R21C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R30-stade-de-l-aube-troyes": [
+        "R30C1-prix-matchless.html",
+        "R30C2-prix-mongolie.html",
+        "R30C3-prix-de-l-elevage.html",
+        "R30C4-criterium-de-saint-cloud.html",
+        "R30C5-prix-de-l-hippodrome-de-moulins.html",
+        "R30C6-l-express.html",
+        "R30C7-prix-de-grigny.html",
+        "R30C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R31-stadium-lille-metropole-villeneuve-d-ascq": [
+        "R31C1-prix-matchless.html",
+        "R31C2-prix-mongolie.html",
+        "R31C3-prix-de-l-elevage.html",
+        "R31C4-criterium-de-saint-cloud.html",
+        "R31C5-prix-de-l-hippodrome-de-moulins.html",
+        "R31C6-l-express.html",
+        "R31C7-prix-de-grigny.html",
+        "R31C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R32-saint-cloud": [
+        "R32C1-prix-matchless.html",
+        "R32C2-prix-mongolie.html",
+        "R32C3-prix-de-l-elevage.html",
+        "R32C4-criterium-de-saint-cloud.html",
+        "R32C5-prix-de-l-hippodrome-de-moulins.html",
+        "R32C6-l-express.html",
+        "R32C7-prix-de-grigny.html",
+        "R32C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R33-shanghai-chine": [
+        "R33C1-prix-matchless.html",
+        "R33C2-prix-mongolie.html",
+        "R33C3-prix-de-l-elevage.html",
+        "R33C4-criterium-de-saint-cloud.html",
+        "R33C5-prix-de-l-hippodrome-de-moulins.html",
+        "R33C6-l-express.html",
+        "R33C7-prix-de-grigny.html",
+        "R33C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ],
+      "R50-madrid-espagne": [
+        "R50C1-prix-matchless.html",
+        "R50C2-prix-mongolie.html",
+        "R50C3-prix-de-l-elevage.html",
+        "R50C4-criterium-de-saint-cloud.html",
+        "R50C5-prix-de-l-hippodrome-de-moulins.html",
+        "R50C6-l-express.html",
+        "R50C7-prix-de-grigny.html",
+        "R50C8-prix-de-l-hippodrome-d-aix-les-bains.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:21.865293Z"
+}

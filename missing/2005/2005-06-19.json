@@ -1,0 +1,44 @@
+{
+  "date": "2005-06-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-19",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-19/2005-06-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nimes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-raymond-fouard.html",
+        "R1C2-prix-d-essai.html",
+        "R1C3-prix-rene-balliere.html",
+        "R1C4-prix-de-grosbois.html",
+        "R1C5-prix-albert-viel.html",
+        "R1C6-prix-du-president-de-la-republique.html",
+        "R1C7-prix-de-grasse.html",
+        "R1C8-prix-xavier-de-saint-palais.html",
+        "R1C9-prix-de-nesles.html"
+      ],
+      "R2-nimes": [
+        "R2C1-prix-raymond-fouard.html",
+        "R2C2-prix-d-essai.html",
+        "R2C3-prix-rene-balliere.html",
+        "R2C4-prix-de-grosbois.html",
+        "R2C5-prix-albert-viel.html",
+        "R2C6-prix-du-president-de-la-republique.html",
+        "R2C7-prix-de-grasse.html",
+        "R2C8-prix-xavier-de-saint-palais.html",
+        "R2C9-prix-de-nesles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:36.600107Z"
+}

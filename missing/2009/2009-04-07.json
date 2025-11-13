@@ -1,0 +1,109 @@
+{
+  "date": "2009-04-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/04/2009-04-07",
+    "date_html": "resultats-et-rapports/2009/04/2009-04-07/2009-04-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/04/2009-04-07/R1-auteuil/R1C4-prix-de-pepinvast.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R2-lyon-villeurbanne/R2C3-prix-grandak.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R2-lyon-villeurbanne/R2C5-prix-murat.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R2-lyon-villeurbanne/R2C6-prix-necor.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R2-lyon-villeurbanne/R2C7-prix-du-barry.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R3-vincennes/R3C4-prix-de-pepinvast.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R3-vincennes/R3C5-prix-murat.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R3-vincennes/R3C7-prix-du-barry.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R31-zerace/R31C2-prix-maguelonne.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R31-zerace/R31C4-prix-de-pepinvast.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R31-zerace/R31C5-prix-murat.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R31-zerace/R31C8-prix-des-breviaires.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R70-el-madrigal-villareal/R70C2-prix-maguelonne.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R70-el-madrigal-villareal/R70C4-prix-de-pepinvast.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R70-el-madrigal-villareal/R70C6-prix-necor.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R70-el-madrigal-villareal/R70C8-prix-des-breviaires.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C2-prix-maguelonne.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C4-prix-de-pepinvast.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C5-prix-murat.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C6-prix-necor.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C7-prix-du-barry.html",
+      "resultats-et-rapports/2009/04/2009-04-07/R71-old-trafford-manchester/R71C8-prix-des-breviaires.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-villeurbanne",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-el-madrigal-villareal",
+      "R71-old-trafford-manchester"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-maguelonne.html",
+        "R1C3-prix-grandak.html",
+        "R1C4-prix-de-pepinvast.html",
+        "R1C5-prix-murat.html",
+        "R1C6-prix-necor.html",
+        "R1C7-prix-du-barry.html",
+        "R1C8-prix-des-breviaires.html"
+      ],
+      "R2-lyon-villeurbanne": [
+        "R2C1-prix-rose-or-no.html",
+        "R2C2-prix-maguelonne.html",
+        "R2C3-prix-grandak.html",
+        "R2C4-prix-de-pepinvast.html",
+        "R2C5-prix-murat.html",
+        "R2C6-prix-necor.html",
+        "R2C7-prix-du-barry.html",
+        "R2C8-prix-des-breviaires.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-maguelonne.html",
+        "R3C3-prix-grandak.html",
+        "R3C4-prix-de-pepinvast.html",
+        "R3C5-prix-murat.html",
+        "R3C6-prix-necor.html",
+        "R3C7-prix-du-barry.html",
+        "R3C8-prix-des-breviaires.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-rose-or-no.html",
+        "R31C2-prix-maguelonne.html",
+        "R31C3-prix-grandak.html",
+        "R31C4-prix-de-pepinvast.html",
+        "R31C5-prix-murat.html",
+        "R31C6-prix-necor.html",
+        "R31C7-prix-du-barry.html",
+        "R31C8-prix-des-breviaires.html"
+      ],
+      "R70-el-madrigal-villareal": [
+        "R70C1-prix-rose-or-no.html",
+        "R70C2-prix-maguelonne.html",
+        "R70C3-prix-grandak.html",
+        "R70C4-prix-de-pepinvast.html",
+        "R70C5-prix-murat.html",
+        "R70C6-prix-necor.html",
+        "R70C7-prix-du-barry.html",
+        "R70C8-prix-des-breviaires.html"
+      ],
+      "R71-old-trafford-manchester": [
+        "R71C1-prix-rose-or-no.html",
+        "R71C2-prix-maguelonne.html",
+        "R71C3-prix-grandak.html",
+        "R71C4-prix-de-pepinvast.html",
+        "R71C5-prix-murat.html",
+        "R71C6-prix-necor.html",
+        "R71C7-prix-du-barry.html",
+        "R71C8-prix-des-breviaires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:31:16.611179Z"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2020-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-15",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-15/2020-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-15/R1-vincennes/R1C3-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R1-vincennes/R1C4-prix-pollux.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R1-vincennes/R1C5-prix-dejanira.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R1-vincennes/R1C6-prix-abundantia.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R1-vincennes/R1C7-prix-diana.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C1-prix-cetus.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C2-prix-ara.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C3-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C4-prix-pollux.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C5-prix-dejanira.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C6-prix-abundantia.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R2-lyon-parilly/R2C7-prix-diana.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C1-prix-cetus.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C2-prix-ara.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C3-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C4-prix-pollux.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C5-prix-dejanira.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C6-prix-abundantia.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R3-meslay-du-maine/R3C7-prix-diana.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C1-prix-cetus.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C2-prix-ara.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C3-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C4-prix-pollux.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C5-prix-dejanira.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C6-prix-abundantia.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R4-graignes/R4C7-prix-diana.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C1-prix-cetus.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C2-prix-ara.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C3-prix-en-selle-pour-nos-soignants.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C4-prix-pollux.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C5-prix-dejanira.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C6-prix-abundantia.html",
+      "resultats-et-rapports/2020/05/2020-05-15/R5-toulouse/R5C7-prix-diana.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-lyon-parilly",
+      "R3-meslay-du-maine",
+      "R4-graignes",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-cetus.html",
+        "R1C2-prix-ara.html",
+        "R1C3-prix-en-selle-pour-nos-soignants.html",
+        "R1C4-prix-pollux.html",
+        "R1C5-prix-dejanira.html",
+        "R1C6-prix-abundantia.html",
+        "R1C7-prix-diana.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-cetus.html",
+        "R2C2-prix-ara.html",
+        "R2C3-prix-en-selle-pour-nos-soignants.html",
+        "R2C4-prix-pollux.html",
+        "R2C5-prix-dejanira.html",
+        "R2C6-prix-abundantia.html",
+        "R2C7-prix-diana.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-cetus.html",
+        "R3C2-prix-ara.html",
+        "R3C3-prix-en-selle-pour-nos-soignants.html",
+        "R3C4-prix-pollux.html",
+        "R3C5-prix-dejanira.html",
+        "R3C6-prix-abundantia.html",
+        "R3C7-prix-diana.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-cetus.html",
+        "R4C2-prix-ara.html",
+        "R4C3-prix-en-selle-pour-nos-soignants.html",
+        "R4C4-prix-pollux.html",
+        "R4C5-prix-dejanira.html",
+        "R4C6-prix-abundantia.html",
+        "R4C7-prix-diana.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-cetus.html",
+        "R5C2-prix-ara.html",
+        "R5C3-prix-en-selle-pour-nos-soignants.html",
+        "R5C4-prix-pollux.html",
+        "R5C5-prix-dejanira.html",
+        "R5C6-prix-abundantia.html",
+        "R5C7-prix-diana.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:06.212095Z"
+}

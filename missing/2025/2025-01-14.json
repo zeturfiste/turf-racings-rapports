@@ -1,0 +1,66 @@
+{
+  "date": "2025-01-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-14",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-14/2025-01-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/01/2025-01-14/R1-vincennes/R1C3-prix-d-ableiges.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R1-vincennes/R1C4-prix-de-bayonne.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R3-pau/R3C6-prix-de-feneu.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R3-pau/R3C7-prix-de-bois-guillaume.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R3-pau/R3C8-prix-de-germigny.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C1-prix-de-brionne.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C2-prix-de-montreuil.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C4-prix-de-bayonne.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C5-prix-de-pont-audemer.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C6-prix-de-feneu.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C7-prix-de-bois-guillaume.html",
+      "resultats-et-rapports/2025/01/2025-01-14/R4-marseille-vivaux/R4C8-prix-de-germigny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-brionne.html",
+        "R1C2-prix-de-montreuil.html",
+        "R1C3-prix-d-ableiges.html",
+        "R1C4-prix-de-bayonne.html",
+        "R1C5-prix-de-pont-audemer.html",
+        "R1C6-prix-de-feneu.html",
+        "R1C7-prix-de-bois-guillaume.html",
+        "R1C8-prix-de-germigny.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-brionne.html",
+        "R3C2-prix-de-montreuil.html",
+        "R3C3-prix-d-ableiges.html",
+        "R3C4-prix-de-bayonne.html",
+        "R3C5-prix-de-pont-audemer.html",
+        "R3C6-prix-de-feneu.html",
+        "R3C7-prix-de-bois-guillaume.html",
+        "R3C8-prix-de-germigny.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-brionne.html",
+        "R4C2-prix-de-montreuil.html",
+        "R4C3-prix-d-ableiges.html",
+        "R4C4-prix-de-bayonne.html",
+        "R4C5-prix-de-pont-audemer.html",
+        "R4C6-prix-de-feneu.html",
+        "R4C7-prix-de-bois-guillaume.html",
+        "R4C8-prix-de-germigny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:41.708286Z"
+}

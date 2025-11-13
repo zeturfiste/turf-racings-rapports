@@ -1,0 +1,96 @@
+{
+  "date": "2025-05-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-02",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-02/2025-05-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C1-prix-polana.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C2-prix-belinda.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C3-prix-altair.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C4-prix-bettina.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C5-prix-celuta.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C6-prix-alioth.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C7-prix-arachne.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R1-vincennes/R1C8-prix-asia.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C1-prix-polana.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C2-prix-belinda.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C3-prix-altair.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C4-prix-bettina.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C5-prix-celuta.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C6-prix-alioth.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C7-prix-arachne.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R3-saint-brieuc/R3C8-prix-asia.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C1-prix-polana.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C2-prix-belinda.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C3-prix-altair.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C4-prix-bettina.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C5-prix-celuta.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C6-prix-alioth.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C7-prix-arachne.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R4-chantilly/R4C8-prix-asia.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C1-prix-polana.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C2-prix-belinda.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C3-prix-altair.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C4-prix-bettina.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C6-prix-alioth.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C7-prix-arachne.html",
+      "resultats-et-rapports/2025/05/2025-05-02/R5-marseille-borely/R5C8-prix-asia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-saint-brieuc",
+      "R4-chantilly",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-polana.html",
+        "R1C2-prix-belinda.html",
+        "R1C3-prix-altair.html",
+        "R1C4-prix-bettina.html",
+        "R1C5-prix-celuta.html",
+        "R1C6-prix-alioth.html",
+        "R1C7-prix-arachne.html",
+        "R1C8-prix-asia.html"
+      ],
+      "R3-saint-brieuc": [
+        "R3C1-prix-polana.html",
+        "R3C2-prix-belinda.html",
+        "R3C3-prix-altair.html",
+        "R3C4-prix-bettina.html",
+        "R3C5-prix-celuta.html",
+        "R3C6-prix-alioth.html",
+        "R3C7-prix-arachne.html",
+        "R3C8-prix-asia.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-polana.html",
+        "R4C2-prix-belinda.html",
+        "R4C3-prix-altair.html",
+        "R4C4-prix-bettina.html",
+        "R4C5-prix-celuta.html",
+        "R4C6-prix-alioth.html",
+        "R4C7-prix-arachne.html",
+        "R4C8-prix-asia.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-polana.html",
+        "R5C2-prix-belinda.html",
+        "R5C3-prix-altair.html",
+        "R5C4-prix-bettina.html",
+        "R5C5-prix-celuta.html",
+        "R5C6-prix-alioth.html",
+        "R5C7-prix-arachne.html",
+        "R5C8-prix-asia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:20.166725Z"
+}

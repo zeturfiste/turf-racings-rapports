@@ -1,0 +1,57 @@
+{
+  "date": "2025-03-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/03/2025-03-24",
+    "date_html": "resultats-et-rapports/2025/03/2025-03-24/2025-03-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/03/2025-03-24/R4-le-croise-laroche/R4C1-prix-de-la-rue-des-potagers.html",
+      "resultats-et-rapports/2025/03/2025-03-24/R4-le-croise-laroche/R4C2-prix-de-la-pistole.html",
+      "resultats-et-rapports/2025/03/2025-03-24/R4-le-croise-laroche/R4C4-prix-du-bassin-du-prince.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-compiegne",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-rue-des-potagers.html",
+        "R1C2-prix-de-la-pistole.html",
+        "R1C3-prix-du-bassin-des-serruriers.html",
+        "R1C4-prix-du-bassin-du-prince.html",
+        "R1C5-prix-talweg.html",
+        "R1C6-prix-de-la-rue-des-cascades.html",
+        "R1C7-prix-tandem.html",
+        "R1C8-prix-de-la-rue-de-la-faisanderie.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-la-rue-des-potagers.html",
+        "R3C2-prix-de-la-pistole.html",
+        "R3C3-prix-du-bassin-des-serruriers.html",
+        "R3C4-prix-du-bassin-du-prince.html",
+        "R3C5-prix-talweg.html",
+        "R3C6-prix-de-la-rue-des-cascades.html",
+        "R3C7-prix-tandem.html",
+        "R3C8-prix-de-la-rue-de-la-faisanderie.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-de-la-rue-des-potagers.html",
+        "R4C2-prix-de-la-pistole.html",
+        "R4C3-prix-du-bassin-des-serruriers.html",
+        "R4C4-prix-du-bassin-du-prince.html",
+        "R4C5-prix-talweg.html",
+        "R4C6-prix-de-la-rue-des-cascades.html",
+        "R4C7-prix-tandem.html",
+        "R4C8-prix-de-la-rue-de-la-faisanderie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:05.697890Z"
+}

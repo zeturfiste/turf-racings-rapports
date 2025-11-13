@@ -1,0 +1,71 @@
+{
+  "date": "2012-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-27",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-27/2012-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C1-prix-de-dijon.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C2-prix-d-aurillac.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C3-prix-de-puteaux.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C4-prix-de-chartres.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C5-prix-de-chateaumeillant.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C6-prix-de-mortain.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C7-prix-de-rochefort-sur-loire.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R1-vincennes/R1C8-prix-des-bruyeres.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R2-vichy/R2C1-prix-de-dijon.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R2-vichy/R2C2-prix-d-aurillac.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R2-vichy/R2C5-prix-de-chateaumeillant.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R2-vichy/R2C6-prix-de-mortain.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R3-deauville/R3C3-prix-de-puteaux.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R3-deauville/R3C4-prix-de-chartres.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R3-deauville/R3C6-prix-de-mortain.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R3-deauville/R3C7-prix-de-rochefort-sur-loire.html",
+      "resultats-et-rapports/2012/08/2012-08-27/R3-deauville/R3C8-prix-des-bruyeres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-vichy",
+      "R3-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-dijon.html",
+        "R1C2-prix-d-aurillac.html",
+        "R1C3-prix-de-puteaux.html",
+        "R1C4-prix-de-chartres.html",
+        "R1C5-prix-de-chateaumeillant.html",
+        "R1C6-prix-de-mortain.html",
+        "R1C7-prix-de-rochefort-sur-loire.html",
+        "R1C8-prix-des-bruyeres.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-dijon.html",
+        "R2C2-prix-d-aurillac.html",
+        "R2C3-prix-de-puteaux.html",
+        "R2C4-prix-de-chartres.html",
+        "R2C5-prix-de-chateaumeillant.html",
+        "R2C6-prix-de-mortain.html",
+        "R2C7-prix-de-rochefort-sur-loire.html",
+        "R2C8-prix-des-bruyeres.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-dijon.html",
+        "R3C2-prix-d-aurillac.html",
+        "R3C3-prix-de-puteaux.html",
+        "R3C4-prix-de-chartres.html",
+        "R3C5-prix-de-chateaumeillant.html",
+        "R3C6-prix-de-mortain.html",
+        "R3C7-prix-de-rochefort-sur-loire.html",
+        "R3C8-prix-des-bruyeres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:48.188087Z"
+}

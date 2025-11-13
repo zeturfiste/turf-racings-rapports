@@ -1,0 +1,130 @@
+{
+  "date": "2018-07-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-22",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-22/2018-07-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-22/R1-maisons-laffitte/R1C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R1-maisons-laffitte/R1C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R1-maisons-laffitte/R1C7-prix-du-carrousel.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R1-maisons-laffitte/R1C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R2-la-capelle/R2C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R2-la-capelle/R2C5-prix-messidor.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R2-la-capelle/R2C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R2-la-capelle/R2C7-prix-du-carrousel.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R3-bernay/R3C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R3-bernay/R3C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R3-bernay/R3C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R4-saint-jean-de-monts/R4C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R5-la-teste-de-buch/R5C2-darley-prix-robert-papin.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R5-la-teste-de-buch/R5C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R5-la-teste-de-buch/R5C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R5-la-teste-de-buch/R5C7-prix-du-carrousel.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R5-la-teste-de-buch/R5C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C1-prix-du-buisson-richard.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C2-darley-prix-robert-papin.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C5-prix-messidor.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C7-prix-du-carrousel.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R7-karukera/R7C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C1-prix-du-buisson-richard.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C2-darley-prix-robert-papin.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C4-prix-de-bagatelle.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C5-prix-messidor.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C7-prix-du-carrousel.html",
+      "resultats-et-rapports/2018/07/2018-07-22/R8-clairefontaine/R8C8-prix-de-la-prairie-du-parc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-la-capelle",
+      "R3-bernay",
+      "R4-saint-jean-de-monts",
+      "R5-la-teste-de-buch",
+      "R7-karukera",
+      "R8-clairefontaine"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-du-buisson-richard.html",
+        "R1C2-darley-prix-robert-papin.html",
+        "R1C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R1C4-prix-de-bagatelle.html",
+        "R1C5-prix-messidor.html",
+        "R1C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R1C7-prix-du-carrousel.html",
+        "R1C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-buisson-richard.html",
+        "R2C2-darley-prix-robert-papin.html",
+        "R2C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R2C4-prix-de-bagatelle.html",
+        "R2C5-prix-messidor.html",
+        "R2C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R2C7-prix-du-carrousel.html",
+        "R2C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R3-bernay": [
+        "R3C1-prix-du-buisson-richard.html",
+        "R3C2-darley-prix-robert-papin.html",
+        "R3C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R3C4-prix-de-bagatelle.html",
+        "R3C5-prix-messidor.html",
+        "R3C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R3C7-prix-du-carrousel.html",
+        "R3C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R4-saint-jean-de-monts": [
+        "R4C1-prix-du-buisson-richard.html",
+        "R4C2-darley-prix-robert-papin.html",
+        "R4C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R4C4-prix-de-bagatelle.html",
+        "R4C5-prix-messidor.html",
+        "R4C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R4C7-prix-du-carrousel.html",
+        "R4C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R5-la-teste-de-buch": [
+        "R5C1-prix-du-buisson-richard.html",
+        "R5C2-darley-prix-robert-papin.html",
+        "R5C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R5C4-prix-de-bagatelle.html",
+        "R5C5-prix-messidor.html",
+        "R5C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R5C7-prix-du-carrousel.html",
+        "R5C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R7-karukera": [
+        "R7C1-prix-du-buisson-richard.html",
+        "R7C2-darley-prix-robert-papin.html",
+        "R7C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R7C4-prix-de-bagatelle.html",
+        "R7C5-prix-messidor.html",
+        "R7C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R7C7-prix-du-carrousel.html",
+        "R7C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R8-clairefontaine": [
+        "R8C1-prix-du-buisson-richard.html",
+        "R8C2-darley-prix-robert-papin.html",
+        "R8C3-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R8C4-prix-de-bagatelle.html",
+        "R8C5-prix-messidor.html",
+        "R8C6-prix-de-la-pepiniere-fonds-europeen-de-l-elevage.html",
+        "R8C7-prix-du-carrousel.html",
+        "R8C8-prix-de-la-prairie-du-parc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:49.965992Z"
+}

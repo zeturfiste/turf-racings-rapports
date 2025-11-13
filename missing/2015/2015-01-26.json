@@ -1,0 +1,92 @@
+{
+  "date": "2015-01-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-26",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-26/2015-01-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C1-prix-d-issoire.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C2-prix-de-rethel.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C3-prix-de-vienne.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C5-prix-d-auffay.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C7-prix-de-fleurance-groupe-a.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C8-prix-de-fleurance-groupe-b.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R1-vincennes/R1C9-prix-de-puy-guillaume.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R2-cagnes-sur-mer/R2C1-prix-d-issoire.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R2-cagnes-sur-mer/R2C2-prix-de-rethel.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R2-cagnes-sur-mer/R2C3-prix-de-vienne.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R2-cagnes-sur-mer/R2C4-prix-de-chevilly.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R2-cagnes-sur-mer/R2C5-prix-d-auffay.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R3-toulouse/R3C5-prix-d-auffay.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R3-toulouse/R3C6-prix-d-yvetot.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R3-toulouse/R3C7-prix-de-fleurance-groupe-a.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R3-toulouse/R3C8-prix-de-fleurance-groupe-b.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C1-prix-d-issoire.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C2-prix-de-rethel.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C3-prix-de-vienne.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C4-prix-de-chevilly.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C6-prix-d-yvetot.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C7-prix-de-fleurance-groupe-a.html",
+      "resultats-et-rapports/2015/01/2015-01-26/R5-saint-brieuc/R5C8-prix-de-fleurance-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-toulouse",
+      "R5-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-issoire.html",
+        "R1C2-prix-de-rethel.html",
+        "R1C3-prix-de-vienne.html",
+        "R1C4-prix-de-chevilly.html",
+        "R1C5-prix-d-auffay.html",
+        "R1C6-prix-d-yvetot.html",
+        "R1C7-prix-de-fleurance-groupe-a.html",
+        "R1C8-prix-de-fleurance-groupe-b.html",
+        "R1C9-prix-de-puy-guillaume.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-issoire.html",
+        "R2C2-prix-de-rethel.html",
+        "R2C3-prix-de-vienne.html",
+        "R2C4-prix-de-chevilly.html",
+        "R2C5-prix-d-auffay.html",
+        "R2C6-prix-d-yvetot.html",
+        "R2C7-prix-de-fleurance-groupe-a.html",
+        "R2C8-prix-de-fleurance-groupe-b.html",
+        "R2C9-prix-de-puy-guillaume.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-d-issoire.html",
+        "R3C2-prix-de-rethel.html",
+        "R3C3-prix-de-vienne.html",
+        "R3C4-prix-de-chevilly.html",
+        "R3C5-prix-d-auffay.html",
+        "R3C6-prix-d-yvetot.html",
+        "R3C7-prix-de-fleurance-groupe-a.html",
+        "R3C8-prix-de-fleurance-groupe-b.html",
+        "R3C9-prix-de-puy-guillaume.html"
+      ],
+      "R5-saint-brieuc": [
+        "R5C1-prix-d-issoire.html",
+        "R5C2-prix-de-rethel.html",
+        "R5C3-prix-de-vienne.html",
+        "R5C4-prix-de-chevilly.html",
+        "R5C5-prix-d-auffay.html",
+        "R5C6-prix-d-yvetot.html",
+        "R5C7-prix-de-fleurance-groupe-a.html",
+        "R5C8-prix-de-fleurance-groupe-b.html",
+        "R5C9-prix-de-puy-guillaume.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:16.179183Z"
+}

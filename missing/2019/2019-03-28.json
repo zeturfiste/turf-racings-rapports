@@ -1,0 +1,58 @@
+{
+  "date": "2019-03-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-28",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-28/2019-03-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-28/R2-reims/R2C6-prix-du-chemin-des-sergents.html",
+      "resultats-et-rapports/2019/03/2019-03-28/R2-reims/R2C8-prix-de-la-stalle-de-pelagie.html",
+      "resultats-et-rapports/2019/03/2019-03-28/R4-lyon-la-soie/R4C3-prix-du-bois-de-rosiere.html",
+      "resultats-et-rapports/2019/03/2019-03-28/R4-lyon-la-soie/R4C8-prix-de-la-stalle-de-pelagie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-reims",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-tricentenaire-des-grandes-ecuries.html",
+        "R1C2-prix-du-clos-du-prieure.html",
+        "R1C3-prix-du-bois-de-rosiere.html",
+        "R1C4-prix-du-carrefour-du-duc-d-enghien.html",
+        "R1C5-prix-du-terrain-de-manoeuvre.html",
+        "R1C6-prix-du-chemin-des-sergents.html",
+        "R1C7-prix-des-frayoirs.html",
+        "R1C8-prix-de-la-stalle-de-pelagie.html"
+      ],
+      "R2-reims": [
+        "R2C1-prix-du-tricentenaire-des-grandes-ecuries.html",
+        "R2C2-prix-du-clos-du-prieure.html",
+        "R2C3-prix-du-bois-de-rosiere.html",
+        "R2C4-prix-du-carrefour-du-duc-d-enghien.html",
+        "R2C5-prix-du-terrain-de-manoeuvre.html",
+        "R2C6-prix-du-chemin-des-sergents.html",
+        "R2C7-prix-des-frayoirs.html",
+        "R2C8-prix-de-la-stalle-de-pelagie.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-du-tricentenaire-des-grandes-ecuries.html",
+        "R4C2-prix-du-clos-du-prieure.html",
+        "R4C3-prix-du-bois-de-rosiere.html",
+        "R4C4-prix-du-carrefour-du-duc-d-enghien.html",
+        "R4C5-prix-du-terrain-de-manoeuvre.html",
+        "R4C6-prix-du-chemin-des-sergents.html",
+        "R4C7-prix-des-frayoirs.html",
+        "R4C8-prix-de-la-stalle-de-pelagie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:04.712395Z"
+}

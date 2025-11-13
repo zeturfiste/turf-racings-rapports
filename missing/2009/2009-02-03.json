@@ -1,0 +1,72 @@
+{
+  "date": "2009-02-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/02/2009-02-03",
+    "date_html": "resultats-et-rapports/2009/02/2009-02-03/2009-02-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C1-prix-des-pensees.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C2-prix-des-orchidees.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C3-prix-de-la-bruyere.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C4-prix-des-roses.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C5-prix-des-violettes.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C6-prix-des-anemones.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C7-prix-des-parfums.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R1-cagnes-sur-mer/R1C8-prix-des-hortensias.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C1-prix-des-pensees.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C3-prix-de-la-bruyere.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C4-prix-des-roses.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C5-prix-des-violettes.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C6-prix-des-anemones.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C7-prix-des-parfums.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R2-pau/R2C8-prix-des-hortensias.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R31-zerace/R31C1-prix-des-pensees.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R31-zerace/R31C2-prix-des-orchidees.html",
+      "resultats-et-rapports/2009/02/2009-02-03/R31-zerace/R31C4-prix-des-roses.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-pau",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-pensees.html",
+        "R1C2-prix-des-orchidees.html",
+        "R1C3-prix-de-la-bruyere.html",
+        "R1C4-prix-des-roses.html",
+        "R1C5-prix-des-violettes.html",
+        "R1C6-prix-des-anemones.html",
+        "R1C7-prix-des-parfums.html",
+        "R1C8-prix-des-hortensias.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-des-pensees.html",
+        "R2C2-prix-des-orchidees.html",
+        "R2C3-prix-de-la-bruyere.html",
+        "R2C4-prix-des-roses.html",
+        "R2C5-prix-des-violettes.html",
+        "R2C6-prix-des-anemones.html",
+        "R2C7-prix-des-parfums.html",
+        "R2C8-prix-des-hortensias.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-des-pensees.html",
+        "R31C2-prix-des-orchidees.html",
+        "R31C3-prix-de-la-bruyere.html",
+        "R31C4-prix-des-roses.html",
+        "R31C5-prix-des-violettes.html",
+        "R31C6-prix-des-anemones.html",
+        "R31C7-prix-des-parfums.html",
+        "R31C8-prix-des-hortensias.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:30:46.677096Z"
+}

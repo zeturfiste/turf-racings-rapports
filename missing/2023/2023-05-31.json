@@ -1,0 +1,74 @@
+{
+  "date": "2023-05-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-31",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-31/2023-05-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-31/R2-dieppe/R2C6-prix-hyeres-iii.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R2-dieppe/R2C8-prix-kleber.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R3-marseille-borely/R3C1-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R3-marseille-borely/R3C5-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R3-marseille-borely/R3C6-prix-hyeres-iii.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R3-marseille-borely/R3C7-prix-rock-n-roll.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R4-caen/R4C1-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R4-caen/R4C3-prix-du-jazz.html",
+      "resultats-et-rapports/2023/05/2023-05-31/R4-caen/R4C5-prix-nathanaelle-artu.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-strasbourg",
+      "R2-dieppe",
+      "R3-marseille-borely",
+      "R4-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-strasbourg": [
+        "R1C1-prix-de-la-ville-de-strasbourg.html",
+        "R1C2-prix-de-la-valse.html",
+        "R1C3-prix-du-jazz.html",
+        "R1C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R1C5-prix-nathanaelle-artu.html",
+        "R1C6-prix-hyeres-iii.html",
+        "R1C7-prix-rock-n-roll.html",
+        "R1C8-prix-kleber.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-de-la-ville-de-strasbourg.html",
+        "R2C2-prix-de-la-valse.html",
+        "R2C3-prix-du-jazz.html",
+        "R2C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R2C5-prix-nathanaelle-artu.html",
+        "R2C6-prix-hyeres-iii.html",
+        "R2C7-prix-rock-n-roll.html",
+        "R2C8-prix-kleber.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-la-ville-de-strasbourg.html",
+        "R3C2-prix-de-la-valse.html",
+        "R3C3-prix-du-jazz.html",
+        "R3C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R3C5-prix-nathanaelle-artu.html",
+        "R3C6-prix-hyeres-iii.html",
+        "R3C7-prix-rock-n-roll.html",
+        "R3C8-prix-kleber.html"
+      ],
+      "R4-caen": [
+        "R4C1-prix-de-la-ville-de-strasbourg.html",
+        "R4C2-prix-de-la-valse.html",
+        "R4C3-prix-du-jazz.html",
+        "R4C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R4C5-prix-nathanaelle-artu.html",
+        "R4C6-prix-hyeres-iii.html",
+        "R4C7-prix-rock-n-roll.html",
+        "R4C8-prix-kleber.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:56.757989Z"
+}

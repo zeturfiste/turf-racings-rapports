@@ -1,0 +1,74 @@
+{
+  "date": "2014-10-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-02",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-02/2014-10-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-02/R1-compiegne/R1C1-prix-de-meleagre.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R1-compiegne/R1C2-prix-des-frondaisons.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R1-compiegne/R1C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R2-auteuil/R2C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R2-auteuil/R2C7-prix-des-futaies.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R3-nantes/R3C2-prix-des-frondaisons.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R3-nantes/R3C4-prix-des-juniors.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R3-nantes/R3C7-prix-des-futaies.html",
+      "resultats-et-rapports/2014/10/2014-10-02/R4-enghien-soisy/R4C8-prix-de-janville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-auteuil",
+      "R3-nantes",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-meleagre.html",
+        "R1C2-prix-des-frondaisons.html",
+        "R1C3-prix-des-espoirs.html",
+        "R1C4-prix-des-juniors.html",
+        "R1C5-prix-de-saint-crepin.html",
+        "R1C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+        "R1C7-prix-des-futaies.html",
+        "R1C8-prix-de-janville.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-meleagre.html",
+        "R2C2-prix-des-frondaisons.html",
+        "R2C3-prix-des-espoirs.html",
+        "R2C4-prix-des-juniors.html",
+        "R2C5-prix-de-saint-crepin.html",
+        "R2C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+        "R2C7-prix-des-futaies.html",
+        "R2C8-prix-de-janville.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-meleagre.html",
+        "R3C2-prix-des-frondaisons.html",
+        "R3C3-prix-des-espoirs.html",
+        "R3C4-prix-des-juniors.html",
+        "R3C5-prix-de-saint-crepin.html",
+        "R3C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+        "R3C7-prix-des-futaies.html",
+        "R3C8-prix-de-janville.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-de-meleagre.html",
+        "R4C2-prix-des-frondaisons.html",
+        "R4C3-prix-des-espoirs.html",
+        "R4C4-prix-des-juniors.html",
+        "R4C5-prix-de-saint-crepin.html",
+        "R4C6-prix-ihedrea-ecole-de-droit-rural-prix-des-belles-demoiselles.html",
+        "R4C7-prix-des-futaies.html",
+        "R4C8-prix-de-janville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:40.549995Z"
+}

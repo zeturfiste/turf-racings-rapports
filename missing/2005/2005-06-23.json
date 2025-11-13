@@ -1,0 +1,42 @@
+{
+  "date": "2005-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/06/2005-06-23",
+    "date_html": "resultats-et-rapports/2005/06/2005-06-23/2005-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-la-ville-de-lamorlaye-prix-de-montagny.html",
+        "R1C2-prix-du-jardin-anglais.html",
+        "R1C3-prix-du-plessis-chamant.html",
+        "R1C4-prix-de-la-plaine.html",
+        "R1C5-prix-hampton.html",
+        "R1C6-142eme-prix-des-lions.html",
+        "R1C7-prix-de-la-garenelle.html",
+        "R1C8-prix-des-chataigniers.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-la-ville-de-lamorlaye-prix-de-montagny.html",
+        "R2C2-prix-du-jardin-anglais.html",
+        "R2C3-prix-du-plessis-chamant.html",
+        "R2C4-prix-de-la-plaine.html",
+        "R2C5-prix-hampton.html",
+        "R2C6-142eme-prix-des-lions.html",
+        "R2C7-prix-de-la-garenelle.html",
+        "R2C8-prix-des-chataigniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:37.103068Z"
+}

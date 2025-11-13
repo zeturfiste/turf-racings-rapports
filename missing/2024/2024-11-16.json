@@ -1,0 +1,88 @@
+{
+  "date": "2024-11-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-16",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-16/2024-11-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-16/R2-lyon-parilly/R2C1-124eme-prix-de-france.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R2-lyon-parilly/R2C6-prix-count-schomberg.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R3-laval/R3C3-prix-coq-gaulois.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R4-le-croise-laroche/R4C6-prix-count-schomberg.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R4-le-croise-laroche/R4C7-prix-serge-landon-grand-prix-d-automne.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R4-le-croise-laroche/R4C8-prix-mondeville.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C2-prix-oeneas.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C4-haras-d-etreham-prix-magalen-bryant.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C5-prix-congress.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C6-prix-count-schomberg.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C7-prix-serge-landon-grand-prix-d-automne.html",
+      "resultats-et-rapports/2024/11/2024-11-16/R10-mont-de-marsan/R10C8-prix-mondeville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-lyon-parilly",
+      "R3-laval",
+      "R4-le-croise-laroche",
+      "R10-mont-de-marsan"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-124eme-prix-de-france.html",
+        "R1C2-prix-oeneas.html",
+        "R1C3-prix-coq-gaulois.html",
+        "R1C4-haras-d-etreham-prix-magalen-bryant.html",
+        "R1C5-prix-congress.html",
+        "R1C6-prix-count-schomberg.html",
+        "R1C7-prix-serge-landon-grand-prix-d-automne.html",
+        "R1C8-prix-mondeville.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-124eme-prix-de-france.html",
+        "R2C2-prix-oeneas.html",
+        "R2C3-prix-coq-gaulois.html",
+        "R2C4-haras-d-etreham-prix-magalen-bryant.html",
+        "R2C5-prix-congress.html",
+        "R2C6-prix-count-schomberg.html",
+        "R2C7-prix-serge-landon-grand-prix-d-automne.html",
+        "R2C8-prix-mondeville.html"
+      ],
+      "R3-laval": [
+        "R3C1-124eme-prix-de-france.html",
+        "R3C2-prix-oeneas.html",
+        "R3C3-prix-coq-gaulois.html",
+        "R3C4-haras-d-etreham-prix-magalen-bryant.html",
+        "R3C5-prix-congress.html",
+        "R3C6-prix-count-schomberg.html",
+        "R3C7-prix-serge-landon-grand-prix-d-automne.html",
+        "R3C8-prix-mondeville.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-124eme-prix-de-france.html",
+        "R4C2-prix-oeneas.html",
+        "R4C3-prix-coq-gaulois.html",
+        "R4C4-haras-d-etreham-prix-magalen-bryant.html",
+        "R4C5-prix-congress.html",
+        "R4C6-prix-count-schomberg.html",
+        "R4C7-prix-serge-landon-grand-prix-d-automne.html",
+        "R4C8-prix-mondeville.html"
+      ],
+      "R10-mont-de-marsan": [
+        "R10C1-124eme-prix-de-france.html",
+        "R10C2-prix-oeneas.html",
+        "R10C3-prix-coq-gaulois.html",
+        "R10C4-haras-d-etreham-prix-magalen-bryant.html",
+        "R10C5-prix-congress.html",
+        "R10C6-prix-count-schomberg.html",
+        "R10C7-prix-serge-landon-grand-prix-d-automne.html",
+        "R10C8-prix-mondeville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:20.382350Z"
+}

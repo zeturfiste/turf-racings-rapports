@@ -1,0 +1,75 @@
+{
+  "date": "2012-02-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/02/2012-02-25",
+    "date_html": "resultats-et-rapports/2012/02/2012-02-25/2012-02-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/02/2012-02-25/R1-cagnes-sur-mer/R1C2-prix-des-alpilles.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R1-cagnes-sur-mer/R1C4-prix-jacques-bouchara.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R1-cagnes-sur-mer/R1C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R1-cagnes-sur-mer/R1C6-prix-jacques-geliot.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R1-cagnes-sur-mer/R1C8-prix-du-galibier.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C1-prix-sky-lawyer-dubai-trial.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C2-prix-des-alpilles.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C3-prix-policeman.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C4-prix-jacques-bouchara.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C6-prix-jacques-geliot.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C7-prix-du-lautaret.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R2-enghien-soisy/R2C8-prix-du-galibier.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C1-prix-sky-lawyer-dubai-trial.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C2-prix-des-alpilles.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C3-prix-policeman.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C4-prix-jacques-bouchara.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C6-prix-jacques-geliot.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C7-prix-du-lautaret.html",
+      "resultats-et-rapports/2012/02/2012-02-25/R3-toulouse/R3C8-prix-du-galibier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-enghien-soisy",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-sky-lawyer-dubai-trial.html",
+        "R1C2-prix-des-alpilles.html",
+        "R1C3-prix-policeman.html",
+        "R1C4-prix-jacques-bouchara.html",
+        "R1C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+        "R1C6-prix-jacques-geliot.html",
+        "R1C7-prix-du-lautaret.html",
+        "R1C8-prix-du-galibier.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-sky-lawyer-dubai-trial.html",
+        "R2C2-prix-des-alpilles.html",
+        "R2C3-prix-policeman.html",
+        "R2C4-prix-jacques-bouchara.html",
+        "R2C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+        "R2C6-prix-jacques-geliot.html",
+        "R2C7-prix-du-lautaret.html",
+        "R2C8-prix-du-galibier.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-sky-lawyer-dubai-trial.html",
+        "R3C2-prix-des-alpilles.html",
+        "R3C3-prix-policeman.html",
+        "R3C4-prix-jacques-bouchara.html",
+        "R3C5-grand-prix-du-conseil-general-des-alpes-maritimes-defi-du-ga.html",
+        "R3C6-prix-jacques-geliot.html",
+        "R3C7-prix-du-lautaret.html",
+        "R3C8-prix-du-galibier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:51.944216Z"
+}

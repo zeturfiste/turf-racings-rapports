@@ -1,0 +1,66 @@
+{
+  "date": "2012-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-07",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-07/2012-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C1-prix-geny-com-paris-turf-1ere-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C3-prix-genes-diffusions.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C4-prix-f-f-dubois.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C5-prix-gai-brillant.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C6-prix-reve-des-vallees.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R1-la-capelle/R1C7-prix-piccolo-san.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R2-fontainebleau/R2C3-prix-genes-diffusions.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R2-fontainebleau/R2C7-prix-piccolo-san.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R2-fontainebleau/R2C8-prix-lynx-du-goutier.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R3-marseille-vivaux/R3C1-prix-geny-com-paris-turf-1ere-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R3-marseille-vivaux/R3C2-prix-francois-caille.html",
+      "resultats-et-rapports/2012/03/2012-03-07/R3-marseille-vivaux/R3C8-prix-lynx-du-goutier.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R2-fontainebleau",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-geny-com-paris-turf-1ere-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-francois-caille.html",
+        "R1C3-prix-genes-diffusions.html",
+        "R1C4-prix-f-f-dubois.html",
+        "R1C5-prix-gai-brillant.html",
+        "R1C6-prix-reve-des-vallees.html",
+        "R1C7-prix-piccolo-san.html",
+        "R1C8-prix-lynx-du-goutier.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-geny-com-paris-turf-1ere-etape-du-grand-national-du-trot.html",
+        "R2C2-prix-francois-caille.html",
+        "R2C3-prix-genes-diffusions.html",
+        "R2C4-prix-f-f-dubois.html",
+        "R2C5-prix-gai-brillant.html",
+        "R2C6-prix-reve-des-vallees.html",
+        "R2C7-prix-piccolo-san.html",
+        "R2C8-prix-lynx-du-goutier.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-geny-com-paris-turf-1ere-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-francois-caille.html",
+        "R3C3-prix-genes-diffusions.html",
+        "R3C4-prix-f-f-dubois.html",
+        "R3C5-prix-gai-brillant.html",
+        "R3C6-prix-reve-des-vallees.html",
+        "R3C7-prix-piccolo-san.html",
+        "R3C8-prix-lynx-du-goutier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:55.020722Z"
+}

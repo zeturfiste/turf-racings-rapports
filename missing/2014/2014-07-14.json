@@ -1,0 +1,111 @@
+{
+  "date": "2014-07-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-14",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-14/2014-07-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-14/R1-chantilly/R1C6-prix-de-la-ville-de-chantilly.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R1-chantilly/R1C8-prix-du-defile.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R2-dieppe/R2C1-prix-du-ru-de-la-flache.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R2-dieppe/R2C4-prix-jean-prat.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C1-prix-du-ru-de-la-flache.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C3-prix-des-bruyeres.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C5-prix-de-loisy.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C6-prix-de-la-ville-de-chantilly.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C7-prix-du-pont-de-sainte-maxence.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R3-beaumont-de-lomagne/R3C8-prix-du-defile.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R4-vittel/R4C1-prix-du-ru-de-la-flache.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R4-vittel/R4C2-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R4-vittel/R4C4-prix-jean-prat.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R4-vittel/R4C5-prix-de-loisy.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R4-vittel/R4C6-prix-de-la-ville-de-chantilly.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C1-prix-du-ru-de-la-flache.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C2-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C3-prix-des-bruyeres.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C4-prix-jean-prat.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C5-prix-de-loisy.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C6-prix-de-la-ville-de-chantilly.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R6-la-rochelle/R6C7-prix-du-pont-de-sainte-maxence.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R7-cagnes-sur-mer/R7C1-prix-du-ru-de-la-flache.html",
+      "resultats-et-rapports/2014/07/2014-07-14/R7-cagnes-sur-mer/R7C4-prix-jean-prat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-dieppe",
+      "R3-beaumont-de-lomagne",
+      "R4-vittel",
+      "R6-la-rochelle",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-ru-de-la-flache.html",
+        "R1C2-prix-de-la-fete-nationale.html",
+        "R1C3-prix-des-bruyeres.html",
+        "R1C4-prix-jean-prat.html",
+        "R1C5-prix-de-loisy.html",
+        "R1C6-prix-de-la-ville-de-chantilly.html",
+        "R1C7-prix-du-pont-de-sainte-maxence.html",
+        "R1C8-prix-du-defile.html"
+      ],
+      "R2-dieppe": [
+        "R2C1-prix-du-ru-de-la-flache.html",
+        "R2C2-prix-de-la-fete-nationale.html",
+        "R2C3-prix-des-bruyeres.html",
+        "R2C4-prix-jean-prat.html",
+        "R2C5-prix-de-loisy.html",
+        "R2C6-prix-de-la-ville-de-chantilly.html",
+        "R2C7-prix-du-pont-de-sainte-maxence.html",
+        "R2C8-prix-du-defile.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-du-ru-de-la-flache.html",
+        "R3C2-prix-de-la-fete-nationale.html",
+        "R3C3-prix-des-bruyeres.html",
+        "R3C4-prix-jean-prat.html",
+        "R3C5-prix-de-loisy.html",
+        "R3C6-prix-de-la-ville-de-chantilly.html",
+        "R3C7-prix-du-pont-de-sainte-maxence.html",
+        "R3C8-prix-du-defile.html"
+      ],
+      "R4-vittel": [
+        "R4C1-prix-du-ru-de-la-flache.html",
+        "R4C2-prix-de-la-fete-nationale.html",
+        "R4C3-prix-des-bruyeres.html",
+        "R4C4-prix-jean-prat.html",
+        "R4C5-prix-de-loisy.html",
+        "R4C6-prix-de-la-ville-de-chantilly.html",
+        "R4C7-prix-du-pont-de-sainte-maxence.html",
+        "R4C8-prix-du-defile.html"
+      ],
+      "R6-la-rochelle": [
+        "R6C1-prix-du-ru-de-la-flache.html",
+        "R6C2-prix-de-la-fete-nationale.html",
+        "R6C3-prix-des-bruyeres.html",
+        "R6C4-prix-jean-prat.html",
+        "R6C5-prix-de-loisy.html",
+        "R6C6-prix-de-la-ville-de-chantilly.html",
+        "R6C7-prix-du-pont-de-sainte-maxence.html",
+        "R6C8-prix-du-defile.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-du-ru-de-la-flache.html",
+        "R7C2-prix-de-la-fete-nationale.html",
+        "R7C3-prix-des-bruyeres.html",
+        "R7C4-prix-jean-prat.html",
+        "R7C5-prix-de-loisy.html",
+        "R7C6-prix-de-la-ville-de-chantilly.html",
+        "R7C7-prix-du-pont-de-sainte-maxence.html",
+        "R7C8-prix-du-defile.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:13.149932Z"
+}

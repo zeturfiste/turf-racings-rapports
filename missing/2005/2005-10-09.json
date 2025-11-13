@@ -1,0 +1,64 @@
+{
+  "date": "2005-10-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/10/2005-10-09",
+    "date_html": "resultats-et-rapports/2005/10/2005-10-09/2005-10-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-le-mans",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-duc-d-alburquerque.html",
+        "R1C2-prix-georges-de-talhouet-roy.html",
+        "R1C3-prix-prince-d-ecouen.html",
+        "R1C4-prix-heros-xii.html",
+        "R1C5-prix-carmarthen.html",
+        "R1C6-prix-orcada.html",
+        "R1C7-prix-piomares.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-duc-d-alburquerque.html",
+        "R2C2-prix-georges-de-talhouet-roy.html",
+        "R2C3-prix-prince-d-ecouen.html",
+        "R2C4-prix-heros-xii.html",
+        "R2C5-prix-carmarthen.html",
+        "R2C6-prix-orcada.html",
+        "R2C7-prix-piomares.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-duc-d-alburquerque.html",
+        "R3C2-prix-georges-de-talhouet-roy.html",
+        "R3C3-prix-prince-d-ecouen.html",
+        "R3C4-prix-heros-xii.html",
+        "R3C5-prix-carmarthen.html",
+        "R3C6-prix-orcada.html",
+        "R3C7-prix-piomares.html",
+        "R3C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-duc-d-alburquerque.html",
+        "R4C2-prix-georges-de-talhouet-roy.html",
+        "R4C3-prix-prince-d-ecouen.html",
+        "R4C4-prix-heros-xii.html",
+        "R4C5-prix-carmarthen.html",
+        "R4C6-prix-orcada.html",
+        "R4C7-prix-piomares.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:55.442940Z"
+}

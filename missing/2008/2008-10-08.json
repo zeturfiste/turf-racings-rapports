@@ -1,0 +1,78 @@
+{
+  "date": "2008-10-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/10/2008-10-08",
+    "date_html": "resultats-et-rapports/2008/10/2008-10-08/2008-10-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/10/2008-10-08/R1-auteuil/R1C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R1-auteuil/R1C4-prix-de-salers.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R1-auteuil/R1C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R1-auteuil/R1C6-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R1-auteuil/R1C7-prix-vivienne.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R2-enghien-soisy/R2C2-prix-robert-bates.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R2-enghien-soisy/R2C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R2-enghien-soisy/R2C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R2-enghien-soisy/R2C6-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R2-enghien-soisy/R2C7-prix-vivienne.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R4-marseille-borely/R4C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R4-marseille-borely/R4C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R4-marseille-borely/R4C7-prix-vivienne.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R31-zerace/R31C1-prix-de-la-ville-de-pau-prix-calabrais.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R31-zerace/R31C2-prix-robert-bates.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R31-zerace/R31C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+      "resultats-et-rapports/2008/10/2008-10-08/R31-zerace/R31C4-prix-de-salers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-enghien-soisy",
+      "R4-marseille-borely",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-de-la-ville-de-pau-prix-calabrais.html",
+        "R1C2-prix-robert-bates.html",
+        "R1C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+        "R1C4-prix-de-salers.html",
+        "R1C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+        "R1C6-prix-ferdinand-riant.html",
+        "R1C7-prix-vivienne.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-de-la-ville-de-pau-prix-calabrais.html",
+        "R2C2-prix-robert-bates.html",
+        "R2C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+        "R2C4-prix-de-salers.html",
+        "R2C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+        "R2C6-prix-ferdinand-riant.html",
+        "R2C7-prix-vivienne.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-de-la-ville-de-pau-prix-calabrais.html",
+        "R4C2-prix-robert-bates.html",
+        "R4C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+        "R4C4-prix-de-salers.html",
+        "R4C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+        "R4C6-prix-ferdinand-riant.html",
+        "R4C7-prix-vivienne.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-ville-de-pau-prix-calabrais.html",
+        "R31C2-prix-robert-bates.html",
+        "R31C3-prix-de-l-hippodrome-de-morlaix-prix-piomares.html",
+        "R31C4-prix-de-salers.html",
+        "R31C5-prix-de-l-hippodrome-de-rostrenen-prix-de-grenoble.html",
+        "R31C6-prix-ferdinand-riant.html",
+        "R31C7-prix-vivienne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:29:54.024256Z"
+}

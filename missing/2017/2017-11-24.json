@@ -1,0 +1,85 @@
+{
+  "date": "2017-11-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/11/2017-11-24",
+    "date_html": "resultats-et-rapports/2017/11/2017-11-24/2017-11-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/11/2017-11-24/R1-vincennes/R1C4-prix-thia.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R1-vincennes/R1C6-prix-polaris.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R1-vincennes/R1C7-prix-hermentaria-groupe-a.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R3-compiegne/R3C2-prix-a-nous-paris-prix-triton.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R3-compiegne/R3C3-prix-arsinoe.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R3-compiegne/R3C7-prix-hermentaria-groupe-a.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C1-prix-arietis.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C3-prix-arsinoe.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C4-prix-thia.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C5-prix-philagoria.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C6-prix-polaris.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C7-prix-hermentaria-groupe-a.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R4-saint-cloud/R4C8-prix-hermentaria-groupe-b.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C2-prix-a-nous-paris-prix-triton.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C3-prix-arsinoe.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C4-prix-thia.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C5-prix-philagoria.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C6-prix-polaris.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C7-prix-hermentaria-groupe-a.html",
+      "resultats-et-rapports/2017/11/2017-11-24/R5-marseille-vivaux/R5C8-prix-hermentaria-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-compiegne",
+      "R4-saint-cloud",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-arietis.html",
+        "R1C2-prix-a-nous-paris-prix-triton.html",
+        "R1C3-prix-arsinoe.html",
+        "R1C4-prix-thia.html",
+        "R1C5-prix-philagoria.html",
+        "R1C6-prix-polaris.html",
+        "R1C7-prix-hermentaria-groupe-a.html",
+        "R1C8-prix-hermentaria-groupe-b.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-arietis.html",
+        "R3C2-prix-a-nous-paris-prix-triton.html",
+        "R3C3-prix-arsinoe.html",
+        "R3C4-prix-thia.html",
+        "R3C5-prix-philagoria.html",
+        "R3C6-prix-polaris.html",
+        "R3C7-prix-hermentaria-groupe-a.html",
+        "R3C8-prix-hermentaria-groupe-b.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-arietis.html",
+        "R4C2-prix-a-nous-paris-prix-triton.html",
+        "R4C3-prix-arsinoe.html",
+        "R4C4-prix-thia.html",
+        "R4C5-prix-philagoria.html",
+        "R4C6-prix-polaris.html",
+        "R4C7-prix-hermentaria-groupe-a.html",
+        "R4C8-prix-hermentaria-groupe-b.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-arietis.html",
+        "R5C2-prix-a-nous-paris-prix-triton.html",
+        "R5C3-prix-arsinoe.html",
+        "R5C4-prix-thia.html",
+        "R5C5-prix-philagoria.html",
+        "R5C6-prix-polaris.html",
+        "R5C7-prix-hermentaria-groupe-a.html",
+        "R5C8-prix-hermentaria-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:37.703564Z"
+}

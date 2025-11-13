@@ -1,0 +1,101 @@
+{
+  "date": "2022-09-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-18",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-18/2022-09-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-18/R1-vincennes/R1C5-prix-rmc-prix-de-la-garenne-colombes.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R4-strasbourg/R4C3-prix-association-passerelle-raceandcare.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C1-prix-du-journal-paris-turf-prix-de-denain.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C4-criterium-des-5-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C5-prix-rmc-prix-de-la-garenne-colombes.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C7-criterium-des-4-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C8-prix-association-ffr-raceandcare.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R5-bordeaux-le-bouscat/R5C9-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R8-lyon-parilly/R8C2-prix-stellantis-you-vincennes.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R8-lyon-parilly/R8C7-criterium-des-4-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R8-lyon-parilly/R8C8-prix-association-ffr-raceandcare.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R8-lyon-parilly/R8C9-prix-de-moulins-la-marche.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C1-prix-du-journal-paris-turf-prix-de-denain.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C2-prix-stellantis-you-vincennes.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C4-criterium-des-5-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C5-prix-rmc-prix-de-la-garenne-colombes.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C6-criterium-des-3-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C7-criterium-des-4-ans.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C8-prix-association-ffr-raceandcare.html",
+      "resultats-et-rapports/2022/09/2022-09-18/R9-agen/R9C9-prix-de-moulins-la-marche.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R4-strasbourg",
+      "R5-bordeaux-le-bouscat",
+      "R8-lyon-parilly",
+      "R9-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-journal-paris-turf-prix-de-denain.html",
+        "R1C2-prix-stellantis-you-vincennes.html",
+        "R1C3-prix-association-passerelle-raceandcare.html",
+        "R1C4-criterium-des-5-ans.html",
+        "R1C5-prix-rmc-prix-de-la-garenne-colombes.html",
+        "R1C6-criterium-des-3-ans.html",
+        "R1C7-criterium-des-4-ans.html",
+        "R1C8-prix-association-ffr-raceandcare.html",
+        "R1C9-prix-de-moulins-la-marche.html"
+      ],
+      "R4-strasbourg": [
+        "R4C1-prix-du-journal-paris-turf-prix-de-denain.html",
+        "R4C2-prix-stellantis-you-vincennes.html",
+        "R4C3-prix-association-passerelle-raceandcare.html",
+        "R4C4-criterium-des-5-ans.html",
+        "R4C5-prix-rmc-prix-de-la-garenne-colombes.html",
+        "R4C6-criterium-des-3-ans.html",
+        "R4C7-criterium-des-4-ans.html",
+        "R4C8-prix-association-ffr-raceandcare.html",
+        "R4C9-prix-de-moulins-la-marche.html"
+      ],
+      "R5-bordeaux-le-bouscat": [
+        "R5C1-prix-du-journal-paris-turf-prix-de-denain.html",
+        "R5C2-prix-stellantis-you-vincennes.html",
+        "R5C3-prix-association-passerelle-raceandcare.html",
+        "R5C4-criterium-des-5-ans.html",
+        "R5C5-prix-rmc-prix-de-la-garenne-colombes.html",
+        "R5C6-criterium-des-3-ans.html",
+        "R5C7-criterium-des-4-ans.html",
+        "R5C8-prix-association-ffr-raceandcare.html",
+        "R5C9-prix-de-moulins-la-marche.html"
+      ],
+      "R8-lyon-parilly": [
+        "R8C1-prix-du-journal-paris-turf-prix-de-denain.html",
+        "R8C2-prix-stellantis-you-vincennes.html",
+        "R8C3-prix-association-passerelle-raceandcare.html",
+        "R8C4-criterium-des-5-ans.html",
+        "R8C5-prix-rmc-prix-de-la-garenne-colombes.html",
+        "R8C6-criterium-des-3-ans.html",
+        "R8C7-criterium-des-4-ans.html",
+        "R8C8-prix-association-ffr-raceandcare.html",
+        "R8C9-prix-de-moulins-la-marche.html"
+      ],
+      "R9-agen": [
+        "R9C1-prix-du-journal-paris-turf-prix-de-denain.html",
+        "R9C2-prix-stellantis-you-vincennes.html",
+        "R9C3-prix-association-passerelle-raceandcare.html",
+        "R9C4-criterium-des-5-ans.html",
+        "R9C5-prix-rmc-prix-de-la-garenne-colombes.html",
+        "R9C6-criterium-des-3-ans.html",
+        "R9C7-criterium-des-4-ans.html",
+        "R9C8-prix-association-ffr-raceandcare.html",
+        "R9C9-prix-de-moulins-la-marche.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:26.330005Z"
+}

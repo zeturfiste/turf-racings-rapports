@@ -1,0 +1,90 @@
+{
+  "date": "2008-01-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/01/2008-01-10",
+    "date_html": "resultats-et-rapports/2008/01/2008-01-10/2008-01-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C2-prix-de-toronto.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C4-prix-de-montreal.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C6-prix-de-jagersro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R1-cagnes-sur-mer/R1C8-prix-de-meadowlands.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C2-prix-de-toronto.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C3-prix-de-kazan.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C4-prix-de-montreal.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C6-prix-de-jagersro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R2-deauville/R2C7-prix-de-san-siro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C3-prix-de-kazan.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C4-prix-de-montreal.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C6-prix-de-jagersro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C7-prix-de-san-siro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R3-deauville-midi/R3C8-prix-de-meadowlands.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R31-zerace/R31C1-prix-de-la-cote-d-azur.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R31-zerace/R31C2-prix-de-toronto.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R31-zerace/R31C5-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R31-zerace/R31C6-prix-de-jagersro.html",
+      "resultats-et-rapports/2008/01/2008-01-10/R31-zerace/R31C8-prix-de-meadowlands.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-deauville",
+      "R3-deauville-midi",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-la-cote-d-azur.html",
+        "R1C2-prix-de-toronto.html",
+        "R1C3-prix-de-kazan.html",
+        "R1C4-prix-de-montreal.html",
+        "R1C5-prix-de-cagnes-sur-mer.html",
+        "R1C6-prix-de-jagersro.html",
+        "R1C7-prix-de-san-siro.html",
+        "R1C8-prix-de-meadowlands.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-la-cote-d-azur.html",
+        "R2C2-prix-de-toronto.html",
+        "R2C3-prix-de-kazan.html",
+        "R2C4-prix-de-montreal.html",
+        "R2C5-prix-de-cagnes-sur-mer.html",
+        "R2C6-prix-de-jagersro.html",
+        "R2C7-prix-de-san-siro.html",
+        "R2C8-prix-de-meadowlands.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-de-la-cote-d-azur.html",
+        "R3C2-prix-de-toronto.html",
+        "R3C3-prix-de-kazan.html",
+        "R3C4-prix-de-montreal.html",
+        "R3C5-prix-de-cagnes-sur-mer.html",
+        "R3C6-prix-de-jagersro.html",
+        "R3C7-prix-de-san-siro.html",
+        "R3C8-prix-de-meadowlands.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-cote-d-azur.html",
+        "R31C2-prix-de-toronto.html",
+        "R31C3-prix-de-kazan.html",
+        "R31C4-prix-de-montreal.html",
+        "R31C5-prix-de-cagnes-sur-mer.html",
+        "R31C6-prix-de-jagersro.html",
+        "R31C7-prix-de-san-siro.html",
+        "R31C8-prix-de-meadowlands.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:46.832901Z"
+}

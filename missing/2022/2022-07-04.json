@@ -1,0 +1,73 @@
+{
+  "date": "2022-07-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/07/2022-07-04",
+    "date_html": "resultats-et-rapports/2022/07/2022-07-04/2022-07-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/07/2022-07-04/R3-pornichet-la-baule/R3C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R4-argentan/R4C2-prix-medef-calvados-prix-astrolabe.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R4-argentan/R4C4-prix-boutique-kevin-staut-prix-du-casino.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R5-vichy/R5C1-prix-hommage-a-david-powel-prix-des-oeillets.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R5-vichy/R5C3-prix-vivaldi-jumping-prix-de-pennedepie.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R5-vichy/R5C4-prix-boutique-kevin-staut-prix-du-casino.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R5-vichy/R5C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+      "resultats-et-rapports/2022/07/2022-07-04/R5-vichy/R5C8-prix-ecurie-vivaldi-prix-leopold-d-orsetti.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R3-pornichet-la-baule",
+      "R4-argentan",
+      "R5-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-hommage-a-david-powel-prix-des-oeillets.html",
+        "R1C2-prix-medef-calvados-prix-astrolabe.html",
+        "R1C3-prix-vivaldi-jumping-prix-de-pennedepie.html",
+        "R1C4-prix-boutique-kevin-staut-prix-du-casino.html",
+        "R1C5-prix-vivaldi-trading-prix-belle-isle.html",
+        "R1C6-prix-la-vivaldi-acamedy-prix-des-forsythias.html",
+        "R1C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+        "R1C8-prix-ecurie-vivaldi-prix-leopold-d-orsetti.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-hommage-a-david-powel-prix-des-oeillets.html",
+        "R3C2-prix-medef-calvados-prix-astrolabe.html",
+        "R3C3-prix-vivaldi-jumping-prix-de-pennedepie.html",
+        "R3C4-prix-boutique-kevin-staut-prix-du-casino.html",
+        "R3C5-prix-vivaldi-trading-prix-belle-isle.html",
+        "R3C6-prix-la-vivaldi-acamedy-prix-des-forsythias.html",
+        "R3C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+        "R3C8-prix-ecurie-vivaldi-prix-leopold-d-orsetti.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-hommage-a-david-powel-prix-des-oeillets.html",
+        "R4C2-prix-medef-calvados-prix-astrolabe.html",
+        "R4C3-prix-vivaldi-jumping-prix-de-pennedepie.html",
+        "R4C4-prix-boutique-kevin-staut-prix-du-casino.html",
+        "R4C5-prix-vivaldi-trading-prix-belle-isle.html",
+        "R4C6-prix-la-vivaldi-acamedy-prix-des-forsythias.html",
+        "R4C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+        "R4C8-prix-ecurie-vivaldi-prix-leopold-d-orsetti.html"
+      ],
+      "R5-vichy": [
+        "R5C1-prix-hommage-a-david-powel-prix-des-oeillets.html",
+        "R5C2-prix-medef-calvados-prix-astrolabe.html",
+        "R5C3-prix-vivaldi-jumping-prix-de-pennedepie.html",
+        "R5C4-prix-boutique-kevin-staut-prix-du-casino.html",
+        "R5C5-prix-vivaldi-trading-prix-belle-isle.html",
+        "R5C6-prix-la-vivaldi-acamedy-prix-des-forsythias.html",
+        "R5C7-prix-ecurie-vivaldi-chantilly-prix-rideo.html",
+        "R5C8-prix-ecurie-vivaldi-prix-leopold-d-orsetti.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:56.833270Z"
+}

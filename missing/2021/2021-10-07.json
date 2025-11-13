@@ -1,0 +1,89 @@
+{
+  "date": "2021-10-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/10/2021-10-07",
+    "date_html": "resultats-et-rapports/2021/10/2021-10-07/2021-10-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/10/2021-10-07/R1-saint-cloud/R1C1-prix-de-windsor.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R1-saint-cloud/R1C5-prix-crudite.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R1-saint-cloud/R1C6-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R1-saint-cloud/R1C7-prix-de-boadilla-del-monte.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C4-prix-tanerko.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C5-prix-crudite.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C6-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C7-prix-de-boadilla-del-monte.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R3-bordeaux-le-bouscat/R3C8-prix-de-courtrai.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C1-prix-de-windsor.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C3-prix-tenebreuse.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C4-prix-tanerko.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C5-prix-crudite.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C6-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C7-prix-de-boadilla-del-monte.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R4-cabourg/R4C8-prix-de-courtrai.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C2-prix-as-d-atout.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C3-prix-tenebreuse.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C4-prix-tanerko.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C5-prix-crudite.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C6-prix-de-bad-godesberg.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C7-prix-de-boadilla-del-monte.html",
+      "resultats-et-rapports/2021/10/2021-10-07/R7-marseille-borely/R7C8-prix-de-courtrai.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-bordeaux-le-bouscat",
+      "R4-cabourg",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-de-windsor.html",
+        "R1C2-prix-as-d-atout.html",
+        "R1C3-prix-tenebreuse.html",
+        "R1C4-prix-tanerko.html",
+        "R1C5-prix-crudite.html",
+        "R1C6-prix-de-bad-godesberg.html",
+        "R1C7-prix-de-boadilla-del-monte.html",
+        "R1C8-prix-de-courtrai.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-de-windsor.html",
+        "R3C2-prix-as-d-atout.html",
+        "R3C3-prix-tenebreuse.html",
+        "R3C4-prix-tanerko.html",
+        "R3C5-prix-crudite.html",
+        "R3C6-prix-de-bad-godesberg.html",
+        "R3C7-prix-de-boadilla-del-monte.html",
+        "R3C8-prix-de-courtrai.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-windsor.html",
+        "R4C2-prix-as-d-atout.html",
+        "R4C3-prix-tenebreuse.html",
+        "R4C4-prix-tanerko.html",
+        "R4C5-prix-crudite.html",
+        "R4C6-prix-de-bad-godesberg.html",
+        "R4C7-prix-de-boadilla-del-monte.html",
+        "R4C8-prix-de-courtrai.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-de-windsor.html",
+        "R7C2-prix-as-d-atout.html",
+        "R7C3-prix-tenebreuse.html",
+        "R7C4-prix-tanerko.html",
+        "R7C5-prix-crudite.html",
+        "R7C6-prix-de-bad-godesberg.html",
+        "R7C7-prix-de-boadilla-del-monte.html",
+        "R7C8-prix-de-courtrai.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:18.786370Z"
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2006-05-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-03",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-03/2006-05-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-galmier",
+      "R2-maisons-laffitte",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-galmier": [
+        "R1C1-prix-du-conseil-general-de-la-loire.html",
+        "R1C2-prix-des-sapins.html",
+        "R1C3-prix-des-ormes.html",
+        "R1C4-grand-prix-du-centre-est.html",
+        "R1C5-prix-de-la-ville-de-saint-etienne.html",
+        "R1C6-prix-hubert-de-poncins.html",
+        "R1C7-prix-des-erables.html",
+        "R1C8-prix-des-chataigniers.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-du-conseil-general-de-la-loire.html",
+        "R2C2-prix-des-sapins.html",
+        "R2C3-prix-des-ormes.html",
+        "R2C4-grand-prix-du-centre-est.html",
+        "R2C5-prix-de-la-ville-de-saint-etienne.html",
+        "R2C6-prix-hubert-de-poncins.html",
+        "R2C7-prix-des-erables.html",
+        "R2C8-prix-des-chataigniers.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-du-conseil-general-de-la-loire.html",
+        "R4C2-prix-des-sapins.html",
+        "R4C3-prix-des-ormes.html",
+        "R4C4-grand-prix-du-centre-est.html",
+        "R4C5-prix-de-la-ville-de-saint-etienne.html",
+        "R4C6-prix-hubert-de-poncins.html",
+        "R4C7-prix-des-erables.html",
+        "R4C8-prix-des-chataigniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:29.291765Z"
+}

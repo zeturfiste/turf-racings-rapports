@@ -1,0 +1,85 @@
+{
+  "date": "2024-10-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-04",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-04/2024-10-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-04/R1-vincennes/R1C5-prix-lilius.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R1-vincennes/R1C6-prix-andromeda.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R1-vincennes/R1C8-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R3-hyeres/R3C3-prix-atalante.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R3-hyeres/R3C5-prix-lilius.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R3-hyeres/R3C6-prix-andromeda.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R3-hyeres/R3C7-prix-etamin.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R3-hyeres/R3C8-prix-eliane-de-bellaigue.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R4-saint-cloud/R4C1-prix-justicia.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R4-saint-cloud/R4C2-prix-ludovica.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R4-saint-cloud/R4C4-prix-charley-mills.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R4-saint-cloud/R4C7-prix-etamin.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C1-prix-justicia.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C2-prix-ludovica.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C3-prix-atalante.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C4-prix-charley-mills.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C5-prix-lilius.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C6-prix-andromeda.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C7-prix-etamin.html",
+      "resultats-et-rapports/2024/10/2024-10-04/R5-lyon-la-soie/R5C8-prix-eliane-de-bellaigue.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-hyeres",
+      "R4-saint-cloud",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-justicia.html",
+        "R1C2-prix-ludovica.html",
+        "R1C3-prix-atalante.html",
+        "R1C4-prix-charley-mills.html",
+        "R1C5-prix-lilius.html",
+        "R1C6-prix-andromeda.html",
+        "R1C7-prix-etamin.html",
+        "R1C8-prix-eliane-de-bellaigue.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-justicia.html",
+        "R3C2-prix-ludovica.html",
+        "R3C3-prix-atalante.html",
+        "R3C4-prix-charley-mills.html",
+        "R3C5-prix-lilius.html",
+        "R3C6-prix-andromeda.html",
+        "R3C7-prix-etamin.html",
+        "R3C8-prix-eliane-de-bellaigue.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-justicia.html",
+        "R4C2-prix-ludovica.html",
+        "R4C3-prix-atalante.html",
+        "R4C4-prix-charley-mills.html",
+        "R4C5-prix-lilius.html",
+        "R4C6-prix-andromeda.html",
+        "R4C7-prix-etamin.html",
+        "R4C8-prix-eliane-de-bellaigue.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-justicia.html",
+        "R5C2-prix-ludovica.html",
+        "R5C3-prix-atalante.html",
+        "R5C4-prix-charley-mills.html",
+        "R5C5-prix-lilius.html",
+        "R5C6-prix-andromeda.html",
+        "R5C7-prix-etamin.html",
+        "R5C8-prix-eliane-de-bellaigue.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:03.377424Z"
+}

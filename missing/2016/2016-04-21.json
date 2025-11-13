@@ -1,0 +1,83 @@
+{
+  "date": "2016-04-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-21",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-21/2016-04-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C1-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C3-prix-de-la-place-des-vosges.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C4-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C5-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C7-prix-du-stade-de-france.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R1-compiegne/R1C8-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R2-nantes/R2C6-prix-du-parc-royal.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R2-nantes/R2C8-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R3-enghien-soisy/R3C1-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R3-enghien-soisy/R3C4-prix-de-la-promenade-plantee.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R3-enghien-soisy/R3C6-prix-du-parc-royal.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R3-enghien-soisy/R3C7-prix-du-stade-de-france.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R3-enghien-soisy/R3C8-prix-du-parc-des-princes.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R5-lyon-parilly/R5C1-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R5-lyon-parilly/R5C2-prix-de-nanterre.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R5-lyon-parilly/R5C3-prix-de-la-place-des-vosges.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R5-lyon-parilly/R5C6-prix-du-parc-royal.html",
+      "resultats-et-rapports/2016/04/2016-04-21/R5-lyon-parilly/R5C8-prix-du-parc-des-princes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R2-nantes",
+      "R3-enghien-soisy",
+      "R5-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-la-madeleine.html",
+        "R1C2-prix-de-nanterre.html",
+        "R1C3-prix-de-la-place-des-vosges.html",
+        "R1C4-prix-de-la-promenade-plantee.html",
+        "R1C5-prix-des-grands-augustins.html",
+        "R1C6-prix-du-parc-royal.html",
+        "R1C7-prix-du-stade-de-france.html",
+        "R1C8-prix-du-parc-des-princes.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-la-madeleine.html",
+        "R2C2-prix-de-nanterre.html",
+        "R2C3-prix-de-la-place-des-vosges.html",
+        "R2C4-prix-de-la-promenade-plantee.html",
+        "R2C5-prix-des-grands-augustins.html",
+        "R2C6-prix-du-parc-royal.html",
+        "R2C7-prix-du-stade-de-france.html",
+        "R2C8-prix-du-parc-des-princes.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-madeleine.html",
+        "R3C2-prix-de-nanterre.html",
+        "R3C3-prix-de-la-place-des-vosges.html",
+        "R3C4-prix-de-la-promenade-plantee.html",
+        "R3C5-prix-des-grands-augustins.html",
+        "R3C6-prix-du-parc-royal.html",
+        "R3C7-prix-du-stade-de-france.html",
+        "R3C8-prix-du-parc-des-princes.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-de-la-madeleine.html",
+        "R5C2-prix-de-nanterre.html",
+        "R5C3-prix-de-la-place-des-vosges.html",
+        "R5C4-prix-de-la-promenade-plantee.html",
+        "R5C5-prix-des-grands-augustins.html",
+        "R5C6-prix-du-parc-royal.html",
+        "R5C7-prix-du-stade-de-france.html",
+        "R5C8-prix-du-parc-des-princes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:33.594333Z"
+}

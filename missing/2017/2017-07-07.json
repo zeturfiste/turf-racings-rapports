@@ -1,0 +1,87 @@
+{
+  "date": "2017-07-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-07",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-07/2017-07-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C1-prix-des-iris.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C2-prix-des-valerianes.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C3-prix-des-jonquilles.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C4-prix-des-spirees.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C6-prix-locatech-artifice-prix-aubepines.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C7-prix-des-glaieuls-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R1-cabourg/R1C8-prix-des-glaieuls-groupe-b.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R3-feurs/R3C1-prix-des-iris.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R3-feurs/R3C2-prix-des-valerianes.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R3-feurs/R3C5-prix-des-fuschias.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R4-deauville/R4C1-prix-des-iris.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R4-deauville/R4C5-prix-des-fuschias.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R4-deauville/R4C7-prix-des-glaieuls-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R4-deauville/R4C8-prix-des-glaieuls-groupe-b.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C1-prix-des-iris.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C2-prix-des-valerianes.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C3-prix-des-jonquilles.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C4-prix-des-spirees.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C5-prix-des-fuschias.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C6-prix-locatech-artifice-prix-aubepines.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C7-prix-des-glaieuls-groupe-a.html",
+      "resultats-et-rapports/2017/07/2017-07-07/R6-pornichet-la-baule/R6C8-prix-des-glaieuls-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-feurs",
+      "R4-deauville",
+      "R6-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-des-iris.html",
+        "R1C2-prix-des-valerianes.html",
+        "R1C3-prix-des-jonquilles.html",
+        "R1C4-prix-des-spirees.html",
+        "R1C5-prix-des-fuschias.html",
+        "R1C6-prix-locatech-artifice-prix-aubepines.html",
+        "R1C7-prix-des-glaieuls-groupe-a.html",
+        "R1C8-prix-des-glaieuls-groupe-b.html"
+      ],
+      "R3-feurs": [
+        "R3C1-prix-des-iris.html",
+        "R3C2-prix-des-valerianes.html",
+        "R3C3-prix-des-jonquilles.html",
+        "R3C4-prix-des-spirees.html",
+        "R3C5-prix-des-fuschias.html",
+        "R3C6-prix-locatech-artifice-prix-aubepines.html",
+        "R3C7-prix-des-glaieuls-groupe-a.html",
+        "R3C8-prix-des-glaieuls-groupe-b.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-des-iris.html",
+        "R4C2-prix-des-valerianes.html",
+        "R4C3-prix-des-jonquilles.html",
+        "R4C4-prix-des-spirees.html",
+        "R4C5-prix-des-fuschias.html",
+        "R4C6-prix-locatech-artifice-prix-aubepines.html",
+        "R4C7-prix-des-glaieuls-groupe-a.html",
+        "R4C8-prix-des-glaieuls-groupe-b.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-des-iris.html",
+        "R6C2-prix-des-valerianes.html",
+        "R6C3-prix-des-jonquilles.html",
+        "R6C4-prix-des-spirees.html",
+        "R6C5-prix-des-fuschias.html",
+        "R6C6-prix-locatech-artifice-prix-aubepines.html",
+        "R6C7-prix-des-glaieuls-groupe-a.html",
+        "R6C8-prix-des-glaieuls-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:49.846782Z"
+}

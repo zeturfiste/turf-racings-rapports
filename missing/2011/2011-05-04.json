@@ -1,0 +1,88 @@
+{
+  "date": "2011-05-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-04",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-04/2011-05-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-04/R1-lyon-la-soie/R1C2-grand-prix-du-carre-de-soie.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R1-lyon-la-soie/R1C3-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R1-lyon-la-soie/R1C4-prix-andre-gager.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R1-lyon-la-soie/R1C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R1-lyon-la-soie/R1C8-prix-de-bohlen.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C1-prix-du-grand-lyon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C2-grand-prix-du-carre-de-soie.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C3-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C4-prix-andre-gager.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C6-prix-masina.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R2-enghien-soisy/R2C8-prix-de-bohlen.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R3-lisieux/R3C1-prix-du-grand-lyon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R3-lisieux/R3C3-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R3-lisieux/R3C8-prix-de-bohlen.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C1-prix-du-grand-lyon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C2-grand-prix-du-carre-de-soie.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C3-grand-prix-du-centre-est.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C4-prix-andre-gager.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2011/05/2011-05-04/R4-marseille-borely/R4C8-prix-de-bohlen.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R2-enghien-soisy",
+      "R3-lisieux",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-prix-du-grand-lyon.html",
+        "R1C2-grand-prix-du-carre-de-soie.html",
+        "R1C3-grand-prix-du-centre-est.html",
+        "R1C4-prix-andre-gager.html",
+        "R1C5-prix-de-la-chartreuse.html",
+        "R1C6-prix-masina.html",
+        "R1C7-prix-du-cerdon.html",
+        "R1C8-prix-de-bohlen.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-grand-lyon.html",
+        "R2C2-grand-prix-du-carre-de-soie.html",
+        "R2C3-grand-prix-du-centre-est.html",
+        "R2C4-prix-andre-gager.html",
+        "R2C5-prix-de-la-chartreuse.html",
+        "R2C6-prix-masina.html",
+        "R2C7-prix-du-cerdon.html",
+        "R2C8-prix-de-bohlen.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-du-grand-lyon.html",
+        "R3C2-grand-prix-du-carre-de-soie.html",
+        "R3C3-grand-prix-du-centre-est.html",
+        "R3C4-prix-andre-gager.html",
+        "R3C5-prix-de-la-chartreuse.html",
+        "R3C6-prix-masina.html",
+        "R3C7-prix-du-cerdon.html",
+        "R3C8-prix-de-bohlen.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-du-grand-lyon.html",
+        "R4C2-grand-prix-du-carre-de-soie.html",
+        "R4C3-grand-prix-du-centre-est.html",
+        "R4C4-prix-andre-gager.html",
+        "R4C5-prix-de-la-chartreuse.html",
+        "R4C6-prix-masina.html",
+        "R4C7-prix-du-cerdon.html",
+        "R4C8-prix-de-bohlen.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:29.553674Z"
+}

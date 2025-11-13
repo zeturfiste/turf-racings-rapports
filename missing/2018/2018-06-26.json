@@ -1,0 +1,93 @@
+{
+  "date": "2018-06-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/06/2018-06-26",
+    "date_html": "resultats-et-rapports/2018/06/2018-06-26/2018-06-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C1-prix-d-acheres.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C3-prix-chinco.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C4-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C5-prix-dawn-run.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C7-prix-port-said.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R3-aix-les-bains/R3C8-prix-al-capone-ii.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R4-le-croise-laroche/R4C1-prix-d-acheres.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R4-le-croise-laroche/R4C5-prix-dawn-run.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R4-le-croise-laroche/R4C6-prix-de-chantilly.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R4-le-croise-laroche/R4C8-prix-al-capone-ii.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C1-prix-d-acheres.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C2-prix-du-defile.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C3-prix-chinco.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C4-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C5-prix-dawn-run.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C7-prix-port-said.html",
+      "resultats-et-rapports/2018/06/2018-06-26/R5-vincennes/R5C8-prix-al-capone-ii.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vichy",
+      "R3-aix-les-bains",
+      "R4-le-croise-laroche",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-d-acheres.html",
+        "R1C2-prix-du-defile.html",
+        "R1C3-prix-chinco.html",
+        "R1C4-prix-gerald-de-rochefort.html",
+        "R1C5-prix-dawn-run.html",
+        "R1C6-prix-de-chantilly.html",
+        "R1C7-prix-port-said.html",
+        "R1C8-prix-al-capone-ii.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-d-acheres.html",
+        "R2C2-prix-du-defile.html",
+        "R2C3-prix-chinco.html",
+        "R2C4-prix-gerald-de-rochefort.html",
+        "R2C5-prix-dawn-run.html",
+        "R2C6-prix-de-chantilly.html",
+        "R2C7-prix-port-said.html",
+        "R2C8-prix-al-capone-ii.html"
+      ],
+      "R3-aix-les-bains": [
+        "R3C1-prix-d-acheres.html",
+        "R3C2-prix-du-defile.html",
+        "R3C3-prix-chinco.html",
+        "R3C4-prix-gerald-de-rochefort.html",
+        "R3C5-prix-dawn-run.html",
+        "R3C6-prix-de-chantilly.html",
+        "R3C7-prix-port-said.html",
+        "R3C8-prix-al-capone-ii.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-d-acheres.html",
+        "R4C2-prix-du-defile.html",
+        "R4C3-prix-chinco.html",
+        "R4C4-prix-gerald-de-rochefort.html",
+        "R4C5-prix-dawn-run.html",
+        "R4C6-prix-de-chantilly.html",
+        "R4C7-prix-port-said.html",
+        "R4C8-prix-al-capone-ii.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-d-acheres.html",
+        "R5C2-prix-du-defile.html",
+        "R5C3-prix-chinco.html",
+        "R5C4-prix-gerald-de-rochefort.html",
+        "R5C5-prix-dawn-run.html",
+        "R5C6-prix-de-chantilly.html",
+        "R5C7-prix-port-said.html",
+        "R5C8-prix-al-capone-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:41.470675Z"
+}

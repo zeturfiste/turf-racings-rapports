@@ -1,0 +1,121 @@
+{
+  "date": "2016-07-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-10",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-10/2016-07-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C2-prix-des-usages.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C3-prix-de-beauvais.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C4-prix-chloe.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C7-prix-du-bois-franc.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R1-chantilly/R1C8-prix-de-compiegne.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C1-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C2-prix-des-usages.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C3-prix-de-beauvais.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C7-prix-du-bois-franc.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R2-aix-les-bains/R2C8-prix-de-compiegne.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C1-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C2-prix-des-usages.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C3-prix-de-beauvais.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C4-prix-chloe.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R3-biarritz/R3C8-prix-de-compiegne.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R4-la-capelle/R4C1-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R4-la-capelle/R4C2-prix-des-usages.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R4-la-capelle/R4C3-prix-de-beauvais.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R4-la-capelle/R4C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R4-la-capelle/R4C8-prix-de-compiegne.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R5-vittel/R5C1-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R5-vittel/R5C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R5-vittel/R5C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C1-prix-du-bois-des-bouleaux.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C2-prix-des-usages.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C3-prix-de-beauvais.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C5-prix-jean-prat.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C6-prix-de-saint-nicolas-d-acy.html",
+      "resultats-et-rapports/2016/07/2016-07-10/R8-le-touquet/R8C8-prix-de-compiegne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-aix-les-bains",
+      "R3-biarritz",
+      "R4-la-capelle",
+      "R5-vittel",
+      "R8-le-touquet"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-bois-des-bouleaux.html",
+        "R1C2-prix-des-usages.html",
+        "R1C3-prix-de-beauvais.html",
+        "R1C4-prix-chloe.html",
+        "R1C5-prix-jean-prat.html",
+        "R1C6-prix-de-saint-nicolas-d-acy.html",
+        "R1C7-prix-du-bois-franc.html",
+        "R1C8-prix-de-compiegne.html"
+      ],
+      "R2-aix-les-bains": [
+        "R2C1-prix-du-bois-des-bouleaux.html",
+        "R2C2-prix-des-usages.html",
+        "R2C3-prix-de-beauvais.html",
+        "R2C4-prix-chloe.html",
+        "R2C5-prix-jean-prat.html",
+        "R2C6-prix-de-saint-nicolas-d-acy.html",
+        "R2C7-prix-du-bois-franc.html",
+        "R2C8-prix-de-compiegne.html"
+      ],
+      "R3-biarritz": [
+        "R3C1-prix-du-bois-des-bouleaux.html",
+        "R3C2-prix-des-usages.html",
+        "R3C3-prix-de-beauvais.html",
+        "R3C4-prix-chloe.html",
+        "R3C5-prix-jean-prat.html",
+        "R3C6-prix-de-saint-nicolas-d-acy.html",
+        "R3C7-prix-du-bois-franc.html",
+        "R3C8-prix-de-compiegne.html"
+      ],
+      "R4-la-capelle": [
+        "R4C1-prix-du-bois-des-bouleaux.html",
+        "R4C2-prix-des-usages.html",
+        "R4C3-prix-de-beauvais.html",
+        "R4C4-prix-chloe.html",
+        "R4C5-prix-jean-prat.html",
+        "R4C6-prix-de-saint-nicolas-d-acy.html",
+        "R4C7-prix-du-bois-franc.html",
+        "R4C8-prix-de-compiegne.html"
+      ],
+      "R5-vittel": [
+        "R5C1-prix-du-bois-des-bouleaux.html",
+        "R5C2-prix-des-usages.html",
+        "R5C3-prix-de-beauvais.html",
+        "R5C4-prix-chloe.html",
+        "R5C5-prix-jean-prat.html",
+        "R5C6-prix-de-saint-nicolas-d-acy.html",
+        "R5C7-prix-du-bois-franc.html",
+        "R5C8-prix-de-compiegne.html"
+      ],
+      "R8-le-touquet": [
+        "R8C1-prix-du-bois-des-bouleaux.html",
+        "R8C2-prix-des-usages.html",
+        "R8C3-prix-de-beauvais.html",
+        "R8C4-prix-chloe.html",
+        "R8C5-prix-jean-prat.html",
+        "R8C6-prix-de-saint-nicolas-d-acy.html",
+        "R8C7-prix-du-bois-franc.html",
+        "R8C8-prix-de-compiegne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:00.113687Z"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2006-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/10/2006-10-12",
+    "date_html": "resultats-et-rapports/2006/10/2006-10-12/2006-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-enghien-soisy",
+      "R3-toulouse",
+      "R21-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-chateau-de-vaux-le-vicomte.html",
+        "R1C2-prix-du-chateau-de-ferrieres-en-brie.html",
+        "R1C3-prix-du-chateau-de-fleury-en-biere.html",
+        "R1C4-prix-du-chateau-de-blandy-les-tours.html",
+        "R1C5-prix-du-chateau-de-versailles.html",
+        "R1C6-prix-du-chateau-de-champs-sur-marne.html",
+        "R1C7-prix-du-chateau-de-fontainebleau.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-chateau-de-vaux-le-vicomte.html",
+        "R2C2-prix-du-chateau-de-ferrieres-en-brie.html",
+        "R2C3-prix-du-chateau-de-fleury-en-biere.html",
+        "R2C4-prix-du-chateau-de-blandy-les-tours.html",
+        "R2C5-prix-du-chateau-de-versailles.html",
+        "R2C6-prix-du-chateau-de-champs-sur-marne.html",
+        "R2C7-prix-du-chateau-de-fontainebleau.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-du-chateau-de-vaux-le-vicomte.html",
+        "R3C2-prix-du-chateau-de-ferrieres-en-brie.html",
+        "R3C3-prix-du-chateau-de-fleury-en-biere.html",
+        "R3C4-prix-du-chateau-de-blandy-les-tours.html",
+        "R3C5-prix-du-chateau-de-versailles.html",
+        "R3C6-prix-du-chateau-de-champs-sur-marne.html",
+        "R3C7-prix-du-chateau-de-fontainebleau.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-du-chateau-de-vaux-le-vicomte.html",
+        "R21C2-prix-du-chateau-de-ferrieres-en-brie.html",
+        "R21C3-prix-du-chateau-de-fleury-en-biere.html",
+        "R21C4-prix-du-chateau-de-blandy-les-tours.html",
+        "R21C5-prix-du-chateau-de-versailles.html",
+        "R21C6-prix-du-chateau-de-champs-sur-marne.html",
+        "R21C7-prix-du-chateau-de-fontainebleau.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:12.446434Z"
+}

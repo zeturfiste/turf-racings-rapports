@@ -1,0 +1,93 @@
+{
+  "date": "2007-07-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-14",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-14/2007-07-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-14/R31-zerace/R31C2-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R31-zerace/R31C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R31-zerace/R31C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R31-zerace/R31C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R31-zerace/R31C7-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R70-estadio-olimpico-caracas/R70C2-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R70-estadio-olimpico-caracas/R70C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R70-estadio-olimpico-caracas/R70C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R70-estadio-olimpico-caracas/R70C7-prix-des-grands-augustins.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R70-estadio-olimpico-caracas/R70C8-prix-metro-prix-du-defile.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C1-prix-du-grand-palais.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C2-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2007/07/2007-07-14/R71-bourg-en-bresse-le-grand-bornand/R71C8-prix-metro-prix-du-defile.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-amiens",
+      "R31-zerace",
+      "R70-estadio-olimpico-caracas",
+      "R71-bourg-en-bresse-le-grand-bornand"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-grand-palais.html",
+        "R1C2-prix-roland-de-chambure.html",
+        "R1C3-prix-de-la-fete-nationale.html",
+        "R1C4-prix-de-thiberville.html",
+        "R1C5-prix-maurice-de-nieuil.html",
+        "R1C6-juddmonte-grand-prix-de-paris.html",
+        "R1C7-prix-des-grands-augustins.html",
+        "R1C8-prix-metro-prix-du-defile.html"
+      ],
+      "R2-amiens": [
+        "R2C1-prix-du-grand-palais.html",
+        "R2C2-prix-roland-de-chambure.html",
+        "R2C3-prix-de-la-fete-nationale.html",
+        "R2C4-prix-de-thiberville.html",
+        "R2C5-prix-maurice-de-nieuil.html",
+        "R2C6-juddmonte-grand-prix-de-paris.html",
+        "R2C7-prix-des-grands-augustins.html",
+        "R2C8-prix-metro-prix-du-defile.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-grand-palais.html",
+        "R31C2-prix-roland-de-chambure.html",
+        "R31C3-prix-de-la-fete-nationale.html",
+        "R31C4-prix-de-thiberville.html",
+        "R31C5-prix-maurice-de-nieuil.html",
+        "R31C6-juddmonte-grand-prix-de-paris.html",
+        "R31C7-prix-des-grands-augustins.html",
+        "R31C8-prix-metro-prix-du-defile.html"
+      ],
+      "R70-estadio-olimpico-caracas": [
+        "R70C1-prix-du-grand-palais.html",
+        "R70C2-prix-roland-de-chambure.html",
+        "R70C3-prix-de-la-fete-nationale.html",
+        "R70C4-prix-de-thiberville.html",
+        "R70C5-prix-maurice-de-nieuil.html",
+        "R70C6-juddmonte-grand-prix-de-paris.html",
+        "R70C7-prix-des-grands-augustins.html",
+        "R70C8-prix-metro-prix-du-defile.html"
+      ],
+      "R71-bourg-en-bresse-le-grand-bornand": [
+        "R71C1-prix-du-grand-palais.html",
+        "R71C2-prix-roland-de-chambure.html",
+        "R71C3-prix-de-la-fete-nationale.html",
+        "R71C4-prix-de-thiberville.html",
+        "R71C5-prix-maurice-de-nieuil.html",
+        "R71C6-juddmonte-grand-prix-de-paris.html",
+        "R71C7-prix-des-grands-augustins.html",
+        "R71C8-prix-metro-prix-du-defile.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:36.740508Z"
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2014-09-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/09/2014-09-25",
+    "date_html": "resultats-et-rapports/2014/09/2014-09-25/2014-09-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/09/2014-09-25/R1-maisons-laffitte/R1C1-prix-commandeur.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R1-maisons-laffitte/R1C4-prix-idalie.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R1-maisons-laffitte/R1C5-prix-de-levis-saint-nom.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R1-maisons-laffitte/R1C7-prix-de-marsinval.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R1-maisons-laffitte/R1C8-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C1-prix-commandeur.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C2-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C3-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C4-prix-idalie.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C5-prix-de-levis-saint-nom.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C6-prix-pelat.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C7-prix-de-marsinval.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R2-lyon-parilly/R2C8-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C1-prix-commandeur.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C2-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C3-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C4-prix-idalie.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C5-prix-de-levis-saint-nom.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C6-prix-pelat.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C7-prix-de-marsinval.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R3-enghien-soisy/R3C8-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C1-prix-commandeur.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C2-prix-de-bures-sur-yvette.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C3-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C4-prix-idalie.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C5-prix-de-levis-saint-nom.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C6-prix-pelat.html",
+      "resultats-et-rapports/2014/09/2014-09-25/R4-fontainebleau/R4C7-prix-de-marsinval.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-lyon-parilly",
+      "R3-enghien-soisy",
+      "R4-fontainebleau"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-commandeur.html",
+        "R1C2-prix-de-bures-sur-yvette.html",
+        "R1C3-prix-du-chateau-de-maisons-laffitte.html",
+        "R1C4-prix-idalie.html",
+        "R1C5-prix-de-levis-saint-nom.html",
+        "R1C6-prix-pelat.html",
+        "R1C7-prix-de-marsinval.html",
+        "R1C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R2-lyon-parilly": [
+        "R2C1-prix-commandeur.html",
+        "R2C2-prix-de-bures-sur-yvette.html",
+        "R2C3-prix-du-chateau-de-maisons-laffitte.html",
+        "R2C4-prix-idalie.html",
+        "R2C5-prix-de-levis-saint-nom.html",
+        "R2C6-prix-pelat.html",
+        "R2C7-prix-de-marsinval.html",
+        "R2C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-commandeur.html",
+        "R3C2-prix-de-bures-sur-yvette.html",
+        "R3C3-prix-du-chateau-de-maisons-laffitte.html",
+        "R3C4-prix-idalie.html",
+        "R3C5-prix-de-levis-saint-nom.html",
+        "R3C6-prix-pelat.html",
+        "R3C7-prix-de-marsinval.html",
+        "R3C8-prix-du-parc-de-maisons-laffitte.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-commandeur.html",
+        "R4C2-prix-de-bures-sur-yvette.html",
+        "R4C3-prix-du-chateau-de-maisons-laffitte.html",
+        "R4C4-prix-idalie.html",
+        "R4C5-prix-de-levis-saint-nom.html",
+        "R4C6-prix-pelat.html",
+        "R4C7-prix-de-marsinval.html",
+        "R4C8-prix-du-parc-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:38.049390Z"
+}

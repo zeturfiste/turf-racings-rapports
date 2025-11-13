@@ -1,0 +1,95 @@
+{
+  "date": "2024-08-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-10",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-10/2024-08-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-10/R1-deauville/R1C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R1-deauville/R1C7-prix-de-l-avant-port-d-honfleur.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R3-enghien-soisy/R3C7-prix-de-l-avant-port-d-honfleur.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R3-enghien-soisy/R3C9-prix-deauville-yacht-club.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R4-argentan/R4C5-prix-de-saint-laurent-sur-mer.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R4-argentan/R4C9-prix-deauville-yacht-club.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R7-graignes/R7C9-prix-deauville-yacht-club.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C1-prix-de-montaigu.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C2-prix-de-la-reboursiere.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C3-prix-de-canapville.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C7-prix-de-l-avant-port-d-honfleur.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C8-prix-d-arromanches.html",
+      "resultats-et-rapports/2024/08/2024-08-10/R8-cagnes-sur-mer/R8C9-prix-deauville-yacht-club.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-enghien-soisy",
+      "R4-argentan",
+      "R7-graignes",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-montaigu.html",
+        "R1C2-prix-de-la-reboursiere.html",
+        "R1C3-prix-de-canapville.html",
+        "R1C4-prix-des-greniers-a-sel.html",
+        "R1C5-prix-de-saint-laurent-sur-mer.html",
+        "R1C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+        "R1C7-prix-de-l-avant-port-d-honfleur.html",
+        "R1C8-prix-d-arromanches.html",
+        "R1C9-prix-deauville-yacht-club.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-montaigu.html",
+        "R3C2-prix-de-la-reboursiere.html",
+        "R3C3-prix-de-canapville.html",
+        "R3C4-prix-des-greniers-a-sel.html",
+        "R3C5-prix-de-saint-laurent-sur-mer.html",
+        "R3C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+        "R3C7-prix-de-l-avant-port-d-honfleur.html",
+        "R3C8-prix-d-arromanches.html",
+        "R3C9-prix-deauville-yacht-club.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-de-montaigu.html",
+        "R4C2-prix-de-la-reboursiere.html",
+        "R4C3-prix-de-canapville.html",
+        "R4C4-prix-des-greniers-a-sel.html",
+        "R4C5-prix-de-saint-laurent-sur-mer.html",
+        "R4C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+        "R4C7-prix-de-l-avant-port-d-honfleur.html",
+        "R4C8-prix-d-arromanches.html",
+        "R4C9-prix-deauville-yacht-club.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-de-montaigu.html",
+        "R7C2-prix-de-la-reboursiere.html",
+        "R7C3-prix-de-canapville.html",
+        "R7C4-prix-des-greniers-a-sel.html",
+        "R7C5-prix-de-saint-laurent-sur-mer.html",
+        "R7C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+        "R7C7-prix-de-l-avant-port-d-honfleur.html",
+        "R7C8-prix-d-arromanches.html",
+        "R7C9-prix-deauville-yacht-club.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-de-montaigu.html",
+        "R8C2-prix-de-la-reboursiere.html",
+        "R8C3-prix-de-canapville.html",
+        "R8C4-prix-des-greniers-a-sel.html",
+        "R8C5-prix-de-saint-laurent-sur-mer.html",
+        "R8C6-prix-normandy-horse-meet-up-prix-de-clarbec.html",
+        "R8C7-prix-de-l-avant-port-d-honfleur.html",
+        "R8C8-prix-d-arromanches.html",
+        "R8C9-prix-deauville-yacht-club.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:40.913013Z"
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2011-11-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-14",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-14/2011-11-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C1-prix-de-colombes.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C2-prix-d-azay-le-rideau.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C3-prix-de-ranville.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C4-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C5-prix-louis-tillaye.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C6-prix-du-languedoc.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C8-prix-des-giroflees-groupe-a.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R1-vincennes/R1C9-prix-des-giroflees-groupe-b.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R2-compiegne/R2C1-prix-de-colombes.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R2-compiegne/R2C2-prix-d-azay-le-rideau.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R2-compiegne/R2C6-prix-du-languedoc.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R2-compiegne/R2C7-prix-d-angers.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R2-compiegne/R2C8-prix-des-giroflees-groupe-a.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R3-pornichet-la-baule/R3C1-prix-de-colombes.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R3-pornichet-la-baule/R3C4-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R3-pornichet-la-baule/R3C5-prix-louis-tillaye.html",
+      "resultats-et-rapports/2011/11/2011-11-14/R3-pornichet-la-baule/R3C8-prix-des-giroflees-groupe-a.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-compiegne",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-colombes.html",
+        "R1C2-prix-d-azay-le-rideau.html",
+        "R1C3-prix-de-ranville.html",
+        "R1C4-prix-de-castelsarrasin.html",
+        "R1C5-prix-louis-tillaye.html",
+        "R1C6-prix-du-languedoc.html",
+        "R1C7-prix-d-angers.html",
+        "R1C8-prix-des-giroflees-groupe-a.html",
+        "R1C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R2-compiegne": [
+        "R2C1-prix-de-colombes.html",
+        "R2C2-prix-d-azay-le-rideau.html",
+        "R2C3-prix-de-ranville.html",
+        "R2C4-prix-de-castelsarrasin.html",
+        "R2C5-prix-louis-tillaye.html",
+        "R2C6-prix-du-languedoc.html",
+        "R2C7-prix-d-angers.html",
+        "R2C8-prix-des-giroflees-groupe-a.html",
+        "R2C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-de-colombes.html",
+        "R3C2-prix-d-azay-le-rideau.html",
+        "R3C3-prix-de-ranville.html",
+        "R3C4-prix-de-castelsarrasin.html",
+        "R3C5-prix-louis-tillaye.html",
+        "R3C6-prix-du-languedoc.html",
+        "R3C7-prix-d-angers.html",
+        "R3C8-prix-des-giroflees-groupe-a.html",
+        "R3C9-prix-des-giroflees-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:27.737253Z"
+}

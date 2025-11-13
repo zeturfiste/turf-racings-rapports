@@ -1,0 +1,87 @@
+{
+  "date": "2020-07-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/07/2020-07-15",
+    "date_html": "resultats-et-rapports/2020/07/2020-07-15/2020-07-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/07/2020-07-15/R3-mont-de-marsan/R3C8-prix-de-la-carrosserie-saint-michel.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R4-argentan/R4C5-prix-des-etablissements-rault.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R4-argentan/R4C6-prix-du-cabaret-saint-michel.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R4-argentan/R4C7-prix-agri-pleine-fougeres.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R5-enghien-soisy/R5C2-prix-sacey-automobiles.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R5-enghien-soisy/R5C3-prix-de-l-imprimerie-arc-en-ciel.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R8-cagnes-sur-mer/R8C2-prix-sacey-automobiles.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R8-cagnes-sur-mer/R8C4-prix-des-benevoles.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R8-cagnes-sur-mer/R8C6-prix-du-cabaret-saint-michel.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R8-cagnes-sur-mer/R8C7-prix-agri-pleine-fougeres.html",
+      "resultats-et-rapports/2020/07/2020-07-15/R8-cagnes-sur-mer/R8C8-prix-de-la-carrosserie-saint-michel.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-le-mont-saint-michel",
+      "R3-mont-de-marsan",
+      "R4-argentan",
+      "R5-enghien-soisy",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-le-mont-saint-michel": [
+        "R1C1-prix-de-l-entreprise-sarrazin.html",
+        "R1C2-prix-sacey-automobiles.html",
+        "R1C3-prix-de-l-imprimerie-arc-en-ciel.html",
+        "R1C4-prix-des-benevoles.html",
+        "R1C5-prix-des-etablissements-rault.html",
+        "R1C6-prix-du-cabaret-saint-michel.html",
+        "R1C7-prix-agri-pleine-fougeres.html",
+        "R1C8-prix-de-la-carrosserie-saint-michel.html"
+      ],
+      "R3-mont-de-marsan": [
+        "R3C1-prix-de-l-entreprise-sarrazin.html",
+        "R3C2-prix-sacey-automobiles.html",
+        "R3C3-prix-de-l-imprimerie-arc-en-ciel.html",
+        "R3C4-prix-des-benevoles.html",
+        "R3C5-prix-des-etablissements-rault.html",
+        "R3C6-prix-du-cabaret-saint-michel.html",
+        "R3C7-prix-agri-pleine-fougeres.html",
+        "R3C8-prix-de-la-carrosserie-saint-michel.html"
+      ],
+      "R4-argentan": [
+        "R4C1-prix-de-l-entreprise-sarrazin.html",
+        "R4C2-prix-sacey-automobiles.html",
+        "R4C3-prix-de-l-imprimerie-arc-en-ciel.html",
+        "R4C4-prix-des-benevoles.html",
+        "R4C5-prix-des-etablissements-rault.html",
+        "R4C6-prix-du-cabaret-saint-michel.html",
+        "R4C7-prix-agri-pleine-fougeres.html",
+        "R4C8-prix-de-la-carrosserie-saint-michel.html"
+      ],
+      "R5-enghien-soisy": [
+        "R5C1-prix-de-l-entreprise-sarrazin.html",
+        "R5C2-prix-sacey-automobiles.html",
+        "R5C3-prix-de-l-imprimerie-arc-en-ciel.html",
+        "R5C4-prix-des-benevoles.html",
+        "R5C5-prix-des-etablissements-rault.html",
+        "R5C6-prix-du-cabaret-saint-michel.html",
+        "R5C7-prix-agri-pleine-fougeres.html",
+        "R5C8-prix-de-la-carrosserie-saint-michel.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-de-l-entreprise-sarrazin.html",
+        "R8C2-prix-sacey-automobiles.html",
+        "R8C3-prix-de-l-imprimerie-arc-en-ciel.html",
+        "R8C4-prix-des-benevoles.html",
+        "R8C5-prix-des-etablissements-rault.html",
+        "R8C6-prix-du-cabaret-saint-michel.html",
+        "R8C7-prix-agri-pleine-fougeres.html",
+        "R8C8-prix-de-la-carrosserie-saint-michel.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:30.529772Z"
+}

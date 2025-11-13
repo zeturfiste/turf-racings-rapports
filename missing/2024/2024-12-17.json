@@ -1,0 +1,92 @@
+{
+  "date": "2024-12-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-17",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-17/2024-12-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C2-prix-du-pau-hunt-races.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C3-prix-paul-fournier.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C5-wathba-stallions-cup.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C6-prix-andre-toulet.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C7-wathba-stud-farm.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R1-pau/R1C8-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R2-bordeaux-le-bouscat/R2C2-prix-du-pau-hunt-races.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R2-bordeaux-le-bouscat/R2C3-prix-paul-fournier.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R2-bordeaux-le-bouscat/R2C5-wathba-stallions-cup.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R2-bordeaux-le-bouscat/R2C7-wathba-stud-farm.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R2-bordeaux-le-bouscat/R2C8-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C1-prix-de-montpezat.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C2-prix-du-pau-hunt-races.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C3-prix-paul-fournier.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C5-wathba-stallions-cup.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C6-prix-andre-toulet.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C7-wathba-stud-farm.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R3-marseille-vivaux/R3C8-prix-jean-lamaysouette.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C1-prix-de-montpezat.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C2-prix-du-pau-hunt-races.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C3-prix-paul-fournier.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C5-wathba-stallions-cup.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C6-prix-andre-toulet.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C7-wathba-stud-farm.html",
+      "resultats-et-rapports/2024/12/2024-12-17/R4-cabourg/R4C8-prix-jean-lamaysouette.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-bordeaux-le-bouscat",
+      "R3-marseille-vivaux",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-montpezat.html",
+        "R1C2-prix-du-pau-hunt-races.html",
+        "R1C3-prix-paul-fournier.html",
+        "R1C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+        "R1C5-wathba-stallions-cup.html",
+        "R1C6-prix-andre-toulet.html",
+        "R1C7-wathba-stud-farm.html",
+        "R1C8-prix-jean-lamaysouette.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-montpezat.html",
+        "R2C2-prix-du-pau-hunt-races.html",
+        "R2C3-prix-paul-fournier.html",
+        "R2C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+        "R2C5-wathba-stallions-cup.html",
+        "R2C6-prix-andre-toulet.html",
+        "R2C7-wathba-stud-farm.html",
+        "R2C8-prix-jean-lamaysouette.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-montpezat.html",
+        "R3C2-prix-du-pau-hunt-races.html",
+        "R3C3-prix-paul-fournier.html",
+        "R3C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+        "R3C5-wathba-stallions-cup.html",
+        "R3C6-prix-andre-toulet.html",
+        "R3C7-wathba-stud-farm.html",
+        "R3C8-prix-jean-lamaysouette.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-montpezat.html",
+        "R4C2-prix-du-pau-hunt-races.html",
+        "R4C3-prix-paul-fournier.html",
+        "R4C4-prix-etalon-castle-du-berlais-haras-du-lion-prix-georges-pastre.html",
+        "R4C5-wathba-stallions-cup.html",
+        "R4C6-prix-andre-toulet.html",
+        "R4C7-wathba-stud-farm.html",
+        "R4C8-prix-jean-lamaysouette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:33.424803Z"
+}

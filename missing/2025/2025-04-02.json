@@ -1,0 +1,67 @@
+{
+  "date": "2025-04-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-02",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-02/2025-04-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-02/R1-angers/R1C3-prix-24h-au-trot-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R1-angers/R1C5-prix-neric-barbes.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R1-angers/R1C7-prix-florence-lecellier.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R1-angers/R1C8-prix-roxane-griff.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R3-compiegne/R3C3-prix-24h-au-trot-prix-tenor-de-baune.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R3-compiegne/R3C4-prix-des-cuisines-you-prix-gelinotte.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R3-compiegne/R3C6-prix-timoko.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R3-compiegne/R3C7-prix-florence-lecellier.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R3-compiegne/R3C8-prix-roxane-griff.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R4-la-teste-de-buch/R4C1-grand-prix-angers-loire-metropole.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R4-la-teste-de-buch/R4C4-prix-des-cuisines-you-prix-gelinotte.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R4-la-teste-de-buch/R4C6-prix-timoko.html",
+      "resultats-et-rapports/2025/04/2025-04-02/R4-la-teste-de-buch/R4C8-prix-roxane-griff.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-angers",
+      "R3-compiegne",
+      "R4-la-teste-de-buch"
+    ],
+    "courses_by_reunion": {
+      "R1-angers": [
+        "R1C1-grand-prix-angers-loire-metropole.html",
+        "R1C2-prix-intermede.html",
+        "R1C3-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R1C4-prix-des-cuisines-you-prix-gelinotte.html",
+        "R1C5-prix-neric-barbes.html",
+        "R1C6-prix-timoko.html",
+        "R1C7-prix-florence-lecellier.html",
+        "R1C8-prix-roxane-griff.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-prix-angers-loire-metropole.html",
+        "R3C2-prix-intermede.html",
+        "R3C3-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R3C4-prix-des-cuisines-you-prix-gelinotte.html",
+        "R3C5-prix-neric-barbes.html",
+        "R3C6-prix-timoko.html",
+        "R3C7-prix-florence-lecellier.html",
+        "R3C8-prix-roxane-griff.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-grand-prix-angers-loire-metropole.html",
+        "R4C2-prix-intermede.html",
+        "R4C3-prix-24h-au-trot-prix-tenor-de-baune.html",
+        "R4C4-prix-des-cuisines-you-prix-gelinotte.html",
+        "R4C5-prix-neric-barbes.html",
+        "R4C6-prix-timoko.html",
+        "R4C7-prix-florence-lecellier.html",
+        "R4C8-prix-roxane-griff.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:08.624270Z"
+}

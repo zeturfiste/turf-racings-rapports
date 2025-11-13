@@ -1,0 +1,93 @@
+{
+  "date": "2016-02-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-23",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-23/2016-02-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C1-prix-de-rugles.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C2-prix-de-carhaix.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C3-prix-du-chesnay.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C4-prix-de-lens.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C5-prix-de-fontainebleau.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C6-prix-de-cerisy.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R1-vincennes/R1C8-prix-de-challans.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C2-prix-de-carhaix.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C3-prix-du-chesnay.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C5-prix-de-fontainebleau.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C6-prix-de-cerisy.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C7-prix-de-vertou.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R2-toulouse/R2C8-prix-de-challans.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C1-prix-de-rugles.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C2-prix-de-carhaix.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C3-prix-du-chesnay.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C4-prix-de-lens.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C5-prix-de-fontainebleau.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C6-prix-de-cerisy.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R3-lyon-la-soie/R3C8-prix-de-challans.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C1-prix-de-rugles.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C2-prix-de-carhaix.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C3-prix-du-chesnay.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C4-prix-de-lens.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C5-prix-de-fontainebleau.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C6-prix-de-cerisy.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C7-prix-de-vertou.html",
+      "resultats-et-rapports/2016/02/2016-02-23/R5-cagnes-sur-mer/R5C8-prix-de-challans.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-toulouse",
+      "R3-lyon-la-soie",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-rugles.html",
+        "R1C2-prix-de-carhaix.html",
+        "R1C3-prix-du-chesnay.html",
+        "R1C4-prix-de-lens.html",
+        "R1C5-prix-de-fontainebleau.html",
+        "R1C6-prix-de-cerisy.html",
+        "R1C7-prix-de-vertou.html",
+        "R1C8-prix-de-challans.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-de-rugles.html",
+        "R2C2-prix-de-carhaix.html",
+        "R2C3-prix-du-chesnay.html",
+        "R2C4-prix-de-lens.html",
+        "R2C5-prix-de-fontainebleau.html",
+        "R2C6-prix-de-cerisy.html",
+        "R2C7-prix-de-vertou.html",
+        "R2C8-prix-de-challans.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-de-rugles.html",
+        "R3C2-prix-de-carhaix.html",
+        "R3C3-prix-du-chesnay.html",
+        "R3C4-prix-de-lens.html",
+        "R3C5-prix-de-fontainebleau.html",
+        "R3C6-prix-de-cerisy.html",
+        "R3C7-prix-de-vertou.html",
+        "R3C8-prix-de-challans.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-rugles.html",
+        "R5C2-prix-de-carhaix.html",
+        "R5C3-prix-du-chesnay.html",
+        "R5C4-prix-de-lens.html",
+        "R5C5-prix-de-fontainebleau.html",
+        "R5C6-prix-de-cerisy.html",
+        "R5C7-prix-de-vertou.html",
+        "R5C8-prix-de-challans.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:16.222360Z"
+}

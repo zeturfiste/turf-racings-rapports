@@ -1,0 +1,87 @@
+{
+  "date": "2016-07-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-02",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-02/2016-07-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-02/R1-enghien-soisy/R1C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R1-enghien-soisy/R1C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R1-enghien-soisy/R1C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R3-deauville/R3C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R3-deauville/R3C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R3-deauville/R3C3-prix-du-roussillon.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R3-deauville/R3C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R3-deauville/R3C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C3-prix-du-roussillon.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C4-prix-de-washington.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R4-vire/R4C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C4-prix-de-washington.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C7-prix-le-pavillon-a-rosny-sous-bois-prix-de-la-place-des-alpes.html",
+      "resultats-et-rapports/2016/07/2016-07-02/R5-aix-les-bains/R5C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-deauville",
+      "R4-vire",
+      "R5-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+        "R1C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+        "R1C3-prix-du-roussillon.html",
+        "R1C4-prix-de-washington.html",
+        "R1C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+        "R1C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+        "R1C7-prix-le-pavillon-a-rosny-sous-bois-prix-de-la-place-des-alpes.html",
+        "R1C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+        "R3C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+        "R3C3-prix-du-roussillon.html",
+        "R3C4-prix-de-washington.html",
+        "R3C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+        "R3C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+        "R3C7-prix-le-pavillon-a-rosny-sous-bois-prix-de-la-place-des-alpes.html",
+        "R3C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html"
+      ],
+      "R4-vire": [
+        "R4C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+        "R4C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+        "R4C3-prix-du-roussillon.html",
+        "R4C4-prix-de-washington.html",
+        "R4C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+        "R4C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+        "R4C7-prix-le-pavillon-a-rosny-sous-bois-prix-de-la-place-des-alpes.html",
+        "R4C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html"
+      ],
+      "R5-aix-les-bains": [
+        "R5C1-prix-du-pmu-city-de-montreuil-prix-neuilly-levallois.html",
+        "R5C2-prix-tabac-du-musee-de-l-air-au-blanc-mesnil-prix-de-la-porte-saint-martin.html",
+        "R5C3-prix-du-roussillon.html",
+        "R5C4-prix-de-washington.html",
+        "R5C5-prix-troisieme-avenue-a-franconville-prix-crepy-en-valois.html",
+        "R5C6-prix-le-grand-paris-a-neuilly-plaisance-prix-de-l-observatoire.html",
+        "R5C7-prix-le-pavillon-a-rosny-sous-bois-prix-de-la-place-des-alpes.html",
+        "R5C8-prix-la-tabatiere-a-sarcelles-prix-de-la-place-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:57.826938Z"
+}

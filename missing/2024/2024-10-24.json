@@ -1,0 +1,83 @@
+{
+  "date": "2024-10-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/10/2024-10-24",
+    "date_html": "resultats-et-rapports/2024/10/2024-10-24/2024-10-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/10/2024-10-24/R1-auteuil/R1C3-prix-noiro.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R1-auteuil/R1C4-prix-paul-s-cray.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R3-deauville/R3C1-prix-montgomery.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R3-deauville/R3C5-prix-jean-sens.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R3-deauville/R3C6-prix-pelat.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R4-cabourg/R4C3-prix-noiro.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R4-cabourg/R4C4-prix-paul-s-cray.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R4-cabourg/R4C6-prix-pelat.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R4-cabourg/R4C7-prix-petit-fontaine.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R4-cabourg/R4C8-prix-robert-bates.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C1-prix-montgomery.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C2-prix-emilius.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C3-prix-noiro.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C4-prix-paul-s-cray.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C5-prix-jean-sens.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C6-prix-pelat.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C7-prix-petit-fontaine.html",
+      "resultats-et-rapports/2024/10/2024-10-24/R7-marseille-borely/R7C8-prix-robert-bates.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-deauville",
+      "R4-cabourg",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-montgomery.html",
+        "R1C2-prix-emilius.html",
+        "R1C3-prix-noiro.html",
+        "R1C4-prix-paul-s-cray.html",
+        "R1C5-prix-jean-sens.html",
+        "R1C6-prix-pelat.html",
+        "R1C7-prix-petit-fontaine.html",
+        "R1C8-prix-robert-bates.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-montgomery.html",
+        "R3C2-prix-emilius.html",
+        "R3C3-prix-noiro.html",
+        "R3C4-prix-paul-s-cray.html",
+        "R3C5-prix-jean-sens.html",
+        "R3C6-prix-pelat.html",
+        "R3C7-prix-petit-fontaine.html",
+        "R3C8-prix-robert-bates.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-montgomery.html",
+        "R4C2-prix-emilius.html",
+        "R4C3-prix-noiro.html",
+        "R4C4-prix-paul-s-cray.html",
+        "R4C5-prix-jean-sens.html",
+        "R4C6-prix-pelat.html",
+        "R4C7-prix-petit-fontaine.html",
+        "R4C8-prix-robert-bates.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-montgomery.html",
+        "R7C2-prix-emilius.html",
+        "R7C3-prix-noiro.html",
+        "R7C4-prix-paul-s-cray.html",
+        "R7C5-prix-jean-sens.html",
+        "R7C6-prix-pelat.html",
+        "R7C7-prix-petit-fontaine.html",
+        "R7C8-prix-robert-bates.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:11.190843Z"
+}

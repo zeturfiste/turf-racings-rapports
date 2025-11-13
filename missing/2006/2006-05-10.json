@@ -1,0 +1,53 @@
+{
+  "date": "2006-05-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-10",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-10/2006-05-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-beaumont-de-lomagne",
+      "R2-chantilly",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-beaumont-de-lomagne": [
+        "R1C1-grand-prix-de-lomagne.html",
+        "R1C2-prix-des-amis-de-la-societe.html",
+        "R1C3-prix-de-fermat.html",
+        "R1C4-prix-de-vincennes.html",
+        "R1C5-prix-midi-pyrenees.html",
+        "R1C6-prix-borde-vieille.html",
+        "R1C7-prix-des-haras-nationaux.html",
+        "R1C8-prix-d-argentan.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-grand-prix-de-lomagne.html",
+        "R2C2-prix-des-amis-de-la-societe.html",
+        "R2C3-prix-de-fermat.html",
+        "R2C4-prix-de-vincennes.html",
+        "R2C5-prix-midi-pyrenees.html",
+        "R2C6-prix-borde-vieille.html",
+        "R2C7-prix-des-haras-nationaux.html",
+        "R2C8-prix-d-argentan.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-grand-prix-de-lomagne.html",
+        "R4C2-prix-des-amis-de-la-societe.html",
+        "R4C3-prix-de-fermat.html",
+        "R4C4-prix-de-vincennes.html",
+        "R4C5-prix-midi-pyrenees.html",
+        "R4C6-prix-borde-vieille.html",
+        "R4C7-prix-des-haras-nationaux.html",
+        "R4C8-prix-d-argentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:30.855092Z"
+}

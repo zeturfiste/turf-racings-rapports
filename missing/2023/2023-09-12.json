@@ -1,0 +1,78 @@
+{
+  "date": "2023-09-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-12",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-12/2023-09-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-12/R1-auteuil/R1C3-prix-meli-melo.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R1-auteuil/R1C7-prix-de-saint-etienne-de-corcoue.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R4-vincennes/R4C6-prix-pierre-et-bernard-cypres.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R4-vincennes/R4C8-prix-de-l-orleanais.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R5-toulouse/R5C1-prix-alain-et-gilles-de-goulaine.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R5-toulouse/R5C2-prix-finot-poulains-peloton-a.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R5-toulouse/R5C3-prix-meli-melo.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R5-toulouse/R5C7-prix-de-saint-etienne-de-corcoue.html",
+      "resultats-et-rapports/2023/09/2023-09-12/R5-toulouse/R5C8-prix-de-l-orleanais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-lyon-parilly",
+      "R4-vincennes",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-alain-et-gilles-de-goulaine.html",
+        "R1C2-prix-finot-poulains-peloton-a.html",
+        "R1C3-prix-meli-melo.html",
+        "R1C4-prix-finot-poulains-peloton-b.html",
+        "R1C5-prix-ucello-ii.html",
+        "R1C6-prix-pierre-et-bernard-cypres.html",
+        "R1C7-prix-de-saint-etienne-de-corcoue.html",
+        "R1C8-prix-de-l-orleanais.html",
+        "R1C9-prix-henri-gleizes.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-alain-et-gilles-de-goulaine.html",
+        "R3C2-prix-finot-poulains-peloton-a.html",
+        "R3C3-prix-meli-melo.html",
+        "R3C4-prix-finot-poulains-peloton-b.html",
+        "R3C5-prix-ucello-ii.html",
+        "R3C6-prix-pierre-et-bernard-cypres.html",
+        "R3C7-prix-de-saint-etienne-de-corcoue.html",
+        "R3C8-prix-de-l-orleanais.html",
+        "R3C9-prix-henri-gleizes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-alain-et-gilles-de-goulaine.html",
+        "R4C2-prix-finot-poulains-peloton-a.html",
+        "R4C3-prix-meli-melo.html",
+        "R4C4-prix-finot-poulains-peloton-b.html",
+        "R4C5-prix-ucello-ii.html",
+        "R4C6-prix-pierre-et-bernard-cypres.html",
+        "R4C7-prix-de-saint-etienne-de-corcoue.html",
+        "R4C8-prix-de-l-orleanais.html",
+        "R4C9-prix-henri-gleizes.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-alain-et-gilles-de-goulaine.html",
+        "R5C2-prix-finot-poulains-peloton-a.html",
+        "R5C3-prix-meli-melo.html",
+        "R5C4-prix-finot-poulains-peloton-b.html",
+        "R5C5-prix-ucello-ii.html",
+        "R5C6-prix-pierre-et-bernard-cypres.html",
+        "R5C7-prix-de-saint-etienne-de-corcoue.html",
+        "R5C8-prix-de-l-orleanais.html",
+        "R5C9-prix-henri-gleizes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:36.436942Z"
+}

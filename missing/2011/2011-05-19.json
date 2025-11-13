@@ -1,0 +1,63 @@
+{
+  "date": "2011-05-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-19",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-19/2011-05-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-19/R1-longchamp/R1C7-prix-de-la-tournelle.html",
+      "resultats-et-rapports/2011/05/2011-05-19/R3-agen/R3C2-prix-de-clichy.html",
+      "resultats-et-rapports/2011/05/2011-05-19/R3-agen/R3C3-prix-de-saint-germain.html",
+      "resultats-et-rapports/2011/05/2011-05-19/R3-agen/R3C6-prix-des-tertres.html",
+      "resultats-et-rapports/2011/05/2011-05-19/R3-agen/R3C7-prix-de-la-tournelle.html",
+      "resultats-et-rapports/2011/05/2011-05-19/R3-agen/R3C8-prix-de-glatigny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-mauquenchy",
+      "R3-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-chevilly.html",
+        "R1C2-prix-de-clichy.html",
+        "R1C3-prix-de-saint-germain.html",
+        "R1C4-prix-du-pont-neuf.html",
+        "R1C5-prix-de-champerret.html",
+        "R1C6-prix-des-tertres.html",
+        "R1C7-prix-de-la-tournelle.html",
+        "R1C8-prix-de-glatigny.html",
+        "R1C9-prix-de-glagny.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-de-chevilly.html",
+        "R2C2-prix-de-clichy.html",
+        "R2C3-prix-de-saint-germain.html",
+        "R2C4-prix-du-pont-neuf.html",
+        "R2C5-prix-de-champerret.html",
+        "R2C6-prix-des-tertres.html",
+        "R2C7-prix-de-la-tournelle.html",
+        "R2C8-prix-de-glatigny.html",
+        "R2C9-prix-de-glagny.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-de-chevilly.html",
+        "R3C2-prix-de-clichy.html",
+        "R3C3-prix-de-saint-germain.html",
+        "R3C4-prix-du-pont-neuf.html",
+        "R3C5-prix-de-champerret.html",
+        "R3C6-prix-des-tertres.html",
+        "R3C7-prix-de-la-tournelle.html",
+        "R3C8-prix-de-glatigny.html",
+        "R3C9-prix-de-glagny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:34.260027Z"
+}

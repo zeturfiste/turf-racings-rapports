@@ -1,0 +1,111 @@
+{
+  "date": "2023-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-12",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-12/2023-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-12/R1-vincennes/R1C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R1-vincennes/R1C3-prix-leo.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R3-cholet/R3C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R3-cholet/R3C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R3-cholet/R3C7-prix-eugenia.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R4-saint-cloud/R4C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R4-saint-cloud/R4C2-prix-regulus.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R4-saint-cloud/R4C4-prix-paul-karle.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R4-saint-cloud/R4C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R4-saint-cloud/R4C6-prix-diphda.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C2-prix-regulus.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C3-prix-leo.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C4-prix-paul-karle.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C6-prix-diphda.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R5-marseille-borely/R5C7-prix-eugenia.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C2-prix-regulus.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C3-prix-leo.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C4-prix-paul-karle.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C6-prix-diphda.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R6-moulins/R6C7-prix-eugenia.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C1-prix-masina.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C2-prix-regulus.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C3-prix-leo.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C4-prix-paul-karle.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C6-prix-diphda.html",
+      "resultats-et-rapports/2023/05/2023-05-12/R7-laval/R7C7-prix-eugenia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cholet",
+      "R4-saint-cloud",
+      "R5-marseille-borely",
+      "R6-moulins",
+      "R7-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-masina.html",
+        "R1C2-prix-regulus.html",
+        "R1C3-prix-leo.html",
+        "R1C4-prix-paul-karle.html",
+        "R1C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R1C6-prix-diphda.html",
+        "R1C7-prix-eugenia.html"
+      ],
+      "R3-cholet": [
+        "R3C1-prix-masina.html",
+        "R3C2-prix-regulus.html",
+        "R3C3-prix-leo.html",
+        "R3C4-prix-paul-karle.html",
+        "R3C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R3C6-prix-diphda.html",
+        "R3C7-prix-eugenia.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-masina.html",
+        "R4C2-prix-regulus.html",
+        "R4C3-prix-leo.html",
+        "R4C4-prix-paul-karle.html",
+        "R4C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R4C6-prix-diphda.html",
+        "R4C7-prix-eugenia.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-masina.html",
+        "R5C2-prix-regulus.html",
+        "R5C3-prix-leo.html",
+        "R5C4-prix-paul-karle.html",
+        "R5C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R5C6-prix-diphda.html",
+        "R5C7-prix-eugenia.html"
+      ],
+      "R6-moulins": [
+        "R6C1-prix-masina.html",
+        "R6C2-prix-regulus.html",
+        "R6C3-prix-leo.html",
+        "R6C4-prix-paul-karle.html",
+        "R6C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R6C6-prix-diphda.html",
+        "R6C7-prix-eugenia.html"
+      ],
+      "R7-laval": [
+        "R7C1-prix-masina.html",
+        "R7C2-prix-regulus.html",
+        "R7C3-prix-leo.html",
+        "R7C4-prix-paul-karle.html",
+        "R7C5-prix-jean-gauvreau-etrier-5-ans-q2.html",
+        "R7C6-prix-diphda.html",
+        "R7C7-prix-eugenia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:49.212962Z"
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2024-01-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/01/2024-01-08",
+    "date_html": "resultats-et-rapports/2024/01/2024-01-08/2024-01-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-cagnes-sur-mer",
+      "R6-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-l-aveyron.html",
+        "R1C2-prix-de-cheverny.html",
+        "R1C3-prix-de-montfort.html",
+        "R1C4-prix-de-saint-brieuc.html",
+        "R1C5-prix-de-douai.html",
+        "R1C6-prix-d-aubervilliers.html",
+        "R1C7-prix-christelle-zimmer.html",
+        "R1C8-prix-de-ribeauville.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-l-aveyron.html",
+        "R3C2-prix-de-cheverny.html",
+        "R3C3-prix-de-montfort.html",
+        "R3C4-prix-de-saint-brieuc.html",
+        "R3C5-prix-de-douai.html",
+        "R3C6-prix-d-aubervilliers.html",
+        "R3C7-prix-christelle-zimmer.html",
+        "R3C8-prix-de-ribeauville.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-de-l-aveyron.html",
+        "R4C2-prix-de-cheverny.html",
+        "R4C3-prix-de-montfort.html",
+        "R4C4-prix-de-saint-brieuc.html",
+        "R4C5-prix-de-douai.html",
+        "R4C6-prix-d-aubervilliers.html",
+        "R4C7-prix-christelle-zimmer.html",
+        "R4C8-prix-de-ribeauville.html"
+      ],
+      "R6-chateaubriant": [
+        "R6C1-prix-de-l-aveyron.html",
+        "R6C2-prix-de-cheverny.html",
+        "R6C3-prix-de-montfort.html",
+        "R6C4-prix-de-saint-brieuc.html",
+        "R6C5-prix-de-douai.html",
+        "R6C6-prix-d-aubervilliers.html",
+        "R6C7-prix-christelle-zimmer.html",
+        "R6C8-prix-de-ribeauville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:19.504205Z"
+}

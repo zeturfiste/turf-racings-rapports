@@ -1,0 +1,85 @@
+{
+  "date": "2024-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/11/2024-11-13",
+    "date_html": "resultats-et-rapports/2024/11/2024-11-13/2024-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/11/2024-11-13/R1-mauquenchy/R1C3-prix-le-cheval-blanc-bouconvilliers.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R1-mauquenchy/R1C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R1-mauquenchy/R1C8-prix-l-amandra-darnetal.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R2-pau/R2C1-prix-du-conseil-departemental.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R2-pau/R2C2-prix-la-civette-du-vieux-marche-rouen.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R2-pau/R2C4-prix-jacques-brion.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R2-pau/R2C8-prix-l-amandra-darnetal.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C2-prix-la-civette-du-vieux-marche-rouen.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C3-prix-le-cheval-blanc-bouconvilliers.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C4-prix-jacques-brion.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R3-pornichet-la-baule/R3C8-prix-l-amandra-darnetal.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C1-prix-du-conseil-departemental.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C2-prix-la-civette-du-vieux-marche-rouen.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C4-prix-jacques-brion.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C6-prix-l-horizon-canteleu.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+      "resultats-et-rapports/2024/11/2024-11-13/R4-toulouse/R4C8-prix-l-amandra-darnetal.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-mauquenchy",
+      "R2-pau",
+      "R3-pornichet-la-baule",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-mauquenchy": [
+        "R1C1-prix-du-conseil-departemental.html",
+        "R1C2-prix-la-civette-du-vieux-marche-rouen.html",
+        "R1C3-prix-le-cheval-blanc-bouconvilliers.html",
+        "R1C4-prix-jacques-brion.html",
+        "R1C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+        "R1C6-prix-l-horizon-canteleu.html",
+        "R1C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+        "R1C8-prix-l-amandra-darnetal.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-du-conseil-departemental.html",
+        "R2C2-prix-la-civette-du-vieux-marche-rouen.html",
+        "R2C3-prix-le-cheval-blanc-bouconvilliers.html",
+        "R2C4-prix-jacques-brion.html",
+        "R2C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+        "R2C6-prix-l-horizon-canteleu.html",
+        "R2C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+        "R2C8-prix-l-amandra-darnetal.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-conseil-departemental.html",
+        "R3C2-prix-la-civette-du-vieux-marche-rouen.html",
+        "R3C3-prix-le-cheval-blanc-bouconvilliers.html",
+        "R3C4-prix-jacques-brion.html",
+        "R3C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+        "R3C6-prix-l-horizon-canteleu.html",
+        "R3C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+        "R3C8-prix-l-amandra-darnetal.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-du-conseil-departemental.html",
+        "R4C2-prix-la-civette-du-vieux-marche-rouen.html",
+        "R4C3-prix-le-cheval-blanc-bouconvilliers.html",
+        "R4C4-prix-jacques-brion.html",
+        "R4C5-prix-maurice-de-folleville-prix-du-bar-tabac-de-la-place-berthecourt.html",
+        "R4C6-prix-l-horizon-canteleu.html",
+        "R4C7-prix-le-diplomate-saint-romain-de-colbosc.html",
+        "R4C8-prix-l-amandra-darnetal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:19.272228Z"
+}

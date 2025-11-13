@@ -1,0 +1,102 @@
+{
+  "date": "2020-10-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-11",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-11/2020-10-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-11/R1-auteuil/R1C4-prix-beaurepaire.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R3-agen/R3C8-prix-petit-fontaine.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R6-tarbes/R6C1-prix-noiro.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R6-tarbes/R6C2-prix-de-coye.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R6-tarbes/R6C4-prix-beaurepaire.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R6-tarbes/R6C8-prix-petit-fontaine.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R7-nancy/R7C4-prix-beaurepaire.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R7-nancy/R7C5-prix-jack-barbe.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R7-nancy/R7C8-prix-petit-fontaine.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C1-prix-noiro.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C3-la-course-des-bleus-prix-andre-adele.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C4-prix-beaurepaire.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C5-prix-jack-barbe.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C6-prix-orcada.html",
+      "resultats-et-rapports/2020/10/2020-10-11/R8-lisieux/R8C7-prix-de-pornic.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-agen",
+      "R4-graignes",
+      "R6-tarbes",
+      "R7-nancy",
+      "R8-lisieux"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-noiro.html",
+        "R1C2-prix-de-coye.html",
+        "R1C3-la-course-des-bleus-prix-andre-adele.html",
+        "R1C4-prix-beaurepaire.html",
+        "R1C5-prix-jack-barbe.html",
+        "R1C6-prix-orcada.html",
+        "R1C7-prix-de-pornic.html",
+        "R1C8-prix-petit-fontaine.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-noiro.html",
+        "R3C2-prix-de-coye.html",
+        "R3C3-la-course-des-bleus-prix-andre-adele.html",
+        "R3C4-prix-beaurepaire.html",
+        "R3C5-prix-jack-barbe.html",
+        "R3C6-prix-orcada.html",
+        "R3C7-prix-de-pornic.html",
+        "R3C8-prix-petit-fontaine.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-noiro.html",
+        "R4C2-prix-de-coye.html",
+        "R4C3-la-course-des-bleus-prix-andre-adele.html",
+        "R4C4-prix-beaurepaire.html",
+        "R4C5-prix-jack-barbe.html",
+        "R4C6-prix-orcada.html",
+        "R4C7-prix-de-pornic.html",
+        "R4C8-prix-petit-fontaine.html"
+      ],
+      "R6-tarbes": [
+        "R6C1-prix-noiro.html",
+        "R6C2-prix-de-coye.html",
+        "R6C3-la-course-des-bleus-prix-andre-adele.html",
+        "R6C4-prix-beaurepaire.html",
+        "R6C5-prix-jack-barbe.html",
+        "R6C6-prix-orcada.html",
+        "R6C7-prix-de-pornic.html",
+        "R6C8-prix-petit-fontaine.html"
+      ],
+      "R7-nancy": [
+        "R7C1-prix-noiro.html",
+        "R7C2-prix-de-coye.html",
+        "R7C3-la-course-des-bleus-prix-andre-adele.html",
+        "R7C4-prix-beaurepaire.html",
+        "R7C5-prix-jack-barbe.html",
+        "R7C6-prix-orcada.html",
+        "R7C7-prix-de-pornic.html",
+        "R7C8-prix-petit-fontaine.html"
+      ],
+      "R8-lisieux": [
+        "R8C1-prix-noiro.html",
+        "R8C2-prix-de-coye.html",
+        "R8C3-la-course-des-bleus-prix-andre-adele.html",
+        "R8C4-prix-beaurepaire.html",
+        "R8C5-prix-jack-barbe.html",
+        "R8C6-prix-orcada.html",
+        "R8C7-prix-de-pornic.html",
+        "R8C8-prix-petit-fontaine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:04.120775Z"
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2018-01-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/01/2018-01-31",
+    "date_html": "resultats-et-rapports/2018/01/2018-01-31/2018-01-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/01/2018-01-31/R1-cagnes-sur-mer/R1C7-prix-des-hortensias.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C1-prix-rauba-capeu.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C3-prix-de-theoule-sur-mer.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C4-prix-de-morgiou.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C5-prix-adolphe-rossio.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C6-prix-de-sormiou.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R4-bordeaux-le-bouscat/R4C7-prix-des-hortensias.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R5-marseille-vivaux/R5C6-prix-de-sormiou.html",
+      "resultats-et-rapports/2018/01/2018-01-31/R5-marseille-vivaux/R5C8-prix-de-cimiez.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R4-bordeaux-le-bouscat",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-rauba-capeu.html",
+        "R1C2-prix-des-calanques.html",
+        "R1C3-prix-de-theoule-sur-mer.html",
+        "R1C4-prix-de-morgiou.html",
+        "R1C5-prix-adolphe-rossio.html",
+        "R1C6-prix-de-sormiou.html",
+        "R1C7-prix-des-hortensias.html",
+        "R1C8-prix-de-cimiez.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-prix-rauba-capeu.html",
+        "R4C2-prix-des-calanques.html",
+        "R4C3-prix-de-theoule-sur-mer.html",
+        "R4C4-prix-de-morgiou.html",
+        "R4C5-prix-adolphe-rossio.html",
+        "R4C6-prix-de-sormiou.html",
+        "R4C7-prix-des-hortensias.html",
+        "R4C8-prix-de-cimiez.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-rauba-capeu.html",
+        "R5C2-prix-des-calanques.html",
+        "R5C3-prix-de-theoule-sur-mer.html",
+        "R5C4-prix-de-morgiou.html",
+        "R5C5-prix-adolphe-rossio.html",
+        "R5C6-prix-de-sormiou.html",
+        "R5C7-prix-des-hortensias.html",
+        "R5C8-prix-de-cimiez.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:55.135875Z"
+}

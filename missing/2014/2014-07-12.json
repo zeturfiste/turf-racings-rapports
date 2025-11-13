@@ -1,0 +1,105 @@
+{
+  "date": "2014-07-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/07/2014-07-12",
+    "date_html": "resultats-et-rapports/2014/07/2014-07-12/2014-07-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/07/2014-07-12/R2-clairefontaine/R2C3-prix-de-bertincourt.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R2-clairefontaine/R2C4-prix-de-villiers.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R2-clairefontaine/R2C5-prix-de-bruxelles.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R2-clairefontaine/R2C7-prix-du-louvre.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R2-clairefontaine/R2C8-prix-de-la-porte-de-sevres.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R3-chateaubriant/R3C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R3-chateaubriant/R3C3-prix-de-bertincourt.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R4-les-sables-d-olonne/R4C1-prix-de-la-sorbonne.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R4-les-sables-d-olonne/R4C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R6-graignes/R6C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R6-graignes/R6C3-prix-de-bertincourt.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C3-prix-de-bertincourt.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C4-prix-de-villiers.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C5-prix-de-bruxelles.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C6-prix-du-palais-de-chaillot.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C7-prix-du-louvre.html",
+      "resultats-et-rapports/2014/07/2014-07-12/R7-cagnes-sur-mer/R7C8-prix-de-la-porte-de-sevres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-clairefontaine",
+      "R3-chateaubriant",
+      "R4-les-sables-d-olonne",
+      "R6-graignes",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-sorbonne.html",
+        "R1C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R1C3-prix-de-bertincourt.html",
+        "R1C4-prix-de-villiers.html",
+        "R1C5-prix-de-bruxelles.html",
+        "R1C6-prix-du-palais-de-chaillot.html",
+        "R1C7-prix-du-louvre.html",
+        "R1C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-la-sorbonne.html",
+        "R2C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R2C3-prix-de-bertincourt.html",
+        "R2C4-prix-de-villiers.html",
+        "R2C5-prix-de-bruxelles.html",
+        "R2C6-prix-du-palais-de-chaillot.html",
+        "R2C7-prix-du-louvre.html",
+        "R2C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-de-la-sorbonne.html",
+        "R3C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R3C3-prix-de-bertincourt.html",
+        "R3C4-prix-de-villiers.html",
+        "R3C5-prix-de-bruxelles.html",
+        "R3C6-prix-du-palais-de-chaillot.html",
+        "R3C7-prix-du-louvre.html",
+        "R3C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-de-la-sorbonne.html",
+        "R4C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R4C3-prix-de-bertincourt.html",
+        "R4C4-prix-de-villiers.html",
+        "R4C5-prix-de-bruxelles.html",
+        "R4C6-prix-du-palais-de-chaillot.html",
+        "R4C7-prix-du-louvre.html",
+        "R4C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-de-la-sorbonne.html",
+        "R6C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R6C3-prix-de-bertincourt.html",
+        "R6C4-prix-de-villiers.html",
+        "R6C5-prix-de-bruxelles.html",
+        "R6C6-prix-du-palais-de-chaillot.html",
+        "R6C7-prix-du-louvre.html",
+        "R6C8-prix-de-la-porte-de-sevres.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-de-la-sorbonne.html",
+        "R7C2-prix-d-uzerche-prix-de-la-porte-saint-martin.html",
+        "R7C3-prix-de-bertincourt.html",
+        "R7C4-prix-de-villiers.html",
+        "R7C5-prix-de-bruxelles.html",
+        "R7C6-prix-du-palais-de-chaillot.html",
+        "R7C7-prix-du-louvre.html",
+        "R7C8-prix-de-la-porte-de-sevres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:12.294532Z"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2006-03-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-03",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-03/2006-03-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-teddy.html",
+        "R1C2-prix-le-pompon.html",
+        "R1C3-prix-touchstone.html",
+        "R1C4-prix-cadet-roussel.html",
+        "R1C5-prix-calandria.html",
+        "R1C6-prix-magicien-ii.html",
+        "R1C7-prix-de-montmagny.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-teddy.html",
+        "R2C2-prix-le-pompon.html",
+        "R2C3-prix-touchstone.html",
+        "R2C4-prix-cadet-roussel.html",
+        "R2C5-prix-calandria.html",
+        "R2C6-prix-magicien-ii.html",
+        "R2C7-prix-de-montmagny.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:18.220302Z"
+}

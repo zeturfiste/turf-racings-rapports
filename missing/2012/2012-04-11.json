@@ -1,0 +1,99 @@
+{
+  "date": "2012-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/04/2012-04-11",
+    "date_html": "resultats-et-rapports/2012/04/2012-04-11/2012-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/04/2012-04-11/R1-lyon-la-soie/R1C4-prix-andre-gager.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R1-lyon-la-soie/R1C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R1-lyon-la-soie/R1C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R1-lyon-la-soie/R1C8-prix-de-bolhen.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R2-auteuil/R2C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R2-auteuil/R2C6-prix-masina.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R3-salon-de-provence/R3C1-prix-du-grand-lyon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R3-salon-de-provence/R3C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R3-salon-de-provence/R3C3-grand-prix-du-carre-de-soie.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R3-salon-de-provence/R3C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C1-prix-du-grand-lyon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C3-grand-prix-du-carre-de-soie.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C4-prix-andre-gager.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C6-prix-masina.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R4-chantilly/R4C8-prix-de-bolhen.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R5-mauquenchy/R5C2-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R5-mauquenchy/R5C5-prix-de-la-chartreuse.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R5-mauquenchy/R5C6-prix-masina.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R5-mauquenchy/R5C7-prix-du-cerdon.html",
+      "resultats-et-rapports/2012/04/2012-04-11/R5-mauquenchy/R5C8-prix-de-bolhen.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R2-auteuil",
+      "R3-salon-de-provence",
+      "R4-chantilly",
+      "R5-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-prix-du-grand-lyon.html",
+        "R1C2-prix-geny-com-paris-turf.html",
+        "R1C3-grand-prix-du-carre-de-soie.html",
+        "R1C4-prix-andre-gager.html",
+        "R1C5-prix-de-la-chartreuse.html",
+        "R1C6-prix-masina.html",
+        "R1C7-prix-du-cerdon.html",
+        "R1C8-prix-de-bolhen.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-du-grand-lyon.html",
+        "R2C2-prix-geny-com-paris-turf.html",
+        "R2C3-grand-prix-du-carre-de-soie.html",
+        "R2C4-prix-andre-gager.html",
+        "R2C5-prix-de-la-chartreuse.html",
+        "R2C6-prix-masina.html",
+        "R2C7-prix-du-cerdon.html",
+        "R2C8-prix-de-bolhen.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-du-grand-lyon.html",
+        "R3C2-prix-geny-com-paris-turf.html",
+        "R3C3-grand-prix-du-carre-de-soie.html",
+        "R3C4-prix-andre-gager.html",
+        "R3C5-prix-de-la-chartreuse.html",
+        "R3C6-prix-masina.html",
+        "R3C7-prix-du-cerdon.html",
+        "R3C8-prix-de-bolhen.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-du-grand-lyon.html",
+        "R4C2-prix-geny-com-paris-turf.html",
+        "R4C3-grand-prix-du-carre-de-soie.html",
+        "R4C4-prix-andre-gager.html",
+        "R4C5-prix-de-la-chartreuse.html",
+        "R4C6-prix-masina.html",
+        "R4C7-prix-du-cerdon.html",
+        "R4C8-prix-de-bolhen.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-du-grand-lyon.html",
+        "R5C2-prix-geny-com-paris-turf.html",
+        "R5C3-grand-prix-du-carre-de-soie.html",
+        "R5C4-prix-andre-gager.html",
+        "R5C5-prix-de-la-chartreuse.html",
+        "R5C6-prix-masina.html",
+        "R5C7-prix-du-cerdon.html",
+        "R5C8-prix-de-bolhen.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:04.610319Z"
+}

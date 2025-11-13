@@ -1,0 +1,91 @@
+{
+  "date": "2023-06-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-01",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-01/2023-06-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-01/R1-paris-longchamp/R1C1-prix-du-passage-saint-anne.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R1-paris-longchamp/R1C4-prix-du-passage-des-princes.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R1-paris-longchamp/R1C6-prix-de-rivoli.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R1-paris-longchamp/R1C7-prix-samos.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C1-prix-du-passage-saint-anne.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C2-prix-de-la-ville-de-paris.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C3-prix-de-l-hotel-de-ville.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C4-prix-du-passage-des-princes.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C5-prix-de-malmaison.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C6-prix-de-rivoli.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R3-nantes/R3C7-prix-samos.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C1-prix-du-passage-saint-anne.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C2-prix-de-la-ville-de-paris.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C3-prix-de-l-hotel-de-ville.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C5-prix-de-malmaison.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C6-prix-de-rivoli.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C7-prix-samos.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R4-meslay-du-maine/R4C8-prix-de-saint-mande.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C1-prix-du-passage-saint-anne.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C2-prix-de-la-ville-de-paris.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C3-prix-de-l-hotel-de-ville.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C4-prix-du-passage-des-princes.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C5-prix-de-malmaison.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C6-prix-de-rivoli.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C7-prix-samos.html",
+      "resultats-et-rapports/2023/06/2023-06-01/R5-graignes/R5C8-prix-de-saint-mande.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-nantes",
+      "R4-meslay-du-maine",
+      "R5-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-passage-saint-anne.html",
+        "R1C2-prix-de-la-ville-de-paris.html",
+        "R1C3-prix-de-l-hotel-de-ville.html",
+        "R1C4-prix-du-passage-des-princes.html",
+        "R1C5-prix-de-malmaison.html",
+        "R1C6-prix-de-rivoli.html",
+        "R1C7-prix-samos.html",
+        "R1C8-prix-de-saint-mande.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-du-passage-saint-anne.html",
+        "R3C2-prix-de-la-ville-de-paris.html",
+        "R3C3-prix-de-l-hotel-de-ville.html",
+        "R3C4-prix-du-passage-des-princes.html",
+        "R3C5-prix-de-malmaison.html",
+        "R3C6-prix-de-rivoli.html",
+        "R3C7-prix-samos.html",
+        "R3C8-prix-de-saint-mande.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-du-passage-saint-anne.html",
+        "R4C2-prix-de-la-ville-de-paris.html",
+        "R4C3-prix-de-l-hotel-de-ville.html",
+        "R4C4-prix-du-passage-des-princes.html",
+        "R4C5-prix-de-malmaison.html",
+        "R4C6-prix-de-rivoli.html",
+        "R4C7-prix-samos.html",
+        "R4C8-prix-de-saint-mande.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-du-passage-saint-anne.html",
+        "R5C2-prix-de-la-ville-de-paris.html",
+        "R5C3-prix-de-l-hotel-de-ville.html",
+        "R5C4-prix-du-passage-des-princes.html",
+        "R5C5-prix-de-malmaison.html",
+        "R5C6-prix-de-rivoli.html",
+        "R5C7-prix-samos.html",
+        "R5C8-prix-de-saint-mande.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:57.112753Z"
+}

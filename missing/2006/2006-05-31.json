@@ -1,0 +1,53 @@
+{
+  "date": "2006-05-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/05/2006-05-31",
+    "date_html": "resultats-et-rapports/2006/05/2006-05-31/2006-05-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-chartres",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-belles-filles.html",
+        "R1C2-prix-de-l-avre.html",
+        "R1C3-prix-des-grands-augustins.html",
+        "R1C4-prix-du-port-de-bercy.html",
+        "R1C5-prix-de-levallois.html",
+        "R1C6-prix-des-petits-champs.html",
+        "R1C7-prix-des-thermes-de-cluny.html",
+        "R1C8-prix-des-victoires.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-des-belles-filles.html",
+        "R2C2-prix-de-l-avre.html",
+        "R2C3-prix-des-grands-augustins.html",
+        "R2C4-prix-du-port-de-bercy.html",
+        "R2C5-prix-de-levallois.html",
+        "R2C6-prix-des-petits-champs.html",
+        "R2C7-prix-des-thermes-de-cluny.html",
+        "R2C8-prix-des-victoires.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-des-belles-filles.html",
+        "R4C2-prix-de-l-avre.html",
+        "R4C3-prix-des-grands-augustins.html",
+        "R4C4-prix-du-port-de-bercy.html",
+        "R4C5-prix-de-levallois.html",
+        "R4C6-prix-des-petits-champs.html",
+        "R4C7-prix-des-thermes-de-cluny.html",
+        "R4C8-prix-des-victoires.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:35.245475Z"
+}

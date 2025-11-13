@@ -1,0 +1,75 @@
+{
+  "date": "2022-09-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-08",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-08/2022-09-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-08/R2-marseille-borely/R2C1-prix-joubert.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R2-marseille-borely/R2C3-prix-d-aumale.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R2-marseille-borely/R2C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R3-lyon-parilly/R3C1-prix-joubert.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R3-lyon-parilly/R3C4-prix-d-enghien.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R3-lyon-parilly/R3C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R3-lyon-parilly/R3C7-prix-de-la-mare-d-armenonville.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R4-vincennes/R4C1-prix-joubert.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R4-vincennes/R4C7-prix-de-la-mare-d-armenonville.html",
+      "resultats-et-rapports/2022/09/2022-09-08/R4-vincennes/R4C8-prix-mercedes-benz-paris-grand-prix-des-anglo-arabes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-marseille-borely",
+      "R3-lyon-parilly",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-joubert.html",
+        "R1C2-prix-des-chenes.html",
+        "R1C3-prix-d-aumale.html",
+        "R1C4-prix-d-enghien.html",
+        "R1C5-prix-de-longchamp.html",
+        "R1C6-prix-de-sainte-avoye.html",
+        "R1C7-prix-de-la-mare-d-armenonville.html",
+        "R1C8-prix-mercedes-benz-paris-grand-prix-des-anglo-arabes.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-joubert.html",
+        "R2C2-prix-des-chenes.html",
+        "R2C3-prix-d-aumale.html",
+        "R2C4-prix-d-enghien.html",
+        "R2C5-prix-de-longchamp.html",
+        "R2C6-prix-de-sainte-avoye.html",
+        "R2C7-prix-de-la-mare-d-armenonville.html",
+        "R2C8-prix-mercedes-benz-paris-grand-prix-des-anglo-arabes.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-joubert.html",
+        "R3C2-prix-des-chenes.html",
+        "R3C3-prix-d-aumale.html",
+        "R3C4-prix-d-enghien.html",
+        "R3C5-prix-de-longchamp.html",
+        "R3C6-prix-de-sainte-avoye.html",
+        "R3C7-prix-de-la-mare-d-armenonville.html",
+        "R3C8-prix-mercedes-benz-paris-grand-prix-des-anglo-arabes.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-joubert.html",
+        "R4C2-prix-des-chenes.html",
+        "R4C3-prix-d-aumale.html",
+        "R4C4-prix-d-enghien.html",
+        "R4C5-prix-de-longchamp.html",
+        "R4C6-prix-de-sainte-avoye.html",
+        "R4C7-prix-de-la-mare-d-armenonville.html",
+        "R4C8-prix-mercedes-benz-paris-grand-prix-des-anglo-arabes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:22.312107Z"
+}

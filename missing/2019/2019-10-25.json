@@ -1,0 +1,97 @@
+{
+  "date": "2019-10-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-25",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-25/2019-10-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-25/R1-vincennes/R1C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R1-vincennes/R1C5-prix-marcel-dejean.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R1-vincennes/R1C6-prix-gisella.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R1-vincennes/R1C7-prix-corduba.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C1-prix-juno.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C2-prix-pierre-van-troyen.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C4-prix-louis-cauchois.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C5-prix-marcel-dejean.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C6-prix-gisella.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R2-angers/R2C7-prix-corduba.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R4-clairefontaine/R4C4-prix-louis-cauchois.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R4-clairefontaine/R4C6-prix-gisella.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R4-clairefontaine/R4C7-prix-corduba.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R5-cabourg/R5C1-prix-juno.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R5-cabourg/R5C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R5-cabourg/R5C4-prix-louis-cauchois.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R5-cabourg/R5C6-prix-gisella.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R5-cabourg/R5C7-prix-corduba.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C1-prix-juno.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C2-prix-pierre-van-troyen.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C4-prix-louis-cauchois.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C5-prix-marcel-dejean.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C6-prix-gisella.html",
+      "resultats-et-rapports/2019/10/2019-10-25/R6-marseille-vivaux/R6C7-prix-corduba.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R4-clairefontaine",
+      "R5-cabourg",
+      "R6-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-juno.html",
+        "R1C2-prix-pierre-van-troyen.html",
+        "R1C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+        "R1C4-prix-louis-cauchois.html",
+        "R1C5-prix-marcel-dejean.html",
+        "R1C6-prix-gisella.html",
+        "R1C7-prix-corduba.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-juno.html",
+        "R2C2-prix-pierre-van-troyen.html",
+        "R2C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+        "R2C4-prix-louis-cauchois.html",
+        "R2C5-prix-marcel-dejean.html",
+        "R2C6-prix-gisella.html",
+        "R2C7-prix-corduba.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-juno.html",
+        "R4C2-prix-pierre-van-troyen.html",
+        "R4C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+        "R4C4-prix-louis-cauchois.html",
+        "R4C5-prix-marcel-dejean.html",
+        "R4C6-prix-gisella.html",
+        "R4C7-prix-corduba.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-juno.html",
+        "R5C2-prix-pierre-van-troyen.html",
+        "R5C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+        "R5C4-prix-louis-cauchois.html",
+        "R5C5-prix-marcel-dejean.html",
+        "R5C6-prix-gisella.html",
+        "R5C7-prix-corduba.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-juno.html",
+        "R6C2-prix-pierre-van-troyen.html",
+        "R6C3-prix-du-pays-de-gex-aglo-prix-orionis.html",
+        "R6C4-prix-louis-cauchois.html",
+        "R6C5-prix-marcel-dejean.html",
+        "R6C6-prix-gisella.html",
+        "R6C7-prix-corduba.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:16.866222Z"
+}

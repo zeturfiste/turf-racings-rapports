@@ -1,0 +1,96 @@
+{
+  "date": "2023-11-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-20",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-20/2023-11-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C1-prix-de-montignac-charente.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C2-prix-de-cassaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C3-prix-de-montargis.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C4-prix-de-lecelles.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C5-prix-de-miramont-de-guyenne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C6-prix-de-paimpol.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C7-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R1-vincennes/R1C8-prix-de-dunkerque.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C1-prix-de-montignac-charente.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C2-prix-de-cassaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C3-prix-de-montargis.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C4-prix-de-lecelles.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C5-prix-de-miramont-de-guyenne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C6-prix-de-paimpol.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C7-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R3-fontainebleau/R3C8-prix-de-dunkerque.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C1-prix-de-montignac-charente.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C2-prix-de-cassaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C3-prix-de-montargis.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C4-prix-de-lecelles.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C5-prix-de-miramont-de-guyenne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C6-prix-de-paimpol.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C7-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R4-toulouse/R4C8-prix-de-dunkerque.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C1-prix-de-montignac-charente.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C2-prix-de-cassaigne.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C3-prix-de-montargis.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C4-prix-de-lecelles.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C6-prix-de-paimpol.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C7-prix-d-aix-les-bains.html",
+      "resultats-et-rapports/2023/11/2023-11-20/R7-nantes/R7C8-prix-de-dunkerque.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-toulouse",
+      "R7-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montignac-charente.html",
+        "R1C2-prix-de-cassaigne.html",
+        "R1C3-prix-de-montargis.html",
+        "R1C4-prix-de-lecelles.html",
+        "R1C5-prix-de-miramont-de-guyenne.html",
+        "R1C6-prix-de-paimpol.html",
+        "R1C7-prix-d-aix-les-bains.html",
+        "R1C8-prix-de-dunkerque.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-de-montignac-charente.html",
+        "R3C2-prix-de-cassaigne.html",
+        "R3C3-prix-de-montargis.html",
+        "R3C4-prix-de-lecelles.html",
+        "R3C5-prix-de-miramont-de-guyenne.html",
+        "R3C6-prix-de-paimpol.html",
+        "R3C7-prix-d-aix-les-bains.html",
+        "R3C8-prix-de-dunkerque.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-montignac-charente.html",
+        "R4C2-prix-de-cassaigne.html",
+        "R4C3-prix-de-montargis.html",
+        "R4C4-prix-de-lecelles.html",
+        "R4C5-prix-de-miramont-de-guyenne.html",
+        "R4C6-prix-de-paimpol.html",
+        "R4C7-prix-d-aix-les-bains.html",
+        "R4C8-prix-de-dunkerque.html"
+      ],
+      "R7-nantes": [
+        "R7C1-prix-de-montignac-charente.html",
+        "R7C2-prix-de-cassaigne.html",
+        "R7C3-prix-de-montargis.html",
+        "R7C4-prix-de-lecelles.html",
+        "R7C5-prix-de-miramont-de-guyenne.html",
+        "R7C6-prix-de-paimpol.html",
+        "R7C7-prix-d-aix-les-bains.html",
+        "R7C8-prix-de-dunkerque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:02.195158Z"
+}

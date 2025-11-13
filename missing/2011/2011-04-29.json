@@ -1,0 +1,93 @@
+{
+  "date": "2011-04-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-29",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-29/2011-04-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-29/R1-auteuil/R1C4-prix-guillaume-javoy.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R1-auteuil/R1C5-prix-valmajour.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R1-auteuil/R1C6-prix-maubourguet.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R1-auteuil/R1C7-prix-pansa.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C1-prix-go-ahead.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C2-prix-la-veine.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C3-prix-d-arles.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C4-prix-guillaume-javoy.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C5-prix-valmajour.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C6-prix-maubourguet.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R2-toulouse/R2C7-prix-pansa.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R3-marseille-borely/R3C1-prix-go-ahead.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R3-marseille-borely/R3C3-prix-d-arles.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R3-marseille-borely/R3C5-prix-valmajour.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R3-marseille-borely/R3C7-prix-pansa.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R4-vincennes/R4C3-prix-d-arles.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R4-vincennes/R4C4-prix-guillaume-javoy.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R4-vincennes/R4C6-prix-maubourguet.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R5-lyon-parilly/R5C1-prix-go-ahead.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R5-lyon-parilly/R5C4-prix-guillaume-javoy.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R5-lyon-parilly/R5C5-prix-valmajour.html",
+      "resultats-et-rapports/2011/04/2011-04-29/R5-lyon-parilly/R5C6-prix-maubourguet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-toulouse",
+      "R3-marseille-borely",
+      "R4-vincennes",
+      "R5-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-go-ahead.html",
+        "R1C2-prix-la-veine.html",
+        "R1C3-prix-d-arles.html",
+        "R1C4-prix-guillaume-javoy.html",
+        "R1C5-prix-valmajour.html",
+        "R1C6-prix-maubourguet.html",
+        "R1C7-prix-pansa.html"
+      ],
+      "R2-toulouse": [
+        "R2C1-prix-go-ahead.html",
+        "R2C2-prix-la-veine.html",
+        "R2C3-prix-d-arles.html",
+        "R2C4-prix-guillaume-javoy.html",
+        "R2C5-prix-valmajour.html",
+        "R2C6-prix-maubourguet.html",
+        "R2C7-prix-pansa.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-go-ahead.html",
+        "R3C2-prix-la-veine.html",
+        "R3C3-prix-d-arles.html",
+        "R3C4-prix-guillaume-javoy.html",
+        "R3C5-prix-valmajour.html",
+        "R3C6-prix-maubourguet.html",
+        "R3C7-prix-pansa.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-go-ahead.html",
+        "R4C2-prix-la-veine.html",
+        "R4C3-prix-d-arles.html",
+        "R4C4-prix-guillaume-javoy.html",
+        "R4C5-prix-valmajour.html",
+        "R4C6-prix-maubourguet.html",
+        "R4C7-prix-pansa.html"
+      ],
+      "R5-lyon-parilly": [
+        "R5C1-prix-go-ahead.html",
+        "R5C2-prix-la-veine.html",
+        "R5C3-prix-d-arles.html",
+        "R5C4-prix-guillaume-javoy.html",
+        "R5C5-prix-valmajour.html",
+        "R5C6-prix-maubourguet.html",
+        "R5C7-prix-pansa.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:27.851271Z"
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2014-12-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/12/2014-12-05",
+    "date_html": "resultats-et-rapports/2014/12/2014-12-05/2014-12-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/12/2014-12-05/R1-marseille-vivaux/R1C1-prix-madame-f-pons.html",
+      "resultats-et-rapports/2014/12/2014-12-05/R1-marseille-vivaux/R1C2-prix-florence-forneron.html",
+      "resultats-et-rapports/2014/12/2014-12-05/R1-marseille-vivaux/R1C3-prix-michel-dorr.html",
+      "resultats-et-rapports/2014/12/2014-12-05/R1-marseille-vivaux/R1C4-prix-de-saint-louis.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-marseille-vivaux",
+      "R2-mauquenchy",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-marseille-vivaux": [
+        "R1C1-prix-madame-f-pons.html",
+        "R1C2-prix-florence-forneron.html",
+        "R1C3-prix-michel-dorr.html",
+        "R1C4-prix-de-saint-louis.html",
+        "R1C5-prix-de-la-pointe-rouge.html",
+        "R1C6-prix-des-gardenias.html",
+        "R1C7-prix-de-l-association-des-eleveurs-du-sud-est.html",
+        "R1C8-prix-denis-bensussan.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-madame-f-pons.html",
+        "R2C2-prix-florence-forneron.html",
+        "R2C3-prix-michel-dorr.html",
+        "R2C4-prix-de-saint-louis.html",
+        "R2C5-prix-de-la-pointe-rouge.html",
+        "R2C6-prix-des-gardenias.html",
+        "R2C7-prix-de-l-association-des-eleveurs-du-sud-est.html",
+        "R2C8-prix-denis-bensussan.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-madame-f-pons.html",
+        "R3C2-prix-florence-forneron.html",
+        "R3C3-prix-michel-dorr.html",
+        "R3C4-prix-de-saint-louis.html",
+        "R3C5-prix-de-la-pointe-rouge.html",
+        "R3C6-prix-des-gardenias.html",
+        "R3C7-prix-de-l-association-des-eleveurs-du-sud-est.html",
+        "R3C8-prix-denis-bensussan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:03.190479Z"
+}

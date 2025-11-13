@@ -1,0 +1,99 @@
+{
+  "date": "2007-04-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-06",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-06/2007-04-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-06/R1-auteuil/R1C5-prix-mitsouko-iii.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C1-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C2-prix-champaubert.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C3-prix-maguelonne.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C4-prix-la-bate.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C7-prix-du-barry.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R2-la-teste-de-buch/R2C8-prix-de-montharville.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R3-vincennes/R3C2-prix-champaubert.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R3-vincennes/R3C3-prix-maguelonne.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R3-vincennes/R3C4-prix-la-bate.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R3-vincennes/R3C5-prix-mitsouko-iii.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R6-marseille-vivaux/R6C1-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R6-marseille-vivaux/R6C5-prix-mitsouko-iii.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R6-marseille-vivaux/R6C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R6-marseille-vivaux/R6C7-prix-du-barry.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R6-marseille-vivaux/R6C8-prix-de-montharville.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C1-prix-general-de-rougemont.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C2-prix-champaubert.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C3-prix-maguelonne.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C4-prix-la-bate.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C6-prix-hubert-d-aillieres.html",
+      "resultats-et-rapports/2007/04/2007-04-06/R31-zerace/R31C7-prix-du-barry.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-la-teste-de-buch",
+      "R3-vincennes",
+      "R6-marseille-vivaux",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-general-de-rougemont.html",
+        "R1C2-prix-champaubert.html",
+        "R1C3-prix-maguelonne.html",
+        "R1C4-prix-la-bate.html",
+        "R1C5-prix-mitsouko-iii.html",
+        "R1C6-prix-hubert-d-aillieres.html",
+        "R1C7-prix-du-barry.html",
+        "R1C8-prix-de-montharville.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-general-de-rougemont.html",
+        "R2C2-prix-champaubert.html",
+        "R2C3-prix-maguelonne.html",
+        "R2C4-prix-la-bate.html",
+        "R2C5-prix-mitsouko-iii.html",
+        "R2C6-prix-hubert-d-aillieres.html",
+        "R2C7-prix-du-barry.html",
+        "R2C8-prix-de-montharville.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-general-de-rougemont.html",
+        "R3C2-prix-champaubert.html",
+        "R3C3-prix-maguelonne.html",
+        "R3C4-prix-la-bate.html",
+        "R3C5-prix-mitsouko-iii.html",
+        "R3C6-prix-hubert-d-aillieres.html",
+        "R3C7-prix-du-barry.html",
+        "R3C8-prix-de-montharville.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-general-de-rougemont.html",
+        "R6C2-prix-champaubert.html",
+        "R6C3-prix-maguelonne.html",
+        "R6C4-prix-la-bate.html",
+        "R6C5-prix-mitsouko-iii.html",
+        "R6C6-prix-hubert-d-aillieres.html",
+        "R6C7-prix-du-barry.html",
+        "R6C8-prix-de-montharville.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-general-de-rougemont.html",
+        "R31C2-prix-champaubert.html",
+        "R31C3-prix-maguelonne.html",
+        "R31C4-prix-la-bate.html",
+        "R31C5-prix-mitsouko-iii.html",
+        "R31C6-prix-hubert-d-aillieres.html",
+        "R31C7-prix-du-barry.html",
+        "R31C8-prix-de-montharville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:04.735911Z"
+}

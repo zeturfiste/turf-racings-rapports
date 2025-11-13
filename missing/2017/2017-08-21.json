@@ -1,0 +1,64 @@
+{
+  "date": "2017-08-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/08/2017-08-21",
+    "date_html": "resultats-et-rapports/2017/08/2017-08-21/2017-08-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/08/2017-08-21/R1-chateaubriant/R1C2-prix-des-etoiles.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R1-chateaubriant/R1C3-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R2-vincennes/R2C3-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R2-vincennes/R2C8-prix-djarvis.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C1-grand-prix-de-chateaubriant-prix-synergie.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C2-prix-des-etoiles.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C3-prix-de-saint-cloud.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C4-prix-de-la-region-bretagne.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C6-prix-useful.html",
+      "resultats-et-rapports/2017/08/2017-08-21/R7-castera-verduzan/R7C7-prix-gacko.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chateaubriant",
+      "R2-vincennes",
+      "R7-castera-verduzan"
+    ],
+    "courses_by_reunion": {
+      "R1-chateaubriant": [
+        "R1C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R1C2-prix-des-etoiles.html",
+        "R1C3-prix-de-saint-cloud.html",
+        "R1C4-prix-de-la-region-bretagne.html",
+        "R1C5-prix-de-longchamp.html",
+        "R1C6-prix-useful.html",
+        "R1C7-prix-gacko.html",
+        "R1C8-prix-djarvis.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R2C2-prix-des-etoiles.html",
+        "R2C3-prix-de-saint-cloud.html",
+        "R2C4-prix-de-la-region-bretagne.html",
+        "R2C5-prix-de-longchamp.html",
+        "R2C6-prix-useful.html",
+        "R2C7-prix-gacko.html",
+        "R2C8-prix-djarvis.html"
+      ],
+      "R7-castera-verduzan": [
+        "R7C1-grand-prix-de-chateaubriant-prix-synergie.html",
+        "R7C2-prix-des-etoiles.html",
+        "R7C3-prix-de-saint-cloud.html",
+        "R7C4-prix-de-la-region-bretagne.html",
+        "R7C5-prix-de-longchamp.html",
+        "R7C6-prix-useful.html",
+        "R7C7-prix-gacko.html",
+        "R7C8-prix-djarvis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:05.135774Z"
+}

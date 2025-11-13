@@ -1,0 +1,86 @@
+{
+  "date": "2017-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-19",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-19/2017-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-19/R1-deauville/R1C2-prix-arazi.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R1-deauville/R1C8-prix-de-monteillerie.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R2-marseille-borely/R2C6-prix-des-authieux-du-puits.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R2-marseille-borely/R2C8-prix-de-monteillerie.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C1-prix-du-bocage-normand.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C2-prix-arazi.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C4-prix-du-port-du-havre.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C7-prix-du-port-de-dieppe.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C8-prix-de-monteillerie.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R3-enghien-soisy/R3C9-prix-du-port-de-fecamp.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C2-prix-arazi.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C3-prix-isonomy.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C5-prix-de-ferrieres-la-verrerie.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C6-prix-des-authieux-du-puits.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C7-prix-du-port-de-dieppe.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C8-prix-de-monteillerie.html",
+      "resultats-et-rapports/2017/10/2017-10-19/R4-mauquenchy/R4C9-prix-du-port-de-fecamp.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-marseille-borely",
+      "R3-enghien-soisy",
+      "R4-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-bocage-normand.html",
+        "R1C2-prix-arazi.html",
+        "R1C3-prix-isonomy.html",
+        "R1C4-prix-du-port-du-havre.html",
+        "R1C5-prix-de-ferrieres-la-verrerie.html",
+        "R1C6-prix-des-authieux-du-puits.html",
+        "R1C7-prix-du-port-de-dieppe.html",
+        "R1C8-prix-de-monteillerie.html",
+        "R1C9-prix-du-port-de-fecamp.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-du-bocage-normand.html",
+        "R2C2-prix-arazi.html",
+        "R2C3-prix-isonomy.html",
+        "R2C4-prix-du-port-du-havre.html",
+        "R2C5-prix-de-ferrieres-la-verrerie.html",
+        "R2C6-prix-des-authieux-du-puits.html",
+        "R2C7-prix-du-port-de-dieppe.html",
+        "R2C8-prix-de-monteillerie.html",
+        "R2C9-prix-du-port-de-fecamp.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-bocage-normand.html",
+        "R3C2-prix-arazi.html",
+        "R3C3-prix-isonomy.html",
+        "R3C4-prix-du-port-du-havre.html",
+        "R3C5-prix-de-ferrieres-la-verrerie.html",
+        "R3C6-prix-des-authieux-du-puits.html",
+        "R3C7-prix-du-port-de-dieppe.html",
+        "R3C8-prix-de-monteillerie.html",
+        "R3C9-prix-du-port-de-fecamp.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-du-bocage-normand.html",
+        "R4C2-prix-arazi.html",
+        "R4C3-prix-isonomy.html",
+        "R4C4-prix-du-port-du-havre.html",
+        "R4C5-prix-de-ferrieres-la-verrerie.html",
+        "R4C6-prix-des-authieux-du-puits.html",
+        "R4C7-prix-du-port-de-dieppe.html",
+        "R4C8-prix-de-monteillerie.html",
+        "R4C9-prix-du-port-de-fecamp.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:25.636225Z"
+}

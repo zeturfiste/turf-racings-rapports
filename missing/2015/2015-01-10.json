@@ -1,0 +1,47 @@
+{
+  "date": "2015-01-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/01/2015-01-10",
+    "date_html": "resultats-et-rapports/2015/01/2015-01-10/2015-01-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/01/2015-01-10/R2-deauville/R2C7-prix-du-forez.html",
+      "resultats-et-rapports/2015/01/2015-01-10/R2-deauville/R2C8-prix-de-cheverny.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-mauquenchy.html",
+        "R1C2-prix-de-joinville.html",
+        "R1C3-prix-de-machecoul.html",
+        "R1C4-prix-de-croix.html",
+        "R1C5-prix-maurice-de-gheest.html",
+        "R1C6-prix-de-saint-flour.html",
+        "R1C7-prix-du-forez.html",
+        "R1C8-prix-de-cheverny.html",
+        "R1C9-prix-de-francheville-la-barre.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-mauquenchy.html",
+        "R2C2-prix-de-joinville.html",
+        "R2C3-prix-de-machecoul.html",
+        "R2C4-prix-de-croix.html",
+        "R2C5-prix-maurice-de-gheest.html",
+        "R2C6-prix-de-saint-flour.html",
+        "R2C7-prix-du-forez.html",
+        "R2C8-prix-de-cheverny.html",
+        "R2C9-prix-de-francheville-la-barre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:12.170105Z"
+}

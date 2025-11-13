@@ -1,0 +1,91 @@
+{
+  "date": "2015-07-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-23",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-23/2015-07-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-23/R1-vichy/R1C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R1-vichy/R1C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R1-vichy/R1C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R1-vichy/R1C6-prix-beachcomber-hotels-le-canonnier.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C6-prix-beachcomber-hotels-le-canonnier.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C7-prix-beachcomber-hotels-le-victoria.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R2-enghien-soisy/R2C8-prix-beachcomber-hotels-le-mauricia.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C6-prix-beachcomber-hotels-le-canonnier.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C7-prix-beachcomber-hotels-le-victoria.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R3-la-rochelle/R3C8-prix-beachcomber-hotels-le-mauricia.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C7-prix-beachcomber-hotels-le-victoria.html",
+      "resultats-et-rapports/2015/07/2015-07-23/R4-meslay-du-maine/R4C8-prix-beachcomber-hotels-le-mauricia.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-enghien-soisy",
+      "R3-la-rochelle",
+      "R4-meslay-du-maine"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+        "R1C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+        "R1C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+        "R1C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+        "R1C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+        "R1C6-prix-beachcomber-hotels-le-canonnier.html",
+        "R1C7-prix-beachcomber-hotels-le-victoria.html",
+        "R1C8-prix-beachcomber-hotels-le-mauricia.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+        "R2C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+        "R2C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+        "R2C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+        "R2C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+        "R2C6-prix-beachcomber-hotels-le-canonnier.html",
+        "R2C7-prix-beachcomber-hotels-le-victoria.html",
+        "R2C8-prix-beachcomber-hotels-le-mauricia.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+        "R3C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+        "R3C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+        "R3C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+        "R3C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+        "R3C6-prix-beachcomber-hotels-le-canonnier.html",
+        "R3C7-prix-beachcomber-hotels-le-victoria.html",
+        "R3C8-prix-beachcomber-hotels-le-mauricia.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-beachcomber-hotels-dinarobin-hotel-golf-spa.html",
+        "R4C2-prix-mtpa-office-de-tourisme-de-l-ile-maurice.html",
+        "R4C3-prix-beachcomber-hotels-ile-maurice-seychelles-marrakech.html",
+        "R4C4-prix-beachcomber-hotels-prix-des-reves-d-or-jacques-bouchara.html",
+        "R4C5-prix-beachcomber-hotels-shandrani-resort-spa.html",
+        "R4C6-prix-beachcomber-hotels-le-canonnier.html",
+        "R4C7-prix-beachcomber-hotels-le-victoria.html",
+        "R4C8-prix-beachcomber-hotels-le-mauricia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:12.188095Z"
+}

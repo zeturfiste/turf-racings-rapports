@@ -1,0 +1,88 @@
+{
+  "date": "2023-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-22",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-22/2023-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-22/R2-senonnes/R2C8-prix-reverdy-nutrition-equine.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R3-mauquenchy/R3C1-prix-du-chateau-de-portets.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R3-mauquenchy/R3C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R3-mauquenchy/R3C3-prix-compagnie-fiduciaire.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R3-mauquenchy/R3C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R4-vichy/R4C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R4-vichy/R4C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R6-graignes/R6C1-prix-du-chateau-de-portets.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R6-graignes/R6C3-prix-compagnie-fiduciaire.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R6-graignes/R6C5-prix-fls.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R6-graignes/R6C6-prix-maisons-omega.html",
+      "resultats-et-rapports/2023/06/2023-06-22/R6-graignes/R6C8-prix-reverdy-nutrition-equine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-teste-de-buch",
+      "R2-senonnes",
+      "R3-mauquenchy",
+      "R4-vichy",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-la-teste-de-buch": [
+        "R1C1-prix-du-chateau-de-portets.html",
+        "R1C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+        "R1C3-prix-compagnie-fiduciaire.html",
+        "R1C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+        "R1C5-prix-fls.html",
+        "R1C6-prix-maisons-omega.html",
+        "R1C7-prix-century-21-duprat-donnesse.html",
+        "R1C8-prix-reverdy-nutrition-equine.html"
+      ],
+      "R2-senonnes": [
+        "R2C1-prix-du-chateau-de-portets.html",
+        "R2C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+        "R2C3-prix-compagnie-fiduciaire.html",
+        "R2C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+        "R2C5-prix-fls.html",
+        "R2C6-prix-maisons-omega.html",
+        "R2C7-prix-century-21-duprat-donnesse.html",
+        "R2C8-prix-reverdy-nutrition-equine.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-du-chateau-de-portets.html",
+        "R3C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+        "R3C3-prix-compagnie-fiduciaire.html",
+        "R3C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+        "R3C5-prix-fls.html",
+        "R3C6-prix-maisons-omega.html",
+        "R3C7-prix-century-21-duprat-donnesse.html",
+        "R3C8-prix-reverdy-nutrition-equine.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-chateau-de-portets.html",
+        "R4C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+        "R4C3-prix-compagnie-fiduciaire.html",
+        "R4C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+        "R4C5-prix-fls.html",
+        "R4C6-prix-maisons-omega.html",
+        "R4C7-prix-century-21-duprat-donnesse.html",
+        "R4C8-prix-reverdy-nutrition-equine.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-du-chateau-de-portets.html",
+        "R6C2-prix-du-cabinet-veterinaire-vet-a-la-hume.html",
+        "R6C3-prix-compagnie-fiduciaire.html",
+        "R6C4-prix-du-bassin-d-arcachon-stoa-promotion.html",
+        "R6C5-prix-fls.html",
+        "R6C6-prix-maisons-omega.html",
+        "R6C7-prix-century-21-duprat-donnesse.html",
+        "R6C8-prix-reverdy-nutrition-equine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:04.591694Z"
+}

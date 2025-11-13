@@ -1,0 +1,76 @@
+{
+  "date": "2016-04-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/04/2016-04-14",
+    "date_html": "resultats-et-rapports/2016/04/2016-04-14/2016-04-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/04/2016-04-14/R1-fontainebleau/R1C4-prix-de-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R1-fontainebleau/R1C7-prix-d-enghien.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R2-marseille-borely/R2C3-prix-du-pont-de-flandres.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R2-marseille-borely/R2C6-prix-du-palais-des-congres.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R2-marseille-borely/R2C7-prix-d-enghien.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R3-le-mans/R3C6-prix-du-palais-des-congres.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R3-le-mans/R3C8-prix-du-massif-forestier.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R4-lyon-la-soie/R4C1-prix-d-orsay.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R4-lyon-la-soie/R4C2-prix-fould.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R4-lyon-la-soie/R4C4-prix-de-palais-de-la-decouverte.html",
+      "resultats-et-rapports/2016/04/2016-04-14/R4-lyon-la-soie/R4C5-prix-des-feuillantines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-marseille-borely",
+      "R3-le-mans",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-d-orsay.html",
+        "R1C2-prix-fould.html",
+        "R1C3-prix-du-pont-de-flandres.html",
+        "R1C4-prix-de-palais-de-la-decouverte.html",
+        "R1C5-prix-des-feuillantines.html",
+        "R1C6-prix-du-palais-des-congres.html",
+        "R1C7-prix-d-enghien.html",
+        "R1C8-prix-du-massif-forestier.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-d-orsay.html",
+        "R2C2-prix-fould.html",
+        "R2C3-prix-du-pont-de-flandres.html",
+        "R2C4-prix-de-palais-de-la-decouverte.html",
+        "R2C5-prix-des-feuillantines.html",
+        "R2C6-prix-du-palais-des-congres.html",
+        "R2C7-prix-d-enghien.html",
+        "R2C8-prix-du-massif-forestier.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-d-orsay.html",
+        "R3C2-prix-fould.html",
+        "R3C3-prix-du-pont-de-flandres.html",
+        "R3C4-prix-de-palais-de-la-decouverte.html",
+        "R3C5-prix-des-feuillantines.html",
+        "R3C6-prix-du-palais-des-congres.html",
+        "R3C7-prix-d-enghien.html",
+        "R3C8-prix-du-massif-forestier.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-d-orsay.html",
+        "R4C2-prix-fould.html",
+        "R4C3-prix-du-pont-de-flandres.html",
+        "R4C4-prix-de-palais-de-la-decouverte.html",
+        "R4C5-prix-des-feuillantines.html",
+        "R4C6-prix-du-palais-des-congres.html",
+        "R4C7-prix-d-enghien.html",
+        "R4C8-prix-du-massif-forestier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:31.238467Z"
+}

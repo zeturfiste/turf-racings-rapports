@@ -1,0 +1,65 @@
+{
+  "date": "2024-09-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/09/2024-09-04",
+    "date_html": "resultats-et-rapports/2024/09/2024-09-04/2024-09-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/09/2024-09-04/R1-la-capelle/R1C4-prix-de-cagnes-sur-mer.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R1-la-capelle/R1C7-prix-groupe-lanie-02.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R1-la-capelle/R1C8-prix-du-credit-agricole-nord-est.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R3-lyon-parilly/R3C6-prix-d-argentan.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R3-lyon-parilly/R3C7-prix-groupe-lanie-02.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R3-lyon-parilly/R3C8-prix-du-credit-agricole-nord-est.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R4-vire/R4C1-grand-prix-de-la-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R4-vire/R4C2-prix-du-150eme-anniversaire.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R4-vire/R4C3-prix-de-la-saur.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R4-vire/R4C6-prix-d-argentan.html",
+      "resultats-et-rapports/2024/09/2024-09-04/R4-vire/R4C8-prix-du-credit-agricole-nord-est.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R3-lyon-parilly",
+      "R4-vire"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R1C2-prix-du-150eme-anniversaire.html",
+        "R1C3-prix-de-la-saur.html",
+        "R1C4-prix-de-cagnes-sur-mer.html",
+        "R1C5-prix-de-la-communaute-de-communes-de-la-thierache-du-centre.html",
+        "R1C6-prix-d-argentan.html",
+        "R1C7-prix-groupe-lanie-02.html",
+        "R1C8-prix-du-credit-agricole-nord-est.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R3C2-prix-du-150eme-anniversaire.html",
+        "R3C3-prix-de-la-saur.html",
+        "R3C4-prix-de-cagnes-sur-mer.html",
+        "R3C5-prix-de-la-communaute-de-communes-de-la-thierache-du-centre.html",
+        "R3C6-prix-d-argentan.html",
+        "R3C7-prix-groupe-lanie-02.html",
+        "R3C8-prix-du-credit-agricole-nord-est.html"
+      ],
+      "R4-vire": [
+        "R4C1-grand-prix-de-la-federation-regionale-du-nord.html",
+        "R4C2-prix-du-150eme-anniversaire.html",
+        "R4C3-prix-de-la-saur.html",
+        "R4C4-prix-de-cagnes-sur-mer.html",
+        "R4C5-prix-de-la-communaute-de-communes-de-la-thierache-du-centre.html",
+        "R4C6-prix-d-argentan.html",
+        "R4C7-prix-groupe-lanie-02.html",
+        "R4C8-prix-du-credit-agricole-nord-est.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:51.122480Z"
+}

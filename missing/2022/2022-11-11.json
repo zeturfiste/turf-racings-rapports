@@ -1,0 +1,116 @@
+{
+  "date": "2022-11-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/11/2022-11-11",
+    "date_html": "resultats-et-rapports/2022/11/2022-11-11/2022-11-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/11/2022-11-11/R1-toulouse/R1C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R3-compiegne/R3C3-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R3-compiegne/R3C9-grand-national-des-anglo-arabes-a-37-5.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C1-prix-de-bonnefoy.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C2-prix-le-becadier.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C3-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C7-prix-jerome-rambaud.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R4-lyon-la-soie/R4C9-grand-national-des-anglo-arabes-a-37-5.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C1-prix-de-bonnefoy.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C2-prix-le-becadier.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C3-prix-de-la-ville-de-toulouse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C4-prix-fille-de-l-air.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C6-prix-de-la-republique-du-senegal.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C7-prix-jerome-rambaud.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C8-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R8-la-capelle/R8C9-grand-national-des-anglo-arabes-a-37-5.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C2-prix-le-becadier.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C4-prix-fille-de-l-air.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C6-prix-de-la-republique-du-senegal.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C7-prix-jerome-rambaud.html",
+      "resultats-et-rapports/2022/11/2022-11-11/R9-chateaubriant/R9C8-prix-de-la-depeche-du-midi.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-strasbourg",
+      "R3-compiegne",
+      "R4-lyon-la-soie",
+      "R8-la-capelle",
+      "R9-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-de-bonnefoy.html",
+        "R1C2-prix-le-becadier.html",
+        "R1C3-prix-de-la-ville-de-toulouse.html",
+        "R1C4-prix-fille-de-l-air.html",
+        "R1C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R1C6-prix-de-la-republique-du-senegal.html",
+        "R1C7-prix-jerome-rambaud.html",
+        "R1C8-prix-de-la-depeche-du-midi.html",
+        "R1C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-bonnefoy.html",
+        "R2C2-prix-le-becadier.html",
+        "R2C3-prix-de-la-ville-de-toulouse.html",
+        "R2C4-prix-fille-de-l-air.html",
+        "R2C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R2C6-prix-de-la-republique-du-senegal.html",
+        "R2C7-prix-jerome-rambaud.html",
+        "R2C8-prix-de-la-depeche-du-midi.html",
+        "R2C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-prix-de-bonnefoy.html",
+        "R3C2-prix-le-becadier.html",
+        "R3C3-prix-de-la-ville-de-toulouse.html",
+        "R3C4-prix-fille-de-l-air.html",
+        "R3C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R3C6-prix-de-la-republique-du-senegal.html",
+        "R3C7-prix-jerome-rambaud.html",
+        "R3C8-prix-de-la-depeche-du-midi.html",
+        "R3C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-bonnefoy.html",
+        "R4C2-prix-le-becadier.html",
+        "R4C3-prix-de-la-ville-de-toulouse.html",
+        "R4C4-prix-fille-de-l-air.html",
+        "R4C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R4C6-prix-de-la-republique-du-senegal.html",
+        "R4C7-prix-jerome-rambaud.html",
+        "R4C8-prix-de-la-depeche-du-midi.html",
+        "R4C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ],
+      "R8-la-capelle": [
+        "R8C1-prix-de-bonnefoy.html",
+        "R8C2-prix-le-becadier.html",
+        "R8C3-prix-de-la-ville-de-toulouse.html",
+        "R8C4-prix-fille-de-l-air.html",
+        "R8C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R8C6-prix-de-la-republique-du-senegal.html",
+        "R8C7-prix-jerome-rambaud.html",
+        "R8C8-prix-de-la-depeche-du-midi.html",
+        "R8C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ],
+      "R9-chateaubriant": [
+        "R9C1-prix-de-bonnefoy.html",
+        "R9C2-prix-le-becadier.html",
+        "R9C3-prix-de-la-ville-de-toulouse.html",
+        "R9C4-prix-fille-de-l-air.html",
+        "R9C5-criterium-du-languedoc-prix-bernard-de-marmiesse.html",
+        "R9C6-prix-de-la-republique-du-senegal.html",
+        "R9C7-prix-jerome-rambaud.html",
+        "R9C8-prix-de-la-depeche-du-midi.html",
+        "R9C9-grand-national-des-anglo-arabes-a-37-5.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:45.401933Z"
+}

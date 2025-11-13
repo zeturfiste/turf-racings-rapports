@@ -1,0 +1,58 @@
+{
+  "date": "2019-03-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/03/2019-03-12",
+    "date_html": "resultats-et-rapports/2019/03/2019-03-12/2019-03-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/03/2019-03-12/R2-fontainebleau/R2C1-prix-jocker.html",
+      "resultats-et-rapports/2019/03/2019-03-12/R2-fontainebleau/R2C2-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2019/03/2019-03-12/R4-enghien-soisy/R4C3-prix-talweg.html",
+      "resultats-et-rapports/2019/03/2019-03-12/R4-enghien-soisy/R4C4-prix-janus.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-fontainebleau",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-jocker.html",
+        "R1C2-prix-de-la-queue-du-renard.html",
+        "R1C3-prix-talweg.html",
+        "R1C4-prix-janus.html",
+        "R1C5-prix-tandem.html",
+        "R1C6-prix-du-bat-l-eau.html",
+        "R1C7-prix-du-bois-du-ministre.html",
+        "R1C8-prix-du-haras-au-bois.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-jocker.html",
+        "R2C2-prix-de-la-queue-du-renard.html",
+        "R2C3-prix-talweg.html",
+        "R2C4-prix-janus.html",
+        "R2C5-prix-tandem.html",
+        "R2C6-prix-du-bat-l-eau.html",
+        "R2C7-prix-du-bois-du-ministre.html",
+        "R2C8-prix-du-haras-au-bois.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-jocker.html",
+        "R4C2-prix-de-la-queue-du-renard.html",
+        "R4C3-prix-talweg.html",
+        "R4C4-prix-janus.html",
+        "R4C5-prix-tandem.html",
+        "R4C6-prix-du-bat-l-eau.html",
+        "R4C7-prix-du-bois-du-ministre.html",
+        "R4C8-prix-du-haras-au-bois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:00.188840Z"
+}

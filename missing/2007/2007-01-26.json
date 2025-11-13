@@ -1,0 +1,90 @@
+{
+  "date": "2007-01-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/01/2007-01-26",
+    "date_html": "resultats-et-rapports/2007/01/2007-01-26/2007-01-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/01/2007-01-26/R1-pau/R1C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R1-pau/R1C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R1-pau/R1C8-prix-de-baretous.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C1-prix-equidia-prix-de-mazerolles.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C2-prix-d-arette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C5-prix-biraben-foie-gras-prix-de-montaner.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C7-prix-de-garlin.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R2-cagnes-sur-mer/R2C8-prix-de-baretous.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C1-prix-equidia-prix-de-mazerolles.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C2-prix-d-arette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C4-prix-rene-cramail.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C5-prix-biraben-foie-gras-prix-de-montaner.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R21-zerace/R21C7-prix-de-garlin.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C1-prix-equidia-prix-de-mazerolles.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C2-prix-d-arette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C4-prix-rene-cramail.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C5-prix-biraben-foie-gras-prix-de-montaner.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C7-prix-de-garlin.html",
+      "resultats-et-rapports/2007/01/2007-01-26/R42-cagnes-sur-mer/R42C8-prix-de-baretous.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer",
+      "R21-zerace",
+      "R42-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-equidia-prix-de-mazerolles.html",
+        "R1C2-prix-d-arette.html",
+        "R1C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+        "R1C4-prix-rene-cramail.html",
+        "R1C5-prix-biraben-foie-gras-prix-de-montaner.html",
+        "R1C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+        "R1C7-prix-de-garlin.html",
+        "R1C8-prix-de-baretous.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-equidia-prix-de-mazerolles.html",
+        "R2C2-prix-d-arette.html",
+        "R2C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+        "R2C4-prix-rene-cramail.html",
+        "R2C5-prix-biraben-foie-gras-prix-de-montaner.html",
+        "R2C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+        "R2C7-prix-de-garlin.html",
+        "R2C8-prix-de-baretous.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-equidia-prix-de-mazerolles.html",
+        "R21C2-prix-d-arette.html",
+        "R21C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+        "R21C4-prix-rene-cramail.html",
+        "R21C5-prix-biraben-foie-gras-prix-de-montaner.html",
+        "R21C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+        "R21C7-prix-de-garlin.html",
+        "R21C8-prix-de-baretous.html"
+      ],
+      "R42-cagnes-sur-mer": [
+        "R42C1-prix-equidia-prix-de-mazerolles.html",
+        "R42C2-prix-d-arette.html",
+        "R42C3-prix-pmu-bar-du-rond-point-hossegor-prix-de-gourette.html",
+        "R42C4-prix-rene-cramail.html",
+        "R42C5-prix-biraben-foie-gras-prix-de-montaner.html",
+        "R42C6-prix-pmu-hotel-dupont-castelnau-magnoac-prix-louis-la-caze.html",
+        "R42C7-prix-de-garlin.html",
+        "R42C8-prix-de-baretous.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:41.848861Z"
+}

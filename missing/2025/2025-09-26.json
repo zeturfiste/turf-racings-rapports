@@ -1,0 +1,72 @@
+{
+  "date": "2025-09-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-26",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-26/2025-09-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-26/R2-nantes/R2C5-prix-gauricus.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R2-nantes/R2C7-prix-magdalena.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R4-saint-cloud/R4C2-prix-massalia.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R4-saint-cloud/R4C6-grand-prix-de-l-u-e-t.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R5-toulouse/R5C1-prix-ella.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R5-toulouse/R5C2-prix-massalia.html",
+      "resultats-et-rapports/2025/09/2025-09-26/R5-toulouse/R5C7-prix-magdalena.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nantes",
+      "R4-saint-cloud",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ella.html",
+        "R1C2-prix-massalia.html",
+        "R1C3-prix-alexandra.html",
+        "R1C4-prix-austria.html",
+        "R1C5-prix-gauricus.html",
+        "R1C6-grand-prix-de-l-u-e-t.html",
+        "R1C7-prix-magdalena.html",
+        "R1C8-prix-byblis.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-ella.html",
+        "R2C2-prix-massalia.html",
+        "R2C3-prix-alexandra.html",
+        "R2C4-prix-austria.html",
+        "R2C5-prix-gauricus.html",
+        "R2C6-grand-prix-de-l-u-e-t.html",
+        "R2C7-prix-magdalena.html",
+        "R2C8-prix-byblis.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-ella.html",
+        "R4C2-prix-massalia.html",
+        "R4C3-prix-alexandra.html",
+        "R4C4-prix-austria.html",
+        "R4C5-prix-gauricus.html",
+        "R4C6-grand-prix-de-l-u-e-t.html",
+        "R4C7-prix-magdalena.html",
+        "R4C8-prix-byblis.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-ella.html",
+        "R5C2-prix-massalia.html",
+        "R5C3-prix-alexandra.html",
+        "R5C4-prix-austria.html",
+        "R5C5-prix-gauricus.html",
+        "R5C6-grand-prix-de-l-u-e-t.html",
+        "R5C7-prix-magdalena.html",
+        "R5C8-prix-byblis.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:15.620092Z"
+}

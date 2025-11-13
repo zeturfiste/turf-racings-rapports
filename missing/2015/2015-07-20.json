@@ -1,0 +1,87 @@
+{
+  "date": "2015-07-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/07/2015-07-20",
+    "date_html": "resultats-et-rapports/2015/07/2015-07-20/2015-07-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/07/2015-07-20/R1-vichy/R1C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R1-vichy/R1C5-prix-hubert-baguenault-de-puchesse-6eme-etape-du-defi-du-galop.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R1-vichy/R1C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R1-vichy/R1C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R1-vichy/R1C9-prix-hotel-le-plaza.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C1-prix-seoa-veterinaire-equidarmor-prix-des-malavaux.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C2-prix-de-l-allier.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C3-prix-jean-boulard.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C7-prix-reverdy-nutrition-equine-prix-de-montmarault.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R2-la-capelle/R2C9-prix-hotel-le-plaza.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R7-brehal/R7C3-prix-jean-boulard.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R7-brehal/R7C9-prix-hotel-le-plaza.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R8-castera-verduzan/R8C2-prix-de-l-allier.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R8-castera-verduzan/R8C3-prix-jean-boulard.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R8-castera-verduzan/R8C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R8-castera-verduzan/R8C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+      "resultats-et-rapports/2015/07/2015-07-20/R8-castera-verduzan/R8C9-prix-hotel-le-plaza.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R2-la-capelle",
+      "R7-brehal",
+      "R8-castera-verduzan"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-seoa-veterinaire-equidarmor-prix-des-malavaux.html",
+        "R1C2-prix-de-l-allier.html",
+        "R1C3-prix-jean-boulard.html",
+        "R1C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+        "R1C5-prix-hubert-baguenault-de-puchesse-6eme-etape-du-defi-du-galop.html",
+        "R1C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+        "R1C7-prix-reverdy-nutrition-equine-prix-de-montmarault.html",
+        "R1C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+        "R1C9-prix-hotel-le-plaza.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-seoa-veterinaire-equidarmor-prix-des-malavaux.html",
+        "R2C2-prix-de-l-allier.html",
+        "R2C3-prix-jean-boulard.html",
+        "R2C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+        "R2C5-prix-hubert-baguenault-de-puchesse-6eme-etape-du-defi-du-galop.html",
+        "R2C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+        "R2C7-prix-reverdy-nutrition-equine-prix-de-montmarault.html",
+        "R2C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+        "R2C9-prix-hotel-le-plaza.html"
+      ],
+      "R7-brehal": [
+        "R7C1-prix-seoa-veterinaire-equidarmor-prix-des-malavaux.html",
+        "R7C2-prix-de-l-allier.html",
+        "R7C3-prix-jean-boulard.html",
+        "R7C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+        "R7C5-prix-hubert-baguenault-de-puchesse-6eme-etape-du-defi-du-galop.html",
+        "R7C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+        "R7C7-prix-reverdy-nutrition-equine-prix-de-montmarault.html",
+        "R7C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+        "R7C9-prix-hotel-le-plaza.html"
+      ],
+      "R8-castera-verduzan": [
+        "R8C1-prix-seoa-veterinaire-equidarmor-prix-des-malavaux.html",
+        "R8C2-prix-de-l-allier.html",
+        "R8C3-prix-jean-boulard.html",
+        "R8C4-prix-point-pmu-cafe-des-arts-prix-de-toury-lurcy.html",
+        "R8C5-prix-hubert-baguenault-de-puchesse-6eme-etape-du-defi-du-galop.html",
+        "R8C6-prix-un-enfant-par-la-main-prix-de-saint-yorre.html",
+        "R8C7-prix-reverdy-nutrition-equine-prix-de-montmarault.html",
+        "R8C8-prix-cheval-et-cinema-a-l-affiche-prix-du-vernet.html",
+        "R8C9-prix-hotel-le-plaza.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:11.247283Z"
+}

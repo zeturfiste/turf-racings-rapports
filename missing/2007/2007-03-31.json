@@ -1,0 +1,104 @@
+{
+  "date": "2007-03-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-31",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-31/2007-03-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-31/R1-auteuil/R1C1-prix-aubepine.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R1-auteuil/R1C4-prix-fleuret.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R1-auteuil/R1C5-prix-samaritain.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R1-auteuil/R1C6-prix-hypothese.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C1-prix-aubepine.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C5-prix-samaritain.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C6-prix-hypothese.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C7-prix-air-landais.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R2-laval/R2C8-prix-necor.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R31-zerace/R31C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C1-prix-aubepine.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C4-prix-fleuret.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C5-prix-samaritain.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C6-prix-hypothese.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C7-prix-air-landais.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R70-stade-de-france-saint-denis/R70C8-prix-necor.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C1-prix-aubepine.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C2-prix-de-saint-maixent.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C3-prix-rose-or-no.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C4-prix-fleuret.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C5-prix-samaritain.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C6-prix-hypothese.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C7-prix-air-landais.html",
+      "resultats-et-rapports/2007/03/2007-03-31/R71-le-moustoir-lorient/R71C8-prix-necor.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-laval",
+      "R31-zerace",
+      "R70-stade-de-france-saint-denis",
+      "R71-le-moustoir-lorient"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-aubepine.html",
+        "R1C2-prix-de-saint-maixent.html",
+        "R1C3-prix-rose-or-no.html",
+        "R1C4-prix-fleuret.html",
+        "R1C5-prix-samaritain.html",
+        "R1C6-prix-hypothese.html",
+        "R1C7-prix-air-landais.html",
+        "R1C8-prix-necor.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-aubepine.html",
+        "R2C2-prix-de-saint-maixent.html",
+        "R2C3-prix-rose-or-no.html",
+        "R2C4-prix-fleuret.html",
+        "R2C5-prix-samaritain.html",
+        "R2C6-prix-hypothese.html",
+        "R2C7-prix-air-landais.html",
+        "R2C8-prix-necor.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-aubepine.html",
+        "R31C2-prix-de-saint-maixent.html",
+        "R31C3-prix-rose-or-no.html",
+        "R31C4-prix-fleuret.html",
+        "R31C5-prix-samaritain.html",
+        "R31C6-prix-hypothese.html",
+        "R31C7-prix-air-landais.html",
+        "R31C8-prix-necor.html"
+      ],
+      "R70-stade-de-france-saint-denis": [
+        "R70C1-prix-aubepine.html",
+        "R70C2-prix-de-saint-maixent.html",
+        "R70C3-prix-rose-or-no.html",
+        "R70C4-prix-fleuret.html",
+        "R70C5-prix-samaritain.html",
+        "R70C6-prix-hypothese.html",
+        "R70C7-prix-air-landais.html",
+        "R70C8-prix-necor.html"
+      ],
+      "R71-le-moustoir-lorient": [
+        "R71C1-prix-aubepine.html",
+        "R71C2-prix-de-saint-maixent.html",
+        "R71C3-prix-rose-or-no.html",
+        "R71C4-prix-fleuret.html",
+        "R71C5-prix-samaritain.html",
+        "R71C6-prix-hypothese.html",
+        "R71C7-prix-air-landais.html",
+        "R71C8-prix-necor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:02.695046Z"
+}

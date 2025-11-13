@@ -1,0 +1,42 @@
+{
+  "date": "2005-05-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-06",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-06/2005-05-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-du-departement-du-rhone.html",
+        "R1C2-prix-andre-lassagne-prix-des-pouliches.html",
+        "R1C3-prix-laurent-bonnevay-prix-colonel-bidault.html",
+        "R1C4-prix-du-parc-de-parilly-prix-andre-palmer.html",
+        "R1C5-prix-de-lacroix-laval-prix-du-mont-cindre.html",
+        "R1C6-prix-destination-japon-museum-prix-marcel-callier.html",
+        "R1C7-prix-le-vin-nectar-des-dieux-musees-gallo-romains-prix-de-la-tete-d-or.html",
+        "R1C8-prix-docteur-dugoujon.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-grand-prix-du-departement-du-rhone.html",
+        "R2C2-prix-andre-lassagne-prix-des-pouliches.html",
+        "R2C3-prix-laurent-bonnevay-prix-colonel-bidault.html",
+        "R2C4-prix-du-parc-de-parilly-prix-andre-palmer.html",
+        "R2C5-prix-de-lacroix-laval-prix-du-mont-cindre.html",
+        "R2C6-prix-destination-japon-museum-prix-marcel-callier.html",
+        "R2C7-prix-le-vin-nectar-des-dieux-musees-gallo-romains-prix-de-la-tete-d-or.html",
+        "R2C8-prix-docteur-dugoujon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:30.440592Z"
+}

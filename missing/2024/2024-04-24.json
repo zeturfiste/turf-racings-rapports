@@ -1,0 +1,56 @@
+{
+  "date": "2024-04-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/04/2024-04-24",
+    "date_html": "resultats-et-rapports/2024/04/2024-04-24/2024-04-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/04/2024-04-24/R4-evreux/R4C2-prix-planete-equipement.html",
+      "resultats-et-rapports/2024/04/2024-04-24/R4-evreux/R4C7-prix-charier-tp.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cordemais",
+      "R3-marseille-borely",
+      "R4-evreux"
+    ],
+    "courses_by_reunion": {
+      "R1-cordemais": [
+        "R1C1-grand-national-du-trot-prix-de-la-communaute-de-communes-estuaire-et-sillon.html",
+        "R1C2-prix-planete-equipement.html",
+        "R1C3-grand-national-des-amateurs-prix-rca-la-radio.html",
+        "R1C4-prix-camping-parc-sainte-brigitte-la-turballe.html",
+        "R1C5-prix-de-la-ville-de-cordemais.html",
+        "R1C6-prix-super-u-saint-etienne-de-montluc.html",
+        "R1C7-prix-charier-tp.html",
+        "R1C8-prix-bar-pmu-le-ligerien-cordemais.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-grand-national-du-trot-prix-de-la-communaute-de-communes-estuaire-et-sillon.html",
+        "R3C2-prix-planete-equipement.html",
+        "R3C3-grand-national-des-amateurs-prix-rca-la-radio.html",
+        "R3C4-prix-camping-parc-sainte-brigitte-la-turballe.html",
+        "R3C5-prix-de-la-ville-de-cordemais.html",
+        "R3C6-prix-super-u-saint-etienne-de-montluc.html",
+        "R3C7-prix-charier-tp.html",
+        "R3C8-prix-bar-pmu-le-ligerien-cordemais.html"
+      ],
+      "R4-evreux": [
+        "R4C1-grand-national-du-trot-prix-de-la-communaute-de-communes-estuaire-et-sillon.html",
+        "R4C2-prix-planete-equipement.html",
+        "R4C3-grand-national-des-amateurs-prix-rca-la-radio.html",
+        "R4C4-prix-camping-parc-sainte-brigitte-la-turballe.html",
+        "R4C5-prix-de-la-ville-de-cordemais.html",
+        "R4C6-prix-super-u-saint-etienne-de-montluc.html",
+        "R4C7-prix-charier-tp.html",
+        "R4C8-prix-bar-pmu-le-ligerien-cordemais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:57.773610Z"
+}

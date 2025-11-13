@@ -1,0 +1,84 @@
+{
+  "date": "2014-03-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/03/2014-03-03",
+    "date_html": "resultats-et-rapports/2014/03/2014-03-03/2014-03-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C1-prix-d-essai-des-poulains-premier-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C2-prix-spumate.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C4-prix-avranchin.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C5-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C6-prix-baroud-iii.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C8-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R1-enghien-soisy/R1C9-prix-strada.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C1-prix-d-essai-des-poulains-premier-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C2-prix-spumate.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C4-prix-avranchin.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C5-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C6-prix-baroud-iii.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C8-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R2-caen/R2C9-prix-strada.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C1-prix-d-essai-des-poulains-premier-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C2-prix-spumate.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C4-prix-avranchin.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C5-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C6-prix-baroud-iii.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C7-prix-d-aurillac.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C8-prix-de-la-chapelle-en-serval.html",
+      "resultats-et-rapports/2014/03/2014-03-03/R3-saint-galmier/R3C9-prix-strada.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-caen",
+      "R3-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-d-essai-des-poulains-premier-peloton.html",
+        "R1C2-prix-spumate.html",
+        "R1C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+        "R1C4-prix-avranchin.html",
+        "R1C5-prix-du-mont-cenis.html",
+        "R1C6-prix-baroud-iii.html",
+        "R1C7-prix-d-aurillac.html",
+        "R1C8-prix-de-la-chapelle-en-serval.html",
+        "R1C9-prix-strada.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-d-essai-des-poulains-premier-peloton.html",
+        "R2C2-prix-spumate.html",
+        "R2C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+        "R2C4-prix-avranchin.html",
+        "R2C5-prix-du-mont-cenis.html",
+        "R2C6-prix-baroud-iii.html",
+        "R2C7-prix-d-aurillac.html",
+        "R2C8-prix-de-la-chapelle-en-serval.html",
+        "R2C9-prix-strada.html"
+      ],
+      "R3-saint-galmier": [
+        "R3C1-prix-d-essai-des-poulains-premier-peloton.html",
+        "R3C2-prix-spumate.html",
+        "R3C3-prix-d-essai-des-poulains-deuxieme-peloton.html",
+        "R3C4-prix-avranchin.html",
+        "R3C5-prix-du-mont-cenis.html",
+        "R3C6-prix-baroud-iii.html",
+        "R3C7-prix-d-aurillac.html",
+        "R3C8-prix-de-la-chapelle-en-serval.html",
+        "R3C9-prix-strada.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:29.091882Z"
+}

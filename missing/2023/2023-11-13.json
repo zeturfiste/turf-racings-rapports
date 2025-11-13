@@ -1,0 +1,73 @@
+{
+  "date": "2023-11-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/11/2023-11-13",
+    "date_html": "resultats-et-rapports/2023/11/2023-11-13/2023-11-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/11/2023-11-13/R3-le-mans/R3C3-prix-de-bellerive.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R3-le-mans/R3C5-prix-du-languedoc.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R4-amiens/R4C5-prix-du-languedoc.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R4-amiens/R4C7-prix-de-beauvais.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R4-amiens/R4C8-prix-de-besancon.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R7-caen/R7C2-prix-de-ranville.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R7-caen/R7C3-prix-de-bellerive.html",
+      "resultats-et-rapports/2023/11/2023-11-13/R7-caen/R7C4-prix-d-argentan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-le-mans",
+      "R4-amiens",
+      "R7-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-atlantic.html",
+        "R1C2-prix-de-ranville.html",
+        "R1C3-prix-de-bellerive.html",
+        "R1C4-prix-d-argentan.html",
+        "R1C5-prix-du-languedoc.html",
+        "R1C6-prix-de-bacqueville.html",
+        "R1C7-prix-de-beauvais.html",
+        "R1C8-prix-de-besancon.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-atlantic.html",
+        "R3C2-prix-de-ranville.html",
+        "R3C3-prix-de-bellerive.html",
+        "R3C4-prix-d-argentan.html",
+        "R3C5-prix-du-languedoc.html",
+        "R3C6-prix-de-bacqueville.html",
+        "R3C7-prix-de-beauvais.html",
+        "R3C8-prix-de-besancon.html"
+      ],
+      "R4-amiens": [
+        "R4C1-prix-atlantic.html",
+        "R4C2-prix-de-ranville.html",
+        "R4C3-prix-de-bellerive.html",
+        "R4C4-prix-d-argentan.html",
+        "R4C5-prix-du-languedoc.html",
+        "R4C6-prix-de-bacqueville.html",
+        "R4C7-prix-de-beauvais.html",
+        "R4C8-prix-de-besancon.html"
+      ],
+      "R7-caen": [
+        "R7C1-prix-atlantic.html",
+        "R7C2-prix-de-ranville.html",
+        "R7C3-prix-de-bellerive.html",
+        "R7C4-prix-d-argentan.html",
+        "R7C5-prix-du-languedoc.html",
+        "R7C6-prix-de-bacqueville.html",
+        "R7C7-prix-de-beauvais.html",
+        "R7C8-prix-de-besancon.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:59.281985Z"
+}

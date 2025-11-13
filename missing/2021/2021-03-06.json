@@ -1,0 +1,80 @@
+{
+  "date": "2021-03-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-06",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-06/2021-03-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-06/R1-vincennes/R1C8-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R2-angers/R2C8-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R3-deauville/R3C2-prix-de-marennes.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C1-prix-henri-desmontils.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C2-prix-de-marennes.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C3-prix-de-montsoreau.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C5-prix-de-lorient.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C6-prix-de-selection.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C7-prix-du-plateau-de-gravelle.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C8-prix-de-guer-coetquidan.html",
+      "resultats-et-rapports/2021/03/2021-03-06/R4-cagnes-sur-mer/R4C9-prix-de-larre.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-angers",
+      "R3-deauville",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-henri-desmontils.html",
+        "R1C2-prix-de-marennes.html",
+        "R1C3-prix-de-montsoreau.html",
+        "R1C4-prix-louis-le-bourg.html",
+        "R1C5-prix-de-lorient.html",
+        "R1C6-prix-de-selection.html",
+        "R1C7-prix-du-plateau-de-gravelle.html",
+        "R1C8-prix-de-guer-coetquidan.html",
+        "R1C9-prix-de-larre.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-henri-desmontils.html",
+        "R2C2-prix-de-marennes.html",
+        "R2C3-prix-de-montsoreau.html",
+        "R2C4-prix-louis-le-bourg.html",
+        "R2C5-prix-de-lorient.html",
+        "R2C6-prix-de-selection.html",
+        "R2C7-prix-du-plateau-de-gravelle.html",
+        "R2C8-prix-de-guer-coetquidan.html",
+        "R2C9-prix-de-larre.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-henri-desmontils.html",
+        "R3C2-prix-de-marennes.html",
+        "R3C3-prix-de-montsoreau.html",
+        "R3C4-prix-louis-le-bourg.html",
+        "R3C5-prix-de-lorient.html",
+        "R3C6-prix-de-selection.html",
+        "R3C7-prix-du-plateau-de-gravelle.html",
+        "R3C8-prix-de-guer-coetquidan.html",
+        "R3C9-prix-de-larre.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-henri-desmontils.html",
+        "R4C2-prix-de-marennes.html",
+        "R4C3-prix-de-montsoreau.html",
+        "R4C4-prix-louis-le-bourg.html",
+        "R4C5-prix-de-lorient.html",
+        "R4C6-prix-de-selection.html",
+        "R4C7-prix-du-plateau-de-gravelle.html",
+        "R4C8-prix-de-guer-coetquidan.html",
+        "R4C9-prix-de-larre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:53.051079Z"
+}

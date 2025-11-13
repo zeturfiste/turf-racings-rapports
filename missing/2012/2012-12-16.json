@@ -1,0 +1,125 @@
+{
+  "date": "2012-12-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/12/2012-12-16",
+    "date_html": "resultats-et-rapports/2012/12/2012-12-16/2012-12-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/12/2012-12-16/R1-vincennes/R1C3-prix-jean-dumouch-prix-de-chateaudun.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R1-vincennes/R1C4-prix-de-briare.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R1-vincennes/R1C6-prix-de-limeil.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R1-vincennes/R1C8-prix-de-roanne.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R2-laval/R2C1-prix-de-poissy.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R2-laval/R2C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R3-pau/R3C7-prix-de-chalais.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R3-pau/R3C8-prix-de-roanne.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C1-prix-de-poissy.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C3-prix-jean-dumouch-prix-de-chateaudun.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C4-prix-de-briare.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C6-prix-de-limeil.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C7-prix-de-chalais.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C8-prix-de-roanne.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R4-nantes/R4C9-prix-de-manciet.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C1-prix-de-poissy.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C3-prix-jean-dumouch-prix-de-chateaudun.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C4-prix-de-briare.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C6-prix-de-limeil.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C7-prix-de-chalais.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R5-bordeaux-le-bouscat/R5C8-prix-de-roanne.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C1-prix-de-poissy.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C2-prix-de-vaumas.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C3-prix-jean-dumouch-prix-de-chateaudun.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C4-prix-de-briare.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C5-prix-de-chateau-thierry.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C6-prix-de-limeil.html",
+      "resultats-et-rapports/2012/12/2012-12-16/R6-cagnes-sur-mer/R6C8-prix-de-roanne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-laval",
+      "R3-pau",
+      "R4-nantes",
+      "R5-bordeaux-le-bouscat",
+      "R6-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-poissy.html",
+        "R1C2-prix-de-vaumas.html",
+        "R1C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R1C4-prix-de-briare.html",
+        "R1C5-prix-de-chateau-thierry.html",
+        "R1C6-prix-de-limeil.html",
+        "R1C7-prix-de-chalais.html",
+        "R1C8-prix-de-roanne.html",
+        "R1C9-prix-de-manciet.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-de-poissy.html",
+        "R2C2-prix-de-vaumas.html",
+        "R2C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R2C4-prix-de-briare.html",
+        "R2C5-prix-de-chateau-thierry.html",
+        "R2C6-prix-de-limeil.html",
+        "R2C7-prix-de-chalais.html",
+        "R2C8-prix-de-roanne.html",
+        "R2C9-prix-de-manciet.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-poissy.html",
+        "R3C2-prix-de-vaumas.html",
+        "R3C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R3C4-prix-de-briare.html",
+        "R3C5-prix-de-chateau-thierry.html",
+        "R3C6-prix-de-limeil.html",
+        "R3C7-prix-de-chalais.html",
+        "R3C8-prix-de-roanne.html",
+        "R3C9-prix-de-manciet.html"
+      ],
+      "R4-nantes": [
+        "R4C1-prix-de-poissy.html",
+        "R4C2-prix-de-vaumas.html",
+        "R4C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R4C4-prix-de-briare.html",
+        "R4C5-prix-de-chateau-thierry.html",
+        "R4C6-prix-de-limeil.html",
+        "R4C7-prix-de-chalais.html",
+        "R4C8-prix-de-roanne.html",
+        "R4C9-prix-de-manciet.html"
+      ],
+      "R5-bordeaux-le-bouscat": [
+        "R5C1-prix-de-poissy.html",
+        "R5C2-prix-de-vaumas.html",
+        "R5C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R5C4-prix-de-briare.html",
+        "R5C5-prix-de-chateau-thierry.html",
+        "R5C6-prix-de-limeil.html",
+        "R5C7-prix-de-chalais.html",
+        "R5C8-prix-de-roanne.html",
+        "R5C9-prix-de-manciet.html"
+      ],
+      "R6-cagnes-sur-mer": [
+        "R6C1-prix-de-poissy.html",
+        "R6C2-prix-de-vaumas.html",
+        "R6C3-prix-jean-dumouch-prix-de-chateaudun.html",
+        "R6C4-prix-de-briare.html",
+        "R6C5-prix-de-chateau-thierry.html",
+        "R6C6-prix-de-limeil.html",
+        "R6C7-prix-de-chalais.html",
+        "R6C8-prix-de-roanne.html",
+        "R6C9-prix-de-manciet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:21.159959Z"
+}

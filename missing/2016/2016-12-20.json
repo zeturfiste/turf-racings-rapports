@@ -1,0 +1,60 @@
+{
+  "date": "2016-12-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-20",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-20/2016-12-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-20/R1-vincennes/R1C6-prix-de-courseulles.html",
+      "resultats-et-rapports/2016/12/2016-12-20/R3-mauquenchy/R3C1-prix-d-embrun.html",
+      "resultats-et-rapports/2016/12/2016-12-20/R3-mauquenchy/R3C3-prix-de-la-tremblade.html",
+      "resultats-et-rapports/2016/12/2016-12-20/R3-mauquenchy/R3C4-prix-de-clamart.html",
+      "resultats-et-rapports/2016/12/2016-12-20/R3-mauquenchy/R3C6-prix-de-courseulles.html",
+      "resultats-et-rapports/2016/12/2016-12-20/R3-mauquenchy/R3C8-prix-de-sable-sur-sarthe.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-cagnes-sur-mer",
+      "R3-mauquenchy"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-d-embrun.html",
+        "R1C2-prix-des-iris.html",
+        "R1C3-prix-de-la-tremblade.html",
+        "R1C4-prix-de-clamart.html",
+        "R1C5-prix-de-fos-sur-mer.html",
+        "R1C6-prix-de-courseulles.html",
+        "R1C7-prix-pierre-giffard.html",
+        "R1C8-prix-de-sable-sur-sarthe.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-d-embrun.html",
+        "R2C2-prix-des-iris.html",
+        "R2C3-prix-de-la-tremblade.html",
+        "R2C4-prix-de-clamart.html",
+        "R2C5-prix-de-fos-sur-mer.html",
+        "R2C6-prix-de-courseulles.html",
+        "R2C7-prix-pierre-giffard.html",
+        "R2C8-prix-de-sable-sur-sarthe.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-d-embrun.html",
+        "R3C2-prix-des-iris.html",
+        "R3C3-prix-de-la-tremblade.html",
+        "R3C4-prix-de-clamart.html",
+        "R3C5-prix-de-fos-sur-mer.html",
+        "R3C6-prix-de-courseulles.html",
+        "R3C7-prix-pierre-giffard.html",
+        "R3C8-prix-de-sable-sur-sarthe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:52.950946Z"
+}

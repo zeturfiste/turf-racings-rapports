@@ -1,0 +1,105 @@
+{
+  "date": "2007-03-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/03/2007-03-07",
+    "date_html": "resultats-et-rapports/2007/03/2007-03-07/2007-03-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C2-prix-des-hetres.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C3-prix-des-chenes.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C4-prix-des-rosiers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C5-prix-des-erables.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C6-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R1-amiens/R1C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C2-prix-des-hetres.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C3-prix-des-chenes.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C4-prix-des-rosiers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C5-prix-des-erables.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C6-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R2-saint-cloud/R2C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C1-prix-geny-courses-paris-turf-com.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C2-prix-des-hetres.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C3-prix-des-chenes.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C4-prix-des-rosiers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C5-prix-des-erables.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R21-zerace/R21C6-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R41-amiens/R41C5-prix-des-erables.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R41-amiens/R41C6-prix-des-peupliers.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R41-amiens/R41C8-prix-des-tilleuls.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R70-old-trafford-manchester/R70C2-prix-des-hetres.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R70-old-trafford-manchester/R70C3-prix-des-chenes.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R70-old-trafford-manchester/R70C7-prix-des-bouleaux.html",
+      "resultats-et-rapports/2007/03/2007-03-07/R70-old-trafford-manchester/R70C8-prix-des-tilleuls.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R2-saint-cloud",
+      "R21-zerace",
+      "R41-amiens",
+      "R70-old-trafford-manchester"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-geny-courses-paris-turf-com.html",
+        "R1C2-prix-des-hetres.html",
+        "R1C3-prix-des-chenes.html",
+        "R1C4-prix-des-rosiers.html",
+        "R1C5-prix-des-erables.html",
+        "R1C6-prix-des-peupliers.html",
+        "R1C7-prix-des-bouleaux.html",
+        "R1C8-prix-des-tilleuls.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-geny-courses-paris-turf-com.html",
+        "R2C2-prix-des-hetres.html",
+        "R2C3-prix-des-chenes.html",
+        "R2C4-prix-des-rosiers.html",
+        "R2C5-prix-des-erables.html",
+        "R2C6-prix-des-peupliers.html",
+        "R2C7-prix-des-bouleaux.html",
+        "R2C8-prix-des-tilleuls.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-geny-courses-paris-turf-com.html",
+        "R21C2-prix-des-hetres.html",
+        "R21C3-prix-des-chenes.html",
+        "R21C4-prix-des-rosiers.html",
+        "R21C5-prix-des-erables.html",
+        "R21C6-prix-des-peupliers.html",
+        "R21C7-prix-des-bouleaux.html",
+        "R21C8-prix-des-tilleuls.html"
+      ],
+      "R41-amiens": [
+        "R41C1-prix-geny-courses-paris-turf-com.html",
+        "R41C2-prix-des-hetres.html",
+        "R41C3-prix-des-chenes.html",
+        "R41C4-prix-des-rosiers.html",
+        "R41C5-prix-des-erables.html",
+        "R41C6-prix-des-peupliers.html",
+        "R41C7-prix-des-bouleaux.html",
+        "R41C8-prix-des-tilleuls.html"
+      ],
+      "R70-old-trafford-manchester": [
+        "R70C1-prix-geny-courses-paris-turf-com.html",
+        "R70C2-prix-des-hetres.html",
+        "R70C3-prix-des-chenes.html",
+        "R70C4-prix-des-rosiers.html",
+        "R70C5-prix-des-erables.html",
+        "R70C6-prix-des-peupliers.html",
+        "R70C7-prix-des-bouleaux.html",
+        "R70C8-prix-des-tilleuls.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:56.250305Z"
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2021-08-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/08/2021-08-07",
+    "date_html": "resultats-et-rapports/2021/08/2021-08-07/2021-08-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/08/2021-08-07/R1-deauville/R1C8-prix-indeauville-prix-des-coquelicots.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R3-enghien-soisy/R3C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R3-enghien-soisy/R3C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R3-enghien-soisy/R3C5-prix-de-la-vallee-d-auge.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R4-vichy/R4C5-prix-de-la-vallee-d-auge.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R4-vichy/R4C6-prix-de-la-villa-saint-augustin.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R4-vichy/R4C7-66eme-prix-georges-courtois.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C1-prix-du-haras-de-la-pomme.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C3-grand-handicap-des-collectivites-locales.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C5-prix-de-la-vallee-d-auge.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C7-66eme-prix-georges-courtois.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C8-prix-indeauville-prix-des-coquelicots.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R7-dieppe/R7C9-prix-de-camembert.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C1-prix-du-haras-de-la-pomme.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C3-grand-handicap-des-collectivites-locales.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C5-prix-de-la-vallee-d-auge.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C6-prix-de-la-villa-saint-augustin.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C7-66eme-prix-georges-courtois.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C8-prix-indeauville-prix-des-coquelicots.html",
+      "resultats-et-rapports/2021/08/2021-08-07/R8-compiegne/R8C9-prix-de-camembert.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-chateaubriant",
+      "R3-enghien-soisy",
+      "R4-vichy",
+      "R7-dieppe",
+      "R8-compiegne"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-haras-de-la-pomme.html",
+        "R1C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R1C3-grand-handicap-des-collectivites-locales.html",
+        "R1C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R1C5-prix-de-la-vallee-d-auge.html",
+        "R1C6-prix-de-la-villa-saint-augustin.html",
+        "R1C7-66eme-prix-georges-courtois.html",
+        "R1C8-prix-indeauville-prix-des-coquelicots.html",
+        "R1C9-prix-de-camembert.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-du-haras-de-la-pomme.html",
+        "R2C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R2C3-grand-handicap-des-collectivites-locales.html",
+        "R2C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R2C5-prix-de-la-vallee-d-auge.html",
+        "R2C6-prix-de-la-villa-saint-augustin.html",
+        "R2C7-66eme-prix-georges-courtois.html",
+        "R2C8-prix-indeauville-prix-des-coquelicots.html",
+        "R2C9-prix-de-camembert.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-du-haras-de-la-pomme.html",
+        "R3C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R3C3-grand-handicap-des-collectivites-locales.html",
+        "R3C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R3C5-prix-de-la-vallee-d-auge.html",
+        "R3C6-prix-de-la-villa-saint-augustin.html",
+        "R3C7-66eme-prix-georges-courtois.html",
+        "R3C8-prix-indeauville-prix-des-coquelicots.html",
+        "R3C9-prix-de-camembert.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-haras-de-la-pomme.html",
+        "R4C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R4C3-grand-handicap-des-collectivites-locales.html",
+        "R4C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R4C5-prix-de-la-vallee-d-auge.html",
+        "R4C6-prix-de-la-villa-saint-augustin.html",
+        "R4C7-66eme-prix-georges-courtois.html",
+        "R4C8-prix-indeauville-prix-des-coquelicots.html",
+        "R4C9-prix-de-camembert.html"
+      ],
+      "R7-dieppe": [
+        "R7C1-prix-du-haras-de-la-pomme.html",
+        "R7C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R7C3-grand-handicap-des-collectivites-locales.html",
+        "R7C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R7C5-prix-de-la-vallee-d-auge.html",
+        "R7C6-prix-de-la-villa-saint-augustin.html",
+        "R7C7-66eme-prix-georges-courtois.html",
+        "R7C8-prix-indeauville-prix-des-coquelicots.html",
+        "R7C9-prix-de-camembert.html"
+      ],
+      "R8-compiegne": [
+        "R8C1-prix-du-haras-de-la-pomme.html",
+        "R8C2-prix-de-tour-en-bessin-sauternes-s-cup.html",
+        "R8C3-grand-handicap-des-collectivites-locales.html",
+        "R8C4-prix-normandie-equestrian-week-prix-de-falaise.html",
+        "R8C5-prix-de-la-vallee-d-auge.html",
+        "R8C6-prix-de-la-villa-saint-augustin.html",
+        "R8C7-66eme-prix-georges-courtois.html",
+        "R8C8-prix-indeauville-prix-des-coquelicots.html",
+        "R8C9-prix-de-camembert.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:54.629492Z"
+}

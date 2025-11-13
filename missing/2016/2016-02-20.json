@@ -1,0 +1,51 @@
+{
+  "date": "2016-02-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/02/2016-02-20",
+    "date_html": "resultats-et-rapports/2016/02/2016-02-20/2016-02-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/02/2016-02-20/R1-cagnes-sur-mer/R1C4-prix-saonois.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C1-prix-du-fort-vauban.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C2-prix-du-bord-de-mer.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C3-prix-d-antibes.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C4-prix-saonois.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C5-prix-du-fort-carre.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C6-prix-de-fontmerle.html",
+      "resultats-et-rapports/2016/02/2016-02-20/R3-agen/R3C8-prix-de-l-arriere-pays.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-agen"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-du-fort-vauban.html",
+        "R1C2-prix-du-bord-de-mer.html",
+        "R1C3-prix-d-antibes.html",
+        "R1C4-prix-saonois.html",
+        "R1C5-prix-du-fort-carre.html",
+        "R1C6-prix-de-fontmerle.html",
+        "R1C7-prix-de-juan-les-pins.html",
+        "R1C8-prix-de-l-arriere-pays.html"
+      ],
+      "R3-agen": [
+        "R3C1-prix-du-fort-vauban.html",
+        "R3C2-prix-du-bord-de-mer.html",
+        "R3C3-prix-d-antibes.html",
+        "R3C4-prix-saonois.html",
+        "R3C5-prix-du-fort-carre.html",
+        "R3C6-prix-de-fontmerle.html",
+        "R3C7-prix-de-juan-les-pins.html",
+        "R3C8-prix-de-l-arriere-pays.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:15.259223Z"
+}

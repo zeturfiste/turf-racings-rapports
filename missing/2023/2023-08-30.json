@@ -1,0 +1,70 @@
+{
+  "date": "2023-08-30",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/08/2023-08-30",
+    "date_html": "resultats-et-rapports/2023/08/2023-08-30/2023-08-30.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/08/2023-08-30/R1-compiegne/R1C5-prix-de-courtieux.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R1-compiegne/R1C7-prix-du-chateau-de-pierrefonds.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R1-compiegne/R1C8-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C3-prix-du-puits-du-roy.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C4-prix-palomelle.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C5-prix-de-courtieux.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C6-prix-de-jaux.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C7-prix-du-chateau-de-pierrefonds.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R3-vincennes/R3C8-prix-du-chateau-de-compiegne.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C1-prix-de-jonquieres.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C3-prix-du-puits-du-roy.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C4-prix-palomelle.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C5-prix-de-courtieux.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C6-prix-de-jaux.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C7-prix-du-chateau-de-pierrefonds.html",
+      "resultats-et-rapports/2023/08/2023-08-30/R4-les-sables-d-olonne/R4C8-prix-du-chateau-de-compiegne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-vincennes",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-de-jonquieres.html",
+        "R1C2-prix-de-l-avesnois.html",
+        "R1C3-prix-du-puits-du-roy.html",
+        "R1C4-prix-palomelle.html",
+        "R1C5-prix-de-courtieux.html",
+        "R1C6-prix-de-jaux.html",
+        "R1C7-prix-du-chateau-de-pierrefonds.html",
+        "R1C8-prix-du-chateau-de-compiegne.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-jonquieres.html",
+        "R3C2-prix-de-l-avesnois.html",
+        "R3C3-prix-du-puits-du-roy.html",
+        "R3C4-prix-palomelle.html",
+        "R3C5-prix-de-courtieux.html",
+        "R3C6-prix-de-jaux.html",
+        "R3C7-prix-du-chateau-de-pierrefonds.html",
+        "R3C8-prix-du-chateau-de-compiegne.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-de-jonquieres.html",
+        "R4C2-prix-de-l-avesnois.html",
+        "R4C3-prix-du-puits-du-roy.html",
+        "R4C4-prix-palomelle.html",
+        "R4C5-prix-de-courtieux.html",
+        "R4C6-prix-de-jaux.html",
+        "R4C7-prix-du-chateau-de-pierrefonds.html",
+        "R4C8-prix-du-chateau-de-compiegne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:31.316012Z"
+}

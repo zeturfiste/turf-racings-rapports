@@ -1,0 +1,42 @@
+{
+  "date": "2006-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-08",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-08/2006-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R2-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R1C2-prix-du-conseil-general-de-l-aisne.html",
+        "R1C3-prix-du-conseil-regional-de-picardie.html",
+        "R1C4-prix-de-la-ville-de-la-capelle.html",
+        "R1C5-prix-jacquart.html",
+        "R1C6-prix-andre-carrus.html",
+        "R1C7-prix-de-l-aisne-nouvelle.html",
+        "R1C8-prix-du-pays-de-thierache.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-prix-tierce-magazine-geny-courses-rtl.html",
+        "R2C2-prix-du-conseil-general-de-l-aisne.html",
+        "R2C3-prix-du-conseil-regional-de-picardie.html",
+        "R2C4-prix-de-la-ville-de-la-capelle.html",
+        "R2C5-prix-jacquart.html",
+        "R2C6-prix-andre-carrus.html",
+        "R2C7-prix-de-l-aisne-nouvelle.html",
+        "R2C8-prix-du-pays-de-thierache.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:19.055295Z"
+}

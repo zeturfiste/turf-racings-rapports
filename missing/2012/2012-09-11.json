@@ -1,0 +1,62 @@
+{
+  "date": "2012-09-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/09/2012-09-11",
+    "date_html": "resultats-et-rapports/2012/09/2012-09-11/2012-09-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/09/2012-09-11/R1-chantilly/R1C4-prix-d-arenberg.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R1-chantilly/R1C6-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R1-chantilly/R1C7-prix-du-marais-du-lys.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R2-cavaillon/R2C6-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R3-vincennes/R3C4-prix-d-arenberg.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R3-vincennes/R3C5-prix-d-aumale.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R3-vincennes/R3C6-prix-de-la-canardiere.html",
+      "resultats-et-rapports/2012/09/2012-09-11/R3-vincennes/R3C7-prix-du-marais-du-lys.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-cavaillon",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-survilliers.html",
+        "R1C2-prix-de-villebon.html",
+        "R1C3-prix-de-toutevoie.html",
+        "R1C4-prix-d-arenberg.html",
+        "R1C5-prix-d-aumale.html",
+        "R1C6-prix-de-la-canardiere.html",
+        "R1C7-prix-du-marais-du-lys.html",
+        "R1C8-prix-de-saint-witz.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-de-survilliers.html",
+        "R2C2-prix-de-villebon.html",
+        "R2C3-prix-de-toutevoie.html",
+        "R2C4-prix-d-arenberg.html",
+        "R2C5-prix-d-aumale.html",
+        "R2C6-prix-de-la-canardiere.html",
+        "R2C7-prix-du-marais-du-lys.html",
+        "R2C8-prix-de-saint-witz.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-survilliers.html",
+        "R3C2-prix-de-villebon.html",
+        "R3C3-prix-de-toutevoie.html",
+        "R3C4-prix-d-arenberg.html",
+        "R3C5-prix-d-aumale.html",
+        "R3C6-prix-de-la-canardiere.html",
+        "R3C7-prix-du-marais-du-lys.html",
+        "R3C8-prix-de-saint-witz.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:53.086423Z"
+}

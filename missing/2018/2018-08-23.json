@@ -1,0 +1,81 @@
+{
+  "date": "2018-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/08/2018-08-23",
+    "date_html": "resultats-et-rapports/2018/08/2018-08-23/2018-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/08/2018-08-23/R1-clairefontaine/R1C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R1-clairefontaine/R1C7-prix-casinos-tranchant-prix-des-cosmos.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R1-clairefontaine/R1C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R2-divonne-les-bains/R2C3-grand-steeple-chase-ville-de-deauville-festival-du-cinema-americain.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R2-divonne-les-bains/R2C7-prix-casinos-tranchant-prix-des-cosmos.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R3-moulins/R3C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R3-moulins/R3C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R3-moulins/R3C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R3-moulins/R3C7-prix-casinos-tranchant-prix-des-cosmos.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R3-moulins/R3C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C2-prix-groupe-tranchant-prix-des-lavateres.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C7-prix-casinos-tranchant-prix-des-cosmos.html",
+      "resultats-et-rapports/2018/08/2018-08-23/R4-les-sables-d-olonne/R4C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-divonne-les-bains",
+      "R3-moulins",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+        "R1C2-prix-groupe-tranchant-prix-des-lavateres.html",
+        "R1C3-grand-steeple-chase-ville-de-deauville-festival-du-cinema-americain.html",
+        "R1C4-prix-de-la-ville-de-tourgeville.html",
+        "R1C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+        "R1C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+        "R1C7-prix-casinos-tranchant-prix-des-cosmos.html",
+        "R1C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+        "R2C2-prix-groupe-tranchant-prix-des-lavateres.html",
+        "R2C3-grand-steeple-chase-ville-de-deauville-festival-du-cinema-americain.html",
+        "R2C4-prix-de-la-ville-de-tourgeville.html",
+        "R2C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+        "R2C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+        "R2C7-prix-casinos-tranchant-prix-des-cosmos.html",
+        "R2C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html"
+      ],
+      "R3-moulins": [
+        "R3C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+        "R3C2-prix-groupe-tranchant-prix-des-lavateres.html",
+        "R3C3-grand-steeple-chase-ville-de-deauville-festival-du-cinema-americain.html",
+        "R3C4-prix-de-la-ville-de-tourgeville.html",
+        "R3C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+        "R3C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+        "R3C7-prix-casinos-tranchant-prix-des-cosmos.html",
+        "R3C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-casino-tranchant-de-villers-sur-mer-prix-de-la-risle.html",
+        "R4C2-prix-groupe-tranchant-prix-des-lavateres.html",
+        "R4C3-grand-steeple-chase-ville-de-deauville-festival-du-cinema-americain.html",
+        "R4C4-prix-de-la-ville-de-tourgeville.html",
+        "R4C5-prix-grands-jeux-du-casino-de-villers-sur-mer-prix-des-bleuets.html",
+        "R4C6-grand-prix-de-clairefontaine-restaurant-le-jardin-du-meridien.html",
+        "R4C7-prix-casinos-tranchant-prix-des-cosmos.html",
+        "R4C8-prix-equipe-du-casino-de-villers-sur-mer-prix-des-villas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:00.765075Z"
+}

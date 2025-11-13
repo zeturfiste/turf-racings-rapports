@@ -1,0 +1,116 @@
+{
+  "date": "2015-09-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/09/2015-09-14",
+    "date_html": "resultats-et-rapports/2015/09/2015-09-14/2015-09-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/09/2015-09-14/R1-vincennes/R1C3-prix-de-bihorel.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R1-vincennes/R1C4-prix-de-beziers.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R1-vincennes/R1C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R2-moulins/R2C7-prix-de-cambrai.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C2-prix-de-guyenne.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C3-prix-de-bihorel.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C4-prix-de-beziers.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C6-prix-d-etampes.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C7-prix-de-cambrai.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R3-saint-cloud/R3C8-prix-de-janze.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C1-prix-de-feurs.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C2-prix-de-guyenne.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C3-prix-de-bihorel.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C6-prix-d-etampes.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C7-prix-de-cambrai.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R5-sable-sur-sarthe/R5C8-prix-de-janze.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R6-hyeres/R6C2-prix-de-guyenne.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R6-hyeres/R6C6-prix-d-etampes.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R6-hyeres/R6C7-prix-de-cambrai.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R6-hyeres/R6C8-prix-de-janze.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C1-prix-de-feurs.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C2-prix-de-guyenne.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C3-prix-de-bihorel.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C4-prix-de-beziers.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C5-prix-de-la-roche-posay.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C6-prix-d-etampes.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C7-prix-de-cambrai.html",
+      "resultats-et-rapports/2015/09/2015-09-14/R7-le-croise-laroche/R7C8-prix-de-janze.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-moulins",
+      "R3-saint-cloud",
+      "R5-sable-sur-sarthe",
+      "R6-hyeres",
+      "R7-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-feurs.html",
+        "R1C2-prix-de-guyenne.html",
+        "R1C3-prix-de-bihorel.html",
+        "R1C4-prix-de-beziers.html",
+        "R1C5-prix-de-la-roche-posay.html",
+        "R1C6-prix-d-etampes.html",
+        "R1C7-prix-de-cambrai.html",
+        "R1C8-prix-de-janze.html"
+      ],
+      "R2-moulins": [
+        "R2C1-prix-de-feurs.html",
+        "R2C2-prix-de-guyenne.html",
+        "R2C3-prix-de-bihorel.html",
+        "R2C4-prix-de-beziers.html",
+        "R2C5-prix-de-la-roche-posay.html",
+        "R2C6-prix-d-etampes.html",
+        "R2C7-prix-de-cambrai.html",
+        "R2C8-prix-de-janze.html"
+      ],
+      "R3-saint-cloud": [
+        "R3C1-prix-de-feurs.html",
+        "R3C2-prix-de-guyenne.html",
+        "R3C3-prix-de-bihorel.html",
+        "R3C4-prix-de-beziers.html",
+        "R3C5-prix-de-la-roche-posay.html",
+        "R3C6-prix-d-etampes.html",
+        "R3C7-prix-de-cambrai.html",
+        "R3C8-prix-de-janze.html"
+      ],
+      "R5-sable-sur-sarthe": [
+        "R5C1-prix-de-feurs.html",
+        "R5C2-prix-de-guyenne.html",
+        "R5C3-prix-de-bihorel.html",
+        "R5C4-prix-de-beziers.html",
+        "R5C5-prix-de-la-roche-posay.html",
+        "R5C6-prix-d-etampes.html",
+        "R5C7-prix-de-cambrai.html",
+        "R5C8-prix-de-janze.html"
+      ],
+      "R6-hyeres": [
+        "R6C1-prix-de-feurs.html",
+        "R6C2-prix-de-guyenne.html",
+        "R6C3-prix-de-bihorel.html",
+        "R6C4-prix-de-beziers.html",
+        "R6C5-prix-de-la-roche-posay.html",
+        "R6C6-prix-d-etampes.html",
+        "R6C7-prix-de-cambrai.html",
+        "R6C8-prix-de-janze.html"
+      ],
+      "R7-le-croise-laroche": [
+        "R7C1-prix-de-feurs.html",
+        "R7C2-prix-de-guyenne.html",
+        "R7C3-prix-de-bihorel.html",
+        "R7C4-prix-de-beziers.html",
+        "R7C5-prix-de-la-roche-posay.html",
+        "R7C6-prix-d-etampes.html",
+        "R7C7-prix-de-cambrai.html",
+        "R7C8-prix-de-janze.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:30.281350Z"
+}

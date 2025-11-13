@@ -1,0 +1,86 @@
+{
+  "date": "2023-09-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/09/2023-09-10",
+    "date_html": "resultats-et-rapports/2023/09/2023-09-10/2023-09-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/09/2023-09-10/R1-paris-longchamp/R1C6-qatar-prix-niel.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R1-paris-longchamp/R1C7-qatar-prix-du-pin.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R1-paris-longchamp/R1C10-qatar-prix-de-l-allee-des-brouillards.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R4-nancy/R4C2-qatar-cup-prix-dragon.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R5-le-mont-saint-michel/R5C2-qatar-cup-prix-dragon.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R5-le-mont-saint-michel/R5C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C3-qatar-prix-foy.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C4-qatar-prix-carrus.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C5-qatar-prix-vermeille.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C6-qatar-prix-niel.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C7-qatar-prix-du-pin.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+      "resultats-et-rapports/2023/09/2023-09-10/R10-chateaubriant/R10C10-qatar-prix-de-l-allee-des-brouillards.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R4-nancy",
+      "R5-le-mont-saint-michel",
+      "R10-chateaubriant"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-qatar-prix-du-petit-couvert.html",
+        "R1C2-qatar-cup-prix-dragon.html",
+        "R1C3-qatar-prix-foy.html",
+        "R1C4-qatar-prix-carrus.html",
+        "R1C5-qatar-prix-vermeille.html",
+        "R1C6-qatar-prix-niel.html",
+        "R1C7-qatar-prix-du-pin.html",
+        "R1C8-qatar-prix-de-saint-nicolas.html",
+        "R1C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+        "R1C10-qatar-prix-de-l-allee-des-brouillards.html"
+      ],
+      "R4-nancy": [
+        "R4C1-qatar-prix-du-petit-couvert.html",
+        "R4C2-qatar-cup-prix-dragon.html",
+        "R4C3-qatar-prix-foy.html",
+        "R4C4-qatar-prix-carrus.html",
+        "R4C5-qatar-prix-vermeille.html",
+        "R4C6-qatar-prix-niel.html",
+        "R4C7-qatar-prix-du-pin.html",
+        "R4C8-qatar-prix-de-saint-nicolas.html",
+        "R4C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+        "R4C10-qatar-prix-de-l-allee-des-brouillards.html"
+      ],
+      "R5-le-mont-saint-michel": [
+        "R5C1-qatar-prix-du-petit-couvert.html",
+        "R5C2-qatar-cup-prix-dragon.html",
+        "R5C3-qatar-prix-foy.html",
+        "R5C4-qatar-prix-carrus.html",
+        "R5C5-qatar-prix-vermeille.html",
+        "R5C6-qatar-prix-niel.html",
+        "R5C7-qatar-prix-du-pin.html",
+        "R5C8-qatar-prix-de-saint-nicolas.html",
+        "R5C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+        "R5C10-qatar-prix-de-l-allee-des-brouillards.html"
+      ],
+      "R10-chateaubriant": [
+        "R10C1-qatar-prix-du-petit-couvert.html",
+        "R10C2-qatar-cup-prix-dragon.html",
+        "R10C3-qatar-prix-foy.html",
+        "R10C4-qatar-prix-carrus.html",
+        "R10C5-qatar-prix-vermeille.html",
+        "R10C6-qatar-prix-niel.html",
+        "R10C7-qatar-prix-du-pin.html",
+        "R10C8-qatar-prix-de-saint-nicolas.html",
+        "R10C9-qatar-prix-de-la-rue-de-l-abreuvoir.html",
+        "R10C10-qatar-prix-de-l-allee-des-brouillards.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:35.684538Z"
+}

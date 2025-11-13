@@ -1,0 +1,73 @@
+{
+  "date": "2015-12-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/12/2015-12-22",
+    "date_html": "resultats-et-rapports/2015/12/2015-12-22/2015-12-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/12/2015-12-22/R1-vincennes/R1C1-prix-de-la-reole.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R1-vincennes/R1C4-prix-de-la-tremblade.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R1-vincennes/R1C5-prix-de-clamart.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R1-vincennes/R1C8-prix-pierre-giffard.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R2-pontchateau/R2C4-prix-de-la-tremblade.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R2-pontchateau/R2C6-prix-de-fustignac.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R2-pontchateau/R2C9-prix-de-courseulles.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C1-prix-de-la-reole.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C2-prix-des-hortensias-gr-a.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C3-prix-des-hortensias-gr-b.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C4-prix-de-la-tremblade.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C5-prix-de-clamart.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C6-prix-de-fustignac.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C7-prix-de-marennes-oleron.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C8-prix-pierre-giffard.html",
+      "resultats-et-rapports/2015/12/2015-12-22/R3-marseille-vivaux/R3C9-prix-de-courseulles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pontchateau",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-reole.html",
+        "R1C2-prix-des-hortensias-gr-a.html",
+        "R1C3-prix-des-hortensias-gr-b.html",
+        "R1C4-prix-de-la-tremblade.html",
+        "R1C5-prix-de-clamart.html",
+        "R1C6-prix-de-fustignac.html",
+        "R1C7-prix-de-marennes-oleron.html",
+        "R1C8-prix-pierre-giffard.html",
+        "R1C9-prix-de-courseulles.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-de-la-reole.html",
+        "R2C2-prix-des-hortensias-gr-a.html",
+        "R2C3-prix-des-hortensias-gr-b.html",
+        "R2C4-prix-de-la-tremblade.html",
+        "R2C5-prix-de-clamart.html",
+        "R2C6-prix-de-fustignac.html",
+        "R2C7-prix-de-marennes-oleron.html",
+        "R2C8-prix-pierre-giffard.html",
+        "R2C9-prix-de-courseulles.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-la-reole.html",
+        "R3C2-prix-des-hortensias-gr-a.html",
+        "R3C3-prix-des-hortensias-gr-b.html",
+        "R3C4-prix-de-la-tremblade.html",
+        "R3C5-prix-de-clamart.html",
+        "R3C6-prix-de-fustignac.html",
+        "R3C7-prix-de-marennes-oleron.html",
+        "R3C8-prix-pierre-giffard.html",
+        "R3C9-prix-de-courseulles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:01.657422Z"
+}

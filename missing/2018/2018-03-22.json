@@ -1,0 +1,75 @@
+{
+  "date": "2018-03-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/03/2018-03-22",
+    "date_html": "resultats-et-rapports/2018/03/2018-03-22/2018-03-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/03/2018-03-22/R3-lisieux/R3C12-prix-du-perigord.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C3-prix-omnium-ii.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C4-prix-la-camargo.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C6-prix-calandria.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C7-prix-kizil-kourgan.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C8-prix-de-frauenfeld.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C10-prix-riverqueen.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C11-prix-de-la-hume.html",
+      "resultats-et-rapports/2018/03/2018-03-22/R4-lyon-la-soie/R4C12-prix-du-perigord.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R3-lisieux",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-du-debut.html",
+        "R1C2-prix-de-juvisy.html",
+        "R1C3-prix-omnium-ii.html",
+        "R1C4-prix-la-camargo.html",
+        "R1C5-prix-de-la-gascogne.html",
+        "R1C6-prix-calandria.html",
+        "R1C7-prix-kizil-kourgan.html",
+        "R1C8-prix-de-frauenfeld.html",
+        "R1C9-prix-dunette.html",
+        "R1C10-prix-riverqueen.html",
+        "R1C11-prix-de-la-hume.html",
+        "R1C12-prix-du-perigord.html"
+      ],
+      "R3-lisieux": [
+        "R3C1-prix-du-debut.html",
+        "R3C2-prix-de-juvisy.html",
+        "R3C3-prix-omnium-ii.html",
+        "R3C4-prix-la-camargo.html",
+        "R3C5-prix-de-la-gascogne.html",
+        "R3C6-prix-calandria.html",
+        "R3C7-prix-kizil-kourgan.html",
+        "R3C8-prix-de-frauenfeld.html",
+        "R3C9-prix-dunette.html",
+        "R3C10-prix-riverqueen.html",
+        "R3C11-prix-de-la-hume.html",
+        "R3C12-prix-du-perigord.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-du-debut.html",
+        "R4C2-prix-de-juvisy.html",
+        "R4C3-prix-omnium-ii.html",
+        "R4C4-prix-la-camargo.html",
+        "R4C5-prix-de-la-gascogne.html",
+        "R4C6-prix-calandria.html",
+        "R4C7-prix-kizil-kourgan.html",
+        "R4C8-prix-de-frauenfeld.html",
+        "R4C9-prix-dunette.html",
+        "R4C10-prix-riverqueen.html",
+        "R4C11-prix-de-la-hume.html",
+        "R4C12-prix-du-perigord.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:08.389190Z"
+}

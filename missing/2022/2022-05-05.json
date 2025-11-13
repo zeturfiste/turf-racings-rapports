@@ -1,0 +1,60 @@
+{
+  "date": "2022-05-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-05",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-05/2022-05-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-05/R1-lyon-parilly/R1C7-prix-du-parc-de-la-tete-d-or.html",
+      "resultats-et-rapports/2022/05/2022-05-05/R1-lyon-parilly/R1C8-prix-du-parc-de-lacroix-laval.html",
+      "resultats-et-rapports/2022/05/2022-05-05/R3-compiegne/R3C1-grand-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2022/05/2022-05-05/R3-compiegne/R3C5-prix-de-l-association-des-proprietaires-du-centre-est.html",
+      "resultats-et-rapports/2022/05/2022-05-05/R4-bordeaux-le-bouscat/R4C1-grand-prix-de-lyon-parilly.html",
+      "resultats-et-rapports/2022/05/2022-05-05/R4-bordeaux-le-bouscat/R4C7-prix-du-parc-de-la-tete-d-or.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R3-compiegne",
+      "R4-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-de-lyon-parilly.html",
+        "R1C2-prix-label-equures-prix-des-roses.html",
+        "R1C3-prix-louis-saulnier.html",
+        "R1C4-prix-andre-palmer.html",
+        "R1C5-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R1C6-prix-de-gerland.html",
+        "R1C7-prix-du-parc-de-la-tete-d-or.html",
+        "R1C8-prix-du-parc-de-lacroix-laval.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-prix-de-lyon-parilly.html",
+        "R3C2-prix-label-equures-prix-des-roses.html",
+        "R3C3-prix-louis-saulnier.html",
+        "R3C4-prix-andre-palmer.html",
+        "R3C5-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R3C6-prix-de-gerland.html",
+        "R3C7-prix-du-parc-de-la-tete-d-or.html",
+        "R3C8-prix-du-parc-de-lacroix-laval.html"
+      ],
+      "R4-bordeaux-le-bouscat": [
+        "R4C1-grand-prix-de-lyon-parilly.html",
+        "R4C2-prix-label-equures-prix-des-roses.html",
+        "R4C3-prix-louis-saulnier.html",
+        "R4C4-prix-andre-palmer.html",
+        "R4C5-prix-de-l-association-des-proprietaires-du-centre-est.html",
+        "R4C6-prix-de-gerland.html",
+        "R4C7-prix-du-parc-de-la-tete-d-or.html",
+        "R4C8-prix-du-parc-de-lacroix-laval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:33.485274Z"
+}

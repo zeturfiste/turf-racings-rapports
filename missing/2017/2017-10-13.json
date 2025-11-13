@@ -1,0 +1,108 @@
+{
+  "date": "2017-10-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/10/2017-10-13",
+    "date_html": "resultats-et-rapports/2017/10/2017-10-13/2017-10-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/10/2017-10-13/R1-vincennes/R1C1-prix-bohemia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R1-vincennes/R1C3-prix-gordonia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R1-vincennes/R1C5-prix-umbriel.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R1-vincennes/R1C6-prix-andromeda.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R3-le-mont-saint-michel/R3C3-prix-gordonia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R3-le-mont-saint-michel/R3C6-prix-andromeda.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R4-maisons-laffitte/R4C2-prix-le-parisien-prix-hera.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R4-maisons-laffitte/R4C5-prix-umbriel.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R4-maisons-laffitte/R4C7-prix-undina.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C1-prix-bohemia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C2-prix-le-parisien-prix-hera.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C3-prix-gordonia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C4-prix-orionis.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C5-prix-umbriel.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C6-prix-andromeda.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R5-marseille-vivaux/R5C7-prix-undina.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C1-prix-bohemia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C2-prix-le-parisien-prix-hera.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C3-prix-gordonia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C4-prix-orionis.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C5-prix-umbriel.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C6-prix-andromeda.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R8-laval/R8C7-prix-undina.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R9-toulouse/R9C1-prix-bohemia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R9-toulouse/R9C3-prix-gordonia.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R9-toulouse/R9C4-prix-orionis.html",
+      "resultats-et-rapports/2017/10/2017-10-13/R9-toulouse/R9C5-prix-umbriel.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-le-mont-saint-michel",
+      "R4-maisons-laffitte",
+      "R5-marseille-vivaux",
+      "R8-laval",
+      "R9-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-bohemia.html",
+        "R1C2-prix-le-parisien-prix-hera.html",
+        "R1C3-prix-gordonia.html",
+        "R1C4-prix-orionis.html",
+        "R1C5-prix-umbriel.html",
+        "R1C6-prix-andromeda.html",
+        "R1C7-prix-undina.html"
+      ],
+      "R3-le-mont-saint-michel": [
+        "R3C1-prix-bohemia.html",
+        "R3C2-prix-le-parisien-prix-hera.html",
+        "R3C3-prix-gordonia.html",
+        "R3C4-prix-orionis.html",
+        "R3C5-prix-umbriel.html",
+        "R3C6-prix-andromeda.html",
+        "R3C7-prix-undina.html"
+      ],
+      "R4-maisons-laffitte": [
+        "R4C1-prix-bohemia.html",
+        "R4C2-prix-le-parisien-prix-hera.html",
+        "R4C3-prix-gordonia.html",
+        "R4C4-prix-orionis.html",
+        "R4C5-prix-umbriel.html",
+        "R4C6-prix-andromeda.html",
+        "R4C7-prix-undina.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-bohemia.html",
+        "R5C2-prix-le-parisien-prix-hera.html",
+        "R5C3-prix-gordonia.html",
+        "R5C4-prix-orionis.html",
+        "R5C5-prix-umbriel.html",
+        "R5C6-prix-andromeda.html",
+        "R5C7-prix-undina.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-bohemia.html",
+        "R8C2-prix-le-parisien-prix-hera.html",
+        "R8C3-prix-gordonia.html",
+        "R8C4-prix-orionis.html",
+        "R8C5-prix-umbriel.html",
+        "R8C6-prix-andromeda.html",
+        "R8C7-prix-undina.html"
+      ],
+      "R9-toulouse": [
+        "R9C1-prix-bohemia.html",
+        "R9C2-prix-le-parisien-prix-hera.html",
+        "R9C3-prix-gordonia.html",
+        "R9C4-prix-orionis.html",
+        "R9C5-prix-umbriel.html",
+        "R9C6-prix-andromeda.html",
+        "R9C7-prix-undina.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:48:23.272263Z"
+}

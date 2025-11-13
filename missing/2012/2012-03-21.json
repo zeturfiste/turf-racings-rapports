@@ -1,0 +1,84 @@
+{
+  "date": "2012-03-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/03/2012-03-21",
+    "date_html": "resultats-et-rapports/2012/03/2012-03-21/2012-03-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/03/2012-03-21/R1-agen/R1C5-prix-de-la-ville-le-passage.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R1-agen/R1C8-prix-de-biarritz.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R2-enghien-soisy/R2C6-prix-d-agen.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R2-enghien-soisy/R2C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R3-le-croise-laroche/R3C3-prix-hippoforme-groupe-b.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R3-le-croise-laroche/R3C4-prix-fonroche-energies-candelabres-solaires.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R3-le-croise-laroche/R3C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R3-le-croise-laroche/R3C8-prix-de-biarritz.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C1-grand-prix-duran-dynavena.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C2-prix-hippoforme-groupe-a.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C3-prix-hippoforme-groupe-b.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C4-prix-fonroche-energies-candelabres-solaires.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C5-prix-de-la-ville-le-passage.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C6-prix-d-agen.html",
+      "resultats-et-rapports/2012/03/2012-03-21/R5-marseille-borely/R5C7-prix-de-la-communaute-d-agglomeration-d-agen.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-agen",
+      "R2-enghien-soisy",
+      "R3-le-croise-laroche",
+      "R5-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-agen": [
+        "R1C1-grand-prix-duran-dynavena.html",
+        "R1C2-prix-hippoforme-groupe-a.html",
+        "R1C3-prix-hippoforme-groupe-b.html",
+        "R1C4-prix-fonroche-energies-candelabres-solaires.html",
+        "R1C5-prix-de-la-ville-le-passage.html",
+        "R1C6-prix-d-agen.html",
+        "R1C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+        "R1C8-prix-de-biarritz.html",
+        "R1C9-prix-fonroche-biogaz.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-grand-prix-duran-dynavena.html",
+        "R2C2-prix-hippoforme-groupe-a.html",
+        "R2C3-prix-hippoforme-groupe-b.html",
+        "R2C4-prix-fonroche-energies-candelabres-solaires.html",
+        "R2C5-prix-de-la-ville-le-passage.html",
+        "R2C6-prix-d-agen.html",
+        "R2C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+        "R2C8-prix-de-biarritz.html",
+        "R2C9-prix-fonroche-biogaz.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-grand-prix-duran-dynavena.html",
+        "R3C2-prix-hippoforme-groupe-a.html",
+        "R3C3-prix-hippoforme-groupe-b.html",
+        "R3C4-prix-fonroche-energies-candelabres-solaires.html",
+        "R3C5-prix-de-la-ville-le-passage.html",
+        "R3C6-prix-d-agen.html",
+        "R3C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+        "R3C8-prix-de-biarritz.html",
+        "R3C9-prix-fonroche-biogaz.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-grand-prix-duran-dynavena.html",
+        "R5C2-prix-hippoforme-groupe-a.html",
+        "R5C3-prix-hippoforme-groupe-b.html",
+        "R5C4-prix-fonroche-energies-candelabres-solaires.html",
+        "R5C5-prix-de-la-ville-le-passage.html",
+        "R5C6-prix-d-agen.html",
+        "R5C7-prix-de-la-communaute-d-agglomeration-d-agen.html",
+        "R5C8-prix-de-biarritz.html",
+        "R5C9-prix-fonroche-biogaz.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:58.768166Z"
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2019-11-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/11/2019-11-28",
+    "date_html": "resultats-et-rapports/2019/11/2019-11-28/2019-11-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/11/2019-11-28/R1-deauville/R1C2-prix-des-cognassiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R1-deauville/R1C5-prix-lyphard.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R1-deauville/R1C6-prix-de-l-hotellerie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R1-deauville/R1C7-prix-des-pommiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R1-deauville/R1C10-prix-des-pruniers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C1-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C4-prix-des-pechers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C5-prix-lyphard.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C7-prix-des-pommiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C8-prix-des-poiriers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R2-vincennes/R2C9-prix-du-val-henry.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C1-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C2-prix-des-cognassiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C3-prix-de-la-pommeraie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C4-prix-des-pechers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C5-prix-lyphard.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C6-prix-de-l-hotellerie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C7-prix-des-pommiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C8-prix-des-poiriers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C9-prix-du-val-henry.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R3-lyon-la-soie/R3C10-prix-des-pruniers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C1-prix-de-la-cerisaie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C2-prix-des-cognassiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C3-prix-de-la-pommeraie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C4-prix-des-pechers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C5-prix-lyphard.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C6-prix-de-l-hotellerie.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C7-prix-des-pommiers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C8-prix-des-poiriers.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C9-prix-du-val-henry.html",
+      "resultats-et-rapports/2019/11/2019-11-28/R4-cabourg/R4C10-prix-des-pruniers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-vincennes",
+      "R3-lyon-la-soie",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-cerisaie.html",
+        "R1C2-prix-des-cognassiers.html",
+        "R1C3-prix-de-la-pommeraie.html",
+        "R1C4-prix-des-pechers.html",
+        "R1C5-prix-lyphard.html",
+        "R1C6-prix-de-l-hotellerie.html",
+        "R1C7-prix-des-pommiers.html",
+        "R1C8-prix-des-poiriers.html",
+        "R1C9-prix-du-val-henry.html",
+        "R1C10-prix-des-pruniers.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-la-cerisaie.html",
+        "R2C2-prix-des-cognassiers.html",
+        "R2C3-prix-de-la-pommeraie.html",
+        "R2C4-prix-des-pechers.html",
+        "R2C5-prix-lyphard.html",
+        "R2C6-prix-de-l-hotellerie.html",
+        "R2C7-prix-des-pommiers.html",
+        "R2C8-prix-des-poiriers.html",
+        "R2C9-prix-du-val-henry.html",
+        "R2C10-prix-des-pruniers.html"
+      ],
+      "R3-lyon-la-soie": [
+        "R3C1-prix-de-la-cerisaie.html",
+        "R3C2-prix-des-cognassiers.html",
+        "R3C3-prix-de-la-pommeraie.html",
+        "R3C4-prix-des-pechers.html",
+        "R3C5-prix-lyphard.html",
+        "R3C6-prix-de-l-hotellerie.html",
+        "R3C7-prix-des-pommiers.html",
+        "R3C8-prix-des-poiriers.html",
+        "R3C9-prix-du-val-henry.html",
+        "R3C10-prix-des-pruniers.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-la-cerisaie.html",
+        "R4C2-prix-des-cognassiers.html",
+        "R4C3-prix-de-la-pommeraie.html",
+        "R4C4-prix-des-pechers.html",
+        "R4C5-prix-lyphard.html",
+        "R4C6-prix-de-l-hotellerie.html",
+        "R4C7-prix-des-pommiers.html",
+        "R4C8-prix-des-poiriers.html",
+        "R4C9-prix-du-val-henry.html",
+        "R4C10-prix-des-pruniers.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:28.981032Z"
+}

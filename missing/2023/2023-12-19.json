@@ -1,0 +1,75 @@
+{
+  "date": "2023-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/12/2023-12-19",
+    "date_html": "resultats-et-rapports/2023/12/2023-12-19/2023-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/12/2023-12-19/R1-pau/R1C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R1-pau/R1C4-prix-georges-pastre.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R2-bordeaux-le-bouscat/R2C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R2-bordeaux-le-bouscat/R2C6-prix-abel-ramon-diago.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R2-bordeaux-le-bouscat/R2C8-prix-de-la-commande.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R3-vincennes/R3C6-prix-abel-ramon-diago.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R4-marseille-vivaux/R4C3-prix-de-bilheres.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R4-marseille-vivaux/R4C4-prix-georges-pastre.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R4-marseille-vivaux/R4C5-prix-jean-d-ariste.html",
+      "resultats-et-rapports/2023/12/2023-12-19/R4-marseille-vivaux/R4C6-prix-abel-ramon-diago.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-montpezat.html",
+        "R1C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+        "R1C3-prix-de-bilheres.html",
+        "R1C4-prix-georges-pastre.html",
+        "R1C5-prix-jean-d-ariste.html",
+        "R1C6-prix-abel-ramon-diago.html",
+        "R1C7-prix-jean-lamaysouette.html",
+        "R1C8-prix-de-la-commande.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-de-montpezat.html",
+        "R2C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+        "R2C3-prix-de-bilheres.html",
+        "R2C4-prix-georges-pastre.html",
+        "R2C5-prix-jean-d-ariste.html",
+        "R2C6-prix-abel-ramon-diago.html",
+        "R2C7-prix-jean-lamaysouette.html",
+        "R2C8-prix-de-la-commande.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-montpezat.html",
+        "R3C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+        "R3C3-prix-de-bilheres.html",
+        "R3C4-prix-georges-pastre.html",
+        "R3C5-prix-jean-d-ariste.html",
+        "R3C6-prix-abel-ramon-diago.html",
+        "R3C7-prix-jean-lamaysouette.html",
+        "R3C8-prix-de-la-commande.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-montpezat.html",
+        "R4C2-prix-40-ans-by-polin-prix-henry-ridgway.html",
+        "R4C3-prix-de-bilheres.html",
+        "R4C4-prix-georges-pastre.html",
+        "R4C5-prix-jean-d-ariste.html",
+        "R4C6-prix-abel-ramon-diago.html",
+        "R4C7-prix-jean-lamaysouette.html",
+        "R4C8-prix-de-la-commande.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:13.373285Z"
+}

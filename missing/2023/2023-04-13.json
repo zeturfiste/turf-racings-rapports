@@ -1,0 +1,56 @@
+{
+  "date": "2023-04-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-13",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-13/2023-04-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-13/R1-auteuil/R1C7-prix-necor.html",
+      "resultats-et-rapports/2023/04/2023-04-13/R4-le-mans/R4C6-prix-de-saumur.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-marseille-borely",
+      "R4-le-mans"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-the-coyote.html",
+        "R1C3-prix-aubepine.html",
+        "R1C4-prix-du-barry.html",
+        "R1C5-prix-rose-laurel.html",
+        "R1C6-prix-de-saumur.html",
+        "R1C7-prix-necor.html",
+        "R1C8-prix-alec-carter.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-rose-or-no.html",
+        "R3C2-prix-the-coyote.html",
+        "R3C3-prix-aubepine.html",
+        "R3C4-prix-du-barry.html",
+        "R3C5-prix-rose-laurel.html",
+        "R3C6-prix-de-saumur.html",
+        "R3C7-prix-necor.html",
+        "R3C8-prix-alec-carter.html"
+      ],
+      "R4-le-mans": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-the-coyote.html",
+        "R4C3-prix-aubepine.html",
+        "R4C4-prix-du-barry.html",
+        "R4C5-prix-rose-laurel.html",
+        "R4C6-prix-de-saumur.html",
+        "R4C7-prix-necor.html",
+        "R4C8-prix-alec-carter.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:38.637264Z"
+}

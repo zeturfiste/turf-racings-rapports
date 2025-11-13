@@ -1,0 +1,122 @@
+{
+  "date": "2006-08-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-21",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-21/2006-08-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-21/R1-vincennes/R1C1-prix-de-jussey.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R3-castera-verduzan/R3C2-prix-d-argeles.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R4-dieppe/R4C4-prix-pierre-plazen.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R5-divonne-les-bains/R5C4-prix-pierre-plazen.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R5-divonne-les-bains/R5C5-prix-du-perigord.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R5-divonne-les-bains/R5C6-prix-kozyr.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R5-divonne-les-bains/R5C8-prix-d-epernay.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R6-rochefort-sur-loire/R6C1-prix-de-jussey.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R6-rochefort-sur-loire/R6C2-prix-d-argeles.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R7-cagnes-sur-mer/R7C1-prix-de-jussey.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R7-cagnes-sur-mer/R7C3-prix-de-beaune.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R20-sendai-japon/R20C7-prix-guy-deloison.html",
+      "resultats-et-rapports/2006/08/2006-08-21/R20-sendai-japon/R20C8-prix-d-epernay.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chateaubriant",
+      "R3-castera-verduzan",
+      "R4-dieppe",
+      "R5-divonne-les-bains",
+      "R6-rochefort-sur-loire",
+      "R7-cagnes-sur-mer",
+      "R20-sendai-japon"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-jussey.html",
+        "R1C2-prix-d-argeles.html",
+        "R1C3-prix-de-beaune.html",
+        "R1C4-prix-pierre-plazen.html",
+        "R1C5-prix-du-perigord.html",
+        "R1C6-prix-kozyr.html",
+        "R1C7-prix-guy-deloison.html",
+        "R1C8-prix-d-epernay.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-de-jussey.html",
+        "R2C2-prix-d-argeles.html",
+        "R2C3-prix-de-beaune.html",
+        "R2C4-prix-pierre-plazen.html",
+        "R2C5-prix-du-perigord.html",
+        "R2C6-prix-kozyr.html",
+        "R2C7-prix-guy-deloison.html",
+        "R2C8-prix-d-epernay.html"
+      ],
+      "R3-castera-verduzan": [
+        "R3C1-prix-de-jussey.html",
+        "R3C2-prix-d-argeles.html",
+        "R3C3-prix-de-beaune.html",
+        "R3C4-prix-pierre-plazen.html",
+        "R3C5-prix-du-perigord.html",
+        "R3C6-prix-kozyr.html",
+        "R3C7-prix-guy-deloison.html",
+        "R3C8-prix-d-epernay.html"
+      ],
+      "R4-dieppe": [
+        "R4C1-prix-de-jussey.html",
+        "R4C2-prix-d-argeles.html",
+        "R4C3-prix-de-beaune.html",
+        "R4C4-prix-pierre-plazen.html",
+        "R4C5-prix-du-perigord.html",
+        "R4C6-prix-kozyr.html",
+        "R4C7-prix-guy-deloison.html",
+        "R4C8-prix-d-epernay.html"
+      ],
+      "R5-divonne-les-bains": [
+        "R5C1-prix-de-jussey.html",
+        "R5C2-prix-d-argeles.html",
+        "R5C3-prix-de-beaune.html",
+        "R5C4-prix-pierre-plazen.html",
+        "R5C5-prix-du-perigord.html",
+        "R5C6-prix-kozyr.html",
+        "R5C7-prix-guy-deloison.html",
+        "R5C8-prix-d-epernay.html"
+      ],
+      "R6-rochefort-sur-loire": [
+        "R6C1-prix-de-jussey.html",
+        "R6C2-prix-d-argeles.html",
+        "R6C3-prix-de-beaune.html",
+        "R6C4-prix-pierre-plazen.html",
+        "R6C5-prix-du-perigord.html",
+        "R6C6-prix-kozyr.html",
+        "R6C7-prix-guy-deloison.html",
+        "R6C8-prix-d-epernay.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-de-jussey.html",
+        "R7C2-prix-d-argeles.html",
+        "R7C3-prix-de-beaune.html",
+        "R7C4-prix-pierre-plazen.html",
+        "R7C5-prix-du-perigord.html",
+        "R7C6-prix-kozyr.html",
+        "R7C7-prix-guy-deloison.html",
+        "R7C8-prix-d-epernay.html"
+      ],
+      "R20-sendai-japon": [
+        "R20C1-prix-de-jussey.html",
+        "R20C2-prix-d-argeles.html",
+        "R20C3-prix-de-beaune.html",
+        "R20C4-prix-pierre-plazen.html",
+        "R20C5-prix-du-perigord.html",
+        "R20C6-prix-kozyr.html",
+        "R20C7-prix-guy-deloison.html",
+        "R20C8-prix-d-epernay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:58.158448Z"
+}

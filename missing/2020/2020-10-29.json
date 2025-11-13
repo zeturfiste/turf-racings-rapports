@@ -1,0 +1,72 @@
+{
+  "date": "2020-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/10/2020-10-29",
+    "date_html": "resultats-et-rapports/2020/10/2020-10-29/2020-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/10/2020-10-29/R1-paris-longchamp/R1C3-prix-de-longchamp.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R3-bordeaux-le-bouscat/R3C2-prix-des-capucines.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R3-bordeaux-le-bouscat/R3C4-prix-de-la-masseliere.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R4-le-croise-laroche/R4C3-prix-de-longchamp.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R5-marseille-vivaux/R5C1-prix-du-rouvray.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R5-marseille-vivaux/R5C3-prix-de-longchamp.html",
+      "resultats-et-rapports/2020/10/2020-10-29/R5-marseille-vivaux/R5C7-prix-de-villeneuve-l-etang.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-bordeaux-le-bouscat",
+      "R4-le-croise-laroche",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-rouvray.html",
+        "R1C2-prix-des-capucines.html",
+        "R1C3-prix-de-longchamp.html",
+        "R1C4-prix-de-la-masseliere.html",
+        "R1C5-prix-du-quai-aux-fleurs.html",
+        "R1C6-prix-de-neuilly.html",
+        "R1C7-prix-de-villeneuve-l-etang.html",
+        "R1C8-prix-de-mogador.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-du-rouvray.html",
+        "R3C2-prix-des-capucines.html",
+        "R3C3-prix-de-longchamp.html",
+        "R3C4-prix-de-la-masseliere.html",
+        "R3C5-prix-du-quai-aux-fleurs.html",
+        "R3C6-prix-de-neuilly.html",
+        "R3C7-prix-de-villeneuve-l-etang.html",
+        "R3C8-prix-de-mogador.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-du-rouvray.html",
+        "R4C2-prix-des-capucines.html",
+        "R4C3-prix-de-longchamp.html",
+        "R4C4-prix-de-la-masseliere.html",
+        "R4C5-prix-du-quai-aux-fleurs.html",
+        "R4C6-prix-de-neuilly.html",
+        "R4C7-prix-de-villeneuve-l-etang.html",
+        "R4C8-prix-de-mogador.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-du-rouvray.html",
+        "R5C2-prix-des-capucines.html",
+        "R5C3-prix-de-longchamp.html",
+        "R5C4-prix-de-la-masseliere.html",
+        "R5C5-prix-du-quai-aux-fleurs.html",
+        "R5C6-prix-de-neuilly.html",
+        "R5C7-prix-de-villeneuve-l-etang.html",
+        "R5C8-prix-de-mogador.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:10.266082Z"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2024-03-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-29",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-29/2024-03-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-29/R1-vincennes/R1C2-prix-aemilia.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R1-vincennes/R1C3-prix-adrastea.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R1-vincennes/R1C4-prix-penthesilea.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R4-compiegne/R4C5-prix-eos.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R5-marseille-vivaux/R5C1-prix-fama.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R5-marseille-vivaux/R5C3-prix-adrastea.html",
+      "resultats-et-rapports/2024/03/2024-03-29/R5-marseille-vivaux/R5C8-prix-de-salagnac.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-fontainebleau",
+      "R4-compiegne",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-fama.html",
+        "R1C2-prix-aemilia.html",
+        "R1C3-prix-adrastea.html",
+        "R1C4-prix-penthesilea.html",
+        "R1C5-prix-eos.html",
+        "R1C6-prix-lucia.html",
+        "R1C7-prix-amalthea.html",
+        "R1C8-prix-de-salagnac.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-fama.html",
+        "R3C2-prix-aemilia.html",
+        "R3C3-prix-adrastea.html",
+        "R3C4-prix-penthesilea.html",
+        "R3C5-prix-eos.html",
+        "R3C6-prix-lucia.html",
+        "R3C7-prix-amalthea.html",
+        "R3C8-prix-de-salagnac.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-fama.html",
+        "R4C2-prix-aemilia.html",
+        "R4C3-prix-adrastea.html",
+        "R4C4-prix-penthesilea.html",
+        "R4C5-prix-eos.html",
+        "R4C6-prix-lucia.html",
+        "R4C7-prix-amalthea.html",
+        "R4C8-prix-de-salagnac.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-fama.html",
+        "R5C2-prix-aemilia.html",
+        "R5C3-prix-adrastea.html",
+        "R5C4-prix-penthesilea.html",
+        "R5C5-prix-eos.html",
+        "R5C6-prix-lucia.html",
+        "R5C7-prix-amalthea.html",
+        "R5C8-prix-de-salagnac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:47.577102Z"
+}

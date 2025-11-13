@@ -1,0 +1,81 @@
+{
+  "date": "2022-09-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/09/2022-09-16",
+    "date_html": "resultats-et-rapports/2022/09/2022-09-16/2022-09-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/09/2022-09-16/R4-saint-cloud/R4C7-prix-galathea.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R5-pornichet-la-baule/R5C1-prix-lucretia.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R5-pornichet-la-baule/R5C4-prix-alkmene.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R5-pornichet-la-baule/R5C5-prix-de-basly.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C1-prix-lucretia.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C2-prix-baucis.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C3-prix-ophelia.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C4-prix-alkmene.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C5-prix-de-basly.html",
+      "resultats-et-rapports/2022/09/2022-09-16/R6-moulins/R6C7-prix-galathea.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nantes",
+      "R4-saint-cloud",
+      "R5-pornichet-la-baule",
+      "R6-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lucretia.html",
+        "R1C2-prix-baucis.html",
+        "R1C3-prix-ophelia.html",
+        "R1C4-prix-alkmene.html",
+        "R1C5-prix-de-basly.html",
+        "R1C6-prix-cursa.html",
+        "R1C7-prix-galathea.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-lucretia.html",
+        "R3C2-prix-baucis.html",
+        "R3C3-prix-ophelia.html",
+        "R3C4-prix-alkmene.html",
+        "R3C5-prix-de-basly.html",
+        "R3C6-prix-cursa.html",
+        "R3C7-prix-galathea.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-lucretia.html",
+        "R4C2-prix-baucis.html",
+        "R4C3-prix-ophelia.html",
+        "R4C4-prix-alkmene.html",
+        "R4C5-prix-de-basly.html",
+        "R4C6-prix-cursa.html",
+        "R4C7-prix-galathea.html"
+      ],
+      "R5-pornichet-la-baule": [
+        "R5C1-prix-lucretia.html",
+        "R5C2-prix-baucis.html",
+        "R5C3-prix-ophelia.html",
+        "R5C4-prix-alkmene.html",
+        "R5C5-prix-de-basly.html",
+        "R5C6-prix-cursa.html",
+        "R5C7-prix-galathea.html"
+      ],
+      "R6-moulins": [
+        "R6C1-prix-lucretia.html",
+        "R6C2-prix-baucis.html",
+        "R6C3-prix-ophelia.html",
+        "R6C4-prix-alkmene.html",
+        "R6C5-prix-de-basly.html",
+        "R6C6-prix-cursa.html",
+        "R6C7-prix-galathea.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:25.381710Z"
+}

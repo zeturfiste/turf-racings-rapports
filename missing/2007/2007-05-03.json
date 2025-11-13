@@ -1,0 +1,63 @@
+{
+  "date": "2007-05-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/05/2007-05-03",
+    "date_html": "resultats-et-rapports/2007/05/2007-05-03/2007-05-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/05/2007-05-03/R2-le-mans/R2C3-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R2-le-mans/R2C5-prix-de-rocquencourt.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R2-le-mans/R2C6-prix-de-villeneuve-l-etang.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C2-prix-du-pont-au-change.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C3-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C4-prix-de-la-megisserie.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C5-prix-de-rocquencourt.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C7-prix-du-viaduc.html",
+      "resultats-et-rapports/2007/05/2007-05-03/R31-zerace/R31C8-prix-d-evreux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-le-mans",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-la-place-vendome.html",
+        "R1C2-prix-du-pont-au-change.html",
+        "R1C3-prix-du-champ-de-mars.html",
+        "R1C4-prix-de-la-megisserie.html",
+        "R1C5-prix-de-rocquencourt.html",
+        "R1C6-prix-de-villeneuve-l-etang.html",
+        "R1C7-prix-du-viaduc.html",
+        "R1C8-prix-d-evreux.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-de-la-place-vendome.html",
+        "R2C2-prix-du-pont-au-change.html",
+        "R2C3-prix-du-champ-de-mars.html",
+        "R2C4-prix-de-la-megisserie.html",
+        "R2C5-prix-de-rocquencourt.html",
+        "R2C6-prix-de-villeneuve-l-etang.html",
+        "R2C7-prix-du-viaduc.html",
+        "R2C8-prix-d-evreux.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-la-place-vendome.html",
+        "R31C2-prix-du-pont-au-change.html",
+        "R31C3-prix-du-champ-de-mars.html",
+        "R31C4-prix-de-la-megisserie.html",
+        "R31C5-prix-de-rocquencourt.html",
+        "R31C6-prix-de-villeneuve-l-etang.html",
+        "R31C7-prix-du-viaduc.html",
+        "R31C8-prix-d-evreux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:13.751553Z"
+}

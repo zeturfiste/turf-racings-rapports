@@ -1,0 +1,82 @@
+{
+  "date": "2019-06-07",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-07",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-07/2019-06-07.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-07/R1-vincennes/R1C1-prix-adalberta.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R1-vincennes/R1C3-prix-allez-les-bleues-prix-titania.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R1-vincennes/R1C4-prix-cygnus.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R1-vincennes/R1C5-prix-de-gien.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R1-vincennes/R1C6-prix-istria.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R2-caen/R2C1-prix-adalberta.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R2-caen/R2C2-prix-caecilia.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R2-caen/R2C3-prix-allez-les-bleues-prix-titania.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R2-caen/R2C6-prix-istria.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R2-caen/R2C7-prix-kaitain.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R4-compiegne/R4C2-prix-caecilia.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R4-compiegne/R4C3-prix-allez-les-bleues-prix-titania.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R4-compiegne/R4C6-prix-istria.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R4-compiegne/R4C7-prix-kaitain.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C1-prix-adalberta.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C2-prix-caecilia.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C3-prix-allez-les-bleues-prix-titania.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C4-prix-cygnus.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C5-prix-de-gien.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C6-prix-istria.html",
+      "resultats-et-rapports/2019/06/2019-06-07/R5-nantes/R5C7-prix-kaitain.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-caen",
+      "R4-compiegne",
+      "R5-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-adalberta.html",
+        "R1C2-prix-caecilia.html",
+        "R1C3-prix-allez-les-bleues-prix-titania.html",
+        "R1C4-prix-cygnus.html",
+        "R1C5-prix-de-gien.html",
+        "R1C6-prix-istria.html",
+        "R1C7-prix-kaitain.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-adalberta.html",
+        "R2C2-prix-caecilia.html",
+        "R2C3-prix-allez-les-bleues-prix-titania.html",
+        "R2C4-prix-cygnus.html",
+        "R2C5-prix-de-gien.html",
+        "R2C6-prix-istria.html",
+        "R2C7-prix-kaitain.html"
+      ],
+      "R4-compiegne": [
+        "R4C1-prix-adalberta.html",
+        "R4C2-prix-caecilia.html",
+        "R4C3-prix-allez-les-bleues-prix-titania.html",
+        "R4C4-prix-cygnus.html",
+        "R4C5-prix-de-gien.html",
+        "R4C6-prix-istria.html",
+        "R4C7-prix-kaitain.html"
+      ],
+      "R5-nantes": [
+        "R5C1-prix-adalberta.html",
+        "R5C2-prix-caecilia.html",
+        "R5C3-prix-allez-les-bleues-prix-titania.html",
+        "R5C4-prix-cygnus.html",
+        "R5C5-prix-de-gien.html",
+        "R5C6-prix-istria.html",
+        "R5C7-prix-kaitain.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:28.740945Z"
+}

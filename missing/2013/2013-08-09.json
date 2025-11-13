@@ -1,0 +1,109 @@
+{
+  "date": "2013-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-09",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-09/2013-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-09/R2-feurs/R2C4-prix-d-herouville.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R2-feurs/R2C6-prix-de-coudray.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R2-feurs/R2C7-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R2-feurs/R2C8-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R3-cabourg/R3C1-prix-des-marettes.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R3-cabourg/R3C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R3-cabourg/R3C4-prix-d-herouville.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R4-cagnes-sur-mer/R4C5-prix-de-cerisy.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R4-cagnes-sur-mer/R4C6-prix-de-coudray.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R6-amiens/R6C3-prix-de-bavent.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R6-amiens/R6C5-prix-de-cerisy.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R6-amiens/R6C6-prix-de-coudray.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R6-amiens/R6C7-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R6-amiens/R6C8-prix-du-bois-barbot.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C1-prix-des-marettes.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C2-prix-de-crevecoeur.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C3-prix-de-bavent.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C4-prix-d-herouville.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C5-prix-de-cerisy.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C6-prix-de-coudray.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C7-prix-du-bois-hellain.html",
+      "resultats-et-rapports/2013/08/2013-08-09/R7-pornichet-la-baule/R7C8-prix-du-bois-barbot.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-feurs",
+      "R3-cabourg",
+      "R4-cagnes-sur-mer",
+      "R6-amiens",
+      "R7-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-marettes.html",
+        "R1C2-prix-de-crevecoeur.html",
+        "R1C3-prix-de-bavent.html",
+        "R1C4-prix-d-herouville.html",
+        "R1C5-prix-de-cerisy.html",
+        "R1C6-prix-de-coudray.html",
+        "R1C7-prix-du-bois-hellain.html",
+        "R1C8-prix-du-bois-barbot.html"
+      ],
+      "R2-feurs": [
+        "R2C1-prix-des-marettes.html",
+        "R2C2-prix-de-crevecoeur.html",
+        "R2C3-prix-de-bavent.html",
+        "R2C4-prix-d-herouville.html",
+        "R2C5-prix-de-cerisy.html",
+        "R2C6-prix-de-coudray.html",
+        "R2C7-prix-du-bois-hellain.html",
+        "R2C8-prix-du-bois-barbot.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-des-marettes.html",
+        "R3C2-prix-de-crevecoeur.html",
+        "R3C3-prix-de-bavent.html",
+        "R3C4-prix-d-herouville.html",
+        "R3C5-prix-de-cerisy.html",
+        "R3C6-prix-de-coudray.html",
+        "R3C7-prix-du-bois-hellain.html",
+        "R3C8-prix-du-bois-barbot.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-des-marettes.html",
+        "R4C2-prix-de-crevecoeur.html",
+        "R4C3-prix-de-bavent.html",
+        "R4C4-prix-d-herouville.html",
+        "R4C5-prix-de-cerisy.html",
+        "R4C6-prix-de-coudray.html",
+        "R4C7-prix-du-bois-hellain.html",
+        "R4C8-prix-du-bois-barbot.html"
+      ],
+      "R6-amiens": [
+        "R6C1-prix-des-marettes.html",
+        "R6C2-prix-de-crevecoeur.html",
+        "R6C3-prix-de-bavent.html",
+        "R6C4-prix-d-herouville.html",
+        "R6C5-prix-de-cerisy.html",
+        "R6C6-prix-de-coudray.html",
+        "R6C7-prix-du-bois-hellain.html",
+        "R6C8-prix-du-bois-barbot.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-des-marettes.html",
+        "R7C2-prix-de-crevecoeur.html",
+        "R7C3-prix-de-bavent.html",
+        "R7C4-prix-d-herouville.html",
+        "R7C5-prix-de-cerisy.html",
+        "R7C6-prix-de-coudray.html",
+        "R7C7-prix-du-bois-hellain.html",
+        "R7C8-prix-du-bois-barbot.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:29.205494Z"
+}

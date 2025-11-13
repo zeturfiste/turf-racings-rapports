@@ -1,0 +1,78 @@
+{
+  "date": "2022-04-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/04/2022-04-08",
+    "date_html": "resultats-et-rapports/2022/04/2022-04-08/2022-04-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/04/2022-04-08/R1-vincennes/R1C4-prix-cephens.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R3-nancy/R3C3-prix-isolda.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R3-nancy/R3C5-prix-aquila.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R3-nancy/R3C6-prix-libra.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R3-nancy/R3C7-prix-deimos.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C2-prix-gratia.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C3-prix-isolda.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C4-prix-cephens.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C5-prix-aquila.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C6-prix-libra.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R4-saint-cloud/R4C7-prix-deimos.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C1-prix-appolonia.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C2-prix-gratia.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C3-prix-isolda.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C4-prix-cephens.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C5-prix-aquila.html",
+      "resultats-et-rapports/2022/04/2022-04-08/R5-salon-de-provence/R5C6-prix-libra.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-nancy",
+      "R4-saint-cloud",
+      "R5-salon-de-provence"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-appolonia.html",
+        "R1C2-prix-gratia.html",
+        "R1C3-prix-isolda.html",
+        "R1C4-prix-cephens.html",
+        "R1C5-prix-aquila.html",
+        "R1C6-prix-libra.html",
+        "R1C7-prix-deimos.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-appolonia.html",
+        "R3C2-prix-gratia.html",
+        "R3C3-prix-isolda.html",
+        "R3C4-prix-cephens.html",
+        "R3C5-prix-aquila.html",
+        "R3C6-prix-libra.html",
+        "R3C7-prix-deimos.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-prix-appolonia.html",
+        "R4C2-prix-gratia.html",
+        "R4C3-prix-isolda.html",
+        "R4C4-prix-cephens.html",
+        "R4C5-prix-aquila.html",
+        "R4C6-prix-libra.html",
+        "R4C7-prix-deimos.html"
+      ],
+      "R5-salon-de-provence": [
+        "R5C1-prix-appolonia.html",
+        "R5C2-prix-gratia.html",
+        "R5C3-prix-isolda.html",
+        "R5C4-prix-cephens.html",
+        "R5C5-prix-aquila.html",
+        "R5C6-prix-libra.html",
+        "R5C7-prix-deimos.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:22.965872Z"
+}

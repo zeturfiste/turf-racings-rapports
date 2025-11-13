@@ -1,0 +1,59 @@
+{
+  "date": "2016-03-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/03/2016-03-17",
+    "date_html": "resultats-et-rapports/2016/03/2016-03-17/2016-03-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/03/2016-03-17/R1-chantilly/R1C2-prix-de-la-grange-des-bois.html",
+      "resultats-et-rapports/2016/03/2016-03-17/R1-chantilly/R1C3-prix-otto.html",
+      "resultats-et-rapports/2016/03/2016-03-17/R1-chantilly/R1C4-prix-du-chene-pouilleux.html",
+      "resultats-et-rapports/2016/03/2016-03-17/R1-chantilly/R1C5-prix-esso.html",
+      "resultats-et-rapports/2016/03/2016-03-17/R3-lyon-parilly/R3C8-prix-de-rose.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-lyon-parilly",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-du-haras-au-bois.html",
+        "R1C2-prix-de-la-grange-des-bois.html",
+        "R1C3-prix-otto.html",
+        "R1C4-prix-du-chene-pouilleux.html",
+        "R1C5-prix-esso.html",
+        "R1C6-prix-montenica.html",
+        "R1C7-prix-ronde-de-nuit.html",
+        "R1C8-prix-de-rose.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-haras-au-bois.html",
+        "R3C2-prix-de-la-grange-des-bois.html",
+        "R3C3-prix-otto.html",
+        "R3C4-prix-du-chene-pouilleux.html",
+        "R3C5-prix-esso.html",
+        "R3C6-prix-montenica.html",
+        "R3C7-prix-ronde-de-nuit.html",
+        "R3C8-prix-de-rose.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-du-haras-au-bois.html",
+        "R4C2-prix-de-la-grange-des-bois.html",
+        "R4C3-prix-otto.html",
+        "R4C4-prix-du-chene-pouilleux.html",
+        "R4C5-prix-esso.html",
+        "R4C6-prix-montenica.html",
+        "R4C7-prix-ronde-de-nuit.html",
+        "R4C8-prix-de-rose.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:22.569338Z"
+}

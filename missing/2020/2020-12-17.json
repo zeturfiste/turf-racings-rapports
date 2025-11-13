@@ -1,0 +1,79 @@
+{
+  "date": "2020-12-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/12/2020-12-17",
+    "date_html": "resultats-et-rapports/2020/12/2020-12-17/2020-12-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/12/2020-12-17/R1-deauville/R1C4-prix-flying-water.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R1-deauville/R1C6-prix-de-mirande-premier-peloton.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R1-deauville/R1C8-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C1-prix-the-wonder.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C2-prix-de-picauville.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C4-prix-flying-water.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C5-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C6-prix-de-mirande-premier-peloton.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C7-prix-arcangues.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C9-prix-de-mirande-deuxieme-peloton.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R3-meslay-du-maine/R3C10-prix-de-saint-vaast-la-houge.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C1-prix-the-wonder.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C2-prix-de-picauville.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C3-prix-de-sainte-marie-du-mont.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C5-prix-de-sainte-mere-eglise.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C6-prix-de-mirande-premier-peloton.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C7-prix-arcangues.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C8-prix-de-saint-sauveur-le-vicomte.html",
+      "resultats-et-rapports/2020/12/2020-12-17/R4-cagnes-sur-mer/R4C10-prix-de-saint-vaast-la-houge.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-meslay-du-maine",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-the-wonder.html",
+        "R1C2-prix-de-picauville.html",
+        "R1C3-prix-de-sainte-marie-du-mont.html",
+        "R1C4-prix-flying-water.html",
+        "R1C5-prix-de-sainte-mere-eglise.html",
+        "R1C6-prix-de-mirande-premier-peloton.html",
+        "R1C7-prix-arcangues.html",
+        "R1C8-prix-de-saint-sauveur-le-vicomte.html",
+        "R1C9-prix-de-mirande-deuxieme-peloton.html",
+        "R1C10-prix-de-saint-vaast-la-houge.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-the-wonder.html",
+        "R3C2-prix-de-picauville.html",
+        "R3C3-prix-de-sainte-marie-du-mont.html",
+        "R3C4-prix-flying-water.html",
+        "R3C5-prix-de-sainte-mere-eglise.html",
+        "R3C6-prix-de-mirande-premier-peloton.html",
+        "R3C7-prix-arcangues.html",
+        "R3C8-prix-de-saint-sauveur-le-vicomte.html",
+        "R3C9-prix-de-mirande-deuxieme-peloton.html",
+        "R3C10-prix-de-saint-vaast-la-houge.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-the-wonder.html",
+        "R4C2-prix-de-picauville.html",
+        "R4C3-prix-de-sainte-marie-du-mont.html",
+        "R4C4-prix-flying-water.html",
+        "R4C5-prix-de-sainte-mere-eglise.html",
+        "R4C6-prix-de-mirande-premier-peloton.html",
+        "R4C7-prix-arcangues.html",
+        "R4C8-prix-de-saint-sauveur-le-vicomte.html",
+        "R4C9-prix-de-mirande-deuxieme-peloton.html",
+        "R4C10-prix-de-saint-vaast-la-houge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:28.311290Z"
+}

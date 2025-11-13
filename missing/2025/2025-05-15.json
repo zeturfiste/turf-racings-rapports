@@ -1,0 +1,71 @@
+{
+  "date": "2025-05-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/05/2025-05-15",
+    "date_html": "resultats-et-rapports/2025/05/2025-05-15/2025-05-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/05/2025-05-15/R3-salon-de-provence/R3C6-prix-de-pontarme.html",
+      "resultats-et-rapports/2025/05/2025-05-15/R3-salon-de-provence/R3C7-prix-du-bel-air.html",
+      "resultats-et-rapports/2025/05/2025-05-15/R4-meslay-du-maine/R4C4-prix-du-passage-des-princes.html",
+      "resultats-et-rapports/2025/05/2025-05-15/R4-meslay-du-maine/R4C6-prix-de-pontarme.html",
+      "resultats-et-rapports/2025/05/2025-05-15/R4-meslay-du-maine/R4C7-prix-du-bel-air.html",
+      "resultats-et-rapports/2025/05/2025-05-15/R4-meslay-du-maine/R4C8-prix-des-deesses-handicap-challenge.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-strasbourg",
+      "R3-salon-de-provence",
+      "R4-meslay-du-maine"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-la-michodiere.html",
+        "R1C2-prix-des-tertres.html",
+        "R1C3-prix-de-picpus.html",
+        "R1C4-prix-du-passage-des-princes.html",
+        "R1C5-prix-du-passage-saint-anne.html",
+        "R1C6-prix-de-pontarme.html",
+        "R1C7-prix-du-bel-air.html",
+        "R1C8-prix-des-deesses-handicap-challenge.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-la-michodiere.html",
+        "R2C2-prix-des-tertres.html",
+        "R2C3-prix-de-picpus.html",
+        "R2C4-prix-du-passage-des-princes.html",
+        "R2C5-prix-du-passage-saint-anne.html",
+        "R2C6-prix-de-pontarme.html",
+        "R2C7-prix-du-bel-air.html",
+        "R2C8-prix-des-deesses-handicap-challenge.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-de-la-michodiere.html",
+        "R3C2-prix-des-tertres.html",
+        "R3C3-prix-de-picpus.html",
+        "R3C4-prix-du-passage-des-princes.html",
+        "R3C5-prix-du-passage-saint-anne.html",
+        "R3C6-prix-de-pontarme.html",
+        "R3C7-prix-du-bel-air.html",
+        "R3C8-prix-des-deesses-handicap-challenge.html"
+      ],
+      "R4-meslay-du-maine": [
+        "R4C1-prix-de-la-michodiere.html",
+        "R4C2-prix-des-tertres.html",
+        "R4C3-prix-de-picpus.html",
+        "R4C4-prix-du-passage-des-princes.html",
+        "R4C5-prix-du-passage-saint-anne.html",
+        "R4C6-prix-de-pontarme.html",
+        "R4C7-prix-du-bel-air.html",
+        "R4C8-prix-des-deesses-handicap-challenge.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:25.117901Z"
+}

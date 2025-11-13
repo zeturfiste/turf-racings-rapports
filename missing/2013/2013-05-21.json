@@ -1,0 +1,75 @@
+{
+  "date": "2013-05-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/05/2013-05-21",
+    "date_html": "resultats-et-rapports/2013/05/2013-05-21/2013-05-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/05/2013-05-21/R1-longchamp/R1C1-prix-des-epinettes.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R1-longchamp/R1C2-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R1-longchamp/R1C4-prix-de-la-lancette.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R1-longchamp/R1C5-prix-de-montretout.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R2-angers/R2C5-prix-de-montretout.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R2-angers/R2C8-prix-des-batignolles.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R3-hyeres/R3C2-prix-du-mont-cenis.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R3-hyeres/R3C3-prix-de-saint-germain.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R3-hyeres/R3C4-prix-de-la-lancette.html",
+      "resultats-et-rapports/2013/05/2013-05-21/R4-vincennes/R4C8-prix-des-batignolles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-angers",
+      "R3-hyeres",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-epinettes.html",
+        "R1C2-prix-du-mont-cenis.html",
+        "R1C3-prix-de-saint-germain.html",
+        "R1C4-prix-de-la-lancette.html",
+        "R1C5-prix-de-montretout.html",
+        "R1C6-prix-des-morillons.html",
+        "R1C7-prix-des-centaures.html",
+        "R1C8-prix-des-batignolles.html"
+      ],
+      "R2-angers": [
+        "R2C1-prix-des-epinettes.html",
+        "R2C2-prix-du-mont-cenis.html",
+        "R2C3-prix-de-saint-germain.html",
+        "R2C4-prix-de-la-lancette.html",
+        "R2C5-prix-de-montretout.html",
+        "R2C6-prix-des-morillons.html",
+        "R2C7-prix-des-centaures.html",
+        "R2C8-prix-des-batignolles.html"
+      ],
+      "R3-hyeres": [
+        "R3C1-prix-des-epinettes.html",
+        "R3C2-prix-du-mont-cenis.html",
+        "R3C3-prix-de-saint-germain.html",
+        "R3C4-prix-de-la-lancette.html",
+        "R3C5-prix-de-montretout.html",
+        "R3C6-prix-des-morillons.html",
+        "R3C7-prix-des-centaures.html",
+        "R3C8-prix-des-batignolles.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-epinettes.html",
+        "R4C2-prix-du-mont-cenis.html",
+        "R4C3-prix-de-saint-germain.html",
+        "R4C4-prix-de-la-lancette.html",
+        "R4C5-prix-de-montretout.html",
+        "R4C6-prix-des-morillons.html",
+        "R4C7-prix-des-centaures.html",
+        "R4C8-prix-des-batignolles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:03.448055Z"
+}

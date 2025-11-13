@@ -1,0 +1,60 @@
+{
+  "date": "2021-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-08",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-08/2021-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-08/R1-vincennes/R1C5-prix-de-macon.html",
+      "resultats-et-rapports/2021/02/2021-02-08/R1-vincennes/R1C6-prix-du-bouscat.html",
+      "resultats-et-rapports/2021/02/2021-02-08/R1-vincennes/R1C7-prix-des-rouges-terres.html",
+      "resultats-et-rapports/2021/02/2021-02-08/R3-chateaubriant/R3C3-prix-du-poitou.html",
+      "resultats-et-rapports/2021/02/2021-02-08/R3-chateaubriant/R3C4-prix-henri-hellard.html",
+      "resultats-et-rapports/2021/02/2021-02-08/R3-chateaubriant/R3C5-prix-de-macon.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chateaubriant",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-la-chartre-sur-le-loir.html",
+        "R1C2-prix-de-coulommiers.html",
+        "R1C3-prix-du-poitou.html",
+        "R1C4-prix-henri-hellard.html",
+        "R1C5-prix-de-macon.html",
+        "R1C6-prix-du-bouscat.html",
+        "R1C7-prix-des-rouges-terres.html",
+        "R1C8-prix-de-daumesnil.html"
+      ],
+      "R3-chateaubriant": [
+        "R3C1-prix-de-la-chartre-sur-le-loir.html",
+        "R3C2-prix-de-coulommiers.html",
+        "R3C3-prix-du-poitou.html",
+        "R3C4-prix-henri-hellard.html",
+        "R3C5-prix-de-macon.html",
+        "R3C6-prix-du-bouscat.html",
+        "R3C7-prix-des-rouges-terres.html",
+        "R3C8-prix-de-daumesnil.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-la-chartre-sur-le-loir.html",
+        "R4C2-prix-de-coulommiers.html",
+        "R4C3-prix-du-poitou.html",
+        "R4C4-prix-henri-hellard.html",
+        "R4C5-prix-de-macon.html",
+        "R4C6-prix-du-bouscat.html",
+        "R4C7-prix-des-rouges-terres.html",
+        "R4C8-prix-de-daumesnil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:44.637182Z"
+}

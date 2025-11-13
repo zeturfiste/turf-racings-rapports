@@ -1,0 +1,98 @@
+{
+  "date": "2022-05-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/05/2022-05-20",
+    "date_html": "resultats-et-rapports/2022/05/2022-05-20/2022-05-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C1-prix-ara.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C2-prix-jacques-de-saint-sauveur.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C3-prix-fides.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C5-prix-dejanira.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R1-vincennes/R1C6-prix-klytaemnestre.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R3-beaumont-de-lomagne/R3C3-prix-fides.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R3-beaumont-de-lomagne/R3C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R3-beaumont-de-lomagne/R3C5-prix-dejanira.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R3-beaumont-de-lomagne/R3C6-prix-klytaemnestre.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R3-beaumont-de-lomagne/R3C7-prix-pollux.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R4-vichy/R4C2-prix-jacques-de-saint-sauveur.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R4-vichy/R4C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R4-vichy/R4C5-prix-dejanira.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R4-vichy/R4C6-prix-klytaemnestre.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R4-vichy/R4C7-prix-pollux.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R5-marseille-borely/R5C1-prix-ara.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R5-marseille-borely/R5C2-prix-jacques-de-saint-sauveur.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R5-marseille-borely/R5C3-prix-fides.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R5-marseille-borely/R5C7-prix-pollux.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C1-prix-ara.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C2-prix-jacques-de-saint-sauveur.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C3-prix-fides.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C4-prix-guillaume-de-bellaigue.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C5-prix-dejanira.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C6-prix-klytaemnestre.html",
+      "resultats-et-rapports/2022/05/2022-05-20/R6-toulouse/R6C7-prix-pollux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-beaumont-de-lomagne",
+      "R4-vichy",
+      "R5-marseille-borely",
+      "R6-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-ara.html",
+        "R1C2-prix-jacques-de-saint-sauveur.html",
+        "R1C3-prix-fides.html",
+        "R1C4-prix-guillaume-de-bellaigue.html",
+        "R1C5-prix-dejanira.html",
+        "R1C6-prix-klytaemnestre.html",
+        "R1C7-prix-pollux.html"
+      ],
+      "R3-beaumont-de-lomagne": [
+        "R3C1-prix-ara.html",
+        "R3C2-prix-jacques-de-saint-sauveur.html",
+        "R3C3-prix-fides.html",
+        "R3C4-prix-guillaume-de-bellaigue.html",
+        "R3C5-prix-dejanira.html",
+        "R3C6-prix-klytaemnestre.html",
+        "R3C7-prix-pollux.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-ara.html",
+        "R4C2-prix-jacques-de-saint-sauveur.html",
+        "R4C3-prix-fides.html",
+        "R4C4-prix-guillaume-de-bellaigue.html",
+        "R4C5-prix-dejanira.html",
+        "R4C6-prix-klytaemnestre.html",
+        "R4C7-prix-pollux.html"
+      ],
+      "R5-marseille-borely": [
+        "R5C1-prix-ara.html",
+        "R5C2-prix-jacques-de-saint-sauveur.html",
+        "R5C3-prix-fides.html",
+        "R5C4-prix-guillaume-de-bellaigue.html",
+        "R5C5-prix-dejanira.html",
+        "R5C6-prix-klytaemnestre.html",
+        "R5C7-prix-pollux.html"
+      ],
+      "R6-toulouse": [
+        "R6C1-prix-ara.html",
+        "R6C2-prix-jacques-de-saint-sauveur.html",
+        "R6C3-prix-fides.html",
+        "R6C4-prix-guillaume-de-bellaigue.html",
+        "R6C5-prix-dejanira.html",
+        "R6C6-prix-klytaemnestre.html",
+        "R6C7-prix-pollux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:39.488829Z"
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2012-05-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/05/2012-05-24",
+    "date_html": "resultats-et-rapports/2012/05/2012-05-24/2012-05-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/05/2012-05-24/R1-auteuil/R1C4-prix-galafron.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R1-auteuil/R1C5-prix-samour.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R1-auteuil/R1C6-prix-rene-pelat.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R2-vichy/R2C1-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R2-vichy/R2C2-prix-du-nivernais.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R2-vichy/R2C3-prix-jasmin-ii.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R2-vichy/R2C6-prix-rene-pelat.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R3-nancy/R3C1-prix-le-guales-de-mezaubran.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R3-nancy/R3C4-prix-galafron.html",
+      "resultats-et-rapports/2012/05/2012-05-24/R3-nancy/R3C8-prix-melinoir.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-vichy",
+      "R3-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-le-guales-de-mezaubran.html",
+        "R1C2-prix-du-nivernais.html",
+        "R1C3-prix-jasmin-ii.html",
+        "R1C4-prix-galafron.html",
+        "R1C5-prix-samour.html",
+        "R1C6-prix-rene-pelat.html",
+        "R1C7-prix-pot-d-or.html",
+        "R1C8-prix-melinoir.html",
+        "R1C9-prix-de-nort-sur-erdre.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-le-guales-de-mezaubran.html",
+        "R2C2-prix-du-nivernais.html",
+        "R2C3-prix-jasmin-ii.html",
+        "R2C4-prix-galafron.html",
+        "R2C5-prix-samour.html",
+        "R2C6-prix-rene-pelat.html",
+        "R2C7-prix-pot-d-or.html",
+        "R2C8-prix-melinoir.html",
+        "R2C9-prix-de-nort-sur-erdre.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-le-guales-de-mezaubran.html",
+        "R3C2-prix-du-nivernais.html",
+        "R3C3-prix-jasmin-ii.html",
+        "R3C4-prix-galafron.html",
+        "R3C5-prix-samour.html",
+        "R3C6-prix-rene-pelat.html",
+        "R3C7-prix-pot-d-or.html",
+        "R3C8-prix-melinoir.html",
+        "R3C9-prix-de-nort-sur-erdre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:18.336775Z"
+}

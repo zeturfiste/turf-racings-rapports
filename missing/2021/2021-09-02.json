@@ -1,0 +1,76 @@
+{
+  "date": "2021-09-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-02",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-02/2021-09-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-02/R1-paris-longchamp/R1C1-prix-d-arenberg.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R3-marseille-borely/R3C1-prix-d-arenberg.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R3-marseille-borely/R3C4-prix-de-lisbonne.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R3-marseille-borely/R3C7-prix-de-liancourt.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C1-prix-d-arenberg.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C3-prix-de-la-cascade.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C4-prix-de-lisbonne.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C5-prix-de-la-reine-marguerite.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C6-prix-de-madrid.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C7-prix-de-liancourt.html",
+      "resultats-et-rapports/2021/09/2021-09-02/R4-les-sables-d-olonne/R4C8-prix-de-lutece.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-mont-de-marsan",
+      "R3-marseille-borely",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-d-arenberg.html",
+        "R1C2-prix-de-fontenoy.html",
+        "R1C3-prix-de-la-cascade.html",
+        "R1C4-prix-de-lisbonne.html",
+        "R1C5-prix-de-la-reine-marguerite.html",
+        "R1C6-prix-de-madrid.html",
+        "R1C7-prix-de-liancourt.html",
+        "R1C8-prix-de-lutece.html"
+      ],
+      "R2-mont-de-marsan": [
+        "R2C1-prix-d-arenberg.html",
+        "R2C2-prix-de-fontenoy.html",
+        "R2C3-prix-de-la-cascade.html",
+        "R2C4-prix-de-lisbonne.html",
+        "R2C5-prix-de-la-reine-marguerite.html",
+        "R2C6-prix-de-madrid.html",
+        "R2C7-prix-de-liancourt.html",
+        "R2C8-prix-de-lutece.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-d-arenberg.html",
+        "R3C2-prix-de-fontenoy.html",
+        "R3C3-prix-de-la-cascade.html",
+        "R3C4-prix-de-lisbonne.html",
+        "R3C5-prix-de-la-reine-marguerite.html",
+        "R3C6-prix-de-madrid.html",
+        "R3C7-prix-de-liancourt.html",
+        "R3C8-prix-de-lutece.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-prix-d-arenberg.html",
+        "R4C2-prix-de-fontenoy.html",
+        "R4C3-prix-de-la-cascade.html",
+        "R4C4-prix-de-lisbonne.html",
+        "R4C5-prix-de-la-reine-marguerite.html",
+        "R4C6-prix-de-madrid.html",
+        "R4C7-prix-de-liancourt.html",
+        "R4C8-prix-de-lutece.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:05.420312Z"
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2016-12-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-03",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-03/2016-12-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C1-prix-de-bricquebec.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C2-prix-de-bethune.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C3-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C4-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C5-prix-de-mirambeau.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C6-prix-de-saint-georges-de-didonne.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C8-prix-vourasie.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R1-vincennes/R1C9-prix-de-castellane.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R3-pau/R3C1-prix-de-bricquebec.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R3-pau/R3C2-prix-de-bethune.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R3-pau/R3C3-prix-joseph-lafosse.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R3-pau/R3C4-prix-doynel-de-saint-quentin.html",
+      "resultats-et-rapports/2016/12/2016-12-03/R4-marseille-vivaux/R4C5-prix-de-mirambeau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-pau",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-bricquebec.html",
+        "R1C2-prix-de-bethune.html",
+        "R1C3-prix-joseph-lafosse.html",
+        "R1C4-prix-doynel-de-saint-quentin.html",
+        "R1C5-prix-de-mirambeau.html",
+        "R1C6-prix-de-saint-georges-de-didonne.html",
+        "R1C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R1C8-prix-vourasie.html",
+        "R1C9-prix-de-castellane.html"
+      ],
+      "R3-pau": [
+        "R3C1-prix-de-bricquebec.html",
+        "R3C2-prix-de-bethune.html",
+        "R3C3-prix-joseph-lafosse.html",
+        "R3C4-prix-doynel-de-saint-quentin.html",
+        "R3C5-prix-de-mirambeau.html",
+        "R3C6-prix-de-saint-georges-de-didonne.html",
+        "R3C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R3C8-prix-vourasie.html",
+        "R3C9-prix-de-castellane.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-de-bricquebec.html",
+        "R4C2-prix-de-bethune.html",
+        "R4C3-prix-joseph-lafosse.html",
+        "R4C4-prix-doynel-de-saint-quentin.html",
+        "R4C5-prix-de-mirambeau.html",
+        "R4C6-prix-de-saint-georges-de-didonne.html",
+        "R4C7-prix-des-rencontres-internationales-du-trotteur-francais.html",
+        "R4C8-prix-vourasie.html",
+        "R4C9-prix-de-castellane.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:48.217390Z"
+}

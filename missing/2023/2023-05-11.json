@@ -1,0 +1,67 @@
+{
+  "date": "2023-05-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/05/2023-05-11",
+    "date_html": "resultats-et-rapports/2023/05/2023-05-11/2023-05-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/05/2023-05-11/R2-la-capelle/R2C3-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2023/05/2023-05-11/R2-la-capelle/R2C6-prix-de-pontoise.html",
+      "resultats-et-rapports/2023/05/2023-05-11/R2-la-capelle/R2C7-mercedes-benz-paris-prix-de-l-hotel-de-bruxelles.html",
+      "resultats-et-rapports/2023/05/2023-05-11/R3-angers/R3C3-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2023/05/2023-05-11/R4-hyeres/R4C1-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2023/05/2023-05-11/R4-hyeres/R4C2-prix-de-l-ile-de-la-cite.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-la-capelle",
+      "R3-angers",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-cherche-midi.html",
+        "R1C2-prix-de-l-ile-de-la-cite.html",
+        "R1C3-prix-de-l-ile-saint-louis.html",
+        "R1C4-prix-de-nanterre.html",
+        "R1C5-prix-du-chateau-de-longchamp.html",
+        "R1C6-prix-de-pontoise.html",
+        "R1C7-mercedes-benz-paris-prix-de-l-hotel-de-bruxelles.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-cherche-midi.html",
+        "R2C2-prix-de-l-ile-de-la-cite.html",
+        "R2C3-prix-de-l-ile-saint-louis.html",
+        "R2C4-prix-de-nanterre.html",
+        "R2C5-prix-du-chateau-de-longchamp.html",
+        "R2C6-prix-de-pontoise.html",
+        "R2C7-mercedes-benz-paris-prix-de-l-hotel-de-bruxelles.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-du-cherche-midi.html",
+        "R3C2-prix-de-l-ile-de-la-cite.html",
+        "R3C3-prix-de-l-ile-saint-louis.html",
+        "R3C4-prix-de-nanterre.html",
+        "R3C5-prix-du-chateau-de-longchamp.html",
+        "R3C6-prix-de-pontoise.html",
+        "R3C7-mercedes-benz-paris-prix-de-l-hotel-de-bruxelles.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-du-cherche-midi.html",
+        "R4C2-prix-de-l-ile-de-la-cite.html",
+        "R4C3-prix-de-l-ile-saint-louis.html",
+        "R4C4-prix-de-nanterre.html",
+        "R4C5-prix-du-chateau-de-longchamp.html",
+        "R4C6-prix-de-pontoise.html",
+        "R4C7-mercedes-benz-paris-prix-de-l-hotel-de-bruxelles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:48.912786Z"
+}

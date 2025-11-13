@@ -1,0 +1,80 @@
+{
+  "date": "2012-08-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-16",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-16/2012-08-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-16/R1-enghien-soisy/R1C4-prix-de-vauvillers.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R1-enghien-soisy/R1C5-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R1-enghien-soisy/R1C7-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R1-enghien-soisy/R1C8-prix-de-la-porte-de-montreuil.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R2-clairefontaine/R2C1-prix-de-la-journee-des-turfistes-prix-de-geneve.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R2-clairefontaine/R2C2-prix-de-la-porte-de-versailles.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R2-clairefontaine/R2C3-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R3-le-lion-d-angers/R3C3-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R3-le-lion-d-angers/R3C4-prix-de-vauvillers.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R3-le-lion-d-angers/R3C5-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R3-le-lion-d-angers/R3C7-prix-de-jouy-en-josas.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R4-royan-la-palmyre/R4C3-prix-jean-luc-lagardere.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R4-royan-la-palmyre/R4C4-prix-de-vauvillers.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R4-royan-la-palmyre/R4C5-prix-du-pont-de-l-alma.html",
+      "resultats-et-rapports/2012/08/2012-08-16/R4-royan-la-palmyre/R4C8-prix-de-la-porte-de-montreuil.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-clairefontaine",
+      "R3-le-lion-d-angers",
+      "R4-royan-la-palmyre"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-la-journee-des-turfistes-prix-de-geneve.html",
+        "R1C2-prix-de-la-porte-de-versailles.html",
+        "R1C3-prix-jean-luc-lagardere.html",
+        "R1C4-prix-de-vauvillers.html",
+        "R1C5-prix-du-pont-de-l-alma.html",
+        "R1C6-prix-de-la-porte-chaumont.html",
+        "R1C7-prix-de-jouy-en-josas.html",
+        "R1C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-la-journee-des-turfistes-prix-de-geneve.html",
+        "R2C2-prix-de-la-porte-de-versailles.html",
+        "R2C3-prix-jean-luc-lagardere.html",
+        "R2C4-prix-de-vauvillers.html",
+        "R2C5-prix-du-pont-de-l-alma.html",
+        "R2C6-prix-de-la-porte-chaumont.html",
+        "R2C7-prix-de-jouy-en-josas.html",
+        "R2C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-de-la-journee-des-turfistes-prix-de-geneve.html",
+        "R3C2-prix-de-la-porte-de-versailles.html",
+        "R3C3-prix-jean-luc-lagardere.html",
+        "R3C4-prix-de-vauvillers.html",
+        "R3C5-prix-du-pont-de-l-alma.html",
+        "R3C6-prix-de-la-porte-chaumont.html",
+        "R3C7-prix-de-jouy-en-josas.html",
+        "R3C8-prix-de-la-porte-de-montreuil.html"
+      ],
+      "R4-royan-la-palmyre": [
+        "R4C1-prix-de-la-journee-des-turfistes-prix-de-geneve.html",
+        "R4C2-prix-de-la-porte-de-versailles.html",
+        "R4C3-prix-jean-luc-lagardere.html",
+        "R4C4-prix-de-vauvillers.html",
+        "R4C5-prix-du-pont-de-l-alma.html",
+        "R4C6-prix-de-la-porte-chaumont.html",
+        "R4C7-prix-de-jouy-en-josas.html",
+        "R4C8-prix-de-la-porte-de-montreuil.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:44.904933Z"
+}

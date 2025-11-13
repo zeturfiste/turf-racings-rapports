@@ -1,0 +1,89 @@
+{
+  "date": "2021-02-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/02/2021-02-16",
+    "date_html": "resultats-et-rapports/2021/02/2021-02-16/2021-02-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/02/2021-02-16/R3-chantilly/R3C4-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R3-chantilly/R3C5-prix-de-forcalquier.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R3-chantilly/R3C6-prix-de-caussade.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R3-chantilly/R3C7-prix-de-bercy.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R7-vire/R7C1-prix-de-chateau-gontier.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R7-vire/R7C2-prix-decidee.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R7-vire/R7C5-prix-de-forcalquier.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R7-vire/R7C8-prix-de-romorantin.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R8-maure-de-bretagne/R8C1-prix-de-chateau-gontier.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R8-maure-de-bretagne/R8C4-prix-de-la-genevraye.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R8-maure-de-bretagne/R8C5-prix-de-forcalquier.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R8-maure-de-bretagne/R8C6-prix-de-caussade.html",
+      "resultats-et-rapports/2021/02/2021-02-16/R8-maure-de-bretagne/R8C7-prix-de-bercy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R5-cagnes-sur-mer",
+      "R7-vire",
+      "R8-maure-de-bretagne"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chateau-gontier.html",
+        "R1C2-prix-decidee.html",
+        "R1C3-prix-de-selestat.html",
+        "R1C4-prix-de-la-genevraye.html",
+        "R1C5-prix-de-forcalquier.html",
+        "R1C6-prix-de-caussade.html",
+        "R1C7-prix-de-bercy.html",
+        "R1C8-prix-de-romorantin.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-chateau-gontier.html",
+        "R3C2-prix-decidee.html",
+        "R3C3-prix-de-selestat.html",
+        "R3C4-prix-de-la-genevraye.html",
+        "R3C5-prix-de-forcalquier.html",
+        "R3C6-prix-de-caussade.html",
+        "R3C7-prix-de-bercy.html",
+        "R3C8-prix-de-romorantin.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-chateau-gontier.html",
+        "R5C2-prix-decidee.html",
+        "R5C3-prix-de-selestat.html",
+        "R5C4-prix-de-la-genevraye.html",
+        "R5C5-prix-de-forcalquier.html",
+        "R5C6-prix-de-caussade.html",
+        "R5C7-prix-de-bercy.html",
+        "R5C8-prix-de-romorantin.html"
+      ],
+      "R7-vire": [
+        "R7C1-prix-de-chateau-gontier.html",
+        "R7C2-prix-decidee.html",
+        "R7C3-prix-de-selestat.html",
+        "R7C4-prix-de-la-genevraye.html",
+        "R7C5-prix-de-forcalquier.html",
+        "R7C6-prix-de-caussade.html",
+        "R7C7-prix-de-bercy.html",
+        "R7C8-prix-de-romorantin.html"
+      ],
+      "R8-maure-de-bretagne": [
+        "R8C1-prix-de-chateau-gontier.html",
+        "R8C2-prix-decidee.html",
+        "R8C3-prix-de-selestat.html",
+        "R8C4-prix-de-la-genevraye.html",
+        "R8C5-prix-de-forcalquier.html",
+        "R8C6-prix-de-caussade.html",
+        "R8C7-prix-de-bercy.html",
+        "R8C8-prix-de-romorantin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:47.046938Z"
+}

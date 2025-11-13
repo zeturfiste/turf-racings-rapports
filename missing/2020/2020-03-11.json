@@ -1,0 +1,73 @@
+{
+  "date": "2020-03-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-11",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-11/2020-03-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-11/R1-laval/R1C4-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R1-laval/R1C6-prix-mayenne-tourisme.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R1-laval/R1C7-prix-mercedes-etoile-de-laval.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R1-laval/R1C8-prix-france-bleu-mayenne.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R3-compiegne/R3C2-prix-kreason.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R7-marseille-borely/R7C3-prix-du-gateau-m.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R7-marseille-borely/R7C4-prix-www-hippodrome-laval-fr.html",
+      "resultats-et-rapports/2020/03/2020-03-11/R7-marseille-borely/R7C6-prix-mayenne-tourisme.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-compiegne",
+      "R4-le-croise-laroche",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-conseil-departemental-de-la-mayenne.html",
+        "R1C2-prix-kreason.html",
+        "R1C3-prix-du-gateau-m.html",
+        "R1C4-prix-www-hippodrome-laval-fr.html",
+        "R1C5-prix-www-lamayenne-fr.html",
+        "R1C6-prix-mayenne-tourisme.html",
+        "R1C7-prix-mercedes-etoile-de-laval.html",
+        "R1C8-prix-france-bleu-mayenne.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-grand-prix-conseil-departemental-de-la-mayenne.html",
+        "R3C2-prix-kreason.html",
+        "R3C3-prix-du-gateau-m.html",
+        "R3C4-prix-www-hippodrome-laval-fr.html",
+        "R3C5-prix-www-lamayenne-fr.html",
+        "R3C6-prix-mayenne-tourisme.html",
+        "R3C7-prix-mercedes-etoile-de-laval.html",
+        "R3C8-prix-france-bleu-mayenne.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-grand-prix-conseil-departemental-de-la-mayenne.html",
+        "R4C2-prix-kreason.html",
+        "R4C3-prix-du-gateau-m.html",
+        "R4C4-prix-www-hippodrome-laval-fr.html",
+        "R4C5-prix-www-lamayenne-fr.html",
+        "R4C6-prix-mayenne-tourisme.html",
+        "R4C7-prix-mercedes-etoile-de-laval.html",
+        "R4C8-prix-france-bleu-mayenne.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-grand-prix-conseil-departemental-de-la-mayenne.html",
+        "R7C2-prix-kreason.html",
+        "R7C3-prix-du-gateau-m.html",
+        "R7C4-prix-www-hippodrome-laval-fr.html",
+        "R7C5-prix-www-lamayenne-fr.html",
+        "R7C6-prix-mayenne-tourisme.html",
+        "R7C7-prix-mercedes-etoile-de-laval.html",
+        "R7C8-prix-france-bleu-mayenne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:58.946819Z"
+}

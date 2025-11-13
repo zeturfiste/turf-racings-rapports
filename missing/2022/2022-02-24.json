@@ -1,0 +1,55 @@
+{
+  "date": "2022-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/02/2022-02-24",
+    "date_html": "resultats-et-rapports/2022/02/2022-02-24/2022-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/02/2022-02-24/R4-lyon-la-soie/R4C5-prix-de-pontault-combault.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chantilly",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-marcenat.html",
+        "R1C2-prix-zeturf-le-meilleur-des-courses.html",
+        "R1C3-prix-de-nevers.html",
+        "R1C4-prix-de-vouziers.html",
+        "R1C5-prix-de-pontault-combault.html",
+        "R1C6-prix-de-mortagne.html",
+        "R1C7-prix-du-cantal.html",
+        "R1C8-prix-de-plestin-les-greves.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-de-marcenat.html",
+        "R3C2-prix-zeturf-le-meilleur-des-courses.html",
+        "R3C3-prix-de-nevers.html",
+        "R3C4-prix-de-vouziers.html",
+        "R3C5-prix-de-pontault-combault.html",
+        "R3C6-prix-de-mortagne.html",
+        "R3C7-prix-du-cantal.html",
+        "R3C8-prix-de-plestin-les-greves.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-de-marcenat.html",
+        "R4C2-prix-zeturf-le-meilleur-des-courses.html",
+        "R4C3-prix-de-nevers.html",
+        "R4C4-prix-de-vouziers.html",
+        "R4C5-prix-de-pontault-combault.html",
+        "R4C6-prix-de-mortagne.html",
+        "R4C7-prix-du-cantal.html",
+        "R4C8-prix-de-plestin-les-greves.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:08.019615Z"
+}

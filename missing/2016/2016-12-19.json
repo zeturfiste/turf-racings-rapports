@@ -1,0 +1,104 @@
+{
+  "date": "2016-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/12/2016-12-19",
+    "date_html": "resultats-et-rapports/2016/12/2016-12-19/2016-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C1-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C2-prix-de-folleville.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C3-prix-de-flers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C5-prix-de-putanges.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C6-prix-du-bocage-ornais.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C7-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C8-prix-de-la-bourdonniere.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R1-deauville/R1C9-prix-du-bocage-virois.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C1-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C2-prix-de-folleville.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C3-prix-de-flers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C4-prix-de-la-suisse-normande.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C5-prix-de-putanges.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C6-prix-du-bocage-ornais.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C7-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C8-prix-de-la-bourdonniere.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R3-le-mans/R3C9-prix-du-bocage-virois.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C1-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C2-prix-de-folleville.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C3-prix-de-flers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C4-prix-de-la-suisse-normande.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C5-prix-de-putanges.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C6-prix-du-bocage-ornais.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C7-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C8-prix-de-la-bourdonniere.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R4-graignes/R4C9-prix-du-bocage-virois.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C1-prix-de-vimoutiers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C2-prix-de-folleville.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C3-prix-de-flers.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C4-prix-de-la-suisse-normande.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C5-prix-de-putanges.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C6-prix-du-bocage-ornais.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C7-prix-de-la-pierre-aux-fees.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C8-prix-de-la-bourdonniere.html",
+      "resultats-et-rapports/2016/12/2016-12-19/R6-deauville-midi/R6C9-prix-du-bocage-virois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-le-mans",
+      "R4-graignes",
+      "R6-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-vimoutiers.html",
+        "R1C2-prix-de-folleville.html",
+        "R1C3-prix-de-flers.html",
+        "R1C4-prix-de-la-suisse-normande.html",
+        "R1C5-prix-de-putanges.html",
+        "R1C6-prix-du-bocage-ornais.html",
+        "R1C7-prix-de-la-pierre-aux-fees.html",
+        "R1C8-prix-de-la-bourdonniere.html",
+        "R1C9-prix-du-bocage-virois.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-de-vimoutiers.html",
+        "R3C2-prix-de-folleville.html",
+        "R3C3-prix-de-flers.html",
+        "R3C4-prix-de-la-suisse-normande.html",
+        "R3C5-prix-de-putanges.html",
+        "R3C6-prix-du-bocage-ornais.html",
+        "R3C7-prix-de-la-pierre-aux-fees.html",
+        "R3C8-prix-de-la-bourdonniere.html",
+        "R3C9-prix-du-bocage-virois.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-vimoutiers.html",
+        "R4C2-prix-de-folleville.html",
+        "R4C3-prix-de-flers.html",
+        "R4C4-prix-de-la-suisse-normande.html",
+        "R4C5-prix-de-putanges.html",
+        "R4C6-prix-du-bocage-ornais.html",
+        "R4C7-prix-de-la-pierre-aux-fees.html",
+        "R4C8-prix-de-la-bourdonniere.html",
+        "R4C9-prix-du-bocage-virois.html"
+      ],
+      "R6-deauville-midi": [
+        "R6C1-prix-de-vimoutiers.html",
+        "R6C2-prix-de-folleville.html",
+        "R6C3-prix-de-flers.html",
+        "R6C4-prix-de-la-suisse-normande.html",
+        "R6C5-prix-de-putanges.html",
+        "R6C6-prix-du-bocage-ornais.html",
+        "R6C7-prix-de-la-pierre-aux-fees.html",
+        "R6C8-prix-de-la-bourdonniere.html",
+        "R6C9-prix-du-bocage-virois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:52.713990Z"
+}

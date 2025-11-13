@@ -1,0 +1,102 @@
+{
+  "date": "2018-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/07/2018-07-13",
+    "date_html": "resultats-et-rapports/2018/07/2018-07-13/2018-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C2-prix-du-sap-prix-foncim-groupe-jean.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C3-prix-de-brehal.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C4-prix-de-domfront.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C5-prix-de-dozule.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R1-cabourg/R1C8-prix-de-carentan.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R3-saint-malo/R3C3-prix-de-brehal.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R3-saint-malo/R3C5-prix-de-dozule.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R3-saint-malo/R3C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R3-saint-malo/R3C8-prix-de-carentan.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C1-prix-d-avranches.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C3-prix-de-brehal.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C4-prix-de-domfront.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C5-prix-de-dozule.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R4-la-teste-de-buch/R4C8-prix-de-carentan.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R5-senonnes/R5C1-prix-d-avranches.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C1-prix-d-avranches.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C2-prix-du-sap-prix-foncim-groupe-jean.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C3-prix-de-brehal.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C4-prix-de-domfront.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C5-prix-de-dozule.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+      "resultats-et-rapports/2018/07/2018-07-13/R7-cagnes-sur-mer/R7C8-prix-de-carentan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-saint-malo",
+      "R4-la-teste-de-buch",
+      "R5-senonnes",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-d-avranches.html",
+        "R1C2-prix-du-sap-prix-foncim-groupe-jean.html",
+        "R1C3-prix-de-brehal.html",
+        "R1C4-prix-de-domfront.html",
+        "R1C5-prix-de-dozule.html",
+        "R1C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+        "R1C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+        "R1C8-prix-de-carentan.html"
+      ],
+      "R3-saint-malo": [
+        "R3C1-prix-d-avranches.html",
+        "R3C2-prix-du-sap-prix-foncim-groupe-jean.html",
+        "R3C3-prix-de-brehal.html",
+        "R3C4-prix-de-domfront.html",
+        "R3C5-prix-de-dozule.html",
+        "R3C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+        "R3C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+        "R3C8-prix-de-carentan.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-d-avranches.html",
+        "R4C2-prix-du-sap-prix-foncim-groupe-jean.html",
+        "R4C3-prix-de-brehal.html",
+        "R4C4-prix-de-domfront.html",
+        "R4C5-prix-de-dozule.html",
+        "R4C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+        "R4C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+        "R4C8-prix-de-carentan.html"
+      ],
+      "R5-senonnes": [
+        "R5C1-prix-d-avranches.html",
+        "R5C2-prix-du-sap-prix-foncim-groupe-jean.html",
+        "R5C3-prix-de-brehal.html",
+        "R5C4-prix-de-domfront.html",
+        "R5C5-prix-de-dozule.html",
+        "R5C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+        "R5C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+        "R5C8-prix-de-carentan.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-d-avranches.html",
+        "R7C2-prix-du-sap-prix-foncim-groupe-jean.html",
+        "R7C3-prix-de-brehal.html",
+        "R7C4-prix-de-domfront.html",
+        "R7C5-prix-de-dozule.html",
+        "R7C6-prix-de-sainte-marie-du-mont-groupe-a.html",
+        "R7C7-prix-de-sainte-marie-du-mont-groupe-b.html",
+        "R7C8-prix-de-carentan.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:49:46.891107Z"
+}

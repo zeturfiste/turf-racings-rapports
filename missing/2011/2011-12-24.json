@@ -1,0 +1,70 @@
+{
+  "date": "2011-12-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/12/2011-12-24",
+    "date_html": "resultats-et-rapports/2011/12/2011-12-24/2011-12-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/12/2011-12-24/R1-vincennes/R1C9-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R2-marseille-vivaux/R2C3-prix-une-de-mai.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R2-marseille-vivaux/R2C5-prix-jules-lemonnier.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R2-marseille-vivaux/R2C7-prix-d-issoudun.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R2-marseille-vivaux/R2C9-prix-de-chateau-salins.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C1-prix-de-chamalieres.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C2-prix-du-gard.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C3-prix-une-de-mai.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C4-prix-de-strasbourg.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C5-prix-jules-lemonnier.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C6-prix-de-damville.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C8-prix-de-brive-la-gaillarde.html",
+      "resultats-et-rapports/2011/12/2011-12-24/R3-cordemais/R3C9-prix-de-chateau-salins.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-marseille-vivaux",
+      "R3-cordemais"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chamalieres.html",
+        "R1C2-prix-du-gard.html",
+        "R1C3-prix-une-de-mai.html",
+        "R1C4-prix-de-strasbourg.html",
+        "R1C5-prix-jules-lemonnier.html",
+        "R1C6-prix-de-damville.html",
+        "R1C7-prix-d-issoudun.html",
+        "R1C8-prix-de-brive-la-gaillarde.html",
+        "R1C9-prix-de-chateau-salins.html"
+      ],
+      "R2-marseille-vivaux": [
+        "R2C1-prix-de-chamalieres.html",
+        "R2C2-prix-du-gard.html",
+        "R2C3-prix-une-de-mai.html",
+        "R2C4-prix-de-strasbourg.html",
+        "R2C5-prix-jules-lemonnier.html",
+        "R2C6-prix-de-damville.html",
+        "R2C7-prix-d-issoudun.html",
+        "R2C8-prix-de-brive-la-gaillarde.html",
+        "R2C9-prix-de-chateau-salins.html"
+      ],
+      "R3-cordemais": [
+        "R3C1-prix-de-chamalieres.html",
+        "R3C2-prix-du-gard.html",
+        "R3C3-prix-une-de-mai.html",
+        "R3C4-prix-de-strasbourg.html",
+        "R3C5-prix-jules-lemonnier.html",
+        "R3C6-prix-de-damville.html",
+        "R3C7-prix-d-issoudun.html",
+        "R3C8-prix-de-brive-la-gaillarde.html",
+        "R3C9-prix-de-chateau-salins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:38.164835Z"
+}

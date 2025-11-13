@@ -1,0 +1,58 @@
+{
+  "date": "2021-05-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/05/2021-05-03",
+    "date_html": "resultats-et-rapports/2021/05/2021-05-03/2021-05-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/05/2021-05-03/R3-nantes/R3C3-prix-de-banassat.html",
+      "resultats-et-rapports/2021/05/2021-05-03/R3-nantes/R3C6-prix-de-pontgibaud.html",
+      "resultats-et-rapports/2021/05/2021-05-03/R3-nantes/R3C8-prix-equidia.html",
+      "resultats-et-rapports/2021/05/2021-05-03/R4-nancy/R4C3-prix-de-banassat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-nantes",
+      "R4-nancy"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-de-la-chaise-dieu.html",
+        "R1C2-prix-d-effiat.html",
+        "R1C3-prix-de-banassat.html",
+        "R1C4-prix-de-cluny.html",
+        "R1C5-prix-du-parc-des-lapins.html",
+        "R1C6-prix-de-pontgibaud.html",
+        "R1C7-prix-du-sichon.html",
+        "R1C8-prix-equidia.html"
+      ],
+      "R3-nantes": [
+        "R3C1-prix-de-la-chaise-dieu.html",
+        "R3C2-prix-d-effiat.html",
+        "R3C3-prix-de-banassat.html",
+        "R3C4-prix-de-cluny.html",
+        "R3C5-prix-du-parc-des-lapins.html",
+        "R3C6-prix-de-pontgibaud.html",
+        "R3C7-prix-du-sichon.html",
+        "R3C8-prix-equidia.html"
+      ],
+      "R4-nancy": [
+        "R4C1-prix-de-la-chaise-dieu.html",
+        "R4C2-prix-d-effiat.html",
+        "R4C3-prix-de-banassat.html",
+        "R4C4-prix-de-cluny.html",
+        "R4C5-prix-du-parc-des-lapins.html",
+        "R4C6-prix-de-pontgibaud.html",
+        "R4C7-prix-du-sichon.html",
+        "R4C8-prix-equidia.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:15.646281Z"
+}

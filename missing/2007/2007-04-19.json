@@ -1,0 +1,69 @@
+{
+  "date": "2007-04-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-19",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-19/2007-04-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-19/R1-longchamp/R1C1-prix-du-pantheon.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R1-longchamp/R1C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R2-enghien-soisy/R2C1-prix-du-pantheon.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R2-enghien-soisy/R2C3-prix-d-escoville.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R2-enghien-soisy/R2C5-prix-de-pantin.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R2-enghien-soisy/R2C8-prix-de-puteaux.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R2-enghien-soisy/R2C9-prix-du-colisee.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R31-zerace/R31C1-prix-du-pantheon.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R31-zerace/R31C2-prix-du-cherche-midi.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R31-zerace/R31C5-prix-de-pantin.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R31-zerace/R31C7-prix-des-centaures.html",
+      "resultats-et-rapports/2007/04/2007-04-19/R31-zerace/R31C8-prix-de-puteaux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-enghien-soisy",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pantheon.html",
+        "R1C2-prix-du-cherche-midi.html",
+        "R1C3-prix-d-escoville.html",
+        "R1C4-prix-de-la-grange-aux-belles.html",
+        "R1C5-prix-de-pantin.html",
+        "R1C6-prix-du-mesnil-le-roi.html",
+        "R1C7-prix-des-centaures.html",
+        "R1C8-prix-de-puteaux.html",
+        "R1C9-prix-du-colisee.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-du-pantheon.html",
+        "R2C2-prix-du-cherche-midi.html",
+        "R2C3-prix-d-escoville.html",
+        "R2C4-prix-de-la-grange-aux-belles.html",
+        "R2C5-prix-de-pantin.html",
+        "R2C6-prix-du-mesnil-le-roi.html",
+        "R2C7-prix-des-centaures.html",
+        "R2C8-prix-de-puteaux.html",
+        "R2C9-prix-du-colisee.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-pantheon.html",
+        "R31C2-prix-du-cherche-midi.html",
+        "R31C3-prix-d-escoville.html",
+        "R31C4-prix-de-la-grange-aux-belles.html",
+        "R31C5-prix-de-pantin.html",
+        "R31C6-prix-du-mesnil-le-roi.html",
+        "R31C7-prix-des-centaures.html",
+        "R31C8-prix-de-puteaux.html",
+        "R31C9-prix-du-colisee.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:09.569214Z"
+}

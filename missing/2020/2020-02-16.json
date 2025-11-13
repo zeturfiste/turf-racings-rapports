@@ -1,0 +1,94 @@
+{
+  "date": "2020-02-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-16",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-16/2020-02-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-16/R3-cagnes-sur-mer/R3C2-prix-paul-cesari-prix-d-hyeres.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R3-cagnes-sur-mer/R3C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R3-cagnes-sur-mer/R3C7-prix-d-orthez.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R3-cagnes-sur-mer/R3C9-prix-des-trotteurs-sang-froid.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R4-graignes/R4C7-prix-d-orthez.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R4-graignes/R4C8-prix-d-arras.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R6-bordeaux-le-bouscat/R6C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R6-bordeaux-le-bouscat/R6C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R7-pontchateau/R7C1-prix-de-grenade.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R7-pontchateau/R7C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R7-pontchateau/R7C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R7-pontchateau/R7C7-prix-d-orthez.html",
+      "resultats-et-rapports/2020/02/2020-02-16/R7-pontchateau/R7C8-prix-d-arras.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-cagnes-sur-mer",
+      "R4-graignes",
+      "R6-bordeaux-le-bouscat",
+      "R7-pontchateau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-grenade.html",
+        "R1C2-prix-paul-cesari-prix-d-hyeres.html",
+        "R1C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+        "R1C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+        "R1C5-prix-du-finistere.html",
+        "R1C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+        "R1C7-prix-d-orthez.html",
+        "R1C8-prix-d-arras.html",
+        "R1C9-prix-des-trotteurs-sang-froid.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-grenade.html",
+        "R3C2-prix-paul-cesari-prix-d-hyeres.html",
+        "R3C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+        "R3C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+        "R3C5-prix-du-finistere.html",
+        "R3C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+        "R3C7-prix-d-orthez.html",
+        "R3C8-prix-d-arras.html",
+        "R3C9-prix-des-trotteurs-sang-froid.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-grenade.html",
+        "R4C2-prix-paul-cesari-prix-d-hyeres.html",
+        "R4C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+        "R4C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+        "R4C5-prix-du-finistere.html",
+        "R4C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+        "R4C7-prix-d-orthez.html",
+        "R4C8-prix-d-arras.html",
+        "R4C9-prix-des-trotteurs-sang-froid.html"
+      ],
+      "R6-bordeaux-le-bouscat": [
+        "R6C1-prix-de-grenade.html",
+        "R6C2-prix-paul-cesari-prix-d-hyeres.html",
+        "R6C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+        "R6C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+        "R6C5-prix-du-finistere.html",
+        "R6C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+        "R6C7-prix-d-orthez.html",
+        "R6C8-prix-d-arras.html",
+        "R6C9-prix-des-trotteurs-sang-froid.html"
+      ],
+      "R7-pontchateau": [
+        "R7C1-prix-de-grenade.html",
+        "R7C2-prix-paul-cesari-prix-d-hyeres.html",
+        "R7C3-prix-beur-fm-prix-du-pontavice-de-heussey.html",
+        "R7C4-prix-de-la-fete-100-orientale-prix-de-la-gacilly.html",
+        "R7C5-prix-du-finistere.html",
+        "R7C6-prix-comte-pierre-de-montesson-criterium-des-jeunes.html",
+        "R7C7-prix-d-orthez.html",
+        "R7C8-prix-d-arras.html",
+        "R7C9-prix-des-trotteurs-sang-froid.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:51.918855Z"
+}

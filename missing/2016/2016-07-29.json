@@ -1,0 +1,75 @@
+{
+  "date": "2016-07-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/07/2016-07-29",
+    "date_html": "resultats-et-rapports/2016/07/2016-07-29/2016-07-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/07/2016-07-29/R4-vichy/R4C5-prix-du-conseil-regional-groupe-b.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R4-vichy/R4C7-prix-ceser.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C1-prix-henri-balliere.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C2-prix-afasec-de-graignes.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C3-prix-michel-d-ornano.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C4-prix-du-conseil-regional-groupe-a.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C5-prix-du-conseil-regional-groupe-b.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C6-prix-fondation-hippolia.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C7-prix-ceser.html",
+      "resultats-et-rapports/2016/07/2016-07-29/R8-pornichet-la-baule/R8C8-prix-du-conseil-des-chevaux-de-basse-normandie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cabourg",
+      "R3-les-sables-d-olonne",
+      "R4-vichy",
+      "R8-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cabourg": [
+        "R1C1-prix-henri-balliere.html",
+        "R1C2-prix-afasec-de-graignes.html",
+        "R1C3-prix-michel-d-ornano.html",
+        "R1C4-prix-du-conseil-regional-groupe-a.html",
+        "R1C5-prix-du-conseil-regional-groupe-b.html",
+        "R1C6-prix-fondation-hippolia.html",
+        "R1C7-prix-ceser.html",
+        "R1C8-prix-du-conseil-des-chevaux-de-basse-normandie.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-henri-balliere.html",
+        "R3C2-prix-afasec-de-graignes.html",
+        "R3C3-prix-michel-d-ornano.html",
+        "R3C4-prix-du-conseil-regional-groupe-a.html",
+        "R3C5-prix-du-conseil-regional-groupe-b.html",
+        "R3C6-prix-fondation-hippolia.html",
+        "R3C7-prix-ceser.html",
+        "R3C8-prix-du-conseil-des-chevaux-de-basse-normandie.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-henri-balliere.html",
+        "R4C2-prix-afasec-de-graignes.html",
+        "R4C3-prix-michel-d-ornano.html",
+        "R4C4-prix-du-conseil-regional-groupe-a.html",
+        "R4C5-prix-du-conseil-regional-groupe-b.html",
+        "R4C6-prix-fondation-hippolia.html",
+        "R4C7-prix-ceser.html",
+        "R4C8-prix-du-conseil-des-chevaux-de-basse-normandie.html"
+      ],
+      "R8-pornichet-la-baule": [
+        "R8C1-prix-henri-balliere.html",
+        "R8C2-prix-afasec-de-graignes.html",
+        "R8C3-prix-michel-d-ornano.html",
+        "R8C4-prix-du-conseil-regional-groupe-a.html",
+        "R8C5-prix-du-conseil-regional-groupe-b.html",
+        "R8C6-prix-fondation-hippolia.html",
+        "R8C7-prix-ceser.html",
+        "R8C8-prix-du-conseil-des-chevaux-de-basse-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:46:06.111918Z"
+}

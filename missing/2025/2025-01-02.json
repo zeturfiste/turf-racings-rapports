@@ -1,0 +1,64 @@
+{
+  "date": "2025-01-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/01/2025-01-02",
+    "date_html": "resultats-et-rapports/2025/01/2025-01-02/2025-01-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-pontchateau",
+      "R3-marseille-vivaux",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-de-montaut.html",
+        "R1C2-prix-d-ossau.html",
+        "R1C3-prix-d-irouleguy.html",
+        "R1C4-prix-equidia-prix-pierre-estrem-rey.html",
+        "R1C5-prix-paul-larregain.html",
+        "R1C6-prix-alfred-torrance.html",
+        "R1C7-prix-el-triunfo.html",
+        "R1C8-prix-joseph-barron.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-de-montaut.html",
+        "R2C2-prix-d-ossau.html",
+        "R2C3-prix-d-irouleguy.html",
+        "R2C4-prix-equidia-prix-pierre-estrem-rey.html",
+        "R2C5-prix-paul-larregain.html",
+        "R2C6-prix-alfred-torrance.html",
+        "R2C7-prix-el-triunfo.html",
+        "R2C8-prix-joseph-barron.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-montaut.html",
+        "R3C2-prix-d-ossau.html",
+        "R3C3-prix-d-irouleguy.html",
+        "R3C4-prix-equidia-prix-pierre-estrem-rey.html",
+        "R3C5-prix-paul-larregain.html",
+        "R3C6-prix-alfred-torrance.html",
+        "R3C7-prix-el-triunfo.html",
+        "R3C8-prix-joseph-barron.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-montaut.html",
+        "R4C2-prix-d-ossau.html",
+        "R4C3-prix-d-irouleguy.html",
+        "R4C4-prix-equidia-prix-pierre-estrem-rey.html",
+        "R4C5-prix-paul-larregain.html",
+        "R4C6-prix-alfred-torrance.html",
+        "R4C7-prix-el-triunfo.html",
+        "R4C8-prix-joseph-barron.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:37.614416Z"
+}

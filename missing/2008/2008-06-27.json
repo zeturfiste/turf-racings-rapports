@@ -1,0 +1,102 @@
+{
+  "date": "2008-06-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/06/2008-06-27",
+    "date_html": "resultats-et-rapports/2008/06/2008-06-27/2008-06-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C4-prix-jean-francois-menard-traiteur.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C6-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C8-prix-equip-horse-gr-a.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R3-vincennes/R3C9-prix-equip-horse-gr-b.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C1-prix-s-larcher-publicite.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C2-prix-des-vans-barbot.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C6-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C8-prix-equip-horse-gr-a.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R31-zerace/R31C9-prix-equip-horse-gr-b.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C1-prix-s-larcher-publicite.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C4-prix-jean-francois-menard-traiteur.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C6-prix-de-la-ville-de-lisieux.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C8-prix-equip-horse-gr-a.html",
+      "resultats-et-rapports/2008/06/2008-06-27/R70-wimbledon-london/R70C9-prix-equip-horse-gr-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R2-la-teste-de-buch",
+      "R3-vincennes",
+      "R31-zerace",
+      "R70-wimbledon-london"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-prix-s-larcher-publicite.html",
+        "R1C2-prix-des-vans-barbot.html",
+        "R1C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+        "R1C4-prix-jean-francois-menard-traiteur.html",
+        "R1C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+        "R1C6-prix-de-la-ville-de-lisieux.html",
+        "R1C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+        "R1C8-prix-equip-horse-gr-a.html",
+        "R1C9-prix-equip-horse-gr-b.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-prix-s-larcher-publicite.html",
+        "R2C2-prix-des-vans-barbot.html",
+        "R2C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+        "R2C4-prix-jean-francois-menard-traiteur.html",
+        "R2C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+        "R2C6-prix-de-la-ville-de-lisieux.html",
+        "R2C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+        "R2C8-prix-equip-horse-gr-a.html",
+        "R2C9-prix-equip-horse-gr-b.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-s-larcher-publicite.html",
+        "R3C2-prix-des-vans-barbot.html",
+        "R3C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+        "R3C4-prix-jean-francois-menard-traiteur.html",
+        "R3C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+        "R3C6-prix-de-la-ville-de-lisieux.html",
+        "R3C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+        "R3C8-prix-equip-horse-gr-a.html",
+        "R3C9-prix-equip-horse-gr-b.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-s-larcher-publicite.html",
+        "R31C2-prix-des-vans-barbot.html",
+        "R31C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+        "R31C4-prix-jean-francois-menard-traiteur.html",
+        "R31C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+        "R31C6-prix-de-la-ville-de-lisieux.html",
+        "R31C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+        "R31C8-prix-equip-horse-gr-a.html",
+        "R31C9-prix-equip-horse-gr-b.html"
+      ],
+      "R70-wimbledon-london": [
+        "R70C1-prix-s-larcher-publicite.html",
+        "R70C2-prix-des-vans-barbot.html",
+        "R70C3-prix-de-la-societe-ruaux-espace-emeraude-d-r-t.html",
+        "R70C4-prix-jean-francois-menard-traiteur.html",
+        "R70C5-prix-communaute-de-communes-de-lisieux-pays-d-auge.html",
+        "R70C6-prix-de-la-ville-de-lisieux.html",
+        "R70C7-prix-de-l-aeroport-de-deauville-saint-gatien.html",
+        "R70C8-prix-equip-horse-gr-a.html",
+        "R70C9-prix-equip-horse-gr-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:29:08.295357Z"
+}

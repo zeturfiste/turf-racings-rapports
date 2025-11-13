@@ -1,0 +1,90 @@
+{
+  "date": "2006-08-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-16",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-16/2006-08-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-16/R2-graignes/R2C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html",
+      "resultats-et-rapports/2006/08/2006-08-16/R3-divonne-les-bains/R3C1-prix-autoroute-fm-prix-de-jersey.html",
+      "resultats-et-rapports/2006/08/2006-08-16/R3-divonne-les-bains/R3C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-graignes",
+      "R3-divonne-les-bains",
+      "R4-cagnes-sur-mer",
+      "R5-les-sables-d-olonne",
+      "R10-stade-olympique-kosevo-sarajevo-bosnie-herzegovine"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R1C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R1C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R1C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R1C5-prix-biraben-prix-de-guernesey.html",
+        "R1C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R1C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R1C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ],
+      "R2-graignes": [
+        "R2C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R2C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R2C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R2C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R2C5-prix-biraben-prix-de-guernesey.html",
+        "R2C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R2C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R2C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ],
+      "R3-divonne-les-bains": [
+        "R3C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R3C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R3C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R3C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R3C5-prix-biraben-prix-de-guernesey.html",
+        "R3C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R3C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R3C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R4C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R4C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R4C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R4C5-prix-biraben-prix-de-guernesey.html",
+        "R4C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R4C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R4C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R5C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R5C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R5C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R5C5-prix-biraben-prix-de-guernesey.html",
+        "R5C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R5C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R5C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ],
+      "R10-stade-olympique-kosevo-sarajevo-bosnie-herzegovine": [
+        "R10C1-prix-autoroute-fm-prix-de-jersey.html",
+        "R10C2-prix-msa-renault-deauville-prix-des-jasmins.html",
+        "R10C3-prix-msa-renault-pont-l-eveque-prix-des-marguerites.html",
+        "R10C4-prix-msa-renault-rent-prix-des-buveurs-d-air.html",
+        "R10C5-prix-biraben-prix-de-guernesey.html",
+        "R10C6-prix-ouest-france-prix-de-la-garenne.html",
+        "R10C7-prix-www-mypixmania-com-prix-des-fusains.html",
+        "R10C8-prix-des-champagnes-michel-mailliard-prix-des-ypreaux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:56.506273Z"
+}

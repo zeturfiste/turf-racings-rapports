@@ -1,0 +1,89 @@
+{
+  "date": "2012-10-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-12",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-12/2012-10-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-12/R1-chantilly/R1C2-prix-du-valois-multien.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R1-chantilly/R1C4-prix-tilbury.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R1-chantilly/R1C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R1-chantilly/R1C6-prix-des-bruyeres.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R1-chantilly/R1C8-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C2-prix-du-valois-multien.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C3-prix-eclipse.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C6-prix-des-bruyeres.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C8-prix-de-la-grange-des-pres.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R2-strasbourg/R2C9-prix-du-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C1-prix-de-l-entonnoir.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C2-prix-du-valois-multien.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C4-prix-tilbury.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C5-prix-du-ranelagh.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C6-prix-des-bruyeres.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C7-prix-de-la-bergerie.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R3-vincennes/R3C9-prix-du-manege.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R5-moulins/R5C3-prix-eclipse.html",
+      "resultats-et-rapports/2012/10/2012-10-12/R5-moulins/R5C9-prix-du-manege.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-strasbourg",
+      "R3-vincennes",
+      "R5-moulins"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-de-l-entonnoir.html",
+        "R1C2-prix-du-valois-multien.html",
+        "R1C3-prix-eclipse.html",
+        "R1C4-prix-tilbury.html",
+        "R1C5-prix-du-ranelagh.html",
+        "R1C6-prix-des-bruyeres.html",
+        "R1C7-prix-de-la-bergerie.html",
+        "R1C8-prix-de-la-grange-des-pres.html",
+        "R1C9-prix-du-manege.html"
+      ],
+      "R2-strasbourg": [
+        "R2C1-prix-de-l-entonnoir.html",
+        "R2C2-prix-du-valois-multien.html",
+        "R2C3-prix-eclipse.html",
+        "R2C4-prix-tilbury.html",
+        "R2C5-prix-du-ranelagh.html",
+        "R2C6-prix-des-bruyeres.html",
+        "R2C7-prix-de-la-bergerie.html",
+        "R2C8-prix-de-la-grange-des-pres.html",
+        "R2C9-prix-du-manege.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-l-entonnoir.html",
+        "R3C2-prix-du-valois-multien.html",
+        "R3C3-prix-eclipse.html",
+        "R3C4-prix-tilbury.html",
+        "R3C5-prix-du-ranelagh.html",
+        "R3C6-prix-des-bruyeres.html",
+        "R3C7-prix-de-la-bergerie.html",
+        "R3C8-prix-de-la-grange-des-pres.html",
+        "R3C9-prix-du-manege.html"
+      ],
+      "R5-moulins": [
+        "R5C1-prix-de-l-entonnoir.html",
+        "R5C2-prix-du-valois-multien.html",
+        "R5C3-prix-eclipse.html",
+        "R5C4-prix-tilbury.html",
+        "R5C5-prix-du-ranelagh.html",
+        "R5C6-prix-des-bruyeres.html",
+        "R5C7-prix-de-la-bergerie.html",
+        "R5C8-prix-de-la-grange-des-pres.html",
+        "R5C9-prix-du-manege.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:02.625654Z"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2022-06-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/06/2022-06-08",
+    "date_html": "resultats-et-rapports/2022/06/2022-06-08/2022-06-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/06/2022-06-08/R1-laval/R1C8-prix-harmonie-ambulance.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R3-marseille-borely/R3C6-prix-jean-de-la-vaissiere-de-lavergne.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R3-marseille-borely/R3C7-prix-grand-national-des-jockeys-prix-henri-desmontils.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R3-marseille-borely/R3C8-prix-harmonie-ambulance.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R4-amiens/R4C1-grand-national-du-trot-paris-turf-grand-prix-jacques-moreau.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R4-amiens/R4C2-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2022/06/2022-06-08/R4-amiens/R4C4-prix-pmu-cafe-des-sports-a-saint-berthevin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-marseille-borely",
+      "R4-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-national-du-trot-paris-turf-grand-prix-jacques-moreau.html",
+        "R1C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R1C3-prix-pierre-seche.html",
+        "R1C4-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R1C5-prix-barons-guy-et-jacques-de-meynard.html",
+        "R1C6-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R1C7-prix-grand-national-des-jockeys-prix-henri-desmontils.html",
+        "R1C8-prix-harmonie-ambulance.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-grand-national-du-trot-paris-turf-grand-prix-jacques-moreau.html",
+        "R3C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R3C3-prix-pierre-seche.html",
+        "R3C4-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R3C5-prix-barons-guy-et-jacques-de-meynard.html",
+        "R3C6-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R3C7-prix-grand-national-des-jockeys-prix-henri-desmontils.html",
+        "R3C8-prix-harmonie-ambulance.html"
+      ],
+      "R4-amiens": [
+        "R4C1-grand-national-du-trot-paris-turf-grand-prix-jacques-moreau.html",
+        "R4C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R4C3-prix-pierre-seche.html",
+        "R4C4-prix-pmu-cafe-des-sports-a-saint-berthevin.html",
+        "R4C5-prix-barons-guy-et-jacques-de-meynard.html",
+        "R4C6-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R4C7-prix-grand-national-des-jockeys-prix-henri-desmontils.html",
+        "R4C8-prix-harmonie-ambulance.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:46.866040Z"
+}

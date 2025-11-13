@@ -1,0 +1,104 @@
+{
+  "date": "2022-08-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/08/2022-08-09",
+    "date_html": "resultats-et-rapports/2022/08/2022-08-09/2022-08-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/08/2022-08-09/R1-deauville/R1C6-morocco-cup-prix-de-crepon.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R1-deauville/R1C8-prix-de-bayeux.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R3-mauquenchy/R3C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R4-vittel/R4C4-doha-cup-prix-manganate.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R4-vittel/R4C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R4-vittel/R4C8-prix-de-bayeux.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R5-cabourg/R5C4-doha-cup-prix-manganate.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R5-cabourg/R5C6-morocco-cup-prix-de-crepon.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R6-aix-les-bains/R6C3-al-rayyan-cup-prix-kesberoy.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R6-aix-les-bains/R6C8-prix-de-bayeux.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C1-prix-de-pre-en-pail.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C2-prix-du-hamel.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C4-doha-cup-prix-manganate.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C6-morocco-cup-prix-de-crepon.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C7-prix-du-bec-hellouin.html",
+      "resultats-et-rapports/2022/08/2022-08-09/R7-pornichet-la-baule/R7C8-prix-de-bayeux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-mauquenchy",
+      "R4-vittel",
+      "R5-cabourg",
+      "R6-aix-les-bains",
+      "R7-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-pre-en-pail.html",
+        "R1C2-prix-du-hamel.html",
+        "R1C3-al-rayyan-cup-prix-kesberoy.html",
+        "R1C4-doha-cup-prix-manganate.html",
+        "R1C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R1C6-morocco-cup-prix-de-crepon.html",
+        "R1C7-prix-du-bec-hellouin.html",
+        "R1C8-prix-de-bayeux.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-de-pre-en-pail.html",
+        "R3C2-prix-du-hamel.html",
+        "R3C3-al-rayyan-cup-prix-kesberoy.html",
+        "R3C4-doha-cup-prix-manganate.html",
+        "R3C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R3C6-morocco-cup-prix-de-crepon.html",
+        "R3C7-prix-du-bec-hellouin.html",
+        "R3C8-prix-de-bayeux.html"
+      ],
+      "R4-vittel": [
+        "R4C1-prix-de-pre-en-pail.html",
+        "R4C2-prix-du-hamel.html",
+        "R4C3-al-rayyan-cup-prix-kesberoy.html",
+        "R4C4-doha-cup-prix-manganate.html",
+        "R4C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R4C6-morocco-cup-prix-de-crepon.html",
+        "R4C7-prix-du-bec-hellouin.html",
+        "R4C8-prix-de-bayeux.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-de-pre-en-pail.html",
+        "R5C2-prix-du-hamel.html",
+        "R5C3-al-rayyan-cup-prix-kesberoy.html",
+        "R5C4-doha-cup-prix-manganate.html",
+        "R5C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R5C6-morocco-cup-prix-de-crepon.html",
+        "R5C7-prix-du-bec-hellouin.html",
+        "R5C8-prix-de-bayeux.html"
+      ],
+      "R6-aix-les-bains": [
+        "R6C1-prix-de-pre-en-pail.html",
+        "R6C2-prix-du-hamel.html",
+        "R6C3-al-rayyan-cup-prix-kesberoy.html",
+        "R6C4-doha-cup-prix-manganate.html",
+        "R6C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R6C6-morocco-cup-prix-de-crepon.html",
+        "R6C7-prix-du-bec-hellouin.html",
+        "R6C8-prix-de-bayeux.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-de-pre-en-pail.html",
+        "R7C2-prix-du-hamel.html",
+        "R7C3-al-rayyan-cup-prix-kesberoy.html",
+        "R7C4-doha-cup-prix-manganate.html",
+        "R7C5-prix-du-secours-populaire-francais-prix-de-caen.html",
+        "R7C6-morocco-cup-prix-de-crepon.html",
+        "R7C7-prix-du-bec-hellouin.html",
+        "R7C8-prix-de-bayeux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:10.839359Z"
+}

@@ -1,0 +1,156 @@
+{
+  "date": "2006-07-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/07/2006-07-14",
+    "date_html": "resultats-et-rapports/2006/07/2006-07-14/2006-07-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/07/2006-07-14/R3-cabourg/R3C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R5-cagnes-sur-mer/R5C8-prix-du-defile.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R6-pornichet-la-baule/R6C2-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R6-pornichet-la-baule/R6C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R6-pornichet-la-baule/R6C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R6-pornichet-la-baule/R6C8-prix-du-defile.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R8-beaumont-de-lomagne/R8C2-prix-roland-de-chambure.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R8-beaumont-de-lomagne/R8C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R8-beaumont-de-lomagne/R8C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R8-beaumont-de-lomagne/R8C7-prix-de-la-providence.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R9-agon-coutainville/R9C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R9-agon-coutainville/R9C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R9-agon-coutainville/R9C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R9-agon-coutainville/R9C7-prix-de-la-providence.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C1-prix-fould.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C6-juddmonte-grand-prix-de-paris.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C7-prix-de-la-providence.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R10-durtal/R10C8-prix-du-defile.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R30-tour-de-france-luchon-carcassonne/R30C1-prix-fould.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R30-tour-de-france-luchon-carcassonne/R30C3-prix-de-la-fete-nationale.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R30-tour-de-france-luchon-carcassonne/R30C4-prix-de-thiberville.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R30-tour-de-france-luchon-carcassonne/R30C5-prix-maurice-de-nieuil.html",
+      "resultats-et-rapports/2006/07/2006-07-14/R30-tour-de-france-luchon-carcassonne/R30C8-prix-du-defile.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-vichy",
+      "R3-cabourg",
+      "R4-la-capelle",
+      "R5-cagnes-sur-mer",
+      "R6-pornichet-la-baule",
+      "R8-beaumont-de-lomagne",
+      "R9-agon-coutainville",
+      "R10-durtal",
+      "R30-tour-de-france-luchon-carcassonne"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-fould.html",
+        "R1C2-prix-roland-de-chambure.html",
+        "R1C3-prix-de-la-fete-nationale.html",
+        "R1C4-prix-de-thiberville.html",
+        "R1C5-prix-maurice-de-nieuil.html",
+        "R1C6-juddmonte-grand-prix-de-paris.html",
+        "R1C7-prix-de-la-providence.html",
+        "R1C8-prix-du-defile.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-fould.html",
+        "R2C2-prix-roland-de-chambure.html",
+        "R2C3-prix-de-la-fete-nationale.html",
+        "R2C4-prix-de-thiberville.html",
+        "R2C5-prix-maurice-de-nieuil.html",
+        "R2C6-juddmonte-grand-prix-de-paris.html",
+        "R2C7-prix-de-la-providence.html",
+        "R2C8-prix-du-defile.html"
+      ],
+      "R3-cabourg": [
+        "R3C1-prix-fould.html",
+        "R3C2-prix-roland-de-chambure.html",
+        "R3C3-prix-de-la-fete-nationale.html",
+        "R3C4-prix-de-thiberville.html",
+        "R3C5-prix-maurice-de-nieuil.html",
+        "R3C6-juddmonte-grand-prix-de-paris.html",
+        "R3C7-prix-de-la-providence.html",
+        "R3C8-prix-du-defile.html"
+      ],
+      "R4-la-capelle": [
+        "R4C1-prix-fould.html",
+        "R4C2-prix-roland-de-chambure.html",
+        "R4C3-prix-de-la-fete-nationale.html",
+        "R4C4-prix-de-thiberville.html",
+        "R4C5-prix-maurice-de-nieuil.html",
+        "R4C6-juddmonte-grand-prix-de-paris.html",
+        "R4C7-prix-de-la-providence.html",
+        "R4C8-prix-du-defile.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-fould.html",
+        "R5C2-prix-roland-de-chambure.html",
+        "R5C3-prix-de-la-fete-nationale.html",
+        "R5C4-prix-de-thiberville.html",
+        "R5C5-prix-maurice-de-nieuil.html",
+        "R5C6-juddmonte-grand-prix-de-paris.html",
+        "R5C7-prix-de-la-providence.html",
+        "R5C8-prix-du-defile.html"
+      ],
+      "R6-pornichet-la-baule": [
+        "R6C1-prix-fould.html",
+        "R6C2-prix-roland-de-chambure.html",
+        "R6C3-prix-de-la-fete-nationale.html",
+        "R6C4-prix-de-thiberville.html",
+        "R6C5-prix-maurice-de-nieuil.html",
+        "R6C6-juddmonte-grand-prix-de-paris.html",
+        "R6C7-prix-de-la-providence.html",
+        "R6C8-prix-du-defile.html"
+      ],
+      "R8-beaumont-de-lomagne": [
+        "R8C1-prix-fould.html",
+        "R8C2-prix-roland-de-chambure.html",
+        "R8C3-prix-de-la-fete-nationale.html",
+        "R8C4-prix-de-thiberville.html",
+        "R8C5-prix-maurice-de-nieuil.html",
+        "R8C6-juddmonte-grand-prix-de-paris.html",
+        "R8C7-prix-de-la-providence.html",
+        "R8C8-prix-du-defile.html"
+      ],
+      "R9-agon-coutainville": [
+        "R9C1-prix-fould.html",
+        "R9C2-prix-roland-de-chambure.html",
+        "R9C3-prix-de-la-fete-nationale.html",
+        "R9C4-prix-de-thiberville.html",
+        "R9C5-prix-maurice-de-nieuil.html",
+        "R9C6-juddmonte-grand-prix-de-paris.html",
+        "R9C7-prix-de-la-providence.html",
+        "R9C8-prix-du-defile.html"
+      ],
+      "R10-durtal": [
+        "R10C1-prix-fould.html",
+        "R10C2-prix-roland-de-chambure.html",
+        "R10C3-prix-de-la-fete-nationale.html",
+        "R10C4-prix-de-thiberville.html",
+        "R10C5-prix-maurice-de-nieuil.html",
+        "R10C6-juddmonte-grand-prix-de-paris.html",
+        "R10C7-prix-de-la-providence.html",
+        "R10C8-prix-du-defile.html"
+      ],
+      "R30-tour-de-france-luchon-carcassonne": [
+        "R30C1-prix-fould.html",
+        "R30C2-prix-roland-de-chambure.html",
+        "R30C3-prix-de-la-fete-nationale.html",
+        "R30C4-prix-de-thiberville.html",
+        "R30C5-prix-maurice-de-nieuil.html",
+        "R30C6-juddmonte-grand-prix-de-paris.html",
+        "R30C7-prix-de-la-providence.html",
+        "R30C8-prix-du-defile.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:47.370673Z"
+}

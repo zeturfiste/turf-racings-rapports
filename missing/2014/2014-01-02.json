@@ -1,0 +1,42 @@
+{
+  "date": "2014-01-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/01/2014-01-02",
+    "date_html": "resultats-et-rapports/2014/01/2014-01-02/2014-01-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-alfred-torrance.html",
+        "R1C2-prix-pierre-estrem-rey.html",
+        "R1C3-prix-d-arudy.html",
+        "R1C4-prix-guillaume-de-pracomtal.html",
+        "R1C5-prix-de-theze.html",
+        "R1C6-prix-renaud-du-vivier.html",
+        "R1C7-prix-de-lasclaveries.html",
+        "R1C8-prix-de-lescar.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-alfred-torrance.html",
+        "R2C2-prix-pierre-estrem-rey.html",
+        "R2C3-prix-d-arudy.html",
+        "R2C4-prix-guillaume-de-pracomtal.html",
+        "R2C5-prix-de-theze.html",
+        "R2C6-prix-renaud-du-vivier.html",
+        "R2C7-prix-de-lasclaveries.html",
+        "R2C8-prix-de-lescar.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:41:13.576610Z"
+}

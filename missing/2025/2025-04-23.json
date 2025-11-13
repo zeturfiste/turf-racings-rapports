@@ -1,0 +1,60 @@
+{
+  "date": "2025-04-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/04/2025-04-23",
+    "date_html": "resultats-et-rapports/2025/04/2025-04-23/2025-04-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/04/2025-04-23/R1-maure-de-bretagne/R1C4-prix-treblec.html",
+      "resultats-et-rapports/2025/04/2025-04-23/R3-lyon-parilly/R3C1-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/04/2025-04-23/R3-lyon-parilly/R3C5-prix-agrial.html",
+      "resultats-et-rapports/2025/04/2025-04-23/R3-lyon-parilly/R3C7-prix-pigeault-immobilier.html",
+      "resultats-et-rapports/2025/04/2025-04-23/R3-lyon-parilly/R3C8-grand-national-des-jockeys.html",
+      "resultats-et-rapports/2025/04/2025-04-23/R4-saint-cloud/R4C3-prix-du-bar-pmu-au-che-val-d-anast.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maure-de-bretagne",
+      "R3-lyon-parilly",
+      "R4-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-maure-de-bretagne": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-grand-national-des-amateurs.html",
+        "R1C3-prix-du-bar-pmu-au-che-val-d-anast.html",
+        "R1C4-prix-treblec.html",
+        "R1C5-prix-agrial.html",
+        "R1C6-prix-vhbc.html",
+        "R1C7-prix-pigeault-immobilier.html",
+        "R1C8-grand-national-des-jockeys.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-grand-national-des-amateurs.html",
+        "R3C3-prix-du-bar-pmu-au-che-val-d-anast.html",
+        "R3C4-prix-treblec.html",
+        "R3C5-prix-agrial.html",
+        "R3C6-prix-vhbc.html",
+        "R3C7-prix-pigeault-immobilier.html",
+        "R3C8-grand-national-des-jockeys.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-grand-national-des-amateurs.html",
+        "R4C3-prix-du-bar-pmu-au-che-val-d-anast.html",
+        "R4C4-prix-treblec.html",
+        "R4C5-prix-agrial.html",
+        "R4C6-prix-vhbc.html",
+        "R4C7-prix-pigeault-immobilier.html",
+        "R4C8-grand-national-des-jockeys.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:16.605343Z"
+}

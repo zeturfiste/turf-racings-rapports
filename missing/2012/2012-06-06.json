@@ -1,0 +1,66 @@
+{
+  "date": "2012-06-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-06",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-06/2012-06-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-06/R1-laval/R1C1-grand-national-du-trot-6eme-etape.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R1-laval/R1C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R1-laval/R1C8-prix-baron-guy-de-meynard.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R2-la-teste-de-buch/R2C1-grand-national-du-trot-6eme-etape.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R2-la-teste-de-buch/R2C4-prix-albert-viel.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C2-prix-du-conseil-regional-des-pays-de-loire.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C4-prix-albert-viel.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C5-prix-de-la-recherche-medicale.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C6-6eme-etape-du-grand-national-des-amateurs.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C7-prix-henri-desmontils.html",
+      "resultats-et-rapports/2012/06/2012-06-06/R3-maisons-laffitte/R3C8-prix-baron-guy-de-meynard.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R2-la-teste-de-buch",
+      "R3-maisons-laffitte"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-national-du-trot-6eme-etape.html",
+        "R1C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R1C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R1C4-prix-albert-viel.html",
+        "R1C5-prix-de-la-recherche-medicale.html",
+        "R1C6-6eme-etape-du-grand-national-des-amateurs.html",
+        "R1C7-prix-henri-desmontils.html",
+        "R1C8-prix-baron-guy-de-meynard.html"
+      ],
+      "R2-la-teste-de-buch": [
+        "R2C1-grand-national-du-trot-6eme-etape.html",
+        "R2C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R2C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R2C4-prix-albert-viel.html",
+        "R2C5-prix-de-la-recherche-medicale.html",
+        "R2C6-6eme-etape-du-grand-national-des-amateurs.html",
+        "R2C7-prix-henri-desmontils.html",
+        "R2C8-prix-baron-guy-de-meynard.html"
+      ],
+      "R3-maisons-laffitte": [
+        "R3C1-grand-national-du-trot-6eme-etape.html",
+        "R3C2-prix-du-conseil-regional-des-pays-de-loire.html",
+        "R3C3-prix-jean-de-la-vaissiere-de-lavergne.html",
+        "R3C4-prix-albert-viel.html",
+        "R3C5-prix-de-la-recherche-medicale.html",
+        "R3C6-6eme-etape-du-grand-national-des-amateurs.html",
+        "R3C7-prix-henri-desmontils.html",
+        "R3C8-prix-baron-guy-de-meynard.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:22.404199Z"
+}

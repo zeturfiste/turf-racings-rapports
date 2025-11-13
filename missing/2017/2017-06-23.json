@@ -1,0 +1,121 @@
+{
+  "date": "2017-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-23",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-23/2017-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-23/R1-vincennes/R1C3-prix-sappho.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R1-vincennes/R1C5-prix-hygica.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R1-vincennes/R1C6-prix-echo.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R3-la-teste-de-buch/R3C4-prix-mutus.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R3-la-teste-de-buch/R3C5-prix-hygica.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R4-chantilly/R4C6-prix-echo.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R4-chantilly/R4C7-prix-okda.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R6-marseille-vivaux/R6C2-prix-le-parisien-prix-clementina.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R6-marseille-vivaux/R6C3-prix-sappho.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R6-marseille-vivaux/R6C4-prix-mutus.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C1-prix-lydia.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C2-prix-le-parisien-prix-clementina.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C3-prix-sappho.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C4-prix-mutus.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C5-prix-hygica.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C6-prix-echo.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R8-auteuil/R8C7-prix-okda.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C1-prix-lydia.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C2-prix-le-parisien-prix-clementina.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C4-prix-mutus.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C5-prix-hygica.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C6-prix-echo.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R9-laval/R9C7-prix-okda.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C1-prix-lydia.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C2-prix-le-parisien-prix-clementina.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C3-prix-sappho.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C4-prix-mutus.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C5-prix-hygica.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C6-prix-echo.html",
+      "resultats-et-rapports/2017/06/2017-06-23/R10-toulouse/R10C7-prix-okda.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-la-teste-de-buch",
+      "R4-chantilly",
+      "R6-marseille-vivaux",
+      "R8-auteuil",
+      "R9-laval",
+      "R10-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-lydia.html",
+        "R1C2-prix-le-parisien-prix-clementina.html",
+        "R1C3-prix-sappho.html",
+        "R1C4-prix-mutus.html",
+        "R1C5-prix-hygica.html",
+        "R1C6-prix-echo.html",
+        "R1C7-prix-okda.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-prix-lydia.html",
+        "R3C2-prix-le-parisien-prix-clementina.html",
+        "R3C3-prix-sappho.html",
+        "R3C4-prix-mutus.html",
+        "R3C5-prix-hygica.html",
+        "R3C6-prix-echo.html",
+        "R3C7-prix-okda.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-lydia.html",
+        "R4C2-prix-le-parisien-prix-clementina.html",
+        "R4C3-prix-sappho.html",
+        "R4C4-prix-mutus.html",
+        "R4C5-prix-hygica.html",
+        "R4C6-prix-echo.html",
+        "R4C7-prix-okda.html"
+      ],
+      "R6-marseille-vivaux": [
+        "R6C1-prix-lydia.html",
+        "R6C2-prix-le-parisien-prix-clementina.html",
+        "R6C3-prix-sappho.html",
+        "R6C4-prix-mutus.html",
+        "R6C5-prix-hygica.html",
+        "R6C6-prix-echo.html",
+        "R6C7-prix-okda.html"
+      ],
+      "R8-auteuil": [
+        "R8C1-prix-lydia.html",
+        "R8C2-prix-le-parisien-prix-clementina.html",
+        "R8C3-prix-sappho.html",
+        "R8C4-prix-mutus.html",
+        "R8C5-prix-hygica.html",
+        "R8C6-prix-echo.html",
+        "R8C7-prix-okda.html"
+      ],
+      "R9-laval": [
+        "R9C1-prix-lydia.html",
+        "R9C2-prix-le-parisien-prix-clementina.html",
+        "R9C3-prix-sappho.html",
+        "R9C4-prix-mutus.html",
+        "R9C5-prix-hygica.html",
+        "R9C6-prix-echo.html",
+        "R9C7-prix-okda.html"
+      ],
+      "R10-toulouse": [
+        "R10C1-prix-lydia.html",
+        "R10C2-prix-le-parisien-prix-clementina.html",
+        "R10C3-prix-sappho.html",
+        "R10C4-prix-mutus.html",
+        "R10C5-prix-hygica.html",
+        "R10C6-prix-echo.html",
+        "R10C7-prix-okda.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:45.259884Z"
+}

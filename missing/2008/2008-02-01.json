@@ -1,0 +1,106 @@
+{
+  "date": "2008-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2008/02/2008-02-01",
+    "date_html": "resultats-et-rapports/2008/02/2008-02-01/2008-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2008/02/2008-02-01/R1-pau/R1C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R1-pau/R1C2-prix-d-hendaye.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R1-pau/R1C5-prix-fernand-roy.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R1-pau/R1C6-121eme-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C2-prix-d-hendaye.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C3-prix-guy-lefrant.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C5-prix-fernand-roy.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C7-prix-arthur-d-este.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R2-cagnes-sur-mer/R2C8-prix-d-espelette.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C2-prix-d-hendaye.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C3-prix-guy-lefrant.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C6-121eme-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C7-prix-arthur-d-este.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R31-zerace/R31C8-prix-d-espelette.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C2-prix-d-hendaye.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C3-prix-guy-lefrant.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C5-prix-fernand-roy.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C6-121eme-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C7-prix-arthur-d-este.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R70-la-meinau-strasbourg/R70C8-prix-d-espelette.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R71-stade-jules-deschaseaux-le-havre/R71C3-prix-guy-lefrant.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R71-stade-jules-deschaseaux-le-havre/R71C4-prix-camille-duboscq.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R71-stade-jules-deschaseaux-le-havre/R71C6-121eme-grande-course-de-haies-de-pau.html",
+      "resultats-et-rapports/2008/02/2008-02-01/R71-stade-jules-deschaseaux-le-havre/R71C8-prix-d-espelette.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-cagnes-sur-mer",
+      "R31-zerace",
+      "R70-la-meinau-strasbourg",
+      "R71-stade-jules-deschaseaux-le-havre"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R1C2-prix-d-hendaye.html",
+        "R1C3-prix-guy-lefrant.html",
+        "R1C4-prix-camille-duboscq.html",
+        "R1C5-prix-fernand-roy.html",
+        "R1C6-121eme-grande-course-de-haies-de-pau.html",
+        "R1C7-prix-arthur-d-este.html",
+        "R1C8-prix-d-espelette.html"
+      ],
+      "R2-cagnes-sur-mer": [
+        "R2C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R2C2-prix-d-hendaye.html",
+        "R2C3-prix-guy-lefrant.html",
+        "R2C4-prix-camille-duboscq.html",
+        "R2C5-prix-fernand-roy.html",
+        "R2C6-121eme-grande-course-de-haies-de-pau.html",
+        "R2C7-prix-arthur-d-este.html",
+        "R2C8-prix-d-espelette.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R31C2-prix-d-hendaye.html",
+        "R31C3-prix-guy-lefrant.html",
+        "R31C4-prix-camille-duboscq.html",
+        "R31C5-prix-fernand-roy.html",
+        "R31C6-121eme-grande-course-de-haies-de-pau.html",
+        "R31C7-prix-arthur-d-este.html",
+        "R31C8-prix-d-espelette.html"
+      ],
+      "R70-la-meinau-strasbourg": [
+        "R70C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R70C2-prix-d-hendaye.html",
+        "R70C3-prix-guy-lefrant.html",
+        "R70C4-prix-camille-duboscq.html",
+        "R70C5-prix-fernand-roy.html",
+        "R70C6-121eme-grande-course-de-haies-de-pau.html",
+        "R70C7-prix-arthur-d-este.html",
+        "R70C8-prix-d-espelette.html"
+      ],
+      "R71-stade-jules-deschaseaux-le-havre": [
+        "R71C1-prix-casino-de-pau-groupe-tranchant-prix-annie-hutton.html",
+        "R71C2-prix-d-hendaye.html",
+        "R71C3-prix-guy-lefrant.html",
+        "R71C4-prix-camille-duboscq.html",
+        "R71C5-prix-fernand-roy.html",
+        "R71C6-121eme-grande-course-de-haies-de-pau.html",
+        "R71C7-prix-arthur-d-este.html",
+        "R71C8-prix-d-espelette.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:56.074540Z"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2025-09-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-10",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-10/2025-09-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-10/R3-compiegne/R3C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C1-9eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C4-prix-cafe-du-centre-meslay.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C5-prix-fiteco.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C6-prix-du-credit-mutuel.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C7-prix-cosnet-industrie.html",
+      "resultats-et-rapports/2025/09/2025-09-10/R4-mont-de-marsan/R4C8-prix-groupe-romet.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-meslay-du-maine",
+      "R3-compiegne",
+      "R4-mont-de-marsan"
+    ],
+    "courses_by_reunion": {
+      "R1-meslay-du-maine": [
+        "R1C1-9eme-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-du-departement-de-la-mayenne.html",
+        "R1C3-prix-leclerc-chateau-gontier.html",
+        "R1C4-prix-cafe-du-centre-meslay.html",
+        "R1C5-prix-fiteco.html",
+        "R1C6-prix-du-credit-mutuel.html",
+        "R1C7-prix-cosnet-industrie.html",
+        "R1C8-prix-groupe-romet.html"
+      ],
+      "R3-compiegne": [
+        "R3C1-9eme-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-du-departement-de-la-mayenne.html",
+        "R3C3-prix-leclerc-chateau-gontier.html",
+        "R3C4-prix-cafe-du-centre-meslay.html",
+        "R3C5-prix-fiteco.html",
+        "R3C6-prix-du-credit-mutuel.html",
+        "R3C7-prix-cosnet-industrie.html",
+        "R3C8-prix-groupe-romet.html"
+      ],
+      "R4-mont-de-marsan": [
+        "R4C1-9eme-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-du-departement-de-la-mayenne.html",
+        "R4C3-prix-leclerc-chateau-gontier.html",
+        "R4C4-prix-cafe-du-centre-meslay.html",
+        "R4C5-prix-fiteco.html",
+        "R4C6-prix-du-credit-mutuel.html",
+        "R4C7-prix-cosnet-industrie.html",
+        "R4C8-prix-groupe-romet.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:09.937291Z"
+}

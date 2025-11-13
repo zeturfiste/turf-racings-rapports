@@ -1,0 +1,105 @@
+{
+  "date": "2006-09-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/09/2006-09-20",
+    "date_html": "resultats-et-rapports/2006/09/2006-09-20/2006-09-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/09/2006-09-20/R22-stadio-olimpico-rome/R22C6-prix-sono-plus-video.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C1-prix-geny-courses-36-01.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C3-prix-bar-pmu-de-rivery.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C4-grand-prix-federation-regionale-du-nord.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C5-prix-servia-informatique.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C7-prix-bar-pmu-de-longueau.html",
+      "resultats-et-rapports/2006/09/2006-09-20/R31-parc-des-princes-paris/R31C8-prix-des-ets-mcm-martins.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R2-auteuil",
+      "R11-amiens",
+      "R20-nungesser-valenciennes",
+      "R21-zerace",
+      "R22-stadio-olimpico-rome",
+      "R31-parc-des-princes-paris"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-prix-geny-courses-36-01.html",
+        "R1C2-prix-france-boissons.html",
+        "R1C3-prix-bar-pmu-de-rivery.html",
+        "R1C4-grand-prix-federation-regionale-du-nord.html",
+        "R1C5-prix-servia-informatique.html",
+        "R1C6-prix-sono-plus-video.html",
+        "R1C7-prix-bar-pmu-de-longueau.html",
+        "R1C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-geny-courses-36-01.html",
+        "R2C2-prix-france-boissons.html",
+        "R2C3-prix-bar-pmu-de-rivery.html",
+        "R2C4-grand-prix-federation-regionale-du-nord.html",
+        "R2C5-prix-servia-informatique.html",
+        "R2C6-prix-sono-plus-video.html",
+        "R2C7-prix-bar-pmu-de-longueau.html",
+        "R2C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R11-amiens": [
+        "R11C1-prix-geny-courses-36-01.html",
+        "R11C2-prix-france-boissons.html",
+        "R11C3-prix-bar-pmu-de-rivery.html",
+        "R11C4-grand-prix-federation-regionale-du-nord.html",
+        "R11C5-prix-servia-informatique.html",
+        "R11C6-prix-sono-plus-video.html",
+        "R11C7-prix-bar-pmu-de-longueau.html",
+        "R11C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R20-nungesser-valenciennes": [
+        "R20C1-prix-geny-courses-36-01.html",
+        "R20C2-prix-france-boissons.html",
+        "R20C3-prix-bar-pmu-de-rivery.html",
+        "R20C4-grand-prix-federation-regionale-du-nord.html",
+        "R20C5-prix-servia-informatique.html",
+        "R20C6-prix-sono-plus-video.html",
+        "R20C7-prix-bar-pmu-de-longueau.html",
+        "R20C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R21-zerace": [
+        "R21C1-prix-geny-courses-36-01.html",
+        "R21C2-prix-france-boissons.html",
+        "R21C3-prix-bar-pmu-de-rivery.html",
+        "R21C4-grand-prix-federation-regionale-du-nord.html",
+        "R21C5-prix-servia-informatique.html",
+        "R21C6-prix-sono-plus-video.html",
+        "R21C7-prix-bar-pmu-de-longueau.html",
+        "R21C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R22-stadio-olimpico-rome": [
+        "R22C1-prix-geny-courses-36-01.html",
+        "R22C2-prix-france-boissons.html",
+        "R22C3-prix-bar-pmu-de-rivery.html",
+        "R22C4-grand-prix-federation-regionale-du-nord.html",
+        "R22C5-prix-servia-informatique.html",
+        "R22C6-prix-sono-plus-video.html",
+        "R22C7-prix-bar-pmu-de-longueau.html",
+        "R22C8-prix-des-ets-mcm-martins.html"
+      ],
+      "R31-parc-des-princes-paris": [
+        "R31C1-prix-geny-courses-36-01.html",
+        "R31C2-prix-france-boissons.html",
+        "R31C3-prix-bar-pmu-de-rivery.html",
+        "R31C4-grand-prix-federation-regionale-du-nord.html",
+        "R31C5-prix-servia-informatique.html",
+        "R31C6-prix-sono-plus-video.html",
+        "R31C7-prix-bar-pmu-de-longueau.html",
+        "R31C8-prix-des-ets-mcm-martins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:25:05.928791Z"
+}

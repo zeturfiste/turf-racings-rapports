@@ -1,0 +1,77 @@
+{
+  "date": "2011-04-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/04/2011-04-01",
+    "date_html": "resultats-et-rapports/2011/04/2011-04-01/2011-04-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C1-prix-des-trois-pignons.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C4-prix-de-dammarie-les-lys.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C5-prix-de-montereau.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C6-prix-des-ormes.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C7-prix-des-frenes.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R1-fontainebleau/R1C8-prix-de-la-malmontagne.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R2-lyon-la-soie/R2C1-prix-des-trois-pignons.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R3-salon-de-provence/R3C2-prix-de-meaux.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R4-vincennes/R4C2-prix-de-meaux.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R4-vincennes/R4C3-prix-cor-de-chasse.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R4-vincennes/R4C4-prix-de-dammarie-les-lys.html",
+      "resultats-et-rapports/2011/04/2011-04-01/R4-vincennes/R4C6-prix-des-ormes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-fontainebleau",
+      "R2-lyon-la-soie",
+      "R3-salon-de-provence",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-fontainebleau": [
+        "R1C1-prix-des-trois-pignons.html",
+        "R1C2-prix-de-meaux.html",
+        "R1C3-prix-cor-de-chasse.html",
+        "R1C4-prix-de-dammarie-les-lys.html",
+        "R1C5-prix-de-montereau.html",
+        "R1C6-prix-des-ormes.html",
+        "R1C7-prix-des-frenes.html",
+        "R1C8-prix-de-la-malmontagne.html"
+      ],
+      "R2-lyon-la-soie": [
+        "R2C1-prix-des-trois-pignons.html",
+        "R2C2-prix-de-meaux.html",
+        "R2C3-prix-cor-de-chasse.html",
+        "R2C4-prix-de-dammarie-les-lys.html",
+        "R2C5-prix-de-montereau.html",
+        "R2C6-prix-des-ormes.html",
+        "R2C7-prix-des-frenes.html",
+        "R2C8-prix-de-la-malmontagne.html"
+      ],
+      "R3-salon-de-provence": [
+        "R3C1-prix-des-trois-pignons.html",
+        "R3C2-prix-de-meaux.html",
+        "R3C3-prix-cor-de-chasse.html",
+        "R3C4-prix-de-dammarie-les-lys.html",
+        "R3C5-prix-de-montereau.html",
+        "R3C6-prix-des-ormes.html",
+        "R3C7-prix-des-frenes.html",
+        "R3C8-prix-de-la-malmontagne.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-des-trois-pignons.html",
+        "R4C2-prix-de-meaux.html",
+        "R4C3-prix-cor-de-chasse.html",
+        "R4C4-prix-de-dammarie-les-lys.html",
+        "R4C5-prix-de-montereau.html",
+        "R4C6-prix-des-ormes.html",
+        "R4C7-prix-des-frenes.html",
+        "R4C8-prix-de-la-malmontagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:19.677766Z"
+}

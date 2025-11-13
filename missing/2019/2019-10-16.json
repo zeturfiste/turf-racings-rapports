@@ -1,0 +1,59 @@
+{
+  "date": "2019-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-16",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-16/2019-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-16/R1-feurs/R1C7-prix-conseil-departemental-de-la-loire.html",
+      "resultats-et-rapports/2019/10/2019-10-16/R2-saint-cloud/R2C3-prix-de-la-ville-de-feurs.html",
+      "resultats-et-rapports/2019/10/2019-10-16/R2-saint-cloud/R2C8-prix-du-credit-mutuel-loire-sud.html",
+      "resultats-et-rapports/2019/10/2019-10-16/R4-les-sables-d-olonne/R4C2-prix-claire-carrelage.html",
+      "resultats-et-rapports/2019/10/2019-10-16/R4-les-sables-d-olonne/R4C3-prix-de-la-ville-de-feurs.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-feurs",
+      "R2-saint-cloud",
+      "R4-les-sables-d-olonne"
+    ],
+    "courses_by_reunion": {
+      "R1-feurs": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-claire-carrelage.html",
+        "R1C3-prix-de-la-ville-de-feurs.html",
+        "R1C4-prix-du-bar-pmu-le-galop-in-feurs.html",
+        "R1C5-prix-ergalis.html",
+        "R1C6-prix-micholet-metallerie.html",
+        "R1C7-prix-conseil-departemental-de-la-loire.html",
+        "R1C8-prix-du-credit-mutuel-loire-sud.html"
+      ],
+      "R2-saint-cloud": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-claire-carrelage.html",
+        "R2C3-prix-de-la-ville-de-feurs.html",
+        "R2C4-prix-du-bar-pmu-le-galop-in-feurs.html",
+        "R2C5-prix-ergalis.html",
+        "R2C6-prix-micholet-metallerie.html",
+        "R2C7-prix-conseil-departemental-de-la-loire.html",
+        "R2C8-prix-du-credit-mutuel-loire-sud.html"
+      ],
+      "R4-les-sables-d-olonne": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-claire-carrelage.html",
+        "R4C3-prix-de-la-ville-de-feurs.html",
+        "R4C4-prix-du-bar-pmu-le-galop-in-feurs.html",
+        "R4C5-prix-ergalis.html",
+        "R4C6-prix-micholet-metallerie.html",
+        "R4C7-prix-conseil-departemental-de-la-loire.html",
+        "R4C8-prix-du-credit-mutuel-loire-sud.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:14.154510Z"
+}

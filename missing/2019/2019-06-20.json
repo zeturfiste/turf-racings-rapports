@@ -1,0 +1,70 @@
+{
+  "date": "2019-06-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-20",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-20/2019-06-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-20/R2-mauquenchy/R2C6-prix-du-bassin-d-arcachon-sabt.html",
+      "resultats-et-rapports/2019/06/2019-06-20/R3-auteuil/R3C1-prix-nissan-ags.html",
+      "resultats-et-rapports/2019/06/2019-06-20/R3-auteuil/R3C5-prix-century-21-duprat-donnesse.html",
+      "resultats-et-rapports/2019/06/2019-06-20/R4-vichy/R4C2-prix-foie-gras-biraben.html",
+      "resultats-et-rapports/2019/06/2019-06-20/R4-vichy/R4C6-prix-du-bassin-d-arcachon-sabt.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-teste-de-buch",
+      "R2-mauquenchy",
+      "R3-auteuil",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-la-teste-de-buch": [
+        "R1C1-prix-nissan-ags.html",
+        "R1C2-prix-foie-gras-biraben.html",
+        "R1C3-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R1C4-prix-la-sorellina-tattersalls.html",
+        "R1C5-prix-century-21-duprat-donnesse.html",
+        "R1C6-prix-du-bassin-d-arcachon-sabt.html",
+        "R1C7-prix-champagne-duval-leroy.html",
+        "R1C8-prix-banque-courtois.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-nissan-ags.html",
+        "R2C2-prix-foie-gras-biraben.html",
+        "R2C3-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R2C4-prix-la-sorellina-tattersalls.html",
+        "R2C5-prix-century-21-duprat-donnesse.html",
+        "R2C6-prix-du-bassin-d-arcachon-sabt.html",
+        "R2C7-prix-champagne-duval-leroy.html",
+        "R2C8-prix-banque-courtois.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-prix-nissan-ags.html",
+        "R3C2-prix-foie-gras-biraben.html",
+        "R3C3-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R3C4-prix-la-sorellina-tattersalls.html",
+        "R3C5-prix-century-21-duprat-donnesse.html",
+        "R3C6-prix-du-bassin-d-arcachon-sabt.html",
+        "R3C7-prix-champagne-duval-leroy.html",
+        "R3C8-prix-banque-courtois.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-nissan-ags.html",
+        "R4C2-prix-foie-gras-biraben.html",
+        "R4C3-prix-de-la-base-aerienne-120-de-cazaux.html",
+        "R4C4-prix-la-sorellina-tattersalls.html",
+        "R4C5-prix-century-21-duprat-donnesse.html",
+        "R4C6-prix-du-bassin-d-arcachon-sabt.html",
+        "R4C7-prix-champagne-duval-leroy.html",
+        "R4C8-prix-banque-courtois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:33.280483Z"
+}

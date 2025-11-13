@@ -1,0 +1,85 @@
+{
+  "date": "2015-03-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-13",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-13/2015-03-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-13/R1-caen/R1C3-prix-de-canapville.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R1-caen/R1C6-prix-de-puchay.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R1-caen/R1C7-prix-de-saint-wandrille.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C1-prix-de-cauvicourt.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C2-prix-de-luc-sur-mer.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C3-prix-de-canapville.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C4-prix-de-sourdeval.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C5-prix-de-berville.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C6-prix-de-puchay.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R2-chantilly/R2C7-prix-de-saint-wandrille.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R3-cagnes-sur-mer/R3C1-prix-de-cauvicourt.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R3-cagnes-sur-mer/R3C2-prix-de-luc-sur-mer.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R3-cagnes-sur-mer/R3C4-prix-de-sourdeval.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C2-prix-de-luc-sur-mer.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C3-prix-de-canapville.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C4-prix-de-sourdeval.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C5-prix-de-berville.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C6-prix-de-puchay.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C7-prix-de-saint-wandrille.html",
+      "resultats-et-rapports/2015/03/2015-03-13/R6-lyon-la-soie/R6C8-prix-de-frenouville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-chantilly",
+      "R3-cagnes-sur-mer",
+      "R6-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-de-cauvicourt.html",
+        "R1C2-prix-de-luc-sur-mer.html",
+        "R1C3-prix-de-canapville.html",
+        "R1C4-prix-de-sourdeval.html",
+        "R1C5-prix-de-berville.html",
+        "R1C6-prix-de-puchay.html",
+        "R1C7-prix-de-saint-wandrille.html",
+        "R1C8-prix-de-frenouville.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-de-cauvicourt.html",
+        "R2C2-prix-de-luc-sur-mer.html",
+        "R2C3-prix-de-canapville.html",
+        "R2C4-prix-de-sourdeval.html",
+        "R2C5-prix-de-berville.html",
+        "R2C6-prix-de-puchay.html",
+        "R2C7-prix-de-saint-wandrille.html",
+        "R2C8-prix-de-frenouville.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-de-cauvicourt.html",
+        "R3C2-prix-de-luc-sur-mer.html",
+        "R3C3-prix-de-canapville.html",
+        "R3C4-prix-de-sourdeval.html",
+        "R3C5-prix-de-berville.html",
+        "R3C6-prix-de-puchay.html",
+        "R3C7-prix-de-saint-wandrille.html",
+        "R3C8-prix-de-frenouville.html"
+      ],
+      "R6-lyon-la-soie": [
+        "R6C1-prix-de-cauvicourt.html",
+        "R6C2-prix-de-luc-sur-mer.html",
+        "R6C3-prix-de-canapville.html",
+        "R6C4-prix-de-sourdeval.html",
+        "R6C5-prix-de-berville.html",
+        "R6C6-prix-de-puchay.html",
+        "R6C7-prix-de-saint-wandrille.html",
+        "R6C8-prix-de-frenouville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:28.386500Z"
+}

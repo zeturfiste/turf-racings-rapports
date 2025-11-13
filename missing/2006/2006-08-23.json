@@ -1,0 +1,64 @@
+{
+  "date": "2006-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-23",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-23/2006-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-clairefontaine",
+      "R3-york",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-chateau-du-loir.html",
+        "R1C2-prix-d-antibes.html",
+        "R1C3-prix-de-toulon.html",
+        "R1C4-prix-jockey.html",
+        "R1C5-prix-herve-ceran-maillard.html",
+        "R1C6-prix-de-noailles.html",
+        "R1C7-prix-d-ecommoy.html",
+        "R1C8-prix-de-l-allier.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-chateau-du-loir.html",
+        "R2C2-prix-d-antibes.html",
+        "R2C3-prix-de-toulon.html",
+        "R2C4-prix-jockey.html",
+        "R2C5-prix-herve-ceran-maillard.html",
+        "R2C6-prix-de-noailles.html",
+        "R2C7-prix-d-ecommoy.html",
+        "R2C8-prix-de-l-allier.html"
+      ],
+      "R3-york": [
+        "R3C1-prix-de-chateau-du-loir.html",
+        "R3C2-prix-d-antibes.html",
+        "R3C3-prix-de-toulon.html",
+        "R3C4-prix-jockey.html",
+        "R3C5-prix-herve-ceran-maillard.html",
+        "R3C6-prix-de-noailles.html",
+        "R3C7-prix-d-ecommoy.html",
+        "R3C8-prix-de-l-allier.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-de-chateau-du-loir.html",
+        "R5C2-prix-d-antibes.html",
+        "R5C3-prix-de-toulon.html",
+        "R5C4-prix-jockey.html",
+        "R5C5-prix-herve-ceran-maillard.html",
+        "R5C6-prix-de-noailles.html",
+        "R5C7-prix-d-ecommoy.html",
+        "R5C8-prix-de-l-allier.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:58.731515Z"
+}

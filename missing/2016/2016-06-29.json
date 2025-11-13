@@ -1,0 +1,83 @@
+{
+  "date": "2016-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2016/06/2016-06-29",
+    "date_html": "resultats-et-rapports/2016/06/2016-06-29/2016-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C2-prix-prince-bio.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C3-prix-caracalla.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C4-prix-rose-royale.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C5-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C6-prix-astronomie.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C7-prix-cricket-ball.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R1-maisons-laffitte/R1C8-prix-de-la-foret-de-marly.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R3-marseille-borely/R3C1-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R3-marseille-borely/R3C2-prix-prince-bio.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R3-marseille-borely/R3C5-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R3-marseille-borely/R3C6-prix-astronomie.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R4-laval/R4C2-prix-prince-bio.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R4-laval/R4C3-prix-caracalla.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R4-laval/R4C5-prix-de-ris-orangis.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R4-laval/R4C6-prix-astronomie.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R4-laval/R4C7-prix-cricket-ball.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R5-argentan/R5C1-prix-de-la-foret-de-saint-germain.html",
+      "resultats-et-rapports/2016/06/2016-06-29/R5-argentan/R5C2-prix-prince-bio.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R3-marseille-borely",
+      "R4-laval",
+      "R5-argentan"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-de-la-foret-de-saint-germain.html",
+        "R1C2-prix-prince-bio.html",
+        "R1C3-prix-caracalla.html",
+        "R1C4-prix-rose-royale.html",
+        "R1C5-prix-de-ris-orangis.html",
+        "R1C6-prix-astronomie.html",
+        "R1C7-prix-cricket-ball.html",
+        "R1C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-de-la-foret-de-saint-germain.html",
+        "R3C2-prix-prince-bio.html",
+        "R3C3-prix-caracalla.html",
+        "R3C4-prix-rose-royale.html",
+        "R3C5-prix-de-ris-orangis.html",
+        "R3C6-prix-astronomie.html",
+        "R3C7-prix-cricket-ball.html",
+        "R3C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-de-la-foret-de-saint-germain.html",
+        "R4C2-prix-prince-bio.html",
+        "R4C3-prix-caracalla.html",
+        "R4C4-prix-rose-royale.html",
+        "R4C5-prix-de-ris-orangis.html",
+        "R4C6-prix-astronomie.html",
+        "R4C7-prix-cricket-ball.html",
+        "R4C8-prix-de-la-foret-de-marly.html"
+      ],
+      "R5-argentan": [
+        "R5C1-prix-de-la-foret-de-saint-germain.html",
+        "R5C2-prix-prince-bio.html",
+        "R5C3-prix-caracalla.html",
+        "R5C4-prix-rose-royale.html",
+        "R5C5-prix-de-ris-orangis.html",
+        "R5C6-prix-astronomie.html",
+        "R5C7-prix-cricket-ball.html",
+        "R5C8-prix-de-la-foret-de-marly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:45:56.954512Z"
+}

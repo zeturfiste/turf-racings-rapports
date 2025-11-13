@@ -1,0 +1,88 @@
+{
+  "date": "2012-06-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/06/2012-06-29",
+    "date_html": "resultats-et-rapports/2012/06/2012-06-29/2012-06-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/06/2012-06-29/R1-clairefontaine/R1C6-prix-station-services-bp-prix-des-cosmos.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R1-clairefontaine/R1C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R1-clairefontaine/R1C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R2-vichy/R2C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R3-vincennes/R3C2-prix-du-journal-geny-courses-prix-les-ouvres.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R3-vincennes/R3C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R3-vincennes/R3C6-prix-station-services-bp-prix-des-cosmos.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R3-vincennes/R3C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R3-vincennes/R3C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C5-prix-deauville-aime-le-cheval-prix-des-forsythias.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C6-prix-station-services-bp-prix-des-cosmos.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+      "resultats-et-rapports/2012/06/2012-06-29/R5-graignes/R5C9-prix-de-la-ville-de-lisieux-prix-de-la-claire.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-vichy",
+      "R3-vincennes",
+      "R5-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-de-la-digue-de-villers-sur-mer-prix-du-douet.html",
+        "R1C2-prix-du-journal-geny-courses-prix-les-ouvres.html",
+        "R1C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+        "R1C4-prix-du-grand-manege-pole-international-du-cheval-prix-les-ouvres.html",
+        "R1C5-prix-deauville-aime-le-cheval-prix-des-forsythias.html",
+        "R1C6-prix-station-services-bp-prix-des-cosmos.html",
+        "R1C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+        "R1C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+        "R1C9-prix-de-la-ville-de-lisieux-prix-de-la-claire.html",
+        "R1C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R2-vichy": [
+        "R2C1-prix-de-la-digue-de-villers-sur-mer-prix-du-douet.html",
+        "R2C2-prix-du-journal-geny-courses-prix-les-ouvres.html",
+        "R2C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+        "R2C4-prix-du-grand-manege-pole-international-du-cheval-prix-les-ouvres.html",
+        "R2C5-prix-deauville-aime-le-cheval-prix-des-forsythias.html",
+        "R2C6-prix-station-services-bp-prix-des-cosmos.html",
+        "R2C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+        "R2C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+        "R2C9-prix-de-la-ville-de-lisieux-prix-de-la-claire.html",
+        "R2C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-la-digue-de-villers-sur-mer-prix-du-douet.html",
+        "R3C2-prix-du-journal-geny-courses-prix-les-ouvres.html",
+        "R3C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+        "R3C4-prix-du-grand-manege-pole-international-du-cheval-prix-les-ouvres.html",
+        "R3C5-prix-deauville-aime-le-cheval-prix-des-forsythias.html",
+        "R3C6-prix-station-services-bp-prix-des-cosmos.html",
+        "R3C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+        "R3C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+        "R3C9-prix-de-la-ville-de-lisieux-prix-de-la-claire.html",
+        "R3C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html"
+      ],
+      "R5-graignes": [
+        "R5C1-prix-de-la-digue-de-villers-sur-mer-prix-du-douet.html",
+        "R5C2-prix-du-journal-geny-courses-prix-les-ouvres.html",
+        "R5C3-prix-du-lycee-paul-cornu-de-lisieux-prix-du-douet.html",
+        "R5C4-prix-du-grand-manege-pole-international-du-cheval-prix-les-ouvres.html",
+        "R5C5-prix-deauville-aime-le-cheval-prix-des-forsythias.html",
+        "R5C6-prix-station-services-bp-prix-des-cosmos.html",
+        "R5C7-prix-du-cidre-pays-d-auge-prix-de-la-pointe-du-hoc.html",
+        "R5C8-prix-pommeau-de-normandie-prix-de-la-pointe-de-la-percee.html",
+        "R5C9-prix-de-la-ville-de-lisieux-prix-de-la-claire.html",
+        "R5C10-prix-du-lycee-jean-jooris-de-dives-mer-prix-du-chemin-de-l-hippodrome.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:29.345349Z"
+}

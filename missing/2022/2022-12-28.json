@@ -1,0 +1,65 @@
+{
+  "date": "2022-12-28",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/12/2022-12-28",
+    "date_html": "resultats-et-rapports/2022/12/2022-12-28/2022-12-28.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C2-prix-de-la-bretagne.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C3-prix-du-pays-de-loire.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C4-prix-de-la-picardie.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C5-prix-du-cap-camarat.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C6-prix-de-la-vendee.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R1-cagnes-sur-mer/R1C7-prix-henri-veran.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R3-pornichet-la-baule/R3C3-prix-du-pays-de-loire.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R3-pornichet-la-baule/R3C5-prix-du-cap-camarat.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R3-pornichet-la-baule/R3C6-prix-de-la-vendee.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R3-pornichet-la-baule/R3C7-prix-henri-veran.html",
+      "resultats-et-rapports/2022/12/2022-12-28/R3-pornichet-la-baule/R3C8-prix-de-la-bourgogne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-pontchateau",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-goodea.html",
+        "R1C2-prix-de-la-bretagne.html",
+        "R1C3-prix-du-pays-de-loire.html",
+        "R1C4-prix-de-la-picardie.html",
+        "R1C5-prix-du-cap-camarat.html",
+        "R1C6-prix-de-la-vendee.html",
+        "R1C7-prix-henri-veran.html",
+        "R1C8-prix-de-la-bourgogne.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-goodea.html",
+        "R2C2-prix-de-la-bretagne.html",
+        "R2C3-prix-du-pays-de-loire.html",
+        "R2C4-prix-de-la-picardie.html",
+        "R2C5-prix-du-cap-camarat.html",
+        "R2C6-prix-de-la-vendee.html",
+        "R2C7-prix-henri-veran.html",
+        "R2C8-prix-de-la-bourgogne.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-goodea.html",
+        "R3C2-prix-de-la-bretagne.html",
+        "R3C3-prix-du-pays-de-loire.html",
+        "R3C4-prix-de-la-picardie.html",
+        "R3C5-prix-du-cap-camarat.html",
+        "R3C6-prix-de-la-vendee.html",
+        "R3C7-prix-henri-veran.html",
+        "R3C8-prix-de-la-bourgogne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:02.402798Z"
+}

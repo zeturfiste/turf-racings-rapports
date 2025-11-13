@@ -1,0 +1,79 @@
+{
+  "date": "2012-08-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/08/2012-08-23",
+    "date_html": "resultats-et-rapports/2012/08/2012-08-23/2012-08-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/08/2012-08-23/R1-clairefontaine/R1C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R1-clairefontaine/R1C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R1-clairefontaine/R1C9-prix-assoc-proprietaires-des-chevaux-de-l-est-prix-des-bignones.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C2-prix-synd-nat-des-proprietaires-de-chevaux-courses-au-galop-prix-de-tourgeville.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C4-prix-assoc-proprietaires-chevaux-basse-normandie-prix-des-lavateres.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C5-prix-assoc-des-proprietaires-de-chevaux-de-l-ouest-apgo-grand-steeple-chase.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C7-prix-assoc-proprietaires-chevaux-du-centre-est-prix-des-buveurs-d-air.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C8-prix-assoc-proprietaires-chevaux-du-sud-ouest-prix-de-la-cressonniere.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C9-prix-assoc-proprietaires-des-chevaux-de-l-est-prix-des-bignones.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R2-mauquenchy/R2C10-prix-assoc-proprietaires-chevaux-du-sud-est-corse-prix-de-la-mare-aux-canards.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C2-prix-synd-nat-des-proprietaires-de-chevaux-courses-au-galop-prix-de-tourgeville.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C4-prix-assoc-proprietaires-chevaux-basse-normandie-prix-des-lavateres.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C5-prix-assoc-des-proprietaires-de-chevaux-de-l-ouest-apgo-grand-steeple-chase.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C6-prix-ecole-blondeau-prix-des-roselys.html",
+      "resultats-et-rapports/2012/08/2012-08-23/R3-pornichet-la-baule/R3C8-prix-assoc-proprietaires-chevaux-du-sud-ouest-prix-de-la-cressonniere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-mauquenchy",
+      "R3-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+        "R1C2-prix-synd-nat-des-proprietaires-de-chevaux-courses-au-galop-prix-de-tourgeville.html",
+        "R1C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+        "R1C4-prix-assoc-proprietaires-chevaux-basse-normandie-prix-des-lavateres.html",
+        "R1C5-prix-assoc-des-proprietaires-de-chevaux-de-l-ouest-apgo-grand-steeple-chase.html",
+        "R1C6-prix-ecole-blondeau-prix-des-roselys.html",
+        "R1C7-prix-assoc-proprietaires-chevaux-du-centre-est-prix-des-buveurs-d-air.html",
+        "R1C8-prix-assoc-proprietaires-chevaux-du-sud-ouest-prix-de-la-cressonniere.html",
+        "R1C9-prix-assoc-proprietaires-des-chevaux-de-l-est-prix-des-bignones.html",
+        "R1C10-prix-assoc-proprietaires-chevaux-du-sud-est-corse-prix-de-la-mare-aux-canards.html"
+      ],
+      "R2-mauquenchy": [
+        "R2C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+        "R2C2-prix-synd-nat-des-proprietaires-de-chevaux-courses-au-galop-prix-de-tourgeville.html",
+        "R2C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+        "R2C4-prix-assoc-proprietaires-chevaux-basse-normandie-prix-des-lavateres.html",
+        "R2C5-prix-assoc-des-proprietaires-de-chevaux-de-l-ouest-apgo-grand-steeple-chase.html",
+        "R2C6-prix-ecole-blondeau-prix-des-roselys.html",
+        "R2C7-prix-assoc-proprietaires-chevaux-du-centre-est-prix-des-buveurs-d-air.html",
+        "R2C8-prix-assoc-proprietaires-chevaux-du-sud-ouest-prix-de-la-cressonniere.html",
+        "R2C9-prix-assoc-proprietaires-des-chevaux-de-l-est-prix-des-bignones.html",
+        "R2C10-prix-assoc-proprietaires-chevaux-du-sud-est-corse-prix-de-la-mare-aux-canards.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-assoc-proprietaires-chevaux-idf-nord-haute-normandie-prix-la-risle.html",
+        "R3C2-prix-synd-nat-des-proprietaires-de-chevaux-courses-au-galop-prix-de-tourgeville.html",
+        "R3C3-haras-de-la-hetraie-etalon-apsis-prix-de-glatigny.html",
+        "R3C4-prix-assoc-proprietaires-chevaux-basse-normandie-prix-des-lavateres.html",
+        "R3C5-prix-assoc-des-proprietaires-de-chevaux-de-l-ouest-apgo-grand-steeple-chase.html",
+        "R3C6-prix-ecole-blondeau-prix-des-roselys.html",
+        "R3C7-prix-assoc-proprietaires-chevaux-du-centre-est-prix-des-buveurs-d-air.html",
+        "R3C8-prix-assoc-proprietaires-chevaux-du-sud-ouest-prix-de-la-cressonniere.html",
+        "R3C9-prix-assoc-proprietaires-des-chevaux-de-l-est-prix-des-bignones.html",
+        "R3C10-prix-assoc-proprietaires-chevaux-du-sud-est-corse-prix-de-la-mare-aux-canards.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:46.916437Z"
+}

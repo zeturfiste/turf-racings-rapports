@@ -1,0 +1,82 @@
+{
+  "date": "2023-04-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-29",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-29/2023-04-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-29/R3-le-mans/R3C7-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R3-le-mans/R3C9-prix-le-rheusois.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C1-prix-go-ahead.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C2-prix-amadou.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C3-grande-course-de-haies-de-printemps.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C4-prix-girofla.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C8-prix-maguelonne.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R4-lyon-parilly/R4C9-prix-le-rheusois.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R5-caen/R5C2-prix-amadou.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R5-caen/R5C3-grande-course-de-haies-de-printemps.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R5-caen/R5C4-prix-girofla.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R5-caen/R5C5-prix-des-charentes.html",
+      "resultats-et-rapports/2023/04/2023-04-29/R5-caen/R5C9-prix-le-rheusois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-le-mans",
+      "R4-lyon-parilly",
+      "R5-caen"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-go-ahead.html",
+        "R1C2-prix-amadou.html",
+        "R1C3-grande-course-de-haies-de-printemps.html",
+        "R1C4-prix-girofla.html",
+        "R1C5-prix-des-charentes.html",
+        "R1C6-gsc-masters-prix-ingre.html",
+        "R1C7-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R1C8-prix-maguelonne.html",
+        "R1C9-prix-le-rheusois.html"
+      ],
+      "R3-le-mans": [
+        "R3C1-prix-go-ahead.html",
+        "R3C2-prix-amadou.html",
+        "R3C3-grande-course-de-haies-de-printemps.html",
+        "R3C4-prix-girofla.html",
+        "R3C5-prix-des-charentes.html",
+        "R3C6-gsc-masters-prix-ingre.html",
+        "R3C7-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R3C8-prix-maguelonne.html",
+        "R3C9-prix-le-rheusois.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-go-ahead.html",
+        "R4C2-prix-amadou.html",
+        "R4C3-grande-course-de-haies-de-printemps.html",
+        "R4C4-prix-girofla.html",
+        "R4C5-prix-des-charentes.html",
+        "R4C6-gsc-masters-prix-ingre.html",
+        "R4C7-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R4C8-prix-maguelonne.html",
+        "R4C9-prix-le-rheusois.html"
+      ],
+      "R5-caen": [
+        "R5C1-prix-go-ahead.html",
+        "R5C2-prix-amadou.html",
+        "R5C3-grande-course-de-haies-de-printemps.html",
+        "R5C4-prix-girofla.html",
+        "R5C5-prix-des-charentes.html",
+        "R5C6-gsc-masters-prix-ingre.html",
+        "R5C7-prix-roger-duchene-grand-prix-des-jeunes-jockeys.html",
+        "R5C8-prix-maguelonne.html",
+        "R5C9-prix-le-rheusois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:44.330828Z"
+}

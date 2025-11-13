@@ -1,0 +1,85 @@
+{
+  "date": "2014-10-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2014/10/2014-10-08",
+    "date_html": "resultats-et-rapports/2014/10/2014-10-08/2014-10-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2014/10/2014-10-08/R1-bordeaux-le-bouscat/R1C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R1-bordeaux-le-bouscat/R1C3-prix-de-migron.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R1-bordeaux-le-bouscat/R1C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R1-bordeaux-le-bouscat/R1C5-prix-johnston.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R1-bordeaux-le-bouscat/R1C7-prix-samaritain.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R2-auteuil/R2C1-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R2-auteuil/R2C3-prix-de-migron.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R2-auteuil/R2C5-prix-johnston.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R2-auteuil/R2C6-prix-de-la-ville-du-bouscat.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R2-auteuil/R2C8-prix-colonel-reglade.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R3-enghien-soisy/R3C1-prix-de-la-croix-blanche.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R3-enghien-soisy/R3C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R3-enghien-soisy/R3C3-prix-de-migron.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R3-enghien-soisy/R3C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R3-enghien-soisy/R3C5-prix-johnston.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R6-marseille-borely/R6C3-prix-de-migron.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R6-marseille-borely/R6C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R6-marseille-borely/R6C5-prix-johnston.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R6-marseille-borely/R6C6-prix-de-la-ville-du-bouscat.html",
+      "resultats-et-rapports/2014/10/2014-10-08/R6-marseille-borely/R6C8-prix-colonel-reglade.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-bordeaux-le-bouscat",
+      "R2-auteuil",
+      "R3-enghien-soisy",
+      "R6-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-bordeaux-le-bouscat": [
+        "R1C1-prix-de-la-croix-blanche.html",
+        "R1C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+        "R1C3-prix-de-migron.html",
+        "R1C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+        "R1C5-prix-johnston.html",
+        "R1C6-prix-de-la-ville-du-bouscat.html",
+        "R1C7-prix-samaritain.html",
+        "R1C8-prix-colonel-reglade.html"
+      ],
+      "R2-auteuil": [
+        "R2C1-prix-de-la-croix-blanche.html",
+        "R2C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+        "R2C3-prix-de-migron.html",
+        "R2C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+        "R2C5-prix-johnston.html",
+        "R2C6-prix-de-la-ville-du-bouscat.html",
+        "R2C7-prix-samaritain.html",
+        "R2C8-prix-colonel-reglade.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-croix-blanche.html",
+        "R3C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+        "R3C3-prix-de-migron.html",
+        "R3C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+        "R3C5-prix-johnston.html",
+        "R3C6-prix-de-la-ville-du-bouscat.html",
+        "R3C7-prix-samaritain.html",
+        "R3C8-prix-colonel-reglade.html"
+      ],
+      "R6-marseille-borely": [
+        "R6C1-prix-de-la-croix-blanche.html",
+        "R6C2-prix-haras-de-malleret-balneotherapie-equine-handicap-de-bordeaux.html",
+        "R6C3-prix-de-migron.html",
+        "R6C4-grand-criterium-de-bordeaux-prix-du-hong-kong-jockey-club.html",
+        "R6C5-prix-johnston.html",
+        "R6C6-prix-de-la-ville-du-bouscat.html",
+        "R6C7-prix-samaritain.html",
+        "R6C8-prix-colonel-reglade.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:42:42.865083Z"
+}

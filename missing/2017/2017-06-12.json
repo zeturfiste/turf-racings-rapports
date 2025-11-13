@@ -1,0 +1,104 @@
+{
+  "date": "2017-06-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/06/2017-06-12",
+    "date_html": "resultats-et-rapports/2017/06/2017-06-12/2017-06-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C1-prix-major-fridolin.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C3-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C4-prix-du-grenier-a-sel.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C6-prix-melisande.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C8-prix-d-armenonville.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R4-tarbes/R4C9-prix-de-vaudranpont.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C1-prix-major-fridolin.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C2-prix-de-la-harpe.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C4-prix-du-grenier-a-sel.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C5-prix-ridgway.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C6-prix-melisande.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C7-prix-mackensie-grieves.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C8-prix-d-armenonville.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R5-marseille-vivaux/R5C9-prix-de-vaudranpont.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C1-prix-major-fridolin.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C2-prix-de-la-harpe.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C3-prix-de-la-faisanderie.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C4-prix-du-grenier-a-sel.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C5-prix-ridgway.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C6-prix-melisande.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C7-prix-mackensie-grieves.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C8-prix-d-armenonville.html",
+      "resultats-et-rapports/2017/06/2017-06-12/R6-graignes/R6C9-prix-de-vaudranpont.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-compiegne",
+      "R3-nancy",
+      "R4-tarbes",
+      "R5-marseille-vivaux",
+      "R6-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-compiegne": [
+        "R1C1-prix-major-fridolin.html",
+        "R1C2-prix-de-la-harpe.html",
+        "R1C3-prix-de-la-faisanderie.html",
+        "R1C4-prix-du-grenier-a-sel.html",
+        "R1C5-prix-ridgway.html",
+        "R1C6-prix-melisande.html",
+        "R1C7-prix-mackensie-grieves.html",
+        "R1C8-prix-d-armenonville.html",
+        "R1C9-prix-de-vaudranpont.html"
+      ],
+      "R3-nancy": [
+        "R3C1-prix-major-fridolin.html",
+        "R3C2-prix-de-la-harpe.html",
+        "R3C3-prix-de-la-faisanderie.html",
+        "R3C4-prix-du-grenier-a-sel.html",
+        "R3C5-prix-ridgway.html",
+        "R3C6-prix-melisande.html",
+        "R3C7-prix-mackensie-grieves.html",
+        "R3C8-prix-d-armenonville.html",
+        "R3C9-prix-de-vaudranpont.html"
+      ],
+      "R4-tarbes": [
+        "R4C1-prix-major-fridolin.html",
+        "R4C2-prix-de-la-harpe.html",
+        "R4C3-prix-de-la-faisanderie.html",
+        "R4C4-prix-du-grenier-a-sel.html",
+        "R4C5-prix-ridgway.html",
+        "R4C6-prix-melisande.html",
+        "R4C7-prix-mackensie-grieves.html",
+        "R4C8-prix-d-armenonville.html",
+        "R4C9-prix-de-vaudranpont.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-major-fridolin.html",
+        "R5C2-prix-de-la-harpe.html",
+        "R5C3-prix-de-la-faisanderie.html",
+        "R5C4-prix-du-grenier-a-sel.html",
+        "R5C5-prix-ridgway.html",
+        "R5C6-prix-melisande.html",
+        "R5C7-prix-mackensie-grieves.html",
+        "R5C8-prix-d-armenonville.html",
+        "R5C9-prix-de-vaudranpont.html"
+      ],
+      "R6-graignes": [
+        "R6C1-prix-major-fridolin.html",
+        "R6C2-prix-de-la-harpe.html",
+        "R6C3-prix-de-la-faisanderie.html",
+        "R6C4-prix-du-grenier-a-sel.html",
+        "R6C5-prix-ridgway.html",
+        "R6C6-prix-melisande.html",
+        "R6C7-prix-mackensie-grieves.html",
+        "R6C8-prix-d-armenonville.html",
+        "R6C9-prix-de-vaudranpont.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:41.974089Z"
+}

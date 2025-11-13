@@ -1,0 +1,66 @@
+{
+  "date": "2007-04-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/04/2007-04-26",
+    "date_html": "resultats-et-rapports/2007/04/2007-04-26/2007-04-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/04/2007-04-26/R1-longchamp/R1C1-prix-du-pavillon-royal.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R1-longchamp/R1C2-prix-des-gobelins.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R1-longchamp/R1C4-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R1-longchamp/R1C7-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R2-laval/R2C1-prix-du-pavillon-royal.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R2-laval/R2C4-prix-du-palais-d-art-moderne.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R2-laval/R2C7-prix-du-bord-de-l-eau.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R2-laval/R2C8-prix-du-pavillon-dauphine.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R31-zerace/R31C1-prix-du-pavillon-royal.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R31-zerace/R31C2-prix-des-gobelins.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R31-zerace/R31C6-prix-des-fortifications.html",
+      "resultats-et-rapports/2007/04/2007-04-26/R31-zerace/R31C7-prix-du-bord-de-l-eau.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-laval",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-du-pavillon-royal.html",
+        "R1C2-prix-des-gobelins.html",
+        "R1C3-prix-de-la-celle-saint-cloud.html",
+        "R1C4-prix-du-palais-d-art-moderne.html",
+        "R1C5-prix-de-montretout.html",
+        "R1C6-prix-des-fortifications.html",
+        "R1C7-prix-du-bord-de-l-eau.html",
+        "R1C8-prix-du-pavillon-dauphine.html"
+      ],
+      "R2-laval": [
+        "R2C1-prix-du-pavillon-royal.html",
+        "R2C2-prix-des-gobelins.html",
+        "R2C3-prix-de-la-celle-saint-cloud.html",
+        "R2C4-prix-du-palais-d-art-moderne.html",
+        "R2C5-prix-de-montretout.html",
+        "R2C6-prix-des-fortifications.html",
+        "R2C7-prix-du-bord-de-l-eau.html",
+        "R2C8-prix-du-pavillon-dauphine.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-pavillon-royal.html",
+        "R31C2-prix-des-gobelins.html",
+        "R31C3-prix-de-la-celle-saint-cloud.html",
+        "R31C4-prix-du-palais-d-art-moderne.html",
+        "R31C5-prix-de-montretout.html",
+        "R31C6-prix-des-fortifications.html",
+        "R31C7-prix-du-bord-de-l-eau.html",
+        "R31C8-prix-du-pavillon-dauphine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:11.605049Z"
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2021-09-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-29",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-29/2021-09-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C3-prix-pmu-le-forum.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C4-prix-du-cidre-de-normandie-prix-rfm.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C5-prix-du-haras-du-pin.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C7-prix-du-mont-saint-michel.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R1-argentan/R1C8-prix-des-plages-du-debarquement.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C2-prix-de-la-tapisserie-de-bayeux.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C3-prix-pmu-le-forum.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C4-prix-du-cidre-de-normandie-prix-rfm.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C5-prix-du-haras-du-pin.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C6-prix-jpc-design.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R3-chantilly/R3C7-prix-du-mont-saint-michel.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C2-prix-de-la-tapisserie-de-bayeux.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C3-prix-pmu-le-forum.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C4-prix-du-cidre-de-normandie-prix-rfm.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C5-prix-du-haras-du-pin.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C6-prix-jpc-design.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C7-prix-du-mont-saint-michel.html",
+      "resultats-et-rapports/2021/09/2021-09-29/R4-toulouse/R4C8-prix-des-plages-du-debarquement.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-argentan",
+      "R3-chantilly",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-argentan": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-de-la-tapisserie-de-bayeux.html",
+        "R1C3-prix-pmu-le-forum.html",
+        "R1C4-prix-du-cidre-de-normandie-prix-rfm.html",
+        "R1C5-prix-du-haras-du-pin.html",
+        "R1C6-prix-jpc-design.html",
+        "R1C7-prix-du-mont-saint-michel.html",
+        "R1C8-prix-des-plages-du-debarquement.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-de-la-tapisserie-de-bayeux.html",
+        "R3C3-prix-pmu-le-forum.html",
+        "R3C4-prix-du-cidre-de-normandie-prix-rfm.html",
+        "R3C5-prix-du-haras-du-pin.html",
+        "R3C6-prix-jpc-design.html",
+        "R3C7-prix-du-mont-saint-michel.html",
+        "R3C8-prix-des-plages-du-debarquement.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-grand-national-du-trot-paris-turf.html",
+        "R4C2-prix-de-la-tapisserie-de-bayeux.html",
+        "R4C3-prix-pmu-le-forum.html",
+        "R4C4-prix-du-cidre-de-normandie-prix-rfm.html",
+        "R4C5-prix-du-haras-du-pin.html",
+        "R4C6-prix-jpc-design.html",
+        "R4C7-prix-du-mont-saint-michel.html",
+        "R4C8-prix-des-plages-du-debarquement.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:15.752959Z"
+}

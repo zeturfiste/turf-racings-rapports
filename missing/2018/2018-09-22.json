@@ -1,0 +1,109 @@
+{
+  "date": "2018-09-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/09/2018-09-22",
+    "date_html": "resultats-et-rapports/2018/09/2018-09-22/2018-09-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/09/2018-09-22/R2-vitre/R2C3-prix-carrus-grand-prix-des-benevoles.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R2-vitre/R2C6-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R4-craon/R4C4-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R4-craon/R4C5-prix-de-la-villette.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R4-craon/R4C6-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R4-craon/R4C8-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R5-mauquenchy/R5C4-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R5-mauquenchy/R5C5-prix-de-la-villette.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R5-mauquenchy/R5C6-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C1-prix-du-conservatoire.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C2-prix-de-la-tour-des-dames.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C3-prix-carrus-grand-prix-des-benevoles.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C4-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C5-prix-de-la-villette.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C6-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R6-vichy/R6C8-prix-de-saint-nicolas.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R7-hyeres/R7C4-prix-bertrand-de-tarragon.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R7-hyeres/R7C5-prix-de-la-villette.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R7-hyeres/R7C6-prix-du-prince-d-orange.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R7-hyeres/R7C7-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2018/09/2018-09-22/R7-hyeres/R7C8-prix-de-saint-nicolas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-vitre",
+      "R4-craon",
+      "R5-mauquenchy",
+      "R6-vichy",
+      "R7-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-conservatoire.html",
+        "R1C2-prix-de-la-tour-des-dames.html",
+        "R1C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R1C4-prix-bertrand-de-tarragon.html",
+        "R1C5-prix-de-la-villette.html",
+        "R1C6-prix-du-prince-d-orange.html",
+        "R1C7-grand-prix-des-anglo-arabes.html",
+        "R1C8-prix-de-saint-nicolas.html"
+      ],
+      "R2-vitre": [
+        "R2C1-prix-du-conservatoire.html",
+        "R2C2-prix-de-la-tour-des-dames.html",
+        "R2C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R2C4-prix-bertrand-de-tarragon.html",
+        "R2C5-prix-de-la-villette.html",
+        "R2C6-prix-du-prince-d-orange.html",
+        "R2C7-grand-prix-des-anglo-arabes.html",
+        "R2C8-prix-de-saint-nicolas.html"
+      ],
+      "R4-craon": [
+        "R4C1-prix-du-conservatoire.html",
+        "R4C2-prix-de-la-tour-des-dames.html",
+        "R4C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R4C4-prix-bertrand-de-tarragon.html",
+        "R4C5-prix-de-la-villette.html",
+        "R4C6-prix-du-prince-d-orange.html",
+        "R4C7-grand-prix-des-anglo-arabes.html",
+        "R4C8-prix-de-saint-nicolas.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-du-conservatoire.html",
+        "R5C2-prix-de-la-tour-des-dames.html",
+        "R5C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R5C4-prix-bertrand-de-tarragon.html",
+        "R5C5-prix-de-la-villette.html",
+        "R5C6-prix-du-prince-d-orange.html",
+        "R5C7-grand-prix-des-anglo-arabes.html",
+        "R5C8-prix-de-saint-nicolas.html"
+      ],
+      "R6-vichy": [
+        "R6C1-prix-du-conservatoire.html",
+        "R6C2-prix-de-la-tour-des-dames.html",
+        "R6C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R6C4-prix-bertrand-de-tarragon.html",
+        "R6C5-prix-de-la-villette.html",
+        "R6C6-prix-du-prince-d-orange.html",
+        "R6C7-grand-prix-des-anglo-arabes.html",
+        "R6C8-prix-de-saint-nicolas.html"
+      ],
+      "R7-hyeres": [
+        "R7C1-prix-du-conservatoire.html",
+        "R7C2-prix-de-la-tour-des-dames.html",
+        "R7C3-prix-carrus-grand-prix-des-benevoles.html",
+        "R7C4-prix-bertrand-de-tarragon.html",
+        "R7C5-prix-de-la-villette.html",
+        "R7C6-prix-du-prince-d-orange.html",
+        "R7C7-grand-prix-des-anglo-arabes.html",
+        "R7C8-prix-de-saint-nicolas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:11.014680Z"
+}

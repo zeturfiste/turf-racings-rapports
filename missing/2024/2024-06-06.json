@@ -1,0 +1,84 @@
+{
+  "date": "2024-06-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-06",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-06/2024-06-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-06/R1-paris-longchamp/R1C2-prix-du-vieux-colombier.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R1-paris-longchamp/R1C6-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R3-dieppe/R3C1-prix-de-l-atelier.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R3-dieppe/R3C3-prix-des-mathurins.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R3-dieppe/R3C5-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R3-dieppe/R3C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C2-prix-du-vieux-colombier.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C3-prix-des-mathurins.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C4-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C5-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C6-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C7-prix-de-bellechasse.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R4-pontchateau/R4C8-prix-como-mercedes-benz-prix-de-chaville.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C1-prix-de-l-atelier.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C3-prix-des-mathurins.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C4-prix-de-l-ile-saint-louis.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C5-prix-des-arts-et-metiers.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C6-prix-de-l-ile-de-la-cite.html",
+      "resultats-et-rapports/2024/06/2024-06-06/R5-toulouse/R5C7-prix-de-bellechasse.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-dieppe",
+      "R4-pontchateau",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-de-l-atelier.html",
+        "R1C2-prix-du-vieux-colombier.html",
+        "R1C3-prix-des-mathurins.html",
+        "R1C4-prix-de-l-ile-saint-louis.html",
+        "R1C5-prix-des-arts-et-metiers.html",
+        "R1C6-prix-de-l-ile-de-la-cite.html",
+        "R1C7-prix-de-bellechasse.html",
+        "R1C8-prix-como-mercedes-benz-prix-de-chaville.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-de-l-atelier.html",
+        "R3C2-prix-du-vieux-colombier.html",
+        "R3C3-prix-des-mathurins.html",
+        "R3C4-prix-de-l-ile-saint-louis.html",
+        "R3C5-prix-des-arts-et-metiers.html",
+        "R3C6-prix-de-l-ile-de-la-cite.html",
+        "R3C7-prix-de-bellechasse.html",
+        "R3C8-prix-como-mercedes-benz-prix-de-chaville.html"
+      ],
+      "R4-pontchateau": [
+        "R4C1-prix-de-l-atelier.html",
+        "R4C2-prix-du-vieux-colombier.html",
+        "R4C3-prix-des-mathurins.html",
+        "R4C4-prix-de-l-ile-saint-louis.html",
+        "R4C5-prix-des-arts-et-metiers.html",
+        "R4C6-prix-de-l-ile-de-la-cite.html",
+        "R4C7-prix-de-bellechasse.html",
+        "R4C8-prix-como-mercedes-benz-prix-de-chaville.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-de-l-atelier.html",
+        "R5C2-prix-du-vieux-colombier.html",
+        "R5C3-prix-des-mathurins.html",
+        "R5C4-prix-de-l-ile-saint-louis.html",
+        "R5C5-prix-des-arts-et-metiers.html",
+        "R5C6-prix-de-l-ile-de-la-cite.html",
+        "R5C7-prix-de-bellechasse.html",
+        "R5C8-prix-como-mercedes-benz-prix-de-chaville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:15.061300Z"
+}

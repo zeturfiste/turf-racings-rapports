@@ -1,0 +1,121 @@
+{
+  "date": "2020-03-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/03/2020-03-01",
+    "date_html": "resultats-et-rapports/2020/03/2020-03-01/2020-03-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/03/2020-03-01/R1-auteuil/R1C2-prix-marise.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R4-agen/R4C7-prix-jean-doumen.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R5-toulouse/R5C5-prix-souviens-toi.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R5-toulouse/R5C6-prix-rohan.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R5-toulouse/R5C7-prix-jean-doumen.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R7-hyeres/R7C2-prix-marise.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R7-hyeres/R7C4-prix-juigne.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R7-hyeres/R7C5-prix-souviens-toi.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R8-saint-brieuc/R8C2-prix-marise.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R8-saint-brieuc/R8C3-prix-karcimont.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R8-saint-brieuc/R8C5-prix-souviens-toi.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R8-saint-brieuc/R8C7-prix-jean-doumen.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R9-cherbourg/R9C3-prix-karcimont.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R9-cherbourg/R9C5-prix-souviens-toi.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R9-cherbourg/R9C6-prix-rohan.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R9-cherbourg/R9C7-prix-jean-doumen.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R9-cherbourg/R9C8-prix-pont-d-iena.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C1-prix-agitato.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C4-prix-juigne.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C5-prix-souviens-toi.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C6-prix-rohan.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C7-prix-jean-doumen.html",
+      "resultats-et-rapports/2020/03/2020-03-01/R10-cholet/R10C8-prix-pont-d-iena.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R4-agen",
+      "R5-toulouse",
+      "R7-hyeres",
+      "R8-saint-brieuc",
+      "R9-cherbourg",
+      "R10-cholet"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-agitato.html",
+        "R1C2-prix-marise.html",
+        "R1C3-prix-karcimont.html",
+        "R1C4-prix-juigne.html",
+        "R1C5-prix-souviens-toi.html",
+        "R1C6-prix-rohan.html",
+        "R1C7-prix-jean-doumen.html",
+        "R1C8-prix-pont-d-iena.html"
+      ],
+      "R4-agen": [
+        "R4C1-prix-agitato.html",
+        "R4C2-prix-marise.html",
+        "R4C3-prix-karcimont.html",
+        "R4C4-prix-juigne.html",
+        "R4C5-prix-souviens-toi.html",
+        "R4C6-prix-rohan.html",
+        "R4C7-prix-jean-doumen.html",
+        "R4C8-prix-pont-d-iena.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-agitato.html",
+        "R5C2-prix-marise.html",
+        "R5C3-prix-karcimont.html",
+        "R5C4-prix-juigne.html",
+        "R5C5-prix-souviens-toi.html",
+        "R5C6-prix-rohan.html",
+        "R5C7-prix-jean-doumen.html",
+        "R5C8-prix-pont-d-iena.html"
+      ],
+      "R7-hyeres": [
+        "R7C1-prix-agitato.html",
+        "R7C2-prix-marise.html",
+        "R7C3-prix-karcimont.html",
+        "R7C4-prix-juigne.html",
+        "R7C5-prix-souviens-toi.html",
+        "R7C6-prix-rohan.html",
+        "R7C7-prix-jean-doumen.html",
+        "R7C8-prix-pont-d-iena.html"
+      ],
+      "R8-saint-brieuc": [
+        "R8C1-prix-agitato.html",
+        "R8C2-prix-marise.html",
+        "R8C3-prix-karcimont.html",
+        "R8C4-prix-juigne.html",
+        "R8C5-prix-souviens-toi.html",
+        "R8C6-prix-rohan.html",
+        "R8C7-prix-jean-doumen.html",
+        "R8C8-prix-pont-d-iena.html"
+      ],
+      "R9-cherbourg": [
+        "R9C1-prix-agitato.html",
+        "R9C2-prix-marise.html",
+        "R9C3-prix-karcimont.html",
+        "R9C4-prix-juigne.html",
+        "R9C5-prix-souviens-toi.html",
+        "R9C6-prix-rohan.html",
+        "R9C7-prix-jean-doumen.html",
+        "R9C8-prix-pont-d-iena.html"
+      ],
+      "R10-cholet": [
+        "R10C1-prix-agitato.html",
+        "R10C2-prix-marise.html",
+        "R10C3-prix-karcimont.html",
+        "R10C4-prix-juigne.html",
+        "R10C5-prix-souviens-toi.html",
+        "R10C6-prix-rohan.html",
+        "R10C7-prix-jean-doumen.html",
+        "R10C8-prix-pont-d-iena.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:55.922128Z"
+}

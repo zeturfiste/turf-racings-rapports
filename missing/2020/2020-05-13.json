@@ -1,0 +1,82 @@
+{
+  "date": "2020-05-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/05/2020-05-13",
+    "date_html": "resultats-et-rapports/2020/05/2020-05-13/2020-05-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C2-prix-de-cambremer-groupe-a.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C3-prix-de-cambremer-groupe-b.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C4-prix-du-calvados.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C5-prix-de-la-touques.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C6-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C7-prix-hubert-hardy.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C8-prix-henri-balliere.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R1-caen/R1C9-prix-georges-dreux.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C2-prix-de-cambremer-groupe-a.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C3-prix-de-cambremer-groupe-b.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C4-prix-du-calvados.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C6-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C8-prix-henri-balliere.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R2-chantilly/R2C9-prix-georges-dreux.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C1-prix-des-ducs-de-normandie.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C2-prix-de-cambremer-groupe-a.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C3-prix-de-cambremer-groupe-b.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C4-prix-du-calvados.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C5-prix-de-la-touques.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C6-saint-leger-des-trotteurs.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C7-prix-hubert-hardy.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C8-prix-henri-balliere.html",
+      "resultats-et-rapports/2020/05/2020-05-13/R4-marseille-borely/R4C9-prix-georges-dreux.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-caen",
+      "R2-chantilly",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-caen": [
+        "R1C1-prix-des-ducs-de-normandie.html",
+        "R1C2-prix-de-cambremer-groupe-a.html",
+        "R1C3-prix-de-cambremer-groupe-b.html",
+        "R1C4-prix-du-calvados.html",
+        "R1C5-prix-de-la-touques.html",
+        "R1C6-saint-leger-des-trotteurs.html",
+        "R1C7-prix-hubert-hardy.html",
+        "R1C8-prix-henri-balliere.html",
+        "R1C9-prix-georges-dreux.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-des-ducs-de-normandie.html",
+        "R2C2-prix-de-cambremer-groupe-a.html",
+        "R2C3-prix-de-cambremer-groupe-b.html",
+        "R2C4-prix-du-calvados.html",
+        "R2C5-prix-de-la-touques.html",
+        "R2C6-saint-leger-des-trotteurs.html",
+        "R2C7-prix-hubert-hardy.html",
+        "R2C8-prix-henri-balliere.html",
+        "R2C9-prix-georges-dreux.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-des-ducs-de-normandie.html",
+        "R4C2-prix-de-cambremer-groupe-a.html",
+        "R4C3-prix-de-cambremer-groupe-b.html",
+        "R4C4-prix-du-calvados.html",
+        "R4C5-prix-de-la-touques.html",
+        "R4C6-saint-leger-des-trotteurs.html",
+        "R4C7-prix-hubert-hardy.html",
+        "R4C8-prix-henri-balliere.html",
+        "R4C9-prix-georges-dreux.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:05.491705Z"
+}

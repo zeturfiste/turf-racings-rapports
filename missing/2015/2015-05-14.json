@@ -1,0 +1,117 @@
+{
+  "date": "2015-05-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/05/2015-05-14",
+    "date_html": "resultats-et-rapports/2015/05/2015-05-14/2015-05-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/05/2015-05-14/R1-lyon-parilly/R1C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R1-lyon-parilly/R1C4-prix-bedel.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R1-lyon-parilly/R1C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R1-lyon-parilly/R1C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R1-lyon-parilly/R1C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R2-tarbes/R2C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R2-tarbes/R2C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R2-tarbes/R2C4-prix-bedel.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R3-le-lion-d-angers/R3C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R3-le-lion-d-angers/R3C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R3-le-lion-d-angers/R3C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R3-le-lion-d-angers/R3C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R4-nantes/R4C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R4-nantes/R4C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R4-nantes/R4C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C1-grand-prix-france-galop-prix-des-hortensias.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C4-prix-bedel.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R5-la-rochelle/R5C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C1-grand-prix-france-galop-prix-des-hortensias.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C4-prix-bedel.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+      "resultats-et-rapports/2015/05/2015-05-14/R6-saint-brieuc/R6C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-tarbes",
+      "R3-le-lion-d-angers",
+      "R4-nantes",
+      "R5-la-rochelle",
+      "R6-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R1C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R1C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R1C4-prix-bedel.html",
+        "R1C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R1C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R1C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R1C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ],
+      "R2-tarbes": [
+        "R2C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R2C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R2C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R2C4-prix-bedel.html",
+        "R2C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R2C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R2C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R2C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R3C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R3C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R3C4-prix-bedel.html",
+        "R3C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R3C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R3C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R3C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ],
+      "R4-nantes": [
+        "R4C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R4C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R4C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R4C4-prix-bedel.html",
+        "R4C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R4C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R4C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R4C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ],
+      "R5-la-rochelle": [
+        "R5C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R5C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R5C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R5C4-prix-bedel.html",
+        "R5C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R5C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R5C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R5C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ],
+      "R6-saint-brieuc": [
+        "R6C1-grand-prix-france-galop-prix-des-hortensias.html",
+        "R6C2-prix-unicef-antenne-de-bron-prix-de-marlioz.html",
+        "R6C3-prix-des-50-ans-de-l-hippodrome-grand-prix-de-parilly.html",
+        "R6C4-prix-bedel.html",
+        "R6C5-prix-afasec-chazey-sur-ain-prix-ogier.html",
+        "R6C6-prix-maison-borgeot-la-tassee-prix-de-lacroix-laval.html",
+        "R6C7-prix-des-nuits-de-fourviere-prix-jean-mallen.html",
+        "R6C8-grand-prix-happy-birthday-parilly-prix-de-gerland.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:48.883136Z"
+}

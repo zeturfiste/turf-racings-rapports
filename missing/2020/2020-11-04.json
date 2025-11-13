@@ -1,0 +1,58 @@
+{
+  "date": "2020-11-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/11/2020-11-04",
+    "date_html": "resultats-et-rapports/2020/11/2020-11-04/2020-11-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/11/2020-11-04/R3-chantilly/R3C2-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2020/11/2020-11-04/R3-chantilly/R3C7-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2020/11/2020-11-04/R4-marseille-vivaux/R4C5-grand-prix-synergie.html",
+      "resultats-et-rapports/2020/11/2020-11-04/R4-marseille-vivaux/R4C8-prix-oniris-nantes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R3-chantilly",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-en-selle-pour-nos-soignants.html",
+        "R1C2-grand-national-du-trot-paris-turf.html",
+        "R1C3-prix-nicolas.html",
+        "R1C4-prix-du-pmu-le-narval.html",
+        "R1C5-grand-prix-synergie.html",
+        "R1C6-prix-facebook-instagram-hippodrome-nantes.html",
+        "R1C7-prix-moet-et-chandon.html",
+        "R1C8-prix-oniris-nantes.html"
+      ],
+      "R3-chantilly": [
+        "R3C1-prix-en-selle-pour-nos-soignants.html",
+        "R3C2-grand-national-du-trot-paris-turf.html",
+        "R3C3-prix-nicolas.html",
+        "R3C4-prix-du-pmu-le-narval.html",
+        "R3C5-grand-prix-synergie.html",
+        "R3C6-prix-facebook-instagram-hippodrome-nantes.html",
+        "R3C7-prix-moet-et-chandon.html",
+        "R3C8-prix-oniris-nantes.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-en-selle-pour-nos-soignants.html",
+        "R4C2-grand-national-du-trot-paris-turf.html",
+        "R4C3-prix-nicolas.html",
+        "R4C4-prix-du-pmu-le-narval.html",
+        "R4C5-grand-prix-synergie.html",
+        "R4C6-prix-facebook-instagram-hippodrome-nantes.html",
+        "R4C7-prix-moet-et-chandon.html",
+        "R4C8-prix-oniris-nantes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:12.555555Z"
+}

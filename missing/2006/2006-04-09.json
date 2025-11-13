@@ -1,0 +1,55 @@
+{
+  "date": "2006-04-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/04/2006-04-09",
+    "date_html": "resultats-et-rapports/2006/04/2006-04-09/2006-04-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/04/2006-04-09/R2-maure-de-bretagne/R2C3-prix-d-harcourt.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-maure-de-bretagne",
+      "R4-villeneuve-sur-lot"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-ferrieres.html",
+        "R1C2-prix-europe-1-prix-du-pont-de-flandre.html",
+        "R1C3-prix-d-harcourt.html",
+        "R1C4-prix-francois-mathet-prix-de-courcelles.html",
+        "R1C5-prix-de-croissy.html",
+        "R1C6-prix-ernest-leroy.html",
+        "R1C7-prix-de-la-defense.html",
+        "R1C8-prix-d-enghien.html"
+      ],
+      "R2-maure-de-bretagne": [
+        "R2C1-prix-de-ferrieres.html",
+        "R2C2-prix-europe-1-prix-du-pont-de-flandre.html",
+        "R2C3-prix-d-harcourt.html",
+        "R2C4-prix-francois-mathet-prix-de-courcelles.html",
+        "R2C5-prix-de-croissy.html",
+        "R2C6-prix-ernest-leroy.html",
+        "R2C7-prix-de-la-defense.html",
+        "R2C8-prix-d-enghien.html"
+      ],
+      "R4-villeneuve-sur-lot": [
+        "R4C1-prix-de-ferrieres.html",
+        "R4C2-prix-europe-1-prix-du-pont-de-flandre.html",
+        "R4C3-prix-d-harcourt.html",
+        "R4C4-prix-francois-mathet-prix-de-courcelles.html",
+        "R4C5-prix-de-croissy.html",
+        "R4C6-prix-ernest-leroy.html",
+        "R4C7-prix-de-la-defense.html",
+        "R4C8-prix-d-enghien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:24.474054Z"
+}

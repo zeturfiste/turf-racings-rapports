@@ -1,0 +1,88 @@
+{
+  "date": "2024-07-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/07/2024-07-17",
+    "date_html": "resultats-et-rapports/2024/07/2024-07-17/2024-07-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/07/2024-07-17/R4-clairefontaine/R4C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R4-clairefontaine/R4C5-grand-prix-de-vichy.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R4-clairefontaine/R4C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C2-prix-sorec.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C5-grand-prix-de-vichy.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R5-les-sables-d-olonne/R5C8-prix-de-l-union-des-aqps-du-centre-est.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R7-cagnes-sur-mer/R7C4-prix-suma-prix-imperatrice-eugenie.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R7-cagnes-sur-mer/R7C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+      "resultats-et-rapports/2024/07/2024-07-17/R7-cagnes-sur-mer/R7C8-prix-de-l-union-des-aqps-du-centre-est.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vichy",
+      "R3-enghien-soisy",
+      "R4-clairefontaine",
+      "R5-les-sables-d-olonne",
+      "R7-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-vichy": [
+        "R1C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+        "R1C2-prix-sorec.html",
+        "R1C3-sealiway-prix-des-jouvenceaux-et-jouvencelles-bernard-ferrand.html",
+        "R1C4-prix-suma-prix-imperatrice-eugenie.html",
+        "R1C5-grand-prix-de-vichy.html",
+        "R1C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+        "R1C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+        "R1C8-prix-de-l-union-des-aqps-du-centre-est.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+        "R3C2-prix-sorec.html",
+        "R3C3-sealiway-prix-des-jouvenceaux-et-jouvencelles-bernard-ferrand.html",
+        "R3C4-prix-suma-prix-imperatrice-eugenie.html",
+        "R3C5-grand-prix-de-vichy.html",
+        "R3C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+        "R3C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+        "R3C8-prix-de-l-union-des-aqps-du-centre-est.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+        "R4C2-prix-sorec.html",
+        "R4C3-sealiway-prix-des-jouvenceaux-et-jouvencelles-bernard-ferrand.html",
+        "R4C4-prix-suma-prix-imperatrice-eugenie.html",
+        "R4C5-grand-prix-de-vichy.html",
+        "R4C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+        "R4C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+        "R4C8-prix-de-l-union-des-aqps-du-centre-est.html"
+      ],
+      "R5-les-sables-d-olonne": [
+        "R5C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+        "R5C2-prix-sorec.html",
+        "R5C3-sealiway-prix-des-jouvenceaux-et-jouvencelles-bernard-ferrand.html",
+        "R5C4-prix-suma-prix-imperatrice-eugenie.html",
+        "R5C5-grand-prix-de-vichy.html",
+        "R5C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+        "R5C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+        "R5C8-prix-de-l-union-des-aqps-du-centre-est.html"
+      ],
+      "R7-cagnes-sur-mer": [
+        "R7C1-prix-vichy-destinations-federation-francaise-de-natation.html",
+        "R7C2-prix-sorec.html",
+        "R7C3-sealiway-prix-des-jouvenceaux-et-jouvencelles-bernard-ferrand.html",
+        "R7C4-prix-suma-prix-imperatrice-eugenie.html",
+        "R7C5-grand-prix-de-vichy.html",
+        "R7C6-prix-de-paray-le-monial-fegentri-world-chpt-for-gentlemen-riders.html",
+        "R7C7-prix-vichy-laboratoires-grand-prix-des-cavalieres-de-vichy.html",
+        "R7C8-prix-de-l-union-des-aqps-du-centre-est.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:30.935533Z"
+}

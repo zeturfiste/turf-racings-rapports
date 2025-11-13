@@ -1,0 +1,113 @@
+{
+  "date": "2015-10-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/10/2015-10-27",
+    "date_html": "resultats-et-rapports/2015/10/2015-10-27/2015-10-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/10/2015-10-27/R1-auteuil/R1C1-prix-emilius-premier-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R1-auteuil/R1C2-prix-lyonnais.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R1-auteuil/R1C3-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R1-auteuil/R1C4-prix-cerealiste.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R2-le-mont-saint-michel/R2C3-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R2-le-mont-saint-michel/R2C4-prix-cerealiste.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R2-le-mont-saint-michel/R2C5-prix-triquerville.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R2-le-mont-saint-michel/R2C7-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R2-le-mont-saint-michel/R2C9-prix-ucello-ii.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C1-prix-emilius-premier-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C2-prix-lyonnais.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C3-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C4-prix-cerealiste.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C6-prix-pre-catelan.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C7-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C8-prix-de-pornic.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R3-marseille-vivaux/R3C9-prix-ucello-ii.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C1-prix-emilius-premier-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C2-prix-lyonnais.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C3-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C4-prix-cerealiste.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C5-prix-triquerville.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C6-prix-pre-catelan.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C7-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R4-lyon-la-soie/R4C8-prix-de-pornic.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C3-prix-emilius-deuxieme-peloton.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C4-prix-cerealiste.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C5-prix-triquerville.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C6-prix-pre-catelan.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C7-prix-ferdinand-riant.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C8-prix-de-pornic.html",
+      "resultats-et-rapports/2015/10/2015-10-27/R5-vincennes/R5C9-prix-ucello-ii.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-mont-saint-michel",
+      "R3-marseille-vivaux",
+      "R4-lyon-la-soie",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-emilius-premier-peloton.html",
+        "R1C2-prix-lyonnais.html",
+        "R1C3-prix-emilius-deuxieme-peloton.html",
+        "R1C4-prix-cerealiste.html",
+        "R1C5-prix-triquerville.html",
+        "R1C6-prix-pre-catelan.html",
+        "R1C7-prix-ferdinand-riant.html",
+        "R1C8-prix-de-pornic.html",
+        "R1C9-prix-ucello-ii.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-emilius-premier-peloton.html",
+        "R2C2-prix-lyonnais.html",
+        "R2C3-prix-emilius-deuxieme-peloton.html",
+        "R2C4-prix-cerealiste.html",
+        "R2C5-prix-triquerville.html",
+        "R2C6-prix-pre-catelan.html",
+        "R2C7-prix-ferdinand-riant.html",
+        "R2C8-prix-de-pornic.html",
+        "R2C9-prix-ucello-ii.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-emilius-premier-peloton.html",
+        "R3C2-prix-lyonnais.html",
+        "R3C3-prix-emilius-deuxieme-peloton.html",
+        "R3C4-prix-cerealiste.html",
+        "R3C5-prix-triquerville.html",
+        "R3C6-prix-pre-catelan.html",
+        "R3C7-prix-ferdinand-riant.html",
+        "R3C8-prix-de-pornic.html",
+        "R3C9-prix-ucello-ii.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-emilius-premier-peloton.html",
+        "R4C2-prix-lyonnais.html",
+        "R4C3-prix-emilius-deuxieme-peloton.html",
+        "R4C4-prix-cerealiste.html",
+        "R4C5-prix-triquerville.html",
+        "R4C6-prix-pre-catelan.html",
+        "R4C7-prix-ferdinand-riant.html",
+        "R4C8-prix-de-pornic.html",
+        "R4C9-prix-ucello-ii.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-emilius-premier-peloton.html",
+        "R5C2-prix-lyonnais.html",
+        "R5C3-prix-emilius-deuxieme-peloton.html",
+        "R5C4-prix-cerealiste.html",
+        "R5C5-prix-triquerville.html",
+        "R5C6-prix-pre-catelan.html",
+        "R5C7-prix-ferdinand-riant.html",
+        "R5C8-prix-de-pornic.html",
+        "R5C9-prix-ucello-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:44.873655Z"
+}

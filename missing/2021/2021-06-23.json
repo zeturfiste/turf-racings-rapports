@@ -1,0 +1,107 @@
+{
+  "date": "2021-06-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/06/2021-06-23",
+    "date_html": "resultats-et-rapports/2021/06/2021-06-23/2021-06-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/06/2021-06-23/R1-toulouse/R1C3-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R1-toulouse/R1C6-prix-toulouse-fm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C1-gnt-paris-turf-la-course-des-bleus.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C3-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C5-prix-michel-marcel-gougeon-prix-rfm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C6-prix-toulouse-fm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R3-auteuil/R3C8-prix-des-pmu-toulousains.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C1-gnt-paris-turf-la-course-des-bleus.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C3-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C5-prix-michel-marcel-gougeon-prix-rfm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C6-prix-toulouse-fm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R4-marseille-vivaux/R4C8-prix-des-pmu-toulousains.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C1-gnt-paris-turf-la-course-des-bleus.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C3-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C5-prix-michel-marcel-gougeon-prix-rfm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C6-prix-toulouse-fm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R5-feurs/R5C8-prix-des-pmu-toulousains.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C1-gnt-paris-turf-la-course-des-bleus.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C3-prix-jean-alain-eliphe.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C4-prix-de-la-depeche-du-midi.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C5-prix-michel-marcel-gougeon-prix-rfm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C6-prix-toulouse-fm.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+      "resultats-et-rapports/2021/06/2021-06-23/R99-ante-post-gnt-2021/R99C8-prix-des-pmu-toulousains.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R3-auteuil",
+      "R4-marseille-vivaux",
+      "R5-feurs",
+      "R99-ante-post-gnt-2021"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-gnt-paris-turf-la-course-des-bleus.html",
+        "R1C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R1C3-prix-jean-alain-eliphe.html",
+        "R1C4-prix-de-la-depeche-du-midi.html",
+        "R1C5-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R1C6-prix-toulouse-fm.html",
+        "R1C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R1C8-prix-des-pmu-toulousains.html"
+      ],
+      "R3-auteuil": [
+        "R3C1-gnt-paris-turf-la-course-des-bleus.html",
+        "R3C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R3C3-prix-jean-alain-eliphe.html",
+        "R3C4-prix-de-la-depeche-du-midi.html",
+        "R3C5-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R3C6-prix-toulouse-fm.html",
+        "R3C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R3C8-prix-des-pmu-toulousains.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-gnt-paris-turf-la-course-des-bleus.html",
+        "R4C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R4C3-prix-jean-alain-eliphe.html",
+        "R4C4-prix-de-la-depeche-du-midi.html",
+        "R4C5-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R4C6-prix-toulouse-fm.html",
+        "R4C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R4C8-prix-des-pmu-toulousains.html"
+      ],
+      "R5-feurs": [
+        "R5C1-gnt-paris-turf-la-course-des-bleus.html",
+        "R5C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R5C3-prix-jean-alain-eliphe.html",
+        "R5C4-prix-de-la-depeche-du-midi.html",
+        "R5C5-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R5C6-prix-toulouse-fm.html",
+        "R5C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R5C8-prix-des-pmu-toulousains.html"
+      ],
+      "R99-ante-post-gnt-2021": [
+        "R99C1-gnt-paris-turf-la-course-des-bleus.html",
+        "R99C2-prix-de-l-unat-sud-ouest-prix-nicolas.html",
+        "R99C3-prix-jean-alain-eliphe.html",
+        "R99C4-prix-de-la-depeche-du-midi.html",
+        "R99C5-prix-michel-marcel-gougeon-prix-rfm.html",
+        "R99C6-prix-toulouse-fm.html",
+        "R99C7-grand-prix-baron-d-ardeuil-aoc-buzet.html",
+        "R99C8-prix-des-pmu-toulousains.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:36.067459Z"
+}

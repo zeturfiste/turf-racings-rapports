@@ -1,0 +1,70 @@
+{
+  "date": "2023-04-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/04/2023-04-26",
+    "date_html": "resultats-et-rapports/2023/04/2023-04-26/2023-04-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C1-4eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C2-prix-beurel-environnement.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C4-prix-de-la-ville-de-saint-brieuc.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C5-prix-groupama.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C7-prix-du-pmu-le-golden-bar-yffiniac.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R1-saint-brieuc/R1C8-prix-suzuki-bay-legrand.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C1-4eme-etape-du-grand-national-du-trot.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C2-prix-beurel-environnement.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C3-prix-v-and-b-langueux-saint-brieuc.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C5-prix-groupama.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C6-prix-saint-brieuc-entreprises.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R3-la-teste-de-buch/R3C8-prix-suzuki-bay-legrand.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R4-saint-cloud/R4C3-prix-v-and-b-langueux-saint-brieuc.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R4-saint-cloud/R4C4-prix-de-la-ville-de-saint-brieuc.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R4-saint-cloud/R4C7-prix-du-pmu-le-golden-bar-yffiniac.html",
+      "resultats-et-rapports/2023/04/2023-04-26/R4-saint-cloud/R4C8-prix-suzuki-bay-legrand.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-brieuc",
+      "R3-la-teste-de-buch",
+      "R4-saint-cloud"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-brieuc": [
+        "R1C1-4eme-etape-du-grand-national-du-trot.html",
+        "R1C2-prix-beurel-environnement.html",
+        "R1C3-prix-v-and-b-langueux-saint-brieuc.html",
+        "R1C4-prix-de-la-ville-de-saint-brieuc.html",
+        "R1C5-prix-groupama.html",
+        "R1C6-prix-saint-brieuc-entreprises.html",
+        "R1C7-prix-du-pmu-le-golden-bar-yffiniac.html",
+        "R1C8-prix-suzuki-bay-legrand.html"
+      ],
+      "R3-la-teste-de-buch": [
+        "R3C1-4eme-etape-du-grand-national-du-trot.html",
+        "R3C2-prix-beurel-environnement.html",
+        "R3C3-prix-v-and-b-langueux-saint-brieuc.html",
+        "R3C4-prix-de-la-ville-de-saint-brieuc.html",
+        "R3C5-prix-groupama.html",
+        "R3C6-prix-saint-brieuc-entreprises.html",
+        "R3C7-prix-du-pmu-le-golden-bar-yffiniac.html",
+        "R3C8-prix-suzuki-bay-legrand.html"
+      ],
+      "R4-saint-cloud": [
+        "R4C1-4eme-etape-du-grand-national-du-trot.html",
+        "R4C2-prix-beurel-environnement.html",
+        "R4C3-prix-v-and-b-langueux-saint-brieuc.html",
+        "R4C4-prix-de-la-ville-de-saint-brieuc.html",
+        "R4C5-prix-groupama.html",
+        "R4C6-prix-saint-brieuc-entreprises.html",
+        "R4C7-prix-du-pmu-le-golden-bar-yffiniac.html",
+        "R4C8-prix-suzuki-bay-legrand.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:43.384430Z"
+}

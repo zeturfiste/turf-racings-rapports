@@ -1,0 +1,70 @@
+{
+  "date": "2006-08-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/08/2006-08-14",
+    "date_html": "resultats-et-rapports/2006/08/2006-08-14/2006-08-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2006/08/2006-08-14/R1-clairefontaine/R1C4-prix-de-l-eveil-de-bernay-prix-des-geraniums.html",
+      "resultats-et-rapports/2006/08/2006-08-14/R1-clairefontaine/R1C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+      "resultats-et-rapports/2006/08/2006-08-14/R2-enghien-soisy/R2C3-prix-de-l-eveil-de-lisieux-prix-vale.html",
+      "resultats-et-rapports/2006/08/2006-08-14/R2-enghien-soisy/R2C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+      "resultats-et-rapports/2006/08/2006-08-14/R2-enghien-soisy/R2C8-grand-prix-office-de-tourisme-de-l-ile-maurice-prix-de-riva-bella.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-enghien-soisy",
+      "R3-vichy",
+      "R4-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-www-mypixmania-com-prix-de-la-cote-fleurie.html",
+        "R1C2-prix-des-magasins-champion-tourgeville-et-deauville-prix-matahawk.html",
+        "R1C3-prix-de-l-eveil-de-lisieux-prix-vale.html",
+        "R1C4-prix-de-l-eveil-de-bernay-prix-des-geraniums.html",
+        "R1C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+        "R1C6-prix-de-l-eveil-de-pont-audemer-prix-des-camelias.html",
+        "R1C7-grand-prix-beachcomber-hotels-ile-maurice-seychelles-prix-du-parc-des-enclos.html",
+        "R1C8-grand-prix-office-de-tourisme-de-l-ile-maurice-prix-de-riva-bella.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-www-mypixmania-com-prix-de-la-cote-fleurie.html",
+        "R2C2-prix-des-magasins-champion-tourgeville-et-deauville-prix-matahawk.html",
+        "R2C3-prix-de-l-eveil-de-lisieux-prix-vale.html",
+        "R2C4-prix-de-l-eveil-de-bernay-prix-des-geraniums.html",
+        "R2C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+        "R2C6-prix-de-l-eveil-de-pont-audemer-prix-des-camelias.html",
+        "R2C7-grand-prix-beachcomber-hotels-ile-maurice-seychelles-prix-du-parc-des-enclos.html",
+        "R2C8-grand-prix-office-de-tourisme-de-l-ile-maurice-prix-de-riva-bella.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-www-mypixmania-com-prix-de-la-cote-fleurie.html",
+        "R3C2-prix-des-magasins-champion-tourgeville-et-deauville-prix-matahawk.html",
+        "R3C3-prix-de-l-eveil-de-lisieux-prix-vale.html",
+        "R3C4-prix-de-l-eveil-de-bernay-prix-des-geraniums.html",
+        "R3C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+        "R3C6-prix-de-l-eveil-de-pont-audemer-prix-des-camelias.html",
+        "R3C7-grand-prix-beachcomber-hotels-ile-maurice-seychelles-prix-du-parc-des-enclos.html",
+        "R3C8-grand-prix-office-de-tourisme-de-l-ile-maurice-prix-de-riva-bella.html"
+      ],
+      "R4-cagnes-sur-mer": [
+        "R4C1-prix-www-mypixmania-com-prix-de-la-cote-fleurie.html",
+        "R4C2-prix-des-magasins-champion-tourgeville-et-deauville-prix-matahawk.html",
+        "R4C3-prix-de-l-eveil-de-lisieux-prix-vale.html",
+        "R4C4-prix-de-l-eveil-de-bernay-prix-des-geraniums.html",
+        "R4C5-grand-prix-air-mauritius-prix-de-ouistreham.html",
+        "R4C6-prix-de-l-eveil-de-pont-audemer-prix-des-camelias.html",
+        "R4C7-grand-prix-beachcomber-hotels-ile-maurice-seychelles-prix-du-parc-des-enclos.html",
+        "R4C8-grand-prix-office-de-tourisme-de-l-ile-maurice-prix-de-riva-bella.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:56.005425Z"
+}

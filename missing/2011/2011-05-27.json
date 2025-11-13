@@ -1,0 +1,87 @@
+{
+  "date": "2011-05-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/05/2011-05-27",
+    "date_html": "resultats-et-rapports/2011/05/2011-05-27/2011-05-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/05/2011-05-27/R1-saint-cloud/R1C3-prix-sicarelle.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R1-saint-cloud/R1C5-prix-d-ouilly.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R1-saint-cloud/R1C7-prix-du-mesnil-villement.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R1-saint-cloud/R1C8-prix-de-la-chalosse.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C1-prix-amour-drake.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C2-prix-de-rueil.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C3-prix-sicarelle.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C4-prix-matchem.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C6-prix-des-landes.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R2-pontchateau/R2C8-prix-de-la-chalosse.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C1-prix-amour-drake.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C2-prix-de-rueil.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C3-prix-sicarelle.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C5-prix-d-ouilly.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C6-prix-des-landes.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C7-prix-du-mesnil-villement.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R3-vincennes/R3C8-prix-de-la-chalosse.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R5-toulouse/R5C3-prix-sicarelle.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R5-toulouse/R5C4-prix-matchem.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R5-toulouse/R5C5-prix-d-ouilly.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R5-toulouse/R5C6-prix-des-landes.html",
+      "resultats-et-rapports/2011/05/2011-05-27/R5-toulouse/R5C7-prix-du-mesnil-villement.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-pontchateau",
+      "R3-vincennes",
+      "R5-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-amour-drake.html",
+        "R1C2-prix-de-rueil.html",
+        "R1C3-prix-sicarelle.html",
+        "R1C4-prix-matchem.html",
+        "R1C5-prix-d-ouilly.html",
+        "R1C6-prix-des-landes.html",
+        "R1C7-prix-du-mesnil-villement.html",
+        "R1C8-prix-de-la-chalosse.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-amour-drake.html",
+        "R2C2-prix-de-rueil.html",
+        "R2C3-prix-sicarelle.html",
+        "R2C4-prix-matchem.html",
+        "R2C5-prix-d-ouilly.html",
+        "R2C6-prix-des-landes.html",
+        "R2C7-prix-du-mesnil-villement.html",
+        "R2C8-prix-de-la-chalosse.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-amour-drake.html",
+        "R3C2-prix-de-rueil.html",
+        "R3C3-prix-sicarelle.html",
+        "R3C4-prix-matchem.html",
+        "R3C5-prix-d-ouilly.html",
+        "R3C6-prix-des-landes.html",
+        "R3C7-prix-du-mesnil-villement.html",
+        "R3C8-prix-de-la-chalosse.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-amour-drake.html",
+        "R5C2-prix-de-rueil.html",
+        "R5C3-prix-sicarelle.html",
+        "R5C4-prix-matchem.html",
+        "R5C5-prix-d-ouilly.html",
+        "R5C6-prix-des-landes.html",
+        "R5C7-prix-du-mesnil-villement.html",
+        "R5C8-prix-de-la-chalosse.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:36.628598Z"
+}

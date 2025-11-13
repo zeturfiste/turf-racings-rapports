@@ -1,0 +1,90 @@
+{
+  "date": "2015-06-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/06/2015-06-16",
+    "date_html": "resultats-et-rapports/2015/06/2015-06-16/2015-06-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/06/2015-06-16/R1-dieppe/R1C2-prix-pierre-bontemps.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R1-dieppe/R1C4-prix-region-haute-normandie.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R1-dieppe/R1C6-prix-havre-libre.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R2-les-sables-d-olonne/R2C1-prix-dream-well.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C5-prix-progres-de-fecamp.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C6-prix-havre-libre.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C7-prix-paris-normandie.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C9-prix-le-havre-presse.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R3-dax/R3C10-prix-de-breaute.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C1-prix-dream-well.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C2-prix-pierre-bontemps.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C3-prix-paris-normandie-fr.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C5-prix-progres-de-fecamp.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C7-prix-paris-normandie.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+      "resultats-et-rapports/2015/06/2015-06-16/R4-vincennes/R4C9-prix-le-havre-presse.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-les-sables-d-olonne",
+      "R3-dax",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-dream-well.html",
+        "R1C2-prix-pierre-bontemps.html",
+        "R1C3-prix-paris-normandie-fr.html",
+        "R1C4-prix-region-haute-normandie.html",
+        "R1C5-prix-progres-de-fecamp.html",
+        "R1C6-prix-havre-libre.html",
+        "R1C7-prix-paris-normandie.html",
+        "R1C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R1C9-prix-le-havre-presse.html",
+        "R1C10-prix-de-breaute.html"
+      ],
+      "R2-les-sables-d-olonne": [
+        "R2C1-prix-dream-well.html",
+        "R2C2-prix-pierre-bontemps.html",
+        "R2C3-prix-paris-normandie-fr.html",
+        "R2C4-prix-region-haute-normandie.html",
+        "R2C5-prix-progres-de-fecamp.html",
+        "R2C6-prix-havre-libre.html",
+        "R2C7-prix-paris-normandie.html",
+        "R2C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R2C9-prix-le-havre-presse.html",
+        "R2C10-prix-de-breaute.html"
+      ],
+      "R3-dax": [
+        "R3C1-prix-dream-well.html",
+        "R3C2-prix-pierre-bontemps.html",
+        "R3C3-prix-paris-normandie-fr.html",
+        "R3C4-prix-region-haute-normandie.html",
+        "R3C5-prix-progres-de-fecamp.html",
+        "R3C6-prix-havre-libre.html",
+        "R3C7-prix-paris-normandie.html",
+        "R3C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R3C9-prix-le-havre-presse.html",
+        "R3C10-prix-de-breaute.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-dream-well.html",
+        "R4C2-prix-pierre-bontemps.html",
+        "R4C3-prix-paris-normandie-fr.html",
+        "R4C4-prix-region-haute-normandie.html",
+        "R4C5-prix-progres-de-fecamp.html",
+        "R4C6-prix-havre-libre.html",
+        "R4C7-prix-paris-normandie.html",
+        "R4C8-prix-chambre-de-commerce-et-d-industrie-de-dieppe.html",
+        "R4C9-prix-le-havre-presse.html",
+        "R4C10-prix-de-breaute.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:44:00.070801Z"
+}

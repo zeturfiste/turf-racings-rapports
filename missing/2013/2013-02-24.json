@@ -1,0 +1,143 @@
+{
+  "date": "2013-02-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/02/2013-02-24",
+    "date_html": "resultats-et-rapports/2013/02/2013-02-24/2013-02-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C2-prix-mende.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C4-prix-d-avenches.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C5-prix-lido.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C6-prix-custom.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C7-prix-des-pays-nordiques.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C8-prix-poulbot.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R2-nantes/R2C9-prix-de-montauban.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R3-angers/R3C1-prix-gras-savoye.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R3-angers/R3C2-prix-mende.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R3-angers/R3C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R3-angers/R3C4-prix-d-avenches.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R3-angers/R3C9-prix-de-montauban.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R6-nimes/R6C2-prix-mende.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R6-nimes/R6C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R6-nimes/R6C4-prix-d-avenches.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C2-prix-mende.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C4-prix-d-avenches.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C5-prix-lido.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C6-prix-custom.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C7-prix-des-pays-nordiques.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C8-prix-poulbot.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R7-graignes/R7C9-prix-de-montauban.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C1-prix-gras-savoye.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C2-prix-mende.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C5-prix-lido.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C6-prix-custom.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C7-prix-des-pays-nordiques.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C8-prix-poulbot.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R8-laval/R8C9-prix-de-montauban.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C1-prix-gras-savoye.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C3-grand-prix-de-paris.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C5-prix-lido.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C7-prix-des-pays-nordiques.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C8-prix-poulbot.html",
+      "resultats-et-rapports/2013/02/2013-02-24/R9-bordeaux-le-bouscat/R9C9-prix-de-montauban.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nantes",
+      "R3-angers",
+      "R6-nimes",
+      "R7-graignes",
+      "R8-laval",
+      "R9-bordeaux-le-bouscat"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gras-savoye.html",
+        "R1C2-prix-mende.html",
+        "R1C3-grand-prix-de-paris.html",
+        "R1C4-prix-d-avenches.html",
+        "R1C5-prix-lido.html",
+        "R1C6-prix-custom.html",
+        "R1C7-prix-des-pays-nordiques.html",
+        "R1C8-prix-poulbot.html",
+        "R1C9-prix-de-montauban.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-gras-savoye.html",
+        "R2C2-prix-mende.html",
+        "R2C3-grand-prix-de-paris.html",
+        "R2C4-prix-d-avenches.html",
+        "R2C5-prix-lido.html",
+        "R2C6-prix-custom.html",
+        "R2C7-prix-des-pays-nordiques.html",
+        "R2C8-prix-poulbot.html",
+        "R2C9-prix-de-montauban.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-gras-savoye.html",
+        "R3C2-prix-mende.html",
+        "R3C3-grand-prix-de-paris.html",
+        "R3C4-prix-d-avenches.html",
+        "R3C5-prix-lido.html",
+        "R3C6-prix-custom.html",
+        "R3C7-prix-des-pays-nordiques.html",
+        "R3C8-prix-poulbot.html",
+        "R3C9-prix-de-montauban.html"
+      ],
+      "R6-nimes": [
+        "R6C1-prix-gras-savoye.html",
+        "R6C2-prix-mende.html",
+        "R6C3-grand-prix-de-paris.html",
+        "R6C4-prix-d-avenches.html",
+        "R6C5-prix-lido.html",
+        "R6C6-prix-custom.html",
+        "R6C7-prix-des-pays-nordiques.html",
+        "R6C8-prix-poulbot.html",
+        "R6C9-prix-de-montauban.html"
+      ],
+      "R7-graignes": [
+        "R7C1-prix-gras-savoye.html",
+        "R7C2-prix-mende.html",
+        "R7C3-grand-prix-de-paris.html",
+        "R7C4-prix-d-avenches.html",
+        "R7C5-prix-lido.html",
+        "R7C6-prix-custom.html",
+        "R7C7-prix-des-pays-nordiques.html",
+        "R7C8-prix-poulbot.html",
+        "R7C9-prix-de-montauban.html"
+      ],
+      "R8-laval": [
+        "R8C1-prix-gras-savoye.html",
+        "R8C2-prix-mende.html",
+        "R8C3-grand-prix-de-paris.html",
+        "R8C4-prix-d-avenches.html",
+        "R8C5-prix-lido.html",
+        "R8C6-prix-custom.html",
+        "R8C7-prix-des-pays-nordiques.html",
+        "R8C8-prix-poulbot.html",
+        "R8C9-prix-de-montauban.html"
+      ],
+      "R9-bordeaux-le-bouscat": [
+        "R9C1-prix-gras-savoye.html",
+        "R9C2-prix-mende.html",
+        "R9C3-grand-prix-de-paris.html",
+        "R9C4-prix-d-avenches.html",
+        "R9C5-prix-lido.html",
+        "R9C6-prix-custom.html",
+        "R9C7-prix-des-pays-nordiques.html",
+        "R9C8-prix-poulbot.html",
+        "R9C9-prix-de-montauban.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:37.252649Z"
+}

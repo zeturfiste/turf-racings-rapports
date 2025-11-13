@@ -1,0 +1,79 @@
+{
+  "date": "2007-11-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/11/2007-11-22",
+    "date_html": "resultats-et-rapports/2007/11/2007-11-22/2007-11-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C1-prix-de-montignac.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C2-prix-de-dunkerque.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C3-prix-de-vitteaux.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C4-prix-de-moscou.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C5-prix-de-thoissey.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C6-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C7-prix-de-plestin-les-greves.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C8-prix-de-meyssac.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R1-vincennes/R1C9-prix-de-bazas.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C1-prix-de-montignac.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C3-prix-de-vitteaux.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C5-prix-de-thoissey.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C6-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C7-prix-de-plestin-les-greves.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R2-deauville/R2C8-prix-de-meyssac.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C2-prix-de-dunkerque.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C3-prix-de-vitteaux.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C4-prix-de-moscou.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C5-prix-de-thoissey.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C6-prix-de-villers-cotterets.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C8-prix-de-meyssac.html",
+      "resultats-et-rapports/2007/11/2007-11-22/R31-zerace/R31C9-prix-de-bazas.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-montignac.html",
+        "R1C2-prix-de-dunkerque.html",
+        "R1C3-prix-de-vitteaux.html",
+        "R1C4-prix-de-moscou.html",
+        "R1C5-prix-de-thoissey.html",
+        "R1C6-prix-de-villers-cotterets.html",
+        "R1C7-prix-de-plestin-les-greves.html",
+        "R1C8-prix-de-meyssac.html",
+        "R1C9-prix-de-bazas.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-de-montignac.html",
+        "R2C2-prix-de-dunkerque.html",
+        "R2C3-prix-de-vitteaux.html",
+        "R2C4-prix-de-moscou.html",
+        "R2C5-prix-de-thoissey.html",
+        "R2C6-prix-de-villers-cotterets.html",
+        "R2C7-prix-de-plestin-les-greves.html",
+        "R2C8-prix-de-meyssac.html",
+        "R2C9-prix-de-bazas.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-montignac.html",
+        "R31C2-prix-de-dunkerque.html",
+        "R31C3-prix-de-vitteaux.html",
+        "R31C4-prix-de-moscou.html",
+        "R31C5-prix-de-thoissey.html",
+        "R31C6-prix-de-villers-cotterets.html",
+        "R31C7-prix-de-plestin-les-greves.html",
+        "R31C8-prix-de-meyssac.html",
+        "R31C9-prix-de-bazas.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:29.238949Z"
+}

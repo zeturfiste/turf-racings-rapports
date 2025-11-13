@@ -1,0 +1,122 @@
+{
+  "date": "2009-10-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/10/2009-10-14",
+    "date_html": "resultats-et-rapports/2009/10/2009-10-14/2009-10-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C1-prix-geny-com.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C4-prix-de-carentan-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R1-lyon-la-soie/R1C6-prix-t-l-m-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R2-maisons-laffitte/R2C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R2-maisons-laffitte/R2C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R31-zerace/R31C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R31-zerace/R31C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R70-stade-de-france-saint-denis/R70C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R70-stade-de-france-saint-denis/R70C4-prix-de-carentan-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R70-stade-de-france-saint-denis/R70C9-prix-de-saint-malo.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C1-prix-geny-com.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C4-prix-de-carentan-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C6-prix-t-l-m-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C7-prix-de-la-capelle.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C8-prix-de-graignes.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R71-parc-saint-jacques-bale/R71C9-prix-de-saint-malo.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C1-prix-geny-com.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C4-prix-de-carentan-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C6-prix-t-l-m-prix-de-mauquenchy.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C7-prix-de-la-capelle.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C8-prix-de-graignes.html",
+      "resultats-et-rapports/2009/10/2009-10-14/R72-silesian-stadium-chorzow/R72C9-prix-de-saint-malo.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-la-soie",
+      "R2-maisons-laffitte",
+      "R31-zerace",
+      "R70-stade-de-france-saint-denis",
+      "R71-parc-saint-jacques-bale",
+      "R72-silesian-stadium-chorzow"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-la-soie": [
+        "R1C1-prix-geny-com.html",
+        "R1C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R1C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R1C4-prix-de-carentan-groupe-b.html",
+        "R1C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R1C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R1C7-prix-de-la-capelle.html",
+        "R1C8-prix-de-graignes.html",
+        "R1C9-prix-de-saint-malo.html"
+      ],
+      "R2-maisons-laffitte": [
+        "R2C1-prix-geny-com.html",
+        "R2C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R2C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R2C4-prix-de-carentan-groupe-b.html",
+        "R2C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R2C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R2C7-prix-de-la-capelle.html",
+        "R2C8-prix-de-graignes.html",
+        "R2C9-prix-de-saint-malo.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-geny-com.html",
+        "R31C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R31C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R31C4-prix-de-carentan-groupe-b.html",
+        "R31C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R31C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R31C7-prix-de-la-capelle.html",
+        "R31C8-prix-de-graignes.html",
+        "R31C9-prix-de-saint-malo.html"
+      ],
+      "R70-stade-de-france-saint-denis": [
+        "R70C1-prix-geny-com.html",
+        "R70C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R70C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R70C4-prix-de-carentan-groupe-b.html",
+        "R70C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R70C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R70C7-prix-de-la-capelle.html",
+        "R70C8-prix-de-graignes.html",
+        "R70C9-prix-de-saint-malo.html"
+      ],
+      "R71-parc-saint-jacques-bale": [
+        "R71C1-prix-geny-com.html",
+        "R71C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R71C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R71C4-prix-de-carentan-groupe-b.html",
+        "R71C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R71C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R71C7-prix-de-la-capelle.html",
+        "R71C8-prix-de-graignes.html",
+        "R71C9-prix-de-saint-malo.html"
+      ],
+      "R72-silesian-stadium-chorzow": [
+        "R72C1-prix-geny-com.html",
+        "R72C2-prix-du-carre-de-soie-prix-de-la-manche.html",
+        "R72C3-prix-equita-lyon-prix-de-carentan-groupe-a.html",
+        "R72C4-prix-de-carentan-groupe-b.html",
+        "R72C5-prix-hotel-la-reine-astrid-prix-de-cabourg.html",
+        "R72C6-prix-t-l-m-prix-de-mauquenchy.html",
+        "R72C7-prix-de-la-capelle.html",
+        "R72C8-prix-de-graignes.html",
+        "R72C9-prix-de-saint-malo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:32:52.822982Z"
+}

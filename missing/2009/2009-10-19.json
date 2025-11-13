@@ -1,0 +1,135 @@
+{
+  "date": "2009-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/10/2009-10-19",
+    "date_html": "resultats-et-rapports/2009/10/2009-10-19/2009-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C1-prix-de-pomarez.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C2-prix-de-la-place-saint-charles.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C3-prix-des-pyramides.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C4-prix-de-mainvilliers.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C5-prix-du-palais-royal.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C6-prix-de-montresor-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C7-prix-de-montresor-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C8-prix-de-la-place-du-canada.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R1-enghien-soisy/R1C9-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C1-prix-de-pomarez.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C2-prix-de-la-place-saint-charles.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C3-prix-des-pyramides.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C4-prix-de-mainvilliers.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C5-prix-du-palais-royal.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C6-prix-de-montresor-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C7-prix-de-montresor-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C8-prix-de-la-place-du-canada.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R2-clairefontaine/R2C9-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C1-prix-de-pomarez.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C2-prix-de-la-place-saint-charles.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C3-prix-des-pyramides.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C5-prix-du-palais-royal.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C6-prix-de-montresor-groupe-a.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C7-prix-de-montresor-groupe-b.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R3-caen/R3C9-prix-du-champ-de-mars.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R70-la-beaujoire-nantes/R70C2-prix-de-la-place-saint-charles.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R70-la-beaujoire-nantes/R70C3-prix-des-pyramides.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R70-la-beaujoire-nantes/R70C4-prix-de-mainvilliers.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R70-la-beaujoire-nantes/R70C5-prix-du-palais-royal.html",
+      "resultats-et-rapports/2009/10/2009-10-19/R70-la-beaujoire-nantes/R70C6-prix-de-montresor-groupe-a.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-clairefontaine",
+      "R3-caen",
+      "R4-toulouse",
+      "R5-le-croise-laroche",
+      "R31-zerace",
+      "R70-la-beaujoire-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-pomarez.html",
+        "R1C2-prix-de-la-place-saint-charles.html",
+        "R1C3-prix-des-pyramides.html",
+        "R1C4-prix-de-mainvilliers.html",
+        "R1C5-prix-du-palais-royal.html",
+        "R1C6-prix-de-montresor-groupe-a.html",
+        "R1C7-prix-de-montresor-groupe-b.html",
+        "R1C8-prix-de-la-place-du-canada.html",
+        "R1C9-prix-du-champ-de-mars.html"
+      ],
+      "R2-clairefontaine": [
+        "R2C1-prix-de-pomarez.html",
+        "R2C2-prix-de-la-place-saint-charles.html",
+        "R2C3-prix-des-pyramides.html",
+        "R2C4-prix-de-mainvilliers.html",
+        "R2C5-prix-du-palais-royal.html",
+        "R2C6-prix-de-montresor-groupe-a.html",
+        "R2C7-prix-de-montresor-groupe-b.html",
+        "R2C8-prix-de-la-place-du-canada.html",
+        "R2C9-prix-du-champ-de-mars.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-de-pomarez.html",
+        "R3C2-prix-de-la-place-saint-charles.html",
+        "R3C3-prix-des-pyramides.html",
+        "R3C4-prix-de-mainvilliers.html",
+        "R3C5-prix-du-palais-royal.html",
+        "R3C6-prix-de-montresor-groupe-a.html",
+        "R3C7-prix-de-montresor-groupe-b.html",
+        "R3C8-prix-de-la-place-du-canada.html",
+        "R3C9-prix-du-champ-de-mars.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-pomarez.html",
+        "R4C2-prix-de-la-place-saint-charles.html",
+        "R4C3-prix-des-pyramides.html",
+        "R4C4-prix-de-mainvilliers.html",
+        "R4C5-prix-du-palais-royal.html",
+        "R4C6-prix-de-montresor-groupe-a.html",
+        "R4C7-prix-de-montresor-groupe-b.html",
+        "R4C8-prix-de-la-place-du-canada.html",
+        "R4C9-prix-du-champ-de-mars.html"
+      ],
+      "R5-le-croise-laroche": [
+        "R5C1-prix-de-pomarez.html",
+        "R5C2-prix-de-la-place-saint-charles.html",
+        "R5C3-prix-des-pyramides.html",
+        "R5C4-prix-de-mainvilliers.html",
+        "R5C5-prix-du-palais-royal.html",
+        "R5C6-prix-de-montresor-groupe-a.html",
+        "R5C7-prix-de-montresor-groupe-b.html",
+        "R5C8-prix-de-la-place-du-canada.html",
+        "R5C9-prix-du-champ-de-mars.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-pomarez.html",
+        "R31C2-prix-de-la-place-saint-charles.html",
+        "R31C3-prix-des-pyramides.html",
+        "R31C4-prix-de-mainvilliers.html",
+        "R31C5-prix-du-palais-royal.html",
+        "R31C6-prix-de-montresor-groupe-a.html",
+        "R31C7-prix-de-montresor-groupe-b.html",
+        "R31C8-prix-de-la-place-du-canada.html",
+        "R31C9-prix-du-champ-de-mars.html"
+      ],
+      "R70-la-beaujoire-nantes": [
+        "R70C1-prix-de-pomarez.html",
+        "R70C2-prix-de-la-place-saint-charles.html",
+        "R70C3-prix-des-pyramides.html",
+        "R70C4-prix-de-mainvilliers.html",
+        "R70C5-prix-du-palais-royal.html",
+        "R70C6-prix-de-montresor-groupe-a.html",
+        "R70C7-prix-de-montresor-groupe-b.html",
+        "R70C8-prix-de-la-place-du-canada.html",
+        "R70C9-prix-du-champ-de-mars.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:32:56.288478Z"
+}

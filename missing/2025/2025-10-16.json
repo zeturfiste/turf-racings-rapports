@@ -1,0 +1,60 @@
+{
+  "date": "2025-10-16",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-16",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-16/2025-10-16.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-16/R1-saint-cloud/R1C1-prix-des-landes.html",
+      "resultats-et-rapports/2025/10/2025-10-16/R4-enghien-soisy/R4C6-prix-amonita.html",
+      "resultats-et-rapports/2025/10/2025-10-16/R4-enghien-soisy/R4C9-prix-du-pays-d-orthe.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-chartres",
+      "R4-enghien-soisy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-des-landes.html",
+        "R1C2-prix-barquette.html",
+        "R1C3-prix-pharel.html",
+        "R1C4-prix-d-hardricourt.html",
+        "R1C5-prix-des-falaises-de-craie.html",
+        "R1C6-prix-amonita.html",
+        "R1C7-prix-des-boucles-de-la-seine.html",
+        "R1C8-prix-de-la-chalosse.html",
+        "R1C9-prix-du-pays-d-orthe.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-des-landes.html",
+        "R3C2-prix-barquette.html",
+        "R3C3-prix-pharel.html",
+        "R3C4-prix-d-hardricourt.html",
+        "R3C5-prix-des-falaises-de-craie.html",
+        "R3C6-prix-amonita.html",
+        "R3C7-prix-des-boucles-de-la-seine.html",
+        "R3C8-prix-de-la-chalosse.html",
+        "R3C9-prix-du-pays-d-orthe.html"
+      ],
+      "R4-enghien-soisy": [
+        "R4C1-prix-des-landes.html",
+        "R4C2-prix-barquette.html",
+        "R4C3-prix-pharel.html",
+        "R4C4-prix-d-hardricourt.html",
+        "R4C5-prix-des-falaises-de-craie.html",
+        "R4C6-prix-amonita.html",
+        "R4C7-prix-des-boucles-de-la-seine.html",
+        "R4C8-prix-de-la-chalosse.html",
+        "R4C9-prix-du-pays-d-orthe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:22.561470Z"
+}

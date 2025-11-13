@@ -1,0 +1,76 @@
+{
+  "date": "2021-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-15",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-15/2021-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C2-prix-de-la-remise-neuve.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C4-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C6-prix-de-mareil-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C7-prix-de-puiseux-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R1-chantilly/R1C8-prix-buckskin.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C1-prix-sagaro.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C2-prix-de-la-remise-neuve.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C4-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C5-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C6-prix-de-mareil-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C7-prix-de-puiseux-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R3-bordeaux-le-bouscat/R3C8-prix-buckskin.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C1-prix-sagaro.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C2-prix-de-la-remise-neuve.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C3-prix-du-canal-de-la-machine.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C4-prix-de-la-queue-du-renard.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C5-prix-de-la-route-millard.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C6-prix-de-mareil-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C7-prix-de-puiseux-en-france.html",
+      "resultats-et-rapports/2021/03/2021-03-15/R4-marseille-vivaux/R4C8-prix-buckskin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R3-bordeaux-le-bouscat",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-sagaro.html",
+        "R1C2-prix-de-la-remise-neuve.html",
+        "R1C3-prix-du-canal-de-la-machine.html",
+        "R1C4-prix-de-la-queue-du-renard.html",
+        "R1C5-prix-de-la-route-millard.html",
+        "R1C6-prix-de-mareil-en-france.html",
+        "R1C7-prix-de-puiseux-en-france.html",
+        "R1C8-prix-buckskin.html"
+      ],
+      "R3-bordeaux-le-bouscat": [
+        "R3C1-prix-sagaro.html",
+        "R3C2-prix-de-la-remise-neuve.html",
+        "R3C3-prix-du-canal-de-la-machine.html",
+        "R3C4-prix-de-la-queue-du-renard.html",
+        "R3C5-prix-de-la-route-millard.html",
+        "R3C6-prix-de-mareil-en-france.html",
+        "R3C7-prix-de-puiseux-en-france.html",
+        "R3C8-prix-buckskin.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-sagaro.html",
+        "R4C2-prix-de-la-remise-neuve.html",
+        "R4C3-prix-du-canal-de-la-machine.html",
+        "R4C4-prix-de-la-queue-du-renard.html",
+        "R4C5-prix-de-la-route-millard.html",
+        "R4C6-prix-de-mareil-en-france.html",
+        "R4C7-prix-de-puiseux-en-france.html",
+        "R4C8-prix-buckskin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:56.525093Z"
+}

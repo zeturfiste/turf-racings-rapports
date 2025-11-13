@@ -1,0 +1,70 @@
+{
+  "date": "2025-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/08/2025-08-11",
+    "date_html": "resultats-et-rapports/2025/08/2025-08-11/2025-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/08/2025-08-11/R2-divonne-les-bains/R2C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+      "resultats-et-rapports/2025/08/2025-08-11/R4-la-teste-de-buch/R4C2-prix-vive-les-courses-d-obstacle-prix-de-la-dorette.html",
+      "resultats-et-rapports/2025/08/2025-08-11/R4-la-teste-de-buch/R4C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+      "resultats-et-rapports/2025/08/2025-08-11/R4-la-teste-de-buch/R4C7-prix-michel-d-arexy-challenge-de-l-obstacle-equinaxy.html",
+      "resultats-et-rapports/2025/08/2025-08-11/R5-cagnes-sur-mer/R5C1-prix-du-centre-d-entrainement-de-dragey-ronthon-prix-des-aconites.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-divonne-les-bains",
+      "R4-la-teste-de-buch",
+      "R5-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-du-centre-d-entrainement-de-dragey-ronthon-prix-des-aconites.html",
+        "R1C2-prix-vive-les-courses-d-obstacle-prix-de-la-dorette.html",
+        "R1C3-prix-association-pp-prix-de-ranville.html",
+        "R1C4-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R1C5-prix-merci-jean-picard-prix-rigoureux.html",
+        "R1C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+        "R1C7-prix-michel-d-arexy-challenge-de-l-obstacle-equinaxy.html",
+        "R1C8-prix-de-l-association-galop-baie-prix-des-erables.html"
+      ],
+      "R2-divonne-les-bains": [
+        "R2C1-prix-du-centre-d-entrainement-de-dragey-ronthon-prix-des-aconites.html",
+        "R2C2-prix-vive-les-courses-d-obstacle-prix-de-la-dorette.html",
+        "R2C3-prix-association-pp-prix-de-ranville.html",
+        "R2C4-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R2C5-prix-merci-jean-picard-prix-rigoureux.html",
+        "R2C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+        "R2C7-prix-michel-d-arexy-challenge-de-l-obstacle-equinaxy.html",
+        "R2C8-prix-de-l-association-galop-baie-prix-des-erables.html"
+      ],
+      "R4-la-teste-de-buch": [
+        "R4C1-prix-du-centre-d-entrainement-de-dragey-ronthon-prix-des-aconites.html",
+        "R4C2-prix-vive-les-courses-d-obstacle-prix-de-la-dorette.html",
+        "R4C3-prix-association-pp-prix-de-ranville.html",
+        "R4C4-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R4C5-prix-merci-jean-picard-prix-rigoureux.html",
+        "R4C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+        "R4C7-prix-michel-d-arexy-challenge-de-l-obstacle-equinaxy.html",
+        "R4C8-prix-de-l-association-galop-baie-prix-des-erables.html"
+      ],
+      "R5-cagnes-sur-mer": [
+        "R5C1-prix-du-centre-d-entrainement-de-dragey-ronthon-prix-des-aconites.html",
+        "R5C2-prix-vive-les-courses-d-obstacle-prix-de-la-dorette.html",
+        "R5C3-prix-association-pp-prix-de-ranville.html",
+        "R5C4-grande-course-de-haies-prix-guillaume-d-ornano.html",
+        "R5C5-prix-merci-jean-picard-prix-rigoureux.html",
+        "R5C6-prix-des-entraineurs-de-dragey-prix-de-l-orbiquet.html",
+        "R5C7-prix-michel-d-arexy-challenge-de-l-obstacle-equinaxy.html",
+        "R5C8-prix-de-l-association-galop-baie-prix-des-erables.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:58.631908Z"
+}

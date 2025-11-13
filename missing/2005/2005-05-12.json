@@ -1,0 +1,44 @@
+{
+  "date": "2005-05-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/05/2005-05-12",
+    "date_html": "resultats-et-rapports/2005/05/2005-05-12/2005-05-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-de-chevilly.html",
+        "R1C2-prix-vanteaux.html",
+        "R1C3-prix-de-la-tour-saint-jacques.html",
+        "R1C4-prix-de-la-megisserie.html",
+        "R1C5-prix-du-champ-de-mars.html",
+        "R1C6-prix-de-saint-ouen.html",
+        "R1C7-prix-du-bord-de-l-eau.html",
+        "R1C8-prix-de-glatigny.html",
+        "R1C9-prix-de-viroflay.html"
+      ],
+      "R2-saint-galmier": [
+        "R2C1-prix-de-chevilly.html",
+        "R2C2-prix-vanteaux.html",
+        "R2C3-prix-de-la-tour-saint-jacques.html",
+        "R2C4-prix-de-la-megisserie.html",
+        "R2C5-prix-du-champ-de-mars.html",
+        "R2C6-prix-de-saint-ouen.html",
+        "R2C7-prix-du-bord-de-l-eau.html",
+        "R2C8-prix-de-glatigny.html",
+        "R2C9-prix-de-viroflay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:31.250694Z"
+}

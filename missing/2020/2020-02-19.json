@@ -1,0 +1,65 @@
+{
+  "date": "2020-02-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/02/2020-02-19",
+    "date_html": "resultats-et-rapports/2020/02/2020-02-19/2020-02-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/02/2020-02-19/R1-cagnes-sur-mer/R1C6-prix-de-carpentras.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R1-cagnes-sur-mer/R1C7-prix-du-mercantour.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R3-vire/R3C5-prix-du-lautin.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R3-vire/R3C7-prix-du-mercantour.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R3-vire/R3C8-prix-de-juan-les-pins.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C2-prix-de-la-promenade-de-la-plage.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C3-prix-des-genevriers.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C4-prix-de-cavaillon.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C6-prix-de-carpentras.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C7-prix-du-mercantour.html",
+      "resultats-et-rapports/2020/02/2020-02-19/R4-saint-galmier/R4C8-prix-de-juan-les-pins.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R3-vire",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-d-antibes.html",
+        "R1C2-prix-de-la-promenade-de-la-plage.html",
+        "R1C3-prix-des-genevriers.html",
+        "R1C4-prix-de-cavaillon.html",
+        "R1C5-prix-du-lautin.html",
+        "R1C6-prix-de-carpentras.html",
+        "R1C7-prix-du-mercantour.html",
+        "R1C8-prix-de-juan-les-pins.html"
+      ],
+      "R3-vire": [
+        "R3C1-prix-d-antibes.html",
+        "R3C2-prix-de-la-promenade-de-la-plage.html",
+        "R3C3-prix-des-genevriers.html",
+        "R3C4-prix-de-cavaillon.html",
+        "R3C5-prix-du-lautin.html",
+        "R3C6-prix-de-carpentras.html",
+        "R3C7-prix-du-mercantour.html",
+        "R3C8-prix-de-juan-les-pins.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-prix-d-antibes.html",
+        "R4C2-prix-de-la-promenade-de-la-plage.html",
+        "R4C3-prix-des-genevriers.html",
+        "R4C4-prix-de-cavaillon.html",
+        "R4C5-prix-du-lautin.html",
+        "R4C6-prix-de-carpentras.html",
+        "R4C7-prix-du-mercantour.html",
+        "R4C8-prix-de-juan-les-pins.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:52.835187Z"
+}

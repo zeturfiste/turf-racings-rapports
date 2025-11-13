@@ -1,0 +1,60 @@
+{
+  "date": "2023-06-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-14",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-14/2023-06-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-14/R1-saint-cloud/R1C8-handicap-d-ete.html",
+      "resultats-et-rapports/2023/06/2023-06-14/R3-argentan/R3C6-prix-du-chateau-de-vanves.html",
+      "resultats-et-rapports/2023/06/2023-06-14/R3-argentan/R3C8-handicap-d-ete.html",
+      "resultats-et-rapports/2023/06/2023-06-14/R4-vichy/R4C3-prix-nubienne.html",
+      "resultats-et-rapports/2023/06/2023-06-14/R4-vichy/R4C7-prix-du-trasquet.html",
+      "resultats-et-rapports/2023/06/2023-06-14/R4-vichy/R4C8-handicap-d-ete.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-argentan",
+      "R4-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-chateau-bouscault.html",
+        "R1C2-prix-de-la-rablais.html",
+        "R1C3-prix-nubienne.html",
+        "R1C4-prix-de-montesson.html",
+        "R1C5-prix-vatellor.html",
+        "R1C6-prix-du-chateau-de-vanves.html",
+        "R1C7-prix-du-trasquet.html",
+        "R1C8-handicap-d-ete.html"
+      ],
+      "R3-argentan": [
+        "R3C1-prix-du-chateau-bouscault.html",
+        "R3C2-prix-de-la-rablais.html",
+        "R3C3-prix-nubienne.html",
+        "R3C4-prix-de-montesson.html",
+        "R3C5-prix-vatellor.html",
+        "R3C6-prix-du-chateau-de-vanves.html",
+        "R3C7-prix-du-trasquet.html",
+        "R3C8-handicap-d-ete.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-chateau-bouscault.html",
+        "R4C2-prix-de-la-rablais.html",
+        "R4C3-prix-nubienne.html",
+        "R4C4-prix-de-montesson.html",
+        "R4C5-prix-vatellor.html",
+        "R4C6-prix-du-chateau-de-vanves.html",
+        "R4C7-prix-du-trasquet.html",
+        "R4C8-handicap-d-ete.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:01.617065Z"
+}

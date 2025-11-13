@@ -1,0 +1,64 @@
+{
+  "date": "2006-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/06/2006-06-04",
+    "date_html": "resultats-et-rapports/2006/06/2006-06-04/2006-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-chantilly",
+      "R2-bordeaux-le-bouscat",
+      "R4-alencon",
+      "R5-vire"
+    ],
+    "courses_by_reunion": {
+      "R1-chantilly": [
+        "R1C1-prix-colt-mitsubishi-motors-prix-de-la-butte-du-maulois.html",
+        "R1C2-prix-pajero-mitsubishi-motors-prix-demidoff.html",
+        "R1C3-prix-de-sandringham-mitsubishi-motors.html",
+        "R1C4-prix-du-gros-chene-mitsubishi-motors.html",
+        "R1C5-prix-lancer-mitsubishi-motors-prix-du-chateau-de-chantilly.html",
+        "R1C6-grand-prix-de-chantilly-mitsubishi-motors.html",
+        "R1C7-prix-du-jockey-club-mitsubishi-motors.html",
+        "R1C8-prix-grandis-mitsubishi-motors-prix-du-musee-conde.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-colt-mitsubishi-motors-prix-de-la-butte-du-maulois.html",
+        "R2C2-prix-pajero-mitsubishi-motors-prix-demidoff.html",
+        "R2C3-prix-de-sandringham-mitsubishi-motors.html",
+        "R2C4-prix-du-gros-chene-mitsubishi-motors.html",
+        "R2C5-prix-lancer-mitsubishi-motors-prix-du-chateau-de-chantilly.html",
+        "R2C6-grand-prix-de-chantilly-mitsubishi-motors.html",
+        "R2C7-prix-du-jockey-club-mitsubishi-motors.html",
+        "R2C8-prix-grandis-mitsubishi-motors-prix-du-musee-conde.html"
+      ],
+      "R4-alencon": [
+        "R4C1-prix-colt-mitsubishi-motors-prix-de-la-butte-du-maulois.html",
+        "R4C2-prix-pajero-mitsubishi-motors-prix-demidoff.html",
+        "R4C3-prix-de-sandringham-mitsubishi-motors.html",
+        "R4C4-prix-du-gros-chene-mitsubishi-motors.html",
+        "R4C5-prix-lancer-mitsubishi-motors-prix-du-chateau-de-chantilly.html",
+        "R4C6-grand-prix-de-chantilly-mitsubishi-motors.html",
+        "R4C7-prix-du-jockey-club-mitsubishi-motors.html",
+        "R4C8-prix-grandis-mitsubishi-motors-prix-du-musee-conde.html"
+      ],
+      "R5-vire": [
+        "R5C1-prix-colt-mitsubishi-motors-prix-de-la-butte-du-maulois.html",
+        "R5C2-prix-pajero-mitsubishi-motors-prix-demidoff.html",
+        "R5C3-prix-de-sandringham-mitsubishi-motors.html",
+        "R5C4-prix-du-gros-chene-mitsubishi-motors.html",
+        "R5C5-prix-lancer-mitsubishi-motors-prix-du-chateau-de-chantilly.html",
+        "R5C6-grand-prix-de-chantilly-mitsubishi-motors.html",
+        "R5C7-prix-du-jockey-club-mitsubishi-motors.html",
+        "R5C8-prix-grandis-mitsubishi-motors-prix-du-musee-conde.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:35.952292Z"
+}

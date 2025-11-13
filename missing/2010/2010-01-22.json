@@ -1,0 +1,64 @@
+{
+  "date": "2010-01-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/01/2010-01-22",
+    "date_html": "resultats-et-rapports/2010/01/2010-01-22/2010-01-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/01/2010-01-22/R1-cagnes-sur-mer/R1C3-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R1-cagnes-sur-mer/R1C5-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R1-cagnes-sur-mer/R1C6-prix-des-figuiers.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R1-cagnes-sur-mer/R1C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R2-vincennes/R2C1-prix-france-soir-prix-de-marseille.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R2-vincennes/R2C5-prix-de-la-maurienne.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R2-vincennes/R2C6-prix-des-figuiers.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R2-vincennes/R2C7-prix-du-vieux-port.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R31-zerace/R31C1-prix-france-soir-prix-de-marseille.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R31-zerace/R31C2-prix-de-grasse.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R31-zerace/R31C3-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R31-zerace/R31C4-prix-des-oliviers.html",
+      "resultats-et-rapports/2010/01/2010-01-22/R31-zerace/R31C6-prix-des-figuiers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R31-zerace"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-france-soir-prix-de-marseille.html",
+        "R1C2-prix-de-grasse.html",
+        "R1C3-prix-de-clairefontaine.html",
+        "R1C4-prix-des-oliviers.html",
+        "R1C5-prix-de-la-maurienne.html",
+        "R1C6-prix-des-figuiers.html",
+        "R1C7-prix-du-vieux-port.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-france-soir-prix-de-marseille.html",
+        "R2C2-prix-de-grasse.html",
+        "R2C3-prix-de-clairefontaine.html",
+        "R2C4-prix-des-oliviers.html",
+        "R2C5-prix-de-la-maurienne.html",
+        "R2C6-prix-des-figuiers.html",
+        "R2C7-prix-du-vieux-port.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-france-soir-prix-de-marseille.html",
+        "R31C2-prix-de-grasse.html",
+        "R31C3-prix-de-clairefontaine.html",
+        "R31C4-prix-des-oliviers.html",
+        "R31C5-prix-de-la-maurienne.html",
+        "R31C6-prix-des-figuiers.html",
+        "R31C7-prix-du-vieux-port.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:33:40.581552Z"
+}

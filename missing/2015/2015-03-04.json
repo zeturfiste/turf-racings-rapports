@@ -1,0 +1,65 @@
+{
+  "date": "2015-03-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2015/03/2015-03-04",
+    "date_html": "resultats-et-rapports/2015/03/2015-03-04/2015-03-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2015/03/2015-03-04/R1-la-capelle/R1C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R1-la-capelle/R1C2-prix-dupont-traiteur.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R1-la-capelle/R1C5-prix-f-caille.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R1-la-capelle/R1C7-prix-artiste-de-joudes.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R1-la-capelle/R1C8-prix-saphir-des-elfes.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R2-fontainebleau/R2C4-prix-f-f-dubois-le-longchamp-la-capelle.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R2-fontainebleau/R2C5-prix-f-caille.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R2-fontainebleau/R2C7-prix-artiste-de-joudes.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R2-fontainebleau/R2C8-prix-saphir-des-elfes.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R3-marseille-vivaux/R3C1-grand-national-du-trot-paris-turf.html",
+      "resultats-et-rapports/2015/03/2015-03-04/R3-marseille-vivaux/R3C7-prix-artiste-de-joudes.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-la-capelle",
+      "R2-fontainebleau",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-la-capelle": [
+        "R1C1-grand-national-du-trot-paris-turf.html",
+        "R1C2-prix-dupont-traiteur.html",
+        "R1C3-prix-genes-diffusion.html",
+        "R1C4-prix-f-f-dubois-le-longchamp-la-capelle.html",
+        "R1C5-prix-f-caille.html",
+        "R1C6-prix-de-l-unat.html",
+        "R1C7-prix-artiste-de-joudes.html",
+        "R1C8-prix-saphir-des-elfes.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-grand-national-du-trot-paris-turf.html",
+        "R2C2-prix-dupont-traiteur.html",
+        "R2C3-prix-genes-diffusion.html",
+        "R2C4-prix-f-f-dubois-le-longchamp-la-capelle.html",
+        "R2C5-prix-f-caille.html",
+        "R2C6-prix-de-l-unat.html",
+        "R2C7-prix-artiste-de-joudes.html",
+        "R2C8-prix-saphir-des-elfes.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-grand-national-du-trot-paris-turf.html",
+        "R3C2-prix-dupont-traiteur.html",
+        "R3C3-prix-genes-diffusion.html",
+        "R3C4-prix-f-f-dubois-le-longchamp-la-capelle.html",
+        "R3C5-prix-f-caille.html",
+        "R3C6-prix-de-l-unat.html",
+        "R3C7-prix-artiste-de-joudes.html",
+        "R3C8-prix-saphir-des-elfes.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:43:25.860297Z"
+}

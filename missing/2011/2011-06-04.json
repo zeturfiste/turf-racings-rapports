@@ -1,0 +1,78 @@
+{
+  "date": "2011-06-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/06/2011-06-04",
+    "date_html": "resultats-et-rapports/2011/06/2011-06-04/2011-06-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C1-prix-des-tilleuls.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C2-prix-de-la-bretonnerie.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C3-prix-du-chatelet.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C4-prix-du-palais-bourbon.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C5-prix-du-palais-royal.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C6-prix-de-fleurus.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R1-longchamp/R1C7-prix-du-vertbois.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R2-marseille-borely/R2C7-prix-du-vertbois.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R2-marseille-borely/R2C8-prix-de-l-hotel-de-lassay.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R3-vichy/R3C8-prix-de-l-hotel-de-lassay.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R6-amiens/R6C1-prix-des-tilleuls.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R6-amiens/R6C7-prix-du-vertbois.html",
+      "resultats-et-rapports/2011/06/2011-06-04/R6-amiens/R6C8-prix-de-l-hotel-de-lassay.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-longchamp",
+      "R2-marseille-borely",
+      "R3-vichy",
+      "R6-amiens"
+    ],
+    "courses_by_reunion": {
+      "R1-longchamp": [
+        "R1C1-prix-des-tilleuls.html",
+        "R1C2-prix-de-la-bretonnerie.html",
+        "R1C3-prix-du-chatelet.html",
+        "R1C4-prix-du-palais-bourbon.html",
+        "R1C5-prix-du-palais-royal.html",
+        "R1C6-prix-de-fleurus.html",
+        "R1C7-prix-du-vertbois.html",
+        "R1C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-des-tilleuls.html",
+        "R2C2-prix-de-la-bretonnerie.html",
+        "R2C3-prix-du-chatelet.html",
+        "R2C4-prix-du-palais-bourbon.html",
+        "R2C5-prix-du-palais-royal.html",
+        "R2C6-prix-de-fleurus.html",
+        "R2C7-prix-du-vertbois.html",
+        "R2C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-des-tilleuls.html",
+        "R3C2-prix-de-la-bretonnerie.html",
+        "R3C3-prix-du-chatelet.html",
+        "R3C4-prix-du-palais-bourbon.html",
+        "R3C5-prix-du-palais-royal.html",
+        "R3C6-prix-de-fleurus.html",
+        "R3C7-prix-du-vertbois.html",
+        "R3C8-prix-de-l-hotel-de-lassay.html"
+      ],
+      "R6-amiens": [
+        "R6C1-prix-des-tilleuls.html",
+        "R6C2-prix-de-la-bretonnerie.html",
+        "R6C3-prix-du-chatelet.html",
+        "R6C4-prix-du-palais-bourbon.html",
+        "R6C5-prix-du-palais-royal.html",
+        "R6C6-prix-de-fleurus.html",
+        "R6C7-prix-du-vertbois.html",
+        "R6C8-prix-de-l-hotel-de-lassay.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:38.979242Z"
+}

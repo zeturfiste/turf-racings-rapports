@@ -1,0 +1,58 @@
+{
+  "date": "2019-04-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/04/2019-04-11",
+    "date_html": "resultats-et-rapports/2019/04/2019-04-11/2019-04-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/04/2019-04-11/R1-auteuil/R1C8-prix-necor.html",
+      "resultats-et-rapports/2019/04/2019-04-11/R2-le-mans/R2C6-prix-philippe-menager.html",
+      "resultats-et-rapports/2019/04/2019-04-11/R2-le-mans/R2C8-prix-necor.html",
+      "resultats-et-rapports/2019/04/2019-04-11/R4-lyon-parilly/R4C2-prix-de-saumur.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-le-mans",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-rose-or-no.html",
+        "R1C2-prix-de-saumur.html",
+        "R1C3-prix-de-borely.html",
+        "R1C4-prix-rene-couetil.html",
+        "R1C5-prix-oteuil-sf.html",
+        "R1C6-prix-philippe-menager.html",
+        "R1C7-prix-du-barry.html",
+        "R1C8-prix-necor.html"
+      ],
+      "R2-le-mans": [
+        "R2C1-prix-rose-or-no.html",
+        "R2C2-prix-de-saumur.html",
+        "R2C3-prix-de-borely.html",
+        "R2C4-prix-rene-couetil.html",
+        "R2C5-prix-oteuil-sf.html",
+        "R2C6-prix-philippe-menager.html",
+        "R2C7-prix-du-barry.html",
+        "R2C8-prix-necor.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-rose-or-no.html",
+        "R4C2-prix-de-saumur.html",
+        "R4C3-prix-de-borely.html",
+        "R4C4-prix-rene-couetil.html",
+        "R4C5-prix-oteuil-sf.html",
+        "R4C6-prix-philippe-menager.html",
+        "R4C7-prix-du-barry.html",
+        "R4C8-prix-necor.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:09.191263Z"
+}

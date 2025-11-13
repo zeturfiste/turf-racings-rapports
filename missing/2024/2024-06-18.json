@@ -1,0 +1,89 @@
+{
+  "date": "2024-06-18",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/06/2024-06-18",
+    "date_html": "resultats-et-rapports/2024/06/2024-06-18/2024-06-18.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/06/2024-06-18/R1-nantes/R1C7-prix-sarah-gosse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R1-nantes/R1C8-prix-de-couffe.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C1-prix-de-laperouse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C2-prix-begc-prix-mg-motor-nantes.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C4-prix-bellamy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C5-prix-reverdy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R2-cavaillon/R2C8-prix-de-couffe.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C1-prix-de-laperouse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C2-prix-begc-prix-mg-motor-nantes.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C3-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C4-prix-bellamy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C5-prix-reverdy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C7-prix-sarah-gosse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R3-vincennes/R3C8-prix-de-couffe.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C1-prix-de-laperouse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C2-prix-begc-prix-mg-motor-nantes.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C3-grand-prix-des-aqps.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C4-prix-bellamy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C5-prix-reverdy.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C7-prix-sarah-gosse.html",
+      "resultats-et-rapports/2024/06/2024-06-18/R4-clairefontaine/R4C8-prix-de-couffe.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-nantes",
+      "R2-cavaillon",
+      "R3-vincennes",
+      "R4-clairefontaine"
+    ],
+    "courses_by_reunion": {
+      "R1-nantes": [
+        "R1C1-prix-de-laperouse.html",
+        "R1C2-prix-begc-prix-mg-motor-nantes.html",
+        "R1C3-grand-prix-des-aqps.html",
+        "R1C4-prix-bellamy.html",
+        "R1C5-prix-reverdy.html",
+        "R1C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+        "R1C7-prix-sarah-gosse.html",
+        "R1C8-prix-de-couffe.html"
+      ],
+      "R2-cavaillon": [
+        "R2C1-prix-de-laperouse.html",
+        "R2C2-prix-begc-prix-mg-motor-nantes.html",
+        "R2C3-grand-prix-des-aqps.html",
+        "R2C4-prix-bellamy.html",
+        "R2C5-prix-reverdy.html",
+        "R2C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+        "R2C7-prix-sarah-gosse.html",
+        "R2C8-prix-de-couffe.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-laperouse.html",
+        "R3C2-prix-begc-prix-mg-motor-nantes.html",
+        "R3C3-grand-prix-des-aqps.html",
+        "R3C4-prix-bellamy.html",
+        "R3C5-prix-reverdy.html",
+        "R3C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+        "R3C7-prix-sarah-gosse.html",
+        "R3C8-prix-de-couffe.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-de-laperouse.html",
+        "R4C2-prix-begc-prix-mg-motor-nantes.html",
+        "R4C3-grand-prix-des-aqps.html",
+        "R4C4-prix-bellamy.html",
+        "R4C5-prix-reverdy.html",
+        "R4C6-prix-groupe-atlantic-prix-du-bois-joli.html",
+        "R4C7-prix-sarah-gosse.html",
+        "R4C8-prix-de-couffe.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:19.870360Z"
+}

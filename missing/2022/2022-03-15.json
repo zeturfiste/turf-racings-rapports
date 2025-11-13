@@ -1,0 +1,73 @@
+{
+  "date": "2022-03-15",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/03/2022-03-15",
+    "date_html": "resultats-et-rapports/2022/03/2022-03-15/2022-03-15.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/03/2022-03-15/R1-laval/R1C2-prix-du-haras-du-lion-d-angers.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R1-laval/R1C3-prix-du-haras-du-plessis.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R1-laval/R1C7-prix-du-haras-de-l-audoirie.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R1-laval/R1C8-prix-du-haras-de-la-potardiere.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C1-grand-prix-ernest-jouanne-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C2-prix-du-haras-du-lion-d-angers.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C3-prix-du-haras-du-plessis.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C4-prix-du-haras-de-bannes.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C6-prix-du-haras-d-haufor.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C7-prix-du-haras-de-l-audoirie.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R3-fontainebleau/R3C8-prix-du-haras-de-la-potardiere.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C1-grand-prix-ernest-jouanne-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C2-prix-du-haras-du-lion-d-angers.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C3-prix-du-haras-du-plessis.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C4-prix-du-haras-de-bannes.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C5-prix-du-haras-de-vaiges.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C6-prix-du-haras-d-haufor.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C7-prix-du-haras-de-l-audoirie.html",
+      "resultats-et-rapports/2022/03/2022-03-15/R4-lyon-la-soie/R4C8-prix-du-haras-de-la-potardiere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-laval",
+      "R3-fontainebleau",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-laval": [
+        "R1C1-grand-prix-ernest-jouanne-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R1C2-prix-du-haras-du-lion-d-angers.html",
+        "R1C3-prix-du-haras-du-plessis.html",
+        "R1C4-prix-du-haras-de-bannes.html",
+        "R1C5-prix-du-haras-de-vaiges.html",
+        "R1C6-prix-du-haras-d-haufor.html",
+        "R1C7-prix-du-haras-de-l-audoirie.html",
+        "R1C8-prix-du-haras-de-la-potardiere.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-grand-prix-ernest-jouanne-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R3C2-prix-du-haras-du-lion-d-angers.html",
+        "R3C3-prix-du-haras-du-plessis.html",
+        "R3C4-prix-du-haras-de-bannes.html",
+        "R3C5-prix-du-haras-de-vaiges.html",
+        "R3C6-prix-du-haras-d-haufor.html",
+        "R3C7-prix-du-haras-de-l-audoirie.html",
+        "R3C8-prix-du-haras-de-la-potardiere.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-grand-prix-ernest-jouanne-grand-prix-du-conseil-departemental-de-la-mayenne.html",
+        "R4C2-prix-du-haras-du-lion-d-angers.html",
+        "R4C3-prix-du-haras-du-plessis.html",
+        "R4C4-prix-du-haras-de-bannes.html",
+        "R4C5-prix-du-haras-de-vaiges.html",
+        "R4C6-prix-du-haras-d-haufor.html",
+        "R4C7-prix-du-haras-de-l-audoirie.html",
+        "R4C8-prix-du-haras-de-la-potardiere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:57:14.486274Z"
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2006-03-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2006/03/2006-03-11",
+    "date_html": "resultats-et-rapports/2006/03/2006-03-11/2006-03-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-le-croise-laroche",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-d-egreville.html",
+        "R1C2-prix-de-triel.html",
+        "R1C3-handicap-de-l-ile-de-france.html",
+        "R1C4-prix-de-lescar.html",
+        "R1C5-prix-carteret.html",
+        "R1C6-prix-de-houdan.html",
+        "R1C7-handicap-de-haute-normandie.html"
+      ],
+      "R2-le-croise-laroche": [
+        "R2C1-prix-d-egreville.html",
+        "R2C2-prix-de-triel.html",
+        "R2C3-handicap-de-l-ile-de-france.html",
+        "R2C4-prix-de-lescar.html",
+        "R2C5-prix-carteret.html",
+        "R2C6-prix-de-houdan.html",
+        "R2C7-handicap-de-haute-normandie.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-d-egreville.html",
+        "R4C2-prix-de-triel.html",
+        "R4C3-handicap-de-l-ile-de-france.html",
+        "R4C4-prix-de-lescar.html",
+        "R4C5-prix-carteret.html",
+        "R4C6-prix-de-houdan.html",
+        "R4C7-handicap-de-haute-normandie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:19.514102Z"
+}

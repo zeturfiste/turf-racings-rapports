@@ -1,0 +1,130 @@
+{
+  "date": "2011-03-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-20",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-20/2011-03-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-20/R1-auteuil/R1C2-prix-rush.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R1-auteuil/R1C3-prix-colonel-de-la-horie.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R1-auteuil/R1C4-prix-predicateur.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R1-auteuil/R1C7-prix-de-la-source.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R2-pontchateau/R2C2-prix-rush.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R2-pontchateau/R2C4-prix-predicateur.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R2-pontchateau/R2C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R2-pontchateau/R2C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R2-pontchateau/R2C7-prix-de-la-source.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R3-lyon-parilly/R3C2-prix-rush.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R3-lyon-parilly/R3C3-prix-colonel-de-la-horie.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R3-lyon-parilly/R3C4-prix-predicateur.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R3-lyon-parilly/R3C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R3-lyon-parilly/R3C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R4-agen/R4C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R5-chartres/R5C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R5-chartres/R5C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C1-prix-de-la-christiniere.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C2-prix-rush.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C3-prix-colonel-de-la-horie.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C4-prix-predicateur.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C7-prix-de-la-source.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R6-nancy/R6C8-prix-lilium.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C1-prix-de-la-christiniere.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C3-prix-colonel-de-la-horie.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C4-prix-predicateur.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C5-prix-d-indy.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C6-prix-jean-claude-evain.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C7-prix-de-la-source.html",
+      "resultats-et-rapports/2011/03/2011-03-20/R7-saint-brieuc/R7C8-prix-lilium.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-pontchateau",
+      "R3-lyon-parilly",
+      "R4-agen",
+      "R5-chartres",
+      "R6-nancy",
+      "R7-saint-brieuc"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-de-la-christiniere.html",
+        "R1C2-prix-rush.html",
+        "R1C3-prix-colonel-de-la-horie.html",
+        "R1C4-prix-predicateur.html",
+        "R1C5-prix-d-indy.html",
+        "R1C6-prix-jean-claude-evain.html",
+        "R1C7-prix-de-la-source.html",
+        "R1C8-prix-lilium.html"
+      ],
+      "R2-pontchateau": [
+        "R2C1-prix-de-la-christiniere.html",
+        "R2C2-prix-rush.html",
+        "R2C3-prix-colonel-de-la-horie.html",
+        "R2C4-prix-predicateur.html",
+        "R2C5-prix-d-indy.html",
+        "R2C6-prix-jean-claude-evain.html",
+        "R2C7-prix-de-la-source.html",
+        "R2C8-prix-lilium.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-de-la-christiniere.html",
+        "R3C2-prix-rush.html",
+        "R3C3-prix-colonel-de-la-horie.html",
+        "R3C4-prix-predicateur.html",
+        "R3C5-prix-d-indy.html",
+        "R3C6-prix-jean-claude-evain.html",
+        "R3C7-prix-de-la-source.html",
+        "R3C8-prix-lilium.html"
+      ],
+      "R4-agen": [
+        "R4C1-prix-de-la-christiniere.html",
+        "R4C2-prix-rush.html",
+        "R4C3-prix-colonel-de-la-horie.html",
+        "R4C4-prix-predicateur.html",
+        "R4C5-prix-d-indy.html",
+        "R4C6-prix-jean-claude-evain.html",
+        "R4C7-prix-de-la-source.html",
+        "R4C8-prix-lilium.html"
+      ],
+      "R5-chartres": [
+        "R5C1-prix-de-la-christiniere.html",
+        "R5C2-prix-rush.html",
+        "R5C3-prix-colonel-de-la-horie.html",
+        "R5C4-prix-predicateur.html",
+        "R5C5-prix-d-indy.html",
+        "R5C6-prix-jean-claude-evain.html",
+        "R5C7-prix-de-la-source.html",
+        "R5C8-prix-lilium.html"
+      ],
+      "R6-nancy": [
+        "R6C1-prix-de-la-christiniere.html",
+        "R6C2-prix-rush.html",
+        "R6C3-prix-colonel-de-la-horie.html",
+        "R6C4-prix-predicateur.html",
+        "R6C5-prix-d-indy.html",
+        "R6C6-prix-jean-claude-evain.html",
+        "R6C7-prix-de-la-source.html",
+        "R6C8-prix-lilium.html"
+      ],
+      "R7-saint-brieuc": [
+        "R7C1-prix-de-la-christiniere.html",
+        "R7C2-prix-rush.html",
+        "R7C3-prix-colonel-de-la-horie.html",
+        "R7C4-prix-predicateur.html",
+        "R7C5-prix-d-indy.html",
+        "R7C6-prix-jean-claude-evain.html",
+        "R7C7-prix-de-la-source.html",
+        "R7C8-prix-lilium.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:16.291944Z"
+}

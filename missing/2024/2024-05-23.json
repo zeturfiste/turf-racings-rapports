@@ -1,0 +1,86 @@
+{
+  "date": "2024-05-23",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-23",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-23/2024-05-23.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-23/R1-paris-longchamp/R1C2-prix-finlande.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R1-paris-longchamp/R1C3-prix-du-verbois.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R1-paris-longchamp/R1C4-prix-de-montretout.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R1-paris-longchamp/R1C8-prix-du-mail.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R2-salon-de-provence/R2C3-prix-du-verbois.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R2-salon-de-provence/R2C6-prix-hocquart.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R2-salon-de-provence/R2C7-prix-des-epinettes.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R2-salon-de-provence/R2C8-prix-du-mail.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C1-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C4-prix-de-montretout.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C5-prix-des-batignolles.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C6-prix-hocquart.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C7-prix-des-epinettes.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R3-le-lion-d-angers/R3C8-prix-du-mail.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C1-prix-du-haras-royal-de-meudon.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C2-prix-finlande.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C4-prix-de-montretout.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C5-prix-des-batignolles.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C6-prix-hocquart.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C7-prix-des-epinettes.html",
+      "resultats-et-rapports/2024/05/2024-05-23/R4-laval/R4C8-prix-du-mail.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-salon-de-provence",
+      "R3-le-lion-d-angers",
+      "R4-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-haras-royal-de-meudon.html",
+        "R1C2-prix-finlande.html",
+        "R1C3-prix-du-verbois.html",
+        "R1C4-prix-de-montretout.html",
+        "R1C5-prix-des-batignolles.html",
+        "R1C6-prix-hocquart.html",
+        "R1C7-prix-des-epinettes.html",
+        "R1C8-prix-du-mail.html"
+      ],
+      "R2-salon-de-provence": [
+        "R2C1-prix-du-haras-royal-de-meudon.html",
+        "R2C2-prix-finlande.html",
+        "R2C3-prix-du-verbois.html",
+        "R2C4-prix-de-montretout.html",
+        "R2C5-prix-des-batignolles.html",
+        "R2C6-prix-hocquart.html",
+        "R2C7-prix-des-epinettes.html",
+        "R2C8-prix-du-mail.html"
+      ],
+      "R3-le-lion-d-angers": [
+        "R3C1-prix-du-haras-royal-de-meudon.html",
+        "R3C2-prix-finlande.html",
+        "R3C3-prix-du-verbois.html",
+        "R3C4-prix-de-montretout.html",
+        "R3C5-prix-des-batignolles.html",
+        "R3C6-prix-hocquart.html",
+        "R3C7-prix-des-epinettes.html",
+        "R3C8-prix-du-mail.html"
+      ],
+      "R4-laval": [
+        "R4C1-prix-du-haras-royal-de-meudon.html",
+        "R4C2-prix-finlande.html",
+        "R4C3-prix-du-verbois.html",
+        "R4C4-prix-de-montretout.html",
+        "R4C5-prix-des-batignolles.html",
+        "R4C6-prix-hocquart.html",
+        "R4C7-prix-des-epinettes.html",
+        "R4C8-prix-du-mail.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:09.514491Z"
+}

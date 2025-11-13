@@ -1,0 +1,96 @@
+{
+  "date": "2021-07-13",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/07/2021-07-13",
+    "date_html": "resultats-et-rapports/2021/07/2021-07-13/2021-07-13.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/07/2021-07-13/R1-deauville/R1C2-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R1-deauville/R1C8-prix-de-la-presqu-ile.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C2-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C3-prix-de-la-reine-mathilde.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C4-prix-des-foals.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C5-prix-de-granville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C6-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C7-prix-de-port-deauville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C8-prix-de-la-presqu-ile.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R3-pornichet-la-baule/R3C9-prix-de-la-pointe-de-la-cahotte.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C2-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C3-prix-de-la-reine-mathilde.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C4-prix-des-foals.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C5-prix-de-granville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C6-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C7-prix-de-port-deauville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C8-prix-de-la-presqu-ile.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R4-le-lion-d-angers/R4C9-prix-de-la-pointe-de-la-cahotte.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C1-prix-des-yearlings.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C2-prix-le-roi-soleil.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C3-prix-de-la-reine-mathilde.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C4-prix-des-foals.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C5-prix-de-granville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C6-prix-sans-souci-ii.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C7-prix-de-port-deauville.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C8-prix-de-la-presqu-ile.html",
+      "resultats-et-rapports/2021/07/2021-07-13/R5-cabourg/R5C9-prix-de-la-pointe-de-la-cahotte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-pornichet-la-baule",
+      "R4-le-lion-d-angers",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-des-yearlings.html",
+        "R1C2-prix-le-roi-soleil.html",
+        "R1C3-prix-de-la-reine-mathilde.html",
+        "R1C4-prix-des-foals.html",
+        "R1C5-prix-de-granville.html",
+        "R1C6-prix-sans-souci-ii.html",
+        "R1C7-prix-de-port-deauville.html",
+        "R1C8-prix-de-la-presqu-ile.html",
+        "R1C9-prix-de-la-pointe-de-la-cahotte.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-des-yearlings.html",
+        "R3C2-prix-le-roi-soleil.html",
+        "R3C3-prix-de-la-reine-mathilde.html",
+        "R3C4-prix-des-foals.html",
+        "R3C5-prix-de-granville.html",
+        "R3C6-prix-sans-souci-ii.html",
+        "R3C7-prix-de-port-deauville.html",
+        "R3C8-prix-de-la-presqu-ile.html",
+        "R3C9-prix-de-la-pointe-de-la-cahotte.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-des-yearlings.html",
+        "R4C2-prix-le-roi-soleil.html",
+        "R4C3-prix-de-la-reine-mathilde.html",
+        "R4C4-prix-des-foals.html",
+        "R4C5-prix-de-granville.html",
+        "R4C6-prix-sans-souci-ii.html",
+        "R4C7-prix-de-port-deauville.html",
+        "R4C8-prix-de-la-presqu-ile.html",
+        "R4C9-prix-de-la-pointe-de-la-cahotte.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-des-yearlings.html",
+        "R5C2-prix-le-roi-soleil.html",
+        "R5C3-prix-de-la-reine-mathilde.html",
+        "R5C4-prix-des-foals.html",
+        "R5C5-prix-de-granville.html",
+        "R5C6-prix-sans-souci-ii.html",
+        "R5C7-prix-de-port-deauville.html",
+        "R5C8-prix-de-la-presqu-ile.html",
+        "R5C9-prix-de-la-pointe-de-la-cahotte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:55:44.245090Z"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2023-03-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/03/2023-03-08",
+    "date_html": "resultats-et-rapports/2023/03/2023-03-08/2023-03-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/03/2023-03-08/R3-fontainebleau/R3C6-prix-moet-et-chandon.html",
+      "resultats-et-rapports/2023/03/2023-03-08/R4-saint-galmier/R4C4-prix-de-l-unat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-amiens",
+      "R3-fontainebleau",
+      "R4-saint-galmier"
+    ],
+    "courses_by_reunion": {
+      "R1-amiens": [
+        "R1C1-grand-national-du-trot.html",
+        "R1C2-prix-de-la-ville-d-amiens.html",
+        "R1C3-prix-raceandcare.html",
+        "R1C4-prix-de-l-unat.html",
+        "R1C5-prix-auchan-amiens-sud.html",
+        "R1C6-prix-moet-et-chandon.html",
+        "R1C7-prix-du-cafe-de-la-mairie-de-boves.html",
+        "R1C8-prix-fictac.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-grand-national-du-trot.html",
+        "R3C2-prix-de-la-ville-d-amiens.html",
+        "R3C3-prix-raceandcare.html",
+        "R3C4-prix-de-l-unat.html",
+        "R3C5-prix-auchan-amiens-sud.html",
+        "R3C6-prix-moet-et-chandon.html",
+        "R3C7-prix-du-cafe-de-la-mairie-de-boves.html",
+        "R3C8-prix-fictac.html"
+      ],
+      "R4-saint-galmier": [
+        "R4C1-grand-national-du-trot.html",
+        "R4C2-prix-de-la-ville-d-amiens.html",
+        "R4C3-prix-raceandcare.html",
+        "R4C4-prix-de-l-unat.html",
+        "R4C5-prix-auchan-amiens-sud.html",
+        "R4C6-prix-moet-et-chandon.html",
+        "R4C7-prix-du-cafe-de-la-mairie-de-boves.html",
+        "R4C8-prix-fictac.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:59:25.921690Z"
+}

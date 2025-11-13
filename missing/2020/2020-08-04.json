@@ -1,0 +1,115 @@
+{
+  "date": "2020-08-04",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-04",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-04/2020-08-04.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-04/R3-langon/R3C4-prix-le-bougnat.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R3-langon/R3C5-prix-l-essentiel.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R4-dax/R4C4-prix-le-bougnat.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R4-dax/R4C5-prix-l-essentiel.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R4-dax/R4C7-prix-bar-du-soleil.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C2-prix-le-meeting.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C3-prix-les-ammonites.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C4-prix-le-bougnat.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C5-prix-l-essentiel.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C6-prix-le-comptoir-et-la-table.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C8-prix-le-cyrano.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R5-cabourg/R5C9-prix-chez-miocque.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R7-pornichet-la-baule/R7C4-prix-le-bougnat.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R7-pornichet-la-baule/R7C5-prix-l-essentiel.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C1-prix-les-pachas.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C2-prix-le-meeting.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C3-prix-les-ammonites.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C4-prix-le-bougnat.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C6-prix-le-comptoir-et-la-table.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C7-prix-bar-du-soleil.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C8-prix-le-cyrano.html",
+      "resultats-et-rapports/2020/08/2020-08-04/R6-aix-les-bains/R6C9-prix-chez-miocque.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-langon",
+      "R4-dax",
+      "R5-cabourg",
+      "R7-pornichet-la-baule",
+      "R6-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-les-pachas.html",
+        "R1C2-prix-le-meeting.html",
+        "R1C3-prix-les-ammonites.html",
+        "R1C4-prix-le-bougnat.html",
+        "R1C5-prix-l-essentiel.html",
+        "R1C6-prix-le-comptoir-et-la-table.html",
+        "R1C7-prix-bar-du-soleil.html",
+        "R1C8-prix-le-cyrano.html",
+        "R1C9-prix-chez-miocque.html"
+      ],
+      "R3-langon": [
+        "R3C1-prix-les-pachas.html",
+        "R3C2-prix-le-meeting.html",
+        "R3C3-prix-les-ammonites.html",
+        "R3C4-prix-le-bougnat.html",
+        "R3C5-prix-l-essentiel.html",
+        "R3C6-prix-le-comptoir-et-la-table.html",
+        "R3C7-prix-bar-du-soleil.html",
+        "R3C8-prix-le-cyrano.html",
+        "R3C9-prix-chez-miocque.html"
+      ],
+      "R4-dax": [
+        "R4C1-prix-les-pachas.html",
+        "R4C2-prix-le-meeting.html",
+        "R4C3-prix-les-ammonites.html",
+        "R4C4-prix-le-bougnat.html",
+        "R4C5-prix-l-essentiel.html",
+        "R4C6-prix-le-comptoir-et-la-table.html",
+        "R4C7-prix-bar-du-soleil.html",
+        "R4C8-prix-le-cyrano.html",
+        "R4C9-prix-chez-miocque.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-les-pachas.html",
+        "R5C2-prix-le-meeting.html",
+        "R5C3-prix-les-ammonites.html",
+        "R5C4-prix-le-bougnat.html",
+        "R5C5-prix-l-essentiel.html",
+        "R5C6-prix-le-comptoir-et-la-table.html",
+        "R5C7-prix-bar-du-soleil.html",
+        "R5C8-prix-le-cyrano.html",
+        "R5C9-prix-chez-miocque.html"
+      ],
+      "R7-pornichet-la-baule": [
+        "R7C1-prix-les-pachas.html",
+        "R7C2-prix-le-meeting.html",
+        "R7C3-prix-les-ammonites.html",
+        "R7C4-prix-le-bougnat.html",
+        "R7C5-prix-l-essentiel.html",
+        "R7C6-prix-le-comptoir-et-la-table.html",
+        "R7C7-prix-bar-du-soleil.html",
+        "R7C8-prix-le-cyrano.html",
+        "R7C9-prix-chez-miocque.html"
+      ],
+      "R6-aix-les-bains": [
+        "R6C1-prix-les-pachas.html",
+        "R6C2-prix-le-meeting.html",
+        "R6C3-prix-les-ammonites.html",
+        "R6C4-prix-le-bougnat.html",
+        "R6C5-prix-l-essentiel.html",
+        "R6C6-prix-le-comptoir-et-la-table.html",
+        "R6C7-prix-bar-du-soleil.html",
+        "R6C8-prix-le-cyrano.html",
+        "R6C9-prix-chez-miocque.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:38.072668Z"
+}

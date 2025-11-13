@@ -1,0 +1,78 @@
+{
+  "date": "2021-03-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/03/2021-03-12",
+    "date_html": "resultats-et-rapports/2021/03/2021-03-12/2021-03-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/03/2021-03-12/R3-cordemais/R3C5-prix-de-sanary-sur-mer.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R4-fontainebleau/R4C7-prix-cyrano-ii.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R5-mauquenchy/R5C5-prix-de-sanary-sur-mer.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R5-mauquenchy/R5C7-prix-cyrano-ii.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R8-marseille-borely/R8C3-prix-quick-williams.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R8-marseille-borely/R8C6-prix-d-herblay.html",
+      "resultats-et-rapports/2021/03/2021-03-12/R8-marseille-borely/R8C7-prix-cyrano-ii.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-cordemais",
+      "R4-fontainebleau",
+      "R5-mauquenchy",
+      "R8-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-saint-pierre-le-moutier.html",
+        "R1C2-prix-de-noirmoutier.html",
+        "R1C3-prix-quick-williams.html",
+        "R1C4-prix-de-mimizan.html",
+        "R1C5-prix-de-sanary-sur-mer.html",
+        "R1C6-prix-d-herblay.html",
+        "R1C7-prix-cyrano-ii.html"
+      ],
+      "R3-cordemais": [
+        "R3C1-prix-de-saint-pierre-le-moutier.html",
+        "R3C2-prix-de-noirmoutier.html",
+        "R3C3-prix-quick-williams.html",
+        "R3C4-prix-de-mimizan.html",
+        "R3C5-prix-de-sanary-sur-mer.html",
+        "R3C6-prix-d-herblay.html",
+        "R3C7-prix-cyrano-ii.html"
+      ],
+      "R4-fontainebleau": [
+        "R4C1-prix-de-saint-pierre-le-moutier.html",
+        "R4C2-prix-de-noirmoutier.html",
+        "R4C3-prix-quick-williams.html",
+        "R4C4-prix-de-mimizan.html",
+        "R4C5-prix-de-sanary-sur-mer.html",
+        "R4C6-prix-d-herblay.html",
+        "R4C7-prix-cyrano-ii.html"
+      ],
+      "R5-mauquenchy": [
+        "R5C1-prix-de-saint-pierre-le-moutier.html",
+        "R5C2-prix-de-noirmoutier.html",
+        "R5C3-prix-quick-williams.html",
+        "R5C4-prix-de-mimizan.html",
+        "R5C5-prix-de-sanary-sur-mer.html",
+        "R5C6-prix-d-herblay.html",
+        "R5C7-prix-cyrano-ii.html"
+      ],
+      "R8-marseille-borely": [
+        "R8C1-prix-de-saint-pierre-le-moutier.html",
+        "R8C2-prix-de-noirmoutier.html",
+        "R8C3-prix-quick-williams.html",
+        "R8C4-prix-de-mimizan.html",
+        "R8C5-prix-de-sanary-sur-mer.html",
+        "R8C6-prix-d-herblay.html",
+        "R8C7-prix-cyrano-ii.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:55.240419Z"
+}

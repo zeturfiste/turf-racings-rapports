@@ -1,0 +1,55 @@
+{
+  "date": "2011-02-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/02/2011-02-01",
+    "date_html": "resultats-et-rapports/2011/02/2011-02-01/2011-02-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/02/2011-02-01/R1-vincennes/R1C1-prix-de-laval.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R1-vincennes/R1C3-prix-de-cholet.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R1-vincennes/R1C6-prix-d-ambert.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R1-vincennes/R1C7-prix-de-carcassonne.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C1-prix-de-laval.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C4-prix-jean-et-andre-de-la-vaissiere.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C5-prix-de-faverolles.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C6-prix-d-ambert.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C7-prix-de-carcassonne.html",
+      "resultats-et-rapports/2011/02/2011-02-01/R2-pau/R2C9-prix-de-moutiers-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-pau"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-laval.html",
+        "R1C2-prix-de-vittel.html",
+        "R1C3-prix-de-cholet.html",
+        "R1C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R1C5-prix-de-faverolles.html",
+        "R1C6-prix-d-ambert.html",
+        "R1C7-prix-de-carcassonne.html",
+        "R1C8-prix-de-moutiers-groupe-a.html",
+        "R1C9-prix-de-moutiers-groupe-b.html"
+      ],
+      "R2-pau": [
+        "R2C1-prix-de-laval.html",
+        "R2C2-prix-de-vittel.html",
+        "R2C3-prix-de-cholet.html",
+        "R2C4-prix-jean-et-andre-de-la-vaissiere.html",
+        "R2C5-prix-de-faverolles.html",
+        "R2C6-prix-d-ambert.html",
+        "R2C7-prix-de-carcassonne.html",
+        "R2C8-prix-de-moutiers-groupe-a.html",
+        "R2C9-prix-de-moutiers-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:04.849448Z"
+}

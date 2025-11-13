@@ -1,0 +1,121 @@
+{
+  "date": "2007-09-24",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/09/2007-09-24",
+    "date_html": "resultats-et-rapports/2007/09/2007-09-24/2007-09-24.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C1-prix-chaussee-aux-moines.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C3-prix-du-cheran-groupe-a.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C4-prix-de-la-motte.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C5-prix-henri-desmontils.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C6-prix-chateau-de-craon.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C7-prix-volney.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C8-prix-une-de-mai.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R1-craon/R1C9-prix-du-cheran-groupe-b.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R2-marseille-borely/R2C1-prix-chaussee-aux-moines.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R2-marseille-borely/R2C5-prix-henri-desmontils.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R2-marseille-borely/R2C7-prix-volney.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R2-marseille-borely/R2C8-prix-une-de-mai.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R3-le-croise-laroche/R3C9-prix-du-cheran-groupe-b.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R4-cluny/R4C1-prix-chaussee-aux-moines.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R4-cluny/R4C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R4-cluny/R4C3-prix-du-cheran-groupe-a.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R4-cluny/R4C5-prix-henri-desmontils.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R31-zerace/R31C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R31-zerace/R31C6-prix-chateau-de-craon.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R31-zerace/R31C7-prix-volney.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R31-zerace/R31C8-prix-une-de-mai.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R31-zerace/R31C9-prix-du-cheran-groupe-b.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R70-stade-jean-antoine-moueix-libourne/R70C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R70-stade-jean-antoine-moueix-libourne/R70C6-prix-chateau-de-craon.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R70-stade-jean-antoine-moueix-libourne/R70C7-prix-volney.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R70-stade-jean-antoine-moueix-libourne/R70C8-prix-une-de-mai.html",
+      "resultats-et-rapports/2007/09/2007-09-24/R70-stade-jean-antoine-moueix-libourne/R70C9-prix-du-cheran-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-craon",
+      "R2-marseille-borely",
+      "R3-le-croise-laroche",
+      "R4-cluny",
+      "R31-zerace",
+      "R70-stade-jean-antoine-moueix-libourne"
+    ],
+    "courses_by_reunion": {
+      "R1-craon": [
+        "R1C1-prix-chaussee-aux-moines.html",
+        "R1C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R1C3-prix-du-cheran-groupe-a.html",
+        "R1C4-prix-de-la-motte.html",
+        "R1C5-prix-henri-desmontils.html",
+        "R1C6-prix-chateau-de-craon.html",
+        "R1C7-prix-volney.html",
+        "R1C8-prix-une-de-mai.html",
+        "R1C9-prix-du-cheran-groupe-b.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-chaussee-aux-moines.html",
+        "R2C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R2C3-prix-du-cheran-groupe-a.html",
+        "R2C4-prix-de-la-motte.html",
+        "R2C5-prix-henri-desmontils.html",
+        "R2C6-prix-chateau-de-craon.html",
+        "R2C7-prix-volney.html",
+        "R2C8-prix-une-de-mai.html",
+        "R2C9-prix-du-cheran-groupe-b.html"
+      ],
+      "R3-le-croise-laroche": [
+        "R3C1-prix-chaussee-aux-moines.html",
+        "R3C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R3C3-prix-du-cheran-groupe-a.html",
+        "R3C4-prix-de-la-motte.html",
+        "R3C5-prix-henri-desmontils.html",
+        "R3C6-prix-chateau-de-craon.html",
+        "R3C7-prix-volney.html",
+        "R3C8-prix-une-de-mai.html",
+        "R3C9-prix-du-cheran-groupe-b.html"
+      ],
+      "R4-cluny": [
+        "R4C1-prix-chaussee-aux-moines.html",
+        "R4C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R4C3-prix-du-cheran-groupe-a.html",
+        "R4C4-prix-de-la-motte.html",
+        "R4C5-prix-henri-desmontils.html",
+        "R4C6-prix-chateau-de-craon.html",
+        "R4C7-prix-volney.html",
+        "R4C8-prix-une-de-mai.html",
+        "R4C9-prix-du-cheran-groupe-b.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-chaussee-aux-moines.html",
+        "R31C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R31C3-prix-du-cheran-groupe-a.html",
+        "R31C4-prix-de-la-motte.html",
+        "R31C5-prix-henri-desmontils.html",
+        "R31C6-prix-chateau-de-craon.html",
+        "R31C7-prix-volney.html",
+        "R31C8-prix-une-de-mai.html",
+        "R31C9-prix-du-cheran-groupe-b.html"
+      ],
+      "R70-stade-jean-antoine-moueix-libourne": [
+        "R70C1-prix-chaussee-aux-moines.html",
+        "R70C2-prix-du-point-du-jour-fourrages-thierry-dutertre.html",
+        "R70C3-prix-du-cheran-groupe-a.html",
+        "R70C4-prix-de-la-motte.html",
+        "R70C5-prix-henri-desmontils.html",
+        "R70C6-prix-chateau-de-craon.html",
+        "R70C7-prix-volney.html",
+        "R70C8-prix-une-de-mai.html",
+        "R70C9-prix-du-cheran-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:27:05.404147Z"
+}

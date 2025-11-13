@@ -1,0 +1,78 @@
+{
+  "date": "2020-08-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/08/2020-08-02",
+    "date_html": "resultats-et-rapports/2020/08/2020-08-02/2020-08-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/08/2020-08-02/R4-aix-les-bains/R4C3-grand-handicap-des-collectivites-locales.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R4-aix-les-bains/R4C4-prix-rothschild.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R4-aix-les-bains/R4C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C1-prix-indeauville-prix-d-avranches.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C3-grand-handicap-des-collectivites-locales.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C5-prix-de-tourgeville.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C6-prix-du-clos-fleuri.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C7-prix-normandie-grands-evenements-prix-de-la-villa-saint-augustin.html",
+      "resultats-et-rapports/2020/08/2020-08-02/R7-dieppe/R7C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-enghien-soisy",
+      "R4-aix-les-bains",
+      "R7-dieppe"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-indeauville-prix-d-avranches.html",
+        "R1C2-darley-prix-de-cabourg.html",
+        "R1C3-grand-handicap-des-collectivites-locales.html",
+        "R1C4-prix-rothschild.html",
+        "R1C5-prix-de-tourgeville.html",
+        "R1C6-prix-du-clos-fleuri.html",
+        "R1C7-prix-normandie-grands-evenements-prix-de-la-villa-saint-augustin.html",
+        "R1C8-prix-de-livarot.html",
+        "R1C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-indeauville-prix-d-avranches.html",
+        "R3C2-darley-prix-de-cabourg.html",
+        "R3C3-grand-handicap-des-collectivites-locales.html",
+        "R3C4-prix-rothschild.html",
+        "R3C5-prix-de-tourgeville.html",
+        "R3C6-prix-du-clos-fleuri.html",
+        "R3C7-prix-normandie-grands-evenements-prix-de-la-villa-saint-augustin.html",
+        "R3C8-prix-de-livarot.html",
+        "R3C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html"
+      ],
+      "R4-aix-les-bains": [
+        "R4C1-prix-indeauville-prix-d-avranches.html",
+        "R4C2-darley-prix-de-cabourg.html",
+        "R4C3-grand-handicap-des-collectivites-locales.html",
+        "R4C4-prix-rothschild.html",
+        "R4C5-prix-de-tourgeville.html",
+        "R4C6-prix-du-clos-fleuri.html",
+        "R4C7-prix-normandie-grands-evenements-prix-de-la-villa-saint-augustin.html",
+        "R4C8-prix-de-livarot.html",
+        "R4C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html"
+      ],
+      "R7-dieppe": [
+        "R7C1-prix-indeauville-prix-d-avranches.html",
+        "R7C2-darley-prix-de-cabourg.html",
+        "R7C3-grand-handicap-des-collectivites-locales.html",
+        "R7C4-prix-rothschild.html",
+        "R7C5-prix-de-tourgeville.html",
+        "R7C6-prix-du-clos-fleuri.html",
+        "R7C7-prix-normandie-grands-evenements-prix-de-la-villa-saint-augustin.html",
+        "R7C8-prix-de-livarot.html",
+        "R7C9-prix-de-l-amitie-longines-fegentri-prix-des-gentlemen-riders-et-des-cavalieres.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:37.384883Z"
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2009-01-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2009/01/2009-01-20",
+    "date_html": "resultats-et-rapports/2009/01/2009-01-20/2009-01-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2009/01/2009-01-20/R1-cagnes-sur-mer/R1C3-prix-des-dattiers.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R1-cagnes-sur-mer/R1C4-prix-des-arums.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R1-cagnes-sur-mer/R1C5-prix-de-la-croisette.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R1-cagnes-sur-mer/R1C6-prix-de-grasse.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R1-cagnes-sur-mer/R1C7-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R2-vincennes/R2C1-prix-de-cannes.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R2-vincennes/R2C3-prix-des-dattiers.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R2-vincennes/R2C5-prix-de-la-croisette.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R2-vincennes/R2C6-prix-de-grasse.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R31-zerace/R31C2-prix-du-roussillon.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R31-zerace/R31C5-prix-de-la-croisette.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R31-zerace/R31C6-prix-de-grasse.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R31-zerace/R31C7-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C1-prix-de-cannes.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C2-prix-du-roussillon.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C3-prix-des-dattiers.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C4-prix-des-arums.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C5-prix-de-la-croisette.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C6-prix-de-grasse.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R70-stade-du-roudourou-guingamp/R70C7-prix-de-la-madeleine.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C1-prix-de-cannes.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C2-prix-du-roussillon.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C3-prix-des-dattiers.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C4-prix-des-arums.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C5-prix-de-la-croisette.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C6-prix-de-grasse.html",
+      "resultats-et-rapports/2009/01/2009-01-20/R71-melbourne-park-australie/R71C7-prix-de-la-madeleine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R31-zerace",
+      "R70-stade-du-roudourou-guingamp",
+      "R71-melbourne-park-australie"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-de-cannes.html",
+        "R1C2-prix-du-roussillon.html",
+        "R1C3-prix-des-dattiers.html",
+        "R1C4-prix-des-arums.html",
+        "R1C5-prix-de-la-croisette.html",
+        "R1C6-prix-de-grasse.html",
+        "R1C7-prix-de-la-madeleine.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-de-cannes.html",
+        "R2C2-prix-du-roussillon.html",
+        "R2C3-prix-des-dattiers.html",
+        "R2C4-prix-des-arums.html",
+        "R2C5-prix-de-la-croisette.html",
+        "R2C6-prix-de-grasse.html",
+        "R2C7-prix-de-la-madeleine.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-cannes.html",
+        "R31C2-prix-du-roussillon.html",
+        "R31C3-prix-des-dattiers.html",
+        "R31C4-prix-des-arums.html",
+        "R31C5-prix-de-la-croisette.html",
+        "R31C6-prix-de-grasse.html",
+        "R31C7-prix-de-la-madeleine.html"
+      ],
+      "R70-stade-du-roudourou-guingamp": [
+        "R70C1-prix-de-cannes.html",
+        "R70C2-prix-du-roussillon.html",
+        "R70C3-prix-des-dattiers.html",
+        "R70C4-prix-des-arums.html",
+        "R70C5-prix-de-la-croisette.html",
+        "R70C6-prix-de-grasse.html",
+        "R70C7-prix-de-la-madeleine.html"
+      ],
+      "R71-melbourne-park-australie": [
+        "R71C1-prix-de-cannes.html",
+        "R71C2-prix-du-roussillon.html",
+        "R71C3-prix-des-dattiers.html",
+        "R71C4-prix-des-arums.html",
+        "R71C5-prix-de-la-croisette.html",
+        "R71C6-prix-de-grasse.html",
+        "R71C7-prix-de-la-madeleine.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:30:40.865113Z"
+}

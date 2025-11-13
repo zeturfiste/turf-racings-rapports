@@ -1,0 +1,111 @@
+{
+  "date": "2007-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-26",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-26/2007-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-26/R3-agon-coutainville/R3C1-prix-du-medoc.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R3-agon-coutainville/R3C2-prix-des-quinze-vingt.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R3-agon-coutainville/R3C6-prix-de-la-place-d-italie.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R4-biarritz/R4C1-prix-du-medoc.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R4-biarritz/R4C2-prix-des-quinze-vingt.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R4-biarritz/R4C3-prix-de-vouvray.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R4-biarritz/R4C5-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R4-biarritz/R4C8-prix-de-crepy-en-valois.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C1-prix-du-medoc.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C2-prix-des-quinze-vingt.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C3-prix-de-vouvray.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C4-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C5-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C6-prix-de-la-place-d-italie.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C7-prix-du-faubourg-saint-antoine.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R31-zerace/R31C8-prix-de-crepy-en-valois.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C1-prix-du-medoc.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C2-prix-des-quinze-vingt.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C3-prix-de-vouvray.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C4-prix-de-croulebarbe.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C5-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C6-prix-de-la-place-d-italie.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C7-prix-du-faubourg-saint-antoine.html",
+      "resultats-et-rapports/2007/07/2007-07-26/R70-pau-castelsarrasin/R70C8-prix-de-crepy-en-valois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-chantilly",
+      "R3-agon-coutainville",
+      "R4-biarritz",
+      "R31-zerace",
+      "R70-pau-castelsarrasin"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-medoc.html",
+        "R1C2-prix-des-quinze-vingt.html",
+        "R1C3-prix-de-vouvray.html",
+        "R1C4-prix-de-croulebarbe.html",
+        "R1C5-prix-de-la-chaussee-d-antin.html",
+        "R1C6-prix-de-la-place-d-italie.html",
+        "R1C7-prix-du-faubourg-saint-antoine.html",
+        "R1C8-prix-de-crepy-en-valois.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-du-medoc.html",
+        "R2C2-prix-des-quinze-vingt.html",
+        "R2C3-prix-de-vouvray.html",
+        "R2C4-prix-de-croulebarbe.html",
+        "R2C5-prix-de-la-chaussee-d-antin.html",
+        "R2C6-prix-de-la-place-d-italie.html",
+        "R2C7-prix-du-faubourg-saint-antoine.html",
+        "R2C8-prix-de-crepy-en-valois.html"
+      ],
+      "R3-agon-coutainville": [
+        "R3C1-prix-du-medoc.html",
+        "R3C2-prix-des-quinze-vingt.html",
+        "R3C3-prix-de-vouvray.html",
+        "R3C4-prix-de-croulebarbe.html",
+        "R3C5-prix-de-la-chaussee-d-antin.html",
+        "R3C6-prix-de-la-place-d-italie.html",
+        "R3C7-prix-du-faubourg-saint-antoine.html",
+        "R3C8-prix-de-crepy-en-valois.html"
+      ],
+      "R4-biarritz": [
+        "R4C1-prix-du-medoc.html",
+        "R4C2-prix-des-quinze-vingt.html",
+        "R4C3-prix-de-vouvray.html",
+        "R4C4-prix-de-croulebarbe.html",
+        "R4C5-prix-de-la-chaussee-d-antin.html",
+        "R4C6-prix-de-la-place-d-italie.html",
+        "R4C7-prix-du-faubourg-saint-antoine.html",
+        "R4C8-prix-de-crepy-en-valois.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-du-medoc.html",
+        "R31C2-prix-des-quinze-vingt.html",
+        "R31C3-prix-de-vouvray.html",
+        "R31C4-prix-de-croulebarbe.html",
+        "R31C5-prix-de-la-chaussee-d-antin.html",
+        "R31C6-prix-de-la-place-d-italie.html",
+        "R31C7-prix-du-faubourg-saint-antoine.html",
+        "R31C8-prix-de-crepy-en-valois.html"
+      ],
+      "R70-pau-castelsarrasin": [
+        "R70C1-prix-du-medoc.html",
+        "R70C2-prix-des-quinze-vingt.html",
+        "R70C3-prix-de-vouvray.html",
+        "R70C4-prix-de-croulebarbe.html",
+        "R70C5-prix-de-la-chaussee-d-antin.html",
+        "R70C6-prix-de-la-place-d-italie.html",
+        "R70C7-prix-du-faubourg-saint-antoine.html",
+        "R70C8-prix-de-crepy-en-valois.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:40.662295Z"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2011-01-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/01/2011-01-11",
+    "date_html": "resultats-et-rapports/2011/01/2011-01-11/2011-01-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/01/2011-01-11/R1-vincennes/R1C3-prix-de-tresses.html",
+      "resultats-et-rapports/2011/01/2011-01-11/R2-deauville/R2C6-prix-de-fresnes.html",
+      "resultats-et-rapports/2011/01/2011-01-11/R3-deauville-midi/R3C3-prix-de-tresses.html",
+      "resultats-et-rapports/2011/01/2011-01-11/R3-deauville-midi/R3C4-prix-d-etrepagny.html",
+      "resultats-et-rapports/2011/01/2011-01-11/R3-deauville-midi/R3C5-prix-de-guerlesquin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-deauville",
+      "R3-deauville-midi"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-limousin.html",
+        "R1C2-prix-de-questembert.html",
+        "R1C3-prix-de-tresses.html",
+        "R1C4-prix-d-etrepagny.html",
+        "R1C5-prix-de-guerlesquin.html",
+        "R1C6-prix-de-fresnes.html",
+        "R1C7-prix-de-vezac.html",
+        "R1C8-prix-ramses.html"
+      ],
+      "R2-deauville": [
+        "R2C1-prix-du-limousin.html",
+        "R2C2-prix-de-questembert.html",
+        "R2C3-prix-de-tresses.html",
+        "R2C4-prix-d-etrepagny.html",
+        "R2C5-prix-de-guerlesquin.html",
+        "R2C6-prix-de-fresnes.html",
+        "R2C7-prix-de-vezac.html",
+        "R2C8-prix-ramses.html"
+      ],
+      "R3-deauville-midi": [
+        "R3C1-prix-du-limousin.html",
+        "R3C2-prix-de-questembert.html",
+        "R3C3-prix-de-tresses.html",
+        "R3C4-prix-d-etrepagny.html",
+        "R3C5-prix-de-guerlesquin.html",
+        "R3C6-prix-de-fresnes.html",
+        "R3C7-prix-de-vezac.html",
+        "R3C8-prix-ramses.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:00.536548Z"
+}

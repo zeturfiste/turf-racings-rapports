@@ -1,0 +1,78 @@
+{
+  "date": "2022-10-21",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/10/2022-10-21",
+    "date_html": "resultats-et-rapports/2022/10/2022-10-21/2022-10-21.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/10/2022-10-21/R1-vincennes/R1C1-prix-gudrun.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R1-vincennes/R1C5-prix-ophiucus.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R1-vincennes/R1C6-prix-louis-cauchois.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R1-vincennes/R1C7-prix-marcel-dejean.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R3-chartres/R3C5-prix-ophiucus.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R3-chartres/R3C6-prix-louis-cauchois.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C1-prix-gudrun.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C2-prix-brucia.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C3-prix-themis.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C4-prix-aspasia.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C5-prix-ophiucus.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R4-clairefontaine/R4C6-prix-louis-cauchois.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R5-lyon-la-soie/R5C1-prix-gudrun.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R5-lyon-la-soie/R5C2-prix-brucia.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R5-lyon-la-soie/R5C3-prix-themis.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R5-lyon-la-soie/R5C5-prix-ophiucus.html",
+      "resultats-et-rapports/2022/10/2022-10-21/R5-lyon-la-soie/R5C6-prix-louis-cauchois.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-chartres",
+      "R4-clairefontaine",
+      "R5-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-gudrun.html",
+        "R1C2-prix-brucia.html",
+        "R1C3-prix-themis.html",
+        "R1C4-prix-aspasia.html",
+        "R1C5-prix-ophiucus.html",
+        "R1C6-prix-louis-cauchois.html",
+        "R1C7-prix-marcel-dejean.html"
+      ],
+      "R3-chartres": [
+        "R3C1-prix-gudrun.html",
+        "R3C2-prix-brucia.html",
+        "R3C3-prix-themis.html",
+        "R3C4-prix-aspasia.html",
+        "R3C5-prix-ophiucus.html",
+        "R3C6-prix-louis-cauchois.html",
+        "R3C7-prix-marcel-dejean.html"
+      ],
+      "R4-clairefontaine": [
+        "R4C1-prix-gudrun.html",
+        "R4C2-prix-brucia.html",
+        "R4C3-prix-themis.html",
+        "R4C4-prix-aspasia.html",
+        "R4C5-prix-ophiucus.html",
+        "R4C6-prix-louis-cauchois.html",
+        "R4C7-prix-marcel-dejean.html"
+      ],
+      "R5-lyon-la-soie": [
+        "R5C1-prix-gudrun.html",
+        "R5C2-prix-brucia.html",
+        "R5C3-prix-themis.html",
+        "R5C4-prix-aspasia.html",
+        "R5C5-prix-ophiucus.html",
+        "R5C6-prix-louis-cauchois.html",
+        "R5C7-prix-marcel-dejean.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:38.097454Z"
+}

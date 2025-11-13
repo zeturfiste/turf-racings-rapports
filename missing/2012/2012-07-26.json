@@ -1,0 +1,62 @@
+{
+  "date": "2012-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/07/2012-07-26",
+    "date_html": "resultats-et-rapports/2012/07/2012-07-26/2012-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/07/2012-07-26/R1-clairefontaine/R1C1-prix-way-of-light-prix-de-jersey.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R1-clairefontaine/R1C2-prix-dobble-prix-misti.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R1-clairefontaine/R1C3-prix-jungle-speed-prix-roseliere.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R1-clairefontaine/R1C4-prix-timeline-prix-des-primeveres.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R1-clairefontaine/R1C8-prix-les-aventuriers-du-rail-prix-de-la-garenne.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R2-enghien-soisy/R2C1-prix-way-of-light-prix-de-jersey.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R2-enghien-soisy/R2C4-prix-timeline-prix-des-primeveres.html",
+      "resultats-et-rapports/2012/07/2012-07-26/R2-enghien-soisy/R2C7-prix-abalone-prix-des-orchidees.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-clairefontaine",
+      "R2-enghien-soisy",
+      "R3-vichy"
+    ],
+    "courses_by_reunion": {
+      "R1-clairefontaine": [
+        "R1C1-prix-way-of-light-prix-de-jersey.html",
+        "R1C2-prix-dobble-prix-misti.html",
+        "R1C3-prix-jungle-speed-prix-roseliere.html",
+        "R1C4-prix-timeline-prix-des-primeveres.html",
+        "R1C5-prix-time-s-up-family-prix-de-guernesey.html",
+        "R1C6-prix-les-colons-de-catane-prix-des-capucines.html",
+        "R1C7-prix-abalone-prix-des-orchidees.html",
+        "R1C8-prix-les-aventuriers-du-rail-prix-de-la-garenne.html"
+      ],
+      "R2-enghien-soisy": [
+        "R2C1-prix-way-of-light-prix-de-jersey.html",
+        "R2C2-prix-dobble-prix-misti.html",
+        "R2C3-prix-jungle-speed-prix-roseliere.html",
+        "R2C4-prix-timeline-prix-des-primeveres.html",
+        "R2C5-prix-time-s-up-family-prix-de-guernesey.html",
+        "R2C6-prix-les-colons-de-catane-prix-des-capucines.html",
+        "R2C7-prix-abalone-prix-des-orchidees.html",
+        "R2C8-prix-les-aventuriers-du-rail-prix-de-la-garenne.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-way-of-light-prix-de-jersey.html",
+        "R3C2-prix-dobble-prix-misti.html",
+        "R3C3-prix-jungle-speed-prix-roseliere.html",
+        "R3C4-prix-timeline-prix-des-primeveres.html",
+        "R3C5-prix-time-s-up-family-prix-de-guernesey.html",
+        "R3C6-prix-les-colons-de-catane-prix-des-capucines.html",
+        "R3C7-prix-abalone-prix-des-orchidees.html",
+        "R3C8-prix-les-aventuriers-du-rail-prix-de-la-garenne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:38:38.092223Z"
+}

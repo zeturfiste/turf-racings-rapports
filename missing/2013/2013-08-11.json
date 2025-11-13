@@ -1,0 +1,93 @@
+{
+  "date": "2013-08-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/08/2013-08-11",
+    "date_html": "resultats-et-rapports/2013/08/2013-08-11/2013-08-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/08/2013-08-11/R3-enghien-soisy/R3C1-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R3-enghien-soisy/R3C2-prix-francois-boutin.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R3-enghien-soisy/R3C4-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R3-enghien-soisy/R3C6-prix-minerve.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R3-enghien-soisy/R3C8-prix-de-glanville.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R4-carentan/R4C3-prix-de-bolbec.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R4-carentan/R4C4-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R4-carentan/R4C7-prix-du-thenney.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R4-carentan/R4C8-prix-de-glanville.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C1-prix-de-la-motte-sassy.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C2-prix-francois-boutin.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C3-prix-de-bolbec.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C4-grand-handicap-de-deauville.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C6-prix-minerve.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C7-prix-du-thenney.html",
+      "resultats-et-rapports/2013/08/2013-08-11/R8-aix-les-bains/R8C8-prix-de-glanville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-le-lion-d-angers",
+      "R3-enghien-soisy",
+      "R4-carentan",
+      "R8-aix-les-bains"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-motte-sassy.html",
+        "R1C2-prix-francois-boutin.html",
+        "R1C3-prix-de-bolbec.html",
+        "R1C4-grand-handicap-de-deauville.html",
+        "R1C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R1C6-prix-minerve.html",
+        "R1C7-prix-du-thenney.html",
+        "R1C8-prix-de-glanville.html"
+      ],
+      "R2-le-lion-d-angers": [
+        "R2C1-prix-de-la-motte-sassy.html",
+        "R2C2-prix-francois-boutin.html",
+        "R2C3-prix-de-bolbec.html",
+        "R2C4-grand-handicap-de-deauville.html",
+        "R2C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R2C6-prix-minerve.html",
+        "R2C7-prix-du-thenney.html",
+        "R2C8-prix-de-glanville.html"
+      ],
+      "R3-enghien-soisy": [
+        "R3C1-prix-de-la-motte-sassy.html",
+        "R3C2-prix-francois-boutin.html",
+        "R3C3-prix-de-bolbec.html",
+        "R3C4-grand-handicap-de-deauville.html",
+        "R3C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R3C6-prix-minerve.html",
+        "R3C7-prix-du-thenney.html",
+        "R3C8-prix-de-glanville.html"
+      ],
+      "R4-carentan": [
+        "R4C1-prix-de-la-motte-sassy.html",
+        "R4C2-prix-francois-boutin.html",
+        "R4C3-prix-de-bolbec.html",
+        "R4C4-grand-handicap-de-deauville.html",
+        "R4C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R4C6-prix-minerve.html",
+        "R4C7-prix-du-thenney.html",
+        "R4C8-prix-de-glanville.html"
+      ],
+      "R8-aix-les-bains": [
+        "R8C1-prix-de-la-motte-sassy.html",
+        "R8C2-prix-francois-boutin.html",
+        "R8C3-prix-de-bolbec.html",
+        "R8C4-grand-handicap-de-deauville.html",
+        "R8C5-prix-du-haras-de-fresnay-le-buffard-jacques-le-marois.html",
+        "R8C6-prix-minerve.html",
+        "R8C7-prix-du-thenney.html",
+        "R8C8-prix-de-glanville.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:40:30.007241Z"
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2012-10-17",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/10/2012-10-17",
+    "date_html": "resultats-et-rapports/2012/10/2012-10-17/2012-10-17.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/10/2012-10-17/R1-lyon-parilly/R1C8-prix-de-la-champagne.html",
+      "resultats-et-rapports/2012/10/2012-10-17/R2-longchamp/R2C1-prix-geny-com-paris-turf.html",
+      "resultats-et-rapports/2012/10/2012-10-17/R2-longchamp/R2C2-prix-du-morvan.html",
+      "resultats-et-rapports/2012/10/2012-10-17/R2-longchamp/R2C6-prix-de-l-unat.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R2-longchamp",
+      "R3-reims"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-geny-com-paris-turf.html",
+        "R1C2-prix-du-morvan.html",
+        "R1C3-prix-de-la-durance-dufuad-courtage-d-assurances.html",
+        "R1C4-prix-d-epinal.html",
+        "R1C5-prix-equit-a-lyon-prix-de-belle-ile.html",
+        "R1C6-prix-de-l-unat.html",
+        "R1C7-prix-le-carrousel-prix-du-pays-nicois.html",
+        "R1C8-prix-de-la-champagne.html"
+      ],
+      "R2-longchamp": [
+        "R2C1-prix-geny-com-paris-turf.html",
+        "R2C2-prix-du-morvan.html",
+        "R2C3-prix-de-la-durance-dufuad-courtage-d-assurances.html",
+        "R2C4-prix-d-epinal.html",
+        "R2C5-prix-equit-a-lyon-prix-de-belle-ile.html",
+        "R2C6-prix-de-l-unat.html",
+        "R2C7-prix-le-carrousel-prix-du-pays-nicois.html",
+        "R2C8-prix-de-la-champagne.html"
+      ],
+      "R3-reims": [
+        "R3C1-prix-geny-com-paris-turf.html",
+        "R3C2-prix-du-morvan.html",
+        "R3C3-prix-de-la-durance-dufuad-courtage-d-assurances.html",
+        "R3C4-prix-d-epinal.html",
+        "R3C5-prix-equit-a-lyon-prix-de-belle-ile.html",
+        "R3C6-prix-de-l-unat.html",
+        "R3C7-prix-le-carrousel-prix-du-pays-nicois.html",
+        "R3C8-prix-de-la-champagne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:04.360849Z"
+}

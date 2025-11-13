@@ -1,0 +1,64 @@
+{
+  "date": "2022-12-09",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2022/12/2022-12-09",
+    "date_html": "resultats-et-rapports/2022/12/2022-12-09/2022-12-09.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2022/12/2022-12-09/R4-deauville/R4C7-prix-circinus.html",
+      "resultats-et-rapports/2022/12/2022-12-09/R5-marseille-vivaux/R5C3-prix-electra.html",
+      "resultats-et-rapports/2022/12/2022-12-09/R5-marseille-vivaux/R5C4-prix-menkalinan.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-mauquenchy",
+      "R4-deauville",
+      "R5-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-phobos.html",
+        "R1C2-prix-calliope.html",
+        "R1C3-prix-electra.html",
+        "R1C4-prix-menkalinan.html",
+        "R1C5-prix-gerda.html",
+        "R1C6-prix-edna.html",
+        "R1C7-prix-circinus.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-phobos.html",
+        "R3C2-prix-calliope.html",
+        "R3C3-prix-electra.html",
+        "R3C4-prix-menkalinan.html",
+        "R3C5-prix-gerda.html",
+        "R3C6-prix-edna.html",
+        "R3C7-prix-circinus.html"
+      ],
+      "R4-deauville": [
+        "R4C1-prix-phobos.html",
+        "R4C2-prix-calliope.html",
+        "R4C3-prix-electra.html",
+        "R4C4-prix-menkalinan.html",
+        "R4C5-prix-gerda.html",
+        "R4C6-prix-edna.html",
+        "R4C7-prix-circinus.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-phobos.html",
+        "R5C2-prix-calliope.html",
+        "R5C3-prix-electra.html",
+        "R5C4-prix-menkalinan.html",
+        "R5C5-prix-gerda.html",
+        "R5C6-prix-edna.html",
+        "R5C7-prix-circinus.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:58:55.808200Z"
+}

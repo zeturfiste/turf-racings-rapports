@@ -1,0 +1,68 @@
+{
+  "date": "2024-03-20",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/03/2024-03-20",
+    "date_html": "resultats-et-rapports/2024/03/2024-03-20/2024-03-20.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/03/2024-03-20/R1-lisieux/R1C1-prix-roger-ledoyen.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R1-lisieux/R1C2-prix-de-la-societe-des-courses-de-lisieux.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R1-lisieux/R1C3-prix-communaute-d-agglomeration-lisieux-normandie.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R1-lisieux/R1C6-prix-mfr-vimoutiers.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R1-lisieux/R1C7-prix-ruffin-couverture.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R3-marseille-borely/R3C4-prix-atelier-110.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R3-marseille-borely/R3C5-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R3-marseille-borely/R3C6-prix-mfr-vimoutiers.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R3-marseille-borely/R3C8-prix-larcher-publicite.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R4-toulouse/R4C2-prix-de-la-societe-des-courses-de-lisieux.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R4-toulouse/R4C3-prix-communaute-d-agglomeration-lisieux-normandie.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R4-toulouse/R4C4-prix-atelier-110.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R4-toulouse/R4C5-prix-du-credit-agricole-normandie.html",
+      "resultats-et-rapports/2024/03/2024-03-20/R4-toulouse/R4C6-prix-mfr-vimoutiers.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lisieux",
+      "R3-marseille-borely",
+      "R4-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-lisieux": [
+        "R1C1-prix-roger-ledoyen.html",
+        "R1C2-prix-de-la-societe-des-courses-de-lisieux.html",
+        "R1C3-prix-communaute-d-agglomeration-lisieux-normandie.html",
+        "R1C4-prix-atelier-110.html",
+        "R1C5-prix-du-credit-agricole-normandie.html",
+        "R1C6-prix-mfr-vimoutiers.html",
+        "R1C7-prix-ruffin-couverture.html",
+        "R1C8-prix-larcher-publicite.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-roger-ledoyen.html",
+        "R3C2-prix-de-la-societe-des-courses-de-lisieux.html",
+        "R3C3-prix-communaute-d-agglomeration-lisieux-normandie.html",
+        "R3C4-prix-atelier-110.html",
+        "R3C5-prix-du-credit-agricole-normandie.html",
+        "R3C6-prix-mfr-vimoutiers.html",
+        "R3C7-prix-ruffin-couverture.html",
+        "R3C8-prix-larcher-publicite.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-roger-ledoyen.html",
+        "R4C2-prix-de-la-societe-des-courses-de-lisieux.html",
+        "R4C3-prix-communaute-d-agglomeration-lisieux-normandie.html",
+        "R4C4-prix-atelier-110.html",
+        "R4C5-prix-du-credit-agricole-normandie.html",
+        "R4C6-prix-mfr-vimoutiers.html",
+        "R4C7-prix-ruffin-couverture.html",
+        "R4C8-prix-larcher-publicite.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:44.582659Z"
+}

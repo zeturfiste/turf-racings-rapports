@@ -1,0 +1,82 @@
+{
+  "date": "2023-06-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/06/2023-06-27",
+    "date_html": "resultats-et-rapports/2023/06/2023-06-27/2023-06-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C1-prix-katko.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C2-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C3-prix-la-perichole.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C5-prix-dawn-run.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C6-prix-chinco.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C7-prix-pharaon.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C8-prix-d-acheres.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R1-auteuil/R1C9-prix-de-chantilly.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C1-prix-katko.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C2-prix-gerald-de-rochefort.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C3-prix-la-perichole.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C4-prix-frascati.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C5-prix-dawn-run.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C6-prix-chinco.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C7-prix-pharaon.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C8-prix-d-acheres.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R3-toulouse/R3C9-prix-de-chantilly.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C1-prix-katko.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C3-prix-la-perichole.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C4-prix-frascati.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C5-prix-dawn-run.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C6-prix-chinco.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C7-prix-pharaon.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C8-prix-d-acheres.html",
+      "resultats-et-rapports/2023/06/2023-06-27/R4-vincennes/R4C9-prix-de-chantilly.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-toulouse",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-katko.html",
+        "R1C2-prix-gerald-de-rochefort.html",
+        "R1C3-prix-la-perichole.html",
+        "R1C4-prix-frascati.html",
+        "R1C5-prix-dawn-run.html",
+        "R1C6-prix-chinco.html",
+        "R1C7-prix-pharaon.html",
+        "R1C8-prix-d-acheres.html",
+        "R1C9-prix-de-chantilly.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-katko.html",
+        "R3C2-prix-gerald-de-rochefort.html",
+        "R3C3-prix-la-perichole.html",
+        "R3C4-prix-frascati.html",
+        "R3C5-prix-dawn-run.html",
+        "R3C6-prix-chinco.html",
+        "R3C7-prix-pharaon.html",
+        "R3C8-prix-d-acheres.html",
+        "R3C9-prix-de-chantilly.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-katko.html",
+        "R4C2-prix-gerald-de-rochefort.html",
+        "R4C3-prix-la-perichole.html",
+        "R4C4-prix-frascati.html",
+        "R4C5-prix-dawn-run.html",
+        "R4C6-prix-chinco.html",
+        "R4C7-prix-pharaon.html",
+        "R4C8-prix-d-acheres.html",
+        "R4C9-prix-de-chantilly.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:06.768050Z"
+}

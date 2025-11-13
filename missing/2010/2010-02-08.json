@@ -1,0 +1,126 @@
+{
+  "date": "2010-02-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2010/02/2010-02-08",
+    "date_html": "resultats-et-rapports/2010/02/2010-02-08/2010-02-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2010/02/2010-02-08/R1-vincennes/R1C1-prix-de-gaillac.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R1-vincennes/R1C6-prix-de-rethel.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R2-chateaubriant/R2C1-prix-de-gaillac.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R2-chateaubriant/R2C3-prix-du-poitou.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R2-chateaubriant/R2C4-prix-de-briey.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R2-chateaubriant/R2C6-prix-de-rethel.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R2-chateaubriant/R2C8-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R4-toulouse/R4C2-prix-des-charentes.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R4-toulouse/R4C3-prix-du-poitou.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R4-toulouse/R4C4-prix-de-briey.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R5-marseille-vivaux/R5C2-prix-des-charentes.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R5-marseille-vivaux/R5C3-prix-du-poitou.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R5-marseille-vivaux/R5C4-prix-de-briey.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R5-marseille-vivaux/R5C6-prix-de-rethel.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R5-marseille-vivaux/R5C8-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R31-zerace/R31C1-prix-de-gaillac.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R31-zerace/R31C3-prix-du-poitou.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R31-zerace/R31C4-prix-de-briey.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R31-zerace/R31C5-prix-henri-hellard.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R31-zerace/R31C6-prix-de-rethel.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R70-parc-des-sports-arles-avignon/R70C1-prix-de-gaillac.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R70-parc-des-sports-arles-avignon/R70C3-prix-du-poitou.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R70-parc-des-sports-arles-avignon/R70C7-prix-de-vitre.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R70-parc-des-sports-arles-avignon/R70C8-prix-de-ramatuelle.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R71-landshark-stadium-miami/R71C1-prix-de-gaillac.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R71-landshark-stadium-miami/R71C2-prix-des-charentes.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R71-landshark-stadium-miami/R71C5-prix-henri-hellard.html",
+      "resultats-et-rapports/2010/02/2010-02-08/R71-landshark-stadium-miami/R71C6-prix-de-rethel.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chateaubriant",
+      "R4-toulouse",
+      "R5-marseille-vivaux",
+      "R31-zerace",
+      "R70-parc-des-sports-arles-avignon",
+      "R71-landshark-stadium-miami"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-gaillac.html",
+        "R1C2-prix-des-charentes.html",
+        "R1C3-prix-du-poitou.html",
+        "R1C4-prix-de-briey.html",
+        "R1C5-prix-henri-hellard.html",
+        "R1C6-prix-de-rethel.html",
+        "R1C7-prix-de-vitre.html",
+        "R1C8-prix-de-ramatuelle.html"
+      ],
+      "R2-chateaubriant": [
+        "R2C1-prix-de-gaillac.html",
+        "R2C2-prix-des-charentes.html",
+        "R2C3-prix-du-poitou.html",
+        "R2C4-prix-de-briey.html",
+        "R2C5-prix-henri-hellard.html",
+        "R2C6-prix-de-rethel.html",
+        "R2C7-prix-de-vitre.html",
+        "R2C8-prix-de-ramatuelle.html"
+      ],
+      "R4-toulouse": [
+        "R4C1-prix-de-gaillac.html",
+        "R4C2-prix-des-charentes.html",
+        "R4C3-prix-du-poitou.html",
+        "R4C4-prix-de-briey.html",
+        "R4C5-prix-henri-hellard.html",
+        "R4C6-prix-de-rethel.html",
+        "R4C7-prix-de-vitre.html",
+        "R4C8-prix-de-ramatuelle.html"
+      ],
+      "R5-marseille-vivaux": [
+        "R5C1-prix-de-gaillac.html",
+        "R5C2-prix-des-charentes.html",
+        "R5C3-prix-du-poitou.html",
+        "R5C4-prix-de-briey.html",
+        "R5C5-prix-henri-hellard.html",
+        "R5C6-prix-de-rethel.html",
+        "R5C7-prix-de-vitre.html",
+        "R5C8-prix-de-ramatuelle.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-de-gaillac.html",
+        "R31C2-prix-des-charentes.html",
+        "R31C3-prix-du-poitou.html",
+        "R31C4-prix-de-briey.html",
+        "R31C5-prix-henri-hellard.html",
+        "R31C6-prix-de-rethel.html",
+        "R31C7-prix-de-vitre.html",
+        "R31C8-prix-de-ramatuelle.html"
+      ],
+      "R70-parc-des-sports-arles-avignon": [
+        "R70C1-prix-de-gaillac.html",
+        "R70C2-prix-des-charentes.html",
+        "R70C3-prix-du-poitou.html",
+        "R70C4-prix-de-briey.html",
+        "R70C5-prix-henri-hellard.html",
+        "R70C6-prix-de-rethel.html",
+        "R70C7-prix-de-vitre.html",
+        "R70C8-prix-de-ramatuelle.html"
+      ],
+      "R71-landshark-stadium-miami": [
+        "R71C1-prix-de-gaillac.html",
+        "R71C2-prix-des-charentes.html",
+        "R71C3-prix-du-poitou.html",
+        "R71C4-prix-de-briey.html",
+        "R71C5-prix-henri-hellard.html",
+        "R71C6-prix-de-rethel.html",
+        "R71C7-prix-de-vitre.html",
+        "R71C8-prix-de-ramatuelle.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:33:48.000055Z"
+}

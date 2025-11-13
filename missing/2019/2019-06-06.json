@@ -1,0 +1,68 @@
+{
+  "date": "2019-06-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/06/2019-06-06",
+    "date_html": "resultats-et-rapports/2019/06/2019-06-06/2019-06-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/06/2019-06-06/R1-paris-longchamp/R1C5-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R1-paris-longchamp/R1C6-prix-le-parisien-prix-de-l-orangerie.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R3-lyon-parilly/R3C1-prix-du-val-de-grace.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R3-lyon-parilly/R3C5-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R4-marseille-borely/R4C4-prix-du-jeu-de-paume.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R4-marseille-borely/R4C5-prix-de-l-aqueduc.html",
+      "resultats-et-rapports/2019/06/2019-06-06/R4-marseille-borely/R4C6-prix-le-parisien-prix-de-l-orangerie.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R2-chartres",
+      "R3-lyon-parilly",
+      "R4-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-du-val-de-grace.html",
+        "R1C2-prix-du-vert-galant.html",
+        "R1C3-prix-des-arts-et-metiers.html",
+        "R1C4-prix-du-jeu-de-paume.html",
+        "R1C5-prix-de-l-aqueduc.html",
+        "R1C6-prix-le-parisien-prix-de-l-orangerie.html",
+        "R1C7-prix-du-musee-du-luxembourg.html"
+      ],
+      "R2-chartres": [
+        "R2C1-prix-du-val-de-grace.html",
+        "R2C2-prix-du-vert-galant.html",
+        "R2C3-prix-des-arts-et-metiers.html",
+        "R2C4-prix-du-jeu-de-paume.html",
+        "R2C5-prix-de-l-aqueduc.html",
+        "R2C6-prix-le-parisien-prix-de-l-orangerie.html",
+        "R2C7-prix-du-musee-du-luxembourg.html"
+      ],
+      "R3-lyon-parilly": [
+        "R3C1-prix-du-val-de-grace.html",
+        "R3C2-prix-du-vert-galant.html",
+        "R3C3-prix-des-arts-et-metiers.html",
+        "R3C4-prix-du-jeu-de-paume.html",
+        "R3C5-prix-de-l-aqueduc.html",
+        "R3C6-prix-le-parisien-prix-de-l-orangerie.html",
+        "R3C7-prix-du-musee-du-luxembourg.html"
+      ],
+      "R4-marseille-borely": [
+        "R4C1-prix-du-val-de-grace.html",
+        "R4C2-prix-du-vert-galant.html",
+        "R4C3-prix-des-arts-et-metiers.html",
+        "R4C4-prix-du-jeu-de-paume.html",
+        "R4C5-prix-de-l-aqueduc.html",
+        "R4C6-prix-le-parisien-prix-de-l-orangerie.html",
+        "R4C7-prix-du-musee-du-luxembourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:51:28.490703Z"
+}

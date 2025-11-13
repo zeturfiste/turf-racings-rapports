@@ -1,0 +1,74 @@
+{
+  "date": "2023-12-05",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/12/2023-12-05",
+    "date_html": "resultats-et-rapports/2023/12/2023-12-05/2023-12-05.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/12/2023-12-05/R1-deauville/R1C3-prix-de-la-maison-de-la-truie-qui-file.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R4-vincennes/R4C2-prix-de-l-hotellerie.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R4-vincennes/R4C3-prix-de-la-maison-de-la-truie-qui-file.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R4-vincennes/R4C7-prix-du-buste-de-desire-le-hoc.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R4-vincennes/R4C8-prix-de-la-statue-de-l-archange.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R7-nantes/R7C2-prix-de-l-hotellerie.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R7-nantes/R7C6-prix-de-la-maison-de-l-artichaut.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R7-nantes/R7C7-prix-du-buste-de-desire-le-hoc.html",
+      "resultats-et-rapports/2023/12/2023-12-05/R7-nantes/R7C8-prix-de-la-statue-de-l-archange.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-fontainebleau",
+      "R4-vincennes",
+      "R7-nantes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-mont-saint-michel.html",
+        "R1C2-prix-de-l-hotellerie.html",
+        "R1C3-prix-de-la-maison-de-la-truie-qui-file.html",
+        "R1C4-prix-du-lieu-des-champs.html",
+        "R1C5-prix-de-l-enceinte-des-fusils.html",
+        "R1C6-prix-de-la-maison-de-l-artichaut.html",
+        "R1C7-prix-du-buste-de-desire-le-hoc.html",
+        "R1C8-prix-de-la-statue-de-l-archange.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-du-mont-saint-michel.html",
+        "R3C2-prix-de-l-hotellerie.html",
+        "R3C3-prix-de-la-maison-de-la-truie-qui-file.html",
+        "R3C4-prix-du-lieu-des-champs.html",
+        "R3C5-prix-de-l-enceinte-des-fusils.html",
+        "R3C6-prix-de-la-maison-de-l-artichaut.html",
+        "R3C7-prix-du-buste-de-desire-le-hoc.html",
+        "R3C8-prix-de-la-statue-de-l-archange.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-mont-saint-michel.html",
+        "R4C2-prix-de-l-hotellerie.html",
+        "R4C3-prix-de-la-maison-de-la-truie-qui-file.html",
+        "R4C4-prix-du-lieu-des-champs.html",
+        "R4C5-prix-de-l-enceinte-des-fusils.html",
+        "R4C6-prix-de-la-maison-de-l-artichaut.html",
+        "R4C7-prix-du-buste-de-desire-le-hoc.html",
+        "R4C8-prix-de-la-statue-de-l-archange.html"
+      ],
+      "R7-nantes": [
+        "R7C1-prix-du-mont-saint-michel.html",
+        "R7C2-prix-de-l-hotellerie.html",
+        "R7C3-prix-de-la-maison-de-la-truie-qui-file.html",
+        "R7C4-prix-du-lieu-des-champs.html",
+        "R7C5-prix-de-l-enceinte-des-fusils.html",
+        "R7C6-prix-de-la-maison-de-l-artichaut.html",
+        "R7C7-prix-du-buste-de-desire-le-hoc.html",
+        "R7C8-prix-de-la-statue-de-l-archange.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:01:07.784038Z"
+}

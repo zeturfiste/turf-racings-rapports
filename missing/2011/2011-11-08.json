@@ -1,0 +1,72 @@
+{
+  "date": "2011-11-08",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/11/2011-11-08",
+    "date_html": "resultats-et-rapports/2011/11/2011-11-08/2011-11-08.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/11/2011-11-08/R1-saint-cloud/R1C1-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R1-saint-cloud/R1C6-prix-cappiello.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R1-saint-cloud/R1C8-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R1-saint-cloud/R1C9-prix-de-troissy.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R2-bordeaux-le-bouscat/R2C2-prix-listman.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R2-bordeaux-le-bouscat/R2C4-prix-thebais.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R2-bordeaux-le-bouscat/R2C8-prix-de-rennemoulin.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C1-prix-d-ecquevilly.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C2-prix-listman.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C3-prix-de-dormans.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C4-prix-thebais.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C5-prix-de-velizy.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C6-prix-cappiello.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C7-prix-de-gonneville.html",
+      "resultats-et-rapports/2011/11/2011-11-08/R3-vincennes/R3C8-prix-de-rennemoulin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R2-bordeaux-le-bouscat",
+      "R3-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-d-ecquevilly.html",
+        "R1C2-prix-listman.html",
+        "R1C3-prix-de-dormans.html",
+        "R1C4-prix-thebais.html",
+        "R1C5-prix-de-velizy.html",
+        "R1C6-prix-cappiello.html",
+        "R1C7-prix-de-gonneville.html",
+        "R1C8-prix-de-rennemoulin.html",
+        "R1C9-prix-de-troissy.html"
+      ],
+      "R2-bordeaux-le-bouscat": [
+        "R2C1-prix-d-ecquevilly.html",
+        "R2C2-prix-listman.html",
+        "R2C3-prix-de-dormans.html",
+        "R2C4-prix-thebais.html",
+        "R2C5-prix-de-velizy.html",
+        "R2C6-prix-cappiello.html",
+        "R2C7-prix-de-gonneville.html",
+        "R2C8-prix-de-rennemoulin.html",
+        "R2C9-prix-de-troissy.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-d-ecquevilly.html",
+        "R3C2-prix-listman.html",
+        "R3C3-prix-de-dormans.html",
+        "R3C4-prix-thebais.html",
+        "R3C5-prix-de-velizy.html",
+        "R3C6-prix-cappiello.html",
+        "R3C7-prix-de-gonneville.html",
+        "R3C8-prix-de-rennemoulin.html",
+        "R3C9-prix-de-troissy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:37:25.954143Z"
+}

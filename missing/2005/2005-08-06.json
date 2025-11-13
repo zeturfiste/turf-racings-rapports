@@ -1,0 +1,64 @@
+{
+  "date": "2005-08-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/08/2005-08-06",
+    "date_html": "resultats-et-rapports/2005/08/2005-08-06/2005-08-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-meslay-du-maine",
+      "R3-skelleftea",
+      "R4-meadowlands"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-saint-hymer.html",
+        "R1C2-prix-deauville-aime-le-cheval-prix-de-lonray.html",
+        "R1C3-prix-du-port.html",
+        "R1C4-prix-de-tourgeville.html",
+        "R1C5-prix-de-reux.html",
+        "R1C6-prix-de-cleville.html",
+        "R1C7-prix-de-l-orbiquet.html",
+        "R1C8-prix-de-beuzeval.html"
+      ],
+      "R2-meslay-du-maine": [
+        "R2C1-prix-de-saint-hymer.html",
+        "R2C2-prix-deauville-aime-le-cheval-prix-de-lonray.html",
+        "R2C3-prix-du-port.html",
+        "R2C4-prix-de-tourgeville.html",
+        "R2C5-prix-de-reux.html",
+        "R2C6-prix-de-cleville.html",
+        "R2C7-prix-de-l-orbiquet.html",
+        "R2C8-prix-de-beuzeval.html"
+      ],
+      "R3-skelleftea": [
+        "R3C1-prix-de-saint-hymer.html",
+        "R3C2-prix-deauville-aime-le-cheval-prix-de-lonray.html",
+        "R3C3-prix-du-port.html",
+        "R3C4-prix-de-tourgeville.html",
+        "R3C5-prix-de-reux.html",
+        "R3C6-prix-de-cleville.html",
+        "R3C7-prix-de-l-orbiquet.html",
+        "R3C8-prix-de-beuzeval.html"
+      ],
+      "R4-meadowlands": [
+        "R4C1-prix-de-saint-hymer.html",
+        "R4C2-prix-deauville-aime-le-cheval-prix-de-lonray.html",
+        "R4C3-prix-du-port.html",
+        "R4C4-prix-de-tourgeville.html",
+        "R4C5-prix-de-reux.html",
+        "R4C6-prix-de-cleville.html",
+        "R4C7-prix-de-l-orbiquet.html",
+        "R4C8-prix-de-beuzeval.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:23:43.796229Z"
+}

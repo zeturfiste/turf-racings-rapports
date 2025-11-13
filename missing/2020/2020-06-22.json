@@ -1,0 +1,96 @@
+{
+  "date": "2020-06-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2020/06/2020-06-22",
+    "date_html": "resultats-et-rapports/2020/06/2020-06-22/2020-06-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2020/06/2020-06-22/R1-lyon-parilly/R1C6-prix-des-terreaux.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R1-lyon-parilly/R1C7-prix-d-ainay.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R1-lyon-parilly/R1C8-prix-du-cercle-de-l-union.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R1-lyon-parilly/R1C9-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C1-prix-des-fleurs.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C3-prix-yves-parenti.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C5-prix-do-re-mi-fa-sol.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C6-prix-des-terreaux.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C8-prix-du-cercle-de-l-union.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R3-la-capelle/R3C9-prix-de-maisons-laffitte.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C1-prix-des-fleurs.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C2-prix-federation-des-courses-du-centre-est.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C3-prix-yves-parenti.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C4-prix-valanjou.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C5-prix-do-re-mi-fa-sol.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C6-prix-des-terreaux.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C7-prix-d-ainay.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R4-saint-brieuc/R4C8-prix-du-cercle-de-l-union.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C1-prix-des-fleurs.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C2-prix-federation-des-courses-du-centre-est.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C3-prix-yves-parenti.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C4-prix-valanjou.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C5-prix-do-re-mi-fa-sol.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C6-prix-des-terreaux.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C7-prix-d-ainay.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C8-prix-du-cercle-de-l-union.html",
+      "resultats-et-rapports/2020/06/2020-06-22/R6-craon/R6C9-prix-de-maisons-laffitte.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-lyon-parilly",
+      "R3-la-capelle",
+      "R4-saint-brieuc",
+      "R6-craon"
+    ],
+    "courses_by_reunion": {
+      "R1-lyon-parilly": [
+        "R1C1-prix-des-fleurs.html",
+        "R1C2-prix-federation-des-courses-du-centre-est.html",
+        "R1C3-prix-yves-parenti.html",
+        "R1C4-prix-valanjou.html",
+        "R1C5-prix-do-re-mi-fa-sol.html",
+        "R1C6-prix-des-terreaux.html",
+        "R1C7-prix-d-ainay.html",
+        "R1C8-prix-du-cercle-de-l-union.html",
+        "R1C9-prix-de-maisons-laffitte.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-des-fleurs.html",
+        "R3C2-prix-federation-des-courses-du-centre-est.html",
+        "R3C3-prix-yves-parenti.html",
+        "R3C4-prix-valanjou.html",
+        "R3C5-prix-do-re-mi-fa-sol.html",
+        "R3C6-prix-des-terreaux.html",
+        "R3C7-prix-d-ainay.html",
+        "R3C8-prix-du-cercle-de-l-union.html",
+        "R3C9-prix-de-maisons-laffitte.html"
+      ],
+      "R4-saint-brieuc": [
+        "R4C1-prix-des-fleurs.html",
+        "R4C2-prix-federation-des-courses-du-centre-est.html",
+        "R4C3-prix-yves-parenti.html",
+        "R4C4-prix-valanjou.html",
+        "R4C5-prix-do-re-mi-fa-sol.html",
+        "R4C6-prix-des-terreaux.html",
+        "R4C7-prix-d-ainay.html",
+        "R4C8-prix-du-cercle-de-l-union.html",
+        "R4C9-prix-de-maisons-laffitte.html"
+      ],
+      "R6-craon": [
+        "R6C1-prix-des-fleurs.html",
+        "R6C2-prix-federation-des-courses-du-centre-est.html",
+        "R6C3-prix-yves-parenti.html",
+        "R6C4-prix-valanjou.html",
+        "R6C5-prix-do-re-mi-fa-sol.html",
+        "R6C6-prix-des-terreaux.html",
+        "R6C7-prix-d-ainay.html",
+        "R6C8-prix-du-cercle-de-l-union.html",
+        "R6C9-prix-de-maisons-laffitte.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:53:21.307844Z"
+}

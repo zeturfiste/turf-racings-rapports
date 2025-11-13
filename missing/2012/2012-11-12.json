@@ -1,0 +1,95 @@
+{
+  "date": "2012-11-12",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2012/11/2012-11-12",
+    "date_html": "resultats-et-rapports/2012/11/2012-11-12/2012-11-12.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2012/11/2012-11-12/R2-chantilly/R2C1-prix-du-languedoc.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R2-chantilly/R2C2-prix-d-azay-le-rideau.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R2-chantilly/R2C4-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R2-chantilly/R2C8-prix-des-giroflees-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R3-pornichet-la-baule/R3C8-prix-des-giroflees-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R5-auch/R5C1-prix-du-languedoc.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R5-auch/R5C6-prix-de-colombes.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C3-prix-de-ranville.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C4-prix-de-castelsarrasin.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C5-prix-louis-tillaye.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C6-prix-de-colombes.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C7-prix-d-angers.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C8-prix-des-giroflees-groupe-a.html",
+      "resultats-et-rapports/2012/11/2012-11-12/R6-meslay-du-maine/R6C9-prix-des-giroflees-groupe-b.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-chantilly",
+      "R3-pornichet-la-baule",
+      "R5-auch",
+      "R6-meslay-du-maine"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-du-languedoc.html",
+        "R1C2-prix-d-azay-le-rideau.html",
+        "R1C3-prix-de-ranville.html",
+        "R1C4-prix-de-castelsarrasin.html",
+        "R1C5-prix-louis-tillaye.html",
+        "R1C6-prix-de-colombes.html",
+        "R1C7-prix-d-angers.html",
+        "R1C8-prix-des-giroflees-groupe-a.html",
+        "R1C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-du-languedoc.html",
+        "R2C2-prix-d-azay-le-rideau.html",
+        "R2C3-prix-de-ranville.html",
+        "R2C4-prix-de-castelsarrasin.html",
+        "R2C5-prix-louis-tillaye.html",
+        "R2C6-prix-de-colombes.html",
+        "R2C7-prix-d-angers.html",
+        "R2C8-prix-des-giroflees-groupe-a.html",
+        "R2C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R3-pornichet-la-baule": [
+        "R3C1-prix-du-languedoc.html",
+        "R3C2-prix-d-azay-le-rideau.html",
+        "R3C3-prix-de-ranville.html",
+        "R3C4-prix-de-castelsarrasin.html",
+        "R3C5-prix-louis-tillaye.html",
+        "R3C6-prix-de-colombes.html",
+        "R3C7-prix-d-angers.html",
+        "R3C8-prix-des-giroflees-groupe-a.html",
+        "R3C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R5-auch": [
+        "R5C1-prix-du-languedoc.html",
+        "R5C2-prix-d-azay-le-rideau.html",
+        "R5C3-prix-de-ranville.html",
+        "R5C4-prix-de-castelsarrasin.html",
+        "R5C5-prix-louis-tillaye.html",
+        "R5C6-prix-de-colombes.html",
+        "R5C7-prix-d-angers.html",
+        "R5C8-prix-des-giroflees-groupe-a.html",
+        "R5C9-prix-des-giroflees-groupe-b.html"
+      ],
+      "R6-meslay-du-maine": [
+        "R6C1-prix-du-languedoc.html",
+        "R6C2-prix-d-azay-le-rideau.html",
+        "R6C3-prix-de-ranville.html",
+        "R6C4-prix-de-castelsarrasin.html",
+        "R6C5-prix-louis-tillaye.html",
+        "R6C6-prix-de-colombes.html",
+        "R6C7-prix-d-angers.html",
+        "R6C8-prix-des-giroflees-groupe-a.html",
+        "R6C9-prix-des-giroflees-groupe-b.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:12.118807Z"
+}

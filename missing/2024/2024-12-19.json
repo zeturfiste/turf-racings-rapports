@@ -1,0 +1,73 @@
+{
+  "date": "2024-12-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/12/2024-12-19",
+    "date_html": "resultats-et-rapports/2024/12/2024-12-19/2024-12-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/12/2024-12-19/R1-deauville/R1C2-prix-de-manneville.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R1-deauville/R1C3-prix-du-domfrontais.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R1-deauville/R1C4-prix-de-pennepedie.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R1-deauville/R1C5-prix-des-perrets.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C4-prix-de-pennepedie.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C5-prix-des-perrets.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C6-prix-arcangues-polytrack-challenge.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C7-prix-du-val-d-orne.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C8-prix-du-massif-armoricain.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R3-meslay-du-maine/R3C9-prix-du-mortainais.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C1-prix-de-la-suisse-normande.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C2-prix-de-manneville.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C3-prix-du-domfrontais.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C6-prix-arcangues-polytrack-challenge.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C8-prix-du-massif-armoricain.html",
+      "resultats-et-rapports/2024/12/2024-12-19/R4-cabourg/R4C9-prix-du-mortainais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R3-meslay-du-maine",
+      "R4-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-la-suisse-normande.html",
+        "R1C2-prix-de-manneville.html",
+        "R1C3-prix-du-domfrontais.html",
+        "R1C4-prix-de-pennepedie.html",
+        "R1C5-prix-des-perrets.html",
+        "R1C6-prix-arcangues-polytrack-challenge.html",
+        "R1C7-prix-du-val-d-orne.html",
+        "R1C8-prix-du-massif-armoricain.html",
+        "R1C9-prix-du-mortainais.html"
+      ],
+      "R3-meslay-du-maine": [
+        "R3C1-prix-de-la-suisse-normande.html",
+        "R3C2-prix-de-manneville.html",
+        "R3C3-prix-du-domfrontais.html",
+        "R3C4-prix-de-pennepedie.html",
+        "R3C5-prix-des-perrets.html",
+        "R3C6-prix-arcangues-polytrack-challenge.html",
+        "R3C7-prix-du-val-d-orne.html",
+        "R3C8-prix-du-massif-armoricain.html",
+        "R3C9-prix-du-mortainais.html"
+      ],
+      "R4-cabourg": [
+        "R4C1-prix-de-la-suisse-normande.html",
+        "R4C2-prix-de-manneville.html",
+        "R4C3-prix-du-domfrontais.html",
+        "R4C4-prix-de-pennepedie.html",
+        "R4C5-prix-des-perrets.html",
+        "R4C6-prix-arcangues-polytrack-challenge.html",
+        "R4C7-prix-du-val-d-orne.html",
+        "R4C8-prix-du-massif-armoricain.html",
+        "R4C9-prix-du-mortainais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:03:34.091103Z"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2024-05-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/05/2024-05-29",
+    "date_html": "resultats-et-rapports/2024/05/2024-05-29/2024-05-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/05/2024-05-29/R1-strasbourg/R1C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R1-strasbourg/R1C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R1-strasbourg/R1C7-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R2-caen/R2C2-prix-maxi-flash-prix-rock-n-roll.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R2-caen/R2C4-prix-bfm-alsace-prix-de-la-musique.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R2-caen/R2C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R2-caen/R2C7-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R3-dieppe/R3C1-prix-kleber.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R3-dieppe/R3C2-prix-maxi-flash-prix-rock-n-roll.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R3-dieppe/R3C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R3-dieppe/R3C7-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R3-dieppe/R3C8-prix-de-la-ville-de-strasbourg.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C1-prix-kleber.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C2-prix-maxi-flash-prix-rock-n-roll.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C4-prix-bfm-alsace-prix-de-la-musique.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C7-prix-nathanaelle-artu.html",
+      "resultats-et-rapports/2024/05/2024-05-29/R4-hyeres/R4C8-prix-de-la-ville-de-strasbourg.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-strasbourg",
+      "R2-caen",
+      "R3-dieppe",
+      "R4-hyeres"
+    ],
+    "courses_by_reunion": {
+      "R1-strasbourg": [
+        "R1C1-prix-kleber.html",
+        "R1C2-prix-maxi-flash-prix-rock-n-roll.html",
+        "R1C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+        "R1C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R1C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+        "R1C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+        "R1C7-prix-nathanaelle-artu.html",
+        "R1C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-kleber.html",
+        "R2C2-prix-maxi-flash-prix-rock-n-roll.html",
+        "R2C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+        "R2C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R2C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+        "R2C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+        "R2C7-prix-nathanaelle-artu.html",
+        "R2C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R3-dieppe": [
+        "R3C1-prix-kleber.html",
+        "R3C2-prix-maxi-flash-prix-rock-n-roll.html",
+        "R3C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+        "R3C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R3C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+        "R3C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+        "R3C7-prix-nathanaelle-artu.html",
+        "R3C8-prix-de-la-ville-de-strasbourg.html"
+      ],
+      "R4-hyeres": [
+        "R4C1-prix-kleber.html",
+        "R4C2-prix-maxi-flash-prix-rock-n-roll.html",
+        "R4C3-prix-yamaha-ebikes-prix-hyeres-iii.html",
+        "R4C4-prix-bfm-alsace-prix-de-la-musique.html",
+        "R4C5-prix-traiteur-chez-soi-prix-du-jazz.html",
+        "R4C6-prix-gdr-groupe-le-reparateur-auto-prix-de-la-valse.html",
+        "R4C7-prix-nathanaelle-artu.html",
+        "R4C8-prix-de-la-ville-de-strasbourg.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:12.032135Z"
+}

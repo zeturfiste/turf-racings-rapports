@@ -1,0 +1,57 @@
+{
+  "date": "2021-01-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/01/2021-01-29",
+    "date_html": "resultats-et-rapports/2021/01/2021-01-29/2021-01-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/01/2021-01-29/R1-pau/R1C7-prix-calixte-bayrou.html",
+      "resultats-et-rapports/2021/01/2021-01-29/R3-cagnes-sur-mer/R3C7-prix-calixte-bayrou.html",
+      "resultats-et-rapports/2021/01/2021-01-29/R3-cagnes-sur-mer/R3C8-prix-du-cercle-anglais.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-pau",
+      "R2-chantilly",
+      "R3-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-pau": [
+        "R1C1-prix-rene-sirvain.html",
+        "R1C2-prix-louis-alexandre-sers.html",
+        "R1C3-prix-ferdinant-riant.html",
+        "R1C4-prix-exas-consultant-prix-de-montaut.html",
+        "R1C5-prix-equidia-prix-rene-cramail.html",
+        "R1C6-prix-pau-so-british.html",
+        "R1C7-prix-calixte-bayrou.html",
+        "R1C8-prix-du-cercle-anglais.html"
+      ],
+      "R2-chantilly": [
+        "R2C1-prix-rene-sirvain.html",
+        "R2C2-prix-louis-alexandre-sers.html",
+        "R2C3-prix-ferdinant-riant.html",
+        "R2C4-prix-exas-consultant-prix-de-montaut.html",
+        "R2C5-prix-equidia-prix-rene-cramail.html",
+        "R2C6-prix-pau-so-british.html",
+        "R2C7-prix-calixte-bayrou.html",
+        "R2C8-prix-du-cercle-anglais.html"
+      ],
+      "R3-cagnes-sur-mer": [
+        "R3C1-prix-rene-sirvain.html",
+        "R3C2-prix-louis-alexandre-sers.html",
+        "R3C3-prix-ferdinant-riant.html",
+        "R3C4-prix-exas-consultant-prix-de-montaut.html",
+        "R3C5-prix-equidia-prix-rene-cramail.html",
+        "R3C6-prix-pau-so-british.html",
+        "R3C7-prix-calixte-bayrou.html",
+        "R3C8-prix-du-cercle-anglais.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:54:41.575459Z"
+}

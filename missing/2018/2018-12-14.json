@@ -1,0 +1,70 @@
+{
+  "date": "2018-12-14",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/12/2018-12-14",
+    "date_html": "resultats-et-rapports/2018/12/2018-12-14/2018-12-14.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/12/2018-12-14/R1-vincennes/R1C1-prix-de-langon.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R1-vincennes/R1C2-prix-de-tourcoing.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R1-vincennes/R1C3-prix-de-la-touraine.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R1-vincennes/R1C4-prix-du-neubourg.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R1-vincennes/R1C5-prix-de-beaupreau.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C2-prix-de-tourcoing.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C3-prix-de-la-touraine.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C5-prix-de-beaupreau.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C6-prix-de-lussac-groupe-a.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C7-prix-de-lussac-groupe-b.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R3-deauville/R3C8-prix-de-pondurat.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R4-graignes/R4C2-prix-de-tourcoing.html",
+      "resultats-et-rapports/2018/12/2018-12-14/R4-graignes/R4C3-prix-de-la-touraine.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-deauville",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-langon.html",
+        "R1C2-prix-de-tourcoing.html",
+        "R1C3-prix-de-la-touraine.html",
+        "R1C4-prix-du-neubourg.html",
+        "R1C5-prix-de-beaupreau.html",
+        "R1C6-prix-de-lussac-groupe-a.html",
+        "R1C7-prix-de-lussac-groupe-b.html",
+        "R1C8-prix-de-pondurat.html",
+        "R1C9-prix-de-valdampierre.html"
+      ],
+      "R3-deauville": [
+        "R3C1-prix-de-langon.html",
+        "R3C2-prix-de-tourcoing.html",
+        "R3C3-prix-de-la-touraine.html",
+        "R3C4-prix-du-neubourg.html",
+        "R3C5-prix-de-beaupreau.html",
+        "R3C6-prix-de-lussac-groupe-a.html",
+        "R3C7-prix-de-lussac-groupe-b.html",
+        "R3C8-prix-de-pondurat.html",
+        "R3C9-prix-de-valdampierre.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-de-langon.html",
+        "R4C2-prix-de-tourcoing.html",
+        "R4C3-prix-de-la-touraine.html",
+        "R4C4-prix-du-neubourg.html",
+        "R4C5-prix-de-beaupreau.html",
+        "R4C6-prix-de-lussac-groupe-a.html",
+        "R4C7-prix-de-lussac-groupe-b.html",
+        "R4C8-prix-de-pondurat.html",
+        "R4C9-prix-de-valdampierre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:38.355522Z"
+}

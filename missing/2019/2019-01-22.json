@@ -1,0 +1,72 @@
+{
+  "date": "2019-01-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/01/2019-01-22",
+    "date_html": "resultats-et-rapports/2019/01/2019-01-22/2019-01-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/01/2019-01-22/R1-cagnes-sur-mer/R1C1-prix-des-iles-de-lerins.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R1-cagnes-sur-mer/R1C2-prix-des-figuiers.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R1-cagnes-sur-mer/R1C5-prix-du-serpolet.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R1-cagnes-sur-mer/R1C6-prix-yves-bachelier.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R1-cagnes-sur-mer/R1C8-prix-de-la-canebiere.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C1-prix-des-iles-de-lerins.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C3-prix-de-marseille.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C4-prix-de-la-crau.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C5-prix-du-serpolet.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C7-prix-des-oliviers.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R2-vincennes/R2C8-prix-de-la-canebiere.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C1-prix-des-iles-de-lerins.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C2-prix-des-figuiers.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C3-prix-de-marseille.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C4-prix-de-la-crau.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C6-prix-yves-bachelier.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C7-prix-des-oliviers.html",
+      "resultats-et-rapports/2019/01/2019-01-22/R3-toulouse/R3C8-prix-de-la-canebiere.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-cagnes-sur-mer",
+      "R2-vincennes",
+      "R3-toulouse"
+    ],
+    "courses_by_reunion": {
+      "R1-cagnes-sur-mer": [
+        "R1C1-prix-des-iles-de-lerins.html",
+        "R1C2-prix-des-figuiers.html",
+        "R1C3-prix-de-marseille.html",
+        "R1C4-prix-de-la-crau.html",
+        "R1C5-prix-du-serpolet.html",
+        "R1C6-prix-yves-bachelier.html",
+        "R1C7-prix-des-oliviers.html",
+        "R1C8-prix-de-la-canebiere.html"
+      ],
+      "R2-vincennes": [
+        "R2C1-prix-des-iles-de-lerins.html",
+        "R2C2-prix-des-figuiers.html",
+        "R2C3-prix-de-marseille.html",
+        "R2C4-prix-de-la-crau.html",
+        "R2C5-prix-du-serpolet.html",
+        "R2C6-prix-yves-bachelier.html",
+        "R2C7-prix-des-oliviers.html",
+        "R2C8-prix-de-la-canebiere.html"
+      ],
+      "R3-toulouse": [
+        "R3C1-prix-des-iles-de-lerins.html",
+        "R3C2-prix-des-figuiers.html",
+        "R3C3-prix-de-marseille.html",
+        "R3C4-prix-de-la-crau.html",
+        "R3C5-prix-du-serpolet.html",
+        "R3C6-prix-yves-bachelier.html",
+        "R3C7-prix-des-oliviers.html",
+        "R3C8-prix-de-la-canebiere.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:47.848022Z"
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2017-07-26",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2017/07/2017-07-26",
+    "date_html": "resultats-et-rapports/2017/07/2017-07-26/2017-07-26.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2017/07/2017-07-26/R1-enghien-soisy/R1C2-prix-de-la-place-dauphine.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R1-enghien-soisy/R1C3-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R1-enghien-soisy/R1C6-prix-de-l-esplanade.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R1-enghien-soisy/R1C7-prix-de-crespieres.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R3-vichy/R3C2-prix-de-la-place-dauphine.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R3-vichy/R3C3-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R3-vichy/R3C6-prix-de-l-esplanade.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R3-vichy/R3C7-prix-de-crespieres.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R3-vichy/R3C8-prix-de-la-haute-marne.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C1-prix-du-medoc.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C2-prix-de-la-place-dauphine.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C3-prix-de-la-chaussee-d-antin.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C4-prix-de-bonny-sur-loire.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C5-prix-de-clignancourt.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C6-prix-de-l-esplanade.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C7-prix-de-crespieres.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R7-les-sables-d-olonne/R7C8-prix-de-la-haute-marne.html",
+      "resultats-et-rapports/2017/07/2017-07-26/R8-cagnes-sur-mer/R8C1-prix-du-medoc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R3-vichy",
+      "R7-les-sables-d-olonne",
+      "R8-cagnes-sur-mer"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-du-medoc.html",
+        "R1C2-prix-de-la-place-dauphine.html",
+        "R1C3-prix-de-la-chaussee-d-antin.html",
+        "R1C4-prix-de-bonny-sur-loire.html",
+        "R1C5-prix-de-clignancourt.html",
+        "R1C6-prix-de-l-esplanade.html",
+        "R1C7-prix-de-crespieres.html",
+        "R1C8-prix-de-la-haute-marne.html"
+      ],
+      "R3-vichy": [
+        "R3C1-prix-du-medoc.html",
+        "R3C2-prix-de-la-place-dauphine.html",
+        "R3C3-prix-de-la-chaussee-d-antin.html",
+        "R3C4-prix-de-bonny-sur-loire.html",
+        "R3C5-prix-de-clignancourt.html",
+        "R3C6-prix-de-l-esplanade.html",
+        "R3C7-prix-de-crespieres.html",
+        "R3C8-prix-de-la-haute-marne.html"
+      ],
+      "R7-les-sables-d-olonne": [
+        "R7C1-prix-du-medoc.html",
+        "R7C2-prix-de-la-place-dauphine.html",
+        "R7C3-prix-de-la-chaussee-d-antin.html",
+        "R7C4-prix-de-bonny-sur-loire.html",
+        "R7C5-prix-de-clignancourt.html",
+        "R7C6-prix-de-l-esplanade.html",
+        "R7C7-prix-de-crespieres.html",
+        "R7C8-prix-de-la-haute-marne.html"
+      ],
+      "R8-cagnes-sur-mer": [
+        "R8C1-prix-du-medoc.html",
+        "R8C2-prix-de-la-place-dauphine.html",
+        "R8C3-prix-de-la-chaussee-d-antin.html",
+        "R8C4-prix-de-bonny-sur-loire.html",
+        "R8C5-prix-de-clignancourt.html",
+        "R8C6-prix-de-l-esplanade.html",
+        "R8C7-prix-de-crespieres.html",
+        "R8C8-prix-de-la-haute-marne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:47:56.239564Z"
+}

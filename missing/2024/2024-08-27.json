@@ -1,0 +1,87 @@
+{
+  "date": "2024-08-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2024/08/2024-08-27",
+    "date_html": "resultats-et-rapports/2024/08/2024-08-27/2024-08-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2024/08/2024-08-27/R1-dieppe/R1C2-prix-deep-jumping-prix-style-vendome.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R1-dieppe/R1C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R1-dieppe/R1C4-prix-bon-mot.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R1-dieppe/R1C7-prix-region-normandie.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R1-dieppe/R1C8-prix-de-la-porte-de-tourelles.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C1-prix-du-vallon-des-chenes.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C2-prix-deep-jumping-prix-style-vendome.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C5-prix-du-quebec.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C6-prix-du-pollet.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C7-prix-region-normandie.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R2-la-capelle/R2C8-prix-de-la-porte-de-tourelles.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R4-vichy/R4C1-prix-du-vallon-des-chenes.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R4-vichy/R4C2-prix-deep-jumping-prix-style-vendome.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R4-vichy/R4C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R4-vichy/R4C4-prix-bon-mot.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R4-vichy/R4C8-prix-de-la-porte-de-tourelles.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R5-cabourg/R5C1-prix-du-vallon-des-chenes.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R5-cabourg/R5C2-prix-deep-jumping-prix-style-vendome.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R5-cabourg/R5C3-prix-de-la-foret-d-arques.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R5-cabourg/R5C7-prix-region-normandie.html",
+      "resultats-et-rapports/2024/08/2024-08-27/R5-cabourg/R5C8-prix-de-la-porte-de-tourelles.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R2-la-capelle",
+      "R4-vichy",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-du-vallon-des-chenes.html",
+        "R1C2-prix-deep-jumping-prix-style-vendome.html",
+        "R1C3-prix-de-la-foret-d-arques.html",
+        "R1C4-prix-bon-mot.html",
+        "R1C5-prix-du-quebec.html",
+        "R1C6-prix-du-pollet.html",
+        "R1C7-prix-region-normandie.html",
+        "R1C8-prix-de-la-porte-de-tourelles.html"
+      ],
+      "R2-la-capelle": [
+        "R2C1-prix-du-vallon-des-chenes.html",
+        "R2C2-prix-deep-jumping-prix-style-vendome.html",
+        "R2C3-prix-de-la-foret-d-arques.html",
+        "R2C4-prix-bon-mot.html",
+        "R2C5-prix-du-quebec.html",
+        "R2C6-prix-du-pollet.html",
+        "R2C7-prix-region-normandie.html",
+        "R2C8-prix-de-la-porte-de-tourelles.html"
+      ],
+      "R4-vichy": [
+        "R4C1-prix-du-vallon-des-chenes.html",
+        "R4C2-prix-deep-jumping-prix-style-vendome.html",
+        "R4C3-prix-de-la-foret-d-arques.html",
+        "R4C4-prix-bon-mot.html",
+        "R4C5-prix-du-quebec.html",
+        "R4C6-prix-du-pollet.html",
+        "R4C7-prix-region-normandie.html",
+        "R4C8-prix-de-la-porte-de-tourelles.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-du-vallon-des-chenes.html",
+        "R5C2-prix-deep-jumping-prix-style-vendome.html",
+        "R5C3-prix-de-la-foret-d-arques.html",
+        "R5C4-prix-bon-mot.html",
+        "R5C5-prix-du-quebec.html",
+        "R5C6-prix-du-pollet.html",
+        "R5C7-prix-region-normandie.html",
+        "R5C8-prix-de-la-porte-de-tourelles.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:02:48.160044Z"
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2007-07-22",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2007/07/2007-07-22",
+    "date_html": "resultats-et-rapports/2007/07/2007-07-22/2007-07-22.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2007/07/2007-07-22/R2-le-mont-saint-michel/R2C1-prix-fast-fox.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R2-le-mont-saint-michel/R2C6-prix-de-bonnieres-sur-seine.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R4-royan-la-palmyre/R4C5-prix-messidor.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R4-royan-la-palmyre/R4C7-prix-de-neauphlette.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R31-zerace/R31C3-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R31-zerace/R31C7-prix-de-neauphlette.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C3-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C4-prix-robert-papin.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C5-prix-messidor.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C6-prix-de-bonnieres-sur-seine.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C7-prix-de-neauphlette.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring/R70C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C1-prix-fast-fox.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C3-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C4-prix-robert-papin.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C5-prix-messidor.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C6-prix-de-bonnieres-sur-seine.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C7-prix-de-neauphlette.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R71-mazamet-plateau-de-beille/R71C8-prix-de-la-prairie-du-parc.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C1-prix-fast-fox.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C3-prix-de-carrieres-sous-poissy.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C4-prix-robert-papin.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C5-prix-messidor.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C6-prix-de-bonnieres-sur-seine.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C7-prix-de-neauphlette.html",
+      "resultats-et-rapports/2007/07/2007-07-22/R72-national-soccer-stadium-toronto/R72C8-prix-de-la-prairie-du-parc.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-le-mont-saint-michel",
+      "R4-royan-la-palmyre",
+      "R31-zerace",
+      "R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring",
+      "R71-mazamet-plateau-de-beille",
+      "R72-national-soccer-stadium-toronto"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-fast-fox.html",
+        "R1C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R1C3-prix-de-carrieres-sous-poissy.html",
+        "R1C4-prix-robert-papin.html",
+        "R1C5-prix-messidor.html",
+        "R1C6-prix-de-bonnieres-sur-seine.html",
+        "R1C7-prix-de-neauphlette.html",
+        "R1C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R2-le-mont-saint-michel": [
+        "R2C1-prix-fast-fox.html",
+        "R2C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R2C3-prix-de-carrieres-sous-poissy.html",
+        "R2C4-prix-robert-papin.html",
+        "R2C5-prix-messidor.html",
+        "R2C6-prix-de-bonnieres-sur-seine.html",
+        "R2C7-prix-de-neauphlette.html",
+        "R2C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R4-royan-la-palmyre": [
+        "R4C1-prix-fast-fox.html",
+        "R4C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R4C3-prix-de-carrieres-sous-poissy.html",
+        "R4C4-prix-robert-papin.html",
+        "R4C5-prix-messidor.html",
+        "R4C6-prix-de-bonnieres-sur-seine.html",
+        "R4C7-prix-de-neauphlette.html",
+        "R4C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R31-zerace": [
+        "R31C1-prix-fast-fox.html",
+        "R31C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R31C3-prix-de-carrieres-sous-poissy.html",
+        "R31C4-prix-robert-papin.html",
+        "R31C5-prix-messidor.html",
+        "R31C6-prix-de-bonnieres-sur-seine.html",
+        "R31C7-prix-de-neauphlette.html",
+        "R31C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R70-grand-prix-d-allemagne-de-formule-1-au-nurburgring": [
+        "R70C1-prix-fast-fox.html",
+        "R70C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R70C3-prix-de-carrieres-sous-poissy.html",
+        "R70C4-prix-robert-papin.html",
+        "R70C5-prix-messidor.html",
+        "R70C6-prix-de-bonnieres-sur-seine.html",
+        "R70C7-prix-de-neauphlette.html",
+        "R70C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R71-mazamet-plateau-de-beille": [
+        "R71C1-prix-fast-fox.html",
+        "R71C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R71C3-prix-de-carrieres-sous-poissy.html",
+        "R71C4-prix-robert-papin.html",
+        "R71C5-prix-messidor.html",
+        "R71C6-prix-de-bonnieres-sur-seine.html",
+        "R71C7-prix-de-neauphlette.html",
+        "R71C8-prix-de-la-prairie-du-parc.html"
+      ],
+      "R72-national-soccer-stadium-toronto": [
+        "R72C1-prix-fast-fox.html",
+        "R72C2-prix-de-l-hippodrome-de-maisons-laffitte.html",
+        "R72C3-prix-de-carrieres-sous-poissy.html",
+        "R72C4-prix-robert-papin.html",
+        "R72C5-prix-messidor.html",
+        "R72C6-prix-de-bonnieres-sur-seine.html",
+        "R72C7-prix-de-neauphlette.html",
+        "R72C8-prix-de-la-prairie-du-parc.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:26:39.301319Z"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2013-01-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2013/01/2013-01-10",
+    "date_html": "resultats-et-rapports/2013/01/2013-01-10/2013-01-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2013/01/2013-01-10/R1-vincennes/R1C1-prix-de-ranes.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R1-vincennes/R1C3-prix-de-sartilly.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R1-vincennes/R1C6-prix-de-figeac.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R1-vincennes/R1C8-prix-de-vic-bigorre.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C2-prix-de-croissanville.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C3-prix-de-sartilly.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C4-prix-de-mauriac.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C5-prix-de-nalliers.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C6-prix-de-figeac.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C7-prix-de-marolles.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R2-nantes/R2C8-prix-de-vic-bigorre.html",
+      "resultats-et-rapports/2013/01/2013-01-10/R3-marseille-vivaux/R3C2-prix-de-croissanville.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R2-nantes",
+      "R3-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-de-ranes.html",
+        "R1C2-prix-de-croissanville.html",
+        "R1C3-prix-de-sartilly.html",
+        "R1C4-prix-de-mauriac.html",
+        "R1C5-prix-de-nalliers.html",
+        "R1C6-prix-de-figeac.html",
+        "R1C7-prix-de-marolles.html",
+        "R1C8-prix-de-vic-bigorre.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-de-ranes.html",
+        "R2C2-prix-de-croissanville.html",
+        "R2C3-prix-de-sartilly.html",
+        "R2C4-prix-de-mauriac.html",
+        "R2C5-prix-de-nalliers.html",
+        "R2C6-prix-de-figeac.html",
+        "R2C7-prix-de-marolles.html",
+        "R2C8-prix-de-vic-bigorre.html"
+      ],
+      "R3-marseille-vivaux": [
+        "R3C1-prix-de-ranes.html",
+        "R3C2-prix-de-croissanville.html",
+        "R3C3-prix-de-sartilly.html",
+        "R3C4-prix-de-mauriac.html",
+        "R3C5-prix-de-nalliers.html",
+        "R3C6-prix-de-figeac.html",
+        "R3C7-prix-de-marolles.html",
+        "R3C8-prix-de-vic-bigorre.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:39:26.837305Z"
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2018-11-27",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2018/11/2018-11-27",
+    "date_html": "resultats-et-rapports/2018/11/2018-11-27/2018-11-27.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C4-prix-du-vexin-bossu.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C6-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C7-prix-petite-etoile.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C8-prix-de-fergand.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C9-prix-du-pays-de-caux.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R1-deauville/R1C10-prix-du-plateau-de-madrie.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R2-fontainebleau/R2C8-prix-de-fergand.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C3-prix-habitat.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C4-prix-du-vexin-bossu.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C5-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C7-prix-petite-etoile.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C8-prix-de-fergand.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C9-prix-du-pays-de-caux.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R3-mauquenchy/R3C10-prix-du-plateau-de-madrie.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C1-prix-du-val-henry.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C2-prix-du-bocage-flerien.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C3-prix-habitat.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C4-prix-du-vexin-bossu.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C5-prix-du-pays-de-bray.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C6-prix-de-l-epronniere.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C7-prix-petite-etoile.html",
+      "resultats-et-rapports/2018/11/2018-11-27/R5-vincennes/R5C8-prix-de-fergand.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-fontainebleau",
+      "R3-mauquenchy",
+      "R5-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-du-val-henry.html",
+        "R1C2-prix-du-bocage-flerien.html",
+        "R1C3-prix-habitat.html",
+        "R1C4-prix-du-vexin-bossu.html",
+        "R1C5-prix-du-pays-de-bray.html",
+        "R1C6-prix-de-l-epronniere.html",
+        "R1C7-prix-petite-etoile.html",
+        "R1C8-prix-de-fergand.html",
+        "R1C9-prix-du-pays-de-caux.html",
+        "R1C10-prix-du-plateau-de-madrie.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-du-val-henry.html",
+        "R2C2-prix-du-bocage-flerien.html",
+        "R2C3-prix-habitat.html",
+        "R2C4-prix-du-vexin-bossu.html",
+        "R2C5-prix-du-pays-de-bray.html",
+        "R2C6-prix-de-l-epronniere.html",
+        "R2C7-prix-petite-etoile.html",
+        "R2C8-prix-de-fergand.html",
+        "R2C9-prix-du-pays-de-caux.html",
+        "R2C10-prix-du-plateau-de-madrie.html"
+      ],
+      "R3-mauquenchy": [
+        "R3C1-prix-du-val-henry.html",
+        "R3C2-prix-du-bocage-flerien.html",
+        "R3C3-prix-habitat.html",
+        "R3C4-prix-du-vexin-bossu.html",
+        "R3C5-prix-du-pays-de-bray.html",
+        "R3C6-prix-de-l-epronniere.html",
+        "R3C7-prix-petite-etoile.html",
+        "R3C8-prix-de-fergand.html",
+        "R3C9-prix-du-pays-de-caux.html",
+        "R3C10-prix-du-plateau-de-madrie.html"
+      ],
+      "R5-vincennes": [
+        "R5C1-prix-du-val-henry.html",
+        "R5C2-prix-du-bocage-flerien.html",
+        "R5C3-prix-habitat.html",
+        "R5C4-prix-du-vexin-bossu.html",
+        "R5C5-prix-du-pays-de-bray.html",
+        "R5C6-prix-de-l-epronniere.html",
+        "R5C7-prix-petite-etoile.html",
+        "R5C8-prix-de-fergand.html",
+        "R5C9-prix-du-pays-de-caux.html",
+        "R5C10-prix-du-plateau-de-madrie.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:50:33.593149Z"
+}

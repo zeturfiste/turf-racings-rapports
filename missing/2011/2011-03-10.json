@@ -1,0 +1,66 @@
+{
+  "date": "2011-03-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2011/03/2011-03-10",
+    "date_html": "resultats-et-rapports/2011/03/2011-03-10/2011-03-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2011/03/2011-03-10/R2-caen/R2C7-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C2-prix-du-mont-saint-jean.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C3-prix-du-pignon.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C4-prix-d-ailly.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C5-prix-du-mesnil-auger.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C6-prix-du-pre-au-roi.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C7-prix-de-saint-vaast-en-auge.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C8-prix-de-la-foret-de-saint-gatien.html",
+      "resultats-et-rapports/2011/03/2011-03-10/R3-laval/R3C9-prix-du-mont-saint-leger.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-deauville",
+      "R2-caen",
+      "R3-laval"
+    ],
+    "courses_by_reunion": {
+      "R1-deauville": [
+        "R1C1-prix-de-cormeilles.html",
+        "R1C2-prix-du-mont-saint-jean.html",
+        "R1C3-prix-du-pignon.html",
+        "R1C4-prix-d-ailly.html",
+        "R1C5-prix-du-mesnil-auger.html",
+        "R1C6-prix-du-pre-au-roi.html",
+        "R1C7-prix-de-saint-vaast-en-auge.html",
+        "R1C8-prix-de-la-foret-de-saint-gatien.html",
+        "R1C9-prix-du-mont-saint-leger.html"
+      ],
+      "R2-caen": [
+        "R2C1-prix-de-cormeilles.html",
+        "R2C2-prix-du-mont-saint-jean.html",
+        "R2C3-prix-du-pignon.html",
+        "R2C4-prix-d-ailly.html",
+        "R2C5-prix-du-mesnil-auger.html",
+        "R2C6-prix-du-pre-au-roi.html",
+        "R2C7-prix-de-saint-vaast-en-auge.html",
+        "R2C8-prix-de-la-foret-de-saint-gatien.html",
+        "R2C9-prix-du-mont-saint-leger.html"
+      ],
+      "R3-laval": [
+        "R3C1-prix-de-cormeilles.html",
+        "R3C2-prix-du-mont-saint-jean.html",
+        "R3C3-prix-du-pignon.html",
+        "R3C4-prix-d-ailly.html",
+        "R3C5-prix-du-mesnil-auger.html",
+        "R3C6-prix-du-pre-au-roi.html",
+        "R3C7-prix-de-saint-vaast-en-auge.html",
+        "R3C8-prix-de-la-foret-de-saint-gatien.html",
+        "R3C9-prix-du-mont-saint-leger.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:36:13.834868Z"
+}

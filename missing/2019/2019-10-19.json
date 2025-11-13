@@ -1,0 +1,91 @@
+{
+  "date": "2019-10-19",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-19",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-19/2019-10-19.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-19/R1-auteuil/R1C1-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R1-auteuil/R1C3-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R1-auteuil/R1C5-prix-mid-dancer.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R1-auteuil/R1C6-prix-montgomery.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C1-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C2-prix-emilius.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C3-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C4-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C5-prix-mid-dancer.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C6-prix-montgomery.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C7-prix-haras-du-reuilly.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R2-marseille-borely/R2C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C1-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C2-prix-emilius.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C3-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C4-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C5-prix-mid-dancer.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C6-prix-montgomery.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R3-caen/R3C8-prix-roger-soulange-bodin.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C1-prix-duc-d-alburquerque.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C2-prix-emilius.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C3-prix-prince-d-ecouen.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C4-prix-pierre-de-lassus.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C5-prix-mid-dancer.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C7-prix-haras-du-reuilly.html",
+      "resultats-et-rapports/2019/10/2019-10-19/R4-le-croise-laroche/R4C8-prix-roger-soulange-bodin.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-marseille-borely",
+      "R3-caen",
+      "R4-le-croise-laroche"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-duc-d-alburquerque.html",
+        "R1C2-prix-emilius.html",
+        "R1C3-prix-prince-d-ecouen.html",
+        "R1C4-prix-pierre-de-lassus.html",
+        "R1C5-prix-mid-dancer.html",
+        "R1C6-prix-montgomery.html",
+        "R1C7-prix-haras-du-reuilly.html",
+        "R1C8-prix-roger-soulange-bodin.html"
+      ],
+      "R2-marseille-borely": [
+        "R2C1-prix-duc-d-alburquerque.html",
+        "R2C2-prix-emilius.html",
+        "R2C3-prix-prince-d-ecouen.html",
+        "R2C4-prix-pierre-de-lassus.html",
+        "R2C5-prix-mid-dancer.html",
+        "R2C6-prix-montgomery.html",
+        "R2C7-prix-haras-du-reuilly.html",
+        "R2C8-prix-roger-soulange-bodin.html"
+      ],
+      "R3-caen": [
+        "R3C1-prix-duc-d-alburquerque.html",
+        "R3C2-prix-emilius.html",
+        "R3C3-prix-prince-d-ecouen.html",
+        "R3C4-prix-pierre-de-lassus.html",
+        "R3C5-prix-mid-dancer.html",
+        "R3C6-prix-montgomery.html",
+        "R3C7-prix-haras-du-reuilly.html",
+        "R3C8-prix-roger-soulange-bodin.html"
+      ],
+      "R4-le-croise-laroche": [
+        "R4C1-prix-duc-d-alburquerque.html",
+        "R4C2-prix-emilius.html",
+        "R4C3-prix-prince-d-ecouen.html",
+        "R4C4-prix-pierre-de-lassus.html",
+        "R4C5-prix-mid-dancer.html",
+        "R4C6-prix-montgomery.html",
+        "R4C7-prix-haras-du-reuilly.html",
+        "R4C8-prix-roger-soulange-bodin.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:14.930380Z"
+}

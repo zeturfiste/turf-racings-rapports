@@ -1,0 +1,86 @@
+{
+  "date": "2021-11-06",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/11/2021-11-06",
+    "date_html": "resultats-et-rapports/2021/11/2021-11-06/2021-11-06.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C1-prix-coq-gaulois.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C2-prix-congress.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C4-prix-cacao.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C6-prix-fondeur.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R1-auteuil/R1C7-prix-robert-weill.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C1-prix-coq-gaulois.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C2-prix-congress.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C6-prix-fondeur.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R2-nantes/R2C7-prix-robert-weill.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R3-la-rochelle/R3C1-prix-coq-gaulois.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R3-la-rochelle/R3C2-prix-congress.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R3-la-rochelle/R3C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R3-la-rochelle/R3C4-prix-cacao.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R3-la-rochelle/R3C6-prix-fondeur.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C1-prix-coq-gaulois.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C2-prix-congress.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C4-prix-cacao.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C5-grand-prix-d-automne.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C6-prix-fondeur.html",
+      "resultats-et-rapports/2021/11/2021-11-06/R4-marseille-vivaux/R4C7-prix-robert-weill.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R2-nantes",
+      "R3-la-rochelle",
+      "R4-marseille-vivaux"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-coq-gaulois.html",
+        "R1C2-prix-congress.html",
+        "R1C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+        "R1C4-prix-cacao.html",
+        "R1C5-grand-prix-d-automne.html",
+        "R1C6-prix-fondeur.html",
+        "R1C7-prix-robert-weill.html"
+      ],
+      "R2-nantes": [
+        "R2C1-prix-coq-gaulois.html",
+        "R2C2-prix-congress.html",
+        "R2C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+        "R2C4-prix-cacao.html",
+        "R2C5-grand-prix-d-automne.html",
+        "R2C6-prix-fondeur.html",
+        "R2C7-prix-robert-weill.html"
+      ],
+      "R3-la-rochelle": [
+        "R3C1-prix-coq-gaulois.html",
+        "R3C2-prix-congress.html",
+        "R3C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+        "R3C4-prix-cacao.html",
+        "R3C5-grand-prix-d-automne.html",
+        "R3C6-prix-fondeur.html",
+        "R3C7-prix-robert-weill.html"
+      ],
+      "R4-marseille-vivaux": [
+        "R4C1-prix-coq-gaulois.html",
+        "R4C2-prix-congress.html",
+        "R4C3-haras-d-etreham-prix-magalen-bryant-prix-bournosienne.html",
+        "R4C4-prix-cacao.html",
+        "R4C5-grand-prix-d-automne.html",
+        "R4C6-prix-fondeur.html",
+        "R4C7-prix-robert-weill.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:29.987725Z"
+}

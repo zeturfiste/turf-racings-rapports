@@ -1,0 +1,84 @@
+{
+  "date": "2025-06-03",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/06/2025-06-03",
+    "date_html": "resultats-et-rapports/2025/06/2025-06-03/2025-06-03.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C1-prix-du-chateau-de-saint-cloud.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C2-prix-allee-d-amour.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C3-prix-chapeau-rouge.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C4-prix-du-val-d-enfer.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C5-prix-margouillat.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C6-prix-vatellor.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C7-prix-du-salon-des-jeux.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C8-prix-dorina.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R1-saint-cloud/R1C9-prix-des-etangs-de-pierrefonds.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C1-prix-du-chateau-de-saint-cloud.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C2-prix-allee-d-amour.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C3-prix-chapeau-rouge.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C4-prix-du-val-d-enfer.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C5-prix-margouillat.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C6-prix-vatellor.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C7-prix-du-salon-des-jeux.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C8-prix-dorina.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R3-les-sables-d-olonne/R3C9-prix-des-etangs-de-pierrefonds.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C1-prix-du-chateau-de-saint-cloud.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C2-prix-allee-d-amour.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C3-prix-chapeau-rouge.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C4-prix-du-val-d-enfer.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C5-prix-margouillat.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C6-prix-vatellor.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C7-prix-du-salon-des-jeux.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C8-prix-dorina.html",
+      "resultats-et-rapports/2025/06/2025-06-03/R4-vincennes/R4C9-prix-des-etangs-de-pierrefonds.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-les-sables-d-olonne",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-chateau-de-saint-cloud.html",
+        "R1C2-prix-allee-d-amour.html",
+        "R1C3-prix-chapeau-rouge.html",
+        "R1C4-prix-du-val-d-enfer.html",
+        "R1C5-prix-margouillat.html",
+        "R1C6-prix-vatellor.html",
+        "R1C7-prix-du-salon-des-jeux.html",
+        "R1C8-prix-dorina.html",
+        "R1C9-prix-des-etangs-de-pierrefonds.html"
+      ],
+      "R3-les-sables-d-olonne": [
+        "R3C1-prix-du-chateau-de-saint-cloud.html",
+        "R3C2-prix-allee-d-amour.html",
+        "R3C3-prix-chapeau-rouge.html",
+        "R3C4-prix-du-val-d-enfer.html",
+        "R3C5-prix-margouillat.html",
+        "R3C6-prix-vatellor.html",
+        "R3C7-prix-du-salon-des-jeux.html",
+        "R3C8-prix-dorina.html",
+        "R3C9-prix-des-etangs-de-pierrefonds.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-chateau-de-saint-cloud.html",
+        "R4C2-prix-allee-d-amour.html",
+        "R4C3-prix-chapeau-rouge.html",
+        "R4C4-prix-du-val-d-enfer.html",
+        "R4C5-prix-margouillat.html",
+        "R4C6-prix-vatellor.html",
+        "R4C7-prix-du-salon-des-jeux.html",
+        "R4C8-prix-dorina.html",
+        "R4C9-prix-des-etangs-de-pierrefonds.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:04:32.544603Z"
+}

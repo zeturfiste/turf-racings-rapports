@@ -1,0 +1,60 @@
+{
+  "date": "2005-12-02",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/12/2005-12-02",
+    "date_html": "resultats-et-rapports/2005/12/2005-12-02/2005-12-02.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-enghien-soisy",
+      "R2-argentan",
+      "R3-vincennes",
+      "R4-lyon-parilly"
+    ],
+    "courses_by_reunion": {
+      "R1-enghien-soisy": [
+        "R1C1-prix-de-craon.html",
+        "R1C2-prix-roger-de-minvielle.html",
+        "R1C3-prix-voilier.html",
+        "R1C4-prix-dandolo.html",
+        "R1C5-prix-leopold-d-orsetti-grande-course-de-haies-d-enghien.html",
+        "R1C6-prix-de-pithiviers.html",
+        "R1C7-prix-oural.html"
+      ],
+      "R2-argentan": [
+        "R2C1-prix-de-craon.html",
+        "R2C2-prix-roger-de-minvielle.html",
+        "R2C3-prix-voilier.html",
+        "R2C4-prix-dandolo.html",
+        "R2C5-prix-leopold-d-orsetti-grande-course-de-haies-d-enghien.html",
+        "R2C6-prix-de-pithiviers.html",
+        "R2C7-prix-oural.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-de-craon.html",
+        "R3C2-prix-roger-de-minvielle.html",
+        "R3C3-prix-voilier.html",
+        "R3C4-prix-dandolo.html",
+        "R3C5-prix-leopold-d-orsetti-grande-course-de-haies-d-enghien.html",
+        "R3C6-prix-de-pithiviers.html",
+        "R3C7-prix-oural.html"
+      ],
+      "R4-lyon-parilly": [
+        "R4C1-prix-de-craon.html",
+        "R4C2-prix-roger-de-minvielle.html",
+        "R4C3-prix-voilier.html",
+        "R4C4-prix-dandolo.html",
+        "R4C5-prix-leopold-d-orsetti-grande-course-de-haies-d-enghien.html",
+        "R4C6-prix-de-pithiviers.html",
+        "R4C7-prix-oural.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:04.413892Z"
+}

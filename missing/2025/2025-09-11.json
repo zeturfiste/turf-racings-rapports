@@ -1,0 +1,85 @@
+{
+  "date": "2025-09-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/09/2025-09-11",
+    "date_html": "resultats-et-rapports/2025/09/2025-09-11/2025-09-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/09/2025-09-11/R1-paris-longchamp/R1C1-prix-la-rochette.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R3-angers/R3C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R3-angers/R3C7-prix-de-la-goutte-d-or.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R3-angers/R3C8-prix-de-charonne.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C1-prix-la-rochette.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C2-prix-d-aumale.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C3-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C4-prix-de-neuilly.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C6-prix-gladiateur.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C7-prix-de-la-goutte-d-or.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R4-mauquenchy/R4C8-prix-de-charonne.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C1-prix-la-rochette.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C2-prix-d-aumale.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C3-grand-prix-des-anglo-arabes.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C4-prix-de-neuilly.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C5-prix-de-longchamp.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C6-prix-gladiateur.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C7-prix-de-la-goutte-d-or.html",
+      "resultats-et-rapports/2025/09/2025-09-11/R7-marseille-borely/R7C8-prix-de-charonne.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-paris-longchamp",
+      "R3-angers",
+      "R4-mauquenchy",
+      "R7-marseille-borely"
+    ],
+    "courses_by_reunion": {
+      "R1-paris-longchamp": [
+        "R1C1-prix-la-rochette.html",
+        "R1C2-prix-d-aumale.html",
+        "R1C3-grand-prix-des-anglo-arabes.html",
+        "R1C4-prix-de-neuilly.html",
+        "R1C5-prix-de-longchamp.html",
+        "R1C6-prix-gladiateur.html",
+        "R1C7-prix-de-la-goutte-d-or.html",
+        "R1C8-prix-de-charonne.html"
+      ],
+      "R3-angers": [
+        "R3C1-prix-la-rochette.html",
+        "R3C2-prix-d-aumale.html",
+        "R3C3-grand-prix-des-anglo-arabes.html",
+        "R3C4-prix-de-neuilly.html",
+        "R3C5-prix-de-longchamp.html",
+        "R3C6-prix-gladiateur.html",
+        "R3C7-prix-de-la-goutte-d-or.html",
+        "R3C8-prix-de-charonne.html"
+      ],
+      "R4-mauquenchy": [
+        "R4C1-prix-la-rochette.html",
+        "R4C2-prix-d-aumale.html",
+        "R4C3-grand-prix-des-anglo-arabes.html",
+        "R4C4-prix-de-neuilly.html",
+        "R4C5-prix-de-longchamp.html",
+        "R4C6-prix-gladiateur.html",
+        "R4C7-prix-de-la-goutte-d-or.html",
+        "R4C8-prix-de-charonne.html"
+      ],
+      "R7-marseille-borely": [
+        "R7C1-prix-la-rochette.html",
+        "R7C2-prix-d-aumale.html",
+        "R7C3-grand-prix-des-anglo-arabes.html",
+        "R7C4-prix-de-neuilly.html",
+        "R7C5-prix-de-longchamp.html",
+        "R7C6-prix-gladiateur.html",
+        "R7C7-prix-de-la-goutte-d-or.html",
+        "R7C8-prix-de-charonne.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:10.222560Z"
+}

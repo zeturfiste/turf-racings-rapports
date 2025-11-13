@@ -1,0 +1,64 @@
+{
+  "date": "2005-11-11",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2005/11/2005-11-11",
+    "date_html": "resultats-et-rapports/2005/11/2005-11-11/2005-11-11.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": []
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-toulouse",
+      "R2-lyon-villeurbanne",
+      "R3-vincennes",
+      "R4-graignes"
+    ],
+    "courses_by_reunion": {
+      "R1-toulouse": [
+        "R1C1-prix-du-journal-de-l-ariege-prix-georges-sicard.html",
+        "R1C2-prix-de-la-ville-de-toulouse.html",
+        "R1C3-criterium-du-languedoc-prix-paul-guichou.html",
+        "R1C4-prix-fille-de-l-air.html",
+        "R1C5-prix-sud-radio-prix-de-la-ville-de-cugnaux.html",
+        "R1C6-grand-national-des-anglo-arabes-a-25.html",
+        "R1C7-prix-la-depeche-du-midi.html",
+        "R1C8-prix-du-quartier-saint-cyprien.html"
+      ],
+      "R2-lyon-villeurbanne": [
+        "R2C1-prix-du-journal-de-l-ariege-prix-georges-sicard.html",
+        "R2C2-prix-de-la-ville-de-toulouse.html",
+        "R2C3-criterium-du-languedoc-prix-paul-guichou.html",
+        "R2C4-prix-fille-de-l-air.html",
+        "R2C5-prix-sud-radio-prix-de-la-ville-de-cugnaux.html",
+        "R2C6-grand-national-des-anglo-arabes-a-25.html",
+        "R2C7-prix-la-depeche-du-midi.html",
+        "R2C8-prix-du-quartier-saint-cyprien.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-du-journal-de-l-ariege-prix-georges-sicard.html",
+        "R3C2-prix-de-la-ville-de-toulouse.html",
+        "R3C3-criterium-du-languedoc-prix-paul-guichou.html",
+        "R3C4-prix-fille-de-l-air.html",
+        "R3C5-prix-sud-radio-prix-de-la-ville-de-cugnaux.html",
+        "R3C6-grand-national-des-anglo-arabes-a-25.html",
+        "R3C7-prix-la-depeche-du-midi.html",
+        "R3C8-prix-du-quartier-saint-cyprien.html"
+      ],
+      "R4-graignes": [
+        "R4C1-prix-du-journal-de-l-ariege-prix-georges-sicard.html",
+        "R4C2-prix-de-la-ville-de-toulouse.html",
+        "R4C3-criterium-du-languedoc-prix-paul-guichou.html",
+        "R4C4-prix-fille-de-l-air.html",
+        "R4C5-prix-sud-radio-prix-de-la-ville-de-cugnaux.html",
+        "R4C6-grand-national-des-anglo-arabes-a-25.html",
+        "R4C7-prix-la-depeche-du-midi.html",
+        "R4C8-prix-du-quartier-saint-cyprien.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:24:01.012215Z"
+}

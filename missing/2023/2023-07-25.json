@@ -1,0 +1,93 @@
+{
+  "date": "2023-07-25",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/07/2023-07-25",
+    "date_html": "resultats-et-rapports/2023/07/2023-07-25/2023-07-25.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/07/2023-07-25/R1-dieppe/R1C3-prix-trevise.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R1-dieppe/R1C5-prix-amphitrite.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R1-dieppe/R1C6-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R1-dieppe/R1C7-prix-du-grand-pont.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R1-dieppe/R1C8-prix-de-sussex.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C1-prix-freedonia.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C2-prix-de-la-ville-aux-quatre-ports.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C4-prix-des-arcades.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C5-prix-amphitrite.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C6-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C7-prix-du-grand-pont.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R3-la-capelle/R3C8-prix-de-sussex.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C1-prix-freedonia.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C2-prix-de-la-ville-aux-quatre-ports.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C3-prix-trevise.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C4-prix-des-arcades.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C5-prix-amphitrite.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C6-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C7-prix-du-grand-pont.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R4-le-lion-d-angers/R4C8-prix-de-sussex.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C1-prix-freedonia.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C2-prix-de-la-ville-aux-quatre-ports.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C3-prix-trevise.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C4-prix-des-arcades.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C5-prix-amphitrite.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C6-prix-des-bancs-couverts.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C7-prix-du-grand-pont.html",
+      "resultats-et-rapports/2023/07/2023-07-25/R5-cabourg/R5C8-prix-de-sussex.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-dieppe",
+      "R3-la-capelle",
+      "R4-le-lion-d-angers",
+      "R5-cabourg"
+    ],
+    "courses_by_reunion": {
+      "R1-dieppe": [
+        "R1C1-prix-freedonia.html",
+        "R1C2-prix-de-la-ville-aux-quatre-ports.html",
+        "R1C3-prix-trevise.html",
+        "R1C4-prix-des-arcades.html",
+        "R1C5-prix-amphitrite.html",
+        "R1C6-prix-des-bancs-couverts.html",
+        "R1C7-prix-du-grand-pont.html",
+        "R1C8-prix-de-sussex.html"
+      ],
+      "R3-la-capelle": [
+        "R3C1-prix-freedonia.html",
+        "R3C2-prix-de-la-ville-aux-quatre-ports.html",
+        "R3C3-prix-trevise.html",
+        "R3C4-prix-des-arcades.html",
+        "R3C5-prix-amphitrite.html",
+        "R3C6-prix-des-bancs-couverts.html",
+        "R3C7-prix-du-grand-pont.html",
+        "R3C8-prix-de-sussex.html"
+      ],
+      "R4-le-lion-d-angers": [
+        "R4C1-prix-freedonia.html",
+        "R4C2-prix-de-la-ville-aux-quatre-ports.html",
+        "R4C3-prix-trevise.html",
+        "R4C4-prix-des-arcades.html",
+        "R4C5-prix-amphitrite.html",
+        "R4C6-prix-des-bancs-couverts.html",
+        "R4C7-prix-du-grand-pont.html",
+        "R4C8-prix-de-sussex.html"
+      ],
+      "R5-cabourg": [
+        "R5C1-prix-freedonia.html",
+        "R5C2-prix-de-la-ville-aux-quatre-ports.html",
+        "R5C3-prix-trevise.html",
+        "R5C4-prix-des-arcades.html",
+        "R5C5-prix-amphitrite.html",
+        "R5C6-prix-des-bancs-couverts.html",
+        "R5C7-prix-du-grand-pont.html",
+        "R5C8-prix-de-sussex.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:17.064595Z"
+}

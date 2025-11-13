@@ -1,0 +1,106 @@
+{
+  "date": "2025-10-31",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2025/10/2025-10-31",
+    "date_html": "resultats-et-rapports/2025/10/2025-10-31/2025-10-31.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2025/10/2025-10-31/R1-vincennes/R1C1-prix-merak.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R1-vincennes/R1C6-prix-livadie.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R1-vincennes/R1C7-prix-toucanus.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R3-marseille-borely/R3C2-prix-mercator.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R3-marseille-borely/R3C3-prix-mebsuta.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R3-marseille-borely/R3C6-prix-livadie.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R3-marseille-borely/R3C8-prix-polyxo.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C1-prix-merak.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C2-prix-mercator.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C3-prix-mebsuta.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C5-prix-barbara.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C6-prix-livadie.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C7-prix-toucanus.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R4-chantilly/R4C8-prix-polyxo.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C1-prix-merak.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C2-prix-mercator.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C3-prix-mebsuta.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C4-prix-louis-tillaye.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C5-prix-barbara.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C6-prix-livadie.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C7-prix-toucanus.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R5-toulouse/R5C8-prix-polyxo.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C1-prix-merak.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C2-prix-mercator.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C3-prix-mebsuta.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C4-prix-louis-tillaye.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C5-prix-barbara.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C6-prix-livadie.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C7-prix-toucanus.html",
+      "resultats-et-rapports/2025/10/2025-10-31/R8-pornichet-la-baule/R8C8-prix-polyxo.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-vincennes",
+      "R3-marseille-borely",
+      "R4-chantilly",
+      "R5-toulouse",
+      "R8-pornichet-la-baule"
+    ],
+    "courses_by_reunion": {
+      "R1-vincennes": [
+        "R1C1-prix-merak.html",
+        "R1C2-prix-mercator.html",
+        "R1C3-prix-mebsuta.html",
+        "R1C4-prix-louis-tillaye.html",
+        "R1C5-prix-barbara.html",
+        "R1C6-prix-livadie.html",
+        "R1C7-prix-toucanus.html",
+        "R1C8-prix-polyxo.html"
+      ],
+      "R3-marseille-borely": [
+        "R3C1-prix-merak.html",
+        "R3C2-prix-mercator.html",
+        "R3C3-prix-mebsuta.html",
+        "R3C4-prix-louis-tillaye.html",
+        "R3C5-prix-barbara.html",
+        "R3C6-prix-livadie.html",
+        "R3C7-prix-toucanus.html",
+        "R3C8-prix-polyxo.html"
+      ],
+      "R4-chantilly": [
+        "R4C1-prix-merak.html",
+        "R4C2-prix-mercator.html",
+        "R4C3-prix-mebsuta.html",
+        "R4C4-prix-louis-tillaye.html",
+        "R4C5-prix-barbara.html",
+        "R4C6-prix-livadie.html",
+        "R4C7-prix-toucanus.html",
+        "R4C8-prix-polyxo.html"
+      ],
+      "R5-toulouse": [
+        "R5C1-prix-merak.html",
+        "R5C2-prix-mercator.html",
+        "R5C3-prix-mebsuta.html",
+        "R5C4-prix-louis-tillaye.html",
+        "R5C5-prix-barbara.html",
+        "R5C6-prix-livadie.html",
+        "R5C7-prix-toucanus.html",
+        "R5C8-prix-polyxo.html"
+      ],
+      "R8-pornichet-la-baule": [
+        "R8C1-prix-merak.html",
+        "R8C2-prix-mercator.html",
+        "R8C3-prix-mebsuta.html",
+        "R8C4-prix-louis-tillaye.html",
+        "R8C5-prix-barbara.html",
+        "R8C6-prix-livadie.html",
+        "R8C7-prix-toucanus.html",
+        "R8C8-prix-polyxo.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:05:27.610365Z"
+}

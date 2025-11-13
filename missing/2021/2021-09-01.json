@@ -1,0 +1,78 @@
+{
+  "date": "2021-09-01",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2021/09/2021-09-01",
+    "date_html": "resultats-et-rapports/2021/09/2021-09-01/2021-09-01.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C1-prix-melanos.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C4-prix-de-gien.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C5-prix-henri-gleizes.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C7-prix-mortemart.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C8-prix-recruit-ii.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R1-auteuil/R1C9-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C1-prix-melanos.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C2-prix-jean-bart.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C4-prix-de-gien.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C5-prix-henri-gleizes.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C6-prix-pierre-et-jean-marie-mercier.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C7-prix-mortemart.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C8-prix-recruit-ii.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R3-evreux/R3C9-prix-de-la-porte-de-passy.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C1-prix-melanos.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C2-prix-jean-bart.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C3-prix-weather-permitting.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C4-prix-de-gien.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C6-prix-pierre-et-jean-marie-mercier.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C8-prix-recruit-ii.html",
+      "resultats-et-rapports/2021/09/2021-09-01/R4-vincennes/R4C9-prix-de-la-porte-de-passy.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-auteuil",
+      "R3-evreux",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-auteuil": [
+        "R1C1-prix-melanos.html",
+        "R1C2-prix-jean-bart.html",
+        "R1C3-prix-weather-permitting.html",
+        "R1C4-prix-de-gien.html",
+        "R1C5-prix-henri-gleizes.html",
+        "R1C6-prix-pierre-et-jean-marie-mercier.html",
+        "R1C7-prix-mortemart.html",
+        "R1C8-prix-recruit-ii.html",
+        "R1C9-prix-de-la-porte-de-passy.html"
+      ],
+      "R3-evreux": [
+        "R3C1-prix-melanos.html",
+        "R3C2-prix-jean-bart.html",
+        "R3C3-prix-weather-permitting.html",
+        "R3C4-prix-de-gien.html",
+        "R3C5-prix-henri-gleizes.html",
+        "R3C6-prix-pierre-et-jean-marie-mercier.html",
+        "R3C7-prix-mortemart.html",
+        "R3C8-prix-recruit-ii.html",
+        "R3C9-prix-de-la-porte-de-passy.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-melanos.html",
+        "R4C2-prix-jean-bart.html",
+        "R4C3-prix-weather-permitting.html",
+        "R4C4-prix-de-gien.html",
+        "R4C5-prix-henri-gleizes.html",
+        "R4C6-prix-pierre-et-jean-marie-mercier.html",
+        "R4C7-prix-mortemart.html",
+        "R4C8-prix-recruit-ii.html",
+        "R4C9-prix-de-la-porte-de-passy.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:56:05.104229Z"
+}

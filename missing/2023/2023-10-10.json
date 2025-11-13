@@ -1,0 +1,58 @@
+{
+  "date": "2023-10-10",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2023/10/2023-10-10",
+    "date_html": "resultats-et-rapports/2023/10/2023-10-10/2023-10-10.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2023/10/2023-10-10/R3-fontainebleau/R3C1-prix-du-val-d-or.html",
+      "resultats-et-rapports/2023/10/2023-10-10/R3-fontainebleau/R3C2-prix-barquette.html",
+      "resultats-et-rapports/2023/10/2023-10-10/R4-vincennes/R4C5-prix-de-clairefontaine.html",
+      "resultats-et-rapports/2023/10/2023-10-10/R4-vincennes/R4C6-prix-des-yvelines.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-saint-cloud",
+      "R3-fontainebleau",
+      "R4-vincennes"
+    ],
+    "courses_by_reunion": {
+      "R1-saint-cloud": [
+        "R1C1-prix-du-val-d-or.html",
+        "R1C2-prix-barquette.html",
+        "R1C3-prix-pharel.html",
+        "R1C4-prix-sanctus.html",
+        "R1C5-prix-de-clairefontaine.html",
+        "R1C6-prix-des-yvelines.html",
+        "R1C7-prix-guemul.html",
+        "R1C8-prix-du-val-d-oise.html"
+      ],
+      "R3-fontainebleau": [
+        "R3C1-prix-du-val-d-or.html",
+        "R3C2-prix-barquette.html",
+        "R3C3-prix-pharel.html",
+        "R3C4-prix-sanctus.html",
+        "R3C5-prix-de-clairefontaine.html",
+        "R3C6-prix-des-yvelines.html",
+        "R3C7-prix-guemul.html",
+        "R3C8-prix-du-val-d-oise.html"
+      ],
+      "R4-vincennes": [
+        "R4C1-prix-du-val-d-or.html",
+        "R4C2-prix-barquette.html",
+        "R4C3-prix-pharel.html",
+        "R4C4-prix-sanctus.html",
+        "R4C5-prix-de-clairefontaine.html",
+        "R4C6-prix-des-yvelines.html",
+        "R4C7-prix-guemul.html",
+        "R4C8-prix-du-val-d-oise.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T04:00:46.538185Z"
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2019-10-29",
+  "paths": {
+    "date_dir": "resultats-et-rapports/2019/10/2019-10-29",
+    "date_html": "resultats-et-rapports/2019/10/2019-10-29/2019-10-29.html"
+  },
+  "missing": {
+    "date_html": false,
+    "reunion_dirs": [],
+    "reunion_html": [],
+    "course_files": [
+      "resultats-et-rapports/2019/10/2019-10-29/R1-maisons-laffitte/R1C2-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R2-fontainebleau/R2C3-prix-de-neauphle-le-chateau.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R2-fontainebleau/R2C4-prix-de-neauphle-le-vieux.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R2-fontainebleau/R2C6-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R2-fontainebleau/R2C7-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C1-prix-miesque.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C2-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C3-prix-de-neauphle-le-chateau.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C4-prix-de-neauphle-le-vieux.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C5-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C6-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C7-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R3-vincennes/R3C8-prix-de-l-hotel-royal.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C1-prix-miesque.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C2-prix-de-seine-et-oise.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C3-prix-de-neauphle-le-chateau.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C4-prix-de-neauphle-le-vieux.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C5-prix-du-chateau-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C6-prix-du-parc-de-maisons-laffitte.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C7-prix-du-pavillon-des-gardes.html",
+      "resultats-et-rapports/2019/10/2019-10-29/R4-lyon-la-soie/R4C8-prix-de-l-hotel-royal.html"
+    ]
+  },
+  "expected": {
+    "reunions_fr": [
+      "R1-maisons-laffitte",
+      "R2-fontainebleau",
+      "R3-vincennes",
+      "R4-lyon-la-soie"
+    ],
+    "courses_by_reunion": {
+      "R1-maisons-laffitte": [
+        "R1C1-prix-miesque.html",
+        "R1C2-prix-de-seine-et-oise.html",
+        "R1C3-prix-de-neauphle-le-chateau.html",
+        "R1C4-prix-de-neauphle-le-vieux.html",
+        "R1C5-prix-du-chateau-de-maisons-laffitte.html",
+        "R1C6-prix-du-parc-de-maisons-laffitte.html",
+        "R1C7-prix-du-pavillon-des-gardes.html",
+        "R1C8-prix-de-l-hotel-royal.html"
+      ],
+      "R2-fontainebleau": [
+        "R2C1-prix-miesque.html",
+        "R2C2-prix-de-seine-et-oise.html",
+        "R2C3-prix-de-neauphle-le-chateau.html",
+        "R2C4-prix-de-neauphle-le-vieux.html",
+        "R2C5-prix-du-chateau-de-maisons-laffitte.html",
+        "R2C6-prix-du-parc-de-maisons-laffitte.html",
+        "R2C7-prix-du-pavillon-des-gardes.html",
+        "R2C8-prix-de-l-hotel-royal.html"
+      ],
+      "R3-vincennes": [
+        "R3C1-prix-miesque.html",
+        "R3C2-prix-de-seine-et-oise.html",
+        "R3C3-prix-de-neauphle-le-chateau.html",
+        "R3C4-prix-de-neauphle-le-vieux.html",
+        "R3C5-prix-du-chateau-de-maisons-laffitte.html",
+        "R3C6-prix-du-parc-de-maisons-laffitte.html",
+        "R3C7-prix-du-pavillon-des-gardes.html",
+        "R3C8-prix-de-l-hotel-royal.html"
+      ],
+      "R4-lyon-la-soie": [
+        "R4C1-prix-miesque.html",
+        "R4C2-prix-de-seine-et-oise.html",
+        "R4C3-prix-de-neauphle-le-chateau.html",
+        "R4C4-prix-de-neauphle-le-vieux.html",
+        "R4C5-prix-du-chateau-de-maisons-laffitte.html",
+        "R4C6-prix-du-parc-de-maisons-laffitte.html",
+        "R4C7-prix-du-pavillon-des-gardes.html",
+        "R4C8-prix-de-l-hotel-royal.html"
+      ]
+    }
+  },
+  "checked_at": "2025-11-13T03:52:18.591434Z"
+}
