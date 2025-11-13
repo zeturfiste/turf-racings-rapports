@@ -1,11 +1,35 @@
+name: ZEturf Inventory Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Limiter le scan à une année (YYYY)"
+        required: false
+        default: ""
+      date:
+        description: "Limiter le scan à une date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      start_date:
+        description: "Date de début (YYYY-MM-DD, optionnel)"
+        required: false
+        default: ""
+      end_date:
+        description: "Date de fin (YYYY-MM-DD, optionnel)"
+        required: false
+        default: ""
+
 jobs:
-  verify-all:
+  verify-inventory:
     runs-on: ubuntu-latest
-    timeout-minutes: 360   # 6h max sur GitHub-hosted
+    timeout-minutes: 360        # 6h max sur GitHub-hosted
+
     permissions:
-      contents: write
+      contents: write           # nécessaire si on garde l'étape de commit
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -13,33 +37,55 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install beautifulsoup4 lxml
 
-      - name: Run full repository check
+      - name: Run inventory check
         run: |
-          python check_inventory.py
+          ARGS=""
 
-      - name: Upload reports
+          # Ces inputs ne sont remplis que pour workflow_dispatch
+          if [ -n "${{ github.event.inputs.year }}" ]; then
+            ARGS="$ARGS --year ${{ github.event.inputs.year }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.start_date }}" ]; then
+            ARGS="$ARGS --start-date ${{ github.event.inputs.start_date }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
+            ARGS="$ARGS --end-date ${{ github.event.inputs.end_date }}"
+          fi
+
+          echo "python check_inventory.py $ARGS"
+          python check_inventory.py $ARGS
+
+      - name: Upload missing reports as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: missing-reports
           path: missing/
+          if-no-files-found: error
 
-      - name: Commit missing/ (if changed)
+      - name: Commit missing/ folder (if changed)
         if: always()
         run: |
           if [[ -n "$(git status --porcelain missing)" ]]; then
+            echo "Changes detected in missing/, committing..."
             git config user.name "GitHub Actions Bot"
             git config user.email "actions@github.com"
             git add missing
-            git commit -m "chore(verify-all): update missing reports"
+            git commit -m "chore(inventory): update missing reports"
             git push
           else
-            echo "No changes in missing/"
+            echo "No changes in missing/; nothing to commit."
           fi
