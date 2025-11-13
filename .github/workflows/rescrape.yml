@@ -1,0 +1,97 @@
+name: Re-scrape Missing ZEturf Data
+
+on:
+  workflow_dispatch:  # Manuel trigger
+  workflow_run:
+    workflows: ["Verify ZEturf Data"]
+    types:
+      - completed
+
+jobs:
+  rescrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 3 heures max
+    # Only run if verification found issues
+    if: ${{ github.event.workflow_run.conclusion == 'failure' || github.event_name == 'workflow_dispatch' }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for commits
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install aiohttp beautifulsoup4 lxml
+      
+      - name: Check if verification report exists
+        id: check_report
+        run: |
+          if [ -f "verification_report.txt" ]; then
+            echo "report_exists=true" >> $GITHUB_OUTPUT
+            echo "✓ Verification report found"
+          else
+            echo "report_exists=false" >> $GITHUB_OUTPUT
+            echo "⚠️ No verification report found - running verification first"
+          fi
+      
+      - name: Run verification if needed
+        if: steps.check_report.outputs.report_exists == 'false'
+        run: |
+          python verify.py || true
+      
+      - name: Display report summary
+        run: |
+          echo "=========================================="
+          echo "VERIFICATION REPORT SUMMARY"
+          echo "=========================================="
+          if [ -f "verification_report.txt" ]; then
+            head -n 30 verification_report.txt
+          else
+            echo "No report available"
+          fi
+      
+      - name: Run re-scraping
+        run: |
+          python rescrape.py
+      
+      - name: Run verification again
+        id: verify_after
+        run: |
+          python verify.py
+        continue-on-error: true
+      
+      - name: Upload new verification report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report-after-rescrape
+          path: verification_report.txt
+          retention-days: 90
+      
+      - name: Compare before/after
+        if: always()
+        run: |
+          echo "=========================================="
+          echo "VERIFICATION AFTER RE-SCRAPING"
+          echo "=========================================="
+          if [ -f "verification_report.txt" ]; then
+            grep -A 10 "STATISTIQUES" verification_report.txt || true
+          fi
+      
+      - name: Final status
+        if: always()
+        run: |
+          if [ "${{ steps.verify_after.outcome }}" == "success" ]; then
+            echo "✓ All missing data has been recovered!"
+            exit 0
+          else
+            echo "⚠️ Some issues remain. Check the new verification report."
+            exit 0
+          fi
