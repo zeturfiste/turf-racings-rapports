@@ -2,11 +2,6 @@ name: Re-scrape Missing Courses
 
 on:
   workflow_dispatch:
-    inputs:
-      max_courses:
-        description: 'Nombre max de courses à traiter (approx, par années entières)'
-        required: false
-        type: string
 
 jobs:
   rescrape-courses:
@@ -121,20 +116,11 @@ jobs:
           echo "✅ verification_report.txt prêt."
 
       - name: "🚀 Re-scraping des courses manquantes"
-        env:
-          MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
         run: |
           echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING"
+          echo "LANCEMENT DU RE-SCRAPING (concurrency 100)"
           echo "=========================================="
-
-          if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de TOUTES les courses manquantes (concurrency 100)"
-            python rescrape_courses.py --concurrency 100
-          else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières, concurrency 100)"
-            python rescrape_courses.py --max-courses "$MAX_COURSES" --concurrency 100
-          fi
+          python rescrape_courses.py --concurrency 100
 
       - name: "✅ Nouvelle vérification post-scraping"
         run: |
