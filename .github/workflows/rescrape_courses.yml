@@ -7,6 +7,10 @@ on:
         description: 'Nombre max de courses à traiter (approx, par années entières)'
         required: false
         type: string
+      start_year:
+        description: "Année de départ (inclus, ex: 2010 ; vide = toutes)"
+        required: false
+        type: string
 
 jobs:
   rescrape-courses:
@@ -123,17 +127,24 @@ jobs:
       - name: "🚀 Re-scraping des courses manquantes"
         env:
           MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
+          START_YEAR: ${{ github.event.inputs.start_year || '' }}
         run: |
           echo "=========================================="
           echo "LANCEMENT DU RE-SCRAPING"
           echo "=========================================="
 
-          if [ -z "$MAX_COURSES" ]; then
+          if [ -z "$MAX_COURSES" ] && [ -z "$START_YEAR" ]; then
             echo "➡️  Re-scraping de TOUTES les courses manquantes"
             python rescrape_courses.py
-          else
+          elif [ -z "$MAX_COURSES" ]; then
+            echo "➡️  Re-scraping des cours à partir de l'année $START_YEAR"
+            python rescrape_courses.py --start-year "$START_YEAR"
+          elif [ -z "$START_YEAR" ]; then
             echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières)"
             python rescrape_courses.py --max-courses "$MAX_COURSES"
+          else
+            echo "➡️  Re-scraping à partir de l'année $START_YEAR, limité à ~${MAX_COURSES} courses"
+            python rescrape_courses.py --start-year "$START_YEAR" --max-courses "$MAX_COURSES"
           fi
 
       - name: "✅ Nouvelle vérification post-scraping"
