@@ -37,7 +37,7 @@ HEADERS = {
 }
 
 # Concurrency fixe par défaut : nombre de requêtes HTTP en parallèle
-DEFAULT_CONCURRENCY = 100  # tu peux tester d'autres valeurs via --concurrency
+DEFAULT_CONCURRENCY = 100  # utilisé par défaut, ajustable via --concurrency si tu le lances à la main
 
 # Gestion de la pause entre lots
 INITIAL_SLEEP = 5.0        # pause initiale entre les lots (en secondes)
@@ -128,7 +128,6 @@ def parse_missing_courses(report_path: Path = Path("verification_report.txt")):
                     year = current_date[:4]
                     missing[year][current_date].append((reunion_slug, course_file))
 
-    # On renvoie un dict classique pour figer l'ordre
     return dict(missing)
 
 # =========================
@@ -261,7 +260,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
     if total_courses == 0:
         return
 
-    # File de "pending" dans l'ordre
     pending = list(all_courses)
 
     stats = {
@@ -300,7 +298,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
             print(f"  💾 Espace libre avant lot: {free_gb:.2f} GB")
             print(f"  📉 Courses restantes pour l'année {year}: {remaining_year}")
 
-            # Lancer le lot en parallèle
             sem = asyncio.Semaphore(concurrency)
             tasks = [
                 _scrape_one_course(sem, session, date_str, reunion_slug, course_file, filepath)
@@ -315,7 +312,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
             lot_other_errors = 0
             retry_429 = []
 
-            # Analyse des résultats du lot
             for (date_str, reunion_slug, course_file, filepath), (status, err) in zip(
                 current_lot, results
             ):
@@ -330,16 +326,13 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
 
             lot_duration = time.time() - lot_start
 
-            # Stats globales
             stats["success"] += lot_success
             stats["failed_429"] += lot_429
             stats["failed_other"] += lot_other_errors
 
-            # Les 429 repartent en tête de file, dans le même ordre
             if retry_429:
                 pending = retry_429 + pending
 
-            # Recalcul du restant pour logs
             remaining_year_after = len(pending)
 
             print(
@@ -366,7 +359,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
                     f"nouvelle pause entre lots: {current_sleep:.1f}s"
                 )
             else:
-                # Pas de 429 → on réduit progressivement la pause
                 if current_sleep > 0:
                     current_sleep = max(SLEEP_MIN, current_sleep - SLEEP_DECAY)
                     print(
@@ -374,7 +366,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
                         f"{current_sleep:.1f}s"
                     )
 
-            # Pause avant le lot suivant
             if pending and current_sleep > 0:
                 print(
                     f"  ⏸️  Pause {current_sleep:.1f}s avant le prochain lot "
@@ -382,7 +373,6 @@ async def scrape_year(year: str, dates_courses: dict, concurrency: int) -> None:
                 )
                 await asyncio.sleep(current_sleep)
 
-    # Résumé par année
     print(f"\n{'=' * 80}")
     print(f"RÉSUMÉ ANNÉE {year}")
     print(f"{'=' * 80}")
@@ -451,12 +441,6 @@ async def main() -> None:
         description="Re-scrape intelligent des courses ZEturf manquantes"
     )
     parser.add_argument(
-        "--max-courses",
-        type=int,
-        default=None,
-        help="(Optionnel) Limite globale de courses à traiter (approx, par années entières)",
-    )
-    parser.add_argument(
         "--concurrency",
         type=int,
         default=DEFAULT_CONCURRENCY,
@@ -494,21 +478,11 @@ async def main() -> None:
     print(f"📊 {len(missing_by_year)} années avec courses manquantes")
     print(f"📊 {total_courses} courses manquantes au total\n")
 
-    courses_planned = 0
     for year in sorted(missing_by_year.keys()):
-        # Limite globale (approx, par années complètes)
         year_courses = sum(len(c) for c in missing_by_year[year].values())
-        if args.max_courses and courses_planned >= args.max_courses:
-            print(f"⚠️  Limite globale atteinte (~{courses_planned} courses planifiées).")
-            break
-
         print(f"➡️  Traitement de l'année {year} ({year_courses} courses prévues)")
         await scrape_year(year, missing_by_year[year], concurrency)
-
-        # Commit par année
         git_commit_year(year)
-
-        courses_planned += year_courses
 
     print("\n" + "=" * 80)
     print("SCRAPING TERMINÉ")
