@@ -1,72 +1,291 @@
-name: Verify ZEturf Data
+name: Smart Re-scrape Missing Courses
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * 0'
+    inputs:
+      max_courses:
+        description: 'Nombre max de courses à récupérer (vide = toutes)'
+        required: false
+        type: string
+      batch_size:
+        description: 'Taille initiale des batchs'
+        required: false
+        default: '200'
+        type: string
 
 jobs:
-  verify:
+  rescrape-courses:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     
     steps:
-      - name: Checkout repository
+      - name: Initial disk space check
+        run: |
+          echo "=========================================="
+          echo "ESPACE DISQUE INITIAL"
+          echo "=========================================="
+          df -h
+          echo ""
+          echo "=== Détails des dossiers volumineux ==="
+          du -sh /home/runner/* 2>/dev/null | sort -hr | head -n 10 || true
+          du -sh /tmp/* 2>/dev/null | sort -hr | head -n 5 || true
+      
+      - name: Clean runner cache aggressively
+        run: |
+          echo "=========================================="
+          echo "NETTOYAGE AGRESSIF DU RUNNER"
+          echo "=========================================="
+          
+          # Docker cleanup
+          echo "🧹 Nettoyage Docker..."
+          docker system prune -af --volumes 2>/dev/null || true
+          
+          # Clean apt cache
+          echo "🧹 Nettoyage APT..."
+          sudo apt-get clean 2>/dev/null || true
+          sudo rm -rf /var/lib/apt/lists/* 2>/dev/null || true
+          
+          # Clean pip cache
+          echo "🧹 Nettoyage pip cache..."
+          pip cache purge 2>/dev/null || true
+          
+          # Clean npm/yarn
+          echo "🧹 Nettoyage npm/yarn..."
+          sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
+          sudo rm -rf ~/.npm 2>/dev/null || true
+          sudo rm -rf ~/.yarn 2>/dev/null || true
+          
+          # Clean Android SDK (huge)
+          echo "🧹 Nettoyage Android SDK..."
+          sudo rm -rf /usr/local/lib/android 2>/dev/null || true
+          sudo rm -rf $ANDROID_HOME 2>/dev/null || true
+          
+          # Clean .NET
+          echo "🧹 Nettoyage .NET..."
+          sudo rm -rf /usr/share/dotnet 2>/dev/null || true
+          
+          # Clean temp files
+          echo "🧹 Nettoyage fichiers temporaires..."
+          sudo rm -rf /tmp/* 2>/dev/null || true
+          sudo rm -rf /var/tmp/* 2>/dev/null || true
+          
+          # Clean logs
+          echo "🧹 Nettoyage logs..."
+          sudo journalctl --vacuum-time=1s 2>/dev/null || true
+          sudo rm -rf /var/log/* 2>/dev/null || true
+          
+          echo "✅ Nettoyage terminé"
+      
+      - name: Disk space after cleanup
+        run: |
+          echo "=========================================="
+          echo "ESPACE DISQUE APRÈS NETTOYAGE"
+          echo "=========================================="
+          df -h
+          echo ""
+          FREE_SPACE=$(df -h / | awk 'NR==2 {print $4}')
+          echo "💾 Espace libre: $FREE_SPACE"
+      
+      - name: Checkout (minimal)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # nécessaire pour permettre git pull/push proprement
+          fetch-depth: 1
+          sparse-checkout: |
+            verify.py
+            rescrape_direct.py
+            verification_report.txt
+      
+      - name: Disk space after checkout
+        run: |
+          echo "=========================================="
+          echo "ESPACE APRÈS CHECKOUT"
+          echo "=========================================="
+          df -h
+          echo ""
+          echo "=== Taille du .git ==="
+          du -sh .git 2>/dev/null || echo "N/A"
+      
+      - name: Enable sparse checkout for data
+        run: |
+          git sparse-checkout add resultats-et-rapports
+          
+          # Clean git cache
+          echo "🧹 Nettoyage cache Git..."
+          git gc --aggressive --prune=now
+          git prune
+      
+      - name: Disk space after sparse checkout
+        run: |
+          echo "=========================================="
+          echo "ESPACE APRÈS SPARSE CHECKOUT"
+          echo "=========================================="
+          df -h
+          echo ""
+          echo "=== Taille des données ==="
+          du -sh resultats-et-rapports 2>/dev/null || echo "N/A"
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      - name: Install dependencies
+      - name: Install dependencies (no cache)
         run: |
-          pip install --upgrade pip
-          pip install beautifulsoup4 lxml
+          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          
+          # Clean pip after install
+          pip cache purge 2>/dev/null || true
       
-      - name: Run verification
-        id: verify
+      - name: Check verification report
+        id: check_report
         run: |
-          python verify.py > verification_report.txt
-        continue-on-error: true
+          if [ ! -f "verification_report.txt" ]; then
+            echo "⚠️  Rapport de vérification absent, exécution de verify.py..."
+            python verify.py || true
+          fi
+          
+          if [ -f "verification_report.txt" ]; then
+            echo "=== Courses manquantes ==="
+            MISSING_COURSES=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
+            echo "Total: $MISSING_COURSES courses"
+            echo "missing_count=$MISSING_COURSES" >> $GITHUB_OUTPUT
+            
+            echo ""
+            echo "=== Aperçu des 10 premières dates incomplètes ==="
+            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10
+          else
+            echo "missing_count=0" >> $GITHUB_OUTPUT
+          fi
       
-      - name: Upload verification report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: verification-report
-          path: verification_report.txt
-          retention-days: 90
+      - name: Monitor disk during execution
+        id: monitor_start
+        run: |
+          echo "=========================================="
+          echo "ESPACE AVANT SCRAPING"
+          echo "=========================================="
+          df -h
+          FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
+          echo "free_space=$FREE_GB" >> $GITHUB_OUTPUT
       
-      - name: Commit report to repo
+      - name: Run direct re-scraping
+        if: steps.check_report.outputs.missing_count != '0'
+        env:
+          MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '200' }}
+        run: |
+          # Monitor disk space in background
+          (while true; do
+            FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
+            if [ "$FREE_GB" -lt "2" ]; then
+              echo "⚠️  WARNING: Espace disque faible: ${FREE_GB}GB"
+            fi
+            sleep 30
+          done) &
+          MONITOR_PID=$!
+          
+          # Run scraping
+          if [ -z "$MAX_COURSES" ]; then
+            echo "🚀 Re-scraping TOUTES les courses manquantes"
+            python rescrape_direct.py --batch-size $BATCH_SIZE
+          else
+            echo "🚀 Re-scraping max $MAX_COURSES courses"
+            python rescrape_direct.py --max-courses $MAX_COURSES --batch-size $BATCH_SIZE
+          fi
+          
+          # Stop monitor
+          kill $MONITOR_PID 2>/dev/null || true
+      
+      - name: Disk space after scraping
         if: always()
+        run: |
+          echo "=========================================="
+          echo "ESPACE APRÈS SCRAPING"
+          echo "=========================================="
+          df -h
+          echo ""
+          echo "=== Taille des nouvelles données ==="
+          du -sh resultats-et-rapports 2>/dev/null || echo "N/A"
+          echo ""
+          echo "=== Top 10 des fichiers les plus lourds ==="
+          find resultats-et-rapports -type f -exec du -h {} + 2>/dev/null | sort -hr | head -n 10 || true
+      
+      - name: Emergency cleanup if low space
+        if: always()
+        run: |
+          FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
+          echo "Espace libre actuel: ${FREE_GB}GB"
+          
+          if [ "$FREE_GB" -lt "3" ]; then
+            echo "⚠️  Espace critique! Nettoyage d'urgence..."
+            
+            # Clean Python cache
+            find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+            find . -type f -name "*.pyc" -delete 2>/dev/null || true
+            
+            # Clean git objects
+            git reflog expire --expire=now --all
+            git gc --aggressive --prune=now
+            
+            # Show new space
+            df -h
+          fi
+      
+      - name: No missing courses
+        if: steps.check_report.outputs.missing_count == '0'
+        run: |
+          echo "✅ Aucune course manquante détectée!"
+      
+      - name: Run verification again
+        run: |
+          echo "=== Nouvelle vérification ==="
+          python verify.py || true
+      
+      - name: Clean before commit
+        run: |
+          echo "🧹 Nettoyage avant commit..."
+          git gc --aggressive --prune=now
+          
+          echo "=== Espace avant commit ==="
+          df -h
+      
+      - name: Commit verification report
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-
-          # Récupérer la dernière version du repo
-          git fetch origin main
-          git reset --soft origin/main
-
           git add verification_report.txt
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin HEAD:main
+          if ! git diff --staged --quiet; then
+            git commit -m "Update verification report"
+            git push
           fi
       
-      - name: Check verification result
-        if: steps.verify.outcome == 'failure'
+      - name: Show final status
+        if: always()
         run: |
-          echo "⚠️ Verification found issues. Check verification_report.txt for details."
-          cat verification_report.txt
-          exit 1
+          echo "=========================================="
+          echo "STATUT FINAL"
+          echo "=========================================="
+          
+          # Disk space
+          df -h
+          echo ""
+          
+          # Verification status
+          if [ -f "verification_report.txt" ]; then
+            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4
+            echo ""
+            STILL_MISSING=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
+            if [ "$STILL_MISSING" -gt "0" ]; then
+              echo "⚠️  Il reste encore $STILL_MISSING courses manquantes"
+              echo "💡 Relancez le workflow pour continuer"
+            else
+              echo "🎉 Toutes les courses sont maintenant complètes!"
+            fi
+          fi
       
-      - name: Success message
-        if: steps.verify.outcome == 'success'
-        run: |
-          echo "✓ All data verified successfully!"
-          cat verification_report.txt
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report-final
+          path: verification_report.txt
+          retention-days: 7
