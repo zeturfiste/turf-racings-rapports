@@ -1,14 +1,10 @@
-name: Re-scrape Missing Courses
+name: Re-scrape Missing Courses (wget)
 
 on:
   workflow_dispatch:
     inputs:
       max_courses:
-        description: 'Nombre max de courses à traiter (approx, par années entières)'
-        required: false
-        type: string
-      start_year:
-        description: "Année de départ (inclus, ex: 2010 ; vide = toutes)"
+        description: "Nombre max de courses à traiter (toutes années confondues, approx.)"
         required: false
         type: string
 
@@ -105,13 +101,17 @@ jobs:
         with:
           python-version: '3.11'
 
-      -       - name: "📦 Install dependencies"
+      - name: "📦 Install dependencies"
         run: |
           pip install --no-cache-dir beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "📋 Préparer le rapport de vérification"
+      - name: "📋 Générer / vérifier le rapport de vérification"
         run: |
+          echo "=========================================="
+          echo "PRÉPARATION DE verification_report.txt"
+          echo "=========================================="
+
           if [ ! -f "verification_report.txt" ]; then
             echo "⚠️  verification_report.txt absent, exécution de verify.py..."
             python verify.py || true
@@ -123,28 +123,24 @@ jobs:
           fi
 
           echo "✅ verification_report.txt prêt."
+          echo ""
+          echo "Aperçu des lignes 'DATES INCOMPLÈTES' (s'il y en a) :"
+          grep "DATE:" verification_report.txt | head -n 10 || true
 
-      - name: "🚀 Re-scraping des courses manquantes"
+      - name: "🚀 Re-scraping des courses manquantes (wget parallèle)"
         env:
           MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
-          START_YEAR: ${{ github.event.inputs.start_year || '' }}
         run: |
           echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING"
+          echo "LANCEMENT DU RE-SCRAPING (wget)"
           echo "=========================================="
 
-          if [ -z "$MAX_COURSES" ] && [ -z "$START_YEAR" ]; then
+          if [ -z "$MAX_COURSES" ]; then
             echo "➡️  Re-scraping de TOUTES les courses manquantes"
             python rescrape_courses.py
-          elif [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping des cours à partir de l'année $START_YEAR"
-            python rescrape_courses.py --start-year "$START_YEAR"
-          elif [ -z "$START_YEAR" ]; then
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières)"
-            python rescrape_courses.py --max-courses "$MAX_COURSES"
           else
-            echo "➡️  Re-scraping à partir de l'année $START_YEAR, limité à ~${MAX_COURSES} courses"
-            python rescrape_courses.py --start-year "$START_YEAR" --max-courses "$MAX_COURSES"
+            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (toutes années confondues)"
+            python rescrape_courses.py --max-courses "$MAX_COURSES"
           fi
 
       - name: "✅ Nouvelle vérification post-scraping"
@@ -156,9 +152,15 @@ jobs:
 
       - name: "📤 Commit verification report"
         run: |
+          echo "=========================================="
+          echo "COMMIT DU RAPPORT verification_report.txt"
+          echo "=========================================="
+
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+
           git add verification_report.txt
+
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
             git push
