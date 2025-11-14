@@ -19,37 +19,13 @@ jobs:
 
           echo ""
           echo "=== Top 40 plus gros dossiers (racine) ==="
-          # Très utile pour comprendre où part l'espace
+          # Diagnostic uniquement : lecture, n'utilise pas d'espace disque
           sudo du -xh / | sort -h | tail -n 40
 
-      # 2) Checkout repository
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      # 3) État du disque après checkout (taille de ton dépôt)
-      - name: Disk usage AFTER checkout
+      # 2) Nettoyage DYNAMIQUE AVANT le checkout
+      - name: Dynamic free disk space BEFORE checkout
         run: |
-          echo "=== df -h (après checkout) ==="
-          df -h
-
-          echo ""
-          echo "=== Taille des dossiers à la racine du repo (profondeur 2) ==="
-          du -h -d2 .
-
-          echo ""
-          echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
-          if [ -d "resultats-et-rapports" ]; then
-            du -xh resultats-et-rapports | sort -h | tail -n 40
-          else
-            echo "resultats-et-rapports n'existe pas encore."
-          fi
-
-      # 4) Nettoyage DYNAMIQUE pour libérer un max d'espace AVANT Python
-      - name: Dynamic free disk space BEFORE verification
-        run: |
-          echo "=== df -h AVANT CLEANUP ==="
+          echo "=== df -h AVANT CLEANUP (avant checkout) ==="
           df -h
 
           START_USED=$(df -B1 / | awk 'NR==2 {print $3}')
@@ -59,7 +35,7 @@ jobs:
           echo ""
           echo "=== Suppression dynamique des gros outils inutiles pour ce job ==="
 
-          # Liste de dossiers lourds préinstallés qu'on peut supprimer sans risque
+          # Dossiers lourds préinstallés qu'on peut supprimer sans risque pour un job Python
           CANDIDATES=(
             "/usr/share/dotnet"
             "/usr/local/lib/android"
@@ -108,18 +84,43 @@ jobs:
           RECLAIMED=$(( START_USED - END_USED ))
 
           echo ""
-          echo "=== df -h APRÈS CLEANUP ==="
+          echo "=== df -h APRÈS CLEANUP (avant checkout) ==="
           df -h
 
           echo ""
-          echo "=== BILAN CLEANUP ==="
+          echo "=== BILAN CLEANUP (avant checkout) ==="
           echo "Utilisation avant (bytes):  $START_USED"
           echo "Utilisation après (bytes):  $END_USED"
           echo "Gain estimé via df:         $((RECLAIMED/1024/1024/1024)) GB"
           echo "Gain cumulé via du (brut):  $((total_reclaimed_du/1024/1024/1024)) GB"
           echo "✅ Nettoyage dynamique terminé"
 
-      # 5) Set up Python (après cleanup)
+      # 3) Checkout repository (APRÈS cleanup)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # On n'a pas besoin de tout l'historique pour juste ajouter verification_report.txt
+          fetch-depth: 1
+
+      # 4) État du disque après checkout (taille de ton dépôt)
+      - name: Disk usage AFTER checkout
+        run: |
+          echo "=== df -h (après checkout) ==="
+          df -h
+
+          echo ""
+          echo "=== Taille des dossiers à la racine du repo (profondeur 2) ==="
+          du -h -d2 .
+
+          echo ""
+          echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
+          if [ -d "resultats-et-rapports" ]; then
+            du -xh resultats-et-rapports | sort -h | tail -n 40
+          else
+            echo "resultats-et-rapports n'existe pas encore."
+          fi
+
+      # 5) Setup Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -165,7 +166,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          # Récupérer la dernière version du repo
+          # On se cale sur la dernière version distante
           git fetch origin main
           git reset --soft origin/main
 
@@ -177,7 +178,7 @@ jobs:
             git push origin HEAD:main
           fi
 
-      # 11) Vérifier le résultat de la vérif (comportement actuel conservé)
+      # 11) Vérifier le résultat de la vérif
       - name: Check verification result
         if: steps.verify.outcome == 'failure'
         run: |
