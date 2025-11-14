@@ -26,6 +26,24 @@ MIN_BATCH_SIZE = 10
 RATE_LIMIT_DETECTED = False
 
 # =========================
+# Disk monitoring
+# =========================
+def get_disk_space_gb():
+    """Get available disk space in GB"""
+    import shutil
+    stat = shutil.disk_usage('/')
+    return stat.free / (1024**3)
+
+def check_disk_space_critical():
+    """Check if disk space is critically low"""
+    free_gb = get_disk_space_gb()
+    if free_gb < 2:
+        print(f"\n⚠️  ALERTE: Espace disque critique: {free_gb:.2f} GB restants")
+        print("Arrêt du scraping pour éviter saturation...")
+        return True
+    return False
+
+# =========================
 # Helpers
 # =========================
 def get_date_directory(date_str: str) -> Path:
