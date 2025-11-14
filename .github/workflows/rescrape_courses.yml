@@ -1,10 +1,10 @@
-name: Re-scrape Missing Courses (wget)
+name: Re-scrape Missing Courses (matrix)
 
 on:
   workflow_dispatch:
     inputs:
       max_courses:
-        description: "Nombre max de courses à traiter (toutes années confondues, approx.)"
+        description: 'Nombre max de courses à traiter (approx, par années entières, par job)'
         required: false
         type: string
 
@@ -12,6 +12,17 @@ jobs:
   rescrape-courses:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+
+    strategy:
+      fail-fast: false
+      matrix:
+        years_group:
+          - "2008 2011 2014 2017 2020 2023"
+          - "2009 2012 2015 2018 2021 2024"
+          - "2010 2013 2016 2019 2022 2025"
+
+    env:
+      YEARS: ${{ matrix.years_group }}
 
     steps:
       - name: "📊 Espace disque initial"
@@ -76,9 +87,8 @@ jobs:
       - name: "📥 Checkout (sparse)"
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0         # nécessaire pour git pull/merge propre
           sparse-checkout: |
-            verify.py
             rescrape_courses.py
             verification_report.txt
             resultats-et-rapports
@@ -96,6 +106,12 @@ jobs:
           echo "=== Taille .git ==="
           du -sh .git 2>/dev/null || echo "N/A"
 
+          if [ ! -f "verification_report.txt" ]; then
+            echo "❌ verification_report.txt est manquant !"
+            echo "   Ce workflow suppose que le rapport existe déjà."
+            exit 1
+          fi
+
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
@@ -103,75 +119,29 @@ jobs:
 
       - name: "📦 Install dependencies"
         run: |
-          pip install --no-cache-dir beautifulsoup4 lxml
+          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "📋 Générer / vérifier le rapport de vérification"
-        run: |
-          echo "=========================================="
-          echo "PRÉPARATION DE verification_report.txt"
-          echo "=========================================="
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "⚠️  verification_report.txt absent, exécution de verify.py..."
-            python verify.py || true
-          fi
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "❌ Impossible de générer verification_report.txt, arrêt."
-            exit 1
-          fi
-
-          echo "✅ verification_report.txt prêt."
-          echo ""
-          echo "Aperçu des lignes 'DATES INCOMPLÈTES' (s'il y en a) :"
-          grep "DATE:" verification_report.txt | head -n 10 || true
-
-      - name: "🚀 Re-scraping des courses manquantes (wget parallèle)"
+      - name: "🚀 Re-scraping des courses manquantes pour ce groupe d'années"
         env:
           MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
         run: |
           echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (wget)"
+          echo "LANCEMENT DU RE-SCRAPING (groupe: $YEARS)"
           echo "=========================================="
 
           if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de TOUTES les courses manquantes"
-            python rescrape_courses.py
+            echo "➡️  Re-scraping de toutes les courses manquantes pour: $YEARS"
+            python rescrape_courses.py --years $YEARS
           else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (toutes années confondues)"
-            python rescrape_courses.py --max-courses "$MAX_COURSES"
+            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (approx, par années entières) pour: $YEARS"
+            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
           fi
 
-      - name: "✅ Nouvelle vérification post-scraping"
-        run: |
-          echo "=========================================="
-          echo "VÉRIFICATION POST-SCRAPING"
-          echo "=========================================="
-          python verify.py || true
-
-      - name: "📤 Commit verification report"
-        run: |
-          echo "=========================================="
-          echo "COMMIT DU RAPPORT verification_report.txt"
-          echo "=========================================="
-
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-
-          git add verification_report.txt
-
-          if ! git diff --staged --quiet; then
-            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
-            git push
-          else:
-            echo "ℹ️  Aucun changement à committer pour verification_report.txt"
-          fi
-
-      - name: "📄 Upload rapport final"
+      - name: "📄 Upload log de ce job (facultatif)"
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: verification-report-${{ github.run_number }}
-          path: verification_report.txt
-          retention-days: 7
+          name: rescrape-log-${{ matrix.years_group }}-${{ github.run_number }}
+          path: .
+          retention-days: 3
