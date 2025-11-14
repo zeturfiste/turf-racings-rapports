@@ -17,7 +17,7 @@ jobs:
   rescrape-courses:
     runs-on: ubuntu-latest
     timeout-minutes: 180
-    
+
     steps:
       - name: "📊 Espace disque initial"
         run: |
@@ -25,72 +25,89 @@ jobs:
           echo "ESPACE DISQUE INITIAL"
           echo "=========================================="
           df -h | grep -E "Filesystem|/$"
-      
+
       - name: "🧹 Nettoyage cache runner"
         continue-on-error: true
         run: |
           echo "=========================================="
-          echo "NETTOYAGE CACHE RUNNER"
+          echo "NETTOYAGE CACHE RUNNER (léger)"
           echo "=========================================="
-          
+
           echo "=== Espace avant ==="
           df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
-          
+
           echo ""
           echo "🧹 Nettoyage des caches..."
-          
+
           # Logs temporaires GitHub Actions
           sudo rm -rf /home/runner/work/_temp/* 2>/dev/null || true
-          
+
           # Cache pip
           rm -rf ~/.cache/pip 2>/dev/null || true
-          
+
           # Cache npm
           rm -rf ~/.npm 2>/dev/null || true
-          
+
           echo ""
           echo "=== Espace après ==="
           df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
-          
+
           echo "✅ Nettoyage terminé"
-      
+
       - name: "🧹 Nettoyage agressif du runner"
         run: |
           echo "=========================================="
           echo "NETTOYAGE AGRESSIF"
           echo "=========================================="
-          
+
+          echo "=== Espace avant ==="
+          df -h | grep -E "Filesystem|/$"
+
+          echo ""
           echo "🧹 Docker..."
           docker system prune -af --volumes 2>/dev/null || true
-          
+
           echo "🧹 APT cache..."
           sudo apt-get clean 2>/dev/null || true
           sudo rm -rf /var/lib/apt/lists/* 2>/dev/null || true
-          
+
           echo "🧹 pip cache..."
           pip cache purge 2>/dev/null || true
-          
-          echo "🧹 npm/yarn..."
+
+          echo "🧹 npm/yarn globaux..."
           sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
           sudo rm -rf ~/.npm ~/.yarn 2>/dev/null || true
-          
+
           echo "🧹 Android SDK (~8GB)..."
           sudo rm -rf /usr/local/lib/android 2>/dev/null || true
-          sudo rm -rf $ANDROID_HOME 2>/dev/null || true
-          
-          echo "🧹 .NET (~3GB)..."
+          sudo rm -rf "$ANDROID_HOME" 2>/dev/null || true
+
+          echo "🧹 .NET SDK (~3GB)..."
           sudo rm -rf /usr/share/dotnet 2>/dev/null || true
-          
+
+          echo "🧹 CodeQL..."
+          sudo rm -rf /opt/hostedtoolcache/CodeQL 2>/dev/null || true
+
+          echo "🧹 Haskell (ghcup)..."
+          sudo rm -rf /usr/local/.ghcup 2>/dev/null || true
+
+          echo "🧹 Swift toolchain..."
+          sudo rm -rf /usr/share/swift 2>/dev/null || true
+
           echo "🧹 Fichiers temporaires..."
           sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          
+
           echo "🧹 Logs système..."
           sudo journalctl --vacuum-time=1s 2>/dev/null || true
           sudo rm -rf /var/log/* 2>/dev/null || true
-          
-          echo "✅ Nettoyage terminé"
-      
-      - name: "💾 Espace après nettoyage"
+
+          echo ""
+          echo "✅ Nettoyage agressif terminé"
+          echo ""
+          echo "=== Espace après nettoyage agressif ==="
+          df -h | grep -E "Filesystem|/$"
+
+      - name: "💾 Espace après nettoyage complet"
         run: |
           echo "=========================================="
           echo "ESPACE APRÈS NETTOYAGE COMPLET"
@@ -99,48 +116,35 @@ jobs:
           FREE_SPACE=$(df -h / | awk 'NR==2 {print $4}')
           echo ""
           echo "💾 Espace libre total: $FREE_SPACE"
-      
-      - name: "📥 Checkout (minimal + sparse)"
+
+      - name: "📥 Checkout complet (fetch-depth 1)"
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          sparse-checkout: |
-            verify.py
-            rescrape_courses.py
-            verification_report.txt
-      
+
       - name: "💾 Espace après checkout"
         run: |
-          echo "=== Espace après checkout ==="
+          echo "=========================================="
+          echo "ESPACE APRÈS CHECKOUT"
+          echo "=========================================="
           df -h | grep -E "Filesystem|/$"
+          echo ""
+          echo "=== Taille du repo ==="
+          du -sh . 2>/dev/null || echo "N/A"
           echo ""
           echo "=== Taille .git ==="
           du -sh .git 2>/dev/null || echo "N/A"
-      
-      - name: "🌳 Enable sparse checkout pour les données"
-        run: |
-          git sparse-checkout add resultats-et-rapports
-      
-      - name: "💾 Espace après sparse checkout"
-        run: |
-          echo "=== Espace après sparse checkout ==="
-          df -h | grep -E "Filesystem|/$"
-          if [ -d "resultats-et-rapports" ]; then
-            echo ""
-            echo "=== Taille données ==="
-            du -sh resultats-et-rapports/ 2>/dev/null || echo "N/A"
-          fi
-      
+
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: "📦 Install dependencies (no cache)"
         run: |
           pip install --no-cache-dir aiohttp beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
-      
+
       - name: "📋 Vérifier le rapport"
         id: check_report
         run: |
@@ -148,32 +152,34 @@ jobs:
             echo "⚠️  Rapport absent, exécution de verify.py..."
             python verify.py || true
           fi
-          
+
           if [ -f "verification_report.txt" ]; then
             echo "=== Courses manquantes ==="
             MISSING_COURSES=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
             echo "Total: $MISSING_COURSES courses"
             echo "missing_count=$MISSING_COURSES" >> $GITHUB_OUTPUT
-            
+
             echo ""
-            echo "=== Aperçu (10 premières dates) ==="
-            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10
+            echo "=== Aperçu (10 premières dates INCOMPLETE) ==="
+            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10 || true
           else
             echo "missing_count=0" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: "💾 Espace avant scraping"
         run: |
-          echo "=== Espace avant scraping ==="
+          echo "=========================================="
+          echo "ESPACE AVANT SCRAPING"
+          echo "=========================================="
           df -h | grep -E "Filesystem|/$"
           FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
           echo ""
           echo "💾 Espace disponible: ${FREE_GB} GB"
-          
+
           if [ "$FREE_GB" -lt "5" ]; then
-            echo "⚠️  WARNING: Espace faible!"
+            echo "⚠️  WARNING: Espace faible (moins de 5GB)!"
           fi
-      
+
       - name: "🚀 Re-scraping des courses"
         if: steps.check_report.outputs.missing_count != '0'
         env:
@@ -189,62 +195,64 @@ jobs:
             sleep 30
           done) &
           MONITOR_PID=$!
-          
-          # Run scraping
+
+          # Lancer le scraping
           if [ -z "$MAX_COURSES" ]; then
             echo "🚀 Re-scraping TOUTES les courses manquantes"
-            python rescrape_courses.py --batch-size $BATCH_SIZE
+            python rescrape_courses.py --batch-size "$BATCH_SIZE"
           else
             echo "🚀 Re-scraping max $MAX_COURSES courses"
-            python rescrape_courses.py --max-courses $MAX_COURSES --batch-size $BATCH_SIZE
+            python rescrape_courses.py --max-courses "$MAX_COURSES" --batch-size "$BATCH_SIZE"
           fi
-          
+
           # Stop monitor
-          kill $MONITOR_PID 2>/dev/null || true
-      
+          kill "$MONITOR_PID" 2>/dev/null || true
+
       - name: "📊 Aucune course manquante"
         if: steps.check_report.outputs.missing_count == '0'
         run: |
           echo "✅ Aucune course manquante détectée!"
           echo "Tous les fichiers sont déjà présents."
-      
+
       - name: "💾 Espace après scraping"
         if: always()
         run: |
-          echo "=== Espace après scraping ==="
+          echo "=========================================="
+          echo "ESPACE APRÈS SCRAPING"
+          echo "=========================================="
           df -h | grep -E "Filesystem|/$"
           if [ -d "resultats-et-rapports" ]; then
             echo ""
             echo "=== Taille des données ==="
             du -sh resultats-et-rapports/ 2>/dev/null || echo "N/A"
           fi
-      
+
       - name: "🆘 Nettoyage d'urgence si espace critique"
         if: always()
         run: |
           FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
           echo "Espace actuel: ${FREE_GB}GB"
-          
+
           if [ "$FREE_GB" -lt "3" ]; then
             echo "⚠️  Espace critique! Nettoyage d'urgence..."
-            
+
             # Clean Python cache
             find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
             find . -type f -name "*.pyc" -delete 2>/dev/null || true
-            
-            # Quick git cleanup (pas aggressive)
+
+            # Git maintenance légère
             git reflog expire --expire=now --all 2>/dev/null || true
             git gc --prune=now 2>/dev/null || true
-            
+
             echo "=== Nouvel espace ==="
             df -h | grep -E "Filesystem|/$"
           fi
-      
-      - name: "✅ Vérification post-scraping"
+
+      - name: "✅ Nouvelle vérification post-scraping"
         run: |
           echo "=== Nouvelle vérification ==="
           python verify.py || true
-      
+
       - name: "📤 Commit verification report"
         run: |
           git config user.name "GitHub Actions Bot"
@@ -253,23 +261,25 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
             git push
+          else
+            echo "ℹ️  Aucun changement dans verification_report.txt"
           fi
-      
+
       - name: "📊 Statut final"
         if: always()
         run: |
           echo "=========================================="
           echo "STATUT FINAL"
           echo "=========================================="
-          
+
           df -h | grep -E "Filesystem|/$"
           echo ""
-          
+
           if [ -f "verification_report.txt" ]; then
             echo "=== Résultat de la vérification ==="
-            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4
+            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4 || true
             echo ""
-            
+
             STILL_MISSING=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
             if [ "$STILL_MISSING" -gt "0" ]; then
               echo "⚠️  Il reste $STILL_MISSING courses manquantes"
@@ -278,7 +288,7 @@ jobs:
               echo "🎉 Toutes les courses sont complètes!"
             fi
           fi
-      
+
       - name: "📄 Upload rapport final"
         uses: actions/upload-artifact@v4
         if: always()
