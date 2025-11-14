@@ -27,27 +27,32 @@ jobs:
           df -h | grep -E "Filesystem|/$"
       
       - name: "🧹 Nettoyage cache runner"
+        continue-on-error: true
         run: |
           echo "=========================================="
           echo "NETTOYAGE CACHE RUNNER"
           echo "=========================================="
           
-          echo "=== Avant nettoyage ==="
-          if [ -d "/home/runner/actions-runner/cached" ]; then
-            du -sh /home/runner/actions-runner/cached/ 2>/dev/null || echo "N/A"
-          fi
-          df -h | grep -E "/$"
+          echo "=== Espace avant ==="
+          df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
           
           echo ""
-          echo "🧹 Nettoyage du cache..."
-          sudo rm -rf /home/runner/actions-runner/cached/* 2>/dev/null || true
+          echo "🧹 Nettoyage des caches..."
+          
+          # Logs temporaires GitHub Actions
+          sudo rm -rf /home/runner/work/_temp/* 2>/dev/null || true
+          
+          # Cache pip
+          rm -rf ~/.cache/pip 2>/dev/null || true
+          
+          # Cache npm
+          rm -rf ~/.npm 2>/dev/null || true
           
           echo ""
-          echo "=== Après nettoyage ==="
-          if [ -d "/home/runner/actions-runner/cached" ]; then
-            du -sh /home/runner/actions-runner/cached/ 2>/dev/null || echo "Vide"
-          fi
-          df -h | grep -E "/$"
+          echo "=== Espace après ==="
+          df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
+          
+          echo "✅ Nettoyage terminé"
       
       - name: "🧹 Nettoyage agressif du runner"
         run: |
@@ -88,12 +93,12 @@ jobs:
       - name: "💾 Espace après nettoyage"
         run: |
           echo "=========================================="
-          echo "ESPACE APRÈS NETTOYAGE"
+          echo "ESPACE APRÈS NETTOYAGE COMPLET"
           echo "=========================================="
-          df -h
+          df -h | grep -E "Filesystem|/$"
           FREE_SPACE=$(df -h / | awk 'NR==2 {print $4}')
           echo ""
-          echo "💾 Espace libre: $FREE_SPACE"
+          echo "💾 Espace libre total: $FREE_SPACE"
       
       - name: "📥 Checkout (minimal + sparse)"
         uses: actions/checkout@v4
@@ -115,10 +120,6 @@ jobs:
       - name: "🌳 Enable sparse checkout pour les données"
         run: |
           git sparse-checkout add resultats-et-rapports
-          
-          echo "🧹 Nettoyage cache Git..."
-          git gc --aggressive --prune=now
-          git prune
       
       - name: "💾 Espace après sparse checkout"
         run: |
@@ -227,11 +228,13 @@ jobs:
           if [ "$FREE_GB" -lt "3" ]; then
             echo "⚠️  Espace critique! Nettoyage d'urgence..."
             
+            # Clean Python cache
             find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
             find . -type f -name "*.pyc" -delete 2>/dev/null || true
             
-            git reflog expire --expire=now --all
-            git gc --aggressive --prune=now
+            # Quick git cleanup (pas aggressive)
+            git reflog expire --expire=now --all 2>/dev/null || true
+            git gc --prune=now 2>/dev/null || true
             
             echo "=== Nouvel espace ==="
             df -h | grep -E "Filesystem|/$"
@@ -241,12 +244,6 @@ jobs:
         run: |
           echo "=== Nouvelle vérification ==="
           python verify.py || true
-      
-      - name: "🧹 Nettoyage avant commit"
-        run: |
-          echo "🧹 Nettoyage avant commit..."
-          git gc --aggressive --prune=now
-          df -h | grep -E "Filesystem|/$"
       
       - name: "📤 Commit verification report"
         run: |
