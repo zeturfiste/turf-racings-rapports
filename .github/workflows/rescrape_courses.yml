@@ -4,13 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       max_courses:
-        description: 'Nombre max de courses à récupérer (vide = toutes)'
+        description: 'Nombre max de courses à traiter (approx, par années entières)'
         required: false
-        type: string
-      batch_size:
-        description: 'Taille initiale des batchs'
-        required: false
-        default: '200'
         type: string
 
 jobs:
@@ -26,41 +21,13 @@ jobs:
           echo "=========================================="
           df -h | grep -E "Filesystem|/$"
 
-      - name: "🧹 Nettoyage cache runner"
-        continue-on-error: true
-        run: |
-          echo "=========================================="
-          echo "NETTOYAGE CACHE RUNNER (léger)"
-          echo "=========================================="
-
-          echo "=== Espace avant ==="
-          df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
-
-          echo ""
-          echo "🧹 Nettoyage des caches..."
-
-          # Logs temporaires GitHub Actions
-          sudo rm -rf /home/runner/work/_temp/* 2>/dev/null || true
-
-          # Cache pip
-          rm -rf ~/.cache/pip 2>/dev/null || true
-
-          # Cache npm
-          rm -rf ~/.npm 2>/dev/null || true
-
-          echo ""
-          echo "=== Espace après ==="
-          df -h | grep -E "/$" | awk '{print "Utilisé: "$3" / Disponible: "$4}'
-
-          echo "✅ Nettoyage terminé"
-
       - name: "🧹 Nettoyage agressif du runner"
         run: |
           echo "=========================================="
-          echo "NETTOYAGE AGRESSIF"
+          echo "NETTOYAGE AGRESSIF DU RUNNER"
           echo "=========================================="
 
-          echo "=== Espace avant ==="
+          echo "=== Espace avant nettoyage ==="
           df -h | grep -E "Filesystem|/$"
 
           echo ""
@@ -73,6 +40,7 @@ jobs:
 
           echo "🧹 pip cache..."
           pip cache purge 2>/dev/null || true
+          rm -rf ~/.cache/pip 2>/dev/null || true
 
           echo "🧹 npm/yarn globaux..."
           sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
@@ -102,25 +70,18 @@ jobs:
           sudo rm -rf /var/log/* 2>/dev/null || true
 
           echo ""
-          echo "✅ Nettoyage agressif terminé"
-          echo ""
-          echo "=== Espace après nettoyage agressif ==="
+          echo "=== Espace après nettoyage ==="
           df -h | grep -E "Filesystem|/$"
 
-      - name: "💾 Espace après nettoyage complet"
-        run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS NETTOYAGE COMPLET"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          FREE_SPACE=$(df -h / | awk 'NR==2 {print $4}')
-          echo ""
-          echo "💾 Espace libre total: $FREE_SPACE"
-
-      - name: "📥 Checkout complet (fetch-depth 1)"
+      - name: "📥 Checkout (sparse)"
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          sparse-checkout: |
+            verify.py
+            rescrape_courses.py
+            verification_report.txt
+            resultats-et-rapports
 
       - name: "💾 Espace après checkout"
         run: |
@@ -140,117 +101,46 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "📦 Install dependencies (no cache)"
+      - name: "📦 Install dependencies"
         run: |
           pip install --no-cache-dir aiohttp beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "📋 Vérifier le rapport"
-        id: check_report
+      - name: "📋 Préparer le rapport de vérification"
         run: |
           if [ ! -f "verification_report.txt" ]; then
-            echo "⚠️  Rapport absent, exécution de verify.py..."
+            echo "⚠️  verification_report.txt absent, exécution de verify.py..."
             python verify.py || true
           fi
 
-          if [ -f "verification_report.txt" ]; then
-            echo "=== Courses manquantes ==="
-            MISSING_COURSES=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
-            echo "Total: $MISSING_COURSES courses"
-            echo "missing_count=$MISSING_COURSES" >> $GITHUB_OUTPUT
-
-            echo ""
-            echo "=== Aperçu (10 premières dates INCOMPLETE) ==="
-            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10 || true
-          else
-            echo "missing_count=0" >> $GITHUB_OUTPUT
+          if [ ! -f "verification_report.txt" ]; then
+            echo "❌ Impossible de générer verification_report.txt, arrêt."
+            exit 1
           fi
 
-      - name: "💾 Espace avant scraping"
-        run: |
-          echo "=========================================="
-          echo "ESPACE AVANT SCRAPING"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
-          echo ""
-          echo "💾 Espace disponible: ${FREE_GB} GB"
+          echo "✅ verification_report.txt prêt."
 
-          if [ "$FREE_GB" -lt "5" ]; then
-            echo "⚠️  WARNING: Espace faible (moins de 5GB)!"
-          fi
-
-      - name: "🚀 Re-scraping des courses"
-        if: steps.check_report.outputs.missing_count != '0'
+      - name: "🚀 Re-scraping des courses manquantes"
         env:
           MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
-          BATCH_SIZE: ${{ github.event.inputs.batch_size || '200' }}
         run: |
-          # Monitor disk space en arrière-plan
-          (while true; do
-            FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
-            if [ "$FREE_GB" -lt "2" ]; then
-              echo "⚠️  [MONITOR] Espace critique: ${FREE_GB}GB"
-            fi
-            sleep 30
-          done) &
-          MONITOR_PID=$!
+          echo "=========================================="
+          echo "LANCEMENT DU RE-SCRAPING"
+          echo "=========================================="
 
-          # Lancer le scraping
           if [ -z "$MAX_COURSES" ]; then
-            echo "🚀 Re-scraping TOUTES les courses manquantes"
-            python rescrape_courses.py --batch-size "$BATCH_SIZE"
+            echo "➡️  Re-scraping de TOUTES les courses manquantes"
+            python rescrape_courses.py
           else
-            echo "🚀 Re-scraping max $MAX_COURSES courses"
-            python rescrape_courses.py --max-courses "$MAX_COURSES" --batch-size "$BATCH_SIZE"
-          fi
-
-          # Stop monitor
-          kill "$MONITOR_PID" 2>/dev/null || true
-
-      - name: "📊 Aucune course manquante"
-        if: steps.check_report.outputs.missing_count == '0'
-        run: |
-          echo "✅ Aucune course manquante détectée!"
-          echo "Tous les fichiers sont déjà présents."
-
-      - name: "💾 Espace après scraping"
-        if: always()
-        run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS SCRAPING"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          if [ -d "resultats-et-rapports" ]; then
-            echo ""
-            echo "=== Taille des données ==="
-            du -sh resultats-et-rapports/ 2>/dev/null || echo "N/A"
-          fi
-
-      - name: "🆘 Nettoyage d'urgence si espace critique"
-        if: always()
-        run: |
-          FREE_GB=$(df -BG / | awk 'NR==2 {print $4}' | sed 's/G//')
-          echo "Espace actuel: ${FREE_GB}GB"
-
-          if [ "$FREE_GB" -lt "3" ]; then
-            echo "⚠️  Espace critique! Nettoyage d'urgence..."
-
-            # Clean Python cache
-            find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
-            find . -type f -name "*.pyc" -delete 2>/dev/null || true
-
-            # Git maintenance légère
-            git reflog expire --expire=now --all 2>/dev/null || true
-            git gc --prune=now 2>/dev/null || true
-
-            echo "=== Nouvel espace ==="
-            df -h | grep -E "Filesystem|/$"
+            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières)"
+            python rescrape_courses.py --max-courses "$MAX_COURSES"
           fi
 
       - name: "✅ Nouvelle vérification post-scraping"
         run: |
-          echo "=== Nouvelle vérification ==="
+          echo "=========================================="
+          echo "VÉRIFICATION POST-SCRAPING"
+          echo "=========================================="
           python verify.py || true
 
       - name: "📤 Commit verification report"
@@ -261,32 +151,8 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
             git push
-          else
-            echo "ℹ️  Aucun changement dans verification_report.txt"
-          fi
-
-      - name: "📊 Statut final"
-        if: always()
-        run: |
-          echo "=========================================="
-          echo "STATUT FINAL"
-          echo "=========================================="
-
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-
-          if [ -f "verification_report.txt" ]; then
-            echo "=== Résultat de la vérification ==="
-            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4 || true
-            echo ""
-
-            STILL_MISSING=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
-            if [ "$STILL_MISSING" -gt "0" ]; then
-              echo "⚠️  Il reste $STILL_MISSING courses manquantes"
-              echo "💡 Relancez le workflow pour continuer"
-            else
-              echo "🎉 Toutes les courses sont complètes!"
-            fi
+          else:
+            echo "ℹ️  Aucun changement à committer pour verification_report.txt"
           fi
 
       - name: "📄 Upload rapport final"
