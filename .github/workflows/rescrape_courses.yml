@@ -129,11 +129,11 @@ jobs:
           echo "=========================================="
 
           if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de TOUTES les courses manquantes"
-            python rescrape_courses.py
+            echo "➡️  Re-scraping de TOUTES les courses manquantes (concurrency 100)"
+            python rescrape_courses.py --concurrency 100
           else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières)"
-            python rescrape_courses.py --max-courses "$MAX_COURSES"
+            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières, concurrency 100)"
+            python rescrape_courses.py --max-courses "$MAX_COURSES" --concurrency 100
           fi
 
       - name: "✅ Nouvelle vérification post-scraping"
