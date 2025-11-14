@@ -4,22 +4,21 @@ Script de re-scraping intelligent des courses manquantes ZEturf
 
 - Parse verification_report.txt pour identifier les courses manquantes
 - Reconstruit les URLs directement depuis les noms de fichiers
-- Scraping CONCURRENT (asyncio + aiohttp) avec une concurrency fixe
-- Travail par lots de N courses (N = CONCURRENCY)
+- Scraping CONCURRENT (asyncio + aiohttp) avec une concurrency dynamique
+- Travail par lots de N courses (N = concurrency courante)
 - A chaque lot :
     * stats (succès, 429, temps)
-    * time sleep dynamique entre lots :
-        - start = 60s (1 minute)
-        - si au moins 1 erreur 429 sur le lot :
-              * on remonte le sleep à 60s
-              * on mémorise le sleep ayant déclenché 429
-                et on ne redescendra plus jamais à ce sleep-là ni en dessous (plancher)
-        - si 0 erreur 429 :
-              * on diminue le sleep de 1s
-              * sans jamais descendre sous le plancher
-        - le sleep reste toujours entre 1s et 60s
+    * sleep entre lots FIXE à 30s
+    * concurrency dynamique :
+        - on part de 100 (plancher initial)
+        - si un lot a au moins 1 erreur 429 :
+              -> prochain lot à concurrency = plancher
+        - si un lot a 0 erreur 429 :
+              -> si concurrency > plancher : nouveau plancher = concurrency
+              -> prochain lot concurrency += 20 (jusqu'à MAX_CONCURRENCY)
 - Les 429 sont retentées au lot suivant, sans jamais sauter une course
 - Commit par année, années traitées l'une après l'autre
+- Option --start-year pour ignorer les années plus anciennes
 """
 
 import re
@@ -46,13 +45,13 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
 }
 
-# Concurrency fixe : nombre de requêtes HTTP en parallèle
-CONCURRENCY = 100
+# Concurrency dynamique
+MIN_CONCURRENCY = 100
+CONCURRENCY_STEP = 20
+MAX_CONCURRENCY = 300  # garde une borne haute pour éviter les folies
 
-# Time sleep dynamique entre lots (en secondes)
-SLEEP_START = 60   # 1 minute
-SLEEP_MIN = 1
-SLEEP_MAX = 60
+# Sleep fixe entre lots (en secondes)
+SLEEP_BETWEEN_LOTS = 30  # 30s entre chaque lot
 
 # Seuils disque
 WARN_DISK_GB = 5
@@ -235,7 +234,7 @@ async def _scrape_one_course(
 async def scrape_year(year: str, dates_courses: dict) -> None:
     """
     Scrape toutes les courses manquantes pour une année, en respectant l'ordre
-    date → réunion → course, avec une concurrency fixe et des lots successifs.
+    date → réunion → course, avec une concurrency dynamique et des lots successifs.
 
     - On ne mélange jamais plusieurs années.
     - On ne saute jamais une course :
@@ -281,10 +280,8 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
     }
 
     lot_index = 0
-    sleep_between_lots = SLEEP_START  # en secondes
-    # Plancher : on ne redescendra jamais en dessous de ce sleep
-    # après avoir vu des 429 à un certain niveau.
-    min_safe_sleep = SLEEP_MIN
+    concurrency_floor = MIN_CONCURRENCY
+    concurrency_current = MIN_CONCURRENCY
 
     async with aiohttp.ClientSession() as session:
         while pending:
@@ -296,7 +293,7 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
             stats["lots"] += 1
 
             free_gb = get_disk_space_gb()
-            lot_size = min(CONCURRENCY, len(pending))
+            lot_size = min(concurrency_current, len(pending))
             current_lot = pending[:lot_size]
             pending = pending[lot_size:]
 
@@ -305,13 +302,13 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
 
             print(
                 f"\n  🧩 Lot #{lot_index}: courses {first_idx}-{last_idx}/{total_courses} "
-                f"(taille lot: {lot_size}, concurrency: {CONCURRENCY})"
+                f"(taille lot: {lot_size}, concurrency: {concurrency_current}, plancher: {concurrency_floor})"
             )
             print(f"  💾 Espace libre avant lot: {free_gb:.2f} GB")
-            print(f"  ⏱️  Time sleep actuel entre lots: {sleep_between_lots}s (plancher: {min_safe_sleep}s)")
+            print(f"  ⏱️  Sleep fixe entre lots: {SLEEP_BETWEEN_LOTS}s")
 
             # Lancer le lot en parallèle
-            sem = asyncio.Semaphore(CONCURRENCY)
+            sem = asyncio.Semaphore(concurrency_current)
             tasks = [
                 _scrape_one_course(sem, session, date_str, reunion_slug, course_file, filepath)
                 for (date_str, reunion_slug, course_file, filepath) in current_lot
@@ -354,50 +351,43 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
             )
             print(f"  💾 Espace libre après lot: {get_disk_space_gb():.2f} GB")
 
-            # Ajustement du time sleep entre lots
+            # Ajustement de la concurrency
             if lot_429 > 0:
-                # On a vu au moins un 429.
-                # 1) On met à jour le plancher pour ne jamais redescendre
-                #    au time sleep ayant déclenché cette série de 429.
-                #    On considère que le "bad sleep" est le sleep actuel.
-                bad_sleep = sleep_between_lots
-                # On interdit de descendre à bad_sleep ou en dessous
-                new_min_safe = min(SLEEP_MAX, bad_sleep + 1)
-                if new_min_safe > min_safe_sleep:
+                # On a vu des 429 → retour au plancher
+                if concurrency_current > concurrency_floor:
                     print(
-                        f"  📌 Nouveau plancher de time sleep: {min_safe_sleep}s → {new_min_safe}s "
-                        f"(429 détectés à {bad_sleep}s)"
+                        f"  ⚠️  {lot_429} erreurs 429 avec concurrency={concurrency_current}, "
+                        f"retour au plancher {concurrency_floor}"
                     )
-                    min_safe_sleep = new_min_safe
-
-                # 2) On remonte toujours le sleep à 60s
-                old_sleep = sleep_between_lots
-                sleep_between_lots = SLEEP_MAX
-                if sleep_between_lots != old_sleep:
+                else:
                     print(
-                        f"  🔼 Remontée du time sleep à {sleep_between_lots}s "
-                        f"après {lot_429} erreurs 429"
+                        f"  ⚠️  {lot_429} erreurs 429 au plancher {concurrency_floor}, "
+                        f"on reste au plancher"
+                    )
+                concurrency_current = concurrency_floor
+            else:
+                # Aucun 429 sur ce lot
+                if concurrency_current > concurrency_floor:
+                    old_floor = concurrency_floor
+                    concurrency_floor = concurrency_current
+                    print(
+                        f"  📌 Nouveau plancher de concurrency: {old_floor} → {concurrency_floor}"
                     )
 
-            elif lot_429 == 0:
-                # Aucun 429 sur ce lot → on diminue de 1s, mais
-                # jamais en-dessous du plancher ni de SLEEP_MIN.
-                old_sleep = sleep_between_lots
-                candidate = max(SLEEP_MIN, sleep_between_lots - 1)
-                if candidate < min_safe_sleep:
-                    candidate = min_safe_sleep
-                sleep_between_lots = min(candidate, SLEEP_MAX)
+                proposed = concurrency_current + CONCURRENCY_STEP
+                if proposed > MAX_CONCURRENCY:
+                    proposed = MAX_CONCURRENCY
 
-                if sleep_between_lots != old_sleep:
+                if proposed != concurrency_current:
                     print(
-                        f"  🔽 Diminution du time sleep: {old_sleep}s → {sleep_between_lots}s "
-                        f"(0 erreur 429 sur ce lot)"
+                        f"  🔼 Augmentation de concurrency: {concurrency_current} → {proposed}"
                     )
+                concurrency_current = proposed
 
-            # Pause entre lots si il reste des pending
+            # Pause fixe entre lots s'il reste des courses
             if pending:
-                print(f"  ⏳ Pause de {sleep_between_lots}s avant le lot suivant...")
-                await asyncio.sleep(sleep_between_lots)
+                print(f"  ⏳ Pause de {SLEEP_BETWEEN_LOTS}s avant le lot suivant...")
+                await asyncio.sleep(SLEEP_BETWEEN_LOTS)
 
     # Résumé par année
     print(f"\n{'=' * 80}")
@@ -473,6 +463,12 @@ async def main() -> None:
         default=None,
         help="(Optionnel) Limite globale de courses à traiter (approx, par années entières)",
     )
+    parser.add_argument(
+        "--start-year",
+        type=int,
+        default=None,
+        help="(Optionnel) Année de départ (inclus), ex: 2010",
+    )
     args = parser.parse_args()
 
     print("=" * 80)
@@ -492,12 +488,24 @@ async def main() -> None:
         print("✓ Aucune course manquante détectée\n")
         return
 
+    # Filtre par start_year si fourni
+    if args.start_year is not None:
+        print(f"➡️  Filtrage: on garde uniquement les années >= {args.start_year}")
+        missing_by_year = {
+            year: data
+            for year, data in missing_by_year.items()
+            if int(year) >= args.start_year
+        }
+        if not missing_by_year:
+            print(f"ℹ️  Aucune année >= {args.start_year} avec des courses manquantes.")
+            return
+
     total_courses = sum(
         len(courses)
         for year_data in missing_by_year.values()
         for courses in year_data.values()
     )
-    print(f"📊 {len(missing_by_year)} années avec courses manquantes")
+    print(f"📊 {len(missing_by_year)} années avec courses manquantes (après filtre éventuel)")
     print(f"📊 {total_courses} courses manquantes au total\n")
 
     courses_planned = 0
