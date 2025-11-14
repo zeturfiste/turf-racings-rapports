@@ -23,6 +23,7 @@ HEADERS = {
 # Rate limiting
 INITIAL_BATCH_SIZE = 200
 MIN_BATCH_SIZE = 10
+MAX_SAFE_BATCH_SIZE = None  # Will be set when 429 is detected
 RATE_LIMIT_DETECTED = False
 
 # =========================
@@ -187,6 +188,14 @@ async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int):
     print(f"ANNÉE {year}")
     print(f"{'='*80}\n")
     
+    # Check disk space before starting
+    free_gb = get_disk_space_gb()
+    print(f"💾 Espace disque disponible: {free_gb:.2f} GB")
+    
+    if free_gb < 3:
+        print(f"⚠️  Espace insuffisant pour traiter cette année")
+        return
+    
     # Flatten all courses for this year
     all_courses = []
     for date_str, courses_list in sorted(dates_courses.items()):
@@ -213,10 +222,18 @@ async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int):
     
     async with aiohttp.ClientSession() as session:
         while position < total_courses:
+            # Check disk space before each batch
+            if check_disk_space_critical():
+                print(f"⚠️  Arrêt à la position {position}/{total_courses}")
+                break
+            
             remaining = total_courses - position
             current_batch_size = min(batch_size, remaining)
             
+            # Show disk space status
+            free_gb = get_disk_space_gb()
             print(f"\n  📦 Batch: courses {position+1}-{position+current_batch_size}/{total_courses} (size: {current_batch_size})")
+            print(f"  💾 Espace libre: {free_gb:.2f} GB")
             
             batch = all_courses[position:position+current_batch_size]
             success, rate_limited, errors = await scrape_courses_batch(session, batch, current_batch_size)
@@ -247,6 +264,7 @@ async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int):
     print(f"✓ Succès:       {stats['success']}/{total_courses}")
     print(f"✗ Échecs:       {stats['failed']}")
     print(f"⚠️  Rate limits:  {stats['rate_limits']}")
+    print(f"💾 Espace final: {get_disk_space_gb():.2f} GB")
     print(f"{'='*80}\n")
 
 # =========================
@@ -262,6 +280,14 @@ async def main():
     print("="*80)
     print("RE-SCRAPING DIRECT DES COURSES MANQUANTES")
     print("="*80 + "\n")
+    
+    # Initial disk check
+    free_gb = get_disk_space_gb()
+    print(f"💾 Espace disque initial: {free_gb:.2f} GB\n")
+    
+    if free_gb < 5:
+        print("⚠️  WARNING: Espace disque faible! Recommandé: > 5GB")
+        print("Continuation avec prudence...\n")
     
     # Parse report
     missing_by_year = parse_missing_courses()
@@ -282,6 +308,13 @@ async def main():
     # Process year by year
     courses_processed = 0
     for year in sorted(missing_by_year.keys()):
+        # Check disk space before each year
+        free_gb = get_disk_space_gb()
+        if free_gb < 2:
+            print(f"⚠️  ARRÊT: Espace disque insuffisant ({free_gb:.2f} GB)")
+            print(f"Progression: {courses_processed}/{total_courses} courses traitées")
+            break
+        
         # Check global limit
         if args.max_courses and courses_processed >= args.max_courses:
             print(f"⚠️  Limite globale atteinte ({args.max_courses} courses)")
@@ -298,6 +331,7 @@ async def main():
     
     print("\n" + "="*80)
     print("SCRAPING TERMINÉ")
+    print(f"💾 Espace disque final: {get_disk_space_gb():.2f} GB")
     print("="*80)
 
 def git_commit_year(year: str):
