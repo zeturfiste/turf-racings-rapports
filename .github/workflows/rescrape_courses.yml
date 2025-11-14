@@ -101,6 +101,11 @@ jobs:
           pip install --no-cache-dir aiohttp beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
+      - name: "⚙️ Config Git pour les commits"
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
       - name: "📋 Préparer le rapport de vérification"
         run: |
           if [ ! -f "verification_report.txt" ]; then
@@ -120,7 +125,7 @@ jobs:
           echo "=========================================="
           echo "LANCEMENT DU RE-SCRAPING (concurrency 100)"
           echo "=========================================="
-          python rescrape_courses.py --concurrency 100
+          python rescrape_courses.py
 
       - name: "✅ Nouvelle vérification post-scraping"
         run: |
@@ -131,8 +136,6 @@ jobs:
 
       - name: "📤 Commit verification report"
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
           git add verification_report.txt
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
