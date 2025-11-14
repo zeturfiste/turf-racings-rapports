@@ -47,11 +47,11 @@ HEADERS = {
 
 # Concurrency dynamique
 MIN_CONCURRENCY = 100
-CONCURRENCY_STEP = 20
-MAX_CONCURRENCY = 120  # garde une borne haute pour éviter les folies
+CONCURRENCY_STEP = 10
+MAX_CONCURRENCY = 100  # garde une borne haute pour éviter les folies
 
 # Sleep fixe entre lots (en secondes)
-SLEEP_BETWEEN_LOTS = 30  # 30s entre chaque lot
+SLEEP_BETWEEN_LOTS = 10  # 10s entre chaque lot
 
 # Seuils disque
 WARN_DISK_GB = 5
