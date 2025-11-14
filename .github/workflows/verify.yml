@@ -19,7 +19,7 @@ jobs:
 
           echo ""
           echo "=== Top 40 plus gros dossiers (racine) ==="
-          # ATTENTION: peut prendre un peu de temps, mais très utile pour voir où part l'espace
+          # Très utile pour comprendre où part l'espace
           sudo du -xh / | sort -h | tail -n 40
 
       # 2) Checkout repository
@@ -40,46 +40,86 @@ jobs:
 
           echo ""
           echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
-          du -xh resultats-et-rapports | sort -h | tail -n 40
+          if [ -d "resultats-et-rapports" ]; then
+            du -xh resultats-et-rapports | sort -h | tail -n 40
+          else
+            echo "resultats-et-rapports n'existe pas encore."
+          fi
 
-      # 4) Nettoyage pour libérer un max d'espace AVANT d'installer Python/outils
-      #    (on supprime des trucs préinstallés dont tu ne te sers pas)
-      - name: Free disk space BEFORE running tests
+      # 4) Nettoyage DYNAMIQUE pour libérer un max d'espace AVANT Python
+      - name: Dynamic free disk space BEFORE verification
         run: |
           echo "=== df -h AVANT CLEANUP ==="
           df -h
 
+          START_USED=$(df -B1 / | awk 'NR==2 {print $3}')
           echo ""
-          echo "=== Nettoyage des outils/caches préinstallés inutiles pour ce job ==="
+          echo "Utilisation initiale (bytes): $START_USED"
 
-          # .NET SDK (très lourd, plusieurs Go)
-          sudo rm -rf /usr/share/dotnet || true
+          echo ""
+          echo "=== Suppression dynamique des gros outils inutiles pour ce job ==="
 
-          # Haskell / GHC
-          sudo rm -rf /opt/ghc || true
+          # Liste de dossiers lourds préinstallés qu'on peut supprimer sans risque
+          CANDIDATES=(
+            "/usr/share/dotnet"
+            "/usr/local/lib/android"
+            "/usr/local/.ghcup"
+            "/opt/hostedtoolcache/CodeQL"
+            "/usr/share/swift"
+          )
 
-          # Android SDK
-          sudo rm -rf /usr/local/lib/android || true
+          total_reclaimed_du=0
 
-          # CodeQL (gros aussi)
-          sudo rm -rf /opt/hostedtoolcache/CodeQL || true
+          for path in "${CANDIDATES[@]}"; do
+            if [ -e "$path" ]; then
+              size_bytes=$(sudo du -sb "$path" 2>/dev/null | awk '{print $1}')
+              size_h=$(sudo du -sh "$path" 2>/dev/null | awk '{print $1}')
+              echo "🧹 Suppression $path (taille: $size_h)"
+              sudo rm -rf "$path" || true
+              total_reclaimed_du=$(( total_reclaimed_du + size_bytes ))
+            else
+              echo "ℹ️  $path inexistant, rien à supprimer"
+            fi
+          done
 
-          # Images Docker & cache de build (au cas où quelque chose les a tirées)
-          sudo docker image prune -af || true
-          sudo docker builder prune -af || true
+          echo ""
+          echo "🧹 Docker images & volumes..."
+          docker system prune -af --volumes 2>/dev/null || true
 
-          # Caches apt
-          sudo rm -rf /var/lib/apt/lists/* || true
+          echo "🧹 Caches APT..."
+          sudo rm -rf /var/lib/apt/lists/* 2>/dev/null || true
+
+          echo "🧹 Caches pip..."
+          pip cache purge 2>/dev/null || true
+          rm -rf ~/.cache/pip 2>/dev/null || true
+
+          echo "🧹 Caches npm/yarn..."
+          rm -rf ~/.npm ~/.yarn 2>/dev/null || true
+          sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
+
+          echo "🧹 Fichiers temporaires..."
+          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
+
+          echo "🧹 Logs système..."
+          sudo journalctl --vacuum-time=1s 2>/dev/null || true
+          sudo rm -rf /var/log/* 2>/dev/null || true
+
+          END_USED=$(df -B1 / | awk 'NR==2 {print $3}')
+          RECLAIMED=$(( START_USED - END_USED ))
 
           echo ""
           echo "=== df -h APRÈS CLEANUP ==="
           df -h
 
           echo ""
-          echo "=== Top 40 plus gros dossiers APRÈS CLEANUP ==="
-          sudo du -xh / | sort -h | tail -n 40
+          echo "=== BILAN CLEANUP ==="
+          echo "Utilisation avant (bytes):  $START_USED"
+          echo "Utilisation après (bytes):  $END_USED"
+          echo "Gain estimé via df:         $((RECLAIMED/1024/1024/1024)) GB"
+          echo "Gain cumulé via du (brut):  $((total_reclaimed_du/1024/1024/1024)) GB"
+          echo "✅ Nettoyage dynamique terminé"
 
-      # 5) Set up Python (après cleanup, comme ça il réinstalle ce dont il a besoin)
+      # 5) Set up Python (après cleanup)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -125,6 +165,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
+          # Récupérer la dernière version du repo
           git fetch origin main
           git reset --soft origin/main
 
@@ -136,7 +177,7 @@ jobs:
             git push origin HEAD:main
           fi
 
-      # 11) Vérifier le résultat de la vérif
+      # 11) Vérifier le résultat de la vérif (comportement actuel conservé)
       - name: Check verification result
         if: steps.verify.outcome == 'failure'
         run: |
