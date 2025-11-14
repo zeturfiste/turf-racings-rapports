@@ -1,77 +1,77 @@
-name: Re-scrape Missing Courses (matrix)
+name: Verify ZEturf Data
 
 on:
   workflow_dispatch:
-    inputs:
-      max_courses:
-        description: 'Nombre max de courses à traiter (approx, par années entières, par job)'
-        required: false
-        type: string
+  schedule:
+    - cron: '0 0 * * 0'
 
 jobs:
-  rescrape-courses:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
-
-    strategy:
-      fail-fast: false
-      matrix:
-        years_group:
-          - "2008 2011 2014 2017 2020 2023"
-          - "2009 2012 2015 2018 2021 2024"
-          - "2010 2013 2016 2019 2022 2025"
-
-    env:
-      YEARS: ${{ matrix.years_group }}
+    timeout-minutes: 120
 
     steps:
-      - name: "📊 Espace disque initial"
+      # 1) État du disque AVANT tout (VM vierge)
+      - name: Disk usage BEFORE anything
         run: |
-          echo "=========================================="
-          echo "ESPACE DISQUE INITIAL"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "🧹 Nettoyage agressif du runner"
-        run: |
-          echo "=========================================="
-          echo "NETTOYAGE AGRESSIF DU RUNNER"
-          echo "=========================================="
-
-          echo "=== Espace avant nettoyage ==="
-          df -h | grep -E "Filesystem|/$"
+          echo "=== df -h (global) ==="
+          df -h
 
           echo ""
-          echo "🧹 Docker..."
+          echo "=== Top 40 plus gros dossiers (racine) ==="
+          # Diagnostic uniquement : lecture, n'utilise pas d'espace disque
+          sudo du -xh / | sort -h | tail -n 40
+
+      # 2) Nettoyage DYNAMIQUE AVANT le checkout
+      - name: Dynamic free disk space BEFORE checkout
+        run: |
+          echo "=== df -h AVANT CLEANUP (avant checkout) ==="
+          df -h
+
+          START_USED=$(df -B1 / | awk 'NR==2 {print $3}')
+          echo ""
+          echo "Utilisation initiale (bytes): $START_USED"
+
+          echo ""
+          echo "=== Suppression dynamique des gros outils inutiles pour ce job ==="
+
+          # Dossiers lourds préinstallés qu'on peut supprimer sans risque pour un job Python
+          CANDIDATES=(
+            "/usr/share/dotnet"
+            "/usr/local/lib/android"
+            "/usr/local/.ghcup"
+            "/opt/hostedtoolcache/CodeQL"
+            "/usr/share/swift"
+          )
+
+          total_reclaimed_du=0
+
+          for path in "${CANDIDATES[@]}"; do
+            if [ -e "$path" ]; then
+              size_bytes=$(sudo du -sb "$path" 2>/dev/null | awk '{print $1}')
+              size_h=$(sudo du -sh "$path" 2>/dev/null | awk '{print $1}')
+              echo "🧹 Suppression $path (taille: $size_h)"
+              sudo rm -rf "$path" || true
+              total_reclaimed_du=$(( total_reclaimed_du + size_bytes ))
+            else
+              echo "ℹ️  $path inexistant, rien à supprimer"
+            fi
+          done
+
+          echo ""
+          echo "🧹 Docker images & volumes..."
           docker system prune -af --volumes 2>/dev/null || true
 
-          echo "🧹 APT cache..."
-          sudo apt-get clean 2>/dev/null || true
+          echo "🧹 Caches APT..."
           sudo rm -rf /var/lib/apt/lists/* 2>/dev/null || true
 
-          echo "🧹 pip cache..."
+          echo "🧹 Caches pip..."
           pip cache purge 2>/dev/null || true
           rm -rf ~/.cache/pip 2>/dev/null || true
 
-          echo "🧹 npm/yarn globaux..."
+          echo "🧹 Caches npm/yarn..."
+          rm -rf ~/.npm ~/.yarn 2>/dev/null || true
           sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
-          sudo rm -rf ~/.npm ~/.yarn 2>/dev/null || true
-
-          echo "🧹 Android SDK (~8GB)..."
-          sudo rm -rf /usr/local/lib/android 2>/dev/null || true
-          sudo rm -rf "$ANDROID_HOME" 2>/dev/null || true
-
-          echo "🧹 .NET SDK (~3GB)..."
-          sudo rm -rf /usr/share/dotnet 2>/dev/null || true
-
-          echo "🧹 CodeQL..."
-          sudo rm -rf /opt/hostedtoolcache/CodeQL 2>/dev/null || true
-
-          echo "🧹 Haskell (ghcup)..."
-          sudo rm -rf /usr/local/.ghcup 2>/dev/null || true
-
-          echo "🧹 Swift toolchain..."
-          sudo rm -rf /usr/share/swift 2>/dev/null || true
 
           echo "🧹 Fichiers temporaires..."
           sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
@@ -80,68 +80,114 @@ jobs:
           sudo journalctl --vacuum-time=1s 2>/dev/null || true
           sudo rm -rf /var/log/* 2>/dev/null || true
 
-          echo ""
-          echo "=== Espace après nettoyage ==="
-          df -h | grep -E "Filesystem|/$"
+          END_USED=$(df -B1 / | awk 'NR==2 {print $3}')
+          RECLAIMED=$(( START_USED - END_USED ))
 
-      - name: "📥 Checkout (sparse)"
+          echo ""
+          echo "=== df -h APRÈS CLEANUP (avant checkout) ==="
+          df -h
+
+          echo ""
+          echo "=== BILAN CLEANUP (avant checkout) ==="
+          echo "Utilisation avant (bytes):  $START_USED"
+          echo "Utilisation après (bytes):  $END_USED"
+          echo "Gain estimé via df:         $((RECLAIMED/1024/1024/1024)) GB"
+          echo "Gain cumulé via du (brut):  $((total_reclaimed_du/1024/1024/1024)) GB"
+          echo "✅ Nettoyage dynamique terminé"
+
+      # 3) Checkout repository (APRÈS cleanup)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0         # nécessaire pour git pull/merge propre
-          sparse-checkout: |
-            rescrape_courses.py
-            verification_report.txt
-            resultats-et-rapports
+          # On n'a pas besoin de tout l'historique pour juste ajouter verification_report.txt
+          fetch-depth: 1
 
-      - name: "💾 Espace après checkout"
+      # 4) État du disque après checkout (taille de ton dépôt)
+      - name: Disk usage AFTER checkout
         run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS CHECKOUT"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Taille du repo ==="
-          du -sh . 2>/dev/null || echo "N/A"
-          echo ""
-          echo "=== Taille .git ==="
-          du -sh .git 2>/dev/null || echo "N/A"
+          echo "=== df -h (après checkout) ==="
+          df -h
 
-          if [ ! -f "verification_report.txt" ]; then
-            echo "❌ verification_report.txt est manquant !"
-            echo "   Ce workflow suppose que le rapport existe déjà."
-            exit 1
+          echo ""
+          echo "=== Taille des dossiers à la racine du repo (profondeur 2) ==="
+          du -h -d2 .
+
+          echo ""
+          echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
+          if [ -d "resultats-et-rapports" ]; then
+            du -xh resultats-et-rapports | sort -h | tail -n 40
+          else
+            echo "resultats-et-rapports n'existe pas encore."
           fi
 
-      - name: "🐍 Setup Python"
+      # 5) Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: "📦 Install dependencies"
+      # 6) Installer les dépendances Python
+      - name: Install dependencies
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
-          pip cache purge 2>/dev/null || true
+          pip install --upgrade pip
+          pip install beautifulsoup4 lxml
+          # Nettoyage cache pip pour ne pas garder les wheels
+          pip cache purge || true
 
-      - name: "🚀 Re-scraping des courses manquantes pour ce groupe d'années"
-        env:
-          MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
+      # 7) Afficher l'espace disque juste avant le script de vérif
+      - name: Disk usage BEFORE verification
         run: |
-          echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (groupe: $YEARS)"
-          echo "=========================================="
+          echo "=== df -h juste avant python verify.py ==="
+          df -h
+          echo ""
+          echo "=== Taille du repo (profondeur 2) ==="
+          du -h -d2 .
 
-          if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de toutes les courses manquantes pour: $YEARS"
-            python rescrape_courses.py --years $YEARS
-          else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (approx, par années entières) pour: $YEARS"
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
-          fi
+      # 8) Run verification
+      - name: Run verification
+        id: verify
+        run: |
+          python verify.py > verification_report.txt
+        continue-on-error: true
 
-      - name: "📄 Upload log de ce job (facultatif)"
+      # 9) Upload verification report
+      - name: Upload verification report
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: rescrape-log-${{ matrix.years_group }}-${{ github.run_number }}
-          path: .
-          retention-days: 3
+          name: verification-report
+          path: verification_report.txt
+          retention-days: 90
+
+      # 10) Commit report to repo
+      - name: Commit report to repo
+        if: always()
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          # On se cale sur la dernière version distante
+          git fetch origin main
+          git reset --soft origin/main
+
+          git add verification_report.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD:main
+          fi
+
+      # 11) Vérifier le résultat de la vérif
+      - name: Check verification result
+        if: steps.verify.outcome == 'failure'
+        run: |
+          echo "⚠️ Verification found issues. Check verification_report.txt for details."
+          cat verification_report.txt
+          exit 1
+
+      - name: Success message
+        if: steps.verify.outcome == 'success'
+        run: |
+          echo "✓ All data verified successfully!"
+          cat verification_report.txt
