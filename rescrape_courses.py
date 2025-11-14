@@ -4,13 +4,15 @@ Script de re-scraping intelligent des courses manquantes ZEturf
 
 - Parse verification_report.txt pour identifier les courses manquantes
 - Reconstruit les URLs directement depuis les noms de fichiers
-- Scraping CONCURRENT (asyncio + aiohttp) avec limite de parallélisme dynamique
-- Auto-ajustement du concurrency en fonction des 429 (rate limit)
-- Monitoring de l'espace disque
-- Commit par année
+- Scraping CONCURRENT (asyncio + aiohttp) avec une concurrency fixe
+- Travail par lots de N courses (N = concurrency)
+- A chaque lot : stats (succès, 429, temps)
+- Les 429 sont retentées au lot suivant, sans jamais sauter une course
+- Commit par année, années traitées l'une après l'autre
 """
 
 import re
+import time
 import asyncio
 import aiohttp
 from pathlib import Path
@@ -33,17 +35,8 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
 }
 
-# Batch & concurrency (dynamiques)
-INITIAL_BATCH_SIZE = 14000        # nombre de courses logiques dans un batch
-MIN_BATCH_SIZE = 13602            # (on ne le touche pas ici, on agit surtout sur la concurrency)
-
-INITIAL_CONCURRENCY = 14000      # point de départ : 100 requêtes en parallèle
-MIN_CONCURRENCY = 13602
-CONCURRENCY_STEP = 1000           # +10 / -10
-CONSECUTIVE_THRESHOLD = 20       # nb de batches OK avant tentative d'augmentation
-
-# Limite "interdite" après 429 : on ne remonte jamais à la concurrency qui a causé 429
-last_rate_limit_concurrency = None  # ex : 240 → on ne dépassera jamais 230
+# Concurrency fixe : nombre de requêtes HTTP en parallèle
+CONCURRENCY = 150
 
 # Seuils disque
 WARN_DISK_GB = 5
@@ -109,15 +102,15 @@ def parse_missing_courses(report_path: Path = Path("verification_report.txt")):
         for raw_line in f:
             line = raw_line.strip()
 
-            # Détecter l'en-tête de date
+            # En-tête de date
             if line.startswith("DATE:") and "STATUS:" in line:
                 match = re.search(r"DATE:\s*(\d{4}-\d{2}-\d{2})", line)
                 if match:
                     current_date = match.group(1)
 
-            # Détecter les courses manquantes uniquement
+            # Lignes de courses manquantes
             elif current_date and line.startswith("❌") and "/" in line and ".html" in line:
-                # Format: ❌ R1-auteuil/R1C2-prix-du-president-de-la-republique.html
+                # Format: ❌ R1-auteuil/R1C2-prix-xxx.html
                 match = re.search(r"❌\s*([^/]+)/([^/]+\.html)", line)
                 if match:
                     reunion_slug = match.group(1)
@@ -125,6 +118,7 @@ def parse_missing_courses(report_path: Path = Path("verification_report.txt")):
                     year = current_date[:4]
                     missing[year][current_date].append((reunion_slug, course_file))
 
+    # On renvoie un dict classique pour figer l'ordre
     return dict(missing)
 
 # =========================
@@ -220,62 +214,19 @@ async def _scrape_one_course(
             return None, msg
 
 # =========================
-# Batch scraping (concurrent) avec détection des 429
+# Scraping d'une année, en lots successifs
 # =========================
-async def scrape_courses_batch(
-    session: aiohttp.ClientSession,
-    courses,
-    concurrency: int,
-):
+async def scrape_year(year: str, dates_courses: dict) -> None:
     """
-    Scrape un batch de courses de manière CONCURRENTE.
+    Scrape toutes les courses manquantes pour une année, en respectant l'ordre
+    date → réunion → course, avec une concurrency fixe et des lots successifs.
 
-    Args:
-        courses: [(date, reunion_slug, course_file, filepath), ...]
-        concurrency: nombre max de requêtes HTTP en parallèle
-
-    Returns:
-        (success_count, rate_limited, errors)
+    - On ne mélange jamais plusieurs années.
+    - On ne saute jamais une course :
+        * succès → course terminée
+        * 429 → la course est remise au début de la file pour le lot suivant
+        * autres erreurs → comptées comme échecs définitifs
     """
-    sem = asyncio.Semaphore(concurrency)
-
-    tasks = [
-        _scrape_one_course(sem, session, date_str, reunion_slug, course_file, filepath)
-        for (date_str, reunion_slug, course_file, filepath) in courses
-    ]
-
-    success = 0
-    errors = []
-    rate_limited = False
-
-    for coro in asyncio.as_completed(tasks):
-        status, err = await coro
-        if status == 200:
-            success += 1
-        elif status == 429:
-            rate_limited = True
-            if err:
-                errors.append(err)
-        else:
-            if err:
-                errors.append(err)
-
-    return success, rate_limited, errors
-
-# =========================
-# Scraping par année avec auto-ajustement du concurrency
-# =========================
-async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int) -> None:
-    """
-    Scrape toutes les courses manquantes pour une année avec concurrency adaptatif.
-
-    Args:
-        year: Année à traiter
-        dates_courses: dict[date] = [(reunion_slug, course_file), ...]
-        initial_batch_size: nombre max de courses dans un batch logique
-    """
-    global last_rate_limit_concurrency
-
     print(f"\n{'=' * 80}")
     print(f"ANNÉE {year}")
     print(f"{'=' * 80}\n")
@@ -287,10 +238,11 @@ async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int) -
         print("⚠️  Espace insuffisant pour traiter cette année, on saute.")
         return
 
-    # Aplatir toutes les courses
+    # Aplatir toutes les courses de l'année dans l'ordre
+    # dates_courses est un dict[date] -> list[(reunion_slug, course_file)]
     all_courses = []
-    for date_str, courses_list in sorted(dates_courses.items()):
-        for reunion_slug, course_file in courses_list:
+    for date_str in sorted(dates_courses.keys()):
+        for reunion_slug, course_file in dates_courses[date_str]:
             date_dir = get_date_directory(date_str)
             reunion_dir = date_dir / reunion_slug
             filepath = reunion_dir / course_file
@@ -302,129 +254,96 @@ async def scrape_year(year: str, dates_courses: dict, initial_batch_size: int) -
     if total_courses == 0:
         return
 
+    # On garde une file de "pending" dans l'ordre
+    pending = list(all_courses)
+
     stats = {
+        "total": total_courses,
         "success": 0,
-        "failed": 0,
-        "rate_limits": 0,
-        "concurrency_increases": 0,
-        "concurrency_decreases": 0,
+        "failed_429": 0,
+        "failed_other": 0,
+        "lots": 0,
     }
 
-    batch_size = max(initial_batch_size, MIN_BATCH_SIZE)
-    position = 0
-    concurrency = INITIAL_CONCURRENCY
-    consecutive_successes = 0
+    lot_index = 0
 
     async with aiohttp.ClientSession() as session:
-        while position < total_courses:
+        while pending:
             if check_disk_space_critical():
-                print(f"⚠️  Arrêt à la position {position}/{total_courses}")
+                print("⚠️  Arrêt pour manque d'espace disque.")
                 break
 
-            remaining = total_courses - position
-            current_batch_size = min(batch_size, remaining)
+            lot_index += 1
+            stats["lots"] += 1
 
             free_gb = get_disk_space_gb()
+            lot_size = min(CONCURRENCY, len(pending))
+            current_lot = pending[:lot_size]
+            pending = pending[lot_size:]
+
+            first_idx = total_courses - len(pending) - lot_size + 1
+            last_idx = total_courses - len(pending)
+
             print(
-                f"\n  📦 Batch: courses {position+1}-"
-                f"{position+current_batch_size}/{total_courses} "
-                f"(batch size: {current_batch_size}, concurrency: {concurrency})"
+                f"\n  🧩 Lot #{lot_index}: courses {first_idx}-{last_idx}/{total_courses} "
+                f"(taille lot: {lot_size}, concurrency: {CONCURRENCY})"
             )
-            print(f"  💾 Espace libre: {free_gb:.2f} GB")
+            print(f"  💾 Espace libre avant lot: {free_gb:.2f} GB")
 
-            batch = all_courses[position:position + current_batch_size]
+            # Lancer le lot en parallèle
+            sem = asyncio.Semaphore(CONCURRENCY)
+            tasks = [
+                _scrape_one_course(sem, session, date_str, reunion_slug, course_file, filepath)
+                for (date_str, reunion_slug, course_file, filepath) in current_lot
+            ]
 
-            # Scraping concurrent de ce batch
-            success, rate_limited, errors = await scrape_courses_batch(
-                session, batch, concurrency
-            )
+            lot_start = time.time()
+            lot_success = 0
+            lot_429 = 0
+            lot_other_errors = 0
+            retry_429 = []
 
-            stats["success"] += success
-            stats["failed"] += len(errors)
-
-            if rate_limited:
-                # 429 détecté → on baisse la concurrency et on RETENTE le même batch
-                stats["rate_limits"] += 1
-                consecutive_successes = 0
-
-                print(f"      ⚠️  Rate limit détecté avec concurrency={concurrency}")
-
-                # On note la concurrency qui a causé un 429
-                if last_rate_limit_concurrency is None or concurrency < last_rate_limit_concurrency:
-                    last_rate_limit_concurrency = concurrency
-
-                # Nouvelle concurrency : -10, mais jamais en dessous de MIN_CONCURRENCY
-                new_concurrency = max(MIN_CONCURRENCY, concurrency - CONCURRENCY_STEP)
-
-                # On définit la limite max comme (last_rate_limit_concurrency - step)
-                # pour ne plus jamais remonter au niveau qui a déjà causé 429.
-                if last_rate_limit_concurrency is not None:
-                    max_safe = max(MIN_CONCURRENCY, last_rate_limit_concurrency - CONCURRENCY_STEP)
-                    if new_concurrency > max_safe:
-                        new_concurrency = max_safe
-
-                if new_concurrency < concurrency:
-                    concurrency = new_concurrency
-                    stats["concurrency_decreases"] += 1
-                    print(f"      🔽 Nouvelle concurrency: {concurrency}")
+            for (date_str, reunion_slug, course_file, filepath), coro in zip(
+                current_lot, asyncio.as_completed(tasks)
+            ):
+                status, err = await coro
+                if status == 200:
+                    lot_success += 1
+                elif status == 429:
+                    lot_429 += 1
+                    retry_429.append((date_str, reunion_slug, course_file, filepath))
                 else:
-                    print(f"      ℹ️ Concurrency déjà au minimum safe: {concurrency}")
+                    if err is not None:
+                        lot_other_errors += 1
 
-                print("      ⏸️  Attente 30s avant retry du même batch...")
-                await asyncio.sleep(30)
-                # On NE BOUGE PAS position → on retentera les mêmes courses
-                continue
+            lot_duration = time.time() - lot_start
 
-            # Pas de 429: batch "réussi"
-            consecutive_successes += 1
+            # Stats globales
+            stats["success"] += lot_success
+            stats["failed_429"] += lot_429
+            stats["failed_other"] += lot_other_errors
 
-            # Tentative d'augmentation de la concurrency après N batches OK
-            if consecutive_successes >= CONSECUTIVE_THRESHOLD:
-                can_increase = True
+            # Les 429 repartent en tête de file, dans le même ordre
+            if retry_429:
+                print(f"  🔁 {lot_429} courses avec 429 seront retentées au lot suivant.")
+                pending = retry_429 + pending
 
-                if last_rate_limit_concurrency is not None:
-                    # On ne doit jamais atteindre la concurrency qui a causé 429
-                    max_allowed = max(MIN_CONCURRENCY, last_rate_limit_concurrency - CONCURRENCY_STEP)
-                    if concurrency >= max_allowed:
-                        can_increase = False
-                        print(
-                            f"      ℹ️ Concurrency au maximum safe ({concurrency}), "
-                            f"limite basée sur dernier 429={last_rate_limit_concurrency}"
-                        )
+            print(
+                f"  ⏱️  Lot #{lot_index} terminé en {lot_duration:.2f}s "
+                f"(succès: {lot_success}, 429: {lot_429}, autres erreurs: {lot_other_errors})"
+            )
+            print(f"  💾 Espace libre après lot: {get_disk_space_gb():.2f} GB")
 
-                if can_increase:
-                    new_concurrency = concurrency + CONCURRENCY_STEP
-
-                    # Si on a déjà une limite connue, on clamp
-                    if last_rate_limit_concurrency is not None:
-                        max_allowed = max(MIN_CONCURRENCY, last_rate_limit_concurrency - CONCURRENCY_STEP)
-                        if new_concurrency > max_allowed:
-                            new_concurrency = max_allowed
-
-                    if new_concurrency > concurrency:
-                        concurrency = new_concurrency
-                        stats["concurrency_increases"] += 1
-                        print(f"      🔼 Augmentation concurrency: {concurrency}")
-
-                consecutive_successes = 0
-
-            # Batch terminé: on avance dans la liste
-            position += current_batch_size
-
-            if position < total_courses:
-                await asyncio.sleep(1)
-
+    # Résumé par année
     print(f"\n{'=' * 80}")
     print(f"RÉSUMÉ ANNÉE {year}")
     print(f"{'=' * 80}")
-    print(f"✓ Succès:                 {stats['success']}/{total_courses}")
-    print(f"✗ Échecs:                 {stats['failed']}")
-    print(f"⚠️  Rate limits:            {stats['rate_limits']}")
-    print(f"🔼 Incr. concurrency:      {stats['concurrency_increases']}")
-    print(f"🔽 Décr. concurrency:      {stats['concurrency_decreases']}")
-    if last_rate_limit_concurrency is not None:
-        print(f"📌 Dernière concurrency ayant causé 429: {last_rate_limit_concurrency}")
-    print(f"💾 Espace final:           {get_disk_space_gb():.2f} GB")
+    print(f"  Total prévu:      {stats['total']}")
+    print(f"  ✓ Succès:         {stats['success']}")
+    print(f"  ✗ 429 (non OK):   {stats['failed_429']}")
+    print(f"  ✗ Autres erreurs: {stats['failed_other']}")
+    print(f"  🔁 Nombre de lots: {stats['lots']}")
+    print(f"  💾 Espace final:   {get_disk_space_gb():.2f} GB")
     print(f"{'=' * 80}\n")
 
 # =========================
@@ -487,13 +406,7 @@ async def main() -> None:
         "--max-courses",
         type=int,
         default=None,
-        help="Limite globale de courses à traiter",
-    )
-    parser.add_argument(
-        "--batch-size",
-        type=int,
-        default=INITIAL_BATCH_SIZE,
-        help="Taille initiale des batchs (défaut: 200)",
+        help="(Optionnel) Limite globale de courses à traiter (approx, par années entières)",
     )
     args = parser.parse_args()
 
@@ -522,26 +435,21 @@ async def main() -> None:
     print(f"📊 {len(missing_by_year)} années avec courses manquantes")
     print(f"📊 {total_courses} courses manquantes au total\n")
 
-    courses_processed = 0
+    courses_planned = 0
     for year in sorted(missing_by_year.keys()):
-        free_gb = get_disk_space_gb()
-        if free_gb < CRITICAL_DISK_GB:
-            print(
-                f"⚠️  ARRÊT: Espace disque insuffisant ({free_gb:.2f} GB), "
-                f"progression: {courses_processed}/{total_courses} courses traitées"
-            )
+        # Limite globale (approx, par années complètes)
+        year_courses = sum(len(c) for c in missing_by_year[year].values())
+        if args.max_courses and courses_planned >= args.max_courses:
+            print(f"⚠️  Limite globale atteinte (~{courses_planned} courses planifiées).")
             break
 
-        if args.max_courses and courses_processed >= args.max_courses:
-            print(f"⚠️  Limite globale atteinte ({args.max_courses} courses)")
-            break
+        print(f"➡️  Traitement de l'année {year} ({year_courses} courses prévues)")
+        await scrape_year(year, missing_by_year[year])
 
-        await scrape_year(year, missing_by_year[year], args.batch_size)
-
+        # Commit par année
         git_commit_year(year)
 
-        year_courses = sum(len(c) for c in missing_by_year[year].values())
-        courses_processed += year_courses
+        courses_planned += year_courses
 
     print("\n" + "=" * 80)
     print("SCRAPING TERMINÉ")
