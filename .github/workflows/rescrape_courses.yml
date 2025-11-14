@@ -24,10 +24,30 @@ jobs:
           echo "=========================================="
           echo "ESPACE DISQUE INITIAL"
           echo "=========================================="
-          df -h
+          df -h | grep -E "Filesystem|/$"
+      
+      - name: "🧹 Nettoyage cache runner"
+        run: |
+          echo "=========================================="
+          echo "NETTOYAGE CACHE RUNNER"
+          echo "=========================================="
+          
+          echo "=== Avant nettoyage ==="
+          if [ -d "/home/runner/actions-runner/cached" ]; then
+            du -sh /home/runner/actions-runner/cached/ 2>/dev/null || echo "N/A"
+          fi
+          df -h | grep -E "/$"
+          
           echo ""
-          echo "=== Dossiers volumineux ==="
-          du -sh /home/runner/* 2>/dev/null | sort -hr | head -n 10 || true
+          echo "🧹 Nettoyage du cache..."
+          sudo rm -rf /home/runner/actions-runner/cached/* 2>/dev/null || true
+          
+          echo ""
+          echo "=== Après nettoyage ==="
+          if [ -d "/home/runner/actions-runner/cached" ]; then
+            du -sh /home/runner/actions-runner/cached/ 2>/dev/null || echo "Vide"
+          fi
+          df -h | grep -E "/$"
       
       - name: "🧹 Nettoyage agressif du runner"
         run: |
