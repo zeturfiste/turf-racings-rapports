@@ -105,9 +105,9 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "📦 Install dependencies"
+      -       - name: "📦 Install dependencies"
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          pip install --no-cache-dir beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
       - name: "📋 Préparer le rapport de vérification"
