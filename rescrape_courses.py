@@ -34,13 +34,13 @@ HEADERS = {
 }
 
 # Batch & concurrency (dynamiques)
-INITIAL_BATCH_SIZE = 200        # nombre de courses logiques dans un batch
-MIN_BATCH_SIZE = 10            # (on ne le touche pas ici, on agit surtout sur la concurrency)
+INITIAL_BATCH_SIZE = 14000        # nombre de courses logiques dans un batch
+MIN_BATCH_SIZE = 13602            # (on ne le touche pas ici, on agit surtout sur la concurrency)
 
-INITIAL_CONCURRENCY = 200       # point de départ : 100 requêtes en parallèle
-MIN_CONCURRENCY = 10
-CONCURRENCY_STEP = 10           # +10 / -10
-CONSECUTIVE_THRESHOLD = 2       # nb de batches OK avant tentative d'augmentation
+INITIAL_CONCURRENCY = 14000      # point de départ : 100 requêtes en parallèle
+MIN_CONCURRENCY = 13602
+CONCURRENCY_STEP = 1000           # +10 / -10
+CONSECUTIVE_THRESHOLD = 20       # nb de batches OK avant tentative d'augmentation
 
 # Limite "interdite" après 429 : on ne remonte jamais à la concurrency qui a causé 429
 last_rate_limit_concurrency = None  # ex : 240 → on ne dépassera jamais 230
