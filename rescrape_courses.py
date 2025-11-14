@@ -5,7 +5,7 @@ Script de re-scraping intelligent des courses manquantes ZEturf
 - Parse verification_report.txt pour identifier les courses manquantes
 - Reconstruit les URLs directement depuis les noms de fichiers
 - Scraping CONCURRENT (asyncio + aiohttp) avec une concurrency fixe
-- Travail par lots de N courses (N = concurrency)
+- Travail par lots de N courses (N = CONCURRENCY)
 - A chaque lot : stats (succès, 429, temps)
 - Les 429 sont retentées au lot suivant, sans jamais sauter une course
 - Commit par année, années traitées l'une après l'autre
@@ -239,7 +239,6 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
         return
 
     # Aplatir toutes les courses de l'année dans l'ordre
-    # dates_courses est un dict[date] -> list[(reunion_slug, course_file)]
     all_courses = []
     for date_str in sorted(dates_courses.keys()):
         for reunion_slug, course_file in dates_courses[date_str]:
@@ -254,7 +253,7 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
     if total_courses == 0:
         return
 
-    # On garde une file de "pending" dans l'ordre
+    # File de "pending" dans l'ordre
     pending = list(all_courses)
 
     stats = {
