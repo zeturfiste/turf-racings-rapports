@@ -354,18 +354,24 @@ def git_commit_year(year: str):
             print("  ℹ️  Aucun changement pour cette année")
             return
         
-        subprocess.run(["git", "add", f"{REPO_ROOT}/{year}"], check=True)
-        
         # Compter les fichiers ajoutés
         files_added = result.stdout.count('\n')
         
+        # Add files
+        subprocess.run(["git", "add", f"{REPO_ROOT}/{year}"], check=True)
+        
+        # Commit
         subprocess.run([
             "git", "commit", "-m", 
             f"Re-scrape: {year} - {files_added} courses ajoutées",
             "-m", f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}"
         ], check=True)
+        
+        # Push
         subprocess.run(["git", "push"], check=True)
-        print(f"  ✓ Année {year} committée ({files_added} fichiers)\n")
+        
+        print(f"  ✓ Année {year} committée et pushée ({files_added} fichiers)\n")
+        
     except subprocess.CalledProcessError as e:
         print(f"  ✗ Erreur Git: {e}\n")
 
