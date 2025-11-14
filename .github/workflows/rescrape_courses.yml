@@ -2,6 +2,11 @@ name: Re-scrape Missing Courses
 
 on:
   workflow_dispatch:
+    inputs:
+      max_courses:
+        description: 'Nombre max de courses à traiter (approx, par années entières)'
+        required: false
+        type: string
 
 jobs:
   rescrape-courses:
@@ -101,11 +106,6 @@ jobs:
           pip install --no-cache-dir aiohttp beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "⚙️ Config Git pour les commits"
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-
       - name: "📋 Préparer le rapport de vérification"
         run: |
           if [ ! -f "verification_report.txt" ]; then
@@ -121,11 +121,20 @@ jobs:
           echo "✅ verification_report.txt prêt."
 
       - name: "🚀 Re-scraping des courses manquantes"
+        env:
+          MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
         run: |
           echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (concurrency 100)"
+          echo "LANCEMENT DU RE-SCRAPING"
           echo "=========================================="
-          python rescrape_courses.py
+
+          if [ -z "$MAX_COURSES" ]; then
+            echo "➡️  Re-scraping de TOUTES les courses manquantes"
+            python rescrape_courses.py
+          else
+            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses (par années entières)"
+            python rescrape_courses.py --max-courses "$MAX_COURSES"
+          fi
 
       - name: "✅ Nouvelle vérification post-scraping"
         run: |
@@ -136,6 +145,8 @@ jobs:
 
       - name: "📤 Commit verification report"
         run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
           git add verification_report.txt
           if ! git diff --staged --quiet; then
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M')"
