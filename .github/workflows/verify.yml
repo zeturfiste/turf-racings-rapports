@@ -9,29 +9,107 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 120
-    
+
     steps:
+      # 1) État du disque AVANT tout (VM vierge)
+      - name: Disk usage BEFORE anything
+        run: |
+          echo "=== df -h (global) ==="
+          df -h
+
+          echo ""
+          echo "=== Top 40 plus gros dossiers (racine) ==="
+          # ATTENTION: peut prendre un peu de temps, mais très utile pour voir où part l'espace
+          sudo du -xh / | sort -h | tail -n 40
+
+      # 2) Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # nécessaire pour permettre git pull/push proprement
-      
+          fetch-depth: 0
+
+      # 3) État du disque après checkout (taille de ton dépôt)
+      - name: Disk usage AFTER checkout
+        run: |
+          echo "=== df -h (après checkout) ==="
+          df -h
+
+          echo ""
+          echo "=== Taille des dossiers à la racine du repo (profondeur 2) ==="
+          du -h -d2 .
+
+          echo ""
+          echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
+          du -xh resultats-et-rapports | sort -h | tail -n 40
+
+      # 4) Nettoyage pour libérer un max d'espace AVANT d'installer Python/outils
+      #    (on supprime des trucs préinstallés dont tu ne te sers pas)
+      - name: Free disk space BEFORE running tests
+        run: |
+          echo "=== df -h AVANT CLEANUP ==="
+          df -h
+
+          echo ""
+          echo "=== Nettoyage des outils/caches préinstallés inutiles pour ce job ==="
+
+          # .NET SDK (très lourd, plusieurs Go)
+          sudo rm -rf /usr/share/dotnet || true
+
+          # Haskell / GHC
+          sudo rm -rf /opt/ghc || true
+
+          # Android SDK
+          sudo rm -rf /usr/local/lib/android || true
+
+          # CodeQL (gros aussi)
+          sudo rm -rf /opt/hostedtoolcache/CodeQL || true
+
+          # Images Docker & cache de build (au cas où quelque chose les a tirées)
+          sudo docker image prune -af || true
+          sudo docker builder prune -af || true
+
+          # Caches apt
+          sudo rm -rf /var/lib/apt/lists/* || true
+
+          echo ""
+          echo "=== df -h APRÈS CLEANUP ==="
+          df -h
+
+          echo ""
+          echo "=== Top 40 plus gros dossiers APRÈS CLEANUP ==="
+          sudo du -xh / | sort -h | tail -n 40
+
+      # 5) Set up Python (après cleanup, comme ça il réinstalle ce dont il a besoin)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
+      # 6) Installer les dépendances Python
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install beautifulsoup4 lxml
-      
+          # Nettoyage cache pip pour ne pas garder les wheels
+          pip cache purge || true
+
+      # 7) Afficher l'espace disque juste avant le script de vérif
+      - name: Disk usage BEFORE verification
+        run: |
+          echo "=== df -h juste avant python verify.py ==="
+          df -h
+          echo ""
+          echo "=== Taille du repo (profondeur 2) ==="
+          du -h -d2 .
+
+      # 8) Run verification
       - name: Run verification
         id: verify
         run: |
           python verify.py > verification_report.txt
         continue-on-error: true
-      
+
+      # 9) Upload verification report
       - name: Upload verification report
         uses: actions/upload-artifact@v4
         if: always()
@@ -39,14 +117,14 @@ jobs:
           name: verification-report
           path: verification_report.txt
           retention-days: 90
-      
+
+      # 10) Commit report to repo
       - name: Commit report to repo
         if: always()
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          # Récupérer la dernière version du repo
           git fetch origin main
           git reset --soft origin/main
 
@@ -57,14 +135,15 @@ jobs:
             git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
             git push origin HEAD:main
           fi
-      
+
+      # 11) Vérifier le résultat de la vérif
       - name: Check verification result
         if: steps.verify.outcome == 'failure'
         run: |
           echo "⚠️ Verification found issues. Check verification_report.txt for details."
           cat verification_report.txt
           exit 1
-      
+
       - name: Success message
         if: steps.verify.outcome == 'success'
         run: |
