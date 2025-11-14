@@ -8,10 +8,16 @@ Script de re-scraping intelligent des courses manquantes ZEturf
 - Travail par lots de N courses (N = CONCURRENCY)
 - A chaque lot :
     * stats (succès, 429, temps)
-    * ajustement du time sleep entre lots :
-        - start = 1s
-        - si >=10 erreurs 429 → +1s (max 10s)
-        - si 0 erreurs 429    → -1s (min 1s)
+    * time sleep dynamique entre lots :
+        - start = 60s (1 minute)
+        - si au moins 1 erreur 429 sur le lot :
+              * on remonte le sleep à 60s
+              * on mémorise le sleep ayant déclenché 429
+                et on ne redescendra plus jamais à ce sleep-là ni en dessous (plancher)
+        - si 0 erreur 429 :
+              * on diminue le sleep de 1s
+              * sans jamais descendre sous le plancher
+        - le sleep reste toujours entre 1s et 60s
 - Les 429 sont retentées au lot suivant, sans jamais sauter une course
 - Commit par année, années traitées l'une après l'autre
 """
@@ -42,6 +48,11 @@ HEADERS = {
 
 # Concurrency fixe : nombre de requêtes HTTP en parallèle
 CONCURRENCY = 100
+
+# Time sleep dynamique entre lots (en secondes)
+SLEEP_START = 60   # 1 minute
+SLEEP_MIN = 1
+SLEEP_MAX = 60
 
 # Seuils disque
 WARN_DISK_GB = 5
@@ -270,7 +281,10 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
     }
 
     lot_index = 0
-    sleep_between_lots = 1  # en secondes, dynamique entre 1 et 10
+    sleep_between_lots = SLEEP_START  # en secondes
+    # Plancher : on ne redescendra jamais en dessous de ce sleep
+    # après avoir vu des 429 à un certain niveau.
+    min_safe_sleep = SLEEP_MIN
 
     async with aiohttp.ClientSession() as session:
         while pending:
@@ -294,7 +308,7 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
                 f"(taille lot: {lot_size}, concurrency: {CONCURRENCY})"
             )
             print(f"  💾 Espace libre avant lot: {free_gb:.2f} GB")
-            print(f"  ⏱️  Time sleep actuel entre lots: {sleep_between_lots}s")
+            print(f"  ⏱️  Time sleep actuel entre lots: {sleep_between_lots}s (plancher: {min_safe_sleep}s)")
 
             # Lancer le lot en parallèle
             sem = asyncio.Semaphore(CONCURRENCY)
@@ -341,19 +355,39 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
             print(f"  💾 Espace libre après lot: {get_disk_space_gb():.2f} GB")
 
             # Ajustement du time sleep entre lots
-            if lot_429 >= 10:
-                # On augmente le temps de pause, sans dépasser 10s
+            if lot_429 > 0:
+                # On a vu au moins un 429.
+                # 1) On met à jour le plancher pour ne jamais redescendre
+                #    au time sleep ayant déclenché cette série de 429.
+                #    On considère que le "bad sleep" est le sleep actuel.
+                bad_sleep = sleep_between_lots
+                # On interdit de descendre à bad_sleep ou en dessous
+                new_min_safe = min(SLEEP_MAX, bad_sleep + 1)
+                if new_min_safe > min_safe_sleep:
+                    print(
+                        f"  📌 Nouveau plancher de time sleep: {min_safe_sleep}s → {new_min_safe}s "
+                        f"(429 détectés à {bad_sleep}s)"
+                    )
+                    min_safe_sleep = new_min_safe
+
+                # 2) On remonte toujours le sleep à 60s
                 old_sleep = sleep_between_lots
-                sleep_between_lots = min(sleep_between_lots + 1, 10)
+                sleep_between_lots = SLEEP_MAX
                 if sleep_between_lots != old_sleep:
                     print(
-                        f"  🔼 Augmentation du time sleep: {old_sleep}s → {sleep_between_lots}s "
-                        f"(car {lot_429} erreurs 429)"
+                        f"  🔼 Remontée du time sleep à {sleep_between_lots}s "
+                        f"après {lot_429} erreurs 429"
                     )
+
             elif lot_429 == 0:
-                # On diminue le temps de pause, sans descendre en dessous de 1s
+                # Aucun 429 sur ce lot → on diminue de 1s, mais
+                # jamais en-dessous du plancher ni de SLEEP_MIN.
                 old_sleep = sleep_between_lots
-                sleep_between_lots = max(sleep_between_lots - 1, 1)
+                candidate = max(SLEEP_MIN, sleep_between_lots - 1)
+                if candidate < min_safe_sleep:
+                    candidate = min_safe_sleep
+                sleep_between_lots = min(candidate, SLEEP_MAX)
+
                 if sleep_between_lots != old_sleep:
                     print(
                         f"  🔽 Diminution du time sleep: {old_sleep}s → {sleep_between_lots}s "
