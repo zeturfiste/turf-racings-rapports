@@ -1,41 +1,20 @@
-name: Smart Re-scrape Missing Courses
+name: Verify ZEturf Data
 
 on:
   workflow_dispatch:
-    inputs:
-      max_courses:
-        description: 'Nombre max de courses à récupérer (vide = toutes)'
-        required: false
-        type: string
-      batch_size:
-        description: 'Taille initiale des batchs'
-        required: false
-        default: '200'
-        type: string
+  schedule:
+    - cron: '0 4 * * 0'
 
 jobs:
-  rescrape-courses:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 120
     
     steps:
-      - name: Checkout (minimal)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-          sparse-checkout: |
-            verify.py
-            rescrape_direct.py
-            verification_report.txt
-            resultats-et-rapports
-
-      - name: Check disk space (start)
-        run: |
-          echo "=== Espace disque disponible (début) ==="
-          df -h
-          echo
-          echo "=== Taille du workspace (début) ==="
-          du -sh "${GITHUB_WORKSPACE}" || true
+          fetch-depth: 0   # nécessaire pour permettre git pull/push proprement
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,101 +23,50 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          pip install --upgrade pip
+          pip install beautifulsoup4 lxml
       
-      - name: Check verification report
-        id: check_report
+      - name: Run verification
+        id: verify
         run: |
-          if [ ! -f "verification_report.txt" ]; then
-            echo "⚠️  Rapport de vérification absent, exécution de verify.py..."
-            python verify.py || true
-          fi
-          
-          if [ -f "verification_report.txt" ]; then
-            echo "=== Courses manquantes ==="
-            MISSING_COURSES=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
-            echo "Total: $MISSING_COURSES courses"
-            echo "missing_count=$MISSING_COURSES" >> $GITHUB_OUTPUT
-            
-            echo ""
-            echo "=== Aperçu des 10 premières dates incomplètes ==="
-            grep "DATE:.*INCOMPLETE" verification_report.txt | head -n 10 || true
-          else
-            echo "missing_count=0" >> $GITHUB_OUTPUT
-          fi
+          python verify.py > verification_report.txt
+        continue-on-error: true
       
-      - name: Run direct re-scraping
-        if: steps.check_report.outputs.missing_count != '0'
-        env:
-          MAX_COURSES: ${{ github.event.inputs.max_courses || '' }}
-          BATCH_SIZE: ${{ github.event.inputs.batch_size || '200' }}
-        run: |
-          echo "=== Paramètres de scraping ==="
-          echo "MAX_COURSES='$MAX_COURSES'"
-          echo "BATCH_SIZE='$BATCH_SIZE'"
-          echo
-
-          if [ -z "$MAX_COURSES" ]; then
-            echo "🚀 Re-scraping TOUTES les courses manquantes"
-            python rescrape_direct.py --batch-size "$BATCH_SIZE"
-          else
-            echo "🚀 Re-scraping max $MAX_COURSES courses"
-            python rescrape_direct.py --max-courses "$MAX_COURSES" --batch-size "$BATCH_SIZE"
-          fi
+      - name: Upload verification report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report
+          path: verification_report.txt
+          retention-days: 90
       
-      - name: No missing courses
-        if: steps.check_report.outputs.missing_count == '0'
-        run: |
-          echo "✅ Aucune course manquante détectée!"
-          echo "Tous les fichiers sont déjà présents."
-      
-      - name: Check results (disk)
-        run: |
-          echo "=== Espace disque après scraping ==="
-          df -h
-          echo
-          echo "=== Taille du workspace (après scraping) ==="
-          du -sh "${GITHUB_WORKSPACE}" || true
-      
-      - name: Run verification again
-        run: |
-          echo "=== Nouvelle vérification ==="
-          python verify.py || true
-      
-      - name: Commit verification report
+      - name: Commit report to repo
+        if: always()
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+
+          # Récupérer la dernière version du repo
+          git fetch origin main
+          git reset --soft origin/main
+
           git add verification_report.txt
-          if ! git diff --staged --quiet; then
-            git commit -m "Update verification report"
-            git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
           else
-            echo "Aucun changement dans le rapport, rien à committer."
+            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD:main
           fi
       
-      - name: Show final status
-        if: always()
+      - name: Check verification result
+        if: steps.verify.outcome == 'failure'
         run: |
-          if [ -f "verification_report.txt" ]; then
-            echo "=== STATUT FINAL ==="
-            grep -E "Total de dates|Complètes|Incomplètes" verification_report.txt | head -n 4 || true
-            echo ""
-            STILL_MISSING=$(grep -c "❌.*\.html" verification_report.txt || echo "0")
-            if [ "$STILL_MISSING" -gt "0" ]; then
-              echo "⚠️  Il reste encore $STILL_MISSING courses manquantes"
-              echo "💡 Relancez le workflow pour continuer"
-            else
-              echo "🎉 Toutes les courses sont maintenant complètes!"
-            fi
-          else
-            echo "⚠️ Aucun rapport de vérification disponible en fin de job."
-          fi
-
-      - name: Cleanup Python junk (optionnel)
-        if: always()
+          echo "⚠️ Verification found issues. Check verification_report.txt for details."
+          cat verification_report.txt
+          exit 1
+      
+      - name: Success message
+        if: steps.verify.outcome == 'success'
         run: |
-          echo "=== Nettoyage léger (pycache) ==="
-          find . -name "__pycache__" -type d -exec rm -rf {} + || true
-          echo "=== Espace disque final ==="
-          df -h
+          echo "✓ All data verified successfully!"
+          cat verification_report.txt
