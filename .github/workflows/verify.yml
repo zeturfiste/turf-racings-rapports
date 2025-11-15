@@ -5,189 +5,196 @@ on:
   schedule:
     - cron: '0 0 * * 0'
 
+permissions:
+  contents: write
+
 jobs:
-  verify:
+  verify-year:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        year:
+          - 2005
+          - 2006
+          - 2007
+          - 2008
+          - 2009
+          - 2010
+          - 2011
+          - 2012
+          - 2013
+          - 2014
+          - 2015
+          - 2016
+          - 2017
+          - 2018
+          - 2019
+          - 2020
+          - 2021
+          - 2022
+          - 2023
+          - 2024
+          - 2025
 
     steps:
-      # 1) État du disque AVANT tout (VM vierge)
-      - name: Disk usage BEFORE anything
+      - name: "📊 Disk usage BEFORE cleanup"
         run: |
           echo "=== df -h (global) ==="
           df -h
-
           echo ""
-          echo "=== Top 40 plus gros dossiers (racine) ==="
-          # Diagnostic uniquement : lecture, n'utilise pas d'espace disque
-          sudo du -xh / | sort -h | tail -n 40
+          echo "=== Top 20 plus gros dossiers (racine) ==="
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      # 2) Nettoyage DYNAMIQUE AVANT le checkout
-      - name: Dynamic free disk space BEFORE checkout
+      - name: "🧹 Aggressive cleanup BEFORE clone"
         run: |
-          echo "=== df -h AVANT CLEANUP (avant checkout) ==="
+          echo "=== df -h AVANT CLEANUP ==="
           df -h
 
-          START_USED=$(df -B1 / | awk 'NR==2 {print $3}')
           echo ""
-          echo "Utilisation initiale (bytes): $START_USED"
-
-          echo ""
-          echo "=== Suppression dynamique des gros outils inutiles pour ce job ==="
-
-          # Dossiers lourds préinstallés qu'on peut supprimer sans risque pour un job Python
-          CANDIDATES=(
-            "/usr/share/dotnet"
-            "/usr/local/lib/android"
-            "/usr/local/.ghcup"
-            "/opt/hostedtoolcache/CodeQL"
-            "/usr/share/swift"
-          )
-
-          total_reclaimed_du=0
-
-          for path in "${CANDIDATES[@]}"; do
-            if [ -e "$path" ]; then
-              size_bytes=$(sudo du -sb "$path" 2>/dev/null | awk '{print $1}')
-              size_h=$(sudo du -sh "$path" 2>/dev/null | awk '{print $1}')
-              echo "🧹 Suppression $path (taille: $size_h)"
-              sudo rm -rf "$path" || true
-              total_reclaimed_du=$(( total_reclaimed_du + size_bytes ))
-            else
-              echo "ℹ️  $path inexistant, rien à supprimer"
-            fi
-          done
+          echo "🧹 Suppression des gros SDK/runtimes inutiles..."
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /usr/share/dotnet || true
+          sudo rm -rf /usr/share/swift || true
+          sudo rm -rf /opt/hostedtoolcache || true
 
           echo ""
-          echo "🧹 Docker images & volumes..."
+          echo "🧹 Docker / caches / temporaires..."
           docker system prune -af --volumes 2>/dev/null || true
-
-          echo "🧹 Caches APT..."
-          sudo rm -rf /var/lib/apt/lists/* 2>/dev/null || true
-
-          echo "🧹 Caches pip..."
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* 2>/dev/null || true
           pip cache purge 2>/dev/null || true
-          rm -rf ~/.cache/pip 2>/dev/null || true
-
-          echo "🧹 Caches npm/yarn..."
-          rm -rf ~/.npm ~/.yarn 2>/dev/null || true
-          sudo rm -rf /usr/local/lib/node_modules 2>/dev/null || true
-
-          echo "🧹 Fichiers temporaires..."
+          rm -rf ~/.cache ~/.npm ~/.yarn 2>/dev/null || true
           sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-
-          echo "🧹 Logs système..."
           sudo journalctl --vacuum-time=1s 2>/dev/null || true
           sudo rm -rf /var/log/* 2>/dev/null || true
 
-          END_USED=$(df -B1 / | awk 'NR==2 {print $3}')
-          RECLAIMED=$(( START_USED - END_USED ))
-
           echo ""
-          echo "=== df -h APRÈS CLEANUP (avant checkout) ==="
+          echo "=== df -h APRÈS CLEANUP ==="
           df -h
 
-          echo ""
-          echo "=== BILAN CLEANUP (avant checkout) ==="
-          echo "Utilisation avant (bytes):  $START_USED"
-          echo "Utilisation après (bytes):  $END_USED"
-          echo "Gain estimé via df:         $((RECLAIMED/1024/1024/1024)) GB"
-          echo "Gain cumulé via du (brut):  $((total_reclaimed_du/1024/1024/1024)) GB"
-          echo "✅ Nettoyage dynamique terminé"
-
-      # 3) Checkout repository (APRÈS cleanup)
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          # On n'a pas besoin de tout l'historique pour juste ajouter verification_report.txt
-          fetch-depth: 1
-
-      # 4) État du disque après checkout (taille de ton dépôt)
-      - name: Disk usage AFTER checkout
+      - name: "📥 Sparse clone (année ${{ matrix.year }})"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== df -h (après checkout) ==="
+          set -e
+          YEAR=${{ matrix.year }}
+          BRANCH=${{ github.ref_name }}
+
+          echo "Clonage partiel pour l'année $YEAR sur la branche $BRANCH"
+
+          git clone --filter=blob:none --no-checkout --sparse \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          git sparse-checkout init --no-cone
+          git sparse-checkout set verify.py "resultats-et-rapports/${YEAR}"
+
+          git checkout "$BRANCH"
+
+          echo ""
+          echo "=== df -h APRÈS CLONE (année ${YEAR}) ==="
           df -h
-
           echo ""
-          echo "=== Taille des dossiers à la racine du repo (profondeur 2) ==="
-          du -h -d2 .
-
-          echo ""
-          echo "=== Top 40 plus gros dossiers dans resultats-et-rapports ==="
-          if [ -d "resultats-et-rapports" ]; then
-            du -xh resultats-et-rapports | sort -h | tail -n 40
+          echo "=== Taille des données pour ${YEAR} ==="
+          if [ -d "resultats-et-rapports/${YEAR}" ]; then
+            du -sh "resultats-et-rapports/${YEAR}" || true
           else
-            echo "resultats-et-rapports n'existe pas encore."
+            echo "Pas de dossier resultats-et-rapports/${YEAR}"
           fi
 
-      # 5) Setup Python
-      - name: Set up Python
+      - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      # 6) Installer les dépendances Python
-      - name: Install dependencies
+      - name: "📦 Install dependencies"
         run: |
-          pip install --upgrade pip
-          pip install beautifulsoup4 lxml
-          # Nettoyage cache pip pour ne pas garder les wheels
-          pip cache purge || true
+          pip install --no-cache-dir beautifulsoup4 lxml
+          pip cache purge 2>/dev/null || true
 
-      # 7) Afficher l'espace disque juste avant le script de vérif
-      - name: Disk usage BEFORE verification
+      - name: "✅ Run verification for year ${{ matrix.year }}"
         run: |
-          echo "=== df -h juste avant python verify.py ==="
-          df -h
-          echo ""
-          echo "=== Taille du repo (profondeur 2) ==="
-          du -h -d2 .
+          set -e
+          YEAR=${{ matrix.year }}
 
-      # 8) Run verification
-      - name: Run verification
-        id: verify
-        run: |
-          python verify.py > verification_report.txt
-        continue-on-error: true
+          if [ "$YEAR" -eq 2005 ]; then
+            START="2005-04-27"
+          else
+            START="${YEAR}-01-01"
+          fi
 
-      # 9) Upload verification report
-      - name: Upload verification report
+          if [ "$YEAR" -eq 2025 ]; then
+            END="2025-11-11"
+          else
+            END="${YEAR}-12-31"
+          fi
+
+          echo "Vérification année ${YEAR} (période ${START} → ${END})"
+          python verify.py --start-date "$START" --end-date "$END" --report-file "verification_report_${YEAR}.txt"
+
+      - name: "📄 Upload verification report (year ${{ matrix.year }})"
         uses: actions/upload-artifact@v4
-        if: always()
         with:
-          name: verification-report
-          path: verification_report.txt
-          retention-days: 90
+          name: verification-report-${{ matrix.year }}
+          path: verification_report_${{ matrix.year }}.txt
+          retention-days: 30
 
-      # 10) Commit report to repo
-      - name: Commit report to repo
-        if: always()
+  merge-reports:
+    runs-on: ubuntu-latest
+    needs: verify-year
+
+    steps:
+      - name: "📥 Checkout minimal repo"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: "blob:none"
+          sparse-checkout: |
+            verification_report.txt
+          sparse-checkout-cone: true
+
+      - name: "📥 Download all per-year reports"
+        uses: actions/download-artifact@v4
+        with:
+          path: reports
+
+      - name: "🔗 Merge per-year reports into verification_report.txt"
+        run: |
+          rm -f verification_report.txt
+
+          echo "Fusion des rapports par année..."
+          # On concatène tous les verification_report_*.txt dans l'ordre des années
+          find reports -type f -name 'verification_report_*.txt' | sort | while read -r f; do
+            cat "$f" >> verification_report.txt
+            echo "" >> verification_report.txt
+          done
+
+          echo "Rapport fusionné généré:"
+          ls -lh verification_report.txt
+
+      - name: "🔐 Configure git remote with GITHUB_TOKEN"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git remote -v
 
-          # On se cale sur la dernière version distante
-          git fetch origin main
-          git reset --soft origin/main
-
-          git add verification_report.txt
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update verification report - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin HEAD:main
+      - name: "📤 Commit & push merged report"
+        run: |
+          if [ ! -f "verification_report.txt" ]; then
+            echo "verification_report.txt introuvable, rien à commit."
+            exit 1
           fi
 
-      # 11) Vérifier le résultat de la vérif
-      - name: Check verification result
-        if: steps.verify.outcome == 'failure'
-        run: |
-          echo "⚠️ Verification found issues. Check verification_report.txt for details."
-          cat verification_report.txt
-          exit 1
+          git add verification_report.txt
+          if git diff --cached --quiet; then
+            echo "Aucun changement à commit."
+            exit 0
+          fi
 
-      - name: Success message
-        if: steps.verify.outcome == 'success'
-        run: |
-          echo "✓ All data verified successfully!"
-          cat verification_report.txt
+          git commit -m "Update verification_report (per-year verify) - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin HEAD:${{ github.ref_name }}
