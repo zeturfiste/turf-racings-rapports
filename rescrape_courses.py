@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-Script de re-scraping intelligent des courses manquantes ZEturf
+Re-scraping des courses manquantes ZEturf.
 
-- Parse verification_report.txt pour identifier les courses manquantes
-- Reconstruit les URLs directement depuis les noms de fichiers
-- Scraping CONCURRENT (asyncio + aiohttp) avec une concurrency fixe
-- Travail par lots de N courses (N = CONCURRENCY)
-- Entre chaque lot, pause fixe de 30 secondes
-- Les 429 sont retentées au lot suivant, sans jamais sauter une course
-- Commit par année, années traitées l'une après l'autre
-- Option --years pour ne traiter qu'un sous-ensemble d'années (matrix GitHub Actions)
+- Lit verification_report.txt pour connaître les courses manquantes
+- Reconstruit les URLs et télécharge les HTML manquants
+- Concurrency fixe = 100, pause fixe = 30s entre lots
+- Travail par année, dans l'ordre
+- Commit + push par année (répertoires resultats-et-rapports/YYYY)
+- Support d'une liste d'années (--years) pour matrix GitHub Actions
+- Arrêt intelligent avant 6h: on n'entame pas une année si on sait qu'on
+  ne pourra pas la finir (estimation basée sur 200 courses/min + overhead).
 """
 
+import os
 import re
 import time
 import asyncio
@@ -47,6 +48,13 @@ WARN_DISK_GB = 5
 CRITICAL_DISK_GB = 2
 YEAR_SKIP_DISK_GB = 3
 
+# Estimation temps / année
+MAX_JOB_MINUTES = 360.0          # limite GitHub Actions (6h)
+SAFETY_MARGIN_MINUTES = 15.0     # marge de sécurité (commit, fin de job, etc.)
+AVG_COURSES_PER_MINUTE = 200.0   # ton observation: ~200 courses/min
+PER_YEAR_OVERHEAD_MIN = 5.0      # overhead fixe par année (git, etc.)
+JOB_START_ENV = "JOB_START_EPOCH"
+
 # =========================
 # Disk monitoring
 # =========================
@@ -64,6 +72,59 @@ def check_disk_space_critical() -> bool:
         print("Arrêt du scraping pour éviter saturation...")
         return True
     return False
+
+# =========================
+# Time estimation helpers
+# =========================
+def estimate_year_minutes(year: str, year_courses: int) -> float:
+    """Estimation de la durée pour une année, en minutes."""
+    # Simple: 200 courses/min + overhead fixe
+    return (year_courses / AVG_COURSES_PER_MINUTE) + PER_YEAR_OVERHEAD_MIN
+
+
+def can_process_year(year: str, year_courses: int) -> bool:
+    """
+    Décide si on a assez de temps pour traiter cette année
+    avant d’atteindre la limite de 6h du job GitHub Actions.
+
+    Utilise la variable d’environnement JOB_START_EPOCH définie
+    dans le workflow (premier step du job).
+    """
+    start_epoch_str = os.environ.get(JOB_START_ENV)
+    if not start_epoch_str:
+        # On ne connait pas l’heure de début -> on ne force pas de limite.
+        return True
+
+    try:
+        start_epoch = float(start_epoch_str)
+    except ValueError:
+        return True
+
+    now = time.time()
+    elapsed_min = (now - start_epoch) / 60.0
+    remaining_min = MAX_JOB_MINUTES - elapsed_min - SAFETY_MARGIN_MINUTES
+
+    est_min = estimate_year_minutes(year, year_courses)
+
+    print(
+        f"⏱️  Estimation pour l'année {year}: {year_courses} courses "
+        f"→ ~{est_min:.1f} min. "
+        f"Temps écoulé: ~{elapsed_min:.1f} min, "
+        f"marge restante avant 6h: ~{remaining_min:.1f} min."
+    )
+
+    if remaining_min <= 0:
+        print("⚠️  Plus de marge suffisante, arrêt immédiat.")
+        return False
+
+    if est_min > remaining_min:
+        print(
+            f"⚠️  On NE traite PAS l'année {year}, "
+            "car on estime qu'on n'aura pas le temps de la terminer avant la limite 6h."
+        )
+        return False
+
+    return True
 
 # =========================
 # Path helpers
@@ -461,8 +522,14 @@ async def main() -> None:
     courses_planned = 0
     for year in sorted(missing_by_year.keys()):
         year_courses = sum(len(c) for c in missing_by_year[year].values())
+
         if args.max_courses and courses_planned >= args.max_courses:
             print(f"⚠️  Limite globale atteinte (~{courses_planned} courses planifiées).")
+            break
+
+        # Vérifier si on a assez de temps pour cette année
+        if not can_process_year(year, year_courses):
+            print("⏹️  Arrêt anticipé pour éviter de gaspiller un run presque terminé.")
             break
 
         print(f"➡️  Traitement de l'année {year} ({year_courses} courses prévues)")
