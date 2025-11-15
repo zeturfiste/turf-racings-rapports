@@ -35,6 +35,7 @@ on:
 permissions:
   contents: write   # pour permettre les commits/push depuis rescrape_courses.py
 
+
 jobs:
   # ----------------------------------------------------------
   # Job 1
@@ -94,11 +95,10 @@ jobs:
 
           echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
           git clone --filter=blob:none --no-checkout --depth 1 --sparse \
-            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
 
           echo
           echo "Configuration sparse-checkout pour les fichiers nécessaires..."
-          # Construire la liste des patterns (fichiers + années)
           PATTERNS="rescrape_courses.py verification_report.txt"
           for y in $YEARS; do
             PATTERNS="$PATTERNS resultats-et-rapports/$y"
@@ -121,6 +121,14 @@ jobs:
           if [ -d "resultats-et-rapports" ]; then
             du -sh resultats-et-rapports/* || true
           fi
+
+      - name: "🔐 Configure remote avec GITHUB_TOKEN (Job 1)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          echo "Remote origin configuré (Job 1):"
+          git remote -v
 
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
@@ -173,6 +181,7 @@ jobs:
           if [ -d "resultats-et-rapports" ]; then
             du -sh resultats-et-rapports || true
           fi
+
 
   # ----------------------------------------------------------
   # Job 2
@@ -232,7 +241,7 @@ jobs:
 
           echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
           git clone --filter=blob:none --no-checkout --depth 1 --sparse \
-            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
 
           echo
           echo "Configuration sparse-checkout pour les fichiers nécessaires..."
@@ -258,6 +267,14 @@ jobs:
           if [ -d "resultats-et-rapports" ]; then
             du -sh resultats-et-rapports/* || true
           fi
+
+      - name: "🔐 Configure remote avec GITHUB_TOKEN (Job 2)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          echo "Remote origin configuré (Job 2):"
+          git remote -v
 
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
@@ -310,6 +327,7 @@ jobs:
           if [ -d "resultats-et-rapports" ]; then
             du -sh resultats-et-rapports || true
           fi
+
 
   # ----------------------------------------------------------
   # Job 3
@@ -369,7 +387,7 @@ jobs:
 
           echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
           git clone --filter=blob:none --no-checkout --depth 1 --sparse \
-            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
 
           echo
           echo "Configuration sparse-checkout pour les fichiers nécessaires..."
@@ -395,6 +413,14 @@ jobs:
           if [ -d "resultats-et-rapports" ]; then
             du -sh resultats-et-rapports/* || true
           fi
+
+      - name: "🔐 Configure remote avec GITHUB_TOKEN (Job 3)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          echo "Remote origin configuré (Job 3):"
+          git remote -v
 
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
