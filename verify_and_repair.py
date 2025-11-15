@@ -1,43 +1,257 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
-verify_and_repair.py
+Script unique : vérification + réparation des données ZEturf.
 
-Pipeline complet pour une période:
-  1) Vérifie toutes les dates via verify.verify_date
-  2) Re-scrape toutes les dates problématiques (dates, réunions FR, courses)
-  3) Re-vérifie après réparation
-  4) Génère un rapport de vérification détaillé sur la période
+Fonctions :
+- Vérifie les dates d'une période (structure des dossiers + fichiers HTML)
+- Identifie les dates MISSING / INCOMPLETE / ERROR
+- Re-scrape :
+    * la page de date
+    * toutes les réunions FR
+    * toutes les courses de ces réunions
+- Refait une vérification finale
+- Génère un rapport texte (par période, typiquement par année)
 
-Sortie:
-  - Fichier texte: verification_report.txt (ou autre, via --report-file)
-  - Code de retour:
-      0 = tout OK (aucune date manquante/incomplète/erreur)
-      1 = il reste des problèmes après les passes de réparation
+Usage (exemple) :
+  python verify_and_repair.py --start-date 2017-01-01 --end-date 2017-12-31 \
+      --max-passes 2 --report-file verification_report_2017.txt
 """
 
 import argparse
-import time
 import re
+import time
+import unicodedata
+from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-# On réutilise les constantes et helpers de ton verify.py
-from verify import (
-    REPO_ROOT,
-    BASE,
-    slugify,
-    get_date_directory,
-    date_range,
-    verify_date,
-)
+# =========================
+# Config
+# =========================
+
+REPO_ROOT = "resultats-et-rapports"
+BASE = "https://www.zeturf.fr"
+DATE_URL_TPL = BASE + "/fr/resultats-et-rapports/{date}"
 
 # =========================
-# HTTP helpers (scraping)
+# Helpers
+# =========================
+
+def slugify(text: str) -> str:
+    if not text:
+        return ""
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", text).strip("-").lower()
+    return text
+
+
+def get_date_directory(date_str: str) -> Path:
+    """
+    Returns path like: resultats-et-rapports/2025/11/2025-11-10/
+    """
+    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    year = dt.strftime("%Y")
+    month = dt.strftime("%m")
+    return Path(REPO_ROOT) / year / month / date_str
+
+
+def date_range(start_date: str, end_date: str) -> List[str]:
+    """
+    Generate all dates in [start_date, end_date] inclusive.
+    """
+    d0 = datetime.strptime(start_date, "%Y-%m-%d").date()
+    d1 = datetime.strptime(end_date, "%Y-%m-%d").date()
+    if d0 > d1:
+        d0, d1 = d1, d0
+    days = (d1 - d0).days
+    return [(d0 + timedelta(days=i)).isoformat() for i in range(days + 1)]
+
+
+# =========================
+# Vérification (lecture locale)
+# =========================
+
+def verify_reunion_courses(reunion_file: Path, reunion_dir: Path, reunion_code: str) -> List[str]:
+    """
+    Vérifie que toutes les courses d'une réunion ont leur fichier HTML.
+    Retourne une liste de messages d'issues (chaîne vide si tout est OK).
+    """
+    issues: List[str] = []
+
+    try:
+        html = reunion_file.read_text(encoding="utf-8")
+        soup = BeautifulSoup(html, "lxml")
+        frise = soup.select_one("#frise-course .strip2.active") or soup.select_one("#frise-course .strip2")
+
+        if not frise:
+            issues.append(f"⚠️  {reunion_dir.name}/: Aucune frise de courses trouvée")
+            return issues
+
+        expected_courses = []
+        for a in frise.select("ul.scroll-content li.scroll-element a"):
+            href = a.get("href", "")
+            if not href:
+                continue
+
+            # Extract course number
+            numero_txt_el = a.select_one("span.numero")
+            numero_txt = numero_txt_el.get_text(strip=True) if numero_txt_el else ""
+            mC = re.search(r"C(\d+)", href)
+            numero = int(numero_txt) if numero_txt.isdigit() else (int(mC.group(1)) if mC else None)
+
+            # Extract title
+            title = a.get("title", "").strip()
+            if " - " in title:
+                _, intitule = title.split(" - ", 1)
+            else:
+                intitule = title or None
+
+            code = f"C{numero}" if numero is not None else (mC.group(0) if mC else None)
+
+            # Build expected filename
+            slug = slugify(intitule) if intitule else ""
+            if not slug:
+                slug = "course"
+            code_part = f"{reunion_code}{(code or '').upper()}"
+            filename = f"{code_part}-{slug}.html"
+
+            expected_courses.append({
+                "filename": filename,
+                "numero": numero,
+                "code": code,
+            })
+
+        # Verify each course file exists
+        for course in expected_courses:
+            course_file = reunion_dir / course["filename"]
+            if not course_file.exists() or course_file.stat().st_size == 0:
+                issues.append(f"❌ {reunion_dir.name}/{course['filename']}")
+
+    except Exception as e:
+        issues.append(f"❌ {reunion_dir.name}/: Erreur analyse courses - {e}")
+
+    return issues
+
+
+def verify_date(date_str: str) -> Dict:
+    """
+    Vérifie une date complète:
+      1. Dossier existe
+      2. Fichier HTML de la date existe
+      3. Toutes les réunions FR ont leur dossier + fichier
+      4. Toutes les courses de chaque réunion ont leur fichier
+
+    Returns: dict with keys:
+      - date: str
+      - status: "OK" / "MISSING" / "INCOMPLETE" / "WARNING" / "ERROR"
+      - issues: List[str]
+    """
+    result = {
+        "date": date_str,
+        "status": "OK",
+        "issues": [],
+    }
+
+    date_dir = get_date_directory(date_str)
+    date_file = date_dir / f"{date_str}.html"
+
+    # Check 1: Date directory exists
+    if not date_dir.exists():
+        result["status"] = "MISSING"
+        result["issues"].append(f"❌ Dossier absent: {date_dir}")
+        return result
+
+    # Check 2: Date HTML file exists
+    if not date_file.exists() or date_file.stat().st_size == 0:
+        result["status"] = "INCOMPLETE"
+        result["issues"].append(f"❌ Fichier date absent ou vide: {date_file}")
+        return result
+
+    # Parse date HTML to get expected reunions FR
+    try:
+        html = date_file.read_text(encoding="utf-8")
+        soup = BeautifulSoup(html, "lxml")
+        container = soup.select_one("div#list-reunion")
+
+        if not container:
+            result["status"] = "WARNING"
+            result["issues"].append(
+                f"⚠️  Aucun conteneur #list-reunion trouvé dans {date_file.name}"
+            )
+            return result
+
+        expected_reunions = []
+        for tr in container.select("table.programme tbody tr.item"):
+            a = tr.select_one('td.numero a[data-tc-pays="FR"]')
+            if not a:
+                continue
+
+            href = a.get("href", "").strip()
+            if not href:
+                continue
+
+            # Extract reunion code
+            m = re.search(r"/reunion/\d{4}-\d{2}-\d{2}/(R\d+)-", href)
+            reunion_code = m.group(1) if m else (a.get_text(strip=True).replace("FR", "R"))
+
+            # Extract hippodrome
+            hippo_el = tr.select_one("td.nom h2 span span")
+            hippodrome = hippo_el.get_text(strip=True) if hippo_el else ""
+            reunion_slug = f"{reunion_code}-{slugify(hippodrome)}"
+
+            expected_reunions.append(
+                {
+                    "code": reunion_code,
+                    "slug": reunion_slug,
+                    "hippodrome": hippodrome,
+                    "href": href,
+                }
+            )
+
+        # Check 3: Verify each reunion
+        for reunion in expected_reunions:
+            reunion_dir = date_dir / reunion["slug"]
+            reunion_file = reunion_dir / f"{reunion['slug']}.html"
+
+            if not reunion_dir.exists():
+                result["status"] = "INCOMPLETE"
+                result["issues"].append(f"❌ Dossier réunion absent: {reunion['slug']}/")
+                continue
+
+            if not reunion_file.exists() or reunion_file.stat().st_size == 0:
+                result["status"] = "INCOMPLETE"
+                result["issues"].append(
+                    f"❌ Fichier réunion absent: {reunion['slug']}/{reunion_file.name}"
+                )
+                continue
+
+            # Check 4: Verify courses for this reunion
+            reunion_issues = verify_reunion_courses(
+                reunion_file, reunion_dir, reunion["code"]
+            )
+            if reunion_issues:
+                result["status"] = "INCOMPLETE"
+                result["issues"].extend(reunion_issues)
+
+        if not expected_reunions:
+            result["status"] = "WARNING"
+            result["issues"].append(f"⚠️  Aucune réunion FR trouvée pour {date_str}")
+
+    except Exception as e:
+        result["status"] = "ERROR"
+        result["issues"].append(f"❌ Erreur lors de l'analyse: {e}")
+
+    return result
+
+
+# =========================
+# HTTP + scraping helpers
 # =========================
 
 SESSION = requests.Session()
@@ -53,16 +267,16 @@ SESSION.headers.update(
     }
 )
 
-DATE_URL_TPL = f"{BASE}/fr/resultats-et-rapports/{{date}}"
 
-
-def safe_get(url: str, referer: str | None = None, retries: int = 4, timeout: int = 30) -> str:
+def safe_get(
+    url: str, referer: Optional[str] = None, retries: int = 4, timeout: int = 30
+) -> str:
     """
-    GET avec:
+    GET robuste :
       - headers corrects
       - gestion des erreurs réseau
       - retries exponentiels
-      - petit sleep pour ne pas brutaliser le site
+      - léger sleep entre les tentatives
     """
     for i in range(retries):
         try:
@@ -71,13 +285,11 @@ def safe_get(url: str, referer: str | None = None, retries: int = 4, timeout: in
                 headers["Referer"] = referer
             resp = SESSION.get(url, headers=headers, timeout=timeout)
             resp.raise_for_status()
-            # Petit délai pour limiter le risque de 429 sur ce script qui reste séquentiel
             time.sleep(0.25)
             return resp.text
         except Exception:
             if i == retries - 1:
                 raise
-            # backoff progressif
             time.sleep(1.5 * (i + 1))
 
 
@@ -92,13 +304,9 @@ def save_text(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-# =========================
-# Parsing ZEturf (date, réunions FR, courses)
-# =========================
-
 def parse_reunions_fr_for_date(date_str: str) -> List[Dict]:
     """
-    Récupère toutes les réunions FR pour une date donnée.
+    Récupère toutes les réunions FR pour une date donnée depuis le site ZEturf.
 
     Retourne une liste de dict:
       {
@@ -116,8 +324,8 @@ def parse_reunions_fr_for_date(date_str: str) -> List[Dict]:
     if not root:
         return []
 
-    out = []
-    # même logique globale que ton ancien script + verify.py
+    out: List[Dict] = []
+
     for tr in root.select("table.programme tbody tr.item"):
         a = tr.select_one('a[href^="/fr/reunion/"][data-tc-pays="FR"]')
         if not a:
@@ -131,7 +339,7 @@ def parse_reunions_fr_for_date(date_str: str) -> List[Dict]:
 
         # Code de réunion R1, R2, ...
         numero_td = tr.select_one("td.numero")
-        reunion_code = None
+        reunion_code: Optional[str] = None
         if numero_td:
             txt = numero_td.get_text(strip=True)
             reunion_code = txt.replace("FR", "R").strip() or None
@@ -173,15 +381,6 @@ def parse_reunions_fr_for_date(date_str: str) -> List[Dict]:
 def parse_courses_from_reunion_page(reunion_url: str) -> List[Dict]:
     """
     Parse une page de réunion et renvoie la liste des courses avec leurs URLs.
-
-    Retourne une liste de dict:
-      {
-        "numero": int | None,
-        "code": "C1" / "C2" / etc,
-        "heure": "13h55" ou None,
-        "intitule": "Prix de xxx" ou None,
-        "url": "https://www.zeturf.fr/..."
-      }
     """
     html = safe_get(reunion_url, referer=reunion_url)
     soup = BeautifulSoup(html, "lxml")
@@ -209,7 +408,7 @@ def parse_courses_from_reunion_page(reunion_url: str) -> List[Dict]:
 
         mC = re.search(r"C(\d+)", href)
         if numero_txt.isdigit():
-            numero = int(numero_txt)
+            numero: Optional[int] = int(numero_txt)
         elif mC:
             numero = int(mC.group(1))
         else:
@@ -222,7 +421,7 @@ def parse_courses_from_reunion_page(reunion_url: str) -> List[Dict]:
         else:
             heure, intitule = None, title or None
 
-        # Code course (même logique que verify_reunion_courses)
+        # Code course
         if numero is not None:
             code = f"C{numero}"
         elif mC:
@@ -240,16 +439,12 @@ def parse_courses_from_reunion_page(reunion_url: str) -> List[Dict]:
             }
         )
 
-    # Optionnel: trier par numéro si dispo
+    # Trier si on a tous les numéros
     if courses and all(c["numero"] is not None for c in courses):
         courses.sort(key=lambda c: c["numero"])
 
     return courses
 
-
-# =========================
-# Re-scrape d'une date complète
-# =========================
 
 def scrape_full_date(date_str: str) -> None:
     """
@@ -258,7 +453,7 @@ def scrape_full_date(date_str: str) -> None:
       - toutes les réunions FR
       - toutes les courses
 
-    Respecte l'arborescence attendue par verify.py:
+    Respecte l'arborescence attendue:
       resultats-et-rapports/YYYY/MM/YYYY-MM-DD/Rn-hippodrome/...
     """
     date_dir = get_date_directory(date_str)
@@ -351,7 +546,7 @@ def verify_period(start_date: str, end_date: str) -> Tuple[Dict, List[Dict]]:
     all_dates = date_range(start_date, end_date)
     total_dates = len(all_dates)
 
-    stats = {
+    stats: Dict[str, int] = {
         "total": total_dates,
         "ok": 0,
         "missing": 0,
@@ -401,7 +596,7 @@ def write_report(
     results: List[Dict],
 ) -> None:
     """
-    Génère un rapport texte dans le même esprit que verify.py,
+    Génère un rapport texte dans l'esprit de l'ancien verify.py,
     mais limité à l'intervalle [start_date, end_date].
     """
     path = Path(report_file)
@@ -471,13 +666,9 @@ def verify_and_repair_period(
     print(f"Période: {start_date} → {end_date}")
     print(f"Max passes de réparation: {max_passes}\n")
 
-    last_stats: Dict | None = None
-    last_results: List[Dict] | None = None
-
     for pass_idx in range(1, max_passes + 1):
         print(f"\n===== PASS {pass_idx}/{max_passes} : VÉRIFICATION =====\n")
         stats, results = verify_period(start_date, end_date)
-        last_stats, last_results = stats, results
 
         # Dates à réparer: MISSING / INCOMPLETE / ERROR
         bad_dates = [
@@ -520,10 +711,6 @@ def verify_and_repair_period(
         print("\n✓ Vérification complète avec succès après réparation.")
         return 0
 
-
-# =========================
-# Entrée CLI
-# =========================
 
 def main() -> int:
     parser = argparse.ArgumentParser(
