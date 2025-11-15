@@ -166,7 +166,7 @@ jobs:
 
           exit $GLOBAL_EXIT
 
-      # 5) Upload des rapports en artifacts
+      # 5) Upload des rapports en artifacts (mais PAS commités)
       - name: "📄 Upload verification reports (group ${{ matrix.group }})"
         uses: actions/upload-artifact@v4
         with:
@@ -174,7 +174,7 @@ jobs:
           path: verification_report_*.txt
           retention-days: 30
 
-      # 6) Commit + push pour les années du groupe
+      # 6) Commit + push uniquement les années du groupe (pas les rapports)
       - name: "📤 Commit & push changes for group ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -189,13 +189,10 @@ jobs:
           git config user.email "actions@github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
-          # Stage uniquement les années de ce groupe + leurs rapports
+          # Stage uniquement les fichiers HTML des années de ce groupe
           for YEAR in $YEARS; do
             if [ -d "resultats-et-rapports/${YEAR}" ]; then
               git add "resultats-et-rapports/${YEAR}"
-            fi
-            if [ -f "verification_report_${YEAR}.txt" ]; then
-              git add "verification_report_${YEAR}.txt"
             fi
           done
 
