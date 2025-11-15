@@ -9,7 +9,7 @@ permissions:
 jobs:
   verify-repair-group:
     runs-on: ubuntu-latest
-    timeout-minutes: 360   # 6h max, la limite GitHub
+    timeout-minutes: 360   # 6h max GitHub
 
     strategy:
       fail-fast: false
@@ -33,9 +33,7 @@ jobs:
             years: "2023 2024 2025"
 
     steps:
-      # ------------------------------------------------------------------
       # 1) État disque + nettoyage agressif AVANT clonage
-      # ------------------------------------------------------------------
       - name: "📊 Disk usage BEFORE cleanup"
         run: |
           echo "=== df -h (global) ==="
@@ -72,9 +70,7 @@ jobs:
           echo "=== df -h APRÈS CLEANUP ==="
           df -h
 
-      # ------------------------------------------------------------------
-      # 2) Sparse clone : uniquement scripts + années du groupe
-      # ------------------------------------------------------------------
+      # 2) Sparse clone : script + années du groupe
       - name: "📥 Sparse clone for group ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -94,8 +90,7 @@ jobs:
 
           git sparse-checkout init --no-cone
 
-          # On garde uniquement les scripts Python nécessaires + les années du groupe
-          PATTERNS="verify.py verify_and_repair.py"
+          PATTERNS="verify_and_repair.py"
           for Y in $YEARS; do
             PATTERNS="$PATTERNS resultats-et-rapports/${Y}"
           done
@@ -118,9 +113,7 @@ jobs:
             fi
           done
 
-      # ------------------------------------------------------------------
       # 3) Setup Python + deps
-      # ------------------------------------------------------------------
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
@@ -131,9 +124,7 @@ jobs:
           pip install --no-cache-dir requests beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      # ------------------------------------------------------------------
       # 4) Verify + repair pour les 3 années du groupe
-      # ------------------------------------------------------------------
       - name: "✅ Verify & repair years ${{ matrix.years }}"
         run: |
           set -e
@@ -175,9 +166,7 @@ jobs:
 
           exit $GLOBAL_EXIT
 
-      # ------------------------------------------------------------------
-      # 5) Upload des rapports en artifacts (debug / historique)
-      # ------------------------------------------------------------------
+      # 5) Upload des rapports en artifacts
       - name: "📄 Upload verification reports (group ${{ matrix.group }})"
         uses: actions/upload-artifact@v4
         with:
@@ -185,9 +174,7 @@ jobs:
           path: verification_report_*.txt
           retention-days: 30
 
-      # ------------------------------------------------------------------
-      # 6) Commit + push des données et rapports pour les années du groupe
-      # ------------------------------------------------------------------
+      # 6) Commit + push pour les années du groupe
       - name: "📤 Commit & push changes for group ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -217,7 +204,7 @@ jobs:
             exit 0
           fi
 
-          # Boucle de retry pour push (cas où d'autres jobs poussent en même temps)
+          # Boucle de retry pour push (conflits entre jobs parallèles)
           for attempt in 1 2 3; do
             echo "Tentative commit/push #$attempt"
 
@@ -229,7 +216,6 @@ jobs:
               git rebase --abort || true
             fi
 
-            # Commit (si pas déjà fait)
             if ! git diff --cached --quiet; then
               git commit -m "Verify+repair: ${YEARS} - $(date +'%Y-%m-%d %H:%M:%S')" || true
             fi
