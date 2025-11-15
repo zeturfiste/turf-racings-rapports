@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
+import argparse
 import os
 import re
 import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 from collections import defaultdict
 
 # =========================
-# Config
+# Config par défaut
 # =========================
 REPO_ROOT = "resultats-et-rapports"
 BASE = "https://www.zeturf.fr"
@@ -209,16 +209,18 @@ def verify_reunion_courses(reunion_file: Path, reunion_dir: Path, reunion_code: 
 # =========================
 # Main verification
 # =========================
-def run_verification():
+def run_verification(start_date: str = START_DATE,
+                     end_date: str = END_DATE,
+                     report_path: str = "verification_report.txt"):
     """
-    Parcourt toutes les dates et génère un rapport
+    Parcourt toutes les dates de start_date à end_date et génère un rapport dans report_path.
     """
     print("="*80)
     print("VÉRIFICATION COMPLÈTE DES DONNÉES ZETURF")
     print("="*80)
-    print(f"Période: {START_DATE} → {END_DATE}\n")
+    print(f"Période: {start_date} → {end_date}\n")
     
-    all_dates = date_range(START_DATE, END_DATE)
+    all_dates = date_range(start_date, end_date)
     total_dates = len(all_dates)
     
     # Statistics
@@ -261,13 +263,13 @@ def run_verification():
     print(f"  ❌ Erreurs:             {stats['error']}")
     
     # Write detailed report to file
-    report_file = Path("verification_report.txt")
+    report_file = Path(report_path)
     with open(report_file, "w", encoding="utf-8") as f:
         f.write("="*80 + "\n")
         f.write("RAPPORT DE VÉRIFICATION ZETURF\n")
         f.write("="*80 + "\n\n")
         f.write(f"Date de vérification: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"Période analysée: {START_DATE} → {END_DATE}\n\n")
+        f.write(f"Période analysée: {start_date} → {end_date}\n\n")
         
         f.write("STATISTIQUES\n")
         f.write("-"*80 + "\n")
@@ -298,7 +300,32 @@ def run_verification():
     return stats, incomplete_dates
 
 if __name__ == "__main__":
-    stats, incomplete = run_verification()
+    parser = argparse.ArgumentParser(description="Vérification des données ZEturf")
+    parser.add_argument(
+        "--start-date",
+        type=str,
+        default=START_DATE,
+        help="Date de début (YYYY-MM-DD, défaut: 2005-04-27)",
+    )
+    parser.add_argument(
+        "--end-date",
+        type=str,
+        default=END_DATE,
+        help="Date de fin (YYYY-MM-DD, défaut: 2025-11-11)",
+    )
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default="verification_report.txt",
+        help="Chemin du fichier de rapport",
+    )
+    args = parser.parse_args()
+
+    stats, incomplete = run_verification(
+        start_date=args.start_date,
+        end_date=args.end_date,
+        report_path=args.report_file,
+    )
     
     # Exit code for CI/CD
     if stats["missing"] > 0 or stats["incomplete"] > 0 or stats["error"] > 0:
