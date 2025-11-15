@@ -1,0 +1,125 @@
+name: Verify & Rescrape ZEturf
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-rescrape-group:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 7
+      matrix:
+        group: [g1, g2, g3, g4, g5, g6, g7]
+        include:
+          - group: g1
+            years: "2005 2006 2007"
+          - group: g2
+            years: "2008 2009 2010"
+          - group: g3
+            years: "2011 2012 2013"
+          - group: g4
+            years: "2014 2015 2016"
+          - group: g5
+            years: "2017 2018 2019"
+          - group: g6
+            years: "2020 2021 2022"
+          - group: g7
+            years: "2023 2024 2025"
+
+    steps:
+      - name: "📊 Disk usage BEFORE cleanup"
+        run: |
+          echo "=== df -h (global) ==="
+          df -h
+          echo ""
+          echo "=== Top 20 plus gros dossiers (racine) ==="
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
+
+      - name: "🧹 Aggressive cleanup BEFORE clone"
+        run: |
+          echo "=== df -h AVANT CLEANUP ==="
+          df -h
+
+          echo ""
+          echo "🧹 Suppression des gros SDK/runtimes inutiles..."
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /usr/share/dotnet || true
+          sudo rm -rf /usr/share/swift || true
+          sudo rm -rf /opt/hostedtoolcache || true
+
+          echo ""
+          echo "🧹 Docker / caches / temporaires..."
+          docker system prune -af --volumes 2>/dev/null || true
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* 2>/dev/null || true
+          pip cache purge 2>/dev/null || true
+          rm -rf ~/.cache ~/.npm ~/.yarn 2>/dev/null || true
+          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
+          sudo journalctl --vacuum-time=1s 2>/dev/null || true
+          sudo rm -rf /var/log/* 2>/dev/null || true
+
+          echo ""
+          echo "=== df -h APRÈS CLEANUP ==="
+          df -h
+
+      - name: "📥 Sparse clone pour le groupe ${{ matrix.group }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          YEARS="${{ matrix.years }}"
+          BRANCH="${{ github.ref_name }}"
+          if [ -z "$BRANCH" ]; then
+            BRANCH="main"
+          fi
+
+          echo "Groupe: ${{ matrix.group }} - Années: $YEARS"
+          echo "Branche: $BRANCH"
+
+          git clone --filter=blob:none --no-checkout --sparse \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          git sparse-checkout init --no-cone
+
+          PATTERNS="verify.py verify_courses"
+          for Y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/${Y}"
+          done
+
+          echo "Sparse-checkout patterns: $PATTERNS"
+          git sparse-checkout set $PATTERNS
+
+          git checkout "$BRANCH"
+
+          echo ""
+          echo "=== df -h APRÈS CLONE (groupe ${{ matrix.group }}) ==="
+          df -h
+          echo ""
+          echo "=== Taille des données pour ce groupe ==="
+          for Y in $YEARS; do
+            if [ -d "resultats-et-rapports/${Y}" ]; then
+              du -sh "resultats-et-rapports/${Y}" || true
+            else
+              echo "Pas de dossier resultats-et-rapports/${Y}"
+            fi
+          done
+
+      - name: "🐍 Setup Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: "📦 Install dependencies"
+        run: |
+          pip install --no-cache-dir requests beautifulsoup4 lxml
+          pip cache purge 2>/dev/null || true
+
+      - name: "✅ Verify + rescrape pour années ${{ matrix.years }}"
+        run: |
+          python verify.py --years "${{ matrix.years }}"
