@@ -1,29 +1,32 @@
 # -*- coding: utf-8 -*-
 """
-Re-scraping intelligent des courses manquantes ZEturf.
+Re-scraping intelligent des courses ZEturf manquantes.
 
-- Lit verification_report.txt pour trouver les courses manquantes
-- Reconstruit les URLs à partir des noms de fichiers
-- Scrape par année, dans l'ordre date / réunion / course croissant
-- Concurrency fixe (lot de 100 courses en parallèle)
-- Pause fixe entre les lots (30s) pour éviter les 429
-- AUCUNE course n'est "skippée" silencieusement :
-    * toutes les erreurs (HTTP 429, 5xx, etc.) sont retentées
-    * si des courses restent en échec après plusieurs tentatives, l'année N'EST PAS commit
-- Monitoring de l'espace disque (arrêt propre si disque trop plein)
+Principes clés :
+- Lecture de verification_report.txt pour trouver les courses manquantes
+- Traitement par année, dans l'ordre date / réunion / course
+- Requêtes HTTP asynchrones avec aiohttp, concurrency fixe = 100
+- Lots de 100 requêtes en parallèle, avec pause de 30s entre les lots
+- AUCUNE course "skippée" : si 429 ou erreur réseau, on retente dans le lot suivant
+- On ne commit une année QUE si toutes les courses ciblées pour cette année sont récupérées (aucun échec définitif)
+- Commit + push robuste avec fetch + rebase + retries
 """
-from __future__ import annotations
 
 import asyncio
 import aiohttp
 import re
 import shutil
 import subprocess
-from collections import defaultdict
+import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Optional, Tuple
+
+# =========================
+# Configuration générale
+# =========================
 
 BASE = "https://www.zeturf.fr"
 REPO_ROOT = "resultats-et-rapports"
@@ -36,48 +39,61 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
 }
 
-# Concurrency / timing
-CONCURRENCY = 100                 # 100 requêtes en parallèle
-SLEEP_BETWEEN_LOTS = 30.0         # 30 secondes entre 2 lots
+# Concurrency et rythme
+CONCURRENCY = 100          # 100 requêtes en parallèle
+BATCH_SLEEP_SECONDS = 30   # pause fixe de 30s entre lots
 
-# Robustesse
-MAX_ATTEMPTS_PER_COURSE = 5       # On essaie chaque course jusqu'à 5 fois
-CRITICAL_DISK_GB = 3.0            # On s'arrête si on descend sous ce seuil
+# Seuil disque
+CRITICAL_FREE_GB = 2.0     # arrêt si espace < 2 Go
 
+# =========================
+# Data classes
+# =========================
 
 @dataclass
 class CourseTask:
-    date_str: str
-    reunion_slug: str
-    course_file: str
-    filepath: Path
-    attempts: int = 0  # nombre de tentatives déjà effectuées
+    year: str
+    date: str          # "YYYY-MM-DD"
+    reunion_slug: str  # ex: "R1-auteuil"
+    course_file: str   # ex: "R1C2-prix-du-president-de-la-republique.html"
+
+@dataclass
+class YearResult:
+    year: str
+    total_courses: int
+    success_count: int
+    permanent_failures: List[CourseTask]
+    aborted_for_disk: bool
 
 
 # =========================
-# Disk monitoring
+# Utilitaires disque
 # =========================
+
 def get_disk_space_gb() -> float:
-    """Retourne l'espace disque disponible en GB pour '/'."""
-    stat = shutil.disk_usage('/')
-    return stat.free / (1024 ** 3)
+    """Retourne l'espace disque libre (sur /) en Go."""
+    usage = shutil.disk_usage("/")
+    return usage.free / (1024 ** 3)
 
 
 def check_disk_space_critical() -> bool:
-    """True si l'espace disque est critique, et log un message."""
+    """Retourne True si l'espace disque est critique."""
     free_gb = get_disk_space_gb()
-    if free_gb < CRITICAL_DISK_GB:
-        print(f"\n⚠️  ALERTE DISQUE: {free_gb:.2f} GB restants (< {CRITICAL_DISK_GB} GB)")
-        print("    Arrêt du scraping pour éviter la saturation du runner.")
+    if free_gb < CRITICAL_FREE_GB:
+        print(
+            f"\n⚠️  ALERTE DISQUE: {free_gb:.2f} Go libres < {CRITICAL_FREE_GB} Go. "
+            "Arrêt pour éviter la saturation."
+        )
         return True
     return False
 
 
 # =========================
-# Path helpers
+# Helpers chemins & URL
 # =========================
+
 def get_date_directory(date_str: str) -> Path:
-    """Retourne le chemin du dossier de la date: YYYY/MM/YYYY-MM-DD/"""
+    """Retourne le chemin du dossier de la date: resultats-et-rapports/YYYY/MM/YYYY-MM-DD/"""
     dt = datetime.strptime(date_str, "%Y-%m-%d")
     year = dt.strftime("%Y")
     month = dt.strftime("%m")
@@ -85,23 +101,54 @@ def get_date_directory(date_str: str) -> Path:
 
 
 def save_html(filepath: Path, html: str) -> None:
-    """Sauvegarde le HTML dans le fichier (création des dossiers au besoin)."""
+    """Sauvegarde le HTML dans le fichier (en créant les dossiers)."""
     filepath.parent.mkdir(parents=True, exist_ok=True)
     filepath.write_text(html, encoding="utf-8")
 
 
-# =========================
-# Parse verification report
-# =========================
-def parse_missing_courses(
-    report_path: Path = Path("verification_report.txt"),
-) -> Dict[str, Dict[str, List[Tuple[str, str]]]]:
+def build_course_url(date_str: str, reunion_slug: str, course_file: str) -> str:
     """
-    Parse le rapport de vérification pour extraire les courses manquantes.
+    Reconstruit l'URL de la course depuis le nom de fichier et la réunion.
+
+    Ex: date=2006-04-16, reunion=R1-auteuil, course_file=R1C2-prix-du-president-de-la-republique.html
+    → https://www.zeturf.fr/fr/course/2006-04-16/R1C2-auteuil-prix-du-president-de-la-republique
+    """
+    # hippodrome: "R1-auteuil" → "auteuil"
+    hippodrome = reunion_slug.split("-", 1)[1] if "-" in reunion_slug else reunion_slug
+
+    # Remove .html extension
+    course_slug = course_file.replace(".html", "")
+
+    # course_slug = "R1C2-prix-du-president-de-la-republique"
+    # code_part = "R1C2"
+    # title_part = "prix-du-president-de-la-republique"
+    dash_index = course_slug.find("-")
+    if dash_index == -1:
+        code_part = course_slug
+        title_part = ""
+    else:
+        code_part = course_slug[:dash_index]
+        title_part = course_slug[dash_index + 1 :]
+
+    if title_part:
+        path_part = f"{code_part}-{hippodrome}-{title_part}"
+    else:
+        path_part = f"{code_part}-{hippodrome}"
+
+    return f"{BASE}/fr/course/{date_str}/{path_part}"
+
+
+# =========================
+# Parsing du rapport
+# =========================
+
+def parse_missing_courses(report_path: Path = Path("verification_report.txt")) -> Dict[str, Dict[str, List[Tuple[str, str]]]]:
+    """
+    Parse verification_report.txt pour extraire les courses manquantes.
 
     Format attendu dans le rapport:
         DATE: 2006-04-16 - STATUS: INCOMPLETE
-        ❌ R1-auteuil/R1C2-prix-du-president-de-la-republique.html
+          ❌ R1-auteuil/R1C2-prix-du-president-de-la-republique.html
 
     Retourne:
         dict[year][date] = [(reunion_slug, course_file), ...]
@@ -110,7 +157,7 @@ def parse_missing_courses(
         print(f"❌ Fichier {report_path} introuvable")
         return {}
 
-    missing: Dict[str, Dict[str, List[Tuple[str, str]]]] = defaultdict(lambda: defaultdict(list))
+    missing: Dict[str, Dict[str, List[Tuple[str, str]]]] = {}
     current_date: Optional[str] = None
 
     with report_path.open("r", encoding="utf-8") as f:
@@ -119,261 +166,207 @@ def parse_missing_courses(
 
             # En-tête de date
             if line.startswith("DATE:") and "STATUS:" in line:
-                m = re.search(r"DATE:\s*(\d{4}-\d{2}-\d{2})", line)
-                if m:
-                    current_date = m.group(1)
+                match = re.search(r"DATE:\s*(\d{4}-\d{2}-\d{2})", line)
+                if match:
+                    current_date = match.group(1)
+                    year = current_date[:4]
+                    missing.setdefault(year, {})
+                    missing[year].setdefault(current_date, [])
                 continue
 
-            if not current_date:
-                continue
-
-            # Lignes "❌ xxx/yyy.html"
-            if line.startswith("❌") and "/" in line and ".html" in line:
-                m = re.search(r"❌\s*([^/]+)/([^/]+\.html)", line)
-                if m:
-                    reunion_slug = m.group(1)
-                    course_file = m.group(2)
+            # Lignes de courses manquantes
+            if current_date and line.startswith("❌") and "/" in line and ".html" in line:
+                # Exemple: "❌ R1-auteuil/R1C2-prix-du-president-de-la-republique.html"
+                match = re.search(r"❌\s*([^/]+)/([^/]+\.html)", line)
+                if match:
+                    reunion_slug = match.group(1)
+                    course_file = match.group(2)
                     year = current_date[:4]
                     missing[year][current_date].append((reunion_slug, course_file))
 
-    # On renvoie un dict classique (pas defaultdict) pour éviter les surprises
-    return {y: dict(dates) for y, dates in missing.items()}
+    return missing
 
 
 # =========================
-# URL reconstruction
+# HTTP / scraping
 # =========================
-def build_course_url(date_str: str, reunion_slug: str, course_file: str) -> str:
+
+async def fetch_one(
+    session: aiohttp.ClientSession,
+    task: CourseTask,
+    sem: asyncio.Semaphore,
+) -> Tuple[CourseTask, Optional[int], Optional[str], Optional[Exception]]:
     """
-    Reconstruit l'URL de la course depuis le nom de fichier.
-
-    Ex: date=2006-04-16, reunion=R1-auteuil, file=R1C2-prix-du-president-de-la-republique.html
-    → https://www.zeturf.fr/fr/course/2006-04-16/R1C2-auteuil-prix-du-president-de-la-republique
+    Récupère une course et retourne (task, status, html, exception).
+    - status = code HTTP ou None si pas de réponse
+    - html = contenu si status == 200
+    - exception = éventuelle exception réseau
     """
-    hippodrome = reunion_slug.split("-", 1)[1] if "-" in reunion_slug else reunion_slug
-
-    # "R1C2-prix-du-president-de-la-republique.html" -> "R1C2-prix-du-president-de-la-republique"
-    base_slug = course_file[:-5] if course_file.endswith(".html") else course_file
-
-    # On sépare code course ("R1C2") du titre
-    code, _, title_part = base_slug.partition("-")
-    if not code:
-        # fallback grossier si le format est inattendu
-        code = base_slug
-
-    url = f"{BASE}/fr/course/{date_str}/{code}-{hippodrome}-{title_part}"
-    return url
-
-
-# =========================
-# HTTP fetching
-# =========================
-async def fetch_course(
-    session: aiohttp.ClientSession, url: str, retries: int = 3
-) -> Tuple[Optional[str], Optional[int], Optional[str]]:
-    """
-    Récupère le HTML d'une course.
-
-    Retourne: (html ou None, status HTTP ou None, message d'erreur éventuel)
-    """
-    last_error: Optional[str] = None
-    for attempt in range(retries):
-        try:
-            async with session.get(
-                url, headers=HEADERS, timeout=aiohttp.ClientTimeout(total=30)
-            ) as resp:
+    url = build_course_url(task.date, task.reunion_slug, task.course_file)
+    try:
+        async with sem:
+            async with session.get(url, headers=HEADERS, timeout=aiohttp.ClientTimeout(total=30)) as resp:
+                status = resp.status
                 html = await resp.text()
-                return html, resp.status, None
-        except asyncio.TimeoutError:
-            last_error = "Timeout"
-            await asyncio.sleep(2 * (attempt + 1))
-        except Exception as e:  # noqa: BLE001
-            last_error = f"{type(e).__name__}: {e}"
-            await asyncio.sleep(2 * (attempt + 1))
-
-    return None, None, last_error
-
-
-async def fetch_and_save_course(
-    session: aiohttp.ClientSession, task: CourseTask
-) -> Tuple[CourseTask, Optional[int], Optional[str]]:
-    """
-    Fait 1 requête pour une course, sauvegarde si 200.
-
-    Retourne: (task, status HTTP ou None, message d'erreur)
-    """
-    url = build_course_url(task.date_str, task.reunion_slug, task.course_file)
-    html, status, error = await fetch_course(session, url)
-
-    if status == 200 and html is not None:
-        save_html(task.filepath, html)
-        return task, 200, None
-
-    if status is not None:
-        return task, status, f"HTTP {status}"
-
-    return task, None, error or "Erreur inconnue"
-
-
-# =========================
-# Scraping par année
-# =========================
-@dataclass
-class YearResult:
-    year: str
-    total_courses: int
-    success: int
-    permanent_failures: List[CourseTask]
-    aborted_for_disk: bool
+                return task, status, html, None
+    except Exception as e:
+        return task, None, None, e
 
 
 async def scrape_year(
     year: str,
     dates_courses: Dict[str, List[Tuple[str, str]]],
-    concurrency: int = CONCURRENCY,
-    sleep_between_lots: float = SLEEP_BETWEEN_LOTS,
+    max_courses_for_year: Optional[int] = None,
 ) -> YearResult:
     """
-    Scrape toutes les courses manquantes d'une année.
+    Scrape toutes les courses manquantes pour une année.
 
-    - On traite les courses dans l'ordre date/reunion/course croissant
-    - On travaille par "lots" de taille = concurrency
-    - Tous les statuts != 200 sont retentés jusqu'à MAX_ATTEMPTS_PER_COURSE
-    - Si des courses restent en échec après MAX_ATTEMPTS_PER_COURSE tentatives,
-      l'année est marquée comme incomplète (pas de commit).
+    - dates_courses: dict[date] = [(reunion_slug, course_file), ...]
+    - max_courses_for_year: limite optionnelle pour cette année (ou None = toutes)
+
+    Retourne YearResult avec stats et éventuels échecs définitifs.
     """
-    print(f"\n{'=' * 80}")
+    print("\n" + "=" * 80)
     print(f"ANNÉE {year}")
-    print(f"{'=' * 80}\n")
+    print("=" * 80)
 
     free_gb = get_disk_space_gb()
-    print(f"💾 Espace disque au début de {year}: {free_gb:.2f} GB")
+    print(f"💾 Espace disque disponible au début de l'année {year}: {free_gb:.2f} Go\n")
 
-    if free_gb < CRITICAL_DISK_GB:
-        print(f"⚠️  Espace insuffisant pour démarrer l'année {year}")
-        return YearResult(year, 0, 0, [], aborted_for_disk=True)
-
-    # Aplatir toutes les courses de l'année en gardant l'ordre
+    # Construire la liste plate des CourseTask dans l'ordre:
+    # date croissante, puis ordre du rapport pour cette date
     all_tasks: List[CourseTask] = []
     for date_str in sorted(dates_courses.keys()):
-        courses_list = dates_courses[date_str]
-        for reunion_slug, course_file in courses_list:
-            date_dir = get_date_directory(date_str)
-            reunion_dir = date_dir / reunion_slug
-            filepath = reunion_dir / course_file
-            all_tasks.append(CourseTask(date_str, reunion_slug, course_file, filepath))
+        for reunion_slug, course_file in dates_courses[date_str]:
+            all_tasks.append(
+                CourseTask(
+                    year=year,
+                    date=date_str,
+                    reunion_slug=reunion_slug,
+                    course_file=course_file,
+                )
+            )
 
-    total_courses = len(all_tasks)
-    if total_courses == 0:
-        print(f"ℹ️  Aucune course à traiter pour {year}")
-        return YearResult(year, 0, 0, [], aborted_for_disk=False)
+    if not all_tasks:
+        print(f"ℹ️  Aucune course à récupérer pour {year}")
+        return YearResult(year=year, total_courses=0, success_count=0, permanent_failures=[], aborted_for_disk=False)
 
-    print(f"📊 {total_courses} courses à récupérer pour {year}\n")
+    if max_courses_for_year is not None:
+        # On ne traite que le début de la liste pour respecter la limite globale
+        all_tasks = all_tasks[:max_courses_for_year]
 
-    # Pending + stats
-    pending: List[CourseTask] = all_tasks[:]  # copie
-    permanent_failures: List[CourseTask] = []
+    total = len(all_tasks)
+    print(f"📊 {total} courses à récupérer pour {year}")
+
+    pending: List[CourseTask] = list(all_tasks)
     success_count = 0
-    lot_index = 0
+    permanent_failures: List[CourseTask] = []
     aborted_for_disk = False
 
-    timeout = aiohttp.ClientTimeout(total=60)  # 1 minute max par requête
-    conn = aiohttp.TCPConnector(limit=concurrency)
+    sem = asyncio.Semaphore(CONCURRENCY)
 
-    async with aiohttp.ClientSession(timeout=timeout, connector=conn) as session:
+    async with aiohttp.ClientSession() as session:
+        batch_index = 0
         while pending:
+            batch_index += 1
+
             if check_disk_space_critical():
                 aborted_for_disk = True
                 break
 
-            lot_index += 1
-            lot_size = min(concurrency, len(pending))
-            current_lot = pending[:lot_size]
-            pending = pending[lot_size:]
+            # Extraire un lot de CONCURRENCY au maximum
+            batch = pending[:CONCURRENCY]
+            pending = pending[CONCURRENCY:]
 
+            start_idx = total - len(pending) - len(batch) + 1
+            end_idx = total - len(pending)
             free_gb = get_disk_space_gb()
-            first_task = current_lot[0]
-            last_task = current_lot[-1]
-            print(
-                f"\n  📦 Lot {lot_index}: courses "
-                f"{success_count + 1}-{success_count + lot_size}/{total_courses} "
-                f"(taille: {lot_size})"
-            )
-            print(f"  💾 Espace libre: {free_gb:.2f} GB")
-            print(
-                f"  🗓️  De {first_task.date_str} ({first_task.reunion_slug}) "
-                f"à {last_task.date_str} ({last_task.reunion_slug})"
-            )
 
-            # Lancer les requêtes en parallèle
-            tasks = [fetch_and_save_course(session, t) for t in current_lot]
-            results = await asyncio.gather(*tasks)
+            print(f"\n  📦 Lot {batch_index}: courses {start_idx}-{end_idx}/{total} (taille: {len(batch)})")
+            print(f"  💾 Espace libre: {free_gb:.2f} Go")
 
-            # Préparer la liste des courses à retenter
-            next_pending: List[CourseTask] = []
+            t0 = time.time()
+            tasks = [fetch_one(session, task, sem) for task in batch]
+            results: List[Tuple[CourseTask, Optional[int], Optional[str], Optional[Exception]]] = await asyncio.gather(*tasks)
+            elapsed = time.time() - t0
 
-            for task, status, error in results:
-                label = f"{task.date_str} {task.reunion_slug}/{task.course_file}"
+            # Courses à retenter (429, erreurs réseau, etc.)
+            to_retry: List[CourseTask] = []
 
-                if status == 200:
+            for task, status, html, exc in results:
+                # Log compact: date + chemin
+                display_path = f"{task.date} {task.reunion_slug}/{task.course_file}"
+
+                if status == 200 and html is not None:
+                    # Succès
+                    date_dir = get_date_directory(task.date)
+                    reunion_dir = date_dir / task.reunion_slug
+                    filepath = reunion_dir / task.course_file
+                    save_html(filepath, html)
                     success_count += 1
-                    print(f"      ✓ {label}")
-                    continue
-
-                # Erreur (HTTP ou exception réseau)
-                task.attempts += 1
-                if status == 429:
-                    print(f"      ⚠️  {label} (429 Too Many Requests, tentative {task.attempts})")
-                elif status is not None:
-                    print(f"      ✗ {label} (HTTP {status}, tentative {task.attempts})")
+                    print(f"      ✓ {display_path}")
+                elif status == 429:
+                    # Rate limit → retenter plus tard
+                    print(f"      ⚠️  429 Too Many Requests, sera retenté: {display_path}")
+                    to_retry.append(task)
+                elif status is not None and 500 <= status < 600:
+                    # Erreurs serveur, on retente
+                    print(f"      ⚠️  HTTP {status}, sera retenté: {display_path}")
+                    to_retry.append(task)
+                elif status is None and exc is not None:
+                    # Erreur réseau (timeout, etc.) → retente
+                    msg = str(exc)
+                    print(f"      ⚠️  Erreur réseau, sera retenté: {display_path} ({msg[:80]})")
+                    to_retry.append(task)
                 else:
-                    print(f"      ✗ {label} ({error}, tentative {task.attempts})")
-
-                if task.attempts < MAX_ATTEMPTS_PER_COURSE:
-                    # On retentera cette course dans un lot suivant
-                    next_pending.append(task)
-                else:
-                    # Echec définitif
+                    # Erreur 4xx autre que 429 → échec définitif
+                    code = status if status is not None else "ERR"
+                    print(f"      ✗ Échec définitif {code}: {display_path}")
                     permanent_failures.append(task)
 
-            # Important : on remet les échecs (à retenter) au début de la file,
-            # puis le reste des pending pour garder l'ordre global.
-            pending = next_pending + pending
+            # Ré-injecter les à-retenter en tête de la file pending pour ne rien sauter
+            if to_retry:
+                print(f"  🔁 {len(to_retry)} courses seront retentées au lot suivant.")
+                pending = to_retry + pending
 
-            # Si on a encore du travail à faire, on attend avant le prochain lot
+            print(
+                f"  ⏱️  Lot {batch_index} terminé en {elapsed:.1f}s "
+                f"(succès cumulés: {success_count}/{total}, en attente: {len(pending)}, "
+                f"échecs définitifs: {len(permanent_failures)})"
+            )
+
             if pending:
-                print(
-                    f"  ⏱️  Pause de {sleep_between_lots:.0f}s avant le lot suivant "
-                    f"(courses restantes: {len(pending)})"
-                )
-                await asyncio.sleep(sleep_between_lots)
+                # Pause fixe de 30s entre les lots, comme validé empiriquement
+                print(f"  ⏸️  Pause {BATCH_SLEEP_SECONDS}s avant le prochain lot...")
+                await asyncio.sleep(BATCH_SLEEP_SECONDS)
 
-    print(f"\n{'=' * 80}")
+    print("\n" + "=" * 80)
     print(f"RÉSUMÉ ANNÉE {year}")
-    print(f"{'=' * 80}")
-    print(f"✓ Succès:            {success_count}/{total_courses}")
-    print(f"✗ Echecs définitifs: {len(permanent_failures)}")
-    print(f"💾 Espace final:     {get_disk_space_gb():.2f} GB")
-    if aborted_for_disk:
-        print("⚠️  Année interrompue à cause de l'espace disque")
-    print(f"{'=' * 80}\n")
+    print("=" * 80)
+    print(f"✓ Succès:            {success_count}/{total}")
+    print(f"✗ Échecs définitifs: {len(permanent_failures)}")
+    print(f"💾 Espace final:     {get_disk_space_gb():.2f} Go")
+    print("=" * 80 + "\n")
 
     return YearResult(
         year=year,
-        total_courses=total_courses,
-        success=success_count,
+        total_courses=total,
+        success_count=success_count,
         permanent_failures=permanent_failures,
         aborted_for_disk=aborted_for_disk,
     )
 
 
 # =========================
-# Git operations
+# Git : commit & push robuste
 # =========================
+
 def git_commit_year(year: str) -> None:
-    """Commit et push les changements pour l'année (si des fichiers ont changé)."""
+    """Commit et push les changements pour l'année (robuste, avec retry)."""
     print(f"\n📤 Git commit pour l'année {year}...")
+
     try:
+        # Config user (idempotent)
         subprocess.run(["git", "config", "user.name", "GitHub Actions Bot"], check=True)
         subprocess.run(["git", "config", "user.email", "actions@github.com"], check=True)
 
@@ -384,15 +377,26 @@ def git_commit_year(year: str) -> None:
             text=True,
             check=True,
         )
+
         if not status.stdout.strip():
             print("  ℹ️  Aucun fichier modifié pour cette année (rien à commit).")
             return
 
-        # Compter (grossièrement) les fichiers affectés
         files_changed = len(status.stdout.strip().splitlines())
+        print(f"  ℹ️  Fichiers modifiés pour {year}: {files_changed}")
 
-        # Stage uniquement l'année courante
+        # Stage uniquement l'année
         subprocess.run(["git", "add", f"{REPO_ROOT}/{year}"], check=True)
+
+        # Déterminer la branche courante (main, etc.)
+        branch_result = subprocess.run(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        branch = branch_result.stdout.strip() or "main"
+        print(f"  ℹ️  Branche courante détectée: {branch}")
 
         # Commit
         subprocess.run(
@@ -406,143 +410,200 @@ def git_commit_year(year: str) -> None:
             ],
             check=True,
         )
+        print(f"  ✓ Commit local OK pour l'année {year}")
 
-        # Push
-        subprocess.run(["git", "push"], check=True)
-        print(f"  ✓ Année {year} committée et poussée ({files_changed} fichiers)\n")
+        # Push avec fetch/rebase et retry
+        max_push_attempts = 20
+        for attempt in range(1, max_push_attempts + 1):
+            print(f"  🔁 Tentative de push {attempt}/{max_push_attempts} sur {branch}...")
+
+            # Récupérer les dernières modifications distantes
+            fetch_proc = subprocess.run(
+                ["git", "fetch", "origin", branch],
+                capture_output=True,
+                text=True,
+            )
+            if fetch_proc.returncode != 0:
+                print("    ⚠️  git fetch a échoué:")
+                if fetch_proc.stdout.strip():
+                    print("      STDOUT:", fetch_proc.stdout.strip())
+                if fetch_proc.stderr.strip():
+                    print("      STDERR:", fetch_proc.stderr.strip())
+                time.sleep(2)
+                continue
+
+            # Rebase sur origin/branch pour intégrer les commits des autres jobs
+            rebase_proc = subprocess.run(
+                ["git", "rebase", f"origin/{branch}"],
+                capture_output=True,
+                text=True,
+            )
+            if rebase_proc.returncode != 0:
+                print("    ⚠️  git rebase a échoué:")
+                if rebase_proc.stdout.strip():
+                    print("      STDOUT:", rebase_proc.stdout.strip())
+                if rebase_proc.stderr.strip():
+                    print("      STDERR:", rebase_proc.stderr.strip())
+                # Si conflit improbable (normalement chaque job touche des années différentes),
+                # on arrête tout de suite car ce n'est plus automatique.
+                raise RuntimeError(f"Rebase impossible pour l'année {year} (voir logs ci-dessus).")
+
+            # Push
+            push_proc = subprocess.run(
+                ["git", "push", "origin", branch],
+                capture_output=True,
+                text=True,
+            )
+
+            if push_proc.returncode == 0:
+                print(f"  ✅ Push réussi pour l'année {year} sur {branch}")
+                return
+
+            # Push raté : log complet et on décide si on retente
+            print("    ✗ Push échoué:")
+            if push_proc.stdout.strip():
+                print("      STDOUT:", push_proc.stdout.strip())
+            if push_proc.stderr.strip():
+                print("      STDERR:", push_proc.stderr.strip())
+
+            stderr_lower = (push_proc.stderr or "").lower()
+
+            # Cas typique : non-fast-forward (course entre jobs)
+            if "non-fast-forward" in stderr_lower or "fetch first" in stderr_lower:
+                print("    ℹ️  Conflit non-fast-forward (concurrence entre jobs). Retry après backoff.")
+                time.sleep(3 * attempt)
+                continue
+
+            # Erreurs réseau transitoires
+            if "timed out" in stderr_lower or "connection reset" in stderr_lower:
+                print("    ℹ️  Erreur réseau transitoire. Retry après backoff.")
+                time.sleep(3 * attempt)
+                continue
+
+            # Autre type d'erreur (permissions, branche protégée, etc.) → non récupérable automatiquement
+            print("  ❌ Erreur de push non récupérable automatiquement.")
+            push_proc.check_returncode()  # lève CalledProcessError
+
+        # Si on arrive ici, 20 tentatives ont échoué
+        raise RuntimeError(f"Push échoué après {max_push_attempts} tentatives pour l'année {year}")
 
     except subprocess.CalledProcessError as e:
-        print(f"  ✗ Erreur Git pour l'année {year}: {e}\n")
+        print(f"  ❌ Erreur Git pour l'année {year}: {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"  ❌ Erreur inattendue pendant le commit/push pour {year}: {e}")
+        sys.exit(1)
 
 
 # =========================
-# Main orchestrator
+# Main
 # =========================
-async def main() -> None:
+
+async def main():
     import argparse
-    import time
 
     parser = argparse.ArgumentParser(
-        description="Re-scrape intelligent des courses ZEturf manquantes"
+        description="Re-scraping intelligent des courses ZEturf manquantes"
     )
     parser.add_argument(
         "--max-courses",
         type=int,
         default=None,
-        help="Limite globale de courses à traiter (pour tester).",
+        help="Limite globale de courses à traiter dans ce run (optionnel)",
     )
     parser.add_argument(
         "--years",
         type=str,
-        default="",
-        help="Liste d'années à traiter, séparées par des virgules (ex: 2008,2011,2014). "
-             "Si vide, toutes les années présentes dans le rapport sont traitées.",
+        default=None,
+        help="Années à traiter, séparées par des virgules (ex: '2008,2011,2014'). "
+             "Si non fourni: toutes les années présentes dans verification_report.txt.",
     )
+
     args = parser.parse_args()
 
-    start_ts = time.time()
-
     print("=" * 80)
-    print("RE-SCRAPING DES COURSES MANQUANTES")
+    print("RE-SCRAPING DES COURSES MANQUANTES ZETURF")
     print("=" * 80 + "\n")
 
     free_gb = get_disk_space_gb()
-    print(f"💾 Espace disque initial: {free_gb:.2f} GB\n")
+    print(f"💾 Espace disque initial: {free_gb:.2f} Go\n")
+    if free_gb < 5.0:
+        print("⚠️  WARNING: Espace disque faible (< 5 Go). Le run peut s'arrêter prématurément.\n")
 
-    if free_gb < CRITICAL_DISK_GB:
-        print("❌ Espace disque déjà critique au démarrage, abandon.")
-        return
-
-    # Parser le rapport
+    # Parse le rapport
     missing_by_year = parse_missing_courses()
     if not missing_by_year:
         print("✓ Aucune course manquante détectée dans verification_report.txt\n")
         return
 
-    # Filtrage des années si --years est fourni
-    if args.years.strip():
-        requested_years = {y.strip() for y in args.years.split(",") if y.strip()}
-        missing_by_year = {
-            y: dates for (y, dates) in missing_by_year.items() if y in requested_years
-        }
-        if not missing_by_year:
-            print("❌ Aucun des années demandées n'a de courses manquantes.")
-            return
+    # Filtre éventuel par années
+    years_filter: Optional[set] = None
+    if args.years:
+        years_filter = {y.strip() for y in args.years.split(",") if y.strip()}
 
-    # Résumé global
-    total_courses = sum(
-        len(courses)
-        for year_data in missing_by_year.values()
-        for courses in year_data.values()
-    )
-    print(f"📊 {len(missing_by_year)} années avec des courses manquantes")
-    print(f"📊 {total_courses} courses manquantes au total\n")
+    # Récap global
+    total_missing_global = 0
+    for year, dates_courses in missing_by_year.items():
+        if years_filter and year not in years_filter:
+            continue
+        for courses in dates_courses.values():
+            total_missing_global += len(courses)
 
-    courses_processed = 0
-    HARD_LIMIT_MINUTES = 355  # on se garde ~5 minutes de marge sous la limite GitHub (6h)
+    print(f"📊 Total de courses manquantes (toutes années considérées): {total_missing_global}")
+    if args.max_courses is not None:
+        print(f"📊 Limite globale pour ce run: {args.max_courses} courses\n")
+    else:
+        print()
 
-    for year in sorted(missing_by_year.keys()):
-        # Limite globale de courses (option pour tests)
-        if args.max_courses is not None and courses_processed >= args.max_courses:
-            print(
-                f"⚠️  Limite globale atteinte ({courses_processed}/{args.max_courses} courses), arrêt."
-            )
-            break
+    remaining_global = args.max_courses
+    years = sorted(missing_by_year.keys())
 
-        # Estimation grossière du temps restant avant de démarrer une nouvelle année
-        elapsed_min = (time.time() - start_ts) / 60.0
-        remaining_min = HARD_LIMIT_MINUTES - elapsed_min
-        year_course_count = sum(len(c) for c in missing_by_year[year].values())
-
-        # Hypothèse : ~200 courses / minute par job (100 concu, lot toutes les 30s)
-        ESTIMATED_COURSES_PER_MIN = 200.0
-        estimated_min_for_year = year_course_count / ESTIMATED_COURSES_PER_MIN + 5.0  # +5min pour commit/git
-
-        print(
-            f"\n=== Préparation année {year} ===\n"
-            f"Courses à traiter: {year_course_count}\n"
-            f"Temps écoulé: {elapsed_min:.1f} min, reste ~{remaining_min:.1f} min "
-            f"(limite soft {HARD_LIMIT_MINUTES}min)\n"
-            f"Estimation temps pour {year}: {estimated_min_for_year:.1f} min\n"
-        )
-
-        if remaining_min < estimated_min_for_year:
-            print(
-                f"⚠️  On estime que l'année {year} ne tiendra pas dans le temps restant "
-                f"({remaining_min:.1f} min). On s'arrête pour ne pas gaspiller des minutes."
-            )
-            break
-
-        # Scraper l'année
-        year_result = await scrape_year(year, missing_by_year[year])
-
-        courses_processed += year_result.success
-
-        # Si le disque est devenu critique, on arrête tout
-        if year_result.aborted_for_disk:
-            print(
-                f"⚠️  Arrêt global: disque critique pendant l'année {year}. "
-                f"Progression: {courses_processed}/{total_courses} courses téléchargées."
-            )
-            break
-
-        # Si des échecs définitifs subsistent, on ne commit PAS cette année
-        if year_result.permanent_failures:
-            print(
-                f"❌ L'année {year} n'est pas complète : "
-                f"{len(year_result.permanent_failures)} courses en échec définitif."
-            )
-            print("   → AUCUN commit n'est fait pour cette année. À rejouer plus tard.")
-            # Tu peux décider de `break` ici si tu préfères arrêter complètement.
+    for year in years:
+        if years_filter and year not in years_filter:
             continue
 
-        # Tout est OK pour cette année -> commit + push
-        git_commit_year(year)
+        # Déterminer combien de courses on peut traiter pour cette année,
+        # en respectant éventuellement la limite globale.
+        dates_courses = missing_by_year[year]
+        year_total = sum(len(c) for c in dates_courses.values())
+
+        if remaining_global is None:
+            max_for_year = None
+        else:
+            if remaining_global <= 0:
+                print(f"⚠️  Limite globale atteinte (max-courses). Arrêt avant l'année {year}.")
+                break
+            max_for_year = min(remaining_global, year_total)
+
+        # Scraper l'année
+        result = await scrape_year(year, dates_courses, max_courses_for_year=max_for_year)
+
+        if remaining_global is not None:
+            remaining_global -= result.success_count
+
+        # Si on a dû s'arrêter pour manque de disque, on ne commit pas.
+        if result.aborted_for_disk:
+            print(f"⚠️  Année {year}: arrêt pour manque de disque. Aucun commit.")
+            break
+
+        # Si toutes les courses traitées pour cette année sont OK, on commit.
+        if result.success_count == result.total_courses and not result.permanent_failures:
+            git_commit_year(year)
+        else:
+            print(
+                f"⚠️  Année {year}: toutes les courses prévues n'ont pas été récupérées "
+                f"(succès {result.success_count}/{result.total_courses}, "
+                f"échecs définitifs: {len(result.permanent_failures)}). Pas de commit."
+            )
+
+        # Si limite globale consommée, on s'arrête.
+        if remaining_global is not None and remaining_global <= 0:
+            print("⚠️  Limite globale max-courses atteinte. Arrêt du run.")
+            break
 
     print("\n" + "=" * 80)
-    print("SCRAPING TERMINÉ")
-    print(f"Courses téléchargées avec succès: {courses_processed}/{total_courses}")
-    print(f"💾 Espace disque final: {get_disk_space_gb():.2f} GB")
+    print("FIN DU RE-SCRAPING")
+    print(f"💾 Espace disque final: {get_disk_space_gb():.2f} Go")
     print("=" * 80)
 
 
