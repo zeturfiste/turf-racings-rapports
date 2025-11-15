@@ -5,8 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * 0'
 
+# On doit pouvoir écrire dans le repo pour le job d'agrégation
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   verify:
@@ -40,9 +41,6 @@ jobs:
         run: |
           echo "=== df -h (initial) ==="
           df -h
-          echo
-          echo "Top 20 plus gros dossiers (global) :"
-          sudo du -xhd1 / | sort -h | tail -n 20 || true
 
       - name: "🧹 Nettoyage agressif AVANT clone"
         run: |
@@ -102,9 +100,6 @@ jobs:
           echo
           echo "Taille du repo (Job $GROUP_ID) :"
           du -sh . || true
-          if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports/* || true
-          fi
 
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
@@ -115,14 +110,6 @@ jobs:
         run: |
           pip install --no-cache-dir beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
-
-      - name: "💾 Espace avant vérification (Job ${{ matrix.group_id }})"
-        run: |
-          echo "=== Espace avant vérification (Job $GROUP_ID) ==="
-          df -h
-          if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports || true
-          fi
 
       - name: "🔍 Vérification par année (Job ${{ matrix.group_id }})"
         run: |
@@ -138,15 +125,6 @@ jobs:
             python verify.py --year "$YEAR" --output-dir verify_zeturf_htmls
           done
 
-      - name: "💾 Espace après vérification (Job ${{ matrix.group_id }})"
-        if: always()
-        run: |
-          echo "=== Espace après vérification (Job $GROUP_ID) ==="
-          df -h
-          if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports || true
-          fi
-
       - name: "📤 Upload rapports (Job ${{ matrix.group_id }})"
         uses: actions/upload-artifact@v4
         if: always()
@@ -154,3 +132,64 @@ jobs:
           name: verify-reports-job-${{ matrix.group_id }}
           path: verify_zeturf_htmls
           retention-days: 14
+
+  aggregate_reports:
+    runs-on: ubuntu-latest
+    needs: verify
+    env:
+      TARGET_BRANCH: ${{ github.ref_name }}
+
+    steps:
+      - name: "📥 Checkout minimal pour les rapports"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          BRANCH="$TARGET_BRANCH"
+
+          echo "Sparse clone pour verify_zeturf_htmls sur $BRANCH"
+          git clone --filter=blob:none --no-checkout --sparse \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          git sparse-checkout init --no-cone
+          # On garde déjà l'existant de verify_zeturf_htmls s'il y en a
+          git sparse-checkout set verify_zeturf_htmls
+
+          git checkout "$BRANCH"
+
+          echo "Remote origin configuré :"
+          git remote -v
+
+      - name: "📥 Télécharger tous les artifacts de vérification"
+        uses: actions/download-artifact@v4
+        with:
+          path: verify_zeturf_htmls_tmp
+
+      - name: "📂 Fusionner les rapports dans verify_zeturf_htmls/"
+        run: |
+          mkdir -p verify_zeturf_htmls
+          # On copie tous les verify_*.txt dans verify_zeturf_htmls/
+          find verify_zeturf_htmls_tmp -type f -name 'verify_*.txt' -exec cp {} verify_zeturf_htmls/ \;
+
+          echo "Contenu final de verify_zeturf_htmls/"
+          ls -l verify_zeturf_htmls || true
+
+      - name: "📤 Commit & push des rapports"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add verify_zeturf_htmls
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement à commit (verify_zeturf_htmls inchangé)."
+            exit 0
+          fi
+
+          git commit -m "Update verify reports ($(date +'%Y-%m-%d %H:%M:%S'))"
+
+          # Push (simple, un seul job push → pas de conflit)
+          git push origin "$TARGET_BRANCH"
