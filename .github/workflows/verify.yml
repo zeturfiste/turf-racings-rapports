@@ -9,35 +9,29 @@ permissions:
   contents: write
 
 jobs:
-  verify-year:
+  verify-group:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     strategy:
-    fail-fast: false
-    max-parallel: 7
-    matrix:
-      year:
-      - 2005
-      - 2006
-      - 2007
-      - 2008
-      - 2009
-      - 2010
-      - 2011
-      - 2012
-      - 2013
-      - 2014
-      - 2015
-      - 2016
-      - 2017
-      - 2018
-      - 2019
-      - 2020
-      - 2021
-      - 2022
-      - 2023
-      - 2024
-      - 2025
+      fail-fast: false
+      max-parallel: 7
+      matrix:
+        group: [g1, g2, g3, g4, g5, g6, g7]
+        include:
+          - group: g1
+            years: "2005 2006 2007"
+          - group: g2
+            years: "2008 2009 2010"
+          - group: g3
+            years: "2011 2012 2013"
+          - group: g4
+            years: "2014 2015 2016"
+          - group: g5
+            years: "2017 2018 2019"
+          - group: g6
+            years: "2020 2021 2022"
+          - group: g7
+            years: "2023 2024 2025"
 
     steps:
       - name: "📊 Disk usage BEFORE cleanup"
@@ -76,34 +70,47 @@ jobs:
           echo "=== df -h APRÈS CLEANUP ==="
           df -h
 
-      - name: "📥 Sparse clone (année ${{ matrix.year }})"
+      - name: "📥 Sparse clone pour le groupe ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          YEAR=${{ matrix.year }}
-          BRANCH=${{ github.ref_name }}
+          YEARS="${{ matrix.years }}"
+          BRANCH="${{ github.ref_name }}"
+          if [ -z "$BRANCH" ]; then
+            BRANCH="main"
+          fi
 
-          echo "Clonage partiel pour l'année $YEAR sur la branche $BRANCH"
+          echo "Groupe: ${{ matrix.group }} - Années: $YEARS"
+          echo "Branche: $BRANCH"
 
           git clone --filter=blob:none --no-checkout --sparse \
             "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
 
           git sparse-checkout init --no-cone
-          git sparse-checkout set verify.py "resultats-et-rapports/${YEAR}"
+
+          PATTERNS="verify.py"
+          for Y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/${Y}"
+          done
+
+          echo "Sparse-checkout patterns: $PATTERNS"
+          git sparse-checkout set $PATTERNS
 
           git checkout "$BRANCH"
 
           echo ""
-          echo "=== df -h APRÈS CLONE (année ${YEAR}) ==="
+          echo "=== df -h APRÈS CLONE (groupe ${{ matrix.group }}) ==="
           df -h
           echo ""
-          echo "=== Taille des données pour ${YEAR} ==="
-          if [ -d "resultats-et-rapports/${YEAR}" ]; then
-            du -sh "resultats-et-rapports/${YEAR}" || true
-          else
-            echo "Pas de dossier resultats-et-rapports/${YEAR}"
-          fi
+          echo "=== Taille des données pour ce groupe ==="
+          for Y in $YEARS; do
+            if [ -d "resultats-et-rapports/${Y}" ]; then
+              du -sh "resultats-et-rapports/${Y}" || true
+            else
+              echo "Pas de dossier resultats-et-rapports/${Y}"
+            fi
+          done
 
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
@@ -115,36 +122,42 @@ jobs:
           pip install --no-cache-dir beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "✅ Run verification for year ${{ matrix.year }}"
+      - name: "✅ Run verification for years ${{ matrix.years }}"
         run: |
           set -e
-          YEAR=${{ matrix.year }}
+          YEARS="${{ matrix.years }}"
 
-          if [ "$YEAR" -eq 2005 ]; then
-            START="2005-04-27"
-          else
-            START="${YEAR}-01-01"
-          fi
+          for YEAR in $YEARS; do
+            echo "------------------------------------------"
+            echo "Vérification année ${YEAR}"
+            echo "------------------------------------------"
 
-          if [ "$YEAR" -eq 2025 ]; then
-            END="2025-11-11"
-          else
-            END="${YEAR}-12-31"
-          fi
+            if [ "$YEAR" -eq 2005 ]; then
+              START="2005-04-27"
+            else
+              START="${YEAR}-01-01"
+            fi
 
-          echo "Vérification année ${YEAR} (période ${START} → ${END})"
-          python verify.py --start-date "$START" --end-date "$END" --report-file "verification_report_${YEAR}.txt"
+            if [ "$YEAR" -eq 2025 ]; then
+              END="2025-11-11"
+            else
+              END="${YEAR}-12-31"
+            fi
 
-      - name: "📄 Upload verification report (year ${{ matrix.year }})"
+            echo "Période: ${START} → ${END}"
+            python verify.py --start-date "$START" --end-date "$END" --report-file "verification_report_${YEAR}.txt"
+          done
+
+      - name: "📄 Upload verification reports (group ${{ matrix.group }})"
         uses: actions/upload-artifact@v4
         with:
-          name: verification-report-${{ matrix.year }}
-          path: verification_report_${{ matrix.year }}.txt
+          name: verification-reports-${{ matrix.group }}
+          path: verification_report_*.txt
           retention-days: 30
 
   merge-reports:
     runs-on: ubuntu-latest
-    needs: verify-year
+    needs: verify-group
 
     steps:
       - name: "📥 Checkout minimal repo"
@@ -166,12 +179,13 @@ jobs:
           rm -f verification_report.txt
 
           echo "Fusion des rapports par année..."
-          # On concatène tous les verification_report_*.txt dans l'ordre des années
           find reports -type f -name 'verification_report_*.txt' | sort | while read -r f; do
+            echo "=== Ajout de $f ==="
             cat "$f" >> verification_report.txt
             echo "" >> verification_report.txt
           done
 
+          echo ""
           echo "Rapport fusionné généré:"
           ls -lh verification_report.txt
 
@@ -197,5 +211,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update verification_report (per-year verify) - $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "Update verification_report (grouped verify) - $(date +'%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:${{ github.ref_name }}
