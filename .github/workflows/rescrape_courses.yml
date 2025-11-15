@@ -7,30 +7,22 @@ on:
         description: "Nombre de jobs parallèles (1 à 3)."
         required: true
         default: "3"
-        type: choice
-        options:
-          - "1"
-          - "2"
-          - "3"
       years_job_1:
-        description: "Années pour le job 1 (ex: \"2008 2011 2014\")."
+        description: "Années pour le job 1 (ex: 2008 2011 2014)."
         required: true
         default: "2008 2011 2014 2017 2020 2023"
-        type: string
       years_job_2:
         description: "Années pour le job 2."
         required: false
         default: "2009 2012 2015 2018 2021 2024"
-        type: string
       years_job_3:
         description: "Années pour le job 3."
         required: false
         default: "2010 2013 2016 2019 2022 2025"
-        type: string
       max_courses:
         description: "Nombre max de courses à traiter (~approx, par job). Laisser vide = toutes."
         required: false
-        type: string
+        default: ""
 
 permissions:
   contents: write
