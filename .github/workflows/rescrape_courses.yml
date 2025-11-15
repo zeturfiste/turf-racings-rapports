@@ -1,386 +1,50 @@
-name: Re-scrape Missing Courses (configurable)
-
-on:
-  workflow_dispatch:
-    inputs:
-      jobs_count:
-        description: "Nombre de jobs parallèles (1 à 3)."
-        required: true
-        default: "3"
-        type: choice
-        options:
-          - "1"
-          - "2"
-          - "3"
-      years_job_1:
-        description: "Années pour le job 1 (ex: \"2008 2011 2014\")."
-        required: true
-        default: "2008 2011 2014 2017 2020 2023"
-        type: string
-      years_job_2:
-        description: "Années pour le job 2."
-        required: false
-        default: "2009 2012 2015 2018 2021 2024"
-        type: string
-      years_job_3:
-        description: "Années pour le job 3."
-        required: false
-        default: "2010 2013 2016 2019 2022 2025"
-        type: string
-      max_courses:
-        description: "Nombre max de courses à traiter (~approx, par job). Laisser vide = toutes."
-        required: false
-        type: string
-
-jobs:
-  rescrape-1:
-    if: ${{ github.event.inputs.jobs_count >= '1' }}
-    runs-on: ubuntu-latest
-    env:
-      YEARS: ${{ github.event.inputs.years_job_1 }}
-      MAX_COURSES: ${{ github.event.inputs.max_courses }}
-
-    steps:
-      - name: "⏱️ Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "📊 Espace disque initial & top dossiers"
+      - name: "📥 Sparse clone (scripts + années $YEARS)"
+        env:
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ github.token }}
+          YEARS: ${{ env.YEARS }}
         run: |
-          echo "=========================================="
-          echo "ESPACE DISQUE INITIAL"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
+          echo "Clonage sparse du dépôt $REPO pour années: $YEARS"
+          echo "Répertoire courant: $PWD"
 
-      - name: "🧹 Nettoyage dynamique pré-checkout"
-        run: |
-          echo "=========================================="
-          echo "NETTOYAGE DYNAMIQUE AVANT CHECKOUT"
-          echo "=========================================="
+          # On part d'un repo vide
+          rm -rf .git
+          git init .
 
-          echo "=== Espace avant nettoyage ==="
-          df -h | grep -E "Filesystem|/$"
+          # Config remote avec token
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
 
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
+          # Partial clone: ne récupère pas tous les blobs
+          git config remote.origin.promisor true
+          git config remote.origin.partialCloneFilter blob:none
 
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "🧹 Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
+          # Active sparse checkout (mode cone)
+          git sparse-checkout init --cone
+
+          # Patterns à garder : script, rapport, années sélectionnées
+          PATTERNS="rescrape_courses.py
+verification_report.txt"
+
+          for y in $YEARS; do
+            PATTERNS="$PATTERNS
+resultats-et-rapports/$y"
           done
 
-          echo ""
-          echo "=== Nettoyage caches généraux ==="
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
+          printf "%s\n" "$PATTERNS" > .git/info/sparse-checkout
+
+          echo "=== Patterns sparse-checkout ==="
+          cat .git/info/sparse-checkout
+
+          # Fetch + checkout seulement ce qui est dans les patterns
+          git fetch --depth=1 origin main
+          git checkout main
 
           echo ""
-          echo "=== Espace après nettoyage pré-checkout ==="
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Contenu du repo après sparse clone ==="
+          ls -R .
 
-      - name: "📥 Checkout (sparse)"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          sparse-checkout: |
-            rescrape_courses.py
-            verification_report.txt
-            resultats-et-rapports
-
-      - name: "💾 Espace après checkout & nettoyage repo"
-        run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS CHECKOUT"
-          echo "=========================================="
+          echo ""
+          echo "=== Espace disque après sparse clone ==="
           df -h | grep -E "Filesystem|/$"
           echo ""
-          echo "=== Taille du repo ==="
-          du -sh . 2>/dev/null || echo "N/A"
-          echo ""
-          echo "=== Taille .git ==="
-          du -sh .git 2>/dev/null || echo "N/A"
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "❌ verification_report.txt est manquant !"
-            echo "   Ce workflow suppose que le rapport existe déjà."
-            exit 1
-          fi
-
-          echo ""
-          echo "=== Nettoyage léger du repo ==="
-          git gc --prune=now --quiet || true
-
-      - name: "🐍 Setup Python"
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: "📦 Install dependencies"
-        run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
-          pip cache purge 2>/dev/null || true
-
-      - name: "🚀 Re-scraping des courses (job 1)"
-        run: |
-          echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (job 1, années: $YEARS)"
-          echo "=========================================="
-
-          if [ -z "$YEARS" ]; then
-            echo "ℹ️  Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
-          fi
-
-          if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de toutes les courses manquantes pour: $YEARS"
-            python rescrape_courses.py --years $YEARS
-          else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses pour: $YEARS"
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
-          fi
-
-  rescrape-2:
-    if: ${{ github.event.inputs.jobs_count >= '2' }}
-    runs-on: ubuntu-latest
-    env:
-      YEARS: ${{ github.event.inputs.years_job_2 }}
-      MAX_COURSES: ${{ github.event.inputs.max_courses }}
-
-    steps:
-      - name: "⏱️ Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "📊 Espace disque initial & top dossiers"
-        run: |
-          echo "=========================================="
-          echo "ESPACE DISQUE INITIAL"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
-
-      - name: "🧹 Nettoyage dynamique pré-checkout"
-        run: |
-          echo "=========================================="
-          echo "NETTOYAGE DYNAMIQUE AVANT CHECKOUT"
-          echo "=========================================="
-
-          echo "=== Espace avant nettoyage ==="
-          df -h | grep -E "Filesystem|/$"
-
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
-
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "🧹 Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
-          done
-
-          echo ""
-          echo "=== Nettoyage caches généraux ==="
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
-
-          echo ""
-          echo "=== Espace après nettoyage pré-checkout ==="
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "📥 Checkout (sparse)"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          sparse-checkout: |
-            rescrape_courses.py
-            verification_report.txt
-            resultats-et-rapports
-
-      - name: "💾 Espace après checkout & nettoyage repo"
-        run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS CHECKOUT"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Taille du repo ==="
-          du -sh . 2>/dev/null || echo "N/A"
-          echo ""
-          echo "=== Taille .git ==="
-          du -sh .git 2>/dev/null || echo "N/A"
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "❌ verification_report.txt est manquant !"
-            exit 1
-          fi
-
-          echo ""
-          echo "=== Nettoyage léger du repo ==="
-          git gc --prune=now --quiet || true
-
-      - name: "🐍 Setup Python"
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: "📦 Install dependencies"
-        run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
-          pip cache purge 2>/dev/null || true
-
-      - name: "🚀 Re-scraping des courses (job 2)"
-        run: |
-          echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (job 2, années: $YEARS)"
-          echo "=========================================="
-
-          if [ -z "$YEARS" ]; then
-            echo "ℹ️  Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
-          fi
-
-          if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de toutes les courses manquantes pour: $YEARS"
-            python rescrape_courses.py --years $YEARS
-          else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses pour: $YEARS"
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
-          fi
-
-  rescrape-3:
-    if: ${{ github.event.inputs.jobs_count >= '3' }}
-    runs-on: ubuntu-latest
-    env:
-      YEARS: ${{ github.event.inputs.years_job_3 }}
-      MAX_COURSES: ${{ github.event.inputs.max_courses }}
-
-    steps:
-      - name: "⏱️ Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "📊 Espace disque initial & top dossiers"
-        run: |
-          echo "=========================================="
-          echo "ESPACE DISQUE INITIAL"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
-
-      - name: "🧹 Nettoyage dynamique pré-checkout"
-        run: |
-          echo "=========================================="
-          echo "NETTOYAGE DYNAMIQUE AVANT CHECKOUT"
-          echo "=========================================="
-
-          echo "=== Espace avant nettoyage ==="
-          df -h | grep -E "Filesystem|/$"
-
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
-
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "🧹 Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
-          done
-
-          echo ""
-          echo "=== Nettoyage caches généraux ==="
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
-
-          echo ""
-          echo "=== Espace après nettoyage pré-checkout ==="
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "📥 Checkout (sparse)"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          sparse-checkout: |
-            rescrape_courses.py
-            verification_report.txt
-            resultats-et-rapports
-
-      - name: "💾 Espace après checkout & nettoyage repo"
-        run: |
-          echo "=========================================="
-          echo "ESPACE APRÈS CHECKOUT"
-          echo "=========================================="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Taille du repo ==="
-          du -sh . 2>/dev/null || echo "N/A"
-          echo ""
-          echo "=== Taille .git ==="
-          du -sh .git 2>/dev/null || echo "N/A"
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "❌ verification_report.txt est manquant !"
-            exit 1
-          fi
-
-          echo ""
-          echo "=== Nettoyage léger du repo ==="
-          git gc --prune=now --quiet || true
-
-      - name: "🐍 Setup Python"
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: "📦 Install dependencies"
-        run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
-          pip cache purge 2>/dev/null || true
-
-      - name: "🚀 Re-scraping des courses (job 3)"
-        run: |
-          echo "=========================================="
-          echo "LANCEMENT DU RE-SCRAPING (job 3, années: $YEARS)"
-          echo "=========================================="
-
-          if [ -z "$YEARS" ]; then
-            echo "ℹ️  Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
-          fi
-
-          if [ -z "$MAX_COURSES" ]; then
-            echo "➡️  Re-scraping de toutes les courses manquantes pour: $YEARS"
-            python rescrape_courses.py --years $YEARS
-          else
-            echo "➡️  Re-scraping limité à ~${MAX_COURSES} courses pour: $YEARS"
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
-          fi
+          du -sh . resultats-et-rapports/* 2>/dev/null || true
