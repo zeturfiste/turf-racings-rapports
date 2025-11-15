@@ -1,422 +1,381 @@
-name: Re-scrape Missing Courses (configurable)
+name: Re-scrape Missing Courses (par années)
 
 on:
   workflow_dispatch:
     inputs:
       jobs_count:
-        description: "Nombre de jobs parallèles (1 à 3)."
+        description: "Nombre de jobs parallèles (1 à 3)"
         required: true
         default: "3"
+        type: string
+
       years_job_1:
-        description: "Années pour le job 1 (ex: 2008 2011 2014)."
-        required: true
+        description: "Années pour le job 1 (ex: '2008 2011 2014')"
+        required: false
         default: "2008 2011 2014 2017 2020 2023"
+        type: string
+
       years_job_2:
-        description: "Années pour le job 2."
+        description: "Années pour le job 2 (ex: '2009 2012 2015')"
         required: false
         default: "2009 2012 2015 2018 2021 2024"
+        type: string
+
       years_job_3:
-        description: "Années pour le job 3."
+        description: "Années pour le job 3 (ex: '2010 2013 2016 2019 2022 2025')"
         required: false
         default: "2010 2013 2016 2019 2022 2025"
+        type: string
+
       max_courses:
-        description: "Nombre max de courses à traiter (~approx, par job). Laisser vide = toutes."
+        description: "Limite globale de courses pour ce run (optionnel, pour tests)"
         required: false
-        default: ""
+        type: string
 
 permissions:
-  contents: write
+  contents: write   # nécessaire pour que les commits/push dans rescrape_courses.py fonctionnent
 
+# ----------------------------------------------------------
+# Job 1
+# ----------------------------------------------------------
 jobs:
-  rescrape-1:
-    if: ${{ github.event.inputs.jobs_count >= '1' }}
+  rescrape-job-1:
+    name: "Job 1 (années: ${{ github.event.inputs.years_job_1 }})"
+    if: ${{ github.event.inputs.jobs_count == '1' || github.event.inputs.jobs_count == '2' || github.event.inputs.jobs_count == '3' }}
     runs-on: ubuntu-latest
+
     env:
       YEARS: ${{ github.event.inputs.years_job_1 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
 
     steps:
-      - name: "Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "Espace disque initial et top dossiers"
+      - name: "📊 Espace disque initial"
         run: |
           echo "=== ESPACE DISQUE INITIAL ==="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
+          df -h
+          echo
+          echo "Top 20 plus gros dossiers (global) :"
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "Nettoyage dynamique avant clone"
+      - name: "🧹 Nettoyage agressif AVANT checkout"
         run: |
-          echo "=== NETTOYAGE DYNAMIQUE AVANT CLONE ==="
-          echo "Espace avant nettoyage:"
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Nettoyage agressif AVANT checkout ==="
+          df -h
 
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
+          echo
+          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
+          # Android SDK (~9G)
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
 
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
-          done
+          # Haskell / ghcup (~6G)
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /opt/ghc || true
 
-          echo "Nettoyage caches et temporaires..."
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
+          # .NET (~3-4G)
+          sudo rm -rf /usr/share/dotnet || true
 
-          echo "Espace après nettoyage:"
-          df -h | grep -E "Filesystem|/$"
+          # Swift (~3G)
+          sudo rm -rf /usr/share/swift || true
 
-      - name: "Sparse clone (scripts + années $YEARS)"
-        env:
-          REPO: ${{ github.repository }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          YEARS: ${{ env.YEARS }}
+          # Toolcache (Python, CodeQL, etc.) - on laisse setup-python recréer si besoin
+          sudo rm -rf /opt/hostedtoolcache || true
+
+          # Caches et temporaires
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
+          sudo rm -rf /tmp/* /var/tmp/* || true
+          rm -rf ~/.cache ~/.npm ~/.yarn || true
+
+          echo
+          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          df -h
+
+      - name: "📥 Checkout repo"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: "📊 Espace après checkout"
         run: |
-          echo "=== SPARSE CLONE POUR ANNEES: $YEARS ==="
-          echo "Répertoire courant: $PWD"
-
-          rm -rf .git
-          git init .
-
-          git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
-          git config remote.origin.promisor true
-          git config remote.origin.partialCloneFilter blob:none
-          git config --global safe.directory "$(pwd)"
-
-          git sparse-checkout init --cone
-
-          PATTERNS="rescrape_courses.py
-verification_report.txt"
-
-          for y in $YEARS; do
-            PATTERNS="$PATTERNS
-resultats-et-rapports/$y"
-          done
-
-          printf "%s\n" "$PATTERNS" > .git/info/sparse-checkout
-
-          echo "Patterns sparse-checkout:"
-          cat .git/info/sparse-checkout
-
-          git fetch --depth=1 origin main
-          git checkout main
-
-          echo "Contenu du repo après sparse clone:"
-          ls -R .
-
-          echo ""
-          echo "Espace disque après sparse clone:"
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          du -sh . resultats-et-rapports/* 2>/dev/null || true
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "ERREUR: verification_report.txt est manquant."
-            exit 1
+          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          df -h
+          echo
+          echo "=== Taille du repo ==="
+          du -sh . || true
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-      - name: "Nettoyage léger du repo"
-        run: |
-          echo "=== NETTOYAGE LEGER DU REPO ==="
-          git gc --prune=now --quiet || true
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "Setup Python"
+      - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: "Install dependencies"
+      - name: "📦 Install dependencies (aiohttp uniquement)"
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "Re-scraping des courses (job 1)"
+      - name: "💾 Espace avant scraping"
         run: |
-          echo "=== LANCEMENT RE-SCRAPING (job 1) ==="
-          echo "Années: $YEARS"
-
-          if [ -z "$YEARS" ]; then
-            echo "Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
+          echo "=== ESPACE AVANT SCRAPING (Job 1) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-          if [ -z "$MAX_COURSES" ]; then
-            python rescrape_courses.py --years $YEARS
+      - name: "🚀 Re-scrape courses (Job 1)"
+        run: |
+          set -e
+
+          echo "Années (input brut) pour ce job: '${YEARS}'"
+          YEARS_TRIMMED=$(echo "$YEARS" | xargs || true)  # trim espaces début/fin
+          YEARS_CSV=$(echo "$YEARS_TRIMMED" | tr ' ' ',' | tr -s ',' | sed 's/^,//;s/,$//' || true)
+
+          ARGS=()
+
+          if [ -n "$YEARS_CSV" ]; then
+            echo "→ Années envoyées à rescrape_courses.py : $YEARS_CSV"
+            ARGS+=(--years "$YEARS_CSV")
           else
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
+            echo "⚠️  Aucune année spécifiée pour ce job, rescrape_courses.py traitera toutes les années présentes dans verification_report.txt."
           fi
 
-  rescrape-2:
-    if: ${{ github.event.inputs.jobs_count >= '2' }}
+          if [ -n "$MAX_COURSES" ]; then
+            echo "→ Limite globale de courses: $MAX_COURSES"
+            ARGS+=(--max-courses "$MAX_COURSES")
+          fi
+
+          echo "Commande exécutée : python rescrape_courses.py ${ARGS[*]}"
+          python rescrape_courses.py "${ARGS[@]}"
+
+      - name: "💾 Espace après scraping (Job 1)"
+        if: always()
+        run: |
+          echo "=== ESPACE APRÈS SCRAPING (Job 1) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
+          fi
+
+  # ----------------------------------------------------------
+  # Job 2
+  # ----------------------------------------------------------
+  rescrape-job-2:
+    name: "Job 2 (années: ${{ github.event.inputs.years_job_2 }})"
+    if: ${{ github.event.inputs.jobs_count == '2' || github.event.inputs.jobs_count == '3' }}
     runs-on: ubuntu-latest
+
     env:
       YEARS: ${{ github.event.inputs.years_job_2 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
 
     steps:
-      - name: "Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "Espace disque initial et top dossiers"
+      - name: "📊 Espace disque initial"
         run: |
           echo "=== ESPACE DISQUE INITIAL ==="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
+          df -h
+          echo
+          echo "Top 20 plus gros dossiers (global) :"
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "Nettoyage dynamique avant clone"
+      - name: "🧹 Nettoyage agressif AVANT checkout"
         run: |
-          echo "=== NETTOYAGE DYNAMIQUE AVANT CLONE ==="
-          echo "Espace avant nettoyage:"
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Nettoyage agressif AVANT checkout ==="
+          df -h
 
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
+          echo
+          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /opt/ghc || true
+          sudo rm -rf /usr/share/dotnet || true
+          sudo rm -rf /usr/share/swift || true
+          sudo rm -rf /opt/hostedtoolcache || true
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
+          sudo rm -rf /tmp/* /var/tmp/* || true
+          rm -rf ~/.cache ~/.npm ~/.yarn || true
 
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
-          done
+          echo
+          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          df -h
 
-          echo "Nettoyage caches et temporaires..."
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
+      - name: "📥 Checkout repo"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-          echo "Espace après nettoyage:"
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "Sparse clone (scripts + années $YEARS)"
-        env:
-          REPO: ${{ github.repository }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          YEARS: ${{ env.YEARS }}
+      - name: "📊 Espace après checkout"
         run: |
-          echo "=== SPARSE CLONE POUR ANNEES: $YEARS ==="
-          echo "Répertoire courant: $PWD"
-
-          rm -rf .git
-          git init .
-
-          git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
-          git config remote.origin.promisor true
-          git config remote.origin.partialCloneFilter blob:none
-          git config --global safe.directory "$(pwd)"
-
-          git sparse-checkout init --cone
-
-          PATTERNS="rescrape_courses.py
-verification_report.txt"
-
-          for y in $YEARS; do
-            PATTERNS="$PATTERNS
-resultats-et-rapports/$y"
-          done
-
-          printf "%s\n" "$PATTERNS" > .git/info/sparse-checkout
-
-          echo "Patterns sparse-checkout:"
-          cat .git/info/sparse-checkout
-
-          git fetch --depth=1 origin main
-          git checkout main
-
-          echo "Contenu du repo après sparse clone:"
-          ls -R .
-
-          echo ""
-          echo "Espace disque après sparse clone:"
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          du -sh . resultats-et-rapports/* 2>/dev/null || true
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "ERREUR: verification_report.txt est manquant."
-            exit 1
+          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          df -h
+          echo
+          echo "=== Taille du repo ==="
+          du -sh . || true
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-      - name: "Nettoyage léger du repo"
-        run: |
-          echo "=== NETTOYAGE LEGER DU REPO ==="
-          git gc --prune=now --quiet || true
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "Setup Python"
+      - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: "Install dependencies"
+      - name: "📦 Install dependencies (aiohttp uniquement)"
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "Re-scraping des courses (job 2)"
+      - name: "💾 Espace avant scraping"
         run: |
-          echo "=== LANCEMENT RE-SCRAPING (job 2) ==="
-          echo "Années: $YEARS"
-
-          if [ -z "$YEARS" ]; then
-            echo "Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
+          echo "=== ESPACE AVANT SCRAPING (Job 2) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-          if [ -z "$MAX_COURSES" ]; then
-            python rescrape_courses.py --years $YEARS
+      - name: "🚀 Re-scrape courses (Job 2)"
+        run: |
+          set -e
+
+          echo "Années (input brut) pour ce job: '${YEARS}'"
+          YEARS_TRIMMED=$(echo "$YEARS" | xargs || true)
+          YEARS_CSV=$(echo "$YEARS_TRIMMED" | tr ' ' ',' | tr -s ',' | sed 's/^,//;s/,$//' || true)
+
+          ARGS=()
+
+          if [ -n "$YEARS_CSV" ]; then
+            echo "→ Années envoyées à rescrape_courses.py : $YEARS_CSV"
+            ARGS+=(--years "$YEARS_CSV")
           else
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
+            echo "⚠️  Aucune année spécifiée pour ce job, rescrape_courses.py traitera toutes les années présentes dans verification_report.txt."
           fi
 
-  rescrape-3:
-    if: ${{ github.event.inputs.jobs_count >= '3' }}
+          if [ -n "$MAX_COURSES" ]; then
+            echo "→ Limite globale de courses: $MAX_COURSES"
+            ARGS+=(--max-courses "$MAX_COURSES")
+          fi
+
+          echo "Commande exécutée : python rescrape_courses.py ${ARGS[*]}"
+          python rescrape_courses.py "${ARGS[@]}"
+
+      - name: "💾 Espace après scraping (Job 2)"
+        if: always()
+        run: |
+          echo "=== ESPACE APRÈS SCRAPING (Job 2) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
+          fi
+
+  # ----------------------------------------------------------
+  # Job 3
+  # ----------------------------------------------------------
+  rescrape-job-3:
+    name: "Job 3 (années: ${{ github.event.inputs.years_job_3 }})"
+    if: ${{ github.event.inputs.jobs_count == '3' }}
     runs-on: ubuntu-latest
+
     env:
       YEARS: ${{ github.event.inputs.years_job_3 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
 
     steps:
-      - name: "Enregistrer l'heure de début du job"
-        run: echo "JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
-
-      - name: "Espace disque initial et top dossiers"
+      - name: "📊 Espace disque initial"
         run: |
           echo "=== ESPACE DISQUE INITIAL ==="
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          echo "=== Top 20 plus gros dossiers (racine) ==="
-          sudo du -x -h / | sort -hr | head -n 20 || true
+          df -h
+          echo
+          echo "Top 20 plus gros dossiers (global) :"
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "Nettoyage dynamique avant clone"
+      - name: "🧹 Nettoyage agressif AVANT checkout"
         run: |
-          echo "=== NETTOYAGE DYNAMIQUE AVANT CLONE ==="
-          echo "Espace avant nettoyage:"
-          df -h | grep -E "Filesystem|/$"
+          echo "=== Nettoyage agressif AVANT checkout ==="
+          df -h
 
-          CANDIDATES=(
-            "/usr/local/lib/android"
-            "/usr/share/dotnet"
-            "/usr/local/.ghcup"
-            "/usr/share/swift"
-            "/opt/hostedtoolcache/CodeQL"
-          )
+          echo
+          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /opt/ghc || true
+          sudo rm -rf /usr/share/dotnet || true
+          sudo rm -rf /usr/share/swift || true
+          sudo rm -rf /opt/hostedtoolcache || true
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
+          sudo rm -rf /tmp/* /var/tmp/* || true
+          rm -rf ~/.cache ~/.npm ~/.yarn || true
 
-          for path in "${CANDIDATES[@]}"; do
-            if [ -d "$path" ]; then
-              SIZE_BEFORE=$(sudo du -sh "$path" 2>/dev/null | cut -f1)
-              echo "Suppression $path (taille: $SIZE_BEFORE)"
-              sudo rm -rf "$path" || true
-            fi
-          done
+          echo
+          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          df -h
 
-          echo "Nettoyage caches et temporaires..."
-          sudo rm -rf /tmp/* /var/tmp/* 2>/dev/null || true
-          sudo journalctl --vacuum-time=1s 2>/dev/null || true
-          sudo rm -rf /var/log/* 2>/dev/null || true
-          rm -rf ~/.cache/pip ~/.npm ~/.yarn 2>/dev/null || true
+      - name: "📥 Checkout repo"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-          echo "Espace après nettoyage:"
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "Sparse clone (scripts + années $YEARS)"
-        env:
-          REPO: ${{ github.repository }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          YEARS: ${{ env.YEARS }}
+      - name: "📊 Espace après checkout"
         run: |
-          echo "=== SPARSE CLONE POUR ANNEES: $YEARS ==="
-          echo "Répertoire courant: $PWD"
-
-          rm -rf .git
-          git init .
-
-          git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
-          git config remote.origin.promisor true
-          git config remote.origin.partialCloneFilter blob:none
-          git config --global safe.directory "$(pwd)"
-
-          git sparse-checkout init --cone
-
-          PATTERNS="rescrape_courses.py
-verification_report.txt"
-
-          for y in $YEARS; do
-            PATTERNS="$PATTERNS
-resultats-et-rapports/$y"
-          done
-
-          printf "%s\n" "$PATTERNS" > .git/info/sparse-checkout
-
-          echo "Patterns sparse-checkout:"
-          cat .git/info/sparse-checkout
-
-          git fetch --depth=1 origin main
-          git checkout main
-
-          echo "Contenu du repo après sparse clone:"
-          ls -R .
-
-          echo ""
-          echo "Espace disque après sparse clone:"
-          df -h | grep -E "Filesystem|/$"
-          echo ""
-          du -sh . resultats-et-rapports/* 2>/dev/null || true
-
-          if [ ! -f "verification_report.txt" ]; then
-            echo "ERREUR: verification_report.txt est manquant."
-            exit 1
+          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          df -h
+          echo
+          echo "=== Taille du repo ==="
+          du -sh . || true
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-      - name: "Nettoyage léger du repo"
-        run: |
-          echo "=== NETTOYAGE LEGER DU REPO ==="
-          git gc --prune=now --quiet || true
-          df -h | grep -E "Filesystem|/$"
-
-      - name: "Setup Python"
+      - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: "Install dependencies"
+      - name: "📦 Install dependencies (aiohttp uniquement)"
         run: |
-          pip install --no-cache-dir aiohttp beautifulsoup4 lxml
+          pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "Re-scraping des courses (job 3)"
+      - name: "💾 Espace avant scraping"
         run: |
-          echo "=== LANCEMENT RE-SCRAPING (job 3) ==="
-          echo "Années: $YEARS"
-
-          if [ -z "$YEARS" ]; then
-            echo "Aucune année spécifiée pour ce job, rien à faire."
-            exit 0
+          echo "=== ESPACE AVANT SCRAPING (Job 3) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
 
-          if [ -z "$MAX_COURSES" ]; then
-            python rescrape_courses.py --years $YEARS
+      - name: "🚀 Re-scrape courses (Job 3)"
+        run: |
+          set -e
+
+          echo "Années (input brut) pour ce job: '${YEARS}'"
+          YEARS_TRIMMED=$(echo "$YEARS" | xargs || true)
+          YEARS_CSV=$(echo "$YEARS_TRIMMED" | tr ' ' ',' | tr -s ',' | sed 's/^,//;s/,$//' || true)
+
+          ARGS=()
+
+          if [ -n "$YEARS_CSV" ]; then
+            echo "→ Années envoyées à rescrape_courses.py : $YEARS_CSV"
+            ARGS+=(--years "$YEARS_CSV")
           else
-            python rescrape_courses.py --years $YEARS --max-courses "$MAX_COURSES"
+            echo "⚠️  Aucune année spécifiée pour ce job, rescrape_courses.py traitera toutes les années présentes dans verification_report.txt."
+          fi
+
+          if [ -n "$MAX_COURSES" ]; then
+            echo "→ Limite globale de courses: $MAX_COURSES"
+            ARGS+=(--max-courses "$MAX_COURSES")
+          fi
+
+          echo "Commande exécutée : python rescrape_courses.py ${ARGS[*]}"
+          python rescrape_courses.py "${ARGS[@]}"
+
+      - name: "💾 Espace après scraping (Job 3)"
+        if: always()
+        run: |
+          echo "=== ESPACE APRÈS SCRAPING (Job 3) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
           fi
