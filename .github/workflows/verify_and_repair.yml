@@ -1,17 +1,16 @@
-name: Verify ZEturf Data
+name: Verify & Repair ZEturf Data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 0'
 
 permissions:
   contents: write
 
 jobs:
-  verify-group:
+  verify-repair-group:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360   # 6h max, la limite GitHub
+
     strategy:
       fail-fast: false
       max-parallel: 7
@@ -34,6 +33,9 @@ jobs:
             years: "2023 2024 2025"
 
     steps:
+      # ------------------------------------------------------------------
+      # 1) État disque + nettoyage agressif AVANT clonage
+      # ------------------------------------------------------------------
       - name: "📊 Disk usage BEFORE cleanup"
         run: |
           echo "=== df -h (global) ==="
@@ -70,7 +72,10 @@ jobs:
           echo "=== df -h APRÈS CLEANUP ==="
           df -h
 
-      - name: "📥 Sparse clone pour le groupe ${{ matrix.group }}"
+      # ------------------------------------------------------------------
+      # 2) Sparse clone : uniquement scripts + années du groupe
+      # ------------------------------------------------------------------
+      - name: "📥 Sparse clone for group ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -89,7 +94,8 @@ jobs:
 
           git sparse-checkout init --no-cone
 
-          PATTERNS="verify.py"
+          # On garde uniquement les scripts Python nécessaires + les années du groupe
+          PATTERNS="verify.py verify_and_repair.py"
           for Y in $YEARS; do
             PATTERNS="$PATTERNS resultats-et-rapports/${Y}"
           done
@@ -112,6 +118,9 @@ jobs:
             fi
           done
 
+      # ------------------------------------------------------------------
+      # 3) Setup Python + deps
+      # ------------------------------------------------------------------
       - name: "🐍 Setup Python"
         uses: actions/setup-python@v5
         with:
@@ -119,21 +128,26 @@ jobs:
 
       - name: "📦 Install dependencies"
         run: |
-          pip install --no-cache-dir beautifulsoup4 lxml
+          pip install --no-cache-dir requests beautifulsoup4 lxml
           pip cache purge 2>/dev/null || true
 
-      - name: "✅ Run verification for years ${{ matrix.years }}"
+      # ------------------------------------------------------------------
+      # 4) Verify + repair pour les 3 années du groupe
+      # ------------------------------------------------------------------
+      - name: "✅ Verify & repair years ${{ matrix.years }}"
         run: |
           set -e
           YEARS="${{ matrix.years }}"
+          GLOBAL_EXIT=0
 
           for YEAR in $YEARS; do
+            echo ""
             echo "------------------------------------------"
-            echo "Vérification année ${YEAR}"
+            echo "  Année ${YEAR} - verify + repair"
             echo "------------------------------------------"
 
             if [ "$YEAR" -eq 2005 ]; then
-              START="2005-04-27"
+              START="${YEAR}-04-27"
             else
               START="${YEAR}-01-01"
             fi
@@ -145,9 +159,25 @@ jobs:
             fi
 
             echo "Période: ${START} → ${END}"
-            python verify.py --start-date "$START" --end-date "$END" --report-file "verification_report_${YEAR}.txt"
+
+            if python verify_and_repair.py \
+              --start-date "$START" \
+              --end-date "$END" \
+              --max-passes 2 \
+              --report-file "verification_report_${YEAR}.txt"
+            then
+              echo "✅ Année ${YEAR} OK après réparation."
+            else
+              echo "❌ Année ${YEAR} : il reste des problèmes (voir verification_report_${YEAR}.txt)."
+              GLOBAL_EXIT=1
+            fi
           done
 
+          exit $GLOBAL_EXIT
+
+      # ------------------------------------------------------------------
+      # 5) Upload des rapports en artifacts (debug / historique)
+      # ------------------------------------------------------------------
       - name: "📄 Upload verification reports (group ${{ matrix.group }})"
         uses: actions/upload-artifact@v4
         with:
@@ -155,61 +185,63 @@ jobs:
           path: verification_report_*.txt
           retention-days: 30
 
-  merge-reports:
-    runs-on: ubuntu-latest
-    needs: verify-group
-
-    steps:
-      - name: "📥 Checkout minimal repo"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          filter: "blob:none"
-          sparse-checkout: |
-            verification_report.txt
-          sparse-checkout-cone: true
-
-      - name: "📥 Download all per-year reports"
-        uses: actions/download-artifact@v4
-        with:
-          path: reports
-
-      - name: "🔗 Merge per-year reports into verification_report.txt"
-        run: |
-          rm -f verification_report.txt
-
-          echo "Fusion des rapports par année..."
-          find reports -type f -name 'verification_report_*.txt' | sort | while read -r f; do
-            echo "=== Ajout de $f ==="
-            cat "$f" >> verification_report.txt
-            echo "" >> verification_report.txt
-          done
-
-          echo ""
-          echo "Rapport fusionné généré:"
-          ls -lh verification_report.txt
-
-      - name: "🔐 Configure git remote with GITHUB_TOKEN"
+      # ------------------------------------------------------------------
+      # 6) Commit + push des données et rapports pour les années du groupe
+      # ------------------------------------------------------------------
+      - name: "📤 Commit & push changes for group ${{ matrix.group }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          YEARS="${{ matrix.years }}"
+          BRANCH="${{ github.ref_name }}"
+          if [ -z "$BRANCH" ]; then
+            BRANCH="main"
+          fi
+
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
-          git remote -v
 
-      - name: "📤 Commit & push merged report"
-        run: |
-          if [ ! -f "verification_report.txt" ]; then
-            echo "verification_report.txt introuvable, rien à commit."
-            exit 1
-          fi
+          # Stage uniquement les années de ce groupe + leurs rapports
+          for YEAR in $YEARS; do
+            if [ -d "resultats-et-rapports/${YEAR}" ]; then
+              git add "resultats-et-rapports/${YEAR}"
+            fi
+            if [ -f "verification_report_${YEAR}.txt" ]; then
+              git add "verification_report_${YEAR}.txt"
+            fi
+          done
 
-          git add verification_report.txt
           if git diff --cached --quiet; then
-            echo "Aucun changement à commit."
+            echo "Aucun changement à commit pour ce groupe."
             exit 0
           fi
 
-          git commit -m "Update verification_report (grouped verify) - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push origin HEAD:${{ github.ref_name }}
+          # Boucle de retry pour push (cas où d'autres jobs poussent en même temps)
+          for attempt in 1 2 3; do
+            echo "Tentative commit/push #$attempt"
+
+            git fetch origin "$BRANCH"
+
+            # Rebase sur l'état distant pour éviter les non-fast-forward
+            if ! git rebase "origin/${BRANCH}"; then
+              echo "Rebase échoué, tentative d'annulation..."
+              git rebase --abort || true
+            fi
+
+            # Commit (si pas déjà fait)
+            if ! git diff --cached --quiet; then
+              git commit -m "Verify+repair: ${YEARS} - $(date +'%Y-%m-%d %H:%M:%S')" || true
+            fi
+
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "✅ Push réussi pour le groupe ${{ matrix.group }}."
+              exit 0
+            fi
+
+            echo "⚠️  Push échoué, nouvelle tentative dans 10s..."
+            sleep 10
+          done
+
+          echo "❌ Échec du push après 3 tentatives pour le groupe ${{ matrix.group }}."
+          exit 1
