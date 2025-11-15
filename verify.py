@@ -1,762 +1,367 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-"""
-verify.py - 2 en 1 : vérification + re-scraping ZEturf
-
-- Vérifie les dates, réunions FR et courses dans resultats-et-rapports.
-- Écrit les éléments manquants dans verify_courses/<year>/missing_<year>.txt.
-- Re-scrape ce qui manque :
-    * MISSING_DATE   → page date + réunions FR + courses
-    * MISSING_REUNION → réunion FR + courses
-    * MISSING_COURSE  → course seule
-- Commit & push par année (resultats-et-rapports/<year> + verify_courses/<year>).
-
-Pensé pour être appelé depuis un workflow GitHub Actions par groupes d'années.
-"""
-
-import argparse
-import os
 import re
-import time
 import unicodedata
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
-from urllib.parse import urljoin
-from collections import defaultdict
-import subprocess
-
-import requests
 from bs4 import BeautifulSoup
 
 # =========================
-# Configuration générale
+# Config
 # =========================
-
+REPO_ROOT = "resultats-et-rapports"
 BASE = "https://www.zeturf.fr"
-DATE_URL_TPL = BASE + "/fr/resultats-et-rapports/{date}"  # {date} = YYYY-MM-DD
-
-REPO_ROOT = Path("resultats-et-rapports")
-VERIFY_ROOT = Path("verify_courses")
-
-# Bornes globales (à adapter si besoin)
-GLOBAL_START_DATE = date(2005, 4, 27)
-GLOBAL_END_DATE = date(2025, 11, 11)
-
-# HTTP session
-SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/128.0 Safari/537.36",
-    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-})
-
-
-def safe_get(url, referer=None, retries=4, timeout=30):
-    """GET robuste avec quelques retry + petit sleep pour ne pas bourriner le site."""
-    for i in range(retries):
-        try:
-            headers = {}
-            if referer:
-                headers["Referer"] = referer
-            r = SESSION.get(url, headers=headers, timeout=timeout)
-            r.raise_for_status()
-            # on thrott le rythme
-            time.sleep(0.25)
-            return r.text
-        except Exception as e:
-            if i == retries - 1:
-                print(f"    [HTTP] Échec définitif sur {url}: {e}")
-                raise
-            wait = 1.5 * (i + 1)
-            print(f"    [HTTP] Retry {i+1}/{retries} sur {url} dans {wait:.1f}s...")
-            time.sleep(wait)
-
+START_DATE = "2005-04-27"
+END_DATE = "2025-11-11"
 
 # =========================
-# Helpers filesystem
+# Helpers
 # =========================
-
 def slugify(text: str) -> str:
-    """Slugify compatible avec ton arbo existante (ASCII only)."""
     if not text:
         return ""
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
-    text = re.sub(r"[^a-zA-Z0-9]+", "-", text)
-    text = text.strip("-").lower()
+    text = re.sub(r"[^a-zA-Z0-9]+", "-", text).strip("-").lower()
     return text
 
-
 def get_date_directory(date_str: str) -> Path:
-    dt = datetime.strptime(date_str, "%Y-%m-%d").date()
-    return REPO_ROOT / f"{dt.year:04d}" / f"{dt.month:02d}" / date_str
+    """Returns: resultats-et-rapports/2025/11/2025-11-10/"""
+    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    year = dt.strftime("%Y")
+    month = dt.strftime("%m")
+    return Path(REPO_ROOT) / year / month / date_str
 
-
-def ensure_dir(path: Path):
-    path.mkdir(parents=True, exist_ok=True)
-
-
-def save_text(path: Path, text: str):
-    ensure_dir(path.parent)
-    # idempotent : si fichier existant non vide, on ne réécrit pas
-    if path.exists() and path.stat().st_size > 128:
-        return
-    path.write_text(text, encoding="utf-8")
-
-
-def read_date_html_if_exists(date_str: str):
-    date_dir = get_date_directory(date_str)
-    date_file = date_dir / f"{date_str}.html"
-    if date_file.exists() and date_file.stat().st_size > 128:
-        return date_file.read_text(encoding="utf-8")
-    return None
-
+def date_range(start_date: str, end_date: str):
+    """Generate all dates in range (inclusive)"""
+    d0 = datetime.strptime(start_date, "%Y-%m-%d").date()
+    d1 = datetime.strptime(end_date, "%Y-%m-%d").date()
+    if d0 > d1:
+        d0, d1 = d1, d0
+    days = (d1 - d0).days
+    return [(d0 + timedelta(days=i)).isoformat() for i in range(days + 1)]
 
 # =========================
-# Parsing HTML (réunions + courses)
+# Verification functions
 # =========================
-
-def parse_reunions_fr_from_html(date_str: str, html: str):
+def verify_date(date_str: str):
     """
-    Parse une page de date et retourne les réunions FR attendues.
-
-    Retourne une liste de dict:
-    {
-        "reunion_code": "R1",
-        "hippodrome": "Cagnes-sur-Mer",
-        "url": "https://www.zeturf.fr/fr/reunion/...",
-        "date": "YYYY-MM-DD",
+    Vérifie une date complète:
+    1. Dossier existe
+    2. Fichier HTML de la date existe
+    3. Toutes les réunions FR ont leur dossier + fichier
+    4. Toutes les courses de chaque réunion ont leur fichier
+    
+    Returns: dict with status and missing items
+    """
+    result = {
+        "date": date_str,
+        "status": "OK",
+        "issues": []
     }
-    """
-    soup = BeautifulSoup(html, "lxml")
-    out = []
-
-    root = soup.select_one("div#list-reunion")
-    if not root:
-        return out
-
-    for tr in root.select("table.programme tbody tr.item"):
-        a = tr.select_one('a[href^="/fr/reunion/"][data-tc-pays="FR"]')
-        if not a:
-            continue
-
-        href = a.get("href", "") or ""
-        reunion_url = urljoin(BASE, href)
-
-        numero_td = tr.select_one("td.numero")
-        reunion_code = None
-        if numero_td:
-            txt = numero_td.get_text(strip=True)
-            reunion_code = txt.replace("FR", "R").strip() or None
-        if not reunion_code:
-            m = re.search(r"/fr/reunion/\d{4}-\d{2}-\d{2}/(R\d+)-", href)
-            if m:
-                reunion_code = m.group(1)
-
-        hippo_node = tr.select_one("td.nom h2 span span") or tr.select_one("td.nom h2 span, td.nom h2")
-        hippodrome = hippo_node.get_text(strip=True) if hippo_node else ""
-        if not hippodrome:
-            title = a.get("title", "")
-            if title:
-                hippodrome = title.strip()
-
-        if not reunion_code:
-            continue
-
-        out.append({
-            "reunion_code": reunion_code,
-            "hippodrome": hippodrome,
-            "url": reunion_url,
-            "date": date_str,
-        })
-    return out
-
-
-def parse_courses_from_reunion_html(reunion_html: str, reunion_url: str):
-    """
-    Parse une page de réunion et retourne (courses, html).
-
-    courses = [
-      {
-        "numero": 1,
-        "code": "C1",
-        "heure": "13:50",
-        "intitule": "Prix de ...",
-        "url": "https://www.zeturf.fr/fr/course/..."
-      }, ...
-    ]
-    """
-    soup = BeautifulSoup(reunion_html, "lxml")
-
-    frise = soup.select_one("#frise-course .strip2.active")
-    if not frise:
-        frise = soup.select_one("#frise-course .strip2")
-
-    courses = []
-    if not frise:
-        return courses, reunion_html
-
-    for a in frise.select("ul.scroll-content li.scroll-element a[href]"):
-        href = a.get("href", "")
-        if not href:
-            continue
-        course_url = urljoin(BASE, href)
-
-        num_text = ""
-        num_sp = a.select_one("span.numero")
-        if num_sp:
-            num_text = num_sp.get_text(strip=True)
-
-        m = re.search(r"C(\d+)", href)
-        numero = int(num_text) if num_text.isdigit() else (int(m.group(1)) if m else None)
-
-        title = a.get("title", "").strip()
-        if " - " in title:
-            heure, intitule = title.split(" - ", 1)
-        else:
-            heure, intitule = None, title or None
-
-        code = f"C{numero}" if numero is not None else (m.group(0) if m else None)
-
-        courses.append({
-            "numero": numero,
-            "code": code,
-            "heure": heure,
-            "intitule": intitule,
-            "url": course_url,
-        })
-
-    if courses and all(c["numero"] is not None for c in courses):
-        courses.sort(key=lambda c: c["numero"])
-
-    return courses, reunion_html
-
-
-# =========================
-# Vérification (détection MISSING_*)
-# =========================
-
-def detect_missing_courses_for_reunion(date_str: str,
-                                       reunion_slug: str,
-                                       reunion_dir: Path,
-                                       reunion_file: Path,
-                                       missing_file,
-                                       stats: dict):
-    try:
-        html = reunion_file.read_text(encoding="utf-8")
-    except Exception:
-        # si on n'arrive même pas à lire, on traitera la réunion comme manquante
-        missing_file.write(f"MISSING_REUNION;{date_str};{reunion_slug}\n")
-        stats["missing_reunions"] += 1
-        return
-
-    courses, _ = parse_courses_from_reunion_html(html, "")
-    if not courses:
-        return
-
-    reunion_code = reunion_slug.split("-", 1)[0]
-
-    for c in courses:
-        intitule = c["intitule"]
-        code = c["code"]
-        slug_title = slugify(intitule) if intitule else ""
-        if not slug_title:
-            slug_title = "course"
-
-        code_part = f"{reunion_code}{code or ''}"
-        filename = f"{code_part}-{slug_title}.html"
-        course_path = reunion_dir / filename
-
-        if not course_path.exists() or course_path.stat().st_size == 0:
-            missing_file.write(f"MISSING_COURSE;{date_str};{reunion_slug};{filename}\n")
-            stats["missing_courses"] += 1
-
-
-def detect_missing_for_date(date_str: str, missing_file, stats: dict):
+    
     date_dir = get_date_directory(date_str)
     date_file = date_dir / f"{date_str}.html"
-
-    # Cas 1 : dossier date ou fichier date absents → on traite comme MISSING_DATE
-    if not date_dir.exists() or not date_file.exists() or date_file.stat().st_size == 0:
-        missing_file.write(f"MISSING_DATE;{date_str}\n")
-        stats["missing_dates"] += 1
-        return
-
+    
+    # Check 1: Date directory exists
+    if not date_dir.exists():
+        result["status"] = "MISSING"
+        result["issues"].append(f"❌ Dossier absent: {date_dir}")
+        return result
+    
+    # Check 2: Date HTML file exists
+    if not date_file.exists() or date_file.stat().st_size == 0:
+        result["status"] = "INCOMPLETE"
+        result["issues"].append(f"❌ Fichier date absent ou vide: {date_file}")
+        return result
+    
+    # Parse date HTML to get expected reunions FR
     try:
         html = date_file.read_text(encoding="utf-8")
-    except Exception:
-        missing_file.write(f"MISSING_DATE;{date_str}\n")
-        stats["missing_dates"] += 1
-        return
+        soup = BeautifulSoup(html, "lxml")
+        container = soup.select_one("div#list-reunion")
+        
+        if not container:
+            result["status"] = "WARNING"
+            result["issues"].append(f"⚠️  Aucun conteneur #list-reunion trouvé dans {date_file.name}")
+            return result
+        
+        expected_reunions = []
+        for tr in container.select("table.programme tbody tr.item"):
+            a = tr.select_one('td.numero a[data-tc-pays="FR"]')
+            if not a:
+                continue
+            
+            href = a.get("href", "").strip()
+            if not href:
+                continue
+            
+            # Extract reunion code
+            m = re.search(r"/reunion/\d{4}-\d{2}-\d{2}/(R\d+)-", href)
+            reunion_code = m.group(1) if m else (a.get_text(strip=True).replace("FR", "R"))
+            
+            # Extract hippodrome
+            hippo_el = tr.select_one("td.nom h2 span span")
+            hippodrome = hippo_el.get_text(strip=True) if hippo_el else ""
+            reunion_slug = f"{reunion_code}-{slugify(hippodrome)}"
+            
+            expected_reunions.append({
+                "code": reunion_code,
+                "slug": reunion_slug,
+                "hippodrome": hippodrome,
+                "href": href
+            })
+        
+        # Check 3: Verify each reunion
+        for reunion in expected_reunions:
+            reunion_dir = date_dir / reunion["slug"]
+            reunion_file = reunion_dir / f"{reunion['slug']}.html"
+            
+            if not reunion_dir.exists():
+                result["status"] = "INCOMPLETE"
+                result["issues"].append(f"❌ Dossier réunion absent: {reunion['slug']}/")
+                continue
+            
+            if not reunion_file.exists() or reunion_file.stat().st_size == 0:
+                result["status"] = "INCOMPLETE"
+                result["issues"].append(f"❌ Fichier réunion absent: {reunion['slug']}/{reunion_file.name}")
+                continue
+            
+            # Check 4: Verify courses for this reunion
+            reunion_issues = verify_reunion_courses(reunion_file, reunion_dir, reunion["code"])
+            if reunion_issues:
+                result["status"] = "INCOMPLETE"
+                result["issues"].extend(reunion_issues)
+        
+        if not expected_reunions:
+            result["status"] = "WARNING"
+            result["issues"].append(f"⚠️  Aucune réunion FR trouvée pour {date_str}")
+    
+    except Exception as e:
+        result["status"] = "ERROR"
+        result["issues"].append(f"❌ Erreur lors de l'analyse: {e}")
+    
+    return result
 
-    soup = BeautifulSoup(html, "lxml")
-    container = soup.select_one("div#list-reunion")
-    if not container:
-        # page date inutilisable → on re-scrapera la date entière
-        missing_file.write(f"MISSING_DATE;{date_str}\n")
-        stats["missing_dates"] += 1
-        return
-
-    reunions = parse_reunions_fr_from_html(date_str, html)
-    if not reunions:
-        # aucune réunion FR → rien à rescaper pour cette date
-        return
-
-    for r in reunions:
-        reunion_code = r["reunion_code"]
-        hippodrome = r["hippodrome"] or ""
-        reunion_slug = f"{reunion_code}-{slugify(hippodrome)}"
-        date_dir = get_date_directory(date_str)
-        reunion_dir = date_dir / reunion_slug
-        reunion_file = reunion_dir / f"{reunion_slug}.html"
-
-        if (not reunion_dir.exists()) or (not reunion_file.exists()) or reunion_file.stat().st_size == 0:
-            missing_file.write(f"MISSING_REUNION;{date_str};{reunion_slug}\n")
-            stats["missing_reunions"] += 1
-            continue
-
-        # Réunion présente → on cherche les courses manquantes
-        detect_missing_courses_for_reunion(
-            date_str, reunion_slug, reunion_dir, reunion_file, missing_file, stats
-        )
-
-
-def compute_year_range(year: int):
-    """Retourne (start_date_str, end_date_str) bornés par GLOBAL_START/END, ou (None, None) si hors plage."""
-    year_start = date(year, 1, 1)
-    year_end = date(year, 12, 31)
-
-    start = max(year_start, GLOBAL_START_DATE)
-    end = min(year_end, GLOBAL_END_DATE)
-
-    if start > end:
-        return None, None
-
-    return start.isoformat(), end.isoformat()
-
-
-def collect_missing_for_year(year: int, missing_path: Path, start_str: str, end_str: str):
-    """Parcourt toutes les dates de l'année et écrit les MISSING_* dans missing_path."""
-    start_dt = date.fromisoformat(start_str)
-    end_dt = date.fromisoformat(end_str)
-
-    ensure_dir(missing_path.parent)
-
-    stats = {
-        "dates_total": (end_dt - start_dt).days + 1,
-        "missing_dates": 0,
-        "missing_reunions": 0,
-        "missing_courses": 0,
-    }
-
-    print(f"\n{'='*80}")
-    print(f"VÉRIFICATION ANNÉE {year} ({start_str} → {end_str})")
-    print(f"{'='*80}")
-
-    with missing_path.open("w", encoding="utf-8") as f:
-        cur = start_dt
-        idx = 1
-        while cur <= end_dt:
-            date_str = cur.isoformat()
-            print(f"[VERIFY] {year} {idx}/{stats['dates_total']} {date_str}")
-            detect_missing_for_date(date_str, f, stats)
-            idx += 1
-            cur += timedelta(days=1)
-
-    total_missing = stats["missing_dates"] + stats["missing_reunions"] + stats["missing_courses"]
-
-    print(f"\nRésumé année {year}:")
-    print(f"  Dates vérifiées:    {stats['dates_total']}")
-    print(f"  Dates manquantes:   {stats['missing_dates']}")
-    print(f"  Réunions manquantes:{stats['missing_reunions']}")
-    print(f"  Courses manquantes: {stats['missing_courses']}")
-    print(f"  Total manquants:    {total_missing}")
-
-    return stats
-
+def verify_reunion_courses(reunion_file: Path, reunion_dir: Path, reunion_code: str):
+    """
+    Vérifie que toutes les courses d'une réunion ont leur fichier HTML
+    Returns: list of issues (empty if OK)
+    """
+    issues = []
+    
+    try:
+        html = reunion_file.read_text(encoding="utf-8")
+        soup = BeautifulSoup(html, "lxml")
+        frise = soup.select_one("#frise-course .strip2.active") or soup.select_one("#frise-course .strip2")
+        
+        if not frise:
+            issues.append(f"⚠️  {reunion_dir.name}/: Aucune frise de courses trouvée")
+            return issues
+        
+        expected_courses = []
+        for a in frise.select("ul.scroll-content li.scroll-element a"):
+            href = a.get("href", "")
+            if not href:
+                continue
+            
+            # Extract course number
+            numero_txt = a.select_one("span.numero")
+            numero_txt = numero_txt.get_text(strip=True) if numero_txt else ""
+            mC = re.search(r"C(\d+)", href)
+            numero = int(numero_txt) if numero_txt.isdigit() else (int(mC.group(1)) if mC else None)
+            
+            # Extract title
+            title = a.get("title", "").strip()
+            heure, intitule = None, None
+            if " - " in title:
+                heure, intitule = title.split(" - ", 1)
+            else:
+                intitule = title or None
+            
+            code = f"C{numero}" if numero is not None else (mC.group(0) if mC else None)
+            
+            # Build expected filename
+            slug = slugify(intitule) if intitule else ""
+            if not slug:
+                slug = "course"
+            code_part = f"{reunion_code}{(code or '').upper()}"
+            filename = f"{code_part}-{slug}.html"
+            
+            expected_courses.append({
+                "filename": filename,
+                "numero": numero,
+                "code": code
+            })
+        
+        # Verify each course file exists
+        for course in expected_courses:
+            course_file = reunion_dir / course["filename"]
+            if not course_file.exists() or course_file.stat().st_size == 0:
+                issues.append(f"❌ {reunion_dir.name}/{course['filename']}")
+        
+    except Exception as e:
+        issues.append(f"❌ {reunion_dir.name}/: Erreur analyse courses - {e}")
+    
+    return issues
 
 # =========================
-# Rescrape (dates, réunions, courses)
+# Main verification
 # =========================
-
-def scrape_full_date(date_str: str):
-    """Re-scrape une date complète : page date + réunions FR + courses."""
-    print(f"\n[SCRAPE DATE] {date_str}")
-    date_dir = get_date_directory(date_str)
-    ensure_dir(date_dir)
-
-    date_url = DATE_URL_TPL.format(date=date_str)
-    try:
-        date_html = safe_get(date_url)
-    except Exception as e:
-        print(f"  [ERREUR] Impossible de récupérer la page date {date_str}: {e}")
-        return
-
-    date_file = date_dir / f"{date_str}.html"
-    save_text(date_file, date_html)
-
-    reunions = parse_reunions_fr_from_html(date_str, date_html)
-    if not reunions:
-        print("  (Aucune réunion FR détectée)")
-        return
-
-    for r in reunions:
-        scrape_reunion_from_info(date_str, r)
-
-
-def scrape_reunion_from_info(date_str: str, reunion_info: dict):
-    """Re-scrape une réunion FR (page réunion + courses) à partir d'un dict reunion_info."""
-    reunion_code = reunion_info["reunion_code"]
-    hippo = reunion_info["hippodrome"] or ""
-    reunion_slug = f"{reunion_code}-{slugify(hippo) or 'hippodrome'}"
-
-    print(f"  [SCRAPE RÉUNION] {date_str} {reunion_slug}")
-
-    reunion_url = reunion_info["url"]
-    date_url = DATE_URL_TPL.format(date=date_str)
-
-    try:
-        reunion_html = safe_get(reunion_url, referer=date_url)
-    except Exception as e:
-        print(f"    [ERREUR] Récup réunion {reunion_slug}: {e}")
-        return
-
-    date_dir = get_date_directory(date_str)
-    reunion_dir = date_dir / reunion_slug
-    ensure_dir(reunion_dir)
-
-    reunion_file = reunion_dir / f"{reunion_slug}.html"
-    save_text(reunion_file, reunion_html)
-
-    courses, _ = parse_courses_from_reunion_html(reunion_html, reunion_url)
-    if not courses:
-        print("    (Aucune course visible dans la frise)")
-        return
-
-    for c in courses:
-        scrape_course_from_info(date_str, reunion_slug, reunion_code, c, reunion_url)
-
-
-def scrape_course_from_info(date_str: str,
-                            reunion_slug: str,
-                            reunion_code: str,
-                            course_info: dict,
-                            reunion_url: str):
-    """Re-scrape une course à partir de la description trouvée dans la page réunion."""
-    cname = course_info["intitule"] or course_info["code"] or "course"
-    cslug = slugify(cname) or (course_info["code"] or "Cx")
-    code = course_info["code"] or ""
-    course_code = f"{reunion_code}{code}".replace("None", "")
-    filename = f"{course_code}-{cslug}.html"
-
-    date_dir = get_date_directory(date_str)
-    reunion_dir = date_dir / reunion_slug
-    ensure_dir(reunion_dir)
-
-    course_path = reunion_dir / filename
-    if course_path.exists() and course_path.stat().st_size > 128:
-        return
-
-    print(f"    [SCRAPE COURSE] {date_str} {reunion_slug}/{filename}")
-
-    try:
-        course_html = safe_get(course_info["url"], referer=reunion_url)
-    except Exception as e:
-        print(f"    [WARN] Course {course_code}: {e}")
-        return
-
-    save_text(course_path, course_html)
-
-
-def scrape_reunion(date_str: str, reunion_slug: str):
+def run_verification(start_date: str, end_date: str, output_file: Path):
     """
-    Re-scrape une réunion FR manquante :
-    - si page date absente ou inutilisable → on fait scrape_full_date(date_str)
-    - sinon, on retrouve la réunion dans la page date et on la scrape seule.
+    Parcourt toutes les dates dans [start_date, end_date] (inclus) et génère un rapport.
+    Les bornes sont automatiquement clampées à [START_DATE, END_DATE].
     """
-    print(f"\n[SCRAPE RÉUNION ISOLEE] {date_str} {reunion_slug}")
-
-    html = read_date_html_if_exists(date_str)
-    if html is None:
-        print("  Page date absente → scraping de la date complète.")
-        scrape_full_date(date_str)
-        return
-
-    reunions = parse_reunions_fr_from_html(date_str, html)
-    if not reunions:
-        print("  Aucune réunion FR dans la page date → scraping de la date complète.")
-        scrape_full_date(date_str)
-        return
-
-    target = None
-    for r in reunions:
-        code = r["reunion_code"]
-        hippo = r["hippodrome"] or ""
-        slug = f"{code}-{slugify(hippo)}"
-        if slug == reunion_slug:
-            target = r
-            break
-
-    if target is None:
-        print("  Réunion non trouvée dans la page date → scraping de la date complète.")
-        scrape_full_date(date_str)
-        return
-
-    scrape_reunion_from_info(date_str, target)
-
-
-def build_course_url(date_str: str, reunion_slug: str, course_file: str) -> str:
-    """
-    Reconstruit l'URL de course à partir du nom de fichier et du slug de réunion.
-    Exemple: date=2006-04-16, reunion_slug=R1-auteuil, file=R1C2-prix-du-president.html
-    → https://www.zeturf.fr/fr/course/2006-04-16/R1C2-auteuil-prix-du-president
-    """
-    hippodrome = reunion_slug.split("-", 1)[1] if "-" in reunion_slug else reunion_slug
-
-    course_slug = course_file.replace(".html", "")
-    idx = course_slug.find("-")
-    if idx == -1:
-        code_part = course_slug
-        title_part = ""
+    # Clamp de la plage à la plage globale connue
+    global_start = datetime.strptime(START_DATE, "%Y-%m-%d").date()
+    global_end = datetime.strptime(END_DATE, "%Y-%m-%d").date()
+    
+    d_start = datetime.strptime(start_date, "%Y-%m-%d").date()
+    d_end = datetime.strptime(end_date, "%Y-%m-%d").date()
+    
+    if d_start < global_start:
+        d_start = global_start
+    if d_end > global_end:
+        d_end = global_end
+    
+    if d_start > d_end:
+        # Plage vide
+        effective_start = d_start.isoformat()
+        effective_end = d_end.isoformat()
+        all_dates = []
     else:
-        code_part = course_slug[:idx]
-        title_part = course_slug[idx + 1:]
-
-    return f"{BASE}/fr/course/{date_str}/{code_part}-{hippodrome}-{title_part}"
-
-
-def scrape_course(date_str: str, reunion_slug: str, course_filename: str):
-    """Re-scrape une course isolée (sans repasser par la page réunion)."""
-    date_dir = get_date_directory(date_str)
-    reunion_dir = date_dir / reunion_slug
-    course_path = reunion_dir / course_filename
-
-    if course_path.exists() and course_path.stat().st_size > 128:
-        return
-
-    url = build_course_url(date_str, reunion_slug, course_filename)
-    print(f"\n[SCRAPE COURSE ISOLEE] {date_str} {reunion_slug}/{course_filename}")
-    print(f"  URL: {url}")
-
-    try:
-        html = safe_get(url, referer=url)
-    except Exception as e:
-        print(f"  [ERREUR] Course {course_filename}: {e}")
-        return
-
-    save_text(course_path, html)
-
-
-def rescrape_from_missing(year: int, missing_path: Path):
-    """Lit verify_courses/<year>/missing_<year>.txt et re-scrape ce qui manque."""
-    if not missing_path.exists():
-        print(f"\n[AUCUN MISSING] {year}: pas de fichier {missing_path}")
-        return
-
-    missing_dates = set()
-    missing_reunions = defaultdict(set)      # {date_str} -> {reunion_slug}
-    missing_courses = []                     # [(date_str, reunion_slug, filename)]
-
-    with missing_path.open("r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            parts = line.split(";")
-            if parts[0] == "MISSING_DATE" and len(parts) >= 2:
-                missing_dates.add(parts[1])
-            elif parts[0] == "MISSING_REUNION" and len(parts) >= 3:
-                date_str, reunion_slug = parts[1], parts[2]
-                # si la date est déjà à rescaper entièrement, pas la peine de stocker la réunion
-                if date_str not in missing_dates:
-                    missing_reunions[date_str].add(reunion_slug)
-            elif parts[0] == "MISSING_COURSE" and len(parts) >= 4:
-                date_str, reunion_slug, filename = parts[1], parts[2], parts[3]
-                missing_courses.append((date_str, reunion_slug, filename))
-
-    total_dates = len(missing_dates)
-    total_reunions = sum(len(s) for s in missing_reunions.values())
-    total_courses = len(missing_courses)
-
-    print(f"\n{'='*80}")
-    print(f"RE-SCRAPE ANNÉE {year}")
-    print(f"{'='*80}")
-    print(f"Dates à rescaper complètement : {total_dates}")
-    print(f"Réunions isolées à rescaper :  {total_reunions}")
-    print(f"Courses isolées à rescaper :   {total_courses}")
-
-    # 1) Dates complètes
-    for date_str in sorted(missing_dates):
-        scrape_full_date(date_str)
-
-    # 2) Réunions isolées (seulement si la date n'est pas dans missing_dates)
-    for date_str in sorted(missing_reunions.keys()):
-        if date_str in missing_dates:
-            continue
-        for reunion_slug in sorted(missing_reunions[date_str]):
-            scrape_reunion(date_str, reunion_slug)
-
-    # 3) Courses isolées
-    for date_str, reunion_slug, filename in missing_courses:
-        if date_str in missing_dates:
-            continue
-        if reunion_slug in missing_reunions.get(date_str, set()):
-            # la réunion entière a été re-scrapée, la course devrait exister
-            course_path = get_date_directory(date_str) / reunion_slug / filename
-            if course_path.exists() and course_path.stat().st_size > 128:
-                continue
-        course_path = get_date_directory(date_str) / reunion_slug / filename
-        if course_path.exists() and course_path.stat().st_size > 128:
-            continue
-        scrape_course(date_str, reunion_slug, filename)
-
-
-# =========================
-# Git commit / push par année
-# =========================
-
-def git_commit_year(year: int, stats_before: dict, stats_after: dict):
-    """Commit + push des changements pour une année (données + verify_courses)."""
-    year_str = str(year)
-    data_dir = REPO_ROOT / year_str
-    verify_dir = VERIFY_ROOT / year_str
-
-    paths_to_add = []
-    if data_dir.exists():
-        paths_to_add.append(str(data_dir))
-    if verify_dir.exists():
-        paths_to_add.append(str(verify_dir))
-
-    if not paths_to_add:
-        print(f"\n[Git] Rien à ajouter pour {year} (aucun dossier pour cette année).")
-        return
-
-    # Config git
-    subprocess.run(["git", "config", "user.name", "GitHub Actions Bot"], check=False)
-    subprocess.run(["git", "config", "user.email", "actions@github.com"], check=False)
-
-    # Stage
-    subprocess.run(["git", "add"] + paths_to_add, check=True)
-
-    # Vérifier s'il y a réellement des fichiers modifiés
-    res = subprocess.run(
-        ["git", "diff", "--cached", "--name-only"],
-        capture_output=True,
-        text=True,
-        check=True,
-    )
-    files = [line for line in res.stdout.splitlines() if line.strip()]
-    if not files:
-        print(f"\n[Git] Aucun changement à commit pour l'année {year}.")
-        subprocess.run(["git", "reset"], check=False)
-        return
-
-    before_missing = stats_before["missing_dates"] + stats_before["missing_reunions"] + stats_before["missing_courses"]
-    after_missing = stats_after["missing_dates"] + stats_after["missing_reunions"] + stats_after["missing_courses"]
-
-    msg = f"Verify/rescrape {year_str}: {before_missing} manquants -> {after_missing} restants"
-
-    # Branche courante
-    branch_res = subprocess.run(
-        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
-        capture_output=True,
-        text=True,
-        check=True,
-    )
-    branch = branch_res.stdout.strip() or "main"
-
-    # Commit
-    print(f"\n[Git] Commit année {year} ({len(files)} fichiers modifiés)")
-    subprocess.run(["git", "commit", "-m", msg], check=True)
-
-    # Push avec retry + pull --rebase en cas de non-fast-forward
-    for attempt in range(1, 4):
-        try:
-            print(f"[Git] Push (tentative {attempt}/3) sur {branch}...")
-            subprocess.run(["git", "push", "origin", branch], check=True)
-            print("[Git] Push OK.")
-            return
-        except subprocess.CalledProcessError as e:
-            print(f"[Git] Push échoué (tentative {attempt}): {e}")
-            if attempt == 3:
-                print("[Git] Abandon après 3 tentatives de push.")
-                # On laisse le workflow en échec pour signaler le problème
-                raise
-            print("[Git] Pull --rebase avant nouveau push...")
-            subprocess.run(["git", "pull", "--rebase", "origin", branch], check=True)
-
-
-# =========================
-# Main
-# =========================
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="Vérification + re-scraping ZEturf (dates / réunions FR / courses)."
-    )
-    parser.add_argument(
-        "--years",
-        type=str,
-        help='Liste d\'années séparées par des espaces, ex: "2017 2018 2019"',
-    )
-    parser.add_argument(
-        "--year",
-        type=int,
-        help="Une seule année à traiter",
-    )
-    args = parser.parse_args()
-
-    years = []
-    if args.years:
-        years.extend(int(x) for x in args.years.split() if x.strip())
-    if args.year is not None:
-        years.append(args.year)
-
-    if not years:
-        raise SystemExit("Aucune année fournie. Utiliser --year 2017 ou --years \"2017 2018\".")
-
-    years = sorted(set(years))
-
-    print("=" * 80)
-    print("VERIFY + RESCRAPE ZETURF")
-    print("=" * 80)
-    print(f"Années à traiter: {', '.join(str(y) for y in years)}")
-    print(f"Période globale: {GLOBAL_START_DATE.isoformat()} → {GLOBAL_END_DATE.isoformat()}")
-    print("=" * 80)
-
-    for year in years:
-        r = compute_year_range(year)
-        if r is None:
-            print(f"\n[SKIP] Année {year}: hors plage globale, rien à faire.")
-            continue
-        start_str, end_str = r
-        missing_path = VERIFY_ROOT / str(year) / f"missing_{year}.txt"
-
-        # 1) Vérification initiale
-        stats_before = collect_missing_for_year(year, missing_path, start_str, end_str)
-        missing_total_before = (
-            stats_before["missing_dates"]
-            + stats_before["missing_reunions"]
-            + stats_before["missing_courses"]
-        )
-
-        if missing_total_before == 0:
-            print(f"\n[OK] Année {year}: aucune donnée manquante, pas de re-scraping ni de commit.")
-            continue
-
-        # 2) Re-scrape des éléments manquants
-        rescrape_from_missing(year, missing_path)
-
-        # 3) Nouvelle vérification après scraping (écrase missing_<year>.txt par l'état à jour)
-        stats_after = collect_missing_for_year(year, missing_path, start_str, end_str)
-
-        # 4) Commit & push pour cette année
-        git_commit_year(year, stats_before, stats_after)
-
-    print("\n=== TERMINÉ ===")
-
+        effective_start = d_start.isoformat()
+        effective_end = d_end.isoformat()
+        all_dates = date_range(effective_start, effective_end)
+    
+    total_dates = len(all_dates)
+    
+    print("="*80)
+    print("VÉRIFICATION COMPLÈTE DES DONNÉES ZETURF")
+    print("="*80)
+    print(f"Période demandée : {start_date} → {end_date}")
+    print(f"Période effective: {effective_start} → {effective_end}")
+    print(f"Nombre de dates à vérifier: {total_dates}\n")
+    
+    # Statistics
+    stats = {
+        "total": total_dates,
+        "ok": 0,
+        "missing": 0,
+        "incomplete": 0,
+        "warning": 0,
+        "error": 0
+    }
+    
+    # Store all issues by date
+    incomplete_dates = []
+    
+    # Verify each date
+    for i, date_str in enumerate(all_dates, 1):
+        print(f"[{i}/{total_dates}] Vérification {date_str}...", end=" ")
+        
+        result = verify_date(date_str)
+        
+        if result["status"] == "OK":
+            stats["ok"] += 1
+            print("✓ OK")
+        else:
+            key = result["status"].lower()
+            if key in stats:
+                stats[key] += 1
+            print(f"✗ {result['status']}")
+            incomplete_dates.append(result)
+    
+    # Generate report
+    print("\n" + "="*80)
+    print("RAPPORT DE VÉRIFICATION")
+    print("="*80)
+    print(f"\nStatistiques:")
+    print(f"  Total de dates:        {stats['total']}")
+    print(f"  ✓ Complètes:           {stats['ok']} ({(stats['ok']/stats['total']*100):.1f}%)" if stats['total'] else "  ✓ Complètes:           0 (0.0%)")
+    print(f"  ❌ Absentes:            {stats['missing']}")
+    print(f"  ⚠️  Incomplètes:         {stats['incomplete']}")
+    print(f"  ⚠️  Warnings:            {stats['warning']}")
+    print(f"  ❌ Erreurs:             {stats['error']}")
+    
+    # Write detailed report to file
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    with output_file.open("w", encoding="utf-8") as f:
+        f.write("="*80 + "\n")
+        f.write("RAPPORT DE VÉRIFICATION ZETURF\n")
+        f.write("="*80 + "\n\n")
+        f.write(f"Date de vérification: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"Période analysée: {effective_start} → {effective_end}\n\n")
+        
+        f.write("STATISTIQUES\n")
+        f.write("-"*80 + "\n")
+        f.write(f"Total de dates:        {stats['total']}\n")
+        f.write(f"✓ Complètes:           {stats['ok']} ({(stats['ok']/stats['total']*100):.1f}%)\n" if stats['total'] else "✓ Complètes:           0 (0.0%)\n")
+        f.write(f"❌ Absentes:            {stats['missing']}\n")
+        f.write(f"⚠️  Incomplètes:         {stats['incomplete']}\n")
+        f.write(f"⚠️  Warnings:            {stats['warning']}\n")
+        f.write(f"❌ Erreurs:             {stats['error']}\n\n")
+        
+        if incomplete_dates:
+            f.write("\n" + "="*80 + "\n")
+            f.write("DATES INCOMPLÈTES OU PROBLÉMATIQUES\n")
+            f.write("="*80 + "\n\n")
+            
+            for result in incomplete_dates:
+                f.write(f"\n{'='*80}\n")
+                f.write(f"DATE: {result['date']} - STATUS: {result['status']}\n")
+                f.write(f"{'='*80}\n")
+                for issue in result["issues"]:
+                    f.write(f"  {issue}\n")
+        else:
+            f.write("\n🎉 Toutes les dates sont complètes !\n")
+    
+    print(f"\n📄 Rapport détaillé écrit dans: {output_file}")
+    print("\n" + "="*80)
+    
+    return stats, incomplete_dates
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description="Vérification des HTMLs ZEturf")
+    parser.add_argument(
+        "--year",
+        type=str,
+        default=None,
+        help="Année à vérifier (ex: 2008). Si absent, utilise START_DATE/END_DATE globaux."
+    )
+    parser.add_argument(
+        "--start-date",
+        type=str,
+        default=None,
+        help="Date de début (YYYY-MM-DD). Ignoré si --year est fourni."
+    )
+    parser.add_argument(
+        "--end-date",
+        type=str,
+        default=None,
+        help="Date de fin (YYYY-MM-DD). Ignoré si --year est fourni."
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default=".",
+        help="Dossier où écrire le rapport (par défaut: dossier courant)."
+    )
+    
+    args = parser.parse_args()
+    
+    if args.year:
+        year = args.year.strip()
+        start = f"{year}-01-01"
+        end = f"{year}-12-31"
+        output_dir = Path(args.output_dir)
+        output_file = output_dir / f"verify_{year}.txt"
+    else:
+        start = args.start_date or START_DATE
+        end = args.end_date or END_DATE
+        output_dir = Path(args.output_dir)
+        output_file = output_dir / "verification_report.txt"
+    
+    # LANCE la vérif (aucun exit(1), même s'il y a des manques)
+    run_verification(start, end, output_file)
