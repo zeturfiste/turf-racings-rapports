@@ -33,12 +33,12 @@ on:
         type: string
 
 permissions:
-  contents: write   # nécessaire pour que les commits/push dans rescrape_courses.py fonctionnent
+  contents: write   # pour permettre les commits/push depuis rescrape_courses.py
 
-# ----------------------------------------------------------
-# Job 1
-# ----------------------------------------------------------
 jobs:
+  # ----------------------------------------------------------
+  # Job 1
+  # ----------------------------------------------------------
   rescrape-job-1:
     name: "Job 1 (années: ${{ github.event.inputs.years_job_1 }})"
     if: ${{ github.event.inputs.jobs_count == '1' || github.event.inputs.jobs_count == '2' || github.event.inputs.jobs_count == '3' }}
@@ -47,63 +47,79 @@ jobs:
     env:
       YEARS: ${{ github.event.inputs.years_job_1 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
+      TARGET_BRANCH: ${{ github.ref_name }}
 
     steps:
       - name: "📊 Espace disque initial"
         run: |
-          echo "=== ESPACE DISQUE INITIAL ==="
+          echo "=== ESPACE DISQUE INITIAL (Job 1) ==="
           df -h
           echo
           echo "Top 20 plus gros dossiers (global) :"
           sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "🧹 Nettoyage agressif AVANT checkout"
+      - name: "🧹 Nettoyage agressif AVANT clone"
         run: |
-          echo "=== Nettoyage agressif AVANT checkout ==="
+          echo "=== Nettoyage agressif AVANT clone (Job 1) ==="
           df -h
 
           echo
-          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
-          # Android SDK (~9G)
+          echo "🧹 Suppression gros SDK/runtimes inutiles..."
           sudo rm -rf /usr/local/lib/android || true
           sudo rm -rf "$ANDROID_HOME" || true
-
-          # Haskell / ghcup (~6G)
           sudo rm -rf /usr/local/.ghcup || true
           sudo rm -rf /opt/ghc || true
-
-          # .NET (~3-4G)
           sudo rm -rf /usr/share/dotnet || true
-
-          # Swift (~3G)
           sudo rm -rf /usr/share/swift || true
-
-          # Toolcache (Python, CodeQL, etc.) - on laisse setup-python recréer si besoin
           sudo rm -rf /opt/hostedtoolcache || true
 
-          # Caches et temporaires
+          echo "🧹 Caches et temporaires..."
           sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
           sudo rm -rf /tmp/* /var/tmp/* || true
           rm -rf ~/.cache ~/.npm ~/.yarn || true
 
           echo
-          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          echo "=== ESPACE APRÈS CLEANUP AVANT CLONE (Job 1) ==="
           df -h
 
-      - name: "📥 Checkout repo"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: "📊 Espace après checkout"
+      - name: "📥 Sparse clone du repo (Job 1)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          set -e
+          echo "Années (YEARS) pour ce job : '$YEARS'"
+
+          REPO_URL="https://github.com/${{ github.repository }}.git"
+          BRANCH="${TARGET_BRANCH}"
+
+          echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
+          git clone --filter=blob:none --no-checkout --depth 1 --sparse \
+            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          echo
+          echo "Configuration sparse-checkout pour les fichiers nécessaires..."
+          # Construire la liste des patterns (fichiers + années)
+          PATTERNS="rescrape_courses.py verification_report.txt"
+          for y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/$y"
+          done
+
+          echo "Patterns : $PATTERNS"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set $PATTERNS
+
+          echo
+          echo "Checkout de la branche $BRANCH"
+          git checkout "$BRANCH"
+
+          echo
+          echo "=== ESPACE APRÈS SPARSE CLONE (Job 1) ==="
           df -h
           echo
-          echo "=== Taille du repo ==="
+          echo "Taille du repo (Job 1) :"
           du -sh . || true
           if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports || true
+            du -sh resultats-et-rapports/* || true
           fi
 
       - name: "🐍 Setup Python"
@@ -116,7 +132,7 @@ jobs:
           pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "💾 Espace avant scraping"
+      - name: "💾 Espace avant scraping (Job 1)"
         run: |
           echo "=== ESPACE AVANT SCRAPING (Job 1) ==="
           df -h
@@ -129,7 +145,7 @@ jobs:
           set -e
 
           echo "Années (input brut) pour ce job: '${YEARS}'"
-          YEARS_TRIMMED=$(echo "$YEARS" | xargs || true)  # trim espaces début/fin
+          YEARS_TRIMMED=$(echo "$YEARS" | xargs || true)
           YEARS_CSV=$(echo "$YEARS_TRIMMED" | tr ' ' ',' | tr -s ',' | sed 's/^,//;s/,$//' || true)
 
           ARGS=()
@@ -169,23 +185,24 @@ jobs:
     env:
       YEARS: ${{ github.event.inputs.years_job_2 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
+      TARGET_BRANCH: ${{ github.ref_name }}
 
     steps:
       - name: "📊 Espace disque initial"
         run: |
-          echo "=== ESPACE DISQUE INITIAL ==="
+          echo "=== ESPACE DISQUE INITIAL (Job 2) ==="
           df -h
           echo
           echo "Top 20 plus gros dossiers (global) :"
           sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "🧹 Nettoyage agressif AVANT checkout"
+      - name: "🧹 Nettoyage agressif AVANT clone"
         run: |
-          echo "=== Nettoyage agressif AVANT checkout ==="
+          echo "=== Nettoyage agressif AVANT clone (Job 2) ==="
           df -h
 
           echo
-          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
+          echo "🧹 Suppression gros SDK/runtimes inutiles..."
           sudo rm -rf /usr/local/lib/android || true
           sudo rm -rf "$ANDROID_HOME" || true
           sudo rm -rf /usr/local/.ghcup || true
@@ -193,28 +210,53 @@ jobs:
           sudo rm -rf /usr/share/dotnet || true
           sudo rm -rf /usr/share/swift || true
           sudo rm -rf /opt/hostedtoolcache || true
+
+          echo "🧹 Caches et temporaires..."
           sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
           sudo rm -rf /tmp/* /var/tmp/* || true
           rm -rf ~/.cache ~/.npm ~/.yarn || true
 
           echo
-          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          echo "=== ESPACE APRÈS CLEANUP AVANT CLONE (Job 2) ==="
           df -h
 
-      - name: "📥 Checkout repo"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: "📊 Espace après checkout"
+      - name: "📥 Sparse clone du repo (Job 2)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          set -e
+          echo "Années (YEARS) pour ce job : '$YEARS'"
+
+          REPO_URL="https://github.com/${{ github.repository }}.git"
+          BRANCH="${TARGET_BRANCH}"
+
+          echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
+          git clone --filter=blob:none --no-checkout --depth 1 --sparse \
+            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          echo
+          echo "Configuration sparse-checkout pour les fichiers nécessaires..."
+          PATTERNS="rescrape_courses.py verification_report.txt"
+          for y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/$y"
+          done
+
+          echo "Patterns : $PATTERNS"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set $PATTERNS
+
+          echo
+          echo "Checkout de la branche $BRANCH"
+          git checkout "$BRANCH"
+
+          echo
+          echo "=== ESPACE APRÈS SPARSE CLONE (Job 2) ==="
           df -h
           echo
-          echo "=== Taille du repo ==="
+          echo "Taille du repo (Job 2) :"
           du -sh . || true
           if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports || true
+            du -sh resultats-et-rapports/* || true
           fi
 
       - name: "🐍 Setup Python"
@@ -227,7 +269,7 @@ jobs:
           pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "💾 Espace avant scraping"
+      - name: "💾 Espace avant scraping (Job 2)"
         run: |
           echo "=== ESPACE AVANT SCRAPING (Job 2) ==="
           df -h
@@ -280,23 +322,24 @@ jobs:
     env:
       YEARS: ${{ github.event.inputs.years_job_3 }}
       MAX_COURSES: ${{ github.event.inputs.max_courses }}
+      TARGET_BRANCH: ${{ github.ref_name }}
 
     steps:
       - name: "📊 Espace disque initial"
         run: |
-          echo "=== ESPACE DISQUE INITIAL ==="
+          echo "=== ESPACE DISQUE INITIAL (Job 3) ==="
           df -h
           echo
           echo "Top 20 plus gros dossiers (global) :"
           sudo du -xhd1 / | sort -h | tail -n 20 || true
 
-      - name: "🧹 Nettoyage agressif AVANT checkout"
+      - name: "🧹 Nettoyage agressif AVANT clone"
         run: |
-          echo "=== Nettoyage agressif AVANT checkout ==="
+          echo "=== Nettoyage agressif AVANT clone (Job 3) ==="
           df -h
 
           echo
-          echo "🧹 Suppression des gros SDK / runtimes inutiles pour ce job..."
+          echo "🧹 Suppression gros SDK/runtimes inutiles..."
           sudo rm -rf /usr/local/lib/android || true
           sudo rm -rf "$ANDROID_HOME" || true
           sudo rm -rf /usr/local/.ghcup || true
@@ -304,28 +347,53 @@ jobs:
           sudo rm -rf /usr/share/dotnet || true
           sudo rm -rf /usr/share/swift || true
           sudo rm -rf /opt/hostedtoolcache || true
+
+          echo "🧹 Caches et temporaires..."
           sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
           sudo rm -rf /tmp/* /var/tmp/* || true
           rm -rf ~/.cache ~/.npm ~/.yarn || true
 
           echo
-          echo "=== Espace disque APRÈS cleanup AVANT checkout ==="
+          echo "=== ESPACE APRÈS CLEANUP AVANT CLONE (Job 3) ==="
           df -h
 
-      - name: "📥 Checkout repo"
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: "📊 Espace après checkout"
+      - name: "📥 Sparse clone du repo (Job 3)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "=== ESPACE DISQUE APRÈS CHECKOUT ==="
+          set -e
+          echo "Années (YEARS) pour ce job : '$YEARS'"
+
+          REPO_URL="https://github.com/${{ github.repository }}.git"
+          BRANCH="${TARGET_BRANCH}"
+
+          echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
+          git clone --filter=blob:none --no-checkout --depth 1 --sparse \
+            "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          echo
+          echo "Configuration sparse-checkout pour les fichiers nécessaires..."
+          PATTERNS="rescrape_courses.py verification_report.txt"
+          for y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/$y"
+          done
+
+          echo "Patterns : $PATTERNS"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set $PATTERNS
+
+          echo
+          echo "Checkout de la branche $BRANCH"
+          git checkout "$BRANCH"
+
+          echo
+          echo "=== ESPACE APRÈS SPARSE CLONE (Job 3) ==="
           df -h
           echo
-          echo "=== Taille du repo ==="
+          echo "Taille du repo (Job 3) :"
           du -sh . || true
           if [ -d "resultats-et-rapports" ]; then
-            du -sh resultats-et-rapports || true
+            du -sh resultats-et-rapports/* || true
           fi
 
       - name: "🐍 Setup Python"
@@ -338,7 +406,7 @@ jobs:
           pip install --no-cache-dir aiohttp
           pip cache purge 2>/dev/null || true
 
-      - name: "💾 Espace avant scraping"
+      - name: "💾 Espace avant scraping (Job 3)"
         run: |
           echo "=== ESPACE AVANT SCRAPING (Job 3) ==="
           df -h
