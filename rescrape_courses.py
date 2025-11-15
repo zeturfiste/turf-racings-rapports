@@ -7,9 +7,11 @@ Re-scraping des courses manquantes ZEturf.
 - Concurrency fixe = 100, pause fixe = 30s entre lots
 - Travail par année, dans l'ordre
 - Commit + push par année (répertoires resultats-et-rapports/YYYY)
-- Support d'une liste d'années (--years) pour matrix GitHub Actions
-- Arrêt intelligent avant 6h: on n'entame pas une année si on sait qu'on
-  ne pourra pas la finir (estimation basée sur 200 courses/min + overhead).
+- Support d'une liste d'années (--years) pour matrix / jobs parallèles
+- Arrêt intelligent avant 6h: on n'entame pas une année si on estime qu'on
+  ne pourra pas la terminer avant la limite
+- NE COMMIT PAS une année tant que toutes ses courses manquantes n'ont pas
+  été récupérées (succes HTTP 200).
 """
 
 import os
@@ -78,7 +80,6 @@ def check_disk_space_critical() -> bool:
 # =========================
 def estimate_year_minutes(year: str, year_courses: int) -> float:
     """Estimation de la durée pour une année, en minutes."""
-    # Simple: 200 courses/min + overhead fixe
     return (year_courses / AVG_COURSES_PER_MINUTE) + PER_YEAR_OVERHEAD_MIN
 
 
@@ -183,7 +184,6 @@ def parse_missing_courses(report_path: Path = Path("verification_report.txt")):
                     year = current_date[:4]
                     missing[year][current_date].append((reunion_slug, course_file))
 
-    # On renvoie un dict classique pour figer l'ordre
     return dict(missing)
 
 # =========================
@@ -280,10 +280,14 @@ async def _scrape_one_course(
 # =========================
 # Scraping d'une année, en lots successifs
 # =========================
-async def scrape_year(year: str, dates_courses: dict) -> None:
+async def scrape_year(year: str, dates_courses: dict):
     """
     Scrape toutes les courses manquantes pour une année, en respectant l'ordre
     date → réunion → course, avec une concurrency fixe et des lots successifs.
+
+    Retourne: (stats, year_complete)
+      - stats: dict de stats sur l'année
+      - year_complete: True si toutes les courses ont été récupérées (succès == total)
     """
     print(f"\n{'=' * 80}")
     print(f"ANNÉE {year}")
@@ -294,7 +298,13 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
 
     if free_gb < YEAR_SKIP_DISK_GB:
         print("⚠️  Espace insuffisant pour traiter cette année, on saute.")
-        return
+        return {
+            "total": 0,
+            "success": 0,
+            "errors": 0,
+            "lots": 0,
+            "stopped_disk": True,
+        }, False
 
     # Aplatir toutes les courses de l'année dans l'ordre
     all_courses = []
@@ -309,16 +319,22 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
     print(f"📊 {total_courses} courses à récupérer pour {year}")
 
     if total_courses == 0:
-        return
+        return {
+            "total": 0,
+            "success": 0,
+            "errors": 0,
+            "lots": 0,
+            "stopped_disk": False,
+        }, True
 
     pending = list(all_courses)
 
     stats = {
         "total": total_courses,
         "success": 0,
-        "failed_429": 0,
-        "failed_other": 0,
+        "errors": 0,       # erreurs rencontrées (mais toutes sont retentées)
         "lots": 0,
+        "stopped_disk": False,
     }
 
     lot_index = 0
@@ -327,6 +343,7 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
         while pending:
             if check_disk_space_critical():
                 print("⚠️  Arrêt pour manque d'espace disque.")
+                stats["stopped_disk"] = True
                 break
 
             lot_index += 1
@@ -355,36 +372,33 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
 
             lot_start = time.time()
             lot_success = 0
-            lot_429 = 0
-            lot_other_errors = 0
-            retry_429 = []
+            lot_errors = 0
+            retry_failed = []
 
+            # On consomme toutes les tâches, et TOUT ce qui n'est pas 200
+            # est remis dans retry_failed pour le lot suivant (429 + autres).
             for (date_str, reunion_slug, course_file, filepath), coro in zip(
                 current_lot, asyncio.as_completed(tasks)
             ):
                 status, err = await coro
                 if status == 200:
                     lot_success += 1
-                elif status == 429:
-                    lot_429 += 1
-                    retry_429.append((date_str, reunion_slug, course_file, filepath))
                 else:
-                    if err is not None:
-                        lot_other_errors += 1
+                    lot_errors += 1
+                    retry_failed.append((date_str, reunion_slug, course_file, filepath))
 
             lot_duration = time.time() - lot_start
 
             stats["success"] += lot_success
-            stats["failed_429"] += lot_429
-            stats["failed_other"] += lot_other_errors
+            stats["errors"] += lot_errors
 
-            if retry_429:
-                print(f"  🔁 {lot_429} courses avec 429 seront retentées au lot suivant.")
-                pending = retry_429 + pending
+            if retry_failed:
+                print(f"  🔁 {lot_errors} courses en erreur seront retentées au lot suivant.")
+                pending = retry_failed + pending
 
             print(
                 f"  ⏱️  Lot #{lot_index} terminé en {lot_duration:.2f}s "
-                f"(succès: {lot_success}, 429: {lot_429}, autres erreurs: {lot_other_errors})"
+                f"(succès: {lot_success}, erreurs: {lot_errors})"
             )
             print(f"  💾 Espace libre après lot: {get_disk_space_gb():.2f} GB")
 
@@ -392,16 +406,23 @@ async def scrape_year(year: str, dates_courses: dict) -> None:
                 print(f"  ⏳ Pause de {SLEEP_BETWEEN_LOTS}s avant le lot suivant...")
                 await asyncio.sleep(SLEEP_BETWEEN_LOTS)
 
+    year_complete = (stats["success"] == total_courses) and not stats["stopped_disk"]
+
     print(f"\n{'=' * 80}")
     print(f"RÉSUMÉ ANNÉE {year}")
     print(f"{'=' * 80}")
     print(f"  Total prévu:      {stats['total']}")
     print(f"  ✓ Succès:         {stats['success']}")
-    print(f"  ✗ 429 (non OK):   {stats['failed_429']}")
-    print(f"  ✗ Autres erreurs: {stats['failed_other']}")
+    print(f"  ✗ Erreurs (toutes retentées au max): {stats['errors']}")
     print(f"  🔁 Nombre de lots: {stats['lots']}")
     print(f"  💾 Espace final:   {get_disk_space_gb():.2f} GB")
+    if not year_complete:
+        print("  ⚠️  Année NON COMPLÈTE (certaines courses n'ont jamais réussi).")
+    else:
+        print("  ✅ Année COMPLÈTE (toutes les courses ont été récupérées).")
     print(f"{'=' * 80}\n")
+
+    return stats, year_complete
 
 # =========================
 # Git operations
@@ -533,11 +554,14 @@ async def main() -> None:
             break
 
         print(f"➡️  Traitement de l'année {year} ({year_courses} courses prévues)")
-        await scrape_year(year, missing_by_year[year])
+        year_stats, year_complete = await scrape_year(year, missing_by_year[year])
 
-        git_commit_year(year)
-
-        courses_planned += year_courses
+        if year_complete:
+            git_commit_year(year)
+            courses_planned += year_courses
+        else:
+            print(f"⚠️  Année {year} incomplète, aucun commit n'a été effectué pour cette année.")
+            # On ne met pas à jour courses_planned, puisqu'on n'a pas une année terminée.
 
     print("\n" + "=" * 80)
     print("SCRAPING TERMINÉ")
