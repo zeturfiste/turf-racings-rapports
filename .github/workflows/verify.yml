@@ -1,0 +1,156 @@
+name: Verify ZEturf Data (par années)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - group_id: 1
+            years: "2005 2006 2007"
+          - group_id: 2
+            years: "2008 2009 2010"
+          - group_id: 3
+            years: "2011 2012 2013"
+          - group_id: 4
+            years: "2014 2015 2016"
+          - group_id: 5
+            years: "2017 2018 2019"
+          - group_id: 6
+            years: "2020 2021 2022"
+          - group_id: 7
+            years: "2023 2024 2025"
+
+    env:
+      YEARS: ${{ matrix.years }}
+      GROUP_ID: ${{ matrix.group_id }}
+      TARGET_BRANCH: ${{ github.ref_name }}
+
+    steps:
+      - name: "📊 Espace disque initial (Job ${{ matrix.group_id }})"
+        run: |
+          echo "=== df -h (initial) ==="
+          df -h
+          echo
+          echo "Top 20 plus gros dossiers (global) :"
+          sudo du -xhd1 / | sort -h | tail -n 20 || true
+
+      - name: "🧹 Nettoyage agressif AVANT clone"
+        run: |
+          echo "=== Nettoyage agressif AVANT clone (Job $GROUP_ID) ==="
+          df -h
+
+          echo
+          echo "🧹 Suppression gros SDK/runtimes inutiles..."
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf "$ANDROID_HOME" || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /opt/ghc || true
+          sudo rm -rf /usr/share/dotnet || true
+          sudo rm -rf /usr/share/swift || true
+          sudo rm -rf /opt/hostedtoolcache || true
+
+          echo "🧹 Caches et temporaires..."
+          sudo rm -rf /var/lib/apt/lists/* /var/cache/apt/* || true
+          sudo rm -rf /tmp/* /var/tmp/* || true
+          rm -rf ~/.cache ~/.npm ~/.yarn || true
+
+          echo
+          echo "=== Espace APRÈS CLEANUP AVANT CLONE (Job $GROUP_ID) ==="
+          df -h
+
+      - name: "📥 Sparse clone du repo (Job ${{ matrix.group_id }})"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          echo "Années pour ce job : '$YEARS'"
+
+          BRANCH="$TARGET_BRANCH"
+
+          echo "Clonage partiel (filter=blob:none, --sparse) sur branche $BRANCH"
+          git clone --filter=blob:none --no-checkout --depth 1 --sparse \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" .
+
+          echo
+          echo "Configuration sparse-checkout pour verify.py + années nécessaires..."
+          PATTERNS="verify.py"
+          for y in $YEARS; do
+            PATTERNS="$PATTERNS resultats-et-rapports/$y"
+          done
+
+          echo "Patterns : $PATTERNS"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set $PATTERNS
+
+          echo
+          echo "Checkout de la branche $BRANCH"
+          git checkout "$BRANCH"
+
+          echo
+          echo "=== ESPACE APRÈS SPARSE CLONE (Job $GROUP_ID) ==="
+          df -h
+          echo
+          echo "Taille du repo (Job $GROUP_ID) :"
+          du -sh . || true
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports/* || true
+          fi
+
+      - name: "🐍 Setup Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: "📦 Install dependencies (bs4 + lxml)"
+        run: |
+          pip install --no-cache-dir beautifulsoup4 lxml
+          pip cache purge 2>/dev/null || true
+
+      - name: "💾 Espace avant vérification (Job ${{ matrix.group_id }})"
+        run: |
+          echo "=== Espace avant vérification (Job $GROUP_ID) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
+          fi
+
+      - name: "🔍 Vérification par année (Job ${{ matrix.group_id }})"
+        run: |
+          set -e
+          mkdir -p verify_zeturf_htmls
+
+          echo "Années à vérifier pour ce job : $YEARS"
+          for YEAR in $YEARS; do
+            echo
+            echo "========================================"
+            echo "   Vérification année $YEAR"
+            echo "========================================"
+            python verify.py --year "$YEAR" --output-dir verify_zeturf_htmls
+          done
+
+      - name: "💾 Espace après vérification (Job ${{ matrix.group_id }})"
+        if: always()
+        run: |
+          echo "=== Espace après vérification (Job $GROUP_ID) ==="
+          df -h
+          if [ -d "resultats-et-rapports" ]; then
+            du -sh resultats-et-rapports || true
+          fi
+
+      - name: "📤 Upload rapports (Job ${{ matrix.group_id }})"
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verify-reports-job-${{ matrix.group_id }}
+          path: verify_zeturf_htmls
+          retention-days: 14
