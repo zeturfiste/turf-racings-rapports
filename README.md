@@ -1,403 +1,69 @@
-### Utilisateur
-
-chatgpt-export-json-only.zip
-Archive zip
-chatgpt-workspace-exporter-v6.zip
-Archive zip
-chatgpt-workspace-exporter-v2.zip
-Archive zip
-chatgpt-workspace-exporter.zip
-Archive zip
-background.js
-JavaScript
-content_worker.js
-JavaScript
-manifest.json
-Fichier
-ui.html
-Fichier
-ui.js
-JavaScript
-Analyse toutes ces versions d'une extension qui a le même objectif qui est l'export automatisé et en arrière plan de tous les chats (conversation texte et tous les fichiers envoyés par l'assistant chatgpt) pour archive, regarde celle qui est la plus complète et qui a le plus de chances de fonctionner sans que j'ai a les tester une par une
-
----
-
-### Assistant
-
-La plus complète pour ton besoin (texte + tous les fichiers, export en arrière-plan) est clairement chatgpt-workspace-exporter-v6.zip (version 1.6.0).
-C’est celle que je te conseille d’installer en priorité.
-
-Je t’explique rapidement pourquoi, en comparant les 4 versions que tu as fournies.
-
-1. Ce que fait chaque version
-a) chatgpt-workspace-exporter.zip — version 1.1.0
-
-Ce qu’elle exporte
-
-Pour chaque conversation : un dossier dans les téléchargements.
-
-Contenu du dossier :
-
-conversation.json avec tous les messages (extraits via les div[data-message-author-role]). 
-
-content_worker
-
-Tous les liens / fichiers détectés dans le fil (ancres, boutons avec “download/télécharger”, extensions type .pdf, .png, .docx, etc. + images visibles).
-
-Organisation
-
-Dossier directement dans Téléchargements/<Titre - YYYY-MM-DD>. 
-
-content_worker
-
-Gestion des téléchargements
-
-Lance les téléchargements via chrome.downloads.download (et fallback en ouvrant un onglet si ça échoue).
-
-Ne vérifie pas que tous les téléchargements sont bien terminés avant de passer à la conversation suivante.
-
-Navigation
-
-Scrolle la sidebar pour lister les a[href^="/c/"], construit une queue et les traite une par une. 
-
-content_worker
-
-👉 C’est une première version qui fait déjà texte + pièces jointes, mais sans gestion fine de “attendre que tout soit bien téléchargé”, et les dossiers sont posés en vrac dans Téléchargements.
-
-b) chatgpt-export-json-only.zip — version 1.1.1
-
-C’est exactement le code que tu as aussi fourni à part (les fichiers background.js, content_worker.js, manifest.json, ui.html, ui.js).
-
-Ce qu’elle exporte
-
-Même logique que la 1.1.0 pour le parcours des conversations.
-
-Mais les pièces jointes sont explicitement désactivées :
-
-Le tableau des attachments est forcé à [] avec un commentaire // attachments disabled: JSON-only export. 
-
-content_worker
-
-Donc chaque dossier de conversation ne contient que conversation.json.
-
-Organisation
-
-Un dossier par conversation, nommé <Titre> - <YYYY-MM-DD> dans Téléchargements/. 
-
-content_worker
-
-Interface
-
-Petite fenêtre de contrôle “Démarrer / Arrêter” + logs temps réel, via ui.html + ui.js.
-
-Intentions dans le manifest
-
-Description explicite : “Exporte chaque conversation en JSON uniquement (un dossier par … contenant seulement conversation.json)”. 
-
-manifest
-
-👉 Cette version est fiable pour le texte, mais ne répond pas à ton besoin (“tous les fichiers envoyés par l’assistant”), puisqu’elle n’exporte plus les fichiers.
-
-c) chatgpt-workspace-exporter-v2.zip — version 1.2.0
-
-Ce qu’elle exporte
-
-Texte + pièces jointes, comme la 1.1.0, mais avec logique renforcée :
-
-Détection des pièces jointes :
-
-Liens avec extensions de fichiers.
-
-Boutons avec texte/aria “download / télécharger”.
-
-Images de taille significative.
-
-Chaque attachement est traité via handleAttachment, qui gère :
-
-blob: → fetch du blob, conversion en dataURL, envoi au background pour téléchargement.
-
-https:// → message OPEN_LINK pour laisser le site déclencher le download avec les bons cookies.
-
-Organisation
-
-Dossiers dans Téléchargements/chatgpt/<Titre - #NNN> (avec un compteur par titre pour éviter les collisions).
-
-Gestion des téléchargements
-
-Grosse amélioration par rapport à 1.1.0 :
-
-Le background suit les téléchargements par dossier (TRACK_FOLDER + map activeByFolder).
-
-Après avoir téléchargé JSON + pièces jointes, le worker appelle WAIT_FOR_IDLE pour attendre que tous les téléchargements liés à ce dossier soient terminés avant de passer à la suite.
-
-Navigation
-
-Toujours basé sur une queue initiale construite à partir de tous les liens /c/… trouvés après un scroll de la sidebar.
-
-👉 Version sérieusement plus robuste que 1.1.0, meilleure gestion des téléchargements et arborescence plus propre (Téléchargements/chatgpt/...).
-
-d) chatgpt-workspace-exporter-v6.zip — version 1.6.0
-
-C’est clairement la “grosse” version.
-
-Ce qu’elle exporte
-
-Pour chaque conversation :
-
-conversation.json (même format que les autres versions, avec tous les messages).
-
-Et tous les assets/fichiers associés, avec une détection encore plus large :
-
-Tous les <a href> qui pointent vers :
-
-https://, blob:, data:,
-
-ou une URL dont le chemin matche une extension de fichier (pdf, images, docx, xlsx, zip, csv, etc.).
-
-Tous les éléments “cliquables” sans href :
-
-a sans href, button, [role="button"], [role="link"], .cursor-pointer – typiquement les boutons “Download”, chips de fichiers, etc.
-
-Toutes les images significatives du flux (largeur/hauteur > 40px).
-
-Les cibles sont ensuite :
-
-soit téléchargées directement via chrome.downloads.download (HTTP/data/blob),
-
-soit déclenchées par clic, avec interception des téléchargements par le background.
-
-Organisation des dossiers
-
-Dossier racine dédié :
-Téléchargements/chatgpt-archive/<Titre - N>
-
-Le N est un compteur global (BUMP_GLOBAL_COUNTER) pour garantir que chaque conversation ait un nom unique, même si les titres se répètent.
-
-Gestion avancée des téléchargements
-
-Le background :
-
-Maintient une Map folder -> Set(downloadId) pour suivre les téléchargements en cours.
-
-Utilise chrome.downloads.onDeterminingFilename pour forcer tous les téléchargements (même ceux déclenchés par clic) à tomber dans le dossier de la conversation courante.
-
-Dispose de WAIT_FOR_IDLE (via waitForFolderIdle) pour attendre que le set du dossier soit vide avant de continuer.
-
-Quand le worker a fini JSON + collecte des cibles, il :
-
-appelle TRACK_FOLDER(baseFolder) pour indiquer le dossier courant,
-
-appelle WAIT_FOR_IDLE (timeout généreux) avant de passer à la conversation suivante.
-
-Navigation dans toutes les conversations
-
-Au lieu de figer une queue au départ, v6 :
-
-Utilise deepFillSidebar(...) qui :
-
-scrolle longtemps la sidebar,
-
-clique les boutons “Show more / Voir plus / See more / Load more / Plus” pour faire apparaître les anciennes conversations.
-
-Utilise ensuite ensureNextItem(pointer, visited) pour :
-
-récupérer la N-ième conversation non encore visitée,
-
-continuer à scroller tant qu’il en découvre de nouvelles.
-
-Chaque conversation est marquée comme visitée via son id extrait de l’URL /c/<id> pour ne pas être re-traitée.
-
-Interface & état
-
-Même principe de fenêtre de contrôle et de logs que les autres, mais le background gère en plus :
-
-un compteur global,
-
-l’état running/idx pour pouvoir suivre la progression.
-
-👉 Concrètement, c’est la version qui :
-
-couvre le plus de types de fichiers (liens, boutons sans href, images, blobs, etc.),
-
-gère le mieux les téléchargements (redirection vers le bon dossier + attente de fin),
-
-est la plus adaptée à un gros historique (scroll profond, boutons “voir plus”, découverte progressive des conversations).
-
-2. Recommandation pour ton cas
-
-Tu as demandé :
-
-export automatisé et en arrière-plan de tous les chats (conversation texte et tous les fichiers envoyés par l'assistant chatgpt) pour archive
-
-En prenant ça au pied de la lettre :
-
-La version JSON-only (1.1.1) est immédiatement exclue → pas de fichiers, seulement conversation.json.
-
-La 1.1.0 fait le job mais sans attente de fin de téléchargements, dossiers à la racine, heuristiques de fichiers un peu plus simples.
-
-La 1.2.0 améliore nettement la fiabilité (attente de fin, tracking dossiers, meilleure sélection des pièces jointes), mais :
-
-continue à se baser sur une queue figée au départ (peut louper des cas limites si la liste est très longue / paginée par “voir plus”).
-
-La 1.6.0 (v6) :
-
-est la plus récente,
-
-gère les gros historiques (scroll + boutons “Show more”),
-
-redirige tous les téléchargements vers le bon dossier et attend qu’ils finissent,
-
-a la détection la plus “large” de tout ce qui ressemble à un fichier ou un média.
-
-👉 Conclusion pragmatique
-
-Si tu veux une seule version à installer sans les tester une par une, la meilleure candidate, en termes de complétude et de probabilité de fonctionner correctement aujourd’hui, c’est :
-
-✅ chatgpt-workspace-exporter-v6.zip (version 1.6.0)
-
-Tu auras :
-
-un dossier chatgpt-archive dans tes téléchargements,
-
-un sous-dossier par conversation avec :
-
-conversation.json (texte intégral),
-
-les fichiers/médias liés au thread (dans la limite de ce que le DOM expose).
-
-Si un jour tu te rends compte que tu n’as besoin que du JSON pour faire du traitement perso, tu pourras garder sous le coude la variante JSON-only pour un export plus léger, mais pour ton besoin “texte + tous les fichiers”, v6 reste la bonne option.
-
----
-
-### Utilisateur
-
-D'accord, au lieu de choisir une extension, on va créer une version améliorée donc fusionne tout dans une seule extension et si y'a des fonctions similaires tu prend celle qui est la meilleure
-
-a la fin on veut la version la plus complète et la plus avancée
-
----
-
-### Assistant
-
-Voilà, c’est fait : j’ai fusionné la version v6 avec la logique des autres et ajouté un mode JSON-only optionnel, pour obtenir une extension “ultimate”.
-
-➡️ Télécharger l’extension fusionnée :
-chatgpt-workspace-exporter-ultimate.zip
-
-Ce que fait cette version “ultimate”
-1. Fonctionnalités d’export
-
-Mode complet (par défaut)
-Pour chaque conversation :
-
-Dossier dans Téléchargements/chatgpt-archive/<Titre - N>
-
-conversation.json avec tout l’historique texte
-
-Tous les fichiers détectés :
-
-Liens vers fichiers (.pdf, images, .docx, .xlsx, .zip, etc.)
-
-Boutons ou éléments cliquables de type “Download / Télécharger”
-
-Images significatives dans le flux
-
-Mode “JSON uniquement” (hérité de la version JSON-only)
-
-Même structure de dossiers (chatgpt-archive/<Titre - N>),
-
-Uniquement conversation.json, aucune pièce jointe téléchargée.
-
-Utile si tu veux juste un dump texte léger.
-
-Tu bascules entre les deux dans l’interface (voir plus bas).
-
-2. Améliorations fusionnées
-
-Cette version reprend les meilleures briques de toutes les variantes :
-
-Core = v6 (la plus avancée) :
-
-Scroll profond de la sidebar pour découvrir tout l’historique.
-
-Gestion des boutons “Show more / Voir plus / Load more” pour les anciennes conversations.
-
-Un compteur global (- N) pour éviter les collisions de noms de dossiers.
-
-Redirection de tous les téléchargements vers le bon dossier de conversation (même ceux déclenchés par un clic).
-
-Attente de fin de téléchargements pour chaque conversation avant de passer à la suivante.
-
-Ajout par rapport à v6 :
-
-Nouveau champ de state exportMode :
-
-"full" (complet JSON + fichiers),
-
-"json-only" (mode JSON pur).
-
-UI enrichie :
-
-Un <select> “Mode d’export” dans la fenêtre de contrôle,
-
-L’UI lit exportMode dans le storage et l’applique au select,
-
-Quand tu changes la valeur, elle envoie un message SET_EXPORT_MODE au background.
-
-Comportement interne :
-
-Au démarrage de l’extension (onInstalled), le state est initialisé avec exportMode: "full".
-
-Dans le worker :
-
-On lit exportMode avant la partie “attachments”.
-
-Si exportMode === "json-only", on saute la collecte des pièces jointes et on logge un message du style :
-
-“Mode JSON-only : pas de pièces jointes pour cette conversation.”
-
-Sinon, comportement v6 standard : collecte + téléchargement des targets.
-
-Comment l’utiliser
-
-Installer l’extension
-
-Dézippe chatgpt-workspace-exporter-ultimate.zip.
-
-Va sur chrome://extensions → active le Mode développeur.
-
-Clique sur “Charger l’extension non empaquetée” et sélectionne le dossier dézippé.
-
-Ouvrir le contrôleur
-
-Clique sur l’icône de l’extension.
-
-La petite fenêtre de contrôle s’ouvre (ou est ramenée au premier plan).
-
-Choisir le mode
-
-Dans la fenêtre :
-
-Sélectionne “Complet (JSON + fichiers)” ou “JSON uniquement”.
-
-Le choix est mémorisé dans chrome.storage.local et utilisé par le worker.
-
-Lancer l’export
-
-Clique sur Démarrer.
-
-L’UI affiche :
-
-l’état (running / inactif),
-
-la progression (conversation courante / total),
-
-les logs temps réel (scans, dossiers créés, erreurs éventuelles…).
-
-Résultat : tu as une extension unique, basée sur la logique la plus avancée (v6), avec en plus la flexibilité du mode JSON-only issu de la variante “export JSON uniquement”.
-
-Si tu veux, on peut maintenant :
-
-ajuster certains détails (nom du dossier racine, formats de noms, filtrage de types de fichiers) ;
-
-ou je peux t’afficher un fichier précis (background.js, content_worker.js, etc.) pour que tu voies exactement ce qui a été modifié.
+# Comparer forfaits internet et mobile\n\n- URL : https://chatgpt.com/c/69217019-752c-8325-b05d-c189a21c33c6\n- Exporté le : 2025-11-23T15:04:35.473Z\n- Tours détectés : 4\n- Messages (version actuelle uniquement) : 5\n\n---\n\n\n---\n\n### Utilisateur — tour 1\n\n> Version : 2/2\n\ncompare les offres forfait internet et mobile en france\n\n\n---\n\n### Assistant — tour 2\n\n> Modèle : research – mode agent\n\n_[Aucun texte visible dans ce message]_ \n\n\n---\n\n### Utilisateur — tour 3\n\n1. les deux ensemble ou separées a condition de pas depasser 30 euros 2. fibre et data 5G+ illimitée 3. 30 par mois 4. non 5. non\n\n\n---\n\n### Assistant — tour 4\n\n> Modèle : research – mode agent\n\nParfait, je vais comparer les offres en France proposant un forfait fibre internet et/ou un forfait mobile avec data illimitée 5G+, sans dépasser un budget total de 30€ par mois. Je vais inclure les options groupées (internet + mobile) ainsi que les offres séparées si cela reste dans ton budget. Je te tiens au courant dès que c'est prêt. Tu peux continuer à discuter avec moi entre temps !\n\n\n---\n\n### Assistant — tour 4\n\n> Modèle : mode deep_research\n\nComparatif des offres Fibre + Mobile 5G illimité (France, novembre 2025)
+Contexte et critères de comparaison
+Ce rapport examine les abonnements disponibles en France en novembre 2025 permettant de cumuler Internet fixe en fibre optique et un forfait mobile 5G/5G+ à data illimitée pour un budget total ≤ 30 € par mois. Deux scénarios sont analysés : (1) offres groupées (convergentes box + mobile d’un même fournisseur) et (2) offres séparées (abonnement fibre et forfait mobile souscrits indépendamment, éventuellement auprès de fournisseurs différents). Les opérateurs principaux (Free, Orange, SFR, Bouygues Telecom) et leurs filiales low-cost (Sosh, RED by SFR, B&You, etc.) sont pris en compte. Chaque offre est présentée avec les détails de la connexion fibre (débit, équipement fourni), du forfait mobile (volume de data, appels/SMS) et les tarifs et conditions (engagement, frais, promotions…). Les sections suivantes comparent les solutions répondant aux critères, suivies d’un tableau comparatif synthétique.
+Offres groupées internet + mobile illimité ≤ 30 €/mois
+Parmi les opérateurs historiques, Free est le seul à proposer une solution fibre + mobile illimité entrant dans le budget de 30 €/mois (du moins en promotion la première année). En face, ni Orange ni SFR ni Bouygues Telecom ne disposent de packs « internet + mobile » offrant de la data 5G illimitée à un tarif aussi bas :
+Orange/Sosh : Les packs Open d’Orange (Livebox + mobile) sont nettement plus onéreux. Par exemple, le pack Open le plus basique (Livebox fibre + forfait 2 h/100 Mo) coûte ≈38,98 € par mois
+selectra.info
+, et les offres incluant beaucoup de data mobile sont bien au-delà (un forfait 5G 200 Go revient déjà à ~37,99 €/mois en promo)
+selectra.info
+. Orange/Sosh ne propose d’ailleurs aucun forfait mobile à data véritablement illimitée à ce jour (seulement jusqu’à 500 Go) – leurs formules illimitées sont donc hors budget et hors périmètre.
+SFR/RED by SFR : Chez SFR, le forfait 5G+ illimité lancé en 2025 est facturé 39,99 €/mois (ou 31,99 €/mois pour les clients Box SFR) avec engagement 24 mois
+ariase.com
+. Ajouté au coût d’une box fibre, on dépasse largement 30€. Le segment RED (sans engagement) n’offre pas de data illimitée – ses forfaits se limitent à ~200 Go maxi. Aucune offre combinée box + mobile illimité bon marché n’est donc disponible via SFR/RED.
+Bouygues Telecom/B&You : Bouygues Telecom ne commercialise pas non plus de forfait mobile 5G réellement illimité à bas prix. Son offre illimitée récente a été introduite via sa filiale NRJ Mobile (opérateur virtuel sur réseau Bouygues) au tarif de 17,49 €/mois
+next.ink
+, mais ce n’est pas un pack incluant la box. Les abonnements B&You sans engagement se limitent à des enveloppes data de 100–200 Go. Un pack Bbox + mobile illimité chez Bouygues dépasse également le budget (par ex. Bbox Must fibre ~35,99 € + forfait 130 Go ~16 € avec remise multi-ligne) et n’atteint pas l’illimité en data.
+En résumé, la seule offre groupée répondant aux critères est proposée par Free grâce à son programme Free Family. Free permet à ses abonnés Freebox d’obtenir le Forfait Free 5G illimité à prix réduit
+ariase.com
+. En combinant une box fibre entrée de gamme et ce forfait mobile, on reste sous 30 €/mois la première année. Les principaux éléments de cette offre sont détaillés ci-dessous :
+Free – Freebox Révolution Light + Forfait Free 5G illimité : En souscrivant une Freebox (fibre) puis le Forfait Free 5G, un abonné bénéficie de la data 5G/4G illimitée sur mobile (au lieu de 350 Go pour un client sans Freebox
+ariase.com
+). La Freebox Révolution Light, proposée en fibre 1 Gbit/s descendant (900 Mbit/s montant), est facturée 19,99 €/mois la première année puis 29,99 €
+mobile.free.fr
+. Le forfait mobile illimité coûte 9,99 €/mois pendant 1 an puis 15,99 €/mois pour les clients Freebox (sinon 19,99 €)
+mobile.free.fr
+. Total = 29,98 €/mois la 1ère année, puis ~45,98 € au-delà. L’offre est sans engagement (autant sur la box que le mobile) et jusqu’à 4 forfaits mobiles illimités peuvent profiter de la remise Free Family à 9,99 € chacun la première année
+mobile.free.fr
+mobile.free.fr
+. Des frais de mise en service (49 €) s’appliquent sur la Freebox, remboursés après souscription sur demande
+fibre.guide
+. La Freebox Révolution Light inclut le modem/routeur (Box incluse) et la téléphonie fixe; l’offre « Light » est une série spéciale web sans Player TV (pas de service TV inclus). Le forfait mobile Free comprend les appels/SMS/MMS illimités et une itinérance depuis l’Europe/DOM (environ 35 Go utilisables en roaming). Aucune durée d’engagement n’est imposée, et l’on profite de l’infrastructure Free 5G+ où disponible.
+Tableau comparatif – Offres groupées Fibre + Mobile illimité ≤30 €/mois
+Offre groupée	Fournisseur	Internet (Fibre)	Mobile (5G)	Prix total	Conditions particulières
+Freebox Révolution Light + Forfait Free 5G illimité (Free Family)	Free	Fibre 1 Gbit/s down ‑ 600–900 Mbit/s up (selon éligibilité) ; Freebox incluse (Wi‑Fi 5) ; téléphonie fixe illimitée vers fixes.	Data illimitée 5G/4G en France
+ariase.com
+ (350 Go si non abonné Freebox) ; appels/SMS/MMS illimités ; ~35 Go en UE.	29,98 €/mois (12 mois) puis 45,98 €/mois
+mobile.free.fr
+mobile.free.fr
+	Sans engagement (box et mobile) ; promo 12 mois sur box (-10 €) et mobile (-50%)
+ariase.com
+ ; nécessite d’être client Freebox pour la remise mobile ; jusqu’à 4 forfaits mobiles remisés par Freebox
+mobile.free.fr
+ ; frais activation 49 € (remboursés)
+fibre.guide
+.
+Remarque : Aucune offre groupée chez Orange, SFR ou Bouygues ne répond aux critères – leurs packs convergents avec data 5G illimitée sont inexistants ou bien au-dessus de 30 €/mois (voir explications ci-dessus). Par exemple, l’offre illimitée 5G+ de SFR est à 39,99 € (mobile seul)
+ariase.com
+ et un pack Open Orange de base avoisine 39 €
+selectra.info
+, sans même inclure de data mobile significative.
+Offres séparées (Fibre + mobile illimité distincts) ≤ 30 €/mois
+Dans l’hypothèse de souscrire séparément une box fibre et un forfait mobile illimité (chez le même opérateur ou non), l’objectif ≤30 € est très difficile à atteindre en 2025. En pratique, aucune combinaison d’offres distinctes n’arrive sous ce plafond tout en offrant de la data 5G illimitée.
+Le principal frein est le coût incompressible des forfaits mobiles 5G illimités proposés hors packs. En dehors de Free (qui, on l’a vu, réserve ses tarifs réduits aux abonnés Freebox), l’alternative la moins chère est l’offre NRJ Mobile 5G « GOAT » illimitée à 17,49 €/mois (sans engagement)
+next.ink
+. Cette formule lancée en octobre 2025 sur le réseau Bouygues inclut les données illimitées (avec rechargements gratuits par tranche de 500 Go) et appels/SMS illimités, au prix très attractif de 17,49 €
+next.ink
+next.ink
+. Cependant, en y ajoutant un abonnement fibre même bon marché, on dépasse le budget : par exemple, la RED Box Fibre 1 Gb/s de RED by SFR à ~20,99 €/mois
+fibre.guide
+ combinée à NRJ Mobile illimité revient à ≈38,5 €/mois au total, bien au-delà de 30 €
+next.ink
+fibre.guide
+. Même en choisissant la box fibre la moins chère du marché (aux environs de 19–20 €/mois en promotion la première année), l’addition avec un forfait illimité (≥17 €) dépasse ~35 €/mois.
+En résumé, aucune offre séparée standard ne remplit le critère ≤30 € pour un duo fibre + 5G illimitée. La seule configuration approchant cet objectif reste celle de Free évoquée plus haut, qui implique d’être client Freebox pour obtenir le forfait mobile illimité à tarif réduit
+ariase.com
+. Les opérateurs low-cost (Sosh, RED, B&You…) ne proposent pas de data mobile illimitée, se limitant à des forfaits 4G/5G de 100 à 200 Go généralement entre 10 € et 20 €/mois. Ainsi, même en combinant une box fibre économique et un gros forfait data (ex : Boîte Sosh ~25 € + forfait 140 Go ~20 €), on ne dépasse certes pas 45 € mais on n’atteint pas l’illimité en données. À ce jour, Free et NRJ Mobile sont les seuls à démocratiser l’Internet mobile illimité – Free via son avantage multi-pack Freebox, et NRJ via une offre stand-alone – mais il n’existe pas de solution miracle sous 30 € en séparé. Les consommateurs en quête de “tout illimité” à petit prix devront donc privilégier l’offre groupée de Free (pendant la période promotionnelle) comme l’option la plus économique du marché
+ariase.com
+ariase.com
+.\n\n**Liens URL :**\n- [selectra.info](https://selectra.info/telecom/fournisseurs/orange/internet-mobile#:~:text=cha%C3%AEnes)\n- [selectra.info](https://selectra.info/telecom/fournisseurs/orange/internet-mobile#:~:text=Sans%20engagement%20Image%3A%20orange%20,67%2C99%E2%82%AC%2Fmois)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Le%20seul%20probl%C3%A8me%20%3F%20Tout,pour%2024%20mois%20minimum)\n- [next.ink](https://next.ink/205557/5g-illimitee-bouygues-telecom-aussi-saute-le-pas-via-nrj-mobile-a-1749-euros-par-mois/#:~:text=%C2%AB%C2%A0Le%20seul%20forfait%20illimit%C3%A9%205G,%C3%A0%20tous%20et%20sans%20engagement%C2%A0%C2%BB)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Seuls%20les%20Freenautes%20auront%20acc%C3%A8s,%C3%A0%20la%20Freebox%20Pop)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Oui%2C%20Free%20a%20bien%20%C3%A9t%C3%A9,m%C3%AAme%20si%20c%27est%20d%C3%A9j%C3%A0%20beaucoup)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=Image%3A%20icon%20arrow%20down%20,1%20Gbit%2Fs%2077%20900%20Mbit%2Fs)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=1%20Forfait%20Free%205G)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=Gr%C3%A2ce%20%C3%A0%20votre%20abonnement%20Freebox%2C,apr%C3%A8s%20souscription%20%C3%A0%20l%E2%80%99offre%20Freebox)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=4%20Forfaits%20Free%205G)\n- [fibre.guide](https://fibre.guide/offres#:~:text=,Disney%2B%20et%20MAX%20avec%20Livebox)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Oui%2C%20Free%20a%20bien%20%C3%A9t%C3%A9,m%C3%AAme%20si%20c%27est%20d%C3%A9j%C3%A0%20beaucoup)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=Image%3A%20icon%20arrow%20down%20,1%20Gbit%2Fs%2077%20900%20Mbit%2Fs)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=1%20Forfait%20Free%205G)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Seuls%20les%20Freenautes%20auront%20acc%C3%A8s,%C3%A0%20la%20Freebox%20Pop)\n- [mobile.free.fr](https://mobile.free.fr/bons-plans#:~:text=Gr%C3%A2ce%20%C3%A0%20votre%20abonnement%20Freebox%2C,apr%C3%A8s%20souscription%20%C3%A0%20l%E2%80%99offre%20Freebox)\n- [fibre.guide](https://fibre.guide/offres#:~:text=,Disney%2B%20et%20MAX%20avec%20Livebox)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Le%20seul%20probl%C3%A8me%20%3F%20Tout,pour%2024%20mois%20minimum)\n- [selectra.info](https://selectra.info/telecom/fournisseurs/orange/internet-mobile#:~:text=cha%C3%AEnes)\n- [next.ink](https://next.ink/205557/5g-illimitee-bouygues-telecom-aussi-saute-le-pas-via-nrj-mobile-a-1749-euros-par-mois/#:~:text=%C2%AB%C2%A0Le%20seul%20forfait%20illimit%C3%A9%205G,%C3%A0%20tous%20et%20sans%20engagement%C2%A0%C2%BB)\n- [next.ink](https://next.ink/205557/5g-illimitee-bouygues-telecom-aussi-saute-le-pas-via-nrj-mobile-a-1749-euros-par-mois/#:~:text=NRJ%20Mobile%20propose%20aussi%20de,une%20pi%C3%A8ce%20dans%20la%20machine)\n- [next.ink](https://next.ink/205557/5g-illimitee-bouygues-telecom-aussi-saute-le-pas-via-nrj-mobile-a-1749-euros-par-mois/#:~:text=NRJ%20Mobile%20affirme%20que%20les,Enfin%20presque%E2%80%A6)\n- [fibre.guide](https://fibre.guide/offres#:~:text=Image%3A%20Forfait%20Fibre%20RED%20by,Application%29%20Sans%20Offerts%2049%E2%82%AC)\n- [next.ink](https://next.ink/205557/5g-illimitee-bouygues-telecom-aussi-saute-le-pas-via-nrj-mobile-a-1749-euros-par-mois/#:~:text=NRJ%20Mobile%20propose%20aussi%20de,une%20pi%C3%A8ce%20dans%20la%20machine)\n- [fibre.guide](https://fibre.guide/offres#:~:text=Image%3A%20Forfait%20Fibre%20RED%20by,Application%29%20Sans%20Offerts%2049%E2%82%AC)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Seuls%20les%20Freenautes%20auront%20acc%C3%A8s,%C3%A0%20la%20Freebox%20Pop)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=Seuls%20les%20Freenautes%20auront%20acc%C3%A8s,%C3%A0%20la%20Freebox%20Pop)\n- [ariase.com](https://www.ariase.com/mobile/actualite/ces-trois-forfaits-vous-promettent-la-5g-en-illimite-mais-un-seul-en-vaut-reellement-la-peine#:~:text=,%C3%A0%20la%20port%C3%A9e%20de%20tous)\n
